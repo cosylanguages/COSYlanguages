@@ -19,8 +19,8 @@
     {
         "id": "come-vs-go-r-1",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -30,13 +30,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-2",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -46,13 +46,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-3",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -62,13 +62,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-4",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -78,13 +78,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-5",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -94,13 +94,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-6",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -110,13 +110,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-7",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -126,13 +126,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-8",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -142,13 +142,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-9",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -158,13 +158,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-10",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -174,13 +174,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-11",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -190,13 +190,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-12",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -206,13 +206,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-13",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -222,13 +222,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-14",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -238,13 +238,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-15",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -254,13 +254,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-16",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -270,13 +270,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-17",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -286,13 +286,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-18",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -302,13 +302,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-19",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -318,13 +318,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-20",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -334,13 +334,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-21",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -350,13 +350,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-22",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -366,13 +366,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-23",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -382,13 +382,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-24",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -398,13 +398,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-25",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -414,13 +414,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-26",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -430,13 +430,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-27",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -446,13 +446,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-28",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -462,13 +462,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-29",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -478,13 +478,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-30",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -494,13 +494,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-31",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -510,13 +510,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-32",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -526,13 +526,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-33",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -542,13 +542,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-34",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -558,13 +558,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-35",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -574,13 +574,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-36",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -590,13 +590,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-37",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -606,13 +606,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-38",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -622,13 +622,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-39",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -638,13 +638,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-40",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -654,13 +654,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-41",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -670,13 +670,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-42",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -686,13 +686,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-43",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -702,13 +702,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-44",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -718,13 +718,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-45",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -734,13 +734,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-46",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -750,13 +750,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-47",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -766,13 +766,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-48",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -782,13 +782,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-49",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -798,13 +798,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-50",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -814,13 +814,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-51",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -830,13 +830,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-52",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -846,13 +846,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-53",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -862,13 +862,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-54",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -878,13 +878,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-55",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -894,13 +894,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-56",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -910,13 +910,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-57",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -926,13 +926,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-58",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -942,13 +942,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-59",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -958,13 +958,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-60",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -974,13 +974,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-61",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -990,13 +990,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-62",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1006,13 +1006,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-63",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1022,13 +1022,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-64",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1038,13 +1038,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-65",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1054,13 +1054,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-66",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1070,13 +1070,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-67",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1086,13 +1086,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-68",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1102,13 +1102,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-69",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1118,13 +1118,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-70",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1134,13 +1134,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-71",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1150,13 +1150,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-72",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1166,13 +1166,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-73",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1182,13 +1182,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-74",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1198,13 +1198,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-75",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1214,13 +1214,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-76",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1230,13 +1230,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-77",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1246,13 +1246,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-78",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1262,13 +1262,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-79",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1278,13 +1278,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-80",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1294,13 +1294,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-81",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1310,13 +1310,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-82",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1326,13 +1326,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-83",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1342,13 +1342,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-84",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1358,13 +1358,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-85",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1374,13 +1374,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-86",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1390,13 +1390,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-87",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1406,13 +1406,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-88",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1422,13 +1422,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-89",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1438,13 +1438,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-90",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1454,13 +1454,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-91",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1470,13 +1470,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-92",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1486,13 +1486,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-93",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1502,13 +1502,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-94",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1518,13 +1518,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-95",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1534,13 +1534,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-96",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1550,13 +1550,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-97",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1566,13 +1566,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-98",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1582,13 +1582,13 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-r-99",
         "type": "cloze",
-        "q": "Please ___ to my house for dinner tonight.",
-        "sentence": "Please [ ___ ] to my house for dinner tonight.",
+        "q": "Please ___ to my office when you finish reading the report.",
+        "sentence": "Please [ ___ ] to my office when you finish reading the report.",
         "opts": [
             "come",
             "go",
@@ -1598,13 +1598,13 @@
         "ans": 0,
         "correctAnswer": "come",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'come' in this sentence."
+        "ruleHint": "Use 'come' for movement toward the speaker's current or target location."
     },
     {
         "id": "come-vs-go-r-100",
         "type": "cloze",
-        "q": "Please ___ to the supermarket across town.",
-        "sentence": "Please [ ___ ] to the supermarket across town.",
+        "q": "We need to ___ to the grocery store before it closes.",
+        "sentence": "We need to [ ___ ] to the grocery store before it closes.",
         "opts": [
             "go",
             "come",
@@ -1614,7 +1614,7 @@
         "ans": 0,
         "correctAnswer": "go",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for come vs go: Use 'go' in this sentence."
+        "ruleHint": "Use 'go' for movement away from the speaker toward another destination."
     },
     {
         "id": "come-vs-go-w-1",
@@ -1624,11 +1624,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1641,10 +1641,10 @@
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
             "She used no words in this clause.",
-            "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "I need to go to the airport right now to catch my flight.",
+            "I need to come to the airport right now to catch my flight."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1672,11 +1672,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1704,11 +1704,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "She used no words in this clause.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1720,11 +1720,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1736,11 +1736,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
+            "She used no words in this clause.",
             "I need to come to the airport right now to catch my flight.",
-            "She used no words in this clause."
+            "I need to go to the airport right now to catch my flight."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1752,11 +1752,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1768,11 +1768,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1800,11 +1800,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to come to the airport right now to catch my flight.",
             "I need to go to the airport right now to catch my flight.",
+            "I need to come to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1817,8 +1817,8 @@
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
             "I need to go to the airport right now to catch my flight.",
-            "I need to come to the airport right now to catch my flight.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "I need to come to the airport right now to catch my flight."
         ],
         "ans": 0,
         "level": "a1",
@@ -1833,10 +1833,10 @@
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
             "She used no words in this clause.",
-            "I need to go to the airport right now to catch my flight.",
-            "I need to come to the airport right now to catch my flight."
+            "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1864,11 +1864,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1896,11 +1896,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1912,11 +1912,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "I need to go to the airport right now to catch my flight.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1928,11 +1928,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1960,11 +1960,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to come to the airport right now to catch my flight.",
             "I need to go to the airport right now to catch my flight.",
+            "I need to come to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1976,11 +1976,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
             "I need to go to the airport right now to catch my flight.",
+            "She used no words in this clause.",
             "I need to come to the airport right now to catch my flight."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -1992,11 +1992,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2008,11 +2008,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2057,8 +2057,8 @@
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
             "I need to go to the airport right now to catch my flight.",
-            "She used no words in this clause.",
-            "I need to come to the airport right now to catch my flight."
+            "I need to come to the airport right now to catch my flight.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -2072,11 +2072,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "She used no words in this clause.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2120,11 +2120,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2137,10 +2137,10 @@
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
             "She used no words in this clause.",
-            "I need to go to the airport right now to catch my flight.",
-            "I need to come to the airport right now to catch my flight."
+            "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2152,11 +2152,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
+            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2168,11 +2168,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
+            "She used no words in this clause.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight.",
-            "She used no words in this clause."
+            "I need to go to the airport right now to catch my flight."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2232,11 +2232,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
+            "I need to go to the airport right now to catch my flight.",
             "She used no words in this clause.",
-            "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "I need to come to the airport right now to catch my flight."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2248,11 +2248,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2265,8 +2265,8 @@
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
             "I need to go to the airport right now to catch my flight.",
-            "She used no words in this clause.",
-            "I need to come to the airport right now to catch my flight."
+            "I need to come to the airport right now to catch my flight.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -2280,11 +2280,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2312,11 +2312,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
+            "She used no words in this clause.",
             "I need to go to the airport right now to catch my flight.",
-            "I need to come to the airport right now to catch my flight.",
-            "She used no words in this clause."
+            "I need to come to the airport right now to catch my flight."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2329,8 +2329,8 @@
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
             "I need to go to the airport right now to catch my flight.",
-            "I need to come to the airport right now to catch my flight.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "I need to come to the airport right now to catch my flight."
         ],
         "ans": 0,
         "level": "a1",
@@ -2344,11 +2344,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to come to the airport right now to catch my flight.",
             "I need to go to the airport right now to catch my flight.",
+            "I need to come to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2360,11 +2360,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to go to the airport right now to catch my flight.",
             "I need to come to the airport right now to catch my flight.",
+            "I need to go to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2376,11 +2376,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "She used no words in this clause.",
             "I need to come to the airport right now to catch my flight.",
-            "I need to go to the airport right now to catch my flight."
+            "I need to go to the airport right now to catch my flight.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },
@@ -2392,11 +2392,11 @@
         "correctSentence": "I need to go to the airport right now to catch my flight.",
         "errorExplanation": "Use 'go' when moving away from the speaker's current location toward another destination.",
         "opts": [
-            "I need to come to the airport right now to catch my flight.",
             "I need to go to the airport right now to catch my flight.",
+            "I need to come to the airport right now to catch my flight.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'go' when moving away from the speaker's current location toward another destination."
     },

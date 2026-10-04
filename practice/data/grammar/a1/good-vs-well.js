@@ -19,1621 +19,1605 @@
     {
         "id": "good-vs-well-r-1",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-2",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-3",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-4",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-5",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-6",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-7",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-8",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-9",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-10",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-11",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-12",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-13",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-14",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-15",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-16",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-17",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-18",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-19",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-20",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-21",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-22",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-23",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-24",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-25",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-26",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-27",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-28",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-29",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-30",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-31",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-32",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-33",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-34",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-35",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-36",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-37",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-38",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-39",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-40",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-41",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-42",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-43",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-44",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-45",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-46",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-47",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-48",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-49",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-50",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-51",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-52",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-53",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-54",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-55",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-56",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-57",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-58",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-59",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-60",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-61",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-62",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-63",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-64",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-65",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-66",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-67",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-68",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-69",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-70",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-71",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-72",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-73",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-74",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-75",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-76",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-77",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-78",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-79",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-80",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-81",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-82",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-83",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-84",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-85",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-86",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-87",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-88",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-89",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-90",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-91",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-92",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-93",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-94",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-95",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-96",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-97",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-98",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-r-99",
         "type": "cloze",
-        "q": "She is a very ___ student.",
-        "sentence": "She is a very [ ___ ] student.",
+        "q": "She is a remarkably ___ student who studies hard.",
+        "sentence": "She is a remarkably [ ___ ] student who studies hard.",
         "opts": [
             "good",
             "well",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "good",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'good' in this sentence."
+        "ruleHint": "Use adjective 'good' to describe nouns or after linking verbs (e.g. 'a good doctor', 'it tastes good')."
     },
     {
         "id": "good-vs-well-r-100",
         "type": "cloze",
-        "q": "She plays the violin very ___.",
-        "sentence": "She plays the violin very [ ___ ].",
+        "q": "He plays the classical violin exceptionally ___.",
+        "sentence": "He plays the classical violin exceptionally [ ___ ].",
         "opts": [
             "well",
             "good",
-            "nice",
-            "finely"
+            "fine",
+            "nicely"
         ],
         "ans": 0,
         "correctAnswer": "well",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for good vs well: Use 'well' in this sentence."
+        "ruleHint": "Use adverb 'well' to describe how an action is performed by a verb (e.g. 'plays well', 'speaks well')."
     },
     {
         "id": "good-vs-well-w-1",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "He speaks English very good.",
-        "correctSentence": "He speaks English very well.",
-        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
-        "opts": [
-            "She used no words in this clause.",
-            "He speaks English very well.",
-            "He speaks English very good."
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
-    },
-    {
-        "id": "good-vs-well-w-2",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "He speaks English very good.",
@@ -1645,6 +1629,22 @@
             "She used no words in this clause."
         ],
         "ans": 0,
+        "level": "a1",
+        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
+    },
+    {
+        "id": "good-vs-well-w-2",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "He speaks English very good.",
+        "correctSentence": "He speaks English very well.",
+        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
+        "opts": [
+            "She used no words in this clause.",
+            "He speaks English very good.",
+            "He speaks English very well."
+        ],
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1673,8 +1673,8 @@
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
             "He speaks English very well.",
-            "She used no words in this clause.",
-            "He speaks English very good."
+            "He speaks English very good.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -1689,8 +1689,8 @@
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
             "He speaks English very well.",
-            "She used no words in this clause.",
-            "He speaks English very good."
+            "He speaks English very good.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -1704,11 +1704,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
+            "He speaks English very good.",
             "He speaks English very well.",
-            "She used no words in this clause.",
-            "He speaks English very good."
+            "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1720,11 +1720,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "He speaks English very well.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1736,11 +1736,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
+            "He speaks English very well.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1768,11 +1768,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "He speaks English very good.",
             "He speaks English very well.",
+            "He speaks English very good.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1784,11 +1784,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "He speaks English very good.",
             "He speaks English very well.",
+            "He speaks English very good.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1800,11 +1800,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "He speaks English very well.",
+            "He speaks English very good.",
             "She used no words in this clause.",
-            "He speaks English very good."
+            "He speaks English very well."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1816,11 +1816,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "He speaks English very well.",
+            "She used no words in this clause.",
             "He speaks English very good.",
-            "She used no words in this clause."
+            "He speaks English very well."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1848,11 +1848,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
+            "He speaks English very well.",
             "She used no words in this clause.",
-            "He speaks English very good.",
-            "He speaks English very well."
+            "He speaks English very good."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1896,11 +1896,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
+            "He speaks English very well.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -1928,48 +1928,16 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
+            "He speaks English very well.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
     {
         "id": "good-vs-well-w-21",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "He speaks English very good.",
-        "correctSentence": "He speaks English very well.",
-        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
-        "opts": [
-            "She used no words in this clause.",
-            "He speaks English very good.",
-            "He speaks English very well."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
-    },
-    {
-        "id": "good-vs-well-w-22",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "He speaks English very good.",
-        "correctSentence": "He speaks English very well.",
-        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
-        "opts": [
-            "She used no words in this clause.",
-            "He speaks English very good.",
-            "He speaks English very well."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
-    },
-    {
-        "id": "good-vs-well-w-23",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "He speaks English very good.",
@@ -1985,23 +1953,7 @@
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
     {
-        "id": "good-vs-well-w-24",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "He speaks English very good.",
-        "correctSentence": "He speaks English very well.",
-        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
-        "opts": [
-            "She used no words in this clause.",
-            "He speaks English very good.",
-            "He speaks English very well."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
-    },
-    {
-        "id": "good-vs-well-w-25",
+        "id": "good-vs-well-w-22",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "He speaks English very good.",
@@ -2017,7 +1969,7 @@
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
     {
-        "id": "good-vs-well-w-26",
+        "id": "good-vs-well-w-23",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "He speaks English very good.",
@@ -2029,6 +1981,54 @@
             "She used no words in this clause."
         ],
         "ans": 1,
+        "level": "a1",
+        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
+    },
+    {
+        "id": "good-vs-well-w-24",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "He speaks English very good.",
+        "correctSentence": "He speaks English very well.",
+        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
+        "opts": [
+            "She used no words in this clause.",
+            "He speaks English very well.",
+            "He speaks English very good."
+        ],
+        "ans": 1,
+        "level": "a1",
+        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
+    },
+    {
+        "id": "good-vs-well-w-25",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "He speaks English very good.",
+        "correctSentence": "He speaks English very well.",
+        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
+        "opts": [
+            "He speaks English very well.",
+            "He speaks English very good.",
+            "She used no words in this clause."
+        ],
+        "ans": 0,
+        "level": "a1",
+        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
+    },
+    {
+        "id": "good-vs-well-w-26",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "He speaks English very good.",
+        "correctSentence": "He speaks English very well.",
+        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
+        "opts": [
+            "He speaks English very well.",
+            "He speaks English very good.",
+            "She used no words in this clause."
+        ],
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2057,10 +2057,10 @@
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
             "She used no words in this clause.",
-            "He speaks English very good.",
-            "He speaks English very well."
+            "He speaks English very well.",
+            "He speaks English very good."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2072,11 +2072,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
+            "He speaks English very well.",
             "He speaks English very good.",
-            "She used no words in this clause.",
-            "He speaks English very well."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2088,11 +2088,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "He speaks English very good.",
             "He speaks English very well.",
+            "He speaks English very good.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2104,9 +2104,9 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
+            "He speaks English very good.",
             "He speaks English very well.",
-            "He speaks English very good."
+            "She used no words in this clause."
         ],
         "ans": 1,
         "level": "a1",
@@ -2120,11 +2120,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
+            "She used no words in this clause.",
             "He speaks English very good.",
-            "He speaks English very well.",
-            "She used no words in this clause."
+            "He speaks English very well."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2136,11 +2136,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
+            "He speaks English very good.",
             "He speaks English very well.",
-            "She used no words in this clause.",
-            "He speaks English very good."
+            "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2152,11 +2152,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
             "He speaks English very well.",
-            "He speaks English very good."
+            "He speaks English very good.",
+            "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2184,11 +2184,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "He speaks English very well.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2248,11 +2248,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "He speaks English very well.",
+            "She used no words in this clause.",
             "He speaks English very good.",
-            "She used no words in this clause."
+            "He speaks English very well."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2264,48 +2264,16 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
+            "He speaks English very well.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
     {
         "id": "good-vs-well-w-42",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "He speaks English very good.",
-        "correctSentence": "He speaks English very well.",
-        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
-        "opts": [
-            "She used no words in this clause.",
-            "He speaks English very good.",
-            "He speaks English very well."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
-    },
-    {
-        "id": "good-vs-well-w-43",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "He speaks English very good.",
-        "correctSentence": "He speaks English very well.",
-        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
-        "opts": [
-            "She used no words in this clause.",
-            "He speaks English very good.",
-            "He speaks English very well."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
-    },
-    {
-        "id": "good-vs-well-w-44",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "He speaks English very good.",
@@ -2321,7 +2289,7 @@
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
     {
-        "id": "good-vs-well-w-45",
+        "id": "good-vs-well-w-43",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "He speaks English very good.",
@@ -2329,10 +2297,42 @@
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
             "He speaks English very well.",
-            "She used no words in this clause.",
-            "He speaks English very good."
+            "He speaks English very good.",
+            "She used no words in this clause."
         ],
         "ans": 0,
+        "level": "a1",
+        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
+    },
+    {
+        "id": "good-vs-well-w-44",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "He speaks English very good.",
+        "correctSentence": "He speaks English very well.",
+        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
+        "opts": [
+            "He speaks English very good.",
+            "She used no words in this clause.",
+            "He speaks English very well."
+        ],
+        "ans": 2,
+        "level": "a1",
+        "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
+    },
+    {
+        "id": "good-vs-well-w-45",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "He speaks English very good.",
+        "correctSentence": "He speaks English very well.",
+        "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
+        "opts": [
+            "She used no words in this clause.",
+            "He speaks English very good.",
+            "He speaks English very well."
+        ],
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2345,10 +2345,10 @@
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
             "He speaks English very good.",
-            "She used no words in this clause.",
-            "He speaks English very well."
+            "He speaks English very well.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2377,8 +2377,8 @@
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
             "He speaks English very well.",
-            "He speaks English very good.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "He speaks English very good."
         ],
         "ans": 0,
         "level": "a1",
@@ -2392,11 +2392,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
+            "He speaks English very well.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     },
@@ -2408,11 +2408,11 @@
         "correctSentence": "He speaks English very well.",
         "errorExplanation": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.",
         "opts": [
-            "She used no words in this clause.",
+            "He speaks English very well.",
             "He speaks English very good.",
-            "He speaks English very well."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'."
     }

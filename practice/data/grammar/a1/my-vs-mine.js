@@ -19,8 +19,8 @@
     {
         "id": "my-vs-mine-r-1",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -30,13 +30,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-2",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -46,13 +46,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-3",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -62,13 +62,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-4",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -78,13 +78,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-5",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -94,13 +94,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-6",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -110,13 +110,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-7",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -126,13 +126,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-8",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -142,13 +142,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-9",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -158,13 +158,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-10",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -174,13 +174,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-11",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -190,13 +190,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-12",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -206,13 +206,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-13",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -222,13 +222,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-14",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -238,13 +238,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-15",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -254,13 +254,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-16",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -270,13 +270,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-17",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -286,13 +286,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-18",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -302,13 +302,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-19",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -318,13 +318,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-20",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -334,13 +334,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-21",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -350,13 +350,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-22",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -366,13 +366,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-23",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -382,13 +382,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-24",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -398,13 +398,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-25",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -414,13 +414,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-26",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -430,13 +430,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-27",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -446,13 +446,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-28",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -462,13 +462,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-29",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -478,13 +478,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-30",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -494,13 +494,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-31",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -510,13 +510,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-32",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -526,13 +526,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-33",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -542,13 +542,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-34",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -558,13 +558,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-35",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -574,13 +574,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-36",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -590,13 +590,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-37",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -606,13 +606,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-38",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -622,13 +622,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-39",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -638,13 +638,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-40",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -654,13 +654,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-41",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -670,13 +670,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-42",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -686,13 +686,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-43",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -702,13 +702,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-44",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -718,13 +718,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-45",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -734,13 +734,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-46",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -750,13 +750,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-47",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -766,13 +766,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-48",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -782,13 +782,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-49",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -798,13 +798,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-50",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -814,13 +814,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-51",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -830,13 +830,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-52",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -846,13 +846,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-53",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -862,13 +862,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-54",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -878,13 +878,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-55",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -894,13 +894,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-56",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -910,13 +910,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-57",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -926,13 +926,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-58",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -942,13 +942,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-59",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -958,13 +958,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-60",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -974,13 +974,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-61",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -990,13 +990,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-62",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1006,13 +1006,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-63",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1022,13 +1022,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-64",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1038,13 +1038,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-65",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1054,13 +1054,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-66",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1070,13 +1070,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-67",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1086,13 +1086,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-68",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1102,13 +1102,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-69",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1118,13 +1118,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-70",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1134,13 +1134,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-71",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1150,13 +1150,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-72",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1166,13 +1166,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-73",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1182,13 +1182,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-74",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1198,13 +1198,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-75",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1214,13 +1214,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-76",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1230,13 +1230,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-77",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1246,13 +1246,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-78",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1262,13 +1262,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-79",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1278,13 +1278,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-80",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1294,13 +1294,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-81",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1310,13 +1310,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-82",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1326,13 +1326,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-83",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1342,13 +1342,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-84",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1358,13 +1358,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-85",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1374,13 +1374,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-86",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1390,13 +1390,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-87",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1406,13 +1406,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-88",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1422,13 +1422,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-89",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1438,13 +1438,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-90",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1454,13 +1454,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-91",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1470,13 +1470,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-92",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1486,13 +1486,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-93",
         "type": "cloze",
-        "q": "This is ___ dog.",
-        "sentence": "This is [ ___ ] dog.",
+        "q": "Please leave ___ dog on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] dog on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1502,13 +1502,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-94",
         "type": "cloze",
-        "q": "This key is ___.",
-        "sentence": "This key is [ ___ ].",
+        "q": "That blue key sitting near the door is ___.",
+        "sentence": "That blue key sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1518,13 +1518,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-95",
         "type": "cloze",
-        "q": "This is ___ coat.",
-        "sentence": "This is [ ___ ] coat.",
+        "q": "Please leave ___ coat on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] coat on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1534,13 +1534,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-96",
         "type": "cloze",
-        "q": "This car is ___.",
-        "sentence": "This car is [ ___ ].",
+        "q": "That blue car sitting near the door is ___.",
+        "sentence": "That blue car sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1550,13 +1550,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-97",
         "type": "cloze",
-        "q": "This is ___ book.",
-        "sentence": "This is [ ___ ] book.",
+        "q": "Please leave ___ book on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] book on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1566,13 +1566,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-98",
         "type": "cloze",
-        "q": "This house is ___.",
-        "sentence": "This house is [ ___ ].",
+        "q": "That blue house sitting near the door is ___.",
+        "sentence": "That blue house sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1582,13 +1582,13 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-r-99",
         "type": "cloze",
-        "q": "This is ___ phone.",
-        "sentence": "This is [ ___ ] phone.",
+        "q": "Please leave ___ phone on the kitchen desk.",
+        "sentence": "Please leave [ ___ ] phone on the kitchen desk.",
         "opts": [
             "my",
             "mine",
@@ -1598,13 +1598,13 @@
         "ans": 0,
         "correctAnswer": "my",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'my' in this sentence."
+        "ruleHint": "Use possessive adjective 'my' directly before a noun (e.g. 'my book')."
     },
     {
         "id": "my-vs-mine-r-100",
         "type": "cloze",
-        "q": "This bag is ___.",
-        "sentence": "This bag is [ ___ ].",
+        "q": "That blue bag sitting near the door is ___.",
+        "sentence": "That blue bag sitting near the door is [ ___ ].",
         "opts": [
             "mine",
             "my",
@@ -1614,7 +1614,7 @@
         "ans": 0,
         "correctAnswer": "mine",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for my vs mine: Use 'mine' in this sentence."
+        "ruleHint": "Use possessive pronoun 'mine' standalone without a following noun (e.g. 'This book is mine')."
     },
     {
         "id": "my-vs-mine-w-1",
@@ -1624,11 +1624,11 @@
         "correctSentence": "This is my book on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my book on the table.",
             "She used no words in this clause.",
-            "This is mine book on the table."
+            "This is mine book on the table.",
+            "This is my book on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1640,11 +1640,11 @@
         "correctSentence": "This is my house on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my house on the table.",
             "This is mine house on the table.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "This is my house on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1656,11 +1656,11 @@
         "correctSentence": "This is my phone on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my phone on the table.",
+            "She used no words in this clause.",
             "This is mine phone on the table.",
-            "She used no words in this clause."
+            "This is my phone on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1672,11 +1672,11 @@
         "correctSentence": "This is my bag on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my bag on the table.",
+            "She used no words in this clause.",
             "This is mine bag on the table.",
-            "She used no words in this clause."
+            "This is my bag on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1688,11 +1688,11 @@
         "correctSentence": "This is my car on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my car on the table.",
             "This is mine car on the table.",
+            "This is my car on the table.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1704,11 +1704,11 @@
         "correctSentence": "This is my book on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my book on the table.",
+            "She used no words in this clause.",
             "This is mine book on the table.",
-            "She used no words in this clause."
+            "This is my book on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1736,11 +1736,11 @@
         "correctSentence": "This is my phone on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my phone on the table.",
+            "She used no words in this clause.",
             "This is mine phone on the table.",
-            "She used no words in this clause."
+            "This is my phone on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1752,11 +1752,11 @@
         "correctSentence": "This is my bag on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
+            "She used no words in this clause.",
             "This is my bag on the table.",
-            "This is mine bag on the table.",
-            "She used no words in this clause."
+            "This is mine bag on the table."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1768,11 +1768,11 @@
         "correctSentence": "This is my car on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "She used no words in this clause.",
             "This is mine car on the table.",
-            "This is my car on the table."
+            "This is my car on the table.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1785,10 +1785,10 @@
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
             "This is mine book on the table.",
-            "This is my book on the table.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "This is my book on the table."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1816,11 +1816,11 @@
         "correctSentence": "This is my phone on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my phone on the table.",
+            "She used no words in this clause.",
             "This is mine phone on the table.",
-            "She used no words in this clause."
+            "This is my phone on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1832,11 +1832,11 @@
         "correctSentence": "This is my bag on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my bag on the table.",
             "She used no words in this clause.",
-            "This is mine bag on the table."
+            "This is mine bag on the table.",
+            "This is my bag on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1880,11 +1880,11 @@
         "correctSentence": "This is my house on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is mine house on the table.",
             "This is my house on the table.",
+            "This is mine house on the table.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1912,11 +1912,11 @@
         "correctSentence": "This is my bag on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is mine bag on the table.",
             "This is my bag on the table.",
+            "This is mine bag on the table.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -1960,96 +1960,16 @@
         "correctSentence": "This is my house on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is mine house on the table.",
             "This is my house on the table.",
-            "She used no words in this clause."
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
-    },
-    {
-        "id": "my-vs-mine-w-23",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "This is mine phone on the table.",
-        "correctSentence": "This is my phone on the table.",
-        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
-        "opts": [
             "She used no words in this clause.",
-            "This is mine phone on the table.",
-            "This is my phone on the table."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
-    },
-    {
-        "id": "my-vs-mine-w-24",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "This is mine bag on the table.",
-        "correctSentence": "This is my bag on the table.",
-        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
-        "opts": [
-            "This is my bag on the table.",
-            "This is mine bag on the table.",
-            "She used no words in this clause."
+            "This is mine house on the table."
         ],
         "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
     {
-        "id": "my-vs-mine-w-25",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "This is mine car on the table.",
-        "correctSentence": "This is my car on the table.",
-        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
-        "opts": [
-            "This is mine car on the table.",
-            "She used no words in this clause.",
-            "This is my car on the table."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
-    },
-    {
-        "id": "my-vs-mine-w-26",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "This is mine book on the table.",
-        "correctSentence": "This is my book on the table.",
-        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
-        "opts": [
-            "She used no words in this clause.",
-            "This is mine book on the table.",
-            "This is my book on the table."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
-    },
-    {
-        "id": "my-vs-mine-w-27",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "This is mine house on the table.",
-        "correctSentence": "This is my house on the table.",
-        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
-        "opts": [
-            "This is mine house on the table.",
-            "This is my house on the table.",
-            "She used no words in this clause."
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
-    },
-    {
-        "id": "my-vs-mine-w-28",
+        "id": "my-vs-mine-w-23",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "This is mine phone on the table.",
@@ -2065,6 +1985,86 @@
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
     {
+        "id": "my-vs-mine-w-24",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "This is mine bag on the table.",
+        "correctSentence": "This is my bag on the table.",
+        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
+        "opts": [
+            "She used no words in this clause.",
+            "This is mine bag on the table.",
+            "This is my bag on the table."
+        ],
+        "ans": 2,
+        "level": "a1",
+        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
+    },
+    {
+        "id": "my-vs-mine-w-25",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "This is mine car on the table.",
+        "correctSentence": "This is my car on the table.",
+        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
+        "opts": [
+            "She used no words in this clause.",
+            "This is mine car on the table.",
+            "This is my car on the table."
+        ],
+        "ans": 2,
+        "level": "a1",
+        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
+    },
+    {
+        "id": "my-vs-mine-w-26",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "This is mine book on the table.",
+        "correctSentence": "This is my book on the table.",
+        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
+        "opts": [
+            "This is my book on the table.",
+            "She used no words in this clause.",
+            "This is mine book on the table."
+        ],
+        "ans": 0,
+        "level": "a1",
+        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
+    },
+    {
+        "id": "my-vs-mine-w-27",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "This is mine house on the table.",
+        "correctSentence": "This is my house on the table.",
+        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
+        "opts": [
+            "She used no words in this clause.",
+            "This is my house on the table.",
+            "This is mine house on the table."
+        ],
+        "ans": 1,
+        "level": "a1",
+        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
+    },
+    {
+        "id": "my-vs-mine-w-28",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "This is mine phone on the table.",
+        "correctSentence": "This is my phone on the table.",
+        "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
+        "opts": [
+            "This is mine phone on the table.",
+            "This is my phone on the table.",
+            "She used no words in this clause."
+        ],
+        "ans": 1,
+        "level": "a1",
+        "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
+    },
+    {
         "id": "my-vs-mine-w-29",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
@@ -2072,11 +2072,11 @@
         "correctSentence": "This is my bag on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my bag on the table.",
+            "She used no words in this clause.",
             "This is mine bag on the table.",
-            "She used no words in this clause."
+            "This is my bag on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2088,11 +2088,11 @@
         "correctSentence": "This is my car on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "She used no words in this clause.",
             "This is my car on the table.",
+            "She used no words in this clause.",
             "This is mine car on the table."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2120,11 +2120,11 @@
         "correctSentence": "This is my house on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my house on the table.",
+            "She used no words in this clause.",
             "This is mine house on the table.",
-            "She used no words in this clause."
+            "This is my house on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2136,11 +2136,11 @@
         "correctSentence": "This is my phone on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my phone on the table.",
+            "This is mine phone on the table.",
             "She used no words in this clause.",
-            "This is mine phone on the table."
+            "This is my phone on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2153,8 +2153,8 @@
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
             "This is my bag on the table.",
-            "She used no words in this clause.",
-            "This is mine bag on the table."
+            "This is mine bag on the table.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -2184,11 +2184,11 @@
         "correctSentence": "This is my book on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is mine book on the table.",
             "This is my book on the table.",
+            "This is mine book on the table.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2200,11 +2200,11 @@
         "correctSentence": "This is my house on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "She used no words in this clause.",
             "This is mine house on the table.",
-            "This is my house on the table."
+            "This is my house on the table.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2232,11 +2232,11 @@
         "correctSentence": "This is my bag on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "She used no words in this clause.",
+            "This is my bag on the table.",
             "This is mine bag on the table.",
-            "This is my bag on the table."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2264,11 +2264,11 @@
         "correctSentence": "This is my book on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my book on the table.",
             "She used no words in this clause.",
-            "This is mine book on the table."
+            "This is mine book on the table.",
+            "This is my book on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2280,11 +2280,11 @@
         "correctSentence": "This is my house on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "She used no words in this clause.",
+            "This is my house on the table.",
             "This is mine house on the table.",
-            "This is my house on the table."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2328,11 +2328,11 @@
         "correctSentence": "This is my car on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
+            "This is my car on the table.",
             "She used no words in this clause.",
-            "This is mine car on the table.",
-            "This is my car on the table."
+            "This is mine car on the table."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2344,11 +2344,11 @@
         "correctSentence": "This is my book on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "She used no words in this clause.",
             "This is mine book on the table.",
-            "This is my book on the table."
+            "This is my book on the table.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2360,11 +2360,11 @@
         "correctSentence": "This is my house on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "She used no words in this clause.",
+            "This is my house on the table.",
             "This is mine house on the table.",
-            "This is my house on the table."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2376,11 +2376,11 @@
         "correctSentence": "This is my phone on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my phone on the table.",
+            "She used no words in this clause.",
             "This is mine phone on the table.",
-            "She used no words in this clause."
+            "This is my phone on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     },
@@ -2408,11 +2408,11 @@
         "correctSentence": "This is my car on the table.",
         "errorExplanation": "Use possessive adjective 'my' directly before a noun, not 'mine'.",
         "opts": [
-            "This is my car on the table.",
             "She used no words in this clause.",
-            "This is mine car on the table."
+            "This is mine car on the table.",
+            "This is my car on the table."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use possessive adjective 'my' directly before a noun, not 'mine'."
     }

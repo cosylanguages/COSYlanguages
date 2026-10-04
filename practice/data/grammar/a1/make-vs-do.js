@@ -19,8 +19,8 @@
     {
         "id": "make-vs-do-r-1",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -30,13 +30,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-2",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -46,13 +46,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-3",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -62,13 +62,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-4",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -78,13 +78,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-5",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -94,13 +94,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-6",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -110,13 +110,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-7",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -126,13 +126,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-8",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -142,13 +142,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-9",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -158,13 +158,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-10",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -174,13 +174,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-11",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -190,13 +190,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-12",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -206,13 +206,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-13",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -222,13 +222,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-14",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -238,13 +238,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-15",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -254,13 +254,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-16",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -270,13 +270,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-17",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -286,13 +286,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-18",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -302,13 +302,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-19",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -318,13 +318,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-20",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -334,13 +334,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-21",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -350,13 +350,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-22",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -366,13 +366,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-23",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -382,13 +382,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-24",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -398,13 +398,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-25",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -414,13 +414,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-26",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -430,13 +430,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-27",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -446,13 +446,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-28",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -462,13 +462,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-29",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -478,13 +478,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-30",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -494,13 +494,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-31",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -510,13 +510,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-32",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -526,13 +526,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-33",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -542,13 +542,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-34",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -558,13 +558,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-35",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -574,13 +574,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-36",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -590,13 +590,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-37",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -606,13 +606,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-38",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -622,13 +622,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-39",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -638,13 +638,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-40",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -654,13 +654,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-41",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -670,13 +670,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-42",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -686,13 +686,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-43",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -702,13 +702,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-44",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -718,13 +718,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-45",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -734,13 +734,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-46",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -750,13 +750,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-47",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -766,13 +766,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-48",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -782,13 +782,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-49",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -798,13 +798,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-50",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -814,13 +814,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-51",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -830,13 +830,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-52",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -846,13 +846,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-53",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -862,13 +862,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-54",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -878,13 +878,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-55",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -894,13 +894,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-56",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -910,13 +910,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-57",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -926,13 +926,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-58",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -942,13 +942,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-59",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -958,13 +958,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-60",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -974,13 +974,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-61",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -990,13 +990,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-62",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1006,13 +1006,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-63",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -1022,13 +1022,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-64",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -1038,13 +1038,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-65",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -1054,13 +1054,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-66",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1070,13 +1070,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-67",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -1086,13 +1086,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-68",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1102,13 +1102,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-69",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -1118,13 +1118,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-70",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -1134,13 +1134,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-71",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -1150,13 +1150,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-72",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1166,13 +1166,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-73",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -1182,13 +1182,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-74",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1198,13 +1198,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-75",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -1214,13 +1214,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-76",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -1230,13 +1230,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-77",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -1246,13 +1246,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-78",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1262,13 +1262,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-79",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -1278,13 +1278,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-80",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1294,13 +1294,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-81",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -1310,13 +1310,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-82",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -1326,13 +1326,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-83",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -1342,13 +1342,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-84",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1358,13 +1358,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-85",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -1374,13 +1374,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-86",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1390,13 +1390,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-87",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -1406,13 +1406,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-88",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -1422,13 +1422,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-89",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -1438,13 +1438,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-90",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1454,13 +1454,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-91",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -1470,13 +1470,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-92",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1486,13 +1486,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-93",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -1502,13 +1502,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-94",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -1518,13 +1518,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-95",
         "type": "cloze",
-        "q": "I need to ___ friends right now.",
-        "sentence": "I need to [ ___ ] friends right now.",
+        "q": "I must ___ new friends before noon today.",
+        "sentence": "I must [ ___ ] new friends before noon today.",
         "opts": [
             "make",
             "do",
@@ -1534,13 +1534,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-96",
         "type": "cloze",
-        "q": "I need to ___ homework right now.",
-        "sentence": "I need to [ ___ ] homework right now.",
+        "q": "I must ___ your math homework before noon today.",
+        "sentence": "I must [ ___ ] your math homework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1550,13 +1550,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-97",
         "type": "cloze",
-        "q": "I need to ___ a mistake right now.",
-        "sentence": "I need to [ ___ ] a mistake right now.",
+        "q": "I must ___ a serious mistake before noon today.",
+        "sentence": "I must [ ___ ] a serious mistake before noon today.",
         "opts": [
             "make",
             "do",
@@ -1566,13 +1566,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-98",
         "type": "cloze",
-        "q": "I need to ___ housework right now.",
-        "sentence": "I need to [ ___ ] housework right now.",
+        "q": "I must ___ the daily housework before noon today.",
+        "sentence": "I must [ ___ ] the daily housework before noon today.",
         "opts": [
             "do",
             "make",
@@ -1582,13 +1582,13 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-r-99",
         "type": "cloze",
-        "q": "I need to ___ a decision right now.",
-        "sentence": "I need to [ ___ ] a decision right now.",
+        "q": "I must ___ an important decision before noon today.",
+        "sentence": "I must [ ___ ] an important decision before noon today.",
         "opts": [
             "make",
             "do",
@@ -1598,13 +1598,13 @@
         "ans": 0,
         "correctAnswer": "make",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'make' in this sentence."
+        "ruleHint": "Use 'make' for producing, creating, or building something new (e.g. make coffee, make a decision, make a mistake)."
     },
     {
         "id": "make-vs-do-r-100",
         "type": "cloze",
-        "q": "I need to ___ your best right now.",
-        "sentence": "I need to [ ___ ] your best right now.",
+        "q": "I must ___ your absolute best before noon today.",
+        "sentence": "I must [ ___ ] your absolute best before noon today.",
         "opts": [
             "do",
             "make",
@@ -1614,7 +1614,7 @@
         "ans": 0,
         "correctAnswer": "do",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for make vs do: Use 'do' in this sentence."
+        "ruleHint": "Use 'do' for tasks, duties, jobs, and non-specific activities (e.g. do homework, do the dishes, do business)."
     },
     {
         "id": "make-vs-do-w-1",
@@ -1656,11 +1656,11 @@
         "correctSentence": "Please do your the laundry before watching television.",
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please do your the laundry before watching television.",
+            "She used no words in this clause.",
             "Please make your the laundry before watching television.",
-            "She used no words in this clause."
+            "Please do your the laundry before watching television."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'the laundry' collocates with the verb 'do', not 'make'."
     },
@@ -1704,11 +1704,11 @@
         "correctSentence": "Please do your housework before watching television.",
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "She used no words in this clause.",
+            "Please do your housework before watching television.",
             "Please make your housework before watching television.",
-            "Please do your housework before watching television."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     },
@@ -1736,11 +1736,11 @@
         "correctSentence": "Please do your homework before watching television.",
         "errorExplanation": "'homework' collocates with the verb 'do', not 'make'.",
         "opts": [
+            "Please do your homework before watching television.",
             "Please make your homework before watching television.",
-            "She used no words in this clause.",
-            "Please do your homework before watching television."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'homework' collocates with the verb 'do', not 'make'."
     },
@@ -1752,11 +1752,11 @@
         "correctSentence": "Please do your the dishes before watching television.",
         "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please do your the dishes before watching television.",
+            "She used no words in this clause.",
             "Please make your the dishes before watching television.",
-            "She used no words in this clause."
+            "Please do your the dishes before watching television."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'the dishes' collocates with the verb 'do', not 'make'."
     },
@@ -1768,11 +1768,11 @@
         "correctSentence": "Please do your housework before watching television.",
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
+            "She used no words in this clause.",
             "Please do your housework before watching television.",
-            "Please make your housework before watching television.",
-            "She used no words in this clause."
+            "Please make your housework before watching television."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     },
@@ -1784,11 +1784,11 @@
         "correctSentence": "Please do your the laundry before watching television.",
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
+            "Please do your the laundry before watching television.",
             "She used no words in this clause.",
-            "Please make your the laundry before watching television.",
-            "Please do your the laundry before watching television."
+            "Please make your the laundry before watching television."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'the laundry' collocates with the verb 'do', not 'make'."
     },
@@ -1817,8 +1817,8 @@
         "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
         "opts": [
             "Please do your the dishes before watching television.",
-            "Please make your the dishes before watching television.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "Please make your the dishes before watching television."
         ],
         "ans": 0,
         "level": "a1",
@@ -1832,11 +1832,11 @@
         "correctSentence": "Please do your housework before watching television.",
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "She used no words in this clause.",
+            "Please do your housework before watching television.",
             "Please make your housework before watching television.",
-            "Please do your housework before watching television."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     },
@@ -1849,8 +1849,8 @@
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
             "Please do your the laundry before watching television.",
-            "She used no words in this clause.",
-            "Please make your the laundry before watching television."
+            "Please make your the laundry before watching television.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -1880,11 +1880,11 @@
         "correctSentence": "Please do your the dishes before watching television.",
         "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please do your the dishes before watching television.",
             "Please make your the dishes before watching television.",
+            "Please do your the dishes before watching television.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'the dishes' collocates with the verb 'do', not 'make'."
     },
@@ -1896,11 +1896,11 @@
         "correctSentence": "Please do your housework before watching television.",
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "She used no words in this clause.",
             "Please make your housework before watching television.",
-            "Please do your housework before watching television."
+            "Please do your housework before watching television.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     },
@@ -1912,11 +1912,11 @@
         "correctSentence": "Please do your the laundry before watching television.",
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please do your the laundry before watching television.",
+            "She used no words in this clause.",
             "Please make your the laundry before watching television.",
-            "She used no words in this clause."
+            "Please do your the laundry before watching television."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'the laundry' collocates with the verb 'do', not 'make'."
     },
@@ -1929,10 +1929,10 @@
         "errorExplanation": "'homework' collocates with the verb 'do', not 'make'.",
         "opts": [
             "Please make your homework before watching television.",
-            "Please do your homework before watching television.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "Please do your homework before watching television."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'homework' collocates with the verb 'do', not 'make'."
     },
@@ -1976,8 +1976,8 @@
         "correctSentence": "Please do your the laundry before watching television.",
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please make your the laundry before watching television.",
             "She used no words in this clause.",
+            "Please make your the laundry before watching television.",
             "Please do your the laundry before watching television."
         ],
         "ans": 2,
@@ -1986,6 +1986,70 @@
     },
     {
         "id": "make-vs-do-w-24",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Please make your homework before watching television.",
+        "correctSentence": "Please do your homework before watching television.",
+        "errorExplanation": "'homework' collocates with the verb 'do', not 'make'.",
+        "opts": [
+            "Please do your homework before watching television.",
+            "Please make your homework before watching television.",
+            "She used no words in this clause."
+        ],
+        "ans": 0,
+        "level": "a1",
+        "ruleHint": "'homework' collocates with the verb 'do', not 'make'."
+    },
+    {
+        "id": "make-vs-do-w-25",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Please make your the dishes before watching television.",
+        "correctSentence": "Please do your the dishes before watching television.",
+        "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
+        "opts": [
+            "She used no words in this clause.",
+            "Please make your the dishes before watching television.",
+            "Please do your the dishes before watching television."
+        ],
+        "ans": 2,
+        "level": "a1",
+        "ruleHint": "'the dishes' collocates with the verb 'do', not 'make'."
+    },
+    {
+        "id": "make-vs-do-w-26",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Please make your housework before watching television.",
+        "correctSentence": "Please do your housework before watching television.",
+        "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
+        "opts": [
+            "Please do your housework before watching television.",
+            "She used no words in this clause.",
+            "Please make your housework before watching television."
+        ],
+        "ans": 0,
+        "level": "a1",
+        "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
+    },
+    {
+        "id": "make-vs-do-w-27",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Please make your the laundry before watching television.",
+        "correctSentence": "Please do your the laundry before watching television.",
+        "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
+        "opts": [
+            "Please do your the laundry before watching television.",
+            "Please make your the laundry before watching television.",
+            "She used no words in this clause."
+        ],
+        "ans": 0,
+        "level": "a1",
+        "ruleHint": "'the laundry' collocates with the verb 'do', not 'make'."
+    },
+    {
+        "id": "make-vs-do-w-28",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "Please make your homework before watching television.",
@@ -2001,70 +2065,6 @@
         "ruleHint": "'homework' collocates with the verb 'do', not 'make'."
     },
     {
-        "id": "make-vs-do-w-25",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Please make your the dishes before watching television.",
-        "correctSentence": "Please do your the dishes before watching television.",
-        "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
-        "opts": [
-            "Please make your the dishes before watching television.",
-            "Please do your the dishes before watching television.",
-            "She used no words in this clause."
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "'the dishes' collocates with the verb 'do', not 'make'."
-    },
-    {
-        "id": "make-vs-do-w-26",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Please make your housework before watching television.",
-        "correctSentence": "Please do your housework before watching television.",
-        "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
-        "opts": [
-            "Please do your housework before watching television.",
-            "Please make your housework before watching television.",
-            "She used no words in this clause."
-        ],
-        "ans": 0,
-        "level": "a1",
-        "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
-    },
-    {
-        "id": "make-vs-do-w-27",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Please make your the laundry before watching television.",
-        "correctSentence": "Please do your the laundry before watching television.",
-        "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
-        "opts": [
-            "Please make your the laundry before watching television.",
-            "Please do your the laundry before watching television.",
-            "She used no words in this clause."
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "'the laundry' collocates with the verb 'do', not 'make'."
-    },
-    {
-        "id": "make-vs-do-w-28",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Please make your homework before watching television.",
-        "correctSentence": "Please do your homework before watching television.",
-        "errorExplanation": "'homework' collocates with the verb 'do', not 'make'.",
-        "opts": [
-            "Please make your homework before watching television.",
-            "Please do your homework before watching television.",
-            "She used no words in this clause."
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "'homework' collocates with the verb 'do', not 'make'."
-    },
-    {
         "id": "make-vs-do-w-29",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
@@ -2072,11 +2072,11 @@
         "correctSentence": "Please do your the dishes before watching television.",
         "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "She used no words in this clause.",
+            "Please do your the dishes before watching television.",
             "Please make your the dishes before watching television.",
-            "Please do your the dishes before watching television."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'the dishes' collocates with the verb 'do', not 'make'."
     },
@@ -2120,11 +2120,11 @@
         "correctSentence": "Please do your homework before watching television.",
         "errorExplanation": "'homework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please do your homework before watching television.",
+            "She used no words in this clause.",
             "Please make your homework before watching television.",
-            "She used no words in this clause."
+            "Please do your homework before watching television."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'homework' collocates with the verb 'do', not 'make'."
     },
@@ -2153,10 +2153,10 @@
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
             "She used no words in this clause.",
-            "Please do your housework before watching television.",
-            "Please make your housework before watching television."
+            "Please make your housework before watching television.",
+            "Please do your housework before watching television."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     },
@@ -2168,8 +2168,8 @@
         "correctSentence": "Please do your the laundry before watching television.",
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please make your the laundry before watching television.",
             "She used no words in this clause.",
+            "Please make your the laundry before watching television.",
             "Please do your the laundry before watching television."
         ],
         "ans": 2,
@@ -2184,11 +2184,11 @@
         "correctSentence": "Please do your homework before watching television.",
         "errorExplanation": "'homework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "She used no words in this clause.",
+            "Please do your homework before watching television.",
             "Please make your homework before watching television.",
-            "Please do your homework before watching television."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'homework' collocates with the verb 'do', not 'make'."
     },
@@ -2200,11 +2200,11 @@
         "correctSentence": "Please do your the dishes before watching television.",
         "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please do your the dishes before watching television.",
             "She used no words in this clause.",
-            "Please make your the dishes before watching television."
+            "Please make your the dishes before watching television.",
+            "Please do your the dishes before watching television."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'the dishes' collocates with the verb 'do', not 'make'."
     },
@@ -2216,11 +2216,11 @@
         "correctSentence": "Please do your housework before watching television.",
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "She used no words in this clause.",
+            "Please do your housework before watching television.",
             "Please make your housework before watching television.",
-            "Please do your housework before watching television."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     },
@@ -2232,11 +2232,11 @@
         "correctSentence": "Please do your the laundry before watching television.",
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "She used no words in this clause.",
+            "Please do your the laundry before watching television.",
             "Please make your the laundry before watching television.",
-            "Please do your the laundry before watching television."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'the laundry' collocates with the verb 'do', not 'make'."
     },
@@ -2280,11 +2280,11 @@
         "correctSentence": "Please do your housework before watching television.",
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please make your housework before watching television.",
             "Please do your housework before watching television.",
+            "Please make your housework before watching television.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     },
@@ -2329,8 +2329,8 @@
         "errorExplanation": "'the dishes' collocates with the verb 'do', not 'make'.",
         "opts": [
             "Please do your the dishes before watching television.",
-            "She used no words in this clause.",
-            "Please make your the dishes before watching television."
+            "Please make your the dishes before watching television.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -2360,8 +2360,8 @@
         "correctSentence": "Please do your the laundry before watching television.",
         "errorExplanation": "'the laundry' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please make your the laundry before watching television.",
             "She used no words in this clause.",
+            "Please make your the laundry before watching television.",
             "Please do your the laundry before watching television."
         ],
         "ans": 2,
@@ -2408,11 +2408,11 @@
         "correctSentence": "Please do your housework before watching television.",
         "errorExplanation": "'housework' collocates with the verb 'do', not 'make'.",
         "opts": [
-            "Please do your housework before watching television.",
             "Please make your housework before watching television.",
+            "Please do your housework before watching television.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'housework' collocates with the verb 'do', not 'make'."
     }
