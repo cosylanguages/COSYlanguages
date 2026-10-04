@@ -587,6 +587,60 @@
         document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     };
 
+    const setupReviewsCarousel = () => {
+        const track = document.getElementById('reviews-track');
+        const prevBtn = document.getElementById('reviews-prev');
+        const nextBtn = document.getElementById('reviews-next');
+        const slides = document.querySelectorAll('.review-slide');
+
+        if (!track || slides.length === 0) return;
+
+        let currentIndex = 0;
+        const totalSlides = slides.length;
+
+        const goToSlide = (index) => {
+            currentIndex = (index + totalSlides) % totalSlides;
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            slides.forEach((slide, idx) => {
+                slide.classList.toggle('active', idx === currentIndex);
+            });
+        };
+
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+        }
+
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+        }
+
+        // Touch Swipe Support
+        let startX = 0;
+        let isSwiping = false;
+
+        const carousel = document.getElementById('reviews-carousel');
+        if (carousel) {
+            carousel.addEventListener('touchstart', (e) => {
+                if (e.touches.length === 1) {
+                    startX = e.touches[0].clientX;
+                    isSwiping = true;
+                }
+            }, { passive: true });
+
+            carousel.addEventListener('touchend', (e) => {
+                if (!isSwiping || e.changedTouches.length === 0) return;
+                const endX = e.changedTouches[0].clientX;
+                const diffX = startX - endX;
+
+                if (Math.abs(diffX) > 40) {
+                    if (diffX > 0) goToSlide(currentIndex + 1);
+                    else goToSlide(currentIndex - 1);
+                }
+                isSwiping = false;
+            }, { passive: true });
+        }
+    };
+
     /* ─── MOBILE & PWA UTILITIES ────────────────────────────────── */
     window.updateMobileNav = function() {
       const mobileNav = document.querySelector('.mobile-nav');
@@ -4720,6 +4774,7 @@
         setupHeaderShrink();
         setupBackToTop();
         setupScrollReveal();
+        setupReviewsCarousel();
         setupClubFilters();
         setupSessionSwitcher();
         autoCollapseFoldableSections();
