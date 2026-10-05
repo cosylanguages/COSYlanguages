@@ -126,7 +126,7 @@
             bar.className = 'pe-bottom-bar active ' + (isCorrect ? 'correct' : 'incorrect');
             if (iconEl) iconEl.textContent = isCorrect ? '🎉' : '❌';
             if (titleEl) titleEl.textContent = title;
-            if (descEl) descEl.textContent = desc;
+            if (descEl) descEl.innerHTML = desc;
             document.body.classList.add('has-active-bottom-bar');
         }
 
@@ -1088,18 +1088,28 @@
             const q = this.session?.sessionQueue[this.session?.currentIndex];
             if (!q) return;
 
-            const answer = q?.ans || q?.item?.word || '';
-            if (!answer) return;
-
-            const words = answer.toString().split(' ');
-            const hint = words
-                .map(word => word.charAt(0).toUpperCase() + '_'.repeat(word.length - 1))
-                .join(' ');
-
+            const ruleHint = q.ruleHint || q.errorExplanation || q.item?.ruleHint || q.item?.usage_hint || q.item?.grammar_note;
             const fb = document.getElementById('pe-fb');
-            if (fb) {
-                fb.className = 'pe-feedback show ok';
-                fb.innerHTML = `💡 Hint: ${hint}`;
+
+            if (ruleHint) {
+                if (fb) {
+                    fb.className = 'pe-feedback show ok';
+                    fb.innerHTML = `💡 <strong>Grammar Hint:</strong> ${ruleHint}`;
+                }
+                showBottomFeedback(true, 'Grammar Rule Hint 💡', ruleHint);
+            } else {
+                const answer = q?.ans || q?.item?.word || '';
+                if (!answer) return;
+
+                const words = answer.toString().split(' ');
+                const hint = words
+                    .map(word => word.charAt(0).toUpperCase() + '_'.repeat(word.length - 1))
+                    .join(' ');
+
+                if (fb) {
+                    fb.className = 'pe-feedback show ok';
+                    fb.innerHTML = `💡 Hint: ${hint}`;
+                }
             }
 
             if (this.session.sessionPoints >= 5) {
@@ -1470,22 +1480,27 @@
             }
         });
 
+        const ruleHint = q.ruleHint || q.errorExplanation || q.item?.ruleHint || q.item?.usage_hint || q.item?.grammar_note;
+
         if (i === ans) {
             engine.awardPoints(10);
             if (fb) {
                 fb.className = 'pe-feedback show ok';
-                fb.innerHTML = '✅ Correct! +10 pts';
+                fb.innerHTML = '✅ Correct! +10 pts' + (ruleHint ? `<br><small style="opacity:0.9;">💡 ${ruleHint}</small>` : '');
             }
-            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 1200);
+            let desc = '+10 PTS 🎉';
+            if (ruleHint) {
+                desc += `<br><span style="display:inline-block; margin-top:4px; font-weight:600; color:#047857;">💡 ${ruleHint}</span>`;
+            }
+            showBottomFeedback(true, 'Correct!', desc, 2500);
         } else {
             engine.recordMistake(q);
             if (fb) {
                 fb.className = 'pe-feedback show bad';
-                fb.innerHTML = '❌ Incorrect.';
+                fb.innerHTML = '❌ Incorrect.' + (ruleHint ? `<br><small style="opacity:0.9;">💡 ${ruleHint}</small>` : '');
             }
             const correctOpt = q.opts ? q.opts[ans] : '';
             let desc = correctOpt ? `Correct answer: ${correctOpt}` : '';
-            const ruleHint = q.ruleHint || q.item?.ruleHint || q.item?.usage_hint || q.item?.grammar_note;
             if (ruleHint) {
                 desc += `<br><span style="display:inline-block; margin-top:4px; font-weight:600; color:var(--coral);">💡 Rule: ${ruleHint}</span>`;
             }

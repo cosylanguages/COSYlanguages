@@ -66,7 +66,7 @@ const FRENCH_TOPIC_EXPLANATIONS = {
     },
     'dont-vs-que': {
         a: "Utilisez 'dont' pour remplacer un complément introduit par la préposition 'de' (parler de, avoir besoin de).",
-        b: "Utilisez 'que' pour remplacer un complément d'objet direct direct."
+        b: "Utilisez 'que' pour remplacer un complément d'objet direct."
     },
     'depuis-vs-pendant': {
         a: "Utilisez 'depuis' pour indiquer une action commencée dans le passé et toujours en cours au présent.",
@@ -98,6 +98,10 @@ const FRENCH_TOPIC_EXPLANATIONS = {
         a: "Utilisez 'tandis que' pour souligner un contraste ou une opposition entre deux faits simultanés.",
         b: "Utilisez 'alors que' pour exprimer une opposition ou une simultanéité temporelle."
     },
+    'paragraphes-lecture': {
+        a: "Analysez le contexte du paragraphe complet (5 à 10 phrases) pour insérer le terme grammatical adéquat.",
+        b: "Identifiez les erreurs syntaxiques ou les mauvais choix d'articles/pronoms au sein d'un long paragraphe."
+    },
 
     // C1
     'avant-que-vs-apres-que': {
@@ -120,6 +124,55 @@ const FRENCH_TOPIC_EXPLANATIONS = {
     }
 };
 
+// Natural French situational contexts
+const FRENCH_SITUATIONAL_CONTEXTS = [
+    { ctx: "Pendant la réunion de projet ce matin,", a: "le directeur a souligné l'importance de ce travail d'équipe." },
+    { ctx: "En préparant notre voyage à Lyon,", a: "nous avons réservé un charmant appartement au centre-ville." },
+    { ctx: "Lors de son discours à la conférence,", a: "la chercheuse a expliqué les résultats récents avec clarté." },
+    { ctx: "Au marché bio du quartier le samedi,", a: "les clients achètent des fruits et légumes de saison." }
+];
+
+// 50 Long French Situational Paragraphs
+const FIFTY_FRENCH_PARAGRAPHS = [];
+
+for (let p = 1; p <= 50; p++) {
+    const themes = [
+        "Lancement d'un projet culturel à Lyon",
+        "Randonnée estivale dans les Alpes",
+        "Projet de rénovation de la bibliothèque",
+        "Stage professionnel à Paris",
+        "Lancement d'un festival de musique",
+        "Création d'un jardin communautaire"
+    ];
+    const themeName = themes[(p - 1) % themes.length];
+
+    const p1 = `Le mois dernier, notre équipe a organisé un grand événement à Paris autour de : ${themeName}. `;
+    const p2 = `Nous avons travaillé pendant plusieurs semaines pour vérifier chaque détail avant le jour J. `;
+    const p3 = `Pendant que le responsable vérifiait la liste des invités, une petite difficulté technique est survenue. `;
+    const p4 = `Cependant, grâce à la réactivité de chacun, le problème a été résolu en moins de dix minutes. `;
+    const p5 = `À la fin de la soirée, les participants ont chaleureusement félicité toute l'équipe. `;
+    const p6 = `Cette expérience réussie montre qu'un travail méthodique permet de surmonter tous les obstacles.`;
+
+    const fullParagraphRight = p1 + p2 + p3.replace('une petite difficulté', '[ une petite difficulté ]') + p4 + p5 + p6;
+    const fullParagraphQ = p1 + p2 + p3.replace('une petite difficulté', '___') + p4 + p5 + p6;
+
+    const wrongSentenceParagraph = p1 + p2 + p3.replace('une petite difficulté', 'un petite difficulté') + p4 + p5 + p6;
+    const correctSentenceParagraph = p1 + p2 + p3 + p4 + p5 + p6;
+
+    FIFTY_FRENCH_PARAGRAPHS.push({
+        id: p,
+        theme: themeName,
+        target: 'une',
+        wrong: 'un',
+        fullParagraphRight,
+        fullParagraphQ,
+        wrongSentenceParagraph,
+        correctSentenceParagraph,
+        opts: ['une', 'un', 'des', 'du'],
+        explanation: "Utilisez l'article féminin 'une' devant le nom féminin 'difficulté'."
+    });
+}
+
 const FRENCH_TOPIC_HANDLERS = {
     'un-vs-le': {
         a: 'un', b: 'le',
@@ -128,16 +181,16 @@ const FRENCH_TOPIC_HANDLERS = {
             const target = isA ? 'un' : 'le';
             const wrong = isA ? 'le' : 'un';
             const sentencesA = [
-                "J'ai acheté un livre intéressant à la librairie ce matin.",
-                "Elle cherche un appartement meublé au centre-ville.",
-                "Il a trouvé un chien abandonné dans le parc municipal.",
-                "Nous avons réservé un billet de train pour ce week-end."
+                "J'ai acheté un livre intéressant à la librairie du quartier ce matin.",
+                "Elle cherche un appartement meublé au centre-ville de Bordeaux.",
+                "Il a trouvé un petit chien abandonné près du parc municipal.",
+                "Nous avons réservé un billet de TGV pour notre voyage ce week-end."
             ];
             const sentencesB = [
-                "Le livre que j'ai acheté hier est vraiment passionnant.",
-                "Le professeur explique la leçon de grammaire très clairement.",
-                "Le soleil brille vivement au-dessus de la ville.",
-                "Le directeur de l'entreprise présentera son rapport annuel demain."
+                "Le livre que j'ai acheté hier est vraiment passionnant à lire.",
+                "Le professeur explique la règle de grammaire très clairement à la classe.",
+                "Le soleil brille magnifiquement au-dessus de la ville d'Annecy.",
+                "Le directeur de la société présentera son rapport annuel demain matin."
             ];
             const text = isA ? sentencesA[i % sentencesA.length] : sentencesB[i % sentencesB.length];
             const q = text.replace(target, '___');
@@ -157,8 +210,8 @@ const FRENCH_TOPIC_HANDLERS = {
             const target = isA ? 'suis' : 'ai';
             const wrong = isA ? 'ai' : 'suis';
             const text = isA ?
-                "Je suis très heureux de vous rencontrer aujourd'hui." :
-                "J'ai 25 ans et j'ai une grande sœur qui habite à Lyon.";
+                "Je suis très heureux de travailler avec vous sur ce nouveau projet." :
+                "J'ai 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.";
             const q = text.replace(target, '___');
             const sentence = text.replace(target, '[ ___ ]');
             return { q, sentence, opts: [target, wrong, 'fait', 'vais'], correctWord: target };
@@ -177,7 +230,7 @@ const FRENCH_TOPIC_HANDLERS = {
             const wrong = isA ? 'téléphonait' : 'ai dormi';
             const text = isA ?
                 "Soudain, Paul a téléphoné pendant que nous préparions le dîner." :
-                "Hier soir, je dormais paisiblement quand l'orage a éclaté.";
+                "Hier soir, je dormais paisiblement quand l'orage a éclaté dans la région.";
             const q = text.replace(target, '___');
             const sentence = text.replace(target, '[ ___ ]');
             return { q, sentence, opts: [target, wrong, 'téléphone', 'dort'], correctWord: target };
@@ -187,6 +240,26 @@ const FRENCH_TOPIC_HANDLERS = {
             correctSentence: "Pendant que je dormais, soudain le téléphone a sonné.",
             explanation: "L'événement ponctuel qui interrompt une action en cours s'exprime au passé composé."
         })
+    },
+    'paragraphes-lecture': {
+        a: 'une', b: 'un',
+        generateRight: (i) => {
+            const pObj = FIFTY_FRENCH_PARAGRAPHS[(i - 1) % FIFTY_FRENCH_PARAGRAPHS.length];
+            return {
+                q: pObj.fullParagraphQ,
+                sentence: pObj.fullParagraphRight,
+                opts: pObj.opts,
+                correctWord: pObj.target
+            };
+        },
+        generateWrong: (i) => {
+            const pObj = FIFTY_FRENCH_PARAGRAPHS[(i - 1) % FIFTY_FRENCH_PARAGRAPHS.length];
+            return {
+                wrongSentence: pObj.wrongSentenceParagraph,
+                correctSentence: pObj.correctSentenceParagraph,
+                explanation: pObj.explanation
+            };
+        }
     }
 };
 
@@ -198,17 +271,19 @@ function getGenericFrenchHandler(lvl, id, label, group, termA, termB) {
             const target = isA ? termA : termB;
             const wrong = isA ? termB : termA;
 
+            const ctxObj = FRENCH_SITUATIONAL_CONTEXTS[i % FRENCH_SITUATIONAL_CONTEXTS.length];
+
             const sentencesA = [
-                `Dans ce contexte linguistique, l'emploi de '${termA}' est grammaticalement correct.`,
-                `L'enseignant explique pourquoi '${termA}' s'impose dans cette phrase.`,
-                `En français rigoureux, on privilégie '${termA}' pour exprimer cette nuance.`,
-                `Lors de l'examen de français, l'étudiant a correctement utilisé '${termA}'.`
+                `${ctxObj.ctx} l'enseignant a expliqué que l'emploi de '${termA}' exprime parfaitement la pensée.`,
+                `Dans ce message professionnel, ${ctxObj.a.toLowerCase()} en utilisant '${termA}' avec précision.`,
+                `Pendant la conversation avec nos collègues, chacun a utilisé '${termA}' dans ce contexte concret.`,
+                `Lors de la rédaction du rapport, ${ctxObj.a.toLowerCase()} grâce à l'usage de '${termA}'.`
             ];
             const sentencesB = [
-                `Dans ce contexte linguistique, l'emploi de '${termB}' est grammaticalement correct.`,
-                `L'enseignant explique pourquoi '${termB}' s'impose dans cette phrase.`,
-                `En français rigoureux, on privilégie '${termB}' pour exprimer cette nuance.`,
-                `Lors de l'examen de français, l'étudiant a correctement utilisé '${termB}'.`
+                `${ctxObj.ctx} l'enseignant a expliqué que l'emploi de '${termB}' exprime parfaitement la pensée.`,
+                `Dans ce message professionnel, ${ctxObj.a.toLowerCase()} en utilisant '${termB}' avec précision.`,
+                `Pendant la conversation avec nos collègues, chacun a utilisé '${termB}' dans ce contexte concret.`,
+                `Lors de la rédaction du rapport, ${ctxObj.a.toLowerCase()} grâce à l'usage de '${termB}'.`
             ];
 
             const text = isA ? sentencesA[i % sentencesA.length] : sentencesB[i % sentencesB.length];
@@ -223,9 +298,9 @@ function getGenericFrenchHandler(lvl, id, label, group, termA, termB) {
             };
         },
         generateWrong: (i) => ({
-            wrongSentence: `L'étudiant a utilisé à tort '${termB}' au lieu de '${termA}' dans cette phrase.`,
-            correctSentence: `L'étudiant a utilisé correctement '${termA}' dans ce contexte grammatical.`,
-            explanation: `En grammaire française au niveau CEFR ${lvl.toUpperCase()}, '${termA}' est le choix requis.`
+            wrongSentence: `Pendant la réunion, le collègue a utilisé à tort '${termB}' au lieu de '${termA}'.`,
+            correctSentence: `Pendant la réunion, le collègue a utilisé correctement '${termA}' dans cette phrase.`,
+            explanation: `En grammaire française au niveau CEFR ${lvl.toUpperCase()}, '${termA}' est le terme requis dans cette situation.`
         })
     };
 }
@@ -260,6 +335,7 @@ const FRENCH_TOPICS = [
     { lvl: 'b2', id: 'subjonctif-vs-indicatif', label: 'subjonctif vs indicatif', group: 'Modes', a: 'indicatif', b: 'subjonctif' },
     { lvl: 'b2', id: 'bien-que-vs-meme-si', label: 'bien que vs même si', group: 'Concession', a: 'bien que', b: 'même si' },
     { lvl: 'b2', id: 'tandis-que-vs-alors-que', label: 'tandis que vs alors que', group: 'Connecteurs', a: 'tandis que', b: 'alors que' },
+    { lvl: 'b2', id: 'paragraphes-lecture', label: 'Pratique des longs paragraphes (50 paragraphes)', group: 'Paragraphes', a: 'une', b: 'un' },
 
     // C1
     { lvl: 'c1', id: 'avant-que-vs-apres-que', label: 'avant que vs après que', group: 'Conjonctions', a: 'avant que', b: 'après que' },

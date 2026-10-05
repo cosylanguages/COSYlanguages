@@ -18,8 +18,8 @@
     {
         "id": "fr-etre-vs-avoir-r-1",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -34,8 +34,8 @@
     {
         "id": "fr-etre-vs-avoir-r-2",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -50,8 +50,8 @@
     {
         "id": "fr-etre-vs-avoir-r-3",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -66,8 +66,8 @@
     {
         "id": "fr-etre-vs-avoir-r-4",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -82,8 +82,8 @@
     {
         "id": "fr-etre-vs-avoir-r-5",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -98,8 +98,8 @@
     {
         "id": "fr-etre-vs-avoir-r-6",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -114,8 +114,8 @@
     {
         "id": "fr-etre-vs-avoir-r-7",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -130,8 +130,8 @@
     {
         "id": "fr-etre-vs-avoir-r-8",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -146,8 +146,8 @@
     {
         "id": "fr-etre-vs-avoir-r-9",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -162,8 +162,8 @@
     {
         "id": "fr-etre-vs-avoir-r-10",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -178,8 +178,8 @@
     {
         "id": "fr-etre-vs-avoir-r-11",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -194,8 +194,8 @@
     {
         "id": "fr-etre-vs-avoir-r-12",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -210,8 +210,8 @@
     {
         "id": "fr-etre-vs-avoir-r-13",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -226,8 +226,8 @@
     {
         "id": "fr-etre-vs-avoir-r-14",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -242,8 +242,8 @@
     {
         "id": "fr-etre-vs-avoir-r-15",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -258,8 +258,8 @@
     {
         "id": "fr-etre-vs-avoir-r-16",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -274,8 +274,8 @@
     {
         "id": "fr-etre-vs-avoir-r-17",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -290,8 +290,8 @@
     {
         "id": "fr-etre-vs-avoir-r-18",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -306,8 +306,8 @@
     {
         "id": "fr-etre-vs-avoir-r-19",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -322,8 +322,8 @@
     {
         "id": "fr-etre-vs-avoir-r-20",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -338,8 +338,8 @@
     {
         "id": "fr-etre-vs-avoir-r-21",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -354,8 +354,8 @@
     {
         "id": "fr-etre-vs-avoir-r-22",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -370,8 +370,8 @@
     {
         "id": "fr-etre-vs-avoir-r-23",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -386,8 +386,8 @@
     {
         "id": "fr-etre-vs-avoir-r-24",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -402,8 +402,8 @@
     {
         "id": "fr-etre-vs-avoir-r-25",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -418,8 +418,8 @@
     {
         "id": "fr-etre-vs-avoir-r-26",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -434,8 +434,8 @@
     {
         "id": "fr-etre-vs-avoir-r-27",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -450,8 +450,8 @@
     {
         "id": "fr-etre-vs-avoir-r-28",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -466,8 +466,8 @@
     {
         "id": "fr-etre-vs-avoir-r-29",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -482,8 +482,8 @@
     {
         "id": "fr-etre-vs-avoir-r-30",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -498,8 +498,8 @@
     {
         "id": "fr-etre-vs-avoir-r-31",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -514,8 +514,8 @@
     {
         "id": "fr-etre-vs-avoir-r-32",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -530,8 +530,8 @@
     {
         "id": "fr-etre-vs-avoir-r-33",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -546,8 +546,8 @@
     {
         "id": "fr-etre-vs-avoir-r-34",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -562,8 +562,8 @@
     {
         "id": "fr-etre-vs-avoir-r-35",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -578,8 +578,8 @@
     {
         "id": "fr-etre-vs-avoir-r-36",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -594,8 +594,8 @@
     {
         "id": "fr-etre-vs-avoir-r-37",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -610,8 +610,8 @@
     {
         "id": "fr-etre-vs-avoir-r-38",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -626,8 +626,8 @@
     {
         "id": "fr-etre-vs-avoir-r-39",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -642,8 +642,8 @@
     {
         "id": "fr-etre-vs-avoir-r-40",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -658,8 +658,8 @@
     {
         "id": "fr-etre-vs-avoir-r-41",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -674,8 +674,8 @@
     {
         "id": "fr-etre-vs-avoir-r-42",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -690,8 +690,8 @@
     {
         "id": "fr-etre-vs-avoir-r-43",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -706,8 +706,8 @@
     {
         "id": "fr-etre-vs-avoir-r-44",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -722,8 +722,8 @@
     {
         "id": "fr-etre-vs-avoir-r-45",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -738,8 +738,8 @@
     {
         "id": "fr-etre-vs-avoir-r-46",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -754,8 +754,8 @@
     {
         "id": "fr-etre-vs-avoir-r-47",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -770,8 +770,8 @@
     {
         "id": "fr-etre-vs-avoir-r-48",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -786,8 +786,8 @@
     {
         "id": "fr-etre-vs-avoir-r-49",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -802,8 +802,8 @@
     {
         "id": "fr-etre-vs-avoir-r-50",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -818,8 +818,8 @@
     {
         "id": "fr-etre-vs-avoir-r-51",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -834,8 +834,8 @@
     {
         "id": "fr-etre-vs-avoir-r-52",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -850,8 +850,8 @@
     {
         "id": "fr-etre-vs-avoir-r-53",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -866,8 +866,8 @@
     {
         "id": "fr-etre-vs-avoir-r-54",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -882,8 +882,8 @@
     {
         "id": "fr-etre-vs-avoir-r-55",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -898,8 +898,8 @@
     {
         "id": "fr-etre-vs-avoir-r-56",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -914,8 +914,8 @@
     {
         "id": "fr-etre-vs-avoir-r-57",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -930,8 +930,8 @@
     {
         "id": "fr-etre-vs-avoir-r-58",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -946,8 +946,8 @@
     {
         "id": "fr-etre-vs-avoir-r-59",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -962,8 +962,8 @@
     {
         "id": "fr-etre-vs-avoir-r-60",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -978,8 +978,8 @@
     {
         "id": "fr-etre-vs-avoir-r-61",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -994,8 +994,8 @@
     {
         "id": "fr-etre-vs-avoir-r-62",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1010,8 +1010,8 @@
     {
         "id": "fr-etre-vs-avoir-r-63",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1026,8 +1026,8 @@
     {
         "id": "fr-etre-vs-avoir-r-64",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1042,8 +1042,8 @@
     {
         "id": "fr-etre-vs-avoir-r-65",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1058,8 +1058,8 @@
     {
         "id": "fr-etre-vs-avoir-r-66",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1074,8 +1074,8 @@
     {
         "id": "fr-etre-vs-avoir-r-67",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1090,8 +1090,8 @@
     {
         "id": "fr-etre-vs-avoir-r-68",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1106,8 +1106,8 @@
     {
         "id": "fr-etre-vs-avoir-r-69",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1122,8 +1122,8 @@
     {
         "id": "fr-etre-vs-avoir-r-70",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1138,8 +1138,8 @@
     {
         "id": "fr-etre-vs-avoir-r-71",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1154,8 +1154,8 @@
     {
         "id": "fr-etre-vs-avoir-r-72",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1170,8 +1170,8 @@
     {
         "id": "fr-etre-vs-avoir-r-73",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1186,8 +1186,8 @@
     {
         "id": "fr-etre-vs-avoir-r-74",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1202,8 +1202,8 @@
     {
         "id": "fr-etre-vs-avoir-r-75",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1218,8 +1218,8 @@
     {
         "id": "fr-etre-vs-avoir-r-76",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1234,8 +1234,8 @@
     {
         "id": "fr-etre-vs-avoir-r-77",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1250,8 +1250,8 @@
     {
         "id": "fr-etre-vs-avoir-r-78",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1266,8 +1266,8 @@
     {
         "id": "fr-etre-vs-avoir-r-79",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1282,8 +1282,8 @@
     {
         "id": "fr-etre-vs-avoir-r-80",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1298,8 +1298,8 @@
     {
         "id": "fr-etre-vs-avoir-r-81",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1314,8 +1314,8 @@
     {
         "id": "fr-etre-vs-avoir-r-82",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1330,8 +1330,8 @@
     {
         "id": "fr-etre-vs-avoir-r-83",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1346,8 +1346,8 @@
     {
         "id": "fr-etre-vs-avoir-r-84",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1362,8 +1362,8 @@
     {
         "id": "fr-etre-vs-avoir-r-85",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1378,8 +1378,8 @@
     {
         "id": "fr-etre-vs-avoir-r-86",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1394,8 +1394,8 @@
     {
         "id": "fr-etre-vs-avoir-r-87",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1410,8 +1410,8 @@
     {
         "id": "fr-etre-vs-avoir-r-88",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1426,8 +1426,8 @@
     {
         "id": "fr-etre-vs-avoir-r-89",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1442,8 +1442,8 @@
     {
         "id": "fr-etre-vs-avoir-r-90",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1458,8 +1458,8 @@
     {
         "id": "fr-etre-vs-avoir-r-91",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1474,8 +1474,8 @@
     {
         "id": "fr-etre-vs-avoir-r-92",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1490,8 +1490,8 @@
     {
         "id": "fr-etre-vs-avoir-r-93",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1506,8 +1506,8 @@
     {
         "id": "fr-etre-vs-avoir-r-94",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1522,8 +1522,8 @@
     {
         "id": "fr-etre-vs-avoir-r-95",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1538,8 +1538,8 @@
     {
         "id": "fr-etre-vs-avoir-r-96",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1554,8 +1554,8 @@
     {
         "id": "fr-etre-vs-avoir-r-97",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1570,8 +1570,8 @@
     {
         "id": "fr-etre-vs-avoir-r-98",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1586,8 +1586,8 @@
     {
         "id": "fr-etre-vs-avoir-r-99",
         "type": "cloze",
-        "q": "Je ___ très heureux de vous rencontrer aujourd'hui.",
-        "sentence": "Je [ ___ ] très heureux de vous rencontrer aujourd'hui.",
+        "q": "Je ___ très heureux de travailler avec vous sur ce nouveau projet.",
+        "sentence": "Je [ ___ ] très heureux de travailler avec vous sur ce nouveau projet.",
         "opts": [
             "suis",
             "ai",
@@ -1602,8 +1602,8 @@
     {
         "id": "fr-etre-vs-avoir-r-100",
         "type": "cloze",
-        "q": "J'___ 25 ans et j'ai une grande sœur qui habite à Lyon.",
-        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite à Lyon.",
+        "q": "J'___ 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
+        "sentence": "J'[ ___ ] 25 ans et j'ai une grande sœur qui habite actuellement à Lyon.",
         "opts": [
             "ai",
             "suis",
@@ -1623,11 +1623,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1639,11 +1639,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1655,11 +1655,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1688,8 +1688,8 @@
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "Aucun mot n'est utilisé.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans."
         ],
         "ans": 0,
         "level": "a1",
@@ -1703,11 +1703,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
+            "Aucun mot n'est utilisé.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "Je suis 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1719,11 +1719,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1767,16 +1767,48 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
     {
         "id": "fr-etre-vs-avoir-w-11",
+        "type": "find_mistake",
+        "q": "Trouvez la faute dans cette phrase :",
+        "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+        "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+        "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
+        "opts": [
+            "Aucun mot n'est utilisé.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+        ],
+        "ans": 2,
+        "level": "a1",
+        "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
+    },
+    {
+        "id": "fr-etre-vs-avoir-w-12",
+        "type": "find_mistake",
+        "q": "Trouvez la faute dans cette phrase :",
+        "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+        "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+        "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
+        "opts": [
+            "Aucun mot n'est utilisé.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+        ],
+        "ans": 2,
+        "level": "a1",
+        "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
+    },
+    {
+        "id": "fr-etre-vs-avoir-w-13",
         "type": "find_mistake",
         "q": "Trouvez la faute dans cette phrase :",
         "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
@@ -1792,38 +1824,6 @@
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
     {
-        "id": "fr-etre-vs-avoir-w-12",
-        "type": "find_mistake",
-        "q": "Trouvez la faute dans cette phrase :",
-        "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-        "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-        "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
-        "opts": [
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
-    },
-    {
-        "id": "fr-etre-vs-avoir-w-13",
-        "type": "find_mistake",
-        "q": "Trouvez la faute dans cette phrase :",
-        "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-        "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-        "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
-        "opts": [
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
-    },
-    {
         "id": "fr-etre-vs-avoir-w-14",
         "type": "find_mistake",
         "q": "Trouvez la faute dans cette phrase :",
@@ -1832,8 +1832,8 @@
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans."
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé."
         ],
         "ans": 0,
         "level": "a1",
@@ -1863,11 +1863,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1879,11 +1879,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1896,8 +1896,8 @@
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans."
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé."
         ],
         "ans": 0,
         "level": "a1",
@@ -1911,11 +1911,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1959,9 +1959,9 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
         "ans": 1,
         "level": "a1",
@@ -1975,11 +1975,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -1992,8 +1992,8 @@
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "Aucun mot n'est utilisé.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans."
         ],
         "ans": 0,
         "level": "a1",
@@ -2007,11 +2007,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans."
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2040,10 +2040,10 @@
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
             "Aucun mot n'est utilisé.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2071,11 +2071,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2087,11 +2087,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
+            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2103,11 +2103,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2119,11 +2119,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2135,11 +2135,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2152,10 +2152,10 @@
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
             "Aucun mot n'est utilisé.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2167,11 +2167,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Je suis 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2183,6 +2183,22 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé."
+        ],
+        "ans": 1,
+        "level": "a1",
+        "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
+    },
+    {
+        "id": "fr-etre-vs-avoir-w-37",
+        "type": "find_mistake",
+        "q": "Trouvez la faute dans cette phrase :",
+        "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+        "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+        "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
+        "opts": [
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé."
@@ -2192,7 +2208,7 @@
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
     {
-        "id": "fr-etre-vs-avoir-w-37",
+        "id": "fr-etre-vs-avoir-w-38",
         "type": "find_mistake",
         "q": "Trouvez la faute dans cette phrase :",
         "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
@@ -2208,22 +2224,6 @@
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
     {
-        "id": "fr-etre-vs-avoir-w-38",
-        "type": "find_mistake",
-        "q": "Trouvez la faute dans cette phrase :",
-        "wrongSentence": "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-        "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-        "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
-        "opts": [
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
-        ],
-        "ans": 0,
-        "level": "a1",
-        "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
-    },
-    {
         "id": "fr-etre-vs-avoir-w-39",
         "type": "find_mistake",
         "q": "Trouvez la faute dans cette phrase :",
@@ -2231,11 +2231,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2247,8 +2247,8 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
         "ans": 2,
@@ -2263,11 +2263,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2295,11 +2295,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2311,11 +2311,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2327,8 +2327,8 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
         "ans": 2,
@@ -2343,11 +2343,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Aucun mot n'est utilisé.",
+            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "J'ai 25 ans et j'habite à Paris depuis deux ans."
+            "Aucun mot n'est utilisé."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2375,11 +2375,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
             "Aucun mot n'est utilisé."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2391,11 +2391,11 @@
         "correctSentence": "J'ai 25 ans et j'habite à Paris depuis deux ans.",
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
-            "J'ai 25 ans et j'habite à Paris depuis deux ans.",
+            "Aucun mot n'est utilisé.",
             "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "J'ai 25 ans et j'habite à Paris depuis deux ans."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'."
     },
@@ -2408,8 +2408,8 @@
         "errorExplanation": "En français, on exprime l'âge avec le verbe 'avoir' (j'ai 25 ans) et non avec 'être'.",
         "opts": [
             "J'ai 25 ans et j'habite à Paris depuis deux ans.",
-            "Je suis 25 ans et j'habite à Paris depuis deux ans.",
-            "Aucun mot n'est utilisé."
+            "Aucun mot n'est utilisé.",
+            "Je suis 25 ans et j'habite à Paris depuis deux ans."
         ],
         "ans": 0,
         "level": "a1",
