@@ -4,7 +4,8 @@ const path = require('path');
 const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
 const targetDirs = [
     path.join(__dirname, '../practice/data/grammar'),
-    path.join(__dirname, '../practice/data/grammar/fr')
+    path.join(__dirname, '../practice/data/grammar/fr'),
+    path.join(__dirname, '../practice/data/vocabulary')
 ];
 
 let totalChecked = 0;
@@ -24,7 +25,10 @@ for (const baseDir of targetDirs) {
             const content = fs.readFileSync(filePath, 'utf8');
             eval(content);
 
-            const keys = Object.keys(window.COSY_GRAMMAR_DATA || {});
+            const grammarKeys = Object.keys(window.COSY_GRAMMAR_DATA || {});
+            const vocabKeys = Object.keys(window.COSY_VOCAB_DATA || {});
+            const keys = [...grammarKeys, ...vocabKeys];
+
             if (keys.length === 0) {
                 console.error(`No dataset found in ${filePath}`);
                 errorsFound++;
@@ -32,7 +36,15 @@ for (const baseDir of targetDirs) {
             }
 
             const dataKey = keys[keys.length - 1];
-            const data = window.COSY_GRAMMAR_DATA[dataKey];
+            const data = (window.COSY_GRAMMAR_DATA && window.COSY_GRAMMAR_DATA[dataKey]) ||
+                         (window.COSY_VOCAB_DATA && window.COSY_VOCAB_DATA[dataKey]);
+
+            if (!data) {
+                console.error(`Could not read dataset key ${dataKey} in ${filePath}`);
+                errorsFound++;
+                continue;
+            }
+
             const sentences = data.sentences || [];
 
             const rightSentences = sentences.filter(s => s.type !== 'find_mistake');

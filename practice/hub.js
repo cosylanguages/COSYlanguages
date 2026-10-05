@@ -122,6 +122,7 @@
             `;
             updateSubThemes();
             updateHandoffLinks();
+            renderThemeProgressTrackers();
             return;
         }
 
@@ -172,6 +173,54 @@
                     const opt = document.createElement('option');
                     opt.value = t;
                     opt.textContent = t.replace(/-/g, ' ');
+                    themeSelect.appendChild(opt);
+                });
+            }
+
+            updateSubThemes();
+            updateHandoffLinks();
+            return;
+        }
+
+        if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
+            const levelSelect = document.getElementById('level-filter');
+            const lvlVal = levelSelect ? levelSelect.value : 'all';
+            const normLvl = (lvlVal === 'starter' || lvlVal === 'a1') ? 'a1' :
+                            (lvlVal === 'elementary' || lvlVal === 'a2') ? 'a2' :
+                            (lvlVal === 'intermediate' || lvlVal === 'b1') ? 'b1' :
+                            (lvlVal === 'upper_intermediate' || lvlVal === 'b2') ? 'b2' :
+                            (lvlVal === 'advanced' || lvlVal === 'c1') ? 'c1' :
+                            (lvlVal === 'proficiency' || lvlVal === 'c2') ? 'c2' : 'all';
+
+            themeSelect.innerHTML = '<option value="all">All Vocabulary Categories</option>';
+
+            const vocabPairs = window.COSY_VOCAB_CONFUSION_PAIRS || {};
+            let availableVocab = [];
+
+            if (normLvl !== 'all' && vocabPairs[normLvl]) {
+                availableVocab = vocabPairs[normLvl];
+            } else {
+                Object.values(vocabPairs).forEach(arr => {
+                    availableVocab.push(...arr);
+                });
+            }
+
+            if (availableVocab.length > 0) {
+                const seen = new Set();
+                availableVocab.forEach(p => {
+                    if (!seen.has(p.id)) {
+                        seen.add(p.id);
+                        const opt = document.createElement('option');
+                        opt.value = p.id;
+                        opt.textContent = `${p.group}: ${p.label}`;
+                        themeSelect.appendChild(opt);
+                    }
+                });
+            } else if (window.COSY_THEME_TREE) {
+                Object.keys(window.COSY_THEME_TREE).forEach(t => {
+                    const opt = document.createElement('option');
+                    opt.value = t;
+                    opt.textContent = (window.t && window.t('theme_' + t)) || t.replace(/_/g, ' ');
                     themeSelect.appendChild(opt);
                 });
             }
@@ -560,6 +609,65 @@
             mastery = {};
         }
 
+        const levelSelect = document.getElementById('level-filter');
+        const lvlVal = (levelSelect ? levelSelect.value : 'all').toLowerCase().trim();
+        const normLvl = (lvlVal === 'starter' || lvlVal.includes('a1')) ? 'a1' :
+                        (lvlVal === 'elementary' || lvlVal.includes('a2')) ? 'a2' :
+                        (lvlVal === 'intermediate' || lvlVal.includes('b1')) ? 'b1' :
+                        (lvlVal === 'upper_intermediate' || lvlVal.includes('b2')) ? 'b2' :
+                        (lvlVal === 'advanced' || lvlVal.includes('c1')) ? 'c1' :
+                        (lvlVal === 'proficiency' || lvlVal.includes('c2')) ? 'c2' : 'all';
+
+        let categoryItems = [];
+
+        if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
+            const vocabPairs = window.COSY_VOCAB_CONFUSION_PAIRS || {};
+            if (normLvl !== 'all' && vocabPairs[normLvl]) {
+                categoryItems = vocabPairs[normLvl];
+            } else {
+                Object.values(vocabPairs).forEach(arr => categoryItems.push(...arr));
+            }
+        } else if (selectedCat === 'grammar') {
+            const grammarPairs = window.COSY_GRAMMAR_CONFUSION_PAIRS || {};
+            if (normLvl !== 'all' && grammarPairs[normLvl]) {
+                categoryItems = grammarPairs[normLvl];
+            } else {
+                Object.values(grammarPairs).forEach(arr => categoryItems.push(...arr));
+            }
+        }
+
+        if (categoryItems.length > 0) {
+            const groupsMap = {};
+            categoryItems.forEach(item => {
+                const grp = item.group || item.label || 'General';
+                if (!groupsMap[grp]) groupsMap[grp] = [];
+                groupsMap[grp].push(item);
+            });
+
+            listEl.innerHTML = Object.keys(groupsMap).map(groupName => {
+                const pairsInGroup = groupsMap[groupName];
+                const firstPair = pairsInGroup[0];
+                const progress = mastery[firstPair.id] || 0;
+
+                let progressColor = 'var(--teal)';
+                if (progress < 30) progressColor = 'var(--coral)';
+                else if (progress < 70) progressColor = 'var(--gold)';
+
+                return `
+                    <div class="progress-tracker-row" style="cursor: pointer;" onclick="window.cosyPractice.quickStart('${selectedLang}', '${selectedCat}', '${normLvl}', '${firstPair.id}')">
+                        <div class="progress-tracker-info">
+                            <span class="tracker-theme-name"><strong>${groupName}</strong>: ${pairsInGroup.map(p => p.label).slice(0, 3).join(', ')}${pairsInGroup.length > 3 ? '...' : ''}</span>
+                            <span class="tracker-theme-val" style="color: ${progressColor}">${progress}%</span>
+                        </div>
+                        <div class="tracker-progress-bg">
+                            <div class="tracker-progress-bar" style="width: ${progress}%; background: ${progressColor};"></div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            return;
+        }
+
         const themes = window.COSY_THEME_TREE ? Object.keys(window.COSY_THEME_TREE) : [
             'Psychology_&_Mind', 'Society_&_Politics', 'Influences_&_Biases',
             'Habits_&_Addiction', 'Food,_Drink_&_Health', 'Science_&_Technology',
@@ -571,7 +679,6 @@
             const progress = mastery[theme] || 0;
             const displayName = (window.t && window.t('theme_' + theme)) || theme.replace(/_/g, ' ');
 
-            // Choose nice colors for progress indicators
             let progressColor = 'var(--teal)';
             if (progress < 30) progressColor = 'var(--coral)';
             else if (progress < 70) progressColor = 'var(--gold)';
@@ -675,6 +782,11 @@
         const normHyphen = lower.replace(/_/g, '-');
         const normUnderscore = lower.replace(/-/g, '_');
         if (lower === 'to_be' || lower === 'to-be') return true;
+
+        if (window.COSY_VOCAB_CONFUSION_PAIRS) {
+            const allVocabPairs = Object.values(window.COSY_VOCAB_CONFUSION_PAIRS).flat().map(p => p.id.toLowerCase());
+            if (allVocabPairs.includes(lower) || allVocabPairs.includes(normHyphen) || allVocabPairs.includes(normUnderscore)) return true;
+        }
 
         if (window.COSY_GRAMMAR_CONFUSION_PAIRS) {
             const allPairs = Object.values(window.COSY_GRAMMAR_CONFUSION_PAIRS).flat().map(p => p.id.toLowerCase());
