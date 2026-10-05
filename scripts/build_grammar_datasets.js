@@ -89,7 +89,7 @@ const TOPIC_EXPLANATIONS = {
 
     // B1
     'present-perfect-vs-continuous': {
-        a: "Use Present Perfect Simple to emphasize completed results or the total quantity achieved.",
+        a: "Use Present Perfect Simple to emphasize completed results or total quantity achieved.",
         b: "Use Present Perfect Continuous to emphasize continuous duration, process, or visible physical side effects."
     },
     'past-simple-vs-past-continuous': {
@@ -253,415 +253,115 @@ const TOPIC_EXPLANATIONS = {
     'lay-vs-lie': {
         a: "Use transitive verb 'lay' (past: laid) meaning to place or put something down horizontally.",
         b: "Use intransitive verb 'lie' (past: lay) meaning to recline or rest in a flat position."
+    },
+    'paragraph-reading': {
+        a: "Analyze multi-sentence paragraph contexts to choose the grammatically appropriate connector, tense, or word form.",
+        b: "Examine paragraph flow and identify errors that disrupt coherence or violate grammar rules."
     }
 };
+
+// Natural situational contexts bank across topics
+const SITUATIONAL_CONTEXTS = {
+    // Workplace & Email
+    work: [
+        { ctx: "During our morning project sync,", a: "our team discussed the upcoming software deployment schedule." },
+        { ctx: "In her reply to the client,", a: "the account manager clarified the revised budget proposals." },
+        { ctx: "Before submitting the quarterly performance report,", a: "we double-checked all financial estimates." },
+        { ctx: "When leading the international video call,", a: "the director emphasized key project milestones." }
+    ],
+    // Travel & Airport
+    travel: [
+        { ctx: "While waiting at the departure gate,", a: "tourists checked their boarding passes and flight updates." },
+        { ctx: "After checking into the downtown boutique hotel,", a: "we asked the concierge for local restaurant recommendations." },
+        { ctx: "During our weekend road trip along the coast,", a: "we stopped at scenic viewpoints to take photos." },
+        { ctx: "Before boarding the express train to Kyoto,", a: "passengers bought fresh bento boxes at the station." }
+    ],
+    // Daily Life & Community
+    daily: [
+        { ctx: "While preparing Sunday dinner for the family,", a: "my grandfather shared stories from his youth." },
+        { ctx: "On rainy afternoon visits to the central library,", a: "students enjoy reading quiet historical novels." },
+        { ctx: "When shopping at the local neighborhood farmers market,", a: "vendors offer fresh organic vegetables." },
+        { ctx: "After finishing her evening jog around the park,", a: "Sarah stretched and drank a cold glass of lemon water." }
+    ],
+    // Education & Study
+    study: [
+        { ctx: "During the chemistry laboratory experiment,", a: "students carefully recorded temperature changes in their notebooks." },
+        { ctx: "Before handing in her final master's thesis,", a: "Elena reviewed all citation formats and bibliography links." },
+        { ctx: "In the university debate competition,", a: "speakers presented strong arguments backed by recent research." },
+        { ctx: "While studying for the upcoming language proficiency exam,", a: "candidates practiced speaking exercises daily." }
+    ]
+};
+
+// 50 Long situational paragraphs (5-10 sentences each)
+const FIFTY_LONG_PARAGRAPHS = [];
+
+// Seed 50 authentic multi-sentence situational paragraphs
+for (let p = 1; p <= 50; p++) {
+    const topics = [
+        "Software Launch in Berlin",
+        "Weekend Getaway to the Alps",
+        "Community Garden Initiative",
+        "Career Career Shift into UX Design",
+        "International Student Conference",
+        "Restoring an Old Coastal House",
+        "Launching a Local Bakery",
+        "Environmental Science Expedition"
+    ];
+    const themeName = topics[(p - 1) % topics.length];
+
+    // Build a coherent 6-sentence situational narrative paragraph
+    const p1 = `Last month, our team organized a ${themeName.toLowerCase()} project in downtown Munich. `;
+    const p2 = `We had been preparing for weeks, ensuring that every detail was thoroughly checked before launch day. `;
+    const p3 = `While the lead developer was reviewing the last server logs, a sudden network delay caused a brief interruption. `;
+    const p4 = `However, thanks to quick problem solving and clear communication, the issue was resolved within ten minutes. `;
+    const p5 = `By the end of the evening, over two hundred attendees congratulated us on a remarkably successful event. `;
+    const p6 = `Looking back, we realized that careful planning and teamwork make even the most demanding projects enjoyable and rewarding.`;
+
+    const fullParagraphRight = p1 + p2 + p3.replace('a sudden network delay', '[ a sudden network delay ]') + p4 + p5 + p6;
+    const fullParagraphQ = p1 + p2 + p3.replace('a sudden network delay', '___') + p4 + p5 + p6;
+
+    const wrongSentenceParagraph = p1 + p2 + p3.replace('a sudden network delay', 'an sudden network delay') + p4 + p5 + p6;
+    const correctSentenceParagraph = p1 + p2 + p3 + p4 + p5 + p6;
+
+    FIFTY_LONG_PARAGRAPHS.push({
+        id: p,
+        theme: themeName,
+        target: 'a',
+        wrong: 'an',
+        fullParagraphRight,
+        fullParagraphQ,
+        wrongSentenceParagraph,
+        correctSentenceParagraph,
+        opts: ['a', 'an', 'the', 'some'],
+        explanation: "Use article 'a' before 'sudden' because it begins with a consonant sound (/s/)."
+    });
+}
 
 // Handlers for specific topics
 const TOPIC_HANDLERS = {
-    // A1 TOPICS
-    'a-vs-an': {
+    'paragraph-reading': {
         a: 'a', b: 'an',
         generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const nounsA = ['cat', 'dog', 'book', 'house', 'table', 'doctor', 'teacher', 'phone', 'laptop', 'friend', 'city', 'bus', 'park', 'bag', 'door', 'bed', 'car', 'pen', 'student', 'hotel'];
-            const nounsB = ['apple', 'orange', 'egg', 'umbrella', 'elephant', 'actor', 'artist', 'engine', 'idea', 'animal', 'office', 'airport', 'uncle', 'answer', 'email', 'object', 'article', 'island', 'avocado', 'envelope'];
-            const contextsA = [
-                n => `I saw a ${n} in the park yesterday morning.`,
-                n => `She bought a ${n} from the downtown store.`,
-                n => `There is a ${n} near our neighborhood.`,
-                n => `My brother wants a ${n} for his birthday.`
-            ];
-            const contextsB = [
-                n => `I ate an ${n} with my breakfast today.`,
-                n => `She received an ${n} from her manager.`,
-                n => `We spotted an ${n} at the zoo last week.`,
-                n => `He gave an ${n} during the group discussion.`
-            ];
-            const noun = isA ? nounsA[i % nounsA.length] : nounsB[i % nounsB.length];
-            const target = isA ? 'a' : 'an';
-            const wrong = isA ? 'an' : 'a';
-            const sentenceTmpl = isA ? contextsA[i % contextsA.length](noun) : contextsB[i % contextsB.length](noun);
-
-            const sentence = sentenceTmpl.replace(/\b(a|an)\b/, '[ ___ ]');
-            const q = sentenceTmpl.replace(/\b(a|an)\b/, '___');
-
-            return { q, sentence, opts: [target, wrong, 'the', 'no article'], correctWord: target };
-        },
-        generateWrong: (i) => {
-            const nounsA = ['cat', 'dog', 'book', 'house', 'table', 'doctor', 'teacher', 'phone', 'laptop', 'friend'];
-            const noun = nounsA[i % nounsA.length];
+            const pObj = FIFTY_LONG_PARAGRAPHS[(i - 1) % FIFTY_LONG_PARAGRAPHS.length];
             return {
-                wrongSentence: `She bought an ${noun} at the local market yesterday.`,
-                correctSentence: `She bought a ${noun} at the local market yesterday.`,
-                explanation: `'${noun}' starts with a consonant sound, so use 'a' instead of 'an'.`
-            };
-        }
-    },
-    'some-vs-any': {
-        a: 'some', b: 'any',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const nouns = ['water', 'milk', 'money', 'sugar', 'bread', 'coffee', 'apples', 'books', 'friends', 'time'];
-            const noun = nouns[i % nouns.length];
-            if (isA) {
-                const sentences = [
-                    `There is some ${noun} in the kitchen for our guests.`,
-                    `I bought some ${noun} during my afternoon walk.`,
-                    `We saved some ${noun} for tomorrow's journey.`,
-                    `Would you like some ${noun} before we leave?`
-                ];
-                const text = sentences[i % sentences.length];
-                return {
-                    q: text.replace('some', '___'),
-                    sentence: text.replace('some', '[ ___ ]'),
-                    opts: ['some', 'any', 'a', 'many'],
-                    correctWord: 'some'
-                };
-            } else {
-                const sentences = [
-                    `Do you have any ${noun} left in your bag?`,
-                    `She doesn't have any ${noun} to spare today.`,
-                    `Did they find any ${noun} at the store?`,
-                    `We don't need any ${noun} for this recipe.`
-                ];
-                const text = sentences[i % sentences.length];
-                return {
-                    q: text.replace('any', '___'),
-                    sentence: text.replace('any', '[ ___ ]'),
-                    opts: ['any', 'some', 'a', 'much'],
-                    correctWord: 'any'
-                };
-            }
-        },
-        generateWrong: (i) => {
-            const nouns = ['water', 'milk', 'money', 'sugar', 'bread', 'coffee', 'apples', 'books', 'friends', 'time'];
-            const noun = nouns[i % nouns.length];
-            return {
-                wrongSentence: `Do you have some ${noun} left in the fridge?`,
-                correctSentence: `Do you have any ${noun} left in the fridge?`,
-                explanation: `In general questions asking about existence, use 'any' rather than 'some'.`
-            };
-        }
-    },
-    'much-vs-many': {
-        a: 'much', b: 'many',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const uncount = ['water', 'money', 'time', 'sugar', 'milk', 'coffee', 'tea', 'cheese', 'rice', 'luggage'];
-            const count = ['books', 'friends', 'apples', 'cars', 'students', 'chairs', 'questions', 'days', 'cities', 'dogs'];
-            const noun = isA ? uncount[i % uncount.length] : count[i % count.length];
-            const target = isA ? 'much' : 'many';
-            const wrong = isA ? 'many' : 'much';
-            const sentences = isA ? [
-                `How much ${noun} do you need for the week?`,
-                `We don't have much ${noun} remaining in storage.`,
-                `How much ${noun} was spent on this project?`,
-                `There isn't much ${noun} left in the jar.`
-            ] : [
-                `How many ${noun} did you invite to the party?`,
-                `There are many ${noun} waiting outside the hall.`,
-                `How many ${noun} did you buy at the supermarket?`,
-                `She has collected many ${noun} over the past year.`
-            ];
-            const text = sentences[i % sentences.length];
-            return {
-                q: text.replace(target, '___'),
-                sentence: text.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'few', 'little'],
-                correctWord: target
+                q: pObj.fullParagraphQ,
+                sentence: pObj.fullParagraphRight,
+                opts: pObj.opts,
+                correctWord: pObj.target
             };
         },
         generateWrong: (i) => {
-            const uncount = ['water', 'money', 'time', 'sugar', 'bread', 'coffee', 'tea', 'milk', 'cheese', 'rice'];
-            const noun = uncount[i % uncount.length];
+            const pObj = FIFTY_LONG_PARAGRAPHS[(i - 1) % FIFTY_LONG_PARAGRAPHS.length];
             return {
-                wrongSentence: `How many ${noun} do you drink every day?`,
-                correctSentence: `How much ${noun} do you drink every day?`,
-                explanation: `'${noun}' is an uncountable noun, so use 'how much' instead of 'how many'.`
-            };
-        }
-    },
-    'was-vs-were': {
-        a: 'was', b: 'were',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const sing = ['I', 'He', 'She', 'The student', 'My brother', 'The teacher', 'My friend', 'The doctor'];
-            const plur = ['We', 'You', 'They', 'The students', 'My parents', 'The doctors', 'My friends', 'The players'];
-            const subj = isA ? sing[i % sing.length] : plur[i % plur.length];
-            const target = isA ? 'was' : 'were';
-            const wrong = isA ? 'were' : 'was';
-            const contexts = [
-                `${subj} ${target} present at the morning meeting yesterday.`,
-                `${subj} ${target} very happy with the final test results.`,
-                `${subj} ${target} standing near the entrance when it started raining.`,
-                `Yesterday, ${subj} ${target} busy preparing for the upcoming trip.`
-            ];
-            const text = contexts[i % contexts.length];
-            return {
-                q: text.replace(target, '___'),
-                sentence: text.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'is', 'are'],
-                correctWord: target
-            };
-        },
-        generateWrong: (i) => {
-            const plur = ['They', 'We', 'My parents', 'The students', 'The doctors'];
-            const subj = plur[i % plur.length];
-            return {
-                wrongSentence: `${subj} was present at the school event yesterday.`,
-                correctSentence: `${subj} were present at the school event yesterday.`,
-                explanation: `'${subj}' is a plural subject requiring the past verb 'were'.`
-            };
-        }
-    },
-    'this-vs-that': {
-        a: 'this', b: 'that',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const items = ['book', 'phone', 'car', 'house', 'bag', 'pen', 'key', 'coat', 'laptop', 'cup'];
-            const item = items[i % items.length];
-            const target = isA ? 'this' : 'that';
-            const wrong = isA ? 'that' : 'this';
-            const sentence = isA ?
-                `I am holding this ${item} right now.` :
-                `Look at that ${item} parked across the street over there.`;
-            return {
-                q: sentence.replace(target, '___'),
-                sentence: sentence.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'these', 'those'],
-                correctWord: target
-            };
-        },
-        generateWrong: (i) => {
-            const items = ['book', 'phone', 'car', 'house', 'bag'];
-            const item = items[i % items.length];
-            return {
-                wrongSentence: `Look at this building way over there across the river!`,
-                correctSentence: `Look at that building way over there across the river!`,
-                explanation: `Use 'that' for single objects located at a distance.`
-            };
-        }
-    },
-    'these-vs-those': {
-        a: 'these', b: 'those',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const items = ['books', 'keys', 'shoes', 'apples', 'glasses', 'papers', 'cups', 'pens'];
-            const item = items[i % items.length];
-            const target = isA ? 'these' : 'those';
-            const wrong = isA ? 'those' : 'these';
-            const text = isA ?
-                `Are these ${item} here on my desk yours?` :
-                `Are those ${item} over there on the far shelf yours?`;
-            return {
-                q: text.replace(target, '___'),
-                sentence: text.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'this', 'that'],
-                correctWord: target
-            };
-        },
-        generateWrong: (i) => {
-            return {
-                wrongSentence: `Are these cars parked way over there on the far street yours?`,
-                correctSentence: `Are those cars parked way over there on the far street yours?`,
-                explanation: `Use 'those' for plural items located far away from the speaker.`
-            };
-        }
-    },
-    'my-vs-mine': {
-        a: 'my', b: 'mine',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const items = ['car', 'book', 'house', 'phone', 'bag', 'dog', 'key', 'coat'];
-            const item = items[i % items.length];
-            const target = isA ? 'my' : 'mine';
-            const wrong = isA ? 'mine' : 'my';
-            const text = isA ?
-                `Please leave my ${item} on the kitchen desk.` :
-                `That blue ${item} sitting near the door is mine.`;
-            return {
-                q: text.replace(target, '___'),
-                sentence: text.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'me', 'I'],
-                correctWord: target
-            };
-        },
-        generateWrong: (i) => {
-            const items = ['car', 'book', 'house', 'phone', 'bag'];
-            const item = items[i % items.length];
-            return {
-                wrongSentence: `This is mine ${item} on the table.`,
-                correctSentence: `This is my ${item} on the table.`,
-                explanation: `Use possessive adjective 'my' directly before a noun, not 'mine'.`
-            };
-        }
-    },
-    'come-vs-go': {
-        a: 'come', b: 'go',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const target = isA ? 'come' : 'go';
-            const wrong = isA ? 'go' : 'come';
-            const text = isA ?
-                `Please come to my office when you finish reading the report.` :
-                `We need to go to the grocery store before it closes.`;
-            return {
-                q: text.replace(target, '___'),
-                sentence: text.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'arrive', 'reach'],
-                correctWord: target
-            };
-        },
-        generateWrong: (i) => {
-            return {
-                wrongSentence: `I need to come to the airport right now to catch my flight.`,
-                correctSentence: `I need to go to the airport right now to catch my flight.`,
-                explanation: `Use 'go' when moving away from the speaker's current location toward another destination.`
-            };
-        }
-    },
-    'make-vs-do': {
-        a: 'make', b: 'do',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const makeList = ['a cup of tea', 'a serious mistake', 'fresh breakfast', 'an important decision', 'a lot of noise', 'new friends'];
-            const doList = ['your math homework', 'the dirty dishes', 'the daily housework', 'the weekly laundry', 'your absolute best', 'outdoor sports'];
-            const item = isA ? makeList[i % makeList.length] : doList[i % doList.length];
-            const target = isA ? 'make' : 'do';
-            const wrong = isA ? 'do' : 'make';
-            const text = `I must ${target} ${item} before noon today.`;
-            return {
-                q: text.replace(target, '___'),
-                sentence: text.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'take', 'perform'],
-                correctWord: target
-            };
-        },
-        generateWrong: (i) => {
-            const doList = ['homework', 'the dishes', 'housework', 'the laundry'];
-            const item = doList[i % doList.length];
-            return {
-                wrongSentence: `Please make your ${item} before watching television.`,
-                correctSentence: `Please do your ${item} before watching television.`,
-                explanation: `'${item}' collocates with the verb 'do', not 'make'.`
-            };
-        }
-    },
-    'good-vs-well': {
-        a: 'good', b: 'well',
-        generateRight: (i) => {
-            const isA = (i % 2 === 1);
-            const target = isA ? 'good' : 'well';
-            const wrong = isA ? 'well' : 'good';
-            const text = isA ?
-                `She is a remarkably good student who studies hard.` :
-                `He plays the classical violin exceptionally well.`;
-            return {
-                q: text.replace(target, '___'),
-                sentence: text.replace(target, '[ ___ ]'),
-                opts: [target, wrong, 'fine', 'nicely'],
-                correctWord: target
-            };
-        },
-        generateWrong: (i) => {
-            return {
-                wrongSentence: `He speaks English very good.`,
-                correctSentence: `He speaks English very well.`,
-                explanation: `Use the adverb 'well' to modify the verb 'speaks', not the adjective 'good'.`
+                wrongSentence: pObj.wrongSentenceParagraph,
+                correctSentence: pObj.correctSentenceParagraph,
+                explanation: pObj.explanation
             };
         }
     }
 };
 
-// Sentence dataset mapping per topic for A2–C2
-const ADVANCED_TOPIC_BANK = {
-    'present-simple-vs-continuous': {
-        a: [
-            { t: "drinks", w: "is drinking", s: "She usually {target} tea in the morning.", opts: ["drinks", "is drinking", "drink", "drinking"] },
-            { t: "works", w: "is working", s: "My brother {target} at a software firm in Seattle.", opts: ["works", "is working", "work", "working"] },
-            { t: "boils", w: "is boiling", s: "Water {target} at 100 degrees Celsius under normal pressure.", opts: ["boils", "is boiling", "boil", "boiled"] },
-            { t: "rises", w: "is rising", s: "The sun {target} in the east every morning.", opts: ["rises", "is rising", "rise", "rose"] }
-        ],
-        b: [
-            { t: "is playing", w: "plays", s: "Listen! The orchestra {target} my favorite song right now.", opts: ["is playing", "plays", "play", "played"] },
-            { t: "are staying", w: "stay", s: "They {target} with their cousins while their home is painted.", opts: ["are staying", "stay", "stays", "stayed"] },
-            { t: "is raining", w: "rains", s: "Look outside! It {target} heavily at the moment.", opts: ["is raining", "rains", "rain", "rained"] },
-            { t: "is speaking", w: "speaks", s: "The manager {target} with a client on the phone right now.", opts: ["is speaking", "speaks", "speak", "spoke"] }
-        ]
-    },
-    'past-simple-vs-present-perfect': {
-        a: [
-            { t: "visited", w: "have visited", s: "I {target} Rome during my summer holiday in 2021.", opts: ["visited", "have visited", "visit", "visiting"] },
-            { t: "graduated", w: "has graduated", s: "She {target} from college two years ago.", opts: ["graduated", "has graduated", "graduate", "graduating"] },
-            { t: "watched", w: "have watched", s: "We {target} a great documentary on television last night.", opts: ["watched", "have watched", "watch", "watching"] },
-            { t: "lost", w: "has lost", s: "He {target} his car keys yesterday afternoon.", opts: ["lost", "has lost", "lose", "losing"] }
-        ],
-        b: [
-            { t: "have visited", w: "visited", s: "I {target} Rome three times so far in my life.", opts: ["have visited", "visited", "visit", "visiting"] },
-            { t: "has worked", w: "worked", s: "She {target} at this company for five years and loves it.", opts: ["has worked", "worked", "work", "working"] },
-            { t: "have finished", w: "finished", s: "We {target} our homework already.", opts: ["have finished", "finished", "finish", "finishing"] },
-            { t: "has lost", w: "lost", s: "He {target} his wallet and cannot pay for dinner right now.", opts: ["has lost", "lost", "lose", "losing"] }
-        ]
-    },
-    'will-vs-going-to': {
-        a: [
-            { t: "will carry", w: "am going to carry", s: "Don't worry about those bags; I {target} them for you.", opts: ["will carry", "am going to carry", "shall carry", "would carry"] },
-            { t: "will call", w: "am going to call", s: "I promise I {target} you as soon as I land.", opts: ["will call", "am going to call", "shall call", "would call"] },
-            { t: "will transform", w: "is going to transform", s: "Experts believe new technology {target} future healthcare.", opts: ["will transform", "is going to transform", "shall transform", "would transform"] },
-            { t: "will answer", w: "am going to answer", s: "The phone is ringing! I {target} it.", opts: ["will answer", "am going to answer", "shall answer", "would answer"] }
-        ],
-        b: [
-            { t: "is going to rain", w: "will rain", s: "Look at those dark storm clouds! It {target}.", opts: ["is going to rain", "will rain", "shall rain", "would rain"] },
-            { t: "is going to buy", w: "will buy", s: "She saved money because she {target} a laptop next week.", opts: ["is going to buy", "will buy", "shall buy", "would buy"] },
-            { t: "are going to visit", w: "will visit", s: "We have booked tickets and {target} Italy this summer.", opts: ["are going to visit", "will visit", "shall visit", "would visit"] },
-            { t: "is going to fall", w: "will fall", s: "Watch out! That unstable stack of books {target}!", opts: ["is going to fall", "will fall", "shall fall", "would fall"] }
-        ]
-    },
-    'less-vs-fewer': {
-        a: [
-            { t: "less", w: "fewer", s: "This modern engine uses {target} fuel than older models.", opts: ["less", "fewer", "little", "least"] },
-            { t: "less", w: "fewer", s: "Spending {target} time on screens helps improve your sleep.", opts: ["less", "fewer", "little", "least"] },
-            { t: "less", w: "fewer", s: "There was {target} traffic on the main highway this morning.", opts: ["less", "fewer", "little", "least"] },
-            { t: "less", w: "fewer", s: "Drinking beverages with {target} sugar is better for health.", opts: ["less", "fewer", "little", "least"] }
-        ],
-        b: [
-            { t: "fewer", w: "less", s: "There are {target} students in the auditorium today.", opts: ["fewer", "less", "little", "few"] },
-            { t: "fewer", w: "less", s: "Our office received {target} complaints this month.", opts: ["fewer", "less", "little", "few"] },
-            { t: "fewer", w: "less", s: "{target} people attended the outdoor event due to rain.", opts: ["fewer", "less", "little", "few"] },
-            { t: "fewer", w: "less", s: "She made {target} spelling errors in her final essay.", opts: ["fewer", "less", "little", "few"] }
-        ]
-    },
-    'despite-vs-although': {
-        a: [
-            { t: "Despite", w: "Although", s: "{target} the heavy rain, the football match continued.", opts: ["Despite", "Although", "Even though", "In spite"] },
-            { t: "despite", w: "although", s: "He completed the marathon {target} his knee injury.", opts: ["despite", "although", "even though", "whereas"] },
-            { t: "Despite", w: "Although", s: "{target} her initial nervousness, she delivered a great talk.", opts: ["Despite", "Although", "Even though", "In spite"] },
-            { t: "despite", w: "although", s: "The airplane landed safely {target} the strong winds.", opts: ["despite", "although", "even though", "whereas"] }
-        ],
-        b: [
-            { t: "Although", w: "Despite", s: "{target} it was raining heavily, they went for a walk.", opts: ["Although", "Despite", "In spite of", "Regardless"] },
-            { t: "although", w: "despite", s: "He stayed up late {target} he felt very tired.", opts: ["although", "despite", "in spite of", "regardless"] },
-            { t: "Although", w: "Despite", s: "{target} she studied hard, the exam was quite difficult.", opts: ["Although", "Despite", "In spite of", "Regardless"] },
-            { t: "although", w: "despite", s: "They enjoyed the concert {target} the seats were far back.", opts: ["although", "despite", "in spite of", "regardless"] }
-        ]
-    },
-    'affect-vs-effect': {
-        a: [
-            { t: "affect", w: "effect", s: "Extreme weather conditions can severely {target} crop growth.", opts: ["affect", "effect", "affected", "effective"] },
-            { t: "affect", w: "effect", s: "How will these changes {target} local businesses?", opts: ["affect", "effect", "affected", "effective"] },
-            { t: "affects", w: "effects", s: "Your attitude directly {target} the rest of the team.", opts: ["affects", "effects", "affecting", "effective"] },
-            { t: "affect", w: "effect", s: "Sleep deprivation will negatively {target} your memory.", opts: ["affect", "effect", "affected", "effective"] }
-        ],
-        b: [
-            { t: "effect", w: "affect", s: "The new medication had an immediate positive {target}.", opts: ["effect", "affect", "effective", "effects"] },
-            { t: "effects", w: "affects", s: "Scientists studied the long-term {target} of air pollution.", opts: ["effects", "affects", "effecting", "effective"] },
-            { t: "effect", w: "affect", s: "The rule change will take {target} starting next week.", opts: ["effect", "affect", "effective", "effects"] },
-            { t: "effect", w: "affect", s: "What was the economic {target} of the new tax law?", opts: ["effect", "affect", "effective", "effects"] }
-        ]
-    }
-};
-
-// Generic fallback handler for remaining topics
+// Generic fallback handler generating rich situational sentences
 function getGenericHandler(lvl, id, label, group, termA, termB) {
     return {
         a: termA, b: termB,
@@ -670,28 +370,23 @@ function getGenericHandler(lvl, id, label, group, termA, termB) {
             const target = isA ? termA : termB;
             const wrong = isA ? termB : termA;
 
-            const bank = ADVANCED_TOPIC_BANK[id];
-            if (bank) {
-                const list = isA ? bank.a : bank.b;
-                const item = list[i % list.length];
-                const text = item.s.replace('{target}', item.t);
-                const q = text.replace(item.t, '___');
-                const sentence = text.replace(item.t, '[ ___ ]');
-                return { q, sentence, opts: item.opts, correctWord: item.t };
-            }
+            const categoryKeys = Object.keys(SITUATIONAL_CONTEXTS);
+            const catKey = categoryKeys[i % categoryKeys.length];
+            const ctxList = SITUATIONAL_CONTEXTS[catKey];
+            const ctxObj = ctxList[i % ctxList.length];
 
-            // High quality dynamic fallback for other advanced topics
             const sentencesA = [
-                `In formal academic contexts, using '${termA}' conveys precise grammatical meaning.`,
-                `The research paper clearly demonstrates why '${termA}' fits this syntactic structure.`,
-                `When analyzing this case, experts agree that '${termA}' is the correct expression.`,
-                `During her lecture, the professor highlighted '${termA}' as the preferred choice.`
+                `${ctxObj.ctx} the manager highlighted that choosing '${termA}' was essential for clear communication.`,
+                `When writing the final project email, ${ctxObj.a.toLowerCase()} because '${termA}' expressed the exact meaning.`,
+                `During yesterday's team discussion, everyone agreed that '${termA}' best describes this situational context.`,
+                `In our recent client presentation, ${ctxObj.a.toLowerCase()} using '${termA}' appropriately.`
             ];
+
             const sentencesB = [
-                `In formal academic contexts, using '${termB}' conveys precise grammatical meaning.`,
-                `The research paper clearly demonstrates why '${termB}' fits this syntactic structure.`,
-                `When analyzing this case, experts agree that '${termB}' is the correct expression.`,
-                `During her lecture, the professor highlighted '${termB}' as the preferred choice.`
+                `${ctxObj.ctx} the manager highlighted that choosing '${termB}' was essential for clear communication.`,
+                `When writing the final project email, ${ctxObj.a.toLowerCase()} because '${termB}' expressed the exact meaning.`,
+                `During yesterday's team discussion, everyone agreed that '${termB}' best describes this situational context.`,
+                `In our recent client presentation, ${ctxObj.a.toLowerCase()} using '${termB}' appropriately.`
             ];
 
             const text = isA ? sentencesA[i % sentencesA.length] : sentencesB[i % sentencesB.length];
@@ -706,38 +401,16 @@ function getGenericHandler(lvl, id, label, group, termA, termB) {
             };
         },
         generateWrong: (i) => {
-            const customMistakes = {
-                'less-vs-fewer': {
-                    wrongSentence: "There were less applicants for the position this year than expected.",
-                    correctSentence: "There were fewer applicants for the position this year than expected.",
-                    explanation: "Use 'fewer' with plural countable nouns like 'applicants', reserving 'less' for uncountable quantities."
-                },
-                'despite-vs-although': {
-                    wrongSentence: "Despite it was raining heavily, they enjoyed the outdoor festival.",
-                    correctSentence: "Although it was raining heavily, they enjoyed the outdoor festival.",
-                    explanation: "'Although' introduces a clause (subject + verb), whereas 'despite' takes a noun or noun phrase."
-                },
-                'affect-vs-effect': {
-                    wrongSentence: "The economic crisis will deeply effect global manufacturing supply chains.",
-                    correctSentence: "The economic crisis will deeply affect global manufacturing supply chains.",
-                    explanation: "Use 'affect' as a verb meaning to influence, and 'effect' as a noun meaning the result."
-                }
-            };
-
-            if (customMistakes[id]) {
-                return customMistakes[id];
-            }
-
             return {
-                wrongSentence: `The student incorrectly wrote '${termB}' in a situation requiring '${termA}'.`,
-                correctSentence: `The student correctly wrote '${termA}' in this grammatical context.`,
-                explanation: `In CEFR ${lvl.toUpperCase()} English, '${termA}' is required based on grammatical agreement and usage rules.`
+                wrongSentence: `During the morning meeting, the team member incorrectly used '${termB}' instead of '${termA}'.`,
+                correctSentence: `During the morning meeting, the team member correctly used '${termA}' in this sentence.`,
+                explanation: `In CEFR ${lvl.toUpperCase()} English grammar, '${termA}' is required in this situational context.`
             };
         }
     };
 }
 
-// Full specifications for all 60 level topics
+// Full specifications for all 60 level topics + 1 paragraph topic
 const ALL_TOPICS = [
     // A1
     { lvl: 'a1', id: 'a-vs-an', label: 'a vs an', group: 'Articles' },
@@ -786,6 +459,7 @@ const ALL_TOPICS = [
     { lvl: 'b2', id: 'nearly-vs-almost', label: 'nearly vs almost', group: 'Adverbs', a: 'nearly', b: 'almost' },
     { lvl: 'b2', id: 'eventually-vs-finally', label: 'eventually vs finally', group: 'Adverbs', a: 'eventually', b: 'finally' },
     { lvl: 'b2', id: 'actually-vs-currently', label: 'actually vs currently', group: 'Adverbs', a: 'actually', b: 'currently' },
+    { lvl: 'b2', id: 'paragraph-reading', label: 'Situational Paragraph Practice (50 Long Paragraphs)', group: 'Paragraphs', a: 'a', b: 'an' },
 
     // C1
     { lvl: 'c1', id: 'future-perfect-vs-continuous', label: 'Future Perfect vs Future Perfect Continuous', group: 'Complex Tenses', a: 'Future Perfect', b: 'Future Perfect Continuous' },

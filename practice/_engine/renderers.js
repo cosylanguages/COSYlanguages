@@ -138,10 +138,15 @@
 
         renderFindMistake(q, session, lang) {
             const finalOpts = q.opts || [q.correctSentence, q.wrongSentence];
+            const wrongText = q.wrongSentence || q.q || '...';
+            const isParagraph = wrongText.length > 150;
+            const containerStyle = isParagraph
+                ? "text-align: left; font-size: 1.05rem; line-height: 1.75; font-style: italic; color: #991b1b; background: rgba(220, 38, 38, 0.05); padding: 1.25rem; border-radius: 10px; border: 1px solid rgba(220, 38, 38, 0.15);"
+                : "font-size: 1.15rem; font-family: 'Fraunces', serif; color: #991b1b; font-style: italic;";
             return `<div style="text-align:center; margin-bottom: 1.5rem;">
                 <div style="background: rgba(220, 38, 38, 0.08); border: 1px solid rgba(220, 38, 38, 0.2); border-radius: 10px; padding: 1.2rem; margin-bottom: 1rem;">
                     <div style="font-weight: 600; color: #b91c1c; font-size: 0.95rem; margin-bottom: 0.5rem;">🔍 Identify the correct sentence to fix the error:</div>
-                    <div style="font-size: 1.15rem; font-family: 'Fraunces', serif; color: #991b1b; font-style: italic;">"${q.wrongSentence || q.q || '...'}"</div>
+                    <div style="${containerStyle}">"${wrongText}"</div>
                 </div>
             </div>
             <div class="mc-options">` + finalOpts.map((o, i) =>
@@ -267,8 +272,13 @@
 
         renderCloze(q, session, lang) {
             const finalOpts = q.opts || [q.item?.word || 'Word', 'Distractor1', 'Distractor2'];
-            return `<div style="text-align:center; font-size: 1.2rem; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;">
-                <span id="cloze-sentence-display">${q.sentence || q.q || '...'}</span>
+            const sentenceText = q.sentence || q.q || '...';
+            const isParagraph = sentenceText.length > 150;
+            const containerStyle = isParagraph
+                ? "text-align: left; font-size: 1.05rem; line-height: 1.75; margin-bottom: 1.5rem; background: var(--card-bg, rgba(255,255,255,0.7)); padding: 1.25rem; border-radius: 12px; border: 1px solid var(--border-color, rgba(0,0,0,0.1));"
+                : "text-align: center; font-size: 1.2rem; margin-bottom: 1.5rem; font-family: 'Fraunces', serif;";
+            return `<div style="${containerStyle}">
+                <span id="cloze-sentence-display">${sentenceText}</span>
             </div>
             <div class="mc-options">` + finalOpts.map((o, i) =>
                 `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;
