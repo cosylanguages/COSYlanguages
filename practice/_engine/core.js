@@ -798,6 +798,13 @@
         loadEntry(q) {
             if (!this.session || !q) return;
 
+            q.isAnswered = false;
+
+            // Clean up any lingering microphone or audio context stream
+            if (window.cosyCleanupAudio) {
+                window.cosyCleanupAudio();
+            }
+
             // Reset Duolingo-style bottom bar
             const bar = document.getElementById('pe-bottom-bar');
             if (bar) {
@@ -1028,6 +1035,10 @@
 
         endSession() {
             this.session = null;
+
+            if (window.cosyCleanupAudio) {
+                window.cosyCleanupAudio();
+            }
 
             const bar = document.getElementById('pe-bottom-bar');
             if (bar) {
@@ -1460,7 +1471,11 @@
 
     window.checkMC = (i) => {
         const sess = engine.session;
+        if (!sess) return;
         const q = sess.sessionQueue[sess.currentIndex];
+        if (!q || q.isAnswered) return;
+        q.isAnswered = true;
+
         const ans = q.dynamicAns !== undefined ? q.dynamicAns : q.ans;
         const fb = document.getElementById('pe-fb');
         const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -1510,7 +1525,11 @@
 
     window.checkTF = (val) => {
         const sess = engine.session;
+        if (!sess) return;
         const q = sess.sessionQueue[sess.currentIndex];
+        if (!q || q.isAnswered) return;
+        q.isAnswered = true;
+
         const fb = document.getElementById('pe-fb');
         const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -1556,7 +1575,11 @@
 
     window.checkType = () => {
         const sess = engine.session;
+        if (!sess) return;
         const q = sess.sessionQueue[sess.currentIndex];
+        if (!q || q.isAnswered) return;
+        q.isAnswered = true;
+
         const inp = document.getElementById('type-in');
         if (!inp) return;
 
@@ -1614,9 +1637,14 @@
 
     window.checkScramble = () => {
         const sess = engine.session;
+        if (!sess) return;
         const q = sess.sessionQueue[sess.currentIndex];
+        if (!q || q.isAnswered) return;
+
         const assembly = document.getElementById('sc-assembly');
         if (!assembly) return;
+
+        q.isAnswered = true;
 
         const val = Array.from(assembly.querySelectorAll('button')).map(b => b.textContent).join(' ');
         const fb = document.getElementById('pe-fb');

@@ -209,8 +209,11 @@
         }
     };
 
-    function getQuestions(lang, cat, level, theme, subTheme) {
+    function getQuestions(lang, catInput, level, theme, subTheme) {
         const langKey = (lang || 'EN').toUpperCase();
+        const cat = (catInput === 'vocab' || catInput === 'vocabulary' || catInput === 'Vocabulary') ? 'Vocabulary'
+                  : (catInput === 'grammar' || catInput === 'Grammar') ? 'Grammar'
+                  : catInput || 'Vocabulary';
         let pool = (QUESTIONS[langKey] && QUESTIONS[langKey][cat]) ? [...QUESTIONS[langKey][cat]] : [];
 
         if (cat === 'Grammar' || cat === 'grammar') {
@@ -409,17 +412,22 @@
         distractors = [...new Set(distractors)].filter(d => d && d.toLowerCase() !== targetText.toLowerCase());
         distractors = distractors.slice(0, 2);
 
+        const fallbackDefs = ['Alternative meaning or option', 'Related expression or concept'];
+        const fallbackWords = ['Option B', 'Option C'];
+        let fbIdx = 0;
         while (distractors.length < 2) {
             const fallback = pool
-                .filter(p => (p.id ? p.id !== item.id : p !== item))
+                .filter(p => p && (p.id ? p.id !== item.id : p !== item))
                 .sort(() => Math.random() - 0.5)[0];
             const fallbackVal = matchType === 'definition'
-                ? (fallback?.definitions?.[0]?.text || fallback?.definition || fallback?.subtext || 'none')
-                : (fallback?.word || fallback?.topic || fallback?.phrase || 'none');
-            if (fallbackVal && fallbackVal.toLowerCase() !== targetText.toLowerCase()) {
+                ? (fallback?.definitions?.[0]?.text || fallback?.definition || fallback?.subtext)
+                : (fallback?.word || fallback?.topic || fallback?.phrase);
+            if (fallbackVal && fallbackVal.toLowerCase() !== targetText.toLowerCase() && !distractors.includes(fallbackVal)) {
                 distractors.push(fallbackVal);
             } else {
-                distractors.push('---');
+                const list = matchType === 'definition' ? fallbackDefs : fallbackWords;
+                distractors.push(list[fbIdx % list.length]);
+                fbIdx++;
             }
         }
 
@@ -677,7 +685,8 @@
         let qs = [];
         const isVocab = (cat === 'Vocabulary' || cat === 'vocab' || cat === 'vocabulary');
         if (pool.length > 0) {
-            qs = pool.map(item => {
+            const samplePool = [...pool].sort(() => Math.random() - 0.5).slice(0, 10);
+            qs = samplePool.map(item => {
                 if (isVocab) {
                     return buildMCQuestion(item, pool);
                 } else if (cat === 'Grammar' || cat === 'grammar') {
@@ -705,13 +714,15 @@
                             .sort(() => Math.random() - 0.5);
 
                         const selectedPairs = [item, ...otherItems.slice(0, 3)];
+                        const cleanFallbacks = [
+                            { word: 'learn', definitions: [{ text: 'To acquire knowledge or skill' }], emoji: '📚', transcription: '[lɜːn]' },
+                            { word: 'speak', definitions: [{ text: 'To utter words or express thoughts' }], emoji: '🗣️', transcription: '[spiːk]' },
+                            { word: 'read', definitions: [{ text: 'To look at and comprehend written text' }], emoji: '📖', transcription: '[riːd]' }
+                        ];
+                        let cleanFbIdx = 0;
                         while (selectedPairs.length < 4) {
-                            selectedPairs.push({
-                                word: `WordFallback_${selectedPairs.length}`,
-                                definitions: [{ text: `DefFallback_${selectedPairs.length}` }],
-                                emoji: '💡',
-                                transcription: `[${selectedPairs.length}]`
-                            });
+                            selectedPairs.push(cleanFallbacks[cleanFbIdx % cleanFallbacks.length]);
+                            cleanFbIdx++;
                         }
 
                         let possibleModes = ['definition'];
@@ -767,8 +778,14 @@
                             .sort(() => Math.random() - 0.5)
                             .map(p => p.word);
                         let distractors = [...new Set(otherWords)].filter(w => w && w.toLowerCase() !== (item.word || '').toLowerCase()).slice(0, 2);
+                        const wordFallbacks = ['listen', 'speak', 'understand'];
+                        let wIdx = 0;
                         while (distractors.length < 2) {
-                            distractors.push('---');
+                            const fbWord = wordFallbacks[wIdx % wordFallbacks.length];
+                            if (!distractors.includes(fbWord) && fbWord.toLowerCase() !== (item.word || '').toLowerCase()) {
+                                distractors.push(fbWord);
+                            }
+                            wIdx++;
                         }
                         qText = '🔊 ?';
                         opts = [item.word, ...distractors].sort(() => Math.random() - 0.5);
@@ -782,7 +799,7 @@
                                 const randomOther = otherItems[Math.floor(Math.random() * otherItems.length)];
                                 displayDef = randomOther.definitions?.[0]?.text || randomOther.definition;
                             } else {
-                                displayDef = "---";
+                                displayDef = "opposite or unrelated concept";
                             }
                         }
                         qText = `"${item.word}" = "${displayDef}"`;
@@ -814,8 +831,17 @@
                                 .filter(p => p.id !== item.id && p.word)
                                 .sort(() => Math.random() - 0.5)
                                 .map(p => p.word)
+                                .filter(w => w && w.toLowerCase() !== (item.word || '').toLowerCase())
                                 .slice(0, 2);
-                            while (distractors.length < 2) distractors.push('---');
+                            const clozeFallbacks = ['also', 'then', 'so', 'well'];
+                            let cIdx = 0;
+                            while (distractors.length < 2) {
+                                const fbWord = clozeFallbacks[cIdx % clozeFallbacks.length];
+                                if (!distractors.includes(fbWord) && fbWord.toLowerCase() !== (item.word || '').toLowerCase()) {
+                                    distractors.push(fbWord);
+                                }
+                                cIdx++;
+                            }
 
                             opts = [item.word, ...distractors].sort(() => Math.random() - 0.5);
                             ans = opts.indexOf(item.word);

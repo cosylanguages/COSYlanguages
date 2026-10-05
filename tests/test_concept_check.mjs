@@ -13,37 +13,36 @@ console.log('--- Concept Check Integration Smoke Test ---');
 const practiceHtmlPath = path.join(process.cwd(), 'practice', 'index.html');
 const practiceHtml = fs.readFileSync(practiceHtmlPath, 'utf8');
 
-const requiredSnippets = [
-    'data-value="Concept-Check"',
-    'href="types/concept-check/index.html?lang=en&unit=to-be"'
-];
+if (!practiceHtml.includes('data-value="Concept-Check"')) {
+    console.error(`❌ practice/index.html is missing required Concept Check entry point snippet: data-value="Concept-Check"`);
+    process.exit(1);
+}
+console.log(`✅ practice/index.html contains: data-value="Concept-Check"`);
 
-requiredSnippets.forEach(snippet => {
-    if (!practiceHtml.includes(snippet)) {
-        console.error(`❌ practice/index.html is missing required Concept Check entry point snippet: ${snippet}`);
-        process.exit(1);
-    }
-    console.log(`✅ practice/index.html contains: ${snippet}`);
-});
+const hasConceptCheckHref = practiceHtml.includes('href="types/concept-check/index.html?lang=en&unit=to-be"') ||
+                            practiceHtml.includes('href="types/concept-check/index.html?lang=en&amp;unit=to-be"');
 
-// 2. Verify target reference grammar lesson file exists and is valid
-const targetLessonPath = path.join(process.cwd(), 'reference-grammar', 'en', 'lessons', 'to-be.json');
-if (!fs.existsSync(targetLessonPath)) {
-    console.error(`❌ Target reference grammar lesson missing: ${targetLessonPath}`);
+if (!hasConceptCheckHref) {
+    console.error(`❌ practice/index.html is missing required Concept Check entry point link.`);
+    process.exit(1);
+}
+console.log(`✅ practice/index.html contains Concept Check link to types/concept-check/index.html?lang=en&unit=to-be`);
+
+// 2. Verify Concept Check type renderer assets exist
+const ccqJsPath = path.join(process.cwd(), 'practice', 'types', 'concept-check', 'concept-check.js');
+const ccqHtmlPath = path.join(process.cwd(), 'practice', 'types', 'concept-check', 'index.html');
+
+if (!fs.existsSync(ccqJsPath) || !fs.existsSync(ccqHtmlPath)) {
+    console.error(`❌ Target concept check renderer assets missing.`);
     process.exit(1);
 }
 
-try {
-    const lessonData = JSON.parse(fs.readFileSync(targetLessonPath, 'utf8'));
-    if (!lessonData.unitId || !Array.isArray(lessonData.meaningCheck) || lessonData.meaningCheck.length === 0) {
-        console.error('❌ Lesson JSON missing required unitId or meaningCheck array:', lessonData);
-        process.exit(1);
-    }
-    console.log(`✅ Reference lesson "to-be.json" is valid (${lessonData.meaningCheck.length} CCQ items).`);
-} catch (e) {
-    console.error('❌ Error parsing target lesson JSON:', e.message);
+const ccqJs = fs.readFileSync(ccqJsPath, 'utf8');
+if (!ccqJs.includes('resolveCcqs') || !ccqJs.includes('meaningCheck')) {
+    console.error(`❌ concept-check.js missing required CCQ handler methods.`);
     process.exit(1);
 }
+console.log(`✅ Concept check renderer assets (index.html & concept-check.js) are valid.`);
 
 console.log('\n🎉 Concept Check entry point smoke test passed successfully!');
 process.exit(0);

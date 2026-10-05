@@ -192,13 +192,13 @@
             let finalOpts = q.opts || [];
             // If vocabulary, we might need dynamic distractors if not provided
             if (q.item && finalOpts.length === 0 && window.gameUtils && window.gameUtils.getVocabPool) {
-                const vocabPool = window.gameUtils.getVocabPool(lang.toLowerCase(), 'all', 'all');
+                const vocabPool = window.gameUtils.getVocabPool(lang ? lang.toLowerCase() : 'en', 'all', 'all');
                 const distractors = vocabPool
-                    .filter(v => v.word !== q.item.word && v.definitions?.[0]?.text)
+                    .filter(v => v && q.item && v.word !== q.item.word && v.definitions?.[0]?.text)
                     .sort(() => Math.random() - 0.5)
                     .slice(0, 2)
                     .map(v => v.definitions[0].text);
-                const correctDef = q.item.definitions?.[0]?.text || q.item.definition || q.item.subtext || "Correct";
+                const correctDef = q.item?.definitions?.[0]?.text || q.item?.definition || q.item?.subtext || "Correct";
                 finalOpts = [correctDef, ...distractors].sort(() => Math.random() - 0.5);
                 q.dynamicAns = finalOpts.indexOf(correctDef);
             }
