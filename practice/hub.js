@@ -17,20 +17,37 @@
         const pills = document.querySelectorAll('.lang-pill, .lang-selection-card');
         pills.forEach(p => p.classList.remove('active'));
 
+        const moreWrap = document.querySelector('.lang-more-wrap');
+        const moreSelect = document.getElementById('more-lang-select');
+
+        let targetLang = 'en';
+
         if (val instanceof HTMLElement) {
             val.classList.add('active');
-            selectedLang = val.dataset.value || 'en';
-            localStorage.setItem('cosy_practice_last_lang', selectedLang);
-            return;
+            targetLang = val.dataset.value || 'en';
+            if (moreWrap) moreWrap.classList.remove('active');
+            if (moreSelect) moreSelect.value = '';
+        } else if (typeof val === 'string') {
+            targetLang = val.toLowerCase();
+            const matchingPill = Array.from(pills).find(p => p.dataset.value === targetLang);
+            if (matchingPill) {
+                matchingPill.classList.add('active');
+                if (moreWrap) moreWrap.classList.remove('active');
+                if (moreSelect) moreSelect.value = '';
+            } else {
+                if (moreWrap) moreWrap.classList.add('active');
+                if (moreSelect) moreSelect.value = targetLang;
+            }
+        } else if (el) {
+            el.classList.add('active');
+            targetLang = el.dataset.value || 'en';
+            if (moreWrap) moreWrap.classList.remove('active');
+            if (moreSelect) moreSelect.value = '';
         }
 
-        if (el) el.classList.add('active');
-        else {
-            const target = Array.from(pills).find(p => p.dataset.value === val || p.textContent.toLowerCase().includes(val.toLowerCase()));
-            if (target) target.classList.add('active');
-        }
-        selectedLang = val;
+        selectedLang = targetLang;
         localStorage.setItem('cosy_practice_last_lang', selectedLang);
+        updateThemes();
         updateHandoffLinks();
     }
 
@@ -359,7 +376,11 @@
             const errorMsg = document.getElementById('setup-error-msg');
             const startBtn = (window.event && window.event.target) || document.querySelector('button[onclick*="startPractice"]');
 
-            if (errorMsg) errorMsg.style.display = 'none';
+            if (errorMsg) {
+                errorMsg.style.display = 'none';
+                errorMsg.setAttribute('hidden', '');
+                errorMsg.classList.add('error-banner-hidden');
+            }
 
             if (selectedCat === 'concept-check' || selectedCat === 'concept_check') {
                 const themeVal = theme !== 'all' ? theme : 'to-be';
@@ -372,13 +393,17 @@
                 startBtn.textContent = 'Loading... ⏳';
             }
 
-            if (window.ensureDataLoaded) {
-                await window.ensureDataLoaded(selectedLang, level);
-            }
-
-            if (startBtn) {
-                startBtn.disabled = false;
-                startBtn.textContent = 'Start Practice 🚀';
+            try {
+                if (window.ensureDataLoaded) {
+                    await window.ensureDataLoaded(selectedLang, level, selectedCat, theme);
+                }
+            } catch (err) {
+                console.warn('[Practice Hub] Error preloading data:', err);
+            } finally {
+                if (startBtn) {
+                    startBtn.disabled = false;
+                    startBtn.textContent = 'Start Practice 🚀';
+                }
             }
 
             if (window.beginSession) {
@@ -446,7 +471,7 @@
             const targetTheme = theme || 'all';
             const targetSubTheme = subTheme || '';
 
-            if (window.ensureDataLoaded) await window.ensureDataLoaded(lang, targetLevel);
+            if (window.ensureDataLoaded) await window.ensureDataLoaded(lang, targetLevel, cat, targetTheme);
             if (window.beginSession) window.beginSession(lang, selectedCat, targetLevel, targetTheme, false, null, targetSubTheme);
         },
 
@@ -569,19 +594,48 @@
         // Render progress trackers
         renderThemeProgressTrackers();
 
-        // Populate Languages with persistence
+        // Populate Languages with persistence (main languages visible, others in menu)
         const storedLang = localStorage.getItem('cosy_practice_last_lang') || 'en';
         selectedLang = storedLang;
 
         const langContainer = document.getElementById('lang-pills');
         if (langContainer && window.COSY_LANGUAGES) {
-            langContainer.innerHTML = window.COSY_LANGUAGES.map(l =>
+            const activeLangs = window.COSY_ACTIVE_LANGUAGES || window.COSY_LANGUAGES.filter(l => l.status === 'active');
+            const comingSoonLangs = window.COSY_COMING_SOON_LANGUAGES || window.COSY_LANGUAGES.filter(l => l.status !== 'active');
+
+            const isSelectedInMore = comingSoonLangs.some(l => l.code === selectedLang);
+
+            let html = activeLangs.map(l =>
                 `<div class="lang-pill ${l.code === selectedLang ? 'active' : ''}" data-value="${l.code}">${l.icon || l.flag || ''} ${l.native}</div>`
             ).join('');
+
+            html += `
+                <div class="lang-more-wrap ${isSelectedInMore ? 'active' : ''}">
+                    <select id="more-lang-select" class="lang-more-select" aria-label="More Languages (Coming Soon)">
+                        <option value="" disabled ${!isSelectedInMore ? 'selected' : ''}>🌐 Other Languages...</option>
+                        ${comingSoonLangs.map(l => {
+                            const flagText = l.flag && !l.flag.startsWith('<') ? l.flag : l.code.toUpperCase();
+                            return `<option value="${l.code}" ${l.code === selectedLang ? 'selected' : ''}>${flagText} ${l.native} (${l.name})</option>`;
+                        }).join('')}
+                    </select>
+                </div>
+            `;
+
+            langContainer.innerHTML = html;
 
             langContainer.querySelectorAll('.lang-pill').forEach(p => {
                 p.onclick = () => selectLang(p);
             });
+
+            const moreSelect = document.getElementById('more-lang-select');
+            if (moreSelect) {
+                moreSelect.onchange = (e) => {
+                    const val = e.target.value;
+                    if (val) {
+                        selectLang(val);
+                    }
+                };
+            }
         }
 
         // Populate Levels with persistence

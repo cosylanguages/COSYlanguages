@@ -678,7 +678,10 @@ async function getVocabFileList(lang, folderCode) {
     const prefix = getPrefix();
     if (!vocabManifest) {
         try {
-            const res = await fetch(prefix + 'vocabulary/manifest.json');
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 1000);
+            const res = await fetch(prefix + 'vocabulary/manifest.json', { signal: controller.signal });
+            clearTimeout(timeoutId);
             if (res.ok) {
                 vocabManifest = await res.json();
             } else {
@@ -701,14 +704,18 @@ async function loadVocabFile(path) {
 
     return new Promise((resolve) => {
         const s = document.createElement('script');
-        // Removed cache-buster to allow browser/SW caching
-        s.src = fullPath;
-        s.onload = () => { s.remove(); resolve(); };
-        s.onerror = () => {
-            console.warn('[COSY] vocab file not found:', fullPath);
-            s.remove();
-            resolve();
+        let done = false;
+        const cleanup = () => {
+            if (!done) {
+                done = true;
+                if (s.parentNode) s.remove();
+                resolve();
+            }
         };
+        s.onload = cleanup;
+        s.onerror = cleanup;
+        s.src = fullPath;
+        setTimeout(cleanup, 250);
         document.head.appendChild(s);
     });
 }
@@ -799,12 +806,15 @@ window.COSY = {
 
         // Attempt remote COSYdata fetch first for centralized vocabulary
         try {
-            const indexRes = await fetch(`${COSYDATA_BASE}vocabulary/${lang}/index.json`);
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 1500);
+            const indexRes = await fetch(`${COSYDATA_BASE}vocabulary/${lang}/index.json`, { signal: controller.signal });
+            clearTimeout(timeoutId);
             if (indexRes.ok) {
                 const indexData = await indexRes.json();
                 const themeFiles = [...new Set(Object.values(indexData))];
                 const themeFetches = themeFiles.map(tf =>
-                    fetch(`${COSYDATA_BASE}vocabulary/${lang}/${tf}`)
+                    fetch(`${COSYDATA_BASE}vocabulary/${lang}/${tf}`, { signal: controller.signal })
                         .then(r => r.ok ? r.json() : null)
                         .catch(() => null)
                 );
