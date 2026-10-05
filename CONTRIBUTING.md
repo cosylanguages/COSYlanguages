@@ -46,8 +46,17 @@ Please open an issue to discuss before submitting PRs that affect:
 
 ## 📌 Paths used by other repositories (do not move or rename)
 
-The following asset paths in this repository are referenced by external ecosystem repositories (such as COSYevents) via absolute URLs and must not be moved or renamed:
+The following asset paths and redirect stubs in this repository are referenced by external ecosystem repositories (such as COSYevents) via absolute URLs and must never be moved, renamed, or removed:
 - `shared/images/logo.png`
 - `images/icouldnthelpbutwonder.png`
 - `images/logos/speaking clubs/` (and everything under it)
 - `shared/css/tokens.css`
+- `apps/premium-courses/general/index.html`
+- `apps/premium-courses/spoken/index.html`
+- `apps/premium-courses/travelling/index.html`
+- `apps/premium-courses/relocation/index.html`
+- `apps/premium-courses/professional/index.html`
+- `apps/premium-courses/exam/index.html`
+- `apps/premium-courses/index.html`
+- `games/index.html`
+- `events/index.html`
