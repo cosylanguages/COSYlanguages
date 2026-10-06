@@ -275,6 +275,19 @@ function navFree () {
     const loginHref = getNavHref('login');
     const isDark = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_theme') || 'light') === 'dark');
 
+    const user = COSY.getUser ? COSY.getUser() : null;
+    const userRole = String((user && user.role) || (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_user_role')) || '').toLowerCase();
+    const isLoggedIn = COSY.isUserAuthenticated ? COSY.isUserAuthenticated() : !!user;
+
+    let loginLabel = t('login', '🔐 Log in');
+    if (isLoggedIn) {
+        if (userRole === 'admin' || userRole === 'founder' || userRole === 'owner') {
+            loginLabel = '👑 Founder';
+        } else {
+            loginLabel = '👤 Account';
+        }
+    }
+
     const isLocked = (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_ui_lang_locked') === 'true');
     const currentLang = getActiveNavLang();
     const langOptions = [
@@ -320,7 +333,7 @@ function navFree () {
         <button class="theme-toggle-btn" onclick="COSY.toggleTheme()" aria-label="Toggle Theme" style="background:none; border:none; font-size:1.2rem; cursor:pointer; padding:6px; display:inline-flex; align-items:center;">
             ${isDark ? '☀️' : '🌙'}
         </button>
-        <a href="${loginHref}" class="nav-login" data-translate-key="nav_login" data-i18n="nav.login">${t('login', '🔐 Log in')}</a>
+        <a href="${isLoggedIn ? 'https://cosylanguages.github.io/COSYplatform/' : loginHref}" class="nav-login" ${isLoggedIn ? '' : 'data-translate-key="nav_login" data-i18n="nav.login"'}>${loginLabel}</a>
         <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', '💬 Contact us')}</a>
         <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false" aria-controls="cosy-mobile-menu">☰</button>
       </div>`

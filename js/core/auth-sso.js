@@ -1,7 +1,7 @@
 /**
  * js/core/auth-sso.js
  * Cross-Domain Ecosystem Single Sign-On (SSO) Module for COSY Applications.
- * Manages cross-repo session transfer, token restoration from hash, and link interception.
+ * Synchronously decorates outbound links and restores sessions from URL hash fragments.
  */
 
 (function (root, factory) {
@@ -31,6 +31,34 @@
     return null;
   }
 
+  function getStoredTokensSync() {
+    if (typeof localStorage === "undefined") return null;
+
+    // Check Supabase default token key
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && (key.includes("auth-token") || key.startsWith("sb-"))) {
+        try {
+          const parsed = JSON.parse(localStorage.getItem(key));
+          if (parsed && (parsed.access_token || (parsed.currentSession && parsed.currentSession.access_token))) {
+            const sess = parsed.currentSession || parsed;
+            return {
+              access_token: sess.access_token,
+              refresh_token: sess.refresh_token || ""
+            };
+          }
+        } catch (e) {}
+      }
+    }
+
+    try {
+      const raw = localStorage.getItem("cosy_session_token");
+      if (raw) return JSON.parse(raw);
+    } catch (e) {}
+
+    return null;
+  }
+
   function parseHashParams() {
     if (typeof window === "undefined" || !window.location.hash) return null;
     const hash = window.location.hash.substring(1);
@@ -49,44 +77,67 @@
     return null;
   }
 
-  async function getActiveSession() {
-    const sbClient = getSupabaseClient();
-    if (sbClient) {
-      try {
-        const { data } = await sbClient.auth.getSession();
-        if (data && data.session) return data.session;
-      } catch (e) {}
-    }
-    return null;
-  }
-
-  function getTransferUrl(targetUrl, session) {
+  function getTransferUrl(targetUrl, tokens) {
     if (!targetUrl) return targetUrl;
-    if (!session || !session.access_token) return targetUrl;
+    if (!tokens || !tokens.access_token) return targetUrl;
+
+    if (targetUrl.includes("access_token=")) return targetUrl;
 
     const separator = targetUrl.includes("#") ? "&" : "#";
-    return `${targetUrl}${separator}access_token=${encodeURIComponent(session.access_token)}&refresh_token=${encodeURIComponent(session.refresh_token || "")}&type=sso`;
+    return `${targetUrl}${separator}access_token=${encodeURIComponent(tokens.access_token)}&refresh_token=${encodeURIComponent(tokens.refresh_token || "")}&type=sso`;
+  }
+
+  function decorateEcosystemLinks() {
+    if (typeof document === "undefined") return;
+    const tokens = getStoredTokensSync();
+    if (!tokens || !tokens.access_token) return;
+
+    const links = document.querySelectorAll("a[href]");
+    links.forEach((anchor) => {
+      const href = anchor.getAttribute("href");
+      if (!href) return;
+
+      const isEcosystem = ECOSYSTEM_DOMAINS.some((domain) => href.includes(domain));
+      if (isEcosystem && !href.includes("access_token=")) {
+        anchor.setAttribute("href", getTransferUrl(href, tokens));
+      }
+    });
   }
 
   function attachEcosystemLinkInterceptors() {
     if (typeof document === "undefined") return;
 
-    document.addEventListener("click", async (event) => {
+    decorateEcosystemLinks();
+
+    // Re-decorate on mouseover/focus
+    document.addEventListener("mouseover", (event) => {
       const anchor = event.target.closest("a");
-      if (!anchor || !anchor.href) return;
-
-      const href = anchor.href;
+      if (!anchor) return;
+      const href = anchor.getAttribute("href");
+      if (!href) return;
       const isEcosystem = ECOSYSTEM_DOMAINS.some((domain) => href.includes(domain));
-      if (!isEcosystem) return;
-
-      const session = await getActiveSession();
-      if (session && session.access_token) {
-        // Append SSO transfer token if not already present
-        if (!href.includes("access_token=")) {
-          anchor.href = getTransferUrl(href, session);
+      if (isEcosystem && !href.includes("access_token=")) {
+        const tokens = getStoredTokensSync();
+        if (tokens && tokens.access_token) {
+          anchor.setAttribute("href", getTransferUrl(href, tokens));
         }
       }
     });
+
+    // Synchronous click interceptor
+    document.addEventListener("click", (event) => {
+      const anchor = event.target.closest("a");
+      if (!anchor) return;
+      const href = anchor.getAttribute("href");
+      if (!href) return;
+      const isEcosystem = ECOSYSTEM_DOMAINS.some((domain) => href.includes(domain));
+      if (isEcosystem && !href.includes("access_token=")) {
+        const tokens = getStoredTokensSync();
+        if (tokens && tokens.access_token) {
+          anchor.setAttribute("href", getTransferUrl(href, tokens));
+        }
+      }
+    }, true);
   }
 
   async function initSSO() {
@@ -127,7 +178,13 @@
 
           localStorage.setItem("cosy_user", JSON.stringify(cosyUser));
           localStorage.setItem("cosy_user_role", role);
+          localStorage.setItem("cosy_session_token", JSON.stringify({
+            access_token: hashTokens.access_token,
+            refresh_token: hashTokens.refresh_token
+          }));
           window.COSY_USER = cosyUser;
+
+          decorateEcosystemLinks();
 
           console.log("[COSY SSO] Successfully authenticated via ecosystem SSO token transfer.");
           return cosyUser;
@@ -145,7 +202,13 @@
           const role = localStorage.getItem("cosy_user_role") || "student";
           const cosyUser = { id: u.id, email: u.email, role: role };
           localStorage.setItem("cosy_user", JSON.stringify(cosyUser));
+          localStorage.setItem("cosy_session_token", JSON.stringify({
+            access_token: sessionData.session.access_token,
+            refresh_token: sessionData.session.refresh_token || ""
+          }));
           window.COSY_USER = cosyUser;
+
+          decorateEcosystemLinks();
           return cosyUser;
         }
       } catch (err) {}
@@ -155,6 +218,7 @@
       const stored = localStorage.getItem("cosy_user");
       if (stored) {
         window.COSY_USER = JSON.parse(stored);
+        decorateEcosystemLinks();
         return window.COSY_USER;
       }
     } catch (e) {}
@@ -169,6 +233,7 @@
     }
     localStorage.removeItem("cosy_user");
     localStorage.removeItem("cosy_user_role");
+    localStorage.removeItem("cosy_session_token");
     delete window.COSY_USER;
     if (typeof window !== "undefined") {
       window.location.reload();
@@ -185,8 +250,10 @@
 
   return {
     getSupabaseClient,
+    getStoredTokensSync,
     initSSO,
     getTransferUrl,
+    decorateEcosystemLinks,
     logout
   };
 });
