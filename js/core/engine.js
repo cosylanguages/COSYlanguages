@@ -660,9 +660,39 @@ function ensureI18nLoaded() {
     document.head.appendChild(s);
 }
 
+function ensureSSOAndCMSLoaded() {
+    if (typeof document === 'undefined') return;
+    const p = getPrefix();
+
+    function loadSSOAndCMS() {
+        if (!document.querySelector('script[src*="js/core/auth-sso.js"]')) {
+            const s = document.createElement('script');
+            s.src = p + 'js/core/auth-sso.js';
+            document.head.appendChild(s);
+        }
+
+        if (!document.querySelector('script[src*="js/core/cms-editor.js"]')) {
+            const s = document.createElement('script');
+            s.src = p + 'js/core/cms-editor.js';
+            document.head.appendChild(s);
+        }
+    }
+
+    if (!window.supabase && !document.querySelector('script[src*="supabase-js"]')) {
+        const sbScript = document.createElement('script');
+        sbScript.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1';
+        sbScript.crossOrigin = 'anonymous';
+        sbScript.onload = loadSSOAndCMS;
+        document.head.appendChild(sbScript);
+    } else {
+        loadSSOAndCMS();
+    }
+}
+
 function inject () {
     injectStyles();
     ensureI18nLoaded();
+    ensureSSOAndCMSLoaded();
     if (!document.getElementById('cosy-mobile-menu')) {
         const m = document.createElement('div'); m.id = 'cosy-mobile-menu'; document.body.appendChild(m);
     }
