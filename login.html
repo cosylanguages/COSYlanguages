@@ -338,7 +338,17 @@
                     }
                 }
 
-                const targetUrl = getRedirectTarget(role);
+                let targetUrl = getRedirectTarget(role);
+                if (authData && authData.session) {
+                    const separator = targetUrl.includes('#') ? '&' : '#';
+                    targetUrl = `${targetUrl}${separator}access_token=${encodeURIComponent(authData.session.access_token)}&refresh_token=${encodeURIComponent(authData.session.refresh_token || '')}&type=sso`;
+                }
+
+                // Store local user state
+                const cosyUser = { id: authData.user.id, email: authData.user.email, role: role };
+                localStorage.setItem('cosy_user', JSON.stringify(cosyUser));
+                localStorage.setItem('cosy_user_role', role);
+
                 showAlert(`Sign-in successful! Redirecting to ${targetUrl}...`, 'info');
 
                 setTimeout(() => {
