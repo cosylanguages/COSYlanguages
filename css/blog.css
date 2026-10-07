@@ -1411,3 +1411,31 @@ body.podcast-presentation-mode .zoomable-title {
 .zoom-ctrl-btn.close-btn {
     background: #ef4444;
 }
+
+
+/* Hide audio guide players in Podcast Presentation View Mode */
+body.podcast-presentation-mode .page-audio-guide {
+    display: none !important;
+}
+
+/* October Gazette Autumn Special Styling */
+.october-autumn-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(217, 119, 6, 0.12);
+    color: #d97706;
+    border: 1px solid rgba(217, 119, 6, 0.3);
+    border-radius: 9999px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+body.podcast-presentation-mode .october-autumn-badge {
+    background: rgba(251, 191, 36, 0.15);
+    color: #fbbf24;
+    border-color: rgba(251, 191, 36, 0.4);
+}
