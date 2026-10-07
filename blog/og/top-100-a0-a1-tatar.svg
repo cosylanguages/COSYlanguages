@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1-tatar">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#f0fff4" />
+    <path d="M 16 16 L 16 19 L 46 17 L 76 13 L 106 15 L 136 15 L 166 16 L 196 14 L 226 19 L 256 17 L 286 16 L 316 18 L 346 19 L 376 18 L 406 19 L 436 14 L 466 16 L 496 13 L 526 20 L 556 16 L 586 13 L 616 17 L 646 20 L 676 18 L 706 20 L 736 17 L 766 13 L 796 20 L 826 19 L 856 15 L 886 15 L 916 16 L 946 16 L 976 14 L 1006 15 L 1036 16 L 1066 20 L 1096 12 L 1126 13 L 1156 18 L 1180 16 L 1182 46 L 1182 76 L 1183 106 L 1182 136 L 1187 166 L 1187 196 L 1188 226 L 1180 256 L 1186 286 L 1187 316 L 1187 346 L 1181 376 L 1182 406 L 1183 436 L 1188 466 L 1187 496 L 1182 526 L 1187 556 L 1182 586 L 1184 616 L 1154 612 L 1124 613 L 1094 614 L 1064 613 L 1034 614 L 1004 617 L 974 615 L 944 616 L 914 618 L 884 611 L 854 618 L 824 612 L 794 613 L 764 612 L 734 615 L 704 610 L 674 617 L 644 611 L 614 616 L 584 610 L 554 613 L 524 616 L 494 618 L 464 615 L 434 613 L 404 612 L 374 615 L 344 613 L 314 613 L 284 616 L 254 610 L 224 614 L 194 618 L 164 612 L 134 611 L 104 612 L 74 615 L 44 615 L 17 614 L 19 584 L 19 554 L 16 524 L 17 494 L 16 464 L 12 434 L 16 404 L 18 374 L 15 344 L 18 314 L 20 284 L 15 254 L 14 224 L 14 194 L 20 164 L 13 134 L 13 104 L 19 74 L 14 44 Z" fill="none" stroke="#22543d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1168" cy="598" r="12" fill="#38a169" opacity="0.3" />
+
+
+      <g class="cover-text-overlay">
+        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">CURRICULUM • Vol. 2026 — August Issue</text>
+        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Top 100 Tatar A0–A1 Master Guide</text>
+      </g>
+
+    </svg>

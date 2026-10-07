@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1-russian">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#f0fff4" />
+    <path d="M 20 20 L 20 21 L 50 17 L 80 21 L 110 24 L 140 21 L 170 18 L 200 19 L 230 16 L 260 17 L 290 19 L 320 19 L 350 22 L 380 21 L 410 20 L 440 18 L 470 16 L 500 18 L 530 21 L 560 21 L 590 22 L 620 17 L 650 18 L 680 24 L 710 22 L 740 17 L 770 17 L 800 19 L 830 23 L 860 22 L 890 19 L 920 23 L 950 21 L 980 19 L 1010 17 L 1040 16 L 1070 17 L 1100 16 L 1130 17 L 1160 21 L 1177 20 L 1184 50 L 1179 80 L 1184 110 L 1178 140 L 1183 170 L 1182 200 L 1184 230 L 1181 260 L 1178 290 L 1176 320 L 1183 350 L 1184 380 L 1176 410 L 1183 440 L 1182 470 L 1179 500 L 1183 530 L 1180 560 L 1183 590 L 1180 606 L 1150 610 L 1120 606 L 1090 610 L 1060 607 L 1030 612 L 1000 606 L 970 610 L 940 613 L 910 607 L 880 610 L 850 614 L 820 614 L 790 614 L 760 610 L 730 607 L 700 606 L 670 612 L 640 608 L 610 613 L 580 607 L 550 613 L 520 607 L 490 607 L 460 612 L 430 608 L 400 610 L 370 606 L 340 613 L 310 606 L 280 611 L 250 611 L 220 611 L 190 610 L 160 613 L 130 612 L 100 609 L 70 610 L 40 607 L 20 610 L 19 580 L 22 550 L 17 520 L 20 490 L 23 460 L 18 430 L 19 400 L 16 370 L 24 340 L 24 310 L 24 280 L 22 250 L 22 220 L 16 190 L 24 160 L 22 130 L 17 100 L 18 70 L 21 40 Z" fill="none" stroke="#22543d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1160" cy="590" r="12" fill="#38a169" opacity="0.3" />
+
+
+      <g class="cover-text-overlay">
+        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">CURRICULUM • Vol. 2026 — August Issue</text>
+        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Top 100 Russian A0–A1 Master Guide</text>
+      </g>
+
+    </svg>

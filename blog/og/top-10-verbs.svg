@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-10-verbs">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#f0fff4" />
+    <path d="M 22 22 L 22 21 L 52 24 L 82 18 L 112 23 L 142 24 L 172 26 L 202 23 L 232 18 L 262 22 L 292 19 L 322 26 L 352 22 L 382 25 L 412 22 L 442 20 L 472 23 L 502 25 L 532 18 L 562 21 L 592 21 L 622 23 L 652 18 L 682 18 L 712 22 L 742 19 L 772 20 L 802 21 L 832 24 L 862 24 L 892 18 L 922 22 L 952 22 L 982 24 L 1012 24 L 1042 22 L 1072 25 L 1102 26 L 1132 25 L 1162 19 L 1180 22 L 1178 52 L 1180 82 L 1179 112 L 1175 142 L 1174 172 L 1182 202 L 1174 232 L 1180 262 L 1179 292 L 1177 322 L 1176 352 L 1182 382 L 1180 412 L 1180 442 L 1178 472 L 1175 502 L 1176 532 L 1182 562 L 1178 592 L 1178 609 L 1148 609 L 1118 606 L 1088 612 L 1058 612 L 1028 611 L 998 612 L 968 610 L 938 610 L 908 610 L 878 610 L 848 611 L 818 610 L 788 609 L 758 608 L 728 609 L 698 612 L 668 607 L 638 610 L 608 609 L 578 606 L 548 611 L 518 605 L 488 609 L 458 609 L 428 612 L 398 606 L 368 608 L 338 611 L 308 608 L 278 610 L 248 605 L 218 607 L 188 608 L 158 610 L 128 604 L 98 611 L 68 612 L 38 610 L 20 608 L 26 578 L 25 548 L 25 518 L 18 488 L 21 458 L 18 428 L 22 398 L 19 368 L 26 338 L 21 308 L 21 278 L 19 248 L 18 218 L 25 188 L 26 158 L 26 128 L 22 98 L 23 68 L 22 38 Z" fill="none" stroke="#22543d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1156" cy="586" r="12" fill="#38a169" opacity="0.3" />
+
+
+      <g class="cover-text-overlay">
+        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">RESOURCE LIST • Vol. 2026 — August Issue</text>
+        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Top 10 Essential Verbs for Absolute Beginners (A0–A1...</text>
+      </g>
+
+    </svg>

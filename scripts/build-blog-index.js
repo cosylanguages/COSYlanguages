@@ -1,4 +1,4 @@
-#!/usr/bin/env Node
+#!/usr/bin/env node
 /**
  * scripts/build-blog-index.js
  * Builds blog/index.json from blog post JSON files, Markdown posts, and guides.
@@ -77,11 +77,13 @@ function buildBlogIndex() {
         const issueTitle = legacy.issue_title || 'Get ready for school';
         issuesSet.set(issueNum, { number: issueNum, title: issueTitle });
 
+        const desk = legacy.type === 'guide' ? 'Long Reads' : (legacy.artDirection?.desk || 'Words');
+
         posts.push({
           id: `legacy-${legacy.slug}`,
           slug: legacy.slug,
           language: lang,
-          desk: legacy.type === 'guide' ? 'Long Reads' : 'Words',
+          desk,
           format: 'list',
           level: legacy.cefr_level || 'A0–B2',
           issue: { number: issueNum, title: issueTitle },
@@ -92,11 +94,11 @@ function buildBlogIndex() {
           tags: legacy.tags || [],
           readingTime: legacy.reading_time || 5,
           podcast: { episode: 1, audioUrl: legacy.audio_podcast ? `../audio/blog/${legacy.slug}.mp3` : null },
-          artDirection: {
+          artDirection: legacy.artDirection || {
             palette: ['#0d9488', '#faf7f2', '#1e293b'],
             fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
             layout: 'standard-feed',
-            motif: 'editorial-stars',
+            motif: 'riso-print',
             seed: legacy.slug,
             coverOverride: legacy.cover_image || null
           },
