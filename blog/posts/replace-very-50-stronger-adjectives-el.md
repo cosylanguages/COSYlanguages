@@ -3,10 +3,16 @@ title: "Σταματήστε να λέτε 'Πολύ'! 50 ισχυρά επίθ�
 date: "2026-09-12"
 category: "Resource List"
 summary: "Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό 'πολύ + επίθετο' με 50 ακριβή, εκφραστικά και φυσικά επίθετα."
-author: "JY DM"
 tags: ["Λεξιλόγιο", "ΕνδιάμεσοΕπίπεδο", "Επίθετα", "B1-B2", "Ελληνικά"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 Ένα από τα πιο χαρακτηριστικά σημάδια του **ενδιάμεσου επιπέδου (B1–B2)** είναι η υπερβολική χρήση του επιρρήματος **"πολύ"** για την ενίσχυση των καθημερινών επιθέτων.

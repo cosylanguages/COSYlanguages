@@ -3,10 +3,16 @@ title: "Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner
 date: "2026-09-12"
 category: "Resource List"
 summary: "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades."
-author: "JY DM"
 tags: ["Vocabulary", "IntermediatePlateau", "Adjectives", "B1-B2"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 One of the most noticeable signs of reaching the **"intermediate plateau"** in English is relying on the modifier **"very"** to intensify everyday adjectives.

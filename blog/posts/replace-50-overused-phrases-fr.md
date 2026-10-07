@@ -3,10 +3,16 @@ title: "Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturel
 date: "2026-09-13"
 category: "Resource List"
 summary: "Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs."
-author: "JY DM"
 tags: ["Expressions", "PlateauIntermédiaire", "Fluidité", "B1-B2", "Français"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 Lorsque vous atteignez le **plateau intermédiaire (B1–B2)**, vous pouvez vous exprimer avec aisance et participer à des conversations variées. Cependant, presque tous les professeurs observent le même phénomène : les apprenants réutilisent constamment les mêmes expressions "de sécurité" : *"Je pense que..."*, *"Je suis d'accord"*, *"Ça dépend"*, ou *"Je ne sais pas"*.

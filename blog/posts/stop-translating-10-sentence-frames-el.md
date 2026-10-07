@@ -3,10 +3,16 @@ title: "Σταματήστε τη μετάφραση! 10 επαναχρησιμ�
 date: "2026-09-14"
 category: "Resource List"
 summary: "Μάθετε 10 βασικές δομές προτάσεων και 20 φράσεις επιβίωσης για να καταργήσετε τη μετάφραση λέξη προς λέξη, να περιγράφετε κάθε άγνωστη λέξη και να σκέφτεστε απευθείας στη γλώσσα."
-author: "JY DM"
 tags: ["SentenceFrames", "Circumlocution", "Fluency", "A0-B1", "Greek"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — October Issue"
+issue_title: "JY DM's birthday & His favs"
+cefr_level: "A0–A1 / A2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition."
+audio_podcast: true
 ---
 
 Ένα από τα μεγαλύτερα εμπόδια για τους αρχάριους και μεσαίους μαθητές (A0–B1) είναι η συνήθεια της **μετάφρασης λέξη προς λέξη**. Όταν λείπει μια συγκεκριμένη λέξη — όπως *τιρμπουσόν*, *φαρμακείο* ή *αρχιτέκτονας* —, ο εγκέφαλος μπλοκάρει: *"Δεν ξέρω αυτή τη λέξη, άρα δεν μπορώ να μιλήσω."*

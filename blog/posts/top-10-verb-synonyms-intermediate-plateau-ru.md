@@ -3,10 +3,16 @@ title: "Топ-10 перегруженных глаголов и их точны
 date: "2026-09-11"
 category: "Resource List"
 summary: "Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами."
-author: "JY DM"
 tags: ["ПлатоСреднегоУровня", "СловарныйЗапас", "B1-B2", "Глаголы", "Русский"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 Один из самых ярких признаков того, что студент достиг **плато среднего уровня (B1–B2)** — это постоянное использование узкой группы «безопасных» глаголов в любой ситуации.
