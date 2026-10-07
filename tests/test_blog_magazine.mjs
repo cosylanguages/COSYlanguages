@@ -11,6 +11,14 @@ assert.ok(fs.existsSync(postsPath), 'blog/posts.json should exist');
 const posts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
 assert.ok(Array.isArray(posts) && posts.length > 0, 'posts.json should contain an array of posts');
 
+const augPosts = posts.filter(p => p.issue_title === 'Get ready for school');
+const septPosts = posts.filter(p => p.issue_title === 'Me vs Intermediate Plateau');
+const octPosts = posts.filter(p => p.issue_title === "JY DM's birthday & His favs");
+
+assert.ok(augPosts.length > 0, 'posts.json should contain August issue posts (Get ready for school)');
+assert.ok(septPosts.length > 0, 'posts.json should contain September issue posts (Me vs Intermediate Plateau)');
+assert.ok(octPosts.length > 0, 'posts.json should contain October issue posts (JY DM\'s birthday & His favs)');
+
 posts.forEach((post, idx) => {
     assert.ok(post.title, `Post at index ${idx} missing title`);
     assert.ok(post.url, `Post at index ${idx} missing url`);
@@ -19,7 +27,7 @@ posts.forEach((post, idx) => {
     assert.ok(post.vibe, `Post ${post.slug} missing vibe`);
     assert.ok(post.founder_notes, `Post ${post.slug} missing founder_notes`);
 });
-console.log(`✅ Passed: All ${posts.length} posts in blog/posts.json have valid monthly issue & founder metadata.`);
+console.log(`✅ Passed: All ${posts.length} posts in blog/posts.json correctly mapped to August, September, and October issues.`);
 
 // Test 2: Check blog/index.html HTML elements
 const indexPath = path.resolve('blog/index.html');
