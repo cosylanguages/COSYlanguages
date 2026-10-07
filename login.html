@@ -253,7 +253,9 @@
         // Initialize Supabase Client if SDK is loaded and credentials are set
         let supabaseClient = null;
         if (window.supabase && SUPABASE_URL !== "https://YOUR_SUPABASE_PROJECT_ID.supabase.co") {
-            supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+                auth: { storageKey: 'cosy-auth', persistSession: true }
+            });
         }
 
         const COSY_PLATFORM_URL = "https://cosylanguages.github.io/COSYplatform/";
@@ -283,7 +285,7 @@
             }
 
             // Role-based default destination
-            if (role === 'teacher' || role === 'admin') {
+            if (role === 'teacher' || role === 'admin' || role === 'founder') {
                 return COSY_MANUALS_URL;
             }
             return COSY_PLATFORM_URL;
@@ -339,10 +341,6 @@
                 }
 
                 let targetUrl = getRedirectTarget(role);
-                if (authData && authData.session) {
-                    const separator = targetUrl.includes('#') ? '&' : '#';
-                    targetUrl = `${targetUrl}${separator}access_token=${encodeURIComponent(authData.session.access_token)}&refresh_token=${encodeURIComponent(authData.session.refresh_token || '')}&type=sso`;
-                }
 
                 // Store local user state
                 const cosyUser = { id: authData.user.id, email: authData.user.email, role: role };
