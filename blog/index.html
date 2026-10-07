@@ -281,6 +281,7 @@
                     <div class="label-cloud" id="sidebar-labels">
                         <a href="#feed-section" data-category="all" class="sidebar-label-chip active">All Topics</a>
                         <a href="#feed-section" data-category="Resource List" class="sidebar-label-chip">Resource List</a>
+                        <a href="#feed-section" data-category="Curriculum" class="sidebar-label-chip">Curriculum</a>
                         <a href="#feed-section" data-category="Ecosystem Update" class="sidebar-label-chip">Ecosystem Update</a>
                     </div>
                 </div>
@@ -298,15 +299,20 @@
                     <h3 class="sidebar-widget-title">Archive</h3>
                     <ul class="sidebar-list">
                         <li>
+                            <a href="#feed-section" data-month="2026-10" onclick="filterBlogMonth('2026-10', event)"><strong>October 2026</strong></a>
+                            <span class="sidebar-sub-item">• 10 Reusable Sentence Frames</span>
+                            <span class="sidebar-sub-item">• Top 5 Favourite Grammar Rules</span>
+                        </li>
+                        <li>
                             <a href="#feed-section" data-month="2026-09" onclick="filterBlogMonth('2026-09', event)"><strong>September 2026</strong></a>
                             <span class="sidebar-sub-item">• Stop Saying These 50 Phrases!</span>
                             <span class="sidebar-sub-item">• Stop Saying 'Very'! 50 Stronger Words</span>
                             <span class="sidebar-sub-item">• Top 10 Overused Verbs &amp; Synonyms</span>
-                            <span class="sidebar-sub-item">• Welcome to COSY Blog</span>
-                            <span class="sidebar-sub-item">• Top 100 A0-A1 Semantic Master List</span>
                         </li>
                         <li>
-                            <a href="#feed-section" data-month="2026-03" onclick="filterBlogMonth('2026-03', event)"><strong>March 2026</strong></a>
+                            <a href="#feed-section" data-month="2026-08" onclick="filterBlogMonth('2026-08', event)"><strong>August 2026</strong></a>
+                            <span class="sidebar-sub-item">• Welcome to COSY Blog</span>
+                            <span class="sidebar-sub-item">• Top 100 A0–A1 Semantic Master List</span>
                             <span class="sidebar-sub-item">• Top 10 Essential Verbs Matrix</span>
                         </li>
                     </ul>
@@ -458,12 +464,20 @@
             const rules = document.querySelectorAll('#feed-container .feed-rule');
 
             cards.forEach(card => {
-                const cardCat = card.getAttribute('data-category');
+                const cardCat = card.getAttribute('data-category') || '';
                 const cardTitle = (card.getAttribute('data-title') || '').toLowerCase();
                 const cardText = card.textContent.toLowerCase();
+                const cardDate = card.getAttribute('data-date') || '';
 
-                const cardTextAll = card.textContent;
-                const monthMatch = (selectedMonth === 'all' || cardTextAll.includes(selectedMonth) || (selectedMonth === '2026-08' && cardTextAll.includes('August')) || (selectedMonth === '2026-09' && cardTextAll.includes('September')) || (selectedMonth === '2026-10' && cardTextAll.includes('October')));
+                let monthMatch = (selectedMonth === 'all');
+                if (!monthMatch) {
+                    if (selectedMonth === '2026-08' || selectedMonth === '2026-09' || selectedMonth === '2026-10') {
+                        monthMatch = cardDate.startsWith(selectedMonth);
+                    } else {
+                        monthMatch = cardDate.startsWith(selectedMonth) || cardText.includes(selectedMonth);
+                    }
+                }
+
                 const catMatch = (selectedCategory === 'all' || cardCat === selectedCategory);
                 const searchMatch = !query || cardTitle.includes(query) || cardText.includes(query);
 
@@ -487,6 +501,43 @@
             });
         }
 
+        function renderPostsFeed(posts) {
+            const container = document.getElementById('feed-container');
+            if (!container || !Array.isArray(posts) || !posts.length) return;
+
+            // Sort newest first
+            const sorted = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            const htmlContent = sorted.map((post, idx) => {
+                const d = new Date(post.date);
+                const formattedDate = isNaN(d.getTime()) ? post.date : d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+                const isLast = idx === sorted.length - 1;
+
+                return `
+                        <article class="post-card" data-category="${post.category || ''}" data-title="${post.title.replace(/"/g, '&quot;')}" data-date="${post.date}">
+                            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.35rem;">
+                                <span class="kicker" style="margin-bottom: 0;">${post.category || 'Article'}</span>
+                                <span class="gazette-badge">${post.issue_volume || 'COSYmagazine'}</span>
+                            </div>
+                            <h3 class="post-card-title">
+                                <a href="${post.url}">${post.title}</a>
+                            </h3>
+                            <p class="post-card-dek">${post.summary}</p>
+                            <div class="post-meta">
+                                <span>By <strong>${post.author || 'JY DM'}</strong></span>
+                                <span class="meta-sep">·</span>
+                                <span>${formattedDate}</span>
+                                <span class="meta-sep">·</span>
+                                <span>${post.reading_time || 5} min read</span>
+                            </div>
+                        </article>
+                        ${!isLast ? '<hr class="feed-rule">' : ''}`;
+            }).join('\n');
+
+            container.innerHTML = htmlContent;
+            applyBlogFilters();
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             renderLanguageGuides();
             setupLabelLinks();
@@ -494,8 +545,10 @@
                 .then(res => res.json())
                 .then(posts => {
                     if (!posts || !posts.length) return;
-                    const sorted = posts.map(p => p.date).filter(Boolean).sort();
-                    const newest = sorted[sorted.length - 1];
+                    renderPostsFeed(posts);
+
+                    const sortedDates = posts.map(p => p.date).filter(Boolean).sort();
+                    const newest = sortedDates[sortedDates.length - 1];
                     if (newest) {
                         const [y, m, d] = newest.split('-');
                         const dateObj = new Date(y, m - 1, d);
