@@ -6,7 +6,7 @@
     <title>Printable Leitner Cards Generator — COSYlanguages</title>
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&amp;family=Lora:wght@600;700&amp;display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -186,10 +186,10 @@
         <option value="people">👥 People</option>
         <option value="dishes">🍕 Dishes &amp; Food</option>    </select>
 
-    <button onclick="document.getElementById('file-input').click()" class="btn-action btn-action-sm">📂 Load JSON File</button>
+    <button type="button" onclick="document.getElementById('file-input').click()" class="btn-action btn-action-sm">📂 Load JSON File</button>
     <input type="file" id="file-input" style="display: none;" onchange="handleFileUpload(event)">
 
-    <button onclick="window.print()" class="btn-print" data-accent="honey">🖨️ Print study cards</button>
+    <button type="button" onclick="window.print()" class="btn-print" data-accent="honey">🖨️ Print study cards</button>
 </div>
 
 <main class="print-container">

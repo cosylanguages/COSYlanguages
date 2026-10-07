@@ -6,7 +6,7 @@
     <title>Print Grammar Reference — COSYlanguages</title>
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito:wght@400;700;800&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&amp;family=Nunito:wght@400;700;800&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -192,7 +192,7 @@
         <option value="adjectives">Adjectives</option>
     </select>
 
-    <button onclick="window.print()" class="btn-print">🖨️ Print to PDF / Paper</button>
+    <button type="button" onclick="window.print()" class="btn-print">🖨️ Print to PDF / Paper</button>
 </div>
 
 <main class="print-container">
@@ -287,7 +287,7 @@ async function loadPrintData() {
 
     document.getElementById('print-content').innerHTML = `
         <div style="text-align:center; padding: 2rem;">
-            <h2>Loading dynamic grammar & morphology databases...</h2>
+            <h2>Loading dynamic grammar &amp; morphology databases...</h2>
         </div>
     `;
 
