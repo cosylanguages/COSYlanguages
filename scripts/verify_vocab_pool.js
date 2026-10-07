@@ -45,7 +45,7 @@ if (fs.existsSync(langJsPath)) {
 }
 
 // 2. Load gameUtils (getVocabPool & filterVocabulary)
-const sharedJsPath = path.join(process.cwd(), 'js', 'games', 'utils', 'shared.js');
+const sharedJsPath = path.join(process.cwd(), 'js', 'utils', 'shared.js');
 if (fs.existsSync(sharedJsPath)) {
     vm.runInContext(fs.readFileSync(sharedJsPath, 'utf8'), sandbox);
 }

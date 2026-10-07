@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#FAF7F2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&amp;family=DM+Sans:wght@400;500;700&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -35,7 +35,7 @@
 
 <a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <header class="coming-soon-hero">
     <div class="journey-roadmap-header" style="justify-content: center; margin-bottom: 0.85rem;">
@@ -125,7 +125,7 @@
             ${l.hasFreeVocabulary ? `<a href="../practice/index.html?lang=${l.code}" class="cs-vocab-link" style="display:inline-block; margin-top:0.4rem; font-size:0.82rem; color:var(--sage-dark); font-weight:700; text-decoration:underline;">Free vocabulary available →</a>` : ''}
             <div class="lead-capture" style="margin-top:0.8rem;" onclick="event.stopPropagation()">
               <input type="email" placeholder="Email me" class="lead-email" aria-label="Email for ${l.name} updates">
-              <button class="lead-submit" onclick="captureLead('${l.name}')" aria-label="Notify me">🔔</button>
+              <button type="button" class="lead-submit" onclick="captureLead('${l.name}')" aria-label="Notify me">🔔</button>
             </div>
           </div>
         `).join('');

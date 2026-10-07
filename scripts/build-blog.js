@@ -288,6 +288,32 @@ function formatFlipbookContent(renderedHtml, slug) {
             </div>
         </header>
 
+        <!-- Founder's Role Expandable Presentation Card -->
+        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
+            <div class="founder-card-header">
+                <div class="founder-info">
+                    <div class="founder-avatar">J</div>
+                    <div class="founder-meta">
+                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
+                        <span class="founder-subtitle">${escapeHtml(post.issue_title)} (${escapeHtml(post.cefr_level)}) • ${escapeHtml(post.vibe)}</span>
+                    </div>
+                </div>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false">
+                        <span>🎙️ Expand Founder Deck</span>
+                    </button>
+                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
+                        <span>🎙️ Podcast View Mode</span>
+                    </button>
+                </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="founder-card-notes">
+                    <p><strong>Founder's Notes:</strong> ${escapeHtml(post.founder_notes)}</p>
+                </div>
+            </div>
+        </section>
+
         <div class="blog-layout">
             <main class="blog-main-col">
                 ${post.cover_image ? `<div class="post-cover" style="margin-bottom: 1.5rem;"><img src="${escapeHtml(post.cover_image)}" alt="${escapeHtml(post.title)}" style="width: 100%; border-radius: 12px;"></div>` : ''}

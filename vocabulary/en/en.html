@@ -343,13 +343,13 @@
 <body>
 
 <!-- TOP BAR -->
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <!-- LAYOUT -->
 <div class="layout">
 
 <!-- SIDEBAR -->
-<nav class="sidebar" id="sidebar">
+<nav class="sidebar" id="sidebar" aria-label="Vocabulary levels navigation">
   <div class="sb-stat">
     <span class="sn" id="total-words">0</span>
     <span class="sl">words in your reference</span>
@@ -419,19 +419,19 @@
 <!-- Mode switcher -->
 <div class="mode-bar">
   <span class="mode-label">Mode:</span>
-  <button class="mode-btn active" id="btn-ref"   onclick="setMode('ref')">
+  <button type="button" class="mode-btn active" id="btn-ref"   onclick="setMode('ref')">
     <span class="mode-icon">📋</span> Reference
   </button>
-  <button class="mode-btn" id="btn-flip"  onclick="setMode('flip')">
+  <button type="button" class="mode-btn" id="btn-flip"  onclick="setMode('flip')">
     <span class="mode-icon">🎴</span> Flip cards
   </button>
-  <button class="mode-btn" id="btn-type"  onclick="setMode('type')">
+  <button type="button" class="mode-btn" id="btn-type"  onclick="setMode('type')">
     <span class="mode-icon">✏️</span> Type it
   </button>
-  <button class="mode-btn" id="btn-mc"    onclick="setMode('mc')">
+  <button type="button" class="mode-btn" id="btn-mc"    onclick="setMode('mc')">
     <span class="mode-icon">❓</span> Quiz me
   </button>
-  <button class="mode-btn" id="btn-match" onclick="setMode('match')">
+  <button type="button" class="mode-btn" id="btn-match" onclick="setMode('match')">
     <span class="mode-icon">🔗</span> Match
   </button>
 </div>
@@ -745,8 +745,8 @@ function buildFlip(words, lv) {
   return `
     <div class="ex-controls">
       <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">Click a card to reveal the definition</span>
-      <button class="ex-btn secondary" onclick="flipAll('${lv}',${words.length})">Flip all</button>
-      <button class="ex-btn secondary" onclick="resetFlip('${lv}',${words.length})">Reset</button>
+      <button type="button" class="ex-btn secondary" onclick="flipAll('${lv}',${words.length})">Flip all</button>
+      <button type="button" class="ex-btn secondary" onclick="resetFlip('${lv}',${words.length})">Reset</button>
     </div>
     <div class="flip-grid">${cards}</div>`;
 }
@@ -779,8 +779,8 @@ function buildType(words, lv) {
             autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
             data-answer="${item.w}" data-level="${lv}" data-idx="${i}"
             onkeydown="if(event.key==='Enter')checkType('${id}','${item.w.replace(/'/g,"\\'")}','${lv}')">
-          <button class="tc-btn" onclick="checkType('${id}','${item.w.replace(/'/g,"\\'")}','${lv}')">Check ✓</button>
-          <button class="tc-btn hint-btn" onclick="typeHint('${id}','${item.w.replace(/'/g,"\\'")}')">💡</button>
+          <button type="button" class="tc-btn" onclick="checkType('${id}','${item.w.replace(/'/g,"\\'")}','${lv}')">Check ✓</button>
+          <button type="button" class="tc-btn hint-btn" onclick="typeHint('${id}','${item.w.replace(/'/g,"\\'")}')">💡</button>
         </div>
         <div class="tc-feedback" id="fb-${id}"></div>
       </div>`;
@@ -790,7 +790,7 @@ function buildType(words, lv) {
       <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">
         Type the word that matches each definition
       </span>
-      <button class="ex-btn secondary" onclick="resetType('${lv}',${words.length})">↺ Reset all</button>
+      <button type="button" class="ex-btn secondary" onclick="resetType('${lv}',${words.length})">↺ Reset all</button>
     </div>
     <div class="typing-exercise">${cards}</div>`;
 }
@@ -911,7 +911,7 @@ function buildMatch(words, lv) {
       <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">
         Match each word to its definition
       </span>
-      <button class="ex-btn secondary" onclick="resetMatch('${lv}',${subset.length})">↺ Reset</button>
+      <button type="button" class="ex-btn secondary" onclick="resetMatch('${lv}',${subset.length})">↺ Reset</button>
       <span class="ex-score-inline" id="match-score-${lv}">0 / ${subset.length}</span>
     </div>
     <div class="match-exercise">
