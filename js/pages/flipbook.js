@@ -189,97 +189,57 @@
 
 
         initZoomControls: function () {
-            let overlay = document.querySelector('.zoom-focus-overlay');
-            if (!overlay) {
-                overlay = document.createElement('div');
-                overlay.className = 'zoom-focus-overlay';
-                document.body.appendChild(overlay);
-            }
+            let currentFocalSec = null;
 
-            let currentZoomedSection = null;
-            let currentScale = 1.1;
-
-            const closeZoom = () => {
-                if (currentZoomedSection) {
-                    currentZoomedSection.classList.remove('zoomed-in');
-                    currentZoomedSection.style.transform = '';
-                    const toolbar = currentZoomedSection.querySelector('.zoom-controls-toolbar');
-                    if (toolbar) toolbar.remove();
-                    currentZoomedSection = null;
+            const closeFocalZoom = () => {
+                if (currentFocalSec) {
+                    currentFocalSec.classList.remove('focal-zoomed');
+                    currentFocalSec = null;
                 }
-                overlay.classList.remove('active');
+                const article = document.querySelector('.post-full-content');
+                if (article) article.classList.remove('section-is-zoomed');
             };
 
-            const zoomSection = (sec) => {
-                if (currentZoomedSection === sec) return;
-                if (currentZoomedSection) closeZoom();
-
-                currentZoomedSection = sec;
-                currentScale = 1.1;
-                sec.classList.add('zoomed-in');
-                overlay.classList.add('active');
-
-                if (!sec.querySelector('.zoom-controls-toolbar')) {
-                    const toolbar = document.createElement('div');
-                    toolbar.className = 'zoom-controls-toolbar';
-                    toolbar.innerHTML = `
-                        <button type="button" class="zoom-ctrl-btn zoom-in-btn">🔍+ Zoom In</button>
-                        <button type="button" class="zoom-ctrl-btn zoom-out-btn">🔍- Zoom Out</button>
-                        <button type="button" class="zoom-ctrl-btn close-btn">✖ Exit Focus (Esc)</button>
-                    `;
-                    sec.insertBefore(toolbar, sec.firstChild);
-
-                    toolbar.querySelector('.zoom-in-btn').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        currentScale = Math.min(1.5, currentScale + 0.1);
-                        sec.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
-                    });
-
-                    toolbar.querySelector('.zoom-out-btn').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        currentScale = Math.max(0.8, currentScale - 0.1);
-                        sec.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
-                    });
-
-                    toolbar.querySelector('.close-btn').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        closeZoom();
-                    });
+            const toggleFocalZoom = (sec) => {
+                const article = document.querySelector('.post-full-content');
+                if (currentFocalSec === sec) {
+                    closeFocalZoom();
+                    return;
                 }
-            };
+                if (currentFocalSec) {
+                    currentFocalSec.classList.remove('focal-zoomed');
+                }
+                currentFocalSec = sec;
+                sec.classList.add('focal-zoomed');
+                if (article) article.classList.add('section-is-zoomed');
 
-            overlay.addEventListener('click', closeZoom);
+                sec.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            };
 
             document.addEventListener('click', (e) => {
                 const zoomBtn = e.target.closest('.section-zoom-btn');
+                const zoomableSec = e.target.closest('.zoomable-section');
+
                 if (zoomBtn) {
                     e.stopPropagation();
                     const sec = zoomBtn.closest('.zoomable-section');
-                    if (sec) zoomSection(sec);
+                    if (sec) toggleFocalZoom(sec);
                     return;
                 }
 
-                if (document.body.classList.contains('podcast-presentation-mode')) {
-                    const sec = e.target.closest('.zoomable-section');
-                    if (sec && !e.target.closest('.zoom-controls-toolbar') && !e.target.closest('audio') && !e.target.closest('a')) {
-                        zoomSection(sec);
-                    }
+                if (zoomableSec && !e.target.closest('audio') && !e.target.closest('a')) {
+                    toggleFocalZoom(zoomableSec);
+                    return;
+                }
+
+                if (currentFocalSec && !e.target.closest('.zoomable-section')) {
+                    closeFocalZoom();
                 }
             });
 
             document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && currentZoomedSection) {
-                    closeZoom();
-                    return;
-                }
-                if (currentZoomedSection) {
-                    if (e.key === '+' || e.key === '=') {
-                        currentScale = Math.min(1.5, currentScale + 0.1);
-                        currentZoomedSection.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
-                    } else if (e.key === '-') {
-                        currentScale = Math.max(0.8, currentScale - 0.1);
-                        currentZoomedSection.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
-                    }
+                if (e.key === 'Escape' && currentFocalSec) {
+                    closeFocalZoom();
                 }
             });
         },
@@ -370,18 +330,22 @@
             if (pageIndex < 1) pageIndex = 1;
             if (pageIndex > this.totalPages) pageIndex = this.totalPages;
 
+            const isNext = pageIndex > this.currentPage;
             this.currentPage = pageIndex;
 
             if (this.mode === 'flipbook') {
                 this.pages.forEach((p, i) => {
                     const audioEl = p.querySelector('audio');
+                    p.classList.remove('turning-next', 'turning-prev');
+
                     if (i + 1 === pageIndex) {
                         p.classList.add('active');
                         p.style.display = 'block';
+                        p.classList.add(isNext ? 'turning-next' : 'turning-prev');
+                        setTimeout(() => p.classList.remove('turning-next', 'turning-prev'), 550);
                     } else {
                         p.classList.remove('active');
                         p.style.display = 'none';
-                        // Pause audio when switching pages
                         if (audioEl && !audioEl.paused) {
                             audioEl.pause();
                         }
