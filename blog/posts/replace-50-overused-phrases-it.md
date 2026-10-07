@@ -1,12 +1,22 @@
 ---
-title: "Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio"
-date: "2026-09-13"
-category: "Resource List"
-summary: "Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti."
-author: "JY DM"
-tags: ["Frasi", "AltopianoIntermedio", "Fluidità", "B1-B2", "Italiano"]
+title: Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio
+date: '2026-09-15'
+category: Resource List
+summary: Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.
+author: JY DM
+tags:
+  - Frasi
+  - AltopianoIntermedio
+  - Fluidità
+  - B1-B2
+  - Italiano
 featured: false
 draft: false
+issue_volume: Vol. 2026 — September Issue
+issue_title: Me vs Intermediate Plateau
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.
+cefr_level: B1–B2
 ---
 
 Quando raggiungi l'**altopiano intermedio (livello B1–B2)**, riesci a sostenere conversazioni e a esprimere le tue opinioni. Tuttavia, molti studenti notano di usare continuamente le stesse espressioni di ripiego: *"Penso che..."*, *"Sono d'accordo"*, *"Dipende"*, *"Non lo so"*.

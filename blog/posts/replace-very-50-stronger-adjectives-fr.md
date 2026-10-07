@@ -1,12 +1,22 @@
 ---
-title: "Arrêtez de dire 'Très' ! 50 adjectifs forts pour enrichir votre vocabulaire"
-date: "2026-09-12"
-category: "Resource List"
-summary: "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels."
-author: "JY DM"
-tags: ["Vocabulaire", "PlateauIntermédiaire", "Adjectifs", "B1-B2", "Français"]
+title: Arrêtez de dire 'Très' ! 50 adjectifs forts pour enrichir votre vocabulaire
+date: '2026-09-15'
+category: Resource List
+summary: Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels.
+author: JY DM
+tags:
+  - Vocabulaire
+  - PlateauIntermédiaire
+  - Adjectifs
+  - B1-B2
+  - Français
 featured: false
 draft: false
+issue_volume: Vol. 2026 — September Issue
+issue_title: Me vs Intermediate Plateau
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.
+cefr_level: B1–B2
 ---
 
 L'une des caractéristiques les plus marquantes du **plateau intermédiaire (B1–B2)** est l'utilisation excessive de l'adverbe **"très"** pour intensifier tous les adjectifs du quotidien.

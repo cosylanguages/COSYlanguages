@@ -163,6 +163,12 @@ function buildBlog() {
       tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
       featured: Boolean(frontmatter.featured),
       draft: Boolean(frontmatter.draft),
+      issue_volume: frontmatter.issue_volume ? String(frontmatter.issue_volume).trim() : 'Vol. 2026 — Monthly Issue',
+      vibe: frontmatter.vibe ? String(frontmatter.vibe).trim() : 'Editorial Vibe',
+      founder_notes: frontmatter.founder_notes ? String(frontmatter.founder_notes).trim() : '',
+      issue_title: frontmatter.issue_title ? String(frontmatter.issue_title).trim() : '',
+      cefr_level: frontmatter.cefr_level ? String(frontmatter.cefr_level).trim() : 'B1–B2',
+      audio_podcast: frontmatter.audio_podcast !== false,
       bodyMarkdown: markdownBody,
       type: 'post',
       url: `${slug}.html`
@@ -273,6 +279,47 @@ function formatFlipbookContent(renderedHtml, slug) {
                 <span>⏱️ ${post.reading_time} min read</span>
             </div>
         </header>
+
+        <!-- Founder's Role Expandable Presentation Card -->
+        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
+            <div class="founder-card-header">
+                <div class="founder-info">
+                    <div class="founder-avatar">J</div>
+                    <div class="founder-meta">
+                        <h3 class="founder-title">JY DM — Founder's Podcast &amp; Presentation Deck</h3>
+                        <span class="founder-subtitle">${escapeHtml(post.founder_notes || "CELTA-aligned target-language guidance by JY DM")}</span>
+                    </div>
+                </div>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false">
+                        <span>🎙️ Expand Founder Deck</span>
+                    </button>
+                    <button type="button" class="podcast-mode-btn">
+                        <span>🎙️ Podcast View Mode</span>
+                    </button>
+                </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="podcast-deck-grid">
+                    <div class="podcast-deck-box">
+                        <h4>🎯 CELTA Pedagogical Focus</h4>
+                        <p>${escapeHtml(post.founder_notes || "CELTA-aligned target-language guidance by JY DM")}</p>
+                    </div>
+                    <div class="podcast-deck-box">
+                        <h4>🎙️ Podcast Host Prompts</h4>
+                        <ul>
+                            <li>Walk through target language structures and key sentence patterns.</li>
+                            <li>Demonstrate no-translation circumlocution strategies.</li>
+                            <li>Practice interactive zoomable presentation cards.</li>
+                        </ul>
+                    </div>
+                    <div class="podcast-deck-box">
+                        <h4>🗞️ Real Paper Newspaper Edition</h4>
+                        <p>Every article in this magazine is layout-optimized for physical printing, broadsheet reading, and classroom handouts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class="blog-layout">
             <main class="blog-main-col">
@@ -394,7 +441,13 @@ function formatFlipbookContent(renderedHtml, slug) {
       tags: p.tags,
       featured: p.featured,
       type: 'post',
-      url: p.url
+      url: p.url,
+      issue_volume: p.issue_volume,
+      vibe: p.vibe,
+      founder_notes: p.founder_notes,
+      issue_title: p.issue_title,
+      cefr_level: p.cefr_level,
+      audio_podcast: p.audio_podcast
     })),
     ...guides.map(g => ({
       slug: g.slug,
@@ -409,7 +462,13 @@ function formatFlipbookContent(renderedHtml, slug) {
       tags: g.tags || [],
       featured: Boolean(g.featured),
       type: 'guide',
-      url: g.url || `${g.slug}.html`
+      url: g.url || `${g.slug}.html`,
+      issue_volume: g.issue_volume || 'Vol. 2026 — August Issue',
+      vibe: g.vibe || 'Curriculum Vibe',
+      founder_notes: g.founder_notes || '',
+      issue_title: g.issue_title || 'Get ready for school',
+      cefr_level: g.cefr_level || 'A0–A1 / A2',
+      audio_podcast: g.audio_podcast !== false
     }))
   ];
 

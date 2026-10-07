@@ -1,12 +1,22 @@
 ---
-title: "Basta tradurre! 10 strutture di frasi riutilizzabili per parlare fin dal primo giorno"
-date: "2026-09-14"
-category: "Resource List"
-summary: "Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua."
-author: "JY DM"
-tags: ["SentenceFrames", "Circumlocution", "Fluency", "A0-B1", "Italian"]
+title: Basta tradurre! 10 strutture di frasi riutilizzabili per parlare fin dal primo giorno
+date: '2026-10-15'
+category: Resource List
+summary: Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua.
+author: JY DM
+tags:
+  - SentenceFrames
+  - Circumlocution
+  - Fluency
+  - A0-B1
+  - Italian
 featured: false
 draft: false
+issue_volume: Vol. 2026 — October Issue
+issue_title: JY DM's birthday & His favs
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.
+cefr_level: A0–A1 / A2
 ---
 
 Uno dei più grandi ostacoli per gli studenti principianti e intermedi (A0–B1) è l'abitudine di **tradurre parola per parola**. Quando manca una parola precisa — come *cavatappi*, *farmacia* o *architetto* —, il cervello si blocca e conclude: *"Non conosco questa parola, quindi non posso parlare."*

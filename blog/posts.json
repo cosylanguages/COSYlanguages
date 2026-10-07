@@ -1,32 +1,5 @@
 [
   {
-    "slug": "top-5-favourite-grammar-rules",
-    "title": "My Top 5 Favourite English Grammar Rules for Intermediate Learners",
-    "date": "2026-10-15",
-    "updated": null,
-    "category": "Resource List",
-    "summary": "Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and 'it's giving...'.",
-    "author": "JY DM",
-    "reading_time": 6,
-    "cover_image": "",
-    "tags": [
-      "Grammar",
-      "IntermediatePlateau",
-      "Fluency",
-      "B1-B2",
-      "English"
-    ],
-    "featured": true,
-    "type": "post",
-    "url": "top-5-favourite-grammar-rules.html",
-    "issue_volume": "Vol. 2026 — October Issue",
-    "vibe": "Editorial Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "issue_title": "JY DM's birthday & His favs",
-    "cefr_level": "B1–B2",
-    "audio_podcast": true
-  },
-  {
     "slug": "stop-translating-10-sentence-frames-el",
     "title": "Σταματήστε τη μετάφραση! 10 επαναχρησιμοποιήσιμες δομές προτάσεων για να μιλάτε από την πρώτη μέρα",
     "date": "2026-10-15",
@@ -159,6 +132,33 @@
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
     "issue_title": "JY DM's birthday & His favs",
     "cefr_level": "A0–A1 / A2",
+    "audio_podcast": true
+  },
+  {
+    "slug": "top-5-favourite-grammar-rules",
+    "title": "My Top 5 Favourite English Grammar Rules for Intermediate Learners",
+    "date": "2026-10-15",
+    "updated": null,
+    "category": "Resource List",
+    "summary": "Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and 'it's giving...'.",
+    "author": "JY DM",
+    "reading_time": 6,
+    "cover_image": "",
+    "tags": [
+      "Grammar",
+      "IntermediatePlateau",
+      "Fluency",
+      "B1-B2",
+      "English"
+    ],
+    "featured": true,
+    "type": "post",
+    "url": "top-5-favourite-grammar-rules.html",
+    "issue_volume": "Vol. 2026 — October Issue",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "issue_title": "JY DM's birthday & His favs",
+    "cefr_level": "B1–B2",
     "audio_podcast": true
   },
   {
@@ -589,6 +589,32 @@
     "audio_podcast": true
   },
   {
+    "slug": "top-10-verbs",
+    "title": "Top 10 Essential Verbs for Absolute Beginners (A0–A1) across All 14 Languages",
+    "date": "2026-08-15",
+    "updated": null,
+    "category": "Resource List",
+    "summary": "The 10 essential verbs every beginner needs first, linked directly to COSYdata across all 14 target languages with real grammar traps and interactive multi-language filtering.",
+    "author": "JY DM",
+    "reading_time": 10,
+    "cover_image": "",
+    "tags": [
+      "ResourceList",
+      "Verbs",
+      "A0-A1",
+      "14Languages"
+    ],
+    "featured": true,
+    "type": "guide",
+    "url": "top-10-verbs.html",
+    "issue_volume": "Vol. 2026 — August Issue",
+    "vibe": "Curriculum Vibe",
+    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "issue_title": "Get ready for school",
+    "cefr_level": "A0–A1 / A2",
+    "audio_podcast": true
+  },
+  {
     "slug": "top-100-a0-a1",
     "title": "Top 100 A0–A1 Semantic Master List (14 Languages)",
     "date": "2026-08-15",
@@ -932,32 +958,6 @@
     "featured": false,
     "type": "guide",
     "url": "top-100-a0-a1-breton.html",
-    "issue_volume": "Vol. 2026 — August Issue",
-    "vibe": "Curriculum Vibe",
-    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "issue_title": "Get ready for school",
-    "cefr_level": "A0–A1 / A2",
-    "audio_podcast": true
-  },
-  {
-    "slug": "top-10-verbs",
-    "title": "Top 10 Essential Verbs for Absolute Beginners (A0–A1) across All 14 Languages",
-    "date": "2026-08-15",
-    "updated": null,
-    "category": "Resource List",
-    "summary": "The 10 essential verbs every beginner needs first, linked directly to COSYdata across all 14 target languages with real grammar traps and interactive multi-language filtering.",
-    "author": "JY DM",
-    "reading_time": 10,
-    "cover_image": "",
-    "tags": [
-      "ResourceList",
-      "Verbs",
-      "A0-A1",
-      "14Languages"
-    ],
-    "featured": true,
-    "type": "guide",
-    "url": "top-10-verbs.html",
     "issue_volume": "Vol. 2026 — August Issue",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",

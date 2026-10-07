@@ -1,12 +1,20 @@
 ---
-title: "Welcome to the COSY Editorial & Learning Corner"
-date: "2026-09-10"
-category: "Ecosystem Update"
-summary: "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages."
-author: "JY DM"
-tags: ["Welcome", "EcosystemUpdate", "LanguageLearning"]
+title: Welcome to the COSY Editorial & Learning Corner
+date: '2026-08-15'
+category: Ecosystem Update
+summary: Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.
+author: JY DM
+tags:
+  - Welcome
+  - EcosystemUpdate
+  - LanguageLearning
 featured: true
 draft: false
+issue_volume: Vol. 2026 — August Issue
+issue_title: Get ready for school
+vibe: Editorial Vibe
+founder_notes: CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.
+cefr_level: A0–A1 / A2
 ---
 
 Welcome to the official COSY Editorial & Learning Corner!

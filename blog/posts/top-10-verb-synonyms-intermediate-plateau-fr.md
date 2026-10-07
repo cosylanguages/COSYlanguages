@@ -1,12 +1,22 @@
 ---
-title: "Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire"
-date: "2026-09-11"
-category: "Resource List"
-summary: "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants."
-author: "JY DM"
-tags: ["PlateauIntermédiaire", "Vocabulaire", "B1-B2", "Verbes", "Français"]
+title: Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire
+date: '2026-09-15'
+category: Resource List
+summary: Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants.
+author: JY DM
+tags:
+  - PlateauIntermédiaire
+  - Vocabulaire
+  - B1-B2
+  - Verbes
+  - Français
 featured: false
 draft: false
+issue_volume: Vol. 2026 — September Issue
+issue_title: Me vs Intermediate Plateau
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.
+cefr_level: B1–B2
 ---
 
 L'un des indicateurs les plus évidents qu'un apprenant a atteint le **plateau intermédiaire (niveau B1–B2)** est sa dépendance à un petit groupe de verbes "sécurisants" pour exprimer presque toutes ses idées.

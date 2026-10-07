@@ -1,12 +1,22 @@
 ---
-title: "Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One"
-date: "2026-09-14"
-category: "Resource List"
-summary: "Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English."
-author: "JY DM"
-tags: ["SentenceFrames", "Circumlocution", "Fluency", "A0-B1", "Communication"]
+title: Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One
+date: '2026-10-15'
+category: Resource List
+summary: Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.
+author: JY DM
+tags:
+  - SentenceFrames
+  - Circumlocution
+  - Fluency
+  - A0-B1
+  - Communication
 featured: true
 draft: false
+issue_volume: Vol. 2026 — October Issue
+issue_title: JY DM's birthday & His favs
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.
+cefr_level: A0–A1 / A2
 ---
 
 One of the biggest obstacles for beginner and intermediate language learners (CEFR A0–B1) is the habit of **translating word by word**. When you don't know an exact vocabulary item—like *corkscrew*, *pharmacy*, or *architect*—the brain often freezes and concludes: *"I don't know this word, so I can't speak."*

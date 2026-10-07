@@ -1,12 +1,22 @@
 ---
-title: "I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)"
-date: "2026-09-11"
-category: "Resource List"
-summary: "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti."
-author: "JY DM"
-tags: ["AltopianoIntermedio", "Vocabolario", "B1-B2", "Verbi", "Italiano"]
+title: I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)
+date: '2026-09-15'
+category: Resource List
+summary: Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti.
+author: JY DM
+tags:
+  - AltopianoIntermedio
+  - Vocabolario
+  - B1-B2
+  - Verbi
+  - Italiano
 featured: false
 draft: false
+issue_volume: Vol. 2026 — September Issue
+issue_title: Me vs Intermediate Plateau
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.
+cefr_level: B1–B2
 ---
 
 Uno dei segnali più evidenti che uno studente ha raggiunto l'**altopiano intermedio (livello B1–B2)** è la tendenza ad affidarsi a un piccolo gruppo di verbi "sicuri" per esprimere quasi ogni concetto.

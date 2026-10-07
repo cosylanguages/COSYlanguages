@@ -1,12 +1,22 @@
 ---
-title: "Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)"
-date: "2026-09-11"
-category: "Resource List"
-summary: "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα."
-author: "JY DM"
-tags: ["ΕνδιάμεσοΕπίπεδο", "Λεξιλόγιο", "B1-B2", "Ρήματα", "Ελληνικά"]
+title: Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)
+date: '2026-09-15'
+category: Resource List
+summary: Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα.
+author: JY DM
+tags:
+  - ΕνδιάμεσοΕπίπεδο
+  - Λεξιλόγιο
+  - B1-B2
+  - Ρήματα
+  - Ελληνικά
 featured: false
 draft: false
+issue_volume: Vol. 2026 — September Issue
+issue_title: Me vs Intermediate Plateau
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.
+cefr_level: B1–B2
 ---
 
 Ένα από τα πιο εμφανή σημάδια ότι ένας μαθητής έχει φτάσει στο **ενδιάμεσο επίπεδο (B1–B2)** είναι η συνεχής εξάρτηση από μια μικρή ομάδα «ασφαλών»ρημάτων για να εκφράσει σχεδόν τα πάντα.

@@ -1,12 +1,22 @@
 ---
-title: "Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour"
-date: "2026-09-14"
-category: "Resource List"
-summary: "Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible."
-author: "JY DM"
-tags: ["SentenceFrames", "Circumlocution", "Fluency", "A0-B1", "French"]
+title: Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour
+date: '2026-10-15'
+category: Resource List
+summary: Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible.
+author: JY DM
+tags:
+  - SentenceFrames
+  - Circumlocution
+  - Fluency
+  - A0-B1
+  - French
 featured: false
 draft: false
+issue_volume: Vol. 2026 — October Issue
+issue_title: JY DM's birthday & His favs
+vibe: Speaking Vibe
+founder_notes: CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.
+cefr_level: A0–A1 / A2
 ---
 
 L'un des plus grands obstacles pour les apprenants débutants et intermédiaires (CEFR A0–B1) est l'habitude de **traduire mot à mot**. Lorsqu'un mot précis manque — comme *tire-bouchon*, *pharmacie* ou *architecte* —, le cerveau se bloque et conclut : *"Je ne connais pas ce mot, donc je ne peux pas parler."*
