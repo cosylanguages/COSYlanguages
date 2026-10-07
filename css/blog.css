@@ -1275,3 +1275,167 @@ body.podcast-presentation-mode .flipbook-toolbar {
         content: " • COSYmagazine Physical Paper Edition";
     }
 }
+
+/* Presentation Mode Zoomable Sections & PowerPoint Focus Effects */
+.zoomable-section {
+    position: relative;
+    background: var(--surface, #ffffff);
+    border: 1px solid var(--border-color, #e2e8f0);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+
+.zoomable-section:hover {
+    border-color: var(--teal, #0d9488);
+    box-shadow: 0 4px 20px rgba(13, 148, 136, 0.12);
+}
+
+.zoomable-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-color, #e2e8f0);
+}
+
+.zoomable-title {
+    font-family: 'Fraunces', serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--teal, #0d9488);
+    margin: 0;
+}
+
+.section-zoom-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(13, 148, 136, 0.08);
+    color: var(--teal, #0d9488);
+    border: 1px solid rgba(13, 148, 136, 0.25);
+    border-radius: 6px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.825rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.section-zoom-btn:hover {
+    background: var(--teal, #0d9488);
+    color: #ffffff;
+}
+
+/* Focused Zoom Overlay State */
+.zoom-focus-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(8px);
+    z-index: 9998;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.zoom-focus-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.zoomable-section.zoomed-in {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) scale(1.1) !important;
+    width: 90vw !important;
+    max-width: 960px !important;
+    max-height: 85vh !important;
+    overflow-y: auto !important;
+    z-index: 9999 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    border: 2px solid var(--teal, #0d9488) !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+    padding: 2.25rem !important;
+}
+
+body.podcast-presentation-mode .zoomable-section {
+    background: #232d27 !important;
+    border-color: #3f5e49 !important;
+    color: #f1f5f9 !important;
+}
+
+body.podcast-presentation-mode .zoomable-section.zoomed-in {
+    background: #18221c !important;
+    color: #f8fafc !important;
+    border-color: #86efac !important;
+}
+
+body.podcast-presentation-mode .zoomable-title {
+    color: #86efac !important;
+}
+
+.zoom-controls-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    background: inherit;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed var(--border-color, #cbd5e1);
+}
+
+.zoom-ctrl-btn {
+    background: var(--teal, #0d9488);
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.zoom-ctrl-btn.close-btn {
+    background: #ef4444;
+}
+
+
+/* Hide audio guide players in Podcast Presentation View Mode */
+body.podcast-presentation-mode .page-audio-guide {
+    display: none !important;
+}
+
+/* October Gazette Autumn Special Styling */
+.october-autumn-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(217, 119, 6, 0.12);
+    color: #d97706;
+    border: 1px solid rgba(217, 119, 6, 0.3);
+    border-radius: 9999px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+body.podcast-presentation-mode .october-autumn-badge {
+    background: rgba(251, 191, 36, 0.15);
+    color: #fbbf24;
+    border-color: rgba(251, 191, 36, 0.4);
+}

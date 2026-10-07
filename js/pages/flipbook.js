@@ -49,6 +49,7 @@
             this.renderControls();
             this.initFounderCards();
             this.bindEvents();
+            this.initZoomControls();
 
             // Handle URL hash on load (e.g. #page-3)
             const hashMatch = window.location.hash.match(/^#page-(\d+)$/);
@@ -184,6 +185,103 @@
                     ? '<span>📺 Exit Podcast View</span>'
                     : '<span>🎙️ Podcast View Mode</span>';
             }
+        },
+
+
+        initZoomControls: function () {
+            let overlay = document.querySelector('.zoom-focus-overlay');
+            if (!overlay) {
+                overlay = document.createElement('div');
+                overlay.className = 'zoom-focus-overlay';
+                document.body.appendChild(overlay);
+            }
+
+            let currentZoomedSection = null;
+            let currentScale = 1.1;
+
+            const closeZoom = () => {
+                if (currentZoomedSection) {
+                    currentZoomedSection.classList.remove('zoomed-in');
+                    currentZoomedSection.style.transform = '';
+                    const toolbar = currentZoomedSection.querySelector('.zoom-controls-toolbar');
+                    if (toolbar) toolbar.remove();
+                    currentZoomedSection = null;
+                }
+                overlay.classList.remove('active');
+            };
+
+            const zoomSection = (sec) => {
+                if (currentZoomedSection === sec) return;
+                if (currentZoomedSection) closeZoom();
+
+                currentZoomedSection = sec;
+                currentScale = 1.1;
+                sec.classList.add('zoomed-in');
+                overlay.classList.add('active');
+
+                if (!sec.querySelector('.zoom-controls-toolbar')) {
+                    const toolbar = document.createElement('div');
+                    toolbar.className = 'zoom-controls-toolbar';
+                    toolbar.innerHTML = `
+                        <button type="button" class="zoom-ctrl-btn zoom-in-btn">🔍+ Zoom In</button>
+                        <button type="button" class="zoom-ctrl-btn zoom-out-btn">🔍- Zoom Out</button>
+                        <button type="button" class="zoom-ctrl-btn close-btn">✖ Exit Focus (Esc)</button>
+                    `;
+                    sec.insertBefore(toolbar, sec.firstChild);
+
+                    toolbar.querySelector('.zoom-in-btn').addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        currentScale = Math.min(1.5, currentScale + 0.1);
+                        sec.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
+                    });
+
+                    toolbar.querySelector('.zoom-out-btn').addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        currentScale = Math.max(0.8, currentScale - 0.1);
+                        sec.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
+                    });
+
+                    toolbar.querySelector('.close-btn').addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        closeZoom();
+                    });
+                }
+            };
+
+            overlay.addEventListener('click', closeZoom);
+
+            document.addEventListener('click', (e) => {
+                const zoomBtn = e.target.closest('.section-zoom-btn');
+                if (zoomBtn) {
+                    e.stopPropagation();
+                    const sec = zoomBtn.closest('.zoomable-section');
+                    if (sec) zoomSection(sec);
+                    return;
+                }
+
+                if (document.body.classList.contains('podcast-presentation-mode')) {
+                    const sec = e.target.closest('.zoomable-section');
+                    if (sec && !e.target.closest('.zoom-controls-toolbar') && !e.target.closest('audio') && !e.target.closest('a')) {
+                        zoomSection(sec);
+                    }
+                }
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && currentZoomedSection) {
+                    closeZoom();
+                    return;
+                }
+                if (currentZoomedSection) {
+                    if (e.key === '+' || e.key === '=') {
+                        currentScale = Math.min(1.5, currentScale + 0.1);
+                        currentZoomedSection.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
+                    } else if (e.key === '-') {
+                        currentScale = Math.max(0.8, currentScale - 0.1);
+                        currentZoomedSection.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
+                    }
+                }
+            });
         },
 
         bindEvents: function () {

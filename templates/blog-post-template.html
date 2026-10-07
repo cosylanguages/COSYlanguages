@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSYmagazine Blog Post Master Template — COSYlanguages</title>
+    <meta name="description" content="Canonical master template for COSYmagazine blog posts, combining Vogue Gazette editorial aesthetics, 6 COSY course tracks, exam preparation strategies, and zoomable presentation cards.">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <link rel="manifest" href="../apps/free-portal/manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+<body class="blog-page">
+
+    <nav id="cosy-nav"></nav>
+
+    <div class="blog-wrapper">
+        <header class="blog-header" data-category="Resource List">
+            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
+                <a href="../blog/index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                <span class="october-autumn-badge">🍁 Issue Badge Title</span>
+                <span class="gazette-badge">🗞️ Monthly Gazette Master Template</span>
+            </div>
+            <h1 class="blog-header-title" style="margin-top: 0.5rem;">[Article Title]</h1>
+            <div class="post-card-meta" style="margin-top: 0.75rem;">
+                <span class="post-author-avatar">J</span>
+                <span>By <strong>JY DM</strong></span>
+                <span>·</span>
+                <span>📅 Published [Date]</span>
+                <span>·</span>
+                <span>⏱️ [Reading Time] min read</span>
+            </div>
+        </header>
+
+        <!-- Founder's Role Expandable Presentation Card -->
+        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
+            <div class="founder-card-header">
+                <div class="founder-info">
+                    <div class="founder-avatar">J</div>
+                    <div class="founder-meta">
+                        <h3 class="founder-title">JY DM — Founder's Podcast &amp; Presentation Deck</h3>
+                        <span class="founder-subtitle">CELTA Concept Checking Questions (CCQs) &amp; Live Presentation Notes</span>
+                    </div>
+                </div>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false">
+                        <span>🎙️ Expand Founder Deck</span>
+                    </button>
+                    <button type="button" class="podcast-mode-btn">
+                        <span>🎙️ Podcast View Mode</span>
+                    </button>
+                </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="podcast-deck-grid">
+                    <div class="podcast-deck-box">
+                        <h4>🎯 CELTA Pedagogical Focus</h4>
+                        <p>[Pedagogical goals and target CEFR level guidance.]</p>
+                    </div>
+                    <div class="podcast-deck-box">
+                        <h4>🎙️ Podcast Host Prompts</h4>
+                        <ul>
+                            <li>Walk through key formal vs. spoken upgrades.</li>
+                            <li>Demonstrate interactive zoomable presentation sections.</li>
+                        </ul>
+                    </div>
+                    <div class="podcast-deck-box">
+                        <h4>❓ Concept Checking Questions (CCQs)</h4>
+                        <p>[Key CCQs for live webinar or recording sessions.]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="blog-layout">
+            <main class="blog-main-col">
+                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
+
+                    <!-- Page 1: Editorial Introduction -->
+                    <section class="flipbook-page active" data-page="1" aria-label="Page 1 of 2">
+                        <div class="page-audio-guide">
+                            <div class="audio-guide-header">
+                                <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
+                                <span class="audio-guide-badge">Page 1 of 2</span>
+                            </div>
+                            <audio controls preload="none" src="../audio/blog/sample-page-1.mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+
+                        <p class="featured-dek" style="font-family: 'Fraunces', serif; font-size: 1.25rem; font-style: italic; color: var(--teal, #0d9488); line-height: 1.6; margin-bottom: 1.25rem;">
+                            "[Article Lead Quote]" — JY DM
+                        </p>
+
+                        <p>[Introduction Paragraph...]</p>
+
+                        <div class="flipbook-page-footer">
+                            <span>🗞️ COSY Gazette • Master Template</span>
+                            <span>Page 1 of 2</span>
+                        </div>
+                    </section>
+
+                    <!-- Page 2: Zoomable Rule Section -->
+                    <section class="flipbook-page" data-page="2" aria-label="Page 2 of 2">
+                        <div class="page-audio-guide">
+                            <div class="audio-guide-header">
+                                <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
+                                <span class="audio-guide-badge">Page 2 of 2</span>
+                            </div>
+                            <audio controls preload="none" src="../audio/blog/sample-page-2.mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+
+                        <h3>1. [Section Title]</h3>
+
+                        <div class="zoomable-section">
+                            <div class="zoomable-header">
+                                <h4 class="zoomable-title">1. Core Meaning</h4>
+                                <button type="button" class="section-zoom-btn">🔍 Zoom Section</button>
+                            </div>
+                            <p>[Core meaning explanation...]</p>
+                        </div>
+
+                        <div class="zoomable-section">
+                            <div class="zoomable-header">
+                                <h4 class="zoomable-title">2. Special Usage</h4>
+                                <button type="button" class="section-zoom-btn">🔍 Zoom Section</button>
+                            </div>
+                            <p>[Special usage explanation...]</p>
+                        </div>
+
+                        <div class="zoomable-section">
+                            <div class="zoomable-header">
+                                <h4 class="zoomable-title">3. Formal Exams &amp; Spoken Upgrades</h4>
+                                <button type="button" class="section-zoom-btn">🔍 Zoom Section</button>
+                            </div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Exam Formal Register (IELTS/TOEFL) 📝</th>
+                                        <th>Spoken COSY Manner Upgrade 🗣️</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><em>[Formal Example]</em></td>
+                                        <td><em>[Spoken Example]</em></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="zoomable-section">
+                            <div class="zoomable-header">
+                                <h4 class="zoomable-title">4. Wrap-Up &amp; Summary</h4>
+                                <button type="button" class="section-zoom-btn">🔍 Zoom Section</button>
+                            </div>
+                            <p>[Summary takeaway...]</p>
+                        </div>
+
+                        <div class="flipbook-page-footer">
+                            <span>🗞️ COSY Gazette • Master Template</span>
+                            <span>Page 2 of 2</span>
+                        </div>
+                    </section>
+
+                </article>
+
+                <div class="post-tags-row" style="margin-top: 1.5rem;">
+                    <span class="post-tag-chip">#Template</span> <span class="post-tag-chip">#COSYmagazine</span>
+                </div>
+
+                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
+                    <a href="../blog/index.html" class="read-more-link">← Return to Blog Index</a>
+                </div>
+            </main>
+
+            <aside class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
+                    <div class="label-cloud">
+                        <a href="../blog/index.html" class="sidebar-label-chip">Resource List</a>
+                        <a href="../blog/index.html" class="sidebar-label-chip">Curriculum</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="../courses/index.html">All Courses 📖</a>
+      <a href="../courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="../courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="../comparative/index.html">Grammar Atlas 🌐</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../blog/index.html">Blog &amp; Top 100 📝</a>
+      <a href="../apps/index.html">Reference Engines 🔎</a>
+      <a href="../apps/premium-events/index.html">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../about/index.html">Our Story 🏡</a>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+
+</footer>
+
+    <script src="../js/data/languages.js"></script>
+    <script src="../js/core/engine.js"></script>
+    <script src="../js/core/i18n.js"></script>
+    <script src="../js/core/ui.js"></script>
+    <script src="../js/pages/flipbook.js"></script>
+</body>
+</html>
