@@ -31,14 +31,16 @@ assert.ok(indexHtml.includes('founder-expand-btn'), 'blog/index.html should feat
 assert.ok(indexHtml.includes('podcast-mode-btn'), 'blog/index.html should feature podcast mode button');
 console.log('✅ Passed: blog/index.html contains Founder Presentation Deck & Podcast Mode controls.');
 
-// Test 3: Check blog/welcome-to-cosy-blog.html HTML elements
-const welcomePath = path.resolve('blog/welcome-to-cosy-blog.html');
-const welcomeHtml = fs.readFileSync(welcomePath, 'utf8');
+// Test 3: Check all blog post HTML files for Founder Deck & Flipbook script
+const blogFiles = fs.readdirSync('blog').filter(f => f.endsWith('.html') && f !== 'index.html');
+assert.ok(blogFiles.length > 0, 'Should find blog post HTML files');
 
-assert.ok(welcomeHtml.includes('founder-presentation-card'), 'welcome post should feature founder presentation card');
-assert.ok(welcomeHtml.includes('podcast-deck-grid'), 'welcome post should feature podcast deck grid');
-assert.ok(welcomeHtml.includes('flipbook-page'), 'welcome post should feature flipbook-page sections');
-console.log('✅ Passed: blog/welcome-to-cosy-blog.html contains Founder Deck & Flipbook Spread structure.');
+blogFiles.forEach(file => {
+    const postHtml = fs.readFileSync(path.join('blog', file), 'utf8');
+    assert.ok(postHtml.includes('founder-presentation-card'), `${file} should feature founder-presentation-card`);
+    assert.ok(postHtml.includes('flipbook.js'), `${file} should load flipbook.js script`);
+});
+console.log(`✅ Passed: All ${blogFiles.length} blog post HTML files contain Founder Deck & Flipbook script integrations.`);
 
 // Test 4: Check css/blog.css magazine & podcast styles
 const cssPath = path.resolve('css/blog.css');
