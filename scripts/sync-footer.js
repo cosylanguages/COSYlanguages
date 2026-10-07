@@ -37,6 +37,7 @@ function isExcluded(filePath) {
   if (filePath.startsWith('languages/fr/marathon/')) return true;
   if (filePath === 'blog/design-system.html') return true;
   if (filePath === 'blog/art-contact-sheet.html') return true;
+  if (filePath === 'blog/stage-demo.html') return true;
   return false;
 }
 
