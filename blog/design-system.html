@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogue Gazette Design System — COSYlanguages</title>
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+
+    <!-- Fonts supporting Latin, Cyrillic, and Greek -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/magazine-templates.css">
+
+    <style>
+        .ds-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .ds-section {
+            margin-bottom: 4rem;
+            padding-bottom: 2.5rem;
+            border-bottom: 2px solid var(--blog-border-delicate);
+        }
+
+        .ds-section-title {
+            font-family: var(--blog-font-display);
+            font-size: var(--blog-text-2xl);
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .ds-badge {
+            font-size: var(--blog-text-xs);
+            padding: 0.2rem 0.5rem;
+            background: var(--blog-paper-aged);
+            border: 1px solid var(--blog-border-delicate);
+            border-radius: 4px;
+        }
+
+        .theme-toggle-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--blog-paper-card);
+            border: 1px solid var(--blog-border-delicate);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: var(--blog-shadow-paper);
+        }
+    </style>
+</head>
+<body class="blog-page">
+
+    <nav id="cosy-nav"></nav>
+
+    <main class="ds-wrapper gazette-container">
+
+        <!-- Header Masthead -->
+        <header class="gazette-masthead">
+            <h1 class="gazette-masthead-title">COSY Gazette • Editorial Design System</h1>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026 • Special Issue</span>
+                <span>Vogue Gazette Design Tokens &amp; 7 Format Layouts</span>
+                <span>COSYlanguages Editorial</span>
+            </div>
+        </header>
+
+        <!-- Controls Bar -->
+        <div class="theme-toggle-bar">
+            <div>
+                <strong>🎨 Theme Studio &amp; Accessibility Testbed</strong>
+                <p style="margin: 0; font-size: var(--blog-text-xs); color: var(--blog-ink-muted);">WCAG AA Compliant • Tactile Warm Paper Texture • Reduced Motion Support</p>
+            </div>
+            <div>
+                <button type="button" class="stamp-sticker" onclick="document.documentElement.setAttribute('data-theme', document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark')">
+                    🌓 Toggle Light / Dark Mode
+                </button>
+            </div>
+        </div>
+
+        <!-- Format 1: Cover Story -->
+        <section class="ds-section">
+            <h2 class="ds-section-title">
+                <span>1. Cover Story Layout</span>
+                <span class="ds-badge">format: cover-story</span>
+            </h2>
+
+            <div class="format-cover-story two-page-spread">
+                <div>
+                    <span class="editorial-kicker">FEATURE STORY • ENGLISH</span>
+                    <h3 class="cover-headline hand-underline">Welcome to the COSY Editorial &amp; Learning Corner</h3>
+                    <p class="editorial-dek">Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic target language tasks.</p>
+                    <p class="gazette-drop-cap">Welcome to our editorial room! Here, you'll find personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.</p>
+                    <p>Every article in COSYmagazine is written in authentic target language text with CELTA-aligned concept checking questions and natural conversational models.</p>
+                    <div class="continued-marker">Continued on p. 4 →</div>
+                </div>
+                <div class="cover-hero-card">
+                    <span class="stamp-sticker">🎙️ Podcast Edition</span>
+                    <h4 style="font-family: var(--blog-font-display); font-size: var(--blog-text-xl); margin-top: 1rem;">Episode 1: Speaking First</h4>
+                    <p style="font-size: var(--blog-text-sm); color: var(--blog-ink-secondary);">Listen to Founder JY DM break down how speaking from day one accelerates natural fluency.</p>
+                    <audio controls style="width: 100%; margin-top: 1rem;">
+                        <source src="../audio/blog/welcome-podcast.mp3" type="audio/mpeg">
+                        Your browser does not support audio playback.
+                    </audio>
+                    <div class="gazette-marginalia" style="margin-top: 1.5rem;">
+                        <div class="gazette-marginalia-title">💡 Pedagogical Note</div>
+                        <span>40% of every lesson is dedicated strictly to student speaking practice.</span>
+                    </div>
+                </div>
+            </div>
+            <footer class="gazette-folio">
+                <span>COSY GAZETTE • COVER STORY</span>
+                <span>Page 2 of 12</span>
+            </footer>
+        </section>
+
+        <!-- Format 2: Ranked List -->
+        <section class="ds-section">
+            <h2 class="ds-section-title">
+                <span>2. Ranked List Layout</span>
+                <span class="ds-badge">format: ranking</span>
+            </h2>
+
+            <div class="two-page-spread format-ranked-list">
+                <div>
+                    <span class="editorial-kicker">CURRICULUM RANKING • GREEK (EL)</span>
+                    <h3 style="font-family: var(--blog-font-display); font-size: var(--blog-text-2xl); margin-bottom: 1.5rem;">Τα 5 πιο σημαντικά ρήματα για B1–B2</h3>
+
+                    <div class="rank-item">
+                        <div class="rank-number">1</div>
+                        <div>
+                            <h4 style="font-family: var(--blog-font-display); font-size: var(--blog-text-lg); margin: 0;">λαμβάνω (αντί για 'παίρνω')</h4>
+                            <p style="font-size: var(--blog-text-sm); margin-top: 0.25rem;">Επίσημη και ακριβής επιλογή για γραπτό και προφορικό λόγο.</p>
+                        </div>
+                    </div>
+
+                    <div class="rank-item">
+                        <div class="rank-number">2</div>
+                        <div>
+                            <h4 style="font-family: var(--blog-font-display); font-size: var(--blog-text-lg); margin: 0;">δηλώνω (αντί για 'λέω')</h4>
+                            <p style="font-size: var(--blog-text-sm); margin-top: 0.25rem;">Χρησιμοποιείται για σαφείς τοποθετήσεις και απόψεις.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="gazette-pullquote">
+                        "Η ακρίβεια στο λεξιλόγιο ξεκλειδώνει τη φυσική ευχέρεια."
+                        <cite>— JY DM, Founder's Editorial</cite>
+                    </div>
+
+                    <div class="rank-item">
+                        <div class="rank-number">3</div>
+                        <div>
+                            <h4 style="font-family: var(--blog-font-display); font-size: var(--blog-text-lg); margin: 0;">θεωρώ (αντί για 'νομίζω')</h4>
+                            <p style="font-size: var(--blog-text-sm); margin-top: 0.25rem;">Εκφράζει τεκμηριωμένη γνώμη και επιχειρηματολογία.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="gazette-folio">
+                <span>COSY GAZETTE • RANKED LIST</span>
+                <span>Page 3 of 12</span>
+            </footer>
+        </section>
+
+        <!-- Format 3: Photo-Essay -->
+        <section class="ds-section">
+            <h2 class="ds-section-title">
+                <span>3. Photo-Essay Layout</span>
+                <span class="ds-badge">format: photo-essay</span>
+            </h2>
+
+            <span class="editorial-kicker">CULTURAL GALLERY • FRENCH (FR)</span>
+            <h3 style="font-family: var(--blog-font-display); font-size: var(--blog-text-2xl); margin-bottom: 1.5rem;">L'Art de Vivre &amp; la Culture Café</h3>
+
+            <div class="format-photo-essay">
+                <article class="photo-card">
+                    <img src="../images/languages/cosyfrench.png" alt="Parisian Café Terrace">
+                    <div class="photo-caption">Figure 1: Discussion et échange d'idées autour d'un café à Paris.</div>
+                </article>
+                <article class="photo-card">
+                    <img src="../images/languages/cosyitalian.png" alt="Italian Piazza Conversation">
+                    <div class="photo-caption">Figure 2: La spontanéité de la langue parlée au quotidien.</div>
+                </article>
+                <article class="photo-card">
+                    <img src="../images/languages/cosyenglish.png" alt="English Library Corner">
+                    <div class="photo-caption">Figure 3: La lecture immersive et la richesse du vocabulaire.</div>
+                </article>
+            </div>
+            <footer class="gazette-folio">
+                <span>COSY GAZETTE • PHOTO ESSAY</span>
+                <span>Page 4 of 12</span>
+            </footer>
+        </section>
+
+        <!-- Format 4: Q&A Interview -->
+        <section class="ds-section">
+            <h2 class="ds-section-title">
+                <span>4. Q&amp;A Interview Layout</span>
+                <span class="ds-badge">format: qa</span>
+            </h2>
+
+            <div class="two-page-spread format-qa">
+                <div>
+                    <span class="editorial-kicker">TEACHER DIALOGUE • RUSSIAN (RU)</span>
+                    <h3 style="font-family: var(--blog-font-display); font-size: var(--blog-text-2xl); margin-bottom: 1.5rem;">Как преодолеть языковой барьер?</h3>
+
+                    <div class="qa-pair">
+                        <div class="qa-question">Почему ученики часто боятся говорить на первом уроке?</div>
+                        <div class="qa-answer">Главный страх — совершить ошибку. В COSY мы сразу объясняем, что ошибки — это не провал, а естественный шаг к беглости.</div>
+                    </div>
+
+                    <div class="qa-pair">
+                        <div class="qa-question">Какую роль играет регулярность занятий?</div>
+                        <div class="qa-answer">15 минут каждый день работают лучше, чем два часа один раз в неделю. Маленькие привычки дают мощный результат.</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="gazette-marginalia">
+                        <div class="gazette-marginalia-title">📌 Ключевой вывод</div>
+                        <span>Говорите с первого дня, не ждите идеально выученных правил грамматики.</span>
+                    </div>
+
+                    <div class="qa-pair">
+                        <div class="qa-question">Как помогают карточки и интерактивные игры?</div>
+                        <div class="qa-answer">Игры снимают стресс и переносят фокус с усердной учебы на естественный живой диалог.</div>
+                    </div>
+                </div>
+            </div>
+            <footer class="gazette-folio">
+                <span>COSY GAZETTE • Q&amp;A INTERVIEW</span>
+                <span>Page 5 of 12</span>
+            </footer>
+        </section>
+
+        <!-- Format 5: Quote Wall -->
+        <section class="ds-section">
+            <h2 class="ds-section-title">
+                <span>5. Quote Wall Layout</span>
+                <span class="ds-badge">format: quote-wall</span>
+            </h2>
+
+            <span class="editorial-kicker">PHILOSOPHY &amp; VOICES</span>
+            <h3 style="font-family: var(--blog-font-display); font-size: var(--blog-text-2xl); margin-bottom: 1.5rem;">Words of Wisdom for Language Learners</h3>
+
+            <div class="format-quote-wall">
+                <blockquote class="quote-tile">
+                    <p class="quote-tile-text">"To have another language is to possess a second soul."</p>
+                    <footer class="quote-tile-author">— Charlemagne</footer>
+                </blockquote>
+
+                <blockquote class="quote-tile" style="border-color: var(--post-palette-accent);">
+                    <p class="quote-tile-text">"Limits of my language mean the limits of my world."</p>
+                    <footer class="quote-tile-author">— Ludwig Wittgenstein</footer>
+                </blockquote>
+
+                <blockquote class="quote-tile">
+                    <p class="quote-tile-text">"Language is the road map of a culture. It tells you where its people come from."</p>
+                    <footer class="quote-tile-author">— Rita Mae Brown</footer>
+                </blockquote>
+            </div>
+            <footer class="gazette-folio">
+                <span>COSY GAZETTE • QUOTE WALL</span>
+                <span>Page 6 of 12</span>
+            </footer>
+        </section>
+
+        <!-- Format 6: Long Read Article -->
+        <section class="ds-section">
+            <h2 class="ds-section-title">
+                <span>6. Long Read Layout</span>
+                <span class="ds-badge">format: essay</span>
+            </h2>
+
+            <article class="format-long-read">
+                <span class="editorial-kicker">ESSAY • METHODOLOGY</span>
+                <h3 style="font-family: var(--blog-font-display); font-size: var(--blog-text-3xl); margin: 0.5rem 0 1rem 0;">Why Speaking-First is the Only Path to True Fluency</h3>
+                <p class="editorial-dek">When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one.</p>
+                <p class="gazette-drop-cap">Traditional language teaching often treats conversation as the final prize, awarded only after years of memorising verb paradigms and vocabulary lists. At COSYlanguages, we reverse this hierarchy entirely.</p>
+                <p>Grammar and vocabulary are essential tools, but they are tools in service of communication. When students speak from their very first session, they build neural pathways connecting thought directly to speech, eliminating the friction of internal translation.</p>
+            </article>
+            <footer class="gazette-folio">
+                <span>COSY GAZETTE • LONG READ</span>
+                <span>Page 7 of 12</span>
+            </footer>
+        </section>
+
+        <!-- Format 7: Quiz / Assessment -->
+        <section class="ds-section">
+            <h2 class="ds-section-title">
+                <span>7. Quiz / Assessment Layout</span>
+                <span class="ds-badge">format: quiz</span>
+            </h2>
+
+            <div class="format-quiz" style="max-width: 680px; margin: 0 auto;">
+                <span class="editorial-kicker">INTERACTIVE QUIZ • B1 GRAMMAR</span>
+                <h3 style="font-family: var(--blog-font-display); font-size: var(--blog-text-2xl); margin-bottom: 1.5rem;">Test Your Nuance: Choosing the Right Register</h3>
+
+                <article class="quiz-card">
+                    <h4 style="font-family: var(--blog-font-display); font-size: var(--blog-text-lg);">Question 1: Which phrase is best suited for a formal professional email?</h4>
+                    <button type="button" class="quiz-option-btn">A) "Hey, just wanted to check on this..."</button>
+                    <button type="button" class="quiz-option-btn">B) "I am writing to inquire regarding..."</button>
+                    <button type="button" class="quiz-option-btn">C) "What's up with the project?"</button>
+                </article>
+            </div>
+            <footer class="gazette-folio">
+                <span>COSY GAZETTE • QUIZ FORMAT</span>
+                <span>Page 8 of 12</span>
+            </footer>
+        </section>
+
+    </main>
+
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="../courses/index.html">All Courses 📖</a>
+      <a href="../courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="../courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="../comparative/index.html">Grammar Atlas 🌐</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../blog/index.html">Blog &amp; Top 100 📝</a>
+      <a href="../apps/index.html">Reference Engines 🔎</a>
+      <a href="../apps/premium-events/index.html">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../about/index.html">Our Story 🏡</a>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+
+</footer>
+
+    <script src="../js/data/languages.js"></script>
+    <script src="../js/core/engine.js"></script>
+    <script src="../js/core/i18n.js"></script>
+    <script src="../js/core/ui.js"></script>
+</body>
+</html>
