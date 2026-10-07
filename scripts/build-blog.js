@@ -8,17 +8,25 @@
 
 const fs = require('fs');
 const path = require('path');
-const yaml = require('js-yaml');
-const { marked } = require('marked');
+let yaml, marked;
+try {
+  yaml = require('js-yaml');
+  const markedModule = require('marked');
+  marked = markedModule.marked || markedModule;
+} catch (e) {
+  // Graceful fallback for environments without npm dependencies installed
+}
 
-const blogRenderer = new marked.Renderer();
-blogRenderer.tablecell = function (token) {
-  const tag = token.header ? 'th' : 'td';
-  const align = token.align ? ` style="text-align:${token.align}"` : '';
-  const content = this.parser.parseInline(token.tokens);
-  return `<${tag}${align}>${content}</${tag}>\n`;
-};
-marked.use({ renderer: blogRenderer });
+if (marked) {
+  const blogRenderer = new marked.Renderer();
+  blogRenderer.tablecell = function (token) {
+    const tag = token.header ? 'th' : 'td';
+    const align = token.align ? ` style="text-align:${token.align}"` : '';
+    const content = this.parser.parseInline(token.tokens);
+    return `<${tag}${align}>${content}</${tag}>\n`;
+  };
+  marked.use({ renderer: blogRenderer });
+}
 
 const BLOG_DIR = path.join(__dirname, '..', 'blog');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
@@ -165,7 +173,13 @@ function buildBlog() {
       draft: Boolean(frontmatter.draft),
       bodyMarkdown: markdownBody,
       type: 'post',
-      url: `${slug}.html`
+      url: `${slug}.html`,
+      issue_volume: frontmatter.issue_volume ? String(frontmatter.issue_volume).trim() : 'Vol. 2026 — COSYmagazine',
+      issue_title: frontmatter.issue_title ? String(frontmatter.issue_title).trim() : 'COSY Editorial',
+      cefr_level: frontmatter.cefr_level ? String(frontmatter.cefr_level).trim() : 'A0–B2',
+      vibe: frontmatter.vibe ? String(frontmatter.vibe).trim() : 'Editorial Vibe',
+      founder_notes: frontmatter.founder_notes ? String(frontmatter.founder_notes).trim() : 'CELTA-aligned target-language guidance by JY DM.',
+      audio_podcast: Boolean(frontmatter.audio_podcast !== false)
     };
 
     posts.push(postObj);
@@ -394,7 +408,13 @@ function formatFlipbookContent(renderedHtml, slug) {
       tags: p.tags,
       featured: p.featured,
       type: 'post',
-      url: p.url
+      url: p.url,
+      issue_volume: p.issue_volume,
+      issue_title: p.issue_title,
+      cefr_level: p.cefr_level,
+      vibe: p.vibe,
+      founder_notes: p.founder_notes,
+      audio_podcast: p.audio_podcast
     })),
     ...guides.map(g => ({
       slug: g.slug,
@@ -403,13 +423,19 @@ function formatFlipbookContent(renderedHtml, slug) {
       updated: g.updated || null,
       category: g.category || 'Resource List',
       summary: g.summary,
-      author: g.author || 'COSY Editorial Team',
+      author: g.author || 'JY DM',
       reading_time: g.reading_time || 10,
       cover_image: g.cover_image || '',
       tags: g.tags || [],
       featured: Boolean(g.featured),
       type: 'guide',
-      url: g.url || `${g.slug}.html`
+      url: g.url || `${g.slug}.html`,
+      issue_volume: g.issue_volume || 'Vol. 2026 — August Issue',
+      issue_title: g.issue_title || 'Get ready for school',
+      cefr_level: g.cefr_level || 'A0–A1 / A2',
+      vibe: g.vibe || 'Curriculum Vibe',
+      founder_notes: g.founder_notes || 'CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.',
+      audio_podcast: Boolean(g.audio_podcast !== false)
     }))
   ];
 

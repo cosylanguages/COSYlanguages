@@ -3,10 +3,16 @@ title: "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Interm
 date: "2026-09-13"
 category: "Resource List"
 summary: "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions."
-author: "JY DM"
 tags: ["Phrases", "IntermediatePlateau", "Fluency", "B1-B2"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 When you reach the **intermediate plateau (CEFR B1–B2)**, you can comfortably hold conversations, share opinions, and make yourself understood. However, almost every language teacher notices the same pattern: learners find themselves relying on a tiny cluster of "safe" phrases in every single discussion—defaulting over and over to *"I think..."*, *"I agree"*, *"It depends"*, or *"I don't know"*.

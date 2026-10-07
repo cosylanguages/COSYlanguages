@@ -3,10 +3,16 @@ title: "Basta dire 'Molto'! 50 aggettivi forti per arricchire il tuo vocabolario
 date: "2026-09-12"
 category: "Resource List"
 summary: "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali."
-author: "JY DM"
 tags: ["Vocabolario", "AltopianoIntermedio", "Aggettivi", "B1-B2", "Italiano"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 Uno dei tratti distintivi del **livello intermedio (B1–B2)** è l'uso eccessivo dell'avverbio **"molto"** per intensificare gli aggettivi quotidiani.

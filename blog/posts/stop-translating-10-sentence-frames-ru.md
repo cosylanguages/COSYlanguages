@@ -3,10 +3,16 @@ title: "Хватит переводить! 10 универсальных фра�
 date: "2026-09-14"
 category: "Resource List"
 summary: "Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке."
-author: "JY DM"
 tags: ["SentenceFrames", "Circumlocution", "Fluency", "A0-B1", "Russian"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — October Issue"
+issue_title: "JY DM's birthday & His favs"
+cefr_level: "A0–A1 / A2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition."
+audio_podcast: true
 ---
 
 Главное препятствие для начинающих и продолжающих (A0–B1) — привычка **переводить каждое слово в голове**. Когда не хватает точного слова (например, *штопор*, *аптека* или *архитектор*), мозг блокируется: *"Я не знаю этого слова, значит, не могу ничего сказать."*

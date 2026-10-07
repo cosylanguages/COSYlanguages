@@ -3,10 +3,16 @@ title: "Σταματήστε να επαναλαμβάνετε αυτές τις
 date: "2026-09-13"
 category: "Resource List"
 summary: "Εμπλουτίστε τον προφορικό σας λόγο αντικαθιστώντας 50 επαναλαμβανόμενες εκφράσεις του B1 με φυσικές επιλογές και τα άμεσα αντίθετά τους."
-author: "JY DM"
 tags: ["Φράσεις", "ΕνδιάμεσοΕπίπεδο", "Ευχέρεια", "B1-B2", "Ελληνικά"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 Όταν φτάνετε στο **ενδιάμεσο επίπεδο (B1–B2)**, μπορείτε να επικοινωνείτε με άνεση και να συμμετέχετε σε συζητήσεις. Ωστόσο, οι περισσότεροι καθηγητές παρατηρούν το ίδιο μοτίβο: οι μαθητές επαναλαμβάνουν συνεχώς τις ίδιες «ασφαλείς» εκφράσεις: *"Νομίζω ότι..."*, *"Συμφωνώ"*, *"Εξαρτάται"*, *"Δεν ξέρω"*.

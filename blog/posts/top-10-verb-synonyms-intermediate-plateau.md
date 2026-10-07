@@ -3,10 +3,16 @@ title: "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Pl
 date: "2026-09-11"
 category: "Resource List"
 summary: "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms."
-author: "JY DM"
 tags: ["IntermediatePlateau", "Vocabulary", "B1-B2", "Verbs"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 One of the most clear indicators that a learner has reached the **intermediate plateau (roughly B1–B2)** is a heavy reliance on a small cluster of "safe" verbs for almost everything.

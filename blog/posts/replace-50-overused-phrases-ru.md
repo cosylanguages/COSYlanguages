@@ -3,10 +3,16 @@ title: "Хватит повторять эти 50 фраз! Естественн
 date: "2026-09-13"
 category: "Resource List"
 summary: "Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями."
-author: "JY DM"
 tags: ["Разговорник", "ПлатоСреднегоУровня", "Беглость", "B1-B2", "Русский"]
 featured: false
 draft: false
+author: "JY DM"
+issue_volume: "Vol. 2026 — September Issue"
+issue_title: "Me vs Intermediate Plateau"
+cefr_level: "B1–B2"
+vibe: "Speaking Vibe"
+founder_notes: "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition."
+audio_podcast: true
 ---
 
 Когда вы достигаете **плато среднего уровня (B1–B2)**, вы легко поддерживаете беседу, выражаете мысли и понимаете собеседника. Однако большинство преподавателей замечают одну и ту же тенденцию: студенты из раза в раз используют несколько базовых фраз-заглушек: *"Я думаю..."*, *"Я согласен"*, *"Это зависит"*, *"Я не знаю"*.
