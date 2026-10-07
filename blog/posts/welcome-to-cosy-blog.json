@@ -1,0 +1,72 @@
+{
+  "id": "post-welcome-to-cosy-blog",
+  "slug": "welcome-to-cosy-blog",
+  "language": "en",
+  "desk": "Front Page",
+  "format": "essay",
+  "level": "A0–A1",
+  "issue": {
+    "number": "Vol. 2026.08",
+    "title": "Get ready for school"
+  },
+  "date": "2026-09-10",
+  "title": "Welcome to the COSY Editorial & Learning Corner",
+  "kicker": "EDITORIAL ROOM",
+  "dek": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
+  "tags": [
+    "Welcome",
+    "EcosystemUpdate",
+    "LanguageLearning"
+  ],
+  "readingTime": 1,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "../audio/blog/welcome-to-cosy-blog-page-1.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "editorial-stars",
+    "seed": "welcome-cosy-001",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Welcome to COSYmagazine 📖",
+      "say": "Welcome to COSYmagazine!",
+      "beat": {
+        "duration": 1000,
+        "camera": "pan-top",
+        "reveal": "fade-in",
+        "target": "#block-0"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Welcome to our editorial room! Here, you'll find personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
+      "say": "Welcome to our editorial room! Here, you'll find personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages."
+    },
+    {
+      "type": "culture-bite",
+      "title": "Our Pedagogical Commitment",
+      "content": "Every article in COSYmagazine is written in authentic target language text with CELTA-aligned concept checking and natural conversational models."
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html",
+      "label": "Explore COSY Practice Hub →"
+    }
+  ]
+}

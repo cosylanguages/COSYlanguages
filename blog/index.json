@@ -1,0 +1,1926 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-10-07T21:36:02.731Z",
+  "stats": {
+    "totalPosts": 37,
+    "totalDesks": 9,
+    "totalIssues": 4
+  },
+  "desks": [
+    {
+      "key": "Front Page",
+      "i18n_key": "desk_front_page",
+      "icon": "📰",
+      "order": 1
+    },
+    {
+      "key": "Words",
+      "i18n_key": "desk_words",
+      "icon": "🔤",
+      "order": 2
+    },
+    {
+      "key": "Grammar Made Cosy",
+      "i18n_key": "desk_grammar_made_cosy",
+      "icon": "📐",
+      "order": 3
+    },
+    {
+      "key": "Say It",
+      "i18n_key": "desk_say_it",
+      "icon": "🗣️",
+      "order": 4
+    },
+    {
+      "key": "Culture & Quotes",
+      "i18n_key": "desk_culture_quotes",
+      "icon": "🎭",
+      "order": 5
+    },
+    {
+      "key": "Long Reads",
+      "i18n_key": "desk_long_reads",
+      "icon": "📖",
+      "order": 6
+    },
+    {
+      "key": "Cosy Events",
+      "i18n_key": "desk_cosy_events",
+      "icon": "🎉",
+      "order": 7
+    },
+    {
+      "key": "The Podcast",
+      "i18n_key": "desk_the_podcast",
+      "icon": "🎙️",
+      "order": 8
+    },
+    {
+      "key": "Back Issues",
+      "i18n_key": "desk_back_issues",
+      "icon": "🗄️",
+      "order": 9
+    }
+  ],
+  "issues": [
+    {
+      "number": "Vol. 2026.08",
+      "title": "Get ready for school"
+    },
+    {
+      "number": "Vol. 2026 — October Issue",
+      "title": "JY DM's birthday & His favs"
+    },
+    {
+      "number": "Vol. 2026 — September Issue",
+      "title": "Me vs Intermediate Plateau"
+    },
+    {
+      "number": "Vol. 2026 — August Issue",
+      "title": "Get ready for school"
+    }
+  ],
+  "posts": [
+    {
+      "id": "legacy-top-5-favourite-grammar-rules",
+      "slug": "top-5-favourite-grammar-rules",
+      "language": "en",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — October Issue",
+        "title": "JY DM's birthday & His favs"
+      },
+      "date": "2026-10-15",
+      "title": "My Top 5 Favourite English Grammar Rules for Intermediate Learners",
+      "kicker": "RESOURCE LIST",
+      "dek": "Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and 'it's giving...'.",
+      "tags": [
+        "Grammar",
+        "IntermediatePlateau",
+        "Fluency",
+        "B1-B2",
+        "English"
+      ],
+      "readingTime": 6,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-5-favourite-grammar-rules.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-5-favourite-grammar-rules",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and 'it's giving...'."
+        }
+      ]
+    },
+    {
+      "id": "legacy-stop-translating-10-sentence-frames-el",
+      "slug": "stop-translating-10-sentence-frames-el",
+      "language": "el",
+      "desk": "Words",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — October Issue",
+        "title": "JY DM's birthday & His favs"
+      },
+      "date": "2026-09-14",
+      "title": "Σταματήστε τη μετάφραση! 10 επαναχρησιμοποιήσιμες δομές προτάσεων για να μιλάτε από την πρώτη μέρα",
+      "kicker": "RESOURCE LIST",
+      "dek": "Μάθετε 10 βασικές δομές προτάσεων και 20 φράσεις επιβίωσης για να καταργήσετε τη μετάφραση λέξη προς λέξη, να περιγράφετε κάθε άγνωστη λέξη και να σκέφτεστε απευθείας στη γλώσσα.",
+      "tags": [
+        "SentenceFrames",
+        "Circumlocution",
+        "Fluency",
+        "A0-B1",
+        "Greek"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/stop-translating-10-sentence-frames-el.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "stop-translating-10-sentence-frames-el",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Μάθετε 10 βασικές δομές προτάσεων και 20 φράσεις επιβίωσης για να καταργήσετε τη μετάφραση λέξη προς λέξη, να περιγράφετε κάθε άγνωστη λέξη και να σκέφτεστε απευθείας στη γλώσσα."
+        }
+      ]
+    },
+    {
+      "id": "legacy-stop-translating-10-sentence-frames-fr",
+      "slug": "stop-translating-10-sentence-frames-fr",
+      "language": "fr",
+      "desk": "Words",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — October Issue",
+        "title": "JY DM's birthday & His favs"
+      },
+      "date": "2026-09-14",
+      "title": "Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour",
+      "kicker": "RESOURCE LIST",
+      "dek": "Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible.",
+      "tags": [
+        "SentenceFrames",
+        "Circumlocution",
+        "Fluency",
+        "A0-B1",
+        "French"
+      ],
+      "readingTime": 4,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/stop-translating-10-sentence-frames-fr.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "stop-translating-10-sentence-frames-fr",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible."
+        }
+      ]
+    },
+    {
+      "id": "legacy-stop-translating-10-sentence-frames-it",
+      "slug": "stop-translating-10-sentence-frames-it",
+      "language": "it",
+      "desk": "Words",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — October Issue",
+        "title": "JY DM's birthday & His favs"
+      },
+      "date": "2026-09-14",
+      "title": "Basta tradurre! 10 strutture di frasi riutilizzabili per parlare fin dal primo giorno",
+      "kicker": "RESOURCE LIST",
+      "dek": "Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua.",
+      "tags": [
+        "SentenceFrames",
+        "Circumlocution",
+        "Fluency",
+        "A0-B1",
+        "Italian"
+      ],
+      "readingTime": 4,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/stop-translating-10-sentence-frames-it.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "stop-translating-10-sentence-frames-it",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua."
+        }
+      ]
+    },
+    {
+      "id": "legacy-stop-translating-10-sentence-frames-ru",
+      "slug": "stop-translating-10-sentence-frames-ru",
+      "language": "ru",
+      "desk": "Words",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — October Issue",
+        "title": "JY DM's birthday & His favs"
+      },
+      "date": "2026-09-14",
+      "title": "Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня",
+      "kicker": "RESOURCE LIST",
+      "dek": "Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.",
+      "tags": [
+        "SentenceFrames",
+        "Circumlocution",
+        "Fluency",
+        "A0-B1",
+        "Russian"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/stop-translating-10-sentence-frames-ru.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "stop-translating-10-sentence-frames-ru",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке."
+        }
+      ]
+    },
+    {
+      "id": "legacy-stop-translating-10-sentence-frames",
+      "slug": "stop-translating-10-sentence-frames",
+      "language": "en",
+      "desk": "Words",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — October Issue",
+        "title": "JY DM's birthday & His favs"
+      },
+      "date": "2026-09-14",
+      "title": "Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One",
+      "kicker": "RESOURCE LIST",
+      "dek": "Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.",
+      "tags": [
+        "SentenceFrames",
+        "Circumlocution",
+        "Fluency",
+        "A0-B1",
+        "Communication"
+      ],
+      "readingTime": 8,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/stop-translating-10-sentence-frames.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "stop-translating-10-sentence-frames",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-50-overused-phrases-el",
+      "slug": "replace-50-overused-phrases-el",
+      "language": "el",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-13",
+      "title": "Σταματήστε να επαναλαμβάνετε αυτές τις 50 φράσεις! Φυσικές εναλλακτικές για το B1–B2",
+      "kicker": "RESOURCE LIST",
+      "dek": "Εμπλουτίστε τον προφορικό σας λόγο αντικαθιστώντας 50 επαναλαμβανόμενες εκφράσεις του B1 με φυσικές επιλογές και τα άμεσα αντίθετά τους.",
+      "tags": [
+        "Φράσεις",
+        "ΕνδιάμεσοΕπίπεδο",
+        "Ευχέρεια",
+        "B1-B2",
+        "Ελληνικά"
+      ],
+      "readingTime": 2,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-50-overused-phrases-el.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-50-overused-phrases-el",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Εμπλουτίστε τον προφορικό σας λόγο αντικαθιστώντας 50 επαναλαμβανόμενες εκφράσεις του B1 με φυσικές επιλογές και τα άμεσα αντίθετά τους."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-50-overused-phrases-fr",
+      "slug": "replace-50-overused-phrases-fr",
+      "language": "fr",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-13",
+      "title": "Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturelles pour le niveau intermédiaire",
+      "kicker": "RESOURCE LIST",
+      "dek": "Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.",
+      "tags": [
+        "Expressions",
+        "PlateauIntermédiaire",
+        "Fluidité",
+        "B1-B2",
+        "Français"
+      ],
+      "readingTime": 4,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-50-overused-phrases-fr.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-50-overused-phrases-fr",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-50-overused-phrases-it",
+      "slug": "replace-50-overused-phrases-it",
+      "language": "it",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-13",
+      "title": "Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio",
+      "kicker": "RESOURCE LIST",
+      "dek": "Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.",
+      "tags": [
+        "Frasi",
+        "AltopianoIntermedio",
+        "Fluidità",
+        "B1-B2",
+        "Italiano"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-50-overused-phrases-it.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-50-overused-phrases-it",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-50-overused-phrases-ru",
+      "slug": "replace-50-overused-phrases-ru",
+      "language": "ru",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-13",
+      "title": "Хватит повторять эти 50 фраз! Естественные разговорные замены для B1–B2",
+      "kicker": "RESOURCE LIST",
+      "dek": "Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.",
+      "tags": [
+        "Разговорник",
+        "ПлатоСреднегоУровня",
+        "Беглость",
+        "B1-B2",
+        "Русский"
+      ],
+      "readingTime": 2,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-50-overused-phrases-ru.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-50-overused-phrases-ru",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-50-overused-phrases",
+      "slug": "replace-50-overused-phrases",
+      "language": "en",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-13",
+      "title": "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Intermediate English",
+      "kicker": "RESOURCE LIST",
+      "dek": "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.",
+      "tags": [
+        "Phrases",
+        "IntermediatePlateau",
+        "Fluency",
+        "B1-B2"
+      ],
+      "readingTime": 11,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-50-overused-phrases.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-50-overused-phrases",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-very-50-stronger-adjectives-el",
+      "slug": "replace-very-50-stronger-adjectives-el",
+      "language": "el",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Σταματήστε να λέτε 'Πολύ'! 50 ισχυρά επίθετα για να εμπλουτίσετε το λεξιλόγιό σας",
+      "kicker": "RESOURCE LIST",
+      "dek": "Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό 'πολύ + επίθετο' με 50 ακριβή, εκφραστικά και φυσικά επίθετα.",
+      "tags": [
+        "Λεξιλόγιο",
+        "ΕνδιάμεσοΕπίπεδο",
+        "Επίθετα",
+        "B1-B2",
+        "Ελληνικά"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-el.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-very-50-stronger-adjectives-el",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό 'πολύ + επίθετο' με 50 ακριβή, εκφραστικά και φυσικά επίθετα."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-very-50-stronger-adjectives-fr",
+      "slug": "replace-very-50-stronger-adjectives-fr",
+      "language": "fr",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Arrêtez de dire 'Très' ! 50 adjectifs forts pour enrichir votre vocabulaire",
+      "kicker": "RESOURCE LIST",
+      "dek": "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels.",
+      "tags": [
+        "Vocabulaire",
+        "PlateauIntermédiaire",
+        "Adjectifs",
+        "B1-B2",
+        "Français"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-fr.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-very-50-stronger-adjectives-fr",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-very-50-stronger-adjectives-it",
+      "slug": "replace-very-50-stronger-adjectives-it",
+      "language": "it",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Basta dire 'Molto'! 50 aggettivi forti per arricchire il tuo vocabolario",
+      "kicker": "RESOURCE LIST",
+      "dek": "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali.",
+      "tags": [
+        "Vocabolario",
+        "AltopianoIntermedio",
+        "Aggettivi",
+        "B1-B2",
+        "Italiano"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-it.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-very-50-stronger-adjectives-it",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-very-50-stronger-adjectives-ru",
+      "slug": "replace-very-50-stronger-adjectives-ru",
+      "language": "ru",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Хватит говорить 'Очень'! 50 сильных прилагательных для богатого словарного запаса",
+      "kicker": "RESOURCE LIST",
+      "dek": "Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными.",
+      "tags": [
+        "СловарныйЗапас",
+        "ПлатоСреднегоУровня",
+        "Прилагательные",
+        "B1-B2",
+        "Русский"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-ru.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-very-50-stronger-adjectives-ru",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными."
+        }
+      ]
+    },
+    {
+      "id": "legacy-replace-very-50-stronger-adjectives",
+      "slug": "replace-very-50-stronger-adjectives",
+      "language": "en",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner Should Know",
+      "kicker": "RESOURCE LIST",
+      "dek": "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades.",
+      "tags": [
+        "Vocabulary",
+        "IntermediatePlateau",
+        "Adjectives",
+        "B1-B2"
+      ],
+      "readingTime": 5,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "replace-very-50-stronger-adjectives",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-el",
+      "slug": "top-10-verb-synonyms-intermediate-plateau-el",
+      "language": "el",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-11",
+      "title": "Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)",
+      "kicker": "RESOURCE LIST",
+      "dek": "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα.",
+      "tags": [
+        "ΕνδιάμεσοΕπίπεδο",
+        "Λεξιλόγιο",
+        "B1-B2",
+        "Ρήματα",
+        "Ελληνικά"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-el.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-10-verb-synonyms-intermediate-plateau-el",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-fr",
+      "slug": "top-10-verb-synonyms-intermediate-plateau-fr",
+      "language": "fr",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-11",
+      "title": "Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire",
+      "kicker": "RESOURCE LIST",
+      "dek": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants.",
+      "tags": [
+        "PlateauIntermédiaire",
+        "Vocabulaire",
+        "B1-B2",
+        "Verbes",
+        "Français"
+      ],
+      "readingTime": 5,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-fr.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-it",
+      "slug": "top-10-verb-synonyms-intermediate-plateau-it",
+      "language": "it",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-11",
+      "title": "I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)",
+      "kicker": "RESOURCE LIST",
+      "dek": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti.",
+      "tags": [
+        "AltopianoIntermedio",
+        "Vocabolario",
+        "B1-B2",
+        "Verbi",
+        "Italiano"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-it.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-10-verb-synonyms-intermediate-plateau-it",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-ru",
+      "slug": "top-10-verb-synonyms-intermediate-plateau-ru",
+      "language": "ru",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-11",
+      "title": "Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2)",
+      "kicker": "RESOURCE LIST",
+      "dek": "Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами.",
+      "tags": [
+        "ПлатоСреднегоУровня",
+        "СловарныйЗапас",
+        "B1-B2",
+        "Глаголы",
+        "Русский"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-ru.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-10-verb-synonyms-intermediate-plateau-ru",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-10-verb-synonyms-intermediate-plateau",
+      "slug": "top-10-verb-synonyms-intermediate-plateau",
+      "language": "en",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026 — September Issue",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-11",
+      "title": "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Plateau",
+      "kicker": "RESOURCE LIST",
+      "dek": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.",
+      "tags": [
+        "IntermediatePlateau",
+        "Vocabulary",
+        "B1-B2",
+        "Verbs"
+      ],
+      "readingTime": 7,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-10-verb-synonyms-intermediate-plateau",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms."
+        }
+      ]
+    },
+    {
+      "id": "post-welcome-to-cosy-blog",
+      "slug": "welcome-to-cosy-blog",
+      "language": "en",
+      "desk": "Front Page",
+      "format": "essay",
+      "level": "A0–A1",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-10",
+      "title": "Welcome to the COSY Editorial & Learning Corner",
+      "kicker": "EDITORIAL ROOM",
+      "dek": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
+      "tags": [
+        "Welcome",
+        "EcosystemUpdate",
+        "LanguageLearning"
+      ],
+      "readingTime": 1,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/welcome-to-cosy-blog-page-1.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "editorial-stars",
+        "seed": "welcome-cosy-001",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Welcome to COSYmagazine 📖",
+          "say": "Welcome to COSYmagazine!",
+          "beat": {
+            "duration": 1000,
+            "camera": "pan-top",
+            "reveal": "fade-in",
+            "target": "#block-0"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Welcome to our editorial room! Here, you'll find personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
+          "say": "Welcome to our editorial room! Here, you'll find personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages."
+        },
+        {
+          "type": "culture-bite",
+          "title": "Our Pedagogical Commitment",
+          "content": "Every article in COSYmagazine is written in authentic target language text with CELTA-aligned concept checking and natural conversational models."
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html",
+          "label": "Explore COSY Practice Hub →"
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1",
+      "slug": "top-100-a0-a1",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 A0–A1 Semantic Master List (14 Languages)",
+      "kicker": "RESOURCE LIST",
+      "dek": "100 progressive semantic chains across 10 ordered domains with milestone goals, monolingual definitions, and direct live links to COSYdata vocabulary repositories.",
+      "tags": [
+        "Top100",
+        "Vocabulary",
+        "Beginners",
+        "Curriculum"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "100 progressive semantic chains across 10 ordered domains with milestone goals, monolingual definitions, and direct live links to COSYdata vocabulary repositories."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-english",
+      "slug": "top-100-a0-a1-english",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 English A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "The ultimate Top 100 A0-A1 English vocabulary blueprint: essential nouns, action verbs, descriptive adjectives, and survival phrase patterns for beginners.",
+      "tags": [
+        "English",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-english.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-english",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The ultimate Top 100 A0-A1 English vocabulary blueprint: essential nouns, action verbs, descriptive adjectives, and survival phrase patterns for beginners."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-french",
+      "slug": "top-100-a0-a1-french",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 French A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual French definitions.",
+      "tags": [
+        "French",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-french.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-french",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual French definitions."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-italian",
+      "slug": "top-100-a0-a1-italian",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Italian A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Italian definitions.",
+      "tags": [
+        "Italian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-italian.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-italian",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Italian definitions."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-russian",
+      "slug": "top-100-a0-a1-russian",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Russian A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Cyrillic with Latin transliterations.",
+      "tags": [
+        "Russian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-russian.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-russian",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Cyrillic with Latin transliterations."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-greek",
+      "slug": "top-100-a0-a1-greek",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Greek A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Greek script with transliterations.",
+      "tags": [
+        "Greek",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-greek.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-greek",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Greek script with transliterations."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-spanish",
+      "slug": "top-100-a0-a1-spanish",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Spanish A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+      "tags": [
+        "Spanish",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-spanish.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-spanish",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-german",
+      "slug": "top-100-a0-a1-german",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 German A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+      "tags": [
+        "German",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-german.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-german",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-portuguese",
+      "slug": "top-100-a0-a1-portuguese",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Portuguese A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions.",
+      "tags": [
+        "Portuguese",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-portuguese.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-portuguese",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual definitions."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-armenian",
+      "slug": "top-100-a0-a1-armenian",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Armenian A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Armenian script with transliterations.",
+      "tags": [
+        "Armenian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-armenian.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-armenian",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Armenian script with transliterations."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-georgian",
+      "slug": "top-100-a0-a1-georgian",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Georgian A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Mkhedruli script with transliterations.",
+      "tags": [
+        "Georgian",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-georgian.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-georgian",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Mkhedruli script with transliterations."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-tatar",
+      "slug": "top-100-a0-a1-tatar",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Tatar A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Tatar script with transliterations.",
+      "tags": [
+        "Tatar",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-tatar.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-tatar",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Tatar script with transliterations."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-bashkir",
+      "slug": "top-100-a0-a1-bashkir",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Bashkir A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Bashkir script with transliterations.",
+      "tags": [
+        "Bashkir",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-bashkir.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-bashkir",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions in Bashkir script with transliterations."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-100-a0-a1-breton",
+      "slug": "top-100-a0-a1-breton",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-09-01",
+      "title": "Top 100 Breton A0–A1 Master Guide",
+      "kicker": "CURRICULUM",
+      "dek": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Breton definitions.",
+      "tags": [
+        "Breton",
+        "Vocabulary",
+        "A0-A1"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-100-a0-a1-breton.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-100-a0-a1-breton",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Breton definitions."
+        }
+      ]
+    },
+    {
+      "id": "legacy-top-10-verbs",
+      "slug": "top-10-verbs",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "list",
+      "level": "A0–A1 / A2",
+      "issue": {
+        "number": "Vol. 2026 — August Issue",
+        "title": "Get ready for school"
+      },
+      "date": "2026-03-01",
+      "title": "Top 10 Essential Verbs for Absolute Beginners (A0–A1) across All 14 Languages",
+      "kicker": "RESOURCE LIST",
+      "dek": "The 10 essential verbs every beginner needs first, linked directly to COSYdata across all 14 target languages with real grammar traps and interactive multi-language filtering.",
+      "tags": [
+        "ResourceList",
+        "Verbs",
+        "A0-A1",
+        "14Languages"
+      ],
+      "readingTime": 10,
+      "podcast": {
+        "episode": 1,
+        "audioUrl": "../audio/blog/top-10-verbs.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "standard-feed",
+        "motif": "editorial-stars",
+        "seed": "top-10-verbs",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The 10 essential verbs every beginner needs first, linked directly to COSYdata across all 14 target languages with real grammar traps and interactive multi-language filtering."
+        }
+      ]
+    }
+  ]
+}

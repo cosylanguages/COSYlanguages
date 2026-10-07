@@ -1494,5 +1494,14 @@
   "mark_done_btn": "Mark today done",
   "today_task_label": "Today's Task",
   "challenge_complete_msg": "Challenge Completed! 🎉",
-  "nav_login": "🔐 Accedi"
+  "nav_login": "🔐 Accedi",
+  "desk_front_page": "Prima Pagina",
+  "desk_words": "Parole",
+  "desk_grammar_made_cosy": "Grammatica Cosy",
+  "desk_say_it": "Dillo Così",
+  "desk_culture_quotes": "Cultura e Citazioni",
+  "desk_long_reads": "Letture Approfondite",
+  "desk_cosy_events": "Eventi Cosy",
+  "desk_the_podcast": "Il Podcast",
+  "desk_back_issues": "Numeri Arretrati"
 }
