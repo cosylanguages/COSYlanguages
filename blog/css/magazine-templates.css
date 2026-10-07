@@ -1,0 +1,354 @@
+/* ==========================================================================
+   COSYlanguages — Magazine Format Layout Templates (blog/css/magazine-templates.css)
+   Implements 7 editorial format layouts: Cover Story, Ranked List, Photo-Essay,
+   Q&A, Quote Wall, Long Read, and Quiz with Vogue Gazette editorial furniture.
+   ========================================================================== */
+
+/* 1. Editorial Furniture Base Elements */
+
+/* Masthead Header */
+.gazette-masthead {
+  text-align: center;
+  border-bottom: 3px double var(--blog-border-strong);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.gazette-masthead-title {
+  font-family: var(--post-font-display);
+  font-size: var(--blog-text-3xl);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+  color: var(--blog-ink-primary);
+}
+
+.gazette-masthead-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--blog-text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--blog-ink-muted);
+  border-top: 1px solid var(--blog-border-delicate);
+  border-bottom: 1px solid var(--blog-border-delicate);
+  padding: 0.4rem 0;
+  margin-top: 0.75rem;
+}
+
+/* Editorial Kicker & Dek */
+.editorial-kicker {
+  display: inline-block;
+  font-size: var(--blog-text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--post-palette-accent);
+  margin-bottom: 0.5rem;
+}
+
+.editorial-dek {
+  font-family: var(--post-font-display);
+  font-size: var(--blog-text-lg);
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--blog-ink-secondary);
+  border-left: 3px solid var(--post-palette-accent);
+  padding-left: 1rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+/* Drop Cap */
+.gazette-drop-cap::first-letter {
+  font-family: var(--post-font-display);
+  font-size: 3.8em;
+  font-weight: 900;
+  float: left;
+  line-height: 0.8;
+  padding-right: 0.15em;
+  padding-top: 0.05em;
+  color: var(--post-palette-accent);
+}
+
+/* Pull Quote */
+.gazette-pullquote {
+  font-family: var(--post-font-display);
+  font-size: var(--blog-text-xl);
+  font-style: italic;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-top: 2px solid var(--blog-border-strong);
+  border-bottom: 2px solid var(--blog-border-strong);
+  background: var(--blog-paper-aged);
+  color: var(--blog-ink-primary);
+  position: relative;
+}
+
+.gazette-pullquote cite {
+  display: block;
+  font-family: var(--blog-font-body);
+  font-size: var(--blog-text-xs);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.75rem;
+  color: var(--blog-ink-muted);
+}
+
+/* Marginalia / Sidebar Annotation */
+.gazette-marginalia {
+  background: var(--blog-paper-card);
+  border: 1px dashed var(--blog-border-delicate);
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: var(--blog-text-sm);
+  color: var(--blog-ink-secondary);
+  box-shadow: var(--blog-shadow-paper);
+  margin: 1.5rem 0;
+}
+
+.gazette-marginalia-title {
+  font-size: var(--blog-text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--post-palette-accent);
+  margin-bottom: 0.35rem;
+}
+
+/* Folio & Page Numbers */
+.gazette-folio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--blog-text-xs);
+  color: var(--blog-ink-muted);
+  border-top: 1px solid var(--blog-border-delicate);
+  padding-top: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+/* "Continued on p." Marker */
+.continued-marker {
+  font-size: var(--blog-text-xs);
+  font-weight: 700;
+  font-style: italic;
+  text-align: right;
+  color: var(--post-palette-accent);
+  margin-top: 1rem;
+}
+
+/* Two-Page Desktop Spread Container */
+.two-page-spread {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  background: var(--blog-paper-card);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--blog-border-delicate);
+  box-shadow: var(--blog-shadow-paper);
+}
+
+@media (max-width: 1023px) {
+  .two-page-spread {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.25rem;
+  }
+}
+
+
+/* 2. Seven Format-Specific Layouts */
+
+/* Format 1: Cover Story Layout */
+.format-cover-story {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.cover-headline {
+  font-family: var(--post-font-display);
+  font-size: var(--blog-text-3xl);
+  font-weight: 900;
+  line-height: 1.15;
+  margin-top: 0.5rem;
+  color: var(--blog-ink-primary);
+}
+
+.cover-hero-card {
+  background: var(--blog-paper-aged);
+  border: 2px solid var(--blog-border-strong);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--blog-shadow-floating);
+}
+
+@media (max-width: 1023px) {
+  .format-cover-story {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Format 2: Ranked List Layout */
+.format-ranked-list .rank-item {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed var(--blog-border-delicate);
+}
+
+.rank-number {
+  font-family: var(--post-font-display);
+  font-size: var(--blog-text-3xl);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--post-palette-accent);
+  background: var(--blog-paper-aged);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--blog-border-strong);
+  flex-shrink: 0;
+}
+
+/* Format 3: Photo-Essay Layout */
+.format-photo-essay {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.photo-card {
+  background: var(--blog-paper-card);
+  border: 1px solid var(--blog-border-delicate);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: var(--blog-shadow-paper);
+}
+
+.photo-card img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+  max-height: 240px;
+}
+
+.photo-caption {
+  font-size: var(--blog-text-xs);
+  color: var(--blog-ink-muted);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Format 4: Q&A Interview Layout */
+.format-qa .qa-pair {
+  margin-bottom: 1.5rem;
+}
+
+.qa-question {
+  font-family: var(--post-font-display);
+  font-size: var(--blog-text-lg);
+  font-weight: 700;
+  color: var(--post-palette-accent);
+  margin-bottom: 0.35rem;
+}
+
+.qa-question::before {
+  content: 'Q: ';
+  font-weight: 900;
+}
+
+.qa-answer {
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--blog-border-delicate);
+  color: var(--blog-ink-primary);
+}
+
+/* Format 5: Quote Wall Layout */
+.format-quote-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.quote-tile {
+  background: var(--blog-paper-aged);
+  border: 2px solid var(--blog-border-strong);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: var(--blog-shadow-stamp);
+  position: relative;
+}
+
+.quote-tile-text {
+  font-family: var(--post-font-display);
+  font-size: var(--blog-text-base);
+  font-style: italic;
+  color: var(--blog-ink-primary);
+}
+
+.quote-tile-author {
+  font-size: var(--blog-text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  color: var(--post-palette-accent);
+}
+
+/* Format 6: Long Read Article Layout */
+.format-long-read {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.format-long-read p {
+  font-size: var(--blog-text-base);
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+/* Format 7: Quiz / Interactive Assessment Layout */
+.format-quiz .quiz-card {
+  background: var(--blog-paper-card);
+  border: 2px solid var(--blog-border-strong);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--blog-shadow-paper);
+}
+
+.quiz-option-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  margin-top: 0.5rem;
+  background: var(--blog-paper-aged);
+  border: 1px solid var(--blog-border-delicate);
+  border-radius: 6px;
+  font-family: var(--blog-font-body);
+  font-size: var(--blog-text-sm);
+  color: var(--blog-ink-primary);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.quiz-option-btn:hover,
+.quiz-option-btn:focus-visible {
+  background: var(--blog-paper-light);
+  border-color: var(--post-palette-accent);
+  outline: 2px solid var(--post-palette-accent);
+  outline-offset: 2px;
+}

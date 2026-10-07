@@ -1494,5 +1494,14 @@
   "mark_done_btn": "Mark today done",
   "today_task_label": "Today's Task",
   "challenge_complete_msg": "Challenge Completed! 🎉",
-  "nav_login": "🔐 Вход"
+  "nav_login": "🔐 Вход",
+  "desk_front_page": "Главная полоса",
+  "desk_words": "Слова",
+  "desk_grammar_made_cosy": "Уютная грамматика",
+  "desk_say_it": "Скажи это",
+  "desk_culture_quotes": "Культура и цитаты",
+  "desk_long_reads": "Длинные статьи",
+  "desk_cosy_events": "События Cosy",
+  "desk_the_podcast": "Подкаст",
+  "desk_back_issues": "Архив выпусков"
 }

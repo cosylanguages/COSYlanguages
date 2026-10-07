@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1-bashkir">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#f0fff4" />
+    <path d="M 19 19 L 19 16 L 49 16 L 79 18 L 109 20 L 139 23 L 169 18 L 199 16 L 229 21 L 259 18 L 289 18 L 319 20 L 349 23 L 379 15 L 409 17 L 439 18 L 469 19 L 499 17 L 529 15 L 559 19 L 589 21 L 619 22 L 649 23 L 679 23 L 709 22 L 739 18 L 769 15 L 799 22 L 829 20 L 859 19 L 889 18 L 919 18 L 949 22 L 979 20 L 1009 17 L 1039 17 L 1069 19 L 1099 18 L 1129 21 L 1159 21 L 1180 19 L 1180 49 L 1177 79 L 1181 109 L 1179 139 L 1179 169 L 1181 199 L 1181 229 L 1185 259 L 1180 289 L 1183 319 L 1180 349 L 1181 379 L 1183 409 L 1184 439 L 1178 469 L 1178 499 L 1181 529 L 1180 559 L 1182 589 L 1181 610 L 1151 613 L 1121 612 L 1091 610 L 1061 610 L 1031 608 L 1001 614 L 971 609 L 941 612 L 911 612 L 881 609 L 851 612 L 821 612 L 791 608 L 761 614 L 731 611 L 701 608 L 671 614 L 641 609 L 611 607 L 581 614 L 551 608 L 521 615 L 491 611 L 461 611 L 431 611 L 401 612 L 371 607 L 341 614 L 311 611 L 281 613 L 251 609 L 221 609 L 191 613 L 161 612 L 131 608 L 101 615 L 71 608 L 41 610 L 18 611 L 23 581 L 16 551 L 21 521 L 21 491 L 18 461 L 19 431 L 15 401 L 19 371 L 15 341 L 21 311 L 22 281 L 22 251 L 16 221 L 17 191 L 22 161 L 20 131 L 20 101 L 21 71 L 18 41 Z" fill="none" stroke="#22543d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1162" cy="592" r="12" fill="#38a169" opacity="0.3" />
+
+
+      <g class="cover-text-overlay">
+        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">CURRICULUM • Vol. 2026 — August Issue</text>
+        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Top 100 Bashkir A0–A1 Master Guide</text>
+      </g>
+
+    </svg>

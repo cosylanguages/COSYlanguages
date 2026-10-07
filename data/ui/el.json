@@ -1503,5 +1503,14 @@
   "mark_done_btn": "Mark today done",
   "today_task_label": "Today's Task",
   "challenge_complete_msg": "Challenge Completed! 🎉",
-  "nav_login": "🔐 Σύνδεση"
+  "nav_login": "🔐 Σύνδεση",
+  "desk_front_page": "Πρώτη Σελίδα",
+  "desk_words": "Λέξεις",
+  "desk_grammar_made_cosy": "Γραμματική Cosy",
+  "desk_say_it": "Πες Το",
+  "desk_culture_quotes": "Πολιτισμός & Παραθέματα",
+  "desk_long_reads": "Εκτενή Άρθρα",
+  "desk_cosy_events": "Εκδηλώσεις Cosy",
+  "desk_the_podcast": "Το Podcast",
+  "desk_back_issues": "Παλαιότερα Τεύχη"
 }

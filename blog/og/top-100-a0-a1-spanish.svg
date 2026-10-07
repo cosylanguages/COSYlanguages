@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1-spanish">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#f0fff4" />
+    <path d="M 22 22 L 22 19 L 52 24 L 82 23 L 112 19 L 142 25 L 172 20 L 202 20 L 232 19 L 262 26 L 292 22 L 322 23 L 352 25 L 382 25 L 412 21 L 442 21 L 472 22 L 502 26 L 532 20 L 562 23 L 592 25 L 622 21 L 652 23 L 682 25 L 712 21 L 742 26 L 772 25 L 802 21 L 832 18 L 862 20 L 892 21 L 922 26 L 952 24 L 982 22 L 1012 22 L 1042 22 L 1072 25 L 1102 18 L 1132 18 L 1162 24 L 1175 22 L 1179 52 L 1181 82 L 1174 112 L 1177 142 L 1178 172 L 1174 202 L 1177 232 L 1177 262 L 1174 292 L 1182 322 L 1178 352 L 1175 382 L 1178 412 L 1174 442 L 1177 472 L 1182 502 L 1176 532 L 1174 562 L 1176 592 L 1178 604 L 1148 610 L 1118 604 L 1088 609 L 1058 610 L 1028 610 L 998 610 L 968 610 L 938 605 L 908 606 L 878 609 L 848 612 L 818 606 L 788 604 L 758 605 L 728 606 L 698 606 L 668 611 L 638 610 L 608 605 L 578 612 L 548 604 L 518 612 L 488 612 L 458 606 L 428 607 L 398 606 L 368 604 L 338 612 L 308 607 L 278 606 L 248 608 L 218 612 L 188 611 L 158 606 L 128 605 L 98 611 L 68 611 L 38 607 L 25 608 L 22 578 L 18 548 L 22 518 L 22 488 L 18 458 L 20 428 L 21 398 L 26 368 L 20 338 L 24 308 L 19 278 L 22 248 L 19 218 L 21 188 L 26 158 L 18 128 L 26 98 L 22 68 L 21 38 Z" fill="none" stroke="#22543d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1156" cy="586" r="12" fill="#38a169" opacity="0.3" />
+
+
+      <g class="cover-text-overlay">
+        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">CURRICULUM • Vol. 2026 — August Issue</text>
+        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Top 100 Spanish A0–A1 Master Guide</text>
+      </g>
+
+    </svg>

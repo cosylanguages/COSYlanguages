@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1-french">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#f0fff4" />
+    <path d="M 17 17 L 17 17 L 47 21 L 77 14 L 107 18 L 137 14 L 167 18 L 197 14 L 227 15 L 257 18 L 287 14 L 317 21 L 347 18 L 377 14 L 407 19 L 437 21 L 467 17 L 497 17 L 527 17 L 557 14 L 587 18 L 617 15 L 647 18 L 677 17 L 707 13 L 737 14 L 767 20 L 797 17 L 827 18 L 857 19 L 887 13 L 917 18 L 947 19 L 977 20 L 1007 20 L 1037 21 L 1067 21 L 1097 15 L 1127 21 L 1157 18 L 1183 17 L 1179 47 L 1182 77 L 1179 107 L 1183 137 L 1182 167 L 1186 197 L 1185 227 L 1187 257 L 1183 287 L 1185 317 L 1186 347 L 1184 377 L 1185 407 L 1180 437 L 1184 467 L 1183 497 L 1179 527 L 1185 557 L 1181 587 L 1183 617 L 1153 616 L 1123 614 L 1093 614 L 1063 615 L 1033 610 L 1003 609 L 973 613 L 943 616 L 913 616 L 883 613 L 853 616 L 823 612 L 793 611 L 763 615 L 733 614 L 703 611 L 673 609 L 643 612 L 613 616 L 583 613 L 553 613 L 523 615 L 493 610 L 463 610 L 433 612 L 403 613 L 373 614 L 343 614 L 313 617 L 283 610 L 253 615 L 223 613 L 193 615 L 163 612 L 133 616 L 103 616 L 73 613 L 43 614 L 13 613 L 21 583 L 20 553 L 16 523 L 18 493 L 14 463 L 18 433 L 13 403 L 20 373 L 13 343 L 15 313 L 15 283 L 19 253 L 14 223 L 20 193 L 15 163 L 13 133 L 16 103 L 14 73 L 15 43 Z" fill="none" stroke="#22543d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="1166" cy="596" r="12" fill="#38a169" opacity="0.3" />
+
+
+      <g class="cover-text-overlay">
+        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">CURRICULUM • Vol. 2026 — August Issue</text>
+        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Top 100 French A0–A1 Master Guide</text>
+      </g>
+
+    </svg>

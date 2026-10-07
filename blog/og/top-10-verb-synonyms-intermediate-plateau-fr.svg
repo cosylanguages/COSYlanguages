@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="riso-print" data-seed="top-10-verb-synonyms-intermediate-plateau-fr">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="630" fill="#f7fafc" />
+    <g filter="url(#riso-grain-956)">
+
+      <circle cx="662" cy="151" r="64" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="658" cy="148" r="57.6" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="1103" cy="318" r="47" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="1100" cy="317" r="42.300000000000004" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="864" cy="543" r="85" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="869" cy="539" r="76.5" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="280" cy="371" r="26" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="285" cy="369" r="23.400000000000002" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="127" cy="416" r="33" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="131" cy="412" r="29.7" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="1051" cy="229" r="62" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="1052" cy="225" r="55.800000000000004" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="319" cy="151" r="72" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="321" cy="148" r="64.8" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="454" cy="598" r="24" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="455" cy="604" r="21.6" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="298" cy="145" r="79" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="293" cy="147" r="71.10000000000001" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="303" cy="324" r="46" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="308" cy="328" r="41.4" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="583" cy="435" r="86" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="581" cy="435" r="77.4" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="99" cy="170" r="34" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="104" cy="169" r="30.6" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+      <circle cx="602" cy="403" r="57" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
+      <circle cx="598" cy="401" r="51.300000000000004" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+
+    </g>
+
+
+      <g class="cover-text-overlay">
+        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">RESOURCE LIST • Vol. 2026 — September Issue</text>
+        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Les 10 verbes surutilisés et leurs synonymes précis ...</text>
+      </g>
+
+    </svg>
