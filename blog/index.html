@@ -53,8 +53,11 @@
             </div>
             <h1 class="blog-header-title"><a href="index.html">COSY Gazette &amp; Magazine Edition</a></h1>
             <p class="blog-header-tagline" id="blog-tagline">Monthly published language learning magazine, interactive flipbook guides, communicative frameworks, and master vocabulary blueprints across all target languages.</p>
-            <div class="blog-issue-ribbon">
-                <span class="ribbon-label">Vol. 2026 Edition • Monthly Press Publication</span>
+            <div class="blog-issue-ribbon" style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.5rem;">
+                <span class="ribbon-label">Vol. 2026 Monthly Editions:</span>
+                <span class="gazette-badge">🗞️ Aug 2026: Get ready for school (A0–A2)</span>
+                <span class="gazette-badge">🗞️ Sept 2026: Me vs Intermediate Plateau (B1–B2)</span>
+                <span class="gazette-badge">🗞️ Oct 2026: JY DM's birthday &amp; His favs (A0–B2)</span>
             </div>
         </header>
 
@@ -261,11 +264,22 @@
                     </div>
                 </div>
 
+                <!-- Magazine Monthly Issues Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">🗞️ COSYmagazine Issues</h3>
+                    <div class="label-cloud" id="sidebar-issues">
+                        <a href="#feed-section" data-issue="all" class="sidebar-label-chip active" onclick="filterBlogIssue('all', event)">All Issues</a>
+                        <a href="#feed-section" data-issue="2026-08" class="sidebar-label-chip" onclick="filterBlogIssue('2026-08', event)">Aug 2026: Get ready for school</a>
+                        <a href="#feed-section" data-issue="2026-09" class="sidebar-label-chip" onclick="filterBlogIssue('2026-09', event)">Sept 2026: Me vs Intermediate Plateau</a>
+                        <a href="#feed-section" data-issue="2026-10" class="sidebar-label-chip" onclick="filterBlogIssue('2026-10', event)">Oct 2026: JY DM's birthday &amp; His favs</a>
+                    </div>
+                </div>
+
                 <!-- Labels Widget -->
                 <div class="sidebar-widget">
                     <h3 class="sidebar-widget-title">Labels</h3>
                     <div class="label-cloud" id="sidebar-labels">
-                        <a href="#feed-section" data-category="all" class="sidebar-label-chip active">All Posts</a>
+                        <a href="#feed-section" data-category="all" class="sidebar-label-chip active">All Topics</a>
                         <a href="#feed-section" data-category="Resource List" class="sidebar-label-chip">Resource List</a>
                         <a href="#feed-section" data-category="Ecosystem Update" class="sidebar-label-chip">Ecosystem Update</a>
                     </div>
@@ -414,6 +428,20 @@
             });
         }
 
+        function filterBlogIssue(issueKey, evt) {
+            if (evt) evt.preventDefault();
+            selectedMonth = issueKey;
+
+            document.querySelectorAll('#sidebar-issues .sidebar-label-chip').forEach(chip => {
+                chip.classList.remove('active');
+                if (chip.getAttribute('data-issue') === issueKey) {
+                    chip.classList.add('active');
+                }
+            });
+
+            applyBlogFilters();
+        }
+
         function filterBlogMonth(monthStr, evt) {
             if (evt) evt.preventDefault();
             selectedMonth = monthStr;
@@ -434,10 +462,12 @@
                 const cardTitle = (card.getAttribute('data-title') || '').toLowerCase();
                 const cardText = card.textContent.toLowerCase();
 
+                const cardTextAll = card.textContent;
+                const monthMatch = (selectedMonth === 'all' || cardTextAll.includes(selectedMonth) || (selectedMonth === '2026-08' && cardTextAll.includes('August')) || (selectedMonth === '2026-09' && cardTextAll.includes('September')) || (selectedMonth === '2026-10' && cardTextAll.includes('October')));
                 const catMatch = (selectedCategory === 'all' || cardCat === selectedCategory);
                 const searchMatch = !query || cardTitle.includes(query) || cardText.includes(query);
 
-                if (catMatch && searchMatch) {
+                if (catMatch && searchMatch && monthMatch) {
                     card.style.display = 'block';
                 } else {
                     card.style.display = 'none';

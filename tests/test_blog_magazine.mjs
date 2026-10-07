@@ -42,7 +42,16 @@ blogFiles.forEach(file => {
 });
 console.log(`✅ Passed: All ${blogFiles.length} blog post HTML files contain Founder Deck & Flipbook script integrations.`);
 
-// Test 4: Check css/blog.css magazine & podcast styles
+// Test 4: Check hybrid/index.html issue showcase
+const hybridPath = path.resolve('hybrid/index.html');
+const hybridHtml = fs.readFileSync(hybridPath, 'utf8');
+
+assert.ok(hybridHtml.includes('Get ready for school'), 'hybrid/index.html should showcase August issue');
+assert.ok(hybridHtml.includes('Me vs Intermediate Plateau'), 'hybrid/index.html should showcase September issue');
+assert.ok(hybridHtml.includes("JY DM's birthday &amp; His favs"), 'hybrid/index.html should showcase October issue');
+console.log('✅ Passed: hybrid/index.html showcases all 3 COSYmagazine monthly issues.');
+
+// Test 5: Check css/blog.css magazine & podcast styles
 const cssPath = path.resolve('css/blog.css');
 const cssText = fs.readFileSync(cssPath, 'utf8');
 
