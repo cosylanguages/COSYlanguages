@@ -47,6 +47,7 @@
             }
 
             this.renderControls();
+            this.initFounderCards();
             this.bindEvents();
 
             // Handle URL hash on load (e.g. #page-3)
@@ -140,6 +141,51 @@
             this.modeToggleBtn = wrapper.querySelector('.flipbook-mode-toggle');
         },
 
+        initFounderCards: function () {
+            // Find or setup Founder's Role Expandable Presentation Cards
+            const cards = document.querySelectorAll('.founder-presentation-card');
+            cards.forEach(card => {
+                const header = card.querySelector('.founder-card-header');
+                const expandBtn = card.querySelector('.founder-expand-btn');
+                const podcastBtn = card.querySelector('.podcast-mode-btn');
+
+                const toggleExpand = () => {
+                    const isExpanded = card.classList.toggle('expanded');
+                    if (expandBtn) {
+                        expandBtn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+                        expandBtn.innerHTML = isExpanded
+                            ? '<span>🎙️ Collapse Founder Deck</span>'
+                            : '<span>🎙️ Expand Founder Deck</span>';
+                    }
+                };
+
+                if (header) {
+                    header.addEventListener('click', (e) => {
+                        // Don't double trigger if user clicked directly on podcast mode button
+                        if (e.target.closest('.podcast-mode-btn')) return;
+                        toggleExpand();
+                    });
+                }
+
+                if (podcastBtn) {
+                    podcastBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        this.togglePodcastMode();
+                    });
+                }
+            });
+        },
+
+        togglePodcastMode: function () {
+            const isPodcast = document.body.classList.toggle('podcast-presentation-mode');
+            const podcastBtn = document.querySelector('.podcast-mode-btn');
+            if (podcastBtn) {
+                podcastBtn.innerHTML = isPodcast
+                    ? '<span>📺 Exit Podcast View</span>'
+                    : '<span>🎙️ Podcast View Mode</span>';
+            }
+        },
+
         bindEvents: function () {
             if (this.prevBtn) {
                 this.prevBtn.addEventListener('click', () => this.prevPage());
@@ -161,6 +207,11 @@
 
             // Keyboard navigation
             document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && document.body.classList.contains('podcast-presentation-mode')) {
+                    this.togglePodcastMode();
+                    return;
+                }
+
                 if (this.mode !== 'flipbook') return;
                 // Ignore if user is inside form inputs or textareas
                 if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;

@@ -40,23 +40,67 @@
             <div class="journey-roadmap-header" style="justify-content: center; margin-bottom: 0.85rem;">
                 <span class="visual-journey-badge">🗞️ COSY Gazette</span>
                 <span class="journey-connector-line"></span>
-                <span class="visual-journey-badge">📖 Interactive Flipbook</span>
+                <span class="visual-journey-badge">📖 Monthly Flipbook Magazine</span>
                 <span class="journey-connector-line"></span>
-                <span class="visual-journey-badge">💬 Monolingual Lists</span>
+                <span class="visual-journey-badge">💬 14-Lang Master Lists</span>
             </div>
             <div class="blog-header-top">
                 <a href="../index.html" class="back-home-link">← Back to COSYlanguages Home</a>
                 <div style="display: flex; align-items: center; gap: 0.75rem;">
-                    <span class="gazette-badge">🗞️ COSY Gazette &amp; Magazine Edition</span>
+                    <span class="gazette-badge">🗞️ Monthly Paper &amp; Digital Edition</span>
                     <button type="button" onclick="window.print()" class="blog-print-btn" aria-label="Print this page">Print 🖨️</button>
                 </div>
             </div>
-            <h1 class="blog-header-title"><a href="index.html">COSY Gazette &amp; Editorial Corner</a></h1>
-            <p class="blog-header-tagline" id="blog-tagline">Language learning magazine, interactive flipbook guides, communicative frameworks, and master vocabulary blueprints across all target languages.</p>
-            <div class="blog-issue-ribbon">
-                <span class="ribbon-label">Vol. 2026 Edition • Latest Issue: September 14, 2026</span>
+            <h1 class="blog-header-title"><a href="index.html">COSY Gazette &amp; Magazine Edition</a></h1>
+            <p class="blog-header-tagline" id="blog-tagline">Monthly published language learning magazine, interactive flipbook guides, communicative frameworks, and master vocabulary blueprints across all target languages.</p>
+            <div class="blog-issue-ribbon" style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.5rem;">
+                <span class="ribbon-label">Vol. 2026 Monthly Editions:</span>
+                <span class="gazette-badge">🗞️ Aug 2026: Get ready for school (A0–A2)</span>
+                <span class="gazette-badge">🗞️ Sept 2026: Me vs Intermediate Plateau (B1–B2)</span>
+                <span class="gazette-badge">🗞️ Oct 2026: JY DM's birthday &amp; His favs (A0–B2)</span>
             </div>
         </header>
+
+        <!-- Founder's Role Expandable Presentation Card -->
+        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
+            <div class="founder-card-header">
+                <div class="founder-info">
+                    <div class="founder-avatar">J</div>
+                    <div class="founder-meta">
+                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
+                        <span class="founder-subtitle">Pedagogical Backstory &amp; Podcast Presentation Notes</span>
+                    </div>
+                </div>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false">
+                        <span>🎙️ Expand Founder Deck</span>
+                    </button>
+                    <button type="button" class="podcast-mode-btn">
+                        <span>🎙️ Podcast View Mode</span>
+                    </button>
+                </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="podcast-deck-grid">
+                    <div class="podcast-deck-box">
+                        <h4>🌱 Magazine Vision &amp; Pedagogy</h4>
+                        <p>COSYmagazine is published monthly, bridging digital interactive flipbooks with classical paper press aesthetics for speaking-first language acquisition.</p>
+                    </div>
+                    <div class="podcast-deck-box">
+                        <h4>🎙️ Podcast Presentation Cues</h4>
+                        <ul>
+                            <li>Walk through current Monthly Issue highlights and key sentence frames.</li>
+                            <li>Demonstrate circumlocution and no-translation thinking habits.</li>
+                            <li>Feature multi-language vocabulary matrices for absolute beginners.</li>
+                        </ul>
+                    </div>
+                    <div class="podcast-deck-box">
+                        <h4>🗞️ Real Paper Newspaper Edition</h4>
+                        <p>Every article in this magazine is layout-optimized for physical printing, paper broadsheet reading, and classroom handouts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- One Featured Post -->
         <section class="featured-post-hero" aria-label="Featured Post">
@@ -220,11 +264,22 @@
                     </div>
                 </div>
 
+                <!-- Magazine Monthly Issues Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">🗞️ COSYmagazine Issues</h3>
+                    <div class="label-cloud" id="sidebar-issues">
+                        <a href="#feed-section" data-issue="all" class="sidebar-label-chip active" onclick="filterBlogIssue('all', event)">All Issues</a>
+                        <a href="#feed-section" data-issue="2026-08" class="sidebar-label-chip" onclick="filterBlogIssue('2026-08', event)">Aug 2026: Get ready for school</a>
+                        <a href="#feed-section" data-issue="2026-09" class="sidebar-label-chip" onclick="filterBlogIssue('2026-09', event)">Sept 2026: Me vs Intermediate Plateau</a>
+                        <a href="#feed-section" data-issue="2026-10" class="sidebar-label-chip" onclick="filterBlogIssue('2026-10', event)">Oct 2026: JY DM's birthday &amp; His favs</a>
+                    </div>
+                </div>
+
                 <!-- Labels Widget -->
                 <div class="sidebar-widget">
                     <h3 class="sidebar-widget-title">Labels</h3>
                     <div class="label-cloud" id="sidebar-labels">
-                        <a href="#feed-section" data-category="all" class="sidebar-label-chip active">All Posts</a>
+                        <a href="#feed-section" data-category="all" class="sidebar-label-chip active">All Topics</a>
                         <a href="#feed-section" data-category="Resource List" class="sidebar-label-chip">Resource List</a>
                         <a href="#feed-section" data-category="Ecosystem Update" class="sidebar-label-chip">Ecosystem Update</a>
                     </div>
@@ -310,6 +365,7 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
+    <script src="../js/pages/flipbook.js"></script>
 
     <script>
         let selectedCategory = 'all';
@@ -372,6 +428,20 @@
             });
         }
 
+        function filterBlogIssue(issueKey, evt) {
+            if (evt) evt.preventDefault();
+            selectedMonth = issueKey;
+
+            document.querySelectorAll('#sidebar-issues .sidebar-label-chip').forEach(chip => {
+                chip.classList.remove('active');
+                if (chip.getAttribute('data-issue') === issueKey) {
+                    chip.classList.add('active');
+                }
+            });
+
+            applyBlogFilters();
+        }
+
         function filterBlogMonth(monthStr, evt) {
             if (evt) evt.preventDefault();
             selectedMonth = monthStr;
@@ -392,10 +462,12 @@
                 const cardTitle = (card.getAttribute('data-title') || '').toLowerCase();
                 const cardText = card.textContent.toLowerCase();
 
+                const cardTextAll = card.textContent;
+                const monthMatch = (selectedMonth === 'all' || cardTextAll.includes(selectedMonth) || (selectedMonth === '2026-08' && cardTextAll.includes('August')) || (selectedMonth === '2026-09' && cardTextAll.includes('September')) || (selectedMonth === '2026-10' && cardTextAll.includes('October')));
                 const catMatch = (selectedCategory === 'all' || cardCat === selectedCategory);
                 const searchMatch = !query || cardTitle.includes(query) || cardText.includes(query);
 
-                if (catMatch && searchMatch) {
+                if (catMatch && searchMatch && monthMatch) {
                     card.style.display = 'block';
                 } else {
                     card.style.display = 'none';
