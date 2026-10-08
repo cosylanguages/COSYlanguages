@@ -156,12 +156,12 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
       }).join('\n');
 
       return `
-<div class="instead-try-spread" aria-label="Vocabulary Comparisons Spread">
+<section class="instead-try-spread" aria-label="Vocabulary Comparisons Spread">
   <div class="instead-try-headers">${headersHtml}</div>
   <div class="instead-try-body">
     ${rowsHtml}
   </div>
-</div>`;
+</section>`;
     }
     case 'example': {
       return `
