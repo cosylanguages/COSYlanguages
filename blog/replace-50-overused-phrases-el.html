@@ -338,5 +338,54 @@
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
     <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+        import { StageController } from "./js/stage/stage.js";
+
+        async function initPostStageAndScript() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const isStage = urlParams.get("stage") === "1" || urlParams.get("render") === "1";
+            const isScript = urlParams.get("script") === "1";
+
+            if (!isStage && !isScript) return;
+
+            const slug = "replace-50-overused-phrases-el";
+            let postData = null;
+
+            try {
+                const res = await fetch(`posts/${slug}.json`);
+                if (res.ok) {
+                    postData = await res.json();
+                }
+            } catch (e) {
+                console.warn("Could not load post JSON schema, constructing from DOM:", e);
+            }
+
+            if (!postData) {
+                const title = document.querySelector(".blog-header-title")?.textContent || document.title;
+                const dek = document.querySelector(".blog-header-tagline")?.textContent || "";
+                const kicker = document.querySelector(".kicker")?.textContent || "COSY GAZETTE";
+                const blocks = [];
+
+                const articleNodes = document.querySelectorAll(".post-full-content .flipbook-page, .post-full-content p, .post-full-content h2, .post-full-content h3");
+                articleNodes.forEach(node => {
+                    const text = node.textContent.trim();
+                    if (!text) return;
+                    const tag = node.tagName.toLowerCase();
+                    if (tag === "h2" || tag === "h3") {
+                        blocks.push({ type: "heading", text });
+                    } else if (tag === "p") {
+                        blocks.push({ type: "paragraph", text, say: text });
+                    }
+                });
+
+                postData = { slug, title, dek, kicker, blocks };
+            }
+
+            const targetContainer = document.querySelector(".blog-wrapper") || document.body;
+            new StageController(targetContainer, postData);
+        }
+
+        document.addEventListener("DOMContentLoaded", initPostStageAndScript);
+    </script>
 </body>
 </html>
