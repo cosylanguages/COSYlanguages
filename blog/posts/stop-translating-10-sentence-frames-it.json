@@ -1,0 +1,254 @@
+{
+  "id": "post-stop-translating-10-sentence-frames-it",
+  "slug": "stop-translating-10-sentence-frames-it",
+  "language": "it",
+  "desk": "Say It",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-09-14",
+  "title": "Basta tradurre! 10 strutture di frasi riutilizzabili per parlare fin dal primo giorno",
+  "kicker": "SAY IT",
+  "dek": "Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua.",
+  "tags": [
+    "SentenceFrames",
+    "Circumlocution",
+    "Fluency",
+    "A0-B1",
+    "Italian"
+  ],
+  "readingTime": 4,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "../audio/blog/stop-translating-10-sentence-frames-it.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "ticket-stub",
+    "seed": "stop-translating-10-sentence-frames-it",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dalla traduzione alla descrizione",
+      "say": "Uno dei più grandi ostacoli per gli studenti è l'abitudine di tradurre parola per parola. Impara a descrivere ciò che non conosci.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Quando ti manca una parola precisa, il cervello non deve bloccarsi. La circonlocuzione è una vera abilità comunicativa. Ecco 10 strutture di frasi per continuare a parlare.",
+      "say": "La circonlocuzione è una vera abilità comunicativa. Ecco 10 strutture per continuare a parlare.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Strutture di frasi essenziali",
+      "say": "Scopriamo le strutture chiave per persone, luoghi e oggetti.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "È una persona che aiuta i malati.",
+      "gloss": "Struttura per descrivere le professioni (Medico / Infermiere).",
+      "context": "Quando dimentichi il nome esatto di una professione",
+      "say": "È una persona che aiuta i malati.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "È un posto dove si compra il cibo.",
+      "gloss": "Struttura per descrivere luoghi (Supermercato).",
+      "context": "Quando dimentichi il nome di un luogo",
+      "say": "È un posto dove si compra il cibo.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "È qualcosa che si usa per tagliare il pane.",
+      "gloss": "Struttura per descrivere funzioni (Coltello).",
+      "context": "Quando dimentichi il nome di un oggetto",
+      "say": "È qualcosa che si usa per tagliare il pane.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Come si dice questo in italiano?",
+      "gloss": "Frase di sopravvivenza per rimanere in italiano.",
+      "context": "Chiedere aiuto a un madrelingua",
+      "say": "Come si dice questo in italiano?",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronuncia & Ritmo 🗣️",
+      "say": "Say It. Pratica il ritmo e la pronuncia naturale.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "È un posto dove...",
+      "ipa": "/ɛ un ˈpos.to ˈdo.ve/",
+      "say": "È un posto dove... Pronuncia con ritmo naturale.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "La circonlocuzione nella conversazione",
+      "content": "I madrelingua usano continuamente la circonlocuzione quando dimenticano un termine specifico. Descrivere un oggetto per funzione è segno di padronanza linguistica.",
+      "say": "Culture bite: La circonlocution è una strategia naturale.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz in 3 Domande 📝",
+      "say": "Metti alla prova la tua comprensione con un breve quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale struttura permette di descrivere una professione?",
+      "options": [
+        "È un posto dove...",
+        "È una persona che...",
+        "È un momento in cui...",
+        "È fatto di..."
+      ],
+      "correctIndex": 1,
+      "explanation": "'È una persona che...' permette di spiegare un lavoro senza conoscerne il nome preciso.",
+      "say": "Domanda 1: Quale struttura permette di descrivere una professione?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Qual è il vantaggio principale della circonlocuzione?",
+      "options": [
+        "Aiuta a tradurre parola per parola.",
+        "Mantiene fluida la conversazione senza interruzioni.",
+        "Richiede un dizionario.",
+        "È riservata solo agli esperti."
+      ],
+      "correctIndex": 1,
+      "explanation": "La circonlocuzione evita i blocchi e mantiene viva la conversazione.",
+      "say": "Domanda 2: Qual è il vantaggio principale della circonlocuzione?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase ti aiuta a chiedere spiegazioni rimanendo in italiano?",
+      "options": [
+        "Come si dice... in italiano?",
+        "Non parlo italiano.",
+        "Traduci per favore.",
+        "Che ore sono?"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Come si dice... in italiano?' mantiene l'interazione nella lingua target.",
+      "say": "Domanda 3: Quale frase ti aiuta a chiedere spiegazioni in italiano?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=it&type=vocabulary&level=A1",
+      "label": "Modulo di pratica interattiva del vocabolario"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Archivio centrale di vocabolario COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Incontri dal vivo e Speaking Clubs"
+    }
+  ]
+}

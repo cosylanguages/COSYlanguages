@@ -1,0 +1,241 @@
+{
+  "id": "post-replace-50-overused-phrases-fr",
+  "slug": "replace-50-overused-phrases-fr",
+  "language": "fr",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-13",
+  "title": "Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturelles pour le niveau intermédiaire",
+  "kicker": "WORDS",
+  "dek": "Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.",
+  "tags": [
+    "Expressions",
+    "PlateauIntermédiaire",
+    "Fluidité",
+    "B1-B2",
+    "Français"
+  ],
+  "readingTime": 4,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": "../audio/blog/replace-50-overused-phrases-fr.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-50-overused-phrases-fr",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dépasser le plateau intermédiaire",
+      "say": "Au niveau intermédiaire, on a tendance à réutiliser les mêmes expressions réflexes. Les remplacer apporte immédiatement plus de chaleur et de clarté.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Enrichir son vocabulaire quotidien ne nécessite pas d'apprendre des expressions rares, mais d'adopter des nuances naturelles et des contrastes clairs.",
+      "say": "Enrichir son vocabulaire quotidien apporte une grande fluidité à l'oral.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Exprimer son accord & son désaccord",
+      "say": "Catégorie 1 : Exprimer son accord et son désaccord.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Je partage totalement votre avis ! / Je ne suis pas si sûr(e).",
+      "gloss": "Alternatives naturelles à 'Je suis d'accord' / 'Je ne suis pas d'accord'.",
+      "context": "Débat et conversation quotidienne",
+      "say": "Je partage totalement votre avis ! Je ne suis pas si sûr.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Donner son opinion & Gérer l'incertitude",
+      "say": "Catégorie 2 : Donner son opinion.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "À mon sens... / C'est difficile à dire.",
+      "gloss": "Remplacement de 'Je pense que...' et 'Je ne sais pas'.",
+      "context": "Exprimer son point de vue",
+      "say": "À mon sens... C'est difficile à dire.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It : Prononciation & Nuances 🗣️",
+      "say": "Say It. Entraînez-vous à l'intonation naturelle.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "Je partage votre avis.",
+      "ipa": "/ʒə paʁ.taʒ vo.tʁ‿a.vi/",
+      "say": "Je partage votre avis. Enchaînez les mots sans accentuer la fin.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Politesse et désaccord en français",
+      "content": "En français, un désaccord direct ('C'est faux') peut paraître brusque. Utiliser 'Je ne suis pas si sûr' ou 'Je vois les choses différemment' est plus poli et élégant.",
+      "say": "Culture bite: La nuance permet de maintenir un échange courtois.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz en 3 Questions 📝",
+      "say": "Testez vos connaissances avec un mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle expression remplace avantageusement 'Je suis d'accord' ?",
+      "options": [
+        "Je partage votre avis.",
+        "Ça dépend.",
+        "Je ne sais pas.",
+        "Peut-être."
+      ],
+      "correctIndex": 0,
+      "explanation": "'Je partage votre avis' est une formulation naturelle et élégante.",
+      "say": "Question 1 : Quelle expression remplace avantageusement 'Je suis d'accord' ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Comment exprimer un désaccord de manière courtoise ?",
+      "options": [
+        "C'est faux.",
+        "Je ne suis pas si sûr(e).",
+        "Jamais.",
+        "Je déteste ça."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Je ne suis pas si sûr(e)' adoucit le désaccord.",
+      "say": "Question 2 : Comment exprimer un désaccord de manière courtoise ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase remplace 'Je ne sais pas' lors d'une discussion ?",
+      "options": [
+        "Ça m'est égal.",
+        "C'est difficile à dire.",
+        "Non.",
+        "C'est cher."
+      ],
+      "correctIndex": 1,
+      "explanation": "'C'est difficile à dire' montre une réflexion réfléchie.",
+      "say": "Question 3 : Quelle phrase remplace 'Je ne sais pas' ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explorez la pratique interactive et les répertoires de vocabulaire COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=fr&type=vocabulary&level=B1-B2",
+      "label": "Module d'entraînement aux expressions B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Répertoire central d'expressions COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Ateliers de conversation en direct"
+    }
+  ]
+}

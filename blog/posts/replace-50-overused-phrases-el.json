@@ -1,0 +1,241 @@
+{
+  "id": "post-replace-50-overused-phrases-el",
+  "slug": "replace-50-overused-phrases-el",
+  "language": "el",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-13",
+  "title": "Σταματήστε να επαναλαμβάνετε αυτές τις 50 φράσεις! Φυσικές εναλλακτικές για το B1–B2",
+  "kicker": "WORDS",
+  "dek": "Εμπλουτίστε τον προφορικό σας λόγο αντικαθιστώντας 50 επαναλαμβανόμενες εκφράσεις του B1 με φυσικές επιλογές και τα άμεσα αντίθετά τους.",
+  "tags": [
+    "Φράσεις",
+    "ΕνδιάμεσοΕπίπεδο",
+    "Ευχέρεια",
+    "B1-B2",
+    "Ελληνικά"
+  ],
+  "readingTime": 2,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": "../audio/blog/replace-50-overused-phrases-el.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-50-overused-phrases-el",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ξεπερνώντας την επαναλαμβανόμενη ομιλία B1",
+      "say": "Στο ενδιάμεσο επίπεδο, είναι σύνηθες να επαναλαμβάνουμε τις ίδιες ασφαλείς φράσεις. Η αναβάθμισή τους προσφέρει φυσική ροή.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Η αναβάθμιση του καθημερινού λεξιλογίου δεν απαιτεί περίπλοκες εκφράσεις, αλλά φυσικές εναλλακτικές και εκφραστικές αντιθέσεις.",
+      "say": "Η αναβάθμιση του λεξιλογίου προσφέρει άμεση φυσικότητα στον προφορικό λόγο.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Συμφωνία & Διαφωνία",
+      "say": "Κατηγορία 1: Φράσεις συμφωνίας και διαφωνίας.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Συμφωνώ απόλυτα! / Δεν είμαι τόσο σίγουρος/η.",
+      "gloss": "Φυσικές εναλλακτικές αντί για 'Συμφωνώ' / 'Διαφωνώ'.",
+      "context": "Συζήτηση & ανταλλαγή αποψεων",
+      "say": "Συμφωνώ απόλυτα! Δεν είμαι τόσο σίγουρος.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Έκφραση γνώμης & Αβεβαιότητα",
+      "say": "Κατηγορία 2: Έκφραση γνώμης.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Κατά τη γνώμη μου... / Δύσκολο να πω.",
+      "gloss": "Αναβάθμιση του 'Νομίζω...' και 'Δεν ξέρω'.",
+      "context": "Εκφράζοντας άποψη",
+      "say": "Κατά τη γνώμη μου... Δύσκολο να πω.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Προφορά & Τονισμός 🗣️",
+      "say": "Say It. Τονισμός και φυσικός ρυθμός.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "Συμφωνώ απόλυτα.",
+      "ipa": "/siɱ.foˈno aˈpo.li.ta/",
+      "say": "Συμφωνώ απόλυτα. Τονίστε την λέξη 'απόλυτα'.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Ευγένεια και διαφωνία",
+      "content": "Στην ελληνική κουλτούρα συζήτησης, η ήπια διαφωνία με φράσεις όπως 'Δεν είμαι τόσο σίγουρος' διατηρεί τη φιλική ατμόσφαιρα.",
+      "say": "Culture bite: Η ήπια διαφωνία διατηρεί τη φιλική ατμόσφαιρα.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Δοκιμάστε τις γνώσεις σας με ένα σύντομο κουίζ.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ποια φράση αναβαθμίζει το απλό 'Συμφωνώ';",
+      "options": [
+        "Συμφωνώ απόλυτα.",
+        "Εξαρτάται.",
+        "Δεν ξέρω.",
+        "Ίσως."
+      ],
+      "correctIndex": 0,
+      "explanation": "Η φράση 'Συμφωνώ απόλυτα' εκφράζει θερμή συμφωνία.",
+      "say": "Ερώτηση 1: Ποια φράση αναβαθμίζει το 'Συμφωνώ';",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Πώς μπορείτε να εκφράσετε ευγενική αμφιβολία;",
+      "options": [
+        "Δεν είμαι τόσο σίγουρος/η.",
+        "Δεν μιλάω.",
+        "Είναι λάθος.",
+        "Ποτέ."
+      ],
+      "correctIndex": 0,
+      "explanation": "'Δεν είμαι τόσο σίγουρος/η' είναι ευγενικός τρόπος διαφωνίας.",
+      "say": "Ερώτηση 2: Πώς μπορείτε να εκφράσετε ευγενική αμφιβολία;",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ποια φράση αντικαθιστά φυσικά το 'Δεν ξέρω';",
+      "options": [
+        "Δεν με νοιάζει.",
+        "Δύσκολο να πω.",
+        "Όχι.",
+        "Είναι ακριβό."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Δύσκολο να πω' είναι μια σκεπτόμενη εναλλακτική.",
+      "say": "Ερώτηση 3: Ποια φράση αντικαθιστά το 'Δεν ξέρω';",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Εξερευνήστε διαδραστική εξάσκηση και λεξιλόγιο στο COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=el&type=vocabulary&level=B1-B2",
+      "label": "Διαδραστική Εξάσκηση Εκφράσεων B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Κεντρικό Αποθετήριο Εκφράσεων COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Ζωντανές Συναντήσεις & Speaking Clubs"
+    }
+  ]
+}
