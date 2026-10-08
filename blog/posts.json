@@ -24,24 +24,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Editorial Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#1a365d",
-        "#3182ce",
-        "#dd6b20",
-        "#ebf8ff"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "window-light",
-      "seed": "top-5-favourite-grammar-rules",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "stop-translating-10-sentence-frames-el",
@@ -68,24 +51,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "stop-translating-10-sentence-frames-el",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "stop-translating-10-sentence-frames-fr",
@@ -112,24 +78,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "stop-translating-10-sentence-frames-fr",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "stop-translating-10-sentence-frames-it",
@@ -156,24 +105,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "stop-translating-10-sentence-frames-it",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "stop-translating-10-sentence-frames-ru",
@@ -200,24 +132,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "stop-translating-10-sentence-frames-ru",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "stop-translating-10-sentence-frames",
@@ -244,24 +159,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#742a2a",
-        "#e53e3e",
-        "#d69e2e",
-        "#fff5f5"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "gingham-knit",
-      "seed": "stop-translating-10-sentence-frames",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-50-overused-phrases-el",
@@ -288,24 +186,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-50-overused-phrases-el",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-50-overused-phrases-fr",
@@ -332,24 +213,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-50-overused-phrases-fr",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-50-overused-phrases-it",
@@ -376,24 +240,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-50-overused-phrases-it",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-50-overused-phrases-ru",
@@ -420,24 +267,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-50-overused-phrases-ru",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-50-overused-phrases",
@@ -463,24 +293,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-50-overused-phrases",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-very-50-stronger-adjectives-el",
@@ -507,24 +320,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-very-50-stronger-adjectives-el",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-very-50-stronger-adjectives-fr",
@@ -551,24 +347,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-very-50-stronger-adjectives-fr",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-very-50-stronger-adjectives-it",
@@ -595,24 +374,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-very-50-stronger-adjectives-it",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-very-50-stronger-adjectives-ru",
@@ -639,24 +401,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-very-50-stronger-adjectives-ru",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "replace-very-50-stronger-adjectives",
@@ -682,24 +427,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "replace-very-50-stronger-adjectives",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-el",
@@ -726,24 +454,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-el",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-fr",
@@ -770,24 +481,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-it",
@@ -814,24 +508,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-it",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-ru",
@@ -858,24 +535,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau-ru",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau",
@@ -901,24 +561,7 @@
     "cefr_level": "B1–B2",
     "vibe": "Speaking Vibe",
     "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#2d3748",
-        "#319795",
-        "#d69e2e",
-        "#f7fafc"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "riso-print",
-      "seed": "top-10-verb-synonyms-intermediate-plateau",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "welcome-to-cosy-blog",
@@ -943,24 +586,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Editorial Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#1e293b",
-        "#0d9488",
-        "#f59e0b",
-        "#faf7f2"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "paper-cut",
-      "seed": "welcome-to-cosy-blog",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1",
@@ -986,24 +612,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-english",
@@ -1028,24 +637,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-english",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-french",
@@ -1070,24 +662,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-french",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-italian",
@@ -1112,24 +687,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-italian",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-russian",
@@ -1154,24 +712,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-russian",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-greek",
@@ -1196,24 +737,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-greek",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-spanish",
@@ -1238,24 +762,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-spanish",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-german",
@@ -1280,24 +787,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-german",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-portuguese",
@@ -1322,24 +812,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-portuguese",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-armenian",
@@ -1364,24 +837,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-armenian",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-georgian",
@@ -1406,24 +862,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-georgian",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-tatar",
@@ -1448,24 +887,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-tatar",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-bashkir",
@@ -1490,24 +912,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-bashkir",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-100-a0-a1-breton",
@@ -1532,24 +937,7 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-100-a0-a1-breton",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   },
   {
     "slug": "top-10-verbs",
@@ -1575,23 +963,6 @@
     "cefr_level": "A0–A1 / A2",
     "vibe": "Curriculum Vibe",
     "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true,
-    "artDirection": {
-      "palette": [
-        "#22543d",
-        "#38a169",
-        "#d69e2e",
-        "#f0fff4"
-      ],
-      "fonts": {
-        "display": "Fraunces",
-        "text": "DM Sans",
-        "accent": "Fraunces Italic"
-      },
-      "layout": "standard-feed",
-      "motif": "doodle-border",
-      "seed": "top-10-verbs",
-      "coverOverride": null
-    }
+    "audio_podcast": true
   }
 ]
