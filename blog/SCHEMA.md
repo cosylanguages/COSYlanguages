@@ -11,6 +11,8 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 | `id` | `string` | Yes | Unique UUID or canonical string identifier for the post. | `"post-welcome-2026-001"` |
 | `slug` | `string` | Yes | URL-friendly post slug (lowercase, hyphenated). | `"welcome-to-cosy-blog"` |
 | `language` | `string` | Yes | ISO 639-1 language code of the post content. | `"en"`, `"fr"`, `"it"`, `"ru"`, `"el"`, `"es"`, `"de"`, `"pt"`, `"hy"`, `"ka"`, `"tt"`, `"ba"`, `"br"` |
+| `translationOf` | `string` | No | Slug of the base post of which this post is a translation variant. | `"replace-50-overused-phrases"` |
+| `draft` | `boolean` | No | Whether the post is a draft (skipped in builds if `true`). | `true`, `false` |
 | `desk` | `string` | Yes | Primary editorial desk key (localisable via UI i18n without fallbacks). | `"Front Page"`, `"Words"`, `"Grammar Made Cosy"`, `"Say It"`, `"Culture & Quotes"`, `"Long Reads"`, `"Cosy Events"`, `"The Podcast"`, `"Back Issues"` |
 | `format` | `string` | Yes | Article presentation format type. | `"list"`, `"essay"`, `"qa"`, `"ranking"`, `"photo-essay"`, `"quiz"`, `"quote-wall"` |
 | `level` | `string` | Yes | CEFR proficiency level targeted by the content. | `"A1"`, `"A2"`, `"B1"`, `"B2"`, `"C1"`, `"C2"`, `"A0–A1"`, `"A1–A2"`, `"B1–B2"`, `"C1–C2"`, `"A0–B2"` |
@@ -29,7 +31,7 @@ This document specifies the canonical JSON/Object schema for blog posts within t
 
 ## 2. Block Types (`blocks[]`)
 
-Every block object MUST contain a `type` field matching one of the 11 valid block types listed below, plus type-specific payload properties.
+Every block object MUST contain a `type` field matching one of the 12 valid block types listed below, plus type-specific payload properties.
 
 In addition, **every block MAY include optional stage direction fields**:
 - `say` (`string`): Spoken script text for audio narration/podcast read-aloud.
@@ -53,32 +55,36 @@ In addition, **every block MAY include optional stage direction fields**:
 3. **`list-item`**
    - `ordered` (`boolean`): Whether part of an ordered or unordered list.
    - `items` (`string[]`): List item strings.
-4. **`example`**
+4. **`table`**
+   - `headers` (`string[]`): Table header column labels.
+   - `rows` (`string[][]`): Table row cells array.
+   - `caption` (`string`, optional): Display caption text.
+5. **`example`**
    - `targetText` (`string`): Sentence or phrase in the target language.
    - `gloss` (`string`): Monolingual explanation or structural gloss.
    - `context` (`string`, optional): Usage context or situation.
-5. **`pronunciation`**
+6. **`pronunciation`**
    - `word` (`string`): Target word or phrase.
    - `ipa` (`string`): International Phonetic Alphabet transcript.
    - `audioUrl` (`string`, optional): Relative URL to audio file.
-6. **`pullquote`**
+7. **`pullquote`**
    - `quote` (`string`): Quote text.
    - `attribution` (`string`, optional): Speaker or author name.
-7. **`image`**
+8. **`image`**
    - `url` (`string`): Relative image URL.
    - `alt` (`string`): Alt text for accessibility.
    - `caption` (`string`, optional): Display caption text.
-8. **`quiz`**
+9. **`quiz`**
    - `question` (`string`): Quiz question prompt.
    - `options` (`string[]`): Answer option choices.
    - `correctIndex` (`number`): Zero-based index of correct answer.
    - `explanation` (`string`): Pedagogical explanation.
-9. **`culture-bite`**
-   - `title` (`string`): Title of the cultural note.
-   - `content` (`string`): Cultural context description.
-10. **`quote-wall`**
+10. **`culture-bite`**
+    - `title` (`string`): Title of the cultural note.
+    - `content` (`string`): Cultural context description.
+11. **`quote-wall`**
     - `quotes` (`object[]`): Array of `{ "quote": string, "author": string }` objects.
-11. **`links`**
+12. **`links`**
     - `destination` (`string`): Ecosystem destination (`"cosydata"`, `"cosytools"`, `"events"`, `"practice"`).
     - `url` (`string`): Target link URL.
     - `label` (`string`): Link anchor display label.

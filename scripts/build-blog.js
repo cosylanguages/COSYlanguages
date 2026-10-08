@@ -1,47 +1,40 @@
-#!/usr/bin/env Node
+#!/usr/bin/env node
 /**
- * build-blog.js
- * Builds static blog post HTML pages and generates blog/posts.json from Markdown source files.
+ * scripts/build-blog.js
+ * Builds static blog post HTML pages and generates blog/posts.json & blog/index.json directly from JSON source files.
  *
  * Usage: node scripts/build-blog.js
  */
 
 const fs = require('fs');
 const path = require('path');
-let yaml, marked;
+let marked;
 try {
-  yaml = require('js-yaml');
   const markedModule = require('marked');
   marked = markedModule.marked || markedModule;
 } catch (e) {
-  // Graceful fallback for environments without npm dependencies installed
+  // Graceful fallback if marked is not available
 }
 
-if (marked) {
-  const blogRenderer = new marked.Renderer();
-  blogRenderer.tablecell = function (token) {
-    const tag = token.header ? 'th' : 'td';
-    const align = token.align ? ` style="text-align:${token.align}"` : '';
-    const content = this.parser.parseInline(token.tokens);
-    return `<${tag}${align}>${content}</${tag}>\n`;
-  };
-  marked.use({ renderer: blogRenderer });
-}
+const { validatePostSchema } = require('./validate-blog-schema.js');
+const { generatePodcastRss } = require('./generate-podcast-rss.js');
 
 const BLOG_DIR = path.join(__dirname, '..', 'blog');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const GUIDES_FILE = path.join(BLOG_DIR, 'guides.json');
 const POSTS_JSON = path.join(BLOG_DIR, 'posts.json');
+const INDEX_JSON = path.join(BLOG_DIR, 'index.json');
 
-const ALLOWED_CATEGORIES = [
-  'Philosophy',
-  'Journal Article',
-  'Ecosystem Update',
-  'Pedagogy',
-  'Methodology',
-  'Resource List',
-  'Curriculum',
-  'Speaking First'
+const DESKS_CATALOG = [
+  { key: 'Front Page', i18n_key: 'desk_front_page', icon: '📰', order: 1 },
+  { key: 'Words', i18n_key: 'desk_words', icon: '🔤', order: 2 },
+  { key: 'Grammar Made Cosy', i18n_key: 'desk_grammar_made_cosy', icon: '📐', order: 3 },
+  { key: 'Say It', i18n_key: 'desk_say_it', icon: '🗣️', order: 4 },
+  { key: 'Culture & Quotes', i18n_key: 'desk_culture_quotes', icon: '🎭', order: 5 },
+  { key: 'Long Reads', i18n_key: 'desk_long_reads', icon: '📖', order: 6 },
+  { key: 'Cosy Events', i18n_key: 'desk_cosy_events', icon: '🎉', order: 7 },
+  { key: 'The Podcast', i18n_key: 'desk_the_podcast', icon: '🎙️', order: 8 },
+  { key: 'Back Issues', i18n_key: 'desk_back_issues', icon: '🗄️', order: 9 }
 ];
 
 const RESERVED_SLUGS = new Set([
@@ -52,6 +45,22 @@ const RESERVED_SLUGS = new Set([
   'top-100-a0-a1'
 ]);
 
+const LANG_FLAG_MAP = {
+  en: '🇬🇧',
+  fr: '🇫🇷',
+  it: '🇮🇹',
+  ru: '🇷🇺',
+  el: '🇬🇷',
+  es: '🇪🇸',
+  de: '🇩🇪',
+  pt: '🇵🇹',
+  hy: '🇦🇲',
+  ka: '🇬🇪',
+  tt: '🌐',
+  ba: '🌐',
+  br: '🌐'
+};
+
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, char => ({
     '&': '&amp;',
@@ -60,6 +69,14 @@ function escapeHtml(value) {
     '"': '&quot;',
     "'": '&#39;'
   })[char]);
+}
+
+function parseFormattedText(text) {
+  if (!text) return '';
+  if (marked && typeof marked.parseInline === 'function') {
+    return marked.parseInline(text);
+  }
+  return escapeHtml(text);
 }
 
 function getDocumentTitle(title) {
@@ -75,138 +92,104 @@ function getDocumentTitle(title) {
   return documentTitle;
 }
 
-function buildBlog() {
-  console.log('🚀 Starting Blog Build Pipeline...');
+function renderBlockToHtml(block) {
+  if (!block || typeof block !== 'object') return '';
 
-  if (!fs.existsSync(POSTS_DIR)) {
-    fs.mkdirSync(POSTS_DIR, { recursive: true });
+  switch (block.type) {
+    case 'heading': {
+      const lvl = Math.min(6, Math.max(1, block.level || 2));
+      return `<h${lvl}>${parseFormattedText(block.text)}</h${lvl}>`;
+    }
+    case 'paragraph': {
+      return `<p>${parseFormattedText(block.text)}</p>`;
+    }
+    case 'list-item': {
+      const tag = block.ordered ? 'ol' : 'ul';
+      const itemsHtml = (block.items || []).map(item => `<li>${parseFormattedText(item)}</li>`).join('\n');
+      return `<${tag}>\n${itemsHtml}\n</${tag}>`;
+    }
+    case 'table': {
+      const headersHtml = (block.headers || []).map(h => `<th>${parseFormattedText(h)}</th>`).join('');
+      const rowsHtml = (block.rows || []).map(row => {
+        const cellsHtml = row.map(cell => `<td>${parseFormattedText(cell)}</td>`).join('');
+        return `<tr>${cellsHtml}</tr>`;
+      }).join('\n');
+      const captionHtml = block.caption ? `<caption>${parseFormattedText(block.caption)}</caption>` : '';
+      return `<div class="table-wrapper">\n<table>\n${captionHtml}\n<thead><tr>${headersHtml}</tr></thead>\n<tbody>\n${rowsHtml}\n</tbody>\n</table>\n</div>`;
+    }
+    case 'example': {
+      return `
+<div class="example-box" style="background: rgba(13, 148, 136, 0.05); border-left: 4px solid var(--teal, #0d9488); padding: 1rem; margin: 1rem 0; border-radius: 4px;">
+  <p style="font-size: 1.1rem; font-weight: 600; color: var(--teal, #0d9488); margin-bottom: 0.25rem;">${parseFormattedText(block.targetText)}</p>
+  <p style="font-size: 0.95rem; margin: 0; color: var(--text-main, #1e293b);">${parseFormattedText(block.gloss)}</p>
+  ${block.context ? `<p style="font-size: 0.85rem; font-style: italic; color: #64748b; margin-top: 0.25rem;">Context: ${parseFormattedText(block.context)}</p>` : ''}
+</div>`;
+    }
+    case 'pronunciation': {
+      return `
+<div class="pronunciation-card" style="display: flex; align-items: center; gap: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.75rem 1rem; border-radius: 8px; margin: 1rem 0;">
+  <span style="font-weight: 700; font-size: 1.1rem;">${parseFormattedText(block.word)}</span>
+  <span style="font-family: monospace; color: #0d9488;">[${escapeHtml(block.ipa)}]</span>
+  ${block.audioUrl ? `<audio controls src="${escapeHtml(block.audioUrl)}"></audio>` : ''}
+</div>`;
+    }
+    case 'pullquote': {
+      return `
+<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
+  <p style="margin-bottom: 0.25rem;">“${parseFormattedText(block.quote)}”</p>
+  ${block.attribution ? `<cite style="font-size: 0.9rem; font-style: normal; color: #64748b;">— ${escapeHtml(block.attribution)}</cite>` : ''}
+</blockquote>`;
+    }
+    case 'image': {
+      return `
+<figure style="margin: 1.5rem 0;">
+  <img src="${escapeHtml(block.url)}" alt="${escapeHtml(block.alt)}" style="max-width: 100%; border-radius: 8px;">
+  ${block.caption ? `<figcaption style="font-size: 0.85rem; color: #64748b; text-align: center; margin-top: 0.5rem;">${parseFormattedText(block.caption)}</figcaption>` : ''}
+</figure>`;
+    }
+    case 'quiz': {
+      const optionsHtml = (block.options || []).map((opt, i) => `<li style="margin-bottom: 0.25rem;">${i === block.correctIndex ? '✅ ' : '⚪ '}${parseFormattedText(opt)}</li>`).join('');
+      return `
+<div class="quiz-block" style="background: #faf7f2; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin: 1.5rem 0;">
+  <h4 style="color: var(--teal, #0d9488); margin-bottom: 0.5rem;">❓ ${parseFormattedText(block.question)}</h4>
+  <ul style="list-style: none; padding-left: 0;">${optionsHtml}</ul>
+  ${block.explanation ? `<p style="font-size: 0.9rem; font-style: italic; margin-top: 0.5rem; color: #64748b;">${parseFormattedText(block.explanation)}</p>` : ''}
+</div>`;
+    }
+    case 'culture-bite': {
+      return `
+<div class="culture-bite" style="background: rgba(217, 119, 6, 0.08); border-left: 4px solid #d97706; padding: 1rem; margin: 1.5rem 0; border-radius: 4px;">
+  <h4 style="color: #b45309; margin-bottom: 0.35rem;">📌 ${parseFormattedText(block.title)}</h4>
+  <p style="margin: 0; font-size: 0.95rem;">${parseFormattedText(block.content)}</p>
+</div>`;
+    }
+    case 'quote-wall': {
+      const quotesHtml = (block.quotes || []).map(q => `<div style="margin-bottom: 0.75rem;"><em>“${parseFormattedText(q.quote)}”</em> — <strong>${escapeHtml(q.author)}</strong></div>`).join('');
+      return `<div class="quote-wall" style="background: #f1f5f9; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">${quotesHtml}</div>`;
+    }
+    case 'links': {
+      return `
+<div class="links-block" style="margin: 1.5rem 0;">
+  <a href="${escapeHtml(block.url)}" class="read-more-link" style="font-weight: 600; color: var(--teal, #0d9488);">${parseFormattedText(block.label)}</a>
+</div>`;
+    }
+    default:
+      return '';
   }
+}
 
-  // 1. Load Guides metadata
-  let guides = [];
-  if (fs.existsSync(GUIDES_FILE)) {
-    try {
-      guides = JSON.parse(fs.readFileSync(GUIDES_FILE, 'utf-8'));
-    } catch (e) {
-      console.error('❌ Failed to parse blog/guides.json:', e.message);
-      process.exit(1);
-    }
-  }
-
-  const guideSlugs = new Set(guides.map(g => g.slug));
-
-  // 2. Read post Markdown files
-  const mdFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
-  const posts = [];
-  const postSlugs = new Set();
-  const errors = [];
-
-  mdFiles.forEach(file => {
-    const filePath = path.join(POSTS_DIR, file);
-    const rawContent = fs.readFileSync(filePath, 'utf-8');
-    const slug = path.basename(file, '.md');
-
-    // Slug collision checks
-    if (RESERVED_SLUGS.has(slug) || guideSlugs.has(slug)) {
-      errors.push(`[${file}] Slug "${slug}" collides with a reserved system page or guide slug.`);
-    }
-    if (postSlugs.has(slug)) {
-      errors.push(`[${file}] Duplicate slug "${slug}" detected.`);
-    }
-    postSlugs.add(slug);
-
-    // Parse frontmatter
-    let frontmatter = {};
-    let markdownBody = '';
-
-    const fmMatch = rawContent.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
-    if (!fmMatch) {
-      errors.push(`[${file}] Missing or malformed YAML frontmatter (must start and end with ---).`);
-      return;
-    }
-
-    try {
-      frontmatter = yaml.load(fmMatch[1]);
-      markdownBody = fmMatch[2];
-    } catch (e) {
-      errors.push(`[${file}] Invalid YAML frontmatter: ${e.message}`);
-      return;
-    }
-
-    // Required fields validation
-    const requiredFields = ['title', 'date', 'category', 'summary', 'author'];
-    requiredFields.forEach(field => {
-      if (!frontmatter[field] || String(frontmatter[field]).trim() === '') {
-        errors.push(`[${file}] Missing required field: "${field}".`);
-      }
-    });
-
-    // Date format validation (YYYY-MM-DD)
-    const dateStr = String(frontmatter.date || '').trim();
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr) || isNaN(Date.parse(dateStr))) {
-      errors.push(`[${file}] Invalid date format "${dateStr}". Must be YYYY-MM-DD.`);
-    }
-
-    // Category enum validation
-    const category = String(frontmatter.category || '').trim();
-    if (category && !ALLOWED_CATEGORIES.includes(category)) {
-      errors.push(`[${file}] Invalid category "${category}". Must be one of: ${ALLOWED_CATEGORIES.join(', ')}.`);
-    }
-
-    // Compute reading time if absent
-    const wordCount = markdownBody.trim().split(/\s+/).filter(Boolean).length;
-    const computedReadingTime = Math.max(1, Math.ceil(wordCount / 200));
-    const readingTime = typeof frontmatter.reading_time === 'number' ? frontmatter.reading_time : computedReadingTime;
-
-    const postObj = {
-      slug,
-      title: String(frontmatter.title || '').trim(),
-      date: dateStr,
-      updated: frontmatter.updated ? String(frontmatter.updated).trim() : null,
-      category,
-      summary: String(frontmatter.summary || '').trim(),
-      author: String(frontmatter.author || '').trim(),
-      reading_time: readingTime,
-      cover_image: frontmatter.cover_image ? String(frontmatter.cover_image).trim() : '',
-      tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
-      featured: Boolean(frontmatter.featured),
-      draft: Boolean(frontmatter.draft),
-      bodyMarkdown: markdownBody,
-      type: 'post',
-      url: `${slug}.html`,
-      issue_volume: frontmatter.issue_volume ? String(frontmatter.issue_volume).trim() : 'Vol. 2026 — COSYmagazine',
-      issue_title: frontmatter.issue_title ? String(frontmatter.issue_title).trim() : 'COSY Editorial',
-      cefr_level: frontmatter.cefr_level ? String(frontmatter.cefr_level).trim() : 'A0–B2',
-      vibe: frontmatter.vibe ? String(frontmatter.vibe).trim() : 'Editorial Vibe',
-      founder_notes: frontmatter.founder_notes ? String(frontmatter.founder_notes).trim() : 'CELTA-aligned target-language guidance by JY DM.',
-      audio_podcast: Boolean(frontmatter.audio_podcast !== false)
-    };
-
-    posts.push(postObj);
-  });
-
-  if (errors.length > 0) {
-    console.error('❌ Validation Failed with errors:');
-    errors.forEach(err => console.error('  - ' + err));
-    process.exit(1);
-  }
-
-  // 3. Generate HTML pages for non-draft posts
-  const publishedPosts = posts.filter(p => !p.draft);
-  console.log(`📝 Processing ${publishedPosts.length} published post(s) (${posts.length - publishedPosts.length} draft(s) skipped)...`);
-
-function formatFlipbookContent(renderedHtml, slug) {
-  const hrChunks = renderedHtml.split(/<hr\s*\/?>/i).filter(c => c.trim().length > 0);
+function formatFlipbookContent(renderedBlocksHtml, slug) {
+  const hrChunks = renderedBlocksHtml.split(/<hr\s*\/?>/i).filter(c => c.trim().length > 0);
   let pages = [];
 
   if (hrChunks.length > 1) {
     pages = hrChunks;
   } else {
-    const h3Parts = renderedHtml.split(/(?=<h[23][^>]*>)/i).filter(c => c.trim().length > 0);
-    if (h3Parts.length > 1) {
-      pages = h3Parts;
+    const h2Parts = renderedBlocksHtml.split(/(?=<h[23][^>]*>)/i).filter(c => c.trim().length > 0);
+    if (h2Parts.length > 1) {
+      pages = h2Parts;
     } else {
-      pages = [renderedHtml];
+      pages = [renderedBlocksHtml];
     }
   }
 
@@ -239,18 +222,118 @@ function formatFlipbookContent(renderedHtml, slug) {
   }).join('\n');
 }
 
+function renderLanguageSwitcherHtml(currentPost, allPosts) {
+  const baseSlug = currentPost.translationOf || (currentPost.slug.replace(/-(fr|it|ru|el)$/, ''));
+  const variants = allPosts.filter(p => p.slug === baseSlug || p.translationOf === baseSlug);
+
+  if (variants.length <= 1) return '';
+
+  const linksHtml = variants.map(v => {
+    const flag = LANG_FLAG_MAP[v.language] || '🌐';
+    const langCode = v.language.toUpperCase();
+    if (v.slug === currentPost.slug) {
+      return `<span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">${flag} ${langCode}</span>`;
+    }
+    return `<a href="${v.slug}.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">${flag} ${langCode}</a>`;
+  }).join(' ');
+
+  return `
+<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+  ${linksHtml}
+</div>`;
+}
+
+function buildBlog() {
+  console.log('🚀 Starting COSYlanguages Unified Blog Build Pipeline...');
+
+  if (!fs.existsSync(POSTS_DIR)) {
+    fs.mkdirSync(POSTS_DIR, { recursive: true });
+  }
+
+  // 1. Load Guides metadata
+  let guides = [];
+  if (fs.existsSync(GUIDES_FILE)) {
+    try {
+      guides = JSON.parse(fs.readFileSync(GUIDES_FILE, 'utf-8'));
+    } catch (e) {
+      console.error('❌ Failed to parse blog/guides.json:', e.message);
+      process.exit(1);
+    }
+  }
+
+  const guideSlugs = new Set(guides.map(g => g.slug));
+
+  // 2. Load JSON post files from blog/posts/*.json
+  const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
+  const allPosts = [];
+  const postSlugs = new Set();
+  const errors = [];
+  const issuesSet = new Map();
+
+  jsonFiles.forEach(file => {
+    const filePath = path.join(POSTS_DIR, file);
+    let postData;
+    try {
+      postData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    } catch (e) {
+      errors.push(`[${file}] JSON Parse Error: ${e.message}`);
+      return;
+    }
+
+    const valErrors = validatePostSchema(postData, file);
+    if (valErrors.length > 0) {
+      errors.push(...valErrors);
+      return;
+    }
+
+    const slug = postData.slug;
+    if (RESERVED_SLUGS.has(slug) || guideSlugs.has(slug)) {
+      errors.push(`[${file}] Slug "${slug}" collides with a reserved system page or guide slug.`);
+    }
+    if (postSlugs.has(slug)) {
+      errors.push(`[${file}] Duplicate slug "${slug}" detected.`);
+    }
+    postSlugs.add(slug);
+
+    if (postData.issue && postData.issue.number) {
+      issuesSet.set(postData.issue.number, {
+        number: postData.issue.number,
+        title: postData.issue.title
+      });
+    }
+
+    allPosts.push(postData);
+  });
+
+  if (errors.length > 0) {
+    console.error('❌ Blog Schema & Post Validation Failed:');
+    errors.forEach(err => console.error('  - ' + err));
+    process.exit(1);
+  }
+
+  // 3. Filter published posts
+  const publishedPosts = allPosts.filter(p => !p.draft);
+  console.log(`📝 Processing ${publishedPosts.length} published post(s) (${allPosts.length - publishedPosts.length} draft(s) skipped)...`);
+
+  // 4. Generate HTML pages for non-draft posts
   publishedPosts.forEach(post => {
     const htmlPath = path.join(BLOG_DIR, `${post.slug}.html`);
-    const rawRendered = marked.parse(post.bodyMarkdown);
-    const flipbookBody = formatFlipbookContent(rawRendered, post.slug);
+    const renderedBlocksHtml = (post.blocks || []).map(renderBlockToHtml).join('\n');
+    const flipbookBody = formatFlipbookContent(renderedBlocksHtml, post.slug);
+    const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts);
+
+    const authorName = 'JY DM';
+    const category = post.desk || 'Words';
+    const coverImage = post.artDirection?.coverOverride || '';
+    const founderNotes = `CELTA-aligned target-language guidance by JY DM for COSYmagazine ${post.issue.title} edition.`;
 
     const htmlContent = `<!DOCTYPE html>
-<html lang="en">
+<html lang="${escapeHtml(post.language)}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(getDocumentTitle(post.title))}</title>
-    <meta name="description" content="${escapeHtml(post.summary)}">
+    <meta name="description" content="${escapeHtml(post.dek)}">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
     <meta name="theme-color" content="#FAF7F2">
@@ -271,22 +354,23 @@ function formatFlipbookContent(renderedHtml, slug) {
     <nav id="cosy-nav"></nav>
 
     <div class="blog-wrapper">
-        <header class="blog-header" data-category="${escapeHtml(post.category)}">
+        <header class="blog-header" data-category="${escapeHtml(category)}">
             <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
                 <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
             </div>
             <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">${escapeHtml(post.category)}</span>
+                <span class="kicker" style="margin-bottom: 0;">${escapeHtml(category)}</span>
                 <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
             </div>
             <h1 class="blog-header-title" style="margin-top: 0.5rem;">${escapeHtml(post.title)}</h1>
+            ${langSwitcherHtml}
             <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">${escapeHtml(post.author.charAt(0).toUpperCase())}</span>
-                <span>Written by <strong>${escapeHtml(post.author)}</strong></span>
+                <span class="post-author-avatar">J</span>
+                <span>Written by <strong>${escapeHtml(authorName)}</strong></span>
                 <span>·</span>
                 <span>📅 Published ${post.date}</span>
                 <span>·</span>
-                <span>⏱️ ${post.reading_time} min read</span>
+                <span>⏱️ ${post.readingTime} min read</span>
             </div>
         </header>
 
@@ -297,7 +381,7 @@ function formatFlipbookContent(renderedHtml, slug) {
                     <div class="founder-avatar">J</div>
                     <div class="founder-meta">
                         <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">${escapeHtml(post.issue_title)} (${escapeHtml(post.cefr_level)}) • ${escapeHtml(post.vibe)}</span>
+                        <span class="founder-subtitle">${escapeHtml(post.issue.title)} (${escapeHtml(post.level)}) • Editorial Vibe</span>
                     </div>
                 </div>
                 <div class="founder-card-actions">
@@ -311,14 +395,14 @@ function formatFlipbookContent(renderedHtml, slug) {
             </div>
             <div class="founder-card-body">
                 <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> ${escapeHtml(post.founder_notes)}</p>
+                    <p><strong>Founder's Notes:</strong> ${escapeHtml(founderNotes)}</p>
                 </div>
             </div>
         </section>
 
         <div class="blog-layout">
             <main class="blog-main-col">
-                ${post.cover_image ? `<div class="post-cover" style="margin-bottom: 1.5rem;"><img src="${escapeHtml(post.cover_image)}" alt="${escapeHtml(post.title)}" style="width: 100%; border-radius: 12px;"></div>` : ''}
+                ${coverImage ? `<div class="post-cover" style="margin-bottom: 1.5rem;"><img src="${escapeHtml(coverImage)}" alt="${escapeHtml(post.title)}" style="width: 100%; border-radius: 12px;"></div>` : ''}
                 <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
                     ${flipbookBody}
                 </article>
@@ -421,28 +505,29 @@ function formatFlipbookContent(renderedHtml, slug) {
     console.log(`  ✓ Generated ${post.slug}.html`);
   });
 
-  // 4. Generate blog/posts.json
+  // 5. Generate blog/posts.json
   const postsJsonList = [
     ...publishedPosts.map(p => ({
       slug: p.slug,
       title: p.title,
       date: p.date,
-      updated: p.updated,
-      category: p.category,
-      summary: p.summary,
-      author: p.author,
-      reading_time: p.reading_time,
-      cover_image: p.cover_image,
-      tags: p.tags,
-      featured: p.featured,
+      updated: p.updated || null,
+      category: p.desk || 'Words',
+      summary: p.dek || '',
+      author: 'JY DM',
+      reading_time: p.readingTime || 5,
+      cover_image: p.artDirection?.coverOverride || '',
+      tags: p.tags || [],
+      featured: Boolean(p.featured),
       type: 'post',
-      url: p.url,
-      issue_volume: p.issue_volume,
-      issue_title: p.issue_title,
-      cefr_level: p.cefr_level,
-      vibe: p.vibe,
-      founder_notes: p.founder_notes,
-      audio_podcast: p.audio_podcast
+      url: `${p.slug}.html`,
+      issue_volume: p.issue?.number || 'Vol. 2026.08',
+      issue_title: p.issue?.title || 'COSY Editorial',
+      cefr_level: p.level || 'A0–B2',
+      vibe: 'Editorial Vibe',
+      founder_notes: `CELTA-aligned target-language guidance by JY DM for COSYmagazine ${p.issue?.title || 'COSY Editorial'} edition.`,
+      audio_podcast: Boolean(p.podcast?.audioUrl),
+      artDirection: p.artDirection
     })),
     ...guides.map(g => ({
       slug: g.slug,
@@ -467,7 +552,6 @@ function formatFlipbookContent(renderedHtml, slug) {
     }))
   ];
 
-  // Sort newest first by date
   postsJsonList.sort((a, b) => {
     const dA = new Date(a.date).getTime() || 0;
     const dB = new Date(b.date).getTime() || 0;
@@ -475,7 +559,67 @@ function formatFlipbookContent(renderedHtml, slug) {
   });
 
   fs.writeFileSync(POSTS_JSON, JSON.stringify(postsJsonList, null, 2), 'utf-8');
-  console.log(`✅ Successfully generated blog/posts.json (${postsJsonList.length} total entries: ${publishedPosts.length} posts, ${guides.length} guides).`);
+  console.log(`✅ Successfully generated blog/posts.json (${postsJsonList.length} total entries).`);
+
+  // 6. Generate blog/index.json (including posts and guides)
+  const guidesForIndex = guides.map(g => ({
+    id: `guide-${g.slug}`,
+    slug: g.slug,
+    language: 'en',
+    desk: 'Long Reads',
+    format: 'essay',
+    level: g.cefr_level || 'A0–A1 / A2',
+    issue: {
+      number: g.issue_volume || 'Vol. 2026 — August Issue',
+      title: g.issue_title || 'Get ready for school'
+    },
+    date: g.date || '2026-08-01',
+    title: g.title,
+    kicker: 'GUIDE',
+    dek: g.summary || '',
+    tags: g.tags || [],
+    readingTime: g.reading_time || 10,
+    podcast: { episode: 1, audioUrl: null },
+    artDirection: {
+      palette: ['#0d9488', '#faf7f2', '#1e293b'],
+      fonts: { display: 'Fraunces', text: 'DM Sans', accent: 'Fraunces Italic' },
+      layout: 'magazine-spread',
+      motif: 'editorial-stars',
+      seed: g.slug,
+      coverOverride: g.cover_image || null
+    },
+    blocks: [
+      {
+        type: 'paragraph',
+        text: g.summary || g.title
+      }
+    ]
+  }));
+
+  const indexPostsList = [
+    ...allPosts,
+    ...guidesForIndex
+  ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  const issuesList = Array.from(issuesSet.values());
+  const indexOutput = {
+    version: '2.0.0',
+    generatedAt: new Date().toISOString(),
+    stats: {
+      totalPosts: indexPostsList.length,
+      totalDesks: DESKS_CATALOG.length,
+      totalIssues: issuesList.length
+    },
+    desks: DESKS_CATALOG,
+    issues: issuesList,
+    posts: indexPostsList
+  };
+
+  fs.writeFileSync(INDEX_JSON, JSON.stringify(indexOutput, null, 2), 'utf-8');
+  console.log(`✅ Successfully generated blog/index.json (${indexPostsList.length} total posts/guides, ${DESKS_CATALOG.length} desks).`);
+
+  // 7. Generate podcast RSS feed
+  generatePodcastRss();
 }
 
 if (require.main === module) {

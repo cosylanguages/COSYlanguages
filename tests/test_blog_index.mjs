@@ -24,4 +24,9 @@ test('blog/index.json structure and integrity', () => {
   assert.ok(referencePost, 'welcome-to-cosy-blog post should be present in index');
   assert.equal(referencePost.desk, 'Front Page');
   assert.equal(referencePost.format, 'essay');
+
+  // Verify guides from guides.json are included in index
+  const guidePost = indexData.posts.find(p => p.slug === 'top-100-a0-a1-english');
+  assert.ok(guidePost, 'guide post top-100-a0-a1-english should be present in index');
+  assert.equal(guidePost.desk, 'Long Reads');
 });

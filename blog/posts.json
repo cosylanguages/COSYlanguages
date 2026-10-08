@@ -1,13 +1,56 @@
 [
   {
+    "slug": "stage-demo-podcast",
+    "title": "Mastering Conversational Flow: Stage & Podcast Demo",
+    "date": "2026-10-18",
+    "updated": null,
+    "category": "The Podcast",
+    "summary": "An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "StageMode",
+      "Podcast",
+      "Fluency",
+      "B1-B2"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "stage-demo-podcast.html",
+    "issue_volume": "Vol. 2026.10",
+    "issue_title": "JY DM's birthday & His favs",
+    "cefr_level": "B1–B2",
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#1a202c",
+        "#4a5568",
+        "#a0aec0",
+        "#f7fafc"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "stage-demo-podcast",
+      "coverOverride": null
+    }
+  },
+  {
     "slug": "top-5-favourite-grammar-rules",
     "title": "My Top 5 Favourite English Grammar Rules for Intermediate Learners",
     "date": "2026-10-15",
     "updated": null,
-    "category": "Resource List",
+    "category": "Grammar Made Cosy",
     "summary": "Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and 'it's giving...'.",
     "author": "JY DM",
-    "reading_time": 6,
+    "reading_time": 12,
     "cover_image": "",
     "tags": [
       "Grammar",
@@ -16,22 +59,39 @@
       "B1-B2",
       "English"
     ],
-    "featured": true,
+    "featured": false,
     "type": "post",
     "url": "top-5-favourite-grammar-rules.html",
-    "issue_volume": "Vol. 2026 — October Issue",
+    "issue_volume": "Vol. 2026.10",
     "issue_title": "JY DM's birthday & His favs",
     "cefr_level": "B1–B2",
     "vibe": "Editorial Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "doodle-border",
+      "seed": "top-5-favourite-grammar-rules",
+      "coverOverride": null
+    }
   },
   {
     "slug": "stop-translating-10-sentence-frames-el",
     "title": "Σταματήστε τη μετάφραση! 10 επαναχρησιμοποιήσιμες δομές προτάσεων για να μιλάτε από την πρώτη μέρα",
     "date": "2026-09-14",
     "updated": null,
-    "category": "Resource List",
+    "category": "Say It",
     "summary": "Μάθετε 10 βασικές δομές προτάσεων και 20 φράσεις επιβίωσης για να καταργήσετε τη μετάφραση λέξη προς λέξη, να περιγράφετε κάθε άγνωστη λέξη και να σκέφτεστε απευθείας στη γλώσσα.",
     "author": "JY DM",
     "reading_time": 3,
@@ -46,19 +106,36 @@
     "featured": false,
     "type": "post",
     "url": "stop-translating-10-sentence-frames-el.html",
-    "issue_volume": "Vol. 2026 — October Issue",
+    "issue_volume": "Vol. 2026.10",
     "issue_title": "JY DM's birthday & His favs",
     "cefr_level": "A0–A1 / A2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
+      "seed": "stop-translating-10-sentence-frames-el",
+      "coverOverride": null
+    }
   },
   {
     "slug": "stop-translating-10-sentence-frames-fr",
     "title": "Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour",
     "date": "2026-09-14",
     "updated": null,
-    "category": "Resource List",
+    "category": "Say It",
     "summary": "Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible.",
     "author": "JY DM",
     "reading_time": 4,
@@ -73,19 +150,36 @@
     "featured": false,
     "type": "post",
     "url": "stop-translating-10-sentence-frames-fr.html",
-    "issue_volume": "Vol. 2026 — October Issue",
+    "issue_volume": "Vol. 2026.10",
     "issue_title": "JY DM's birthday & His favs",
     "cefr_level": "A0–A1 / A2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
+      "seed": "stop-translating-10-sentence-frames-fr",
+      "coverOverride": null
+    }
   },
   {
     "slug": "stop-translating-10-sentence-frames-it",
     "title": "Basta tradurre! 10 strutture di frasi riutilizzabili per parlare fin dal primo giorno",
     "date": "2026-09-14",
     "updated": null,
-    "category": "Resource List",
+    "category": "Say It",
     "summary": "Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua.",
     "author": "JY DM",
     "reading_time": 4,
@@ -100,19 +194,36 @@
     "featured": false,
     "type": "post",
     "url": "stop-translating-10-sentence-frames-it.html",
-    "issue_volume": "Vol. 2026 — October Issue",
+    "issue_volume": "Vol. 2026.10",
     "issue_title": "JY DM's birthday & His favs",
     "cefr_level": "A0–A1 / A2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
+      "seed": "stop-translating-10-sentence-frames-it",
+      "coverOverride": null
+    }
   },
   {
     "slug": "stop-translating-10-sentence-frames-ru",
     "title": "Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня",
     "date": "2026-09-14",
     "updated": null,
-    "category": "Resource List",
+    "category": "Say It",
     "summary": "Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.",
     "author": "JY DM",
     "reading_time": 3,
@@ -127,19 +238,36 @@
     "featured": false,
     "type": "post",
     "url": "stop-translating-10-sentence-frames-ru.html",
-    "issue_volume": "Vol. 2026 — October Issue",
+    "issue_volume": "Vol. 2026.10",
     "issue_title": "JY DM's birthday & His favs",
     "cefr_level": "A0–A1 / A2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
+      "seed": "stop-translating-10-sentence-frames-ru",
+      "coverOverride": null
+    }
   },
   {
     "slug": "stop-translating-10-sentence-frames",
     "title": "Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One",
     "date": "2026-09-14",
     "updated": null,
-    "category": "Resource List",
+    "category": "Say It",
     "summary": "Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.",
     "author": "JY DM",
     "reading_time": 8,
@@ -151,22 +279,39 @@
       "A0-B1",
       "Communication"
     ],
-    "featured": true,
+    "featured": false,
     "type": "post",
     "url": "stop-translating-10-sentence-frames.html",
-    "issue_volume": "Vol. 2026 — October Issue",
+    "issue_volume": "Vol. 2026.10",
     "issue_title": "JY DM's birthday & His favs",
     "cefr_level": "A0–A1 / A2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM's birthday & His favs edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#f59e0b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "ticket-stub",
+      "seed": "stop-translating-10-sentence-frames",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-50-overused-phrases-el",
     "title": "Σταματήστε να επαναλαμβάνετε αυτές τις 50 φράσεις! Φυσικές εναλλακτικές για το B1–B2",
     "date": "2026-09-13",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Εμπλουτίστε τον προφορικό σας λόγο αντικαθιστώντας 50 επαναλαμβανόμενες εκφράσεις του B1 με φυσικές επιλογές και τα άμεσα αντίθετά τους.",
     "author": "JY DM",
     "reading_time": 2,
@@ -181,19 +326,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-50-overused-phrases-el.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-50-overused-phrases-el",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-50-overused-phrases-fr",
     "title": "Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturelles pour le niveau intermédiaire",
     "date": "2026-09-13",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.",
     "author": "JY DM",
     "reading_time": 4,
@@ -208,19 +370,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-50-overused-phrases-fr.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-50-overused-phrases-fr",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-50-overused-phrases-it",
     "title": "Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio",
     "date": "2026-09-13",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.",
     "author": "JY DM",
     "reading_time": 3,
@@ -235,19 +414,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-50-overused-phrases-it.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-50-overused-phrases-it",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-50-overused-phrases-ru",
     "title": "Хватит повторять эти 50 фраз! Естественные разговорные замены для B1–B2",
     "date": "2026-09-13",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.",
     "author": "JY DM",
     "reading_time": 2,
@@ -262,19 +458,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-50-overused-phrases-ru.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-50-overused-phrases-ru",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-50-overused-phrases",
     "title": "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Intermediate English",
     "date": "2026-09-13",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.",
     "author": "JY DM",
     "reading_time": 11,
@@ -288,19 +501,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-50-overused-phrases.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-50-overused-phrases",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-very-50-stronger-adjectives-el",
     "title": "Σταματήστε να λέτε 'Πολύ'! 50 ισχυρά επίθετα για να εμπλουτίσετε το λεξιλόγιό σας",
     "date": "2026-09-12",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό 'πολύ + επίθετο' με 50 ακριβή, εκφραστικά και φυσικά επίθετα.",
     "author": "JY DM",
     "reading_time": 3,
@@ -315,19 +545,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-el.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-very-50-stronger-adjectives-el",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-very-50-stronger-adjectives-fr",
     "title": "Arrêtez de dire 'Très' ! 50 adjectifs forts pour enrichir votre vocabulaire",
     "date": "2026-09-12",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels.",
     "author": "JY DM",
     "reading_time": 3,
@@ -342,19 +589,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-fr.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-very-50-stronger-adjectives-fr",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-very-50-stronger-adjectives-it",
     "title": "Basta dire 'Molto'! 50 aggettivi forti per arricchire il tuo vocabolario",
     "date": "2026-09-12",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali.",
     "author": "JY DM",
     "reading_time": 3,
@@ -369,19 +633,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-it.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-very-50-stronger-adjectives-it",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-very-50-stronger-adjectives-ru",
     "title": "Хватит говорить 'Очень'! 50 сильных прилагательных для богатого словарного запаса",
     "date": "2026-09-12",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными.",
     "author": "JY DM",
     "reading_time": 3,
@@ -396,19 +677,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-ru.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-very-50-stronger-adjectives-ru",
+      "coverOverride": null
+    }
   },
   {
     "slug": "replace-very-50-stronger-adjectives",
     "title": "Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner Should Know",
     "date": "2026-09-12",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades.",
     "author": "JY DM",
     "reading_time": 5,
@@ -422,19 +720,36 @@
     "featured": false,
     "type": "post",
     "url": "replace-very-50-stronger-adjectives.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "replace-very-50-stronger-adjectives",
+      "coverOverride": null
+    }
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-el",
     "title": "Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)",
     "date": "2026-09-11",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα.",
     "author": "JY DM",
     "reading_time": 3,
@@ -449,19 +764,36 @@
     "featured": false,
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-el.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "top-10-verb-synonyms-intermediate-plateau-el",
+      "coverOverride": null
+    }
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-fr",
     "title": "Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire",
     "date": "2026-09-11",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants.",
     "author": "JY DM",
     "reading_time": 5,
@@ -476,19 +808,36 @@
     "featured": false,
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-fr.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
+      "coverOverride": null
+    }
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-it",
     "title": "I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)",
     "date": "2026-09-11",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti.",
     "author": "JY DM",
     "reading_time": 3,
@@ -503,19 +852,36 @@
     "featured": false,
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-it.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "top-10-verb-synonyms-intermediate-plateau-it",
+      "coverOverride": null
+    }
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau-ru",
     "title": "Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2)",
     "date": "2026-09-11",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами.",
     "author": "JY DM",
     "reading_time": 3,
@@ -530,19 +896,36 @@
     "featured": false,
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-ru.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "top-10-verb-synonyms-intermediate-plateau-ru",
+      "coverOverride": null
+    }
   },
   {
     "slug": "top-10-verb-synonyms-intermediate-plateau",
     "title": "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Plateau",
     "date": "2026-09-11",
     "updated": null,
-    "category": "Resource List",
+    "category": "Words",
     "summary": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.",
     "author": "JY DM",
     "reading_time": 7,
@@ -556,19 +939,36 @@
     "featured": false,
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau.html",
-    "issue_volume": "Vol. 2026 — September Issue",
+    "issue_volume": "Vol. 2026.09",
     "issue_title": "Me vs Intermediate Plateau",
     "cefr_level": "B1–B2",
-    "vibe": "Speaking Vibe",
-    "founder_notes": "CELTA-aligned B1–B2 target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
-    "audio_podcast": true
+    "vibe": "Editorial Vibe",
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b",
+        "#d69e2e"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "tea-stain",
+      "seed": "top-10-verb-synonyms-intermediate-plateau",
+      "coverOverride": null
+    }
   },
   {
     "slug": "welcome-to-cosy-blog",
     "title": "Welcome to the COSY Editorial & Learning Corner",
     "date": "2026-09-10",
     "updated": null,
-    "category": "Ecosystem Update",
+    "category": "Front Page",
     "summary": "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
     "author": "JY DM",
     "reading_time": 1,
@@ -578,15 +978,31 @@
       "EcosystemUpdate",
       "LanguageLearning"
     ],
-    "featured": true,
+    "featured": false,
     "type": "post",
     "url": "welcome-to-cosy-blog.html",
-    "issue_volume": "Vol. 2026 — August Issue",
+    "issue_volume": "Vol. 2026.08",
     "issue_title": "Get ready for school",
-    "cefr_level": "A0–A1 / A2",
+    "cefr_level": "A0–A1",
     "vibe": "Editorial Vibe",
-    "founder_notes": "CELTA-aligned A0–A1 / A2 target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
-    "audio_podcast": true
+    "founder_notes": "CELTA-aligned target-language guidance by JY DM for COSYmagazine Get ready for school edition.",
+    "audio_podcast": true,
+    "artDirection": {
+      "palette": [
+        "#0d9488",
+        "#faf7f2",
+        "#1e293b"
+      ],
+      "fonts": {
+        "display": "Fraunces",
+        "text": "DM Sans",
+        "accent": "Fraunces Italic"
+      },
+      "layout": "magazine-spread",
+      "motif": "editorial-stars",
+      "seed": "welcome-cosy-001",
+      "coverOverride": null
+    }
   },
   {
     "slug": "top-100-a0-a1",

@@ -41,32 +41,31 @@
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Welcome to COSYmagazine 📖",
-      "say": "Welcome to COSYmagazine!",
-      "beat": {
-        "duration": 1000,
-        "camera": "pan-top",
-        "reveal": "fade-in",
-        "target": "#block-0"
-      }
+      "type": "paragraph",
+      "text": "Welcome to the official COSY Editorial & Learning Corner!"
     },
     {
       "type": "paragraph",
-      "text": "Welcome to our editorial room! Here, you'll find personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.",
-      "say": "Welcome to our editorial room! Here, you'll find personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages."
+      "text": "Here at COSYlanguages, we believe in **speaking-first, immersion-based pedagogy**. Language learning is not about memorizing abstract tables in isolation; it is about connecting with real people and communicating authentically from day one."
     },
     {
-      "type": "culture-bite",
-      "title": "Our Pedagogical Commitment",
-      "content": "Every article in COSYmagazine is written in authentic target language text with CELTA-aligned concept checking and natural conversational models."
+      "type": "heading",
+      "level": 3,
+      "text": "Our Core Principles"
     },
     {
-      "type": "links",
-      "destination": "practice",
-      "url": "../practice/index.html",
-      "label": "Explore COSY Practice Hub →"
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**100% Free & Open Access:** All learning materials, practice tools, and reference guides are freely accessible to learners worldwide.",
+        "**No-Translation Immersion:** Direct target-language immersion supported by contextual visual cues.",
+        "**CELTA-Aligned Standard:** Methodologically structured for real communicative competence."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Stay tuned for regular updates, pedagogical insights, and deep dives into language acquisition!"
     }
-  ]
+  ],
+  "draft": false
 }

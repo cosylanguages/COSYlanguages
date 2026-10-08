@@ -44,198 +44,133 @@
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Superare l'altopiano intermedio B1–B2",
-      "say": "Al livello intermedio si tende a ripetere sempre le stesse frasi sicure. Sostituirle rende il discorso più naturale e coinvolgente.",
-      "beat": {
-        "duration": 4000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "type": "paragraph",
+      "text": "Quando raggiungi l'**altopiano intermedio (livello B1–B2)**, riesci a sostenere conversazioni e a esprimere le tue opinioni. Tuttavia, molti studenti notano di usare continuamente le stesse espressioni di ripiego: *\"Penso che...\"*, *\"Sono d'accordo\"*, *\"Dipende\"*, *\"Non lo so\"*."
     },
     {
       "type": "paragraph",
-      "text": "Migliorare la propria conversazione quotidiana non richiede parole complesse, ma sfumature naturali e contrasti chiari.",
-      "say": "Migliorare la propria conversazione quotidiana dona immediatezza e fluidità.",
-      "beat": {
-        "duration": 4500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "text": "Arricchire il tuo vocabolario quotidiano non richiede lo studio di regole grammaticali complesse. Adottando alternative naturali e padroneggiando **gli opposti diretti**, il tuo italiano diventerà subito più fluido, espressivo ed elegante."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ecco 50 espressioni frequenti con le loro alternative naturali."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "1. Esprimere accordo e disaccordo",
-      "say": "Categoria 1: Esprimere accordo e disaccordo.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "text": "1. Esprimere accordo e disaccordo (Opposti diretti)"
     },
     {
-      "type": "example",
-      "targetText": "Condivido in pieno! / Non ne sono così sicuro/a.",
-      "gloss": "Alternative naturali a 'Sono d'accordo' / 'Non sono d'accordo'.",
-      "context": "Discussione e conversazione",
-      "say": "Condivido in pieno! Non ne sono così sicuro.",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "heading",
+      "level": 4,
+      "text": "1. Sono d'accordo ↔ 2. Non sono d'accordo"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Invece di \"Sono d'accordo\":** *Sono d'accordo.*\n- **Alternative naturali:** *Sono assolutamente d'accordo.* • *Hai perfettamente ragione.* • *Condivido in pieno.* • *Proprio così.*",
+        "**Invece di \"Non sono d'accordo\":** *Non sono d'accordo.*\n- **Alternative naturali:** *Non ne sono così sicuro/a.* • *La vedo diversamente.* • *Non condivido del tutto.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "3. Dipende"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Invece di \"Dipende\":** *Dipende.*",
+        "**Alternative naturali:** *Cambia da caso a caso.* • *Dipende dalle circostanze.* • *Non è così semplice.* • *Tutto sta nel...*"
+      ]
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Esprimere opinioni e incertezza",
-      "say": "Categoria 2: Esprimere opinioni.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "example",
-      "targetText": "A mio parere... / È difficile da dire.",
-      "gloss": "Sostituzioni per 'Penso che...' e 'Non lo so'.",
-      "context": "Condividere il proprio punto di vista",
-      "say": "A mio parere... È difficile da dire.",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "text": "2. Esprimere un'opinione e incertezza"
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Say It: Pronuncia & Intonazione 🗣️",
-      "say": "Say It. Pratica l'intonazione naturale.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 4,
+      "text": "4. Penso che..."
     },
     {
-      "type": "pronunciation",
-      "word": "Condivido in pieno.",
-      "ipa": "/kon.diˈvi.do in ˈpjɛ.no/",
-      "say": "Condivido in pieno. Pronuncia con calore ed enfasi.",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "culture-bite",
-      "title": "La gentilezza nel disaccordo in italiano",
-      "content": "Nella conversazione italiana, un disaccordo troppo diretto può sembrare brusco. Usare 'Non ne sono così sicuro' mantiene la conversazione amichevole e fluida.",
-      "say": "Culture bite: La sfumatura espressiva mantiene amichevole lo scambio.",
-      "beat": {
-        "duration": 4500,
-        "camera": "spotlight",
-        "reveal": "fade-in"
-      }
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Invece di \"Penso che...\":** *Penso che...*",
+        "**Alternative naturali:** *A mio parere...* • *Secondo me...* • *Mi sembra che...* • *Ritengo che...*"
+      ]
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Mini-Quiz in 3 Domande 📝",
-      "say": "Metti alla prova le tue conoscenze con un breve quiz.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 4,
+      "text": "5. Non lo so"
     },
     {
-      "type": "quiz",
-      "question": "Quale espressione sostituisce 'Sono d'accordo'?",
-      "options": [
-        "Condivido in pieno.",
-        "Dipende.",
-        "Non so.",
-        "Forse."
-      ],
-      "correctIndex": 0,
-      "explanation": "'Condivido in pieno' è un'alternativa naturale ed espressiva.",
-      "say": "Domanda 1: Quale espressione sostituisce 'Sono d'accordo'?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Come si esprime un disaccordo in modo gentile?",
-      "options": [
-        "È sbagliato.",
-        "Non ne sono così sicuro/a.",
-        "Mai.",
-        "Lo odio."
-      ],
-      "correctIndex": 1,
-      "explanation": "'Non ne sono così sicuro/a' ammorbidisce il disaccordo.",
-      "say": "Domanda 2: Come si esprime un disaccordo in modo gentile?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Quale frase sostituisce 'Non lo so' in una conversazione?",
-      "options": [
-        "Non mi importa.",
-        "È difficile da dire.",
-        "No.",
-        "È caro."
-      ],
-      "correctIndex": 1,
-      "explanation": "'È difficile da dire' dimostra una riflessione ponderata.",
-      "say": "Domanda 3: Quale frase sostituisce 'Non lo so'?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Invece di \"Non lo so\":** *Non lo so.*",
+        "**Alternative naturali:** *È difficile da dire.* • *Non ne sono sicuro/a.* • *È una buona domanda.* • *Non ci ho ancora pensato.*"
+      ]
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Go Deeper Across the Ecosystem 🌐",
-      "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 3,
+      "text": "3. Cortesia e ringraziamenti"
     },
     {
-      "type": "links",
-      "destination": "practice",
-      "url": "../practice/index.html?lang=it&type=vocabulary&level=B1-B2",
-      "label": "Modulo di pratica interattiva B1–B2"
+      "type": "heading",
+      "level": 4,
+      "text": "6. Grazie"
     },
     {
-      "type": "links",
-      "destination": "cosydata",
-      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
-      "label": "Archivio centrale di frasi COSYdata"
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Invece di \"Grazie\":** *Grazie.*\n- **Alternative naturali:** *Grazie mille.* • *Ti/La ringrazio di cuore.* • *È davvero gentile da parte tua/Sua.*",
+        "**Invece di \"Prego\":** *Prego.*\n- **Alternative naturali:** *Figurati!* / *Si figuri!* • *Con piacere.* • *Di nulla.* • *Ci mancherebbe.*"
+      ]
     },
     {
-      "type": "links",
-      "destination": "events",
-      "url": "../apps/premium-events/index.html",
-      "label": "Speaking Clubs e incontri dal vivo"
+      "type": "heading",
+      "level": 3,
+      "text": "4. Piacere e non piacere (Opposti diretti)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "7. Mi piace ↔ 8. Non mi piace"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**Mi piace:** *Mi piace.*\n- **Alternative naturali:** *Vado matto/a per...* • *Mi affascina molto.* • *È proprio il mio genere.*",
+        "**Non mi piace:** *Non mi piace.*\n- **Alternative naturali:** *Non fa molto per me.* • *Non mi fa impazzire.* • *Non mi attira particolarmente.*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Mettiti alla prova"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guarda come cambia il tono della conversazione:"
+    },
+    {
+      "type": "pullquote",
+      "quote": "**Prima (Repetitivo B1):**\n*\"Penso che questa proposta sia buona. Sono d'accordo con te, ma dipende dal budget.\"*"
+    },
+    {
+      "type": "pullquote",
+      "quote": "**Dopo (Naturale B2):**\n*\"A mio parere, questa proposta è eccellente. Condivido in pieno, anche se dipende dalle circostanze di budget.\"*"
     }
-  ]
+  ],
+  "translationOf": "replace-50-overused-phrases",
+  "draft": false
 }

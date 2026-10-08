@@ -43,187 +43,352 @@
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Beyond 'Very': Moving to Precise Adjectives",
-      "say": "One of the most noticeable signs of the intermediate plateau is relying on 'very' to intensify everyday words. Transitioning to stronger single-word adjectives makes your English vivid and concise.",
-      "beat": {
-        "duration": 4000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "type": "paragraph",
+      "text": "One of the most noticeable signs of reaching the **\"intermediate plateau\"** in English is relying on the modifier **\"very\"** to intensify everyday adjectives."
     },
     {
       "type": "paragraph",
-      "text": "While saying 'very big' or 'very good' is grammatically correct, overusing 'very' sounds repetitive. Strong single-word adjectives make your spoken and written communication express emotions with precision.",
-      "say": "Strong single-word adjectives make your spoken and written communication express emotions with precision.",
-      "beat": {
-        "duration": 4500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "text": "While saying *\"very big\"*, *\"very good\"*, or *\"very bad\"* is grammatically correct and understandable, overusing *\"very\"* makes your speech and writing sound repetitive. Transitioning to stronger, more expressive single-word adjectives immediately makes your English sound more natural, sophisticated, and precise."
+    },
+    {
+      "type": "paragraph",
+      "text": "Here are 50 of the most common *\"very...\"* combinations along with their natural, powerful alternatives."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Key Strong Adjective Upgrades",
-      "say": "Here are key adjective upgrades for everyday conversations.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "text": "50 Better Alternatives to \"Very + Adjective\""
     },
     {
-      "type": "example",
-      "targetText": "I had a hectic day at work and I am completely exhausted.",
-      "gloss": "Replaces 'very busy' (hectic) and 'very tired' (exhausted).",
-      "context": "After a long workday",
-      "say": "I had a hectic day at work and I am completely exhausted.",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "table",
+      "headers": [
+        "Instead of...",
+        "Try using..."
+      ],
+      "rows": [
+        [
+          "**Very bad**",
+          "*awful, terrible, dreadful*"
+        ],
+        [
+          "**Very good**",
+          "*excellent, outstanding, superb*"
+        ],
+        [
+          "**Very big**",
+          "*enormous, gigantic, massive*"
+        ],
+        [
+          "**Very small**",
+          "*tiny, miniature, microscopic*"
+        ],
+        [
+          "**Very beautiful**",
+          "*gorgeous, stunning, breathtaking*"
+        ],
+        [
+          "**Very ugly**",
+          "*hideous, grotesque*"
+        ],
+        [
+          "**Very interesting**",
+          "*fascinating, captivating*"
+        ],
+        [
+          "**Very boring**",
+          "*tedious, dull, monotonous*"
+        ],
+        [
+          "**Very funny**",
+          "*hilarious, hysterical*"
+        ],
+        [
+          "**Very sad**",
+          "*miserable, heartbroken, devastated*"
+        ],
+        [
+          "**Very happy**",
+          "*delighted, thrilled, ecstatic*"
+        ],
+        [
+          "**Very angry**",
+          "*furious, livid, outraged*"
+        ],
+        [
+          "**Very tired**",
+          "*exhausted, drained, worn out*"
+        ],
+        [
+          "**Very hungry**",
+          "*starving, famished*"
+        ],
+        [
+          "**Very thirsty**",
+          "*parched*"
+        ],
+        [
+          "**Very cold**",
+          "*freezing, icy*"
+        ],
+        [
+          "**Very hot**",
+          "*boiling, scorching*"
+        ],
+        [
+          "**Very fast**",
+          "*rapid, swift, lightning-fast*"
+        ],
+        [
+          "**Very slow**",
+          "*sluggish, leisurely*"
+        ],
+        [
+          "**Very loud**",
+          "*deafening, thunderous*"
+        ],
+        [
+          "**Very quiet**",
+          "*silent, hushed*"
+        ],
+        [
+          "**Very bright**",
+          "*brilliant, dazzling*"
+        ],
+        [
+          "**Very dark**",
+          "*pitch-black, gloomy*"
+        ],
+        [
+          "**Very clean**",
+          "*spotless, immaculate*"
+        ],
+        [
+          "**Very dirty**",
+          "*filthy, grimy*"
+        ],
+        [
+          "**Very old**",
+          "*ancient* (things), *elderly* (people), *outdated* (concepts)"
+        ],
+        [
+          "**Very new**",
+          "*brand-new, cutting-edge*"
+        ],
+        [
+          "**Very rich**",
+          "*wealthy, affluent*"
+        ],
+        [
+          "**Very poor**",
+          "*impoverished, penniless*"
+        ],
+        [
+          "**Very easy**",
+          "*effortless, straightforward*"
+        ],
+        [
+          "**Very difficult**",
+          "*challenging, demanding, arduous*"
+        ],
+        [
+          "**Very important**",
+          "*crucial, essential, vital*"
+        ],
+        [
+          "**Very famous**",
+          "*renowned, legendary, iconic*"
+        ],
+        [
+          "**Very afraid**",
+          "*terrified, petrified*"
+        ],
+        [
+          "**Very surprised**",
+          "*astonished, stunned*"
+        ],
+        [
+          "**Very excited**",
+          "*exhilarated, thrilled*"
+        ],
+        [
+          "**Very worried**",
+          "*anxious, concerned*"
+        ],
+        [
+          "**Very confused**",
+          "*bewildered, perplexed*"
+        ],
+        [
+          "**Very smart**",
+          "*brilliant, intelligent*"
+        ],
+        [
+          "**Very stupid**",
+          "*foolish, idiotic* (strong), *unintelligent*"
+        ],
+        [
+          "**Very brave**",
+          "*courageous, fearless*"
+        ],
+        [
+          "**Very weak**",
+          "*feeble, frail*"
+        ],
+        [
+          "**Very strong**",
+          "*powerful, robust*"
+        ],
+        [
+          "**Very expensive**",
+          "*costly, overpriced*"
+        ],
+        [
+          "**Very cheap**",
+          "*inexpensive, affordable*"
+        ],
+        [
+          "**Very crowded**",
+          "*packed, overcrowded*"
+        ],
+        [
+          "**Very empty**",
+          "*deserted, vacant*"
+        ],
+        [
+          "**Very busy**",
+          "*hectic, swamped*"
+        ],
+        [
+          "**Very lazy**",
+          "*idle, lethargic*"
+        ],
+        [
+          "**Very depressed**",
+          "*devastated, despondent, miserable**"
+        ]
+      ]
     },
     {
-      "type": "example",
-      "targetText": "The view from the mountain peak was breathtaking.",
-      "gloss": "Replaces 'very beautiful' (breathtaking).",
-      "context": "Describing nature or scenery",
-      "say": "The view from the mountain peak was breathtaking.",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "pullquote",
+      "quote": "**\\*A Note on \"Very Depressed\":** *Depressed* is a clinical medical term. Unless you are specifically referring to a clinical mental health condition, words like *despondent*, *down*, *miserable*, or *dejected* are often more accurate and appropriate choices in casual conversation."
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Say It: Pronunciation & Stress 🗣️",
-      "say": "Say It section. Practice stress on strong multi-syllable adjectives.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 3,
+      "text": "Bonus: 20 Advanced Upgrades Learners Love"
     },
     {
-      "type": "pronunciation",
-      "word": "exhausted",
-      "ipa": "/ɪɡˈzɔː.stɪd/",
-      "say": "Exhausted. Stress the middle syllable.",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "paragraph",
+      "text": "Ready to go beyond the basics? Here are 20 additional high-impact adjective upgrades:"
     },
     {
-      "type": "culture-bite",
-      "title": "Extreme Adjectives Don't Take 'Very'",
-      "content": "Strong adjectives like 'exhausted', 'freezing', or 'spotless' already include 'very' in their definition. Instead of 'very freezing', native speakers say 'completely freezing' or 'absolutely spotless'.",
-      "say": "Culture bite: Strong adjectives take 'absolutely' or 'completely' instead of 'very'.",
-      "beat": {
-        "duration": 4500,
-        "camera": "spotlight",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "3-Question Mini-Quiz 📝",
-      "say": "Test your understanding with a quick 3-question mini-quiz.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Which strong adjective replaces 'very tired'?",
-      "options": [
-        "exhausted",
-        "famished",
-        "furious",
-        "freezing"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Exhausted' means extremely tired.",
-      "say": "Question 1: Which strong adjective replaces 'very tired'?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Which modifier collocates naturally with strong adjectives like 'spotless'?",
-      "options": [
-        "very",
-        "absolutely",
-        "more",
-        "too"
-      ],
-      "correctIndex": 1,
-      "explanation": "Extreme adjectives use non-gradable intensifiers like 'absolutely' or 'completely'.",
-      "say": "Question 2: Which modifier collocates naturally with strong adjectives?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "What strong word replaces 'very hungry'?",
-      "options": [
-        "parched",
-        "famished",
-        "furious",
-        "silent"
-      ],
-      "correctIndex": 1,
-      "explanation": "'Famished' or 'starving' replaces 'very hungry'.",
-      "say": "Question 3: What strong word replaces 'very hungry'?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**Very scary** → *terrifying*",
+        "**Very funny** → *side-splitting*",
+        "**Very beautiful** → *mesmerizing*",
+        "**Very smart** → *gifted*",
+        "**Very dirty** → *squalid*",
+        "**Very noisy** → *chaotic*",
+        "**Very calm** → *serene*",
+        "**Very kind** → *compassionate*",
+        "**Very polite** → *courteous*",
+        "**Very rude** → *obnoxious*",
+        "**Very strange** → *bizarre*",
+        "**Very obvious** → *evident*",
+        "**Very careful** → *meticulous*",
+        "**Very lucky** → *fortunate*",
+        "**Very unlucky** → *unfortunate*",
+        "**Very painful** → *excruciating*",
+        "**Very dangerous** → *hazardous*",
+        "**Very tasty** → *delicious*",
+        "**Very dry** → *arid*",
+        "**Very wet** → *soaking / soaked*"
+      ]
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Go Deeper Across the Ecosystem 🌐",
-      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 3,
+      "text": "🌐 Multilingual Adaptations for FR, RU, IT & EL Learners"
     },
     {
-      "type": "links",
-      "destination": "practice",
-      "url": "../practice/index.html?type=vocabulary&level=B1-B2",
-      "label": "Interactive Adjectives & Vocabulary Practice"
+      "type": "paragraph",
+      "text": "In every target language, intermediate learners fall into the habit of relying on a single general intensifier (*très*, *очень*, *molto*, *πολύ*). Here is how to upgrade your adjectives in French, Russian, Italian, and Greek:"
     },
     {
-      "type": "links",
-      "destination": "cosydata",
-      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
-      "label": "COSYdata Master Vocabulary Repository"
+      "type": "heading",
+      "level": 4,
+      "text": "🇫🇷 French (*très* + adjectif → adjectifs forts)"
     },
     {
-      "type": "links",
-      "destination": "events",
-      "url": "../apps/premium-events/index.html",
-      "label": "Live B1–B2 Vocabulary Workshops"
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**très grand** → *immense, gigantesque*",
+        "**très bon** → *excellent, remarquable, formidable*",
+        "**très fatigué** → *épuisé, exténué*",
+        "**très beau** → *superbe, magnifique, splendide*",
+        "**très intéressant** → *passionnant, captivant*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇷🇺 Russian (*очень* + прилагательное → сильные прилагательные)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**очень большой** → *огромный, гигантский*",
+        "**очень хороший** → *отличный, великолепный, превосходный*",
+        "**очень усталый** → *изнуренный, обессиленный*",
+        "**очень красивый** → *прекрасный, изумительный*",
+        "**очень интересный** → *захватывающий, увлекательный*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇮🇹 Italian (*molto* + aggettivo → aggettivi forti)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**molto grande** → *immenso, gigantesco*",
+        "**molto buono** → *eccellente, squisito, ottimo*",
+        "**molto stanco** → *esausto, sinito*",
+        "**molto bello** → *bellissimo, magnifico, splendido*",
+        "**molto interessante** → *affascinante, coinvolgente*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "🇬🇷 Greek (*πολύ* + επίθετο → ισχυρά επίθετα)"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**πολύ μεγάλος** → *τεράστιος, γιγάντιος*",
+        "**πολύ καλός** → *εξαιρετικός, υπέροχος*",
+        "**πολύ κουρασμένος** → *εξαντλημένος, κατάκοπος*",
+        "**πολύ ωραίος / όμορφος** → *πανέμορφος, καταπληκτικός*",
+        "**πολύ ενδιαφέρων** → *συναρπαστικός, καθηλωτικός*"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Summary: Practicing Strong Adjectives"
+    },
+    {
+      "type": "paragraph",
+      "text": "When learning these new words, try substituting them directly into your daily journal or speaking practice. For instance, instead of saying *\"I had a very busy day and I am very tired\"*, say **\"I had a hectic day and I am exhausted.\"** Notice how much more vivid and clear your sentence becomes!"
     }
-  ]
+  ],
+  "draft": false
 }

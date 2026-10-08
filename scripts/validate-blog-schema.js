@@ -35,6 +35,7 @@ const ALLOWED_BLOCK_TYPES = new Set([
   'heading',
   'paragraph',
   'list-item',
+  'table',
   'example',
   'pronunciation',
   'pullquote',
@@ -63,6 +64,18 @@ function validatePostSchema(postObj, sourceName = 'object') {
       errors.push(`[${sourceName}] Missing or invalid required string field "${field}".`);
     }
   });
+
+  // Optional translationOf check
+  if (postObj.translationOf !== undefined) {
+    if (typeof postObj.translationOf !== 'string' || postObj.translationOf.trim() === '') {
+      errors.push(`[${sourceName}] Optional field "translationOf" must be a non-empty string.`);
+    }
+  }
+
+  // Optional draft check
+  if (postObj.draft !== undefined && typeof postObj.draft !== 'boolean') {
+    errors.push(`[${sourceName}] Optional field "draft" must be a boolean.`);
+  }
 
   // Language check
   if (postObj.language && !ALLOWED_LANGUAGES.has(postObj.language)) {
@@ -158,6 +171,11 @@ function validatePostSchema(postObj, sourceName = 'object') {
         case 'list-item':
           if (!Array.isArray(block.items) || typeof block.ordered !== 'boolean') {
             errors.push(`[${blockRef}] Block "list-item" requires boolean "ordered" and string array "items".`);
+          }
+          break;
+        case 'table':
+          if (!Array.isArray(block.headers) || !Array.isArray(block.rows)) {
+            errors.push(`[${blockRef}] Block "table" requires "headers" array and "rows" 2D array.`);
           }
           break;
         case 'example':

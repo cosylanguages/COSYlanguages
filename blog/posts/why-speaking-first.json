@@ -9,17 +9,16 @@
     "number": "Vol. 2026.08",
     "title": "Get ready for school"
   },
-  "date": "2026-08-28",
-  "title": "Why 'Speaking First' Changes Everything in Language Acquisition",
+  "date": "2026-01-15",
+  "title": "Why Speaking-First is the Only Way to True Fluency",
   "kicker": "EDITORIAL ROOM",
-  "dek": "Exploring the CELTA-aligned Speaking First methodology: why oral communication must precede formal grammar tables for natural, confident fluency.",
+  "dek": "When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.",
   "tags": [
-    "SpeakingFirst",
-    "Methodology",
-    "Pedagogy",
-    "Fluency"
+    "Philosophy",
+    "Speaking",
+    "Methodology"
   ],
-  "readingTime": 5,
+  "readingTime": 1,
   "podcast": {
     "episode": 6,
     "audioUrl": "../audio/blog/why-speaking-first.mp3"
@@ -43,175 +42,9 @@
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "The Primacy of Oral Communication",
-      "say": "Human beings learned to speak hundreds of thousands of years before writing was invented. Speaking first aligns with natural brain biology.",
-      "beat": {
-        "duration": 4000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
       "type": "paragraph",
-      "text": "When learners begin with speaking and immediate communication, grammar becomes a tool to refine ideas rather than an intimidating barrier. This is the core foundation of our CELTA-aligned methodology.",
-      "say": "Grammar becomes a tool to refine ideas rather than an intimidating barrier.",
-      "beat": {
-        "duration": 4500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "Speaking First in Action",
-      "say": "In practice, speaking first means using functional sentence frames from day one.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "example",
-      "targetText": "I'd like a coffee, please. / Where is the station?",
-      "gloss": "Immediate functional communication before studying conjugation tables.",
-      "context": "Day one beginner oral practice",
-      "say": "I'd like a coffee, please. Where is the station?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Say It: Confidence & Intonation 🗣️",
-      "say": "Say It section. Focus on clear pitch and stress.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "pronunciation",
-      "word": "I'd like a...",
-      "ipa": "/aɪd laɪk ə/",
-      "say": "I'd like a... Smooth contraction and pitch rise.",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "culture-bite",
-      "title": "Natural Child Acquisition Model",
-      "content": "Children master their native language by speaking and listening for years before learning formal grammar rules in school. 'Speaking First' brings this natural ease to adult learning.",
-      "say": "Culture bite: Children master oral speech long before reading or writing.",
-      "beat": {
-        "duration": 4500,
-        "camera": "spotlight",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "3-Question Mini-Quiz 📝",
-      "say": "Test your understanding with a quick 3-question mini-quiz.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "What is the core principle of the 'Speaking First' methodology?",
-      "options": [
-        "Oral communication precedes formal grammar rules.",
-        "Students must write essays before speaking.",
-        "Grammar tables must be memorized first.",
-        "Translation is required for every word."
-      ],
-      "correctIndex": 0,
-      "explanation": "Oral communication creates immediate confidence and natural brain pathways.",
-      "say": "Question 1: What is the core principle of 'Speaking First'?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "How does grammar function in a 'Speaking First' framework?",
-      "options": [
-        "As a tool to refine thoughts after oral communication is established.",
-        "As a strict exam test.",
-        "As a replacement for vocabulary.",
-        "As a silent exercise only."
-      ],
-      "correctIndex": 0,
-      "explanation": "Grammar serves as a tool to polish and refine ideas.",
-      "say": "Question 2: How does grammar function in a 'Speaking First' framework?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Why does 'Speaking First' reduce anxiety for adult learners?",
-      "options": [
-        "It focuses on immediate communicative success rather than grammatical perfection.",
-        "It eliminates speaking practice.",
-        "It relies on long written exams.",
-        "It forbids asking questions."
-      ],
-      "correctIndex": 0,
-      "explanation": "Communicative success builds confidence early in the learning journey.",
-      "say": "Question 3: Why does 'Speaking First' reduce anxiety?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Go Deeper Across the Ecosystem 🌐",
-      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "links",
-      "destination": "practice",
-      "url": "../practice/index.html",
-      "label": "Interactive Practice Hub"
-    },
-    {
-      "type": "links",
-      "destination": "cosydata",
-      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
-      "label": "COSYdata Master Repository"
-    },
-    {
-      "type": "links",
-      "destination": "events",
-      "url": "../apps/premium-events/index.html",
-      "label": "Live Speaking Clubs & Workshops"
+      "text": "*Draft article content coming soon...*"
     }
-  ]
+  ],
+  "draft": true
 }

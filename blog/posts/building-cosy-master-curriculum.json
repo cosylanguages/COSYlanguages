@@ -9,17 +9,16 @@
     "number": "Vol. 2026.08",
     "title": "Get ready for school"
   },
-  "date": "2026-08-20",
-  "title": "Building the COSY Master Curriculum Across 14 Target Languages",
+  "date": "2026-03-01",
+  "title": "How We Built the COSY Master Curriculum Across 13 Languages",
   "kicker": "CURRICULUM",
-  "dek": "An architectural breakdown of the Top 100 semantic master tree, CEFR alignment, and cross-language vocabulary integration across all 14 COSY target languages.",
+  "dek": "Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.",
   "tags": [
     "Curriculum",
-    "Top100",
-    "Architecture",
-    "14Languages"
+    "CELTA",
+    "13Languages"
   ],
-  "readingTime": 6,
+  "readingTime": 1,
   "podcast": {
     "episode": 7,
     "audioUrl": "../audio/blog/building-cosy-master-curriculum.mp3"
@@ -43,175 +42,9 @@
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Architectural Principles of the Master Curriculum",
-      "say": "Building a unified curriculum across 14 languages requires a single semantic master tree. Each domain connects core nouns, action verbs, and survival expressions.",
-      "beat": {
-        "duration": 4000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
       "type": "paragraph",
-      "text": "From English and French to Armenian, Georgian, Tatar, and Breton, the COSY Master Curriculum aligns CEFR progression with native target-language definitions and COSYdata repositories.",
-      "say": "Aligned CEFR progression ensures every language learner enjoys a structured path.",
-      "beat": {
-        "duration": 4500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "The Top 100 Semantic Tree",
-      "say": "100 ordered semantic chains organized into 10 progressive domains.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "example",
-      "targetText": "Domain 1: Identity & Greetings • Domain 2: Daily Routines • Domain 3: Food & Dining",
-      "gloss": "Progressive semantic domains connecting all 14 target languages.",
-      "context": "Curriculum structure",
-      "say": "Progressive semantic domains connecting all 14 target languages.",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Say It: Academic Terminology 🗣️",
-      "say": "Say It section. Practice curriculum terminology.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "pronunciation",
-      "word": "semantic tree",
-      "ipa": "/sɪˈmæn.tɪk triː/",
-      "say": "Semantic tree. Clear stress on the middle syllable.",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "culture-bite",
-      "title": "Cross-Linguistic Harmony",
-      "content": "Designing a curriculum for 14 languages requires respecting regional orthographies (Cyrillic, Greek, Armenian, Georgian) while preserving identical pedagogical milestones across all tracks.",
-      "say": "Culture bite: Preserving identical pedagogical milestones across 14 languages.",
-      "beat": {
-        "duration": 4500,
-        "camera": "spotlight",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "3-Question Mini-Quiz 📝",
-      "say": "Test your understanding with a quick 3-question mini-quiz.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "How many target languages are connected by the COSY Master Curriculum?",
-      "options": [
-        "14 languages",
-        "5 languages",
-        "1 language",
-        "20 languages"
-      ],
-      "correctIndex": 0,
-      "explanation": "The Master Curriculum connects 14 target languages under one semantic framework.",
-      "say": "Question 1: How many target languages are connected?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "What connects the vocabulary datasets across languages?",
-      "options": [
-        "The Top 100 Semantic Tree",
-        "Alphabetical dictionaries",
-        "Machine translations",
-        "Random word lists"
-      ],
-      "correctIndex": 0,
-      "explanation": "The Top 100 Semantic Tree provides the unified structural backbone.",
-      "say": "Question 2: What connects the vocabulary datasets across languages?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "How are language scripts handled in the curriculum?",
-      "options": [
-        "Each language keeps its native script with Latin transliterations where helpful.",
-        "All languages are converted to English.",
-        "Scripts are ignored.",
-        "Only Latin script is allowed."
-      ],
-      "correctIndex": 0,
-      "explanation": "Native scripts are strictly preserved following the no-translation-fallback rule.",
-      "say": "Question 3: How are language scripts handled in the curriculum?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Go Deeper Across the Ecosystem 🌐",
-      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "links",
-      "destination": "practice",
-      "url": "../blog/top-100-a0-a1.html",
-      "label": "Top 100 Master Semantic Tree Guide"
-    },
-    {
-      "type": "links",
-      "destination": "cosydata",
-      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
-      "label": "COSYdata Master Repository"
-    },
-    {
-      "type": "links",
-      "destination": "events",
-      "url": "../courses/index.html",
-      "label": "COSY Language Courses & Tracks"
+      "text": "*Draft article content coming soon...*"
     }
-  ]
+  ],
+  "draft": true
 }
