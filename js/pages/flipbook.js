@@ -201,8 +201,10 @@
 
             const closeZoom = () => {
                 if (currentZoomedSection) {
-                    currentZoomedSection.classList.remove('zoomed-in');
+                    currentZoomedSection.classList.remove('zoomed-in', 'focal-zoomed');
                     currentZoomedSection.style.transform = '';
+                    const parentContainer = currentZoomedSection.closest('.post-full-content') || document.querySelector('.post-full-content');
+                    if (parentContainer) parentContainer.classList.remove('section-is-zoomed');
                     const toolbar = currentZoomedSection.querySelector('.zoom-controls-toolbar');
                     if (toolbar) toolbar.remove();
                     currentZoomedSection = null;
@@ -215,9 +217,10 @@
                 if (currentZoomedSection) closeZoom();
 
                 currentZoomedSection = sec;
-                currentScale = 1.1;
-                sec.classList.add('zoomed-in');
-                overlay.classList.add('active');
+                currentScale = 1.18;
+                sec.classList.add('focal-zoomed');
+                const parentContainer = sec.closest('.post-full-content') || document.querySelector('.post-full-content');
+                if (parentContainer) parentContainer.classList.add('section-is-zoomed');
 
                 if (!sec.querySelector('.zoom-controls-toolbar')) {
                     const toolbar = document.createElement('div');
@@ -231,14 +234,14 @@
 
                     toolbar.querySelector('.zoom-in-btn').addEventListener('click', (e) => {
                         e.stopPropagation();
-                        currentScale = Math.min(1.5, currentScale + 0.1);
-                        sec.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
+                        currentScale = Math.min(1.6, currentScale + 0.1);
+                        sec.style.transform = `scale(${currentScale.toFixed(2)})`;
                     });
 
                     toolbar.querySelector('.zoom-out-btn').addEventListener('click', (e) => {
                         e.stopPropagation();
-                        currentScale = Math.max(0.8, currentScale - 0.1);
-                        sec.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
+                        currentScale = Math.max(0.9, currentScale - 0.1);
+                        sec.style.transform = `scale(${currentScale.toFixed(2)})`;
                     });
 
                     toolbar.querySelector('.close-btn').addEventListener('click', (e) => {

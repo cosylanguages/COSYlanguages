@@ -678,14 +678,34 @@ h1, h2, h3, h4, h5, h6 {
     border-color: var(--coral, #B84318);
 }
 
-/* Flipbook Content Container & Pages */
+/* Flipbook Content Container & Pages with 3D Page Turn */
+.post-full-content.flipbook-mode {
+    perspective: 1400px;
+    perspective-origin: 50% 50%;
+}
+
 .post-full-content.flipbook-mode .flipbook-page {
     display: none;
-    animation: fadeInPage 0.25s ease-in-out;
+    transform-origin: left center;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
 }
 
 .post-full-content.flipbook-mode .flipbook-page.active {
     display: block;
+    animation: flipPageIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes flipPageIn {
+    0% {
+        opacity: 0;
+        transform: rotateY(-18deg) scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg) scale(1);
+    }
 }
 
 .post-full-content.scroll-mode .flipbook-page {
@@ -1406,7 +1426,7 @@ body.podcast-presentation-mode .flipbook-toolbar {
     }
 }
 
-/* Presentation Mode Zoomable Sections & PowerPoint Focus Effects */
+/* Presentation Mode In-Place Focal Lens Zooming */
 .zoomable-section {
     position: relative;
     background: var(--surface, #ffffff);
@@ -1414,7 +1434,7 @@ body.podcast-presentation-mode .flipbook-toolbar {
     border-radius: 12px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, filter 0.35s ease, opacity 0.35s ease;
 }
 
 .zoomable-section:hover {
@@ -1460,7 +1480,22 @@ body.podcast-presentation-mode .flipbook-toolbar {
     color: #ffffff;
 }
 
-/* Focused Zoom Overlay State */
+/* In-place Focal-Eye Lens Section Zoom (scale 1.18, background blur) */
+.post-full-content.section-is-zoomed > *:not(.focal-zoomed) {
+    filter: blur(4px) opacity(0.35);
+    pointer-events: none;
+    transition: filter 0.35s ease, opacity 0.35s ease;
+}
+
+.zoomable-section.focal-zoomed {
+    transform: scale(1.18) !important;
+    z-index: 100 !important;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25) !important;
+    border-color: var(--teal, #0d9488) !important;
+    background: #ffffff !important;
+}
+
+/* Legacy modal overlay fallback compatibility */
 .zoom-focus-overlay {
     position: fixed;
     top: 0;

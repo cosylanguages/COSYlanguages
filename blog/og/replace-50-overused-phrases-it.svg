@@ -1,55 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="riso-print" data-seed="replace-50-overused-phrases-it">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-50-overused-phrases-it">
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
 
-    <rect width="1200" height="630" fill="#f7fafc" />
-    <g filter="url(#riso-grain-815)">
+    <rect width="1200" height="630" fill="#d69e2e" />
 
-      <circle cx="65" cy="465" r="86" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="70" cy="468" r="77.4" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="279" cy="405" rx="173" ry="139" fill="#1e293b" opacity="0.25" transform="rotate(313 279 405)" style="filter: blur(12px);" />
+      <ellipse cx="289" cy="400" rx="103.8" ry="83.39999999999999" fill="#0d9488" opacity="0.15" transform="rotate(313 279 405)" style="filter: blur(8px);" />
 
-      <circle cx="97" cy="437" r="24" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="96" cy="434" r="21.6" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="792" cy="156" rx="143" ry="46" fill="#1e293b" opacity="0.25" transform="rotate(218 792 156)" style="filter: blur(12px);" />
+      <ellipse cx="802" cy="151" rx="85.8" ry="27.599999999999998" fill="#0d9488" opacity="0.15" transform="rotate(218 792 156)" style="filter: blur(8px);" />
 
-      <circle cx="386" cy="515" r="87" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="391" cy="512" r="78.3" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="529" cy="227" rx="98" ry="122" fill="#1e293b" opacity="0.25" transform="rotate(345 529 227)" style="filter: blur(12px);" />
+      <ellipse cx="539" cy="222" rx="58.8" ry="73.2" fill="#0d9488" opacity="0.15" transform="rotate(345 529 227)" style="filter: blur(8px);" />
 
-      <circle cx="1022" cy="304" r="53" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="1021" cy="304" r="47.7" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="344" cy="308" r="84" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="346" cy="303" r="75.60000000000001" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="463" cy="349" r="47" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="463" cy="355" r="42.300000000000004" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="886" cy="432" r="33" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="888" cy="432" r="29.7" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="452" cy="137" r="33" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="455" cy="139" r="29.7" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="723" cy="125" r="59" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="728" cy="122" r="53.1" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="490" cy="23" r="64" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="486" cy="17" r="57.6" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="664" cy="298" r="47" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="669" cy="304" r="42.300000000000004" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="1099" cy="510" r="36" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="1101" cy="511" r="32.4" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-    </g>
 
 
       <g class="cover-text-overlay">
         <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
-        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">RESOURCE LIST • Vol. 2026 — September Issue</text>
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">WORDS • Vol. 2026.09</text>
         <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Basta ripetere queste 50 frasi! Alternative naturali...</text>
       </g>
 
