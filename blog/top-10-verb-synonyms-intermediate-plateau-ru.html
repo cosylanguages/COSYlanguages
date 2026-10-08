@@ -7,10 +7,11 @@
     <meta name="description" content="Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде &#39;делать&#39;, &#39;сказать&#39; и &#39;думать&#39; точными и выразительными синонимами.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#0d9488">
 
+    <!-- Self-hosted & Google Fonts with Latin, Cyrillic & Greek support -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,900;1,9..144,300;1,9..144,600&family=DM+Sans:wght@400;500;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,227 +20,203 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-font-display: 'Fraunces', 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', 'DM Sans', sans-serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-container">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2)</h1>
+    <div class="blog-wrapper" style="max-width: 1080px; margin: 0 auto; padding: 1.5rem 1rem;">
 
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="top-10-verb-synonyms-intermediate-plateau-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <a href="top-10-verb-synonyms-intermediate-plateau-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <a href="top-10-verb-synonyms-intermediate-plateau-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇷🇺 RU</span> <a href="top-10-verb-synonyms-intermediate-plateau.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-11</span>
-                <span>·</span>
-                <span>⏱️ 3 min read</span>
+        <!-- Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <h1 class="gazette-masthead-title">COSY GAZETTE</h1>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span>DESK: WORDS</span>
+                <span>2026-09-11</span>
             </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 0.75rem;">
+              <a href="index.html" style="color: var(--post-palette-accent); text-decoration: none; font-weight: 700; font-size: 0.85rem;">← Back to Editorial Corner</a>
+              <div style="display: flex; gap: 0.75rem;">
+                <a href="top-10-verb-synonyms-intermediate-plateau-ru.html?stage=1" class="stamp-sticker" style="text-decoration: none;">📺 Stage Mode</a>
+                <a href="top-10-verb-synonyms-intermediate-plateau-ru.html?script=1" class="stamp-sticker" style="text-decoration: none;">📜 Script Mode</a>
+              </div>
+            </div>
+
+<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.5rem 0;">
+  <a href="top-10-verb-synonyms-intermediate-plateau-el.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇬🇷 EL</a> <a href="top-10-verb-synonyms-intermediate-plateau-fr.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇫🇷 FR</a> <a href="top-10-verb-synonyms-intermediate-plateau-it.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇮🇹 IT</a> <span class="lang-switcher-active stamp-sticker" style="background: var(--post-palette-accent); color: #ffffff;">🇷🇺 RU</span> <a href="top-10-verb-synonyms-intermediate-plateau.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇬🇧 EN</a>
+</div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
-                    </div>
-                </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
+        <!-- Full-Bleed Cover Art -->
+        <div class="gazette-cover-wrapper" style="margin-bottom: 2rem; border-radius: 12px; overflow: hidden; border: 2px solid var(--blog-border-strong); box-shadow: var(--blog-shadow-paper);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="top-10-verb-synonyms-intermediate-plateau-ru">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="800" height="400" fill="#d69e2e" />
+
+      <ellipse cx="475" cy="137" rx="122" ry="99" fill="#1e293b" opacity="0.25" transform="rotate(231 475 137)" style="filter: blur(12px);" />
+      <ellipse cx="485" cy="132" rx="73.2" ry="59.4" fill="#0d9488" opacity="0.15" transform="rotate(231 475 137)" style="filter: blur(8px);" />
+
+      <ellipse cx="326" cy="270" rx="141" ry="99" fill="#1e293b" opacity="0.25" transform="rotate(351 326 270)" style="filter: blur(12px);" />
+      <ellipse cx="336" cy="265" rx="84.6" ry="59.4" fill="#0d9488" opacity="0.15" transform="rotate(351 326 270)" style="filter: blur(8px);" />
+
+      <ellipse cx="314" cy="305" rx="91" ry="123" fill="#1e293b" opacity="0.25" transform="rotate(62 314 305)" style="filter: blur(12px);" />
+      <ellipse cx="324" cy="300" rx="54.6" ry="73.8" fill="#0d9488" opacity="0.15" transform="rotate(62 314 305)" style="filter: blur(8px);" />
+
+      <ellipse cx="372" cy="150" rx="92" ry="55" fill="#1e293b" opacity="0.25" transform="rotate(278 372 150)" style="filter: blur(12px);" />
+      <ellipse cx="382" cy="145" rx="55.199999999999996" ry="33" fill="#0d9488" opacity="0.15" transform="rotate(278 372 150)" style="filter: blur(8px);" />
+
+      <ellipse cx="199" cy="202" rx="138" ry="54" fill="#1e293b" opacity="0.25" transform="rotate(258 199 202)" style="filter: blur(12px);" />
+      <ellipse cx="209" cy="197" rx="82.8" ry="32.4" fill="#0d9488" opacity="0.15" transform="rotate(258 199 202)" style="filter: blur(8px);" />
+
+      <ellipse cx="584" cy="218" rx="105" ry="65" fill="#1e293b" opacity="0.25" transform="rotate(246 584 218)" style="filter: blur(12px);" />
+      <ellipse cx="594" cy="213" rx="63" ry="39" fill="#0d9488" opacity="0.15" transform="rotate(246 584 218)" style="filter: blur(8px);" />
+
+  
+
+    </svg>
+        </div>
+
+        <!-- Article Lead Header -->
+        <div class="article-lead-header" style="margin-bottom: 2rem;">
+            <span class="editorial-kicker">WORDS</span>
+            <h1 class="cover-headline" style="font-family: var(--post-font-display); margin: 0.5rem 0 1rem 0;">Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2)</h1>
+            <div class="editorial-dek">Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде &#39;делать&#39;, &#39;сказать&#39; и &#39;думать&#39; точными и выразительными синонимами.</div>
+
+            <!-- Byline Row -->
+            <div class="post-card-meta" style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; font-size: var(--blog-text-xs); color: var(--blog-ink-muted); margin-top: 1rem; padding-top: 0.5rem; border-top: 1px solid var(--blog-border-delicate);">
+                <span>By <strong>JY DM</strong></span>
+                <span>•</span>
+                <span>📅 2026-09-11</span>
+                <span>•</span>
+                <span>⏱️ 3 min read</span>
+                <span>•</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem;">B1–B2</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem; background: var(--post-palette-accent); color: #ffffff;">🎙️ EP. 4</span>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/top-10-verb-synonyms-intermediate-plateau-ru-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Один из самых ярких признаков того, что студент достиг <strong>плато среднего уровня (B1–B2)</strong> — это постоянное использование узкой группы «безопасных» глаголов в любой ситуации.</p>
-<p>Эти базовые глаголы сами по себе незаменимы. Однако, когда они повторяются в каждом предложении, речь звучит однообразно и невыразительно. Расширяя этот фундамент точными синонимами, вы мгновенно повышаете беглость и естественность своей речи.</p>
+        <!-- Podcast Player Container -->
+        <div id="podcast-box-container" style="margin-bottom: 2rem;"></div>
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 3</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/top-10-verb-synonyms-intermediate-plateau-ru-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Топ-10 часто используемых глаголов и их синонимы</h3>
-<h4>1. Делать / Make, Do</h4>
-<ul>
+        <!-- Main Content Area with Format Layout -->
+        <main class="gazette-main-content format-list">
+            <article class="post-full-content" style="line-height: 1.8; color: var(--blog-ink-primary);">
+                <p class=" gazette-drop-cap">Один из самых ярких признаков того, что студент достиг <strong>плато среднего уровня (B1–B2)</strong> — это постоянное использование узкой группы «безопасных» глаголов в любой ситуации.</p>
+<p class="">Эти базовые глаголы сами по себе незаменимы. Однако, когда они повторяются в каждом предложении, речь звучит однообразно и невыразительно. Расширяя этот фундамент точными синонимами, вы мгновенно повышаете беглость и естественность своей речи.</p>
+<h3 class="gazette-heading">Топ-10 часто используемых глаголов и их синонимы</h3>
+<h4 class="gazette-heading">1. Делать / Make, Do</h4>
+<ul class="gazette-list">
 <li><strong>выполнять / исполнять</strong>: <em>Они отлично выполнили задачу.</em></li>
 <li><strong>создавать / производить</strong>: <em>Предприятие производит современное оборудование.</em></li>
 <li><strong>осуществлять / проводить</strong>: <em>Мы провели детальный анализ рынка.</em></li>
 <li><strong>совершать / предпринимать</strong>: <em>Команда предприняла необходимые шаги.</em></li>
 </ul>
-<h4>2. Сказать / Say, Tell</h4>
-<ul>
+<h4 class="gazette-heading">2. Сказать / Say, Tell</h4>
+<ul class="gazette-list">
 <li><strong>сообщить / известить</strong>: <em>Руководитель сообщил о новых сроках.</em></li>
 <li><strong>отметить / подчеркнуть</strong>: <em>Она подчеркнула важность этого вопроса.</em></li>
 <li><strong>утверждать / заявлять</strong>: <em>Эксперты заявляют о росте показателей.</em></li>
 <li><strong>пояснить / разъяснить</strong>: <em>Докладчик разъяснил детали проекта.</em></li>
 </ul>
-<h4>3. Думать / Think</h4>
-<ul>
+<h4 class="gazette-heading">3. Думать / Think</h4>
+<ul class="gazette-list">
 <li><strong>полагать / считать</strong>: <em>Я полагаю, что это наиболее разумный подход.</em></li>
 <li><strong>предполагать / допускать</strong>: <em>Мы предполагаем, что груз прибудет вовремя.</em></li>
 <li><strong>размышлять / обдумывать</strong>: <em>Давайте тщательно обдумаем имеющиеся варианты.</em></li>
 <li><strong>приходить к выводу</strong>: <em>Мы пришли к выводу, что исследование необходимо продолжить.</em></li>
 </ul>
-<h4>4. Иметь / Have</h4>
-<ul>
+<h4 class="gazette-heading">4. Иметь / Have</h4>
+<ul class="gazette-list">
 <li><strong>обладать / владеть</strong>: <em>Компания обладает уникальными технологиями.</em></li>
 <li><strong>содержать / включать</strong>: <em>Отчет содержит ключевые рекомендации.</em></li>
 <li><strong>испытывать / переживать</strong>: <em>В этом году мы испытали значительный прогресс.</em></li>
 <li><strong>сохранять / поддерживать</strong>: <em>Он поддерживает высокий темп работы.</em></li>
 </ul>
-<h4>5. Идти / Ехать / Go</h4>
-<ul>
+<h4 class="gazette-heading">5. Идти / Ехать / Go</h4>
+<ul class="gazette-list">
 <li><strong>направляться / следовать</strong>: <em>Поезд следует до станции центральная.</em></li>
 <li><strong>отправляться / отбывать</strong>: <em>Рейс отправляется точно по расписанию.</em></li>
 <li><strong>посещать / присутствовать</strong>: <em>Она посетила ежегодную конференцию.</em></li>
 </ul>
-<h4>6. Понимать / Know, Understand</h4>
-<ul>
+<h4 class="gazette-heading">6. Понимать / Know, Understand</h4>
+<ul class="gazette-list">
 <li><strong>осознавать / отдавать себе отчет</strong>: <em>Он осознал масштаб произошедшего.</em></li>
 <li><strong>разбираться / ориентироваться</strong>: <em>Вы ориентируетесь в этих правилах?</em></li>
 <li><strong>усваивать / осваивать</strong>: <em>Студент освоил сложный материал за месяц.</em></li>
 </ul>
-<h4>7. Давать / Give</h4>
-<ul>
+<h4 class="gazette-heading">7. Давать / Give</h4>
+<ul class="gazette-list">
 <li><strong>предоставлять / передавать</strong>: <em>Мы предоставляем подробную консультацию.</em></li>
 <li><strong>вручать / вручить</strong>: <em>Директор вручил награды победителям.</em></li>
 <li><strong>выделять / выделять средства</strong>: <em>Совет выделил бюджет на развитие.</em></li>
 </ul>
-<h4>8. Смотреть / Look</h4>
-<ul>
+<h4 class="gazette-heading">8. Смотреть / Look</h4>
+<ul class="gazette-list">
 <li><strong>наблюдать / следить</strong>: <em>Ученые наблюдали за экспериментом.</em></li>
 <li><strong>осматривать / изучать</strong>: <em>Инспектор тщательно осмотрел оборудование.</em></li>
 <li><strong>оценивать / рассматривать</strong>: <em>Результаты выглядят вполне многообещающе.</em></li>
 </ul>
-<h4>9. Брать / Take</h4>
-<ul>
+<h4 class="gazette-heading">9. Брать / Take</h4>
+<ul class="gazette-list">
 <li><strong>принимать / задействовать</strong>: <em>Мы приняли решение использовать новый подход.</em></li>
 <li><strong>приобретать / извлекать</strong>: <em>Он извлек большую пользу из этого опыта.</em></li>
 </ul>
-<h4>10. Полагать / Хотеть / Want</h4>
-<ul>
+<h4 class="gazette-heading">10. Полагать / Хотеть / Want</h4>
+<ul class="gazette-list">
 <li><strong>стремиться / намереваться</strong>: <em>Я намереваюсь завершить проект к пятнице.</em></li>
 <li><strong>рассчитывать / планировать</strong>: <em>Мы рассчитываем на долгосрочное сотрудничество.</em></li>
 </ul>
+<h3 class="gazette-heading">Заключение: Развитие, а не отказ</h3>
+<p class="">Замена частых глаголов не означает полный отказ от слов вроде <em>делать</em> или <em>сказать</em>. Цель заключается в том, чтобы точно подбирать слово, когда этого требует контекст, делая вашу речь богаче и профессиональнее.</p>
+            </article>
+        </main>
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 3</span>
-  </div>
-</section>
+        <!-- Folio Footer -->
+        <div class="gazette-folio">
+            <span>COSY GAZETTE • Vol. 2026.09</span>
+            <span class="stamp-sticker">VERIFIED CELLTA STANDARD</span>
+            <span>PUBLISHED BY COSYLANGUAGES</span>
+        </div>
 
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/top-10-verb-synonyms-intermediate-plateau-ru-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Заключение: Развитие, а не отказ</h3>
-<p>Замена частых глаголов не означает полный отказ от слов вроде <em>делать</em> или <em>сказать</em>. Цель заключается в том, чтобы точно подбирать слово, когда этого требует контекст, делая вашу речь богаче и профессиональнее.</p>
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 3</span>
-  </div>
-</section>
-                </article>
-
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#ПлатоСреднегоУровня</span> <span class="post-tag-chip">#СловарныйЗапас</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Глаголы</span> <span class="post-tag-chip">#Русский</span>
-                </div>
-
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
-
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+        <!-- Collapsed Founder Deck Colophon Block at End -->
+        <section class="founder-presentation-card" style="margin-top: 3rem;" aria-label="Founder Presentation Deck Colophon">
+            <div class="founder-card-header" style="padding: 1rem;">
+                <div class="founder-info">
+                    <div class="founder-avatar" style="width: 36px; height: 36px; font-size: 1rem; background: var(--post-palette-accent);">J</div>
+                    <div class="founder-meta">
+                        <h4 class="founder-title" style="font-size: 0.95rem; margin: 0;">JY DM — Founder's Colophon &amp; Editorial Deck</h4>
+                        <span class="founder-subtitle" style="font-size: 0.8rem;">CELTA-aligned target-language guidance for Me vs Intermediate Plateau</span>
                     </div>
                 </div>
-
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false" style="font-size: 0.8rem; padding: 0.35rem 0.6rem;">
+                        <span>🎙️ Colophon Deck</span>
+                    </button>
                 </div>
-            </aside>
-        </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="founder-card-notes">
+                    <p style="font-size: 0.9rem;"><strong>Founder Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                </div>
+            </div>
+        </section>
+
     </div>
 
 <footer>
@@ -293,5 +270,16 @@
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
     <script src="../js/pages/flipbook.js"></script>
+
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      const container = document.getElementById('podcast-box-container');
+      if (container) {
+        new PodcastBoxComponent({
+          container,
+          post: {"id":"post-top-10-verb-synonyms-intermediate-plateau-ru","slug":"top-10-verb-synonyms-intermediate-plateau-ru","language":"ru","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-11","title":"Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2)","kicker":"WORDS","dek":"Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами.","tags":["ПлатоСреднегоУровня","СловарныйЗапас","B1-B2","Глаголы","Русский"],"readingTime":3,"podcast":{"episode":4,"audioUrl":"../audio/blog/top-10-verb-synonyms-intermediate-plateau-ru.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"top-10-verb-synonyms-intermediate-plateau-ru","coverOverride":null},"blocks":[{"type":"paragraph","text":"Один из самых ярких признаков того, что студент достиг **плато среднего уровня (B1–B2)** — это постоянное использование узкой группы «безопасных» глаголов в любой ситуации."},{"type":"paragraph","text":"Эти базовые глаголы сами по себе незаменимы. Однако, когда они повторяются в каждом предложении, речь звучит однообразно и невыразительно. Расширяя этот фундамент точными синонимами, вы мгновенно повышаете беглость и естественность своей речи."},{"type":"heading","level":3,"text":"Топ-10 часто используемых глаголов и их синонимы"},{"type":"heading","level":4,"text":"1. Делать / Make, Do"},{"type":"list-item","ordered":false,"items":["**выполнять / исполнять**: *Они отлично выполнили задачу.*","**создавать / производить**: *Предприятие производит современное оборудование.*","**осуществлять / проводить**: *Мы провели детальный анализ рынка.*","**совершать / предпринимать**: *Команда предприняла необходимые шаги.*"]},{"type":"heading","level":4,"text":"2. Сказать / Say, Tell"},{"type":"list-item","ordered":false,"items":["**сообщить / известить**: *Руководитель сообщил о новых сроках.*","**отметить / подчеркнуть**: *Она подчеркнула важность этого вопроса.*","**утверждать / заявлять**: *Эксперты заявляют о росте показателей.*","**пояснить / разъяснить**: *Докладчик разъяснил детали проекта.*"]},{"type":"heading","level":4,"text":"3. Думать / Think"},{"type":"list-item","ordered":false,"items":["**полагать / считать**: *Я полагаю, что это наиболее разумный подход.*","**предполагать / допускать**: *Мы предполагаем, что груз прибудет вовремя.*","**размышлять / обдумывать**: *Давайте тщательно обдумаем имеющиеся варианты.*","**приходить к выводу**: *Мы пришли к выводу, что исследование необходимо продолжить.*"]},{"type":"heading","level":4,"text":"4. Иметь / Have"},{"type":"list-item","ordered":false,"items":["**обладать / владеть**: *Компания обладает уникальными технологиями.*","**содержать / включать**: *Отчет содержит ключевые рекомендации.*","**испытывать / переживать**: *В этом году мы испытали значительный прогресс.*","**сохранять / поддерживать**: *Он поддерживает высокий темп работы.*"]},{"type":"heading","level":4,"text":"5. Идти / Ехать / Go"},{"type":"list-item","ordered":false,"items":["**направляться / следовать**: *Поезд следует до станции центральная.*","**отправляться / отбывать**: *Рейс отправляется точно по расписанию.*","**посещать / присутствовать**: *Она посетила ежегодную конференцию.*"]},{"type":"heading","level":4,"text":"6. Понимать / Know, Understand"},{"type":"list-item","ordered":false,"items":["**осознавать / отдавать себе отчет**: *Он осознал масштаб произошедшего.*","**разбираться / ориентироваться**: *Вы ориентируетесь в этих правилах?*","**усваивать / осваивать**: *Студент освоил сложный материал за месяц.*"]},{"type":"heading","level":4,"text":"7. Давать / Give"},{"type":"list-item","ordered":false,"items":["**предоставлять / передавать**: *Мы предоставляем подробную консультацию.*","**вручать / вручить**: *Директор вручил награды победителям.*","**выделять / выделять средства**: *Совет выделил бюджет на развитие.*"]},{"type":"heading","level":4,"text":"8. Смотреть / Look"},{"type":"list-item","ordered":false,"items":["**наблюдать / следить**: *Ученые наблюдали за экспериментом.*","**осматривать / изучать**: *Инспектор тщательно осмотрел оборудование.*","**оценивать / рассматривать**: *Результаты выглядят вполне многообещающе.*"]},{"type":"heading","level":4,"text":"9. Брать / Take"},{"type":"list-item","ordered":false,"items":["**принимать / задействовать**: *Мы приняли решение использовать новый подход.*","**приобретать / извлекать**: *Он извлек большую пользу из этого опыта.*"]},{"type":"heading","level":4,"text":"10. Полагать / Хотеть / Want"},{"type":"list-item","ordered":false,"items":["**стремиться / намереваться**: *Я намереваюсь завершить проект к пятнице.*","**рассчитывать / планировать**: *Мы рассчитываем на долгосрочное сотрудничество.*"]},{"type":"heading","level":3,"text":"Заключение: Развитие, а не отказ"},{"type":"paragraph","text":"Замена частых глаголов не означает полный отказ от слов вроде *делать* или *сказать*. Цель заключается в том, чтобы точно подбирать слово, когда этого требует контекст, делая вашу речь богаче и профессиональнее."}],"translationOf":"top-10-verb-synonyms-intermediate-plateau","draft":false}
+        });
+      }
+    </script>
 </body>
 </html>

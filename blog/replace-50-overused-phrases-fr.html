@@ -7,10 +7,11 @@
     <meta name="description" content="Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#0d9488">
 
+    <!-- Self-hosted & Google Fonts with Latin, Cyrillic & Greek support -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,900;1,9..144,300;1,9..144,600&family=DM+Sans:wght@400;500;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,322 +20,213 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-font-display: 'Fraunces', 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', 'DM Sans', sans-serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-container">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturelles pour le niveau intermédiaire</h1>
+    <div class="blog-wrapper" style="max-width: 1080px; margin: 0 auto; padding: 1.5rem 1rem;">
 
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="replace-50-overused-phrases-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇫🇷 FR</span> <a href="replace-50-overused-phrases-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <a href="replace-50-overused-phrases-ru.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇷🇺 RU</a> <a href="replace-50-overused-phrases.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-13</span>
-                <span>·</span>
-                <span>⏱️ 4 min read</span>
+        <!-- Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <h1 class="gazette-masthead-title">COSY GAZETTE</h1>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span>DESK: WORDS</span>
+                <span>2026-09-13</span>
             </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 0.75rem;">
+              <a href="index.html" style="color: var(--post-palette-accent); text-decoration: none; font-weight: 700; font-size: 0.85rem;">← Back to Editorial Corner</a>
+              <div style="display: flex; gap: 0.75rem;">
+                <a href="replace-50-overused-phrases-fr.html?stage=1" class="stamp-sticker" style="text-decoration: none;">📺 Stage Mode</a>
+                <a href="replace-50-overused-phrases-fr.html?script=1" class="stamp-sticker" style="text-decoration: none;">📜 Script Mode</a>
+              </div>
+            </div>
+
+<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.5rem 0;">
+  <a href="replace-50-overused-phrases-el.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇬🇷 EL</a> <span class="lang-switcher-active stamp-sticker" style="background: var(--post-palette-accent); color: #ffffff;">🇫🇷 FR</span> <a href="replace-50-overused-phrases-it.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇮🇹 IT</a> <a href="replace-50-overused-phrases-ru.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇷🇺 RU</a> <a href="replace-50-overused-phrases.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇬🇧 EN</a>
+</div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
-                    </div>
-                </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
+        <!-- Full-Bleed Cover Art -->
+        <div class="gazette-cover-wrapper" style="margin-bottom: 2rem; border-radius: 12px; overflow: hidden; border: 2px solid var(--blog-border-strong); box-shadow: var(--blog-shadow-paper);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-50-overused-phrases-fr">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="800" height="400" fill="#d69e2e" />
+
+      <ellipse cx="615" cy="164" rx="125" ry="99" fill="#1e293b" opacity="0.25" transform="rotate(255 615 164)" style="filter: blur(12px);" />
+      <ellipse cx="625" cy="159" rx="75" ry="59.4" fill="#0d9488" opacity="0.15" transform="rotate(255 615 164)" style="filter: blur(8px);" />
+
+      <ellipse cx="413" cy="88" rx="69" ry="59" fill="#1e293b" opacity="0.25" transform="rotate(290 413 88)" style="filter: blur(12px);" />
+      <ellipse cx="423" cy="83" rx="41.4" ry="35.4" fill="#0d9488" opacity="0.15" transform="rotate(290 413 88)" style="filter: blur(8px);" />
+
+      <ellipse cx="282" cy="318" rx="155" ry="106" fill="#1e293b" opacity="0.25" transform="rotate(10 282 318)" style="filter: blur(12px);" />
+      <ellipse cx="292" cy="313" rx="93" ry="63.599999999999994" fill="#0d9488" opacity="0.15" transform="rotate(10 282 318)" style="filter: blur(8px);" />
+
+  
+
+    </svg>
+        </div>
+
+        <!-- Article Lead Header -->
+        <div class="article-lead-header" style="margin-bottom: 2rem;">
+            <span class="editorial-kicker">WORDS</span>
+            <h1 class="cover-headline" style="font-family: var(--post-font-display); margin: 0.5rem 0 1rem 0;">Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturelles pour le niveau intermédiaire</h1>
+            <div class="editorial-dek">Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.</div>
+
+            <!-- Byline Row -->
+            <div class="post-card-meta" style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; font-size: var(--blog-text-xs); color: var(--blog-ink-muted); margin-top: 1rem; padding-top: 0.5rem; border-top: 1px solid var(--blog-border-delicate);">
+                <span>By <strong>JY DM</strong></span>
+                <span>•</span>
+                <span>📅 2026-09-13</span>
+                <span>•</span>
+                <span>⏱️ 4 min read</span>
+                <span>•</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem;">B1–B2</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem; background: var(--post-palette-accent); color: #ffffff;">🎙️ EP. 2</span>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 7">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 7</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-fr-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Lorsque vous atteignez le <strong>plateau intermédiaire (B1–B2)</strong>, vous pouvez vous exprimer avec aisance et participer à des conversations variées. Cependant, presque tous les professeurs observent le même phénomène : les apprenants réutilisent constamment les mêmes expressions &quot;de sécurité&quot; : <em>&quot;Je pense que...&quot;</em>, <em>&quot;Je suis d&#39;accord&quot;</em>, <em>&quot;Ça dépend&quot;</em>, ou <em>&quot;Je ne sais pas&quot;</em>.</p>
-<p>Enrichir ces phrases du quotidien ne nécessite pas d&#39;apprendre des structures grammaticales complexes. En adoptant des expressions plus naturelles et en maîtrisant <strong>les opposés directs</strong>, votre français devient immédiatement plus riche, vivant et authentique.</p>
-<p>Voici 50 expressions fréquentes classées par catégories conversationnelles.</p>
+        <!-- Podcast Player Container -->
+        <div id="podcast-box-container" style="margin-bottom: 2rem;"></div>
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 7</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 7">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 7</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-fr-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>1. Exprimer son accord ou son désaccord (Opposés directs)</h3>
-<h4>1. Je suis d&#39;accord ↔ 2. Je ne suis pas d&#39;accord</h4>
-<ul>
+        <!-- Main Content Area with Format Layout -->
+        <main class="gazette-main-content format-list">
+            <article class="post-full-content" style="line-height: 1.8; color: var(--blog-ink-primary);">
+                <p class=" gazette-drop-cap">Lorsque vous atteignez le <strong>plateau intermédiaire (B1–B2)</strong>, vous pouvez vous exprimer avec aisance et participer à des conversations variées. Cependant, presque tous les professeurs observent le même phénomène : les apprenants réutilisent constamment les mêmes expressions &quot;de sécurité&quot; : <em>&quot;Je pense que...&quot;</em>, <em>&quot;Je suis d&#39;accord&quot;</em>, <em>&quot;Ça dépend&quot;</em>, ou <em>&quot;Je ne sais pas&quot;</em>.</p>
+<p class="">Enrichir ces phrases du quotidien ne nécessite pas d&#39;apprendre des structures grammaticales complexes. En adoptant des expressions plus naturelles et en maîtrisant <strong>les opposés directs</strong>, votre français devient immédiatement plus riche, vivant et authentique.</p>
+<p class="">Voici 50 expressions fréquentes classées par catégories conversationnelles.</p>
+<h3 class="gazette-heading">1. Exprimer son accord ou son désaccord (Opposés directs)</h3>
+<h4 class="gazette-heading">1. Je suis d&#39;accord ↔ 2. Je ne suis pas d&#39;accord</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé (Accord) :</strong> <em>Je suis d&#39;accord.</em>
 - <strong>Alternatives naturelles :</strong> <em>Tout à fait.</em> • <em>Absolument.</em> • <em>Je partage entièrement votre avis.</em> • <em>C&#39;est exact.</em> • <em>Vous marquez un point.</em></li>
 <li><strong>Surutilisé (Désaccord) :</strong> <em>Je ne suis pas d&#39;accord.</em>
 - <strong>Alternatives naturelles :</strong> <em>Je ne suis pas si sûr(e).</em> • <em>Je vois les choses différemment.</em> • <em>Je ne partage pas tout à fait cet avis.</em></li>
 </ul>
-<h4>3. Ça dépend</h4>
-<ul>
+<h4 class="gazette-heading">3. Ça dépend</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>Ça dépend.</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>Ça varie.</em> • <em>Cela dépend vraiment des circonstances.</em> • <em>Ce n&#39;est pas aussi simple.</em> • <em>Tout dépend de...</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 7</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 7">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 7</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-fr-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>2. Exprimer une opinion ou une incertitude</h3>
-<h4>4. Je pense que...</h4>
-<ul>
+<h3 class="gazette-heading">2. Exprimer une opinion ou une incertitude</h3>
+<h4 class="gazette-heading">4. Je pense que...</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>Je pense que...</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>À mon avis...</em> • <em>Il me semble que...</em> • <em>J&#39;estime que...</em> • <em>Selon moi...</em> • <em>D&#39;après moi...</em></li>
 </ul>
-<h4>5. Je ne sais pas</h4>
-<ul>
+<h4 class="gazette-heading">5. Je ne sais pas</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>Je ne sais pas.</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>Je n&#39;en suis pas sûr(e).</em> • <em>C&#39;est difficile à dire.</em> • <em>C&#39;est une bonne question.</em> • <em>Je n&#39;y ai pas vraiment réfléchi.</em></li>
 </ul>
-<h4>6. Peut-être</h4>
-<ul>
+<h4 class="gazette-heading">6. Peut-être</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>Peut-être.</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>C&#39;est possible.</em> • <em>Il se peut que...</em> • <em>Probablement.</em> • <em>Sans doute.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 7</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="4" aria-label="Page 4 of 7">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 4 of 7</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-fr-page-4.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>3. Politesse, excuses et remerciements</h3>
-<h4>7. Merci</h4>
-<ul>
+<h3 class="gazette-heading">3. Politesse, excuses et remerciements</h3>
+<h4 class="gazette-heading">7. Merci</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>Merci.</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>Merci mille fois.</em> • <em>Je vous remercie chaleureusement.</em> • <em>C&#39;est très aimable à vous.</em> • <em>Je vous en suis reconnaissant(e).</em></li>
 </ul>
-<h4>8. De rien</h4>
-<ul>
+<h4 class="gazette-heading">8. De rien</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>De rien.</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>Je vous en prie.</em> • <em>Avec plaisir.</em> • <em>Il n&#39;y a pas de quoi.</em> • <em>Pas de souci.</em></li>
 </ul>
-<h4>9. Pardon / Désolé(e)</h4>
-<ul>
+<h4 class="gazette-heading">9. Pardon / Désolé(e)</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>Je suis désolé(e).</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>Je vous prie de m&#39;excuser.</em> • <em>Toutes mes excuses.</em> • <em>Je ne l&#39;ai pas fait exprès.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 4 of 7</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="5" aria-label="Page 5 of 7">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 5 of 7</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-fr-page-5.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>4. Aimer, ne pas aimer &amp; adorer (Opposés directs)</h3>
-<h4>10. J&#39;aime ↔ 11. Je n&#39;aime pas</h4>
-<ul>
+<h3 class="gazette-heading">4. Aimer, ne pas aimer &amp; adorer (Opposés directs)</h3>
+<h4 class="gazette-heading">10. J&#39;aime ↔ 11. Je n&#39;aime pas</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé (J&#39;aime) :</strong> <em>J&#39;aime bien.</em>
 - <strong>Alternatives naturelles :</strong> <em>Je suis fan de...</em> • <em>Ça me plaît beaucoup.</em> • <em>J&#39;apprécie énormément.</em></li>
 <li><strong>Surutilisé (Je n&#39;aime pas) :</strong> <em>Je n&#39;aime pas.</em>
 - <strong>Alternatives naturelles :</strong> <em>Ce n&#39;est pas trop mon truc.</em> • <em>Ça ne me dit rien.</em> • <em>Je ne suis pas très friand(e) de cela.</em></li>
 </ul>
-<h4>12. J&#39;adore</h4>
-<ul>
+<h4 class="gazette-heading">12. J&#39;adore</h4>
+<ul class="gazette-list">
 <li><strong>Surutilisé :</strong> <em>J&#39;adore.</em></li>
 <li><strong>Alternatives naturelles :</strong> <em>Je suis passionné(e) par...</em> • <em>C&#39;est un coup de cœur.</em> • <em>Je ne m&#39;en lasse pas.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 5 of 7</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="6" aria-label="Page 6 of 7">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 6 of 7</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-fr-page-6.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>5. Appréciations &amp; Jugements (Bon vs Mauvais / Facile vs Difficile)</h3>
-<h4>13. C&#39;est bon / bien ↔ 14. C&#39;est mauvais</h4>
-<ul>
+<h3 class="gazette-heading">5. Appréciations &amp; Jugements (Bon vs Mauvais / Facile vs Difficile)</h3>
+<h4 class="gazette-heading">13. C&#39;est bon / bien ↔ 14. C&#39;est mauvais</h4>
+<ul class="gazette-list">
 <li><strong>Bien :</strong> <em>C&#39;est très bien.</em> → <em>C&#39;est remarquable.</em> • <em>C&#39;est réussi.</em> • <em>C&#39;est formidable.</em></li>
 <li><strong>Mauvais :</strong> <em>C&#39;est mauvais.</em> → <em>C&#39;est décevant.</em> • <em>C&#39;est médiocre.</em> • <em>C&#39;est regrettable.</em></li>
 </ul>
-<h4>15. C&#39;est facile ↔ 16. C&#39;est difficile</h4>
-<ul>
+<h4 class="gazette-heading">15. C&#39;est facile ↔ 16. C&#39;est difficile</h4>
+<ul class="gazette-list">
 <li><strong>Facile :</strong> <em>C&#39;est facile.</em> → <em>C&#39;est simple.</em> • <em>C&#39;est un jeu d&#39;enfant.</em> • <em>C&#39;est à la portée de tous.</em></li>
 <li><strong>Difficile :</strong> <em>C&#39;est difficile.</em> → <em>C&#39;est exigeant.</em> • <em>C&#39;est complexe.</em> • <em>C&#39;est un vrai défi.</em></li>
 </ul>
+<h3 class="gazette-heading">Mise en pratique</h3>
+<p class="">Observez la différence dans un échange réel :</p>
 
+<blockquote class="gazette-pullquote">
+  “<strong>Avant (Niveau B1 répétitif) :</strong>
+<em>&quot;Je pense que ce projet est bon. Je suis d&#39;accord avec vous, mais ça dépend du budget. Dans le futur, je veux faire ça.&quot;</em>”
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 6 of 7</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="7" aria-label="Page 7 of 7">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 7 of 7</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-fr-page-7.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Mise en pratique</h3>
-<p>Observez la différence dans un échange réel :</p>
-
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>Avant (Niveau B1 répétitif) :</strong>
-<em>&quot;Je pense que ce projet est bon. Je suis d&#39;accord avec vous, mais ça dépend du budget. Dans le futur, je veux faire ça.&quot;</em>”</p>
-
 </blockquote>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>Après (Niveau B2 fluide) :</strong>
-<em>&quot;À mon avis, ce projet est particulièrement réussi. Je partage entièrement votre avis, même si tout dépend du budget. À l&#39;avenir, j&#39;envisage de concrétiser cette idée.&quot;</em>”</p>
-
-</blockquote>
+<blockquote class="gazette-pullquote">
+  “<strong>Après (Niveau B2 fluide) :</strong>
+<em>&quot;À mon avis, ce projet est particulièrement réussi. Je partage entièrement votre avis, même si tout dépend du budget. À l&#39;avenir, j&#39;envisage de concrétiser cette idée.&quot;</em>”
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 7 of 7</span>
-  </div>
-</section>
-                </article>
+</blockquote>
+            </article>
+        </main>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#Expressions</span> <span class="post-tag-chip">#PlateauIntermédiaire</span> <span class="post-tag-chip">#Fluidité</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Français</span>
-                </div>
+        <!-- Folio Footer -->
+        <div class="gazette-folio">
+            <span>COSY GAZETTE • Vol. 2026.09</span>
+            <span class="stamp-sticker">VERIFIED CELLTA STANDARD</span>
+            <span>PUBLISHED BY COSYLANGUAGES</span>
+        </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
-
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+        <!-- Collapsed Founder Deck Colophon Block at End -->
+        <section class="founder-presentation-card" style="margin-top: 3rem;" aria-label="Founder Presentation Deck Colophon">
+            <div class="founder-card-header" style="padding: 1rem;">
+                <div class="founder-info">
+                    <div class="founder-avatar" style="width: 36px; height: 36px; font-size: 1rem; background: var(--post-palette-accent);">J</div>
+                    <div class="founder-meta">
+                        <h4 class="founder-title" style="font-size: 0.95rem; margin: 0;">JY DM — Founder's Colophon &amp; Editorial Deck</h4>
+                        <span class="founder-subtitle" style="font-size: 0.8rem;">CELTA-aligned target-language guidance for Me vs Intermediate Plateau</span>
                     </div>
                 </div>
-
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false" style="font-size: 0.8rem; padding: 0.35rem 0.6rem;">
+                        <span>🎙️ Colophon Deck</span>
+                    </button>
                 </div>
-            </aside>
-        </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="founder-card-notes">
+                    <p style="font-size: 0.9rem;"><strong>Founder Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                </div>
+            </div>
+        </section>
+
     </div>
 
 <footer>
@@ -388,5 +280,16 @@
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
     <script src="../js/pages/flipbook.js"></script>
+
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      const container = document.getElementById('podcast-box-container');
+      if (container) {
+        new PodcastBoxComponent({
+          container,
+          post: {"id":"post-replace-50-overused-phrases-fr","slug":"replace-50-overused-phrases-fr","language":"fr","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-13","title":"Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturelles pour le niveau intermédiaire","kicker":"WORDS","dek":"Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.","tags":["Expressions","PlateauIntermédiaire","Fluidité","B1-B2","Français"],"readingTime":4,"podcast":{"episode":2,"audioUrl":"../audio/blog/replace-50-overused-phrases-fr.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"replace-50-overused-phrases-fr","coverOverride":null},"blocks":[{"type":"paragraph","text":"Lorsque vous atteignez le **plateau intermédiaire (B1–B2)**, vous pouvez vous exprimer avec aisance et participer à des conversations variées. Cependant, presque tous les professeurs observent le même phénomène : les apprenants réutilisent constamment les mêmes expressions \"de sécurité\" : *\"Je pense que...\"*, *\"Je suis d'accord\"*, *\"Ça dépend\"*, ou *\"Je ne sais pas\"*."},{"type":"paragraph","text":"Enrichir ces phrases du quotidien ne nécessite pas d'apprendre des structures grammaticales complexes. En adoptant des expressions plus naturelles et en maîtrisant **les opposés directs**, votre français devient immédiatement plus riche, vivant et authentique."},{"type":"paragraph","text":"Voici 50 expressions fréquentes classées par catégories conversationnelles."},{"type":"heading","level":3,"text":"1. Exprimer son accord ou son désaccord (Opposés directs)"},{"type":"heading","level":4,"text":"1. Je suis d'accord ↔ 2. Je ne suis pas d'accord"},{"type":"list-item","ordered":false,"items":["**Surutilisé (Accord) :** *Je suis d'accord.*\n- **Alternatives naturelles :** *Tout à fait.* • *Absolument.* • *Je partage entièrement votre avis.* • *C'est exact.* • *Vous marquez un point.*","**Surutilisé (Désaccord) :** *Je ne suis pas d'accord.*\n- **Alternatives naturelles :** *Je ne suis pas si sûr(e).* • *Je vois les choses différemment.* • *Je ne partage pas tout à fait cet avis.*"]},{"type":"heading","level":4,"text":"3. Ça dépend"},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *Ça dépend.*","**Alternatives naturelles :** *Ça varie.* • *Cela dépend vraiment des circonstances.* • *Ce n'est pas aussi simple.* • *Tout dépend de...*"]},{"type":"heading","level":3,"text":"2. Exprimer une opinion ou une incertitude"},{"type":"heading","level":4,"text":"4. Je pense que..."},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *Je pense que...*","**Alternatives naturelles :** *À mon avis...* • *Il me semble que...* • *J'estime que...* • *Selon moi...* • *D'après moi...*"]},{"type":"heading","level":4,"text":"5. Je ne sais pas"},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *Je ne sais pas.*","**Alternatives naturelles :** *Je n'en suis pas sûr(e).* • *C'est difficile à dire.* • *C'est une bonne question.* • *Je n'y ai pas vraiment réfléchi.*"]},{"type":"heading","level":4,"text":"6. Peut-être"},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *Peut-être.*","**Alternatives naturelles :** *C'est possible.* • *Il se peut que...* • *Probablement.* • *Sans doute.*"]},{"type":"heading","level":3,"text":"3. Politesse, excuses et remerciements"},{"type":"heading","level":4,"text":"7. Merci"},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *Merci.*","**Alternatives naturelles :** *Merci mille fois.* • *Je vous remercie chaleureusement.* • *C'est très aimable à vous.* • *Je vous en suis reconnaissant(e).*"]},{"type":"heading","level":4,"text":"8. De rien"},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *De rien.*","**Alternatives naturelles :** *Je vous en prie.* • *Avec plaisir.* • *Il n'y a pas de quoi.* • *Pas de souci.*"]},{"type":"heading","level":4,"text":"9. Pardon / Désolé(e)"},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *Je suis désolé(e).*","**Alternatives naturelles :** *Je vous prie de m'excuser.* • *Toutes mes excuses.* • *Je ne l'ai pas fait exprès.*"]},{"type":"heading","level":3,"text":"4. Aimer, ne pas aimer & adorer (Opposés directs)"},{"type":"heading","level":4,"text":"10. J'aime ↔ 11. Je n'aime pas"},{"type":"list-item","ordered":false,"items":["**Surutilisé (J'aime) :** *J'aime bien.*\n- **Alternatives naturelles :** *Je suis fan de...* • *Ça me plaît beaucoup.* • *J'apprécie énormément.*","**Surutilisé (Je n'aime pas) :** *Je n'aime pas.*\n- **Alternatives naturelles :** *Ce n'est pas trop mon truc.* • *Ça ne me dit rien.* • *Je ne suis pas très friand(e) de cela.*"]},{"type":"heading","level":4,"text":"12. J'adore"},{"type":"list-item","ordered":false,"items":["**Surutilisé :** *J'adore.*","**Alternatives naturelles :** *Je suis passionné(e) par...* • *C'est un coup de cœur.* • *Je ne m'en lasse pas.*"]},{"type":"heading","level":3,"text":"5. Appréciations & Jugements (Bon vs Mauvais / Facile vs Difficile)"},{"type":"heading","level":4,"text":"13. C'est bon / bien ↔ 14. C'est mauvais"},{"type":"list-item","ordered":false,"items":["**Bien :** *C'est très bien.* → *C'est remarquable.* • *C'est réussi.* • *C'est formidable.*","**Mauvais :** *C'est mauvais.* → *C'est décevant.* • *C'est médiocre.* • *C'est regrettable.*"]},{"type":"heading","level":4,"text":"15. C'est facile ↔ 16. C'est difficile"},{"type":"list-item","ordered":false,"items":["**Facile :** *C'est facile.* → *C'est simple.* • *C'est un jeu d'enfant.* • *C'est à la portée de tous.*","**Difficile :** *C'est difficile.* → *C'est exigeant.* • *C'est complexe.* • *C'est un vrai défi.*"]},{"type":"heading","level":3,"text":"Mise en pratique"},{"type":"paragraph","text":"Observez la différence dans un échange réel :"},{"type":"pullquote","quote":"**Avant (Niveau B1 répétitif) :**\n*\"Je pense que ce projet est bon. Je suis d'accord avec vous, mais ça dépend du budget. Dans le futur, je veux faire ça.\"*"},{"type":"pullquote","quote":"**Après (Niveau B2 fluide) :**\n*\"À mon avis, ce projet est particulièrement réussi. Je partage entièrement votre avis, même si tout dépend du budget. À l'avenir, j'envisage de concrétiser cette idée.\"*"}],"translationOf":"replace-50-overused-phrases","draft":false}
+        });
+      }
+    </script>
 </body>
 </html>

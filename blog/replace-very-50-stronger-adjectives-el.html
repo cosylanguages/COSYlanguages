@@ -7,10 +7,11 @@
     <meta name="description" content="Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό &#39;πολύ + επίθετο&#39; με 50 ακριβή, εκφραστικά και φυσικά επίθετα.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#0d9488">
 
+    <!-- Self-hosted & Google Fonts with Latin, Cyrillic & Greek support -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,900;1,9..144,300;1,9..144,600&family=DM+Sans:wght@400;500;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,106 +20,113 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-font-display: 'Fraunces', 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', 'DM Sans', sans-serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-container">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Σταματήστε να λέτε &#39;Πολύ&#39;! 50 ισχυρά επίθετα για να εμπλουτίσετε το λεξιλόγιό σας</h1>
+    <div class="blog-wrapper" style="max-width: 1080px; margin: 0 auto; padding: 1.5rem 1rem;">
 
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇬🇷 EL</span> <a href="replace-very-50-stronger-adjectives-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <a href="replace-very-50-stronger-adjectives-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <a href="replace-very-50-stronger-adjectives-ru.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇷🇺 RU</a> <a href="replace-very-50-stronger-adjectives.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-12</span>
-                <span>·</span>
-                <span>⏱️ 3 min read</span>
+        <!-- Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <h1 class="gazette-masthead-title">COSY GAZETTE</h1>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span>DESK: WORDS</span>
+                <span>2026-09-12</span>
             </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 0.75rem;">
+              <a href="index.html" style="color: var(--post-palette-accent); text-decoration: none; font-weight: 700; font-size: 0.85rem;">← Back to Editorial Corner</a>
+              <div style="display: flex; gap: 0.75rem;">
+                <a href="replace-very-50-stronger-adjectives-el.html?stage=1" class="stamp-sticker" style="text-decoration: none;">📺 Stage Mode</a>
+                <a href="replace-very-50-stronger-adjectives-el.html?script=1" class="stamp-sticker" style="text-decoration: none;">📜 Script Mode</a>
+              </div>
+            </div>
+
+<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.5rem 0;">
+  <span class="lang-switcher-active stamp-sticker" style="background: var(--post-palette-accent); color: #ffffff;">🇬🇷 EL</span> <a href="replace-very-50-stronger-adjectives-fr.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇫🇷 FR</a> <a href="replace-very-50-stronger-adjectives-it.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇮🇹 IT</a> <a href="replace-very-50-stronger-adjectives-ru.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇷🇺 RU</a> <a href="replace-very-50-stronger-adjectives.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇬🇧 EN</a>
+</div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
-                    </div>
-                </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
+        <!-- Full-Bleed Cover Art -->
+        <div class="gazette-cover-wrapper" style="margin-bottom: 2rem; border-radius: 12px; overflow: hidden; border: 2px solid var(--blog-border-strong); box-shadow: var(--blog-shadow-paper);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-very-50-stronger-adjectives-el">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="800" height="400" fill="#d69e2e" />
+
+      <ellipse cx="420" cy="137" rx="172" ry="120" fill="#1e293b" opacity="0.25" transform="rotate(207 420 137)" style="filter: blur(12px);" />
+      <ellipse cx="430" cy="132" rx="103.2" ry="72" fill="#0d9488" opacity="0.15" transform="rotate(207 420 137)" style="filter: blur(8px);" />
+
+      <ellipse cx="548" cy="314" rx="158" ry="53" fill="#1e293b" opacity="0.25" transform="rotate(294 548 314)" style="filter: blur(12px);" />
+      <ellipse cx="558" cy="309" rx="94.8" ry="31.799999999999997" fill="#0d9488" opacity="0.15" transform="rotate(294 548 314)" style="filter: blur(8px);" />
+
+      <ellipse cx="593" cy="110" rx="78" ry="50" fill="#1e293b" opacity="0.25" transform="rotate(177 593 110)" style="filter: blur(12px);" />
+      <ellipse cx="603" cy="105" rx="46.8" ry="30" fill="#0d9488" opacity="0.15" transform="rotate(177 593 110)" style="filter: blur(8px);" />
+
+      <ellipse cx="288" cy="111" rx="172" ry="110" fill="#1e293b" opacity="0.25" transform="rotate(188 288 111)" style="filter: blur(12px);" />
+      <ellipse cx="298" cy="106" rx="103.2" ry="66" fill="#0d9488" opacity="0.15" transform="rotate(188 288 111)" style="filter: blur(8px);" />
+
+      <ellipse cx="542" cy="317" rx="126" ry="109" fill="#1e293b" opacity="0.25" transform="rotate(316 542 317)" style="filter: blur(12px);" />
+      <ellipse cx="552" cy="312" rx="75.6" ry="65.39999999999999" fill="#0d9488" opacity="0.15" transform="rotate(316 542 317)" style="filter: blur(8px);" />
+
+  
+
+    </svg>
+        </div>
+
+        <!-- Article Lead Header -->
+        <div class="article-lead-header" style="margin-bottom: 2rem;">
+            <span class="editorial-kicker">WORDS</span>
+            <h1 class="cover-headline" style="font-family: var(--post-font-display); margin: 0.5rem 0 1rem 0;">Σταματήστε να λέτε &#39;Πολύ&#39;! 50 ισχυρά επίθετα για να εμπλουτίσετε το λεξιλόγιό σας</h1>
+            <div class="editorial-dek">Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό &#39;πολύ + επίθετο&#39; με 50 ακριβή, εκφραστικά και φυσικά επίθετα.</div>
+
+            <!-- Byline Row -->
+            <div class="post-card-meta" style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; font-size: var(--blog-text-xs); color: var(--blog-ink-muted); margin-top: 1rem; padding-top: 0.5rem; border-top: 1px solid var(--blog-border-delicate);">
+                <span>By <strong>JY DM</strong></span>
+                <span>•</span>
+                <span>📅 2026-09-12</span>
+                <span>•</span>
+                <span>⏱️ 3 min read</span>
+                <span>•</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem;">B1–B2</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem; background: var(--post-palette-accent); color: #ffffff;">🎙️ EP. 3</span>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-el-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Ένα από τα πιο χαρακτηριστικά σημάδια του <strong>ενδιάμεσου επιπέδου (B1–B2)</strong> είναι η υπερβολική χρήση του επιρρήματος <strong>&quot;πολύ&quot;</strong> για την ενίσχυση των καθημερινών επιθέτων.</p>
-<p>Παρόλο που φράσεις όπως <em>&quot;πολύ μεγάλος&quot;</em>, <em>&quot;πολύ καλός&quot;</em> ή <em>&quot;πολύ κουρασμένος&quot;</em> είναι σωστές, η επανάληψη του <em>&quot;πολύ&quot;</em> σε κάθε πρόταση κάνει τον λόγο μονότονο. Η επιλογή ισχυρών και ακριβών επιθέτων δίνει αμέσως στη συνομιλία σας μια πιο φυσική, πλούσια και ώριμη εικόνα.</p>
-<p>Ακολουθούν 50 εκφραστικές εναλλακτικές στη δομή <em>&quot;πολύ + επίθετο&quot;</em>.</p>
+        <!-- Podcast Player Container -->
+        <div id="podcast-box-container" style="margin-bottom: 2rem;"></div>
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 3</span>
-  </div>
-</section>
+        <!-- Main Content Area with Format Layout -->
+        <main class="gazette-main-content format-list">
+            <article class="post-full-content" style="line-height: 1.8; color: var(--blog-ink-primary);">
+                <p class=" gazette-drop-cap">Ένα από τα πιο χαρακτηριστικά σημάδια του <strong>ενδιάμεσου επιπέδου (B1–B2)</strong> είναι η υπερβολική χρήση του επιρρήματος <strong>&quot;πολύ&quot;</strong> για την ενίσχυση των καθημερινών επιθέτων.</p>
+<p class="">Παρόλο που φράσεις όπως <em>&quot;πολύ μεγάλος&quot;</em>, <em>&quot;πολύ καλός&quot;</em> ή <em>&quot;πολύ κουρασμένος&quot;</em> είναι σωστές, η επανάληψη του <em>&quot;πολύ&quot;</em> σε κάθε πρόταση κάνει τον λόγο μονότονο. Η επιλογή ισχυρών και ακριβών επιθέτων δίνει αμέσως στη συνομιλία σας μια πιο φυσική, πλούσια και ώριμη εικόνα.</p>
+<p class="">Ακολουθούν 50 εκφραστικές εναλλακτικές στη δομή <em>&quot;πολύ + επίθετο&quot;</em>.</p>
+<h3 class="gazette-heading">50 ισχυρές εναλλακτικές στο &quot;Πολύ + Επίθετο&quot;</h3>
 
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-el-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>50 ισχυρές εναλλακτικές στο &quot;Πολύ + Επίθετο&quot;</h3>
-<div class="table-wrapper">
-<table>
+<div class="two-page-spread">
+  <div class="spread-column">
+    <div class="table-wrapper">
+      <table class="gazette-table">
 
-<thead><tr><th>Αντί για...</th><th>Επιλέξτε...</th></tr></thead>
-<tbody>
-<tr><td><strong>Πολύ κακός</strong></td><td><em>άθλιος, απαράδεκτος, τραγικός</em></td></tr>
+        <thead><tr><th>Αντί για...</th><th>Επιλέξτε...</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Πολύ κακός</strong></td><td><em>άθλιος, απαράδεκτος, τραγικός</em></td></tr>
 <tr><td><strong>Πολύ καλός</strong></td><td><em>εξαιρετικός, υπέροχος, σπουδαίος</em></td></tr>
 <tr><td><strong>Πολύ μεγάλος</strong></td><td><em>τεράστιος, γιγάντιος, κολοσσιαίος</em></td></tr>
 <tr><td><strong>Πολύ μικρός</strong></td><td><em>μικροσκοπικός, ελάχιστος</em></td></tr>
@@ -165,81 +173,52 @@
 <tr><td><strong>Πολύ γεμάτος / κόσμος</strong></td><td><em>κατάμεστος, αδιαχώρητος</em></td></tr>
 <tr><td><strong>Πολύ άδειος</strong></td><td><em>έρημος, ολοκληρωτικά άδειος</em></td></tr>
 <tr><td><strong>Πολύ απασχολημένος</strong></td><td><em>κατάκοπος, πνιγμένος στη δουλειά</em></td></tr>
-</tbody>
-</table>
-</div>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 3</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 3</span>
+        </tbody>
+      </table>
     </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-el-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
   </div>
-  <h3>Παράδειγμα στην πράξη</h3>
-<p>Δείτε πώς αλλάζει η εικόνα μιας πρότασης:</p>
+</div>
+<h3 class="gazette-heading">Παράδειγμα στην πράξη</h3>
+<p class="">Δείτε πώς αλλάζει η εικόνα μιας πρότασης:</p>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>Πριν (B1):</strong> <em>&quot;Είχα μια πολύ γεμάτη μέρα και είμαι πολύ κουρασμένος.&quot;</em>
-<strong>Μετά (B2):</strong> <em>&quot;Είχα μια απαιτητική μέρα και είμαι εξαντλημένος.&quot;</em>”</p>
-
-</blockquote>
+<blockquote class="gazette-pullquote">
+  “<strong>Πριν (B1):</strong> <em>&quot;Είχα μια πολύ γεμάτη μέρα και είμαι πολύ κουρασμένος.&quot;</em>
+<strong>Μετά (B2):</strong> <em>&quot;Είχα μια απαιτητική μέρα και είμαι εξαντλημένος.&quot;</em>”
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 3</span>
-  </div>
-</section>
-                </article>
+</blockquote>
+            </article>
+        </main>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#Λεξιλόγιο</span> <span class="post-tag-chip">#ΕνδιάμεσοΕπίπεδο</span> <span class="post-tag-chip">#Επίθετα</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Ελληνικά</span>
-                </div>
+        <!-- Folio Footer -->
+        <div class="gazette-folio">
+            <span>COSY GAZETTE • Vol. 2026.09</span>
+            <span class="stamp-sticker">VERIFIED CELLTA STANDARD</span>
+            <span>PUBLISHED BY COSYLANGUAGES</span>
+        </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
-
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+        <!-- Collapsed Founder Deck Colophon Block at End -->
+        <section class="founder-presentation-card" style="margin-top: 3rem;" aria-label="Founder Presentation Deck Colophon">
+            <div class="founder-card-header" style="padding: 1rem;">
+                <div class="founder-info">
+                    <div class="founder-avatar" style="width: 36px; height: 36px; font-size: 1rem; background: var(--post-palette-accent);">J</div>
+                    <div class="founder-meta">
+                        <h4 class="founder-title" style="font-size: 0.95rem; margin: 0;">JY DM — Founder's Colophon &amp; Editorial Deck</h4>
+                        <span class="founder-subtitle" style="font-size: 0.8rem;">CELTA-aligned target-language guidance for Me vs Intermediate Plateau</span>
                     </div>
                 </div>
-
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false" style="font-size: 0.8rem; padding: 0.35rem 0.6rem;">
+                        <span>🎙️ Colophon Deck</span>
+                    </button>
                 </div>
-            </aside>
-        </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="founder-card-notes">
+                    <p style="font-size: 0.9rem;"><strong>Founder Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                </div>
+            </div>
+        </section>
+
     </div>
 
 <footer>
@@ -293,5 +272,16 @@
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
     <script src="../js/pages/flipbook.js"></script>
+
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      const container = document.getElementById('podcast-box-container');
+      if (container) {
+        new PodcastBoxComponent({
+          container,
+          post: {"id":"post-replace-very-50-stronger-adjectives-el","slug":"replace-very-50-stronger-adjectives-el","language":"el","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-12","title":"Σταματήστε να λέτε 'Πολύ'! 50 ισχυρά επίθετα για να εμπλουτίσετε το λεξιλόγιό σας","kicker":"WORDS","dek":"Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό 'πολύ + επίθετο' με 50 ακριβή, εκφραστικά και φυσικά επίθετα.","tags":["Λεξιλόγιο","ΕνδιάμεσοΕπίπεδο","Επίθετα","B1-B2","Ελληνικά"],"readingTime":3,"podcast":{"episode":3,"audioUrl":"../audio/blog/replace-very-50-stronger-adjectives-el.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"replace-very-50-stronger-adjectives-el","coverOverride":null},"blocks":[{"type":"paragraph","text":"Ένα από τα πιο χαρακτηριστικά σημάδια του **ενδιάμεσου επιπέδου (B1–B2)** είναι η υπερβολική χρήση του επιρρήματος **\"πολύ\"** για την ενίσχυση των καθημερινών επιθέτων."},{"type":"paragraph","text":"Παρόλο που φράσεις όπως *\"πολύ μεγάλος\"*, *\"πολύ καλός\"* ή *\"πολύ κουρασμένος\"* είναι σωστές, η επανάληψη του *\"πολύ\"* σε κάθε πρόταση κάνει τον λόγο μονότονο. Η επιλογή ισχυρών και ακριβών επιθέτων δίνει αμέσως στη συνομιλία σας μια πιο φυσική, πλούσια και ώριμη εικόνα."},{"type":"paragraph","text":"Ακολουθούν 50 εκφραστικές εναλλακτικές στη δομή *\"πολύ + επίθετο\"*."},{"type":"heading","level":3,"text":"50 ισχυρές εναλλακτικές στο \"Πολύ + Επίθετο\""},{"type":"table","headers":["Αντί για...","Επιλέξτε..."],"rows":[["**Πολύ κακός**","*άθλιος, απαράδεκτος, τραγικός*"],["**Πολύ καλός**","*εξαιρετικός, υπέροχος, σπουδαίος*"],["**Πολύ μεγάλος**","*τεράστιος, γιγάντιος, κολοσσιαίος*"],["**Πολύ μικρός**","*μικροσκοπικός, ελάχιστος*"],["**Πολύ ωραίος / όμορφος**","*πανέμορφος, καταπληκτικός, εκθαμβωτικός*"],["**Πολύ άσχημος**","*ειδεχθής, αποκρουστικός*"],["**Πολύ ενδιαφέρων**","*συναρπαστικός, καθηλωτικός, ακαταμάχητος*"],["**Πολύ βαρετός**","*ανιαρός, ανυπόφορος, μονότονος*"],["**Πολύ αστείος**","*ξεκαρδιστικός, απολαυστικός*"],["**Πολύ λυπημένος**","*συντετριμμένος, απαρηγόρητος*"],["**Πολύ χαρούμενος**","*ενθουσιασμένος, ευτυχέστατος*"],["**Πολύ θυμωμένος**","*εξοργισμένος, οργισμένος*"],["**Πολύ κουρασμένος**","*εξαντλημένος, κατάκοπος, εξουθενωμένος*"],["**Πολύ πεινασμένος**","*κατάπεινος, λιμοκτονημένος*"],["**Πολύ κρύος**","*παγερός, παγωμένος*"],["**Πολύ ζεστός**","*καυτός, ανυπόφορος (για καύσωνα)*"],["**Πολύ γρήγορος**","*ταχύτατος, αστραπιαίος*"],["**Πολύ αργός**","*νωθρός, βραδυκίνητος*"],["**Πολύ δυνατός (ήχος)**","*κωφαντικός, ξεκουφαντικός*"],["**Πολύ ήσυχος**","*αθόρυβος, γαλήνιος, ήρεμος*"],["**Πολύ φωτεινός**","*εκτυφλωτικός, λαμπερός*"],["**Πολύ σκοτεινός**","*σκοτεινότατος, κατασκότεινος*"],["**Πολύ καθαρός**","*πεντακάθαρος, αψεγάδιαστος*"],["**Πολύ βρώμικος**","*ακάθαρτος, αποκρουστικός*"],["**Πολύ παλιός**","*αρχαίος* (για αντικείμενα), *υπέργηρος* (για ανθρώπους)"],["**Πολύ νέος**","*ολοκαίνουργιος, καινοτόμος*"],["**Πολύ πλούσιος**","*εύπορος, ζάπλουτος*"],["**Πολύ φτωχός**","*άπορος, εξαθλιωμένος*"],["**Πολύ εύκολος**","*πανεύκολος, απλούστατος*"],["**Πολύ δύσκολος**","*απαιτητικός, περίπλοκος, επίπονος*"],["**Πολύ σημαντικός**","*κρίσιμος, καθοριστικός, θεμελιώδης*"],["**Πολύ γνωστός**","*διάσημος, περιζήτητος, θρυλικός*"],["**Πολύ φοβισμένος**","*τρομοκρατημένος, απολιθωμένος*"],["**Πολύ ξαφνιασμένος**","*έκπληκτος, κατάπληκτος*"],["**Πολύ ενθουσιασμένος**","*κατενθουσιασμένος*"],["**Πολύ ανήσυχος**","*περιδεής, ανήσυχος*"],["**Πολύ μπερδεμένος**","*μπερδεμένος, αμήχανος*"],["**Πολύ έξυπνος**","*φυγάς, ευφυέστατος, χαρισματικός*"],["**Πολύ χαζός**","*παράλογος, ανόητος*"],["**Πολύ γενναίος**","*ατρόμητος, γενναιόψυχος*"],["**Πολύ αδύναμος**","*ανήμπορος, εύθραυστος*"],["**Πολύ ισχυρός**","*πανίσχυρος, στιβαρός*"],["**Πολύ ακριβός**","*πανάκριβος, υπέρογκος*"],["**Πολύ φθηνός**","*πανθηνός, οικονομικός*"],["**Πολύ γεμάτος / κόσμος**","*κατάμεστος, αδιαχώρητος*"],["**Πολύ άδειος**","*έρημος, ολοκληρωτικά άδειος*"],["**Πολύ απασχολημένος**","*κατάκοπος, πνιγμένος στη δουλειά*"]]},{"type":"heading","level":3,"text":"Παράδειγμα στην πράξη"},{"type":"paragraph","text":"Δείτε πώς αλλάζει η εικόνα μιας πρότασης:"},{"type":"pullquote","quote":"**Πριν (B1):** *\"Είχα μια πολύ γεμάτη μέρα και είμαι πολύ κουρασμένος.\"*\n**Μετά (B2):** *\"Είχα μια απαιτητική μέρα και είμαι εξαντλημένος.\"*"}],"translationOf":"replace-very-50-stronger-adjectives","draft":false}
+        });
+      }
+    </script>
 </body>
 </html>

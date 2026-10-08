@@ -26,7 +26,7 @@ function cleanText(str) {
     .trim();
 }
 
-test('Every JSON post builds to HTML and retains text content', () => {
+test('Every JSON post builds to HTML and retains text content equivalence', () => {
   const jsonFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.json'));
   assert.ok(jsonFiles.length > 0, 'Should find JSON post files.');
 

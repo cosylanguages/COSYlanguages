@@ -7,10 +7,11 @@
     <meta name="description" content="Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#0d9488">
 
+    <!-- Self-hosted & Google Fonts with Latin, Cyrillic & Greek support -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,900;1,9..144,300;1,9..144,600&family=DM+Sans:wght@400;500;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,277 +20,193 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-font-display: 'Fraunces', 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', 'DM Sans', sans-serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-container">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Хватит повторять эти 50 фраз! Естественные разговорные замены для B1–B2</h1>
+    <div class="blog-wrapper" style="max-width: 1080px; margin: 0 auto; padding: 1.5rem 1rem;">
 
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="replace-50-overused-phrases-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <a href="replace-50-overused-phrases-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <a href="replace-50-overused-phrases-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇷🇺 RU</span> <a href="replace-50-overused-phrases.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-13</span>
-                <span>·</span>
-                <span>⏱️ 2 min read</span>
+        <!-- Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <h1 class="gazette-masthead-title">COSY GAZETTE</h1>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span>DESK: WORDS</span>
+                <span>2026-09-13</span>
             </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-top: 0.75rem;">
+              <a href="index.html" style="color: var(--post-palette-accent); text-decoration: none; font-weight: 700; font-size: 0.85rem;">← Back to Editorial Corner</a>
+              <div style="display: flex; gap: 0.75rem;">
+                <a href="replace-50-overused-phrases-ru.html?stage=1" class="stamp-sticker" style="text-decoration: none;">📺 Stage Mode</a>
+                <a href="replace-50-overused-phrases-ru.html?script=1" class="stamp-sticker" style="text-decoration: none;">📜 Script Mode</a>
+              </div>
+            </div>
+
+<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.5rem 0;">
+  <a href="replace-50-overused-phrases-el.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇬🇷 EL</a> <a href="replace-50-overused-phrases-fr.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇫🇷 FR</a> <a href="replace-50-overused-phrases-it.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇮🇹 IT</a> <span class="lang-switcher-active stamp-sticker" style="background: var(--post-palette-accent); color: #ffffff;">🇷🇺 RU</span> <a href="replace-50-overused-phrases.html" class="lang-switcher-link stamp-sticker" style="text-decoration: none;">🇬🇧 EN</a>
+</div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
-                    </div>
-                </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
+        <!-- Full-Bleed Cover Art -->
+        <div class="gazette-cover-wrapper" style="margin-bottom: 2rem; border-radius: 12px; overflow: hidden; border: 2px solid var(--blog-border-strong); box-shadow: var(--blog-shadow-paper);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-50-overused-phrases-ru">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="800" height="400" fill="#d69e2e" />
+
+      <ellipse cx="579" cy="170" rx="148" ry="82" fill="#1e293b" opacity="0.25" transform="rotate(25 579 170)" style="filter: blur(12px);" />
+      <ellipse cx="589" cy="165" rx="88.8" ry="49.199999999999996" fill="#0d9488" opacity="0.15" transform="rotate(25 579 170)" style="filter: blur(8px);" />
+
+      <ellipse cx="318" cy="307" rx="122" ry="138" fill="#1e293b" opacity="0.25" transform="rotate(167 318 307)" style="filter: blur(12px);" />
+      <ellipse cx="328" cy="302" rx="73.2" ry="82.8" fill="#0d9488" opacity="0.15" transform="rotate(167 318 307)" style="filter: blur(8px);" />
+
+      <ellipse cx="608" cy="121" rx="156" ry="107" fill="#1e293b" opacity="0.25" transform="rotate(309 608 121)" style="filter: blur(12px);" />
+      <ellipse cx="618" cy="116" rx="93.6" ry="64.2" fill="#0d9488" opacity="0.15" transform="rotate(309 608 121)" style="filter: blur(8px);" />
+
+      <ellipse cx="345" cy="147" rx="166" ry="102" fill="#1e293b" opacity="0.25" transform="rotate(286 345 147)" style="filter: blur(12px);" />
+      <ellipse cx="355" cy="142" rx="99.6" ry="61.199999999999996" fill="#0d9488" opacity="0.15" transform="rotate(286 345 147)" style="filter: blur(8px);" />
+
+      <ellipse cx="428" cy="275" rx="138" ry="49" fill="#1e293b" opacity="0.25" transform="rotate(157 428 275)" style="filter: blur(12px);" />
+      <ellipse cx="438" cy="270" rx="82.8" ry="29.4" fill="#0d9488" opacity="0.15" transform="rotate(157 428 275)" style="filter: blur(8px);" />
+
+  
+
+    </svg>
+        </div>
+
+        <!-- Article Lead Header -->
+        <div class="article-lead-header" style="margin-bottom: 2rem;">
+            <span class="editorial-kicker">WORDS</span>
+            <h1 class="cover-headline" style="font-family: var(--post-font-display); margin: 0.5rem 0 1rem 0;">Хватит повторять эти 50 фраз! Естественные разговорные замены для B1–B2</h1>
+            <div class="editorial-dek">Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.</div>
+
+            <!-- Byline Row -->
+            <div class="post-card-meta" style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; font-size: var(--blog-text-xs); color: var(--blog-ink-muted); margin-top: 1rem; padding-top: 0.5rem; border-top: 1px solid var(--blog-border-delicate);">
+                <span>By <strong>JY DM</strong></span>
+                <span>•</span>
+                <span>📅 2026-09-13</span>
+                <span>•</span>
+                <span>⏱️ 2 min read</span>
+                <span>•</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem;">B1–B2</span>
+                <span class="stamp-sticker" style="padding: 0.15rem 0.4rem; background: var(--post-palette-accent); color: #ffffff;">🎙️ EP. 2</span>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-ru-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Когда вы достигаете <strong>плато среднего уровня (B1–B2)</strong>, вы легко поддерживаете беседу, выражаете мысли и понимаете собеседника. Однако большинство преподавателей замечают одну и ту же тенденцию: студенты из раза в раз используют несколько базовых фраз-заглушек: <em>&quot;Я думаю...&quot;</em>, <em>&quot;Я согласен&quot;</em>, <em>&quot;Это зависит&quot;</em>, <em>&quot;Я не знаю&quot;</em>.</p>
-<p>Чтобы сделать речь живой, не нужно заучивать редкие идиомы. Достаточно освоить гибкие разговорные замены и <strong>прямые противоположности</strong>.</p>
-<p>Ниже представлены 50 популярные разговорные конструкции с вариантами замены.</p>
+        <!-- Podcast Player Container -->
+        <div id="podcast-box-container" style="margin-bottom: 2rem;"></div>
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-ru-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>1. Согласие и несогласие (Прямые противоположности)</h3>
-<h4>1. Я согласен ↔ 2. Я не согласен</h4>
-<ul>
+        <!-- Main Content Area with Format Layout -->
+        <main class="gazette-main-content format-list">
+            <article class="post-full-content" style="line-height: 1.8; color: var(--blog-ink-primary);">
+                <p class=" gazette-drop-cap">Когда вы достигаете <strong>плато среднего уровня (B1–B2)</strong>, вы легко поддерживаете беседу, выражаете мысли и понимаете собеседника. Однако большинство преподавателей замечают одну и ту же тенденцию: студенты из раза в раз используют несколько базовых фраз-заглушек: <em>&quot;Я думаю...&quot;</em>, <em>&quot;Я согласен&quot;</em>, <em>&quot;Это зависит&quot;</em>, <em>&quot;Я не знаю&quot;</em>.</p>
+<p class="">Чтобы сделать речь живой, не нужно заучивать редкие идиомы. Достаточно освоить гибкие разговорные замены и <strong>прямые противоположности</strong>.</p>
+<p class="">Ниже представлены 50 популярные разговорные конструкции с вариантами замены.</p>
+<h3 class="gazette-heading">1. Согласие и несогласие (Прямые противоположности)</h3>
+<h4 class="gazette-heading">1. Я согласен ↔ 2. Я не согласен</h4>
+<ul class="gazette-list">
 <li><strong>Согласие:</strong> <em>Я согласен.</em>
 - <strong>Замены:</strong> <em>Совершенно верно.</em> • <em>Полностью согласен.</em> • <em>Вы правы.</em> • <em>Именно так.</em></li>
 <li><strong>Несогласие:</strong> <em>Я не согласен.</em>
 - <strong>Замены:</strong> <em>Я не совсем уверен.</em> • <em>Я смотрю на это иначе.</em> • <em>Я бы так не сказал.</em></li>
 </ul>
-<h4>3. Это зависит</h4>
-<ul>
+<h4 class="gazette-heading">3. Это зависит</h4>
+<ul class="gazette-list">
 <li><strong>Шаблон:</strong> <em>Это зависит.</em></li>
 <li><strong>Замены:</strong> <em>По-разному.</em> • <em>Всё зависит от обстоятельств.</em> • <em>Тут всё неоднозначно.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-ru-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>2. Выражение мнения и неуверенность</h3>
-<h4>4. Я думаю...</h4>
-<ul>
+<h3 class="gazette-heading">2. Выражение мнения и неуверенность</h3>
+<h4 class="gazette-heading">4. Я думаю...</h4>
+<ul class="gazette-list">
 <li><strong>Шаблон:</strong> <em>Я думаю...</em></li>
 <li><strong>Замены:</strong> <em>На мой взгляд...</em> • <em>Мне кажется...</em> • <em>По-моему...</em> • <em>Я полагаю...</em></li>
 </ul>
-<h4>5. Я не знаю</h4>
-<ul>
+<h4 class="gazette-heading">5. Я не знаю</h4>
+<ul class="gazette-list">
 <li><strong>Шаблон:</strong> <em>Я не знаю.</em></li>
 <li><strong>Замены:</strong> <em>Сложно сказать.</em> • <em>Хороший вопрос.</em> • <em>Я пока не думал об этом.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="4" aria-label="Page 4 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 4 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-ru-page-4.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>3. Нравится ↔ Не нравится (Прямые противоположности)</h3>
-<h4>6. Мне нравится ↔ 7. Мне не нравится</h4>
-<ul>
+<h3 class="gazette-heading">3. Нравится ↔ Не нравится (Прямые противоположности)</h3>
+<h4 class="gazette-heading">6. Мне нравится ↔ 7. Мне не нравится</h4>
+<ul class="gazette-list">
 <li><strong>Нравится:</strong> <em>Мне нравится.</em>
 - <strong>Замены:</strong> <em>Я в восторге от...</em> • <em>Мне это очень по душе.</em> • <em>Я увлекаюсь этим.</em></li>
 <li><strong>Не нравится:</strong> <em>Мне не нравится.</em>
 - <strong>Замены:</strong> <em>Это не совсем моё.</em> • <em>Меня это не особо привлекает.</em> • <em>Я не фанат этого.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 4 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="5" aria-label="Page 5 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 5 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-ru-page-5.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>4. Оценка ситуаций (Хорошо vs Плохо / Легко vs Сложно)</h3>
-<h4>8. Это хорошо ↔ 9. Это плохо</h4>
-<ul>
+<h3 class="gazette-heading">4. Оценка ситуаций (Хорошо vs Плохо / Легко vs Сложно)</h3>
+<h4 class="gazette-heading">8. Это хорошо ↔ 9. Это плохо</h4>
+<ul class="gazette-list">
 <li><strong>Хорошо:</strong> <em>Это хорошо.</em> → <em>Замечательно.</em> • <em>Впечатляюще.</em> • <em>Отличный результат.</em></li>
 <li><strong>Плохо:</strong> <em>Это плохо.</em> → <em>Досадно.</em> • <em>Разочаровывающе.</em> • <em>Оставляет желать лучшего.</em></li>
 </ul>
-<h4>10. Это легко ↔ 11. Это сложно</h4>
-<ul>
+<h4 class="gazette-heading">10. Это легко ↔ 11. Это сложно</h4>
+<ul class="gazette-list">
 <li><strong>Легко:</strong> <em>Это легко.</em> → <em>Проще простого.</em> • <em>Совершенно несложно.</em> • <em>С этим справится каждый.</em></li>
 <li><strong>Сложно:</strong> <em>Это сложно.</em> → <em>Это непростая задача.</em> • <em>Это требует усилий.</em> • <em>Тут есть свои нюансы.</em></li>
 </ul>
+<h3 class="gazette-heading">Практический пример</h3>
+<p class="">Сравните разговорный диалог до и после:</p>
 
+<blockquote class="gazette-pullquote">
+  “<strong>До (Повторяющийся B1):</strong>
+<em>&quot;Я думаю, это предложение хорошее. Я согласен с вами, но это зависит от бюджета.&quot;</em>”
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 5 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="6" aria-label="Page 6 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 6 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-ru-page-6.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Практический пример</h3>
-<p>Сравните разговорный диалог до и после:</p>
-
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>До (Повторяющийся B1):</strong>
-<em>&quot;Я думаю, это предложение хорошее. Я согласен с вами, но это зависит от бюджета.&quot;</em>”</p>
-
 </blockquote>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>После (Уверенный B2):</strong>
-<em>&quot;На мой взгляд, предложение весьма перспективное. Полностью с вами согласен, хотя всё зависит от бюджета.&quot;</em>”</p>
-
-</blockquote>
+<blockquote class="gazette-pullquote">
+  “<strong>После (Уверенный B2):</strong>
+<em>&quot;На мой взгляд, предложение весьма перспективное. Полностью с вами согласен, хотя всё зависит от бюджета.&quot;</em>”
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 6 of 6</span>
-  </div>
-</section>
-                </article>
+</blockquote>
+            </article>
+        </main>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#Разговорник</span> <span class="post-tag-chip">#ПлатоСреднегоУровня</span> <span class="post-tag-chip">#Беглость</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Русский</span>
-                </div>
+        <!-- Folio Footer -->
+        <div class="gazette-folio">
+            <span>COSY GAZETTE • Vol. 2026.09</span>
+            <span class="stamp-sticker">VERIFIED CELLTA STANDARD</span>
+            <span>PUBLISHED BY COSYLANGUAGES</span>
+        </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
-
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+        <!-- Collapsed Founder Deck Colophon Block at End -->
+        <section class="founder-presentation-card" style="margin-top: 3rem;" aria-label="Founder Presentation Deck Colophon">
+            <div class="founder-card-header" style="padding: 1rem;">
+                <div class="founder-info">
+                    <div class="founder-avatar" style="width: 36px; height: 36px; font-size: 1rem; background: var(--post-palette-accent);">J</div>
+                    <div class="founder-meta">
+                        <h4 class="founder-title" style="font-size: 0.95rem; margin: 0;">JY DM — Founder's Colophon &amp; Editorial Deck</h4>
+                        <span class="founder-subtitle" style="font-size: 0.8rem;">CELTA-aligned target-language guidance for Me vs Intermediate Plateau</span>
                     </div>
                 </div>
-
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
+                <div class="founder-card-actions">
+                    <button type="button" class="founder-expand-btn" aria-expanded="false" style="font-size: 0.8rem; padding: 0.35rem 0.6rem;">
+                        <span>🎙️ Colophon Deck</span>
+                    </button>
                 </div>
-            </aside>
-        </div>
+            </div>
+            <div class="founder-card-body">
+                <div class="founder-card-notes">
+                    <p style="font-size: 0.9rem;"><strong>Founder Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                </div>
+            </div>
+        </section>
+
     </div>
 
 <footer>
@@ -343,5 +260,16 @@
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
     <script src="../js/pages/flipbook.js"></script>
+
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      const container = document.getElementById('podcast-box-container');
+      if (container) {
+        new PodcastBoxComponent({
+          container,
+          post: {"id":"post-replace-50-overused-phrases-ru","slug":"replace-50-overused-phrases-ru","language":"ru","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-13","title":"Хватит повторять эти 50 фраз! Естественные разговорные замены для B1–B2","kicker":"WORDS","dek":"Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.","tags":["Разговорник","ПлатоСреднегоУровня","Беглость","B1-B2","Русский"],"readingTime":2,"podcast":{"episode":2,"audioUrl":"../audio/blog/replace-50-overused-phrases-ru.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"replace-50-overused-phrases-ru","coverOverride":null},"blocks":[{"type":"paragraph","text":"Когда вы достигаете **плато среднего уровня (B1–B2)**, вы легко поддерживаете беседу, выражаете мысли и понимаете собеседника. Однако большинство преподавателей замечают одну и ту же тенденцию: студенты из раза в раз используют несколько базовых фраз-заглушек: *\"Я думаю...\"*, *\"Я согласен\"*, *\"Это зависит\"*, *\"Я не знаю\"*."},{"type":"paragraph","text":"Чтобы сделать речь живой, не нужно заучивать редкие идиомы. Достаточно освоить гибкие разговорные замены и **прямые противоположности**."},{"type":"paragraph","text":"Ниже представлены 50 популярные разговорные конструкции с вариантами замены."},{"type":"heading","level":3,"text":"1. Согласие и несогласие (Прямые противоположности)"},{"type":"heading","level":4,"text":"1. Я согласен ↔ 2. Я не согласен"},{"type":"list-item","ordered":false,"items":["**Согласие:** *Я согласен.*\n- **Замены:** *Совершенно верно.* • *Полностью согласен.* • *Вы правы.* • *Именно так.*","**Несогласие:** *Я не согласен.*\n- **Замены:** *Я не совсем уверен.* • *Я смотрю на это иначе.* • *Я бы так не сказал.*"]},{"type":"heading","level":4,"text":"3. Это зависит"},{"type":"list-item","ordered":false,"items":["**Шаблон:** *Это зависит.*","**Замены:** *По-разному.* • *Всё зависит от обстоятельств.* • *Тут всё неоднозначно.*"]},{"type":"heading","level":3,"text":"2. Выражение мнения и неуверенность"},{"type":"heading","level":4,"text":"4. Я думаю..."},{"type":"list-item","ordered":false,"items":["**Шаблон:** *Я думаю...*","**Замены:** *На мой взгляд...* • *Мне кажется...* • *По-моему...* • *Я полагаю...*"]},{"type":"heading","level":4,"text":"5. Я не знаю"},{"type":"list-item","ordered":false,"items":["**Шаблон:** *Я не знаю.*","**Замены:** *Сложно сказать.* • *Хороший вопрос.* • *Я пока не думал об этом.*"]},{"type":"heading","level":3,"text":"3. Нравится ↔ Не нравится (Прямые противоположности)"},{"type":"heading","level":4,"text":"6. Мне нравится ↔ 7. Мне не нравится"},{"type":"list-item","ordered":false,"items":["**Нравится:** *Мне нравится.*\n- **Замены:** *Я в восторге от...* • *Мне это очень по душе.* • *Я увлекаюсь этим.*","**Не нравится:** *Мне не нравится.*\n- **Замены:** *Это не совсем моё.* • *Меня это не особо привлекает.* • *Я не фанат этого.*"]},{"type":"heading","level":3,"text":"4. Оценка ситуаций (Хорошо vs Плохо / Легко vs Сложно)"},{"type":"heading","level":4,"text":"8. Это хорошо ↔ 9. Это плохо"},{"type":"list-item","ordered":false,"items":["**Хорошо:** *Это хорошо.* → *Замечательно.* • *Впечатляюще.* • *Отличный результат.*","**Плохо:** *Это плохо.* → *Досадно.* • *Разочаровывающе.* • *Оставляет желать лучшего.*"]},{"type":"heading","level":4,"text":"10. Это легко ↔ 11. Это сложно"},{"type":"list-item","ordered":false,"items":["**Легко:** *Это легко.* → *Проще простого.* • *Совершенно несложно.* • *С этим справится каждый.*","**Сложно:** *Это сложно.* → *Это непростая задача.* • *Это требует усилий.* • *Тут есть свои нюансы.*"]},{"type":"heading","level":3,"text":"Практический пример"},{"type":"paragraph","text":"Сравните разговорный диалог до и после:"},{"type":"pullquote","quote":"**До (Повторяющийся B1):**\n*\"Я думаю, это предложение хорошее. Я согласен с вами, но это зависит от бюджета.\"*"},{"type":"pullquote","quote":"**После (Уверенный B2):**\n*\"На мой взгляд, предложение весьма перспективное. Полностью с вами согласен, хотя всё зависит от бюджета.\"*"}],"translationOf":"replace-50-overused-phrases","draft":false}
+        });
+      }
+    </script>
 </body>
 </html>
