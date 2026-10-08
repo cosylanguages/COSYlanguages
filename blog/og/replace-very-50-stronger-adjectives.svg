@@ -1,73 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="riso-print" data-seed="replace-very-50-stronger-adjectives">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-very-50-stronger-adjectives">
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
 
-    <rect width="1200" height="630" fill="#f7fafc" />
-    <g filter="url(#riso-grain-799)">
+    <rect width="1200" height="630" fill="#d69e2e" />
 
-      <circle cx="114" cy="282" r="69" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="119" cy="284" r="62.1" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="308" cy="295" rx="144" ry="95" fill="#1e293b" opacity="0.25" transform="rotate(324 308 295)" style="filter: blur(12px);" />
+      <ellipse cx="318" cy="290" rx="86.39999999999999" ry="57" fill="#0d9488" opacity="0.15" transform="rotate(324 308 295)" style="filter: blur(8px);" />
 
-      <circle cx="172" cy="428" r="53" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="168" cy="426" r="47.7" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="701" cy="180" rx="142" ry="87" fill="#1e293b" opacity="0.25" transform="rotate(303 701 180)" style="filter: blur(12px);" />
+      <ellipse cx="711" cy="175" rx="85.2" ry="52.199999999999996" fill="#0d9488" opacity="0.15" transform="rotate(303 701 180)" style="filter: blur(8px);" />
 
-      <circle cx="1129" cy="142" r="51" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="1123" cy="138" r="45.9" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="369" cy="250" rx="173" ry="62" fill="#1e293b" opacity="0.25" transform="rotate(162 369 250)" style="filter: blur(12px);" />
+      <ellipse cx="379" cy="245" rx="103.8" ry="37.199999999999996" fill="#0d9488" opacity="0.15" transform="rotate(162 369 250)" style="filter: blur(8px);" />
 
-      <circle cx="596" cy="372" r="34" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="597" cy="375" r="30.6" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="418" cy="126" rx="86" ry="90" fill="#1e293b" opacity="0.25" transform="rotate(213 418 126)" style="filter: blur(12px);" />
+      <ellipse cx="428" cy="121" rx="51.6" ry="54" fill="#0d9488" opacity="0.15" transform="rotate(213 418 126)" style="filter: blur(8px);" />
 
-      <circle cx="1141" cy="305" r="28" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="1146" cy="311" r="25.2" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
+      <ellipse cx="389" cy="346" rx="126" ry="114" fill="#1e293b" opacity="0.25" transform="rotate(343 389 346)" style="filter: blur(12px);" />
+      <ellipse cx="399" cy="341" rx="75.6" ry="68.39999999999999" fill="#0d9488" opacity="0.15" transform="rotate(343 389 346)" style="filter: blur(8px);" />
 
-      <circle cx="220" cy="321" r="85" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="226" cy="326" r="76.5" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="407" cy="494" r="23" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="410" cy="493" r="20.7" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="997" cy="364" r="80" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="995" cy="360" r="72" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="676" cy="334" r="48" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="670" cy="337" r="43.2" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="640" cy="431" r="31" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="638" cy="428" r="27.900000000000002" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="83" cy="52" r="34" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="87" cy="57" r="30.6" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="164" cy="112" r="57" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="160" cy="117" r="51.300000000000004" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="334" cy="199" r="80" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="329" cy="195" r="72" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="704" cy="276" r="50" fill="#319795" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="709" cy="272" r="45" fill="#319795" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="611" cy="412" r="57" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="613" cy="417" r="51.300000000000004" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="663" cy="233" r="64" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="658" cy="236" r="57.6" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="379" cy="40" r="38" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="375" cy="45" r="34.2" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-      <circle cx="87" cy="147" r="35" fill="#2d3748" opacity="0.4" style="mix-blend-mode: multiply;" />
-      <circle cx="84" cy="142" r="31.5" fill="#2d3748" opacity="0.25" style="mix-blend-mode: multiply;" />
-
-    </g>
 
 
       <g class="cover-text-overlay">
         <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
-        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">RESOURCE LIST • Vol. 2026 — September Issue</text>
+        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">WORDS • Vol. 2026.09</text>
         <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">Stop Saying 'Very'! 50 Stronger Words Every Intermed...</text>
       </g>
 
