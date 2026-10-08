@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2000/svg">
+  <channel>
+    <title>cosylanguages / такиеязыки</title>
+    <link>https://cosylanguages.github.io/COSYlanguages/blog/podcast.html</link>
+    <description>Official podcast for natural, speaking-first language acquisition. Every post includes teleprompter scripts, read-along sync, and 16:9 stage mode decks.</description>
+    <language>en</language>
+    <copyright>© 2020–2026 COSYlanguages</copyright>
+    <itunes:author>JY DM</itunes:author>
+    <itunes:summary>Official podcast for natural, speaking-first language acquisition. Every post includes teleprompter scripts, read-along sync, and 16:9 stage mode decks.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>JY DM</itunes:name>
+      <itunes:email>cosylanguages@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+
+
+    <item>
+      <title>Mastering Conversational Flow: Stage &amp; Podcast Demo (Ep. 10)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/stage-demo-podcast.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/stage-demo-podcast.html</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <description>An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.</description>
+      <content:encoded><![CDATA[<p>An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stage-demo-podcast.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stage-demo-podcast.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/stage-demo-podcast.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>10</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>180</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>My Top 5 Favourite English Grammar Rules for Intermediate Learners (Ep. 10)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/top-5-favourite-grammar-rules.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/top-5-favourite-grammar-rules.html</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and &apos;it&apos;s giving...&apos;.</description>
+      <content:encoded><![CDATA[<p>Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and &apos;it&apos;s giving...&apos;.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-5-favourite-grammar-rules.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-5-favourite-grammar-rules.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/top-5-favourite-grammar-rules.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>10</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>1035</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Building the COSY Master Curriculum Across 14 Target Languages (Ep. 7)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/building-cosy-master-curriculum.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/building-cosy-master-curriculum.html</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>An architectural breakdown of the Top 100 semantic master tree, CEFR alignment, and cross-language vocabulary integration across all 14 COSY target languages.</description>
+      <content:encoded><![CDATA[<p>An architectural breakdown of the Top 100 semantic master tree, CEFR alignment, and cross-language vocabulary integration across all 14 COSY target languages.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/building-cosy-master-curriculum.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/building-cosy-master-curriculum.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/building-cosy-master-curriculum.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>675</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Why &apos;Speaking First&apos; Changes Everything in Language Acquisition (Ep. 6)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/why-speaking-first.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/why-speaking-first.html</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Exploring the CELTA-aligned Speaking First methodology: why oral communication must precede formal grammar tables for natural, confident fluency.</description>
+      <content:encoded><![CDATA[<p>Exploring the CELTA-aligned Speaking First methodology: why oral communication must precede formal grammar tables for natural, confident fluency.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/why-speaking-first.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/why-speaking-first.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/why-speaking-first.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>675</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Overcoming the Intermediate Plateau: A Practical Roadmap for B1–B2 Learners (Ep. 5)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/overcoming-intermediate-plateau.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/overcoming-intermediate-plateau.html</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Discover actionable strategies, mindsets, and deliberate practice routines to break out of the comfortable intermediate plateau and reach effortless B2–C1 fluency.</description>
+      <content:encoded><![CDATA[<p>Discover actionable strategies, mindsets, and deliberate practice routines to break out of the comfortable intermediate plateau and reach effortless B2–C1 fluency.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/overcoming-intermediate-plateau.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/overcoming-intermediate-plateau.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/overcoming-intermediate-plateau.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>5</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>675</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2) (Ep. 4)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-el.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-el.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως &apos;κάνω&apos;, &apos;λέω&apos; και &apos;σκέφτομαι&apos; με ακριβή και εκφραστικά συνώνυμα.</description>
+      <content:encoded><![CDATA[<p>Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως &apos;κάνω&apos;, &apos;λέω&apos; και &apos;σκέφτομαι&apos; με ακριβή και εκφραστικά συνώνυμα.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-el.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-el.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/top-10-verb-synonyms-intermediate-plateau-el.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>675</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire (Ep. 4)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-fr.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-fr.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme &apos;faire&apos;, &apos;dire&apos; et &apos;penser&apos; par des synonymes précis et élégants.</description>
+      <content:encoded><![CDATA[<p>Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme &apos;faire&apos;, &apos;dire&apos; et &apos;penser&apos; par des synonymes précis et élégants.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-fr.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-fr.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/top-10-verb-synonyms-intermediate-plateau-fr.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>675</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2) (Ep. 4)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-it.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-it.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Supera l&apos;altopiano intermedio B1–B2 sostituendo verbi generici come &apos;fare&apos;, &apos;dire&apos;, &apos;pensare&apos; e &apos;avere&apos; con sinonimi precisi ed eleganti.</description>
+      <content:encoded><![CDATA[<p>Supera l&apos;altopiano intermedio B1–B2 sostituendo verbi generici come &apos;fare&apos;, &apos;dire&apos;, &apos;pensare&apos; e &apos;avere&apos; con sinonimi precisi ed eleganti.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-it.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-it.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/top-10-verb-synonyms-intermediate-plateau-it.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>675</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2) (Ep. 4)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-ru.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-ru.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде &apos;делать&apos;, &apos;сказать&apos; и &apos;думать&apos; точными и выразительными синонимами.</description>
+      <content:encoded><![CDATA[<p>Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде &apos;делать&apos;, &apos;сказать&apos; и &apos;думать&apos; точными и выразительными синонимами.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-ru.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-ru.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/top-10-verb-synonyms-intermediate-plateau-ru.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>675</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Plateau (Ep. 4)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.</description>
+      <content:encoded><![CDATA[<p>Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/top-10-verb-synonyms-intermediate-plateau.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>720</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Σταματήστε να λέτε &apos;Πολύ&apos;! 50 ισχυρά επίθετα για να εμπλουτίσετε το λεξιλόγιό σας (Ep. 3)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-el.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-el.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό &apos;πολύ + επίθετο&apos; με 50 ακριβή, εκφραστικά και φυσικά επίθετα.</description>
+      <content:encoded><![CDATA[<p>Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό &apos;πολύ + επίθετο&apos; με 50 ακριβή, εκφραστικά και φυσικά επίθετα.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-el.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-el.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-very-50-stronger-adjectives-el.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>720</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Arrêtez de dire &apos;Très&apos; ! 50 adjectifs forts pour enrichir votre vocabulaire (Ep. 3)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-fr.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-fr.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Passez au niveau supérieur en remplaçant la combinaison répétitive &apos;très + adjectif&apos; par 50 adjectifs précis, expressifs et naturels.</description>
+      <content:encoded><![CDATA[<p>Passez au niveau supérieur en remplaçant la combinaison répétitive &apos;très + adjectif&apos; par 50 adjectifs précis, expressifs et naturels.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-fr.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-fr.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-very-50-stronger-adjectives-fr.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>720</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Basta dire &apos;Molto&apos;! 50 aggettivi forti per arricchire il tuo vocabolario (Ep. 3)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-it.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-it.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Migliora la tua padronanza dell&apos;italiano sostituendo la combinazione ripetitiva &apos;molto + aggettivo&apos; con 50 aggettivi precisi, espressivi e naturali.</description>
+      <content:encoded><![CDATA[<p>Migliora la tua padronanza dell&apos;italiano sostituendo la combinazione ripetitiva &apos;molto + aggettivo&apos; con 50 aggettivi precisi, espressivi e naturali.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-it.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-it.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-very-50-stronger-adjectives-it.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>720</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Хватит говорить &apos;Очень&apos;! 50 сильных прилагательных для богатого словарного запаса (Ep. 3)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-ru.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-ru.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Поднимите уровень своего языка, заменив повторяющуюся связку &apos;очень + прилагательное&apos; 50 выразительными, точными и естественными прилагательными.</description>
+      <content:encoded><![CDATA[<p>Поднимите уровень своего языка, заменив повторяющуюся связку &apos;очень + прилагательное&apos; 50 выразительными, точными и естественными прилагательными.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-ru.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-ru.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-very-50-stronger-adjectives-ru.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>720</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Stop Saying &apos;Very&apos;! 50 Stronger Words Every Intermediate English Learner Should Know (Ep. 3)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives.html</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Level up your English vocabulary by replacing repetitive &apos;very + adjective&apos; combinations with 50 powerful, precise adjectives and bonus advanced upgrades.</description>
+      <content:encoded><![CDATA[<p>Level up your English vocabulary by replacing repetitive &apos;very + adjective&apos; combinations with 50 powerful, precise adjectives and bonus advanced upgrades.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-very-50-stronger-adjectives.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>720</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Σταματήστε να επαναλαμβάνετε αυτές τις 50 φράσεις! Φυσικές εναλλακτικές για το B1–B2 (Ep. 2)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-el.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-el.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Εμπλουτίστε τον προφορικό σας λόγο αντικαθιστώντας 50 επαναλαμβανόμενες εκφράσεις του B1 με φυσικές επιλογές και τα άμεσα αντίθετά τους.</description>
+      <content:encoded><![CDATA[<p>Εμπλουτίστε τον προφορικό σας λόγο αντικαθιστώντας 50 επαναλαμβανόμενες εκφράσεις του B1 με φυσικές επιλογές και τα άμεσα αντίθετά τους.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-el.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-el.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-50-overused-phrases-el.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>765</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Arrêtez de dire ces 50 expressions répétitives ! Alternatives naturelles pour le niveau intermédiaire (Ep. 2)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-fr.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-fr.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.</description>
+      <content:encoded><![CDATA[<p>Enrichissez votre expression orale en remplaçant les tics de langage B1 par 50 expressions naturelles avec leurs opposés directs.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-fr.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-fr.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-50-overused-phrases-fr.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>765</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio (Ep. 2)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-it.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-it.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.</description>
+      <content:encoded><![CDATA[<p>Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-it.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-it.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-50-overused-phrases-it.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>765</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Хватит повторять эти 50 фраз! Естественные разговорные замены для B1–B2 (Ep. 2)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-ru.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-ru.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.</description>
+      <content:encoded><![CDATA[<p>Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-ru.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-ru.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-50-overused-phrases-ru.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>765</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Stop Saying These 50 Phrases! Natural Conversational Upgrades for Intermediate English (Ep. 2)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.</description>
+      <content:encoded><![CDATA[<p>Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/replace-50-overused-phrases.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>855</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Σταματήστε τη μετάφραση! 10 επαναχρησιμοποιήσιμες δομές προτάσεων για να μιλάτε από την πρώτη μέρα (Ep. 1)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-el.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-el.html</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Μάθετε 10 βασικές δομές προτάσεων και 20 φράσεις επιβίωσης για να καταργήσετε τη μετάφραση λέξη προς λέξη, να περιγράφετε κάθε άγνωστη λέξη και να σκέφτεστε απευθείας στη γλώσσα.</description>
+      <content:encoded><![CDATA[<p>Μάθετε 10 βασικές δομές προτάσεων και 20 φράσεις επιβίωσης για να καταργήσετε τη μετάφραση λέξη προς λέξη, να περιγράφετε κάθε άγνωστη λέξη και να σκέφτεστε απευθείας στη γλώσσα.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-el.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-el.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/stop-translating-10-sentence-frames-el.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>810</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour (Ep. 1)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-fr.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-fr.html</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n&apos;importe quel mot oublié et penser directement en langue cible.</description>
+      <content:encoded><![CDATA[<p>Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n&apos;importe quel mot oublié et penser directement en langue cible.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-fr.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-fr.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/stop-translating-10-sentence-frames-fr.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>810</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Basta tradurre! 10 strutture di frasi riutilizzabili per parlare fin dal primo giorno (Ep. 1)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-it.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-it.html</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua.</description>
+      <content:encoded><![CDATA[<p>Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-it.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-it.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/stop-translating-10-sentence-frames-it.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>810</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня (Ep. 1)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-ru.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-ru.html</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.</description>
+      <content:encoded><![CDATA[<p>Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-ru.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-ru.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/stop-translating-10-sentence-frames-ru.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>810</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One (Ep. 1)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames.html</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.</description>
+      <content:encoded><![CDATA[<p>Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/stop-translating-10-sentence-frames.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>810</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Welcome to the COSY Editorial &amp; Learning Corner (Ep. 1)</title>
+      <link>https://cosylanguages.github.io/COSYlanguages/blog/welcome-to-cosy-blog.html</link>
+      <guid isPermaLink="true">https://cosylanguages.github.io/COSYlanguages/blog/welcome-to-cosy-blog.html</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.</description>
+      <content:encoded><![CDATA[<p>Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.</p><p>📜 <a href="https://cosylanguages.github.io/COSYlanguages/blog/welcome-to-cosy-blog.html?script=1">Teleprompter Script</a> | 📺 <a href="https://cosylanguages.github.io/COSYlanguages/blog/welcome-to-cosy-blog.html?stage=1">16:9 Stage Deck</a></p>]]></content:encoded>
+      <enclosure url="https://cosylanguages.github.io/COSYlanguages/blog/audio/blog/welcome-to-cosy-blog-page-1.mp3" length="3145728" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>JY DM</itunes:author>
+      <itunes:duration>180</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
