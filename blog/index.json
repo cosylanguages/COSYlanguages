@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-08T10:35:00.501Z",
+  "generatedAt": "2026-10-08T11:13:37.147Z",
   "stats": {
     "totalPosts": 41,
     "totalDesks": 9,
@@ -5544,9 +5544,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5554,7 +5555,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1",
         "coverOverride": null
       },
@@ -5592,9 +5593,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5602,7 +5604,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-english",
         "coverOverride": null
       },
@@ -5640,9 +5642,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5650,7 +5653,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-french",
         "coverOverride": null
       },
@@ -5688,9 +5691,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5698,7 +5702,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-italian",
         "coverOverride": null
       },
@@ -5736,9 +5740,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5746,7 +5751,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-russian",
         "coverOverride": null
       },
@@ -5784,9 +5789,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5794,7 +5800,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-greek",
         "coverOverride": null
       },
@@ -5832,9 +5838,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5842,7 +5849,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-spanish",
         "coverOverride": null
       },
@@ -5880,9 +5887,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5890,7 +5898,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-german",
         "coverOverride": null
       },
@@ -5928,9 +5936,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5938,7 +5947,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-portuguese",
         "coverOverride": null
       },
@@ -5976,9 +5985,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -5986,7 +5996,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-armenian",
         "coverOverride": null
       },
@@ -6024,9 +6034,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -6034,7 +6045,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-georgian",
         "coverOverride": null
       },
@@ -6072,9 +6083,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -6082,7 +6094,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-tatar",
         "coverOverride": null
       },
@@ -6120,9 +6132,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -6130,7 +6143,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-bashkir",
         "coverOverride": null
       },
@@ -6168,9 +6181,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -6178,7 +6192,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-100-a0-a1-breton",
         "coverOverride": null
       },
@@ -6651,9 +6665,10 @@
       },
       "artDirection": {
         "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
+          "#22543d",
+          "#38a169",
+          "#d69e2e",
+          "#f0fff4"
         ],
         "fonts": {
           "display": "Fraunces",
@@ -6661,7 +6676,7 @@
           "accent": "Fraunces Italic"
         },
         "layout": "standard-feed",
-        "motif": "riso-print",
+        "motif": "doodle-border",
         "seed": "top-10-verbs",
         "coverOverride": null
       },

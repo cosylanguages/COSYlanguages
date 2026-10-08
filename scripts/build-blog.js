@@ -263,6 +263,8 @@ function formatFlipbookContent(renderedHtml, slug) {
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/magazine-templates.css">
 </head>
 <body class="blog-page">
 
