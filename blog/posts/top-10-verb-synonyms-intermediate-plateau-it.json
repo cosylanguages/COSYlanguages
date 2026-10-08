@@ -1,0 +1,218 @@
+{
+  "id": "post-top-10-verb-synonyms-intermediate-plateau-it",
+  "slug": "top-10-verb-synonyms-intermediate-plateau-it",
+  "language": "it",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-11",
+  "title": "I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)",
+  "kicker": "WORDS",
+  "dek": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti.",
+  "tags": [
+    "AltopianoIntermedio",
+    "Vocabolario",
+    "B1-B2",
+    "Verbi",
+    "Italiano"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 4,
+    "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-it.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "top-10-verb-synonyms-intermediate-plateau-it",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sostituire i verbi generici",
+      "say": "Al livello B1–B2 si tende a ripetere verbi generici come 'fare', 'dire' o 'pensare'. Sostituirli con sinonimi precisi arricchisce la conversazione.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "I verbi generici hanno troppi significati. Usare verbi specifici chiarisce il pensiero nel lavoro e nello studio.",
+      "say": "Usare verbi specifici rende più chiaro ed elegante il discorso.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Esempi di verbi precisi",
+      "say": "Ecco esempi di verbi precisi.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Il team ha acquisito l'azienda e guidato il nuovo progetto.",
+      "gloss": "Sostituisce 'ha preso l'azienda' (acquisito) e 'ha iniziato il progetto' (guidato).",
+      "context": "Ambito professionale",
+      "say": "Il team ha acquisito l'azienda e guidato il nuovo progetto.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronuncia & Ritmo 🗣️",
+      "say": "Say It. Pratica la pronuncia dei verbi.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "acquisire",
+      "ipa": "/ak.kwiˈsi.re/",
+      "say": "Acquisire. Pronuncia con accento sulla terza sillaba.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "La precisione verbale in italiano",
+      "content": "In italiano sostituire 'fare un progetto' con 'elaborare un progetto' dimostra proprietà di linguaggio e ricchezza espressiva.",
+      "say": "Culture bite: La precisione verbale dimostra proprietà di linguaggio.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz in 3 Domande 📝",
+      "say": "Metti alla prova le tue conoscenze con un breve quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale verbo preciso sostituisce 'fare un progetto'?",
+      "options": [
+        "elaborare / ideare",
+        "avere",
+        "dire",
+        "andare"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Elaborare' o 'ideare' sostituisce il generico 'fare'.",
+      "say": "Domanda 1: Quale verbo preciso sostituisce 'fare un progetto'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale verbo sostituisce 'dire' in un contesto formale?",
+      "options": [
+        "affermare / dichiarare",
+        "fare",
+        "pensare",
+        "venire"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Affermare' o 'dichiarare' sostituisce 'dire'.",
+      "say": "Domanda 2: Quale verbo sostituisce 'dire'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale verbo sostituisce 'prendere una laurea'?",
+      "options": [
+        "conseguire / ottenere",
+        "fare",
+        "mangiare",
+        "andare"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Conseguire una laurea' è l'espressione corretta e formale.",
+      "say": "Domanda 3: Quale verbo sostituisce 'prendere una laurea'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=it&type=vocabulary&level=B1-B2",
+      "label": "Modulo di pratica interattiva verbi B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Archivio centrale di verbi COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Speaking Clubs e incontri dal vivo"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "post-replace-50-overused-phrases-it",
+  "slug": "replace-50-overused-phrases-it",
+  "language": "it",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-13",
+  "title": "Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio",
+  "kicker": "WORDS",
+  "dek": "Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.",
+  "tags": [
+    "Frasi",
+    "AltopianoIntermedio",
+    "Fluidità",
+    "B1-B2",
+    "Italiano"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": "../audio/blog/replace-50-overused-phrases-it.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-50-overused-phrases-it",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Superare l'altopiano intermedio B1–B2",
+      "say": "Al livello intermedio si tende a ripetere sempre le stesse frasi sicure. Sostituirle rende il discorso più naturale e coinvolgente.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Migliorare la propria conversazione quotidiana non richiede parole complesse, ma sfumature naturali e contrasti chiari.",
+      "say": "Migliorare la propria conversazione quotidiana dona immediatezza e fluidità.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Esprimere accordo e disaccordo",
+      "say": "Categoria 1: Esprimere accordo e disaccordo.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Condivido in pieno! / Non ne sono così sicuro/a.",
+      "gloss": "Alternative naturali a 'Sono d'accordo' / 'Non sono d'accordo'.",
+      "context": "Discussione e conversazione",
+      "say": "Condivido in pieno! Non ne sono così sicuro.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Esprimere opinioni e incertezza",
+      "say": "Categoria 2: Esprimere opinioni.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "A mio parere... / È difficile da dire.",
+      "gloss": "Sostituzioni per 'Penso che...' e 'Non lo so'.",
+      "context": "Condividere il proprio punto di vista",
+      "say": "A mio parere... È difficile da dire.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronuncia & Intonazione 🗣️",
+      "say": "Say It. Pratica l'intonazione naturale.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "Condivido in pieno.",
+      "ipa": "/kon.diˈvi.do in ˈpjɛ.no/",
+      "say": "Condivido in pieno. Pronuncia con calore ed enfasi.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "La gentilezza nel disaccordo in italiano",
+      "content": "Nella conversazione italiana, un disaccordo troppo diretto può sembrare brusco. Usare 'Non ne sono così sicuro' mantiene la conversazione amichevole e fluida.",
+      "say": "Culture bite: La sfumatura espressiva mantiene amichevole lo scambio.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz in 3 Domande 📝",
+      "say": "Metti alla prova le tue conoscenze con un breve quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale espressione sostituisce 'Sono d'accordo'?",
+      "options": [
+        "Condivido in pieno.",
+        "Dipende.",
+        "Non so.",
+        "Forse."
+      ],
+      "correctIndex": 0,
+      "explanation": "'Condivido in pieno' è un'alternativa naturale ed espressiva.",
+      "say": "Domanda 1: Quale espressione sostituisce 'Sono d'accordo'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Come si esprime un disaccordo in modo gentile?",
+      "options": [
+        "È sbagliato.",
+        "Non ne sono così sicuro/a.",
+        "Mai.",
+        "Lo odio."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Non ne sono così sicuro/a' ammorbidisce il disaccordo.",
+      "say": "Domanda 2: Come si esprime un disaccordo in modo gentile?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale frase sostituisce 'Non lo so' in una conversazione?",
+      "options": [
+        "Non mi importa.",
+        "È difficile da dire.",
+        "No.",
+        "È caro."
+      ],
+      "correctIndex": 1,
+      "explanation": "'È difficile da dire' dimostra una riflessione ponderata.",
+      "say": "Domanda 3: Quale frase sostituisce 'Non lo so'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=it&type=vocabulary&level=B1-B2",
+      "label": "Modulo di pratica interattiva B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Archivio centrale di frasi COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Speaking Clubs e incontri dal vivo"
+    }
+  ]
+}

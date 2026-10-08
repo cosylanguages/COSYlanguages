@@ -1,0 +1,229 @@
+{
+  "id": "post-replace-very-50-stronger-adjectives",
+  "slug": "replace-very-50-stronger-adjectives",
+  "language": "en",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-12",
+  "title": "Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner Should Know",
+  "kicker": "WORDS",
+  "dek": "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades.",
+  "tags": [
+    "Vocabulary",
+    "IntermediatePlateau",
+    "Adjectives",
+    "B1-B2"
+  ],
+  "readingTime": 5,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-very-50-stronger-adjectives",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Beyond 'Very': Moving to Precise Adjectives",
+      "say": "One of the most noticeable signs of the intermediate plateau is relying on 'very' to intensify everyday words. Transitioning to stronger single-word adjectives makes your English vivid and concise.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "While saying 'very big' or 'very good' is grammatically correct, overusing 'very' sounds repetitive. Strong single-word adjectives make your spoken and written communication express emotions with precision.",
+      "say": "Strong single-word adjectives make your spoken and written communication express emotions with precision.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Key Strong Adjective Upgrades",
+      "say": "Here are key adjective upgrades for everyday conversations.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "I had a hectic day at work and I am completely exhausted.",
+      "gloss": "Replaces 'very busy' (hectic) and 'very tired' (exhausted).",
+      "context": "After a long workday",
+      "say": "I had a hectic day at work and I am completely exhausted.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "The view from the mountain peak was breathtaking.",
+      "gloss": "Replaces 'very beautiful' (breathtaking).",
+      "context": "Describing nature or scenery",
+      "say": "The view from the mountain peak was breathtaking.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronunciation & Stress 🗣️",
+      "say": "Say It section. Practice stress on strong multi-syllable adjectives.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "exhausted",
+      "ipa": "/ɪɡˈzɔː.stɪd/",
+      "say": "Exhausted. Stress the middle syllable.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Extreme Adjectives Don't Take 'Very'",
+      "content": "Strong adjectives like 'exhausted', 'freezing', or 'spotless' already include 'very' in their definition. Instead of 'very freezing', native speakers say 'completely freezing' or 'absolutely spotless'.",
+      "say": "Culture bite: Strong adjectives take 'absolutely' or 'completely' instead of 'very'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Test your understanding with a quick 3-question mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which strong adjective replaces 'very tired'?",
+      "options": [
+        "exhausted",
+        "famished",
+        "furious",
+        "freezing"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Exhausted' means extremely tired.",
+      "say": "Question 1: Which strong adjective replaces 'very tired'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which modifier collocates naturally with strong adjectives like 'spotless'?",
+      "options": [
+        "very",
+        "absolutely",
+        "more",
+        "too"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extreme adjectives use non-gradable intensifiers like 'absolutely' or 'completely'.",
+      "say": "Question 2: Which modifier collocates naturally with strong adjectives?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What strong word replaces 'very hungry'?",
+      "options": [
+        "parched",
+        "famished",
+        "furious",
+        "silent"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Famished' or 'starving' replaces 'very hungry'.",
+      "say": "Question 3: What strong word replaces 'very hungry'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?type=vocabulary&level=B1-B2",
+      "label": "Interactive Adjectives & Vocabulary Practice"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "COSYdata Master Vocabulary Repository"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Live B1–B2 Vocabulary Workshops"
+    }
+  ]
+}

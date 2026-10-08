@@ -1,0 +1,230 @@
+{
+  "id": "post-replace-very-50-stronger-adjectives-el",
+  "slug": "replace-very-50-stronger-adjectives-el",
+  "language": "el",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-12",
+  "title": "Σταματήστε να λέτε 'Πολύ'! 50 ισχυρά επίθετα για να εμπλουτίσετε το λεξιλόγιό σας",
+  "kicker": "WORDS",
+  "dek": "Αναβαθμίστε τα ελληνικά σας αντικαθιστώντας τον επαναλαμβανόμενο συνδυασμό 'πολύ + επίθετο' με 50 ακριβή, εκφραστικά και φυσικά επίθετα.",
+  "tags": [
+    "Λεξιλόγιο",
+    "ΕνδιάμεσοΕπίπεδο",
+    "Επίθετα",
+    "B1-B2",
+    "Ελληνικά"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-el.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-very-50-stronger-adjectives-el",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ξεπερνώντας το 'Πολύ' στο Ενδιάμεσο Επίπεδο",
+      "say": "Η συνεχής χρήση της λέξης 'πολύ' πριν από επίθετα είναι σύνηθες χαρακτηριστικό του ενδιάμεσου επιπέδου. Η αντικατάστασή της με ισχυρά επίθετα προσφέρει ακρίβεια.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Αντί να λέτε 'πολύ κουρασμένος' ή 'πολύ ωραίος', τα ελληνικά διαθέτουν πλούσιες μονολεκτικές επιλογές όπως 'κατάκοπος' ή 'πανέμορφος'.",
+      "say": "Τα ελληνικά διαθέτουν πλούσιες μονολεκτικές επιλογές όπως 'κατάκοπος' ή 'πανέμορφος'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Βασικές αναβαθμίσεις επιθέτων",
+      "say": "Δείτε βασικές αναβαθμίσεις επιθέτων.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Γύρισα από τη δουλειά κατάκοπος.",
+      "gloss": "Αντικαθιστά το 'πολύ κουρασμένος' με το 'κατάκοπος'.",
+      "context": "Μετά από μια κουραστική μέρα",
+      "say": "Γύρισα από τη δουλειά κατάκοπος.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Η θέα από το βουνό ήταν καταπληκτική.",
+      "gloss": "Αντικαθιστά το 'πολύ ωραία' με το 'καταπληκτική'.",
+      "context": "Περιγράφοντας τη φύση",
+      "say": "Η θέα από το βουνό ήταν καταπληκτική.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Προφορά & Τονισμός 🗣️",
+      "say": "Say It. Εξασκηθείτε στον τονισμό.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "κατάκοπος",
+      "ipa": "/kaˈta.ko.pos/",
+      "say": "Κατάκοπος. Τονίστε την δεύτερη συλλαβή.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Εκφραστικότητα στη νέα ελληνική",
+      "content": "Η ελληνική γλώσσα αγαπά τα σύνθετα επίθετα με προθήματα όπως 'παν-' (πανέμορφος) ή 'κατα-' (κατάκοπος) που εκφράζουν φυσικά την ένταση.",
+      "say": "Culture bite: Τα προθήματα παν- και κατα- εκφράζουν την ένταση.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Δοκιμάστε τις γνώσεις σας με ένα σύντομο κουίζ.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ποιο ισχυρό επίθετο αντικαθιστά το 'πολύ κουρασμένος';",
+      "options": [
+        "κατάκοπος",
+        "μεγάλος",
+        "ήσυχος",
+        "γρήγορος"
+      ],
+      "correctIndex": 0,
+      "explanation": "Το 'κατάκοπος' σημαίνει εξαιρετικά κουρασμένος.",
+      "say": "Ερώτηση 1: Ποιο επίθετο αντικαθιστά το 'πολύ κουρασμένος';",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ποιο πρόθημα εκφράζει ένταση στα νέα ελληνικά;",
+      "options": [
+        "κατα-",
+        "ξε-",
+        "α-",
+        "υπο-"
+      ],
+      "correctIndex": 0,
+      "explanation": "Το πρόθημα 'κατα-' (π.χ. κατάκοπος, καταπληκτικός) εκφράζει μεγάλη ένταση.",
+      "say": "Ερώτηση 2: Ποιο πρόθημα εκφράζει ένταση;",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ποιο επίθετο αντικαθιστά το 'πολύ ωραίος';",
+      "options": [
+        "πανέμορφος",
+        "μικρός",
+        "αργός",
+        "κρύος"
+      ],
+      "correctIndex": 0,
+      "explanation": "Το 'πανέμορφος' αντικαθιστά φυσικά το 'πολύ ωραίος'.",
+      "say": "Ερώτηση 3: Ποιο επίθετο αντικαθιστά το 'πολύ ωραίος';",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Εξερευνήστε διαδραστική εξάσκηση και λεξιλόγιο στο COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=el&type=vocabulary&level=B1-B2",
+      "label": "Διαδραστική Εξάσκηση Επιθέτων B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Κεντρικό Αποθετήριο Λεξιλογίου COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Ζωντανές Συναντήσεις & Speaking Clubs"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": "post-replace-50-overused-phrases",
+  "slug": "replace-50-overused-phrases",
+  "language": "en",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-13",
+  "title": "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Intermediate English",
+  "kicker": "WORDS",
+  "dek": "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions.",
+  "tags": [
+    "Phrases",
+    "IntermediatePlateau",
+    "Fluency",
+    "B1-B2"
+  ],
+  "readingTime": 11,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": "../audio/blog/replace-50-overused-phrases.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-50-overused-phrases",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Breaking Free from the Intermediate Safety Trap",
+      "say": "When you reach the intermediate plateau, you can hold conversations comfortably. But learners often rely on a tiny cluster of safe phrases. Upgrading them creates warm, authentic speech.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Upgrading these daily expressions doesn't require memorizing complex, obscure idioms. By adopting subtle, natural conversational alternatives, your English immediately sounds more expressive, warm, and authentic.",
+      "say": "By adopting subtle, natural conversational alternatives, your English immediately sounds more expressive, warm, and authentic.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Agreeing & Disagreeing Upgrades",
+      "say": "Category 1: Agreeing and disagreeing upgrades.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "I couldn't agree more! / I'm not so sure about that.",
+      "gloss": "Natural agree vs disagree contrast instead of 'I agree' / 'I disagree'.",
+      "context": "Debates & discussion",
+      "say": "I couldn't agree more! I'm not so sure about that.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Giving Opinions & Stating Uncertainty",
+      "say": "Category 2: Giving opinions and stating uncertainty.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "From my point of view... / That's a good question, it's hard to say.",
+      "gloss": "Upgrading 'I think...' and 'I don't know'.",
+      "context": "Sharing views in conversations",
+      "say": "From my point of view... That's a good question, it's hard to say.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Preferences & Interests",
+      "say": "Category 3: Preferences and interests.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "It's right up my alley. / It's not really my thing.",
+      "gloss": "Expressing enthusiasm vs mild dislike.",
+      "context": "Talking about hobbies, movies, food",
+      "say": "It's right up my alley. It's not really my thing.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Stress & Intonation Keys 🗣️",
+      "say": "Say It section. Intonation for natural conversation.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "I couldn't agree more.",
+      "ipa": "/aɪ ˈkʊd.ənt əˈɡriː mɔːr/",
+      "say": "I couldn't agree more. Stress 'couldn't' and 'more' for emphasis.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Nuance Over Politeness",
+      "content": "In native English speech, using 'I disagree' directly can sound abrupt. Softening disagreement with 'I'm not so sure' or 'I see it differently' preserves rapport and politeness.",
+      "say": "Culture bite: Softening disagreement preserves rapport and politeness.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Test your understanding with a quick 3-question mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which natural phrase replaces 'I agree completely'?",
+      "options": [
+        "I couldn't agree more.",
+        "It depends.",
+        "I don't know.",
+        "I'm not sure."
+      ],
+      "correctIndex": 0,
+      "explanation": "'I couldn't agree more' expresses strong enthusiastic agreement.",
+      "say": "Question 1: Which natural phrase replaces 'I agree completely'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "How can you express mild dislike politely?",
+      "options": [
+        "I hate it.",
+        "It's not really my thing.",
+        "That's terrible.",
+        "Never."
+      ],
+      "correctIndex": 1,
+      "explanation": "'It's not really my thing' is a warm, polite way to express lack of interest.",
+      "say": "Question 2: How can you express mild dislike politely?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is a natural upgrade for 'I don't know'?",
+      "options": [
+        "I don't care.",
+        "That's a good question, it's hard to say.",
+        "No idea.",
+        "I am bad."
+      ],
+      "correctIndex": 1,
+      "explanation": "'That's a good question, it's hard to say' gives you time to think and sounds thoughtful.",
+      "say": "Question 3: What is a natural upgrade for 'I don't know'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?type=vocabulary&level=B1-B2",
+      "label": "Interactive Phrase & Idioms Practice Hub"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "COSYdata Master Phrase Repository"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Live B1–B2 Speaking Clubs"
+    }
+  ]
+}

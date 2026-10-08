@@ -1,0 +1,254 @@
+{
+  "id": "post-stop-translating-10-sentence-frames-fr",
+  "slug": "stop-translating-10-sentence-frames-fr",
+  "language": "fr",
+  "desk": "Say It",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-09-14",
+  "title": "Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour",
+  "kicker": "SAY IT",
+  "dek": "Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible.",
+  "tags": [
+    "SentenceFrames",
+    "Circumlocution",
+    "Fluency",
+    "A0-B1",
+    "French"
+  ],
+  "readingTime": 4,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "../audio/blog/stop-translating-10-sentence-frames-fr.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "ticket-stub",
+    "seed": "stop-translating-10-sentence-frames-fr",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "De la traduction à la description",
+      "say": "L'un des plus grands obstacles pour les apprenants est l'habitude de traduire mot à mot. Apprenez à décrire ce que vous ne savez pas.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Quand un mot vous manque, votre cerveau n'a pas besoin de bloquer. La circonlocution est une vraie compétence de communication. Voici 10 structures de phrases pour continuer à parler.",
+      "say": "La circonlocution est une vraie compétence de communication. Voici 10 structures de phrases pour continuer à parler.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Structures de phrases essentielles",
+      "say": "Découvrons les structures clés pour les personnes, les lieux et les objets.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "C'est une personne qui aide les malades.",
+      "gloss": "Structure pour décrire les métiers (Médecin / Infirmière).",
+      "context": "Quand vous oubliez le titre exact d'un métier",
+      "say": "C'est une personne qui aide les malades.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "C'est un endroit où on achète de la nourriture.",
+      "gloss": "Structure pour décrire des lieux (Supermarché).",
+      "context": "Quand vous oubliez le nom d'un lieu",
+      "say": "C'est un endroit où on achète de la nourriture.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "C'est quelque chose qu'on utilise pour couper le pain.",
+      "gloss": "Structure pour décrire des fonctions (Couteau).",
+      "context": "Quand vous oubliez le nom d'un objet",
+      "say": "C'est quelque chose qu'on utilise pour couper le pain.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Comment dit-on cela en français ?",
+      "gloss": "Phrase de survie ultime pour rester en français.",
+      "context": "Demander de l'aide à un locuteur natif",
+      "say": "Comment dit-on cela en français ?",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It : Prononciation & Rythme 🗣️",
+      "say": "Say It. Pratiquez le rythme et l'enchaînement fluide des mots.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "C'est un endroit où...",
+      "ipa": "/sɛ tœ̃ nɑ̃.dʁwa u/",
+      "say": "C'est un endroit où... Liez les mots avec fluidité.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "La circonlocution chez les natifs",
+      "content": "Les locuteurs natifs utilisent constamment la circonlocution lorsqu'ils oublient un terme exact. Décrire un objet par sa fonction est un signe de compétence communicative.",
+      "say": "Culture bite: La circonlocution est une compétence naturelle.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz en 3 Questions 📝",
+      "say": "Testez vos connaissances avec un mini-quiz en 3 questions.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle structure permet de décrire une profession ?",
+      "options": [
+        "C'est un endroit où...",
+        "C'est une personne qui...",
+        "C'est un moment où...",
+        "C'est fait en..."
+      ],
+      "correctIndex": 1,
+      "explanation": "'C'est une personne qui...' permet de décrire le rôle d'un métier.",
+      "say": "Question 1 : Quelle structure permet de décrire une profession ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quel est l'avantage principal de la circonlocution ?",
+      "options": [
+        "Elle aide à traduire mot à mot.",
+        "Elle maintient la conversation sans s'arrêter.",
+        "Elle nécessite un dictionnaire.",
+        "Elle est réservée aux experts."
+      ],
+      "correctIndex": 1,
+      "explanation": "La circonlocution évite les blocages et garde la conversation fluide.",
+      "say": "Question 2 : Quel est l'avantage principal de la circonlocution ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quelle phrase permet de demander de l'aide en restant en français ?",
+      "options": [
+        "Comment dit-on... en français ?",
+        "Je ne parle pas français.",
+        "Traduisez s'il vous plaît.",
+        "Quelle heure est-il ?"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Comment dit-on... en français ?' garde l'échange dans la langue cible.",
+      "say": "Question 3 : Quelle phrase permet de demander de l'aide en français ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explorez la pratique interactive et les répertoires de vocabulaire COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=fr&type=vocabulary&level=A1",
+      "label": "Module de pratique interactive du vocabulaire"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Répertoire central de vocabulaire COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Ateliers d'expression orale et clubs de conversation"
+    }
+  ]
+}

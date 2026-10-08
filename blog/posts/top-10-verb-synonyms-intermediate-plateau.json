@@ -1,0 +1,229 @@
+{
+  "id": "post-top-10-verb-synonyms-intermediate-plateau",
+  "slug": "top-10-verb-synonyms-intermediate-plateau",
+  "language": "en",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-11",
+  "title": "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Plateau",
+  "kicker": "WORDS",
+  "dek": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.",
+  "tags": [
+    "IntermediatePlateau",
+    "Vocabulary",
+    "B1-B2",
+    "Verbs"
+  ],
+  "readingTime": 7,
+  "podcast": {
+    "episode": 4,
+    "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "top-10-verb-synonyms-intermediate-plateau",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Breaking Through the Intermediate Plateau",
+      "say": "At the B1 to B2 level, learners rely heavily on ten generic verbs like get, make, do, and think. Replacing them with precise synonyms elevates your fluency immediately.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Overused verbs like 'get' carry dozens of dictionary meanings. Choosing precise verbs clarifies your exact meaning in professional and academic settings.",
+      "say": "Choosing precise verbs clarifies your exact meaning in professional and academic settings.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "High-Impact Verb Upgrades",
+      "say": "Here are key verb upgrades for intermediate learners.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "The team acquired the business and spearheaded the new project.",
+      "gloss": "Replaces 'got the business' (acquired) and 'started the project' (spearheaded).",
+      "context": "Professional & business discussions",
+      "say": "The team acquired the business and spearheaded the new project.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "I'd estimate the cost to be around five hundred dollars.",
+      "gloss": "Replaces 'I think the cost is...'.",
+      "context": "Business estimates & planning",
+      "say": "I'd estimate the cost to be around five hundred dollars.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronunciation Keys 🗣️",
+      "say": "Say It section. Practice verb stress patterns.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "spearhead",
+      "ipa": "/ˈspɪər.hɛd/",
+      "say": "Spearhead. Stress the first syllable.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Verbs Define Register",
+      "content": "In English, phrasal verbs ('get by', 'put off') are common in casual conversations, whereas Latinate single-word verbs ('succeed', 'postpone') belong to formal academic and business registers.",
+      "say": "Culture bite: Single-word verbs define formal academic register.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Test your understanding with a quick 3-question mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which precise verb replaces 'get' when receiving an award or diploma?",
+      "options": [
+        "obtain / acquire",
+        "do",
+        "make",
+        "say"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Obtain' or 'acquire' replaces generic 'get'.",
+      "say": "Question 1: Which precise verb replaces 'get'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which verb replaces 'think' when providing a professional estimate?",
+      "options": [
+        "estimate",
+        "get",
+        "look",
+        "go"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Estimate' specifies an educated professional assessment.",
+      "say": "Question 2: Which verb replaces 'think' when estimating?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which verb replaces 'start' when leading an initiative?",
+      "options": [
+        "spearhead",
+        "make",
+        "do",
+        "finish"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Spearhead' means to actively lead an initiative.",
+      "say": "Question 3: Which verb replaces 'start'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?type=vocabulary&level=B1-B2",
+      "label": "Interactive Verbs & Synonyms Practice"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "COSYdata Master Verb Repository"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Live Speaking Clubs"
+    }
+  ]
+}

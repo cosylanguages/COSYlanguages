@@ -1,0 +1,217 @@
+{
+  "id": "post-overcoming-intermediate-plateau",
+  "slug": "overcoming-intermediate-plateau",
+  "language": "en",
+  "desk": "Long Reads",
+  "format": "essay",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-08",
+  "title": "Overcoming the Intermediate Plateau: A Practical Roadmap for B1–B2 Learners",
+  "kicker": "LONG READS",
+  "dek": "Discover actionable strategies, mindsets, and deliberate practice routines to break out of the comfortable intermediate plateau and reach effortless B2–C1 fluency.",
+  "tags": [
+    "IntermediatePlateau",
+    "Fluency",
+    "Methodology",
+    "B1-B2"
+  ],
+  "readingTime": 7,
+  "podcast": {
+    "episode": 5,
+    "audioUrl": "../audio/blog/overcoming-intermediate-plateau.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "overcoming-intermediate-plateau",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding the B1–B2 Intermediate Plateau",
+      "say": "The intermediate plateau occurs when initial rapid progress slows down because you can already handle daily interactions. To advance, you need deliberate practice.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "At B1, passive understanding outpaces active output. The solution lies in shifting from passive consumption to deliberate practice: active recall, vocabulary upgrades, and challenging speaking contexts.",
+      "say": "Shifting from passive consumption to deliberate practice transforms your spoken fluency.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Core Principles for Breakthrough",
+      "say": "Three core principles: upgrade safe phrases, embrace error reflection, and engage in real-time discussions.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Instead of defaulting to 'I agree', practice 'I couldn't agree more' or 'I see it differently'.",
+      "gloss": "Replacing safe default phrases with expressive upgrades.",
+      "context": "Deliberate vocabulary practice",
+      "say": "Instead of defaulting to 'I agree', practice 'I couldn't agree more' or 'I see it differently'.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronunciation & Flow 🗣️",
+      "say": "Say It section. Practice natural sentence flow.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "deliberate practice",
+      "ipa": "/dɪˈlɪb.ər.ət ˈpræk.tɪs/",
+      "say": "Deliberate practice. Stress 'lib' and 'prac'.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "The Comfort Zone Fallacy",
+      "content": "In language acquisition research, comfort is the enemy of growth. Pushing into topics where you lack vocabulary forces your brain to build new neural pathways.",
+      "say": "Culture bite: Pushing beyond your comfort zone builds new language pathways.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Test your understanding with a quick 3-question mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What primary shift is needed to overcome the intermediate plateau?",
+      "options": [
+        "From passive consumption to deliberate active output.",
+        "Memorizing more basic dictionary words.",
+        "Avoiding speaking until perfect.",
+        "Studying grammar rules in isolation."
+      ],
+      "correctIndex": 0,
+      "explanation": "Active deliberate practice transforms passive knowledge into spoken fluency.",
+      "say": "Question 1: What primary shift is needed to overcome the intermediate plateau?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Why do intermediate learners get stuck on 'safe' phrases?",
+      "options": [
+        "Because safe phrases reduce cognitive load during speech.",
+        "Because English has no synonyms.",
+        "Because grammar forbids new words.",
+        "Because B1 learners cannot learn vocabulary."
+      ],
+      "correctIndex": 0,
+      "explanation": "Safe phrases require less effort, creating a comfortable habit.",
+      "say": "Question 2: Why do intermediate learners get stuck on safe phrases?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which activity best accelerates transition from B1 to B2?",
+      "options": [
+        "Active discussion with immediate error feedback.",
+        "Silent reading of easy stories.",
+        "Watching movies with native-language subtitles.",
+        "Copying grammar tables by hand."
+      ],
+      "correctIndex": 0,
+      "explanation": "Active discussion with constructive feedback bridges B1 and B2.",
+      "say": "Question 3: Which activity best accelerates transition from B1 to B2?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?type=grammar&level=B1-B2",
+      "label": "Interactive B1–B2 Grammar & Vocabulary Hub"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "COSYdata B1–B2 Vocabulary Master Repository"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Live B1–B2 Intermediate Breakthrough Workshops"
+    }
+  ]
+}

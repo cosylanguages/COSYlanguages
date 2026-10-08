@@ -1,0 +1,241 @@
+{
+  "id": "post-replace-50-overused-phrases-ru",
+  "slug": "replace-50-overused-phrases-ru",
+  "language": "ru",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-13",
+  "title": "Хватит повторять эти 50 фраз! Естественные разговорные замены для B1–B2",
+  "kicker": "WORDS",
+  "dek": "Разнообразьте свою речь, заменив 50 привычных разговорных шаблонов уровня B1 живыми выражениями с их прямыми противоположностями.",
+  "tags": [
+    "Разговорник",
+    "ПлатоСреднегоУровня",
+    "Беглость",
+    "B1-B2",
+    "Русский"
+  ],
+  "readingTime": 2,
+  "podcast": {
+    "episode": 2,
+    "audioUrl": "../audio/blog/replace-50-overused-phrases-ru.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-50-overused-phrases-ru",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Преодоление разговорных шаблонов уровня B1",
+      "say": "На среднем уровне мы часто повторяем одни и те же безопасные фразы. Их замена делает речь естественной и живой.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Обогащение речи не требует заучивания редких идиом — достаточно освоить естественные разговорные альтернативы.",
+      "say": "Обогащение разговорного запаса придает речи естественность и выразительность.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Согласие и несогласие",
+      "say": "Категория 1: Согласие и несогласие.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Полностью согласен! / Я не совсем уверен.",
+      "gloss": "Живые замены шаблонам 'Я согласен' / 'Я не согласен'.",
+      "context": "Дискуссия и обмен мнениями",
+      "say": "Полностью согласен! Я не совсем уверен.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Выражение мнения и сомнения",
+      "say": "Категория 2: Выражение мнения.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "На мой взгляд... / Сложно сказать.",
+      "gloss": "Замена шаблонам 'Я думаю...' и 'Не знаю'.",
+      "context": "Выражение личной точки зрения",
+      "say": "На мой взгляд... Сложно сказать.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Произношение и интонация 🗣️",
+      "say": "Say It. Тренируйте естественную интонацию.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "Полностью согласен.",
+      "ipa": "[ˈpol.nə.stʲjʊ sə.ɡɫə.sʲɪn]",
+      "say": "Полностью согласен. Выделяйте ударением первое слово.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Мягкость в вежливом споре",
+      "content": "Прямое 'Я не согласен' может прозвучать резковато. Фраза 'Я не совсем уверен' помогает сохранить вежливый и дружелюбный тон.",
+      "say": "Culture bite: Мягкие формулировки сохраняют вежливый тон.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Мини-квиз из 3 вопросов 📝",
+      "say": "Проверьте свои знания с помощью короткого квиза.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Какая фраза эффективно заменяет 'Я согласен'?",
+      "options": [
+        "Полностью согласен.",
+        "Зависит.",
+        "Я не знаю.",
+        "Может быть."
+      ],
+      "correctIndex": 0,
+      "explanation": "'Полностью согласен' выражает уверенное и естественное согласие.",
+      "say": "Вопрос 1: Какая фраза заменяет 'Я согласен'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Как вежливо выразить сомнение или несогласие?",
+      "options": [
+        "Это неправда.",
+        "Я не совсем уверен.",
+        "Никогда.",
+        "Мне всё равно."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Я не совсем уверен' — вежливая форма выразить сомнение.",
+      "say": "Вопрос 2: Как вежливо выразить сомнение?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Какая фраза звучит взвешенно вместо 'Я не знаю'?",
+      "options": [
+        "Без понятия.",
+        "Сложно сказать.",
+        "Нет.",
+        "Мне всё равно."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Сложно сказать' демонстрирует задумчивость и уважение к вопросу.",
+      "say": "Вопрос 3: Какая фраза заменяет 'Я не знаю'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Изучайте интерактивные материалы и словарные базы COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=ru&type=vocabulary&level=B1-B2",
+      "label": "Интерактивный тренажёр разговорных фраз B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Центральный репозиторий COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Разговорные клубы и живые встречи"
+    }
+  ]
+}

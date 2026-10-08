@@ -1,0 +1,254 @@
+{
+  "id": "post-stop-translating-10-sentence-frames-ru",
+  "slug": "stop-translating-10-sentence-frames-ru",
+  "language": "ru",
+  "desk": "Say It",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-09-14",
+  "title": "Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня",
+  "kicker": "SAY IT",
+  "dek": "Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.",
+  "tags": [
+    "SentenceFrames",
+    "Circumlocution",
+    "Fluency",
+    "A0-B1",
+    "Russian"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "../audio/blog/stop-translating-10-sentence-frames-ru.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "ticket-stub",
+    "seed": "stop-translating-10-sentence-frames-ru",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "От перевода к описанию",
+      "say": "Главное препятствие для изучающих язык — привычка переводить слово в слово. Научитесь объяснять то, что вы не знаете.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Когда вы не знаете точного слова, мозг не должен замирать. Описание незнакомого слова — ключевой навык общения. Вот 10 универсальных фраз-шаблонов.",
+      "say": "Описание незнакомого слова — ключевой навык общения. Вот 10 универсальных фраз-шаблонов.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ключевые речевые шаблоны",
+      "say": "Рассмотрим шаблоны для людей, мест и предметов.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Это человек, который помогает больным.",
+      "gloss": "Шаблон для описания профессий (Врач / Медсестра).",
+      "context": "Когда забыли точное название профессии",
+      "say": "Это человек, который помогает больным.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Это место, где покупают еду.",
+      "gloss": "Шаблон для описания мест (Магазин / Супермаркет).",
+      "context": "Когда забыли название места",
+      "say": "Это место, где покупают еду.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Это предмет, которым режут хлеб.",
+      "gloss": "Шаблон для описания функций предметов (Нож).",
+      "context": "Когда забыли название предмета",
+      "say": "Это предмет, которым режут хлеб.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Как сказать это по-русски?",
+      "gloss": "Фраза выживания для продолжения общения на изучаемом языке.",
+      "context": "Запрос помощи у носителя языка",
+      "say": "Как сказать это по-русски?",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Произношение и ритм 🗣️",
+      "say": "Say It. Тренируйте плавность и естественный ритм речи.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "Это место, где...",
+      "ipa": "[ˈe.tə ˈmʲe.stə ɡdʲe]",
+      "say": "Это место, где... Произносите плавно, без паузы.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Описательная речь у носителей",
+      "content": "Носители языка постоянно используют описательные обороты, когда забывают точный термин. Объяснение предмета через его функцию — признак высокого уровня владения речью.",
+      "say": "Culture bite: Описательная речь — естественный навык.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Мини-квиз из 3 вопросов 📝",
+      "say": "Проверьте свои знания с помощью короткого квиза.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Какой шаблон используется для описания профессии?",
+      "options": [
+        "Это место, где...",
+        "Это человек, который...",
+        "Это время, когда...",
+        "Это сделано из..."
+      ],
+      "correctIndex": 1,
+      "explanation": "Шаблон 'Это человек, который...' позволяет описать работу без знания точной должности.",
+      "say": "Вопрос 1: Какой шаблон используется для описания профессии?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "В чём главное преимущество описательной речи?",
+      "options": [
+        "Помогает переводить слово в слово.",
+        "Сохраняет плавно текущую беседу без паузы.",
+        "Требует регулярного использования словаря.",
+        "Доступно только профессионалам."
+      ],
+      "correctIndex": 1,
+      "explanation": "Описательная речь предотвращает языковой барьер и паузы в разговоре.",
+      "say": "Вопрос 2: В чём главное преимущество описательной речи?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Какая фраза помогает уточнить слово, не переходя на родной язык?",
+      "options": [
+        "Как сказать... по-русски?",
+        "Я не говорю по-русски.",
+        "Переведите пожалуйста.",
+        "Который час?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Фраза 'Как сказать... по-русски?' поддерживает общение на целевом языке.",
+      "say": "Вопрос 3: Какая фраза помогает уточнить слово?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Изучайте интерактивные материалы и словарные базы COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=ru&type=vocabulary&level=A1",
+      "label": "Интерактивный тренажёр словарного запаса"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Центральный репозиторий COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Разговорные клубы и живые встречи"
+    }
+  ]
+}
