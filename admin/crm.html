@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founder CRM — COSYlanguages</title>
+    <meta name="description" content="Founder CRM dashboard for student lead acquisition, deal pipelines, and student interaction logs. Access restricted to Founder & Admin accounts.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+
+    <style>
+        body {
+            background-color: var(--paper-bg, #fdfcf8);
+            color: var(--ink, #2a2a2a);
+            font-family: var(--font-sans, 'DM Sans', sans-serif);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .crm-header-bar {
+            background: var(--sage-deep, #233827);
+            color: #ffffff;
+            padding: 1.25rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: var(--shadow-sm, 0 2px 8px rgba(0,0,0,0.1));
+        }
+
+        .crm-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .crm-brand img {
+            width: 36px;
+            height: 36px;
+        }
+
+        .crm-brand-title {
+            font-family: var(--font-serif, 'Fraunces', serif);
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .crm-badge {
+            background: var(--amber, #d97706);
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: var(--radius-full, 100px);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .crm-container {
+            max-width: 1280px;
+            margin: 2rem auto;
+            padding: 0 1.5rem 4rem;
+        }
+
+        .crm-access-denied {
+            text-align: center;
+            max-width: 500px;
+            margin: 5rem auto;
+            background: var(--warm-white, #FFFEFB);
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.2));
+            padding: 3rem 2rem;
+            border-radius: var(--radius-lg, 22px);
+            box-shadow: var(--shadow-md, 0 8px 30px rgba(0,0,0,0.06));
+        }
+
+        .crm-access-denied h2 {
+            font-family: var(--font-serif, 'Fraunces', serif);
+            color: var(--sage-deep, #233827);
+            font-size: 1.8rem;
+            margin-top: 0;
+        }
+
+        .crm-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .crm-stat-card {
+            background: var(--warm-white, #FFFEFB);
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
+            border-radius: var(--radius-md, 16px);
+            padding: 1.25rem 1.5rem;
+            box-shadow: var(--shadow-xs, 0 2px 6px rgba(0,0,0,0.03));
+        }
+
+        .crm-stat-label {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--ink-soft, #5c5957);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.35rem;
+        }
+
+        .crm-stat-value {
+            font-family: var(--font-serif, 'Fraunces', serif);
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--sage-deep, #233827);
+        }
+
+        .crm-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            background: var(--warm-white, #FFFEFB);
+            padding: 1rem 1.25rem;
+            border-radius: var(--radius-md, 16px);
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
+        }
+
+        .crm-search-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex: 1;
+            min-width: 260px;
+        }
+
+        .crm-input {
+            padding: 0.65rem 1rem;
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.25));
+            border-radius: var(--radius-sm, 10px);
+            font-size: 0.9rem;
+            width: 100%;
+            background: var(--cream, #fdfcf8);
+        }
+
+        .crm-btn {
+            background: var(--sage, #416b49);
+            color: #ffffff;
+            border: none;
+            padding: 0.65rem 1.25rem;
+            border-radius: var(--radius-full, 100px);
+            font-weight: 700;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .crm-btn:hover {
+            background: var(--sage-dark, #375742);
+        }
+
+        .crm-kanban {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 1.25rem;
+            align-items: start;
+        }
+
+        .crm-column {
+            background: var(--sage-mist, #f0f5f1);
+            border-radius: var(--radius-md, 16px);
+            padding: 1rem;
+            min-height: 450px;
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
+        }
+
+        .crm-column-header {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--sage-deep, #233827);
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border, rgba(74, 107, 80, 0.2));
+        }
+
+        .crm-column-count {
+            background: #ffffff;
+            color: var(--sage-deep, #233827);
+            border-radius: 12px;
+            padding: 2px 8px;
+            font-size: 0.78rem;
+        }
+
+        .crm-card {
+            background: var(--warm-white, #FFFEFB);
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
+            border-radius: var(--radius-sm, 12px);
+            padding: 1rem;
+            margin-bottom: 0.85rem;
+            box-shadow: var(--shadow-xs, 0 2px 4px rgba(0,0,0,0.02));
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.15s;
+        }
+
+        .crm-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm, 0 4px 12px rgba(0,0,0,0.06));
+        }
+
+        .crm-card-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--sage-deep, #233827);
+            margin-bottom: 0.35rem;
+        }
+
+        .crm-card-meta {
+            font-size: 0.8rem;
+            color: var(--ink-soft, #5c5957);
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .crm-tag {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 6px;
+            background: #e2ece3;
+            color: #233827;
+        }
+
+        /* Modal styling */
+        .crm-modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            padding: 1rem;
+        }
+
+        .crm-modal {
+            background: var(--warm-white, #FFFEFB);
+            border-radius: var(--radius-lg, 20px);
+            max-width: 540px;
+            width: 100%;
+            padding: 2rem;
+            box-shadow: var(--shadow-lg, 0 20px 40px rgba(0,0,0,0.15));
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.2));
+        }
+
+        .crm-modal h3 {
+            font-family: var(--font-serif, 'Fraunces', serif);
+            color: var(--sage-deep, #233827);
+            margin-top: 0;
+            margin-bottom: 1.25rem;
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="crm-header-bar">
+        <div class="crm-brand">
+            <img src="../images/logos/cosylanguages.png" alt="COSYlanguages Logo">
+            <h1 class="crm-brand-title">COSY Founder CRM</h1>
+            <span class="crm-badge">👑 Founder Portal</span>
+        </div>
+        <a href="../login.html" style="color: #ffffff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">← Return to Sign In</a>
+    </header>
+
+    <main class="crm-container">
+
+        <!-- Access Verification Screen (non-founders) -->
+        <div id="access-denied-box" class="crm-access-denied" style="display: none;">
+            <h2>🔒 Founder Access Required</h2>
+            <p style="color: var(--ink-soft); line-height: 1.5; margin-bottom: 1.5rem;">
+                This CRM portal is strictly accessible to the founder and admin accounts. Please sign in with your founder credentials to view student lead pipelines.
+            </p>
+            <a href="../login.html" class="crm-btn" style="text-decoration: none; display: inline-block;">🔑 Sign In as Founder</a>
+        </div>
+
+        <!-- Dashboard Content (Founders Only) -->
+        <div id="crm-dashboard-box" style="display: none;">
+
+            <!-- Overview Metrics -->
+            <div class="crm-stats-grid">
+                <div class="crm-stat-card">
+                    <div class="crm-stat-label">Total Leads</div>
+                    <div id="stat-total-leads" class="crm-stat-value">0</div>
+                </div>
+                <div class="crm-stat-card">
+                    <div class="crm-stat-label">New Inquiries</div>
+                    <div id="stat-new-leads" class="crm-stat-value">0</div>
+                </div>
+                <div class="crm-stat-card">
+                    <div class="crm-stat-label">Active Students</div>
+                    <div id="stat-active-students" class="crm-stat-value">0</div>
+                </div>
+                <div class="crm-stat-card">
+                    <div class="crm-stat-label">Conversion Rate</div>
+                    <div id="stat-conversion" class="crm-stat-value">0%</div>
+                </div>
+            </div>
+
+            <!-- Dashboard Action Controls -->
+            <div class="crm-controls">
+                <div class="crm-search-box">
+                    <input type="text" id="crm-search" class="crm-input" placeholder="🔍 Search contacts by name, email, language..." oninput="renderKanban()">
+                </div>
+                <button type="button" class="crm-btn" onclick="openNewLeadModal()">➕ Add New Lead</button>
+            </div>
+
+            <!-- Kanban Board -->
+            <div class="crm-kanban">
+                <!-- Column: New Lead -->
+                <div class="crm-column">
+                    <div class="crm-column-header">
+                        <span>🌱 New Lead</span>
+                        <span id="count-new_lead" class="crm-column-count">0</span>
+                    </div>
+                    <div id="list-new_lead"></div>
+                </div>
+
+                <!-- Column: Contacted -->
+                <div class="crm-column">
+                    <div class="crm-column-header">
+                        <span>💬 Contacted</span>
+                        <span id="count-contacted" class="crm-column-count">0</span>
+                    </div>
+                    <div id="list-contacted"></div>
+                </div>
+
+                <!-- Column: Trial Scheduled -->
+                <div class="crm-column">
+                    <div class="crm-column-header">
+                        <span>🗓️ Trial Scheduled</span>
+                        <span id="count-trial_scheduled" class="crm-column-count">0</span>
+                    </div>
+                    <div id="list-trial_scheduled"></div>
+                </div>
+
+                <!-- Column: Active Student -->
+                <div class="crm-column">
+                    <div class="crm-column-header">
+                        <span>🎓 Active Student</span>
+                        <span id="count-active_student" class="crm-column-count">0</span>
+                    </div>
+                    <div id="list-active_student"></div>
+                </div>
+
+                <!-- Column: Churned -->
+                <div class="crm-column">
+                    <div class="crm-column-header">
+                        <span>🍂 Churned</span>
+                        <span id="count-churned" class="crm-column-count">0</span>
+                    </div>
+                    <div id="list-churned"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Modal Container -->
+    <div id="crm-modal-container" style="display: none;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1" integrity="sha384-YieCqqg9gQufX7+5HcFvCEg/n3KUEdl8/Jb+A6J0npf1mB740VayvwKjTrtCeUoy" crossorigin="anonymous"></script>
+    <script src="../js/core/auth-sso.js"></script>
+    <script src="../js/core/crm.js"></script>
+
+    <script>
+        let allContacts = [];
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            verifyFounderAccess();
+        });
+
+        function verifyFounderAccess() {
+            const role = String(localStorage.getItem('cosy_user_role') || (window.COSY_USER && window.COSY_USER.role) || '').toLowerCase();
+            const isFounder = role === 'founder' || role === 'admin' || role === 'owner';
+
+            if (isFounder) {
+                document.getElementById('crm-dashboard-box').style.display = 'block';
+                loadContacts();
+            } else {
+                document.getElementById('access-denied-box').style.display = 'block';
+            }
+        }
+
+        async function loadContacts() {
+            const sb = COSY.CRM.getSupabaseClient();
+            if (!sb) {
+                console.warn('Supabase client unavailable, loading local fallback leads.');
+                allContacts = JSON.parse(localStorage.getItem('cosy_crm_pending_leads') || '[]');
+                updateMetrics();
+                renderKanban();
+                return;
+            }
+
+            try {
+                const { data, error } = await sb.from('crm_contacts').select('*').order('created_at', { ascending: false });
+                if (!error && data) {
+                    allContacts = data;
+                } else {
+                    console.warn('Notice loading crm_contacts table:', error ? error.message : 'No data');
+                    allContacts = JSON.parse(localStorage.getItem('cosy_crm_pending_leads') || '[]');
+                }
+            } catch (err) {
+                console.error('Error fetching CRM contacts:', err);
+            }
+
+            updateMetrics();
+            renderKanban();
+        }
+
+        function updateMetrics() {
+            const total = allContacts.length;
+            const newLeads = allContacts.filter(c => (c.status || 'new_lead') === 'new_lead').length;
+            const active = allContacts.filter(c => c.status === 'active_student').length;
+            const rate = total > 0 ? Math.round((active / total) * 100) : 0;
+
+            document.getElementById('stat-total-leads').textContent = total;
+            document.getElementById('stat-new-leads').textContent = newLeads;
+            document.getElementById('stat-active-students').textContent = active;
+            document.getElementById('stat-conversion').textContent = `${rate}%`;
+        }
+
+        function renderKanban() {
+            const query = (document.getElementById('crm-search').value || '').toLowerCase().trim();
+            const stages = ['new_lead', 'contacted', 'trial_scheduled', 'active_student', 'churned'];
+
+            stages.forEach(stage => {
+                const listEl = document.getElementById(`list-${stage}`);
+                const countEl = document.getElementById(`count-${stage}`);
+                if (!listEl) return;
+
+                listEl.innerHTML = '';
+
+                const filtered = allContacts.filter(c => {
+                    const status = c.status || 'new_lead';
+                    if (status !== stage) return false;
+
+                    if (!query) return true;
+                    const name = (c.full_name || '').toLowerCase();
+                    const email = (c.email || '').toLowerCase();
+                    const lang = (c.target_language || '').toLowerCase();
+                    return name.includes(query) || email.includes(query) || lang.includes(query);
+                });
+
+                if (countEl) countEl.textContent = filtered.length;
+
+                filtered.forEach(contact => {
+                    const card = document.createElement('div');
+                    card.className = 'crm-card';
+                    card.onclick = () => openContactDetailModal(contact);
+                    card.innerHTML = `
+                        <div class="crm-card-title">${escapeHtml(contact.full_name)}</div>
+                        <div class="crm-card-meta">
+                            ${contact.email ? `✉️ ${escapeHtml(contact.email)}<br>` : ''}
+                            ${contact.target_language ? `🗣️ ${escapeHtml(contact.target_language)}` : ''}
+                        </div>
+                        <span class="crm-tag">${escapeHtml(contact.source || 'Website')}</span>
+                    `;
+                    listEl.appendChild(card);
+                });
+            });
+        }
+
+        function openNewLeadModal() {
+            const container = document.getElementById('crm-modal-container');
+            container.style.display = 'block';
+            container.innerHTML = `
+                <div class="crm-modal-backdrop" onclick="closeModal(event)">
+                    <div class="crm-modal" onclick="event.stopPropagation()">
+                        <h3>➕ Add New Lead</h3>
+                        <form onsubmit="handleCreateLeadSubmit(event)" style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div>
+                                <label style="font-size: 0.85rem; font-weight: 700;">Full Name *</label>
+                                <input type="text" id="modal-name" class="crm-input" required placeholder="e.g. Marie Dupont">
+                            </div>
+                            <div>
+                                <label style="font-size: 0.85rem; font-weight: 700;">Email Address</label>
+                                <input type="email" id="modal-email" class="crm-input" placeholder="marie@example.com">
+                            </div>
+                            <div>
+                                <label style="font-size: 0.85rem; font-weight: 700;">Target Language</label>
+                                <input type="text" id="modal-lang" class="crm-input" placeholder="e.g. English, French">
+                            </div>
+                            <div>
+                                <label style="font-size: 0.85rem; font-weight: 700;">Notes</label>
+                                <textarea id="modal-notes" class="crm-input" style="height: 80px;" placeholder="Initial inquiry details..."></textarea>
+                            </div>
+                            <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 0.5rem;">
+                                <button type="button" class="crm-btn" style="background: #888;" onclick="closeModal()">Cancel</button>
+                                <button type="submit" class="crm-btn">Save Lead ➔</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function handleCreateLeadSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('modal-name').value.trim();
+            const email = document.getElementById('modal-email').value.trim();
+            const lang = document.getElementById('modal-lang').value.trim();
+            const notes = document.getElementById('modal-notes').value.trim();
+
+            const result = await COSY.CRM.submitLead({
+                full_name: name,
+                email: email,
+                target_language: lang,
+                notes: notes,
+                source: 'founder_dashboard'
+            });
+
+            closeModal();
+            loadContacts();
+        }
+
+        function openContactDetailModal(contact) {
+            const container = document.getElementById('crm-modal-container');
+            container.style.display = 'block';
+            container.innerHTML = `
+                <div class="crm-modal-backdrop" onclick="closeModal(event)">
+                    <div class="crm-modal" onclick="event.stopPropagation()">
+                        <h3>👤 ${escapeHtml(contact.full_name)}</h3>
+                        <div style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                            <p><strong>Email:</strong> ${contact.email ? escapeHtml(contact.email) : 'Not provided'}</p>
+                            <p><strong>Language:</strong> ${contact.target_language ? escapeHtml(contact.target_language) : 'General'}</p>
+                            <p><strong>Source:</strong> ${escapeHtml(contact.source || 'Website')}</p>
+                            <p><strong>Notes:</strong> ${contact.notes ? escapeHtml(contact.notes) : 'None'}</p>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="font-size: 0.85rem; font-weight: 700;">Update Status:</label>
+                            <select id="modal-status-select" class="crm-input" style="margin-top: 0.35rem;" onchange="updateLeadStatus('${contact.id}', this.value)">
+                                <option value="new_lead" ${contact.status === 'new_lead' ? 'selected' : ''}>🌱 New Lead</option>
+                                <option value="contacted" ${contact.status === 'contacted' ? 'selected' : ''}>💬 Contacted</option>
+                                <option value="trial_scheduled" ${contact.status === 'trial_scheduled' ? 'selected' : ''}>🗓️ Trial Scheduled</option>
+                                <option value="active_student" ${contact.status === 'active_student' ? 'selected' : ''}>🎓 Active Student</option>
+                                <option value="churned" ${contact.status === 'churned' ? 'selected' : ''}>🍂 Churned</option>
+                            </select>
+                        </div>
+                        <div style="display: flex; justify-content: flex-end;">
+                            <button type="button" class="crm-btn" onclick="closeModal()">Close</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function updateLeadStatus(id, newStatus) {
+            const sb = COSY.CRM.getSupabaseClient();
+            if (sb && id) {
+                try {
+                    await sb.from('crm_contacts').update({ status: newStatus }).eq('id', id);
+                } catch (err) {
+                    console.error('Error updating status:', err);
+                }
+            }
+
+            const localIndex = allContacts.findIndex(c => c.id === id);
+            if (localIndex !== -1) {
+                allContacts[localIndex].status = newStatus;
+            }
+
+            updateMetrics();
+            renderKanban();
+        }
+
+        function closeModal(event) {
+            if (event && event.target && !event.target.classList.contains('crm-modal-backdrop')) return;
+            const container = document.getElementById('crm-modal-container');
+            container.style.display = 'none';
+            container.innerHTML = '';
+        }
+
+        function escapeHtml(text) {
+            return String(text || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+    </script>
+</body>
+</html>
