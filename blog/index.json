@@ -1,10 +1,10 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-08T08:47:57.486Z",
+  "generatedAt": "2026-10-08T09:16:50.118Z",
   "stats": {
-    "totalPosts": 38,
+    "totalPosts": 41,
     "totalDesks": 9,
-    "totalIssues": 5
+    "totalIssues": 4
   },
   "desks": [
     {
@@ -64,20 +64,16 @@
   ],
   "issues": [
     {
+      "number": "Vol. 2026.08",
+      "title": "Get ready for school"
+    },
+    {
       "number": "Vol. 2026.09",
       "title": "Me vs Intermediate Plateau"
     },
     {
       "number": "Vol. 2026.10",
       "title": "JY DM's birthday & His favs"
-    },
-    {
-      "number": "Vol. 2026.08",
-      "title": "Get ready for school"
-    },
-    {
-      "number": "Vol. 2026 — September Issue",
-      "title": "Me vs Intermediate Plateau"
     },
     {
       "number": "Vol. 2026 — August Issue",
@@ -3212,6 +3208,696 @@
       ]
     },
     {
+      "id": "post-replace-very-50-stronger-adjectives-fr",
+      "slug": "replace-very-50-stronger-adjectives-fr",
+      "language": "fr",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026.09",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Arrêtez de dire 'Très' ! 50 adjectifs forts pour enrichir votre vocabulaire",
+      "kicker": "WORDS",
+      "dek": "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels.",
+      "tags": [
+        "Vocabulaire",
+        "PlateauIntermédiaire",
+        "Adjectifs",
+        "B1-B2",
+        "Français"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 3,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-fr.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
+        "seed": "replace-very-50-stronger-adjectives-fr",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dépasser le réflexe du mot 'Très'",
+          "say": "Utiliser constamment 'très' devant les adjectifs est un signe classique du plateau intermédiaire. Les adjectifs forts apportent précision et élégance.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Au lieu de dire 'très fatigué' ou 'très beau', le français dispose d'adjectifs précis comme 'épuisé' ou 'magnifique'.",
+          "say": "Au lieu de dire 'très fatigué', utilisez 'épuisé' ou 'exténué'.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adjectifs forts essentiels",
+          "say": "Voici des exemples d'adjectifs forts utiles au quotidien.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Après cette journée chargée, je suis totalement épuisé.",
+          "gloss": "Remplace 'très fatigué' par 'épuisé'.",
+          "context": "Après une longue journée de travail",
+          "say": "Après cette journée chargée, je suis totalement épuisé.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "La vue depuis la montagne est magnifique.",
+          "gloss": "Remplace 'très belle' par 'magnifique'.",
+          "context": "Description d'un paysage",
+          "say": "La vue depuis la montagne est magnifique.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It : Prononciation & Accentuation 🗣️",
+          "say": "Say It. Entraînez-vous à l'accentuation naturelle.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "épuisé",
+          "ipa": "/e.pɥi.ze/",
+          "say": "Épuisé. Prononcez clairement les trois syllabes.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Les adjectifs absolus en français",
+          "content": "Les adjectifs forts comme 'épuisé' ou 'magnifique' ne se combinent pas avec 'très'. On utilisera plutôt 'absolument' ou 'totalement'.",
+          "say": "Culture bite: Les adjectifs absolus s'utilisent avec 'absolument'.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mini-Quiz en 3 Questions 📝",
+          "say": "Testez vos connaissances avec un mini-quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quel adjectif fort remplace 'très fatigué' ?",
+          "options": [
+            "épuisé",
+            "grand",
+            "calme",
+            "rapide"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Épuisé' signifie extrêmement fatigué.",
+          "say": "Question 1 : Quel adjectif fort remplace 'très fatigué' ?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quel adverbe s'associe naturellement aux adjectifs forts ?",
+          "options": [
+            "très",
+            "absolument",
+            "plus",
+            "trop"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les adjectifs absolus s'associent avec 'absolument' ou 'totalement'.",
+          "say": "Question 2 : Quel adverbe s'associe aux adjectifs forts ?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quel adjectif fort remplace 'très faim' ?",
+          "options": [
+            "affamé",
+            "gelé",
+            "furieux",
+            "silencieux"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Affamé' remplace 'très faim'.",
+          "say": "Question 3 : Quel adjectif fort remplace 'très faim' ?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Explorez la pratique interactive et les répertoires de vocabulaire COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?lang=fr&type=vocabulary&level=B1-B2",
+          "label": "Module d'entraînement aux adjectifs B1–B2"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "Répertoire central de vocabulaire COSYdata"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Ateliers de vocabulaire en direct"
+        }
+      ]
+    },
+    {
+      "id": "post-replace-very-50-stronger-adjectives-it",
+      "slug": "replace-very-50-stronger-adjectives-it",
+      "language": "it",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026.09",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Basta dire 'Molto'! 50 aggettivi forti per arricchire il tuo vocabolario",
+      "kicker": "WORDS",
+      "dek": "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali.",
+      "tags": [
+        "Vocabolario",
+        "AltopianoIntermedio",
+        "Aggettivi",
+        "B1-B2",
+        "Italiano"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 3,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-it.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
+        "seed": "replace-very-50-stronger-adjectives-it",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Oltre il 'Molto': Usare aggettivi precisi",
+          "say": "L'uso continuo di 'molto' è tipico del livello intermedio. Passare ad aggettivi forti rende il discorso più espressivo e naturale.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Invece di dire 'molto stanco' o 'molto bello', l'italiano offre aggettivi espressivi come 'esausto' o 'splendido'.",
+          "say": "Invece di dire 'molto stanco', usa 'esausto' o 'sinito'.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Aggettivi forti essenziali",
+          "say": "Ecco esempi di aggettivi forti utili nella conversazione quotidiana.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Dopo questa giornata intensa sono completamente esausto.",
+          "gloss": "Sostituisce 'molto stanco' con 'esausto'.",
+          "context": "Dopo una lunga giornata di lavoro",
+          "say": "Dopo questa giornata intensa sono completamente esausto.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "La vista dalle montagne era splendida.",
+          "gloss": "Sostituisce 'molto bella' con 'splendida'.",
+          "context": "Descrizione di un paesaggio",
+          "say": "La vista dalle montagne era splendida.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Pronuncia & Accento 🗣️",
+          "say": "Say It. Pratica l'accentazione naturale.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "esausto",
+          "ipa": "/eˈsau.sto/",
+          "say": "Esausto. Pronuncia con accento sulla seconda sillaba.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Aggettivi assoluti e superlativi",
+          "content": "In italiano gli aggettivi forti come 'esausto' o 'splendido' non richiedono 'molto'. Si combinano invece con 'completamente' o 'assolutamente'.",
+          "say": "Culture bite: Gli aggettivi assoluti si usano con 'assolutamente'.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mini-Quiz in 3 Domande 📝",
+          "say": "Metti alla prova le tue conoscenze con un breve quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quale aggettivo forte sostituisce 'molto stanco'?",
+          "options": [
+            "esausto",
+            "grande",
+            "veloce",
+            "silenzioso"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Esausto' significa estremamente stanco.",
+          "say": "Domanda 1: Quale aggettivo forte sostituisce 'molto stanco'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quale avverbio si abbina agli aggettivi forti?",
+          "options": [
+            "molto",
+            "assolutamente",
+            "più",
+            "troppo"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gli aggettivi assoluti si abbinano ad 'assolutamente'.",
+          "say": "Domanda 2: Quale avverbio si abbina agli aggettivi forti?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quale parola sostituisce 'molto affamato'?",
+          "options": [
+            "affamato / famelico",
+            "assiderato",
+            "furioso",
+            "tranquillo"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Famelico' sostituisce 'molto affamato'.",
+          "say": "Domanda 3: Quale parola sostituisce 'molto affamato'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?lang=it&type=vocabulary&level=B1-B2",
+          "label": "Modulo di pratica interattiva aggettivi B1–B2"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "Archivio centrale di vocabolario COSYdata"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Incontri dal vivo e Speaking Clubs"
+        }
+      ]
+    },
+    {
+      "id": "post-replace-very-50-stronger-adjectives-ru",
+      "slug": "replace-very-50-stronger-adjectives-ru",
+      "language": "ru",
+      "desk": "Words",
+      "format": "list",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026.09",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-12",
+      "title": "Хватит говорить 'Очень'! 50 сильных прилагательных для богатого словарного запаса",
+      "kicker": "WORDS",
+      "dek": "Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными.",
+      "tags": [
+        "СловарныйЗапас",
+        "ПлатоСреднегоУровня",
+        "Прилагательные",
+        "B1-B2",
+        "Русский"
+      ],
+      "readingTime": 3,
+      "podcast": {
+        "episode": 3,
+        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-ru.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
+        "seed": "replace-very-50-stronger-adjectives-ru",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Отказ от слова 'Очень': Точные прилагательные",
+          "say": "Постоянное использование слова 'очень' — частый признак среднего уровня. Переход к сильным прилагательным делает речь яркой и точной.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Вместо сочетаний 'очень устал' или 'очень красивый' русский язык предлагает такие варианты, как 'обессилен' или 'великолепный'.",
+          "say": "Вместо 'очень устал' используйте 'обессилен' или 'изнурён'.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Примеры сильных прилагательных",
+          "say": "Вот примеры сильных прилагательных для ежедневной речи.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "После этого рабочего дня я совершенно обессилен.",
+          "gloss": "Заменяет 'очень устал' на 'обессилен'.",
+          "context": "После тяжелого рабочего дня",
+          "say": "После этого рабочего дня я совершенно обессилен.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Вид с вершины горы был изумительным.",
+          "gloss": "Заменяет 'очень красивым' на 'изумительным'.",
+          "context": "Описание природы",
+          "say": "Вид с вершины горы был изумительным.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Произношение и ударение 🗣️",
+          "say": "Say It. Тренируйте правильное ударение.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "обессилен",
+          "ipa": "[ɐ.bʲɪ.ˈsʲi.lʲɪn]",
+          "say": "Обессилен. Ударение на второй слог.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Усиление без слова 'очень'",
+          "content": "В русском языке сильные прилагательные сочетаются со словами 'совершенно', 'абсолютно' или 'невероятно' вместо обычного 'очень'.",
+          "say": "Culture bite: Сильные прилагательные усиливаются словом 'совершенно'.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Мини-квиз из 3 вопросов 📝",
+          "say": "Проверьте свои знания с помощью короткого квиза.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Какое сильное прилагательное заменяет 'очень устал'?",
+          "options": [
+            "обессилен",
+            "большой",
+            "быстрый",
+            "тихий"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Обессилен' означает чрезвычайно устал.",
+          "say": "Вопрос 1: Какое прилагательное заменяет 'очень устал'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Какое слово естественнее сочетается с сильными прилагательными?",
+          "options": [
+            "очень",
+            "совершенно",
+            "более",
+            "слишком"
+          ],
+          "correctIndex": 1,
+          "explanation": "Сильные прилагательные сочетаются со словами 'совершенно' или 'абсолютно'.",
+          "say": "Вопрос 2: Какое слово сочетается с сильными прилагательными?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Какое слово заменяет 'очень голодный'?",
+          "options": [
+            "голодный как волк / изголодавшийся",
+            "замерзший",
+            "разгневанный",
+            "спокойный"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Изголодавшийся' заменяет 'очень голодный'.",
+          "say": "Вопрос 3: Какое слово заменяет 'очень голодный'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Изучайте интерактивные материалы и словарные базы COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?lang=ru&type=vocabulary&level=B1-B2",
+          "label": "Интерактивный тренажёр прилагательных B1–B2"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "Центральный репозиторий COSYdata"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Разговорные клубы и живые встречи"
+        }
+      ]
+    },
+    {
       "id": "post-replace-very-50-stronger-adjectives",
       "slug": "replace-very-50-stronger-adjectives",
       "language": "en",
@@ -3441,169 +4127,19 @@
       ]
     },
     {
-      "id": "legacy-replace-very-50-stronger-adjectives-fr",
-      "slug": "replace-very-50-stronger-adjectives-fr",
-      "language": "fr",
-      "desk": "Words",
-      "format": "list",
-      "level": "B1–B2",
-      "issue": {
-        "number": "Vol. 2026 — September Issue",
-        "title": "Me vs Intermediate Plateau"
-      },
-      "date": "2026-09-12",
-      "title": "Arrêtez de dire 'Très' ! 50 adjectifs forts pour enrichir votre vocabulaire",
-      "kicker": "RESOURCE LIST",
-      "dek": "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels.",
-      "tags": [
-        "Vocabulaire",
-        "PlateauIntermédiaire",
-        "Adjectifs",
-        "B1-B2",
-        "Français"
-      ],
-      "readingTime": 3,
-      "podcast": {
-        "episode": 1,
-        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-fr.mp3"
-      },
-      "artDirection": {
-        "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
-        ],
-        "fonts": {
-          "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
-        },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "replace-very-50-stronger-adjectives-fr",
-        "coverOverride": null
-      },
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels."
-        }
-      ]
-    },
-    {
-      "id": "legacy-replace-very-50-stronger-adjectives-it",
-      "slug": "replace-very-50-stronger-adjectives-it",
-      "language": "it",
-      "desk": "Words",
-      "format": "list",
-      "level": "B1–B2",
-      "issue": {
-        "number": "Vol. 2026 — September Issue",
-        "title": "Me vs Intermediate Plateau"
-      },
-      "date": "2026-09-12",
-      "title": "Basta dire 'Molto'! 50 aggettivi forti per arricchire il tuo vocabolario",
-      "kicker": "RESOURCE LIST",
-      "dek": "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali.",
-      "tags": [
-        "Vocabolario",
-        "AltopianoIntermedio",
-        "Aggettivi",
-        "B1-B2",
-        "Italiano"
-      ],
-      "readingTime": 3,
-      "podcast": {
-        "episode": 1,
-        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-it.mp3"
-      },
-      "artDirection": {
-        "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
-        ],
-        "fonts": {
-          "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
-        },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "replace-very-50-stronger-adjectives-it",
-        "coverOverride": null
-      },
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali."
-        }
-      ]
-    },
-    {
-      "id": "legacy-replace-very-50-stronger-adjectives-ru",
-      "slug": "replace-very-50-stronger-adjectives-ru",
-      "language": "ru",
-      "desk": "Words",
-      "format": "list",
-      "level": "B1–B2",
-      "issue": {
-        "number": "Vol. 2026 — September Issue",
-        "title": "Me vs Intermediate Plateau"
-      },
-      "date": "2026-09-12",
-      "title": "Хватит говорить 'Очень'! 50 сильных прилагательных для богатого словарного запаса",
-      "kicker": "RESOURCE LIST",
-      "dek": "Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными.",
-      "tags": [
-        "СловарныйЗапас",
-        "ПлатоСреднегоУровня",
-        "Прилагательные",
-        "B1-B2",
-        "Русский"
-      ],
-      "readingTime": 3,
-      "podcast": {
-        "episode": 1,
-        "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-ru.mp3"
-      },
-      "artDirection": {
-        "palette": [
-          "#0d9488",
-          "#faf7f2",
-          "#1e293b"
-        ],
-        "fonts": {
-          "display": "Fraunces",
-          "text": "DM Sans",
-          "accent": "Fraunces Italic"
-        },
-        "layout": "standard-feed",
-        "motif": "riso-print",
-        "seed": "replace-very-50-stronger-adjectives-ru",
-        "coverOverride": null
-      },
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными."
-        }
-      ]
-    },
-    {
-      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-el",
+      "id": "post-top-10-verb-synonyms-intermediate-plateau-el",
       "slug": "top-10-verb-synonyms-intermediate-plateau-el",
       "language": "el",
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
       "issue": {
-        "number": "Vol. 2026 — September Issue",
+        "number": "Vol. 2026.09",
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
       "title": "Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)",
-      "kicker": "RESOURCE LIST",
+      "kicker": "WORDS",
       "dek": "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα.",
       "tags": [
         "ΕνδιάμεσοΕπίπεδο",
@@ -3614,47 +4150,215 @@
       ],
       "readingTime": 3,
       "podcast": {
-        "episode": 1,
+        "episode": 4,
         "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-el.mp3"
       },
       "artDirection": {
         "palette": [
           "#0d9488",
           "#faf7f2",
-          "#1e293b"
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
         "seed": "top-10-verb-synonyms-intermediate-plateau-el",
         "coverOverride": null
       },
       "blocks": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Ξεπερνώντας τα γενικά ρήματα στο ενδιάμεσο επίπεδο",
+          "say": "Στο επίπεδο B1–B2, οι μαθητές συχνά επαναλαμβάνουν γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι'. Η αντικατάστασή τους με ακριβή συνώνυμα προσφέρει σαφήνεια.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
           "type": "paragraph",
-          "text": "Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα."
+          "text": "Τα γενικά ρήματα έχουν πολλές σημασίες. Επιλέγοντας ακριβή ρήματα, η επικοινωνία σας γίνεται πιο εκφραστική και επαγγελματική.",
+          "say": "Τα ακριβή ρήματα κάνουν την επικοινωνία πιο εκφραστική.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ακριβή συνώνυμα ρημάτων",
+          "say": "Δείτε παραδείγματα ακριβών ρημάτων.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Η ομάδα απέκτησε την επιχείρηση και ηγήθηκε του νέου έργου.",
+          "gloss": "Αντικαθιστά τα γενικά 'πήρε' (απέκτησε) και 'ξεκίνησε' (ηγήθηκε).",
+          "context": "Επαγγελματικές συζητήσεις",
+          "say": "Η ομάδα απέκτησε την επιχείρηση και ηγήθηκε του νέου έργου.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Προφορά & Τονισμός 🗣️",
+          "say": "Say It. Εξασκηθείτε στον τονισμό.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "απέκτησε",
+          "ipa": "/aˈpe.kti.se/",
+          "say": "Απέκτησε. Τονίστε την δεύτερη συλλαβή.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Ακρίβεια στον ελληνικό λόγο",
+          "content": "Η ελληνική γλώσσα διαθέτει πλούσιο ρηματικό λεξιλόγιο. Η χρήση ακριβών ρημάτων δείχνει υψηλή γλωσσική καλλιέργεια.",
+          "say": "Culture bite: Τα ακριβή ρήματα δείχνουν γλωσσική καλλιέργεια.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3-Question Mini-Quiz 📝",
+          "say": "Δοκιμάστε τις γνώσεις σας με ένα σύντομο κουίζ.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Ποιο ακριβές ρήμα αντικαθιστά το γενικό 'πήρα' σε επίσημο πλαίσιο;",
+          "options": [
+            "απέκτησα / έλαβα",
+            "έκανα",
+            "είπα",
+            "πήγα"
+          ],
+          "correctIndex": 0,
+          "explanation": "Το 'απέκτησα' ή 'έλαβα' αντικαθιστά το γενικό 'πήρα'.",
+          "say": "Ερώτηση 1: Ποιο ρήμα αντικαθιστά το 'πήρα';",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Ποιο ρήμα εκφράζει ηγεσία σε ένα έργο;",
+          "options": [
+            "ηγούμαι / πρωτοστατώ",
+            "κάνω",
+            "λέω",
+            "βλέπω"
+          ],
+          "correctIndex": 0,
+          "explanation": "Το 'ηγούμαι' σημαίνει καθοδηγώ ενεργά μια πρωτοβουλία.",
+          "say": "Ερώτηση 2: Ποιο ρήμα εκφράζει ηγεσία;",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Ποιο ρήμα αντικαθιστά το 'νομίζω' όταν υπολογίζουμε ένα κόστος;",
+          "options": [
+            "εκτιμώ / υπολογίζω",
+            "κάνω",
+            "τρέχω",
+            "ακούω"
+          ],
+          "correctIndex": 0,
+          "explanation": "Το 'εκτιμώ' δηλώνει υπολογισμό.",
+          "say": "Ερώτηση 3: Ποιο ρήμα αντικαθιστά το 'νομίζω';",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Εξερευνήστε διαδραστική εξάσκηση και λεξιλόγιο στο COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?lang=el&type=vocabulary&level=B1-B2",
+          "label": "Διαδραστική Εξάσκηση Ρημάτων B1–B2"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "Κεντρικό Αποθετήριο Λεξιλογίου COSYdata"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Ζωντανές Συναντήσεις & Speaking Clubs"
         }
       ]
     },
     {
-      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-fr",
+      "id": "post-top-10-verb-synonyms-intermediate-plateau-fr",
       "slug": "top-10-verb-synonyms-intermediate-plateau-fr",
       "language": "fr",
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
       "issue": {
-        "number": "Vol. 2026 — September Issue",
+        "number": "Vol. 2026.09",
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
       "title": "Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire",
-      "kicker": "RESOURCE LIST",
-      "dek": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants.",
+      "kicker": "WORDS",
+      "dek": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'faire', 'dire' et 'penser' par des synonymes précis et élégants.",
       "tags": [
         "PlateauIntermédiaire",
         "Vocabulaire",
@@ -3664,46 +4368,214 @@
       ],
       "readingTime": 5,
       "podcast": {
-        "episode": 1,
+        "episode": 4,
         "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-fr.mp3"
       },
       "artDirection": {
         "palette": [
           "#0d9488",
           "#faf7f2",
-          "#1e293b"
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
         "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
         "coverOverride": null
       },
       "blocks": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Remplacer les verbes passe-partout",
+          "say": "Au niveau B1–B2, on a tendance à répéter des verbes passe-partout comme 'faire', 'dire' ou 'penser'. Les remplacer par des synonymes précis enrichit l'expression.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
           "type": "paragraph",
-          "text": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'get', 'faire', 'dire' et 'penser' par des synonymes précis et élégants."
+          "text": "Les verbes génériques manquent de précision. Choisir des verbes spécifiques clarifie votre pensée dans un contexte professionnel ou académique.",
+          "say": "Choisir des verbes spécifiques clarifie votre pensée.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Exemples de synonymes précis",
+          "say": "Voici des exemples de verbes précis.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "L'équipe a acquis l'entreprise et a piloté le nouveau projet.",
+          "gloss": "Remplace 'a eu l'entreprise' (acquis) et 'a commencé le projet' (piloté).",
+          "context": "Échanges professionnels",
+          "say": "L'équipe a acquis l'entreprise et a piloté le nouveau projet.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It : Prononciation & Accentuation 🗣️",
+          "say": "Say It. Pratiquez la prononciation des verbes.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "piloter",
+          "ipa": "/pi.lɔ.te/",
+          "say": "Piloter. Prononcez nettement la dernière syllabe.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "La précision verbale en français",
+          "content": "Le français écrit et soutenu privilégie la précision verbale. Remplacer 'faire un projet' par 'élaborer un projet' démontre une maîtrise de la langue.",
+          "say": "Culture bite: La précision verbale caractérise le registre soutenu.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mini-Quiz en 3 Questions 📝",
+          "say": "Testez vos connaissances avec un mini-quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quel verbe précis remplace 'faire un projet' ?",
+          "options": [
+            "élaborer / concevoir",
+            "avoir",
+            "dire",
+            "voir"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Élaborer' ou 'concevoir' apporte de la précision.",
+          "say": "Question 1 : Quel verbe précis remplace 'faire un projet' ?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quel verbe remplace 'dire' pour une affirmation formelle ?",
+          "options": [
+            "affirmer / déclarer",
+            "faire",
+            "penser",
+            "aller"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Affirmer' ou 'déclarer' remplace 'dire'.",
+          "say": "Question 2 : Quel verbe remplace 'dire' ?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quel verbe remplace 'obtenir' ou 'avoir' une diplôme ?",
+          "options": [
+            "décrocher / obtenir",
+            "faire",
+            "manger",
+            "venir"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Décrocher un diplôme' est une expression très naturelle.",
+          "say": "Question 3 : Quel verbe remplace 'avoir un diplôme' ?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Explorez la pratique interactive et les répertoires de vocabulaire COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?lang=fr&type=vocabulary&level=B1-B2",
+          "label": "Module d'entraînement aux verbes B1–B2"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "Répertoire central de verbes COSYdata"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Ateliers de conversation en direct"
         }
       ]
     },
     {
-      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-it",
+      "id": "post-top-10-verb-synonyms-intermediate-plateau-it",
       "slug": "top-10-verb-synonyms-intermediate-plateau-it",
       "language": "it",
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
       "issue": {
-        "number": "Vol. 2026 — September Issue",
+        "number": "Vol. 2026.09",
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
       "title": "I 10 verbi più abusati e i loro sinonimi precisi per il livello intermedio (B1–B2)",
-      "kicker": "RESOURCE LIST",
+      "kicker": "WORDS",
       "dek": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti.",
       "tags": [
         "AltopianoIntermedio",
@@ -3714,46 +4586,214 @@
       ],
       "readingTime": 3,
       "podcast": {
-        "episode": 1,
+        "episode": 4,
         "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-it.mp3"
       },
       "artDirection": {
         "palette": [
           "#0d9488",
           "#faf7f2",
-          "#1e293b"
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
         "seed": "top-10-verb-synonyms-intermediate-plateau-it",
         "coverOverride": null
       },
       "blocks": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Sostituire i verbi generici",
+          "say": "Al livello B1–B2 si tende a ripetere verbi generici come 'fare', 'dire' o 'pensare'. Sostituirli con sinonimi precisi arricchisce la conversazione.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
           "type": "paragraph",
-          "text": "Supera l'altopiano intermedio B1–B2 sostituendo verbi generici come 'fare', 'dire', 'pensare' e 'avere' con sinonimi precisi ed eleganti."
+          "text": "I verbi generici hanno troppi significati. Usare verbi specifici chiarisce il pensiero nel lavoro e nello studio.",
+          "say": "Usare verbi specifici rende più chiaro ed elegante il discorso.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Esempi di verbi precisi",
+          "say": "Ecco esempi di verbi precisi.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Il team ha acquisito l'azienda e guidato il nuovo progetto.",
+          "gloss": "Sostituisce 'ha preso l'azienda' (acquisito) e 'ha iniziato il progetto' (guidato).",
+          "context": "Ambito professionale",
+          "say": "Il team ha acquisito l'azienda e guidato il nuovo progetto.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Pronuncia & Ritmo 🗣️",
+          "say": "Say It. Pratica la pronuncia dei verbi.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "acquisire",
+          "ipa": "/ak.kwiˈsi.re/",
+          "say": "Acquisire. Pronuncia con accento sulla terza sillaba.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "La precisione verbale in italiano",
+          "content": "In italiano sostituire 'fare un progetto' con 'elaborare un progetto' dimostra proprietà di linguaggio e ricchezza espressiva.",
+          "say": "Culture bite: La precisione verbale dimostra proprietà di linguaggio.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mini-Quiz in 3 Domande 📝",
+          "say": "Metti alla prova le tue conoscenze con un breve quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quale verbo preciso sostituisce 'fare un progetto'?",
+          "options": [
+            "elaborare / ideare",
+            "avere",
+            "dire",
+            "andare"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Elaborare' o 'ideare' sostituisce il generico 'fare'.",
+          "say": "Domanda 1: Quale verbo preciso sostituisce 'fare un progetto'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quale verbo sostituisce 'dire' in un contesto formale?",
+          "options": [
+            "affermare / dichiarare",
+            "fare",
+            "pensare",
+            "venire"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Affermare' o 'dichiarare' sostituisce 'dire'.",
+          "say": "Domanda 2: Quale verbo sostituisce 'dire'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Quale verbo sostituisce 'prendere una laurea'?",
+          "options": [
+            "conseguire / ottenere",
+            "fare",
+            "mangiare",
+            "andare"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Conseguire una laurea' è l'espressione corretta e formale.",
+          "say": "Domanda 3: Quale verbo sostituisce 'prendere una laurea'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?lang=it&type=vocabulary&level=B1-B2",
+          "label": "Modulo di pratica interattiva verbi B1–B2"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "Archivio centrale di verbi COSYdata"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Speaking Clubs e incontri dal vivo"
         }
       ]
     },
     {
-      "id": "legacy-top-10-verb-synonyms-intermediate-plateau-ru",
+      "id": "post-top-10-verb-synonyms-intermediate-plateau-ru",
       "slug": "top-10-verb-synonyms-intermediate-plateau-ru",
       "language": "ru",
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
       "issue": {
-        "number": "Vol. 2026 — September Issue",
+        "number": "Vol. 2026.09",
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
       "title": "Топ-10 перегруженных глаголов и их точные синонимы для среднего уровня (B1–B2)",
-      "kicker": "RESOURCE LIST",
+      "kicker": "WORDS",
       "dek": "Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами.",
       "tags": [
         "ПлатоСреднегоУровня",
@@ -3764,46 +4804,214 @@
       ],
       "readingTime": 3,
       "podcast": {
-        "episode": 1,
+        "episode": 4,
         "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-ru.mp3"
       },
       "artDirection": {
         "palette": [
           "#0d9488",
           "#faf7f2",
-          "#1e293b"
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
         "seed": "top-10-verb-synonyms-intermediate-plateau-ru",
         "coverOverride": null
       },
       "blocks": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Замена общеупотребительных глаголов",
+          "say": "На уровне B1–B2 ученики часто повторяют простые глаголы вроде 'делать', 'сказать' или 'думать'. Замена их точными синонимами делает речь грамотной.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
           "type": "paragraph",
-          "text": "Преодолейте плато среднего уровня, заменив заученные разговорные глаголы вроде 'делать', 'сказать' и 'думать' точными и выразительными синонимами."
+          "text": "Простые глаголы имеют слишком размытое значение. Точные глаголы помогают четко сформулировать мысль в учебе и работе.",
+          "say": "Точные глаголы делают речь выразительной и точной.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Примеры точных глаголов",
+          "say": "Вот примеры точных глаголов.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Команда приобрела компанию и возглавила новый проект.",
+          "gloss": "Заменяет 'получила компанию' (приобрела) и 'начала проект' (возглавила).",
+          "context": "Деловое общение",
+          "say": "Команда приобрела компанию и возглавила новый проект.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Произношение и ударение 🗣️",
+          "say": "Say It. Тренируйте ударение в глаголах.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "возглавить",
+          "ipa": "[vɐz.ˈɡɫa.vʲɪtʲ]",
+          "say": "Возглавить. Ударение на второй слог.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Точность стилей в русском языке",
+          "content": "Русский язык богато различает разговорные и деловые глаголы. Замена 'делать проект' на 'разрабатывать проект' придаёт речи убедительность.",
+          "say": "Culture bite: Точные глаголы придают речи профессионализм.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Мини-квиз из 3 вопросов 📝",
+          "say": "Проверьте свои знания с помощью короткого квиза.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Какой точный глагол заменяет 'делать проект'?",
+          "options": [
+            "разрабатывать / создавать",
+            "иметь",
+            "говорить",
+            "идти"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Разрабатывать' заменяет разговорное 'делать'.",
+          "say": "Вопрос 1: Какой точный глагол заменяет 'делать проект'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Какой глагол заменяет 'сказать' в официальном стиле?",
+          "options": [
+            "заявить / отродиться / утверждать",
+            "делать",
+            "думать",
+            "ехать"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Заявить' или 'утверждать' заменяет 'сказать'.",
+          "say": "Вопрос 2: Какой глагол заменяет 'сказать'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Какой глагол означает 'получить образование'?",
+          "options": [
+            "получить / завершить",
+            "делать",
+            "есть",
+            "идти"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Получить образование' — точное выражение.",
+          "say": "Вопрос 3: Какой глагол означает 'получить образование'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Изучайте интерактивные материалы и словарные базы COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?lang=ru&type=vocabulary&level=B1-B2",
+          "label": "Интерактивный тренажёр глаголов B1–B2"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "Центральный репозиторий COSYdata"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Разговорные клубы и живые встречи"
         }
       ]
     },
     {
-      "id": "legacy-top-10-verb-synonyms-intermediate-plateau",
+      "id": "post-top-10-verb-synonyms-intermediate-plateau",
       "slug": "top-10-verb-synonyms-intermediate-plateau",
       "language": "en",
       "desk": "Words",
       "format": "list",
       "level": "B1–B2",
       "issue": {
-        "number": "Vol. 2026 — September Issue",
+        "number": "Vol. 2026.09",
         "title": "Me vs Intermediate Plateau"
       },
       "date": "2026-09-11",
       "title": "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Plateau",
-      "kicker": "RESOURCE LIST",
+      "kicker": "WORDS",
       "dek": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms.",
       "tags": [
         "IntermediatePlateau",
@@ -3813,29 +5021,209 @@
       ],
       "readingTime": 7,
       "podcast": {
-        "episode": 1,
+        "episode": 4,
         "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau.mp3"
       },
       "artDirection": {
         "palette": [
           "#0d9488",
           "#faf7f2",
-          "#1e293b"
+          "#1e293b",
+          "#d69e2e"
         ],
         "fonts": {
           "display": "Fraunces",
           "text": "DM Sans",
           "accent": "Fraunces Italic"
         },
-        "layout": "standard-feed",
-        "motif": "riso-print",
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
         "seed": "top-10-verb-synonyms-intermediate-plateau",
         "coverOverride": null
       },
       "blocks": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Breaking Through the Intermediate Plateau",
+          "say": "At the B1 to B2 level, learners rely heavily on ten generic verbs like get, make, do, and think. Replacing them with precise synonyms elevates your fluency immediately.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
           "type": "paragraph",
-          "text": "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms."
+          "text": "Overused verbs like 'get' carry dozens of dictionary meanings. Choosing precise verbs clarifies your exact meaning in professional and academic settings.",
+          "say": "Choosing precise verbs clarifies your exact meaning in professional and academic settings.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High-Impact Verb Upgrades",
+          "say": "Here are key verb upgrades for intermediate learners.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "The team acquired the business and spearheaded the new project.",
+          "gloss": "Replaces 'got the business' (acquired) and 'started the project' (spearheaded).",
+          "context": "Professional & business discussions",
+          "say": "The team acquired the business and spearheaded the new project.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "I'd estimate the cost to be around five hundred dollars.",
+          "gloss": "Replaces 'I think the cost is...'.",
+          "context": "Business estimates & planning",
+          "say": "I'd estimate the cost to be around five hundred dollars.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Pronunciation Keys 🗣️",
+          "say": "Say It section. Practice verb stress patterns.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "spearhead",
+          "ipa": "/ˈspɪər.hɛd/",
+          "say": "Spearhead. Stress the first syllable.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Verbs Define Register",
+          "content": "In English, phrasal verbs ('get by', 'put off') are common in casual conversations, whereas Latinate single-word verbs ('succeed', 'postpone') belong to formal academic and business registers.",
+          "say": "Culture bite: Single-word verbs define formal academic register.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3-Question Mini-Quiz 📝",
+          "say": "Test your understanding with a quick 3-question mini-quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Which precise verb replaces 'get' when receiving an award or diploma?",
+          "options": [
+            "obtain / acquire",
+            "do",
+            "make",
+            "say"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Obtain' or 'acquire' replaces generic 'get'.",
+          "say": "Question 1: Which precise verb replaces 'get'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Which verb replaces 'think' when providing a professional estimate?",
+          "options": [
+            "estimate",
+            "get",
+            "look",
+            "go"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Estimate' specifies an educated professional assessment.",
+          "say": "Question 2: Which verb replaces 'think' when estimating?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Which verb replaces 'start' when leading an initiative?",
+          "options": [
+            "spearhead",
+            "make",
+            "do",
+            "finish"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Spearhead' means to actively lead an initiative.",
+          "say": "Question 3: Which verb replaces 'start'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?type=vocabulary&level=B1-B2",
+          "label": "Interactive Verbs & Synonyms Practice"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "COSYdata Master Verb Repository"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Live Speaking Clubs"
         }
       ]
     },
@@ -3908,6 +5296,223 @@
           "destination": "practice",
           "url": "../practice/index.html",
           "label": "Explore COSY Practice Hub →"
+        }
+      ]
+    },
+    {
+      "id": "post-overcoming-intermediate-plateau",
+      "slug": "overcoming-intermediate-plateau",
+      "language": "en",
+      "desk": "Long Reads",
+      "format": "essay",
+      "level": "B1–B2",
+      "issue": {
+        "number": "Vol. 2026.09",
+        "title": "Me vs Intermediate Plateau"
+      },
+      "date": "2026-09-08",
+      "title": "Overcoming the Intermediate Plateau: A Practical Roadmap for B1–B2 Learners",
+      "kicker": "LONG READS",
+      "dek": "Discover actionable strategies, mindsets, and deliberate practice routines to break out of the comfortable intermediate plateau and reach effortless B2–C1 fluency.",
+      "tags": [
+        "IntermediatePlateau",
+        "Fluency",
+        "Methodology",
+        "B1-B2"
+      ],
+      "readingTime": 7,
+      "podcast": {
+        "episode": 5,
+        "audioUrl": "../audio/blog/overcoming-intermediate-plateau.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "tea-stain",
+        "seed": "overcoming-intermediate-plateau",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Understanding the B1–B2 Intermediate Plateau",
+          "say": "The intermediate plateau occurs when initial rapid progress slows down because you can already handle daily interactions. To advance, you need deliberate practice.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At B1, passive understanding outpaces active output. The solution lies in shifting from passive consumption to deliberate practice: active recall, vocabulary upgrades, and challenging speaking contexts.",
+          "say": "Shifting from passive consumption to deliberate practice transforms your spoken fluency.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Core Principles for Breakthrough",
+          "say": "Three core principles: upgrade safe phrases, embrace error reflection, and engage in real-time discussions.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Instead of defaulting to 'I agree', practice 'I couldn't agree more' or 'I see it differently'.",
+          "gloss": "Replacing safe default phrases with expressive upgrades.",
+          "context": "Deliberate vocabulary practice",
+          "say": "Instead of defaulting to 'I agree', practice 'I couldn't agree more' or 'I see it differently'.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Pronunciation & Flow 🗣️",
+          "say": "Say It section. Practice natural sentence flow.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "deliberate practice",
+          "ipa": "/dɪˈlɪb.ər.ət ˈpræk.tɪs/",
+          "say": "Deliberate practice. Stress 'lib' and 'prac'.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "The Comfort Zone Fallacy",
+          "content": "In language acquisition research, comfort is the enemy of growth. Pushing into topics where you lack vocabulary forces your brain to build new neural pathways.",
+          "say": "Culture bite: Pushing beyond your comfort zone builds new language pathways.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3-Question Mini-Quiz 📝",
+          "say": "Test your understanding with a quick 3-question mini-quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "What primary shift is needed to overcome the intermediate plateau?",
+          "options": [
+            "From passive consumption to deliberate active output.",
+            "Memorizing more basic dictionary words.",
+            "Avoiding speaking until perfect.",
+            "Studying grammar rules in isolation."
+          ],
+          "correctIndex": 0,
+          "explanation": "Active deliberate practice transforms passive knowledge into spoken fluency.",
+          "say": "Question 1: What primary shift is needed to overcome the intermediate plateau?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Why do intermediate learners get stuck on 'safe' phrases?",
+          "options": [
+            "Because safe phrases reduce cognitive load during speech.",
+            "Because English has no synonyms.",
+            "Because grammar forbids new words.",
+            "Because B1 learners cannot learn vocabulary."
+          ],
+          "correctIndex": 0,
+          "explanation": "Safe phrases require less effort, creating a comfortable habit.",
+          "say": "Question 2: Why do intermediate learners get stuck on safe phrases?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Which activity best accelerates transition from B1 to B2?",
+          "options": [
+            "Active discussion with immediate error feedback.",
+            "Silent reading of easy stories.",
+            "Watching movies with native-language subtitles.",
+            "Copying grammar tables by hand."
+          ],
+          "correctIndex": 0,
+          "explanation": "Active discussion with constructive feedback bridges B1 and B2.",
+          "say": "Question 3: Which activity best accelerates transition from B1 to B2?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html?type=grammar&level=B1-B2",
+          "label": "Interactive B1–B2 Grammar & Vocabulary Hub"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "COSYdata B1–B2 Vocabulary Master Repository"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Live B1–B2 Intermediate Breakthrough Workshops"
         }
       ]
     },
@@ -4581,6 +6186,440 @@
         {
           "type": "paragraph",
           "text": "Native A1 Nouns, Verbs, Adjectives, and Expressions with monolingual Breton definitions."
+        }
+      ]
+    },
+    {
+      "id": "post-why-speaking-first",
+      "slug": "why-speaking-first",
+      "language": "en",
+      "desk": "Front Page",
+      "format": "essay",
+      "level": "A0–B2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-28",
+      "title": "Why 'Speaking First' Changes Everything in Language Acquisition",
+      "kicker": "EDITORIAL ROOM",
+      "dek": "Exploring the CELTA-aligned Speaking First methodology: why oral communication must precede formal grammar tables for natural, confident fluency.",
+      "tags": [
+        "SpeakingFirst",
+        "Methodology",
+        "Pedagogy",
+        "Fluency"
+      ],
+      "readingTime": 5,
+      "podcast": {
+        "episode": 6,
+        "audioUrl": "../audio/blog/why-speaking-first.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#f59e0b"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "window-light",
+        "seed": "why-speaking-first",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Primacy of Oral Communication",
+          "say": "Human beings learned to speak hundreds of thousands of years before writing was invented. Speaking first aligns with natural brain biology.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "When learners begin with speaking and immediate communication, grammar becomes a tool to refine ideas rather than an intimidating barrier. This is the core foundation of our CELTA-aligned methodology.",
+          "say": "Grammar becomes a tool to refine ideas rather than an intimidating barrier.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Speaking First in Action",
+          "say": "In practice, speaking first means using functional sentence frames from day one.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "I'd like a coffee, please. / Where is the station?",
+          "gloss": "Immediate functional communication before studying conjugation tables.",
+          "context": "Day one beginner oral practice",
+          "say": "I'd like a coffee, please. Where is the station?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Confidence & Intonation 🗣️",
+          "say": "Say It section. Focus on clear pitch and stress.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "I'd like a...",
+          "ipa": "/aɪd laɪk ə/",
+          "say": "I'd like a... Smooth contraction and pitch rise.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Natural Child Acquisition Model",
+          "content": "Children master their native language by speaking and listening for years before learning formal grammar rules in school. 'Speaking First' brings this natural ease to adult learning.",
+          "say": "Culture bite: Children master oral speech long before reading or writing.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3-Question Mini-Quiz 📝",
+          "say": "Test your understanding with a quick 3-question mini-quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "What is the core principle of the 'Speaking First' methodology?",
+          "options": [
+            "Oral communication precedes formal grammar rules.",
+            "Students must write essays before speaking.",
+            "Grammar tables must be memorized first.",
+            "Translation is required for every word."
+          ],
+          "correctIndex": 0,
+          "explanation": "Oral communication creates immediate confidence and natural brain pathways.",
+          "say": "Question 1: What is the core principle of 'Speaking First'?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "How does grammar function in a 'Speaking First' framework?",
+          "options": [
+            "As a tool to refine thoughts after oral communication is established.",
+            "As a strict exam test.",
+            "As a replacement for vocabulary.",
+            "As a silent exercise only."
+          ],
+          "correctIndex": 0,
+          "explanation": "Grammar serves as a tool to polish and refine ideas.",
+          "say": "Question 2: How does grammar function in a 'Speaking First' framework?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "Why does 'Speaking First' reduce anxiety for adult learners?",
+          "options": [
+            "It focuses on immediate communicative success rather than grammatical perfection.",
+            "It eliminates speaking practice.",
+            "It relies on long written exams.",
+            "It forbids asking questions."
+          ],
+          "correctIndex": 0,
+          "explanation": "Communicative success builds confidence early in the learning journey.",
+          "say": "Question 3: Why does 'Speaking First' reduce anxiety?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../practice/index.html",
+          "label": "Interactive Practice Hub"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "COSYdata Master Repository"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../apps/premium-events/index.html",
+          "label": "Live Speaking Clubs & Workshops"
+        }
+      ]
+    },
+    {
+      "id": "post-building-cosy-master-curriculum",
+      "slug": "building-cosy-master-curriculum",
+      "language": "en",
+      "desk": "Front Page",
+      "format": "essay",
+      "level": "A0–B2",
+      "issue": {
+        "number": "Vol. 2026.08",
+        "title": "Get ready for school"
+      },
+      "date": "2026-08-20",
+      "title": "Building the COSY Master Curriculum Across 14 Target Languages",
+      "kicker": "CURRICULUM",
+      "dek": "An architectural breakdown of the Top 100 semantic master tree, CEFR alignment, and cross-language vocabulary integration across all 14 COSY target languages.",
+      "tags": [
+        "Curriculum",
+        "Top100",
+        "Architecture",
+        "14Languages"
+      ],
+      "readingTime": 6,
+      "podcast": {
+        "episode": 7,
+        "audioUrl": "../audio/blog/building-cosy-master-curriculum.mp3"
+      },
+      "artDirection": {
+        "palette": [
+          "#0d9488",
+          "#faf7f2",
+          "#1e293b",
+          "#d69e2e"
+        ],
+        "fonts": {
+          "display": "Fraunces",
+          "text": "DM Sans",
+          "accent": "Fraunces Italic"
+        },
+        "layout": "magazine-spread",
+        "motif": "gingham-knit",
+        "seed": "building-cosy-master-curriculum",
+        "coverOverride": null
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Architectural Principles of the Master Curriculum",
+          "say": "Building a unified curriculum across 14 languages requires a single semantic master tree. Each domain connects core nouns, action verbs, and survival expressions.",
+          "beat": {
+            "duration": 4000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "From English and French to Armenian, Georgian, Tatar, and Breton, the COSY Master Curriculum aligns CEFR progression with native target-language definitions and COSYdata repositories.",
+          "say": "Aligned CEFR progression ensures every language learner enjoys a structured path.",
+          "beat": {
+            "duration": 4500,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "The Top 100 Semantic Tree",
+          "say": "100 ordered semantic chains organized into 10 progressive domains.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "example",
+          "targetText": "Domain 1: Identity & Greetings • Domain 2: Daily Routines • Domain 3: Food & Dining",
+          "gloss": "Progressive semantic domains connecting all 14 target languages.",
+          "context": "Curriculum structure",
+          "say": "Progressive semantic domains connecting all 14 target languages.",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Say It: Academic Terminology 🗣️",
+          "say": "Say It section. Practice curriculum terminology.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "pronunciation",
+          "word": "semantic tree",
+          "ipa": "/sɪˈmæn.tɪk triː/",
+          "say": "Semantic tree. Clear stress on the middle syllable.",
+          "beat": {
+            "duration": 3000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "culture-bite",
+          "title": "Cross-Linguistic Harmony",
+          "content": "Designing a curriculum for 14 languages requires respecting regional orthographies (Cyrillic, Greek, Armenian, Georgian) while preserving identical pedagogical milestones across all tracks.",
+          "say": "Culture bite: Preserving identical pedagogical milestones across 14 languages.",
+          "beat": {
+            "duration": 4500,
+            "camera": "spotlight",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3-Question Mini-Quiz 📝",
+          "say": "Test your understanding with a quick 3-question mini-quiz.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "How many target languages are connected by the COSY Master Curriculum?",
+          "options": [
+            "14 languages",
+            "5 languages",
+            "1 language",
+            "20 languages"
+          ],
+          "correctIndex": 0,
+          "explanation": "The Master Curriculum connects 14 target languages under one semantic framework.",
+          "say": "Question 1: How many target languages are connected?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "What connects the vocabulary datasets across languages?",
+          "options": [
+            "The Top 100 Semantic Tree",
+            "Alphabetical dictionaries",
+            "Machine translations",
+            "Random word lists"
+          ],
+          "correctIndex": 0,
+          "explanation": "The Top 100 Semantic Tree provides the unified structural backbone.",
+          "say": "Question 2: What connects the vocabulary datasets across languages?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "quiz",
+          "question": "How are language scripts handled in the curriculum?",
+          "options": [
+            "Each language keeps its native script with Latin transliterations where helpful.",
+            "All languages are converted to English.",
+            "Scripts are ignored.",
+            "Only Latin script is allowed."
+          ],
+          "correctIndex": 0,
+          "explanation": "Native scripts are strictly preserved following the no-translation-fallback rule.",
+          "say": "Question 3: How are language scripts handled in the curriculum?",
+          "beat": {
+            "duration": 4000,
+            "camera": "focus",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Go Deeper Across the Ecosystem 🌐",
+          "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+          "beat": {
+            "duration": 3000,
+            "camera": "push-in",
+            "reveal": "fade-in"
+          }
+        },
+        {
+          "type": "links",
+          "destination": "practice",
+          "url": "../blog/top-100-a0-a1.html",
+          "label": "Top 100 Master Semantic Tree Guide"
+        },
+        {
+          "type": "links",
+          "destination": "cosydata",
+          "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+          "label": "COSYdata Master Repository"
+        },
+        {
+          "type": "links",
+          "destination": "events",
+          "url": "../courses/index.html",
+          "label": "COSY Language Courses & Tracks"
         }
       ]
     },

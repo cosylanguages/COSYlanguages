@@ -1,0 +1,218 @@
+{
+  "id": "post-top-10-verb-synonyms-intermediate-plateau-fr",
+  "slug": "top-10-verb-synonyms-intermediate-plateau-fr",
+  "language": "fr",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-11",
+  "title": "Les 10 verbes surutilisés et leurs synonymes précis pour le plateau intermédiaire",
+  "kicker": "WORDS",
+  "dek": "Dépassez le plateau intermédiaire B1–B2 en remplaçant les verbes génériques comme 'faire', 'dire' et 'penser' par des synonymes précis et élégants.",
+  "tags": [
+    "PlateauIntermédiaire",
+    "Vocabulaire",
+    "B1-B2",
+    "Verbes",
+    "Français"
+  ],
+  "readingTime": 5,
+  "podcast": {
+    "episode": 4,
+    "audioUrl": "../audio/blog/top-10-verb-synonyms-intermediate-plateau-fr.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "top-10-verb-synonyms-intermediate-plateau-fr",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Remplacer les verbes passe-partout",
+      "say": "Au niveau B1–B2, on a tendance à répéter des verbes passe-partout comme 'faire', 'dire' ou 'penser'. Les remplacer par des synonymes précis enrichit l'expression.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Les verbes génériques manquent de précision. Choisir des verbes spécifiques clarifie votre pensée dans un contexte professionnel ou académique.",
+      "say": "Choisir des verbes spécifiques clarifie votre pensée.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exemples de synonymes précis",
+      "say": "Voici des exemples de verbes précis.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "L'équipe a acquis l'entreprise et a piloté le nouveau projet.",
+      "gloss": "Remplace 'a eu l'entreprise' (acquis) et 'a commencé le projet' (piloté).",
+      "context": "Échanges professionnels",
+      "say": "L'équipe a acquis l'entreprise et a piloté le nouveau projet.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It : Prononciation & Accentuation 🗣️",
+      "say": "Say It. Pratiquez la prononciation des verbes.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "piloter",
+      "ipa": "/pi.lɔ.te/",
+      "say": "Piloter. Prononcez nettement la dernière syllabe.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "La précision verbale en français",
+      "content": "Le français écrit et soutenu privilégie la précision verbale. Remplacer 'faire un projet' par 'élaborer un projet' démontre une maîtrise de la langue.",
+      "say": "Culture bite: La précision verbale caractérise le registre soutenu.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz en 3 Questions 📝",
+      "say": "Testez vos connaissances avec un mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quel verbe précis remplace 'faire un projet' ?",
+      "options": [
+        "élaborer / concevoir",
+        "avoir",
+        "dire",
+        "voir"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Élaborer' ou 'concevoir' apporte de la précision.",
+      "say": "Question 1 : Quel verbe précis remplace 'faire un projet' ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quel verbe remplace 'dire' pour une affirmation formelle ?",
+      "options": [
+        "affirmer / déclarer",
+        "faire",
+        "penser",
+        "aller"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Affirmer' ou 'déclarer' remplace 'dire'.",
+      "say": "Question 2 : Quel verbe remplace 'dire' ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quel verbe remplace 'obtenir' ou 'avoir' une diplôme ?",
+      "options": [
+        "décrocher / obtenir",
+        "faire",
+        "manger",
+        "venir"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Décrocher un diplôme' est une expression très naturelle.",
+      "say": "Question 3 : Quel verbe remplace 'avoir un diplôme' ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explorez la pratique interactive et les répertoires de vocabulaire COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=fr&type=vocabulary&level=B1-B2",
+      "label": "Module d'entraînement aux verbes B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Répertoire central de verbes COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Ateliers de conversation en direct"
+    }
+  ]
+}

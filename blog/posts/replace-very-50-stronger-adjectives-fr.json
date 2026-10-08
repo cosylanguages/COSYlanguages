@@ -1,0 +1,230 @@
+{
+  "id": "post-replace-very-50-stronger-adjectives-fr",
+  "slug": "replace-very-50-stronger-adjectives-fr",
+  "language": "fr",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-12",
+  "title": "Arrêtez de dire 'Très' ! 50 adjectifs forts pour enrichir votre vocabulaire",
+  "kicker": "WORDS",
+  "dek": "Passez au niveau supérieur en remplaçant la combinaison répétitive 'très + adjectif' par 50 adjectifs précis, expressifs et naturels.",
+  "tags": [
+    "Vocabulaire",
+    "PlateauIntermédiaire",
+    "Adjectifs",
+    "B1-B2",
+    "Français"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-fr.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-very-50-stronger-adjectives-fr",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dépasser le réflexe du mot 'Très'",
+      "say": "Utiliser constamment 'très' devant les adjectifs est un signe classique du plateau intermédiaire. Les adjectifs forts apportent précision et élégance.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Au lieu de dire 'très fatigué' ou 'très beau', le français dispose d'adjectifs précis comme 'épuisé' ou 'magnifique'.",
+      "say": "Au lieu de dire 'très fatigué', utilisez 'épuisé' ou 'exténué'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Adjectifs forts essentiels",
+      "say": "Voici des exemples d'adjectifs forts utiles au quotidien.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Après cette journée chargée, je suis totalement épuisé.",
+      "gloss": "Remplace 'très fatigué' par 'épuisé'.",
+      "context": "Après une longue journée de travail",
+      "say": "Après cette journée chargée, je suis totalement épuisé.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "La vue depuis la montagne est magnifique.",
+      "gloss": "Remplace 'très belle' par 'magnifique'.",
+      "context": "Description d'un paysage",
+      "say": "La vue depuis la montagne est magnifique.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It : Prononciation & Accentuation 🗣️",
+      "say": "Say It. Entraînez-vous à l'accentuation naturelle.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "épuisé",
+      "ipa": "/e.pɥi.ze/",
+      "say": "Épuisé. Prononcez clairement les trois syllabes.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Les adjectifs absolus en français",
+      "content": "Les adjectifs forts comme 'épuisé' ou 'magnifique' ne se combinent pas avec 'très'. On utilisera plutôt 'absolument' ou 'totalement'.",
+      "say": "Culture bite: Les adjectifs absolus s'utilisent avec 'absolument'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz en 3 Questions 📝",
+      "say": "Testez vos connaissances avec un mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quel adjectif fort remplace 'très fatigué' ?",
+      "options": [
+        "épuisé",
+        "grand",
+        "calme",
+        "rapide"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Épuisé' signifie extrêmement fatigué.",
+      "say": "Question 1 : Quel adjectif fort remplace 'très fatigué' ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quel adverbe s'associe naturellement aux adjectifs forts ?",
+      "options": [
+        "très",
+        "absolument",
+        "plus",
+        "trop"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les adjectifs absolus s'associent avec 'absolument' ou 'totalement'.",
+      "say": "Question 2 : Quel adverbe s'associe aux adjectifs forts ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quel adjectif fort remplace 'très faim' ?",
+      "options": [
+        "affamé",
+        "gelé",
+        "furieux",
+        "silencieux"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Affamé' remplace 'très faim'.",
+      "say": "Question 3 : Quel adjectif fort remplace 'très faim' ?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explorez la pratique interactive et les répertoires de vocabulaire COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=fr&type=vocabulary&level=B1-B2",
+      "label": "Module d'entraînement aux adjectifs B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Répertoire central de vocabulaire COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Ateliers de vocabulaire en direct"
+    }
+  ]
+}

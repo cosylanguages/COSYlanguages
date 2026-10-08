@@ -1,0 +1,230 @@
+{
+  "id": "post-replace-very-50-stronger-adjectives-ru",
+  "slug": "replace-very-50-stronger-adjectives-ru",
+  "language": "ru",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-12",
+  "title": "Хватит говорить 'Очень'! 50 сильных прилагательных для богатого словарного запаса",
+  "kicker": "WORDS",
+  "dek": "Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными.",
+  "tags": [
+    "СловарныйЗапас",
+    "ПлатоСреднегоУровня",
+    "Прилагательные",
+    "B1-B2",
+    "Русский"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-ru.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-very-50-stronger-adjectives-ru",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Отказ от слова 'Очень': Точные прилагательные",
+      "say": "Постоянное использование слова 'очень' — частый признак среднего уровня. Переход к сильным прилагательным делает речь яркой и точной.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Вместо сочетаний 'очень устал' или 'очень красивый' русский язык предлагает такие варианты, как 'обессилен' или 'великолепный'.",
+      "say": "Вместо 'очень устал' используйте 'обессилен' или 'изнурён'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Примеры сильных прилагательных",
+      "say": "Вот примеры сильных прилагательных для ежедневной речи.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "После этого рабочего дня я совершенно обессилен.",
+      "gloss": "Заменяет 'очень устал' на 'обессилен'.",
+      "context": "После тяжелого рабочего дня",
+      "say": "После этого рабочего дня я совершенно обессилен.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Вид с вершины горы был изумительным.",
+      "gloss": "Заменяет 'очень красивым' на 'изумительным'.",
+      "context": "Описание природы",
+      "say": "Вид с вершины горы был изумительным.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Произношение и ударение 🗣️",
+      "say": "Say It. Тренируйте правильное ударение.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "обессилен",
+      "ipa": "[ɐ.bʲɪ.ˈsʲi.lʲɪn]",
+      "say": "Обессилен. Ударение на второй слог.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Усиление без слова 'очень'",
+      "content": "В русском языке сильные прилагательные сочетаются со словами 'совершенно', 'абсолютно' или 'невероятно' вместо обычного 'очень'.",
+      "say": "Culture bite: Сильные прилагательные усиливаются словом 'совершенно'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Мини-квиз из 3 вопросов 📝",
+      "say": "Проверьте свои знания с помощью короткого квиза.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Какое сильное прилагательное заменяет 'очень устал'?",
+      "options": [
+        "обессилен",
+        "большой",
+        "быстрый",
+        "тихий"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Обессилен' означает чрезвычайно устал.",
+      "say": "Вопрос 1: Какое прилагательное заменяет 'очень устал'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Какое слово естественнее сочетается с сильными прилагательными?",
+      "options": [
+        "очень",
+        "совершенно",
+        "более",
+        "слишком"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сильные прилагательные сочетаются со словами 'совершенно' или 'абсолютно'.",
+      "say": "Вопрос 2: Какое слово сочетается с сильными прилагательными?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Какое слово заменяет 'очень голодный'?",
+      "options": [
+        "голодный как волк / изголодавшийся",
+        "замерзший",
+        "разгневанный",
+        "спокойный"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Изголодавшийся' заменяет 'очень голодный'.",
+      "say": "Вопрос 3: Какое слово заменяет 'очень голодный'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Изучайте интерактивные материалы и словарные базы COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=ru&type=vocabulary&level=B1-B2",
+      "label": "Интерактивный тренажёр прилагательных B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Центральный репозиторий COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Разговорные клубы и живые встречи"
+    }
+  ]
+}

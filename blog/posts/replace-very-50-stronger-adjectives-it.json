@@ -1,0 +1,230 @@
+{
+  "id": "post-replace-very-50-stronger-adjectives-it",
+  "slug": "replace-very-50-stronger-adjectives-it",
+  "language": "it",
+  "desk": "Words",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.09",
+    "title": "Me vs Intermediate Plateau"
+  },
+  "date": "2026-09-12",
+  "title": "Basta dire 'Molto'! 50 aggettivi forti per arricchire il tuo vocabolario",
+  "kicker": "WORDS",
+  "dek": "Migliora la tua padronanza dell'italiano sostituendo la combinazione ripetitiva 'molto + aggettivo' con 50 aggettivi precisi, espressivi e naturali.",
+  "tags": [
+    "Vocabolario",
+    "AltopianoIntermedio",
+    "Aggettivi",
+    "B1-B2",
+    "Italiano"
+  ],
+  "readingTime": 3,
+  "podcast": {
+    "episode": 3,
+    "audioUrl": "../audio/blog/replace-very-50-stronger-adjectives-it.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "tea-stain",
+    "seed": "replace-very-50-stronger-adjectives-it",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Oltre il 'Molto': Usare aggettivi precisi",
+      "say": "L'uso continuo di 'molto' è tipico del livello intermedio. Passare ad aggettivi forti rende il discorso più espressivo e naturale.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Invece di dire 'molto stanco' o 'molto bello', l'italiano offre aggettivi espressivi come 'esausto' o 'splendido'.",
+      "say": "Invece di dire 'molto stanco', usa 'esausto' o 'sinito'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Aggettivi forti essenziali",
+      "say": "Ecco esempi di aggettivi forti utili nella conversazione quotidiana.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Dopo questa giornata intensa sono completamente esausto.",
+      "gloss": "Sostituisce 'molto stanco' con 'esausto'.",
+      "context": "Dopo una lunga giornata di lavoro",
+      "say": "Dopo questa giornata intensa sono completamente esausto.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "La vista dalle montagne era splendida.",
+      "gloss": "Sostituisce 'molto bella' con 'splendida'.",
+      "context": "Descrizione di un paesaggio",
+      "say": "La vista dalle montagne era splendida.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronuncia & Accento 🗣️",
+      "say": "Say It. Pratica l'accentazione naturale.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "esausto",
+      "ipa": "/eˈsau.sto/",
+      "say": "Esausto. Pronuncia con accento sulla seconda sillaba.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Aggettivi assoluti e superlativi",
+      "content": "In italiano gli aggettivi forti come 'esausto' o 'splendido' non richiedono 'molto'. Si combinano invece con 'completamente' o 'assolutamente'.",
+      "say": "Culture bite: Gli aggettivi assoluti si usano con 'assolutamente'.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mini-Quiz in 3 Domande 📝",
+      "say": "Metti alla prova le tue conoscenze con un breve quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale aggettivo forte sostituisce 'molto stanco'?",
+      "options": [
+        "esausto",
+        "grande",
+        "veloce",
+        "silenzioso"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Esausto' significa estremamente stanco.",
+      "say": "Domanda 1: Quale aggettivo forte sostituisce 'molto stanco'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale avverbio si abbina agli aggettivi forti?",
+      "options": [
+        "molto",
+        "assolutamente",
+        "più",
+        "troppo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gli aggettivi assoluti si abbinano ad 'assolutamente'.",
+      "say": "Domanda 2: Quale avverbio si abbina agli aggettivi forti?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Quale parola sostituisce 'molto affamato'?",
+      "options": [
+        "affamato / famelico",
+        "assiderato",
+        "furioso",
+        "tranquillo"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Famelico' sostituisce 'molto affamato'.",
+      "say": "Domanda 3: Quale parola sostituisce 'molto affamato'?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?lang=it&type=vocabulary&level=B1-B2",
+      "label": "Modulo di pratica interattiva aggettivi B1–B2"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "Archivio centrale di vocabolario COSYdata"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Incontri dal vivo e Speaking Clubs"
+    }
+  ]
+}
