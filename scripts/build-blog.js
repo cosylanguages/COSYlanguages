@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * scripts/build-blog.js
- * Builds static blog post HTML pages and generates blog/posts.json & blog/index.json directly from JSON source files.
+ * Builds static blog post HTML pages as Vogue Gazette editorial spreads
+ * and generates blog/posts.json & blog/index.json directly from JSON source files.
  *
  * Usage: node scripts/build-blog.js
  */
@@ -62,7 +63,7 @@ const LANG_FLAG_MAP = {
 };
 
 function escapeHtml(value) {
-  return String(value).replace(/[&<>"']/g, char => ({
+  return String(value ?? '').replace(/[&<>"']/g, char => ({
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;',
@@ -80,7 +81,7 @@ function parseFormattedText(text) {
 }
 
 function getDocumentTitle(title) {
-  const fullTitle = `${title} — COSY Blog`;
+  const fullTitle = `${title} — COSY Gazette`;
   const characters = Array.from(fullTitle);
   let documentTitle = characters.length <= 70
     ? fullTitle
@@ -92,134 +93,144 @@ function getDocumentTitle(title) {
   return documentTitle;
 }
 
-function renderBlockToHtml(block) {
+function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   if (!block || typeof block !== 'object') return '';
 
   switch (block.type) {
     case 'heading': {
       const lvl = Math.min(6, Math.max(1, block.level || 2));
-      return `<h${lvl}>${parseFormattedText(block.text)}</h${lvl}>`;
+      return `<h${lvl} class="editorial-heading">${parseFormattedText(block.text)}</h${lvl}>`;
     }
     case 'paragraph': {
+      if (state.isFirstParagraph) {
+        state.isFirstParagraph = false;
+        return `<p class="gazette-drop-cap">${parseFormattedText(block.text)}</p>`;
+      }
       return `<p>${parseFormattedText(block.text)}</p>`;
     }
     case 'list-item': {
       const tag = block.ordered ? 'ol' : 'ul';
-      const itemsHtml = (block.items || []).map(item => `<li>${parseFormattedText(item)}</li>`).join('\n');
-      return `<${tag}>\n${itemsHtml}\n</${tag}>`;
+      const items = block.items || [];
+
+      // Detect if items are phrase pairs / overused phrase upgrades
+      const isUpgradeList = items.some(item =>
+        item.includes('Overused') ||
+        item.includes('Natural Upgrades') ||
+        item.includes('Замены') ||
+        item.includes('Согласие') ||
+        item.includes('→') ||
+        item.includes('↔')
+      );
+
+      if (isUpgradeList) {
+        const upgradeItemsHtml = items.map(item => {
+          const parsed = parseFormattedText(item);
+          return `<div class="phrase-upgrade-card">${parsed}</div>`;
+        }).join('\n');
+        return `<div class="phrase-upgrade-grid">${upgradeItemsHtml}</div>`;
+      }
+
+      const itemsHtml = items.map(item => `<li>${parseFormattedText(item)}</li>`).join('\n');
+      return `<${tag} class="editorial-list">\n${itemsHtml}\n</${tag}>`;
     }
     case 'table': {
-      const headersHtml = (block.headers || []).map(h => `<th>${parseFormattedText(h)}</th>`).join('');
-      const rowsHtml = (block.rows || []).map(row => {
-        const cellsHtml = row.map(cell => `<td>${parseFormattedText(cell)}</td>`).join('');
-        return `<tr>${cellsHtml}</tr>`;
+      const headers = block.headers || [];
+      const rows = block.rows || [];
+
+      // Transform 50-item word tables into a designed two-column "Instead of / Try" spread
+      const headersHtml = headers.map((h, idx) => {
+        const label = parseFormattedText(h);
+        const colClass = idx === 0 ? 'col-instead' : (idx === 1 ? 'col-try' : 'col-context');
+        return `<div class="instead-try-header ${colClass}">${label}</div>`;
+      }).join('');
+
+      const rowsHtml = rows.map(row => {
+        const cells = row.map((cell, idx) => {
+          const cellContent = parseFormattedText(cell);
+          const colClass = idx === 0 ? 'instead-cell' : (idx === 1 ? 'try-cell' : 'context-cell');
+          const badge = idx === 0 ? '<span class="instead-badge">Instead of</span> ' : (idx === 1 ? '<span class="try-badge">Try</span> ' : '');
+          return `<div class="instead-try-cell ${colClass}">${badge}${cellContent}</div>`;
+        }).join('');
+
+        return `<div class="instead-try-row">${cells}</div>`;
       }).join('\n');
-      const captionHtml = block.caption ? `<caption>${parseFormattedText(block.caption)}</caption>` : '';
-      return `<div class="table-wrapper">\n<table>\n${captionHtml}\n<thead><tr>${headersHtml}</tr></thead>\n<tbody>\n${rowsHtml}\n</tbody>\n</table>\n</div>`;
+
+      return `
+<div class="instead-try-spread" aria-label="Vocabulary Comparisons Spread">
+  <div class="instead-try-headers">${headersHtml}</div>
+  <div class="instead-try-body">
+    ${rowsHtml}
+  </div>
+</div>`;
     }
     case 'example': {
       return `
-<div class="example-box" style="background: rgba(13, 148, 136, 0.05); border-left: 4px solid var(--teal, #0d9488); padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-  <p style="font-size: 1.1rem; font-weight: 600; color: var(--teal, #0d9488); margin-bottom: 0.25rem;">${parseFormattedText(block.targetText)}</p>
-  <p style="font-size: 0.95rem; margin: 0; color: var(--text-main, #1e293b);">${parseFormattedText(block.gloss)}</p>
-  ${block.context ? `<p style="font-size: 0.85rem; font-style: italic; color: #64748b; margin-top: 0.25rem;">Context: ${parseFormattedText(block.context)}</p>` : ''}
+<div class="gazette-example-box">
+  <span class="example-target">${parseFormattedText(block.targetText)}</span>
+  <p class="example-gloss">${parseFormattedText(block.gloss)}</p>
+  ${block.context ? `<p class="example-context">Context: ${parseFormattedText(block.context)}</p>` : ''}
 </div>`;
     }
     case 'pronunciation': {
       return `
-<div class="pronunciation-card" style="display: flex; align-items: center; gap: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.75rem 1rem; border-radius: 8px; margin: 1rem 0;">
-  <span style="font-weight: 700; font-size: 1.1rem;">${parseFormattedText(block.word)}</span>
-  <span style="font-family: monospace; color: #0d9488;">[${escapeHtml(block.ipa)}]</span>
+<div class="gazette-pronunciation-card">
+  <span class="pronunciation-word">${parseFormattedText(block.word)}</span>
+  <span class="pronunciation-ipa">[${escapeHtml(block.ipa)}]</span>
   ${block.audioUrl ? `<audio controls src="${escapeHtml(block.audioUrl)}"></audio>` : ''}
 </div>`;
     }
     case 'pullquote': {
       return `
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“${parseFormattedText(block.quote)}”</p>
-  ${block.attribution ? `<cite style="font-size: 0.9rem; font-style: normal; color: #64748b;">— ${escapeHtml(block.attribution)}</cite>` : ''}
+<blockquote class="gazette-pullquote">
+  <p>“${parseFormattedText(block.quote)}”</p>
+  ${block.attribution ? `<cite>— ${escapeHtml(block.attribution)}</cite>` : ''}
 </blockquote>`;
     }
     case 'image': {
       return `
-<figure style="margin: 1.5rem 0;">
-  <img src="${escapeHtml(block.url)}" alt="${escapeHtml(block.alt)}" style="max-width: 100%; border-radius: 8px;">
-  ${block.caption ? `<figcaption style="font-size: 0.85rem; color: #64748b; text-align: center; margin-top: 0.5rem;">${parseFormattedText(block.caption)}</figcaption>` : ''}
+<figure class="gazette-figure">
+  <img src="${escapeHtml(block.url)}" alt="${escapeHtml(block.alt)}" class="gazette-figure-img">
+  ${block.caption ? `<figcaption class="gazette-figure-caption">${parseFormattedText(block.caption)}</figcaption>` : ''}
 </figure>`;
     }
     case 'quiz': {
-      const optionsHtml = (block.options || []).map((opt, i) => `<li style="margin-bottom: 0.25rem;">${i === block.correctIndex ? '✅ ' : '⚪ '}${parseFormattedText(opt)}</li>`).join('');
+      const optionsHtml = (block.options || []).map((opt, i) => `
+        <button type="button" class="quiz-option-btn${i === block.correctIndex ? ' correct-option' : ''}">
+          <span>${i === block.correctIndex ? '✅' : '⚪'}</span> ${parseFormattedText(opt)}
+        </button>
+      `).join('');
       return `
-<div class="quiz-block" style="background: #faf7f2; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin: 1.5rem 0;">
-  <h4 style="color: var(--teal, #0d9488); margin-bottom: 0.5rem;">❓ ${parseFormattedText(block.question)}</h4>
-  <ul style="list-style: none; padding-left: 0;">${optionsHtml}</ul>
-  ${block.explanation ? `<p style="font-size: 0.9rem; font-style: italic; margin-top: 0.5rem; color: #64748b;">${parseFormattedText(block.explanation)}</p>` : ''}
+<div class="gazette-quiz-card">
+  <h4 class="quiz-question">❓ ${parseFormattedText(block.question)}</h4>
+  <div class="quiz-options-list">${optionsHtml}</div>
+  ${block.explanation ? `<p class="quiz-explanation">${parseFormattedText(block.explanation)}</p>` : ''}
 </div>`;
     }
     case 'culture-bite': {
       return `
-<div class="culture-bite" style="background: rgba(217, 119, 6, 0.08); border-left: 4px solid #d97706; padding: 1rem; margin: 1.5rem 0; border-radius: 4px;">
-  <h4 style="color: #b45309; margin-bottom: 0.35rem;">📌 ${parseFormattedText(block.title)}</h4>
-  <p style="margin: 0; font-size: 0.95rem;">${parseFormattedText(block.content)}</p>
-</div>`;
+<aside class="gazette-marginalia">
+  <div class="gazette-marginalia-title">📌 ${parseFormattedText(block.title)}</div>
+  <p class="marginalia-body">${parseFormattedText(block.content)}</p>
+</aside>`;
     }
     case 'quote-wall': {
-      const quotesHtml = (block.quotes || []).map(q => `<div style="margin-bottom: 0.75rem;"><em>“${parseFormattedText(q.quote)}”</em> — <strong>${escapeHtml(q.author)}</strong></div>`).join('');
-      return `<div class="quote-wall" style="background: #f1f5f9; padding: 1rem; border-radius: 8px; margin: 1.5rem 0;">${quotesHtml}</div>`;
+      const quotesHtml = (block.quotes || []).map(q => `
+        <div class="quote-tile">
+          <p class="quote-tile-text">“${parseFormattedText(q.quote)}”</p>
+          <div class="quote-tile-author">— ${escapeHtml(q.author)}</div>
+        </div>
+      `).join('');
+      return `<div class="format-quote-wall">${quotesHtml}</div>`;
     }
     case 'links': {
       return `
-<div class="links-block" style="margin: 1.5rem 0;">
-  <a href="${escapeHtml(block.url)}" class="read-more-link" style="font-weight: 600; color: var(--teal, #0d9488);">${parseFormattedText(block.label)}</a>
+<div class="gazette-link-block">
+  <a href="${escapeHtml(block.url)}" class="read-more-link">${parseFormattedText(block.label)} ↗</a>
 </div>`;
     }
     default:
       return '';
   }
-}
-
-function formatFlipbookContent(renderedBlocksHtml, slug) {
-  const hrChunks = renderedBlocksHtml.split(/<hr\s*\/?>/i).filter(c => c.trim().length > 0);
-  let pages = [];
-
-  if (hrChunks.length > 1) {
-    pages = hrChunks;
-  } else {
-    const h2Parts = renderedBlocksHtml.split(/(?=<h[23][^>]*>)/i).filter(c => c.trim().length > 0);
-    if (h2Parts.length > 1) {
-      pages = h2Parts;
-    } else {
-      pages = [renderedBlocksHtml];
-    }
-  }
-
-  return pages.map((chunk, idx) => {
-    const pageNum = idx + 1;
-    const audioSrc = `../audio/blog/${slug}-page-${pageNum}.mp3`;
-    const audioPlayerHtml = `
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page ${pageNum} of ${pages.length}</span>
-    </div>
-    <audio controls preload="none" src="${audioSrc}">
-      Your browser does not support the audio element.
-    </audio>
-  </div>`;
-
-    const pageFooterHtml = `
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page ${pageNum} of ${pages.length}</span>
-  </div>`;
-
-    return `
-<section class="flipbook-page${idx === 0 ? ' active' : ''}" data-page="${pageNum}" aria-label="Page ${pageNum} of ${pages.length}">
-  ${audioPlayerHtml}
-  ${chunk}
-  ${pageFooterHtml}
-</section>`;
-  }).join('\n');
 }
 
 function renderLanguageSwitcherHtml(currentPost, allPosts) {
@@ -232,19 +243,73 @@ function renderLanguageSwitcherHtml(currentPost, allPosts) {
     const flag = LANG_FLAG_MAP[v.language] || '🌐';
     const langCode = v.language.toUpperCase();
     if (v.slug === currentPost.slug) {
-      return `<span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">${flag} ${langCode}</span>`;
+      return `<span class="lang-switcher-active">${flag} ${langCode}</span>`;
     }
-    return `<a href="${v.slug}.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">${flag} ${langCode}</a>`;
+    return `<a href="${v.slug}.html" class="lang-switcher-link">${flag} ${langCode}</a>`;
   }).join(' ');
 
   return `
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+<div class="language-switcher-bar">
+  <span class="lang-switcher-label">Read in:</span>
   ${linksHtml}
 </div>`;
 }
 
-function buildBlog() {
-  console.log('🚀 Starting COSYlanguages Unified Blog Build Pipeline...');
+function renderStaticPodcastBoxHtml(post) {
+  const podcast = post.podcast || {};
+  const episodeNum = podcast.episode || 1;
+  const audioUrl = podcast.audioUrl || (post.audio_podcast ? `../audio/blog/${post.slug}.mp3` : null);
+
+  const playerHtml = audioUrl ? `
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="${escapeHtml(audioUrl)}">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  ` : `
+    <div class="podcast-audio-notice">
+      <span>🎙️ Audio recording in production for this episode.</span>
+    </div>
+  `;
+
+  return `
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE ${episodeNum}</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ ${escapeHtml(post.title || 'COSY Podcast Episode')}</h3>
+      <p class="podcast-box-dek">${escapeHtml(post.dek || post.summary || '')}</p>
+    </div>
+
+    ${playerHtml}
+  </div>
+</section>`;
+}
+
+async function buildBlog() {
+  console.log('🚀 Starting COSYlanguages Vogue Gazette Build Pipeline...');
+
+  // Dynamically import procedural SVG cover generator module
+  let artModule;
+  try {
+    artModule = await import('./blog/js/art/generator.js');
+  } catch (e) {
+    try {
+      artModule = await import('../blog/js/art/generator.js');
+    } catch (err) {
+      console.warn('⚠️ Could not import art generator module:', err.message);
+    }
+  }
 
   if (!fs.existsSync(POSTS_DIR)) {
     fs.mkdirSync(POSTS_DIR, { recursive: true });
@@ -315,17 +380,33 @@ function buildBlog() {
   const publishedPosts = allPosts.filter(p => !p.draft);
   console.log(`📝 Processing ${publishedPosts.length} published post(s) (${allPosts.length - publishedPosts.length} draft(s) skipped)...`);
 
-  // 4. Generate HTML pages for non-draft posts
+  // 4. Generate HTML pages for published posts
   publishedPosts.forEach(post => {
     const htmlPath = path.join(BLOG_DIR, `${post.slug}.html`);
-    const renderedBlocksHtml = (post.blocks || []).map(renderBlockToHtml).join('\n');
-    const flipbookBody = formatFlipbookContent(renderedBlocksHtml, post.slug);
+
+    // Render blocks statefully to apply drop cap on the first paragraph
+    const blockState = { isFirstParagraph: true };
+    const renderedBlocksHtml = (post.blocks || []).map(b => renderBlockToHtml(b, blockState)).join('\n');
     const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts);
 
+    // Inlined SVG cover art generated at build time
+    let coverSvgHtml = '';
+    if (artModule && typeof artModule.renderCover === 'function') {
+      coverSvgHtml = artModule.renderCover(post, { width: 1200, height: 600, showText: false });
+    }
+
     const authorName = 'JY DM';
-    const category = post.desk || 'Words';
-    const coverImage = post.artDirection?.coverOverride || '';
-    const founderNotes = `CELTA-aligned target-language guidance by JY DM for COSYmagazine ${post.issue.title} edition.`;
+    const format = post.format || 'essay';
+    const desk = post.desk || 'Words';
+    const kicker = post.kicker || desk;
+    const issueNum = post.issue?.number || 'Vol. 2026.09';
+    const issueTitle = post.issue?.title || 'COSY Editorial';
+    const palette = post.artDirection?.palette || ['#0d9488', '#faf7f2', '#1e293b', '#d69e2e'];
+    const fontDisplay = post.artDirection?.fonts?.display || 'Fraunces';
+    const fontText = post.artDirection?.fonts?.text || 'DM Sans';
+    const fontAccent = post.artDirection?.fonts?.accent || 'Fraunces';
+
+    const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post) : '';
 
     const htmlContent = `<!DOCTYPE html>
 <html lang="${escapeHtml(post.language)}">
@@ -336,10 +417,10 @@ function buildBlog() {
     <meta name="description" content="${escapeHtml(post.dek)}">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="${escapeHtml(palette[1] || '#faf7f2')}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -348,102 +429,111 @@ function buildBlog() {
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: ${escapeHtml(palette[0] || '#0d9488')};
+        --post-palette-bg: ${escapeHtml(palette[1] || '#faf7f2')};
+        --post-palette-text: ${escapeHtml(palette[2] || '#1e293b')};
+        --post-palette-highlight: ${escapeHtml(palette[3] || palette[0] || '#d69e2e')};
+        --post-font-display: '${escapeHtml(fontDisplay)}', 'Lora', Georgia, serif;
+        --post-font-body: '${escapeHtml(fontText)}', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: '${escapeHtml(fontAccent)}', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="${escapeHtml(category)}">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-${escapeHtml(format)}">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">${escapeHtml(category)}</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">${escapeHtml(post.title)}</h1>
-            ${langSwitcherHtml}
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>${escapeHtml(authorName)}</strong></span>
-                <span>·</span>
-                <span>📅 Published ${post.date}</span>
-                <span>·</span>
-                <span>⏱️ ${post.readingTime} min read</span>
+            <div class="gazette-masthead-meta">
+                <span>${escapeHtml(issueNum)} • ${escapeHtml(issueTitle)}</span>
+                <span class="stamp-sticker">${escapeHtml(desk)}</span>
+                <span>${escapeHtml(post.date)}</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">${escapeHtml(post.issue.title)} (${escapeHtml(post.level)}) • Editorial Vibe</span>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            ${coverSvgHtml ? `<div class="gazette-cover-art-container">${coverSvgHtml}</div>` : ''}
+
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">${escapeHtml(kicker)}</span>
+                <h1 class="cover-headline">${escapeHtml(post.title)}</h1>
+                <p class="editorial-dek">${escapeHtml(post.dek)}</p>
+
+                ${langSwitcherHtml}
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>${escapeHtml(authorName)}</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 ${escapeHtml(post.date)}</span>
+                        <span>⏱️ ${post.readingTime} min read</span>
+                        <span class="stamp-sticker">${escapeHtml(post.level || 'A0–B2')}</span>
+                        ${post.podcast ? `<span class="stamp-sticker">EPISODE ${post.podcast.episode}</span>` : ''}
                     </div>
                 </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> ${escapeHtml(founderNotes)}</p>
-                </div>
-            </div>
-        </section>
-
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                ${coverImage ? `<div class="post-cover" style="margin-bottom: 1.5rem;"><img src="${escapeHtml(coverImage)}" alt="${escapeHtml(post.title)}" style="width: 100%; border-radius: 12px;"></div>` : ''}
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    ${flipbookBody}
-                </article>
-
-                ${post.tags.length > 0 ? `
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    ${post.tags.map(t => `<span class="post-tag-chip">#${escapeHtml(t)}</span>`).join(' ')}
-                </div>` : ''}
-
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
-
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
-                    </div>
-                </div>
-
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
         </div>
+
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                ${renderedBlocksHtml}
+            </article>
+
+            ${(post.podcast || post.audio_podcast) ? `
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+                ${staticPodcastBoxHtml}
+            </div>` : ''}
+
+            ${post.tags && post.tags.length > 0 ? `
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                ${post.tags.map(t => `<span class="post-tag-chip">#${escapeHtml(t)}</span>`).join(' ')}
+            </div>` : ''}
+
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level ${escapeHtml(post.level || 'A0–B2')}. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine ${escapeHtml(issueTitle)} edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
+                    </div>
+                </div>
+            </details>
+
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • ${escapeHtml(issueNum)}</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -496,7 +586,22 @@ function buildBlog() {
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = ${JSON.stringify(post)};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>
 `;

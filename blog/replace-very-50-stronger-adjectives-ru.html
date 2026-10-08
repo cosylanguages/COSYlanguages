@@ -7,10 +7,10 @@
     <meta name="description" content="Поднимите уровень своего языка, заменив повторяющуюся связку &#39;очень + прилагательное&#39; 50 выразительными, точными и естественными прилагательными.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#faf7f2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,228 +19,233 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-palette-highlight: #d69e2e;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-list">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Хватит говорить &#39;Очень&#39;! 50 сильных прилагательных для богатого словарного запаса</h1>
-            
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="replace-very-50-stronger-adjectives-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <a href="replace-very-50-stronger-adjectives-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <a href="replace-very-50-stronger-adjectives-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇷🇺 RU</span> <a href="replace-very-50-stronger-adjectives.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-12</span>
-                <span>·</span>
-                <span>⏱️ 3 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span class="stamp-sticker">Words</span>
+                <span>2026-09-12</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
-                    </div>
-                </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
-            </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-very-50-stronger-adjectives-ru">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-ru-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Один из самых заметных признаков <strong>плато среднего уровня (B1–B2)</strong> — злоупотребление словом <strong>&quot;очень&quot;</strong> для усиления простых прилагательных.</p>
-<p>Хотя фразы вроде <em>&quot;очень большой&quot;</em>, <em>&quot;очень хороший&quot;</em> или <em>&quot;очень устал&quot;</em> понятны и грамотны, их постоянное повторение делает речь однообразной. Переход к ярким одиночным прилагательным сразу делает вашу речь более естественной, богатой и точной.</p>
-<p>Вот 50 выразительных альтернатив конструкции <em>&quot;очень + прилагательное&quot;</em>.</p>
+    <rect width="1200" height="600" fill="#d69e2e" />
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 3</span>
-  </div>
-</section>
+      <ellipse cx="537" cy="272" rx="134" ry="127" fill="#1e293b" opacity="0.25" transform="rotate(218 537 272)" style="filter: blur(12px);" />
+      <ellipse cx="547" cy="267" rx="80.39999999999999" ry="76.2" fill="#0d9488" opacity="0.15" transform="rotate(218 537 272)" style="filter: blur(8px);" />
 
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-ru-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>50 сильных альтернатив к &quot;Очень + Прилагательное&quot;</h3>
-<div class="table-wrapper">
-<table>
+      <ellipse cx="870" cy="208" rx="155" ry="100" fill="#1e293b" opacity="0.25" transform="rotate(324 870 208)" style="filter: blur(12px);" />
+      <ellipse cx="880" cy="203" rx="93" ry="60" fill="#0d9488" opacity="0.15" transform="rotate(324 870 208)" style="filter: blur(8px);" />
 
-<thead><tr><th>Вместо...</th><th>Используйте...</th></tr></thead>
-<tbody>
-<tr><td><strong>Очень плохой</strong></td><td><em>ужасный, скверный, отвратительный</em></td></tr>
-<tr><td><strong>Очень хороший</strong></td><td><em>отличный, великолепный, превосходный</em></td></tr>
-<tr><td><strong>Очень большой</strong></td><td><em>огромный, гигантский, колоссальный</em></td></tr>
-<tr><td><strong>Очень маленький</strong></td><td><em>крошечный, мизерный, крохотный</em></td></tr>
-<tr><td><strong>Очень красивый</strong></td><td><em>прекрасный, изумительный, живописный</em></td></tr>
-<tr><td><strong>Очень некрасивый</strong></td><td><em>уродливый, безобразный</em></td></tr>
-<tr><td><strong>Очень интересный</strong></td><td><em>увлекательный, захватывающий, любопытный</em></td></tr>
-<tr><td><strong>Очень скучный</strong></td><td><em>нудный, тоскливый, монотонный</em></td></tr>
-<tr><td><strong>Очень смешной</strong></td><td><em>смехотворный, уморительный</em></td></tr>
-<tr><td><strong>Очень грустный</strong></td><td><em>печальный, удрученный, убитый горем</em></td></tr>
-<tr><td><strong>Очень счастливый</strong></td><td><em>ликующий, восторженный, счастливейший</em></td></tr>
-<tr><td><strong>Очень злой</strong></td><td><em>разъяренный, разгневанный, свирепый</em></td></tr>
-<tr><td><strong>Очень уставший</strong></td><td><em>обессиленный, изнуренный, выжатый</em></td></tr>
-<tr><td><strong>Очень голодный</strong></td><td><em>голодный как волк, изголодавшийся</em></td></tr>
-<tr><td><strong>Очень холодный</strong></td><td><em>ледяной, морозный, студеный</em></td></tr>
-<tr><td><strong>Очень горячий</strong></td><td><em>обжигающий, знойный, раскаленный</em></td></tr>
-<tr><td><strong>Очень быстрый</strong></td><td><em>стремительный, молниеносный</em></td></tr>
-<tr><td><strong>Очень медленный</strong></td><td><em>неторопливый, вялый</em></td></tr>
-<tr><td><strong>Очень громкий</strong></td><td><em>оглушительный, оглушающий</em></td></tr>
-<tr><td><strong>Очень тихий</strong></td><td><em>бесшумный, безмолвный, тихонький</em></td></tr>
-<tr><td><strong>Очень светлый</strong></td><td><em>слепящий, ярко освещенный</em></td></tr>
-<tr><td><strong>Очень темный</strong></td><td><em>непросветный, мрачный, беспросветный</em></td></tr>
-<tr><td><strong>Очень чистый</strong></td><td><em>безупречный, безукоризненный</em></td></tr>
-<tr><td><strong>Очень грязный</strong></td><td><em>засаленный, запущенный</em></td></tr>
-<tr><td><strong>Очень старый</strong></td><td><em>древний</em> (предметы), <em>престарелый</em> (люди)</td></tr>
-<tr><td><strong>Очень новый</strong></td><td><em>новейший, ультрасовременный</em></td></tr>
-<tr><td><strong>Очень богатый</strong></td><td><em>зажиточный, состоятельный</em></td></tr>
-<tr><td><strong>Очень бедный</strong></td><td><em>нищий, обнищавший</em></td></tr>
-<tr><td><strong>Очень простой</strong></td><td><em>элементарный, пустяковый</em></td></tr>
-<tr><td><strong>Очень сложный</strong></td><td><em>замысловатый, трудоемкий, непростой</em></td></tr>
-<tr><td><strong>Очень важный</strong></td><td><em>ключевой, решающий, первостепенный</em></td></tr>
-<tr><td><strong>Очень известный</strong></td><td><em>знаменитый, прославленный, легендарный</em></td></tr>
-<tr><td><strong>Очень испуганный</strong></td><td><em>напуганный до смерти, ошарашенный</em></td></tr>
-<tr><td><strong>Очень удивленный</strong></td><td><em>пораженный, ошеломленный</em></td></tr>
-<tr><td><strong>Очень взволнованный</strong></td><td><em>восторженный, будоражащий</em></td></tr>
-<tr><td><strong>Очень обеспокоенный</strong></td><td><em>встревоженный, тревожный</em></td></tr>
-<tr><td><strong>Очень смущенный</strong></td><td><em>озадаченный, растерянный</em></td></tr>
-<tr><td><strong>Очень умный</strong></td><td><em>гениальный, мудрый, одаренный</em></td></tr>
-<tr><td><strong>Очень глупый</strong></td><td><em>нелепый, бессмысленный</em></td></tr>
-<tr><td><strong>Очень смелый</strong></td><td><em>бесстрашный, отважный</em></td></tr>
-<tr><td><strong>Очень слабый</strong></td><td><em>хрупкий, хилый</em></td></tr>
-<tr><td><strong>Очень сильный</strong></td><td><em>могучий, мощный</em></td></tr>
-<tr><td><strong>Очень дорогой</strong></td><td><em>заоблачный, бесценный</em></td></tr>
-<tr><td><strong>Очень дешевый</strong></td><td><em>доступный, копеечный</em></td></tr>
-<tr><td><strong>Очень людный</strong></td><td><em>переполненный, битком набитый</em></td></tr>
-<tr><td><strong>Очень пустой</strong></td><td><em>пустынный, заброшенный</em></td></tr>
-<tr><td><strong>Очень занятый</strong></td><td><em>загруженный, загруженный по горло</em></td></tr>
-<tr><td><strong>Очень ленивый</strong></td><td><em>праздный, нерадивый</em></td></tr>
-</tbody>
-</table>
+      <ellipse cx="424" cy="223" rx="133" ry="63" fill="#1e293b" opacity="0.25" transform="rotate(205 424 223)" style="filter: blur(12px);" />
+      <ellipse cx="434" cy="218" rx="79.8" ry="37.8" fill="#0d9488" opacity="0.15" transform="rotate(205 424 223)" style="filter: blur(8px);" />
+
+      <ellipse cx="888" cy="381" rx="171" ry="139" fill="#1e293b" opacity="0.25" transform="rotate(349 888 381)" style="filter: blur(12px);" />
+      <ellipse cx="898" cy="376" rx="102.6" ry="83.39999999999999" fill="#0d9488" opacity="0.15" transform="rotate(349 888 381)" style="filter: blur(8px);" />
+
+      <ellipse cx="601" cy="202" rx="118" ry="49" fill="#1e293b" opacity="0.25" transform="rotate(223 601 202)" style="filter: blur(12px);" />
+      <ellipse cx="611" cy="197" rx="70.8" ry="29.4" fill="#0d9488" opacity="0.15" transform="rotate(223 601 202)" style="filter: blur(8px);" />
+
+
+
+    </svg></div>
+            
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">WORDS</span>
+                <h1 class="cover-headline">Хватит говорить &#39;Очень&#39;! 50 сильных прилагательных для богатого словарного запаса</h1>
+                <p class="editorial-dek">Поднимите уровень своего языка, заменив повторяющуюся связку &#39;очень + прилагательное&#39; 50 выразительными, точными и естественными прилагательными.</p>
+
+
+<div class="language-switcher-bar">
+  <span class="lang-switcher-label">Read in:</span>
+  <a href="replace-very-50-stronger-adjectives-el.html" class="lang-switcher-link">🇬🇷 EL</a> <a href="replace-very-50-stronger-adjectives-fr.html" class="lang-switcher-link">🇫🇷 FR</a> <a href="replace-very-50-stronger-adjectives-it.html" class="lang-switcher-link">🇮🇹 IT</a> <span class="lang-switcher-active">🇷🇺 RU</span> <a href="replace-very-50-stronger-adjectives.html" class="lang-switcher-link">🇬🇧 EN</a>
 </div>
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 3</span>
-  </div>
-</section>
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-09-12</span>
+                        <span>⏱️ 3 min read</span>
+                        <span class="stamp-sticker">B1–B2</span>
+                        <span class="stamp-sticker">EPISODE 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-ru-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">Один из самых заметных признаков <strong>плато среднего уровня (B1–B2)</strong> — злоупотребление словом <strong>&quot;очень&quot;</strong> для усиления простых прилагательных.</p>
+<p>Хотя фразы вроде <em>&quot;очень большой&quot;</em>, <em>&quot;очень хороший&quot;</em> или <em>&quot;очень устал&quot;</em> понятны и грамотны, их постоянное повторение делает речь однообразной. Переход к ярким одиночным прилагательным сразу делает вашу речь более естественной, богатой и точной.</p>
+<p>Вот 50 выразительных альтернатив конструкции <em>&quot;очень + прилагательное&quot;</em>.</p>
+<h3 class="editorial-heading">50 сильных альтернатив к &quot;Очень + Прилагательное&quot;</h3>
+
+<div class="instead-try-spread" aria-label="Vocabulary Comparisons Spread">
+  <div class="instead-try-headers"><div class="instead-try-header col-instead">Вместо...</div><div class="instead-try-header col-try">Используйте...</div></div>
+  <div class="instead-try-body">
+    <div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень плохой</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>ужасный, скверный, отвратительный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень хороший</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>отличный, великолепный, превосходный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень большой</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>огромный, гигантский, колоссальный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень маленький</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>крошечный, мизерный, крохотный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень красивый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>прекрасный, изумительный, живописный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень некрасивый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>уродливый, безобразный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень интересный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>увлекательный, захватывающий, любопытный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень скучный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>нудный, тоскливый, монотонный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень смешной</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>смехотворный, уморительный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень грустный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>печальный, удрученный, убитый горем</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень счастливый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>ликующий, восторженный, счастливейший</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень злой</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>разъяренный, разгневанный, свирепый</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень уставший</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>обессиленный, изнуренный, выжатый</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень голодный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>голодный как волк, изголодавшийся</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень холодный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>ледяной, морозный, студеный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень горячий</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>обжигающий, знойный, раскаленный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень быстрый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>стремительный, молниеносный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень медленный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>неторопливый, вялый</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень громкий</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>оглушительный, оглушающий</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень тихий</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>бесшумный, безмолвный, тихонький</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень светлый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>слепящий, ярко освещенный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень темный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>непросветный, мрачный, беспросветный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень чистый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>безупречный, безукоризненный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень грязный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>засаленный, запущенный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень старый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>древний</em> (предметы), <em>престарелый</em> (люди)</div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень новый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>новейший, ультрасовременный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень богатый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>зажиточный, состоятельный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень бедный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>нищий, обнищавший</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень простой</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>элементарный, пустяковый</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень сложный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>замысловатый, трудоемкий, непростой</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень важный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>ключевой, решающий, первостепенный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень известный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>знаменитый, прославленный, легендарный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень испуганный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>напуганный до смерти, ошарашенный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень удивленный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>пораженный, ошеломленный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень взволнованный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>восторженный, будоражащий</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень обеспокоенный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>встревоженный, тревожный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень смущенный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>озадаченный, растерянный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень умный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>гениальный, мудрый, одаренный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень глупый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>нелепый, бессмысленный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень смелый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>бесстрашный, отважный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень слабый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>хрупкий, хилый</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень сильный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>могучий, мощный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень дорогой</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>заоблачный, бесценный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень дешевый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>доступный, копеечный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень людный</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>переполненный, битком набитый</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень пустой</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>пустынный, заброшенный</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень занятый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>загруженный, загруженный по горло</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Очень ленивый</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>праздный, нерадивый</em></div></div>
   </div>
-  <h3>Практический пример</h3>
+</div>
+<h3 class="editorial-heading">Практический пример</h3>
 <p>Сравните эффект в реальном высказывании:</p>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>До:</strong> <em>&quot;Вчера был очень тяжелый день, и я очень устал.&quot;</em>
+<blockquote class="gazette-pullquote">
+  <p>“<strong>До:</strong> <em>&quot;Вчера был очень тяжелый день, и я очень устал.&quot;</em>
 <strong>После:</strong> <em>&quot;Вчера был насыщенный день, и я совершенно обессилел.&quot;</em>”</p>
   
 </blockquote>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 3</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Хватит говорить &#39;Очень&#39;! 50 сильных прилагательных для богатого словарного запаса</h3>
+      <p class="podcast-box-dek">Поднимите уровень своего языка, заменив повторяющуюся связку &#39;очень + прилагательное&#39; 50 выразительными, точными и естественными прилагательными.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/replace-very-50-stronger-adjectives-ru.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 3</span>
   </div>
 </section>
-                </article>
+            </div>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#СловарныйЗапас</span> <span class="post-tag-chip">#ПлатоСреднегоУровня</span> <span class="post-tag-chip">#Прилагательные</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Русский</span>
-                </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#СловарныйЗапас</span> <span class="post-tag-chip">#ПлатоСреднегоУровня</span> <span class="post-tag-chip">#Прилагательные</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Русский</span>
+            </div>
 
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level B1–B2. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
                     </div>
                 </div>
+            </details>
 
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.09</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -293,6 +298,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-replace-very-50-stronger-adjectives-ru","slug":"replace-very-50-stronger-adjectives-ru","language":"ru","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-12","title":"Хватит говорить 'Очень'! 50 сильных прилагательных для богатого словарного запаса","kicker":"WORDS","dek":"Поднимите уровень своего языка, заменив повторяющуюся связку 'очень + прилагательное' 50 выразительными, точными и естественными прилагательными.","tags":["СловарныйЗапас","ПлатоСреднегоУровня","Прилагательные","B1-B2","Русский"],"readingTime":3,"podcast":{"episode":3,"audioUrl":"../audio/blog/replace-very-50-stronger-adjectives-ru.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"replace-very-50-stronger-adjectives-ru","coverOverride":null},"blocks":[{"type":"paragraph","text":"Один из самых заметных признаков **плато среднего уровня (B1–B2)** — злоупотребление словом **\"очень\"** для усиления простых прилагательных."},{"type":"paragraph","text":"Хотя фразы вроде *\"очень большой\"*, *\"очень хороший\"* или *\"очень устал\"* понятны и грамотны, их постоянное повторение делает речь однообразной. Переход к ярким одиночным прилагательным сразу делает вашу речь более естественной, богатой и точной."},{"type":"paragraph","text":"Вот 50 выразительных альтернатив конструкции *\"очень + прилагательное\"*."},{"type":"heading","level":3,"text":"50 сильных альтернатив к \"Очень + Прилагательное\""},{"type":"table","headers":["Вместо...","Используйте..."],"rows":[["**Очень плохой**","*ужасный, скверный, отвратительный*"],["**Очень хороший**","*отличный, великолепный, превосходный*"],["**Очень большой**","*огромный, гигантский, колоссальный*"],["**Очень маленький**","*крошечный, мизерный, крохотный*"],["**Очень красивый**","*прекрасный, изумительный, живописный*"],["**Очень некрасивый**","*уродливый, безобразный*"],["**Очень интересный**","*увлекательный, захватывающий, любопытный*"],["**Очень скучный**","*нудный, тоскливый, монотонный*"],["**Очень смешной**","*смехотворный, уморительный*"],["**Очень грустный**","*печальный, удрученный, убитый горем*"],["**Очень счастливый**","*ликующий, восторженный, счастливейший*"],["**Очень злой**","*разъяренный, разгневанный, свирепый*"],["**Очень уставший**","*обессиленный, изнуренный, выжатый*"],["**Очень голодный**","*голодный как волк, изголодавшийся*"],["**Очень холодный**","*ледяной, морозный, студеный*"],["**Очень горячий**","*обжигающий, знойный, раскаленный*"],["**Очень быстрый**","*стремительный, молниеносный*"],["**Очень медленный**","*неторопливый, вялый*"],["**Очень громкий**","*оглушительный, оглушающий*"],["**Очень тихий**","*бесшумный, безмолвный, тихонький*"],["**Очень светлый**","*слепящий, ярко освещенный*"],["**Очень темный**","*непросветный, мрачный, беспросветный*"],["**Очень чистый**","*безупречный, безукоризненный*"],["**Очень грязный**","*засаленный, запущенный*"],["**Очень старый**","*древний* (предметы), *престарелый* (люди)"],["**Очень новый**","*новейший, ультрасовременный*"],["**Очень богатый**","*зажиточный, состоятельный*"],["**Очень бедный**","*нищий, обнищавший*"],["**Очень простой**","*элементарный, пустяковый*"],["**Очень сложный**","*замысловатый, трудоемкий, непростой*"],["**Очень важный**","*ключевой, решающий, первостепенный*"],["**Очень известный**","*знаменитый, прославленный, легендарный*"],["**Очень испуганный**","*напуганный до смерти, ошарашенный*"],["**Очень удивленный**","*пораженный, ошеломленный*"],["**Очень взволнованный**","*восторженный, будоражащий*"],["**Очень обеспокоенный**","*встревоженный, тревожный*"],["**Очень смущенный**","*озадаченный, растерянный*"],["**Очень умный**","*гениальный, мудрый, одаренный*"],["**Очень глупый**","*нелепый, бессмысленный*"],["**Очень смелый**","*бесстрашный, отважный*"],["**Очень слабый**","*хрупкий, хилый*"],["**Очень сильный**","*могучий, мощный*"],["**Очень дорогой**","*заоблачный, бесценный*"],["**Очень дешевый**","*доступный, копеечный*"],["**Очень людный**","*переполненный, битком набитый*"],["**Очень пустой**","*пустынный, заброшенный*"],["**Очень занятый**","*загруженный, загруженный по горло*"],["**Очень ленивый**","*праздный, нерадивый*"]]},{"type":"heading","level":3,"text":"Практический пример"},{"type":"paragraph","text":"Сравните эффект в реальном высказывании:"},{"type":"pullquote","quote":"**До:** *\"Вчера был очень тяжелый день, и я очень устал.\"*\n**После:** *\"Вчера был насыщенный день, и я совершенно обессилел.\"*"}],"translationOf":"replace-very-50-stronger-adjectives","draft":false};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>

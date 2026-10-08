@@ -7,10 +7,10 @@
     <meta name="description" content="Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#faf7f2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,101 +19,102 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-palette-highlight: #f59e0b;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Say It">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-list">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Say It</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня</h1>
-            
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="stop-translating-10-sentence-frames-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <a href="stop-translating-10-sentence-frames-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <a href="stop-translating-10-sentence-frames-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇷🇺 RU</span> <a href="stop-translating-10-sentence-frames.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-14</span>
-                <span>·</span>
-                <span>⏱️ 3 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.10 • JY DM&#39;s birthday &amp; His favs</span>
+                <span class="stamp-sticker">Say It</span>
+                <span>2026-09-14</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">JY DM&#39;s birthday &amp; His favs (A0–A1 / A2) • Editorial Vibe</span>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="ticket-stub" data-seed="stop-translating-10-sentence-frames-ru">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="600" fill="#f59e0b" />
+    <g transform="rotate(-2 638 135)">
+      <rect x="548" y="90" width="180" height="90" rx="6" fill="#0d9488" opacity="0.88" />
+      <circle cx="548" cy="135" r="10" fill="#f59e0b" />
+      <circle cx="728" cy="135" r="10" fill="#f59e0b" />
+      <line x1="588" y1="105" x2="588" y2="165" stroke="#f59e0b" stroke-dasharray="3 3" stroke-width="2" />
+      <text x="603" y="125" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold">ADMIT ONE</text>
+      <text x="603" y="145" fill="#f59e0b" font-family="DM Sans, sans-serif" font-size="10" opacity="0.8">COSY GAZETTE • PASS</text>
+    </g>
+
+
+    </svg></div>
+            
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">SAY IT</span>
+                <h1 class="cover-headline">Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня</h1>
+                <p class="editorial-dek">Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.</p>
+
+
+<div class="language-switcher-bar">
+  <span class="lang-switcher-label">Read in:</span>
+  <a href="stop-translating-10-sentence-frames-el.html" class="lang-switcher-link">🇬🇷 EL</a> <a href="stop-translating-10-sentence-frames-fr.html" class="lang-switcher-link">🇫🇷 FR</a> <a href="stop-translating-10-sentence-frames-it.html" class="lang-switcher-link">🇮🇹 IT</a> <span class="lang-switcher-active">🇷🇺 RU</span> <a href="stop-translating-10-sentence-frames.html" class="lang-switcher-link">🇬🇧 EN</a>
+</div>
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-09-14</span>
+                        <span>⏱️ 3 min read</span>
+                        <span class="stamp-sticker">A0–A1 / A2</span>
+                        <span class="stamp-sticker">EPISODE 1</span>
                     </div>
                 </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM&#39;s birthday &amp; His favs edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-ru-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Главное препятствие для начинающих и продолжающих (A0–B1) — привычка <strong>переводить каждое слово в голове</strong>. Когда не хватает точного слова (например, <em>штопор</em>, <em>аптека</em> или <em>архитектор</em>), мозг блокируется: <em>&quot;Я не знаю этого слова, значит, не могу ничего сказать.&quot;</em></p>
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">Главное препятствие для начинающих и продолжающих (A0–B1) — привычка <strong>переводить каждое слово в голове</strong>. Когда не хватает точного слова (например, <em>штопор</em>, <em>аптека</em> или <em>архитектор</em>), мозг блокируется: <em>&quot;Я не знаю этого слова, значит, не могу ничего сказать.&quot;</em></p>
 <p>Наша методика поддерживает <strong>отказ от перевода</strong> в пользу естественного и творческого подхода, который мы используем при освоении родного языка. Носители языка тоже не знают всех слов в словаре, но у них есть навык <strong>описывать то, что они не знают</strong>.</p>
 <p>Вместо зубрежки изолированных списков слов освойте эти <strong>10 универсальных фраз-шаблонов</strong> и <strong>20 фраз выживания</strong>. Каждый шаблон работает как деталь конструктора LEGO.</p>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 4</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-ru-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>💡 10 основных фраз-шаблонов</h3>
-<ol>
+<h3 class="editorial-heading">💡 10 основных фраз-шаблонов</h3>
+<ol class="editorial-list">
 <li><strong>Это...</strong> (<em>Это книга.</em> • <em>Это проблема.</em> • <em>Это ресторан.</em>)</li>
 <li><strong>Это человек, который...</strong> (<em>Это человек, который учит детей.</em> = Учитель • <em>Это человек, который лечит людей.</em> = Врач)</li>
 <li><strong>Это место, где...</strong> (<em>Это место, где покупают еду.</em> = Супермаркет • <em>Это место, где спят.</em> = Отель)</li>
@@ -125,54 +126,14 @@
 <li><strong>Это значит...</strong> (<em>&quot;Огромный&quot; означает очень большой.</em>)</li>
 <li><strong>Как сказать... ?</strong> (<em>Как сказать это по-английски / по-русски?</em> • <em>Что это значит?</em>)</li>
 </ol>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 4</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-ru-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>🎨 Описательные и сенсорные ориентиры</h3>
-<ul>
-<li><strong>Это похоже на...</strong> → <em>Это похоже на собаку.</em> • <em>Это как маленький компьютер.</em></li>
-<li><strong>Это для...</strong> → <em>Это для готовки.</em> • <em>Это для путешествий.</em></li>
-<li><strong>Выглядит как...</strong> → <em>Выглядит как птица.</em></li>
-<li><strong>Звучит как...</strong> → <em>Звучит интересно.</em> • <em>Звучит сложно.</em></li>
-<li><strong>Сделано из...</strong> → <em>Сделано из дерева.</em> • <em>Сделано из пластика.</em></li>
-</ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 4</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="4" aria-label="Page 4 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 4 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-ru-page-4.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>🚀 20 Фраз выживания, если вы забыли слово</h3>
-<ol>
+<h3 class="editorial-heading">🎨 Описательные и сенсорные ориентиры</h3>
+<div class="phrase-upgrade-grid"><div class="phrase-upgrade-card"><strong>Это похоже на...</strong> → <em>Это похоже на собаку.</em> • <em>Это как маленький компьютер.</em></div>
+<div class="phrase-upgrade-card"><strong>Это для...</strong> → <em>Это для готовки.</em> • <em>Это для путешествий.</em></div>
+<div class="phrase-upgrade-card"><strong>Выглядит как...</strong> → <em>Выглядит как птица.</em></div>
+<div class="phrase-upgrade-card"><strong>Звучит как...</strong> → <em>Звучит интересно.</em> • <em>Звучит сложно.</em></div>
+<div class="phrase-upgrade-card"><strong>Сделано из...</strong> → <em>Сделано из дерева.</em> • <em>Сделано из пластика.</em></div></div>
+<h3 class="editorial-heading">🚀 20 Фраз выживания, если вы забыли слово</h3>
+<ol class="editorial-list">
 <li><strong>Это разновидность...</strong> (<em>Это разновидность животных.</em>)</li>
 <li><strong>Это предмет, который...</strong> (<em>Это предмет для кухни.</em>)</li>
 <li><strong>Это что-то, что...</strong> (<em>Это что-то, что помогает учиться.</em>)</li>
@@ -195,51 +156,68 @@
 <li><strong>Как будет... ?</strong> (<em>Как будет это слово?</em>)</li>
 </ol>
 <p>Помните: <strong>Беглость — это не знание всех слов на свете, а умение не молчать!</strong></p>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 1</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня</h3>
+      <p class="podcast-box-dek">Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/stop-translating-10-sentence-frames-ru.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 4 of 4</span>
   </div>
 </section>
-                </article>
+            </div>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#SentenceFrames</span> <span class="post-tag-chip">#Circumlocution</span> <span class="post-tag-chip">#Fluency</span> <span class="post-tag-chip">#A0-B1</span> <span class="post-tag-chip">#Russian</span>
-                </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#SentenceFrames</span> <span class="post-tag-chip">#Circumlocution</span> <span class="post-tag-chip">#Fluency</span> <span class="post-tag-chip">#A0-B1</span> <span class="post-tag-chip">#Russian</span>
+            </div>
 
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level A0–A1 / A2. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM&#39;s birthday &amp; His favs edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
                     </div>
                 </div>
+            </details>
 
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.10</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -292,6 +270,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-stop-translating-10-sentence-frames-ru","slug":"stop-translating-10-sentence-frames-ru","language":"ru","desk":"Say It","format":"list","level":"A0–A1 / A2","issue":{"number":"Vol. 2026.10","title":"JY DM's birthday & His favs"},"date":"2026-09-14","title":"Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня","kicker":"SAY IT","dek":"Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.","tags":["SentenceFrames","Circumlocution","Fluency","A0-B1","Russian"],"readingTime":3,"podcast":{"episode":1,"audioUrl":"../audio/blog/stop-translating-10-sentence-frames-ru.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#f59e0b"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"ticket-stub","seed":"stop-translating-10-sentence-frames-ru","coverOverride":null},"blocks":[{"type":"paragraph","text":"Главное препятствие для начинающих и продолжающих (A0–B1) — привычка **переводить каждое слово в голове**. Когда не хватает точного слова (например, *штопор*, *аптека* или *архитектор*), мозг блокируется: *\"Я не знаю этого слова, значит, не могу ничего сказать.\"*"},{"type":"paragraph","text":"Наша методика поддерживает **отказ от перевода** в пользу естественного и творческого подхода, который мы используем при освоении родного языка. Носители языка тоже не знают всех слов в словаре, но у них есть навык **описывать то, что они не знают**."},{"type":"paragraph","text":"Вместо зубрежки изолированных списков слов освойте эти **10 универсальных фраз-шаблонов** и **20 фраз выживания**. Каждый шаблон работает как деталь конструктора LEGO."},{"type":"heading","level":3,"text":"💡 10 основных фраз-шаблонов"},{"type":"list-item","ordered":true,"items":["**Это...** (*Это книга.* • *Это проблема.* • *Это ресторан.*)","**Это человек, который...** (*Это человек, который учит детей.* = Учитель • *Это человек, который лечит людей.* = Врач)","**Это место, где...** (*Это место, где покупают еду.* = Супермаркет • *Это место, где спят.* = Отель)","**Это вещь, которая...** (*Это вещь, которая показывает время.* = Часы • *Это вещь, которая открывает дверь.* = Ключ)","**Это то, что используют для...** (*Это то, чем режут хлеб.* = Нож • *Это то, чем пишут.* = Ручка)","**Это время, когда...** (*Это время, когда люди спят.* = Ночь • *Это время, когда дети идут в школу.* = Утро)","**Это день, когда...** (*Это день, когда дарят подарки.* = День рождения / Новый год)","**Например...** (*Я люблю спорт. Например, футбол и теннис.*)","**Это значит...** (*\"Огромный\" означает очень большой.*)","**Как сказать... ?** (*Как сказать это по-английски / по-русски?* • *Что это значит?*)"]},{"type":"heading","level":3,"text":"🎨 Описательные и сенсорные ориентиры"},{"type":"list-item","ordered":false,"items":["**Это похоже на...** → *Это похоже на собаку.* • *Это как маленький компьютер.*","**Это для...** → *Это для готовки.* • *Это для путешествий.*","**Выглядит как...** → *Выглядит как птица.*","**Звучит как...** → *Звучит интересно.* • *Звучит сложно.*","**Сделано из...** → *Сделано из дерева.* • *Сделано из пластика.*"]},{"type":"heading","level":3,"text":"🚀 20 Фраз выживания, если вы забыли слово"},{"type":"list-item","ordered":true,"items":["**Это разновидность...** (*Это разновидность животных.*)","**Это предмет, который...** (*Это предмет для кухни.*)","**Это что-то, что...** (*Это что-то, что помогает учиться.*)","**Это человек, который...** (*Это человек, который работает в больнице.*)","**Это место, где...** (*Это место, где покупают лекарства.*)","**Это время, когда...** (*Это время, когда празднуют.*)","**Это как...** (*Это как маленькая коробка.*)","**Выглядит как...** (*Выглядит как телефон.*)","**Звучит как...** (*Звучит как музыка.*)","**У этого есть...** (*У этого четыре колеса.*)","**Используется, чтобы...** (*Используется, чтобы резать.*)","**Можно использовать для...** (*Можно использовать для поездок.*)","**Служит для...** (*Служит для транспорта.*)","**Сделано из...** (*Сделано из металла.*)","**Похоже на...** (*Похоже на велосипед.*)","**Противоположность...** (*Это противоположность слову \"дорогой\".*)","**Означает то же, что...** (*Означает то же, что \"начинать\".*)","**То же самое, что...** (*То же самое, что \"старт\".*)","**Я не знаю слова, но...** (*Я не знаю слова, но это используют для уборки.*)","**Как будет... ?** (*Как будет это слово?*)"]},{"type":"paragraph","text":"Помните: **Беглость — это не знание всех слов на свете, а умение не молчать!**"}],"translationOf":"stop-translating-10-sentence-frames","draft":false};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>

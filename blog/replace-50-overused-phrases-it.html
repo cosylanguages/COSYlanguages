@@ -7,10 +7,10 @@
     <meta name="description" content="Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#faf7f2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,274 +19,218 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-palette-highlight: #d69e2e;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-list">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio</h1>
-            
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="replace-50-overused-phrases-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <a href="replace-50-overused-phrases-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇮🇹 IT</span> <a href="replace-50-overused-phrases-ru.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇷🇺 RU</a> <a href="replace-50-overused-phrases.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-13</span>
-                <span>·</span>
-                <span>⏱️ 3 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span class="stamp-sticker">Words</span>
+                <span>2026-09-13</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-50-overused-phrases-it">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="600" fill="#d69e2e" />
+
+      <ellipse cx="279" cy="386" rx="173" ry="139" fill="#1e293b" opacity="0.25" transform="rotate(313 279 386)" style="filter: blur(12px);" />
+      <ellipse cx="289" cy="381" rx="103.8" ry="83.39999999999999" fill="#0d9488" opacity="0.15" transform="rotate(313 279 386)" style="filter: blur(8px);" />
+
+      <ellipse cx="792" cy="149" rx="143" ry="46" fill="#1e293b" opacity="0.25" transform="rotate(218 792 149)" style="filter: blur(12px);" />
+      <ellipse cx="802" cy="144" rx="85.8" ry="27.599999999999998" fill="#0d9488" opacity="0.15" transform="rotate(218 792 149)" style="filter: blur(8px);" />
+
+      <ellipse cx="529" cy="216" rx="98" ry="122" fill="#1e293b" opacity="0.25" transform="rotate(345 529 216)" style="filter: blur(12px);" />
+      <ellipse cx="539" cy="211" rx="58.8" ry="73.2" fill="#0d9488" opacity="0.15" transform="rotate(345 529 216)" style="filter: blur(8px);" />
+
+
+
+    </svg></div>
+            
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">WORDS</span>
+                <h1 class="cover-headline">Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio</h1>
+                <p class="editorial-dek">Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.</p>
+
+
+<div class="language-switcher-bar">
+  <span class="lang-switcher-label">Read in:</span>
+  <a href="replace-50-overused-phrases-el.html" class="lang-switcher-link">🇬🇷 EL</a> <a href="replace-50-overused-phrases-fr.html" class="lang-switcher-link">🇫🇷 FR</a> <span class="lang-switcher-active">🇮🇹 IT</span> <a href="replace-50-overused-phrases-ru.html" class="lang-switcher-link">🇷🇺 RU</a> <a href="replace-50-overused-phrases.html" class="lang-switcher-link">🇬🇧 EN</a>
+</div>
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-09-13</span>
+                        <span>⏱️ 3 min read</span>
+                        <span class="stamp-sticker">B1–B2</span>
+                        <span class="stamp-sticker">EPISODE 2</span>
                     </div>
                 </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-it-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Quando raggiungi l&#39;<strong>altopiano intermedio (livello B1–B2)</strong>, riesci a sostenere conversazioni e a esprimere le tue opinioni. Tuttavia, molti studenti notano di usare continuamente le stesse espressioni di ripiego: <em>&quot;Penso che...&quot;</em>, <em>&quot;Sono d&#39;accordo&quot;</em>, <em>&quot;Dipende&quot;</em>, <em>&quot;Non lo so&quot;</em>.</p>
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">Quando raggiungi l&#39;<strong>altopiano intermedio (livello B1–B2)</strong>, riesci a sostenere conversazioni e a esprimere le tue opinioni. Tuttavia, molti studenti notano di usare continuamente le stesse espressioni di ripiego: <em>&quot;Penso che...&quot;</em>, <em>&quot;Sono d&#39;accordo&quot;</em>, <em>&quot;Dipende&quot;</em>, <em>&quot;Non lo so&quot;</em>.</p>
 <p>Arricchire il tuo vocabolario quotidiano non richiede lo studio di regole grammaticali complesse. Adottando alternative naturali e padroneggiando <strong>gli opposti diretti</strong>, il tuo italiano diventerà subito più fluido, espressivo ed elegante.</p>
 <p>Ecco 50 espressioni frequenti con le loro alternative naturali.</p>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-it-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>1. Esprimere accordo e disaccordo (Opposti diretti)</h3>
-<h4>1. Sono d&#39;accordo ↔ 2. Non sono d&#39;accordo</h4>
-<ul>
+<h3 class="editorial-heading">1. Esprimere accordo e disaccordo (Opposti diretti)</h3>
+<h4 class="editorial-heading">1. Sono d&#39;accordo ↔ 2. Non sono d&#39;accordo</h4>
+<ul class="editorial-list">
 <li><strong>Invece di &quot;Sono d&#39;accordo&quot;:</strong> <em>Sono d&#39;accordo.</em>
 - <strong>Alternative naturali:</strong> <em>Sono assolutamente d&#39;accordo.</em> • <em>Hai perfettamente ragione.</em> • <em>Condivido in pieno.</em> • <em>Proprio così.</em></li>
 <li><strong>Invece di &quot;Non sono d&#39;accordo&quot;:</strong> <em>Non sono d&#39;accordo.</em>
 - <strong>Alternative naturali:</strong> <em>Non ne sono così sicuro/a.</em> • <em>La vedo diversamente.</em> • <em>Non condivido del tutto.</em></li>
 </ul>
-<h4>3. Dipende</h4>
-<ul>
+<h4 class="editorial-heading">3. Dipende</h4>
+<ul class="editorial-list">
 <li><strong>Invece di &quot;Dipende&quot;:</strong> <em>Dipende.</em></li>
 <li><strong>Alternative naturali:</strong> <em>Cambia da caso a caso.</em> • <em>Dipende dalle circostanze.</em> • <em>Non è così semplice.</em> • <em>Tutto sta nel...</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-it-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>2. Esprimere un&#39;opinione e incertezza</h3>
-<h4>4. Penso che...</h4>
-<ul>
+<h3 class="editorial-heading">2. Esprimere un&#39;opinione e incertezza</h3>
+<h4 class="editorial-heading">4. Penso che...</h4>
+<ul class="editorial-list">
 <li><strong>Invece di &quot;Penso che...&quot;:</strong> <em>Penso che...</em></li>
 <li><strong>Alternative naturali:</strong> <em>A mio parere...</em> • <em>Secondo me...</em> • <em>Mi sembra che...</em> • <em>Ritengo che...</em></li>
 </ul>
-<h4>5. Non lo so</h4>
-<ul>
+<h4 class="editorial-heading">5. Non lo so</h4>
+<ul class="editorial-list">
 <li><strong>Invece di &quot;Non lo so&quot;:</strong> <em>Non lo so.</em></li>
 <li><strong>Alternative naturali:</strong> <em>È difficile da dire.</em> • <em>Non ne sono sicuro/a.</em> • <em>È una buona domanda.</em> • <em>Non ci ho ancora pensato.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="4" aria-label="Page 4 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 4 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-it-page-4.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>3. Cortesia e ringraziamenti</h3>
-<h4>6. Grazie</h4>
-<ul>
+<h3 class="editorial-heading">3. Cortesia e ringraziamenti</h3>
+<h4 class="editorial-heading">6. Grazie</h4>
+<ul class="editorial-list">
 <li><strong>Invece di &quot;Grazie&quot;:</strong> <em>Grazie.</em>
 - <strong>Alternative naturali:</strong> <em>Grazie mille.</em> • <em>Ti/La ringrazio di cuore.</em> • <em>È davvero gentile da parte tua/Sua.</em></li>
 <li><strong>Invece di &quot;Prego&quot;:</strong> <em>Prego.</em>
 - <strong>Alternative naturali:</strong> <em>Figurati!</em> / <em>Si figuri!</em> • <em>Con piacere.</em> • <em>Di nulla.</em> • <em>Ci mancherebbe.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 4 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="5" aria-label="Page 5 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 5 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-it-page-5.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>4. Piacere e non piacere (Opposti diretti)</h3>
-<h4>7. Mi piace ↔ 8. Non mi piace</h4>
-<ul>
+<h3 class="editorial-heading">4. Piacere e non piacere (Opposti diretti)</h3>
+<h4 class="editorial-heading">7. Mi piace ↔ 8. Non mi piace</h4>
+<ul class="editorial-list">
 <li><strong>Mi piace:</strong> <em>Mi piace.</em>
 - <strong>Alternative naturali:</strong> <em>Vado matto/a per...</em> • <em>Mi affascina molto.</em> • <em>È proprio il mio genere.</em></li>
 <li><strong>Non mi piace:</strong> <em>Non mi piace.</em>
 - <strong>Alternative naturali:</strong> <em>Non fa molto per me.</em> • <em>Non mi fa impazzire.</em> • <em>Non mi attira particolarmente.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 5 of 6</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="6" aria-label="Page 6 of 6">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 6 of 6</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-50-overused-phrases-it-page-6.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Mettiti alla prova</h3>
+<h3 class="editorial-heading">Mettiti alla prova</h3>
 <p>Guarda come cambia il tono della conversazione:</p>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>Prima (Repetitivo B1):</strong>
+<blockquote class="gazette-pullquote">
+  <p>“<strong>Prima (Repetitivo B1):</strong>
 <em>&quot;Penso che questa proposta sia buona. Sono d&#39;accordo con te, ma dipende dal budget.&quot;</em>”</p>
   
 </blockquote>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>Dopo (Naturale B2):</strong>
+<blockquote class="gazette-pullquote">
+  <p>“<strong>Dopo (Naturale B2):</strong>
 <em>&quot;A mio parere, questa proposta è eccellente. Condivido in pieno, anche se dipende dalle circostanze di budget.&quot;</em>”</p>
   
 </blockquote>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 2</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio</h3>
+      <p class="podcast-box-dek">Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/replace-50-overused-phrases-it.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 6 of 6</span>
   </div>
 </section>
-                </article>
+            </div>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#Frasi</span> <span class="post-tag-chip">#AltopianoIntermedio</span> <span class="post-tag-chip">#Fluidità</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Italiano</span>
-                </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#Frasi</span> <span class="post-tag-chip">#AltopianoIntermedio</span> <span class="post-tag-chip">#Fluidità</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Italiano</span>
+            </div>
 
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level B1–B2. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
                     </div>
                 </div>
+            </details>
 
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.09</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -339,6 +283,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-replace-50-overused-phrases-it","slug":"replace-50-overused-phrases-it","language":"it","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-13","title":"Basta ripetere queste 50 frasi! Alternative naturali per il livello intermedio","kicker":"WORDS","dek":"Rendi la tua conversazione in italiano naturale e fluida sostituendo le 50 espressioni più usate con opzioni espressive e opposti diretti.","tags":["Frasi","AltopianoIntermedio","Fluidità","B1-B2","Italiano"],"readingTime":3,"podcast":{"episode":2,"audioUrl":"../audio/blog/replace-50-overused-phrases-it.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"replace-50-overused-phrases-it","coverOverride":null},"blocks":[{"type":"paragraph","text":"Quando raggiungi l'**altopiano intermedio (livello B1–B2)**, riesci a sostenere conversazioni e a esprimere le tue opinioni. Tuttavia, molti studenti notano di usare continuamente le stesse espressioni di ripiego: *\"Penso che...\"*, *\"Sono d'accordo\"*, *\"Dipende\"*, *\"Non lo so\"*."},{"type":"paragraph","text":"Arricchire il tuo vocabolario quotidiano non richiede lo studio di regole grammaticali complesse. Adottando alternative naturali e padroneggiando **gli opposti diretti**, il tuo italiano diventerà subito più fluido, espressivo ed elegante."},{"type":"paragraph","text":"Ecco 50 espressioni frequenti con le loro alternative naturali."},{"type":"heading","level":3,"text":"1. Esprimere accordo e disaccordo (Opposti diretti)"},{"type":"heading","level":4,"text":"1. Sono d'accordo ↔ 2. Non sono d'accordo"},{"type":"list-item","ordered":false,"items":["**Invece di \"Sono d'accordo\":** *Sono d'accordo.*\n- **Alternative naturali:** *Sono assolutamente d'accordo.* • *Hai perfettamente ragione.* • *Condivido in pieno.* • *Proprio così.*","**Invece di \"Non sono d'accordo\":** *Non sono d'accordo.*\n- **Alternative naturali:** *Non ne sono così sicuro/a.* • *La vedo diversamente.* • *Non condivido del tutto.*"]},{"type":"heading","level":4,"text":"3. Dipende"},{"type":"list-item","ordered":false,"items":["**Invece di \"Dipende\":** *Dipende.*","**Alternative naturali:** *Cambia da caso a caso.* • *Dipende dalle circostanze.* • *Non è così semplice.* • *Tutto sta nel...*"]},{"type":"heading","level":3,"text":"2. Esprimere un'opinione e incertezza"},{"type":"heading","level":4,"text":"4. Penso che..."},{"type":"list-item","ordered":false,"items":["**Invece di \"Penso che...\":** *Penso che...*","**Alternative naturali:** *A mio parere...* • *Secondo me...* • *Mi sembra che...* • *Ritengo che...*"]},{"type":"heading","level":4,"text":"5. Non lo so"},{"type":"list-item","ordered":false,"items":["**Invece di \"Non lo so\":** *Non lo so.*","**Alternative naturali:** *È difficile da dire.* • *Non ne sono sicuro/a.* • *È una buona domanda.* • *Non ci ho ancora pensato.*"]},{"type":"heading","level":3,"text":"3. Cortesia e ringraziamenti"},{"type":"heading","level":4,"text":"6. Grazie"},{"type":"list-item","ordered":false,"items":["**Invece di \"Grazie\":** *Grazie.*\n- **Alternative naturali:** *Grazie mille.* • *Ti/La ringrazio di cuore.* • *È davvero gentile da parte tua/Sua.*","**Invece di \"Prego\":** *Prego.*\n- **Alternative naturali:** *Figurati!* / *Si figuri!* • *Con piacere.* • *Di nulla.* • *Ci mancherebbe.*"]},{"type":"heading","level":3,"text":"4. Piacere e non piacere (Opposti diretti)"},{"type":"heading","level":4,"text":"7. Mi piace ↔ 8. Non mi piace"},{"type":"list-item","ordered":false,"items":["**Mi piace:** *Mi piace.*\n- **Alternative naturali:** *Vado matto/a per...* • *Mi affascina molto.* • *È proprio il mio genere.*","**Non mi piace:** *Non mi piace.*\n- **Alternative naturali:** *Non fa molto per me.* • *Non mi fa impazzire.* • *Non mi attira particolarmente.*"]},{"type":"heading","level":3,"text":"Mettiti alla prova"},{"type":"paragraph","text":"Guarda come cambia il tono della conversazione:"},{"type":"pullquote","quote":"**Prima (Repetitivo B1):**\n*\"Penso che questa proposta sia buona. Sono d'accordo con te, ma dipende dal budget.\"*"},{"type":"pullquote","quote":"**Dopo (Naturale B2):**\n*\"A mio parere, questa proposta è eccellente. Condivido in pieno, anche se dipende dalle circostanze di budget.\"*"}],"translationOf":"replace-50-overused-phrases","draft":false};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>
