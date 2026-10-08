@@ -14,7 +14,8 @@
     "check:names": "node scripts/check-names.js",
     "check:js-syntax": "node scripts/check-js-syntax.js",
     "check:inline-js": "node scripts/check-inline-js.js",
-    "check:smoke": "node scripts/smoke-pages.js"
+    "check:smoke": "node scripts/smoke-pages.js",
+    "export:stage-video": "node scripts/export-stage-video.js"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.12.1",

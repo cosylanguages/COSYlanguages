@@ -129,10 +129,83 @@ export class StageCamera {
   }
 
   clearSpotlight() {
+    if (!this.stage) return;
     const allBlocks = this.stage.querySelectorAll('.stage-block, .block-item');
     allBlocks.forEach(b => {
       b.classList.remove('stage-spotlight-dim', 'stage-spotlight-active');
     });
+  }
+
+  getTargetTransformForBeat(beat) {
+    if (!beat) return { x: 0, y: 0, scale: 1 };
+    const preset = beat.cameraPreset || 'focus';
+    const targetEl = (beat.targetSelector && typeof document !== 'undefined')
+      ? document.querySelector(beat.targetSelector)
+      : null;
+
+    let scale = 1;
+    if (preset === 'push-in') scale = 1.5;
+    else if (preset === 'focus' || preset === 'spotlight') scale = 1.25;
+    else if (preset === 'pull-back') scale = 1;
+
+    let x = 0;
+    let y = 0;
+
+    if (preset !== 'pull-back' && targetEl && typeof targetEl.getBoundingClientRect === 'function' && this.stage) {
+      const rect = targetEl.getBoundingClientRect();
+      const stageRect = this.stage.getBoundingClientRect();
+
+      if (stageRect.width > 0 && stageRect.height > 0) {
+        const targetCenterX = rect.left + rect.width / 2 - stageRect.left;
+        const targetCenterY = rect.top + rect.height / 2 - stageRect.top;
+
+        const stageCenterX = stageRect.width / 2;
+        const stageCenterY = stageRect.height / 2;
+
+        x = (stageCenterX - targetCenterX) * scale;
+        y = (stageCenterY - targetCenterY) * scale;
+      }
+    }
+
+    return { x, y, scale };
+  }
+
+  /** Synchronously sets transform at a given timestamp/beat for deterministic rendering */
+  setTransformForTime(beats, activeIndex, localElapsedMs, beatDurationMs) {
+    if (!beats || activeIndex < 0 || activeIndex >= beats.length) return;
+
+    const currentBeat = beats[activeIndex];
+    const targetEl = (currentBeat.targetSelector && typeof document !== 'undefined')
+      ? document.querySelector(currentBeat.targetSelector)
+      : null;
+
+    if (currentBeat.cameraPreset === 'spotlight' && targetEl) {
+      this.spotlight(targetEl);
+    } else {
+      this.clearSpotlight();
+    }
+
+    const currentTarget = this.getTargetTransformForBeat(currentBeat);
+    const prevTarget = activeIndex > 0
+      ? this.getTargetTransformForBeat(beats[activeIndex - 1])
+      : { x: 0, y: 0, scale: 1 };
+
+    let cameraMoveDuration = 1000;
+    if (currentBeat.cameraPreset === 'focus' || currentBeat.cameraPreset === 'spotlight') cameraMoveDuration = 800;
+    else if (currentBeat.cameraPreset === 'push-in') cameraMoveDuration = 1200;
+
+    let progress = Math.min(1, Math.max(0, localElapsedMs / cameraMoveDuration));
+    if (this.reducedMotion) progress = 1;
+
+    const easeProgress = 1 - Math.pow(1 - progress, 3);
+
+    this.currentTransform = {
+      x: prevTarget.x + (currentTarget.x - prevTarget.x) * easeProgress,
+      y: prevTarget.y + (currentTarget.y - prevTarget.y) * easeProgress,
+      scale: prevTarget.scale + (currentTarget.scale - prevTarget.scale) * easeProgress
+    };
+
+    this.applyTransform();
   }
 
   applyTransform() {
