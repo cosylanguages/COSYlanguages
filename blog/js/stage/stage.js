@@ -1,16 +1,18 @@
 /**
  * blog/js/stage/stage.js
- * Main controller for Stage Mode & Reading Mode word card magnification.
+ * Main controller for Stage Mode, Teleprompter Script Mode, and Reading Mode word card magnification.
  */
 
 import { StageCamera } from './camera.js';
 import { StageTimeline } from './timeline.js';
+import { ScriptController } from './script.js';
 
 export class StageController {
   constructor(containerElement, postData) {
     this.container = containerElement;
     this.post = postData;
     this.isStageMode = false;
+    this.isScriptMode = false;
     this.isRecordingMode = false;
 
     this.initModeDetection();
@@ -22,6 +24,7 @@ export class StageController {
     if (typeof window !== 'undefined') {
       const urlParams = new URLSearchParams(window.location.search);
       this.isStageMode = urlParams.get('stage') === '1';
+      this.isScriptMode = urlParams.get('script') === '1';
       this.isRenderMode = urlParams.get('render') === '1';
     }
   }
@@ -29,7 +32,9 @@ export class StageController {
   renderStage() {
     if (!this.container) return;
 
-    if (this.isStageMode || this.isRenderMode) {
+    if (this.isScriptMode) {
+      this.scriptController = new ScriptController(this.container, this.post);
+    } else if (this.isStageMode || this.isRenderMode) {
       document.body.classList.add('stage-mode-active');
       if (this.isRenderMode) {
         document.body.classList.add('stage-render-mode');

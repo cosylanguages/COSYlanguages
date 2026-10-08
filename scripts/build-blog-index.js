@@ -2,6 +2,7 @@
 /**
  * scripts/build-blog-index.js
  * Builds blog/index.json from blog post JSON files, Markdown posts, and guides.
+ * Also invokes RSS podcast generator.
  *
  * Usage: node scripts/build-blog-index.js
  */
@@ -9,6 +10,7 @@
 const fs = require('fs');
 const path = require('path');
 const { validatePostSchema } = require('./validate-blog-schema.js');
+const { generatePodcastRss } = require('./generate-podcast-rss.js');
 
 const BLOG_DIR = path.join(__dirname, '..', 'blog');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
@@ -135,6 +137,9 @@ function buildBlogIndex() {
 
   fs.writeFileSync(INDEX_FILE, JSON.stringify(indexOutput, null, 2), 'utf-8');
   console.log(`✅ Successfully generated blog/index.json (${posts.length} posts, ${DESKS_CATALOG.length} desks, ${issuesList.length} issues).`);
+
+  // Generate podcast RSS feed
+  generatePodcastRss();
 }
 
 if (require.main === module) {
