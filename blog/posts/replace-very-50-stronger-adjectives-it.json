@@ -44,187 +44,229 @@
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Oltre il 'Molto': Usare aggettivi precisi",
-      "say": "L'uso continuo di 'molto' è tipico del livello intermedio. Passare ad aggettivi forti rende il discorso più espressivo e naturale.",
-      "beat": {
-        "duration": 4000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "type": "paragraph",
+      "text": "Uno dei tratti distintivi del **livello intermedio (B1–B2)** è l'uso eccessivo dell'avverbio **\"molto\"** per intensificare gli aggettivi quotidiani."
     },
     {
       "type": "paragraph",
-      "text": "Invece di dire 'molto stanco' o 'molto bello', l'italiano offre aggettivi espressivi come 'esausto' o 'splendido'.",
-      "say": "Invece di dire 'molto stanco', usa 'esausto' o 'sinito'.",
-      "beat": {
-        "duration": 4500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "text": "Sebbene dire *\"molto grande\"*, *\"molto buono\"* o *\"molto stanco\"* sia corretto, ripetere *\"molto\"* in ogni frase rende il discorso piatto. Scegliere aggettivi forti e precisi dona subito alla tua espressione un tono più naturale, fluido e sofisticato."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ecco 50 alternative d'impatto alla struttura *\"molto + aggettivo\"*."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Aggettivi forti essenziali",
-      "say": "Ecco esempi di aggettivi forti utili nella conversazione quotidiana.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "text": "50 alternative efficaci a \"Molto + Aggettivo\""
     },
     {
-      "type": "example",
-      "targetText": "Dopo questa giornata intensa sono completamente esausto.",
-      "gloss": "Sostituisce 'molto stanco' con 'esausto'.",
-      "context": "Dopo una lunga giornata di lavoro",
-      "say": "Dopo questa giornata intensa sono completamente esausto.",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "example",
-      "targetText": "La vista dalle montagne era splendida.",
-      "gloss": "Sostituisce 'molto bella' con 'splendida'.",
-      "context": "Descrizione di un paesaggio",
-      "say": "La vista dalle montagne era splendida.",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "table",
+      "headers": [
+        "Invece di...",
+        "Scegli..."
+      ],
+      "rows": [
+        [
+          "**Molto brutto**",
+          "*pessimo, terribile, orribile*"
+        ],
+        [
+          "**Molto buono**",
+          "*eccellente, squisito, ottimo*"
+        ],
+        [
+          "**Molto grande**",
+          "*immenso, gigantesco, enorme*"
+        ],
+        [
+          "**Molto piccolo**",
+          "*minuscolo, infinitesimale*"
+        ],
+        [
+          "**Molto bello**",
+          "*magnifico, splendido, meraviglioso*"
+        ],
+        [
+          "**Molto orribile**",
+          "*disgustoso, mostruoso*"
+        ],
+        [
+          "**Molto interessante**",
+          "*affascinante, coinvolgente, avvincente*"
+        ],
+        [
+          "**Molto noioso**",
+          "*monotono, estenuante*"
+        ],
+        [
+          "**Molto divertente**",
+          "*esilarante, divertentissimo*"
+        ],
+        [
+          "**Molto triste**",
+          "*affranto, devastato, addolorato*"
+        ],
+        [
+          "**Molto felice**",
+          "*al settimo cielo, entusiasta, felicissimo*"
+        ],
+        [
+          "**Molto arrabbiato**",
+          "*furioso, infuriato, fuori di sé*"
+        ],
+        [
+          "**Molto stanco**",
+          "*esausto, sfinito, distrutto*"
+        ],
+        [
+          "**Molto affamato**",
+          "*affamato da morire, sbranato*"
+        ],
+        [
+          "**Molto freddo**",
+          "*gelido, glaciale*"
+        ],
+        [
+          "**Molto caldo**",
+          "*torrido, rovente, soffocante*"
+        ],
+        [
+          "**Molto veloce**",
+          "*rapido, fulmineo*"
+        ],
+        [
+          "**Molto lento**",
+          "*pigro, lento come una lumaca*"
+        ],
+        [
+          "**Molto rumoroso**",
+          "*assordante, fragoroso*"
+        ],
+        [
+          "**Molto silenzioso**",
+          "*silenzioso, pacifico, sereno*"
+        ],
+        [
+          "**Molto luminoso**",
+          "*abbagliante, splendente*"
+        ],
+        [
+          "**Molto buio**",
+          "*buio pesto, cupo*"
+        ],
+        [
+          "**Molto pulito**",
+          "*immacolato, lindo*"
+        ],
+        [
+          "**Molto sporco**",
+          "*mancante di igiene, zozzo*"
+        ],
+        [
+          "**Molto vecchio**",
+          "*antico* (cose), *anziano / venerando* (persone)"
+        ],
+        [
+          "**Molto nuovo**",
+          "*nuovissimo, all'avanguardia*"
+        ],
+        [
+          "**Molto ricco**",
+          "*benestante, facoltoso*"
+        ],
+        [
+          "**Molto povero**",
+          "*indigente, misero*"
+        ],
+        [
+          "**Molto facile**",
+          "*elementare, semplicissimo*"
+        ],
+        [
+          "**Molto difficile**",
+          "*arduo, complesso, impegnativo*"
+        ],
+        [
+          "**Molto importante**",
+          "*cruciale, essenziale, fondamentale*"
+        ],
+        [
+          "**Molto famoso**",
+          "*celebre, illustre, rinomato*"
+        ],
+        [
+          "**Molto spaventato**",
+          "*terrorizzato, pietrificato*"
+        ],
+        [
+          "**Molto sorpreso**",
+          "*strabiliato, sbalordito, perplesso*"
+        ],
+        [
+          "**Molto emozionato**",
+          "*entusiasta, emozionatissimo*"
+        ],
+        [
+          "**Molto preoccupato**",
+          "*angosciato, in ansia*"
+        ],
+        [
+          "**Molto confuso**",
+          "*disorientato, perplesso*"
+        ],
+        [
+          "**Molto intelligente**",
+          "*brillante, geniale, acuto*"
+        ],
+        [
+          "**Molto stupido**",
+          "*assurdo, insensato*"
+        ],
+        [
+          "**Molto coraggioso**",
+          "*intrepido, valoroso*"
+        ],
+        [
+          "**Molto debole**",
+          "*fragile, gracile*"
+        ],
+        [
+          "**Molto forte**",
+          "*potente, robusto*"
+        ],
+        [
+          "**Molto costoso**",
+          "*esorbitante, carissimo*"
+        ],
+        [
+          "**Molto economico**",
+          "*conveniente, regalato*"
+        ],
+        [
+          "**Molto pieno / affollato**",
+          "*gremito, pieno zeppo*"
+        ],
+        [
+          "**Molto vuoto**",
+          "*deserto, desolato*"
+        ],
+        [
+          "**Molto occupato**",
+          "*pieno di lavoro, sommerso*"
+        ]
+      ]
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Say It: Pronuncia & Accento 🗣️",
-      "say": "Say It. Pratica l'accentazione naturale.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 3,
+      "text": "In pratica"
     },
     {
-      "type": "pronunciation",
-      "word": "esausto",
-      "ipa": "/eˈsau.sto/",
-      "say": "Esausto. Pronuncia con accento sulla seconda sillaba.",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "culture-bite",
-      "title": "Aggettivi assoluti e superlativi",
-      "content": "In italiano gli aggettivi forti come 'esausto' o 'splendido' non richiedono 'molto'. Si combinano invece con 'completamente' o 'assolutamente'.",
-      "say": "Culture bite: Gli aggettivi assoluti si usano con 'assolutamente'.",
-      "beat": {
-        "duration": 4500,
-        "camera": "spotlight",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Mini-Quiz in 3 Domande 📝",
-      "say": "Metti alla prova le tue conoscenze con un breve quiz.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Quale aggettivo forte sostituisce 'molto stanco'?",
-      "options": [
-        "esausto",
-        "grande",
-        "veloce",
-        "silenzioso"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Esausto' significa estremamente stanco.",
-      "say": "Domanda 1: Quale aggettivo forte sostituisce 'molto stanco'?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Quale avverbio si abbina agli aggettivi forti?",
-      "options": [
-        "molto",
-        "assolutamente",
-        "più",
-        "troppo"
-      ],
-      "correctIndex": 1,
-      "explanation": "Gli aggettivi assoluti si abbinano ad 'assolutamente'.",
-      "say": "Domanda 2: Quale avverbio si abbina agli aggettivi forti?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Quale parola sostituisce 'molto affamato'?",
-      "options": [
-        "affamato / famelico",
-        "assiderato",
-        "furioso",
-        "tranquillo"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Famelico' sostituisce 'molto affamato'.",
-      "say": "Domanda 3: Quale parola sostituisce 'molto affamato'?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Go Deeper Across the Ecosystem 🌐",
-      "say": "Esplora la pratica interattiva e i repertori di vocabolario COSYlanguages.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "links",
-      "destination": "practice",
-      "url": "../practice/index.html?lang=it&type=vocabulary&level=B1-B2",
-      "label": "Modulo di pratica interattiva aggettivi B1–B2"
-    },
-    {
-      "type": "links",
-      "destination": "cosydata",
-      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
-      "label": "Archivio centrale di vocabolario COSYdata"
-    },
-    {
-      "type": "links",
-      "destination": "events",
-      "url": "../apps/premium-events/index.html",
-      "label": "Incontri dal vivo e Speaking Clubs"
+      "type": "paragraph",
+      "text": "Metti subito in pratica questi aggettivi nei tuoi scritti e nelle tue conversazioni. Ad esempio, invece di dire *\"Ho avuto una giornata molto impegnata e sono molto stanco\"*, prova a dire: **\"Ho avuto una giornata intensa e sono esausto.\"**"
     }
-  ]
+  ],
+  "translationOf": "replace-very-50-stronger-adjectives",
+  "draft": false
 }

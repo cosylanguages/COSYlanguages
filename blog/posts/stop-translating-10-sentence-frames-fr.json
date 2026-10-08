@@ -44,211 +44,91 @@
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "De la traduction à la description",
-      "say": "L'un des plus grands obstacles pour les apprenants est l'habitude de traduire mot à mot. Apprenez à décrire ce que vous ne savez pas.",
-      "beat": {
-        "duration": 4000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "type": "paragraph",
+      "text": "L'un des plus grands obstacles pour les apprenants débutants et intermédiaires (CEFR A0–B1) est l'habitude de **traduire mot à mot**. Lorsqu'un mot précis manque — comme *tire-bouchon*, *pharmacie* ou *architecte* —, le cerveau se bloque et conclut : *\"Je ne connais pas ce mot, donc je ne peux pas parler.\"*"
     },
     {
       "type": "paragraph",
-      "text": "Quand un mot vous manque, votre cerveau n'a pas besoin de bloquer. La circonlocution est une vraie compétence de communication. Voici 10 structures de phrases pour continuer à parler.",
-      "say": "La circonlocution est une vraie compétence de communication. Voici 10 structures de phrases pour continuer à parler.",
-      "beat": {
-        "duration": 4500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "text": "Notre méthodologie privilégie **l'élimination de la traduction** au profit de l'approche naturelle et créative utilisée lors de l'apprentissage de la langue maternelle. Les locuteurs natifs ne connaissent pas tous les mots du dictionnaire ; en revanche, ils possèdent la capacité de **décrire ce qu'ils ne connaissent pas**. La circonlocution est une vraie compétence de communication."
+    },
+    {
+      "type": "paragraph",
+      "text": "Au lieu de mémoriser des listes de vocabulaire isolées, maîtrisez ces **10 structures de phrases réutilisables** et ces **20 phrases de survie**. Chaque structure agit comme un bloc LEGO : combinez-la avec du vocabulaire simple pour créer des centaines de phrases originales."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Structures de phrases essentielles",
-      "say": "Découvrons les structures clés pour les personnes, les lieux et les objets.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "text": "💡 Les 10 structures de phrases essentielles"
     },
     {
-      "type": "example",
-      "targetText": "C'est une personne qui aide les malades.",
-      "gloss": "Structure pour décrire les métiers (Médecin / Infirmière).",
-      "context": "Quand vous oubliez le titre exact d'un métier",
-      "say": "C'est une personne qui aide les malades.",
-      "beat": {
-        "duration": 3500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "example",
-      "targetText": "C'est un endroit où on achète de la nourriture.",
-      "gloss": "Structure pour décrire des lieux (Supermarché).",
-      "context": "Quand vous oubliez le nom d'un lieu",
-      "say": "C'est un endroit où on achète de la nourriture.",
-      "beat": {
-        "duration": 3500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "example",
-      "targetText": "C'est quelque chose qu'on utilise pour couper le pain.",
-      "gloss": "Structure pour décrire des fonctions (Couteau).",
-      "context": "Quand vous oubliez le nom d'un objet",
-      "say": "C'est quelque chose qu'on utilise pour couper le pain.",
-      "beat": {
-        "duration": 3500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "example",
-      "targetText": "Comment dit-on cela en français ?",
-      "gloss": "Phrase de survie ultime pour rester en français.",
-      "context": "Demander de l'aide à un locuteur natif",
-      "say": "Comment dit-on cela en français ?",
-      "beat": {
-        "duration": 3500,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**C'est un / une...** (*C'est un livre.* • *C'est un problème.* • *C'est un restaurant.*)",
+        "**C'est une personne qui...** (*C'est une personne qui enseigne aux enfants.* = Professeur • *C'est une personne qui soigne les malades.* = Médecin)",
+        "**C'est un endroit où...** (*C'est un endroit où on achète de la nourriture.* = Supermarché • *C'est un endroit où on dort.* = Hôtel)",
+        "**C'est une chose qui...** (*C'est une chose qui donne l'heure.* = Horloge • *C'est une chose qui ouvre les portes.* = Clé)",
+        "**C'est quelque chose qu'on utilise pour...** (*C'est quelque chose qu'on utilise pour couper le pain.* = Couteau • *C'est quelque chose qu'on utilise pour écrire.* = Stylo)",
+        "**C'est un moment où...** (*C'est un moment où les gens dorment.* = La nuit • *C'est un moment où les enfants vont à l'école.* = Le matin)",
+        "**C'est un jour où...** (*C'est un jour où les familles se réunissent.* = Fête / Anniversaire)",
+        "**Par exemple...** (*J'aime les sports. Par exemple, le football et le tennis.*)",
+        "**Ça veut dire...** (*\"Grand\" veut dire le contraire de petit.*)",
+        "**Comment dit-on... ?** (*Comment dit-on ceci en français ?* • *Que veut dire ce mot ?*)"
+      ]
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Say It : Prononciation & Rythme 🗣️",
-      "say": "Say It. Pratiquez le rythme et l'enchaînement fluide des mots.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 3,
+      "text": "🎨 Ancrages sensorielles et descriptifs"
     },
     {
-      "type": "pronunciation",
-      "word": "C'est un endroit où...",
-      "ipa": "/sɛ tœ̃ nɑ̃.dʁwa u/",
-      "say": "C'est un endroit où... Liez les mots avec fluidité.",
-      "beat": {
-        "duration": 3000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "culture-bite",
-      "title": "La circonlocution chez les natifs",
-      "content": "Les locuteurs natifs utilisent constamment la circonlocution lorsqu'ils oublient un terme exact. Décrire un objet par sa fonction est un signe de compétence communicative.",
-      "say": "Culture bite: La circonlocution est une compétence naturelle.",
-      "beat": {
-        "duration": 4500,
-        "camera": "spotlight",
-        "reveal": "fade-in"
-      }
+      "type": "list-item",
+      "ordered": false,
+      "items": [
+        "**C'est comme...** → *C'est comme un grand chien.* • *C'est comme un petit ordinateur.*",
+        "**C'est pour...** → *C'est pour cuisiner.* • *C'est pour voyager.*",
+        "**On l'utilise pour...** → *On l'utilise pour ouvrir les bouteilles.*",
+        "**Ça ressemble à...** → *Ça ressemble à un oiseau.*",
+        "**Ça a l'air...** → *Ça a l'air intéressant.* • *Ça a l'air difficile.*",
+        "**C'est fait en...** → *C'est fait en bois.* • *C'est fait en plastique.*"
+      ]
     },
     {
       "type": "heading",
-      "level": 2,
-      "text": "Mini-Quiz en 3 Questions 📝",
-      "say": "Testez vos connaissances avec un mini-quiz en 3 questions.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
+      "level": 3,
+      "text": "🚀 20 Phrases de survie quand vous oubliez un mot"
     },
     {
-      "type": "quiz",
-      "question": "Quelle structure permet de décrire une profession ?",
-      "options": [
-        "C'est un endroit où...",
-        "C'est une personne qui...",
-        "C'est un moment où...",
-        "C'est fait en..."
-      ],
-      "correctIndex": 1,
-      "explanation": "'C'est une personne qui...' permet de décrire le rôle d'un métier.",
-      "say": "Question 1 : Quelle structure permet de décrire une profession ?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
+      "type": "list-item",
+      "ordered": true,
+      "items": [
+        "**C'est une sorte de...** (*C'est une sorte d'animal.*)",
+        "**C'est un objet qui...** (*C'est un objet qu'on utilise dans la cuisine.*)",
+        "**C'est quelque chose qui...** (*C'est quelque chose qui aide à apprendre.*)",
+        "**C'est une personne qui...** (*C'est une personne qui travaille à l'hôpital.*)",
+        "**C'est un lieu où...** (*C'est un lieu où on achète des médicaments.*)",
+        "**C'est un moment où...** (*C'est un moment où les gens fêtent.*)",
+        "**C'est comme...** (*C'est comme une petite boîte.*)",
+        "**Ça ressemble à...** (*Ça ressemble à un téléphone.*)",
+        "**Ça fait du bruit comme...** (*Ça fait du bruit comme de la musique.*)",
+        "**Ça a...** (*Ça a quatre roues.*)",
+        "**On s'en sert pour...** (*On s'en sert pour couper la viande.*)",
+        "**On peut l'utiliser pour...** (*On peut l'utiliser pour voyager.*)",
+        "**C'est utilisé pour...** (*C'est utilisé pour le transport.*)",
+        "**C'est fabriqué en...** (*C'est fabriqué en métal.*)",
+        "**C'est similaire à...** (*C'est similaire à un vélo.*)",
+        "**C'est le contraire de...** (*C'est le contraire de cher.*)",
+        "**Ça signifie...** (*Ça signifie la même chose que commencer.*)",
+        "**C'est pareil que...** (*C'est pareil que débuter.*)",
+        "**Je ne connais pas le mot, mais...** (*Je ne connais pas le mot, mais c'est pour nettoyer.*)",
+        "**Comment on dit... ?** (*Comment on dit ce mot en français ?*)"
+      ]
     },
     {
-      "type": "quiz",
-      "question": "Quel est l'avantage principal de la circonlocution ?",
-      "options": [
-        "Elle aide à traduire mot à mot.",
-        "Elle maintient la conversation sans s'arrêter.",
-        "Elle nécessite un dictionnaire.",
-        "Elle est réservée aux experts."
-      ],
-      "correctIndex": 1,
-      "explanation": "La circonlocution évite les blocages et garde la conversation fluide.",
-      "say": "Question 2 : Quel est l'avantage principal de la circonlocution ?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "quiz",
-      "question": "Quelle phrase permet de demander de l'aide en restant en français ?",
-      "options": [
-        "Comment dit-on... en français ?",
-        "Je ne parle pas français.",
-        "Traduisez s'il vous plaît.",
-        "Quelle heure est-il ?"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Comment dit-on... en français ?' garde l'échange dans la langue cible.",
-      "say": "Question 3 : Quelle phrase permet de demander de l'aide en français ?",
-      "beat": {
-        "duration": 4000,
-        "camera": "focus",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Go Deeper Across the Ecosystem 🌐",
-      "say": "Explorez la pratique interactive et les répertoires de vocabulaire COSYlanguages.",
-      "beat": {
-        "duration": 3000,
-        "camera": "push-in",
-        "reveal": "fade-in"
-      }
-    },
-    {
-      "type": "links",
-      "destination": "practice",
-      "url": "../practice/index.html?lang=fr&type=vocabulary&level=A1",
-      "label": "Module de pratique interactive du vocabulaire"
-    },
-    {
-      "type": "links",
-      "destination": "cosydata",
-      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
-      "label": "Répertoire central de vocabulaire COSYdata"
-    },
-    {
-      "type": "links",
-      "destination": "events",
-      "url": "../apps/premium-events/index.html",
-      "label": "Ateliers d'expression orale et clubs de conversation"
+      "type": "paragraph",
+      "text": "N'oubliez pas : **La fluidité ne consiste pas à connaître tous les mots, mais à ne jamais rester muet !**"
     }
-  ]
+  ],
+  "translationOf": "stop-translating-10-sentence-frames",
+  "draft": false
 }

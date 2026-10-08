@@ -10,6 +10,8 @@ test('validatePostSchema - Valid schema object passes validation', () => {
     id: 'post-test-001',
     slug: 'test-valid-post',
     language: 'en',
+    translationOf: 'base-test-post',
+    draft: false,
     desk: 'Words',
     format: 'essay',
     level: 'B1',
@@ -50,6 +52,11 @@ test('validatePostSchema - Valid schema object passes validation', () => {
       {
         type: 'paragraph',
         text: 'Test paragraph content block.'
+      },
+      {
+        type: 'table',
+        headers: ['Column 1', 'Column 2'],
+        rows: [['Cell 1', 'Cell 2']]
       }
     ]
   };
