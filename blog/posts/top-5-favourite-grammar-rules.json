@@ -1,0 +1,310 @@
+{
+  "id": "post-top-5-favourite-grammar-rules",
+  "slug": "top-5-favourite-grammar-rules",
+  "language": "en",
+  "desk": "Grammar Made Cosy",
+  "format": "list",
+  "level": "B1–B2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-10-15",
+  "title": "My Top 5 Favourite English Grammar Rules for Intermediate Learners",
+  "kicker": "GRAMMAR MADE COSY",
+  "dek": "Discover 5 dynamic and natural English grammar rules that native speakers use every day, from the flexible -ish suffix and emotional stative verbs to verb shifting and 'it's giving...'.",
+  "tags": [
+    "Grammar",
+    "IntermediatePlateau",
+    "Fluency",
+    "B1-B2",
+    "English"
+  ],
+  "readingTime": 6,
+  "podcast": {
+    "episode": 10,
+    "audioUrl": "../audio/blog/top-5-favourite-grammar-rules.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#d69e2e"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "doodle-border",
+    "seed": "top-5-favourite-grammar-rules",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stepping into Shakespeare's Creative Laboratory 📜",
+      "say": "October is my absolute favourite month because autumn turns the world into a poet's studio. When intermediate learners ask me how to break through the B1 to B2 plateau, my answer is simple: step into the shoes of William Shakespeare.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "At the intermediate level (CEFR B1–B2), true fluency begins when you embrace a creative mindset. Grammar is not a static list of rules to fear, but a dynamic canvas for self-expression. Here are my top 5 favourite rules for natural spoken English.",
+      "say": "At the intermediate level, true fluency begins when you embrace a creative mindset. Grammar is not a static list of rules to fear, but a dynamic canvas for self-expression.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. The Softening Magic of -ish (-like, -esque)",
+      "say": "Rule 1: The softening magic of the ish suffix.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "Let's meet at seven-ish near-ish to the central station.",
+      "gloss": "Approximation softener: around 7:00 PM and close to the station.",
+      "context": "Casual scheduling with friends",
+      "say": "Let's meet at seven-ish near-ish to the central station.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Emotional Continuous: Stative Verbs on Stage",
+      "say": "Rule 2: Giving stative verbs an emotional continuous form.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "I'm really loving this autumn tea and I'm hating this rain today!",
+      "gloss": "Heightened live emotion instead of permanent state.",
+      "context": "Expressing live feelings in spoken conversation",
+      "say": "I'm really loving this autumn tea and I'm hating this rain today!",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Action Verbing: Machine & Mind Purpose",
+      "say": "Rule 3: Action verbing. Turning nouns into active continuous verbs.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "The coffee is definitely coffee-ing, but my brain is not braining today.",
+      "gloss": "Humorous expression of focus and mental energy.",
+      "context": "Workplace or study check-in",
+      "say": "The coffee is definitely coffee-ing, but my brain is not braining today.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Zero-Derivation Verb Shifting",
+      "say": "Rule 4: Zero-derivation verb shifting. Turning nouns directly into active verbs.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "We are desk-lunching today, but let me benchmark this report first.",
+      "gloss": "Using zero-derivation verbs for daily habits and C1 academic writing.",
+      "context": "Professional & daily routine",
+      "say": "We are desk-lunching today, but let me benchmark this report first.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Modern Vibe Evaluators: 'It's Giving...'",
+      "say": "Rule 5: Modern vibe evaluators using 'It's giving...'.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "This cozy autumn café is giving main character energy.",
+      "gloss": "Aesthetic evaluation radiating a specific atmosphere or vibe.",
+      "context": "Describing atmosphere or aesthetic",
+      "say": "This cozy autumn café is giving main character energy.",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Spoken Pronunciation Key 🗣️",
+      "say": "Say It section. Key spoken stress and pitch patterns.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "seven-ish",
+      "ipa": "/ˈsɛv.ən.ɪʃ/",
+      "say": "Seven-ish. Stress the first syllable and soften the suffix.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Shakespeare's Creative Legacy",
+      "content": "William Shakespeare coined over 1,700 English words by turning nouns into verbs and adding suffixes like -ish and -un. Intermediate learners continue this exact tradition in modern spoken English.",
+      "say": "Culture bite: Shakespeare coined over 1,700 words using zero-derivation and expressive suffixes.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Test your understanding with a quick 3-question mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What does 'meet at seven-ish' mean in spoken English?",
+      "options": [
+        "Meet at exactly 7:00 PM",
+        "Meet around 7:00 PM (approximately)",
+        "Meet at 7:00 AM only",
+        "Cancel the meeting"
+      ],
+      "correctIndex": 1,
+      "explanation": "The suffix -ish acts as a conversational softener indicating approximation.",
+      "say": "Question 1: What does 'meet at seven-ish' mean in spoken English?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence uses emotional continuous for a stative verb?",
+      "options": [
+        "I understand the rule.",
+        "I am loving this hot autumn tea!",
+        "She has two brothers.",
+        "They live in London."
+      ],
+      "correctIndex": 1,
+      "explanation": "'I'm loving' shifts the stative verb 'love' into continuous form to signal live heightened emotion.",
+      "say": "Question 2: Which sentence uses emotional continuous for a stative verb?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What formal phrase replaces 'It's giving nineteenth-century vibes' in academic writing?",
+      "options": [
+        "It gives me money.",
+        "It is evocative of nineteenth-century design.",
+        "It is impossible.",
+        "It was written in 1900."
+      ],
+      "correctIndex": 1,
+      "explanation": "'It is evocative of...' is the formal academic register equivalent of 'It's giving...'.",
+      "say": "Question 3: What formal phrase replaces 'It's giving...' in academic writing?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?type=grammar&level=B1-B2",
+      "label": "Interactive Grammar Practice Hub"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "COSYdata Master Vocabulary Repository"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Live Speaking & Grammar Workshops"
+    }
+  ]
+}

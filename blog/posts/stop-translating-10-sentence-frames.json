@@ -1,0 +1,254 @@
+{
+  "id": "post-stop-translating-10-sentence-frames",
+  "slug": "stop-translating-10-sentence-frames",
+  "language": "en",
+  "desk": "Say It",
+  "format": "list",
+  "level": "A0–A1 / A2",
+  "issue": {
+    "number": "Vol. 2026.10",
+    "title": "JY DM's birthday & His favs"
+  },
+  "date": "2026-09-14",
+  "title": "Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One",
+  "kicker": "SAY IT",
+  "dek": "Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.",
+  "tags": [
+    "SentenceFrames",
+    "Circumlocution",
+    "Fluency",
+    "A0-B1",
+    "Communication"
+  ],
+  "readingTime": 8,
+  "podcast": {
+    "episode": 1,
+    "audioUrl": "../audio/blog/stop-translating-10-sentence-frames.mp3"
+  },
+  "artDirection": {
+    "palette": [
+      "#0d9488",
+      "#faf7f2",
+      "#1e293b",
+      "#f59e0b"
+    ],
+    "fonts": {
+      "display": "Fraunces",
+      "text": "DM Sans",
+      "accent": "Fraunces Italic"
+    },
+    "layout": "magazine-spread",
+    "motif": "ticket-stub",
+    "seed": "stop-translating-10-sentence-frames",
+    "coverOverride": null
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Core Shift: From Translation to Description",
+      "say": "One of the biggest obstacles for language learners is the habit of translating word by word. Instead of memorizing isolated vocabulary, learn to describe what you don't know.",
+      "beat": {
+        "duration": 4000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "When you don't know an exact word—like corkscrew, pharmacy, or architect—your brain doesn't need to freeze. Circumlocution is a real communication skill. Here are 10 reusable sentence frames to keep you speaking.",
+      "say": "Circumlocution is a real communication skill. Here are 10 reusable sentence frames to keep you speaking.",
+      "beat": {
+        "duration": 4500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Essential Sentence Frames",
+      "say": "Let's explore key frames for people, places, things, and actions.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "It's a person who helps sick people.",
+      "gloss": "Frame for describing professions (Doctor / Nurse).",
+      "context": "When you forget a job title",
+      "say": "It's a person who helps sick people.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "It's a place where people exercise.",
+      "gloss": "Frame for describing locations (Gym).",
+      "context": "When you forget a place name",
+      "say": "It's a place where people exercise.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "It's something you use to cut bread.",
+      "gloss": "Frame for describing functions and objects (Knife).",
+      "context": "When you forget an object name",
+      "say": "It's something you use to cut bread.",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "example",
+      "targetText": "How do you say this in English?",
+      "gloss": "The ultimate survival frame to keep conversation in the target language.",
+      "context": "Asking native speakers for help",
+      "say": "How do you say this in English?",
+      "beat": {
+        "duration": 3500,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Say It: Pronunciation Key 🗣️",
+      "say": "Say It section. Practice rhythm and connected speech.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "word": "It's a place where...",
+      "ipa": "/ɪts ə pleɪs wɛər/",
+      "say": "It's a place where... Link 'it's' and 'a' smoothly together.",
+      "beat": {
+        "duration": 3000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "culture-bite",
+      "title": "Circumlocution as a Native Strategy",
+      "content": "Native speakers use circumlocution constantly when they forget exact terminology or technical names. Describing objects or people by function is a universal sign of communicative competence.",
+      "say": "Culture bite: Circumlocution is a universal sign of communicative competence.",
+      "beat": {
+        "duration": 4500,
+        "camera": "spotlight",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3-Question Mini-Quiz 📝",
+      "say": "Test your understanding with a quick 3-question mini-quiz.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which sentence frame describes a profession when you forget the title?",
+      "options": [
+        "It's a place where...",
+        "It's a person who...",
+        "It's a time when...",
+        "It's made of..."
+      ],
+      "correctIndex": 1,
+      "explanation": "'It's a person who...' allows you to describe a job function without knowing the job title.",
+      "say": "Question 1: Which sentence frame describes a profession when you forget the title?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the primary benefit of circumlocution for language learners?",
+      "options": [
+        "It helps you translate word-for-word.",
+        "It keeps the conversation flowing without stopping.",
+        "It requires a dictionary.",
+        "It is only used by advanced scholars."
+      ],
+      "correctIndex": 1,
+      "explanation": "Circumlocution prevents freezing and keeps conversation flowing naturally.",
+      "say": "Question 2: What is the primary benefit of circumlocution for language learners?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which frame asks for help while remaining in the target language?",
+      "options": [
+        "How do you say... in English?",
+        "I don't speak English.",
+        "Translate this please.",
+        "What time is it?"
+      ],
+      "correctIndex": 0,
+      "explanation": "'How do you say... in English?' keeps the conversation in English.",
+      "say": "Question 3: Which frame asks for help while remaining in the target language?",
+      "beat": {
+        "duration": 4000,
+        "camera": "focus",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Go Deeper Across the Ecosystem 🌐",
+      "say": "Explore interactive practice, vocabulary repositories, and live courses across COSYlanguages.",
+      "beat": {
+        "duration": 3000,
+        "camera": "push-in",
+        "reveal": "fade-in"
+      }
+    },
+    {
+      "type": "links",
+      "destination": "practice",
+      "url": "../practice/index.html?type=vocabulary&level=A1",
+      "label": "Interactive Vocabulary & Circumlocution Practice"
+    },
+    {
+      "type": "links",
+      "destination": "cosydata",
+      "url": "https://cosylanguages.github.io/COSYdata/vocabulary/index.html",
+      "label": "COSYdata Master Vocabulary Repository"
+    },
+    {
+      "type": "links",
+      "destination": "events",
+      "url": "../apps/premium-events/index.html",
+      "label": "Live Speaking Clubs & Workshops"
+    }
+  ]
+}
