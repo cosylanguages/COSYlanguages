@@ -218,10 +218,20 @@ body.stage-mode-active .site-footer {
   padding: 0 0.5rem;
 }
 
-/* Clean Recording View Mode */
-.hide-recording {
+/* Clean Recording View Mode & Render Mode */
+.hide-recording,
+body.stage-render-mode #stage-controls,
+body.stage-render-mode #stage-progress-bar {
+  display: none !important;
   opacity: 0 !important;
   pointer-events: none !important;
+}
+
+body.stage-render-mode *,
+body.stage-render-mode *::before,
+body.stage-render-mode *::after {
+  animation-duration: 0s !important;
+  transition-duration: 0s !important;
 }
 
 /* Magnified Word Card Modal for Reading Mode */

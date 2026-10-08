@@ -85,3 +85,60 @@ test('StageTimeline - Playback controls (play, pause, togglePlay, jumpTo)', () =
   assert.strictEqual(timeline.currentIndex, 2);
   assert.strictEqual(lastBeatIndex, 2);
 });
+
+test('StageTimeline - Deterministic clock seeking (seekTime and advanceClock)', () => {
+  const samplePost = {
+    title: 'Clock Seeking Post',
+    blocks: [
+      { type: 'heading', text: 'Section 1', beat: { duration: 2000 } },
+      { type: 'paragraph', text: 'Paragraph 1', beat: { duration: 3000 } }
+    ]
+  };
+
+  let mockCameraTimeCall = null;
+  const mockCamera = {
+    setTransformForTime: (beats, activeIndex, localElapsed, duration) => {
+      mockCameraTimeCall = { activeIndex, localElapsed, duration };
+    }
+  };
+
+  let currentRatio = 0;
+  const timeline = new StageTimeline(samplePost, mockCamera, {
+    onProgress: (ratio) => { currentRatio = ratio; }
+  });
+
+  // Title beat: 4000ms
+  // Section 1: 2000ms
+  // Paragraph 1: 3000ms
+  // Outro beat: 3500ms
+  // Total = 4000 + 2000 + 3000 + 3500 = 12500ms
+  assert.strictEqual(timeline.getTotalDuration(), 12500);
+
+  // Seek to t = 0 (Title beat)
+  let state = timeline.seekTime(0);
+  assert.strictEqual(state.activeIndex, 0);
+  assert.strictEqual(state.currentTimeMs, 0);
+  assert.strictEqual(state.isFinished, false);
+  assert.strictEqual(mockCameraTimeCall.activeIndex, 0);
+  assert.strictEqual(mockCameraTimeCall.localElapsed, 0);
+
+  // Seek to t = 5000ms (Section 1 beat, 1000ms into beat)
+  state = timeline.seekTime(5000);
+  assert.strictEqual(state.activeIndex, 1);
+  assert.strictEqual(mockCameraTimeCall.activeIndex, 1);
+  assert.strictEqual(mockCameraTimeCall.localElapsed, 1000);
+  assert.strictEqual(currentRatio, 5000 / 12500);
+
+  // Advance clock by 2000ms to t = 7000ms (Paragraph 1 beat, 1000ms into beat)
+  state = timeline.advanceClock(2000);
+  assert.strictEqual(state.currentTimeMs, 7000);
+  assert.strictEqual(state.activeIndex, 2);
+  assert.strictEqual(mockCameraTimeCall.activeIndex, 2);
+  assert.strictEqual(mockCameraTimeCall.localElapsed, 1000);
+
+  // Seek beyond end (t = 15000ms clamped to 12500ms)
+  state = timeline.seekTime(15000);
+  assert.strictEqual(state.currentTimeMs, 12500);
+  assert.strictEqual(state.activeIndex, 3);
+  assert.strictEqual(state.isFinished, true);
+});

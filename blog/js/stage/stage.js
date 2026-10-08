@@ -22,14 +22,18 @@ export class StageController {
     if (typeof window !== 'undefined') {
       const urlParams = new URLSearchParams(window.location.search);
       this.isStageMode = urlParams.get('stage') === '1';
+      this.isRenderMode = urlParams.get('render') === '1';
     }
   }
 
   renderStage() {
     if (!this.container) return;
 
-    if (this.isStageMode) {
+    if (this.isStageMode || this.isRenderMode) {
       document.body.classList.add('stage-mode-active');
+      if (this.isRenderMode) {
+        document.body.classList.add('stage-render-mode');
+      }
       this.container.innerHTML = `
         <div class="stage-frame-16-9">
           <div class="stage-viewport" id="stage-viewport">
@@ -154,6 +158,17 @@ export class StageController {
         progress?.classList.remove('hide-recording');
       }
     });
+
+    // Expose deterministic clock hooks on window for video rendering & tests
+    if (typeof window !== 'undefined') {
+      this.timeline.seekTime(0);
+      window.__stageRenderReady = true;
+      window.__stageTotalDurationMs = this.timeline.getTotalDuration();
+      window.__stageTotalBeats = this.timeline.beats.length;
+      window.__seekStageTime = (t) => this.timeline.seekTime(t);
+      window.__advanceStageClock = (dt) => this.timeline.advanceClock(dt);
+      window.__getStageState = () => this.timeline.getState();
+    }
   }
 
   initReadingModeMagnifier() {
