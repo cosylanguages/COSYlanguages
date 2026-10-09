@@ -1,6 +1,6 @@
 /**
  * COSYlanguages — Flipbook Magazine Reader for Blog Posts
- * Transforms long blog articles into structured, page-by-page magazine flipbook spreads.
+ * Transforms long blog articles into structured, 3D two-page spreads on desktop and touch-swipe slides on mobile.
  */
 
 (function () {
@@ -9,8 +9,8 @@
     const COSYFlipbook = {
         currentPage: 1,
         totalPages: 1,
+        spreads: [],
         mode: 'flipbook', // 'flipbook' or 'scroll'
-        pages: [],
         container: null,
         controlsEl: null,
         indicatorEl: null,
@@ -18,27 +18,26 @@
         nextBtn: null,
         selectEl: null,
         modeToggleBtn: null,
+        liveAnnouncerEl: null,
 
         init: function () {
             this.container = document.querySelector('.post-full-content');
             if (!this.container) return;
 
-            // Find or setup pages
-            let pageEls = Array.from(this.container.querySelectorAll('.flipbook-page'));
+            // Setup ARIA Live region for screen readers
+            this.initLiveAnnouncer();
 
-            // Fallback: If build-blog hasn't static-chunked pages, dynamically chunk by top-level section dividers or H3s
-            if (pageEls.length === 0) {
-                this.chunkContentIntoPages();
-                pageEls = Array.from(this.container.querySelectorAll('.flipbook-page'));
-            }
+            // Intelligent chunker to split content without cutting headings/tables in half
+            this.chunkContentIntoPages();
 
-            if (pageEls.length <= 1) {
-                // Short post or single page - no flipbook UI needed
-                return;
-            }
+            const pageEls = Array.from(this.container.querySelectorAll('.flipbook-page'));
+            if (pageEls.length <= 1) return;
 
             this.pages = pageEls;
             this.totalPages = this.pages.length;
+
+            // Build 3D two-page spreads
+            this.buildSpreads();
 
             // Restore view mode preference if saved
             const savedMode = localStorage.getItem('cosy_blog_view_mode');
@@ -64,24 +63,63 @@
             this.showPage(this.currentPage);
         },
 
+        initLiveAnnouncer: function () {
+            let live = document.getElementById('flipbook-live-announcer');
+            if (!live) {
+                live = document.createElement('div');
+                live.id = 'flipbook-live-announcer';
+                live.setAttribute('aria-live', 'polite');
+                live.setAttribute('aria-atomic', 'true');
+                live.className = 'sr-only';
+                live.style.position = 'absolute';
+                live.style.width = '1px';
+                live.style.height = '1px';
+                live.style.overflow = 'hidden';
+                live.style.clip = 'rect(0,0,0,0)';
+                document.body.appendChild(live);
+            }
+            this.liveAnnouncerEl = live;
+        },
+
         chunkContentIntoPages: function () {
-            const rawChildren = Array.from(this.container.children);
-            if (rawChildren.length === 0) return;
+            let existingPages = Array.from(this.container.querySelectorAll('.flipbook-page'));
+            let children = [];
+
+            if (existingPages.length > 0) {
+                existingPages.forEach(p => {
+                    children.push(...Array.from(p.children));
+                });
+            } else {
+                children = Array.from(this.container.children);
+            }
+
+            if (children.length === 0) return;
 
             const pagesData = [[]];
             let currentPageIndex = 0;
+            let currentItemCount = 0;
 
-            rawChildren.forEach((child) => {
+            for (let i = 0; i < children.length; i++) {
+                const child = children[i];
                 const tag = child.tagName.toLowerCase();
-                // Break page before HR or major H2/H3 headings (except the very first element)
-                if ((tag === 'hr' || tag === 'h2' || tag === 'h3') && pagesData[currentPageIndex].length > 0) {
+
+                // Prevent orphan headings: if element is heading and next element exists, keep together
+                const isHeading = ['h2', 'h3', 'h4'].includes(tag);
+                const isHr = tag === 'hr';
+                const isSpreadBlock = child.classList.contains('instead-try-spread') || child.classList.contains('phrase-upgrade-grid');
+
+                // Page break condition
+                if ((isHr || isHeading || isSpreadBlock || currentItemCount >= 5) && pagesData[currentPageIndex].length > 0) {
                     currentPageIndex++;
                     pagesData[currentPageIndex] = [];
+                    currentItemCount = 0;
                 }
-                if (tag !== 'hr') {
+
+                if (!isHr) {
                     pagesData[currentPageIndex].push(child);
+                    currentItemCount++;
                 }
-            });
+            }
 
             if (pagesData.length <= 1) return;
 
@@ -92,9 +130,22 @@
                 pageSection.className = 'flipbook-page';
                 pageSection.setAttribute('data-page', idx + 1);
                 pageSection.setAttribute('aria-label', `Page ${idx + 1} of ${pagesData.length}`);
+                pageSection.setAttribute('tabindex', '-1');
                 group.forEach(el => pageSection.appendChild(el));
                 this.container.appendChild(pageSection);
             });
+        },
+
+        buildSpreads: function () {
+            const isMobile = window.innerWidth <= 860;
+            this.container.classList.add('flipbook-3d-stage');
+            if (isMobile) {
+                this.container.classList.add('mobile-single-view');
+                this.container.classList.remove('desktop-spread-view');
+            } else {
+                this.container.classList.remove('mobile-single-view');
+                this.container.classList.add('desktop-spread-view');
+            }
         },
 
         renderControls: function () {
@@ -106,7 +157,7 @@
                 <div class="flipbook-controls-bar">
                     <div class="flipbook-nav-group">
                         <button type="button" class="flipbook-btn flipbook-prev-btn" aria-label="Previous Page">
-                            ← Prev Page
+                            ← Prev
                         </button>
                         <div class="flipbook-page-selector">
                             <span class="flipbook-indicator">Page 1 of ${this.totalPages}</span>
@@ -119,19 +170,18 @@
                             </select>
                         </div>
                         <button type="button" class="flipbook-btn flipbook-next-btn" aria-label="Next Page">
-                            Next Page →
+                            Next →
                         </button>
                     </div>
 
                     <div class="flipbook-mode-group">
-                        <button type="button" class="flipbook-mode-toggle" aria-label="Toggle Flipbook or Scroll View">
+                        <button type="button" class="flipbook-mode-toggle" aria-label="Toggle Read as One Page or Flipbook View">
                             📖 Magazine Flipbook Mode
                         </button>
                     </div>
                 </div>
             `;
 
-            // Insert toolbar above article content
             this.container.parentNode.insertBefore(wrapper, this.container);
 
             this.controlsEl = wrapper;
@@ -143,7 +193,6 @@
         },
 
         initFounderCards: function () {
-            // Find or setup Founder's Role Expandable Presentation Cards
             const cards = document.querySelectorAll('.founder-presentation-card');
             cards.forEach(card => {
                 const header = card.querySelector('.founder-card-header');
@@ -162,7 +211,6 @@
 
                 if (header) {
                     header.addEventListener('click', (e) => {
-                        // Don't double trigger if user clicked directly on podcast mode button
                         if (e.target.closest('.podcast-mode-btn')) return;
                         toggleExpand();
                     });
@@ -187,7 +235,6 @@
             }
         },
 
-
         initZoomControls: function () {
             let overlay = document.querySelector('.zoom-focus-overlay');
             if (!overlay) {
@@ -197,7 +244,6 @@
             }
 
             let currentZoomedSection = null;
-            let currentScale = 1.1;
 
             const closeZoom = () => {
                 if (currentZoomedSection) {
@@ -217,221 +263,168 @@
                 if (currentZoomedSection) closeZoom();
 
                 currentZoomedSection = sec;
-                currentScale = 1.18;
                 sec.classList.add('focal-zoomed');
                 const parentContainer = sec.closest('.post-full-content') || document.querySelector('.post-full-content');
                 if (parentContainer) parentContainer.classList.add('section-is-zoomed');
-
-                if (!sec.querySelector('.zoom-controls-toolbar')) {
-                    const toolbar = document.createElement('div');
-                    toolbar.className = 'zoom-controls-toolbar';
-                    toolbar.innerHTML = `
-                        <button type="button" class="zoom-ctrl-btn zoom-in-btn">🔍+ Zoom In</button>
-                        <button type="button" class="zoom-ctrl-btn zoom-out-btn">🔍- Zoom Out</button>
-                        <button type="button" class="zoom-ctrl-btn close-btn">✖ Exit Focus (Esc)</button>
-                    `;
-                    sec.insertBefore(toolbar, sec.firstChild);
-
-                    toolbar.querySelector('.zoom-in-btn').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        currentScale = Math.min(1.6, currentScale + 0.1);
-                        sec.style.transform = `scale(${currentScale.toFixed(2)})`;
-                    });
-
-                    toolbar.querySelector('.zoom-out-btn').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        currentScale = Math.max(0.9, currentScale - 0.1);
-                        sec.style.transform = `scale(${currentScale.toFixed(2)})`;
-                    });
-
-                    toolbar.querySelector('.close-btn').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        closeZoom();
-                    });
-                }
             };
 
             overlay.addEventListener('click', closeZoom);
-
-            document.addEventListener('click', (e) => {
-                const zoomBtn = e.target.closest('.section-zoom-btn');
-                if (zoomBtn) {
-                    e.stopPropagation();
-                    const sec = zoomBtn.closest('.zoomable-section');
-                    if (sec) zoomSection(sec);
-                    return;
-                }
-
-                if (document.body.classList.contains('podcast-presentation-mode')) {
-                    const sec = e.target.closest('.zoomable-section');
-                    if (sec && !e.target.closest('.zoom-controls-toolbar') && !e.target.closest('audio') && !e.target.closest('a')) {
-                        zoomSection(sec);
-                    }
-                }
-            });
-
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && currentZoomedSection) {
-                    closeZoom();
-                    return;
-                }
-                if (currentZoomedSection) {
-                    if (e.key === '+' || e.key === '=') {
-                        currentScale = Math.min(1.5, currentScale + 0.1);
-                        currentZoomedSection.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
-                    } else if (e.key === '-') {
-                        currentScale = Math.max(0.8, currentScale - 0.1);
-                        currentZoomedSection.style.transform = `translate(-50%, -50%) scale(${currentScale.toFixed(2)})`;
-                    }
-                }
-            });
         },
 
         bindEvents: function () {
-            if (this.prevBtn) {
-                this.prevBtn.addEventListener('click', () => this.prevPage());
-            }
-            if (this.nextBtn) {
-                this.nextBtn.addEventListener('click', () => this.nextPage());
-            }
+            if (this.prevBtn) this.prevBtn.addEventListener('click', () => this.prevPage());
+            if (this.nextBtn) this.nextBtn.addEventListener('click', () => this.nextPage());
             if (this.selectEl) {
                 this.selectEl.addEventListener('change', (e) => {
-                    const pageNum = parseInt(e.target.value, 10);
-                    if (!isNaN(pageNum)) {
-                        this.showPage(pageNum);
-                    }
+                    const p = parseInt(e.target.value, 10);
+                    if (!isNaN(p)) this.showPage(p);
                 });
             }
-            if (this.modeToggleBtn) {
-                this.modeToggleBtn.addEventListener('click', () => this.toggleMode());
-            }
+            if (this.modeToggleBtn) this.modeToggleBtn.addEventListener('click', () => this.toggleMode());
 
-            // Keyboard navigation
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape' && document.body.classList.contains('podcast-presentation-mode')) {
-                    this.togglePodcastMode();
-                    return;
-                }
-
+            // Edge clicks on page boundaries
+            this.container.addEventListener('click', (e) => {
                 if (this.mode !== 'flipbook') return;
-                // Ignore if user is inside form inputs or textareas
-                if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
+                if (e.target.closest('a, button, audio, select, input, details')) return;
 
-                if (e.key === 'ArrowLeft') {
+                const rect = this.container.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                if (clickX < rect.width * 0.2) {
                     this.prevPage();
-                } else if (e.key === 'ArrowRight') {
+                } else if (clickX > rect.width * 0.8) {
                     this.nextPage();
                 }
             });
 
-            // Touch Swipe navigation on container
-            let touchStartX = 0;
-            let touchStartY = 0;
+            // Hashchange navigation support for browser back/forward buttons & deep links
+            window.addEventListener('hashchange', () => {
+                const match = window.location.hash.match(/^#page-(\d+)$/);
+                if (match) {
+                    const p = parseInt(match[1], 10);
+                    if (p >= 1 && p <= this.totalPages && p !== this.currentPage) {
+                        this.showPage(p, false);
+                    }
+                }
+            });
+
+            // Keyboard navigation & PgUp/PgDn
+            document.addEventListener('keydown', (e) => {
+                if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
+                if (this.mode !== 'flipbook') return;
+
+                if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                    this.prevPage();
+                } else if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+                    this.nextPage();
+                }
+            });
+
+            // Touch Swipe Gesture
+            let startX = 0;
+            let startY = 0;
 
             this.container.addEventListener('touchstart', (e) => {
                 if (this.mode !== 'flipbook') return;
                 if (e.touches.length === 1) {
-                    touchStartX = e.touches[0].clientX;
-                    touchStartY = e.touches[0].clientY;
+                    startX = e.touches[0].clientX;
+                    startY = e.touches[0].clientY;
                 }
             }, { passive: true });
 
             this.container.addEventListener('touchend', (e) => {
-                if (this.mode !== 'flipbook') return;
-                if (!touchStartX) return;
+                if (this.mode !== 'flipbook' || !startX) return;
+                const endX = e.changedTouches[0].clientX;
+                const endY = e.changedTouches[0].clientY;
+                const diffX = startX - endX;
+                const diffY = startY - endY;
 
-                const touchEndX = e.changedTouches[0].clientX;
-                const touchEndY = e.changedTouches[0].clientY;
-                const diffX = touchStartX - touchEndX;
-                const diffY = touchStartY - touchEndY;
-
-                // Ensure horizontal swipe is dominant and above threshold (50px)
-                if (Math.abs(diffX) > 50 && Math.abs(diffX) > Math.abs(diffY)) {
-                    if (diffX > 0) {
-                        this.nextPage();
-                    } else {
-                        this.prevPage();
-                    }
+                if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
+                    if (diffX > 0) this.nextPage();
+                    else this.prevPage();
                 }
-                touchStartX = 0;
-                touchStartY = 0;
+                startX = 0;
+                startY = 0;
             }, { passive: true });
 
-            // Handle browser back/forward buttons for page hashes
-            window.addEventListener('hashchange', () => {
-                const match = window.location.hash.match(/^#page-(\d+)$/);
-                if (match) {
-                    const pNum = parseInt(match[1], 10);
-                    if (pNum >= 1 && pNum <= this.totalPages && pNum !== this.currentPage) {
-                        this.showPage(pNum);
-                    }
-                }
-            });
+            window.addEventListener('resize', () => this.buildSpreads());
         },
 
-        showPage: function (pageIndex) {
+        showPage: function (pageIndex, updateHistory = true) {
             if (pageIndex < 1) pageIndex = 1;
             if (pageIndex > this.totalPages) pageIndex = this.totalPages;
 
-            this.currentPage = pageIndex;
+            const isMobile = window.innerWidth <= 860;
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-            if (this.mode === 'flipbook') {
-                this.pages.forEach((p, i) => {
-                    const audioEl = p.querySelector('audio');
-                    if (i + 1 === pageIndex) {
-                        p.classList.add('active');
-                        p.style.display = 'block';
+            const updateDOM = () => {
+                this.currentPage = pageIndex;
+
+                if (this.mode === 'flipbook') {
+                    if (!isMobile) {
+                        // Desktop Spread View: display two-page spread (pageIndex and pageIndex + 1 if even/odd alignment)
+                        // If pageIndex is odd, left page = pageIndex, right page = pageIndex + 1
+                        const leftPageNum = pageIndex % 2 === 0 ? pageIndex - 1 : pageIndex;
+                        const rightPageNum = leftPageNum + 1;
+
+                        this.pages.forEach((p, idx) => {
+                            const pNum = idx + 1;
+                            if (pNum === leftPageNum || pNum === rightPageNum) {
+                                p.classList.add('active');
+                                p.style.display = 'block';
+                                p.style.opacity = '1';
+                                p.classList.toggle('spread-left', pNum === leftPageNum);
+                                p.classList.toggle('spread-right', pNum === rightPageNum);
+                            } else {
+                                p.classList.remove('active', 'spread-left', 'spread-right');
+                                p.style.display = 'none';
+                            }
+                        });
                     } else {
-                        p.classList.remove('active');
-                        p.style.display = 'none';
-                        // Pause audio when switching pages
-                        if (audioEl && !audioEl.paused) {
-                            audioEl.pause();
-                        }
+                        // Mobile View: Single Page Slide
+                        this.pages.forEach((p, idx) => {
+                            if (idx + 1 === pageIndex) {
+                                p.classList.add('active');
+                                p.style.display = 'block';
+                                p.style.opacity = '1';
+                                p.focus();
+                            } else {
+                                p.classList.remove('active', 'spread-left', 'spread-right');
+                                p.style.display = 'none';
+                            }
+                        });
                     }
-                });
-            }
+                }
 
-            // Update UI elements
-            if (this.indicatorEl) {
-                this.indicatorEl.textContent = `Page ${pageIndex} of ${this.totalPages}`;
-            }
-            if (this.selectEl) {
-                this.selectEl.value = pageIndex;
-            }
-            if (this.prevBtn) {
-                this.prevBtn.disabled = pageIndex === 1;
-            }
-            if (this.nextBtn) {
-                this.nextBtn.disabled = pageIndex === this.totalPages;
-            }
+                // Update UI
+                if (this.indicatorEl) this.indicatorEl.textContent = `Page ${pageIndex} of ${this.totalPages}`;
+                if (this.selectEl) this.selectEl.value = pageIndex;
+                if (this.prevBtn) this.prevBtn.disabled = pageIndex === 1;
+                if (this.nextBtn) this.nextBtn.disabled = pageIndex === this.totalPages;
 
-            // Sync URL hash without triggering page jump reset if in flipbook mode
-            if (history.replaceState) {
-                history.replaceState(null, '', `#page-${pageIndex}`);
+                if (this.liveAnnouncerEl) {
+                    this.liveAnnouncerEl.textContent = `Page ${pageIndex} of ${this.totalPages}`;
+                }
+            };
+
+            if (document.startViewTransition && !prefersReducedMotion) {
+                document.startViewTransition(() => updateDOM());
             } else {
-                window.location.hash = `#page-${pageIndex}`;
+                updateDOM();
             }
 
-            // Scroll container smoothly into view if user has scrolled far down
-            if (this.mode === 'flipbook' && this.container) {
-                const rect = this.container.getBoundingClientRect();
-                if (rect.top < 0 || rect.top > window.innerHeight) {
-                    this.container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            if (updateHistory) {
+                if (window.location.hash !== `#page-${pageIndex}`) {
+                    history.pushState(null, '', `#page-${pageIndex}`);
                 }
             }
         },
 
         nextPage: function () {
-            if (this.currentPage < this.totalPages) {
-                this.showPage(this.currentPage + 1);
-            }
+            if (this.currentPage < this.totalPages) this.showPage(this.currentPage + 1);
         },
 
         prevPage: function () {
-            if (this.currentPage > 1) {
-                this.showPage(this.currentPage - 1);
-            }
+            if (this.currentPage > 1) this.showPage(this.currentPage - 1);
         },
 
         toggleMode: function () {
@@ -450,7 +443,7 @@
                     p.classList.add('active');
                 });
                 if (this.modeToggleBtn) {
-                    this.modeToggleBtn.textContent = '📜 Full Article Scroll Mode';
+                    this.modeToggleBtn.textContent = '📜 Read as One Page';
                     this.modeToggleBtn.classList.add('active-scroll');
                 }
                 if (this.prevBtn) this.prevBtn.style.display = 'none';

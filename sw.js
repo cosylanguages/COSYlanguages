@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cosy-v5';
+const CACHE_NAME = 'cosy-v6';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -19,16 +19,22 @@ const STATIC_ASSETS = [
   './apps/classroom-sync/index.html',
   './practice/index.html',
   './practice/cognitive-immersion.html',
+  './blog/index.html',
+  './blog/css/tokens.css',
+  './blog/css/magazine-templates.css',
+  './blog/js/art/generator.js',
   './css/base.css',
   './css/components.css',
   './css/layout.css',
   './css/home.css',
   './css/mobile.css',
+  './css/blog.css',
   './js/core/engine.js',
   './js/core/i18n.js',
   './js/core/ui.js',
   './js/core/linguistics.js',
   './js/core/morphology.js',
+  './js/pages/flipbook.js',
   './js/data/languages.js',
   './js/data/pricing.js',
   './js/data/grammar_config.js',
