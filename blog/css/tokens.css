@@ -73,6 +73,7 @@ body.theme-dark.blog-page,
 
   --post-palette-bg: var(--blog-paper-light);
   --post-palette-text: var(--blog-ink-primary);
+  --post-palette-accent: var(--blog-accent-teal);
 }
 
 /* 3. Base Warm Paper Texture Canvas */

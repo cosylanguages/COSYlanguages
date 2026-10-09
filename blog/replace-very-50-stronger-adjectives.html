@@ -7,10 +7,10 @@
     <meta name="description" content="Level up your English vocabulary by replacing repetitive &#39;very + adjective&#39; combinations with 50 powerful, precise adjectives and bonus advanced upgrades.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#faf7f2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,325 +19,282 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-palette-highlight: #d69e2e;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-list">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Stop Saying &#39;Very&#39;! 50 Stronger Words Every Intermediate English Learner Should Know</h1>
-            
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="replace-very-50-stronger-adjectives-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <a href="replace-very-50-stronger-adjectives-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <a href="replace-very-50-stronger-adjectives-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <a href="replace-very-50-stronger-adjectives-ru.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇷🇺 RU</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇬🇧 EN</span>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-12</span>
-                <span>·</span>
-                <span>⏱️ 5 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span class="stamp-sticker">Words</span>
+                <span>2026-09-12</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
-                    </div>
-                </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
-            </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="replace-very-50-stronger-adjectives">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 5">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 5</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>One of the most noticeable signs of reaching the <strong>&quot;intermediate plateau&quot;</strong> in English is relying on the modifier <strong>&quot;very&quot;</strong> to intensify everyday adjectives.</p>
-<p>While saying <em>&quot;very big&quot;</em>, <em>&quot;very good&quot;</em>, or <em>&quot;very bad&quot;</em> is grammatically correct and understandable, overusing <em>&quot;very&quot;</em> makes your speech and writing sound repetitive. Transitioning to stronger, more expressive single-word adjectives immediately makes your English sound more natural, sophisticated, and precise.</p>
-<p>Here are 50 of the most common <em>&quot;very...&quot;</em> combinations along with their natural, powerful alternatives.</p>
+    <rect width="1200" height="600" fill="#d69e2e" />
 
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 5</span>
-  </div>
-</section>
+      <ellipse cx="308" cy="281" rx="144" ry="95" fill="#1e293b" opacity="0.25" transform="rotate(324 308 281)" style="filter: blur(12px);" />
+      <ellipse cx="318" cy="276" rx="86.39999999999999" ry="57" fill="#0d9488" opacity="0.15" transform="rotate(324 308 281)" style="filter: blur(8px);" />
 
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 5">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 5</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>50 Better Alternatives to &quot;Very + Adjective&quot;</h3>
-<div class="table-wrapper">
-<table>
+      <ellipse cx="701" cy="171" rx="142" ry="87" fill="#1e293b" opacity="0.25" transform="rotate(303 701 171)" style="filter: blur(12px);" />
+      <ellipse cx="711" cy="166" rx="85.2" ry="52.199999999999996" fill="#0d9488" opacity="0.15" transform="rotate(303 701 171)" style="filter: blur(8px);" />
 
-<thead><tr><th>Instead of...</th><th>Try using...</th></tr></thead>
-<tbody>
-<tr><td><strong>Very bad</strong></td><td><em>awful, terrible, dreadful</em></td></tr>
-<tr><td><strong>Very good</strong></td><td><em>excellent, outstanding, superb</em></td></tr>
-<tr><td><strong>Very big</strong></td><td><em>enormous, gigantic, massive</em></td></tr>
-<tr><td><strong>Very small</strong></td><td><em>tiny, miniature, microscopic</em></td></tr>
-<tr><td><strong>Very beautiful</strong></td><td><em>gorgeous, stunning, breathtaking</em></td></tr>
-<tr><td><strong>Very ugly</strong></td><td><em>hideous, grotesque</em></td></tr>
-<tr><td><strong>Very interesting</strong></td><td><em>fascinating, captivating</em></td></tr>
-<tr><td><strong>Very boring</strong></td><td><em>tedious, dull, monotonous</em></td></tr>
-<tr><td><strong>Very funny</strong></td><td><em>hilarious, hysterical</em></td></tr>
-<tr><td><strong>Very sad</strong></td><td><em>miserable, heartbroken, devastated</em></td></tr>
-<tr><td><strong>Very happy</strong></td><td><em>delighted, thrilled, ecstatic</em></td></tr>
-<tr><td><strong>Very angry</strong></td><td><em>furious, livid, outraged</em></td></tr>
-<tr><td><strong>Very tired</strong></td><td><em>exhausted, drained, worn out</em></td></tr>
-<tr><td><strong>Very hungry</strong></td><td><em>starving, famished</em></td></tr>
-<tr><td><strong>Very thirsty</strong></td><td><em>parched</em></td></tr>
-<tr><td><strong>Very cold</strong></td><td><em>freezing, icy</em></td></tr>
-<tr><td><strong>Very hot</strong></td><td><em>boiling, scorching</em></td></tr>
-<tr><td><strong>Very fast</strong></td><td><em>rapid, swift, lightning-fast</em></td></tr>
-<tr><td><strong>Very slow</strong></td><td><em>sluggish, leisurely</em></td></tr>
-<tr><td><strong>Very loud</strong></td><td><em>deafening, thunderous</em></td></tr>
-<tr><td><strong>Very quiet</strong></td><td><em>silent, hushed</em></td></tr>
-<tr><td><strong>Very bright</strong></td><td><em>brilliant, dazzling</em></td></tr>
-<tr><td><strong>Very dark</strong></td><td><em>pitch-black, gloomy</em></td></tr>
-<tr><td><strong>Very clean</strong></td><td><em>spotless, immaculate</em></td></tr>
-<tr><td><strong>Very dirty</strong></td><td><em>filthy, grimy</em></td></tr>
-<tr><td><strong>Very old</strong></td><td><em>ancient</em> (things), <em>elderly</em> (people), <em>outdated</em> (concepts)</td></tr>
-<tr><td><strong>Very new</strong></td><td><em>brand-new, cutting-edge</em></td></tr>
-<tr><td><strong>Very rich</strong></td><td><em>wealthy, affluent</em></td></tr>
-<tr><td><strong>Very poor</strong></td><td><em>impoverished, penniless</em></td></tr>
-<tr><td><strong>Very easy</strong></td><td><em>effortless, straightforward</em></td></tr>
-<tr><td><strong>Very difficult</strong></td><td><em>challenging, demanding, arduous</em></td></tr>
-<tr><td><strong>Very important</strong></td><td><em>crucial, essential, vital</em></td></tr>
-<tr><td><strong>Very famous</strong></td><td><em>renowned, legendary, iconic</em></td></tr>
-<tr><td><strong>Very afraid</strong></td><td><em>terrified, petrified</em></td></tr>
-<tr><td><strong>Very surprised</strong></td><td><em>astonished, stunned</em></td></tr>
-<tr><td><strong>Very excited</strong></td><td><em>exhilarated, thrilled</em></td></tr>
-<tr><td><strong>Very worried</strong></td><td><em>anxious, concerned</em></td></tr>
-<tr><td><strong>Very confused</strong></td><td><em>bewildered, perplexed</em></td></tr>
-<tr><td><strong>Very smart</strong></td><td><em>brilliant, intelligent</em></td></tr>
-<tr><td><strong>Very stupid</strong></td><td><em>foolish, idiotic</em> (strong), <em>unintelligent</em></td></tr>
-<tr><td><strong>Very brave</strong></td><td><em>courageous, fearless</em></td></tr>
-<tr><td><strong>Very weak</strong></td><td><em>feeble, frail</em></td></tr>
-<tr><td><strong>Very strong</strong></td><td><em>powerful, robust</em></td></tr>
-<tr><td><strong>Very expensive</strong></td><td><em>costly, overpriced</em></td></tr>
-<tr><td><strong>Very cheap</strong></td><td><em>inexpensive, affordable</em></td></tr>
-<tr><td><strong>Very crowded</strong></td><td><em>packed, overcrowded</em></td></tr>
-<tr><td><strong>Very empty</strong></td><td><em>deserted, vacant</em></td></tr>
-<tr><td><strong>Very busy</strong></td><td><em>hectic, swamped</em></td></tr>
-<tr><td><strong>Very lazy</strong></td><td><em>idle, lethargic</em></td></tr>
-<tr><td><strong>Very depressed</strong></td><td><em>devastated, despondent, miserable</em>*</td></tr>
-</tbody>
-</table>
+      <ellipse cx="369" cy="238" rx="173" ry="62" fill="#1e293b" opacity="0.25" transform="rotate(162 369 238)" style="filter: blur(12px);" />
+      <ellipse cx="379" cy="233" rx="103.8" ry="37.199999999999996" fill="#0d9488" opacity="0.15" transform="rotate(162 369 238)" style="filter: blur(8px);" />
+
+      <ellipse cx="418" cy="120" rx="86" ry="90" fill="#1e293b" opacity="0.25" transform="rotate(213 418 120)" style="filter: blur(12px);" />
+      <ellipse cx="428" cy="115" rx="51.6" ry="54" fill="#0d9488" opacity="0.15" transform="rotate(213 418 120)" style="filter: blur(8px);" />
+
+      <ellipse cx="389" cy="330" rx="126" ry="114" fill="#1e293b" opacity="0.25" transform="rotate(343 389 330)" style="filter: blur(12px);" />
+      <ellipse cx="399" cy="325" rx="75.6" ry="68.39999999999999" fill="#0d9488" opacity="0.15" transform="rotate(343 389 330)" style="filter: blur(8px);" />
+
+
+
+    </svg></div>
+            
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">WORDS</span>
+                <h1 class="cover-headline">Stop Saying &#39;Very&#39;! 50 Stronger Words Every Intermediate English Learner Should Know</h1>
+                <p class="editorial-dek">Level up your English vocabulary by replacing repetitive &#39;very + adjective&#39; combinations with 50 powerful, precise adjectives and bonus advanced upgrades.</p>
+
+
+<div class="language-switcher-bar">
+  <span class="lang-switcher-label">Read in:</span>
+  <a href="replace-very-50-stronger-adjectives-el.html" class="lang-switcher-link">🇬🇷 EL</a> <a href="replace-very-50-stronger-adjectives-fr.html" class="lang-switcher-link">🇫🇷 FR</a> <a href="replace-very-50-stronger-adjectives-it.html" class="lang-switcher-link">🇮🇹 IT</a> <a href="replace-very-50-stronger-adjectives-ru.html" class="lang-switcher-link">🇷🇺 RU</a> <span class="lang-switcher-active">🇬🇧 EN</span>
 </div>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“<strong>*A Note on &quot;Very Depressed&quot;:</strong> <em>Depressed</em> is a clinical medical term. Unless you are specifically referring to a clinical mental health condition, words like <em>despondent</em>, <em>down</em>, <em>miserable</em>, or <em>dejected</em> are often more accurate and appropriate choices in casual conversation.”</p>
-  
-</blockquote>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 5</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 5">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 5</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Bonus: 20 Advanced Upgrades Learners Love</h3>
-<p>Ready to go beyond the basics? Here are 20 additional high-impact adjective upgrades:</p>
-<ol>
-<li><strong>Very scary</strong> → <em>terrifying</em></li>
-<li><strong>Very funny</strong> → <em>side-splitting</em></li>
-<li><strong>Very beautiful</strong> → <em>mesmerizing</em></li>
-<li><strong>Very smart</strong> → <em>gifted</em></li>
-<li><strong>Very dirty</strong> → <em>squalid</em></li>
-<li><strong>Very noisy</strong> → <em>chaotic</em></li>
-<li><strong>Very calm</strong> → <em>serene</em></li>
-<li><strong>Very kind</strong> → <em>compassionate</em></li>
-<li><strong>Very polite</strong> → <em>courteous</em></li>
-<li><strong>Very rude</strong> → <em>obnoxious</em></li>
-<li><strong>Very strange</strong> → <em>bizarre</em></li>
-<li><strong>Very obvious</strong> → <em>evident</em></li>
-<li><strong>Very careful</strong> → <em>meticulous</em></li>
-<li><strong>Very lucky</strong> → <em>fortunate</em></li>
-<li><strong>Very unlucky</strong> → <em>unfortunate</em></li>
-<li><strong>Very painful</strong> → <em>excruciating</em></li>
-<li><strong>Very dangerous</strong> → <em>hazardous</em></li>
-<li><strong>Very tasty</strong> → <em>delicious</em></li>
-<li><strong>Very dry</strong> → <em>arid</em></li>
-<li><strong>Very wet</strong> → <em>soaking / soaked</em></li>
-</ol>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 5</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="4" aria-label="Page 4 of 5">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 4 of 5</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-page-4.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>🌐 Multilingual Adaptations for FR, RU, IT &amp; EL Learners</h3>
-<p>In every target language, intermediate learners fall into the habit of relying on a single general intensifier (<em>très</em>, <em>очень</em>, <em>molto</em>, <em>πολύ</em>). Here is how to upgrade your adjectives in French, Russian, Italian, and Greek:</p>
-<h4>🇫🇷 French (<em>très</em> + adjectif → adjectifs forts)</h4>
-<ul>
-<li><strong>très grand</strong> → <em>immense, gigantesque</em></li>
-<li><strong>très bon</strong> → <em>excellent, remarquable, formidable</em></li>
-<li><strong>très fatigué</strong> → <em>épuisé, exténué</em></li>
-<li><strong>très beau</strong> → <em>superbe, magnifique, splendide</em></li>
-<li><strong>très intéressant</strong> → <em>passionnant, captivant</em></li>
-</ul>
-<h4>🇷🇺 Russian (<em>очень</em> + прилагательное → сильные прилагательные)</h4>
-<ul>
-<li><strong>очень большой</strong> → <em>огромный, гигантский</em></li>
-<li><strong>очень хороший</strong> → <em>отличный, великолепный, превосходный</em></li>
-<li><strong>очень усталый</strong> → <em>изнуренный, обессиленный</em></li>
-<li><strong>очень красивый</strong> → <em>прекрасный, изумительный</em></li>
-<li><strong>очень интересный</strong> → <em>захватывающий, увлекательный</em></li>
-</ul>
-<h4>🇮🇹 Italian (<em>molto</em> + aggettivo → aggettivi forti)</h4>
-<ul>
-<li><strong>molto grande</strong> → <em>immenso, gigantesco</em></li>
-<li><strong>molto buono</strong> → <em>eccellente, squisito, ottimo</em></li>
-<li><strong>molto stanco</strong> → <em>esausto, sinito</em></li>
-<li><strong>molto bello</strong> → <em>bellissimo, magnifico, splendido</em></li>
-<li><strong>molto interessante</strong> → <em>affascinante, coinvolgente</em></li>
-</ul>
-<h4>🇬🇷 Greek (<em>πολύ</em> + επίθετο → ισχυρά επίθετα)</h4>
-<ul>
-<li><strong>πολύ μεγάλος</strong> → <em>τεράστιος, γιγάντιος</em></li>
-<li><strong>πολύ καλός</strong> → <em>εξαιρετικός, υπέροχος</em></li>
-<li><strong>πολύ κουρασμένος</strong> → <em>εξαντλημένος, κατάκοπος</em></li>
-<li><strong>πολύ ωραίος / όμορφος</strong> → <em>πανέμορφος, καταπληκτικός</em></li>
-<li><strong>πολύ ενδιαφέρων</strong> → <em>συναρπαστικός, καθηλωτικός</em></li>
-</ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 4 of 5</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="5" aria-label="Page 5 of 5">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 5 of 5</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/replace-very-50-stronger-adjectives-page-5.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Summary: Practicing Strong Adjectives</h3>
-<p>When learning these new words, try substituting them directly into your daily journal or speaking practice. For instance, instead of saying <em>&quot;I had a very busy day and I am very tired&quot;</em>, say <strong>&quot;I had a hectic day and I am exhausted.&quot;</strong> Notice how much more vivid and clear your sentence becomes!</p>
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 5 of 5</span>
-  </div>
-</section>
-                </article>
-
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#Vocabulary</span> <span class="post-tag-chip">#IntermediatePlateau</span> <span class="post-tag-chip">#Adjectives</span> <span class="post-tag-chip">#B1-B2</span>
-                </div>
-
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
-
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-09-12</span>
+                        <span>⏱️ 5 min read</span>
+                        <span class="stamp-sticker">B1–B2</span>
+                        <span class="stamp-sticker">EPISODE 3</span>
                     </div>
                 </div>
-
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
+            </div>
         </div>
+
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">One of the most noticeable signs of reaching the <strong>&quot;intermediate plateau&quot;</strong> in English is relying on the modifier <strong>&quot;very&quot;</strong> to intensify everyday adjectives.</p>
+<p>While saying <em>&quot;very big&quot;</em>, <em>&quot;very good&quot;</em>, or <em>&quot;very bad&quot;</em> is grammatically correct and understandable, overusing <em>&quot;very&quot;</em> makes your speech and writing sound repetitive. Transitioning to stronger, more expressive single-word adjectives immediately makes your English sound more natural, sophisticated, and precise.</p>
+<p>Here are 50 of the most common <em>&quot;very...&quot;</em> combinations along with their natural, powerful alternatives.</p>
+<h3 class="editorial-heading">50 Better Alternatives to &quot;Very + Adjective&quot;</h3>
+
+<section class="instead-try-spread" aria-label="Vocabulary Comparisons Spread">
+  <div class="instead-try-headers"><div class="instead-try-header col-instead">Instead of...</div><div class="instead-try-header col-try">Try using...</div></div>
+  <div class="instead-try-body">
+    <div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very bad</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>awful, terrible, dreadful</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very good</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>excellent, outstanding, superb</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very big</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>enormous, gigantic, massive</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very small</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>tiny, miniature, microscopic</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very beautiful</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>gorgeous, stunning, breathtaking</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very ugly</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>hideous, grotesque</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very interesting</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>fascinating, captivating</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very boring</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>tedious, dull, monotonous</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very funny</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>hilarious, hysterical</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very sad</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>miserable, heartbroken, devastated</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very happy</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>delighted, thrilled, ecstatic</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very angry</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>furious, livid, outraged</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very tired</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>exhausted, drained, worn out</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very hungry</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>starving, famished</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very thirsty</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>parched</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very cold</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>freezing, icy</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very hot</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>boiling, scorching</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very fast</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>rapid, swift, lightning-fast</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very slow</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>sluggish, leisurely</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very loud</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>deafening, thunderous</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very quiet</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>silent, hushed</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very bright</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>brilliant, dazzling</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very dark</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>pitch-black, gloomy</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very clean</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>spotless, immaculate</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very dirty</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>filthy, grimy</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very old</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>ancient</em> (things), <em>elderly</em> (people), <em>outdated</em> (concepts)</div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very new</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>brand-new, cutting-edge</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very rich</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>wealthy, affluent</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very poor</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>impoverished, penniless</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very easy</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>effortless, straightforward</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very difficult</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>challenging, demanding, arduous</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very important</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>crucial, essential, vital</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very famous</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>renowned, legendary, iconic</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very afraid</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>terrified, petrified</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very surprised</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>astonished, stunned</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very excited</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>exhilarated, thrilled</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very worried</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>anxious, concerned</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very confused</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>bewildered, perplexed</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very smart</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>brilliant, intelligent</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very stupid</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>foolish, idiotic</em> (strong), <em>unintelligent</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very brave</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>courageous, fearless</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very weak</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>feeble, frail</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very strong</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>powerful, robust</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very expensive</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>costly, overpriced</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very cheap</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>inexpensive, affordable</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very crowded</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>packed, overcrowded</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very empty</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>deserted, vacant</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very busy</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>hectic, swamped</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very lazy</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>idle, lethargic</em></div></div>
+<div class="instead-try-row"><div class="instead-try-cell instead-cell"><span class="instead-badge">Instead of</span> <strong>Very depressed</strong></div><div class="instead-try-cell try-cell"><span class="try-badge">Try</span> <em>devastated, despondent, miserable</em>*</div></div>
+  </div>
+</section>
+
+<blockquote class="gazette-pullquote">
+  <p>“<strong>*A Note on &quot;Very Depressed&quot;:</strong> <em>Depressed</em> is a clinical medical term. Unless you are specifically referring to a clinical mental health condition, words like <em>despondent</em>, <em>down</em>, <em>miserable</em>, or <em>dejected</em> are often more accurate and appropriate choices in casual conversation.”</p>
+  
+</blockquote>
+<h3 class="editorial-heading">Bonus: 20 Advanced Upgrades Learners Love</h3>
+<p>Ready to go beyond the basics? Here are 20 additional high-impact adjective upgrades:</p>
+<div class="phrase-upgrade-grid"><div class="phrase-upgrade-card"><strong>Very scary</strong> → <em>terrifying</em></div>
+<div class="phrase-upgrade-card"><strong>Very funny</strong> → <em>side-splitting</em></div>
+<div class="phrase-upgrade-card"><strong>Very beautiful</strong> → <em>mesmerizing</em></div>
+<div class="phrase-upgrade-card"><strong>Very smart</strong> → <em>gifted</em></div>
+<div class="phrase-upgrade-card"><strong>Very dirty</strong> → <em>squalid</em></div>
+<div class="phrase-upgrade-card"><strong>Very noisy</strong> → <em>chaotic</em></div>
+<div class="phrase-upgrade-card"><strong>Very calm</strong> → <em>serene</em></div>
+<div class="phrase-upgrade-card"><strong>Very kind</strong> → <em>compassionate</em></div>
+<div class="phrase-upgrade-card"><strong>Very polite</strong> → <em>courteous</em></div>
+<div class="phrase-upgrade-card"><strong>Very rude</strong> → <em>obnoxious</em></div>
+<div class="phrase-upgrade-card"><strong>Very strange</strong> → <em>bizarre</em></div>
+<div class="phrase-upgrade-card"><strong>Very obvious</strong> → <em>evident</em></div>
+<div class="phrase-upgrade-card"><strong>Very careful</strong> → <em>meticulous</em></div>
+<div class="phrase-upgrade-card"><strong>Very lucky</strong> → <em>fortunate</em></div>
+<div class="phrase-upgrade-card"><strong>Very unlucky</strong> → <em>unfortunate</em></div>
+<div class="phrase-upgrade-card"><strong>Very painful</strong> → <em>excruciating</em></div>
+<div class="phrase-upgrade-card"><strong>Very dangerous</strong> → <em>hazardous</em></div>
+<div class="phrase-upgrade-card"><strong>Very tasty</strong> → <em>delicious</em></div>
+<div class="phrase-upgrade-card"><strong>Very dry</strong> → <em>arid</em></div>
+<div class="phrase-upgrade-card"><strong>Very wet</strong> → <em>soaking / soaked</em></div></div>
+<h3 class="editorial-heading">🌐 Multilingual Adaptations for FR, RU, IT &amp; EL Learners</h3>
+<p>In every target language, intermediate learners fall into the habit of relying on a single general intensifier (<em>très</em>, <em>очень</em>, <em>molto</em>, <em>πολύ</em>). Here is how to upgrade your adjectives in French, Russian, Italian, and Greek:</p>
+<h4 class="editorial-heading">🇫🇷 French (<em>très</em> + adjectif → adjectifs forts)</h4>
+<div class="phrase-upgrade-grid"><div class="phrase-upgrade-card"><strong>très grand</strong> → <em>immense, gigantesque</em></div>
+<div class="phrase-upgrade-card"><strong>très bon</strong> → <em>excellent, remarquable, formidable</em></div>
+<div class="phrase-upgrade-card"><strong>très fatigué</strong> → <em>épuisé, exténué</em></div>
+<div class="phrase-upgrade-card"><strong>très beau</strong> → <em>superbe, magnifique, splendide</em></div>
+<div class="phrase-upgrade-card"><strong>très intéressant</strong> → <em>passionnant, captivant</em></div></div>
+<h4 class="editorial-heading">🇷🇺 Russian (<em>очень</em> + прилагательное → сильные прилагательные)</h4>
+<div class="phrase-upgrade-grid"><div class="phrase-upgrade-card"><strong>очень большой</strong> → <em>огромный, гигантский</em></div>
+<div class="phrase-upgrade-card"><strong>очень хороший</strong> → <em>отличный, великолепный, превосходный</em></div>
+<div class="phrase-upgrade-card"><strong>очень усталый</strong> → <em>изнуренный, обессиленный</em></div>
+<div class="phrase-upgrade-card"><strong>очень красивый</strong> → <em>прекрасный, изумительный</em></div>
+<div class="phrase-upgrade-card"><strong>очень интересный</strong> → <em>захватывающий, увлекательный</em></div></div>
+<h4 class="editorial-heading">🇮🇹 Italian (<em>molto</em> + aggettivo → aggettivi forti)</h4>
+<div class="phrase-upgrade-grid"><div class="phrase-upgrade-card"><strong>molto grande</strong> → <em>immenso, gigantesco</em></div>
+<div class="phrase-upgrade-card"><strong>molto buono</strong> → <em>eccellente, squisito, ottimo</em></div>
+<div class="phrase-upgrade-card"><strong>molto stanco</strong> → <em>esausto, sinito</em></div>
+<div class="phrase-upgrade-card"><strong>molto bello</strong> → <em>bellissimo, magnifico, splendido</em></div>
+<div class="phrase-upgrade-card"><strong>molto interessante</strong> → <em>affascinante, coinvolgente</em></div></div>
+<h4 class="editorial-heading">🇬🇷 Greek (<em>πολύ</em> + επίθετο → ισχυρά επίθετα)</h4>
+<div class="phrase-upgrade-grid"><div class="phrase-upgrade-card"><strong>πολύ μεγάλος</strong> → <em>τεράστιος, γιγάντιος</em></div>
+<div class="phrase-upgrade-card"><strong>πολύ καλός</strong> → <em>εξαιρετικός, υπέροχος</em></div>
+<div class="phrase-upgrade-card"><strong>πολύ κουρασμένος</strong> → <em>εξαντλημένος, κατάκοπος</em></div>
+<div class="phrase-upgrade-card"><strong>πολύ ωραίος / όμορφος</strong> → <em>πανέμορφος, καταπληκτικός</em></div>
+<div class="phrase-upgrade-card"><strong>πολύ ενδιαφέρων</strong> → <em>συναρπαστικός, καθηλωτικός</em></div></div>
+<h3 class="editorial-heading">Summary: Practicing Strong Adjectives</h3>
+<p>When learning these new words, try substituting them directly into your daily journal or speaking practice. For instance, instead of saying <em>&quot;I had a very busy day and I am very tired&quot;</em>, say <strong>&quot;I had a hectic day and I am exhausted.&quot;</strong> Notice how much more vivid and clear your sentence becomes!</p>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 3</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Stop Saying &#39;Very&#39;! 50 Stronger Words Every Intermediate English Learner Should Know</h3>
+      <p class="podcast-box-dek">Level up your English vocabulary by replacing repetitive &#39;very + adjective&#39; combinations with 50 powerful, precise adjectives and bonus advanced upgrades.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/replace-very-50-stronger-adjectives.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  
+  </div>
+</section>
+            </div>
+
+
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#Vocabulary</span> <span class="post-tag-chip">#IntermediatePlateau</span> <span class="post-tag-chip">#Adjectives</span> <span class="post-tag-chip">#B1-B2</span>
+            </div>
+
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level B1–B2. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
+                    </div>
+                </div>
+            </details>
+
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.09</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -390,6 +347,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-replace-very-50-stronger-adjectives","slug":"replace-very-50-stronger-adjectives","language":"en","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-12","title":"Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner Should Know","kicker":"WORDS","dek":"Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades.","tags":["Vocabulary","IntermediatePlateau","Adjectives","B1-B2"],"readingTime":5,"podcast":{"episode":3,"audioUrl":"../audio/blog/replace-very-50-stronger-adjectives.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"replace-very-50-stronger-adjectives","coverOverride":null},"blocks":[{"type":"paragraph","text":"One of the most noticeable signs of reaching the **\"intermediate plateau\"** in English is relying on the modifier **\"very\"** to intensify everyday adjectives."},{"type":"paragraph","text":"While saying *\"very big\"*, *\"very good\"*, or *\"very bad\"* is grammatically correct and understandable, overusing *\"very\"* makes your speech and writing sound repetitive. Transitioning to stronger, more expressive single-word adjectives immediately makes your English sound more natural, sophisticated, and precise."},{"type":"paragraph","text":"Here are 50 of the most common *\"very...\"* combinations along with their natural, powerful alternatives."},{"type":"heading","level":3,"text":"50 Better Alternatives to \"Very + Adjective\""},{"type":"table","headers":["Instead of...","Try using..."],"rows":[["**Very bad**","*awful, terrible, dreadful*"],["**Very good**","*excellent, outstanding, superb*"],["**Very big**","*enormous, gigantic, massive*"],["**Very small**","*tiny, miniature, microscopic*"],["**Very beautiful**","*gorgeous, stunning, breathtaking*"],["**Very ugly**","*hideous, grotesque*"],["**Very interesting**","*fascinating, captivating*"],["**Very boring**","*tedious, dull, monotonous*"],["**Very funny**","*hilarious, hysterical*"],["**Very sad**","*miserable, heartbroken, devastated*"],["**Very happy**","*delighted, thrilled, ecstatic*"],["**Very angry**","*furious, livid, outraged*"],["**Very tired**","*exhausted, drained, worn out*"],["**Very hungry**","*starving, famished*"],["**Very thirsty**","*parched*"],["**Very cold**","*freezing, icy*"],["**Very hot**","*boiling, scorching*"],["**Very fast**","*rapid, swift, lightning-fast*"],["**Very slow**","*sluggish, leisurely*"],["**Very loud**","*deafening, thunderous*"],["**Very quiet**","*silent, hushed*"],["**Very bright**","*brilliant, dazzling*"],["**Very dark**","*pitch-black, gloomy*"],["**Very clean**","*spotless, immaculate*"],["**Very dirty**","*filthy, grimy*"],["**Very old**","*ancient* (things), *elderly* (people), *outdated* (concepts)"],["**Very new**","*brand-new, cutting-edge*"],["**Very rich**","*wealthy, affluent*"],["**Very poor**","*impoverished, penniless*"],["**Very easy**","*effortless, straightforward*"],["**Very difficult**","*challenging, demanding, arduous*"],["**Very important**","*crucial, essential, vital*"],["**Very famous**","*renowned, legendary, iconic*"],["**Very afraid**","*terrified, petrified*"],["**Very surprised**","*astonished, stunned*"],["**Very excited**","*exhilarated, thrilled*"],["**Very worried**","*anxious, concerned*"],["**Very confused**","*bewildered, perplexed*"],["**Very smart**","*brilliant, intelligent*"],["**Very stupid**","*foolish, idiotic* (strong), *unintelligent*"],["**Very brave**","*courageous, fearless*"],["**Very weak**","*feeble, frail*"],["**Very strong**","*powerful, robust*"],["**Very expensive**","*costly, overpriced*"],["**Very cheap**","*inexpensive, affordable*"],["**Very crowded**","*packed, overcrowded*"],["**Very empty**","*deserted, vacant*"],["**Very busy**","*hectic, swamped*"],["**Very lazy**","*idle, lethargic*"],["**Very depressed**","*devastated, despondent, miserable**"]]},{"type":"pullquote","quote":"**\\*A Note on \"Very Depressed\":** *Depressed* is a clinical medical term. Unless you are specifically referring to a clinical mental health condition, words like *despondent*, *down*, *miserable*, or *dejected* are often more accurate and appropriate choices in casual conversation."},{"type":"heading","level":3,"text":"Bonus: 20 Advanced Upgrades Learners Love"},{"type":"paragraph","text":"Ready to go beyond the basics? Here are 20 additional high-impact adjective upgrades:"},{"type":"list-item","ordered":true,"items":["**Very scary** → *terrifying*","**Very funny** → *side-splitting*","**Very beautiful** → *mesmerizing*","**Very smart** → *gifted*","**Very dirty** → *squalid*","**Very noisy** → *chaotic*","**Very calm** → *serene*","**Very kind** → *compassionate*","**Very polite** → *courteous*","**Very rude** → *obnoxious*","**Very strange** → *bizarre*","**Very obvious** → *evident*","**Very careful** → *meticulous*","**Very lucky** → *fortunate*","**Very unlucky** → *unfortunate*","**Very painful** → *excruciating*","**Very dangerous** → *hazardous*","**Very tasty** → *delicious*","**Very dry** → *arid*","**Very wet** → *soaking / soaked*"]},{"type":"heading","level":3,"text":"🌐 Multilingual Adaptations for FR, RU, IT & EL Learners"},{"type":"paragraph","text":"In every target language, intermediate learners fall into the habit of relying on a single general intensifier (*très*, *очень*, *molto*, *πολύ*). Here is how to upgrade your adjectives in French, Russian, Italian, and Greek:"},{"type":"heading","level":4,"text":"🇫🇷 French (*très* + adjectif → adjectifs forts)"},{"type":"list-item","ordered":false,"items":["**très grand** → *immense, gigantesque*","**très bon** → *excellent, remarquable, formidable*","**très fatigué** → *épuisé, exténué*","**très beau** → *superbe, magnifique, splendide*","**très intéressant** → *passionnant, captivant*"]},{"type":"heading","level":4,"text":"🇷🇺 Russian (*очень* + прилагательное → сильные прилагательные)"},{"type":"list-item","ordered":false,"items":["**очень большой** → *огромный, гигантский*","**очень хороший** → *отличный, великолепный, превосходный*","**очень усталый** → *изнуренный, обессиленный*","**очень красивый** → *прекрасный, изумительный*","**очень интересный** → *захватывающий, увлекательный*"]},{"type":"heading","level":4,"text":"🇮🇹 Italian (*molto* + aggettivo → aggettivi forti)"},{"type":"list-item","ordered":false,"items":["**molto grande** → *immenso, gigantesco*","**molto buono** → *eccellente, squisito, ottimo*","**molto stanco** → *esausto, sinito*","**molto bello** → *bellissimo, magnifico, splendido*","**molto interessante** → *affascinante, coinvolgente*"]},{"type":"heading","level":4,"text":"🇬🇷 Greek (*πολύ* + επίθετο → ισχυρά επίθετα)"},{"type":"list-item","ordered":false,"items":["**πολύ μεγάλος** → *τεράστιος, γιγάντιος*","**πολύ καλός** → *εξαιρετικός, υπέροχος*","**πολύ κουρασμένος** → *εξαντλημένος, κατάκοπος*","**πολύ ωραίος / όμορφος** → *πανέμορφος, καταπληκτικός*","**πολύ ενδιαφέρων** → *συναρπαστικός, καθηλωτικός*"]},{"type":"heading","level":3,"text":"Summary: Practicing Strong Adjectives"},{"type":"paragraph","text":"When learning these new words, try substituting them directly into your daily journal or speaking practice. For instance, instead of saying *\"I had a very busy day and I am very tired\"*, say **\"I had a hectic day and I am exhausted.\"** Notice how much more vivid and clear your sentence becomes!"}],"draft":false};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>

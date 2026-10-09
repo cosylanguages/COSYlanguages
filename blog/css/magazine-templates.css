@@ -4,264 +4,610 @@
    Q&A, Quote Wall, Long Read, and Quiz with Vogue Gazette editorial furniture.
    ========================================================================== */
 
-/* 1. Editorial Furniture Base Elements */
+/* 1. Base Gazette Layout & Page Wrapper */
 
-/* Masthead Header */
+.gazette-body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--post-palette-bg, var(--blog-paper-light, #faf7f2));
+  color: var(--post-palette-text, var(--blog-ink-primary, #1c1917));
+  font-family: var(--post-font-body, var(--blog-font-body, 'DM Sans', sans-serif));
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+.gazette-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+  box-sizing: border-box;
+}
+
+/* 2. Vogue Gazette Slim Masthead */
+
 .gazette-masthead {
-  text-align: center;
-  border-bottom: 3px double var(--blog-border-strong);
-  padding-bottom: 1rem;
+  border-bottom: 3px double var(--blog-border-strong, #292524);
+  padding-bottom: 0.75rem;
   margin-bottom: 2rem;
 }
 
+.gazette-masthead-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.gazette-back-link {
+  color: var(--post-palette-accent, #0d9488);
+  font-weight: 700;
+  font-size: var(--blog-text-sm, 0.875rem);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.gazette-back-link:hover,
+.gazette-back-link:focus-visible {
+  text-decoration: underline;
+}
+
 .gazette-masthead-title {
-  font-family: var(--post-font-display);
-  font-size: var(--blog-text-3xl);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-2xl, 2rem);
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   margin: 0;
-  color: var(--blog-ink-primary);
+  color: var(--post-palette-text, #1c1917);
+  text-align: center;
+}
+
+.gazette-masthead-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.gazette-mode-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  font-size: var(--blog-text-xs, 0.75rem);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--post-palette-accent, #0d9488);
+  background: var(--blog-paper-card, #ffffff);
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-radius: 999px;
+  min-height: 36px;
+  box-sizing: border-box;
+  transition: all 0.15s ease;
+}
+
+.gazette-mode-link:hover,
+.gazette-mode-link:focus-visible {
+  background: var(--post-palette-accent, #0d9488);
+  color: #ffffff;
+  border-color: var(--post-palette-accent, #0d9488);
 }
 
 .gazette-masthead-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: var(--blog-text-xs);
+  font-size: var(--blog-text-xs, 0.75rem);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--blog-ink-muted);
-  border-top: 1px solid var(--blog-border-delicate);
-  border-bottom: 1px solid var(--blog-border-delicate);
+  color: var(--blog-ink-muted, #78716c);
+  border-top: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-bottom: 1px solid var(--blog-border-delicate, #e7e0d6);
   padding: 0.4rem 0;
-  margin-top: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-/* Editorial Kicker & Dek */
+/* 3. Hero Section & Cover Art */
+
+.gazette-cover-hero {
+  margin-bottom: 2.5rem;
+}
+
+.gazette-cover-art-container {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,0.06));
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  margin-bottom: 1.5rem;
+  background: var(--blog-paper-aged, #f3ede4);
+}
+
+.gazette-cover-art-container svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gazette-header-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .editorial-kicker {
   display: inline-block;
-  font-size: var(--blog-text-xs);
+  font-size: var(--blog-text-xs, 0.75rem);
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--post-palette-accent);
+  color: var(--post-palette-accent, #0d9488);
   margin-bottom: 0.5rem;
 }
 
+.cover-headline {
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.18;
+  margin: 0.4rem 0 1rem;
+  color: var(--post-palette-text, #1c1917);
+  word-break: break-word;
+}
+
 .editorial-dek {
-  font-family: var(--post-font-display);
-  font-size: var(--blog-text-lg);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-lg, 1.25rem);
   font-style: italic;
-  line-height: 1.4;
-  color: var(--blog-ink-secondary);
-  border-left: 3px solid var(--post-palette-accent);
-  padding-left: 1rem;
+  line-height: 1.45;
+  color: var(--blog-ink-secondary, #44403c);
+  border-left: 4px solid var(--post-palette-accent, #0d9488);
+  padding-left: 1.25rem;
   margin: 1rem 0 1.5rem 0;
 }
 
+/* Byline Row */
+.post-byline-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-bottom: 1px solid var(--blog-border-delicate, #e7e0d6);
+  margin-top: 1.25rem;
+  font-size: var(--blog-text-sm, 0.875rem);
+}
+
+.byline-author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.byline-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  color: var(--blog-ink-muted, #78716c);
+}
+
+/* Language Switcher Bar */
+.language-switcher-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.lang-switcher-label {
+  font-size: var(--blog-text-xs, 0.75rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--blog-ink-muted, #78716c);
+}
+
+.lang-switcher-active {
+  font-weight: 700;
+  font-size: var(--blog-text-xs, 0.75rem);
+  padding: 0.35rem 0.65rem;
+  background: var(--post-palette-accent, #0d9488);
+  color: #ffffff;
+  border-radius: 4px;
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lang-switcher-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: var(--blog-text-xs, 0.75rem);
+  padding: 0.35rem 0.65rem;
+  background: var(--blog-paper-aged, #f3ede4);
+  color: var(--blog-ink-primary, #1c1917);
+  border-radius: 4px;
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.15s ease;
+}
+
+.lang-switcher-link:hover,
+.lang-switcher-link:focus-visible {
+  background: var(--post-palette-accent, #0d9488);
+  color: #ffffff;
+}
+
+/* 4. Reading View & Article Typography */
+
+.gazette-reading-view {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.gazette-article {
+  line-height: 1.8;
+  font-size: var(--blog-text-base, 1.0625rem);
+}
+
+.gazette-article p {
+  margin-bottom: 1.35rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.editorial-heading {
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  color: var(--post-palette-text, #1c1917);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+h2.editorial-heading { font-size: var(--blog-text-2xl, 2rem); }
+h3.editorial-heading { font-size: var(--blog-text-xl, 1.5rem); border-bottom: 2px solid var(--post-palette-accent, #0d9488); padding-bottom: 0.35rem; }
+h4.editorial-heading { font-size: var(--blog-text-lg, 1.25rem); color: var(--post-palette-accent, #0d9488); }
+
 /* Drop Cap */
 .gazette-drop-cap::first-letter {
-  font-family: var(--post-font-display);
+  font-family: var(--post-font-display, 'Fraunces', serif);
   font-size: 3.8em;
   font-weight: 900;
   float: left;
   line-height: 0.8;
   padding-right: 0.15em;
   padding-top: 0.05em;
-  color: var(--post-palette-accent);
+  color: var(--post-palette-accent, #0d9488);
 }
 
 /* Pull Quote */
 .gazette-pullquote {
-  font-family: var(--post-font-display);
-  font-size: var(--blog-text-xl);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-xl, 1.5rem);
   font-style: italic;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.5rem 1.75rem;
   margin: 2rem 0;
-  border-top: 2px solid var(--blog-border-strong);
-  border-bottom: 2px solid var(--blog-border-strong);
-  background: var(--blog-paper-aged);
-  color: var(--blog-ink-primary);
+  border-top: 2px solid var(--blog-border-strong, #292524);
+  border-bottom: 2px solid var(--blog-border-strong, #292524);
+  background: var(--blog-paper-aged, #f3ede4);
+  color: var(--blog-ink-primary, #1c1917);
   position: relative;
+  border-radius: 8px;
 }
 
 .gazette-pullquote cite {
   display: block;
-  font-family: var(--blog-font-body);
-  font-size: var(--blog-text-xs);
+  font-family: var(--blog-font-body, sans-serif);
+  font-size: var(--blog-text-xs, 0.75rem);
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-top: 0.75rem;
-  color: var(--blog-ink-muted);
+  color: var(--blog-ink-muted, #78716c);
 }
 
-/* Marginalia / Sidebar Annotation */
+/* Marginalia */
 .gazette-marginalia {
-  background: var(--blog-paper-card);
-  border: 1px dashed var(--blog-border-delicate);
+  background: var(--blog-paper-card, #ffffff);
+  border: 1px dashed var(--blog-border-delicate, #e7e0d6);
   border-radius: 8px;
-  padding: 1rem;
-  font-size: var(--blog-text-sm);
-  color: var(--blog-ink-secondary);
-  box-shadow: var(--blog-shadow-paper);
-  margin: 1.5rem 0;
+  padding: 1.25rem;
+  font-size: var(--blog-text-sm, 0.875rem);
+  color: var(--blog-ink-secondary, #44403c);
+  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,0.06));
+  margin: 1.75rem 0;
 }
 
 .gazette-marginalia-title {
-  font-size: var(--blog-text-xs);
+  font-size: var(--blog-text-xs, 0.75rem);
   font-weight: 800;
   text-transform: uppercase;
-  color: var(--post-palette-accent);
-  margin-bottom: 0.35rem;
+  color: var(--post-palette-accent, #0d9488);
+  margin-bottom: 0.5rem;
 }
 
-/* Folio & Page Numbers */
+/* Designed Phrase Comparisons & Upgrade Cards */
+
+.phrase-upgrade-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.phrase-upgrade-card {
+  background: var(--blog-paper-card, #ffffff);
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-left: 4px solid var(--post-palette-accent, #0d9488);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  font-size: var(--blog-text-sm, 0.875rem);
+  color: var(--blog-ink-primary, #1c1917);
+  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,0.04));
+  line-height: 1.6;
+}
+
+/* Designed Two-Column "Instead of / Try" Spread for Tables */
+
+.instead-try-spread {
+  background: var(--blog-paper-card, #ffffff);
+  border: 2px solid var(--blog-border-strong, #292524);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 2rem 0;
+  box-shadow: var(--blog-shadow-floating, 0 12px 32px rgba(0,0,0,0.12));
+  overflow-x: auto;
+}
+
+.instead-try-headers {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1rem;
+  border-bottom: 2px solid var(--blog-border-strong, #292524);
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.instead-try-header {
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-weight: 800;
+  font-size: var(--blog-text-sm, 0.875rem);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.instead-try-header.col-instead {
+  color: var(--blog-accent-crimson, #be123c);
+}
+
+.instead-try-header.col-try {
+  color: var(--post-palette-accent, #0d9488);
+}
+
+.instead-try-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.instead-try-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px dashed var(--blog-border-delicate, #e7e0d6);
+}
+
+.instead-try-row:last-child {
+  border-bottom: none;
+}
+
+.instead-try-cell {
+  font-size: var(--blog-text-sm, 0.875rem);
+  line-height: 1.5;
+
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.instead-cell {
+  color: var(--blog-ink-secondary, #44403c);
+  background: rgba(190, 18, 60, 0.04);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--blog-accent-crimson, #be123c);
+}
+
+.try-cell {
+  color: var(--blog-ink-primary, #1c1917);
+  background: rgba(13, 148, 136, 0.05);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--post-palette-accent, #0d9488);
+}
+
+.instead-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: var(--blog-accent-crimson, #be123c);
+  color: #ffffff;
+  padding: 1px 5px;
+  border-radius: 3px;
+  margin-right: 0.35rem;
+}
+
+.try-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: var(--post-palette-accent, #0d9488);
+  color: #ffffff;
+  padding: 1px 5px;
+  border-radius: 3px;
+  margin-right: 0.35rem;
+}
+
+@media (max-width: 640px) {
+  .instead-try-headers,
+  .instead-try-row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
+/* 5. Collapsed Founder Deck & Colophon Block */
+
+.founder-colophon-block {
+  background: var(--blog-paper-card, #ffffff);
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-left: 4px solid var(--post-palette-accent, #0d9488);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,0.04));
+}
+
+.founder-colophon-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-sm, 0.875rem);
+  font-weight: 700;
+  color: var(--blog-ink-primary, #1c1917);
+  cursor: pointer;
+  user-select: none;
+  min-height: 44px;
+}
+
+.colophon-toggle-badge {
+  font-size: var(--blog-text-xs, 0.75rem);
+  font-weight: 700;
+  color: var(--post-palette-accent, #0d9488);
+  background: var(--blog-paper-aged, #f3ede4);
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}
+
+.founder-colophon-content {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--blog-border-delicate, #e7e0d6);
+  font-size: var(--blog-text-sm, 0.875rem);
+  color: var(--blog-ink-secondary, #44403c);
+  line-height: 1.6;
+}
+
+.colophon-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.colophon-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.85rem;
+  font-size: var(--blog-text-xs, 0.75rem);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--post-palette-accent, #0d9488);
+  background: var(--blog-paper-aged, #f3ede4);
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
+  border-radius: 999px;
+  min-height: 38px;
+  box-sizing: border-box;
+}
+
+.colophon-btn:hover,
+.colophon-btn:focus-visible {
+  background: var(--post-palette-accent, #0d9488);
+  color: #ffffff;
+}
+
+/* 6. Folio Footer */
+
 .gazette-folio {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: var(--blog-text-xs);
-  color: var(--blog-ink-muted);
-  border-top: 1px solid var(--blog-border-delicate);
-  padding-top: 0.75rem;
+  font-size: var(--blog-text-xs, 0.75rem);
+  color: var(--blog-ink-muted, #78716c);
+  border-top: 1px solid var(--blog-border-delicate, #e7e0d6);
+  padding-top: 0.85rem;
   margin-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-/* "Continued on p." Marker */
-.continued-marker {
-  font-size: var(--blog-text-xs);
-  font-weight: 700;
-  font-style: italic;
-  text-align: right;
-  color: var(--post-palette-accent);
-  margin-top: 1rem;
-}
+/* 7. Seven Format Specific Layouts */
 
-/* Two-Page Desktop Spread Container */
-.two-page-spread {
+/* Format 1: Cover Story */
+.format-cover-story .gazette-article {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-  background: var(--blog-paper-card);
-  padding: 2rem;
-  border-radius: 12px;
-  border: 1px solid var(--blog-border-delicate);
-  box-shadow: var(--blog-shadow-paper);
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
-@media (max-width: 1023px) {
-  .two-page-spread {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 1.25rem;
-  }
-}
-
-
-/* 2. Seven Format-Specific Layouts */
-
-/* Format 1: Cover Story Layout */
-.format-cover-story {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 2rem;
-  align-items: start;
-}
-
-.cover-headline {
-  font-family: var(--post-font-display);
-  font-size: var(--blog-text-3xl);
-  font-weight: 900;
-  line-height: 1.15;
-  margin-top: 0.5rem;
-  color: var(--blog-ink-primary);
-}
-
-.cover-hero-card {
-  background: var(--blog-paper-aged);
-  border: 2px solid var(--blog-border-strong);
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: var(--blog-shadow-floating);
-}
-
-@media (max-width: 1023px) {
-  .format-cover-story {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Format 2: Ranked List Layout */
-.format-ranked-list .rank-item {
+/* Format 2: Ranked List */
+.format-ranking .rank-item,
+.format-list .rank-item {
   display: flex;
   gap: 1.25rem;
   align-items: flex-start;
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px dashed var(--blog-border-delicate);
+  border-bottom: 1px dashed var(--blog-border-delicate, #e7e0d6);
 }
 
 .rank-number {
-  font-family: var(--post-font-display);
-  font-size: var(--blog-text-3xl);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-3xl, 2.75rem);
   font-weight: 900;
   line-height: 1;
-  color: var(--post-palette-accent);
-  background: var(--blog-paper-aged);
+  color: var(--post-palette-accent, #0d9488);
+  background: var(--blog-paper-aged, #f3ede4);
   width: 3.5rem;
   height: 3.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 2px solid var(--blog-border-strong);
+  border: 2px solid var(--blog-border-strong, #292524);
   flex-shrink: 0;
 }
 
-/* Format 3: Photo-Essay Layout */
+/* Format 3: Photo Essay */
 .format-photo-essay {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
 
-.photo-card {
-  background: var(--blog-paper-card);
-  border: 1px solid var(--blog-border-delicate);
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: var(--blog-shadow-paper);
-}
-
-.photo-card img {
-  width: 100%;
-  border-radius: 6px;
-  object-fit: cover;
-  max-height: 240px;
-}
-
-.photo-caption {
-  font-size: var(--blog-text-xs);
-  color: var(--blog-ink-muted);
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-
-/* Format 4: Q&A Interview Layout */
+/* Format 4: QA Interview */
 .format-qa .qa-pair {
   margin-bottom: 1.5rem;
 }
 
 .qa-question {
-  font-family: var(--post-font-display);
-  font-size: var(--blog-text-lg);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-lg, 1.25rem);
   font-weight: 700;
-  color: var(--post-palette-accent);
+  color: var(--post-palette-accent, #0d9488);
   margin-bottom: 0.35rem;
 }
 
@@ -272,83 +618,127 @@
 
 .qa-answer {
   padding-left: 1.25rem;
-  border-left: 2px solid var(--blog-border-delicate);
-  color: var(--blog-ink-primary);
+  border-left: 2px solid var(--blog-border-delicate, #e7e0d6);
+  color: var(--blog-ink-primary, #1c1917);
 }
 
-/* Format 5: Quote Wall Layout */
+/* Format 5: Quote Wall */
 .format-quote-wall {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
+  margin: 1.75rem 0;
 }
 
 .quote-tile {
-  background: var(--blog-paper-aged);
-  border: 2px solid var(--blog-border-strong);
+  background: var(--blog-paper-aged, #f3ede4);
+  border: 2px solid var(--blog-border-strong, #292524);
   border-radius: 10px;
   padding: 1.5rem;
-  box-shadow: var(--blog-shadow-stamp);
+  box-shadow: var(--blog-shadow-stamp, 2px 2px 0px rgba(0,0,0,0.9));
   position: relative;
 }
 
 .quote-tile-text {
-  font-family: var(--post-font-display);
-  font-size: var(--blog-text-base);
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-base, 1.0625rem);
   font-style: italic;
-  color: var(--blog-ink-primary);
+  color: var(--blog-ink-primary, #1c1917);
+  margin: 0;
 }
 
 .quote-tile-author {
-  font-size: var(--blog-text-xs);
+  font-size: var(--blog-text-xs, 0.75rem);
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0.75rem;
-  color: var(--post-palette-accent);
+  color: var(--post-palette-accent, #0d9488);
 }
 
-/* Format 6: Long Read Article Layout */
+/* Format 6: Long Read */
+.format-essay,
 .format-long-read {
-  max-width: 760px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.format-long-read p {
-  font-size: var(--blog-text-base);
-  line-height: 1.8;
-  margin-bottom: 1.25rem;
-}
-
-/* Format 7: Quiz / Interactive Assessment Layout */
-.format-quiz .quiz-card {
-  background: var(--blog-paper-card);
-  border: 2px solid var(--blog-border-strong);
+/* Format 7: Quiz */
+.gazette-quiz-card {
+  background: var(--blog-paper-card, #ffffff);
+  border: 2px solid var(--blog-border-strong, #292524);
   border-radius: 12px;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: var(--blog-shadow-paper);
+  margin: 1.75rem 0;
+  box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,0.06));
+}
+
+.quiz-question {
+  font-family: var(--post-font-display, 'Fraunces', serif);
+  font-size: var(--blog-text-lg, 1.25rem);
+  color: var(--post-palette-accent, #0d9488);
+  margin: 0 0 1rem 0;
 }
 
 .quiz-option-btn {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   width: 100%;
   text-align: left;
   padding: 0.75rem 1rem;
   margin-top: 0.5rem;
-  background: var(--blog-paper-aged);
-  border: 1px solid var(--blog-border-delicate);
+  background: var(--blog-paper-aged, #f3ede4);
+  border: 1px solid var(--blog-border-delicate, #e7e0d6);
   border-radius: 6px;
-  font-family: var(--blog-font-body);
-  font-size: var(--blog-text-sm);
-  color: var(--blog-ink-primary);
+  font-family: var(--blog-font-body, sans-serif);
+  font-size: var(--blog-text-sm, 0.875rem);
+  color: var(--blog-ink-primary, #1c1917);
   cursor: pointer;
-  transition: background 0.15s ease, border-color 0.15s ease;
+  min-height: 44px;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
 }
 
 .quiz-option-btn:hover,
 .quiz-option-btn:focus-visible {
-  background: var(--blog-paper-light);
-  border-color: var(--post-palette-accent);
-  outline: 2px solid var(--post-palette-accent);
-  outline-offset: 2px;
+  background: var(--blog-paper-card, #ffffff);
+  border-color: var(--post-palette-accent, #0d9488);
+  outline: 2px solid var(--post-palette-accent, #0d9488);
+}
+
+.quiz-explanation {
+  font-size: var(--blog-text-xs, 0.75rem);
+  font-style: italic;
+  color: var(--blog-ink-muted, #78716c);
+  margin-top: 0.75rem;
+}
+
+/* 8. Mobile Responsiveness (390px Viewports) */
+
+@media (max-width: 600px) {
+  .gazette-wrapper {
+    padding: 1rem 0.85rem 3rem;
+  }
+
+  .cover-headline {
+    font-size: 1.8rem;
+  }
+
+  .gazette-masthead-title {
+    font-size: 1.5rem;
+  }
+
+  .gazette-masthead-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .post-byline-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .instead-try-spread {
+    padding: 0.85rem;
+  }
 }

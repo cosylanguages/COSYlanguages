@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mastering Conversational Flow: Stage &amp; Podcast Demo — COSY Blog</title>
+    <title>Mastering Conversational Flow: Stage &amp; Podcast Demo — COSY Gazette</title>
     <meta name="description" content="An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#4a5568">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,131 +19,175 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #1a202c;
+        --post-palette-bg: #4a5568;
+        --post-palette-text: #a0aec0;
+        --post-palette-highlight: #f7fafc;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="The Podcast">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-essay">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">The Podcast</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Mastering Conversational Flow: Stage &amp; Podcast Demo</h1>
-            
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-10-18</span>
-                <span>·</span>
-                <span>⏱️ 3 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.10 • JY DM&#39;s birthday &amp; His favs</span>
+                <span class="stamp-sticker">The Podcast</span>
+                <span>2026-10-18</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">JY DM&#39;s birthday &amp; His favs (B1–B2) • Editorial Vibe</span>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="stage-demo-podcast">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="600" fill="#f7fafc" />
+
+      <ellipse cx="677" cy="415" rx="159" ry="118" fill="#a0aec0" opacity="0.25" transform="rotate(149 677 415)" style="filter: blur(12px);" />
+      <ellipse cx="687" cy="410" rx="95.39999999999999" ry="70.8" fill="#1a202c" opacity="0.15" transform="rotate(149 677 415)" style="filter: blur(8px);" />
+
+      <ellipse cx="280" cy="378" rx="81" ry="80" fill="#a0aec0" opacity="0.25" transform="rotate(138 280 378)" style="filter: blur(12px);" />
+      <ellipse cx="290" cy="373" rx="48.6" ry="48" fill="#1a202c" opacity="0.15" transform="rotate(138 280 378)" style="filter: blur(8px);" />
+
+      <ellipse cx="814" cy="146" rx="149" ry="78" fill="#a0aec0" opacity="0.25" transform="rotate(167 814 146)" style="filter: blur(12px);" />
+      <ellipse cx="824" cy="141" rx="89.39999999999999" ry="46.8" fill="#1a202c" opacity="0.15" transform="rotate(167 814 146)" style="filter: blur(8px);" />
+
+      <ellipse cx="682" cy="425" rx="115" ry="69" fill="#a0aec0" opacity="0.25" transform="rotate(157 682 425)" style="filter: blur(12px);" />
+      <ellipse cx="692" cy="420" rx="69" ry="41.4" fill="#1a202c" opacity="0.15" transform="rotate(157 682 425)" style="filter: blur(8px);" />
+
+      <ellipse cx="545" cy="136" rx="66" ry="65" fill="#a0aec0" opacity="0.25" transform="rotate(359 545 136)" style="filter: blur(12px);" />
+      <ellipse cx="555" cy="131" rx="39.6" ry="39" fill="#1a202c" opacity="0.15" transform="rotate(359 545 136)" style="filter: blur(8px);" />
+
+
+
+    </svg></div>
+
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">PODCAST STAGE DEMO</span>
+                <h1 class="cover-headline">Mastering Conversational Flow: Stage &amp; Podcast Demo</h1>
+                <p class="editorial-dek">An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.</p>
+
+
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-10-18</span>
+                        <span>⏱️ 3 min read</span>
+                        <span class="stamp-sticker">B1–B2</span>
+                        <span class="stamp-sticker">EPISODE 10</span>
                     </div>
                 </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM&#39;s birthday &amp; His favs edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 1">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 1</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stage-demo-podcast-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h2>Welcome to Stage Mode 🎙️</h2>
-<p>In Stage Mode, each content block comes alive with smooth camera zoom, pan movements, lower-third captions, and playback controls.</p>
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <h2 class="editorial-heading">Welcome to Stage Mode 🎙️</h2>
+<p class="gazette-drop-cap">In Stage Mode, each content block comes alive with smooth camera zoom, pan movements, lower-third captions, and playback controls.</p>
 
-<blockquote style="border-left: 4px solid var(--teal, #0d9488); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; font-size: 1.15rem;">
-  <p style="margin-bottom: 0.25rem;">“Language learning becomes effortless when you immerse your eyes and ears simultaneously.”</p>
-  <cite style="font-size: 0.9rem; font-style: normal; color: #64748b;">— JY DM</cite>
+<blockquote class="gazette-pullquote">
+  <p>“Language learning becomes effortless when you immerse your eyes and ears simultaneously.”</p>
+  <cite>— JY DM</cite>
 </blockquote>
 
-<div class="culture-bite" style="background: rgba(217, 119, 6, 0.08); border-left: 4px solid #d97706; padding: 1rem; margin: 1.5rem 0; border-radius: 4px;">
-  <h4 style="color: #b45309; margin-bottom: 0.35rem;">📌 Pedagogical Note on Stage Mode</h4>
-  <p style="margin: 0; font-size: 0.95rem;">Stage Mode aligns with dual-coding theory, pairing visual camera focus with audio narration to maximize vocabulary retention.</p>
-</div>
+<aside class="gazette-marginalia">
+  <div class="gazette-marginalia-title">📌 Pedagogical Note on Stage Mode</div>
+  <p class="marginalia-body">Stage Mode aligns with dual-coding theory, pairing visual camera focus with audio narration to maximize vocabulary retention.</p>
+</aside>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+                
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 10</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Mastering Conversational Flow: Stage &amp; Podcast Demo</h3>
+      <p class="podcast-box-dek">An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/stage-demo-podcast.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 1</span>
   </div>
 </section>
-                </article>
+            </div>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#StageMode</span> <span class="post-tag-chip">#Podcast</span> <span class="post-tag-chip">#Fluency</span> <span class="post-tag-chip">#B1-B2</span>
-                </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#StageMode</span> <span class="post-tag-chip">#Podcast</span> <span class="post-tag-chip">#Fluency</span> <span class="post-tag-chip">#B1-B2</span>
+            </div>
 
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level B1–B2. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM&#39;s birthday &amp; His favs edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
                     </div>
                 </div>
+            </details>
 
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.10</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -196,6 +240,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-stage-demo-podcast","slug":"stage-demo-podcast","language":"en","desk":"The Podcast","format":"essay","level":"B1–B2","issue":{"number":"Vol. 2026.10","title":"JY DM's birthday & His favs"},"date":"2026-10-18","title":"Mastering Conversational Flow: Stage & Podcast Demo","kicker":"PODCAST STAGE DEMO","dek":"An interactive demonstration post showcasing stage mode camera movements, beat sequencing, lower-third captions, and vocabulary cards.","tags":["StageMode","Podcast","Fluency","B1-B2"],"readingTime":3,"podcast":{"episode":10,"audioUrl":"../audio/blog/stage-demo-podcast.mp3"},"artDirection":{"palette":["#1a202c","#4a5568","#a0aec0","#f7fafc"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"stage-demo-podcast","coverOverride":null},"blocks":[{"type":"heading","level":2,"text":"Welcome to Stage Mode 🎙️","say":"Welcome to Stage Mode! This interactive presentation mode turns any blog post into a animated presentation deck.","beat":{"duration":4000,"camera":"push-in","reveal":"fade-in"}},{"type":"paragraph","text":"In Stage Mode, each content block comes alive with smooth camera zoom, pan movements, lower-third captions, and playback controls.","say":"In Stage Mode, each content block comes alive with smooth camera zoom, pan movements, lower-third captions, and playback controls.","beat":{"duration":4500,"camera":"focus","reveal":"fade-in"}},{"type":"pullquote","quote":"Language learning becomes effortless when you immerse your eyes and ears simultaneously.","attribution":"JY DM","say":"Language learning becomes effortless when you immerse your eyes and ears simultaneously.","beat":{"duration":5000,"camera":"spotlight","reveal":"fade-in"}},{"type":"culture-bite","title":"Pedagogical Note on Stage Mode","content":"Stage Mode aligns with dual-coding theory, pairing visual camera focus with audio narration to maximize vocabulary retention.","say":"Stage Mode aligns with dual-coding theory, pairing visual camera focus with audio narration to maximize vocabulary retention.","beat":{"duration":5000,"camera":"push-in","reveal":"fade-in"}}]};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>

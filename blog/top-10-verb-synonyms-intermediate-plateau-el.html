@@ -7,10 +7,10 @@
     <meta name="description" content="Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως &#39;κάνω&#39;, &#39;λέω&#39; και &#39;σκέφτομαι&#39; με ακριβή και εκφραστικά συνώνυμα.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#faf7f2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,218 +19,219 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-palette-highlight: #d69e2e;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Words">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-list">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Words</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)</h1>
-            
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇬🇷 EL</span> <a href="top-10-verb-synonyms-intermediate-plateau-fr.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇫🇷 FR</a> <a href="top-10-verb-synonyms-intermediate-plateau-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <a href="top-10-verb-synonyms-intermediate-plateau-ru.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇷🇺 RU</a> <a href="top-10-verb-synonyms-intermediate-plateau.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-11</span>
-                <span>·</span>
-                <span>⏱️ 3 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.09 • Me vs Intermediate Plateau</span>
+                <span class="stamp-sticker">Words</span>
+                <span>2026-09-11</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Me vs Intermediate Plateau (B1–B2) • Editorial Vibe</span>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="top-10-verb-synonyms-intermediate-plateau-el">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="600" fill="#d69e2e" />
+
+      <ellipse cx="804" cy="477" rx="140" ry="112" fill="#1e293b" opacity="0.25" transform="rotate(29 804 477)" style="filter: blur(12px);" />
+      <ellipse cx="814" cy="472" rx="84" ry="67.2" fill="#0d9488" opacity="0.15" transform="rotate(29 804 477)" style="filter: blur(8px);" />
+
+      <ellipse cx="698" cy="416" rx="156" ry="45" fill="#1e293b" opacity="0.25" transform="rotate(339 698 416)" style="filter: blur(12px);" />
+      <ellipse cx="708" cy="411" rx="93.6" ry="27" fill="#0d9488" opacity="0.15" transform="rotate(339 698 416)" style="filter: blur(8px);" />
+
+      <ellipse cx="428" cy="121" rx="153" ry="99" fill="#1e293b" opacity="0.25" transform="rotate(55 428 121)" style="filter: blur(12px);" />
+      <ellipse cx="438" cy="116" rx="91.8" ry="59.4" fill="#0d9488" opacity="0.15" transform="rotate(55 428 121)" style="filter: blur(8px);" />
+
+
+
+    </svg></div>
+            
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">WORDS</span>
+                <h1 class="cover-headline">Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)</h1>
+                <p class="editorial-dek">Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως &#39;κάνω&#39;, &#39;λέω&#39; και &#39;σκέφτομαι&#39; με ακριβή και εκφραστικά συνώνυμα.</p>
+
+
+<div class="language-switcher-bar">
+  <span class="lang-switcher-label">Read in:</span>
+  <span class="lang-switcher-active">🇬🇷 EL</span> <a href="top-10-verb-synonyms-intermediate-plateau-fr.html" class="lang-switcher-link">🇫🇷 FR</a> <a href="top-10-verb-synonyms-intermediate-plateau-it.html" class="lang-switcher-link">🇮🇹 IT</a> <a href="top-10-verb-synonyms-intermediate-plateau-ru.html" class="lang-switcher-link">🇷🇺 RU</a> <a href="top-10-verb-synonyms-intermediate-plateau.html" class="lang-switcher-link">🇬🇧 EN</a>
+</div>
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-09-11</span>
+                        <span>⏱️ 3 min read</span>
+                        <span class="stamp-sticker">B1–B2</span>
+                        <span class="stamp-sticker">EPISODE 4</span>
                     </div>
                 </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/top-10-verb-synonyms-intermediate-plateau-el-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Ένα από τα πιο εμφανή σημάδια ότι ένας μαθητής έχει φτάσει στο <strong>ενδιάμεσο επίπεδο (B1–B2)</strong> είναι η συνεχής εξάρτηση από μια μικρή ομάδα «ασφαλών»ρημάτων για να εκφράσει σχεδόν τα πάντα.</p>
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">Ένα από τα πιο εμφανή σημάδια ότι ένας μαθητής έχει φτάσει στο <strong>ενδιάμεσο επίπεδο (B1–B2)</strong> είναι η συνεχής εξάρτηση από μια μικρή ομάδα «ασφαλών»ρημάτων για να εκφράσει σχεδόν τα πάντα.</p>
 <p>Αυτά τα βασικά ρήματα δεν είναι λάθος: αποτελούν τη δομή της γλώσσας. Ωστόσο, όταν επαναλαμβάνονται σε κάθε πρόταση, ο λόγος ακούγεται μονότονος. Διευρύνοντας αυτό το βασικό λεξιλόγιο με ακριβείς εναλλακτικές, κερδίζετε αμέσως σε ευχέρεια, σαφήνεια και εκφραστικότητα.</p>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 3</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/top-10-verb-synonyms-intermediate-plateau-el-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Τα 10 πιο συχνά ρήματα και οι ακριβείς αντικαταστάσεις τους</h3>
-<h4>1. Κάνω / Make, Do</h4>
-<ul>
+<h3 class="editorial-heading">Τα 10 πιο συχνά ρήματα και οι ακριβείς αντικαταστάσεις τους</h3>
+<h4 class="editorial-heading">1. Κάνω / Make, Do</h4>
+<ul class="editorial-list">
 <li><strong>δημιουργώ / παράγω</strong>: <em>Η εταιρεία παράγει ανανεώσιμα προϊόντα.</em></li>
 <li><strong>πραγματοποιώ / ολοκληρώνω</strong>: <em>Πραγματοποίησε όλους τους τριμηνιαίους στόχους.</em></li>
 <li><strong>αναπτύσσω / θεσπίζω</strong>: <em>Θεσπίσαμε μια νέα συμφωνία εργασίας.</em></li>
 <li><strong>διεξάγω</strong>: <em>Διεξαγάγαμε μια σειρά από δοκιμές στην αγορά.</em></li>
 </ul>
-<h4>2. Λέω / Say, Tell</h4>
-<ul>
+<h4 class="editorial-heading">2. Λέω / Say, Tell</h4>
+<ul class="editorial-list">
 <li><strong>αναφέρω / επισημαίνω</strong>: <em>Ανέφερε τη σχετική προθεσμία.</em></li>
 <li><strong>εξηγώ / δηλώνω</strong>: <em>Ο εκπρόσωπος δήλωσε τα γεγονότα με σαφήνεια.</em></li>
 <li><strong>ισχυρίζομαι / υποστηρίζω</strong>: <em>Οι ερευνητές υποστηρίζουν ότι η έγκαιρη παρέμβαση βοηθά.</em></li>
 <li><strong>τονίζω</strong>: <em>Τόνισε ένα σημαντικό σφάλμα.</em></li>
 </ul>
-<h4>3. Σκέφτομαι / Think</h4>
-<ul>
+<h4 class="editorial-heading">3. Σκέφτομαι / Think</h4>
+<ul class="editorial-list">
 <li><strong>πιστεύω / θεωρώ</strong>: <em>Θεωρώ ότι αυτή είναι η καλύτερη επιλογή.</em></li>
 <li><strong>υποθέτω / εικάζω</strong>: <em>Υποθέτουμε ότι η αποστολή θα φτάσει στην ώρα της.</em></li>
 <li><strong>εξετάζω / αναλογίζομαι</strong>: <em>Ας εξετάσουμε όλες τις διαθέσιμες επιλογές.</em></li>
 <li><strong>συμπεραίνω</strong>: <em>Συμπεράναμε ότι χρειάζεται περαιτέρω έρευνα.</em></li>
 </ul>
-<h4>4. Έχω / Have</h4>
-<ul>
+<h4 class="editorial-heading">4. Έχω / Have</h4>
+<ul class="editorial-list">
 <li><strong>κατέχω / διαθέτω</strong>: <em>Η εταιρεία διαθέτει σημαντική τεχνογνωσία.</em></li>
 <li><strong>περιέχω / περιλαμβάνω</strong>: <em>Η αναφορά περιλαμβάνει κρίσιμα ευρήματα.</em></li>
 <li><strong>βιώνω / αποκτώ</strong>: <em>Βιώσαμε μεγάλη πρόοδο φέτος.</em></li>
 <li><strong>διατηρώ</strong>: <em>Διατηρεί ένα αυστηρό πρόγραμμα.</em></li>
 </ul>
-<h4>5. Πηγαίνω / Go</h4>
-<ul>
+<h4 class="editorial-heading">5. Πηγαίνω / Go</h4>
+<ul class="editorial-list">
 <li><strong>ταξιδεύω / μετακινούμαι</strong>: <em>Ταξίδεψαν σε όλη την Ευρώπη πέρυσι.</em></li>
 <li><strong>κατευθύνομαι / προχωρώ</strong>: <em>Παρακαλώ προχωρήστε στην πύλη 4.</em></li>
 <li><strong>αναχωρώ / φεύγω</strong>: <em>Το τρένο αναχωρεί στις 08:30.</em></li>
 <li><strong>παρευρίσκομαι / παρακολουθώ</strong>: <em>Παρευρέθηκε στο ετήσιο συνέδριο.</em></li>
 </ul>
-<h4>6. Ξέρω &amp; Γνωρίζω / Know</h4>
-<ul>
+<h4 class="editorial-heading">6. Ξέρω &amp; Γνωρίζω / Know</h4>
+<ul class="editorial-list">
 <li><strong>κατανοώ / αναγνωρίζω</strong>: <em>Αναγνώρισε τη σημασία του γεγονότος.</em></li>
 <li><strong>αντιλαμβάνομαι</strong>: <em>Αντιλήφθηκα την απάντηση κατά τη διάρκεια της παρουσίασης.</em></li>
 <li><strong>κατέχω / κατέχω πλήρως</strong>: <em>Κατέχει την τεχνική μετά από μήνες εξάσκησης.</em></li>
 </ul>
-<h4>7. Δίνω / Give</h4>
-<ul>
+<h4 class="editorial-heading">7. Δίνω / Give</h4>
+<ul class="editorial-list">
 <li><strong>παρέχω / προσφέρω</strong>: <em>Προσφέρουμε ολοκληρωμένη καθοδήγηση.</em></li>
 <li><strong>παραδίδω / μεταβιβάζω</strong>: <em>Παρέδωσε την αναφορά στον διευθυντή.</em></li>
 <li><strong>εγκρίνω / παραχωρώ</strong>: <em>Το συμβούλιο ενέκρινε τον προϋπολογισμό.</em></li>
 </ul>
-<h4>8. Βλέπω &amp; Κοιτάζω / Look</h4>
-<ul>
+<h4 class="editorial-heading">8. Βλέπω &amp; Κοιτάζω / Look</h4>
+<ul class="editorial-list">
 <li><strong>παρατηρώ / εξετάζω</strong>: <em>Οι επιστήμονες παρατήρησαν το δείγμα από κοντά.</em></li>
 <li><strong>επιθεωρώ</strong>: <em>Ο επιθεωρητής εξέτασε τη συσκευή.</em></li>
 <li><strong>φαίνομαι</strong>: <em>Τα πρώτα αποτελέσματα φαίνονται υποσχόμενα.</em></li>
 </ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 3</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 3">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 3</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/top-10-verb-synonyms-intermediate-plateau-el-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Συμπέρασμα: Εξέλιξη και όχι κατάργηση</h3>
+<h3 class="editorial-heading">Συμπέρασμα: Εξέλιξη και όχι κατάργηση</h3>
 <p>Η αντικατάσταση των συχνώνρημάτων δεν σημαίνει ότι καταργούμε λέξεις όπως <em>κάνω</em> ή <em>λέω</em>. Ο στόχος είναι να επιλέγουμε το ακριβές ρήμα όταν θέλουμε να εκφράσουμε μια ιδέα με μεγαλύτερη σαφήνεια.</p>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 4</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)</h3>
+      <p class="podcast-box-dek">Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως &#39;κάνω&#39;, &#39;λέω&#39; και &#39;σκέφτομαι&#39; με ακριβή και εκφραστικά συνώνυμα.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/top-10-verb-synonyms-intermediate-plateau-el.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 3</span>
   </div>
 </section>
-                </article>
+            </div>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#ΕνδιάμεσοΕπίπεδο</span> <span class="post-tag-chip">#Λεξιλόγιο</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Ρήματα</span> <span class="post-tag-chip">#Ελληνικά</span>
-                </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#ΕνδιάμεσοΕπίπεδο</span> <span class="post-tag-chip">#Λεξιλόγιο</span> <span class="post-tag-chip">#B1-B2</span> <span class="post-tag-chip">#Ρήματα</span> <span class="post-tag-chip">#Ελληνικά</span>
+            </div>
 
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level B1–B2. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Me vs Intermediate Plateau edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
                     </div>
                 </div>
+            </details>
 
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.09</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -283,6 +284,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-top-10-verb-synonyms-intermediate-plateau-el","slug":"top-10-verb-synonyms-intermediate-plateau-el","language":"el","desk":"Words","format":"list","level":"B1–B2","issue":{"number":"Vol. 2026.09","title":"Me vs Intermediate Plateau"},"date":"2026-09-11","title":"Τα 10 πιο συχνά ρήματα και τα ακριβή συνώνυμά τους για το ενδιάμεσο επίπεδο (B1–B2)","kicker":"WORDS","dek":"Ξεπεράστε το ενδιάμεσο επίπεδο αντικαθιστώντας γενικά ρήματα όπως 'κάνω', 'λέω' και 'σκέφτομαι' με ακριβή και εκφραστικά συνώνυμα.","tags":["ΕνδιάμεσοΕπίπεδο","Λεξιλόγιο","B1-B2","Ρήματα","Ελληνικά"],"readingTime":3,"podcast":{"episode":4,"audioUrl":"../audio/blog/top-10-verb-synonyms-intermediate-plateau-el.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#d69e2e"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"tea-stain","seed":"top-10-verb-synonyms-intermediate-plateau-el","coverOverride":null},"blocks":[{"type":"paragraph","text":"Ένα από τα πιο εμφανή σημάδια ότι ένας μαθητής έχει φτάσει στο **ενδιάμεσο επίπεδο (B1–B2)** είναι η συνεχής εξάρτηση από μια μικρή ομάδα «ασφαλών»ρημάτων για να εκφράσει σχεδόν τα πάντα."},{"type":"paragraph","text":"Αυτά τα βασικά ρήματα δεν είναι λάθος: αποτελούν τη δομή της γλώσσας. Ωστόσο, όταν επαναλαμβάνονται σε κάθε πρόταση, ο λόγος ακούγεται μονότονος. Διευρύνοντας αυτό το βασικό λεξιλόγιο με ακριβείς εναλλακτικές, κερδίζετε αμέσως σε ευχέρεια, σαφήνεια και εκφραστικότητα."},{"type":"heading","level":3,"text":"Τα 10 πιο συχνά ρήματα και οι ακριβείς αντικαταστάσεις τους"},{"type":"heading","level":4,"text":"1. Κάνω / Make, Do"},{"type":"list-item","ordered":false,"items":["**δημιουργώ / παράγω**: *Η εταιρεία παράγει ανανεώσιμα προϊόντα.*","**πραγματοποιώ / ολοκληρώνω**: *Πραγματοποίησε όλους τους τριμηνιαίους στόχους.*","**αναπτύσσω / θεσπίζω**: *Θεσπίσαμε μια νέα συμφωνία εργασίας.*","**διεξάγω**: *Διεξαγάγαμε μια σειρά από δοκιμές στην αγορά.*"]},{"type":"heading","level":4,"text":"2. Λέω / Say, Tell"},{"type":"list-item","ordered":false,"items":["**αναφέρω / επισημαίνω**: *Ανέφερε τη σχετική προθεσμία.*","**εξηγώ / δηλώνω**: *Ο εκπρόσωπος δήλωσε τα γεγονότα με σαφήνεια.*","**ισχυρίζομαι / υποστηρίζω**: *Οι ερευνητές υποστηρίζουν ότι η έγκαιρη παρέμβαση βοηθά.*","**τονίζω**: *Τόνισε ένα σημαντικό σφάλμα.*"]},{"type":"heading","level":4,"text":"3. Σκέφτομαι / Think"},{"type":"list-item","ordered":false,"items":["**πιστεύω / θεωρώ**: *Θεωρώ ότι αυτή είναι η καλύτερη επιλογή.*","**υποθέτω / εικάζω**: *Υποθέτουμε ότι η αποστολή θα φτάσει στην ώρα της.*","**εξετάζω / αναλογίζομαι**: *Ας εξετάσουμε όλες τις διαθέσιμες επιλογές.*","**συμπεραίνω**: *Συμπεράναμε ότι χρειάζεται περαιτέρω έρευνα.*"]},{"type":"heading","level":4,"text":"4. Έχω / Have"},{"type":"list-item","ordered":false,"items":["**κατέχω / διαθέτω**: *Η εταιρεία διαθέτει σημαντική τεχνογνωσία.*","**περιέχω / περιλαμβάνω**: *Η αναφορά περιλαμβάνει κρίσιμα ευρήματα.*","**βιώνω / αποκτώ**: *Βιώσαμε μεγάλη πρόοδο φέτος.*","**διατηρώ**: *Διατηρεί ένα αυστηρό πρόγραμμα.*"]},{"type":"heading","level":4,"text":"5. Πηγαίνω / Go"},{"type":"list-item","ordered":false,"items":["**ταξιδεύω / μετακινούμαι**: *Ταξίδεψαν σε όλη την Ευρώπη πέρυσι.*","**κατευθύνομαι / προχωρώ**: *Παρακαλώ προχωρήστε στην πύλη 4.*","**αναχωρώ / φεύγω**: *Το τρένο αναχωρεί στις 08:30.*","**παρευρίσκομαι / παρακολουθώ**: *Παρευρέθηκε στο ετήσιο συνέδριο.*"]},{"type":"heading","level":4,"text":"6. Ξέρω & Γνωρίζω / Know"},{"type":"list-item","ordered":false,"items":["**κατανοώ / αναγνωρίζω**: *Αναγνώρισε τη σημασία του γεγονότος.*","**αντιλαμβάνομαι**: *Αντιλήφθηκα την απάντηση κατά τη διάρκεια της παρουσίασης.*","**κατέχω / κατέχω πλήρως**: *Κατέχει την τεχνική μετά από μήνες εξάσκησης.*"]},{"type":"heading","level":4,"text":"7. Δίνω / Give"},{"type":"list-item","ordered":false,"items":["**παρέχω / προσφέρω**: *Προσφέρουμε ολοκληρωμένη καθοδήγηση.*","**παραδίδω / μεταβιβάζω**: *Παρέδωσε την αναφορά στον διευθυντή.*","**εγκρίνω / παραχωρώ**: *Το συμβούλιο ενέκρινε τον προϋπολογισμό.*"]},{"type":"heading","level":4,"text":"8. Βλέπω & Κοιτάζω / Look"},{"type":"list-item","ordered":false,"items":["**παρατηρώ / εξετάζω**: *Οι επιστήμονες παρατήρησαν το δείγμα από κοντά.*","**επιθεωρώ**: *Ο επιθεωρητής εξέτασε τη συσκευή.*","**φαίνομαι**: *Τα πρώτα αποτελέσματα φαίνονται υποσχόμενα.*"]},{"type":"heading","level":3,"text":"Συμπέρασμα: Εξέλιξη και όχι κατάργηση"},{"type":"paragraph","text":"Η αντικατάσταση των συχνώνρημάτων δεν σημαίνει ότι καταργούμε λέξεις όπως *κάνω* ή *λέω*. Ο στόχος είναι να επιλέγουμε το ακριβές ρήμα όταν θέλουμε να εκφράσουμε μια ιδέα με μεγαλύτερη σαφήνεια."}],"translationOf":"top-10-verb-synonyms-intermediate-plateau","draft":false};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>

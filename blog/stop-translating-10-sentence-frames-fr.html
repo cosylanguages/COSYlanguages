@@ -7,10 +7,10 @@
     <meta name="description" content="Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n&#39;importe quel mot oublié et penser directement en langue cible.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#faf7f2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,101 +19,102 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-palette-highlight: #f59e0b;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Say It">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-list">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Say It</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour</h1>
-            
-<div class="language-switcher-bar" style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
-  <a href="stop-translating-10-sentence-frames-el.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇷 EL</a> <span class="lang-switcher-active" style="font-weight: 700; padding: 0.2rem 0.5rem; background: var(--teal, #0d9488); color: #fff; border-radius: 4px;">🇫🇷 FR</span> <a href="stop-translating-10-sentence-frames-it.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇮🇹 IT</a> <a href="stop-translating-10-sentence-frames-ru.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇷🇺 RU</a> <a href="stop-translating-10-sentence-frames.html" class="lang-switcher-link" style="text-decoration: none; padding: 0.2rem 0.5rem; background: #e2e8f0; color: #1e293b; border-radius: 4px; font-weight: 600;">🇬🇧 EN</a>
-</div>
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-14</span>
-                <span>·</span>
-                <span>⏱️ 4 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.10 • JY DM&#39;s birthday &amp; His favs</span>
+                <span class="stamp-sticker">Say It</span>
+                <span>2026-09-14</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">JY DM&#39;s birthday &amp; His favs (A0–A1 / A2) • Editorial Vibe</span>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="ticket-stub" data-seed="stop-translating-10-sentence-frames-fr">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="600" fill="#f59e0b" />
+    <g transform="rotate(-7 1066 128)">
+      <rect x="976" y="83" width="180" height="90" rx="6" fill="#0d9488" opacity="0.88" />
+      <circle cx="976" cy="128" r="10" fill="#f59e0b" />
+      <circle cx="1156" cy="128" r="10" fill="#f59e0b" />
+      <line x1="1016" y1="98" x2="1016" y2="158" stroke="#f59e0b" stroke-dasharray="3 3" stroke-width="2" />
+      <text x="1031" y="118" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold">ADMIT ONE</text>
+      <text x="1031" y="138" fill="#f59e0b" font-family="DM Sans, sans-serif" font-size="10" opacity="0.8">COSY GAZETTE • PASS</text>
+    </g>
+
+
+    </svg></div>
+            
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">SAY IT</span>
+                <h1 class="cover-headline">Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour</h1>
+                <p class="editorial-dek">Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n&#39;importe quel mot oublié et penser directement en langue cible.</p>
+
+
+<div class="language-switcher-bar">
+  <span class="lang-switcher-label">Read in:</span>
+  <a href="stop-translating-10-sentence-frames-el.html" class="lang-switcher-link">🇬🇷 EL</a> <span class="lang-switcher-active">🇫🇷 FR</span> <a href="stop-translating-10-sentence-frames-it.html" class="lang-switcher-link">🇮🇹 IT</a> <a href="stop-translating-10-sentence-frames-ru.html" class="lang-switcher-link">🇷🇺 RU</a> <a href="stop-translating-10-sentence-frames.html" class="lang-switcher-link">🇬🇧 EN</a>
+</div>
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-09-14</span>
+                        <span>⏱️ 4 min read</span>
+                        <span class="stamp-sticker">A0–A1 / A2</span>
+                        <span class="stamp-sticker">EPISODE 1</span>
                     </div>
                 </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM&#39;s birthday &amp; His favs edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-fr-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>L&#39;un des plus grands obstacles pour les apprenants débutants et intermédiaires (CEFR A0–B1) est l&#39;habitude de <strong>traduire mot à mot</strong>. Lorsqu&#39;un mot précis manque — comme <em>tire-bouchon</em>, <em>pharmacie</em> ou <em>architecte</em> —, le cerveau se bloque et conclut : <em>&quot;Je ne connais pas ce mot, donc je ne peux pas parler.&quot;</em></p>
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">L&#39;un des plus grands obstacles pour les apprenants débutants et intermédiaires (CEFR A0–B1) est l&#39;habitude de <strong>traduire mot à mot</strong>. Lorsqu&#39;un mot précis manque — comme <em>tire-bouchon</em>, <em>pharmacie</em> ou <em>architecte</em> —, le cerveau se bloque et conclut : <em>&quot;Je ne connais pas ce mot, donc je ne peux pas parler.&quot;</em></p>
 <p>Notre méthodologie privilégie <strong>l&#39;élimination de la traduction</strong> au profit de l&#39;approche naturelle et créative utilisée lors de l&#39;apprentissage de la langue maternelle. Les locuteurs natifs ne connaissent pas tous les mots du dictionnaire ; en revanche, ils possèdent la capacité de <strong>décrire ce qu&#39;ils ne connaissent pas</strong>. La circonlocution est une vraie compétence de communication.</p>
 <p>Au lieu de mémoriser des listes de vocabulaire isolées, maîtrisez ces <strong>10 structures de phrases réutilisables</strong> et ces <strong>20 phrases de survie</strong>. Chaque structure agit comme un bloc LEGO : combinez-la avec du vocabulaire simple pour créer des centaines de phrases originales.</p>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 4</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-fr-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>💡 Les 10 structures de phrases essentielles</h3>
-<ol>
+<h3 class="editorial-heading">💡 Les 10 structures de phrases essentielles</h3>
+<ol class="editorial-list">
 <li><strong>C&#39;est un / une...</strong> (<em>C&#39;est un livre.</em> • <em>C&#39;est un problème.</em> • <em>C&#39;est un restaurant.</em>)</li>
 <li><strong>C&#39;est une personne qui...</strong> (<em>C&#39;est une personne qui enseigne aux enfants.</em> = Professeur • <em>C&#39;est une personne qui soigne les malades.</em> = Médecin)</li>
 <li><strong>C&#39;est un endroit où...</strong> (<em>C&#39;est un endroit où on achète de la nourriture.</em> = Supermarché • <em>C&#39;est un endroit où on dort.</em> = Hôtel)</li>
@@ -125,55 +126,15 @@
 <li><strong>Ça veut dire...</strong> (<em>&quot;Grand&quot; veut dire le contraire de petit.</em>)</li>
 <li><strong>Comment dit-on... ?</strong> (<em>Comment dit-on ceci en français ?</em> • <em>Que veut dire ce mot ?</em>)</li>
 </ol>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 4</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="3" aria-label="Page 3 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 3 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-fr-page-3.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>🎨 Ancrages sensorielles et descriptifs</h3>
-<ul>
-<li><strong>C&#39;est comme...</strong> → <em>C&#39;est comme un grand chien.</em> • <em>C&#39;est comme un petit ordinateur.</em></li>
-<li><strong>C&#39;est pour...</strong> → <em>C&#39;est pour cuisiner.</em> • <em>C&#39;est pour voyager.</em></li>
-<li><strong>On l&#39;utilise pour...</strong> → <em>On l&#39;utilise pour ouvrir les bouteilles.</em></li>
-<li><strong>Ça ressemble à...</strong> → <em>Ça ressemble à un oiseau.</em></li>
-<li><strong>Ça a l&#39;air...</strong> → <em>Ça a l&#39;air intéressant.</em> • <em>Ça a l&#39;air difficile.</em></li>
-<li><strong>C&#39;est fait en...</strong> → <em>C&#39;est fait en bois.</em> • <em>C&#39;est fait en plastique.</em></li>
-</ul>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 3 of 4</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="4" aria-label="Page 4 of 4">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 4 of 4</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/stop-translating-10-sentence-frames-fr-page-4.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>🚀 20 Phrases de survie quand vous oubliez un mot</h3>
-<ol>
+<h3 class="editorial-heading">🎨 Ancrages sensorielles et descriptifs</h3>
+<div class="phrase-upgrade-grid"><div class="phrase-upgrade-card"><strong>C&#39;est comme...</strong> → <em>C&#39;est comme un grand chien.</em> • <em>C&#39;est comme un petit ordinateur.</em></div>
+<div class="phrase-upgrade-card"><strong>C&#39;est pour...</strong> → <em>C&#39;est pour cuisiner.</em> • <em>C&#39;est pour voyager.</em></div>
+<div class="phrase-upgrade-card"><strong>On l&#39;utilise pour...</strong> → <em>On l&#39;utilise pour ouvrir les bouteilles.</em></div>
+<div class="phrase-upgrade-card"><strong>Ça ressemble à...</strong> → <em>Ça ressemble à un oiseau.</em></div>
+<div class="phrase-upgrade-card"><strong>Ça a l&#39;air...</strong> → <em>Ça a l&#39;air intéressant.</em> • <em>Ça a l&#39;air difficile.</em></div>
+<div class="phrase-upgrade-card"><strong>C&#39;est fait en...</strong> → <em>C&#39;est fait en bois.</em> • <em>C&#39;est fait en plastique.</em></div></div>
+<h3 class="editorial-heading">🚀 20 Phrases de survie quand vous oubliez un mot</h3>
+<ol class="editorial-list">
 <li><strong>C&#39;est une sorte de...</strong> (<em>C&#39;est une sorte d&#39;animal.</em>)</li>
 <li><strong>C&#39;est un objet qui...</strong> (<em>C&#39;est un objet qu&#39;on utilise dans la cuisine.</em>)</li>
 <li><strong>C&#39;est quelque chose qui...</strong> (<em>C&#39;est quelque chose qui aide à apprendre.</em>)</li>
@@ -196,51 +157,68 @@
 <li><strong>Comment on dit... ?</strong> (<em>Comment on dit ce mot en français ?</em>)</li>
 </ol>
 <p>N&#39;oubliez pas : <strong>La fluidité ne consiste pas à connaître tous les mots, mais à ne jamais rester muet !</strong></p>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 1</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour</h3>
+      <p class="podcast-box-dek">Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n&#39;importe quel mot oublié et penser directement en langue cible.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/stop-translating-10-sentence-frames-fr.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 4 of 4</span>
   </div>
 </section>
-                </article>
+            </div>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#SentenceFrames</span> <span class="post-tag-chip">#Circumlocution</span> <span class="post-tag-chip">#Fluency</span> <span class="post-tag-chip">#A0-B1</span> <span class="post-tag-chip">#French</span>
-                </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#SentenceFrames</span> <span class="post-tag-chip">#Circumlocution</span> <span class="post-tag-chip">#Fluency</span> <span class="post-tag-chip">#A0-B1</span> <span class="post-tag-chip">#French</span>
+            </div>
 
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level A0–A1 / A2. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine JY DM&#39;s birthday &amp; His favs edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
                     </div>
                 </div>
+            </details>
 
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.10</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -293,6 +271,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-stop-translating-10-sentence-frames-fr","slug":"stop-translating-10-sentence-frames-fr","language":"fr","desk":"Say It","format":"list","level":"A0–A1 / A2","issue":{"number":"Vol. 2026.10","title":"JY DM's birthday & His favs"},"date":"2026-09-14","title":"Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour","kicker":"SAY IT","dek":"Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible.","tags":["SentenceFrames","Circumlocution","Fluency","A0-B1","French"],"readingTime":4,"podcast":{"episode":1,"audioUrl":"../audio/blog/stop-translating-10-sentence-frames-fr.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b","#f59e0b"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"ticket-stub","seed":"stop-translating-10-sentence-frames-fr","coverOverride":null},"blocks":[{"type":"paragraph","text":"L'un des plus grands obstacles pour les apprenants débutants et intermédiaires (CEFR A0–B1) est l'habitude de **traduire mot à mot**. Lorsqu'un mot précis manque — comme *tire-bouchon*, *pharmacie* ou *architecte* —, le cerveau se bloque et conclut : *\"Je ne connais pas ce mot, donc je ne peux pas parler.\"*"},{"type":"paragraph","text":"Notre méthodologie privilégie **l'élimination de la traduction** au profit de l'approche naturelle et créative utilisée lors de l'apprentissage de la langue maternelle. Les locuteurs natifs ne connaissent pas tous les mots du dictionnaire ; en revanche, ils possèdent la capacité de **décrire ce qu'ils ne connaissent pas**. La circonlocution est une vraie compétence de communication."},{"type":"paragraph","text":"Au lieu de mémoriser des listes de vocabulaire isolées, maîtrisez ces **10 structures de phrases réutilisables** et ces **20 phrases de survie**. Chaque structure agit comme un bloc LEGO : combinez-la avec du vocabulaire simple pour créer des centaines de phrases originales."},{"type":"heading","level":3,"text":"💡 Les 10 structures de phrases essentielles"},{"type":"list-item","ordered":true,"items":["**C'est un / une...** (*C'est un livre.* • *C'est un problème.* • *C'est un restaurant.*)","**C'est une personne qui...** (*C'est une personne qui enseigne aux enfants.* = Professeur • *C'est une personne qui soigne les malades.* = Médecin)","**C'est un endroit où...** (*C'est un endroit où on achète de la nourriture.* = Supermarché • *C'est un endroit où on dort.* = Hôtel)","**C'est une chose qui...** (*C'est une chose qui donne l'heure.* = Horloge • *C'est une chose qui ouvre les portes.* = Clé)","**C'est quelque chose qu'on utilise pour...** (*C'est quelque chose qu'on utilise pour couper le pain.* = Couteau • *C'est quelque chose qu'on utilise pour écrire.* = Stylo)","**C'est un moment où...** (*C'est un moment où les gens dorment.* = La nuit • *C'est un moment où les enfants vont à l'école.* = Le matin)","**C'est un jour où...** (*C'est un jour où les familles se réunissent.* = Fête / Anniversaire)","**Par exemple...** (*J'aime les sports. Par exemple, le football et le tennis.*)","**Ça veut dire...** (*\"Grand\" veut dire le contraire de petit.*)","**Comment dit-on... ?** (*Comment dit-on ceci en français ?* • *Que veut dire ce mot ?*)"]},{"type":"heading","level":3,"text":"🎨 Ancrages sensorielles et descriptifs"},{"type":"list-item","ordered":false,"items":["**C'est comme...** → *C'est comme un grand chien.* • *C'est comme un petit ordinateur.*","**C'est pour...** → *C'est pour cuisiner.* • *C'est pour voyager.*","**On l'utilise pour...** → *On l'utilise pour ouvrir les bouteilles.*","**Ça ressemble à...** → *Ça ressemble à un oiseau.*","**Ça a l'air...** → *Ça a l'air intéressant.* • *Ça a l'air difficile.*","**C'est fait en...** → *C'est fait en bois.* • *C'est fait en plastique.*"]},{"type":"heading","level":3,"text":"🚀 20 Phrases de survie quand vous oubliez un mot"},{"type":"list-item","ordered":true,"items":["**C'est une sorte de...** (*C'est une sorte d'animal.*)","**C'est un objet qui...** (*C'est un objet qu'on utilise dans la cuisine.*)","**C'est quelque chose qui...** (*C'est quelque chose qui aide à apprendre.*)","**C'est une personne qui...** (*C'est une personne qui travaille à l'hôpital.*)","**C'est un lieu où...** (*C'est un lieu où on achète des médicaments.*)","**C'est un moment où...** (*C'est un moment où les gens fêtent.*)","**C'est comme...** (*C'est comme une petite boîte.*)","**Ça ressemble à...** (*Ça ressemble à un téléphone.*)","**Ça fait du bruit comme...** (*Ça fait du bruit comme de la musique.*)","**Ça a...** (*Ça a quatre roues.*)","**On s'en sert pour...** (*On s'en sert pour couper la viande.*)","**On peut l'utiliser pour...** (*On peut l'utiliser pour voyager.*)","**C'est utilisé pour...** (*C'est utilisé pour le transport.*)","**C'est fabriqué en...** (*C'est fabriqué en métal.*)","**C'est similaire à...** (*C'est similaire à un vélo.*)","**C'est le contraire de...** (*C'est le contraire de cher.*)","**Ça signifie...** (*Ça signifie la même chose que commencer.*)","**C'est pareil que...** (*C'est pareil que débuter.*)","**Je ne connais pas le mot, mais...** (*Je ne connais pas le mot, mais c'est pour nettoyer.*)","**Comment on dit... ?** (*Comment on dit ce mot en français ?*)"]},{"type":"paragraph","text":"N'oubliez pas : **La fluidité ne consiste pas à connaître tous les mots, mais à ne jamais rester muet !**"}],"translationOf":"stop-translating-10-sentence-frames","draft":false};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>

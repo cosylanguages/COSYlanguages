@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the COSY Editorial &amp; Learning Corner — COSY Blog</title>
+    <title>Welcome to the COSY Editorial &amp; Learning Corner — COSY Gazette</title>
     <meta name="description" content="Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#faf7f2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,147 +19,167 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/magazine-templates.css">
+    <link rel="stylesheet" href="css/stage.css">
+
+    <style>
+      :root {
+        --post-palette-accent: #0d9488;
+        --post-palette-bg: #faf7f2;
+        --post-palette-text: #1e293b;
+        --post-palette-highlight: #0d9488;
+        --post-font-display: 'Fraunces', 'Lora', Georgia, serif;
+        --post-font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --post-font-accent: 'Fraunces Italic', Georgia, serif;
+      }
+    </style>
 </head>
-<body class="blog-page">
+<body class="blog-page gazette-body">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="blog-wrapper">
-        <header class="blog-header" data-category="Front Page">
-            <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+    <!-- Interactive 16:9 Presentation Stage Root (Activated via ?stage=1 or ?script=1) -->
+    <div id="gazette-stage-root"></div>
+
+    <div class="gazette-wrapper gazette-container format-essay">
+
+        <!-- Vogue Gazette Slim Masthead -->
+        <header class="gazette-masthead">
+            <div class="gazette-masthead-top">
+                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
+                <div class="gazette-masthead-links">
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="kicker" style="margin-bottom: 0;">Front Page</span>
-                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
-            </div>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">Welcome to the COSY Editorial &amp; Learning Corner</h1>
-            
-            <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">J</span>
-                <span>Written by <strong>JY DM</strong></span>
-                <span>·</span>
-                <span>📅 Published 2026-09-10</span>
-                <span>·</span>
-                <span>⏱️ 1 min read</span>
+            <div class="gazette-masthead-meta">
+                <span>Vol. 2026.08 • Get ready for school</span>
+                <span class="stamp-sticker">Front Page</span>
+                <span>2026-09-10</span>
             </div>
         </header>
 
-        <!-- Founder's Role Expandable Presentation Card -->
-        <section class="founder-presentation-card" aria-label="Founder Presentation Deck">
-            <div class="founder-card-header">
-                <div class="founder-info">
-                    <div class="founder-avatar">J</div>
-                    <div class="founder-meta">
-                        <h3 class="founder-title">JY DM — Founder's Editorial Room &amp; Podcast Deck</h3>
-                        <span class="founder-subtitle">Get ready for school (A0–A1) • Editorial Vibe</span>
+        <!-- Full-Bleed Inlined Cover Art -->
+        <div class="gazette-cover-hero">
+            <div class="gazette-cover-art-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" class="cosy-cover-art" data-motif="editorial-stars" data-seed="welcome-cosy-001">
+      <style>
+        @media (prefers-reduced-motion: reduce) {
+          .cosy-cover-art * { animation: none !important; transition: none !important; }
+        }
+      </style>
+
+    <rect width="1200" height="600" fill="#faf7f2" />
+
+      <polygon points="75,67 -14,124 -7,7" fill="#0d9488" opacity="0.85" style="filter: drop-shadow(7px 7px 4px rgba(0,0,0,0.15));" />
+
+      <polygon points="1223,1 1113,172 934,8 1112,-81" fill="#0d9488" opacity="0.85" style="filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.15));" />
+
+      <polygon points="193,96 132,191 24,170 -56,101 39,0 125,-44" fill="#1e293b" opacity="0.85" style="filter: drop-shadow(8px 8px 4px rgba(0,0,0,0.15));" />
+
+      <polygon points="1036,117 716,377 709,-155" fill="#0d9488" opacity="0.85" style="filter: drop-shadow(7px 7px 4px rgba(0,0,0,0.15));" />
+
+      <polygon points="964,418 840,601 664,576 597,309 843,296" fill="#0d9488" opacity="0.85" style="filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.15));" />
+
+
+
+    </svg></div>
+
+            <div class="gazette-header-content">
+                <span class="editorial-kicker">EDITORIAL ROOM</span>
+                <h1 class="cover-headline">Welcome to the COSY Editorial &amp; Learning Corner</h1>
+                <p class="editorial-dek">Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.</p>
+
+
+
+                <div class="post-byline-row">
+                    <div class="byline-author">
+                        <span class="post-author-avatar">J</span>
+                        <span>Written by <strong>JY DM</strong></span>
+                    </div>
+                    <div class="byline-meta">
+                        <span>📅 2026-09-10</span>
+                        <span>⏱️ 1 min read</span>
+                        <span class="stamp-sticker">A0–A1</span>
+                        <span class="stamp-sticker">EPISODE 1</span>
                     </div>
                 </div>
-                <div class="founder-card-actions">
-                    <button type="button" class="founder-expand-btn" aria-expanded="false">
-                        <span>🎙️ Expand Founder Deck</span>
-                    </button>
-                    <button type="button" class="podcast-mode-btn" aria-label="Toggle Podcast Mode">
-                        <span>🎙️ Podcast View Mode</span>
-                    </button>
-                </div>
             </div>
-            <div class="founder-card-body">
-                <div class="founder-card-notes">
-                    <p><strong>Founder's Notes:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Get ready for school edition.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <div class="blog-layout">
-            <main class="blog-main-col">
-                
-                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    
-<section class="flipbook-page active" data-page="1" aria-label="Page 1 of 2">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 1 of 2</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/welcome-to-cosy-blog-page-1.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <p>Welcome to the official COSY Editorial &amp; Learning Corner!</p>
+        <!-- Main Gazette Content Spread -->
+        <main class="gazette-reading-view">
+            <article class="post-full-content gazette-article">
+                <p class="gazette-drop-cap">Welcome to the official COSY Editorial &amp; Learning Corner!</p>
 <p>Here at COSYlanguages, we believe in <strong>speaking-first, immersion-based pedagogy</strong>. Language learning is not about memorizing abstract tables in isolation; it is about connecting with real people and communicating authentically from day one.</p>
-
-  
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 1 of 2</span>
-  </div>
-</section>
-
-<section class="flipbook-page" data-page="2" aria-label="Page 2 of 2">
-  
-  <div class="page-audio-guide">
-    <div class="audio-guide-header">
-      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
-      <span class="audio-guide-badge">Page 2 of 2</span>
-    </div>
-    <audio controls preload="none" src="../audio/blog/welcome-to-cosy-blog-page-2.mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  <h3>Our Core Principles</h3>
-<ul>
+<h3 class="editorial-heading">Our Core Principles</h3>
+<ul class="editorial-list">
 <li><strong>100% Free &amp; Open Access:</strong> All learning materials, practice tools, and reference guides are freely accessible to learners worldwide.</li>
 <li><strong>No-Translation Immersion:</strong> Direct target-language immersion supported by contextual visual cues.</li>
 <li><strong>CELTA-Aligned Standard:</strong> Methodologically structured for real communicative competence.</li>
 </ul>
 <p>Stay tuned for regular updates, pedagogical insights, and deep dives into language acquisition!</p>
+            </article>
+
+
+            <div id="podcast-box-container" class="podcast-box-wrapper" style="margin-top: 2.5rem;">
+
+<section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
+  <div class="podcast-box-header">
+    <div class="podcast-ep-meta">
+      <span class="podcast-ep-badge">EPISODE 1</span>
+      <span class="podcast-show-name">cosylanguages / такиеязыки</span>
+    </div>
+    <div class="podcast-quick-links">
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+    </div>
+  </div>
+
+  <div class="podcast-box-body">
+    <div class="podcast-title-row">
+      <h3 class="podcast-box-title">🎙️ Welcome to the COSY Editorial &amp; Learning Corner</h3>
+      <p class="podcast-box-dek">Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.</p>
+    </div>
+
+
+    <div class="podcast-audio-player-wrapper">
+      <audio class="podcast-audio-element" controls preload="metadata" src="../audio/blog/welcome-to-cosy-blog-page-1.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   
-  <div class="flipbook-page-footer">
-    <span>🗞️ COSY Gazette • Magazine Edition</span>
-    <span>Page 2 of 2</span>
   </div>
 </section>
-                </article>
+            </div>
 
-                
-                <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    <span class="post-tag-chip">#Welcome</span> <span class="post-tag-chip">#EcosystemUpdate</span> <span class="post-tag-chip">#LanguageLearning</span>
-                </div>
 
-                <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                </div>
-            </main>
+            <div class="post-tags-row" style="margin-top: 2rem;">
+                <span class="post-tag-chip">#Welcome</span> <span class="post-tag-chip">#EcosystemUpdate</span> <span class="post-tag-chip">#LanguageLearning</span>
+            </div>
 
-            <aside class="blog-sidebar">
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
-                        <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
-                        <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
-                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
-                        <a href="index.html" class="sidebar-label-chip">Philosophy</a>
-                        <a href="index.html" class="sidebar-label-chip">Journal Notes</a>
+            <!-- Collapsed Founder Deck & Colophon Block -->
+            <details class="founder-colophon-block" style="margin-top: 2.5rem;">
+                <summary class="founder-colophon-summary">
+                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
+                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                </summary>
+                <div class="founder-colophon-content">
+                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level A0–A1. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
+                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine Get ready for school edition.</p>
+                    <div class="colophon-actions">
+                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
+                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
                     </div>
                 </div>
+            </details>
 
-                <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
-                        <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
-                        <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-italian.html">🇮🇹 Italian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-russian.html">🇷🇺 Russian Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-greek.html">🇬🇷 Greek Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-spanish.html">🇪🇸 Spanish Master Guide</a></li>
-                        <li><a href="top-100-a0-a1-german.html">🇩🇪 German Master Guide</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+            <div class="gazette-folio">
+                <span>🗞️ COSY Gazette • Vol. 2026.08</span>
+                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                <span>Page 1 of 1</span>
+            </div>
+        </main>
+
     </div>
 
 <footer>
@@ -212,6 +232,21 @@
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/pages/flipbook.js"></script>
+    <script type="module">
+      import { PodcastBoxComponent } from './js/podcast-box.js';
+      import { StageController } from './js/stage/stage.js';
+
+      const postData = {"id":"post-welcome-to-cosy-blog","slug":"welcome-to-cosy-blog","language":"en","desk":"Front Page","format":"essay","level":"A0–A1","issue":{"number":"Vol. 2026.08","title":"Get ready for school"},"date":"2026-09-10","title":"Welcome to the COSY Editorial & Learning Corner","kicker":"EDITORIAL ROOM","dek":"Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.","tags":["Welcome","EcosystemUpdate","LanguageLearning"],"readingTime":1,"podcast":{"episode":1,"audioUrl":"../audio/blog/welcome-to-cosy-blog-page-1.mp3"},"artDirection":{"palette":["#0d9488","#faf7f2","#1e293b"],"fonts":{"display":"Fraunces","text":"DM Sans","accent":"Fraunces Italic"},"layout":"magazine-spread","motif":"editorial-stars","seed":"welcome-cosy-001","coverOverride":null},"blocks":[{"type":"paragraph","text":"Welcome to the official COSY Editorial & Learning Corner!"},{"type":"paragraph","text":"Here at COSYlanguages, we believe in **speaking-first, immersion-based pedagogy**. Language learning is not about memorizing abstract tables in isolation; it is about connecting with real people and communicating authentically from day one."},{"type":"heading","level":3,"text":"Our Core Principles"},{"type":"list-item","ordered":false,"items":["**100% Free & Open Access:** All learning materials, practice tools, and reference guides are freely accessible to learners worldwide.","**No-Translation Immersion:** Direct target-language immersion supported by contextual visual cues.","**CELTA-Aligned Standard:** Methodologically structured for real communicative competence."]},{"type":"paragraph","text":"Stay tuned for regular updates, pedagogical insights, and deep dives into language acquisition!"}],"draft":false};
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
+        new StageController(document.getElementById('gazette-stage-root'), postData);
+      } else {
+        const pBox = document.getElementById('podcast-box-container');
+        if (pBox && (postData.podcast || postData.audio_podcast)) {
+          new PodcastBoxComponent({ container: pBox, post: postData });
+        }
+      }
+    </script>
 </body>
 </html>
