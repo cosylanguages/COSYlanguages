@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" class="cosy-cover-art" data-motif="tea-stain" data-seed="top-10-verb-synonyms-intermediate-plateau-it">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="tea-stain" data-seed="top-10-verb-synonyms-intermediate-plateau-it" data-lang="it">
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
@@ -7,30 +7,38 @@
 
     <rect width="1200" height="630" fill="#d69e2e" />
 
-      <ellipse cx="459" cy="356" rx="147" ry="46" fill="#1e293b" opacity="0.25" transform="rotate(198 459 356)" style="filter: blur(12px);" />
-      <ellipse cx="469" cy="351" rx="88.2" ry="27.599999999999998" fill="#0d9488" opacity="0.15" transform="rotate(198 459 356)" style="filter: blur(8px);" />
+      <ellipse cx="365" cy="384" rx="182" ry="56" fill="#16a34a" opacity="0.28" transform="rotate(198 365 384)" style="filter: blur(10px);" />
+      <ellipse cx="377" cy="378" rx="109.2" ry="33.6" fill="#0d9488" opacity="0.18" transform="rotate(198 365 384)" style="filter: blur(6px);" />
 
-      <ellipse cx="473" cy="169" rx="63" ry="59" fill="#1e293b" opacity="0.25" transform="rotate(113 473 169)" style="filter: blur(12px);" />
-      <ellipse cx="483" cy="164" rx="37.8" ry="35.4" fill="#0d9488" opacity="0.15" transform="rotate(113 473 169)" style="filter: blur(8px);" />
+      <ellipse cx="388" cy="72" rx="83" ry="71" fill="#16a34a" opacity="0.28" transform="rotate(113 388 72)" style="filter: blur(10px);" />
+      <ellipse cx="400" cy="66" rx="49.8" ry="42.6" fill="#0d9488" opacity="0.18" transform="rotate(113 388 72)" style="filter: blur(6px);" />
 
-      <ellipse cx="493" cy="334" rx="102" ry="99" fill="#1e293b" opacity="0.25" transform="rotate(280 493 334)" style="filter: blur(12px);" />
-      <ellipse cx="503" cy="329" rx="61.199999999999996" ry="59.4" fill="#0d9488" opacity="0.15" transform="rotate(280 493 334)" style="filter: blur(8px);" />
+      <ellipse cx="421" cy="346" rx="128" ry="114" fill="#16a34a" opacity="0.28" transform="rotate(280 421 346)" style="filter: blur(10px);" />
+      <ellipse cx="433" cy="340" rx="76.8" ry="68.39999999999999" fill="#0d9488" opacity="0.18" transform="rotate(280 421 346)" style="filter: blur(6px);" />
 
-      <ellipse cx="568" cy="440" rx="121" ry="84" fill="#1e293b" opacity="0.25" transform="rotate(12 568 440)" style="filter: blur(12px);" />
-      <ellipse cx="578" cy="435" rx="72.6" ry="50.4" fill="#0d9488" opacity="0.15" transform="rotate(12 568 440)" style="filter: blur(8px);" />
+      <ellipse cx="547" cy="524" rx="151" ry="98" fill="#16a34a" opacity="0.28" transform="rotate(12 547 524)" style="filter: blur(10px);" />
+      <ellipse cx="559" cy="518" rx="90.6" ry="58.8" fill="#0d9488" opacity="0.18" transform="rotate(12 547 524)" style="filter: blur(6px);" />
 
-      <ellipse cx="319" cy="483" rx="118" ry="80" fill="#1e293b" opacity="0.25" transform="rotate(165 319 483)" style="filter: blur(12px);" />
-      <ellipse cx="329" cy="478" rx="70.8" ry="48" fill="#0d9488" opacity="0.15" transform="rotate(165 319 483)" style="filter: blur(8px);" />
+      <ellipse cx="132" cy="595" rx="148" ry="94" fill="#16a34a" opacity="0.28" transform="rotate(165 132 595)" style="filter: blur(10px);" />
+      <ellipse cx="144" cy="589" rx="88.8" ry="56.4" fill="#0d9488" opacity="0.18" transform="rotate(165 132 595)" style="filter: blur(6px);" />
 
-      <ellipse cx="786" cy="485" rx="86" ry="112" fill="#1e293b" opacity="0.25" transform="rotate(56 786 485)" style="filter: blur(12px);" />
-      <ellipse cx="796" cy="480" rx="51.6" ry="67.2" fill="#0d9488" opacity="0.15" transform="rotate(56 786 485)" style="filter: blur(8px);" />
+      <ellipse cx="910" cy="599" rx="110" ry="129" fill="#16a34a" opacity="0.28" transform="rotate(56 910 599)" style="filter: blur(10px);" />
+      <ellipse cx="922" cy="593" rx="66" ry="77.39999999999999" fill="#0d9488" opacity="0.18" transform="rotate(56 910 599)" style="filter: blur(6px);" />
+
+      <ellipse cx="619" cy="625" rx="129" ry="128" fill="#16a34a" opacity="0.28" transform="rotate(294 619 625)" style="filter: blur(10px);" />
+      <ellipse cx="631" cy="619" rx="77.39999999999999" ry="76.8" fill="#0d9488" opacity="0.18" transform="rotate(294 619 625)" style="filter: blur(6px);" />
+
+      <ellipse cx="82" cy="329" rx="112" ry="74" fill="#16a34a" opacity="0.28" transform="rotate(70 82 329)" style="filter: blur(10px);" />
+      <ellipse cx="94" cy="323" rx="67.2" ry="44.4" fill="#0d9488" opacity="0.18" transform="rotate(70 82 329)" style="filter: blur(6px);" />
 
 
 
       <g class="cover-text-overlay">
-        <rect x="20" y="520" width="1160" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
-        <text x="36" y="548" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">WORDS • Vol. 2026.09</text>
-        <text x="36" y="582" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">I 10 verbi più abusati e i loro sinonimi precisi per...</text>
+        <rect class="cover-overlay-box" x="24" y="436" width="1152" height="170" rx="8" fill="rgba(15, 23, 42, 0.82)" backdrop-filter="blur(6px)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <text x="54" y="474" fill="#16a34a" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">WORDS • Vol. 2026.09</text>
+        <text x="54" y="510" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">I 10 verbi più abusati e i loro</text>
+<text x="54" y="542" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">sinonimi precisi per il livello</text>
+<text x="54" y="574" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="24" font-weight="bold">intermedio (B1–B2)</text>
       </g>
 
     </svg>
