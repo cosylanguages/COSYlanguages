@@ -27,18 +27,26 @@ export class PodcastBoxComponent {
     const scriptUrl = `${slug}.html?script=1`;
     const stageUrl = `${slug}.html?stage=1`;
 
+    const getT = (key, fallback) => (typeof window !== 'undefined' && typeof window.t === 'function') ? window.t(key) || fallback : fallback;
+
+    const epText = `${getT('blog.episode', 'EPISODE')} ${episodeNum}`;
+    const noticeText = getT('blog.podcast_in_production', '🎙️ Audio recording in production for this episode.');
+    const stageViewText = getT('blog.stage_view', '📺 Stage View');
+    const scriptPromptText = getT('blog.script_teleprompter', '📜 Script Teleprompter');
+    const listenReadingText = getT('blog.listen_while_reading', '🎧 Listen While Reading');
+
     const playerHtml = audioUrl ? `
       <div class="podcast-audio-player-wrapper">
         <audio class="podcast-audio-element" controls preload="metadata" src="${this.escapeHtml(audioUrl)}">
           Your browser does not support the audio element.
         </audio>
         <button type="button" class="podcast-readalong-btn" id="btn-readalong-toggle" title="Sync article text highlighting with audio playback">
-          <span>🎧 Listen While Reading</span>
+          <span data-i18n="blog.listen_while_reading">${this.escapeHtml(listenReadingText)}</span>
         </button>
       </div>
     ` : `
       <div class="podcast-audio-notice">
-        <span>🎙️ Audio recording in production for this episode.</span>
+        <span data-i18n="blog.podcast_in_production">${this.escapeHtml(noticeText)}</span>
       </div>
     `;
 
@@ -46,12 +54,12 @@ export class PodcastBoxComponent {
       <section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
         <div class="podcast-box-header">
           <div class="podcast-ep-meta">
-            <span class="podcast-ep-badge">EPISODE ${episodeNum}</span>
+            <span class="podcast-ep-badge">${this.escapeHtml(epText)}</span>
             <span class="podcast-show-name">cosylanguages / такиеязыки</span>
           </div>
           <div class="podcast-quick-links">
-            <a href="${stageUrl}" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
-            <a href="${scriptUrl}" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+            <a href="${stageUrl}" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck" data-i18n="blog.stage_view">${this.escapeHtml(stageViewText)}</a>
+            <a href="${scriptUrl}" class="podcast-action-link" title="Open in Teleprompter Script Mode" data-i18n="blog.script_teleprompter">${this.escapeHtml(scriptPromptText)}</a>
           </div>
         </div>
 
@@ -73,13 +81,16 @@ export class PodcastBoxComponent {
     if (!this.audioEl) return;
 
     const readalongBtn = this.container.querySelector('#btn-readalong-toggle');
+    const getT = (key, fallback) => (typeof window !== 'undefined' && typeof window.t === 'function') ? window.t(key) || fallback : fallback;
 
     readalongBtn?.addEventListener('click', () => {
       this.highlightActive = !this.highlightActive;
       readalongBtn.classList.toggle('active', this.highlightActive);
+      const syncActiveText = getT('blog.readalong_active', '✨ Read-Along Sync Active');
+      const listenReadingText = getT('blog.listen_while_reading', '🎧 Listen While Reading');
       readalongBtn.innerHTML = this.highlightActive
-        ? '<span>✨ Read-Along Sync Active</span>'
-        : '<span>🎧 Listen While Reading</span>';
+        ? `<span data-i18n="blog.readalong_active">${this.escapeHtml(syncActiveText)}</span>`
+        : `<span data-i18n="blog.listen_while_reading">${this.escapeHtml(listenReadingText)}</span>`;
 
       if (this.highlightActive && this.audioEl.paused) {
         this.audioEl.play().catch(() => {});

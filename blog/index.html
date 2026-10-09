@@ -217,7 +217,7 @@
                 <span class="visual-journey-badge">💬 14-Lang Master Lists</span>
             </div>
             <div class="blog-header-top">
-                <a href="../index.html" class="back-home-link">← Back to COSYlanguages Home</a>
+                <a href="../index.html" class="back-home-link" data-i18n="blog.back_to_home">← Back to COSYlanguages Home</a>
                 <div style="display: flex; align-items: center; gap: 0.75rem;">
                     <span class="gazette-badge">🗞️ Newsstand Edition</span>
                     <a href="art-contact-sheet.html" class="gazette-badge" style="text-decoration: none; background: rgba(13,148,136,0.12); color: #0d9488; font-weight: bold;">🎨 Cover Art Sheet</a>
@@ -312,23 +312,23 @@
             <aside class="blog-sidebar" aria-label="Blog Sidebar">
                 <!-- Search Widget -->
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">Search</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="placeholder.typeToSearch">Search</h3>
                     <div class="search-box">
-                        <input type="text" id="blog-search" class="search-input" placeholder="Search posts..." aria-label="Search posts" oninput="handleBlogSearch()">
+                        <input type="text" id="blog-search" class="search-input" placeholder="Search posts..." aria-label="Search posts" data-i18n="placeholder.search" oninput="handleBlogSearch()">
                     </div>
                 </div>
 
                 <!-- Desks Widget -->
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">Editorial Desks</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="desk.front_page">Editorial Desks</h3>
                     <div class="label-cloud" id="sidebar-desks">
-                        <a href="#feed-section" data-desk="all" class="sidebar-label-chip active" onclick="filterBlogDesk('all', event)">All Desks</a>
-                        <a href="#feed-section" data-desk="Words" class="sidebar-label-chip" onclick="filterBlogDesk('Words', event)">🔤 Words</a>
-                        <a href="#feed-section" data-desk="Grammar Made Cosy" class="sidebar-label-chip" onclick="filterBlogDesk('Grammar Made Cosy', event)">📐 Grammar</a>
-                        <a href="#feed-section" data-desk="Say It" class="sidebar-label-chip" onclick="filterBlogDesk('Say It', event)">🗣️ Say It</a>
-                        <a href="#feed-section" data-desk="Culture & Quotes" class="sidebar-label-chip" onclick="filterBlogDesk('Culture & Quotes', event)">🎭 Culture</a>
-                        <a href="#feed-section" data-desk="Long Reads" class="sidebar-label-chip" onclick="filterBlogDesk('Long Reads', event)">📖 Long Reads</a>
-                        <a href="#feed-section" data-desk="The Podcast" class="sidebar-label-chip" onclick="filterBlogDesk('The Podcast', event)">🎙️ Podcast</a>
+                        <a href="#feed-section" data-desk="all" class="sidebar-label-chip active" onclick="filterBlogDesk('all', event)" data-i18n="option.all">All Desks</a>
+                        <a href="#feed-section" data-desk="Words" class="sidebar-label-chip" onclick="filterBlogDesk('Words', event)" data-i18n="desk.words">🔤 Words</a>
+                        <a href="#feed-section" data-desk="Grammar Made Cosy" class="sidebar-label-chip" onclick="filterBlogDesk('Grammar Made Cosy', event)" data-i18n="desk.grammar_made_cosy">📐 Grammar</a>
+                        <a href="#feed-section" data-desk="Say It" class="sidebar-label-chip" onclick="filterBlogDesk('Say It', event)" data-i18n="desk.say_it">🗣️ Say It</a>
+                        <a href="#feed-section" data-desk="Culture & Quotes" class="sidebar-label-chip" onclick="filterBlogDesk('Culture & Quotes', event)" data-i18n="desk.culture_quotes">🎭 Culture</a>
+                        <a href="#feed-section" data-desk="Long Reads" class="sidebar-label-chip" onclick="filterBlogDesk('Long Reads', event)" data-i18n="desk.long_reads">📖 Long Reads</a>
+                        <a href="#feed-section" data-desk="The Podcast" class="sidebar-label-chip" onclick="filterBlogDesk('The Podcast', event)" data-i18n="desk.the_podcast">🎙️ Podcast</a>
                     </div>
                 </div>
 

@@ -273,11 +273,111 @@ function runCLI() {
     }
   });
 
-  if (totalErrors > 0) {
-    console.error(`\n❌ Schema validation failed with ${totalErrors} error(s).`);
+  // Strict i18n key completeness check for blog languages
+  const REQUIRED_BLOG_LANGS = ['en', 'fr', 'it', 'ru', 'el', 'es'];
+  const REQUIRED_BLOG_KEYS = [
+    'blog.back_to_hub',
+    'blog.script_mode',
+    'blog.stage_mode',
+    'blog.read_in',
+    'blog.written_by',
+    'blog.min_read',
+    'blog.return_to_index',
+    'blog.founder_deck_title',
+    'blog.expand_deck',
+    'blog.celta_focus_title',
+    'blog.celta_focus_text',
+    'blog.editorial_notes_title',
+    'blog.editorial_notes_text',
+    'blog.teleprompter_script_view_mode',
+    'blog.stage_view_mode',
+    'blog.episode',
+    'blog.podcast_in_production',
+    'blog.listen_while_reading',
+    'blog.readalong_active',
+    'blog.ready_to_start',
+    'blog.clean_view',
+    'blog.outro_title',
+    'blog.outro_subtitle',
+    'blog.exit_script_view',
+    'blog.podcast_script_mode',
+    'blog.est_duration',
+    'blog.words_count',
+    'blog.level_label',
+    'blog.font_size',
+    'blog.auto_scroll',
+    'blog.mirror_glass',
+    'blog.flip_mirror',
+    'blog.export_script',
+    'blog.end_of_script',
+    'desk.front_page',
+    'desk.words',
+    'desk.grammar_made_cosy',
+    'desk.say_it',
+    'desk.culture_quotes',
+    'desk.long_reads',
+    'desk.cosy_events',
+    'desk.the_podcast',
+    'desk.back_issues',
+    'nav.courses',
+    'nav.calculator',
+    'nav.blog',
+    'nav.placement_quiz'
+  ];
+
+  function getValueByPath(obj, keyPath) {
+    if (!obj) return undefined;
+    const parts = keyPath.split('.');
+    let cur = obj;
+    for (const p of parts) {
+      if (cur && typeof cur === 'object' && p in cur) {
+        cur = cur[p];
+      } else {
+        return undefined;
+      }
+    }
+    return typeof cur === 'string' ? cur : undefined;
+  }
+
+  console.log('\n🔍 Validating blog i18n key completeness across supported languages...');
+  let i18nErrors = 0;
+
+  REQUIRED_BLOG_LANGS.forEach(lang => {
+    const langFile = path.join(__dirname, '..', 'js', 'i18n', `${lang}.json`);
+    if (!fs.existsSync(langFile)) {
+      console.error(`❌ Missing required i18n translation file: js/i18n/${lang}.json`);
+      i18nErrors++;
+      return;
+    }
+
+    try {
+      const translations = JSON.parse(fs.readFileSync(langFile, 'utf-8'));
+      const missing = [];
+      REQUIRED_BLOG_KEYS.forEach(key => {
+        const val = getValueByPath(translations, key);
+        if (!val || val.trim() === '') {
+          missing.push(key);
+        }
+      });
+
+      if (missing.length > 0) {
+        console.error(`❌ Language "${lang}" (js/i18n/${lang}.json) is missing ${missing.length} required key(s):`);
+        missing.forEach(k => console.error(`   - ${k}`));
+        i18nErrors += missing.length;
+      } else {
+        console.log(`  ✓ js/i18n/${lang}.json passed all ${REQUIRED_BLOG_KEYS.length} blog i18n key checks.`);
+      }
+    } catch (e) {
+      console.error(`❌ Failed to parse js/i18n/${lang}.json: ${e.message}`);
+      i18nErrors++;
+    }
+  });
+
+  if (totalErrors > 0 || i18nErrors > 0) {
+    console.error(`\n❌ Validation failed with ${totalErrors} schema error(s) and ${i18nErrors} i18n key error(s).`);
     process.exit(1);
   } else {
-    console.log('\n✅ All blog JSON post files passed schema validation successfully.');
+    console.log('\n✅ All blog JSON post files and blog i18n translation dictionaries passed validation successfully.');
     process.exit(0);
   }
 }

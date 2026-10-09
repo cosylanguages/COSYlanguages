@@ -8,7 +8,11 @@
     "contact": "Связаться",
     "languages": "Языки 🌍",
     "myLessons": "Мои уроки 🔐",
-    "login": "🔐 Вход"
+    "login": "🔐 Вход",
+    "courses": "Курсы",
+    "calculator": "Калькулятор",
+    "blog": "Блог",
+    "placement_quiz": "Тест уровня"
   },
   "footer": {
     "courses": "Курсы",
@@ -115,5 +119,55 @@
   },
   "long_reads": {
     "description": "Мы читаем и обсуждаем микроглавы выдающихся научно-популярных книг, аудиокниг и длинных подкастов. Исследуйте глубокие идеи, деконструируйте главы и расширяйте свои разговорные границы."
+  },
+  "desk": {
+    "front_page": "Главная полоса",
+    "words": "Слова",
+    "grammar_made_cosy": "Уютная грамматика",
+    "say_it": "Скажи это",
+    "culture_quotes": "Культура и цитаты",
+    "long_reads": "Длинные статьи",
+    "cosy_events": "Мероприятия Cosy",
+    "the_podcast": "Подкаст",
+    "back_issues": "Архив номеров"
+  },
+  "blog": {
+    "back_to_hub": "← Назад в редакционный блог-хаб",
+    "script_mode": "📜 Режим телесуфлёра",
+    "stage_mode": "📺 Режим презентации",
+    "script_view": "📜 Текст телесуфлёра",
+    "stage_view": "📺 Интерактивная презентация",
+    "read_in": "Читать на:",
+    "written_by": "Автор:",
+    "min_read": "мин чтения",
+    "return_to_index": "← Вернуться к списку статей",
+    "back_to_home": "← Назад на главную COSYlanguages",
+    "founder_deck_title": "🎙️ Редакция основателя и колофон",
+    "expand_deck": "Развернуть ▼",
+    "celta_focus_title": "Педагогический фокус CELTA:",
+    "celta_focus_text": "Целевой уровень CEFR: {level}. Акцент на естественных разговорных формулировках, устной беглости и проверочных вопросах CELTA (CCQ).",
+    "editorial_notes_title": "Заметки редактора ({author}):",
+    "editorial_notes_text": "Методические указания на целевом языке от {author} для выпуска COSYmagazine ({issue}).",
+    "teleprompter_script_view_mode": "📜 Режим телесуфлёра",
+    "stage_view_mode": "📺 Режим презентации 16:9",
+    "episode": "ВЫПУСК",
+    "podcast_in_production": "🎙️ Аудиозапись для этого выпуска находится в производстве.",
+    "listen_while_reading": "🎧 Слушать во время чтения",
+    "readalong_active": "✨ Синхронное чтение активно",
+    "ready_to_start": "Готово к началу презентации...",
+    "clean_view": "🔴 Чистый режим",
+    "outro_title": "COSYlanguages",
+    "outro_subtitle": "Изучайте языки естественно, в живом общении и с удовольствием.",
+    "exit_script_view": "← Выйти из телесуфлёра",
+    "podcast_script_mode": "🎙️ Режим подкаст-суфлёра",
+    "est_duration": "⏱️ Оценка времени:",
+    "words_count": "слов",
+    "level_label": "Уровень:",
+    "font_size": "Размер шрифта",
+    "auto_scroll": "Автопрокрутка",
+    "mirror_glass": "Отражение",
+    "flip_mirror": "🪞 Зеркальный режим",
+    "export_script": "Экспорт текста",
+    "end_of_script": "--- КОНЕЦ СЦЕНАРИЯ ПОДКАСТА ---"
   }
 }
