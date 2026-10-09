@@ -31,22 +31,23 @@ Standard Stage Mode uses real-time wall-clock timers (`setTimeout`, `requestAnim
 ### Command Syntax
 
 ```bash
-node scripts/export-stage-video.js <slug> [--audio <file>] [--out <dir>]
+node scripts/export-stage-video.js <slug> [--audio <file>] [--out <dir>] [--fps <num>]
 ```
 
 Or via `npm`:
 
 ```bash
-npm run export:stage-video -- <slug> [--audio <file>] [--out <dir>]
+npm run export:stage-video -- <slug> [--audio <file>] [--out <dir>] [--fps <num>]
 ```
 
 ### Arguments & Parameters
 
 | Parameter | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `<slug>` | String | **Yes** | Post slug to render (e.g., `stage-demo-podcast`, `welcome-to-cosy-blog`). |
+| `<slug>` | String | **Yes** | Post slug to render (e.g., `replace-very-50-stronger-adjectives`, `stage-demo-podcast`). |
 | `--audio <file>` | Path | Optional | Path to audio narration file (e.g., `.mp3`). If omitted, checks candidate paths in `blog/audio/` or renders silent MP4. |
 | `--out <dir>` | Path | Optional | Output directory for the `.mp4` video. Defaults to `dist/videos/`. |
+| `--fps <num>` | Number | Optional | Target frame rate for video rendering. Defaults to `10` fps. |
 
 ---
 

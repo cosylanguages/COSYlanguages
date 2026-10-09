@@ -24,69 +24,144 @@ export class StageTimeline {
   extractOrGenerateBeats() {
     this.beats = [];
 
-    // Title beat always comes first
+    const calculateWpmDuration = (sayText, minMs = 3000) => {
+      if (!sayText) return minMs;
+      const clean = String(sayText).replace(/<[^>]*>/g, '').replace(/[*_#`~[\]()]/g, ' ');
+      const words = clean.trim().split(/\s+/).filter(Boolean).length;
+      if (words === 0) return minMs;
+      const derivedMs = Math.round((words / 150) * 60 * 1000);
+      return Math.max(minMs, derivedMs);
+    };
+
+    // 1. Title beat
+    const titleSay = this.post.dek || this.post.title || 'COSY Gazette';
     this.beats.push({
       id: 'beat-title',
       targetSelector: '#stage-title-card',
-      duration: 4000,
+      duration: calculateWpmDuration(titleSay, 4000),
       cameraPreset: 'pull-back',
       caption: this.post.title || 'COSY Gazette',
-      say: this.post.dek || this.post.title || ''
+      say: titleSay
     });
 
     const blocks = this.post.blocks || [];
-    let explicitBeatsCount = 0;
 
+    // 2. Process body blocks
     blocks.forEach((block, idx) => {
       const blockId = `#block-${idx}`;
 
       if (block.beat) {
-        explicitBeatsCount++;
+        // Hand-written beat fields always win
+        const sayText = block.beat.say || block.say || block.text || block.title || block.quote || '';
         this.beats.push({
           id: `beat-block-${idx}`,
           targetSelector: blockId,
-          duration: block.beat.duration || 3500,
+          duration: block.beat.duration || calculateWpmDuration(sayText, 3500),
           cameraPreset: block.beat.camera || 'focus',
           reveal: block.beat.reveal || 'fade-in',
-          caption: block.text || block.title || block.quote || '',
-          say: block.say || block.text || block.title || ''
+          caption: block.beat.caption || block.text || block.title || block.quote || '',
+          say: sayText
         });
       } else {
-        // Auto-generate default beat
-        let duration = 3000;
-        let preset = 'focus';
-
+        // Auto-generate default beats based on block type
         if (block.type === 'heading') {
-          duration = 3500;
-          preset = 'push-in';
+          const headingSay = block.say || block.text || '';
+          this.beats.push({
+            id: `beat-block-${idx}`,
+            targetSelector: blockId,
+            duration: calculateWpmDuration(headingSay, 3500),
+            cameraPreset: 'push-in',
+            reveal: 'fade-in',
+            caption: block.text || '',
+            say: headingSay
+          });
         } else if (block.type === 'pullquote') {
-          duration = 5000;
-          preset = 'spotlight';
-        } else if (block.type === 'culture-bite') {
-          duration = 4500;
-          preset = 'push-in';
-        }
+          const quoteSay = block.say || block.quote || '';
+          this.beats.push({
+            id: `beat-block-${idx}`,
+            targetSelector: blockId,
+            duration: calculateWpmDuration(quoteSay, 4000),
+            cameraPreset: 'spotlight',
+            reveal: 'fade-in',
+            caption: block.quote || '',
+            say: quoteSay
+          });
+        } else if (block.type === 'table') {
+          const rows = block.rows || [];
+          if (rows.length === 0) {
+            this.beats.push({
+              id: `beat-block-${idx}`,
+              targetSelector: blockId,
+              duration: 3500,
+              cameraPreset: 'focus',
+              reveal: 'fade-in',
+              caption: block.title || 'Vocabulary Table',
+              say: block.say || block.title || 'Vocabulary Table'
+            });
+          } else {
+            const groupSize = rows.length > 6 ? 5 : 3;
+            const totalGroups = Math.ceil(rows.length / groupSize);
 
-        this.beats.push({
-          id: `beat-block-${idx}`,
-          targetSelector: blockId,
-          duration,
-          cameraPreset: preset,
-          reveal: 'fade-in',
-          caption: block.text || block.title || block.quote || block.question || '',
-          say: block.say || block.text || block.title || ''
-        });
+            for (let g = 0; g < totalGroups; g++) {
+              const groupRows = rows.slice(g * groupSize, (g + 1) * groupSize);
+              const groupSayParts = groupRows.map(r => {
+                const col0 = (r[0] || '').replace(/[*_]/g, '');
+                const col1 = (r[1] || '').replace(/[*_]/g, '');
+                if (col0 && col1) return `Instead of ${col0}, try ${col1}.`;
+                return col0 || col1 || '';
+              });
+              const groupSay = block.say
+                ? (totalGroups === 1 ? block.say : `${block.say} (Part ${g + 1})`)
+                : groupSayParts.join(' ');
+
+              this.beats.push({
+                id: `beat-block-${idx}-group-${g}`,
+                targetSelector: `#block-${idx}-group-${g}`,
+                duration: calculateWpmDuration(groupSay, 3500),
+                cameraPreset: 'focus',
+                reveal: 'fade-in',
+                caption: `Vocabulary Focus: Rows ${g * groupSize + 1}–${Math.min((g + 1) * groupSize, rows.length)}`,
+                say: groupSay
+              });
+            }
+          }
+        } else if (block.type === 'list-item') {
+          const items = block.items || [];
+          const listSay = block.say || items.map(it => it.replace(/[*_]/g, '')).join('. ');
+          this.beats.push({
+            id: `beat-block-${idx}`,
+            targetSelector: blockId,
+            duration: calculateWpmDuration(listSay, 3500),
+            cameraPreset: 'focus',
+            reveal: 'fade-in',
+            caption: block.title || `List (${items.length} items)`,
+            say: listSay
+          });
+        } else {
+          const textSay = block.say || block.text || block.content || block.question || block.title || '';
+          const preset = block.type === 'culture-bite' ? 'push-in' : 'focus';
+          this.beats.push({
+            id: `beat-block-${idx}`,
+            targetSelector: blockId,
+            duration: calculateWpmDuration(textSay, 3000),
+            cameraPreset: preset,
+            reveal: 'fade-in',
+            caption: block.text || block.title || block.quote || block.question || '',
+            say: textSay
+          });
+        }
       }
     });
 
-    // Final outro beat
+    // 3. Final outro beat
+    const outroSay = 'Thanks for learning with us! COSYlanguages — learn languages naturally, conversationally, and beautifully.';
     this.beats.push({
       id: 'beat-outro',
       targetSelector: '#stage-outro-card',
-      duration: 3500,
+      duration: calculateWpmDuration(outroSay, 4000),
       cameraPreset: 'pull-back',
       caption: 'COSYlanguages • Thanks for learning with us!',
-      say: 'Thanks for learning with us!'
+      say: outroSay
     });
   }
 

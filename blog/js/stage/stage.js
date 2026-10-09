@@ -39,12 +39,21 @@ export class StageController {
       if (this.isRenderMode) {
         document.body.classList.add('stage-render-mode');
       }
+      const palette = this.post.artDirection?.palette || ['#0d9488', '#faf7f2', '#1e293b', '#d69e2e'];
+      const fontDisplay = this.post.artDirection?.fonts?.display || 'Fraunces';
+      const fontText = this.post.artDirection?.fonts?.text || 'DM Sans';
+
+      const coverArtHtml = this.post.coverSvg
+        ? `<div class="stage-title-cover-art">${this.post.coverSvg}</div>`
+        : '';
+
       this.container.innerHTML = `
         <div class="stage-frame-16-9">
-          <div class="stage-viewport" id="stage-viewport">
+          <div class="stage-viewport" id="stage-viewport" style="--post-palette-accent: ${palette[0]}; --post-palette-bg: ${palette[1]}; --post-palette-text: ${palette[2]}; --post-palette-highlight: ${palette[3] || palette[0]}; --post-font-display: '${fontDisplay}', serif; --post-font-body: '${fontText}', sans-serif;">
             <div class="stage-content" id="stage-content">
               <!-- Title Card -->
               <div id="stage-title-card" class="stage-card stage-title-card">
+                ${coverArtHtml}
                 <span class="stage-kicker">${this.escapeHtml(this.post.kicker || 'COSY GAZETTE')}</span>
                 <h1 class="stage-main-title">${this.escapeHtml(this.post.title)}</h1>
                 <p class="stage-dek">${this.escapeHtml(this.post.dek || '')}</p>
@@ -96,9 +105,43 @@ export class StageController {
   renderBlockHtml(block, index) {
     const id = `block-${index}`;
     if (block.type === 'heading') {
-      return `<h2 id="${id}" class="stage-block stage-heading">${this.escapeHtml(block.text)}</h2>`;
+      const lvl = Math.min(6, Math.max(1, block.level || 2));
+      return `<h${lvl} id="${id}" class="stage-block stage-heading">${this.escapeHtml(block.text)}</h${lvl}>`;
     } else if (block.type === 'paragraph') {
       return `<p id="${id}" class="stage-block stage-paragraph">${this.escapeHtml(block.text)}</p>`;
+    } else if (block.type === 'list-item') {
+      const tag = block.ordered ? 'ol' : 'ul';
+      const items = (block.items || []).map(item => `<li>${this.escapeHtml(item)}</li>`).join('');
+      return `<${tag} id="${id}" class="stage-block stage-list">${items}</${tag}>`;
+    } else if (block.type === 'table') {
+      const headers = block.headers || [];
+      const rows = block.rows || [];
+      const groupSize = rows.length > 6 ? 5 : 3;
+      const totalGroups = Math.ceil(rows.length / groupSize);
+
+      let groupsHtml = '';
+      for (let g = 0; g < totalGroups; g++) {
+        const groupRows = rows.slice(g * groupSize, (g + 1) * groupSize);
+        const rowsHtml = groupRows.map(row => {
+          const cellsHtml = row.map((cell, cIdx) => `<div class="stage-table-cell col-${cIdx}">${this.escapeHtml(cell)}</div>`).join('');
+          return `<div class="stage-table-row">${cellsHtml}</div>`;
+        }).join('');
+
+        groupsHtml += `
+          <div id="${id}-group-${g}" class="stage-block stage-table-row-group">
+            <div class="stage-table-rows">${rowsHtml}</div>
+          </div>
+        `;
+      }
+
+      const headersHtml = headers.map((h, i) => `<div class="stage-table-header col-${i}">${this.escapeHtml(h)}</div>`).join('');
+
+      return `
+        <div id="${id}" class="stage-block stage-table-container">
+          <div class="stage-table-headers">${headersHtml}</div>
+          ${groupsHtml}
+        </div>
+      `;
     } else if (block.type === 'pullquote') {
       return `
         <blockquote id="${id}" class="stage-block stage-pullquote">
@@ -121,7 +164,7 @@ export class StageController {
         </div>
       `;
     }
-    return `<div id="${id}" class="stage-block">${this.escapeHtml(block.text || '')}</div>`;
+    return `<div id="${id}" class="stage-block">${this.escapeHtml(block.text || block.content || '')}</div>`;
   }
 
   initCameraAndTimeline() {
@@ -146,11 +189,32 @@ export class StageController {
       }
     });
 
-    // Control buttons
+    // Control buttons & interactions
     this.container.querySelector('#btn-play-pause')?.addEventListener('click', () => this.timeline.togglePlay());
     this.container.querySelector('#btn-prev')?.addEventListener('click', () => this.timeline.prev());
     this.container.querySelector('#btn-next')?.addEventListener('click', () => this.timeline.next());
 
+    // Speed cycling
+    const speedBtn = this.container.querySelector('#btn-speed');
+    const speeds = [1.0, 1.25, 1.5, 2.0, 0.75];
+    let speedIdx = 0;
+    speedBtn?.addEventListener('click', () => {
+      speedIdx = (speedIdx + 1) % speeds.length;
+      const nextSpeed = speeds[speedIdx];
+      this.timeline.setSpeed(nextSpeed);
+      if (speedBtn) speedBtn.textContent = `${nextSpeed}x`;
+    });
+
+    // Fullscreen toggle
+    this.container.querySelector('#btn-fullscreen')?.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        this.container.requestFullscreen?.() || stageEl.requestFullscreen?.();
+      } else {
+        document.exitFullscreen?.();
+      }
+    });
+
+    // Clean recording view
     this.container.querySelector('#btn-rec-toggle')?.addEventListener('click', () => {
       this.isRecordingMode = !this.isRecordingMode;
       const controls = this.container.querySelector('#stage-controls');
@@ -163,6 +227,33 @@ export class StageController {
         progress?.classList.remove('hide-recording');
       }
     });
+
+    // Interactive progress bar scrubbing
+    const progressBar = this.container.querySelector('#stage-progress-bar');
+    if (progressBar) {
+      let isScrubbing = false;
+
+      const handleScrub = (e) => {
+        const rect = progressBar.getBoundingClientRect();
+        if (rect.width <= 0) return;
+        const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+        const totalDuration = this.timeline.getTotalDuration();
+        this.timeline.seekTime(ratio * totalDuration);
+      };
+
+      progressBar.addEventListener('mousedown', (e) => {
+        isScrubbing = true;
+        handleScrub(e);
+      });
+
+      window.addEventListener('mousemove', (e) => {
+        if (isScrubbing) handleScrub(e);
+      });
+
+      window.addEventListener('mouseup', () => {
+        isScrubbing = false;
+      });
+    }
 
     // Expose deterministic clock hooks on window for video rendering & tests
     if (typeof window !== 'undefined') {

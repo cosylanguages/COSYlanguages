@@ -408,6 +408,11 @@ async function buildBlog() {
 
     const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post) : '';
 
+    const postForScript = {
+      ...post,
+      coverSvg: coverSvgHtml
+    };
+
     const htmlContent = `<!DOCTYPE html>
 <html lang="${escapeHtml(post.language)}">
 <head>
@@ -588,19 +593,40 @@ async function buildBlog() {
     <script src="../js/core/ui.js"></script>
     <script type="module">
       import { PodcastBoxComponent } from './js/podcast-box.js';
-      import { StageController } from './js/stage/stage.js';
 
-      const postData = ${JSON.stringify(post)};
+      const postData = ${JSON.stringify(postForScript)};
 
-      const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.get('stage') === '1' || urlParams.get('script') === '1') {
-        new StageController(document.getElementById('gazette-stage-root'), postData);
-      } else {
-        const pBox = document.getElementById('podcast-box-container');
-        if (pBox && (postData.podcast || postData.audio_podcast)) {
-          new PodcastBoxComponent({ container: pBox, post: postData });
+      async function initStageOrPodcast() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const isStage = urlParams.get('stage') === '1';
+        const isScript = urlParams.get('script') === '1';
+
+        if (isStage || isScript) {
+          const { StageController } = await import('./js/stage/stage.js');
+          new StageController(document.getElementById('gazette-stage-root'), postData);
+        } else {
+          const pBox = document.getElementById('podcast-box-container');
+          if (pBox && (postData.podcast || postData.audio_podcast)) {
+            new PodcastBoxComponent({ container: pBox, post: postData });
+          }
         }
       }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        initStageOrPodcast();
+
+        document.querySelectorAll('a[href*="?stage=1"], a[href*="?script=1"]').forEach(link => {
+          link.addEventListener('click', async (e) => {
+            const href = link.getAttribute('href');
+            if (href && href.startsWith('?')) {
+              e.preventDefault();
+              history.pushState(null, '', href);
+              const { StageController } = await import('./js/stage/stage.js');
+              new StageController(document.getElementById('gazette-stage-root'), postData);
+            }
+          });
+        });
+      });
     </script>
 </body>
 </html>
