@@ -27,24 +27,31 @@ export class StageCamera {
     const duration = this.reducedMotion ? 0 : (options.duration || 1000);
     const easing = options.easing || 'cubic-bezier(0.25, 1, 0.5, 1)';
     const scale = options.scale || 1;
-    const padding = options.padding || 40;
 
     let targetX = 0;
     let targetY = 0;
 
-    if (target && typeof target.getBoundingClientRect === 'function') {
+    if (target && typeof target.getBoundingClientRect === 'function' && this.viewport) {
+      // Calculate offset relative to the unscaled stage-viewport
+      const currentX = this.currentTransform.x;
+      const currentY = this.currentTransform.y;
+      const currentScale = this.currentTransform.scale || 1;
+
       const rect = target.getBoundingClientRect();
-      const stageRect = this.stage.getBoundingClientRect();
+      const viewportRect = this.viewport.getBoundingClientRect();
 
-      // Calculate center of target relative to stage center
-      const targetCenterX = rect.left + rect.width / 2 - stageRect.left;
-      const targetCenterY = rect.top + rect.height / 2 - stageRect.top;
+      // Unscaled offset of element center from current viewport center
+      const elementCenterX = rect.left + rect.width / 2;
+      const elementCenterY = rect.top + rect.height / 2;
 
-      const stageCenterX = stageRect.width / 2;
-      const stageCenterY = stageRect.height / 2;
+      const viewportCenterX = viewportRect.left + viewportRect.width / 2;
+      const viewportCenterY = viewportRect.top + viewportRect.height / 2;
 
-      targetX = (stageCenterX - targetCenterX) * scale;
-      targetY = (stageCenterY - targetCenterY) * scale;
+      const offsetX = (elementCenterX - viewportCenterX) / currentScale;
+      const offsetY = (elementCenterY - viewportCenterY) / currentScale;
+
+      targetX = currentX - offsetX * scale;
+      targetY = currentY - offsetY * scale;
     } else if (typeof target === 'object' && target !== null) {
       targetX = target.x || 0;
       targetY = target.y || 0;
@@ -144,27 +151,32 @@ export class StageCamera {
       : null;
 
     let scale = 1;
-    if (preset === 'push-in') scale = 1.5;
-    else if (preset === 'focus' || preset === 'spotlight') scale = 1.25;
+    if (preset === 'push-in') scale = 1.25;
+    else if (preset === 'focus' || preset === 'spotlight') scale = 1.1;
     else if (preset === 'pull-back') scale = 1;
 
     let x = 0;
     let y = 0;
 
-    if (preset !== 'pull-back' && targetEl && typeof targetEl.getBoundingClientRect === 'function' && this.stage) {
+    if (preset !== 'pull-back' && targetEl && typeof targetEl.getBoundingClientRect === 'function' && this.viewport) {
+      const currentX = this.currentTransform.x;
+      const currentY = this.currentTransform.y;
+      const currentScale = this.currentTransform.scale || 1;
+
       const rect = targetEl.getBoundingClientRect();
-      const stageRect = this.stage.getBoundingClientRect();
+      const viewportRect = this.viewport.getBoundingClientRect();
 
-      if (stageRect.width > 0 && stageRect.height > 0) {
-        const targetCenterX = rect.left + rect.width / 2 - stageRect.left;
-        const targetCenterY = rect.top + rect.height / 2 - stageRect.top;
+      const elementCenterX = rect.left + rect.width / 2;
+      const elementCenterY = rect.top + rect.height / 2;
 
-        const stageCenterX = stageRect.width / 2;
-        const stageCenterY = stageRect.height / 2;
+      const viewportCenterX = viewportRect.left + viewportRect.width / 2;
+      const viewportCenterY = viewportRect.top + viewportRect.height / 2;
 
-        x = (stageCenterX - targetCenterX) * scale;
-        y = (stageCenterY - targetCenterY) * scale;
-      }
+      const offsetX = (elementCenterX - viewportCenterX) / currentScale;
+      const offsetY = (elementCenterY - viewportCenterY) / currentScale;
+
+      x = currentX - offsetX * scale;
+      y = currentY - offsetY * scale;
     }
 
     return { x, y, scale };

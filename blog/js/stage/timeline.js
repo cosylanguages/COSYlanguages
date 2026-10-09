@@ -24,9 +24,21 @@ export class StageTimeline {
   extractOrGenerateBeats() {
     this.beats = [];
 
+    const stripMarkdown = (str) => {
+      if (!str) return '';
+      return String(str)
+        .replace(/\\([*_`\\])/g, '$1')
+        .replace(/`([^`]+)`/g, '$1')
+        .replace(/\*\*([^*]+)\*\*/g, '$1')
+        .replace(/__([^_]+)__/g, '$1')
+        .replace(/\*([^*]+)\*/g, '$1')
+        .replace(/_([^_]+)_/g, '$1')
+        .replace(/[*_`#~]/g, '');
+    };
+
     const calculateWpmDuration = (sayText, minMs = 3000) => {
       if (!sayText) return minMs;
-      const clean = String(sayText).replace(/<[^>]*>/g, '').replace(/[*_#`~[\]()]/g, ' ');
+      const clean = stripMarkdown(sayText).replace(/<[^>]*>/g, ' ');
       const words = clean.trim().split(/\s+/).filter(Boolean).length;
       if (words === 0) return minMs;
       const derivedMs = Math.round((words / 150) * 60 * 1000);
@@ -105,8 +117,8 @@ export class StageTimeline {
             for (let g = 0; g < totalGroups; g++) {
               const groupRows = rows.slice(g * groupSize, (g + 1) * groupSize);
               const groupSayParts = groupRows.map(r => {
-                const col0 = (r[0] || '').replace(/[*_]/g, '');
-                const col1 = (r[1] || '').replace(/[*_]/g, '');
+                const col0 = stripMarkdown(r[0] || '');
+                const col1 = stripMarkdown(r[1] || '');
                 if (col0 && col1) return `Instead of ${col0}, try ${col1}.`;
                 return col0 || col1 || '';
               });
@@ -114,20 +126,21 @@ export class StageTimeline {
                 ? (totalGroups === 1 ? block.say : `${block.say} (Part ${g + 1})`)
                 : groupSayParts.join(' ');
 
+              const rowRangeStr = `${g * groupSize + 1}–${Math.min((g + 1) * groupSize, rows.length)}`;
               this.beats.push({
                 id: `beat-block-${idx}-group-${g}`,
                 targetSelector: `#block-${idx}-group-${g}`,
                 duration: calculateWpmDuration(groupSay, 3500),
                 cameraPreset: 'focus',
                 reveal: 'fade-in',
-                caption: `Vocabulary Focus: Rows ${g * groupSize + 1}–${Math.min((g + 1) * groupSize, rows.length)}`,
+                caption: `Vocabulary Focus: Rows ${rowRangeStr}`,
                 say: groupSay
               });
             }
           }
         } else if (block.type === 'list-item') {
           const items = block.items || [];
-          const listSay = block.say || items.map(it => it.replace(/[*_]/g, '')).join('. ');
+          const listSay = block.say || items.map(it => stripMarkdown(it)).join('. ');
           this.beats.push({
             id: `beat-block-${idx}`,
             targetSelector: blockId,

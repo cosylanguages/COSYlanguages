@@ -15,6 +15,10 @@ export class StageController {
     this.isScriptMode = false;
     this.isRecordingMode = false;
 
+    if (typeof window !== 'undefined') {
+      window.stageController = this;
+    }
+
     this.initModeDetection();
     this.renderStage();
     this.bindEvents();
@@ -54,6 +58,24 @@ export class StageController {
       const outroSub = getT('blog.outro_subtitle', 'Learn languages naturally, conversationally, and beautifully.');
       const cleanViewText = getT('blog.clean_view', '🔴 Clean View');
 
+      const podcastInfo = this.post.podcast || this.post.audio_podcast;
+      const podcastAudioUrl = podcastInfo?.audioUrl || podcastInfo?.audio_url || '';
+      const podcastCtaHtml = podcastAudioUrl ? `
+        <div class="stage-outro-podcast-box">
+          <a href="${this.escapeHtml(podcastAudioUrl)}" target="_blank" rel="noopener" class="stage-outro-podcast-btn">
+            🎙️ Listen to the Podcast Episode
+          </a>
+        </div>
+      ` : '';
+
+      const bylineHtml = `
+        <div class="stage-byline-row">
+          <span class="stage-badge-level">${this.escapeHtml(this.post.level || 'B1–B2')}</span>
+          <span class="stage-author-tag">Written by <strong>JY DM</strong></span>
+          <span class="stage-date">${this.escapeHtml(this.post.date || '')}</span>
+        </div>
+      `;
+
       this.container.innerHTML = `
         <div class="stage-frame-16-9">
           <div class="stage-viewport" id="stage-viewport" style="--post-palette-accent: ${palette[0]}; --post-palette-bg: ${palette[1]}; --post-palette-text: ${palette[2]}; --post-palette-highlight: ${palette[3] || palette[0]}; --post-font-display: '${fontDisplay}', serif; --post-font-body: '${fontText}', sans-serif;">
@@ -62,8 +84,9 @@ export class StageController {
               <div id="stage-title-card" class="stage-card stage-title-card">
                 ${coverArtHtml}
                 <span class="stage-kicker">${this.escapeHtml(this.post.kicker || 'COSY GAZETTE')}</span>
-                <h1 class="stage-main-title">${this.escapeHtml(this.post.title)}</h1>
-                <p class="stage-dek">${this.escapeHtml(this.post.dek || '')}</p>
+                <h1 class="stage-main-title">${this.parseMarkdown(this.post.title)}</h1>
+                <p class="stage-dek">${this.parseMarkdown(this.post.dek || '')}</p>
+                ${bylineHtml}
               </div>
 
               <!-- Blocks -->
@@ -73,8 +96,13 @@ export class StageController {
 
               <!-- Outro Card -->
               <div id="stage-outro-card" class="stage-card stage-outro-card">
-                <h2 data-i18n="blog.outro_title">${this.escapeHtml(outroTitle)}</h2>
-                <p data-i18n="blog.outro_subtitle">${this.escapeHtml(outroSub)}</p>
+                <div class="stage-outro-badge">COSY GAZETTE • OUTRO</div>
+                <h2 class="stage-outro-title" data-i18n="blog.outro_title">${this.escapeHtml(outroTitle)}</h2>
+                <p class="stage-outro-sub" data-i18n="blog.outro_subtitle">${this.escapeHtml(outroSub)}</p>
+                ${podcastCtaHtml}
+                <div class="stage-outro-footer">
+                  <a href="../index.html" class="stage-home-link">🏡 Return to COSYlanguages</a>
+                </div>
               </div>
             </div>
           </div>
@@ -113,13 +141,25 @@ export class StageController {
     const id = `block-${index}`;
     if (block.type === 'heading') {
       const lvl = Math.min(6, Math.max(1, block.level || 2));
-      return `<h${lvl} id="${id}" class="stage-block stage-heading">${this.escapeHtml(block.text)}</h${lvl}>`;
+      return `
+        <div id="${id}" class="stage-card stage-block stage-heading-card">
+          <h${lvl} class="stage-heading">${this.parseMarkdown(block.text)}</h${lvl}>
+        </div>
+      `;
     } else if (block.type === 'paragraph') {
-      return `<p id="${id}" class="stage-block stage-paragraph">${this.escapeHtml(block.text)}</p>`;
+      return `
+        <div id="${id}" class="stage-card stage-block stage-paragraph-card">
+          <p class="stage-paragraph">${this.parseMarkdown(block.text)}</p>
+        </div>
+      `;
     } else if (block.type === 'list-item') {
       const tag = block.ordered ? 'ol' : 'ul';
-      const items = (block.items || []).map(item => `<li>${this.escapeHtml(item)}</li>`).join('');
-      return `<${tag} id="${id}" class="stage-block stage-list">${items}</${tag}>`;
+      const items = (block.items || []).map(item => `<li>${this.parseMarkdown(item)}</li>`).join('');
+      return `
+        <div id="${id}" class="stage-card stage-block stage-list-card">
+          <${tag} class="stage-list">${items}</${tag}>
+        </div>
+      `;
     } else if (block.type === 'table') {
       const headers = block.headers || [];
       const rows = block.rows || [];
@@ -127,51 +167,54 @@ export class StageController {
       const totalGroups = Math.ceil(rows.length / groupSize);
 
       let groupsHtml = '';
+      const headersHtml = headers.map((h, i) => `<div class="stage-table-header col-${i}">${this.parseMarkdown(h)}</div>`).join('');
+
       for (let g = 0; g < totalGroups; g++) {
         const groupRows = rows.slice(g * groupSize, (g + 1) * groupSize);
         const rowsHtml = groupRows.map(row => {
-          const cellsHtml = row.map((cell, cIdx) => `<div class="stage-table-cell col-${cIdx}">${this.escapeHtml(cell)}</div>`).join('');
+          const cellsHtml = row.map((cell, cIdx) => `<div class="stage-table-cell col-${cIdx}">${this.parseMarkdown(cell)}</div>`).join('');
           return `<div class="stage-table-row">${cellsHtml}</div>`;
         }).join('');
 
         groupsHtml += `
-          <div id="${id}-group-${g}" class="stage-block stage-table-row-group">
+          <div id="${id}-group-${g}" class="stage-card stage-block stage-table-row-group">
+            <div class="stage-table-group-header">
+              <span class="stage-table-badge">VOCABULARY SPREAD (${g * groupSize + 1}–${Math.min((g + 1) * groupSize, rows.length)} of ${rows.length})</span>
+            </div>
+            <div class="stage-table-headers">${headersHtml}</div>
             <div class="stage-table-rows">${rowsHtml}</div>
           </div>
         `;
       }
 
-      const headersHtml = headers.map((h, i) => `<div class="stage-table-header col-${i}">${this.escapeHtml(h)}</div>`).join('');
-
       return `
-        <div id="${id}" class="stage-block stage-table-container">
-          <div class="stage-table-headers">${headersHtml}</div>
+        <div id="${id}" class="stage-table-container">
           ${groupsHtml}
         </div>
       `;
     } else if (block.type === 'pullquote') {
       return `
-        <blockquote id="${id}" class="stage-block stage-pullquote">
-          <p>“${this.escapeHtml(block.quote)}”</p>
-          ${block.attribution ? `<cite>— ${this.escapeHtml(block.attribution)}</cite>` : ''}
+        <blockquote id="${id}" class="stage-card stage-block stage-pullquote">
+          <p class="pullquote-text">“${this.parseMarkdown(block.quote)}”</p>
+          ${block.attribution ? `<cite class="pullquote-cite">— ${this.parseMarkdown(block.attribution)}</cite>` : ''}
         </blockquote>
       `;
     } else if (block.type === 'culture-bite') {
       return `
-        <div id="${id}" class="stage-block stage-culture-bite">
-          <h3>📌 ${this.escapeHtml(block.title)}</h3>
-          <p>${this.escapeHtml(block.content)}</p>
+        <div id="${id}" class="stage-card stage-block stage-culture-bite">
+          <h3>📌 ${this.parseMarkdown(block.title)}</h3>
+          <p>${this.parseMarkdown(block.content)}</p>
         </div>
       `;
     } else if (block.type === 'pronunciation' || block.word) {
       return `
-        <div id="${id}" class="stage-block stage-vocab-card" data-word="${this.escapeHtml(block.word)}">
+        <div id="${id}" class="stage-card stage-block stage-vocab-card" data-word="${this.escapeHtml(block.word)}">
           <span class="vocab-term">${this.escapeHtml(block.word)}</span>
           <span class="vocab-ipa">${this.escapeHtml(block.ipa || '')}</span>
         </div>
       `;
     }
-    return `<div id="${id}" class="stage-block">${this.escapeHtml(block.text || block.content || '')}</div>`;
+    return `<div id="${id}" class="stage-card stage-block">${this.parseMarkdown(block.text || block.content || '')}</div>`;
   }
 
   initCameraAndTimeline() {
@@ -183,7 +226,10 @@ export class StageController {
       onBeatChange: (beat, idx, total) => {
         const lowerThird = this.container.querySelector('#lower-third-text');
         const counter = this.container.querySelector('#beat-counter');
-        if (lowerThird) lowerThird.textContent = beat.say || beat.caption || '';
+        if (lowerThird) {
+          const rawText = beat.say || beat.caption || '';
+          lowerThird.innerHTML = this.parseMarkdown(rawText);
+        }
         if (counter) counter.textContent = `${idx + 1} / ${total}`;
       },
       onPlayStateChange: (isPlaying) => {
@@ -226,12 +272,15 @@ export class StageController {
       this.isRecordingMode = !this.isRecordingMode;
       const controls = this.container.querySelector('#stage-controls');
       const progress = this.container.querySelector('#stage-progress-bar');
+        const lowerThird = this.container.querySelector('#stage-lower-third');
       if (this.isRecordingMode) {
         controls?.classList.add('hide-recording');
         progress?.classList.add('hide-recording');
+          lowerThird?.classList.add('hide-recording');
       } else {
         controls?.classList.remove('hide-recording');
         progress?.classList.remove('hide-recording');
+          lowerThird?.classList.remove('hide-recording');
       }
     });
 
@@ -339,5 +388,31 @@ export class StageController {
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  parseMarkdown(str) {
+    if (!str) return '';
+    let escaped = this.escapeHtml(str);
+    // Code blocks / inline code
+    escaped = escaped.replace(/`([^`]+)`/g, '<code>$1</code>');
+    // Bold
+    escaped = escaped.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    escaped = escaped.replace(/__([^_]+)__/g, '<strong>$1</strong>');
+    // Italic
+    escaped = escaped.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    escaped = escaped.replace(/_([^_]+)_/g, '<em>$1</em>');
+    return escaped;
+  }
+
+  stripMarkdown(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/\\([*_`\\])/g, '$1') // unescape escaped characters like \*
+      .replace(/`([^`]+)`/g, '$1')
+      .replace(/\*\*([^*]+)\*\*/g, '$1')
+      .replace(/__([^_]+)__/g, '$1')
+      .replace(/\*([^*]+)\*/g, '$1')
+      .replace(/_([^_]+)_/g, '$1')
+      .replace(/[*_`#~]/g, '');
   }
 }
