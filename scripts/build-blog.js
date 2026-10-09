@@ -81,9 +81,7 @@ function t(dict, key, fallback) {
 const RESERVED_SLUGS = new Set([
   'index',
   'posts',
-  'guides',
-  'top-10-verbs',
-  'top-100-a0-a1'
+  'guides'
 ]);
 
 const LANG_FLAG_MAP = {
@@ -673,7 +671,7 @@ async function buildBlog() {
     <script type="module">
       import { PodcastBoxComponent } from './js/podcast-box.js';
 
-      const postData = ${JSON.stringify(postForScript)};
+      const postData = ${JSON.stringify(postForScript).replace(/</g, '\\u003c')};
 
       async function initStageOrPodcast() {
         const urlParams = new URLSearchParams(window.location.search);
