@@ -50,7 +50,7 @@
 
         .art-preview {
             width: 100%;
-            height: 200px;
+            height: 225px;
             background: #f1f5f9;
         }
 
@@ -79,6 +79,7 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.05em;
+            flex-wrap: wrap;
         }
 
         .tag-desk {
@@ -88,12 +89,16 @@
         .tag-motif {
             color: #d69e2e;
         }
+
+        .tag-lang {
+            color: #2563eb;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1 class="header-title">COSY Gazette • Cover Art Contact Sheet</h1>
-        <p class="header-subtitle">Deterministic procedural SVG cover artwork across all 37 published posts &amp; guides.</p>
+        <p class="header-subtitle">Deterministic procedural SVG cover artwork across all 37 published posts &amp; guides with full-bleed touch motifs and multi-script family styling.</p>
     </header>
 
     <main class="contact-grid" id="contact-grid">
@@ -101,7 +106,7 @@
     </main>
 
     <script type="module">
-        import { renderCover } from './js/art/generator.js';
+        import { renderCover, resolveArtDirection } from './js/art/generator.js';
 
         async function initContactSheet() {
             const grid = document.getElementById('contact-grid');
@@ -112,8 +117,10 @@
 
                 grid.innerHTML = posts.map(post => {
                     const coverSvg = renderCover(post, { width: 400, height: 225, showText: true });
-                    const desk = post.desk || 'Front Page';
-                    const motif = post.artDirection ? post.artDirection.motif : 'paper-cut';
+                    const resolved = resolveArtDirection(post);
+                    const desk = post.desk || resolved.desk || 'Front Page';
+                    const motif = resolved.motif;
+                    const lang = (post.language || resolved.lang || 'en').toUpperCase();
 
                     return `
                         <article class="art-card">
@@ -125,6 +132,7 @@
                                 <div class="art-tags">
                                     <span class="tag-desk">📍 ${desk}</span>
                                     <span class="tag-motif">🎨 ${motif}</span>
+                                    <span class="tag-lang">🌐 ${lang}</span>
                                 </div>
                             </div>
                         </article>

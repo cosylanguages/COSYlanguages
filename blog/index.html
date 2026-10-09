@@ -48,6 +48,7 @@
                 <a href="../index.html" class="back-home-link">← Back to COSYlanguages Home</a>
                 <div style="display: flex; align-items: center; gap: 0.75rem;">
                     <span class="gazette-badge">🗞️ Monthly Paper &amp; Digital Edition</span>
+                    <a href="art-contact-sheet.html" class="gazette-badge" style="text-decoration: none; background: rgba(13,148,136,0.12); color: #0d9488; font-weight: bold;">🎨 Cover Art Sheet</a>
                     <button type="button" onclick="window.print()" class="blog-print-btn" aria-label="Print this page">Print 🖨️</button>
                 </div>
             </div>
@@ -373,7 +374,9 @@
     <script src="../js/core/ui.js"></script>
     <script src="../js/pages/flipbook.js"></script>
 
-    <script>
+    <script type="module">
+        import { renderCover } from './js/art/generator.js';
+
         let selectedCategory = 'all';
         let selectedMonth = 'all';
 
@@ -384,7 +387,6 @@
             const langs = window.COSY_LANGUAGES || [];
             const count = langs.length;
 
-            // Compute guide count dynamically from guides.json target language guides (13 guides)
             const taglineEl = document.getElementById('blog-tagline');
             if (taglineEl && count > 0) {
                 taglineEl.textContent = `Language learning guides for 13 languages, communicative frameworks, and master vocabulary blueprints across all 14 site languages.`;
@@ -434,7 +436,7 @@
             });
         }
 
-        function filterBlogIssue(issueKey, evt) {
+        window.filterBlogIssue = function(issueKey, evt) {
             if (evt) evt.preventDefault();
             selectedMonth = issueKey;
 
@@ -446,17 +448,20 @@
             });
 
             applyBlogFilters();
-        }
 
-        function filterBlogMonth(monthStr, evt) {
+        };
+
+        window.filterBlogMonth = function(monthStr, evt) {
             if (evt) evt.preventDefault();
             selectedMonth = monthStr;
             applyBlogFilters();
-        }
 
-        function handleBlogSearch() {
+        };
+
+        window.handleBlogSearch = function() {
             applyBlogFilters();
-        }
+
+        };
 
         function applyBlogFilters() {
             const query = (document.getElementById('blog-search').value || '').toLowerCase().trim();
@@ -505,7 +510,6 @@
             const container = document.getElementById('feed-container');
             if (!container || !Array.isArray(posts) || !posts.length) return;
 
-            // Sort newest first
             const sorted = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
 
             const htmlContent = sorted.map((post, idx) => {
@@ -513,8 +517,13 @@
                 const formattedDate = isNaN(d.getTime()) ? post.date : d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
                 const isLast = idx === sorted.length - 1;
 
+                const coverSvg = renderCover(post, { width: 480, height: 270, showText: true });
+
                 return `
                         <article class="post-card" data-category="${post.category || ''}" data-title="${post.title.replace(/"/g, '&quot;')}" data-date="${post.date}">
+                            <div class="post-card-art-preview" style="width: 100%; border-radius: 8px; overflow: hidden; margin-bottom: 0.85rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                                ${coverSvg}
+                            </div>
                             <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.35rem;">
                                 <span class="kicker" style="margin-bottom: 0;">${post.category || 'Article'}</span>
                                 <span class="gazette-badge">${post.issue_volume || 'COSYmagazine'}</span>

@@ -16,37 +16,108 @@ function escapeXml(str) {
     .replace(/"/g, '&quot;');
 }
 
+const MOTIF_KEYS = Object.keys(MOTIFS);
+
+const LANG_ACCENTS = {
+  en: '#0d9488', // Teal
+  fr: '#2563eb', // French Blue
+  it: '#16a34a', // Italian Green
+  ru: '#dc2626', // Russian Red
+  el: '#0284c7', // Aegean Cyan
+  es: '#ea580c', // Spanish Orange
+  de: '#d97706', // German Gold
+  pt: '#059669', // Portuguese Emerald
+  hy: '#7c3aed', // Armenian Violet
+  ka: '#b91c1c', // Georgian Crimson
+  tt: '#0d9488', // Tatar Turquoise
+  ba: '#15803d', // Bashkir Fern
+  br: '#0369a1'  // Breton Ocean
+};
+
+/** Extracts base slug for language translation family matching */
+export function getBaseSlug(post) {
+  if (!post) return 'cosy-post';
+  if (post.translationOf) return post.translationOf;
+  const slug = post.slug || 'cosy-post';
+  return slug.replace(/-(fr|it|ru|el|es|de|pt|hy|ka|tt|ba|br)$/, '');
+}
+
+/** Detects post language code */
+export function getPostLanguage(post) {
+  if (!post) return 'en';
+  if (post.language) return post.language.toLowerCase();
+  const slug = post.slug || '';
+  const match = slug.match(/-(fr|it|ru|el|es|de|pt|hy|ka|tt|ba|br)$/);
+  return match ? match[1] : 'en';
+}
+
 /** Resolves artDirection configuration with sensible defaults */
 export function resolveArtDirection(post) {
   const art = (post && post.artDirection) || {};
   const desk = post ? (post.desk || 'Front Page') : 'Front Page';
   const slug = post ? (post.slug || 'cosy-post') : 'cosy-post';
+  const baseSlug = getBaseSlug(post);
+  const lang = getPostLanguage(post);
 
-  const defaultPalette = DEFAULT_PALETTES[desk] || DEFAULT_PALETTES['Front Page'];
-  const palette = (art.palette && art.palette.length >= 2) ? art.palette : defaultPalette;
+  // Derive palette
+  const defaultPalette = [...(DEFAULT_PALETTES[desk] || DEFAULT_PALETTES['Front Page'])];
+  let palette = (art.palette && art.palette.length >= 2) ? [...art.palette] : defaultPalette;
 
-  // Map desk to motif if motif not specified
-  const deskMotifMap = {
-    'Front Page': 'paper-cut',
-    'Words': 'riso-print',
-    'Grammar Made Cosy': 'window-light',
-    'Say It': 'gingham-knit',
-    'Culture & Quotes': 'ticket-stub',
-    'Long Reads': 'doodle-border',
-    'Cosy Events': 'vintage-stamp',
-    'The Podcast': 'tea-stain',
-    'Back Issues': 'paper-cut'
-  };
+  // Apply language accent override
+  if (LANG_ACCENTS[lang]) {
+    const accent = LANG_ACCENTS[lang];
+    if (palette.length >= 3) {
+      palette[2] = accent;
+    } else {
+      palette.push(accent);
+    }
+  }
 
-  const motif = art.motif || deskMotifMap[desk] || 'paper-cut';
-  const seed = art.seed || slug;
+  // Deterministic motif selection from baseSlug if art.motif is not explicitly set
+  let motif = art.motif;
+  if (!motif) {
+    let hash = 0;
+    for (let i = 0; i < baseSlug.length; i++) {
+      hash = (Math.imul(31, hash) + baseSlug.charCodeAt(i)) | 0;
+    }
+    const idx = Math.abs(hash) % MOTIF_KEYS.length;
+    motif = MOTIF_KEYS[idx];
+  }
+
+  const seed = art.seed || baseSlug;
   const coverOverride = art.coverOverride || null;
 
-  return { palette, motif, seed, coverOverride, desk, slug };
+  return { palette, motif, seed, coverOverride, desk, slug, baseSlug, lang };
+}
+
+/** Wraps text into lines fitting max character count per line */
+function wrapTitleText(title, maxCharsPerLine = 32) {
+  if (!title) return ['COSY Gazette'];
+  const words = title.trim().split(/\s+/);
+  const lines = [];
+  let currentLine = '';
+
+  for (const word of words) {
+    if (!currentLine) {
+      currentLine = word;
+    } else if ((currentLine + ' ' + word).length <= maxCharsPerLine) {
+      currentLine += ' ' + word;
+    } else {
+      lines.push(currentLine);
+      currentLine = word;
+    }
+  }
+  if (currentLine) {
+    lines.push(currentLine);
+  }
+
+  return lines;
 }
 
 /**
  * Renders cover artwork as an inline SVG string.
+ * Full-bleed without empty side bands.
+ * Title auto-wraps and auto-shrinks to guarantee zero overflow across all scripts.
  * Supports artDirection.coverOverride for custom hand-drawn image artwork.
  */
 export function renderCover(post, options = {}) {
@@ -54,38 +125,91 @@ export function renderCover(post, options = {}) {
   const height = options.height || 450;
   const showText = options.showText !== false;
 
-  const { palette, motif, seed, coverOverride } = resolveArtDirection(post);
+  const { palette, motif, seed, coverOverride, lang } = resolveArtDirection(post);
 
-  // Handle hand-made artwork override
+  // Handle hand-made artwork override with fallback
   if (coverOverride) {
     return `
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-cover-art cosy-cover-override">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art cosy-cover-override">
         <image href="${escapeXml(coverOverride)}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid slice" />
       </svg>
-    `;
+    `.trim();
   }
 
   const prng = createPRNG(seed);
   const motifFn = MOTIFS[motif] || MOTIFS['paper-cut'];
   const artworkSvg = motifFn({ width, height, palette, prng });
 
-  const title = post ? post.title || 'COSY Gazette' : 'COSY Gazette';
+  const title = post ? (post.title || 'COSY Gazette') : 'COSY Gazette';
   const kicker = post ? (post.kicker || post.category || 'EDITORIAL') : 'EDITORIAL';
   const issueStr = post && post.issue ? (post.issue.number || '') : '';
 
   let textOverlay = '';
   if (showText) {
+    const titleLen = title.length;
+    let fontSize = 22;
+    let maxCharsPerLine = 36;
+    let lineHeight = 28;
+
+    if (titleLen > 90) {
+      fontSize = 14;
+      maxCharsPerLine = 58;
+      lineHeight = 18;
+    } else if (titleLen > 65) {
+      fontSize = 16;
+      maxCharsPerLine = 48;
+      lineHeight = 21;
+    } else if (titleLen > 40) {
+      fontSize = 18;
+      maxCharsPerLine = 40;
+      lineHeight = 24;
+    }
+
+    const scaleFactor = width / 800;
+    const finalFontSize = Math.max(12, Math.round(fontSize * scaleFactor));
+    const finalLineHeight = Math.max(16, Math.round(lineHeight * scaleFactor));
+    const finalMaxChars = Math.max(25, Math.round(maxCharsPerLine / scaleFactor));
+
+    const lines = wrapTitleText(title, finalMaxChars);
+    const cappedLines = lines.slice(0, 3);
+    if (lines.length > 3) {
+      cappedLines[2] = cappedLines[2].slice(0, -3) + '...';
+    }
+
+    const padX = Math.round(20 * scaleFactor);
+    const padY = Math.round(14 * scaleFactor);
+    const kickerFontSize = Math.max(10, Math.round(11 * scaleFactor));
+
+    const textBlockHeight = (cappedLines.length * finalLineHeight) + kickerFontSize + Math.round(10 * scaleFactor);
+    const rectHeight = textBlockHeight + (padY * 2);
+
+    const marginX = Math.round(16 * scaleFactor);
+    const marginY = Math.round(16 * scaleFactor);
+    const rectX = marginX;
+    const rectY = height - rectHeight - marginY;
+    const rectW = width - (marginX * 2);
+
+    const kickerY = rectY + padY + kickerFontSize;
+    const firstLineY = kickerY + Math.round(12 * scaleFactor) + (finalFontSize * 0.75);
+
+    const titleLinesSvg = cappedLines.map((lineText, idx) => {
+      const lineY = Math.round(firstLineY + (idx * finalLineHeight));
+      return `<text x="${rectX + padX}" y="${lineY}" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="${finalFontSize}" font-weight="bold">${escapeXml(lineText)}</text>`;
+    }).join('\n');
+
+    const accentColor = LANG_ACCENTS[lang] || '#f59e0b';
+
     textOverlay = `
       <g class="cover-text-overlay">
-        <rect x="20" y="${height - 110}" width="${width - 40}" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
-        <text x="36" y="${height - 82}" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">${escapeXml(kicker.toUpperCase())} ${escapeXml(issueStr ? '• ' + issueStr : '')}</text>
-        <text x="36" y="${height - 48}" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">${escapeXml(title.length > 55 ? title.slice(0, 52) + '...' : title)}</text>
+        <rect class="cover-overlay-box" x="${rectX}" y="${rectY}" width="${rectW}" height="${rectHeight}" rx="8" fill="rgba(15, 23, 42, 0.82)" backdrop-filter="blur(6px)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <text x="${rectX + padX}" y="${kickerY}" fill="${accentColor}" font-family="Fraunces, 'Lora', Georgia, serif" font-size="${kickerFontSize}" font-weight="bold" letter-spacing="1.5">${escapeXml(kicker.toUpperCase())} ${escapeXml(issueStr ? '• ' + issueStr : '')}</text>
+        ${titleLinesSvg}
       </g>
     `;
   }
 
   return `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-cover-art" data-motif="${motif}" data-seed="${escapeXml(seed)}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="${motif}" data-seed="${escapeXml(seed)}" data-lang="${lang}">
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
@@ -109,7 +233,7 @@ export function renderSectionDivider(post, options = {}) {
   const color2 = palette[1] || '#0d9488';
 
   return `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="${height}" class="cosy-section-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="${height}" preserveAspectRatio="xMidYMid slice" class="cosy-section-divider">
       <line x1="0" y1="${height/2}" x2="${width}" y2="${height/2}" stroke="${color1}" stroke-width="1.5" opacity="0.3" stroke-dasharray="4 4" />
       <circle cx="${width/2}" cy="${height/2}" r="6" fill="${color2}" />
       <circle cx="${width/2 - 20}" cy="${height/2}" r="3" fill="${color1}" opacity="0.6" />
@@ -134,7 +258,7 @@ export function renderPullQuoteCard(quote, post, options = {}) {
   const authorStr = typeof quote === 'object' && quote.attribution ? quote.attribution : '';
 
   return `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-pullquote-card">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-pullquote-card">
       <rect x="4" y="4" width="${width - 8}" height="${height - 8}" rx="12" fill="${bg}" stroke="${border}" stroke-width="2" stroke-dasharray="6 4" />
       <text x="30" y="50" fill="${border}" font-family="Fraunces, serif" font-size="48" opacity="0.4">“</text>
       <text x="50" y="85" fill="${accent}" font-family="Fraunces, serif" font-size="18" font-style="italic">${escapeXml(textStr.length > 90 ? textStr.slice(0, 87) + '...' : textStr)}</text>
@@ -160,7 +284,7 @@ export function renderWordCard(wordData, post, options = {}) {
   const definition = wordData.definition || wordData.meaning || '';
 
   return `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-word-card">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-word-card">
       <rect width="${width}" height="${height}" rx="10" fill="${bg}" stroke="${accent}" stroke-width="1.5" />
       <rect x="0" y="0" width="${width}" height="8" rx="4" fill="${accent}" />
       <text x="20" y="45" fill="${textClr}" font-family="Fraunces, serif" font-size="22" font-weight="bold">${escapeXml(word)}</text>
