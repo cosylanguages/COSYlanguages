@@ -47,6 +47,13 @@ export class StageController {
         ? `<div class="stage-title-cover-art">${this.post.coverSvg}</div>`
         : '';
 
+      const getT = (key, fallback) => (typeof window !== 'undefined' && typeof window.t === 'function') ? window.t(key) || fallback : fallback;
+
+      const readyText = getT('blog.ready_to_start', 'Ready to start presentation...');
+      const outroTitle = getT('blog.outro_title', 'COSYlanguages');
+      const outroSub = getT('blog.outro_subtitle', 'Learn languages naturally, conversationally, and beautifully.');
+      const cleanViewText = getT('blog.clean_view', '🔴 Clean View');
+
       this.container.innerHTML = `
         <div class="stage-frame-16-9">
           <div class="stage-viewport" id="stage-viewport" style="--post-palette-accent: ${palette[0]}; --post-palette-bg: ${palette[1]}; --post-palette-text: ${palette[2]}; --post-palette-highlight: ${palette[3] || palette[0]}; --post-font-display: '${fontDisplay}', serif; --post-font-body: '${fontText}', sans-serif;">
@@ -66,15 +73,15 @@ export class StageController {
 
               <!-- Outro Card -->
               <div id="stage-outro-card" class="stage-card stage-outro-card">
-                <h2>COSYlanguages</h2>
-                <p>Learn languages naturally, conversationally, and beautifully.</p>
+                <h2 data-i18n="blog.outro_title">${this.escapeHtml(outroTitle)}</h2>
+                <p data-i18n="blog.outro_subtitle">${this.escapeHtml(outroSub)}</p>
               </div>
             </div>
           </div>
 
           <!-- Lower Third Captions -->
           <div class="stage-lower-third" id="stage-lower-third">
-            <span class="lower-third-text" id="lower-third-text">Ready to start presentation...</span>
+            <span class="lower-third-text" id="lower-third-text" data-i18n="blog.ready_to_start">${this.escapeHtml(readyText)}</span>
           </div>
 
           <!-- Progress Bar -->
@@ -89,7 +96,7 @@ export class StageController {
             <button id="btn-next" class="stage-btn" title="Next (Right Arrow)">⏭</button>
             <span class="beat-counter" id="beat-counter">0 / 0</span>
             <button id="btn-speed" class="stage-btn">1.0x</button>
-            <button id="btn-rec-toggle" class="stage-btn" title="Toggle Clean Recording View (H)">🔴 Clean View</button>
+            <button id="btn-rec-toggle" class="stage-btn" title="Toggle Clean Recording View (H)" data-i18n="blog.clean_view">${this.escapeHtml(cleanViewText)}</button>
             <button id="btn-fullscreen" class="stage-btn" title="Toggle Fullscreen (F)">⛶</button>
           </div>
         </div>

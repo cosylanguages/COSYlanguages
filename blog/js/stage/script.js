@@ -98,21 +98,34 @@ export class ScriptController {
     document.body.classList.add('script-mode-active');
 
     const estDurationFormatted = this.formatTimestamp(this.totalDurationMs);
+    const getT = (key, fallback) => (typeof window !== 'undefined' && typeof window.t === 'function') ? window.t(key) || fallback : fallback;
+
+    const exitViewText = getT('blog.exit_script_view', '← Exit Script View');
+    const podcastScriptModeText = getT('blog.podcast_script_mode', '🎙️ Podcast Script Mode');
+    const estDurationText = getT('blog.est_duration', '⏱️ Est. Duration:');
+    const wordsCountText = getT('blog.words_count', 'words');
+    const levelLabelText = getT('blog.level_label', 'Level:');
+    const fontSizeText = getT('blog.font_size', 'Font Size');
+    const autoScrollText = getT('blog.auto_scroll', 'Auto-Scroll');
+    const mirrorGlassText = getT('blog.mirror_glass', 'Mirror Glass');
+    const flipMirrorText = getT('blog.flip_mirror', '🪞 Flip Mirror');
+    const exportScriptText = getT('blog.export_script', 'Export Script');
+    const endOfScriptText = getT('blog.end_of_script', '--- END OF PODCAST SCRIPT ---');
 
     this.container.innerHTML = `
       <div class="teleprompter-wrapper" id="teleprompter-wrapper">
         <!-- Teleprompter Header Toolbar -->
         <header class="teleprompter-header" id="teleprompter-header">
           <div class="teleprompter-meta-col">
-            <a href="?" class="teleprompter-back-btn">← Exit Script View</a>
+            <a href="?" class="teleprompter-back-btn" data-i18n="blog.exit_script_view">${this.escapeHtml(exitViewText)}</a>
             <h1 class="teleprompter-title">${this.escapeHtml(this.post.title || 'Podcast Script')}</h1>
             <div class="teleprompter-stats">
-              <span class="teleprompter-badge">🎙️ Podcast Script Mode</span>
-              <span>⏱️ Est. Duration: <strong>${estDurationFormatted}</strong></span>
+              <span class="teleprompter-badge" data-i18n="blog.podcast_script_mode">${this.escapeHtml(podcastScriptModeText)}</span>
+              <span><span data-i18n="blog.est_duration">${this.escapeHtml(estDurationText)}</span> <strong>${estDurationFormatted}</strong></span>
               <span>•</span>
-              <span>📝 <strong>${this.totalWords}</strong> words</span>
+              <span>📝 <strong>${this.totalWords}</strong> <span data-i18n="blog.words_count">${this.escapeHtml(wordsCountText)}</span></span>
               <span>•</span>
-              <span>🌐 Level: <strong>${this.escapeHtml(this.post.level || 'A0–B2')}</strong></span>
+              <span>🌐 <span data-i18n="blog.level_label">${this.escapeHtml(levelLabelText)}</span> <strong>${this.escapeHtml(this.post.level || 'A0–B2')}</strong></span>
             </div>
           </div>
 
@@ -120,7 +133,7 @@ export class ScriptController {
           <div class="teleprompter-controls">
             <!-- Font Size -->
             <div class="ctrl-group">
-              <label>Font Size</label>
+              <label data-i18n="blog.font_size">${this.escapeHtml(fontSizeText)}</label>
               <div class="btn-cluster">
                 <button type="button" id="tp-font-dec" class="tp-btn" title="Decrease font size">A-</button>
                 <span id="tp-font-val" class="ctrl-val">${this.fontSize}px</span>
@@ -130,7 +143,7 @@ export class ScriptController {
 
             <!-- Auto Scroll -->
             <div class="ctrl-group">
-              <label>Auto-Scroll</label>
+              <label data-i18n="blog.auto_scroll">${this.escapeHtml(autoScrollText)}</label>
               <div class="btn-cluster">
                 <button type="button" id="tp-scroll-toggle" class="tp-btn tp-btn-primary">▶ Play</button>
                 <button type="button" id="tp-speed-dec" class="tp-btn">-</button>
@@ -141,13 +154,13 @@ export class ScriptController {
 
             <!-- Mirror Mode -->
             <div class="ctrl-group">
-              <label>Mirror Glass</label>
-              <button type="button" id="tp-mirror-toggle" class="tp-btn" title="Flip text horizontally for teleprompter glass reflection">🪞 Flip Mirror</button>
+              <label data-i18n="blog.mirror_glass">${this.escapeHtml(mirrorGlassText)}</label>
+              <button type="button" id="tp-mirror-toggle" class="tp-btn" title="Flip text horizontally for teleprompter glass reflection" data-i18n="blog.flip_mirror">${this.escapeHtml(flipMirrorText)}</button>
             </div>
 
             <!-- Downloads & Print -->
             <div class="ctrl-group">
-              <label>Export Script</label>
+              <label data-i18n="blog.export_script">${this.escapeHtml(exportScriptText)}</label>
               <div class="btn-cluster">
                 <button type="button" id="tp-download-md" class="tp-btn tp-btn-accent">📥 .MD</button>
                 <button type="button" id="tp-download-txt" class="tp-btn tp-btn-accent">📥 .TXT</button>
@@ -168,7 +181,7 @@ export class ScriptController {
             ${this.beats.map(beat => this.renderBeatHtml(beat)).join('')}
 
             <div class="teleprompter-outro">
-              <span>--- END OF PODCAST SCRIPT ---</span>
+              <span data-i18n="blog.end_of_script">${this.escapeHtml(endOfScriptText)}</span>
             </div>
             <div class="teleprompter-padding-bottom"></div>
           </div>

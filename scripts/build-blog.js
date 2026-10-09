@@ -38,6 +38,46 @@ const DESKS_CATALOG = [
   { key: 'Back Issues', i18n_key: 'desk_back_issues', icon: '🗄️', order: 9 }
 ];
 
+const DESK_KEY_MAP = {
+  'Front Page': 'front_page',
+  'Words': 'words',
+  'Grammar Made Cosy': 'grammar_made_cosy',
+  'Say It': 'say_it',
+  'Culture & Quotes': 'culture_quotes',
+  'Long Reads': 'long_reads',
+  'Cosy Events': 'cosy_events',
+  'The Podcast': 'the_podcast',
+  'Back Issues': 'back_issues'
+};
+
+const translationsCache = {};
+function getTranslationsForLang(lang) {
+  if (!translationsCache[lang]) {
+    const i18nPath = path.join(__dirname, '..', 'js', 'i18n', `${lang}.json`);
+    if (fs.existsSync(i18nPath)) {
+      translationsCache[lang] = JSON.parse(fs.readFileSync(i18nPath, 'utf-8'));
+    } else {
+      const enPath = path.join(__dirname, '..', 'js', 'i18n', 'en.json');
+      translationsCache[lang] = JSON.parse(fs.readFileSync(enPath, 'utf-8'));
+    }
+  }
+  return translationsCache[lang];
+}
+
+function t(dict, key, fallback) {
+  if (!key) return fallback;
+  const parts = key.split('.');
+  let val = dict;
+  for (const part of parts) {
+    if (val && typeof val === 'object' && part in val) {
+      val = val[part];
+    } else {
+      return fallback;
+    }
+  }
+  return typeof val === 'string' ? val : fallback;
+}
+
 const RESERVED_SLUGS = new Set([
   'index',
   'posts',
@@ -233,7 +273,7 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   }
 }
 
-function renderLanguageSwitcherHtml(currentPost, allPosts) {
+function renderLanguageSwitcherHtml(currentPost, allPosts, langDict) {
   const baseSlug = currentPost.translationOf || (currentPost.slug.replace(/-(fr|it|ru|el)$/, ''));
   const variants = allPosts.filter(p => p.slug === baseSlug || p.translationOf === baseSlug);
 
@@ -248,17 +288,24 @@ function renderLanguageSwitcherHtml(currentPost, allPosts) {
     return `<a href="${v.slug}.html" class="lang-switcher-link">${flag} ${langCode}</a>`;
   }).join(' ');
 
+  const readInLabel = t(langDict, 'blog.read_in', 'Read in:');
+
   return `
 <div class="language-switcher-bar">
-  <span class="lang-switcher-label">Read in:</span>
+  <span class="lang-switcher-label" data-i18n="blog.read_in">${escapeHtml(readInLabel)}</span>
   ${linksHtml}
 </div>`;
 }
 
-function renderStaticPodcastBoxHtml(post) {
+function renderStaticPodcastBoxHtml(post, langDict) {
   const podcast = post.podcast || {};
   const episodeNum = podcast.episode || 1;
   const audioUrl = podcast.audioUrl || (post.audio_podcast ? `../audio/blog/${post.slug}.mp3` : null);
+
+  const epText = `${t(langDict, 'blog.episode', 'EPISODE')} ${episodeNum}`;
+  const noticeText = t(langDict, 'blog.podcast_in_production', '🎙️ Audio recording in production for this episode.');
+  const stageViewText = t(langDict, 'blog.stage_view', '📺 Stage View');
+  const scriptPromptText = t(langDict, 'blog.script_teleprompter', '📜 Script Teleprompter');
 
   const playerHtml = audioUrl ? `
     <div class="podcast-audio-player-wrapper">
@@ -268,7 +315,7 @@ function renderStaticPodcastBoxHtml(post) {
     </div>
   ` : `
     <div class="podcast-audio-notice">
-      <span>🎙️ Audio recording in production for this episode.</span>
+      <span data-i18n="blog.podcast_in_production">${escapeHtml(noticeText)}</span>
     </div>
   `;
 
@@ -276,12 +323,12 @@ function renderStaticPodcastBoxHtml(post) {
 <section class="cosy-podcast-box" aria-label="Podcast Episode Controls">
   <div class="podcast-box-header">
     <div class="podcast-ep-meta">
-      <span class="podcast-ep-badge">EPISODE ${episodeNum}</span>
+      <span class="podcast-ep-badge">${escapeHtml(epText)}</span>
       <span class="podcast-show-name">cosylanguages / такиеязыки</span>
     </div>
     <div class="podcast-quick-links">
-      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck">📺 Stage View</a>
-      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode">📜 Script Teleprompter</a>
+      <a href="?stage=1" class="podcast-action-link" title="Open in 16:9 Animated Presentation Deck" data-i18n="blog.stage_view">${escapeHtml(stageViewText)}</a>
+      <a href="?script=1" class="podcast-action-link" title="Open in Teleprompter Script Mode" data-i18n="blog.script_teleprompter">${escapeHtml(scriptPromptText)}</a>
     </div>
   </div>
 
@@ -384,10 +431,12 @@ async function buildBlog() {
   publishedPosts.forEach(post => {
     const htmlPath = path.join(BLOG_DIR, `${post.slug}.html`);
 
+    const langDict = getTranslationsForLang(post.language || 'en');
+
     // Render blocks statefully to apply drop cap on the first paragraph
     const blockState = { isFirstParagraph: true };
     const renderedBlocksHtml = (post.blocks || []).map(b => renderBlockToHtml(b, blockState)).join('\n');
-    const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts);
+    const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts, langDict);
 
     // Inlined SVG cover art generated at build time
     let coverSvgHtml = '';
@@ -406,7 +455,32 @@ async function buildBlog() {
     const fontText = post.artDirection?.fonts?.text || 'DM Sans';
     const fontAccent = post.artDirection?.fonts?.accent || 'Fraunces';
 
-    const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post) : '';
+    const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post, langDict) : '';
+
+    const backToHubText = t(langDict, 'blog.back_to_hub', '← Back to Blog & Editorial Hub');
+    const scriptModeText = t(langDict, 'blog.script_mode', '📜 Script Mode');
+    const stageModeText = t(langDict, 'blog.stage_mode', '📺 Stage Mode');
+    const writtenByText = t(langDict, 'blog.written_by', 'Written by');
+    const minReadText = t(langDict, 'blog.min_read', 'min read');
+    const returnToIndexText = t(langDict, 'blog.return_to_index', '← Return to Blog Index');
+
+    const deskKey = DESK_KEY_MAP[desk];
+    const translatedDesk = deskKey ? t(langDict, 'desk.' + deskKey, desk) : desk;
+
+    const kickerKey = DESK_KEY_MAP[kicker];
+    const translatedKicker = kickerKey ? t(langDict, 'desk.' + kickerKey, kicker) : kicker;
+
+    const epBadgeText = post.podcast ? `${t(langDict, 'blog.episode', 'EPISODE')} ${post.podcast.episode}` : '';
+
+    const founderDeckTitleText = t(langDict, 'blog.founder_deck_title', '🎙️ Founder\'s Editorial Room & Colophon Deck');
+    const expandDeckText = t(langDict, 'blog.expand_deck', 'Expand Deck ▼');
+    const celtaFocusTitleText = t(langDict, 'blog.celta_focus_title', 'CELTA Pedagogical Focus:');
+    const celtaFocusBodyText = t(langDict, 'blog.celta_focus_text', 'Target CEFR Level {level}. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).').replace('{level}', escapeHtml(post.level || 'A0–B2'));
+    const editorialNotesTitleText = t(langDict, 'blog.editorial_notes_title', 'Editorial Notes by {author}:').replace('{author}', authorName);
+    const editorialNotesBodyText = t(langDict, 'blog.editorial_notes_text', 'CELTA-aligned target-language guidance by {author} for COSYmagazine {issue} edition.').replace('{author}', authorName).replace('{issue}', escapeHtml(issueTitle));
+    const scriptViewModeText = t(langDict, 'blog.teleprompter_script_view_mode', '📜 Teleprompter Script View Mode');
+    const stageViewModeText = t(langDict, 'blog.stage_view_mode', '📺 16:9 Stage View Mode');
+    const pageXofYText = t(langDict, 'blog.page_x_of_y', 'Page {current} of {total}').replace('{current}', '1').replace('{total}', '1');
 
     const postForScript = {
       ...post,
@@ -460,16 +534,16 @@ async function buildBlog() {
         <!-- Vogue Gazette Slim Masthead -->
         <header class="gazette-masthead">
             <div class="gazette-masthead-top">
-                <a href="index.html" class="gazette-back-link">← Back to Blog &amp; Editorial Hub</a>
+                <a href="index.html" class="gazette-back-link" data-i18n="blog.back_to_hub">${escapeHtml(backToHubText)}</a>
                 <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
                 <div class="gazette-masthead-links">
-                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode">📜 Script Mode</a>
-                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode">📺 Stage Mode</a>
+                    <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode" data-i18n="blog.script_mode">${escapeHtml(scriptModeText)}</a>
+                    <a href="?stage=1" class="gazette-mode-link" title="Open 16:9 Stage View Mode" data-i18n="blog.stage_mode">${escapeHtml(stageModeText)}</a>
                 </div>
             </div>
             <div class="gazette-masthead-meta">
                 <span>${escapeHtml(issueNum)} • ${escapeHtml(issueTitle)}</span>
-                <span class="stamp-sticker">${escapeHtml(desk)}</span>
+                <span class="stamp-sticker" ${deskKey ? `data-i18n="desk.${deskKey}"` : ''}>${escapeHtml(translatedDesk)}</span>
                 <span>${escapeHtml(post.date)}</span>
             </div>
         </header>
@@ -479,7 +553,7 @@ async function buildBlog() {
             ${coverSvgHtml ? `<div class="gazette-cover-art-container">${coverSvgHtml}</div>` : ''}
 
             <div class="gazette-header-content">
-                <span class="editorial-kicker">${escapeHtml(kicker)}</span>
+                <span class="editorial-kicker" ${kickerKey ? `data-i18n="desk.${kickerKey}"` : ''}>${escapeHtml(translatedKicker)}</span>
                 <h1 class="cover-headline">${escapeHtml(post.title)}</h1>
                 <p class="editorial-dek">${escapeHtml(post.dek)}</p>
 
@@ -488,13 +562,13 @@ async function buildBlog() {
                 <div class="post-byline-row">
                     <div class="byline-author">
                         <span class="post-author-avatar">J</span>
-                        <span>Written by <strong>${escapeHtml(authorName)}</strong></span>
+                        <span><span data-i18n="blog.written_by">${escapeHtml(writtenByText)}</span> <strong>${escapeHtml(authorName)}</strong></span>
                     </div>
                     <div class="byline-meta">
                         <span>📅 ${escapeHtml(post.date)}</span>
-                        <span>⏱️ ${post.readingTime} min read</span>
+                        <span>⏱️ ${post.readingTime} <span data-i18n="blog.min_read">${escapeHtml(minReadText)}</span></span>
                         <span class="stamp-sticker">${escapeHtml(post.level || 'A0–B2')}</span>
-                        ${post.podcast ? `<span class="stamp-sticker">EPISODE ${post.podcast.episode}</span>` : ''}
+                        ${post.podcast ? `<span class="stamp-sticker">${escapeHtml(epBadgeText)}</span>` : ''}
                     </div>
                 </div>
             </div>
@@ -519,23 +593,23 @@ async function buildBlog() {
             <!-- Collapsed Founder Deck & Colophon Block -->
             <details class="founder-colophon-block" style="margin-top: 2.5rem;">
                 <summary class="founder-colophon-summary">
-                    <span>🎙️ Founder's Editorial Room &amp; Colophon Deck</span>
-                    <span class="colophon-toggle-badge">Expand Deck ▼</span>
+                    <span data-i18n="blog.founder_deck_title">${escapeHtml(founderDeckTitleText)}</span>
+                    <span class="colophon-toggle-badge" data-i18n="blog.expand_deck">${escapeHtml(expandDeckText)}</span>
                 </summary>
                 <div class="founder-colophon-content">
-                    <p><strong>CELTA Pedagogical Focus:</strong> Target CEFR Level ${escapeHtml(post.level || 'A0–B2')}. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).</p>
-                    <p><strong>Editorial Notes by JY DM:</strong> CELTA-aligned target-language guidance by JY DM for COSYmagazine ${escapeHtml(issueTitle)} edition.</p>
+                    <p><strong data-i18n="blog.celta_focus_title">${escapeHtml(celtaFocusTitleText)}</strong> ${celtaFocusBodyText}</p>
+                    <p><strong>${escapeHtml(editorialNotesTitleText)}</strong> ${editorialNotesBodyText}</p>
                     <div class="colophon-actions">
-                        <a href="?script=1" class="colophon-btn">📜 Teleprompter Script View Mode</a>
-                        <a href="?stage=1" class="colophon-btn">📺 16:9 Stage View Mode</a>
+                        <a href="?script=1" class="colophon-btn" data-i18n="blog.teleprompter_script_view_mode">${escapeHtml(scriptViewModeText)}</a>
+                        <a href="?stage=1" class="colophon-btn" data-i18n="blog.stage_view_mode">${escapeHtml(stageViewModeText)}</a>
                     </div>
                 </div>
             </details>
 
             <div class="gazette-folio">
                 <span>🗞️ COSY Gazette • ${escapeHtml(issueNum)}</span>
-                <a href="index.html" class="read-more-link">← Return to Blog Index</a>
-                <span>Page 1 of 1</span>
+                <a href="index.html" class="read-more-link" data-i18n="blog.return_to_index">${escapeHtml(returnToIndexText)}</a>
+                <span>${escapeHtml(pageXofYText)}</span>
             </div>
         </main>
 

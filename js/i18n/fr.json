@@ -8,7 +8,11 @@
     "contact": "Contactez-nous",
     "languages": "Langues 🌍",
     "myLessons": "Mes cours 🔐",
-    "login": "🔐 Connexion"
+    "login": "🔐 Connexion",
+    "courses": "Cours",
+    "calculator": "Calculateur",
+    "blog": "Blog",
+    "placement_quiz": "Test de niveau"
   },
   "footer": {
     "courses": "Cours",
@@ -115,5 +119,55 @@
   },
   "long_reads": {
     "description": "Nous lisons et discutons des micro-chapitres de livres non-fictionnels, de livres audio et de podcasts longs exceptionnels. Explorez des idées profondes, analysez des chapitres et repoussez vos limites de conversation."
+  },
+  "desk": {
+    "front_page": "À la une",
+    "words": "Mots",
+    "grammar_made_cosy": "Grammaire Cosy",
+    "say_it": "Dites-le",
+    "culture_quotes": "Culture & Citations",
+    "long_reads": "Lectures longues",
+    "cosy_events": "Événements Cosy",
+    "the_podcast": "Le Podcast",
+    "back_issues": "Archives & Numéros"
+  },
+  "blog": {
+    "back_to_hub": "← Retour au hub éditorial et blog",
+    "script_mode": "📜 Mode Script",
+    "stage_mode": "📺 Mode Scène",
+    "script_view": "📜 Vue Script",
+    "stage_view": "📺 Vue Scène",
+    "read_in": "Lire en :",
+    "written_by": "Écrit par",
+    "min_read": "min de lecture",
+    "return_to_index": "← Retour à l'index du blog",
+    "back_to_home": "← Retour à l'accueil COSYlanguages",
+    "founder_deck_title": "🎙️ Salle éditoriale du fondateur & colophon",
+    "expand_deck": "Développer ▼",
+    "celta_focus_title": "Objectif pédagogique CELTA :",
+    "celta_focus_text": "Niveau CECRL visé : {level}. Axé sur les améliorations conversationnelles naturelles, la fluidité orale et les questions de vérification de concept CELTA (CCQ).",
+    "editorial_notes_title": "Notes éditoriales par {author} :",
+    "editorial_notes_text": "Directives en langue cible alignées CELTA par {author} pour l'édition {issue} de COSYmagazine.",
+    "teleprompter_script_view_mode": "📜 Mode affichage script téléprompteur",
+    "stage_view_mode": "📺 Mode vue scène 16:9",
+    "episode": "ÉPISODE",
+    "podcast_in_production": "🎙️ Enregistrement audio en production pour cet épisode.",
+    "listen_while_reading": "🎧 Écouter en lisant",
+    "readalong_active": "✨ Synchro lecture active",
+    "ready_to_start": "Prêt à démarrer la présentation...",
+    "clean_view": "🔴 Vue épurée",
+    "outro_title": "COSYlanguages",
+    "outro_subtitle": "Apprenez les langues naturellement, en conversant et avec élégance.",
+    "exit_script_view": "← Quitter la vue script",
+    "podcast_script_mode": "🎙️ Mode script podcast",
+    "est_duration": "⏱️ Durée est. :",
+    "words_count": "mots",
+    "level_label": "Niveau :",
+    "font_size": "Taille de police",
+    "auto_scroll": "Défilement auto",
+    "mirror_glass": "Miroir",
+    "flip_mirror": "🪞 Inverser miroir",
+    "export_script": "Exporter le script",
+    "end_of_script": "--- FIN DU SCRIPT PODCAST ---"
   }
 }
