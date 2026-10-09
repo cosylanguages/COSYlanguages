@@ -23,6 +23,14 @@
   box-sizing: border-box;
 }
 
+/* Hide site-wide ecosystem bar and app navbar on blog post pages */
+.blog-page #cosy-nav,
+.blog-page .cosy-ecosystem-strip,
+.blog-page #cosy-nav-drawer,
+.blog-page .cosy-navbar {
+  display: none !important;
+}
+
 /* 2. Vogue Gazette Slim Masthead */
 
 .gazette-masthead {
@@ -38,6 +46,33 @@
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.gazette-masthead-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.gazette-home-link {
+  color: var(--blog-ink-secondary, #44403c);
+  font-weight: 700;
+  font-size: var(--blog-text-sm, 0.875rem);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.gazette-home-link:hover,
+.gazette-home-link:focus-visible {
+  color: var(--post-palette-accent, #0d9488);
+  text-decoration: underline;
+}
+
+.gazette-link-sep {
+  color: var(--blog-ink-muted, #a8a29e);
+  font-size: 0.75rem;
 }
 
 .gazette-back-link {
@@ -115,28 +150,50 @@
 /* 3. Hero Section & Cover Art */
 
 .gazette-cover-hero {
-  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .gazette-cover-art-container {
   width: 100%;
+  max-height: 30vh;
+  aspect-ratio: 16 / 9;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--blog-shadow-paper, 0 4px 20px rgba(0,0,0,0.06));
   border: 1px solid var(--blog-border-delicate, #e7e0d6);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   background: var(--blog-paper-aged, #f3ede4);
+  flex-shrink: 0;
 }
 
 .gazette-cover-art-container svg {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
 .gazette-header-content {
+  width: 100%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0;
+}
+
+@media (min-width: 860px) {
+  .gazette-cover-hero {
+    display: grid;
+    grid-template-columns: minmax(320px, 420px) 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .gazette-cover-art-container {
+    max-height: 40vh;
+    aspect-ratio: 4 / 3;
+  }
 }
 
 .editorial-kicker {
@@ -144,30 +201,34 @@
   font-size: var(--blog-text-xs, 0.75rem);
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   color: var(--post-palette-accent, #0d9488);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
+  background: rgba(13, 148, 136, 0.08);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
 }
 
 .cover-headline {
   font-family: var(--post-font-display, 'Fraunces', serif);
-  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
   font-weight: 900;
-  line-height: 1.18;
-  margin: 0.4rem 0 1rem;
+  line-height: 1.14;
+  letter-spacing: -0.015em;
+  margin: 0.25rem 0 0.85rem;
   color: var(--post-palette-text, #1c1917);
   word-break: break-word;
 }
 
 .editorial-dek {
   font-family: var(--post-font-display, 'Fraunces', serif);
-  font-size: var(--blog-text-lg, 1.25rem);
+  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.42;
   color: var(--blog-ink-secondary, #44403c);
   border-left: 4px solid var(--post-palette-accent, #0d9488);
-  padding-left: 1.25rem;
-  margin: 1rem 0 1.5rem 0;
+  padding-left: 1rem;
+  margin: 0.75rem 0 1rem 0;
 }
 
 /* Byline Row */
@@ -176,11 +237,11 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
-  padding: 0.85rem 0;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
   border-top: 1px solid var(--blog-border-delicate, #e7e0d6);
   border-bottom: 1px solid var(--blog-border-delicate, #e7e0d6);
-  margin-top: 1.25rem;
+  margin-top: 1rem;
   font-size: var(--blog-text-sm, 0.875rem);
 }
 

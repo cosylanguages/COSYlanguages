@@ -208,15 +208,86 @@ export function renderCover(post, options = {}) {
     `;
   }
 
+  const collagePrng = createPRNG(`${seed}-collage`);
+  const c1 = palette[0] || '#1e293b';
+  const c2 = palette[1] || '#0d9488';
+  const c3 = palette[2] || '#f59e0b';
+  const bg = palette[3] || '#faf7f2';
+
+  // 1. Cut-out collage layer (overlapping paper shapes with soft drop shadow)
+  const paperCount = collagePrng.rangeInt(2, 4);
+  let paperShapes = '';
+
+  for (let i = 0; i < paperCount; i++) {
+    const pw = collagePrng.rangeInt(Math.round(width * 0.25), Math.round(width * 0.42));
+    const ph = collagePrng.rangeInt(Math.round(height * 0.32), Math.round(height * 0.55));
+    const px = collagePrng.rangeInt(Math.round(width * 0.08), Math.round(width * 0.55));
+    const py = collagePrng.rangeInt(Math.round(height * 0.12), Math.round(height * 0.42));
+    const rot = collagePrng.rangeInt(-12, 12);
+    const color = collagePrng.pick([bg, '#ffffff', c2, c3]);
+    const strokeColor = collagePrng.pick([c1, c2]);
+
+    paperShapes += `
+      <g transform="rotate(${rot} ${px + pw/2} ${py + ph/2})">
+        <rect x="${px}" y="${py}" width="${pw}" height="${ph}" rx="6" fill="${color}" opacity="0.82" stroke="${strokeColor}" stroke-width="1.5" filter="url(#soft-shadow)" />
+      </g>
+    `;
+  }
+
+  // 2. Hand-drawn sketchy underline path
+  const ulX1 = collagePrng.rangeInt(40, 100);
+  const ulX2 = ulX1 + collagePrng.rangeInt(180, 280);
+  const ulY = height - collagePrng.rangeInt(30, 60);
+  const midX = Math.round((ulX1 + ulX2) / 2);
+  const midY = ulY + collagePrng.rangeInt(-8, 8);
+  const underlineSvg = `
+    <g class="cover-sketchy-underline">
+      <path d="M ${ulX1} ${ulY} Q ${midX} ${midY} ${ulX2} ${ulY + collagePrng.rangeInt(-3, 3)}" stroke="${c3}" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.85" />
+      <path d="M ${ulX1 + 10} ${ulY + 4} Q ${midX} ${midY + 4} ${ulX2 - 10} ${ulY + 2}" stroke="${c2}" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6" />
+    </g>
+  `;
+
+  // 3. Masthead-style label tag
+  const desk = post ? (post.desk || 'Front Page') : 'Front Page';
+  const labelText = `COSY GAZETTE • ${desk.toUpperCase()}`;
+  const labelW = Math.min(width - 40, Math.max(220, labelText.length * 8 + 36));
+  const labelH = 32;
+  const labelX = 20;
+  const labelY = 20;
+
+  const mastheadLabelSvg = `
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="${labelX}" y="${labelY}" width="${labelW}" height="${labelH}" rx="4" fill="${c1}" opacity="0.92" stroke="${c2}" stroke-width="1.5" />
+      <text x="${labelX + 14}" y="${labelY + 21}" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">${escapeXml(labelText)}</text>
+    </g>
+  `;
+
   return `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="${motif}" data-seed="${escapeXml(seed)}" data-lang="${lang}">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="3" dy="5" stdDeviation="4" flood-color="#000000" flood-opacity="0.18" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.06" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
       ${artworkSvg}
+      ${paperShapes}
+      ${underlineSvg}
+      ${mastheadLabelSvg}
       ${textOverlay}
+      <rect width="${width}" height="${height}" filter="url(#paper-grain)" opacity="0.6" pointer-events="none" />
     </svg>
   `.trim();
 }
