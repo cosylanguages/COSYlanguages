@@ -21,10 +21,14 @@ body.stage-mode-active {
 /* Hide header, navigation, and footer in stage mode or script mode */
 body.stage-mode-active header,
 body.stage-mode-active footer,
+body.stage-mode-active #cosy-nav,
+body.stage-mode-active .nav-container,
 body.stage-mode-active .nav-bar,
 body.stage-mode-active .site-footer,
 body.script-mode-active header,
 body.script-mode-active footer,
+body.script-mode-active #cosy-nav,
+body.script-mode-active .nav-container,
 body.script-mode-active .nav-bar,
 body.script-mode-active .site-footer {
   display: none !important;
@@ -72,6 +76,22 @@ body.script-mode-active .site-footer {
   justify-content: center;
 }
 
+/* Cover Art Opening Scene */
+.stage-title-cover-art {
+  max-width: 600px;
+  max-height: 280px;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.stage-title-cover-art svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* Stage Cards */
 .stage-card {
   text-align: center;
@@ -80,10 +100,10 @@ body.script-mode-active .site-footer {
 }
 
 .stage-kicker {
-  font-family: 'Fraunces', serif;
+  font-family: var(--post-font-display, 'Fraunces', serif);
   font-size: 1.25rem;
   font-weight: 800;
-  color: #d69e2e;
+  color: var(--post-palette-highlight, #d69e2e);
   letter-spacing: 0.15em;
   text-transform: uppercase;
   display: block;
@@ -126,12 +146,65 @@ body.script-mode-active .site-footer {
 }
 
 .stage-pullquote {
-  border-left: 6px solid #0d9488;
+  border-left: 6px solid var(--post-palette-accent, #0d9488);
   background: rgba(13, 148, 136, 0.08);
-  font-family: 'Fraunces', serif;
+  font-family: var(--post-font-display, 'Fraunces', serif);
   font-size: 1.8rem;
   font-style: italic;
   padding: 2rem;
+}
+
+/* Table Row Groups in Stage Mode */
+.stage-table-container {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.stage-table-headers {
+  display: flex;
+  font-weight: 800;
+  border-bottom: 2px solid var(--post-palette-accent, #0d9488);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.stage-table-header {
+  flex: 1;
+  padding: 0 0.5rem;
+}
+
+.stage-table-row-group {
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--post-palette-accent, #0d9488);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.stage-table-row {
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.stage-table-row:last-child {
+  border-bottom: none;
+}
+
+.stage-table-cell {
+  flex: 1;
+  padding: 0 0.5rem;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.stage-table-cell.col-0 {
+  font-weight: 700;
+  color: var(--post-palette-accent, #0d9488);
 }
 
 /* Spotlight Dim Effect */

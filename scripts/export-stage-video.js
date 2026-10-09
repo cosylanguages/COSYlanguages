@@ -23,6 +23,7 @@ function parseArgs() {
   let slug = null;
   let audioFile = null;
   let outDir = path.join(REPO_ROOT, 'dist', 'videos');
+  let fps = 10;
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
@@ -30,6 +31,8 @@ function parseArgs() {
       audioFile = args[++i];
     } else if (arg === '--out' && i + 1 < args.length) {
       outDir = path.resolve(process.cwd(), args[++i]);
+    } else if (arg === '--fps' && i + 1 < args.length) {
+      fps = parseInt(args[++i], 10) || 10;
     } else if (!arg.startsWith('--') && !slug) {
       slug = arg;
     }
@@ -37,11 +40,11 @@ function parseArgs() {
 
   if (!slug) {
     console.error('❌ Error: Missing required <slug> argument.');
-    console.error('Usage: node scripts/export-stage-video.js <slug> [--audio file] [--out dir]');
+    console.error('Usage: node scripts/export-stage-video.js <slug> [--audio file] [--out dir] [--fps num]');
     process.exit(1);
   }
 
-  return { slug, audioFile, outDir };
+  return { slug, audioFile, outDir, fps };
 }
 
 const MIME_TYPES = {
@@ -134,7 +137,7 @@ function findAudioPath(slug, explicitAudio) {
 }
 
 async function exportStageVideo() {
-  const { slug, audioFile, outDir } = parseArgs();
+  const { slug, audioFile, outDir, fps } = parseArgs();
 
   console.log(`🎬 Exporting Stage Mode Video for slug: "${slug}"...`);
 
@@ -172,7 +175,13 @@ async function exportStageVideo() {
       deviceScaleFactor: 1
     });
 
-    const targetUrl = `http://127.0.0.1:${port}/blog/stage-demo.html?stage=1&render=1&slug=${slug}`;
+    const htmlFileOnDisk = path.join(REPO_ROOT, 'blog', `${slug}.html`);
+    let targetUrl;
+    if (fs.existsSync(htmlFileOnDisk)) {
+      targetUrl = `http://127.0.0.1:${port}/blog/${slug}.html?stage=1&render=1`;
+    } else {
+      targetUrl = `http://127.0.0.1:${port}/blog/stage-demo.html?stage=1&render=1&slug=${slug}`;
+    }
     console.log(`🔗 Loading Stage Mode: ${targetUrl}`);
 
     await page.goto(targetUrl, { waitUntil: 'networkidle' });
@@ -184,7 +193,6 @@ async function exportStageVideo() {
     const audioDurationMs = getAudioDurationMs(resolvedAudio);
 
     const renderDurationMs = Math.max(stageDurationMs, audioDurationMs);
-    const fps = 30;
     const totalFrames = Math.ceil((renderDurationMs / 1000) * fps);
 
     console.log(`📊 Presentation Duration: ${(stageDurationMs / 1000).toFixed(2)}s | Audio: ${(audioDurationMs / 1000).toFixed(2)}s | Target Render: ${(renderDurationMs / 1000).toFixed(2)}s (${totalFrames} frames @ ${fps}fps)`);
@@ -195,10 +203,10 @@ async function exportStageVideo() {
       const timeMs = Math.round((f / fps) * 1000);
       await page.evaluate((t) => window.__seekStageTime(t), timeMs);
 
-      const frameFilename = `frame_${String(f + 1).padStart(5, '0')}.png`;
+      const frameFilename = `frame_${String(f + 1).padStart(5, '0')}.jpg`;
       const framePath = path.join(tempFramesDir, frameFilename);
 
-      await page.screenshot({ path: framePath, type: 'png' });
+      await page.screenshot({ path: framePath, type: 'jpeg', quality: 85 });
 
       if ((f + 1) % 30 === 0 || f + 1 === totalFrames) {
         const percent = Math.round(((f + 1) / totalFrames) * 100);
@@ -213,7 +221,7 @@ async function exportStageVideo() {
 
     console.log(`🎥 Stitching video with FFmpeg -> ${outputVideoPath}`);
 
-    const inputPattern = path.join(tempFramesDir, 'frame_%05d.png');
+    const inputPattern = path.join(tempFramesDir, 'frame_%05d.jpg');
     let ffmpegCmd = '';
 
     if (resolvedAudio) {
