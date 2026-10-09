@@ -25,7 +25,7 @@ Every COSY Passport JSON file MUST conform to the following schema:
       "value": "proficient"
     },
     {
-      "source": "COSYworld",
+      "source": "COSYgames",
       "item": "district.market.vendor_chat",
       "value": 1
     }
@@ -67,7 +67,7 @@ The `source` field MUST strictly be one of the five official ecosystem applicati
 
 1. `COSYlanguages` — Primary textbook portal, CEFR courses, and grammar manuals.
 2. `COSYtools` — Standalone linguistic reference engines (conjugators, gender trainers, prepositional regimes).
-3. `COSYworld` — Interactive 2D/3D direct immersion RPG environments and NPC dialogue scenes.
+3. `COSYgames` — Interactive 2D/3D direct immersion RPG environments and NPC dialogue scenes.
 4. `COSYgames` — Minigames, card decks, and vocabulary practice engines.
 5. `COSYevents` — Thematic speaking clubs and multimedia event night session records.
 
