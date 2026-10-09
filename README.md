@@ -1,72 +1,14 @@
 # COSYlanguages
 
-A cosy, immersive language learning platform. Similar in spirit to Skyeng but focused on genuine learning over monetisation.
+COSYlanguages is an open-access, static web portal and language-learning framework providing free discovery hubs, communicative practice tools, a placement quiz, and printable study resources across 14 target languages.
 
-This repository (`COSYlanguages`) is the **public entry point** to the COSYlanguages ecosystem. It provides free language discovery, practice tools, a placement quiz, and print resources, and it also introduces teacher-led courses, pricing, and events to prospective learners. Paid course delivery and restricted manuals are handled by companion services; some print and classroom tools remain here while their future repository boundaries are decided.
-
-## Live site
+## Live Site
 https://cosylanguages.github.io/COSYlanguages/
 
-## Languages
-| Code | Language | Status | Notes |
-|------|----------|--------|-------|
-| en | English | ✅ Active | — |
-| fr | French | ✅ Active | — |
-| it | Italian | ✅ Active | — |
-| ru | Russian | ✅ Active | — |
-| el | Greek | ✅ Active | — |
-| es | Spanish | 🔜 Coming soon | May have partial data |
-| de | German | 🔜 Coming soon | May have partial data |
-| pt | Portuguese | 🔜 Coming soon | May have partial data |
-| hy | Armenian | 🔜 Coming soon | May have partial data |
-| ka | Georgian | 🔜 Coming soon | May have partial data |
-| tt | Tatar | 🔜 Coming soon | May have partial data |
-| ba | Bashkir | 🔜 Coming soon | May have partial data |
-| br | Breton | 🔜 Coming soon | May have partial data |
-| cv | Chuvash | 🔜 Coming soon | May have partial data |
+## Related Repositories
+- [COSYdata](https://github.com/cosylanguages/COSYdata) — Canonical vocabulary datasets and central lexical index across target languages.
+- [COSYtools](https://github.com/cosylanguages/COSYtools) — Linguistic reference tools and standalone offline micro-apps.
+- [COSYgames](https://github.com/cosylanguages/COSYgames) — Interactive minigames hub for self-study and classroom practice.
+- [COSYevents](https://github.com/cosylanguages/COSYevents) — Speaking club decks, cinema nights, and multimedia community events.
 
-> Coming soon languages may already have grammar, vocabulary, or curriculum data in the repo.
-> They are marked "coming soon" on the public site until published.
-
-
-## Core principle
-No translation fallback. If the platform is in Greek, everything is in Greek. If in English, everything is in English. Navigation is aided by emojis and icons, not by translation.
-
-## Platform Status
-This repository is free and open-access. Student, teacher and founder sign-in (login.html, Supabase) leads to COSYplatform and COSYmanuals, which are separate repositories. Paid courses and events are built and hosted separately in `COSYplatform` and `COSYevents` respectively.
-
-## COSY Passport (Progress Backup & Sync)
-
-COSYtools supports the unified, accountless **COSY Passport** format. Learners can easily backup, export, and restore their learning progress across all 12 reference engines (such as spaced-repetition streaks, SRS Leitner mastery levels, and daily goals) directly on the tools hub page:
-
-- **Export progress:** Click "📥 Export progress" on the reference engines hub to download your `cosy-passport.json` backup file.
-- **Import progress:** Click "📤 Import progress" and select a valid passport JSON file to restore your progress. Only entries with source `"COSYtools"` are applied locally, keeping data from other COSY ecosystem apps completely safe and intact.
-
-## Ecosystem Taxonomy & Repositories
-
-COSYlanguages is organized as a distributed ecosystem of specialized sub-products, with this repository (`COSYlanguages`) serving as the primary free hub, orchestrator, and textbook portal.
-
-### Companion Repositories
-1. **[COSYmanuals](https://github.com/cosylanguages/COSYmanuals):** All CEFR HTML grammar, vocabulary, and communication manuals live in COSYmanuals (`manuals/`).
-2. **[COSYevents](https://github.com/cosylanguages/COSYevents):** Public speaking club session decks, multimedia event night guides, and group conversation materials.
-3. **[COSYgames](https://github.com/cosylanguages/COSYgames):** Interactive practice minigames hub (22+ games) for self-study and live online/offline classroom teaching.
-4. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic encyclopedia (12 micro-apps for verb conjugators, gender trainers, case systems, and prepositional regime tools).
-5. **[COSYplatform](https://github.com/cosylanguages/COSYplatform):** Host for structured paid CEFR course tracks.
-
-**Ecosystem Relationship Model:** This repository (`COSYlanguages`) hosts free curriculum-integrated games and practice tools directly tied to course tracks and CEFR levels. Meanwhile, companion repositories (`COSYtools`, `COSYgames`, `COSYevents`) host standalone, accountless web-based versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](docs/passport-schema.md)).
-
-### Future Extraction Candidates
-- **`COSYstudio` (proposed):** Pedagogical print studio, zine builder, and boardgame generator (`print-studio/`).
-- **`COSYclassroom` (proposed):** Live screen sync and presentation tool (`apps/classroom-sync/index.html`).
-- **`COSYcourses` (proposed):** Course discovery pages currently under `courses/`; no standalone course application is present in this repository.
-
-### Central Ecosystem Hub (`COSYlanguages`)
-- **Unified Master Portal & Gateway:** Central directory, multi-product switcher, and global diagnostic placement quiz (`placement-quiz.html`).
-- **Interactive CEFR Web Textbooks:** Direct links to COSYmanuals for grammar, vocabulary, and communication manuals across all 14 supported languages.
-- **Language Hubs (`languages/{iso}/index.html`):** Portal pages featuring daily dose facts, idioms, and level roadmaps.
-
-For a detailed analysis of repository candidates and ecosystem architecture, see [`docs/ECOSYSTEM_ARCHITECTURE.md`](docs/ECOSYSTEM_ARCHITECTURE.md).
-
-## Running locally
-Open `index.html` directly in a browser, or use a local server:
-npx serve .
+Copyright (c) 2020-2026 COSY Languages. All rights reserved.

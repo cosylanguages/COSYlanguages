@@ -156,7 +156,15 @@
             margin-bottom: 0.25rem;
         }
     </style>
+    <meta name="description" content="Select a language and level to generate a printable guide.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/print-studio/print-grammar.html">
+    <meta property="og:title" content="Print Grammar Reference — COSYlanguages">
+    <meta property="og:description" content="Select a language and level to generate a printable guide.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/print-studio/print-grammar.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Print Grammar Reference — COSYlanguages">
+    <meta name="twitter:description" content="Select a language and level to generate a printable guide.">
 </head>
 <body class="print-preview">
 
@@ -308,7 +316,7 @@ function renderPrintPage(lang, level, type) {
     let headerHtml = `
         <div class="grammar-header-banner">
             <img src="../images/logos/cosylanguages.png" alt="COSYlanguages" class="grammar-header-logo">
-            <h1 class="grammar-header-title">${lang.toUpperCase()} Grammar Guide</h1>
+            <h2 class="grammar-header-title">${lang.toUpperCase()} Grammar Guide</h2>
             <div class="grammar-header-meta">Level: ${level.toUpperCase()} — Category: ${type.toUpperCase()}</div>
         </div>
     `;

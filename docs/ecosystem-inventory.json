@@ -8,7 +8,7 @@
       "COSYlanguages",
       "COSYmanuals",
       "COSYevents",
-      "COSYworld",
+      "COSYgames",
       "COSYgames",
       "COSYtools"
     ]
@@ -416,7 +416,7 @@
         }
       ]
     },
-    "COSYworld": {
+    "COSYgames": {
       "role": "Self-Study Open-World RPG Adventure Game & Spatial Scene Environments",
       "framework_and_tech_stack": {
         "languages": [
@@ -425,14 +425,14 @@
           "CSS3"
         ],
         "framework": "Spatial Canvas Rendering Engine & 3D Scene Viewer",
-        "package_manager": "Extracted to standalone repo (COSYworld)",
+        "package_manager": "Extracted to standalone repo (COSYgames)",
         "build_system": "Standalone repository build process",
-        "deployment": "Standalone GitHub Pages (https://cosylanguages.github.io/COSYworld)"
+        "deployment": "Standalone GitHub Pages (https://cosylanguages.github.io/COSYgames)"
       },
       "routes_and_pages": [
         {
-          "route": "https://cosylanguages.github.io/COSYworld/",
-          "description": "External COSYworld Standalone Application",
+          "route": "https://cosylanguages.github.io/COSYgames/",
+          "description": "External COSYgames Standalone Application",
           "type": "External SPA"
         }
       ],

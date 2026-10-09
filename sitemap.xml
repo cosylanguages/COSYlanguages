@@ -1,22 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/</loc>
+    <loc>https://cosylanguages.github.io/COSYlanguages/404.html</loc>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/about/index.html</loc>
   </url>
   <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/admin/crm.html</loc>
+  </url>
+  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/apps/index.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-courses/exam/index.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-courses/general/index.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-courses/index.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-courses/professional/index.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-courses/relocation/index.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-courses/spoken/index.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-courses/travelling/index.html</loc>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/apps/premium-events/index.html</loc>
   </url>
   <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/art-contact-sheet.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/design-system.html</loc>
+  </url>
+  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/blog/index.html</loc>
   </url>
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-5-favourite-grammar-rules.html</loc>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/podcast.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-el.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-it.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases-ru.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-50-overused-phrases.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-el.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-it.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives-ru.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/replace-very-50-stronger-adjectives.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/stage-demo-podcast.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/stage-demo.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-el.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-it.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames-ru.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/stop-translating-10-sentence-frames.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-el.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-fr.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-it.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau-ru.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verb-synonyms-intermediate-plateau.html</loc>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-10-verbs.html</loc>
@@ -64,13 +160,13 @@
     <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-100-a0-a1.html</loc>
   </url>
   <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/blog/top-5-favourite-grammar-rules.html</loc>
+  </url>
+  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/blog/welcome-to-cosy-blog.html</loc>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/comparative/index.html</loc>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/components/navigation.html</loc>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/courses/exam-preparation.html</loc>
@@ -104,6 +200,9 @@
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/hybrid/zine.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/</loc>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/ba.html</loc>
@@ -274,6 +373,9 @@
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/tt/index.html</loc>
   </url>
   <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/login.html</loc>
+  </url>
+  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/placement-quiz.html</loc>
   </url>
   <url>
@@ -317,6 +419,24 @@
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/templates/blog-post-template.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/templates/communication/index-template.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/templates/communication/unit-template.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/templates/grammar/lesson-template.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/templates/grammar/roadmap-template.html</loc>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/templates/languages/home-template.html</loc>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/vocabulary/en/en.html</loc>
