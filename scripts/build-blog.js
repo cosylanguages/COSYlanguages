@@ -534,7 +534,11 @@ async function buildBlog() {
         <!-- Vogue Gazette Slim Masthead -->
         <header class="gazette-masthead">
             <div class="gazette-masthead-top">
-                <a href="index.html" class="gazette-back-link" data-i18n="blog.back_to_hub">${escapeHtml(backToHubText)}</a>
+                <div class="gazette-masthead-left">
+                    <a href="../index.html" class="gazette-home-link" title="COSYlanguages Home">🏡 Home</a>
+                    <span class="gazette-link-sep">•</span>
+                    <a href="index.html" class="gazette-back-link" data-i18n="blog.back_to_hub">${escapeHtml(backToHubText)}</a>
+                </div>
                 <h2 class="gazette-masthead-title">COSY GAZETTE</h2>
                 <div class="gazette-masthead-links">
                     <a href="?script=1" class="gazette-mode-link" title="Open Teleprompter Script View Mode" data-i18n="blog.script_mode">${escapeHtml(scriptModeText)}</a>
