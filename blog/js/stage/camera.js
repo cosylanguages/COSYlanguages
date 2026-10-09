@@ -10,6 +10,7 @@ export class StageCamera {
   constructor(stageElement, viewportElement) {
     this.stage = stageElement;
     this.viewport = viewportElement;
+    this.content = viewportElement ? viewportElement.querySelector('#stage-content') : null;
     this.currentTransform = { x: 0, y: 0, scale: 1 };
     this.targetTransform = { x: 0, y: 0, scale: 1 };
     this.animating = false;
@@ -21,43 +22,95 @@ export class StageCamera {
   }
 
   /**
+   * Calculates transform required to center target inside the viewable safe area of stage-viewport,
+   * reserving space for top controls and lower-third captions, and scaling down to fit if needed.
+   */
+  calculateTransformForTarget(target, options = {}) {
+    const vp = this.viewport;
+    const content = this.content || (vp ? vp.querySelector('#stage-content') : null) || vp;
+    if (!vp || !content) return { x: 0, y: 0, scale: 1 };
+
+    let targetEl = null;
+    if (typeof target === 'string') {
+      targetEl = document.querySelector(target);
+    } else if (target && typeof target.getBoundingClientRect === 'function') {
+      targetEl = target;
+    }
+
+    // Fallback if target element is missing, disconnected, or has zero dimensions
+    if (!targetEl || !targetEl.isConnected) {
+      targetEl = content.querySelector('.stage-card') || content.querySelector('#stage-title-card') || content;
+    } else {
+      const r = targetEl.getBoundingClientRect();
+      if (r.width === 0 || r.height === 0) {
+        targetEl = targetEl.closest('.stage-card') || content.querySelector('.stage-card') || content;
+      }
+    }
+
+    const vpRect = vp.getBoundingClientRect();
+
+    // Reset content transform temporarily to measure true unscaled layout offset
+    const savedTransform = content.style.transform;
+    content.style.transform = 'none';
+
+    const contentRect = content.getBoundingClientRect();
+    const targetRect = targetEl.getBoundingClientRect();
+
+    // Restore transform
+    content.style.transform = savedTransform;
+
+    // True unscaled offsets relative to content (0,0)
+    const xLocal = targetRect.left - contentRect.left;
+    const yLocal = targetRect.top - contentRect.top;
+    const wUnscaled = targetRect.width;
+    const hUnscaled = targetRect.height;
+
+    // Center of target in local unscaled content coordinates
+    const xCenterLocal = xLocal + wUnscaled / 2;
+    const yCenterLocal = yLocal + hUnscaled / 2;
+
+    // Insets / Safe area inside viewport (top=20, bottom=120 for lower third caption, side=30)
+    const topInset = options.topInset !== undefined ? options.topInset : 20;
+    const bottomInset = options.bottomInset !== undefined ? options.bottomInset : 120;
+    const sideInset = options.sideInset !== undefined ? options.sideInset : 30;
+
+    const availW = Math.max(100, vpRect.width - sideInset * 2);
+    const availH = Math.max(100, vpRect.height - (topInset + bottomInset));
+
+    // Requested scale vs maximum fit scale
+    const requestedScale = options.scale !== undefined ? options.scale : 1.1;
+    const maxScaleX = availW / (wUnscaled || 1);
+    const maxScaleY = availH / (hUnscaled || 1);
+    const maxFitScale = Math.min(maxScaleX, maxScaleY);
+
+    const finalScale = Math.max(0.1, Math.min(requestedScale, maxFitScale));
+
+    // Desired safe center in viewport-relative coordinates
+    const safeCenterX = sideInset + availW / 2;
+    const safeCenterY = topInset + availH / 2;
+
+    const targetX = safeCenterX - xCenterLocal * finalScale;
+    const targetY = safeCenterY - yCenterLocal * finalScale;
+
+    return {
+      x: Math.round(targetX * 100) / 100,
+      y: Math.round(targetY * 100) / 100,
+      scale: Math.round(finalScale * 1000) / 1000
+    };
+  }
+
+  /**
    * Smoothly transitions camera transform to target bounding element or explicit coordinates.
    */
   moveTo(target, options = {}) {
-    const duration = this.reducedMotion ? 0 : (options.duration || 1000);
-    const easing = options.easing || 'cubic-bezier(0.25, 1, 0.5, 1)';
-    const scale = options.scale || 1;
+    const isRenderMode = typeof document !== 'undefined' && document.body.classList.contains('stage-render-mode');
+    const duration = (this.reducedMotion || isRenderMode) ? 0 : (options.duration !== undefined ? options.duration : 1000);
 
-    let targetX = 0;
-    let targetY = 0;
-
-    if (target && typeof target.getBoundingClientRect === 'function' && this.viewport) {
-      // Calculate offset relative to the unscaled stage-viewport
-      const currentX = this.currentTransform.x;
-      const currentY = this.currentTransform.y;
-      const currentScale = this.currentTransform.scale || 1;
-
-      const rect = target.getBoundingClientRect();
-      const viewportRect = this.viewport.getBoundingClientRect();
-
-      // Unscaled offset of element center from current viewport center
-      const elementCenterX = rect.left + rect.width / 2;
-      const elementCenterY = rect.top + rect.height / 2;
-
-      const viewportCenterX = viewportRect.left + viewportRect.width / 2;
-      const viewportCenterY = viewportRect.top + viewportRect.height / 2;
-
-      const offsetX = (elementCenterX - viewportCenterX) / currentScale;
-      const offsetY = (elementCenterY - viewportCenterY) / currentScale;
-
-      targetX = currentX - offsetX * scale;
-      targetY = currentY - offsetY * scale;
-    } else if (typeof target === 'object' && target !== null) {
-      targetX = target.x || 0;
-      targetY = target.y || 0;
+    if (target && typeof target === 'object' && typeof target.getBoundingClientRect !== 'function' && target.x !== undefined) {
+      this.targetTransform = { x: target.x || 0, y: target.y || 0, scale: options.scale || 1 };
+    } else {
+      this.targetTransform = this.calculateTransformForTarget(target, options);
     }
-
-    this.targetTransform = { x: targetX, y: targetY, scale };
 
     if (duration === 0) {
       this.currentTransform = { ...this.targetTransform };
@@ -70,6 +123,7 @@ export class StageCamera {
       const startY = this.currentTransform.y;
       const startScale = this.currentTransform.scale;
 
+      const { x: targetX, y: targetY, scale: targetScale } = this.targetTransform;
       const startTime = performance.now();
 
       const animate = (now) => {
@@ -81,7 +135,7 @@ export class StageCamera {
 
         this.currentTransform.x = startX + (targetX - startX) * easeProgress;
         this.currentTransform.y = startY + (targetY - startY) * easeProgress;
-        this.currentTransform.scale = startScale + (scale - startScale) * easeProgress;
+        this.currentTransform.scale = startScale + (targetScale - startScale) * easeProgress;
 
         this.applyTransform();
 
@@ -103,20 +157,24 @@ export class StageCamera {
 
   /** Camera Presets */
   focus(element, options = {}) {
-    return this.moveTo(element, { scale: 1.25, duration: 800, ...options });
+    return this.moveTo(element, { scale: 1.1, duration: 800, ...options });
   }
 
   pushIn(element, options = {}) {
-    return this.moveTo(element, { scale: 1.5, duration: 1200, ...options });
+    return this.moveTo(element, { scale: 1.25, duration: 1200, ...options });
   }
 
-  pullBack(options = {}) {
-    return this.moveTo(null, { scale: 1, x: 0, y: 0, duration: 1000, ...options });
+  pullBack(element, options = {}) {
+    if (element && typeof element === 'object' && typeof element.getBoundingClientRect !== 'function') {
+      options = element;
+      element = null;
+    }
+    return this.moveTo(element, { scale: 1, duration: 1000, ...options });
   }
 
   panAcross(startElement, endElement, options = {}) {
-    return this.moveTo(startElement, { scale: 1.2, duration: 600 }).then(() => {
-      return this.moveTo(endElement, { scale: 1.2, duration: 1400, ...options });
+    return this.moveTo(startElement, { scale: 1.1, duration: 600 }).then(() => {
+      return this.moveTo(endElement, { scale: 1.1, duration: 1400, ...options });
     });
   }
 
@@ -150,36 +208,12 @@ export class StageCamera {
       ? document.querySelector(beat.targetSelector)
       : null;
 
-    let scale = 1;
+    let scale = 1.1;
     if (preset === 'push-in') scale = 1.25;
     else if (preset === 'focus' || preset === 'spotlight') scale = 1.1;
     else if (preset === 'pull-back') scale = 1;
 
-    let x = 0;
-    let y = 0;
-
-    if (preset !== 'pull-back' && targetEl && typeof targetEl.getBoundingClientRect === 'function' && this.viewport) {
-      const currentX = this.currentTransform.x;
-      const currentY = this.currentTransform.y;
-      const currentScale = this.currentTransform.scale || 1;
-
-      const rect = targetEl.getBoundingClientRect();
-      const viewportRect = this.viewport.getBoundingClientRect();
-
-      const elementCenterX = rect.left + rect.width / 2;
-      const elementCenterY = rect.top + rect.height / 2;
-
-      const viewportCenterX = viewportRect.left + viewportRect.width / 2;
-      const viewportCenterY = viewportRect.top + viewportRect.height / 2;
-
-      const offsetX = (elementCenterX - viewportCenterX) / currentScale;
-      const offsetY = (elementCenterY - viewportCenterY) / currentScale;
-
-      x = currentX - offsetX * scale;
-      y = currentY - offsetY * scale;
-    }
-
-    return { x, y, scale };
+    return this.calculateTransformForTarget(targetEl, { scale });
   }
 
   /** Synchronously sets transform at a given timestamp/beat for deterministic rendering */
@@ -206,8 +240,9 @@ export class StageCamera {
     if (currentBeat.cameraPreset === 'focus' || currentBeat.cameraPreset === 'spotlight') cameraMoveDuration = 800;
     else if (currentBeat.cameraPreset === 'push-in') cameraMoveDuration = 1200;
 
+    const isRenderMode = typeof document !== 'undefined' && document.body.classList.contains('stage-render-mode');
     let progress = Math.min(1, Math.max(0, localElapsedMs / cameraMoveDuration));
-    if (this.reducedMotion) progress = 1;
+    if (this.reducedMotion || isRenderMode) progress = 1;
 
     const easeProgress = 1 - Math.pow(1 - progress, 3);
 
@@ -221,8 +256,9 @@ export class StageCamera {
   }
 
   applyTransform() {
-    if (!this.viewport) return;
+    const target = this.content || (this.viewport ? this.viewport.querySelector('#stage-content') : null) || this.viewport;
+    if (!target) return;
     const { x, y, scale } = this.currentTransform;
-    this.viewport.style.transform = `translate3d(${x}px, ${y}px, 0px) scale(${scale})`;
+    target.style.transform = `translate3d(${x}px, ${y}px, 0px) scale(${scale})`;
   }
 }

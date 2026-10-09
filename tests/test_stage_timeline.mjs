@@ -110,9 +110,9 @@ test('StageTimeline - Deterministic clock seeking (seekTime and advanceClock)', 
   // Title beat: 4000ms
   // Section 1: 2000ms
   // Paragraph 1: 3000ms
-  // Outro beat: 3500ms
-  // Total = 4000 + 2000 + 3000 + 3500 = 12500ms
-  assert.strictEqual(timeline.getTotalDuration(), 12500);
+  // Outro beat: 5200ms
+  // Total = 4000 + 2000 + 3000 + 5200 = 14200ms
+  assert.strictEqual(timeline.getTotalDuration(), 14200);
 
   // Seek to t = 0 (Title beat)
   let state = timeline.seekTime(0);
@@ -127,7 +127,7 @@ test('StageTimeline - Deterministic clock seeking (seekTime and advanceClock)', 
   assert.strictEqual(state.activeIndex, 1);
   assert.strictEqual(mockCameraTimeCall.activeIndex, 1);
   assert.strictEqual(mockCameraTimeCall.localElapsed, 1000);
-  assert.strictEqual(currentRatio, 5000 / 12500);
+  assert.strictEqual(currentRatio, 5000 / 14200);
 
   // Advance clock by 2000ms to t = 7000ms (Paragraph 1 beat, 1000ms into beat)
   state = timeline.advanceClock(2000);
@@ -136,9 +136,9 @@ test('StageTimeline - Deterministic clock seeking (seekTime and advanceClock)', 
   assert.strictEqual(mockCameraTimeCall.activeIndex, 2);
   assert.strictEqual(mockCameraTimeCall.localElapsed, 1000);
 
-  // Seek beyond end (t = 15000ms clamped to 12500ms)
-  state = timeline.seekTime(15000);
-  assert.strictEqual(state.currentTimeMs, 12500);
+  // Seek beyond end (t = 16000ms clamped to 14200ms)
+  state = timeline.seekTime(16000);
+  assert.strictEqual(state.currentTimeMs, 14200);
   assert.strictEqual(state.activeIndex, 3);
   assert.strictEqual(state.isFinished, true);
 });

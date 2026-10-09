@@ -232,7 +232,7 @@ export class StageTimeline {
         this.camera.pushIn(targetEl);
       } else if (beat.cameraPreset === 'pull-back') {
         this.camera.clearSpotlight();
-        this.camera.pullBack();
+        this.camera.pullBack(targetEl);
       } else if (targetEl) {
         this.camera.clearSpotlight();
         this.camera.focus(targetEl);
