@@ -5,7 +5,7 @@
  */
 
 import { createPRNG } from './rng.js';
-import { MOTIFS, DEFAULT_PALETTES } from './motifs.js';
+import { MOTIFS, DEFAULT_PALETTES, LANG_PALETTE_ACCENTS } from './motifs.js';
 
 function escapeXml(str) {
   if (!str) return '';
@@ -16,33 +16,91 @@ function escapeXml(str) {
     .replace(/"/g, '&quot;');
 }
 
+/** Get base slug without language suffix or translationOf key */
+export function getBaseSlug(post) {
+  if (!post) return 'cosy-post';
+  if (post.translationOf) return post.translationOf;
+  const slug = post.slug || 'cosy-post';
+  return slug.replace(/-(fr|it|ru|el|es|de|pt|hy|ka|tt|ba|br|cv)$/, '');
+}
+
+/** Hash string deterministically to a motif name */
+export function hashStringToMotif(str) {
+  const motifKeys = Object.keys(MOTIFS);
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash << 5) - hash + str.charCodeAt(i);
+    hash |= 0;
+  }
+  const index = Math.abs(hash) % motifKeys.length;
+  return motifKeys[index];
+}
+
 /** Resolves artDirection configuration with sensible defaults */
 export function resolveArtDirection(post) {
   const art = (post && post.artDirection) || {};
   const desk = post ? (post.desk || 'Front Page') : 'Front Page';
-  const slug = post ? (post.slug || 'cosy-post') : 'cosy-post';
+  const baseSlug = getBaseSlug(post);
+  const lang = post ? (post.language || 'en') : 'en';
 
   const defaultPalette = DEFAULT_PALETTES[desk] || DEFAULT_PALETTES['Front Page'];
-  const palette = (art.palette && art.palette.length >= 2) ? art.palette : defaultPalette;
+  let palette = (art.palette && art.palette.length >= 2) ? [...art.palette] : [...defaultPalette];
 
-  // Map desk to motif if motif not specified
-  const deskMotifMap = {
-    'Front Page': 'paper-cut',
-    'Words': 'riso-print',
-    'Grammar Made Cosy': 'window-light',
-    'Say It': 'gingham-knit',
-    'Culture & Quotes': 'ticket-stub',
-    'Long Reads': 'doodle-border',
-    'Cosy Events': 'vintage-stamp',
-    'The Podcast': 'tea-stain',
-    'Back Issues': 'paper-cut'
-  };
+  // Adjust language accent if available to give variants distinct color accents
+  if (LANG_PALETTE_ACCENTS[lang]) {
+    palette[0] = LANG_PALETTE_ACCENTS[lang];
+  }
 
-  const motif = art.motif || deskMotifMap[desk] || 'paper-cut';
-  const seed = art.seed || slug;
+  // Choose motif: art.motif if explicit, otherwise deterministic hash of baseSlug
+  const motif = art.motif || hashStringToMotif(baseSlug);
+  const seed = art.seed || baseSlug;
   const coverOverride = art.coverOverride || null;
 
-  return { palette, motif, seed, coverOverride, desk, slug };
+  return { palette, motif, seed, coverOverride, desk, slug: post ? post.slug : baseSlug, baseSlug };
+}
+
+/** Helper to wrap and fit title into lines with dynamic font scaling */
+export function formatTitleSvg(title, maxWidth, maxHeight, maxFontSize = 24) {
+  const chars = Array.from(title || '');
+  if (chars.length === 0) return { fontPx: maxFontSize, lines: [] };
+
+  // Heuristic average char width relative to font size across Latin/Cyrillic/Greek/Georgian/Armenian
+  const charWidthRatio = 0.62;
+
+  let fontPx = maxFontSize;
+  let lines = [];
+
+  for (; fontPx >= 12; fontPx -= 2) {
+    const maxCharsPerLine = Math.floor(maxWidth / (fontPx * charWidthRatio));
+    const words = title.split(' ');
+    lines = [];
+    let currentLine = '';
+
+    for (let i = 0; i < words.length; i++) {
+      const word = words[i];
+      const testLine = currentLine ? `${currentLine} ${word}` : word;
+
+      if (Array.from(testLine).length <= maxCharsPerLine) {
+        currentLine = testLine;
+      } else {
+        if (currentLine) lines.push(currentLine);
+        // Handle single huge word longer than maxCharsPerLine
+        if (Array.from(word).length > maxCharsPerLine) {
+          currentLine = word.slice(0, maxCharsPerLine - 1) + '…';
+        } else {
+          currentLine = word;
+        }
+      }
+    }
+    if (currentLine) lines.push(currentLine);
+
+    const totalHeight = lines.length * (fontPx * 1.25);
+    if (totalHeight <= maxHeight && lines.length <= 4) {
+      break; // Fits!
+    }
+  }
+
+  return { fontPx, lines };
 }
 
 /**
@@ -59,10 +117,10 @@ export function renderCover(post, options = {}) {
   // Handle hand-made artwork override
   if (coverOverride) {
     return `
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-cover-art cosy-cover-override">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-cover-art cosy-cover-override" preserveAspectRatio="none">
         <image href="${escapeXml(coverOverride)}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid slice" />
       </svg>
-    `;
+    `.trim();
   }
 
   const prng = createPRNG(seed);
@@ -75,17 +133,35 @@ export function renderCover(post, options = {}) {
 
   let textOverlay = '';
   if (showText) {
+    const cardMarginX = Math.round(width * 0.04);
+    const cardWidth = width - (cardMarginX * 2);
+    const maxTitleWidth = cardWidth - 32;
+
+    const kickerFontPx = height > 300 ? 12 : 10;
+    const { fontPx, lines } = formatTitleSvg(title, maxTitleWidth, height * 0.45, height > 300 ? 20 : 15);
+
+    const titleHeight = lines.length * (fontPx * 1.25);
+    const requiredCardHeight = Math.round(36 + titleHeight + 16);
+    const cardHeight = Math.max(90, Math.min(requiredCardHeight, height * 0.5));
+    const cardY = height - cardHeight - Math.round(height * 0.04);
+    const kickerY = cardY + 24;
+
+    const titleSpans = lines.map((line, idx) => {
+      const lineY = kickerY + 20 + (idx * fontPx * 1.25);
+      return `<text x="${cardMarginX + 16}" y="${Math.round(lineY)}" fill="#ffffff" font-family="Fraunces, serif" font-size="${fontPx}" font-weight="bold" class="cover-title-line" data-y="${Math.round(lineY)}">${escapeXml(line)}</text>`;
+    }).join('\n');
+
     textOverlay = `
-      <g class="cover-text-overlay">
-        <rect x="20" y="${height - 110}" width="${width - 40}" height="90" rx="8" fill="rgba(15, 23, 42, 0.75)" backdrop-filter="blur(4px)" />
-        <text x="36" y="${height - 82}" fill="#f59e0b" font-family="Fraunces, serif" font-size="12" font-weight="bold" letter-spacing="1.5">${escapeXml(kicker.toUpperCase())} ${escapeXml(issueStr ? '• ' + issueStr : '')}</text>
-        <text x="36" y="${height - 48}" fill="#ffffff" font-family="Fraunces, serif" font-size="20" font-weight="bold">${escapeXml(title.length > 55 ? title.slice(0, 52) + '...' : title)}</text>
+      <g class="cover-text-overlay" data-card-y="${cardY}" data-card-h="${cardHeight}">
+        <rect x="${cardMarginX}" y="${cardY}" width="${cardWidth}" height="${cardHeight}" rx="8" fill="rgba(15, 23, 42, 0.82)" backdrop-filter="blur(4px)" />
+        <text x="${cardMarginX + 16}" y="${kickerY}" fill="#f59e0b" font-family="Fraunces, serif" font-size="${kickerFontPx}" font-weight="bold" letter-spacing="1.2" class="cover-kicker-text">${escapeXml(kicker.toUpperCase())} ${escapeXml(issueStr ? '• ' + issueStr : '')}</text>
+        ${titleSpans}
       </g>
     `;
   }
 
   return `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-cover-art" data-motif="${motif}" data-seed="${escapeXml(seed)}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" class="cosy-cover-art" data-motif="${motif}" data-seed="${escapeXml(seed)}" preserveAspectRatio="none">
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
@@ -103,8 +179,6 @@ export function renderSectionDivider(post, options = {}) {
   const height = options.height || 40;
 
   const { palette, seed } = resolveArtDirection(post);
-  const prng = createPRNG(`${seed}-divider`);
-
   const color1 = palette[0] || '#1e293b';
   const color2 = palette[1] || '#0d9488';
 
@@ -123,9 +197,7 @@ export function renderPullQuoteCard(quote, post, options = {}) {
   const width = options.width || 600;
   const height = options.height || 200;
 
-  const { palette, seed } = resolveArtDirection(post);
-  const prng = createPRNG(`${seed}-quote`);
-
+  const { palette } = resolveArtDirection(post);
   const bg = palette[3] || '#faf7f2';
   const accent = palette[0] || '#1e293b';
   const border = palette[1] || '#0d9488';
@@ -148,9 +220,7 @@ export function renderWordCard(wordData, post, options = {}) {
   const width = options.width || 320;
   const height = options.height || 180;
 
-  const { palette, seed } = resolveArtDirection(post);
-  const prng = createPRNG(`${seed}-word-${wordData.word || 'vocab'}`);
-
+  const { palette } = resolveArtDirection(post);
   const bg = palette[3] || '#f7fafc';
   const textClr = palette[0] || '#1e293b';
   const accent = palette[1] || '#319795';

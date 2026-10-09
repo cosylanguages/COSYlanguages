@@ -93,20 +93,44 @@ function getDocumentTitle(title) {
   return documentTitle;
 }
 
-function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
+function renderBlockToHtml(block, state = { isFirstParagraph: true, rankCounter: 1 }) {
   if (!block || typeof block !== 'object') return '';
 
   switch (block.type) {
     case 'heading': {
       const lvl = Math.min(6, Math.max(1, block.level || 2));
+
+      // Handle Ranking items
+      if (block.text && /^\d+\.\s+/.test(block.text)) {
+        const num = block.text.match(/^(\d+)\.\s+/)[1];
+        const headingText = block.text.replace(/^\d+\.\s+/, '');
+        return `
+<div class="rank-item">
+  <span class="rank-number">#${num}</span>
+  <h${lvl} class="editorial-heading rank-title">${parseFormattedText(headingText)}</h${lvl}>
+</div>`;
+      }
+
       return `<h${lvl} class="editorial-heading">${parseFormattedText(block.text)}</h${lvl}>`;
     }
     case 'paragraph': {
+      let text = block.text || '';
+
+      // Handle Q&A format paragraphs
+      if (text.startsWith('Q:') || text.startsWith('В:') || text.startsWith('Question:')) {
+        const qText = text.replace(/^(Q:|В:|Question:)\s*/, '');
+        return `<div class="qa-pair"><div class="qa-question"><strong>Q:</strong> ${parseFormattedText(qText)}</div>`;
+      }
+      if (text.startsWith('A:') || text.startsWith('О:') || text.startsWith('Answer:')) {
+        const aText = text.replace(/^(A:|О:|Answer:)\s*/, '');
+        return `<div class="qa-answer"><strong>A:</strong> ${parseFormattedText(aText)}</div></div>`;
+      }
+
       if (state.isFirstParagraph) {
         state.isFirstParagraph = false;
-        return `<p class="gazette-drop-cap">${parseFormattedText(block.text)}</p>`;
+        return `<p class="gazette-drop-cap">${parseFormattedText(text)}</p>`;
       }
-      return `<p>${parseFormattedText(block.text)}</p>`;
+      return `<p>${parseFormattedText(text)}</p>`;
     }
     case 'list-item': {
       const tag = block.ordered ? 'ol' : 'ul';
@@ -188,7 +212,7 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
     }
     case 'image': {
       return `
-<figure class="gazette-figure">
+<figure class="gazette-figure photo-essay-card">
   <img src="${escapeHtml(block.url)}" alt="${escapeHtml(block.alt)}" class="gazette-figure-img">
   ${block.caption ? `<figcaption class="gazette-figure-caption">${parseFormattedText(block.caption)}</figcaption>` : ''}
 </figure>`;
@@ -253,6 +277,19 @@ function renderLanguageSwitcherHtml(currentPost, allPosts) {
   <span class="lang-switcher-label">Read in:</span>
   ${linksHtml}
 </div>`;
+}
+
+function renderPageAudioPlayerHtml(post) {
+  const slug = post.slug;
+  const podcast = post.podcast || {};
+  const audioPath = podcast.audioUrl || (post.audio_podcast ? `../audio/blog/${slug}.mp3` : `../audio/blog/${slug}-page-1.mp3`);
+  return `
+<section class="gazette-page-audio-box" aria-label="Audio Guide and Narration">
+  <span class="page-audio-label">🎧 Listen to Article Narration &amp; Audio Guide</span>
+  <audio class="gazette-page-audio" controls preload="none" src="${escapeHtml(audioPath)}">
+    Your browser does not support the audio element.
+  </audio>
+</section>`;
 }
 
 function renderStaticPodcastBoxHtml(post) {
@@ -388,6 +425,7 @@ async function buildBlog() {
     const blockState = { isFirstParagraph: true };
     const renderedBlocksHtml = (post.blocks || []).map(b => renderBlockToHtml(b, blockState)).join('\n');
     const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts);
+    const pageAudioHtml = renderPageAudioPlayerHtml(post, 1);
 
     // Inlined SVG cover art generated at build time
     let coverSvgHtml = '';
@@ -497,6 +535,8 @@ async function buildBlog() {
 
         <!-- Main Gazette Content Spread -->
         <main class="gazette-reading-view">
+            ${pageAudioHtml}
+
             <article class="post-full-content gazette-article">
                 ${renderedBlocksHtml}
             </article>
