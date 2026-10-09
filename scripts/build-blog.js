@@ -591,6 +591,7 @@ async function buildBlog() {
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
+    <script src="../js/pages/flipbook.js"></script>
     <script type="module">
       import { PodcastBoxComponent } from './js/podcast-box.js';
 
