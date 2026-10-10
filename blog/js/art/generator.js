@@ -18,20 +18,22 @@ function escapeXml(str) {
 
 const MOTIF_KEYS = Object.keys(MOTIFS);
 
+// 14 COSY Target Languages with AA-compliant warm accent colors for light paper bases
 const LANG_ACCENTS = {
-  en: '#0d9488', // Teal
-  fr: '#2563eb', // French Blue
-  it: '#16a34a', // Italian Green
-  ru: '#dc2626', // Russian Red
-  el: '#0284c7', // Aegean Cyan
-  es: '#ea580c', // Spanish Orange
-  de: '#d97706', // German Gold
-  pt: '#059669', // Portuguese Emerald
-  hy: '#7c3aed', // Armenian Violet
-  ka: '#b91c1c', // Georgian Crimson
-  tt: '#0d9488', // Tatar Turquoise
-  ba: '#15803d', // Bashkir Fern
-  br: '#0369a1'  // Breton Ocean
+  en: '#225B58', // Tea Sage / Teal
+  fr: '#274B7D', // Vintage French Navy
+  it: '#3A6332', // Olive Laurel
+  ru: '#A03224', // Brick Red
+  el: '#236583', // Aegean Blue
+  es: '#B05322', // Terracotta Orange
+  de: '#A86C1B', // Warm Ochre Gold
+  pt: '#246342', // Portuguese Fern
+  hy: '#633353', // Armenian Plum
+  ka: '#832222', // Georgian Crimson
+  tt: '#1A6360', // Tatar Turquoise
+  ba: '#205634', // Bashkir Pine
+  br: '#254E63', // Breton Slate
+  cv: '#9E5B15'  // Chuvash Gold
 };
 
 /** Extracts base slug for language translation family matching */
@@ -39,7 +41,7 @@ export function getBaseSlug(post) {
   if (!post) return 'cosy-post';
   if (post.translationOf) return post.translationOf;
   const slug = post.slug || 'cosy-post';
-  return slug.replace(/-(fr|it|ru|el|es|de|pt|hy|ka|tt|ba|br)$/, '');
+  return slug.replace(/-(fr|it|ru|el|es|de|pt|hy|ka|tt|ba|br|cv)$/, '');
 }
 
 /** Detects post language code */
@@ -47,7 +49,7 @@ export function getPostLanguage(post) {
   if (!post) return 'en';
   if (post.language) return post.language.toLowerCase();
   const slug = post.slug || '';
-  const match = slug.match(/-(fr|it|ru|el|es|de|pt|hy|ka|tt|ba|br)$/);
+  const match = slug.match(/-(fr|it|ru|el|es|de|pt|hy|ka|tt|ba|br|cv)$/);
   return match ? match[1] : 'en';
 }
 
@@ -117,8 +119,7 @@ function wrapTitleText(title, maxCharsPerLine = 32) {
 /**
  * Renders cover artwork as an inline SVG string.
  * Full-bleed without empty side bands.
- * Title auto-wraps and auto-shrinks to guarantee zero overflow across all scripts.
- * Supports artDirection.coverOverride for custom hand-drawn image artwork.
+ * Light, warm paper-based aesthetics with torn-paper edges, washi tape, and hand-drawn doodles.
  */
 export function renderCover(post, options = {}) {
   const width = options.width || 800;
@@ -144,6 +145,67 @@ export function renderCover(post, options = {}) {
   const kicker = post ? (post.kicker || post.category || 'EDITORIAL') : 'EDITORIAL';
   const issueStr = post && post.issue ? (post.issue.number || '') : '';
 
+  const inkColor = palette[0] || '#2B211E';
+  const accent1 = palette[1] || '#C86D51';
+  const accent2 = palette[2] || '#6B8E7B';
+  const paperBg = palette[3] || '#FAF6EE';
+
+  // 1. Torn Paper Edge Shape overlay in corner
+  const tornEdgeX = width - prng.rangeInt(180, 260);
+  const tornEdgeY = prng.rangeInt(10, 30);
+  const tornPoints = [
+    `${tornEdgeX},0`,
+    `${width},0`,
+    `${width},${height * 0.45}`,
+    `${width - 15},${height * 0.42}`,
+    `${width - 35},${height * 0.46}`,
+    `${width - 60},${height * 0.38}`,
+    `${width - 90},${height * 0.41}`,
+    `${width - 120},${height * 0.35}`,
+    `${width - 150},${height * 0.39}`,
+    `${width - 180},${height * 0.32}`,
+    `${tornEdgeX + 20},${height * 0.25}`,
+    `${tornEdgeX},0`
+  ].join(' ');
+
+  const tornPaperSvg = `
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="${tornPoints}" fill="#FCF9F2" opacity="0.9" stroke="${accent2}" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+  `;
+
+  // 2. Translucent Washi Tape Strips
+  const washiX = prng.rangeInt(40, width - 200);
+  const washiY = prng.rangeInt(15, 35);
+  const washiRot = prng.rangeInt(-8, 8);
+  const washiTapeSvg = `
+    <g transform="rotate(${washiRot} ${washiX + 60} ${washiY + 12})" filter="url(#soft-shadow)">
+      <rect x="${washiX}" y="${washiY}" width="120" height="24" rx="2" fill="${accent1}" opacity="0.45" />
+      <line x1="${washiX}" y1="${washiY}" x2="${washiX}" y2="${washiY + 24}" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="${washiX + 120}" y1="${washiY}" x2="${washiX + 120}" y2="${washiY + 24}" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+  `;
+
+  // 3. Tiny Hand-Drawn Doodles (Stars, Sparkles, Tea Cup, Botanical Leaf)
+  const doodlePrng = createPRNG(`${seed}-doodles`);
+  const starX = doodlePrng.rangeInt(width * 0.7, width * 0.9);
+  const starY = doodlePrng.rangeInt(40, 100);
+  const leafX = doodlePrng.rangeInt(30, 80);
+  const leafY = doodlePrng.rangeInt(60, 120);
+
+  const tinyDoodlesSvg = `
+    <g class="cover-tiny-doodles" stroke="${accent2}" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M ${starX} ${starY - 12} Q ${starX} ${starY} ${starX + 12} ${starY} Q ${starX} ${starY} ${starX} ${starY + 12} Q ${starX} ${starY} ${starX - 12} ${starY} Q ${starX} ${starY} ${starX} ${starY - 12} Z" fill="${accent1}" opacity="0.3" />
+      <path d="M ${starX + 45} ${starY + 30} Q ${starX + 45} ${starY + 38} ${starX + 53} ${starY + 38} Q ${starX + 45} ${starY + 38} ${starX + 45} ${starY + 46} Q ${starX + 45} ${starY + 38} ${starX + 37} ${starY + 38} Q ${starX + 45} ${starY + 38} ${starX + 45} ${starY + 30} Z" stroke="${accent1}" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M ${leafX} ${leafY + 30} C ${leafX + 10} ${leafY + 15}, ${leafX - 5} ${leafY - 5}, ${leafX + 15} ${leafY - 20}" />
+      <circle cx="${leafX + 4}" cy="${leafY + 15}" r="3" fill="${accent2}" opacity="0.5" />
+      <circle cx="${leafX + 10}" cy="${leafY - 2}" r="3" fill="${accent1}" opacity="0.5" />
+    </g>
+  `;
+
+  // 4. Text Overlay Card (Warm cream paper ticket card with AA text contrast)
   let textOverlay = '';
   if (showText) {
     const titleLen = title.length;
@@ -192,29 +254,27 @@ export function renderCover(post, options = {}) {
     const kickerY = rectY + padY + kickerFontSize;
     const firstLineY = kickerY + Math.round(12 * scaleFactor) + (finalFontSize * 0.75);
 
+    // AA contrast guaranteed: inkColor on #FAF6EE / #FCF9F2 card
     const titleLinesSvg = cappedLines.map((lineText, idx) => {
       const lineY = Math.round(firstLineY + (idx * finalLineHeight));
-      return `<text x="${rectX + padX}" y="${lineY}" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="${finalFontSize}" font-weight="bold">${escapeXml(lineText)}</text>`;
+      return `<text x="${rectX + padX}" y="${lineY}" fill="${inkColor}" font-family="Fraunces, 'Lora', Georgia, serif" font-size="${finalFontSize}" font-weight="bold">${escapeXml(lineText)}</text>`;
     }).join('\n');
 
-    const accentColor = LANG_ACCENTS[lang] || '#f59e0b';
+    const kickerAccent = LANG_ACCENTS[lang] || accent1;
 
     textOverlay = `
-      <g class="cover-text-overlay">
-        <rect class="cover-overlay-box" x="${rectX}" y="${rectY}" width="${rectW}" height="${rectHeight}" rx="8" fill="rgba(15, 23, 42, 0.82)" backdrop-filter="blur(6px)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
-        <text x="${rectX + padX}" y="${kickerY}" fill="${accentColor}" font-family="Fraunces, 'Lora', Georgia, serif" font-size="${kickerFontSize}" font-weight="bold" letter-spacing="1.5">${escapeXml(kicker.toUpperCase())} ${escapeXml(issueStr ? '• ' + issueStr : '')}</text>
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="${rectX}" y="${rectY}" width="${rectW}" height="${rectHeight}" rx="8" fill="#FCF9F2" opacity="0.96" stroke="${accent2}" stroke-width="1.2" />
+        <text x="${rectX + padX}" y="${kickerY}" fill="${kickerAccent}" font-family="Fraunces, 'Lora', Georgia, serif" font-size="${kickerFontSize}" font-weight="bold" letter-spacing="1.5">${escapeXml(kicker.toUpperCase())} ${escapeXml(issueStr ? '• ' + issueStr : '')}</text>
         ${titleLinesSvg}
       </g>
     `;
   }
 
   const collagePrng = createPRNG(`${seed}-collage`);
-  const c1 = palette[0] || '#1e293b';
-  const c2 = palette[1] || '#0d9488';
-  const c3 = palette[2] || '#f59e0b';
-  const bg = palette[3] || '#faf7f2';
 
-  // 1. Cut-out collage layer (overlapping paper shapes with soft drop shadow)
+  // 5. Cut-out collage layer (overlapping paper shapes with soft drop shadow)
   const paperCount = collagePrng.rangeInt(2, 4);
   let paperShapes = '';
 
@@ -223,42 +283,41 @@ export function renderCover(post, options = {}) {
     const ph = collagePrng.rangeInt(Math.round(height * 0.32), Math.round(height * 0.55));
     const px = collagePrng.rangeInt(Math.round(width * 0.08), Math.round(width * 0.55));
     const py = collagePrng.rangeInt(Math.round(height * 0.12), Math.round(height * 0.42));
-    const rot = collagePrng.rangeInt(-12, 12);
-    const color = collagePrng.pick([bg, '#ffffff', c2, c3]);
-    const strokeColor = collagePrng.pick([c1, c2]);
+    const rot = collagePrng.rangeInt(-10, 10);
+    const color = collagePrng.pick([paperBg, '#FFFFFF', accent1, accent2]);
 
     paperShapes += `
       <g transform="rotate(${rot} ${px + pw/2} ${py + ph/2})">
-        <rect x="${px}" y="${py}" width="${pw}" height="${ph}" rx="6" fill="${color}" opacity="0.82" stroke="${strokeColor}" stroke-width="1.5" filter="url(#soft-shadow)" />
+        <rect x="${px}" y="${py}" width="${pw}" height="${ph}" rx="6" fill="${color}" opacity="0.3" stroke="${accent2}" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
     `;
   }
 
-  // 2. Hand-drawn sketchy underline path
+  // 6. Hand-drawn sketchy underline path
   const ulX1 = collagePrng.rangeInt(40, 100);
   const ulX2 = ulX1 + collagePrng.rangeInt(180, 280);
   const ulY = height - collagePrng.rangeInt(30, 60);
   const midX = Math.round((ulX1 + ulX2) / 2);
-  const midY = ulY + collagePrng.rangeInt(-8, 8);
+  const midY = ulY + collagePrng.rangeInt(-6, 6);
   const underlineSvg = `
     <g class="cover-sketchy-underline">
-      <path d="M ${ulX1} ${ulY} Q ${midX} ${midY} ${ulX2} ${ulY + collagePrng.rangeInt(-3, 3)}" stroke="${c3}" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.85" />
-      <path d="M ${ulX1 + 10} ${ulY + 4} Q ${midX} ${midY + 4} ${ulX2 - 10} ${ulY + 2}" stroke="${c2}" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6" />
+      <path d="M ${ulX1} ${ulY} Q ${midX} ${midY} ${ulX2} ${ulY + collagePrng.rangeInt(-3, 3)}" stroke="${accent1}" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M ${ulX1 + 10} ${ulY + 3} Q ${midX} ${midY + 3} ${ulX2 - 10} ${ulY + 2}" stroke="${accent2}" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
     </g>
   `;
 
-  // 3. Masthead-style label tag
+  // 7. Masthead-style label tag
   const desk = post ? (post.desk || 'Front Page') : 'Front Page';
   const labelText = `COSY GAZETTE • ${desk.toUpperCase()}`;
   const labelW = Math.min(width - 40, Math.max(220, labelText.length * 8 + 36));
-  const labelH = 32;
+  const labelH = 30;
   const labelX = 20;
   const labelY = 20;
 
   const mastheadLabelSvg = `
     <g class="cover-masthead-label" filter="url(#soft-shadow)">
-      <rect x="${labelX}" y="${labelY}" width="${labelW}" height="${labelH}" rx="4" fill="${c1}" opacity="0.92" stroke="${c2}" stroke-width="1.5" />
-      <text x="${labelX + 14}" y="${labelY + 21}" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">${escapeXml(labelText)}</text>
+      <rect x="${labelX}" y="${labelY}" width="${labelW}" height="${labelH}" rx="4" fill="#FCF9F2" opacity="0.95" stroke="${accent1}" stroke-width="1.2" />
+      <text x="${labelX + 14}" y="${labelY + 20}" fill="${inkColor}" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">${escapeXml(labelText)}</text>
     </g>
   `;
 
@@ -266,13 +325,13 @@ export function renderCover(post, options = {}) {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="${motif}" data-seed="${escapeXml(seed)}" data-lang="${lang}">
       <defs>
         <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
-          <feDropShadow dx="3" dy="5" stdDeviation="4" flood-color="#000000" flood-opacity="0.18" />
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
         </filter>
         <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
           <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
           <feColorMatrix type="saturate" values="0" />
           <feComponentTransfer>
-            <feFuncA type="linear" slope="0.06" />
+            <feFuncA type="linear" slope="0.05" />
           </feComponentTransfer>
           <feBlend mode="multiply" in="SourceGraphic" result="blend" />
         </filter>
@@ -284,10 +343,13 @@ export function renderCover(post, options = {}) {
       </style>
       ${artworkSvg}
       ${paperShapes}
+      ${tornPaperSvg}
+      ${washiTapeSvg}
+      ${tinyDoodlesSvg}
       ${underlineSvg}
       ${mastheadLabelSvg}
       ${textOverlay}
-      <rect width="${width}" height="${height}" filter="url(#paper-grain)" opacity="0.6" pointer-events="none" />
+      <rect width="${width}" height="${height}" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>
   `.trim();
 }
@@ -298,17 +360,16 @@ export function renderSectionDivider(post, options = {}) {
   const height = options.height || 40;
 
   const { palette, seed } = resolveArtDirection(post);
-  const prng = createPRNG(`${seed}-divider`);
 
-  const color1 = palette[0] || '#1e293b';
-  const color2 = palette[1] || '#0d9488';
+  const color1 = palette[0] || '#2B211E';
+  const color2 = palette[1] || '#C86D51';
 
   return `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="${height}" preserveAspectRatio="xMidYMid slice" class="cosy-section-divider">
-      <line x1="0" y1="${height/2}" x2="${width}" y2="${height/2}" stroke="${color1}" stroke-width="1.5" opacity="0.3" stroke-dasharray="4 4" />
-      <circle cx="${width/2}" cy="${height/2}" r="6" fill="${color2}" />
-      <circle cx="${width/2 - 20}" cy="${height/2}" r="3" fill="${color1}" opacity="0.6" />
-      <circle cx="${width/2 + 20}" cy="${height/2}" r="3" fill="${color1}" opacity="0.6" />
+      <line x1="0" y1="${height/2}" x2="${width}" y2="${height/2}" stroke="${color1}" stroke-width="1.2" opacity="0.25" stroke-dasharray="4 4" />
+      <circle cx="${width/2}" cy="${height/2}" r="5" fill="${color2}" opacity="0.8" />
+      <circle cx="${width/2 - 18}" cy="${height/2}" r="2.5" fill="${color1}" opacity="0.4" />
+      <circle cx="${width/2 + 18}" cy="${height/2}" r="2.5" fill="${color1}" opacity="0.4" />
     </svg>
   `.trim();
 }
@@ -319,21 +380,20 @@ export function renderPullQuoteCard(quote, post, options = {}) {
   const height = options.height || 200;
 
   const { palette, seed } = resolveArtDirection(post);
-  const prng = createPRNG(`${seed}-quote`);
 
-  const bg = palette[3] || '#faf7f2';
-  const accent = palette[0] || '#1e293b';
-  const border = palette[1] || '#0d9488';
+  const bg = palette[3] || '#FAF6EE';
+  const accent = palette[0] || '#2B211E';
+  const border = palette[1] || '#C86D51';
 
   const textStr = typeof quote === 'string' ? quote : (quote.quote || '');
   const authorStr = typeof quote === 'object' && quote.attribution ? quote.attribution : '';
 
   return `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-pullquote-card">
-      <rect x="4" y="4" width="${width - 8}" height="${height - 8}" rx="12" fill="${bg}" stroke="${border}" stroke-width="2" stroke-dasharray="6 4" />
-      <text x="30" y="50" fill="${border}" font-family="Fraunces, serif" font-size="48" opacity="0.4">“</text>
-      <text x="50" y="85" fill="${accent}" font-family="Fraunces, serif" font-size="18" font-style="italic">${escapeXml(textStr.length > 90 ? textStr.slice(0, 87) + '...' : textStr)}</text>
-      ${authorStr ? `<text x="${width - 50}" y="${height - 35}" fill="${border}" font-family="DM Sans, sans-serif" font-size="13" font-weight="bold" text-anchor="end">— ${escapeXml(authorStr)}</text>` : ''}
+      <rect x="4" y="4" width="${width - 8}" height="${height - 8}" rx="10" fill="${bg}" stroke="${border}" stroke-width="1.5" stroke-dasharray="5 3" />
+      <text x="28" y="48" fill="${border}" font-family="Fraunces, serif" font-size="44" opacity="0.4">“</text>
+      <text x="48" y="82" fill="${accent}" font-family="Fraunces, serif" font-size="17" font-style="italic">${escapeXml(textStr.length > 90 ? textStr.slice(0, 87) + '...' : textStr)}</text>
+      ${authorStr ? `<text x="${width - 48}" y="${height - 30}" fill="${border}" font-family="DM Sans, sans-serif" font-size="12" font-weight="bold" text-anchor="end">— ${escapeXml(authorStr)}</text>` : ''}
     </svg>
   `.trim();
 }
@@ -344,11 +404,10 @@ export function renderWordCard(wordData, post, options = {}) {
   const height = options.height || 180;
 
   const { palette, seed } = resolveArtDirection(post);
-  const prng = createPRNG(`${seed}-word-${wordData.word || 'vocab'}`);
 
-  const bg = palette[3] || '#f7fafc';
-  const textClr = palette[0] || '#1e293b';
-  const accent = palette[1] || '#319795';
+  const bg = palette[3] || '#FAF6EE';
+  const textClr = palette[0] || '#2B211E';
+  const accent = palette[1] || '#C86D51';
 
   const word = wordData.word || 'Word';
   const pos = wordData.pos || 'noun';
@@ -356,12 +415,12 @@ export function renderWordCard(wordData, post, options = {}) {
 
   return `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-word-card">
-      <rect width="${width}" height="${height}" rx="10" fill="${bg}" stroke="${accent}" stroke-width="1.5" />
-      <rect x="0" y="0" width="${width}" height="8" rx="4" fill="${accent}" />
-      <text x="20" y="45" fill="${textClr}" font-family="Fraunces, serif" font-size="22" font-weight="bold">${escapeXml(word)}</text>
-      <text x="20" y="68" fill="${accent}" font-family="DM Sans, sans-serif" font-size="12" font-style="italic">${escapeXml(pos)}</text>
-      <line x1="20" y1="80" x2="${width - 20}" y2="80" stroke="${accent}" opacity="0.2" />
-      <text x="20" y="110" fill="${textClr}" font-family="DM Sans, sans-serif" font-size="13" opacity="0.9">${escapeXml(definition.length > 70 ? definition.slice(0, 67) + '...' : definition)}</text>
+      <rect width="${width}" height="${height}" rx="8" fill="${bg}" stroke="${accent}" stroke-width="1.2" />
+      <rect x="0" y="0" width="${width}" height="6" rx="3" fill="${accent}" />
+      <text x="18" y="42" fill="${textClr}" font-family="Fraunces, serif" font-size="20" font-weight="bold">${escapeXml(word)}</text>
+      <text x="18" y="64" fill="${accent}" font-family="DM Sans, sans-serif" font-size="12" font-style="italic">${escapeXml(pos)}</text>
+      <line x1="18" y1="76" x2="${width - 18}" y2="76" stroke="${accent}" opacity="0.2" />
+      <text x="18" y="105" fill="${textClr}" font-family="DM Sans, sans-serif" font-size="12" opacity="0.88">${escapeXml(definition.length > 70 ? definition.slice(0, 67) + '...' : definition)}</text>
     </svg>
   `.trim();
 }

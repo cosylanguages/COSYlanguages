@@ -571,17 +571,40 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0.5rem;
 }
 
-/* Flipbook Toolbar & Controls */
-.flipbook-toolbar {
-    background: var(--surface, #ffffff);
-    border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
-    border-radius: 12px;
-    padding: 0.85rem 1.25rem;
-    margin-bottom: 1.25rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+/* Flipbook Reading Controls & Tactile Magazine Furniture */
+.flipbook-toolbar.magazine-furniture-bar {
+    background: var(--paper-base, #FAF6EE);
+    border-top: 1px solid var(--paper-border, #E2D9C8);
+    border-bottom: 2px double var(--paper-border, #D5C8B2);
+    border-radius: 0;
+    padding: 0.6rem 0.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: none;
+    position: relative;
 }
 
-.flipbook-controls-bar {
+.magazine-furniture-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.magazine-progress-rule {
+    width: 100%;
+    height: 3px;
+    background: rgba(210, 195, 175, 0.35);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-rule-fill {
+    height: 100%;
+    background: var(--terracotta, #C86D51);
+    transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.magazine-furniture-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -589,93 +612,252 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
 }
 
-.flipbook-nav-group {
+.magazine-furniture-left,
+.magazine-furniture-right {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    flex-wrap: wrap;
 }
 
-.flipbook-btn {
-    background: var(--teal, #416b49);
-    color: #ffffff;
-    border: none;
-    border-radius: 999px;
-    padding: 0.5rem 1rem;
-    font-size: 0.85rem;
-    font-weight: 600;
+.magazine-nav-btn {
+    background: transparent;
+    border: 1px solid var(--paper-border, #D8CEBC);
+    border-radius: 4px;
+    color: var(--paper-ink, #3A2E2B);
+    font-family: var(--font-display, Fraunces, serif);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 0.35rem 0.75rem;
     cursor: pointer;
-    transition: background 0.15s ease, opacity 0.15s ease;
     display: inline-flex;
     align-items: center;
-    min-height: 38px;
+    gap: 0.35rem;
+    transition: all 0.15s ease;
+    min-height: 32px;
 }
 
-.flipbook-btn:hover:not(:disabled) {
-    background: var(--sage-dark, #233827);
+.magazine-nav-btn:hover:not(:disabled) {
+    background: #FCF9F2;
+    border-color: var(--terracotta, #C86D51);
+    color: var(--terracotta, #C86D51);
 }
 
-.flipbook-btn:disabled {
-    opacity: 0.4;
+.magazine-nav-btn:disabled {
+    opacity: 0.35;
     cursor: not-allowed;
 }
 
-.flipbook-page-selector {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.magazine-folio-counter {
+    font-family: var(--font-display, Fraunces, serif);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--paper-ink, #3A2E2B);
+    text-transform: uppercase;
+    padding: 0 0.25rem;
 }
 
-.flipbook-indicator {
-    font-size: 0.88rem;
-    font-weight: 600;
-    color: var(--ink, #2a2a2a);
-    white-space: nowrap;
+.contents-popover-wrapper {
+    position: relative;
 }
 
-.flipbook-select {
-    padding: 0.45rem 0.75rem;
-    border: 1px solid var(--border, rgba(74, 107, 80, 0.2));
-    border-radius: 6px;
-    font-family: var(--font-sans);
-    font-size: 0.85rem;
-    background: var(--warm-white, #FFFEFB);
-    color: var(--ink, #2a2a2a);
+.magazine-contents-trigger {
+    background: transparent;
+    border: 1px dashed var(--paper-border, #C8BBA5);
+    border-radius: 4px;
+    color: var(--paper-ink, #3A2E2B);
+    font-family: var(--font-sans, 'DM Sans', sans-serif);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.65rem;
     cursor: pointer;
-    max-width: 200px;
-}
-
-.flipbook-select:focus {
-    outline: 2px solid var(--teal, #416b49);
-}
-
-.flipbook-mode-group {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-}
-
-.flipbook-mode-toggle {
-    background: var(--warm-white, #FFFEFB);
-    border: 1px solid var(--border, rgba(74, 107, 80, 0.2));
-    color: var(--ink, #2a2a2a);
-    border-radius: 999px;
-    padding: 0.45rem 0.95rem;
-    font-size: 0.82rem;
-    font-weight: 600;
-    cursor: pointer;
+    gap: 0.35rem;
     transition: all 0.15s ease;
-    min-height: 38px;
+    min-height: 32px;
 }
 
-.flipbook-mode-toggle:hover {
-    border-color: var(--teal, #416b49);
-    color: var(--teal, #416b49);
+.magazine-contents-trigger:hover {
+    background: #FCF9F2;
+    border-color: var(--sage, #6B8E7B);
+    color: var(--sage-dark, #225B58);
 }
 
-.flipbook-mode-toggle.active-scroll {
-    background: var(--coral, #B84318);
-    color: #ffffff;
-    border-color: var(--coral, #B84318);
+.magazine-contents-popover {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    width: 280px;
+    max-height: 320px;
+    background: #FCF9F2;
+    border: 1px solid var(--paper-border, #D5C8B2);
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(60, 40, 30, 0.12);
+    padding: 0.75rem;
+    z-index: 100;
+    overflow-y: auto;
+}
+
+.magazine-contents-popover[hidden] {
+    display: none;
+}
+
+.contents-popover-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-display, Fraunces, serif);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: var(--paper-ink, #3A2E2B);
+    border-bottom: 1px solid var(--paper-border, #E2D9C8);
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.contents-close-btn {
+    background: none;
+    border: none;
+    font-size: 0.85rem;
+    color: var(--paper-ink, #3A2E2B);
+    cursor: pointer;
+    padding: 0.1rem 0.3rem;
+}
+
+.contents-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.contents-item-btn {
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 0.35rem 0.5rem;
+    font-family: var(--font-sans, 'DM Sans', sans-serif);
+    font-size: 0.78rem;
+    color: var(--paper-ink, #3A2E2B);
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    transition: background 0.12s ease;
+}
+
+.contents-item-btn:hover {
+    background: #F4EBE1;
+    color: var(--terracotta, #C86D51);
+}
+
+.contents-item-btn .item-page-num {
+    font-family: var(--font-display, Fraunces, serif);
+    font-weight: 700;
+    color: var(--terracotta, #C86D51);
+    font-size: 0.75rem;
+}
+
+.magazine-mode-toggle {
+    background: transparent;
+    border: 1px solid var(--paper-border, #D8CEBC);
+    border-radius: 4px;
+    color: var(--paper-ink, #3A2E2B);
+    font-family: var(--font-sans, 'DM Sans', sans-serif);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 0.35rem 0.65rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: all 0.15s ease;
+    min-height: 32px;
+}
+
+.magazine-mode-toggle:hover {
+    background: #FCF9F2;
+    border-color: var(--terracotta, #C86D51);
+    color: var(--terracotta, #C86D51);
+}
+
+/* Magazine Page Folios in Footers & Dog-Ear Turn Affordance */
+.magazine-page-folio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--paper-border, rgba(200, 185, 165, 0.4));
+    font-family: var(--font-display, Fraunces, serif);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #6E5A54;
+    text-transform: uppercase;
+}
+
+.magazine-dog-ear {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 48px;
+    height: 48px;
+}
+
+.dog-ear-fold {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 32px 32px 0;
+    border-color: transparent #EADBCA transparent transparent;
+    filter: drop-shadow(-2px 2px 2px rgba(60, 40, 30, 0.12));
+    transition: border-width 0.2s ease;
+}
+
+.magazine-dog-ear:hover .dog-ear-fold {
+    border-width: 0 42px 42px 0;
+}
+
+.dog-ear-label {
+    position: relative;
+    z-index: 2;
+    font-family: var(--font-display, Fraunces, serif);
+    font-size: 0.6rem;
+    font-weight: 800;
+    color: var(--terracotta, #C86D51);
+    padding: 2px 4px 0 0;
+    opacity: 0.85;
+    text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .progress-rule-fill,
+    .dog-ear-fold,
+    .post-full-content.flipbook-mode .flipbook-page {
+        transition: none !important;
+        animation: none !important;
+    }
 }
 
 /* Flipbook Content Container & Pages with 3D Page Turn */

@@ -1,21 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1-tatar" data-lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="editorial-stars" data-seed="top-100-a0-a1-tatar" data-lang="tt">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
 
-    <rect width="1200" height="630" fill="#f0fff4" />
-    <path d="M 13 13 L 13 16 L 43 15 L 73 9 L 103 12 L 133 11 L 163 12 L 193 11 L 223 16 L 253 14 L 283 13 L 313 15 L 343 17 L 373 15 L 403 16 L 433 10 L 463 13 L 493 9 L 523 18 L 553 13 L 583 9 L 613 14 L 643 18 L 673 16 L 703 18 L 733 14 L 763 10 L 793 17 L 823 17 L 853 12 L 883 12 L 913 12 L 943 13 L 973 11 L 1003 11 L 1033 13 L 1063 18 L 1093 9 L 1123 9 L 1153 16 L 1183 8 L 1184 13 L 1185 43 L 1185 73 L 1184 103 L 1191 133 L 1191 163 L 1192 193 L 1182 223 L 1189 253 L 1190 283 L 1190 313 L 1183 343 L 1184 373 L 1186 403 L 1192 433 L 1191 463 L 1185 493 L 1190 523 L 1185 553 L 1189 583 L 1184 613 L 1187 615 L 1157 617 L 1127 615 L 1097 617 L 1067 621 L 1037 618 L 1007 619 L 977 622 L 947 614 L 917 622 L 887 614 L 857 616 L 827 615 L 797 618 L 767 612 L 737 621 L 707 613 L 677 620 L 647 612 L 617 616 L 587 620 L 557 622 L 527 618 L 497 615 L 467 614 L 437 618 L 407 616 L 377 615 L 347 620 L 317 613 L 287 617 L 257 622 L 227 614 L 197 613 L 167 615 L 137 618 L 107 619 L 77 618 L 47 621 L 17 621 L 12 617 L 14 587 L 13 557 L 8 527 L 13 497 L 15 467 L 12 437 L 16 407 L 17 377 L 11 347 L 11 317 L 10 287 L 18 257 L 10 227 L 9 197 L 17 167 L 10 137 L 18 107 L 9 77 L 14 47 L 15 17 Z" fill="none" stroke="#22543d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="1167.5" cy="32.5" r="18" fill="#38a169" opacity="0.3" />
-    <circle cx="32.5" cy="597.5" r="24" fill="#38a169" opacity="0.25" />
+    <rect width="1200" height="630" fill="#FAF6EE" />
+
+      <polygon points="952,75 758,281 568,75 816,-133" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="348,318 343,415 233,435 200,351 177,252 248,228 331,241" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="833,275 323,635 239,64" fill="#1A6360" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="1451,556 863,752 828,245" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="1293,216 1051,498 733,216 1076,-114" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="1436,113 1118,371 854,85 1156,-123" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
 
 
-      <g class="cover-text-overlay">
-        <rect class="cover-overlay-box" x="24" y="448" width="1152" height="158" rx="8" fill="rgba(15, 23, 42, 0.82)" backdrop-filter="blur(6px)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
-        <text x="54" y="486" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">CURRICULUM • Vol. 2026 — August Issue</text>
-        <text x="54" y="529" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Top 100 Tatar A0–A1</text>
-<text x="54" y="571" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Master Guide</text>
+
+      <g transform="rotate(9 356.5 236)">
+        <rect x="196" y="77" width="321" height="318" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#1A6360" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
 
+      <g transform="rotate(5 849.5 382.5)">
+        <rect x="634" y="265" width="431" height="235" rx="6" fill="#FAF6EE" opacity="0.3" stroke="#1A6360" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+      <g transform="rotate(-6 559.5 351)">
+        <rect x="318" y="216" width="483" height="270" rx="6" fill="#1A6360" opacity="0.3" stroke="#1A6360" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="989,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1009,157.5 989,0" fill="#FCF9F2" opacity="0.9" stroke="#1A6360" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+
+
+    <g transform="rotate(-3 1033 39)" filter="url(#soft-shadow)">
+      <rect x="973" y="27" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="973" y1="27" x2="973" y2="51" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="1093" y1="27" x2="1093" y2="51" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+
+
+    <g class="cover-tiny-doodles" stroke="#1A6360" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 907 57 Q 907 69 919 69 Q 907 69 907 81 Q 907 69 895 69 Q 907 69 907 57 Z" fill="#faf7f2" opacity="0.3" />
+      <path d="M 952 99 Q 952 107 960 107 Q 952 107 952 115 Q 952 107 944 107 Q 952 107 952 99 Z" stroke="#faf7f2" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 53 103 C 63 88, 48 68, 68 53" />
+      <circle cx="57" cy="88" r="3" fill="#1A6360" opacity="0.5" />
+      <circle cx="63" cy="71" r="3" fill="#faf7f2" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-sketchy-underline">
+      <path d="M 97 586 Q 224 590 350 585" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 107 589 Q 224 593 340 588" stroke="#1A6360" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="236" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
+      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSY GAZETTE • LONG READS</text>
+    </g>
+
+
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="448" width="1152" height="158" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#1A6360" stroke-width="1.2" />
+        <text x="54" y="486" fill="#1A6360" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">РЕСУРСЛАР ИСЕМЛЕГЕ • Vol. 2026.08</text>
+        <text x="54" y="529" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Top 100 Tatar A0–A1</text>
+<text x="54" y="571" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Master Guide</text>
+      </g>
+
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>
