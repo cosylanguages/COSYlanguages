@@ -136,7 +136,7 @@
     "script_mode": "📜 Режим телесуфлёра",
     "stage_mode": "📺 Режим презентации",
     "script_view": "📜 Текст телесуфлёра",
-    "stage_view": "📺 Интерактивная презентация",
+    "stage_view": "📺 Интерактивный вид",
     "read_in": "Читать на:",
     "written_by": "Автор:",
     "min_read": "мин чтения",
@@ -168,6 +168,11 @@
     "mirror_glass": "Отражение",
     "flip_mirror": "🪞 Зеркальный режим",
     "export_script": "Экспорт текста",
-    "end_of_script": "--- КОНЕЦ СЦЕНАРИЯ ПОДКАСТА ---"
+    "end_of_script": "--- КОНЕЦ СЦЕНАРИЯ ПОДКАСТА ---",
+    "issue_august_title": "Готовимся к школе",
+    "issue_september_title": "Я против плато среднего уровня",
+    "issue_october_title": "День рождения JY DM и его фавориты",
+    "page_x_of_y": "Страница {current} из {total}",
+    "script_teleprompter": "📜 Сценарий суфлёра"
   }
 }

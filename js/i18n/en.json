@@ -170,6 +170,11 @@
     "mirror_glass": "Mirror Glass",
     "flip_mirror": "🪞 Flip Mirror",
     "export_script": "Export Script",
-    "end_of_script": "--- END OF PODCAST SCRIPT ---"
+    "end_of_script": "--- END OF PODCAST SCRIPT ---",
+    "issue_august_title": "Get ready for school",
+    "issue_september_title": "Me vs Intermediate Plateau",
+    "issue_october_title": "JY DM's birthday & His favs",
+    "page_x_of_y": "Page {current} of {total}",
+    "script_teleprompter": "📜 Script Teleprompter"
   }
 }
