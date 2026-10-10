@@ -1,90 +1,61 @@
 /**
  * scripts/capture-blog-screenshots.js
- * Captures screenshots of blog posts before/after changes at 1280x800 and 390x844.
+ * Captures Playwright screenshots for 3 desks at 1280px (desktop) and 390px (mobile) viewports.
  */
 
 const { chromium } = require('playwright');
-const http = require('http');
 const path = require('path');
 const fs = require('fs');
 
-const PORT = 8087;
-const ROOT_DIR = path.join(__dirname, '..');
-
-const POSTS = [
-  { lang: 'en', slug: 'welcome-to-cosy-blog' },
-  { lang: 'ru', slug: 'stop-translating-10-sentence-frames-ru' },
-  { lang: 'el', slug: 'stop-translating-10-sentence-frames-el' }
-];
-
-const VIEWPORTS = [
-  { name: '1280', width: 1280, height: 800 },
-  { name: '390', width: 390, height: 844 }
-];
-
-function startServer() {
-  return new Promise((resolve) => {
-    const server = http.createServer((req, res) => {
-      let filePath = path.join(ROOT_DIR, decodeURIComponent(req.url.split('?')[0]));
-      if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
-        filePath = path.join(filePath, 'index.html');
-      }
-
-      if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
-        const ext = path.extname(filePath);
-        const mimeTypes = {
-          '.html': 'text/html',
-          '.css': 'text/css',
-          '.js': 'application/javascript',
-          '.json': 'application/json',
-          '.png': 'image/png',
-          '.jpg': 'image/jpeg',
-          '.svg': 'image/svg+xml'
-        };
-        res.writeHead(200, { 'Content-Type': mimeTypes[ext] || 'application/octet-stream' });
-        fs.createReadStream(filePath).pipe(res);
-      } else {
-        res.writeHead(404, { 'Content-Type': 'text/plain' });
-        res.end('404 Not Found');
-      }
-    });
-
-    server.listen(PORT, () => {
-      resolve(server);
-    });
-  });
-}
-
-async function capture(mode) {
-  const outDir = path.join(ROOT_DIR, 'screenshots', mode);
-  fs.mkdirSync(outDir, { recursive: true });
-
-  const server = await startServer();
+async function captureScreenshots() {
+  console.log('📸 Capturing blog screenshots...');
   const browser = await chromium.launch();
+  const outputDir = path.join(__dirname, '..', 'screenshots');
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
 
-  for (const post of POSTS) {
-    for (const vp of VIEWPORTS) {
-      const page = await browser.newPage({
-        viewport: { width: vp.width, height: vp.height }
-      });
+  // 3 distinct desks:
+  // 1. Words desk: blog/replace-50-overused-phrases.html
+  // 2. Grammar Made Cosy desk: blog/top-5-favourite-grammar-rules.html
+  // 3. Front Page desk: blog/welcome-to-cosy-blog.html
 
-      const url = `http://localhost:${PORT}/blog/${post.slug}.html`;
-      console.log(`Navigating to ${url} at ${vp.width}x${vp.height}...`);
-      await page.goto(url, { waitUntil: 'networkidle' });
+  const pagesToCapture = [
+    { desk: 'words', file: 'blog/replace-50-overused-phrases.html' },
+    { desk: 'grammar', file: 'blog/top-5-favourite-grammar-rules.html' },
+    { desk: 'front_page', file: 'blog/welcome-to-cosy-blog.html' }
+  ];
 
-      const shotPath = path.join(outDir, `${post.lang}_${vp.name}.png`);
-      await page.screenshot({ path: shotPath, fullPage: false });
-      console.log(`Saved screenshot: ${shotPath} (${fs.statSync(shotPath).size} bytes)`);
-      await page.close();
-    }
+  for (const item of pagesToCapture) {
+    const filePath = path.join(__dirname, '..', item.file);
+    const fileUrl = `file://${filePath}`;
+
+    // Desktop viewport (1280x800)
+    const contextDesktop = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    const pageDesktop = await contextDesktop.newPage();
+    await pageDesktop.goto(fileUrl, { waitUntil: 'load' });
+    await pageDesktop.waitForTimeout(500); // let flipbook js initialize
+    const desktopScreenshotPath = path.join(outputDir, `${item.desk}-desktop-1280.png`);
+    await pageDesktop.screenshot({ path: desktopScreenshotPath, fullPage: false });
+    console.log(`  ✓ Saved ${desktopScreenshotPath}`);
+    await contextDesktop.close();
+
+    // Mobile viewport (390x844)
+    const contextMobile = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const pageMobile = await contextMobile.newPage();
+    await pageMobile.goto(fileUrl, { waitUntil: 'load' });
+    await pageMobile.waitForTimeout(500);
+    const mobileScreenshotPath = path.join(outputDir, `${item.desk}-mobile-390.png`);
+    await pageMobile.screenshot({ path: mobileScreenshotPath, fullPage: false });
+    console.log(`  ✓ Saved ${mobileScreenshotPath}`);
+    await contextMobile.close();
   }
 
   await browser.close();
-  server.close();
+  console.log('✨ Screenshot capture complete!');
 }
 
-const mode = process.argv[2] || 'after';
-capture(mode).catch(err => {
-  console.error('Screenshot capture failed:', err);
+captureScreenshots().catch(err => {
+  console.error('Error capturing screenshots:', err);
   process.exit(1);
 });

@@ -1,21 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1-german" data-lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="editorial-stars" data-seed="top-100-a0-a1-german" data-lang="de">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
 
-    <rect width="1200" height="630" fill="#f0fff4" />
-    <path d="M 10 10 L 10 9 L 40 14 L 70 11 L 100 11 L 130 6 L 160 11 L 190 15 L 220 8 L 250 10 L 280 13 L 310 6 L 340 13 L 370 9 L 400 12 L 430 13 L 460 14 L 490 11 L 520 9 L 550 9 L 580 10 L 610 13 L 640 12 L 670 14 L 700 11 L 730 6 L 760 6 L 790 13 L 820 12 L 850 14 L 880 8 L 910 13 L 940 8 L 970 5 L 1000 10 L 1030 6 L 1060 13 L 1090 9 L 1120 5 L 1150 12 L 1180 7 L 1194 10 L 1188 40 L 1192 70 L 1191 100 L 1187 130 L 1185 160 L 1188 190 L 1192 220 L 1190 250 L 1189 280 L 1186 310 L 1190 340 L 1186 370 L 1193 400 L 1187 430 L 1187 460 L 1189 490 L 1192 520 L 1189 550 L 1193 580 L 1191 610 L 1190 619 L 1160 621 L 1130 617 L 1100 625 L 1070 625 L 1040 624 L 1010 618 L 980 623 L 950 615 L 920 619 L 890 617 L 860 623 L 830 619 L 800 624 L 770 620 L 740 616 L 710 621 L 680 615 L 650 618 L 620 624 L 590 621 L 560 622 L 530 623 L 500 623 L 470 623 L 440 624 L 410 621 L 380 617 L 350 618 L 320 617 L 290 622 L 260 615 L 230 619 L 200 618 L 170 615 L 140 618 L 110 618 L 80 625 L 50 623 L 20 623 L 10 620 L 5 590 L 9 560 L 7 530 L 8 500 L 9 470 L 11 440 L 5 410 L 10 380 L 10 350 L 10 320 L 12 290 L 9 260 L 14 230 L 13 200 L 10 170 L 7 140 L 15 110 L 7 80 L 6 50 L 5 20 Z" fill="none" stroke="#22543d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="1175" cy="25" r="18" fill="#38a169" opacity="0.3" />
-    <circle cx="25" cy="605" r="24" fill="#38a169" opacity="0.25" />
+    <rect width="1200" height="630" fill="#FAF6EE" />
+
+      <polygon points="1285,416 892,606 917,231" fill="#A86C1B" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="772,456 670,672 370,761 175,540 254,377 442,111 678,255" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="542,52 267,245 191,-177" fill="#D5E2D9" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="955,363 769,472 748,280" fill="#A86C1B" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="1012,125 923,237 797,197 767,43 965,-12" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
 
 
-      <g class="cover-text-overlay">
-        <rect class="cover-overlay-box" x="24" y="448" width="1152" height="158" rx="8" fill="rgba(15, 23, 42, 0.82)" backdrop-filter="blur(6px)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
-        <text x="54" y="486" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">CURRICULUM • Vol. 2026 — August Issue</text>
-        <text x="54" y="529" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Top 100 German A0–A1</text>
-<text x="54" y="571" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Master Guide</text>
+
+      <g transform="rotate(2 412 397)">
+        <rect x="194" y="243" width="436" height="308" rx="6" fill="#FAF6EE" opacity="0.3" stroke="#A86C1B" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
 
+      <g transform="rotate(-7 555 329.5)">
+        <rect x="401" y="191" width="308" height="277" rx="6" fill="#faf7f2" opacity="0.3" stroke="#A86C1B" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+      <g transform="rotate(6 728.5 348)">
+        <rect x="526" y="207" width="405" height="282" rx="6" fill="#faf7f2" opacity="0.3" stroke="#A86C1B" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+      <g transform="rotate(-1 562.5 403.5)">
+        <rect x="380" y="234" width="365" height="339" rx="6" fill="#FFFFFF" opacity="0.3" stroke="#A86C1B" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="994,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 1014,157.5 994,0" fill="#FCF9F2" opacity="0.9" stroke="#A86C1B" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+
+
+    <g transform="rotate(-5 183 36)" filter="url(#soft-shadow)">
+      <rect x="123" y="24" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="123" y1="24" x2="123" y2="48" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="243" y1="24" x2="243" y2="48" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+
+
+    <g class="cover-tiny-doodles" stroke="#A86C1B" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 853 76 Q 853 88 865 88 Q 853 88 853 100 Q 853 88 841 88 Q 853 88 853 76 Z" fill="#faf7f2" opacity="0.3" />
+      <path d="M 898 118 Q 898 126 906 126 Q 898 126 898 134 Q 898 126 890 126 Q 898 126 898 118 Z" stroke="#faf7f2" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 57 113 C 67 98, 52 78, 72 63" />
+      <circle cx="61" cy="98" r="3" fill="#A86C1B" opacity="0.5" />
+      <circle cx="67" cy="81" r="3" fill="#faf7f2" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-sketchy-underline">
+      <path d="M 40 589 Q 164 589 287 589" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 50 592 Q 164 592 277 591" stroke="#A86C1B" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="236" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
+      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSY GAZETTE • LONG READS</text>
+    </g>
+
+
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="448" width="1152" height="158" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#A86C1B" stroke-width="1.2" />
+        <text x="54" y="486" fill="#A86C1B" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">GERMAN A0–A1 MASTER LIST • Vol. 2026.08</text>
+        <text x="54" y="529" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Top 100 German A0–A1</text>
+<text x="54" y="571" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="33" font-weight="bold">Master Guide</text>
+      </g>
+
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>

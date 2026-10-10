@@ -1,6 +1,7 @@
 /**
- * COSYlanguages — Flipbook Magazine Reader for Blog Posts
- * Transforms long blog articles into structured, 3D two-page spreads on desktop and touch-swipe slides on mobile.
+ * COSYlanguages — Flipbook Magazine Reader & Furniture for Blog Posts
+ * Transforms long blog articles into structured 3D two-page spreads with authentic magazine furniture:
+ * page folios in margins, thin progress rule, corner page turn affordance, and accessible popover contents.
  */
 
 (function () {
@@ -17,6 +18,8 @@
         prevBtn: null,
         nextBtn: null,
         selectEl: null,
+        progressBarEl: null,
+        contentsPopoverEl: null,
         modeToggleBtn: null,
         liveAnnouncerEl: null,
 
@@ -38,6 +41,9 @@
 
             // Build 3D two-page spreads
             this.buildSpreads();
+
+            // Attach magazine folios and corner turn affordance to each page spread
+            this.attachMagazineFurnitureToPages();
 
             // Restore view mode preference if saved
             const savedMode = localStorage.getItem('cosy_blog_view_mode');
@@ -103,12 +109,10 @@
                 const child = children[i];
                 const tag = child.tagName.toLowerCase();
 
-                // Prevent orphan headings: if element is heading and next element exists, keep together
                 const isHeading = ['h2', 'h3', 'h4'].includes(tag);
                 const isHr = tag === 'hr';
                 const isSpreadBlock = child.classList.contains('instead-try-spread') || child.classList.contains('phrase-upgrade-grid');
 
-                // Page break condition
                 if ((isHr || isHeading || isSpreadBlock || currentItemCount >= 5) && pagesData[currentPageIndex].length > 0) {
                     currentPageIndex++;
                     pagesData[currentPageIndex] = [];
@@ -123,7 +127,6 @@
 
             if (pagesData.length <= 1) return;
 
-            // Reconstruct container HTML into flipbook pages
             this.container.innerHTML = '';
             pagesData.forEach((group, idx) => {
                 const pageSection = document.createElement('section');
@@ -148,36 +151,106 @@
             }
         },
 
+        attachMagazineFurnitureToPages: function () {
+            this.pages.forEach((pageEl, idx) => {
+                const pageNum = idx + 1;
+
+                // Add corner turn affordance
+                let dogEar = pageEl.querySelector('.magazine-dog-ear');
+                if (!dogEar) {
+                    dogEar = document.createElement('button');
+                    dogEar.type = 'button';
+                    dogEar.className = 'magazine-dog-ear';
+                    dogEar.setAttribute('aria-label', pageNum < this.totalPages ? 'Turn the page' : 'Previous page');
+                    dogEar.innerHTML = `
+                        <span class="dog-ear-fold"></span>
+                        <span class="dog-ear-label">${pageNum < this.totalPages ? 'Turn ↗' : '← Back'}</span>
+                    `;
+                    pageEl.appendChild(dogEar);
+                }
+
+                // Add page folio in footer margin
+                let folio = pageEl.querySelector('.magazine-page-folio');
+                if (!folio) {
+                    folio = document.createElement('div');
+                    folio.className = 'magazine-page-folio';
+                    folio.innerHTML = `
+                        <span class="folio-desk-stamp">COSY GAZETTE</span>
+                        <span class="folio-num">— ${pageNum} —</span>
+                        <span class="folio-total">OF ${this.totalPages}</span>
+                    `;
+                    pageEl.appendChild(folio);
+                }
+            });
+        },
+
         renderControls: function () {
             const wrapper = document.createElement('div');
-            wrapper.className = 'flipbook-toolbar';
-            wrapper.setAttribute('aria-label', 'Magazine Flipbook Controls');
+            wrapper.className = 'flipbook-toolbar magazine-furniture-bar';
+            wrapper.setAttribute('aria-label', 'Magazine Reading Furniture');
 
             wrapper.innerHTML = `
-                <div class="flipbook-controls-bar">
-                    <div class="flipbook-nav-group">
-                        <button type="button" class="flipbook-btn flipbook-prev-btn" aria-label="Previous Page">
-                            ← Prev
-                        </button>
-                        <div class="flipbook-page-selector">
-                            <span class="flipbook-indicator">Page 1 of ${this.totalPages}</span>
-                            <select class="flipbook-select" aria-label="Jump to page">
+                <div class="magazine-furniture-container">
+                    <div class="magazine-progress-rule" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="${this.totalPages}">
+                        <div class="progress-rule-fill" style="width: ${(1 / this.totalPages) * 100}%;"></div>
+                    </div>
+
+                    <div class="magazine-furniture-row">
+                        <div class="magazine-furniture-left">
+                            <button type="button" class="magazine-nav-btn flipbook-prev-btn" aria-label="Previous Page">
+                                <span class="nav-arrow">←</span>
+                                <span class="nav-text">PREV</span>
+                            </button>
+                            <span class="magazine-folio-counter">
+                                <span class="flipbook-indicator">PAGE 1 OF ${this.totalPages}</span>
+                            </span>
+                            <button type="button" class="magazine-nav-btn flipbook-next-btn" aria-label="Next Page">
+                                <span class="nav-text">NEXT</span>
+                                <span class="nav-arrow">→</span>
+                            </button>
+                        </div>
+
+                        <div class="magazine-furniture-right">
+                            <div class="contents-popover-wrapper">
+                                <button type="button" class="magazine-contents-trigger" aria-expanded="false" aria-controls="magazine-contents-menu" aria-label="Table of Contents">
+                                    <span class="contents-icon">📖</span>
+                                    <span class="contents-label">CONTENTS</span>
+                                </button>
+                                <div id="magazine-contents-menu" class="magazine-contents-popover" hidden>
+                                    <div class="contents-popover-header">
+                                        <span>CONTENTS</span>
+                                        <button type="button" class="contents-close-btn" aria-label="Close Table of Contents">✕</button>
+                                    </div>
+                                    <ul class="contents-list">
+                                        ${this.pages.map((p, i) => {
+                                            const heading = p.querySelector('h2, h3, h4')?.textContent || `Page ${i + 1}`;
+                                            const shortTitle = heading.length > 35 ? heading.substring(0, 35) + '…' : heading;
+                                            return `
+                                                <li>
+                                                    <button type="button" class="contents-item-btn" data-page="${i + 1}">
+                                                        <span class="item-page-num">${i + 1}.</span>
+                                                        <span class="item-title">${shortTitle}</span>
+                                                    </button>
+                                                </li>
+                                            `;
+                                        }).join('')}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <select class="flipbook-select sr-only" aria-label="Jump to page">
                                 ${this.pages.map((p, i) => {
                                     const heading = p.querySelector('h2, h3, h4')?.textContent || `Page ${i + 1}`;
                                     const shortTitle = heading.length > 30 ? heading.substring(0, 30) + '…' : heading;
                                     return `<option value="${i + 1}">Page ${i + 1}: ${shortTitle}</option>`;
                                 }).join('')}
                             </select>
-                        </div>
-                        <button type="button" class="flipbook-btn flipbook-next-btn" aria-label="Next Page">
-                            Next →
-                        </button>
-                    </div>
 
-                    <div class="flipbook-mode-group">
-                        <button type="button" class="flipbook-mode-toggle" aria-label="Toggle Read as One Page or Flipbook View">
-                            📖 Magazine Flipbook Mode
-                        </button>
+                            <button type="button" class="magazine-mode-toggle flipbook-mode-toggle" aria-label="Toggle Read as One Page or Flipbook View">
+                                <span class="mode-icon">📜</span>
+                                <span class="mode-label">FLAT SCROLL</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             `;
@@ -189,6 +262,8 @@
             this.nextBtn = wrapper.querySelector('.flipbook-next-btn');
             this.indicatorEl = wrapper.querySelector('.flipbook-indicator');
             this.selectEl = wrapper.querySelector('.flipbook-select');
+            this.progressBarEl = wrapper.querySelector('.progress-rule-fill');
+            this.contentsPopoverEl = wrapper.querySelector('#magazine-contents-menu');
             this.modeToggleBtn = wrapper.querySelector('.flipbook-mode-toggle');
         },
 
@@ -282,6 +357,62 @@
             }
             if (this.modeToggleBtn) this.modeToggleBtn.addEventListener('click', () => this.toggleMode());
 
+            // Contents Popover Toggle
+            const triggerBtn = this.controlsEl?.querySelector('.magazine-contents-trigger');
+            const closeBtn = this.controlsEl?.querySelector('.contents-close-btn');
+
+            if (triggerBtn && this.contentsPopoverEl) {
+                triggerBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const isHidden = this.contentsPopoverEl.hasAttribute('hidden');
+                    if (isHidden) {
+                        this.contentsPopoverEl.removeAttribute('hidden');
+                        triggerBtn.setAttribute('aria-expanded', 'true');
+                    } else {
+                        this.contentsPopoverEl.setAttribute('hidden', '');
+                        triggerBtn.setAttribute('aria-expanded', 'false');
+                    }
+                });
+
+                if (closeBtn) {
+                    closeBtn.addEventListener('click', () => {
+                        this.contentsPopoverEl.setAttribute('hidden', '');
+                        triggerBtn.setAttribute('aria-expanded', 'false');
+                    });
+                }
+
+                document.addEventListener('click', (e) => {
+                    if (this.contentsPopoverEl && !this.contentsPopoverEl.contains(e.target) && !triggerBtn.contains(e.target)) {
+                        this.contentsPopoverEl.setAttribute('hidden', '');
+                        triggerBtn.setAttribute('aria-expanded', 'false');
+                    }
+                });
+
+                const itemBtns = this.contentsPopoverEl.querySelectorAll('.contents-item-btn');
+                itemBtns.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const pageNum = parseInt(btn.getAttribute('data-page'), 10);
+                        if (!isNaN(pageNum)) {
+                            this.showPage(pageNum);
+                            this.contentsPopoverEl.setAttribute('hidden', '');
+                            triggerBtn.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+                });
+            }
+
+            // Page Dog-Ear Turn Affordance Clicks
+            this.container.querySelectorAll('.magazine-dog-ear').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    if (this.currentPage < this.totalPages) {
+                        this.nextPage();
+                    } else {
+                        this.prevPage();
+                    }
+                });
+            });
+
             // Edge clicks on page boundaries
             this.container.addEventListener('click', (e) => {
                 if (this.mode !== 'flipbook') return;
@@ -316,6 +447,9 @@
                     this.prevPage();
                 } else if (e.key === 'ArrowRight' || e.key === 'PageDown') {
                     this.nextPage();
+                } else if (e.key === 'Escape' && this.contentsPopoverEl && !this.contentsPopoverEl.hasAttribute('hidden')) {
+                    this.contentsPopoverEl.setAttribute('hidden', '');
+                    if (triggerBtn) triggerBtn.setAttribute('aria-expanded', 'false');
                 }
             });
 
@@ -361,8 +495,6 @@
 
                 if (this.mode === 'flipbook') {
                     if (!isMobile) {
-                        // Desktop Spread View: display two-page spread (pageIndex and pageIndex + 1 if even/odd alignment)
-                        // If pageIndex is odd, left page = pageIndex, right page = pageIndex + 1
                         const leftPageNum = pageIndex % 2 === 0 ? pageIndex - 1 : pageIndex;
                         const rightPageNum = leftPageNum + 1;
 
@@ -380,7 +512,6 @@
                             }
                         });
                     } else {
-                        // Mobile View: Single Page Slide
                         this.pages.forEach((p, idx) => {
                             if (idx + 1 === pageIndex) {
                                 p.classList.add('active');
@@ -395,11 +526,14 @@
                     }
                 }
 
-                // Update UI
-                if (this.indicatorEl) this.indicatorEl.textContent = `Page ${pageIndex} of ${this.totalPages}`;
+                // Update UI elements
+                if (this.indicatorEl) this.indicatorEl.textContent = `PAGE ${pageIndex} OF ${this.totalPages}`;
                 if (this.selectEl) this.selectEl.value = pageIndex;
                 if (this.prevBtn) this.prevBtn.disabled = pageIndex === 1;
                 if (this.nextBtn) this.nextBtn.disabled = pageIndex === this.totalPages;
+                if (this.progressBarEl) {
+                    this.progressBarEl.style.width = `${(pageIndex / this.totalPages) * 100}%`;
+                }
 
                 if (this.liveAnnouncerEl) {
                     this.liveAnnouncerEl.textContent = `Page ${pageIndex} of ${this.totalPages}`;
@@ -443,7 +577,8 @@
                     p.classList.add('active');
                 });
                 if (this.modeToggleBtn) {
-                    this.modeToggleBtn.textContent = '📜 Read as One Page';
+                    const labelSpan = this.modeToggleBtn.querySelector('.mode-label');
+                    if (labelSpan) labelSpan.textContent = 'MAGAZINE SPREAD';
                     this.modeToggleBtn.classList.add('active-scroll');
                 }
                 if (this.prevBtn) this.prevBtn.style.display = 'none';
@@ -453,7 +588,8 @@
                 this.container.classList.remove('scroll-mode');
                 this.container.classList.add('flipbook-mode');
                 if (this.modeToggleBtn) {
-                    this.modeToggleBtn.textContent = '📖 Magazine Flipbook Mode';
+                    const labelSpan = this.modeToggleBtn.querySelector('.mode-label');
+                    if (labelSpan) labelSpan.textContent = 'FLAT SCROLL';
                     this.modeToggleBtn.classList.remove('active-scroll');
                 }
                 if (this.prevBtn) this.prevBtn.style.display = 'inline-flex';

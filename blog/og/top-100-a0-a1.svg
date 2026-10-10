@@ -1,21 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="doodle-border" data-seed="top-100-a0-a1" data-lang="en">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="cosy-cover-art" data-motif="editorial-stars" data-seed="top-100-a0-a1" data-lang="en">
+      <defs>
+        <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#3C281E" flood-opacity="0.10" />
+        </filter>
+        <filter id="paper-grain" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise" />
+          <feColorMatrix type="saturate" values="0" />
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.05" />
+          </feComponentTransfer>
+          <feBlend mode="multiply" in="SourceGraphic" result="blend" />
+        </filter>
+      </defs>
       <style>
         @media (prefers-reduced-motion: reduce) {
           .cosy-cover-art * { animation: none !important; transition: none !important; }
         }
       </style>
 
-    <rect width="1200" height="630" fill="#f0fff4" />
-    <path d="M 13 13 L 13 12 L 43 15 L 73 12 L 103 18 L 133 8 L 163 15 L 193 12 L 223 8 L 253 13 L 283 17 L 313 16 L 343 13 L 373 11 L 403 14 L 433 13 L 463 18 L 493 17 L 523 17 L 553 10 L 583 17 L 613 16 L 643 16 L 673 11 L 703 9 L 733 11 L 763 16 L 793 16 L 823 9 L 853 16 L 883 12 L 913 13 L 943 11 L 973 8 L 1003 16 L 1033 18 L 1063 15 L 1093 14 L 1123 11 L 1153 17 L 1183 8 L 1185 13 L 1183 43 L 1185 73 L 1186 103 L 1183 133 L 1186 163 L 1192 193 L 1189 223 L 1182 253 L 1182 283 L 1191 313 L 1183 343 L 1189 373 L 1182 403 L 1191 433 L 1187 463 L 1183 493 L 1189 523 L 1191 553 L 1182 583 L 1184 613 L 1187 621 L 1157 619 L 1127 612 L 1097 612 L 1067 619 L 1037 614 L 1007 612 L 977 620 L 947 612 L 917 614 L 887 614 L 857 616 L 827 619 L 797 617 L 767 614 L 737 618 L 707 617 L 677 622 L 647 612 L 617 612 L 587 621 L 557 614 L 527 612 L 497 620 L 467 612 L 437 619 L 407 617 L 377 617 L 347 616 L 317 614 L 287 619 L 257 622 L 227 616 L 197 618 L 167 615 L 137 616 L 107 619 L 77 613 L 47 615 L 17 616 L 9 617 L 12 587 L 10 557 L 14 527 L 12 497 L 16 467 L 16 437 L 13 407 L 13 377 L 11 347 L 13 317 L 16 287 L 17 257 L 14 227 L 9 197 L 17 167 L 12 137 L 12 107 L 18 77 L 13 47 L 16 17 Z" fill="none" stroke="#22543d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="1167.5" cy="32.5" r="18" fill="#38a169" opacity="0.3" />
-    <circle cx="32.5" cy="597.5" r="24" fill="#38a169" opacity="0.25" />
+    <rect width="1200" height="630" fill="#FAF6EE" />
+
+      <polygon points="1144,266 679,589 643,-149" fill="#225B58" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="618,422 546,554 307,609 247,467 169,306 363,237 512,259" fill="#225B58" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="644,50 572,298 317,304 100,185 103,-71 229,-338 481,-137" fill="#E8D2C2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="1261,97 905,328 935,-122" fill="#faf7f2" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="1114,449 1016,529 1003,395" fill="#225B58" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
+
+      <polygon points="753,460 499,618 270,502 514,290" fill="#225B58" opacity="0.75" style="filter: drop-shadow(2px 3px 3px rgba(60,40,30,0.08));" />
 
 
-      <g class="cover-text-overlay">
-        <rect class="cover-overlay-box" x="24" y="460" width="1152" height="146" rx="8" fill="rgba(15, 23, 42, 0.82)" backdrop-filter="blur(6px)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
-        <text x="54" y="498" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">RESOURCE LIST • Vol. 2026 — August Issue</text>
-        <text x="54" y="536" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Top 100 A0–A1 Semantic</text>
-<text x="54" y="572" fill="#ffffff" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Master List (14 Languages)</text>
+
+      <g transform="rotate(-2 835 429)">
+        <rect x="589" y="261" width="492" height="336" rx="6" fill="#FAF6EE" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
       </g>
 
+      <g transform="rotate(-7 486 348)">
+        <rect x="257" y="193" width="458" height="310" rx="6" fill="#225B58" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+      <g transform="rotate(-1 777.5 227)">
+        <rect x="601" y="104" width="353" height="246" rx="6" fill="#225B58" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+      <g transform="rotate(8 551.5 243.5)">
+        <rect x="393" y="110" width="317" height="267" rx="6" fill="#faf7f2" opacity="0.3" stroke="#225B58" stroke-width="1" filter="url(#soft-shadow)" />
+      </g>
+
+
+    <g class="cover-torn-paper" filter="url(#soft-shadow)">
+      <polygon points="957,0 1200,0 1200,283.5 1185,264.59999999999997 1165,289.8 1140,239.4 1110,258.3 1080,220.5 1050,245.70000000000002 1020,201.6 977,157.5 957,0" fill="#FCF9F2" opacity="0.9" stroke="#225B58" stroke-width="0.8" stroke-dasharray="3 2" />
+    </g>
+
+
+    <g transform="rotate(1 747 36)" filter="url(#soft-shadow)">
+      <rect x="687" y="24" width="120" height="24" rx="2" fill="#faf7f2" opacity="0.45" />
+      <line x1="687" y1="24" x2="687" y2="48" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+      <line x1="807" y1="24" x2="807" y2="48" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" opacity="0.7" />
+    </g>
+
+
+    <g class="cover-tiny-doodles" stroke="#225B58" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- Four-pointed sparkle doodle -->
+      <path d="M 1071 66 Q 1071 78 1083 78 Q 1071 78 1071 90 Q 1071 78 1059 78 Q 1071 78 1071 66 Z" fill="#faf7f2" opacity="0.3" />
+      <path d="M 1116 108 Q 1116 116 1124 116 Q 1116 116 1116 124 Q 1116 116 1108 116 Q 1116 116 1116 108 Z" stroke="#faf7f2" stroke-width="1" />
+      <!-- Botanical sprig doodle -->
+      <path d="M 55 150 C 65 135, 50 115, 70 100" />
+      <circle cx="59" cy="135" r="3" fill="#225B58" opacity="0.5" />
+      <circle cx="65" cy="118" r="3" fill="#faf7f2" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-sketchy-underline">
+      <path d="M 50 581 Q 146 583 242 578" stroke="#faf7f2" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75" />
+      <path d="M 60 584 Q 146 586 232 583" stroke="#225B58" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5" />
+    </g>
+
+
+    <g class="cover-masthead-label" filter="url(#soft-shadow)">
+      <rect x="20" y="20" width="236" height="30" rx="4" fill="#FCF9F2" opacity="0.95" stroke="#faf7f2" stroke-width="1.2" />
+      <text x="34" y="40" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="11" font-weight="bold" letter-spacing="1.4">COSY GAZETTE • LONG READS</text>
+    </g>
+
+
+      <g class="cover-text-overlay" filter="url(#soft-shadow)">
+        <!-- Warm paper card overlay -->
+        <rect class="cover-overlay-box" x="24" y="460" width="1152" height="146" rx="8" fill="#FCF9F2" opacity="0.96" stroke="#225B58" stroke-width="1.2" />
+        <text x="54" y="498" fill="#225B58" font-family="Fraunces, 'Lora', Georgia, serif" font-size="17" font-weight="bold" letter-spacing="1.5">SEMANTIC MASTER TREE • Vol. 2026 — August Issue</text>
+        <text x="54" y="536" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Top 100 A0–A1 Semantic</text>
+<text x="54" y="572" fill="#0d9488" font-family="Fraunces, 'Lora', Georgia, serif" font-size="27" font-weight="bold">Master List (14 Languages)</text>
+      </g>
+
+      <rect width="1200" height="630" filter="url(#paper-grain)" opacity="0.5" pointer-events="none" />
     </svg>

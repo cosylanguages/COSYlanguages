@@ -25,7 +25,7 @@ console.log(`✅ Passed: All ${posts.length} posts in blog/posts.json have valid
 const indexPath = path.resolve('blog/index.html');
 const indexHtml = fs.readFileSync(indexPath, 'utf8');
 
-assert.ok(indexHtml.includes('COSY Gazette &amp; Magazine Edition'), 'blog/index.html should feature magazine title');
+assert.ok(indexHtml.includes('COSY Gazette &amp; Magazine Newsstand') || indexHtml.includes('COSY Gazette &amp; Magazine Edition'), 'blog/index.html should feature magazine title');
 assert.ok(indexHtml.includes('founder-presentation-card'), 'blog/index.html should feature founder presentation card');
 assert.ok(indexHtml.includes('founder-expand-btn'), 'blog/index.html should feature founder expand button');
 assert.ok(indexHtml.includes('podcast-mode-btn'), 'blog/index.html should feature podcast mode button');
@@ -38,7 +38,7 @@ assert.ok(blogFiles.length > 0, 'Should find blog post HTML files');
 
 blogFiles.forEach(file => {
     const postHtml = fs.readFileSync(path.join('blog', file), 'utf8');
-    assert.ok(postHtml.includes('founder-presentation-card'), `${file} should feature founder-presentation-card`);
+    assert.ok(postHtml.includes('founder-colophon-block') || postHtml.includes('founder-presentation-card'), `${file} should feature founder deck/colophon`);
     assert.ok(postHtml.includes('flipbook.js'), `${file} should load flipbook.js script`);
 });
 console.log(`✅ Passed: All ${blogFiles.length} blog post HTML files contain Founder Deck & Flipbook script integrations.`);
