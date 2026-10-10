@@ -57,25 +57,27 @@ function getTranslationsForLang(lang) {
     if (fs.existsSync(i18nPath)) {
       translationsCache[lang] = JSON.parse(fs.readFileSync(i18nPath, 'utf-8'));
     } else {
-      const enPath = path.join(__dirname, '..', 'js', 'i18n', 'en.json');
-      translationsCache[lang] = JSON.parse(fs.readFileSync(enPath, 'utf-8'));
+      throw new Error(`[i18n] Missing required translation file for language "${lang}" (${i18nPath}). Core principle: No translation fallback.`);
     }
   }
   return translationsCache[lang];
 }
 
-function t(dict, key, fallback) {
-  if (!key) return fallback;
+function tStrict(dict, key, lang) {
+  if (!key) throw new Error(`[i18n] Key is required.`);
   const parts = key.split('.');
   let val = dict;
   for (const part of parts) {
     if (val && typeof val === 'object' && part in val) {
       val = val[part];
     } else {
-      return fallback;
+      throw new Error(`[i18n] Missing translation key "${key}" for language "${lang}". Core principle: No translation fallback.`);
     }
   }
-  return typeof val === 'string' ? val : fallback;
+  if (typeof val !== 'string' || !val) {
+    throw new Error(`[i18n] Missing or empty translation string for key "${key}" in language "${lang}".`);
+  }
+  return val;
 }
 
 const RESERVED_SLUGS = new Set([
@@ -140,11 +142,16 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
       return `<h${lvl} class="editorial-heading">${parseFormattedText(block.text)}</h${lvl}>`;
     }
     case 'paragraph': {
+      const parsedText = parseFormattedText(block.text);
       if (state.isFirstParagraph) {
         state.isFirstParagraph = false;
-        return `<p class="gazette-drop-cap">${parseFormattedText(block.text)}</p>`;
+        // Check if text starts with a block element like <div> or <section>
+        if (/^\s*<(div|section|aside|blockquote|table|ul|ol|figure)/i.test(parsedText)) {
+          return parsedText;
+        }
+        return `<p class="gazette-drop-cap">${parsedText}</p>`;
       }
-      return `<p>${parseFormattedText(block.text)}</p>`;
+      return `<p>${parsedText}</p>`;
     }
     case 'list-item': {
       const tag = block.ordered ? 'ol' : 'ul';
@@ -271,7 +278,7 @@ function renderBlockToHtml(block, state = { isFirstParagraph: true }) {
   }
 }
 
-function renderLanguageSwitcherHtml(currentPost, allPosts, langDict) {
+function renderLanguageSwitcherHtml(currentPost, allPosts, langDict, lang) {
   const baseSlug = currentPost.translationOf || (currentPost.slug.replace(/-(fr|it|ru|el)$/, ''));
   const variants = allPosts.filter(p => p.slug === baseSlug || p.translationOf === baseSlug);
 
@@ -286,7 +293,7 @@ function renderLanguageSwitcherHtml(currentPost, allPosts, langDict) {
     return `<a href="${v.slug}.html" class="lang-switcher-link">${flag} ${langCode}</a>`;
   }).join(' ');
 
-  const readInLabel = t(langDict, 'blog.read_in', 'Read in:');
+  const readInLabel = tStrict(langDict, 'blog.read_in', lang);
 
   return `
 <div class="language-switcher-bar">
@@ -295,15 +302,15 @@ function renderLanguageSwitcherHtml(currentPost, allPosts, langDict) {
 </div>`;
 }
 
-function renderStaticPodcastBoxHtml(post, langDict) {
+function renderStaticPodcastBoxHtml(post, langDict, lang) {
   const podcast = post.podcast || {};
   const episodeNum = podcast.episode || 1;
   const audioUrl = podcast.audioUrl || (post.audio_podcast ? `../audio/blog/${post.slug}.mp3` : null);
 
-  const epText = `${t(langDict, 'blog.episode', 'EPISODE')} ${episodeNum}`;
-  const noticeText = t(langDict, 'blog.podcast_in_production', '🎙️ Audio recording in production for this episode.');
-  const stageViewText = t(langDict, 'blog.stage_view', '📺 Stage View');
-  const scriptPromptText = t(langDict, 'blog.script_teleprompter', '📜 Script Teleprompter');
+  const epText = `${tStrict(langDict, 'blog.episode', lang)} ${episodeNum}`;
+  const noticeText = tStrict(langDict, 'blog.podcast_in_production', lang);
+  const stageViewText = tStrict(langDict, 'blog.stage_view', lang);
+  const scriptPromptText = tStrict(langDict, 'blog.script_teleprompter', lang);
 
   const playerHtml = audioUrl ? `
     <div class="podcast-audio-player-wrapper">
@@ -428,13 +435,14 @@ async function buildBlog() {
   // 4. Generate HTML pages for published posts
   publishedPosts.forEach(post => {
     const htmlPath = path.join(BLOG_DIR, `${post.slug}.html`);
+    const lang = post.language || 'en';
 
-    const langDict = getTranslationsForLang(post.language || 'en');
+    const langDict = getTranslationsForLang(lang);
 
     // Render blocks statefully to apply drop cap on the first paragraph
     const blockState = { isFirstParagraph: true };
     const renderedBlocksHtml = (post.blocks || []).map(b => renderBlockToHtml(b, blockState)).join('\n');
-    const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts, langDict);
+    const langSwitcherHtml = renderLanguageSwitcherHtml(post, publishedPosts, langDict, lang);
 
     // Inlined SVG cover art generated at build time
     let coverSvgHtml = '';
@@ -447,38 +455,48 @@ async function buildBlog() {
     const desk = post.desk || 'Words';
     const kicker = post.kicker || desk;
     const issueNum = post.issue?.number || 'Vol. 2026.09';
-    const issueTitle = post.issue?.title || 'COSY Editorial';
+
+    // Localize Issue Title per post language (No English fallback)
+    let issueTitleKey = null;
+    if (post.issue?.number === 'Vol. 2026.08') issueTitleKey = 'blog.issue_august_title';
+    else if (post.issue?.number === 'Vol. 2026.09') issueTitleKey = 'blog.issue_september_title';
+    else if (post.issue?.number === 'Vol. 2026.10') issueTitleKey = 'blog.issue_october_title';
+
+    const issueTitle = issueTitleKey
+      ? tStrict(langDict, issueTitleKey, lang)
+      : (post.issue?.title || 'COSY Editorial');
+
     const palette = post.artDirection?.palette || ['#0d9488', '#faf7f2', '#1e293b', '#d69e2e'];
     const fontDisplay = post.artDirection?.fonts?.display || 'Fraunces';
     const fontText = post.artDirection?.fonts?.text || 'DM Sans';
     const fontAccent = post.artDirection?.fonts?.accent || 'Fraunces';
 
-    const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post, langDict) : '';
+    const staticPodcastBoxHtml = (post.podcast || post.audio_podcast) ? renderStaticPodcastBoxHtml(post, langDict, lang) : '';
 
-    const backToHubText = t(langDict, 'blog.back_to_hub', '← Back to Blog & Editorial Hub');
-    const scriptModeText = t(langDict, 'blog.script_mode', '📜 Script Mode');
-    const stageModeText = t(langDict, 'blog.stage_mode', '📺 Stage Mode');
-    const writtenByText = t(langDict, 'blog.written_by', 'Written by');
-    const minReadText = t(langDict, 'blog.min_read', 'min read');
-    const returnToIndexText = t(langDict, 'blog.return_to_index', '← Return to Blog Index');
+    const backToHubText = tStrict(langDict, 'blog.back_to_hub', lang);
+    const scriptModeText = tStrict(langDict, 'blog.script_mode', lang);
+    const stageModeText = tStrict(langDict, 'blog.stage_mode', lang);
+    const writtenByText = tStrict(langDict, 'blog.written_by', lang);
+    const minReadText = tStrict(langDict, 'blog.min_read', lang);
+    const returnToIndexText = tStrict(langDict, 'blog.return_to_index', lang);
 
     const deskKey = DESK_KEY_MAP[desk];
-    const translatedDesk = deskKey ? t(langDict, 'desk.' + deskKey, desk) : desk;
+    const translatedDesk = deskKey ? tStrict(langDict, 'desk.' + deskKey, lang) : desk;
 
     const kickerKey = DESK_KEY_MAP[kicker];
-    const translatedKicker = kickerKey ? t(langDict, 'desk.' + kickerKey, kicker) : kicker;
+    const translatedKicker = kickerKey ? tStrict(langDict, 'desk.' + kickerKey, lang) : kicker;
 
-    const epBadgeText = post.podcast ? `${t(langDict, 'blog.episode', 'EPISODE')} ${post.podcast.episode}` : '';
+    const epBadgeText = post.podcast ? `${tStrict(langDict, 'blog.episode', lang)} ${post.podcast.episode}` : '';
 
-    const founderDeckTitleText = t(langDict, 'blog.founder_deck_title', '🎙️ Founder\'s Editorial Room & Colophon Deck');
-    const expandDeckText = t(langDict, 'blog.expand_deck', 'Expand Deck ▼');
-    const celtaFocusTitleText = t(langDict, 'blog.celta_focus_title', 'CELTA Pedagogical Focus:');
-    const celtaFocusBodyText = t(langDict, 'blog.celta_focus_text', 'Target CEFR Level {level}. Focused on natural conversational upgrades, spoken fluency, and CELTA Concept Checking Questions (CCQs).').replace('{level}', escapeHtml(post.level || 'A0–B2'));
-    const editorialNotesTitleText = t(langDict, 'blog.editorial_notes_title', 'Editorial Notes by {author}:').replace('{author}', authorName);
-    const editorialNotesBodyText = t(langDict, 'blog.editorial_notes_text', 'CELTA-aligned target-language guidance by {author} for COSYmagazine {issue} edition.').replace('{author}', authorName).replace('{issue}', escapeHtml(issueTitle));
-    const scriptViewModeText = t(langDict, 'blog.teleprompter_script_view_mode', '📜 Teleprompter Script View Mode');
-    const stageViewModeText = t(langDict, 'blog.stage_view_mode', '📺 16:9 Stage View Mode');
-    const pageXofYText = t(langDict, 'blog.page_x_of_y', 'Page {current} of {total}').replace('{current}', '1').replace('{total}', '1');
+    const founderDeckTitleText = tStrict(langDict, 'blog.founder_deck_title', lang);
+    const expandDeckText = tStrict(langDict, 'blog.expand_deck', lang);
+    const celtaFocusTitleText = tStrict(langDict, 'blog.celta_focus_title', lang);
+    const celtaFocusBodyText = tStrict(langDict, 'blog.celta_focus_text', lang).replace('{level}', escapeHtml(post.level || 'A0–B2'));
+    const editorialNotesTitleText = tStrict(langDict, 'blog.editorial_notes_title', lang).replace('{author}', authorName);
+    const editorialNotesBodyText = tStrict(langDict, 'blog.editorial_notes_text', lang).replace('{author}', authorName).replace('{issue}', escapeHtml(issueTitle));
+    const scriptViewModeText = tStrict(langDict, 'blog.teleprompter_script_view_mode', lang);
+    const stageViewModeText = tStrict(langDict, 'blog.stage_view_mode', lang);
+    const pageXofYText = tStrict(langDict, 'blog.page_x_of_y', lang).replace('{current}', '1').replace('{total}', '1');
 
     const postForScript = {
       ...post,

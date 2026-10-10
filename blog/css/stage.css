@@ -62,9 +62,6 @@ body.script-mode-active .gazette-wrapper {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   position: relative;
-  transform-origin: center center;
-  will-change: transform;
-  transition: transform 0.1s linear;
 }
 
 /* Stage Content */
@@ -76,6 +73,9 @@ body.script-mode-active .gazette-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  transform-origin: 0 0;
+  will-change: transform;
+  transition: transform 0.1s linear;
 }
 
 /* Cover Art Opening Scene */
@@ -377,7 +377,7 @@ body.script-mode-active .gazette-wrapper {
 /* Lower Third Captions */
 .stage-lower-third {
   position: absolute;
-  bottom: 4rem;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(15, 23, 42, 0.88);
@@ -833,7 +833,7 @@ body.stage-render-mode *::after {
 
 /* Reduced Motion Override */
 @media (prefers-reduced-motion: reduce) {
-  .stage-viewport,
+  .stage-content,
   .stage-block,
   .stage-lower-third,
   .stage-progress-fill,
