@@ -1,0 +1,283 @@
+/**
+ * js/i18n.js
+ * Vanilla-JS i18n loader for COSYlanguages.
+ * Controls site-wide monolingual UI chrome translation using localStorage['cosy_ui_lang'].
+ */
+(function() {
+    'use strict';
+
+    let currentUILang = 'en';
+    let uiTranslations = {};
+    let englishTranslations = {};
+
+    function getPrefix() {
+        if (window.COSY && typeof window.COSY.getPrefix === 'function') {
+            return window.COSY.getPrefix();
+        }
+        // Fallback relative prefix detector handling files and missing trailing slashes
+        let relativePath = window.location.pathname;
+        if (relativePath.startsWith('/COSYlanguages/')) {
+            relativePath = relativePath.substring('/COSYlanguages/'.length);
+        } else if (relativePath.startsWith('/COSYlanguages')) {
+            relativePath = relativePath.substring('/COSYlanguages'.length);
+        } else if (relativePath.startsWith('/')) {
+            relativePath = relativePath.substring(1);
+        }
+        const segments = relativePath.split('/').filter(Boolean);
+        if (segments.length > 0 && segments[segments.length - 1].includes('.')) {
+            segments.pop();
+        }
+        const depth = segments.length;
+        return depth > 0 ? '../'.repeat(depth) : './';
+    }
+
+    // Helper to resolve nested or dot-separated keys
+    function getValueByPath(obj, keyPath) {
+        if (!obj) return null;
+        if (keyPath in obj) return obj[keyPath];
+        const parts = keyPath.split('.');
+        let current = obj;
+        for (const part of parts) {
+            if (current && typeof current === 'object' && part in current) {
+                current = current[part];
+            } else {
+                return null;
+            }
+        }
+        return typeof current === 'string' ? current : null;
+    }
+
+    function detectPageLang() {
+        const path = window.location.pathname.toLowerCase();
+        const langMatch = path.match(/\/languages\/([a-z]{2})\b/);
+        if (langMatch && langMatch[1]) {
+            return langMatch[1];
+        }
+        const htmlLang = (document.documentElement && document.documentElement.lang) ? document.documentElement.lang.toLowerCase() : '';
+        if (path.includes('/languages/') && htmlLang) {
+            return htmlLang;
+        }
+        return localStorage.getItem('cosy_ui_lang') || htmlLang || 'en';
+    }
+
+    async function loadTranslations() {
+        const prefix = getPrefix();
+        currentUILang = detectPageLang();
+
+        try {
+            // Load English as standard fallback
+            const enRes = await fetch(`${prefix}js/i18n/en.json?v=${Date.now()}`);
+            if (enRes.ok) {
+                englishTranslations = await enRes.json();
+            }
+        } catch (e) {
+            console.error('[i18n] Failed to load English fallback translations', e);
+        }
+
+        const EXISTING_I18N_LANGS = ["el", "en", "es", "fr", "it", "ru"];
+        if (currentUILang !== 'en' && EXISTING_I18N_LANGS.includes(currentUILang)) {
+            try {
+                const langRes = await fetch(`${prefix}js/i18n/${currentUILang}.json?v=${Date.now()}`);
+                if (langRes.ok) {
+                    uiTranslations = await langRes.json();
+                } else {
+                    console.warn(`[i18n] Failed to load translations for ${currentUILang}, falling back to English.`);
+                    uiTranslations = {};
+                }
+            } catch (e) {
+                console.warn(`[i18n] Error loading translations for ${currentUILang}`, e);
+                uiTranslations = {};
+            }
+        } else {
+            uiTranslations = englishTranslations;
+        }
+
+        injectCanonicalFooter();
+        applyUITranslations();
+    }
+
+    function injectCanonicalFooter() {
+        const footer = document.querySelector('footer');
+        if (!footer) return;
+
+        // Skip canonical footer injection for standalone reference apps or custom footers
+        if (
+            footer.classList.contains('app-footer') ||
+            footer.hasAttribute('data-no-canonical-footer') ||
+            footer.closest('.app-container') ||
+            document.querySelector('.app-container')
+        ) {
+            return;
+        }
+
+        const prefix = getPrefix();
+        footer.className = footer.className || '';
+        footer.innerHTML = `
+          <div class="footer-inner">
+            <div class="footer-brand">
+              <div class="fb-logo">
+                <img src="${prefix}images/logos/cosylanguages.png" alt="COSYlanguages logo">
+                <span class="fb-name">COSYlanguages</span>
+              </div>
+              <p data-i18n="footer.description">Your friendly corner to master new languages and connect with the world. 🌍</p>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.courses">Courses</h3>
+              <a href="https://cosylanguages.github.io/COSYplatform/" data-i18n="course_general">Paid Courses (COSYplatform) 🎓</a>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.explore">Explore</h3>
+              <a href="${prefix}#languages" data-i18n="nav.languages">Languages 🌍</a>
+              <a href="https://cosylanguages.github.io/COSYpractice/" data-i18n="nav.practice">Free Practice 💡</a>
+              <a href="${prefix}placement-quiz.html">Placement Quiz 📝</a>
+              <a href="${prefix}hybrid/index.html">Hybrid &amp; Community 🌿</a>
+              <a href="https://cosylanguages.github.io/COSYevents/" data-i18n="nav.events">Events 🎉</a>
+              <a href="https://cosylanguages.github.io/COSYgames/" data-i18n="nav.games">Games 🎮</a>
+              <a href="https://cosylanguages.github.io/COSYblog/" data-i18n="nav.blog">Blog 📝</a>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.project">Project</h3>
+              <a href="${prefix}privacy.html" data-i18n="footer.privacy">Privacy &amp; Safety 🛡️</a>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.contact">Contact</h3>
+              <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+              <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+              <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+            </div>
+          </div>
+          <div class="footer-bottom" data-i18n="footer.allRightsReserved">© 2026 COSYlanguages — All rights reserved</div>
+        `;
+    }
+
+    function applyUITranslations() {
+        const elements = document.querySelectorAll('[data-i18n]');
+        elements.forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (!key) return;
+
+            let translation = getValueByPath(uiTranslations, key);
+
+            if (translation === undefined || translation === null) {
+                if (currentUILang !== 'en') {
+                    console.warn(`[i18n-dev] Key "${key}" missing in language "${currentUILang}". Falling back to English.`);
+                }
+                translation = getValueByPath(englishTranslations, key);
+            }
+
+            if (translation !== undefined && translation !== null) {
+                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                    if (el.hasAttribute('placeholder')) {
+                        el.setAttribute('placeholder', translation);
+                    } else {
+                        el.value = translation;
+                    }
+                } else {
+                    el.innerHTML = translation;
+                }
+            }
+        });
+
+        const ariaElements = document.querySelectorAll('[data-i18n-aria-label]');
+        ariaElements.forEach(el => {
+            const key = el.getAttribute('data-i18n-aria-label');
+            if (!key) return;
+
+            let translation = getValueByPath(uiTranslations, key);
+
+            if (translation === undefined || translation === null) {
+                translation = getValueByPath(englishTranslations, key);
+            }
+
+            if (translation !== undefined && translation !== null) {
+                el.setAttribute('aria-label', translation);
+            }
+        });
+
+        // Update Flag Switcher visual indication
+        updateFlagPickerUI();
+    }
+
+    function updateFlagPickerUI() {
+        // Desktop flag switcher
+        const desktopSel = document.getElementById('cosy-language-switcher');
+        if (desktopSel) {
+            desktopSel.value = currentUILang;
+        }
+        // Mobile flag switcher
+        const mobileSel = document.getElementById('cosy-language-switcher-mobile');
+        if (mobileSel) {
+            mobileSel.value = currentUILang;
+        }
+    }
+
+    function isLanguageLocked() {
+        return localStorage.getItem('cosy_ui_lang_locked') === 'true';
+    }
+
+    window.toggleLanguageLock = function() {
+        const currentlyLocked = isLanguageLocked();
+        const newLockState = !currentlyLocked;
+        localStorage.setItem('cosy_ui_lang_locked', newLockState ? 'true' : 'false');
+
+        const msg = newLockState
+            ? (getValueByPath(uiTranslations, 'lang_locked_notice') || '🔒 Device language locked! Interface language is fixed.')
+            : (getValueByPath(uiTranslations, 'lang_unlocked_notice') || '🔓 Device language unlocked! You can now switch languages.');
+
+        if (window.COSY && typeof window.COSY.showToast === 'function') {
+            window.COSY.showToast(msg);
+        }
+
+        updateFlagPickerUI();
+
+        if (window.COSY && typeof window.COSY.refresh === 'function') {
+            window.COSY.refresh();
+        }
+
+        document.dispatchEvent(new CustomEvent('cosyLanguageLockChanged', { detail: { locked: newLockState } }));
+        return newLockState;
+    };
+
+    window.setUILanguage = async function(lang) {
+        if (!lang) return;
+        lang = lang.toLowerCase();
+
+        if (isLanguageLocked() && lang !== currentUILang) {
+            const msg = getValueByPath(uiTranslations, 'lang_locked_notice') || '🔒 Device language is locked. Click 🔒 to unlock before changing languages.';
+            if (window.COSY && typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast(msg, true);
+            }
+            updateFlagPickerUI();
+            return;
+        }
+
+        localStorage.setItem('cosy_ui_lang', lang);
+
+        // Synchronize with cosy_last_language for general platform compatibility
+        localStorage.setItem('cosy_last_language', lang);
+
+        await loadTranslations();
+
+        // Trigger dynamic page re-rendering elements
+        if (window.COSY && typeof window.COSY.refresh === 'function') {
+            window.COSY.refresh();
+        }
+
+        document.dispatchEvent(new CustomEvent('cosyUILanguageChanged', { detail: { lang } }));
+    };
+
+    // Auto-run on load
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadTranslations);
+    } else {
+        loadTranslations();
+    }
+
+    // Expose APIs
+    window.COSY_UI_I18N = {
+        get currentLang() { return currentUILang; },
+        get translations() { return uiTranslations; },
+        refresh: applyUITranslations,
+        load: loadTranslations
+    };
+})();

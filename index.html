@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('cosy.theme') || localStorage.getItem('cosy_theme');
+          if (!t) {
+            t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+          }
+          document.documentElement.setAttribute('data-theme', t);
+          if (t === 'dark') document.documentElement.classList.add('theme-dark');
+        } catch(e) {}
+      })();
+    </script>
+    <title data-translate-key="site_title_redesign">COSYlanguages: Speak from lesson one</title>
+    <meta name="description" data-translate-key="site_desc" content="1-to-1 online language lessons in English, French, Italian, Russian and Greek. Speaking first, always. Levels A1 to C2 in English, French and Russian, and A1 in Italian and Greek.">
+    <meta property="og:title" data-translate-key="site_title_redesign" content="COSYlanguages: Learn a language with teachers who love what they teach">
+    <meta property="og:description" data-translate-key="site_desc" content="1-to-1 online language lessons with a speaking-first approach. Levels A1 to C2 in English, French and Russian, and A1 in Italian and Greek.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="COSYlanguages: Learn a language with teachers who love what they teach">
+    <meta name="twitter:description" content="1-to-1 online language lessons with a speaking-first approach. Levels A1 to C2 in English, French and Russian, and A1 in Italian and Greek.">
+    <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "COSYlanguages",
+      "url": "https://cosylanguages.github.io/COSYlanguages/",
+      "logo": "https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png",
+      "description": "1-to-1 online language lessons in English, French, Italian, Russian and Greek. Speaking first, always. Levels A1 to C2 in English, French and Russian, and A1 in Italian and Greek.",
+      "email": "cosylanguages@gmail.com",
+      "sameAs": [
+        "https://wa.me/330766784195",
+        "https://t.me/cosylanguagesproject"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Language courses",
+        "itemListElement": [
+          { "@type": "Course", "name": "General Course",
+            "url": "https://cosylanguages.github.io/COSYplatform/" },
+          { "@type": "Course", "name": "Spoken Course",
+            "url": "https://cosylanguages.github.io/COSYplatform/" },
+          { "@type": "Course", "name": "Exam Preparation",
+            "url": "https://cosylanguages.github.io/COSYplatform/" },
+          { "@type": "Course", "name": "Travelling Course",
+            "url": "https://cosylanguages.github.io/COSYplatform/" },
+          { "@type": "Course", "name": "Professional Course",
+            "url": "https://cosylanguages.github.io/COSYplatform/" },
+          { "@type": "Course", "name": "Relocation Course",
+            "url": "https://cosylanguages.github.io/COSYplatform/" }
+        ]
+      }
+    }
+    </script>
+
+<link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/shared-nav.css">
+    <link rel="stylesheet" href="css/cosy-icons.css">
+    <link rel="stylesheet" href="css/daily-strip.css">
+    <link rel="stylesheet" href="css/modern.css">
+    <link rel="preload" href="fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/commissioner-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/">
+</head>
+<body class="page-home">
+
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" aria-label="Chat on WhatsApp" data-i18n-aria-label="aria.whatsappContact">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <h1 data-translate-key="hero_h1_speak">Learn a language with teachers who love what they teach.</h1>
+      <p class="hero-sub" data-translate-key="hero_sub">1-to-1 online lessons in English, French, Italian, Russian and Greek. Speaking-first, always, because the only way to become fluent is to open your mouth.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa" data-i18n="button.bookNow">Chat on WhatsApp</a>
+        <a href="placement-quiz.html" class="btn-secondary">Find your level</a>
+        <a href="#languages" class="hero-link" data-translate-key="hero_cta_courses">Explore courses</a>
+      </div>
+      <p class="hero-promise" data-translate-key="hero_badge_title">40% of every lesson is speaking, from your very first session.</p>
+    </div>
+
+    <figure class="hero-table">
+      <figcaption class="visually-hidden">Lesson one, in five languages: a name and a job.</figcaption>
+      <ol class="bubbles">
+        <li class="bubble" lang="en" style="--i:0"><span class="bubble-lang">English</span><p>Hi, I'm Anna. I work in a bookshop.</p></li>
+        <li class="bubble" lang="fr" style="--i:1"><span class="bubble-lang">Français</span><p>Bonjour, je m'appelle Anna. Je travaille dans une librairie.</p></li>
+        <li class="bubble" lang="it" style="--i:2"><span class="bubble-lang">Italiano</span><p>Ciao, sono Anna. Lavoro in una libreria.</p></li>
+        <li class="bubble" lang="ru" style="--i:3"><span class="bubble-lang">Русский</span><p>Привет, меня зовут Анна. Я работаю в книжном магазине.</p></li>
+        <li class="bubble" lang="el" style="--i:4"><span class="bubble-lang">Ελληνικά</span><p>Γεια σου, με λένε Άννα. Δουλεύω σε βιβλιοπωλείο.</p></li>
+      </ol>
+    </figure>
+  </div>
+</header>
+
+<!-- Daily Strip Component -->
+<div data-daily-strip></div>
+
+<main class="page page-journey-container">
+
+
+<!-- SECTION 1: STORY -->
+<section id="story" class="home-section cozy-passion-banner reveal">
+  <div class="cpb-inner">
+    <h2 class="sec-h2">More than lessons: a shared journey into language.</h2>
+    <p class="sec-p">We don't teach from rigid scripts or detached textbooks. Every teacher at COSYlanguages is an active language learner who knows the joy, vulnerability, and beauty of finding your voice in a new culture.</p>
+  </div>
+</section>
+
+
+<!-- SECTION 2: HOW IT WORKS -->
+<section id="how" class="home-section">
+  <h2 class="sec-h2" data-translate-key="sec_h2_how">How your journey unfolds</h2>
+  <p class="sec-p" data-translate-key="sec_p_how">Three natural, human steps from your first contact to confident, real-world conversation.</p>
+
+  <div class="steps">
+    <div class="step reveal step-1">
+      <div class="step-num">1</div>
+      <h3 data-translate-key="step_1_title">Tell us where you are</h3>
+      <p data-translate-key="step_1_desc">Message us on WhatsApp or Telegram. We have a friendly chat about your level and goals. No exam needed; the placement quiz is optional.</p>
+    </div>
+    <div class="step reveal step-2">
+      <div class="step-num">2</div>
+      <h3 data-translate-key="step_2_title">We design your path</h3>
+      <p data-translate-key="step_2_desc">We match you to the right course and level, then send you a personalised plan to approve.</p>
+    </div>
+    <div class="step reveal step-3">
+      <div class="step-num">3</div>
+      <h3 data-translate-key="step_3_title">You start speaking</h3>
+      <p data-translate-key="step_3_desc">From lesson one, you're speaking. Progress is visible and real from the very start.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 3: MERGED LANGUAGES + COURSES HUB -->
+<section id="languages" class="home-section lang-course-hub">
+  <div id="courses"></div>
+  <h2 class="sec-h2" data-translate-key="sec_h2_languages">Choose your language, discover your course</h2>
+  <p class="sec-p" data-translate-key="sec_p_languages">Select a language to see available levels and course tracks. Every course puts speaking first.</p>
+
+  <!-- Interactive Language Selector Tabs -->
+  <div class="lang-selector-tabs" role="tablist" aria-label="Select Target Language">
+    <button type="button" class="lang-tab-btn active" data-lang="en" role="tab" aria-selected="true" id="tab-lang-en" onclick="switchLangCourseTab('en')">
+      <span class="lt-flag">🇬🇧</span>
+      <span class="lt-name">English</span>
+      <span class="lt-level">A1 → C2</span>
+    </button>
+    <button type="button" class="lang-tab-btn" data-lang="fr" role="tab" aria-selected="false" id="tab-lang-fr" onclick="switchLangCourseTab('fr')">
+      <span class="lt-flag">🇫🇷</span>
+      <span class="lt-name">Français</span>
+      <span class="lt-level">A1 → C2</span>
+    </button>
+    <button type="button" class="lang-tab-btn" data-lang="ru" role="tab" aria-selected="false" id="tab-lang-ru" onclick="switchLangCourseTab('ru')">
+      <span class="lt-flag">🇷🇺</span>
+      <span class="lt-name">Русский</span>
+      <span class="lt-level">A1 → C2</span>
+    </button>
+    <button type="button" class="lang-tab-btn" data-lang="it" role="tab" aria-selected="false" id="tab-lang-it" onclick="switchLangCourseTab('it')">
+      <span class="lt-flag">🇮🇹</span>
+      <span class="lt-name">Italiano</span>
+      <span class="lt-level">Level A1</span>
+    </button>
+    <button type="button" class="lang-tab-btn" data-lang="el" role="tab" aria-selected="false" id="tab-lang-el" onclick="switchLangCourseTab('el')">
+      <span class="lt-flag">🇬🇷</span>
+      <span class="lt-name">Ελληνικά</span>
+      <span class="lt-level">Level A1</span>
+    </button>
+  </div>
+
+  <!-- Dynamic Active Language Overview Banner -->
+  <div class="lang-hub-banner" id="lang-hub-banner">
+    <div class="lhb-info">
+      <span class="lhb-flag" id="lhb-flag">🇬🇧</span>
+      <div>
+        <div class="lhb-title" id="lhb-title">English Courses</div>
+        <div class="lhb-subtitle" id="lhb-subtitle">Levels A1 to C2. Available in all 6 course formats (1-to-1 &amp; Groups).</div>
+      </div>
+    </div>
+    <a href="languages/en/" id="lhb-link" class="lhb-cta">Explore English visual resources &amp; manuals →</a>
+  </div>
+
+  <!-- Dynamic Courses Grid for Selected Language -->
+  <div class="course-rows" id="lang-courses-grid">
+    <!-- Populated dynamically via JS -->
+  </div>
+
+  <div class="home-section-cta">
+    <a href="courses/index.html" class="btn-secondary" data-translate-key="hero_cta_courses" data-i18n="button.exploreTypes">View all 6 course types →</a>
+    <a href="languages/coming-soon.html" class="btn-ghost" style="margin-left: 0.5rem;" data-i18n="button.seeUpcomingLanguages">Upcoming languages 🌱 →</a>
+  </div>
+
+  <div class="group-note reveal">
+    <p><span data-translate-key="group_note_desc">in English, French, Italian and Russian. Share the cost and learn together.</span> <a href="https://wa.me/330766784195" data-translate-key="group_note_cta">Ask about groups →</a></p>
+  </div>
+</section>
+
+
+<!-- SECTION 4: LEARN FREE HUB (PRACTICE + BLOG) -->
+<section id="tools" class="home-section learn-free-section">
+  <h2 class="sec-h2" data-translate-key="sec_h2_tools">Learn free between lessons</h2>
+  <p class="sec-p" data-translate-key="sec_p_tools">Practice, reference tools, games and articles. No account needed.</p>
+
+  <div class="learn-free-hub-grid">
+    <!-- Card 1: Language Practice -->
+    <div class="tool-card learn-free-card reveal">
+      <h3 data-translate-key="tool_practice_title">Language Practice</h3>
+      <p data-translate-key="tool_practice_desc">Bite-sized vocabulary, grammar, and speaking exercises with daily streaks and COSY points.</p>
+      <div class="tool-pills">
+        <span class="tool-pill" data-translate-key="english">🇬🇧 English</span>
+        <span class="tool-pill" data-translate-key="french">🇫🇷 Français</span>
+        <span class="tool-pill" data-translate-key="italian">🇮🇹 Italiano</span>
+        <span class="tool-pill" data-translate-key="russian">🇷🇺 Русский</span>
+        <span class="tool-pill" data-translate-key="greek">🇬🇷 Ελληνικά</span>
+      </div>
+      <div class="tool-card-actions">
+        <a href="https://cosylanguages.github.io/COSYpractice/" class="btn-secondary btn-sm" data-translate-key="tool_practice_cta" data-i18n="button.tryFreePractice">Try free practice →</a>
+        <a href="https://cosylanguages.github.io/COSYpractice/cognitive-immersion.html" class="tool-link tool-link-accelerator" data-i18n="button.tryAccelerator">🧠 Cognitive immersion →</a>
+      </div>
+    </div>
+
+    <!-- Card 2: Dictionary & Reference Engines -->
+    <div class="tool-card learn-free-card reveal">
+      <h3>Dictionary &amp; Verbs</h3>
+      <p>Comparative Grammar Atlas, verb conjugation tables, and multi-language vocabulary lookup engine.</p>
+            <div class="tool-card-actions">
+        <a href="comparative/index.html" class="btn-secondary btn-sm">Grammar Atlas →</a>
+        <a href="https://cosylanguages.github.io/COSYtools/" class="tool-link tool-link-accelerator">📚 All Reference Engines →</a>
+      </div>
+    </div>
+
+    <!-- Card 3: Language Games -->
+    <div class="tool-card learn-free-card reveal">
+      <h3 data-translate-key="tool_games_title">Language Games</h3>
+      <p data-translate-key="tool_games_desc">Interactive games: play solo or with friends. Action Hero, Fluency Flow and more.</p>
+            <div class="tool-card-actions">
+        <a href="https://cosylanguages.github.io/COSYgames/" class="btn-secondary btn-sm" data-translate-key="tool_games_cta" data-i18n="button.playFreeGames">Play free games →</a>
+      </div>
+    </div>
+
+    <!-- Card 4: Editorial & Blog -->
+    <div class="tool-card learn-free-card reveal">
+      <h3>Blog &amp; COSYmagazine</h3>
+      <p>Magazine-style articles, audio podcast episodes and flipbook issues about learning languages.</p>
+            <div class="tool-card-actions">
+        <a href="https://cosylanguages.github.io/COSYblog/" class="btn-secondary btn-sm">Read Blog &amp; Guides →</a>
+        <a href="https://cosylanguages.github.io/COSYblog/podcast.html" class="tool-link tool-link-accelerator">🎙️ Listen to Podcast →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 5: LIVE EVENTS -->
+<section id="events" class="home-section">
+  <h2 class="sec-h2">Live events</h2>
+  <p class="sec-p">Speaking clubs, film nights, and live community gatherings to practice together.</p>
+
+  <div class="events-row reveal">
+    <span class="er-icon">🎉</span>
+    <div class="er-body">
+      <h4 data-translate-key="events_row_h4">Live Premium Events: Speaking Clubs &amp; Multimedia Nights</h4>
+      <p data-translate-key="events_row_p">Thematic speaking clubs, original language cinema nights, karaoke, game evenings, and long reads.</p>
+    </div>
+    <a href="https://cosylanguages.github.io/COSYevents/" class="btn-secondary" data-translate-key="events_row_cta" data-i18n="button.seeEvents">See events →</a>
+  </div>
+</section>
+
+
+<!-- SECTION 6: COST CALCULATOR -->
+<section id="calculator" class="home-section">
+  <h2 class="sec-h2" data-translate-key="sec_h2_pricing">What does it cost?</h2>
+  <p class="sec-p" data-translate-key="sec_p_pricing">See exactly what you'll pay. No hidden fees.</p>
+
+  <details class="calc-details reveal">
+    <summary class="calc-summary">
+      <span>🧮 Interactive Price Calculator</span>
+      <span class="calc-summary-action">See what it costs →</span>
+    </summary>
+    <div class="calc-card calc-card-embedded">
+      <!-- Compact Inline Chips Bar with embedded selects -->
+      <div class="calc-configurator">
+        <div class="calc-chips-bar" id="calc-chips-bar" role="group" aria-label="Price Calculator Configuration">
+          <div class="calc-chip-item">
+            <span class="chip-lbl">Language:</span>
+            <select id="calc-lang" onchange="calcPrice()" class="calc-chip-select">
+              <option value="en" data-translate-key="english">English 🇬🇧</option>
+              <option value="fr" data-translate-key="french">Français 🇫🇷</option>
+              <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
+              <option value="ru" data-translate-key="russian">Русский 🇷🇺</option>
+              <option value="el" data-translate-key="greek">Ελληνικά 🇬🇷</option>
+            </select>
+          </div>
+
+          <div class="calc-chip-item">
+            <span class="chip-lbl">Course:</span>
+            <select id="calc-type" onchange="calcPrice()" class="calc-chip-select">
+              <option value="general" selected data-translate-key="course_general">General Course 📖</option>
+              <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
+              <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
+              <option value="travelling" data-translate-key="course_travelling">Travelling Course ✈️</option>
+              <option value="professional" data-translate-key="course_professional">Professional Course 💼</option>
+              <option value="relocation" data-translate-key="course_relocation">Relocation Course 🏡</option>
+              <option value="group" data-translate-key="calc_course_group">Group Lessons 👥</option>
+            </select>
+          </div>
+
+          <div class="calc-chip-item" id="dur-field">
+            <span class="chip-lbl">Duration:</span>
+            <select id="calc-dur" onchange="calcPrice()" class="calc-chip-select">
+              <option value="15">15 min</option>
+              <option value="30">30 min</option>
+              <option value="60" selected>60 min</option>
+              <option value="90">90 min</option>
+              <option value="120">120 min</option>
+            </select>
+          </div>
+
+          <div class="calc-chip-item" id="pack-field">
+            <span class="chip-lbl">Pack:</span>
+            <select id="calc-pack" onchange="calcPrice()" class="calc-chip-select">
+              <option value="1" data-translate-key="pack_standard">1 lesson</option>
+              <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
+              <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
+              <option value="32" data-translate-key="pack_maestro">32 lessons (15% off)</option>
+            </select>
+          </div>
+
+          <div class="calc-chip-item">
+            <span class="chip-lbl">Currency:</span>
+            <select id="calc-cur" onchange="calcPrice()" class="calc-chip-select">
+              <option value="EUR">Euro (€)</option>
+              <option value="USD">Dollar ($)</option>
+              <option value="RUB">Ruble (₽)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Output price card -->
+      <div class="calc-result">
+        <div class="cr-left">
+          <span class="cr-price" id="calc-total">-</span>
+          <div class="cr-detail" id="calc-detail"></div>
+          <div class="cr-note" id="calc-note"></div>
+        </div>
+        <a id="calc-cta" href="https://wa.me/330766784195" class="btn-primary" data-translate-key="calc_cta_book" data-i18n="button.bookNow">Book now →</a>
+      </div>
+      <p class="calc-note" data-translate-key="calc_footer_note">For group lessons and events, <a href="https://wa.me/330766784195">contact us directly</a>.</p>
+    </div>
+  </details>
+</section>
+
+
+<!-- SECTION 7: REVIEWS -->
+<section id="reviews" class="home-section">
+  <h2 class="sec-h2">What our students say</h2>
+  <p class="sec-p">Real experiences from students finding their voice with COSYlanguages.</p>
+  <div class="reviews-share-cta-wrap">
+    <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20share%20my%20COSY%20experience." class="reviews-share-btn">Have something to say ...? Share your COSY Experience ›</a>
+  </div>
+
+  <div class="reviews-carousel-wrapper reveal">
+    <button type="button" class="reviews-nav-btn prev" id="reviews-prev" aria-label="Previous review">‹</button>
+
+    <div class="reviews-carousel" id="reviews-carousel">
+      <div class="reviews-track" id="reviews-track">
+
+        <div class="review-slide active" data-slide="1">
+          <div class="review-card-inner">
+            <span class="rq-mark rq-top">❝</span>
+            <p class="review-slide-text">I really enjoyed our lessons, they were both fascinating and informative. 🙂 It's a very convenient format when you can just have a dialogue with the teacher on everyday topics and learn the language at the same time. I would like to note that I could not grasp the logic of grammar (sentence construction) with other teachers, and James very clearly shows how this or that rule works. 👍 I strongly advise you to study languages with COSYlanguages.</p>
+            <div class="review-slide-divider"></div>
+            <div class="review-slide-meta">
+              <span class="review-slide-brand">COSYenglish</span>
+              <span class="review-slide-course">General Course</span>
+            </div>
+            <span class="rq-mark rq-bottom">❞</span>
+            <span class="review-slide-counter">1/6</span>
+          </div>
+        </div>
+
+        <div class="review-slide" data-slide="2">
+          <div class="review-card-inner">
+            <span class="rq-mark rq-top">❝</span>
+            <p class="review-slide-text">My friend suggested me COSYlanguages and told me that they teach Italian. So, I chose 30-minute lessons and was slowly falling in love with this beautiful and melodic language. Today, I can speak Italian with my husband and my two beautiful girls.</p>
+            <div class="review-slide-divider"></div>
+            <div class="review-slide-meta">
+              <span class="review-slide-brand">COSYitaliano</span>
+              <span class="review-slide-course">Spoken Course</span>
+            </div>
+            <span class="rq-mark rq-bottom">❞</span>
+            <span class="review-slide-counter">2/6</span>
+          </div>
+        </div>
+
+        <div class="review-slide" data-slide="3">
+          <div class="review-card-inner">
+            <span class="rq-mark rq-top">❝</span>
+            <p class="review-slide-text">Taking Russian classes at university with James was an unforgettable experience for me! These lessons were fun, interactive, and incredibly enriching. While I grew up hearing Russian from my mom and French from my dad, these classes took my skills to a new level. I surprised my mom with my progress and, best of all, I can now understand Russian songs, which I love sharing in my Instagram posts. James is so cool!</p>
+            <div class="review-slide-divider"></div>
+            <div class="review-slide-meta">
+              <span class="review-slide-brand">ТАКОЙрусский | COSYrussian</span>
+              <span class="review-slide-course">General Course</span>
+            </div>
+            <span class="rq-mark rq-bottom">❞</span>
+            <span class="review-slide-counter">3/6</span>
+          </div>
+        </div>
+
+        <div class="review-slide" data-slide="4">
+          <div class="review-card-inner">
+            <span class="rq-mark rq-top">❝</span>
+            <p class="review-slide-text">Thanks to COSYlanguages I have passed my French Exam, DELF (B2)!!! We worked with James about one year and I am glad to have found a teacher who provided knowledge and a friendly atmosphere. My only negative experience was during trial tests because I had to pass them even when I simply wanted to speak each and every lesson. But without trials I wouldn't have noticed my weak sides.</p>
+            <div class="review-slide-divider"></div>
+            <div class="review-slide-meta">
+              <span class="review-slide-brand">COSYfrançais</span>
+              <span class="review-slide-course">Exam Preparation</span>
+            </div>
+            <span class="rq-mark rq-bottom">❞</span>
+            <span class="review-slide-counter">4/6</span>
+          </div>
+        </div>
+
+        <div class="review-slide" data-slide="5">
+          <div class="review-card-inner">
+            <span class="rq-mark rq-top">❝</span>
+            <p class="review-slide-text">Overall I'm happy with everything. I like that if I don't understand a word, you try to explain it in English, rather than immediately speaking in Russian. I also like that 99% of our lesson are in English and that we touch on topics from everyday life, and not just the topic of the lesson. I didn't notice any negative aspects!</p>
+            <div class="review-slide-divider"></div>
+            <div class="review-slide-meta">
+              <span class="review-slide-brand">COSYenglish</span>
+              <span class="review-slide-course">General Course</span>
+            </div>
+            <span class="rq-mark rq-bottom">❞</span>
+            <span class="review-slide-counter">5/6</span>
+          </div>
+        </div>
+
+        <div class="review-slide" data-slide="6">
+          <div class="review-card-inner">
+            <span class="rq-mark rq-top">❝</span>
+            <p class="review-slide-text">I want to leave a review about my teacher, James. Of all the existing ones, I chose him, because it is immediately clear that the person is immersed in the language atmosphere and teaches from the heart! I like that we have easy communication and I'm not scared to make mistakes - James will always prompt and lend a helping hand. And he is also very modern and cute, which is also not unimportant)). I attend lessons with pleasure and return to English only because of him.</p>
+            <div class="review-slide-divider"></div>
+            <div class="review-slide-meta">
+              <span class="review-slide-brand">COSYenglish</span>
+              <span class="review-slide-course">General Course</span>
+            </div>
+            <span class="rq-mark rq-bottom">❞</span>
+            <span class="review-slide-counter">6/6</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <button type="button" class="reviews-nav-btn next" id="reviews-next" aria-label="Next review">›</button>
+  </div>
+</section>
+
+
+<!-- SECTION 8: START / FINAL CTA -->
+<section id="start" class="home-section cta-section reveal">
+  <h2 class="sec-h2" data-translate-key="final_cta_h2">Ready to start?</h2>
+  <p class="sec-p" data-translate-key="final_cta_p">Message us on WhatsApp or Telegram. Tell us which language you'd like to learn.</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195" class="btn-primary">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="btn-secondary">✈️ Telegram</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="courses/index.html">All Courses 📖</a>
+      <a href="courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="comparative/index.html">Grammar Atlas 🌐</a>
+      <a href="placement-quiz.html">Placement Quiz 📝</a>
+      <a href="hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="https://cosylanguages.github.io/COSYblog/">Blog 📝</a>
+      <a href="https://cosylanguages.github.io/COSYtools/">Reference Engines 🔎</a>
+      <a href="https://cosylanguages.github.io/COSYevents/">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="about/index.html">Our Story 🏡</a>
+      <a href="privacy.html">Privacy &amp; Safety 🛡️</a>
+      <a href="#" data-i18n="button.pinToHome" onclick="event.preventDefault();showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_home_desc') : 'Add COSYlanguages for instant access.'), window.location.origin + window.location.pathname + '?embed=true')">Add to home screen 📲</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+
+</footer>
+
+<script src="js/data/languages.js"></script>
+<script src="js/core/engine.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/auth-sso.js"></script>
+<script src="js/core/ui.js"></script>
+<script src="js/daily-strip.js" defer></script>
+
+<script>
+  // Interactive Language & Course Hub Controller
+  const LANG_COURSES_DATA = {
+    en: {
+      name: 'English',
+      flag: '🇬🇧',
+      levels: 'Levels A1 → C2',
+      pageUrl: 'languages/en/',
+      desc: 'Levels A1 to C2. Available across all 6 course formats (1-to-1 & Groups).',
+      courses: [
+        { type: 'general', title: 'General Course', icon: '📖', desc: 'The complete journey: all four skills growing together. Structured, progressive, built around your real adult life.', url: 'courses/general.html' },
+        { type: 'spoken', title: 'Spoken Course', icon: '🗣️', desc: 'Experience real conversation with your teacher in 15 or 30 minute focused sessions.', url: 'courses/spoken.html' },
+        { type: 'exam', title: 'Exam Preparation', icon: '📝', desc: 'Authentic tasks, exact exam conditions. Focus on oral component for IELTS & Cambridge.', url: 'courses/exam-preparation.html' },
+        { type: 'travelling', title: 'Travelling Course', icon: '✈️', desc: 'Master essential real-world communication for travel: booking, directions, emergencies, and local culture.', url: 'courses/travelling.html' },
+        { type: 'professional', title: 'Professional Course', icon: '💼', desc: 'Elevate your career with targeted language skills for interviews, negotiations, business presentations, and networking.', url: 'courses/professional.html' },
+        { type: 'relocation', title: 'Relocation Course', icon: '🏡', desc: 'Navigate housing, administration, healthcare, local services, and social integration in your new home country.', url: 'courses/relocation.html' }
+      ]
+    },
+    fr: {
+      name: 'Français',
+      flag: '🇫🇷',
+      levels: 'Levels A1 → C2',
+      pageUrl: 'languages/fr/',
+      desc: 'Levels A1 to C2. Available across all 6 course formats (1-to-1 & Groups).',
+      courses: [
+        { type: 'general', title: 'General Course', icon: '📖', desc: 'Master French syntax, grammar and conversational ease across levels A1 to C2.', url: 'courses/general.html' },
+        { type: 'spoken', title: 'Spoken Course', icon: '🗣️', desc: 'Focused 15/30-minute oral fluency workouts with experienced Francophone teachers.', url: 'courses/spoken.html' },
+        { type: 'exam', title: 'Exam Preparation', icon: '📝', desc: 'DELF & DALF (A1–C2) exam prep under authentic trial conditions.', url: 'courses/exam-preparation.html' },
+        { type: 'travelling', title: 'Travelling Course', icon: '✈️', desc: 'Practical French for travel: cafes, transport, navigation and cultural etiquette.', url: 'courses/travelling.html' },
+        { type: 'professional', title: 'Professional Course', icon: '💼', desc: 'Business French for corporate, diplomatic, and international work environments.', url: 'courses/professional.html' },
+        { type: 'relocation', title: 'Relocation Course', icon: '🏡', desc: 'Settling in France, Belgium, Canada or Switzerland: prefecture, administrative tasks and daily living.', url: 'courses/relocation.html' }
+      ]
+    },
+    ru: {
+      name: 'Русский',
+      flag: '🇷🇺',
+      levels: 'Levels A1 → C2',
+      pageUrl: 'languages/ru/',
+      desc: 'Levels A1 to C2. Available across all 6 course formats (1-to-1 & Groups).',
+      courses: [
+        { type: 'general', title: 'General Course', icon: '📖', desc: 'Comprehensive Russian language course: grammar system, cases, reading & speaking.', url: 'courses/general.html' },
+        { type: 'spoken', title: 'Spoken Course', icon: '🗣️', desc: 'Natural spoken Russian dialogue training free from rigid worksheets.', url: 'courses/spoken.html' },
+        { type: 'exam', title: 'Exam Preparation', icon: '📝', desc: 'TORFL (ТРКИ) A1–C2 preparation for university admission and certification.', url: 'courses/exam-preparation.html' },
+        { type: 'travelling', title: 'Travelling Course', icon: '✈️', desc: 'Essential Russian for travel across Eastern Europe and Central Asia.', url: 'courses/travelling.html' },
+        { type: 'professional', title: 'Professional Course', icon: '💼', desc: 'Professional Russian for business communication, tech, trade and negotiations.', url: 'courses/professional.html' },
+        { type: 'relocation', title: 'Relocation Course', icon: '🏡', desc: 'Practical guidance for housing, registration, banking and local daily life.', url: 'courses/relocation.html' }
+      ]
+    },
+    it: {
+      name: 'Italiano',
+      flag: '🇮🇹',
+      levels: 'Level A1 (Starter)',
+      pageUrl: 'languages/it/',
+      desc: 'Level A1 (Starter). Speak Italian from your very first session.',
+      courses: [
+        { type: 'general', title: 'General Course', icon: '📖', desc: 'A1 Italian fundamentals: core vocabulary, essential grammar & sentence structure.', url: 'courses/general.html' },
+        { type: 'spoken', title: 'Spoken Course', icon: '🗣️', desc: '15 or 30-minute spoken Italian dialogue workouts from day one.', url: 'courses/spoken.html' },
+        { type: 'travelling', title: 'Travelling Course', icon: '✈️', desc: 'Italian for travel: ordering espresso, asking directions, hotels & local culture.', url: 'courses/travelling.html' }
+      ]
+    },
+    el: {
+      name: 'Ελληνικά',
+      flag: '🇬🇷',
+      levels: 'Level A1 (Starter)',
+      pageUrl: 'languages/el/',
+      desc: 'Level A1 (Starter). Master the Greek alphabet and basic conversation.',
+      courses: [
+        { type: 'general', title: 'General Course', icon: '📖', desc: 'A1 Greek starter track: reading the alphabet, daily vocabulary & basic grammar.', url: 'courses/general.html' },
+        { type: 'spoken', title: 'Spoken Course', icon: '🗣️', desc: '15/30-min conversation sessions to speak Greek with confidence.', url: 'courses/spoken.html' },
+        { type: 'travelling', title: 'Travelling Course', icon: '✈️', desc: 'Greek for holidays & travel across Greece and Cyprus.', url: 'courses/travelling.html' }
+      ]
+    }
+  };
+
+  function switchLangCourseTab(langCode) {
+    const data = LANG_COURSES_DATA[langCode];
+    if (!data) return;
+
+    // Update tab UI
+    document.querySelectorAll('.lang-tab-btn').forEach(btn => {
+      const isMatch = btn.getAttribute('data-lang') === langCode;
+      btn.classList.toggle('active', isMatch);
+      btn.setAttribute('aria-selected', isMatch ? 'true' : 'false');
+    });
+
+    // Update Banner
+    const flagEl = document.getElementById('lhb-flag');
+    const titleEl = document.getElementById('lhb-title');
+    const subEl = document.getElementById('lhb-subtitle');
+    const linkEl = document.getElementById('lhb-link');
+
+    if (flagEl) flagEl.textContent = data.flag;
+    if (titleEl) titleEl.textContent = `${data.name} Courses (${data.levels})`;
+    if (subEl) subEl.textContent = data.desc;
+    if (linkEl) {
+      linkEl.href = data.pageUrl;
+      linkEl.textContent = `Explore ${data.name} visual resources & manuals →`;
+    }
+
+    // Update Courses Grid
+    const grid = document.getElementById('lang-courses-grid');
+    if (grid) {
+      grid.innerHTML = data.courses.map(c => `
+        <a href="${c.url}" class="course-row course-row-${c.type}">
+          <span class="cr-icon" aria-hidden="true">${c.icon}</span>
+          <span class="cr-text">
+            <span class="cr-title">${c.title}</span>
+            <span class="cr-desc">${c.desc}</span>
+          </span>
+          <span class="cr-go" aria-hidden="true"></span>
+        </a>
+      `).join('');
+    }
+
+    // Optionally sync Calculator language select
+    const calcLang = document.getElementById('calc-lang');
+    if (calcLang && calcLang.value !== langCode) {
+      calcLang.value = langCode;
+      if (typeof window.calcPrice === 'function') window.calcPrice();
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    switchLangCourseTab('en');
+  });
+</script>
+
+<div id="toast"></div>
+
+</body>
+</html>

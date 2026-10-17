@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy &amp; Data Sovereignty - COSYlanguages</title>
+    <meta name="description" content="COSYlanguages privacy disclosure: transparent local storage usage, service worker caching, and external service requests.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/privacy.html">
+    <meta property="og:title" content="Privacy &amp; Data Sovereignty - COSYlanguages">
+    <meta property="og:description" content="Transparent local storage usage, service worker caching, and external service requests at COSYlanguages.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/privacy.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy & Data Sovereignty - COSYlanguages">
+    <meta name="twitter:description" content="Transparent local storage usage, service worker caching, and external service requests at COSYlanguages.">
+    <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <meta name="theme-color" content="#FAF7F2">
+
+<link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/modern.css">
+    <style>
+        .privacy-hero {
+            padding: 4rem 2rem 2rem;
+            background: var(--paper-bg);
+            text-align: center;
+        }
+        .privacy-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 2rem 4rem;
+        }
+        .privacy-section {
+            margin-bottom: 3.5rem;
+        }
+        .privacy-section h2 {
+            font-family:var(--font-serif);
+            color: var(--sage-deep);
+            margin-bottom: 1.25rem;
+            font-size: 1.8rem;
+        }
+        .privacy-section p, .privacy-section ul {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--ink-muted);
+            margin-bottom: 1.25rem;
+        }
+        .privacy-section ul {
+            padding-left: 1.25rem;
+        }
+        .privacy-section li {
+            margin-bottom: 0.5rem;
+        }
+        .proclamation-box {
+            background: var(--cream);
+            border: 2px dashed var(--sage);
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+        }
+        .proclamation-box h3 {
+            font-family:var(--font-serif);
+            color: var(--sage-dark);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        .interactive-panel {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: var(--shadow-sm);
+        }
+        .interactive-panel h3 {
+            font-family:var(--font-serif);
+            color: var(--sage-deep);
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .storage-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+        .storage-item:last-child {
+            border-bottom: none;
+        }
+        .storage-key {
+            font-family: monospace;
+            color: var(--indigo);
+            font-weight: bold;
+        }
+        .btn-danger-cozy {
+            background: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-family:var(--font-sans);
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-danger-cozy:hover {
+            background: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<header class="privacy-hero">
+    <h1>Privacy &amp; Data Sovereignty</h1>
+    <p class="hero-sub">Transparent disclosure of technical storage, service worker caching, and external service requests.</p>
+</header>
+
+<main id="main-content" class="privacy-content">
+
+    <div class="proclamation-box">
+        <h3>🌱 Data Ownership</h3>
+        <p>Your study statistics, saved vocabulary, and preference settings remain stored in your web browser.</p>
+    </div>
+
+    <section class="privacy-section">
+        <h2>Site Operator &amp; Contact Information</h2>
+        <p>This project is published as COSYlanguages. For questions about this site, contact <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com</a>. This repository does not identify the legal operator, postal address, or applicable jurisdiction; those details must be confirmed by the operator before this page can serve as a complete legal notice.</p>
+    </section>
+
+    <section class="privacy-section">
+        <h2>Third-Party Requests</h2>
+        <p>The site's fonts (Fraunces, Literata and Commissioner) are served from this site itself, so reading a page does not send your address to Google or any other font provider. When you open or follow links on COSYlanguages, your browser can make requests to the following external domains:</p>
+        <ul>
+            <li><strong>WhatsApp (`wa.me`):</strong> Contact links for student inquiries and course registration.</li>
+            <li><strong>Telegram (`t.me`):</strong> Public channel and direct message contact links.</li>
+            <li><strong>COSY Ecosystem Repositories (`cosylanguages.github.io`):</strong> Links and data fetches to companion ecosystem sites including COSYtools, COSYgames, COSYevents, COSYmanuals, COSYdata, and COSYplatform.</li>
+            <li><strong>Supabase (`iajkejcmoykubthlwfra.supabase.co`, sign-in only):</strong> The sign-in page sends the submitted email and password to Supabase Auth. After sign-in, it requests the account's `role` from the `profiles` table. The Supabase client can persist an authentication session in browser storage.</li>
+            <li><strong>jsDelivr (`cdn.jsdelivr.net`, sign-in only):</strong> Delivers the Supabase JavaScript client used by the sign-in page.</li>
+        </ul>
+    </section>
+
+    <section class="privacy-section">
+        <h2>Local Storage &amp; Session Storage Usage</h2>
+        <p>COSYlanguages uses your browser's `localStorage` to preserve your learning state between visits. The stored keys include:</p>
+        <ul>
+            <li><code class="storage-key">cosy-dict</code>: Saved vocabulary items in your personal notebook.</li>
+            <li><code class="storage-key">cosy-mistakes</code>: Logged practice errors for targeted revision.</li>
+            <li><code class="storage-key">cosy-streak</code>: Active daily practice streak count.</li>
+            <li><code class="storage-key">cosy-last-practice</code>: Date timestamp of your last completed practice session.</li>
+            <li><code class="storage-key">cosy-points</code>: Total accumulated experience points (XP).</li>
+            <li><code class="storage-key">selected-speaking-club-level</code>: Saved CEFR level choice for speaking club filtering.</li>
+            <li><code class="storage-key">cosy-i18n-lang</code> &amp; <code class="storage-key">cosy_lang_lock</code>: Interface language preference and lock state.</li>
+            <li><code class="storage-key">cosy_audience_preference</code>: Presentation adaptation preference (Children, Teens, Adults, Seniors).</li>
+            <li><code class="storage-key">cosy_accessibility_text_scale</code> &amp; <code class="storage-key">cosy_accessibility_reduced_motion</code>: Accessibility display preferences.</li>
+        </ul>
+    </section>
+
+    <section class="privacy-section">
+        <h2>Service Worker Caching (`sw.js`)</h2>
+        <p>The site registers a service worker script (`sw.js`) operating under cache name `cosy-v5`. It uses a network-first strategy for HTML, CSS, and JS files, and a cache-first strategy for media assets (images, logos). This enables offline practice for cached static pages.</p>
+    </section>
+
+    <section class="privacy-section">
+        <h2>Messaging &amp; Direct Communications</h2>
+        <p>WhatsApp and Telegram links open services operated by third parties. Messages sent through them may include account identifiers and any personal information the sender chooses to share. This repository does not document how long COSYlanguages retains or uses those messages; consult the service providers' privacy information and contact COSYlanguages before sharing sensitive information.</p>
+    </section>
+
+    <section class="privacy-section">
+        <h2>Children's Privacy</h2>
+        <p>This repository does not publish an age limit, parental-consent process, or child-specific data policy. The sign-in page uses Supabase Auth, and messages may be sent through WhatsApp or Telegram. Parents and guardians should contact <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com</a> before a minor creates or uses an account or shares personal information. The operator must confirm and publish the applicable policy.</p>
+    </section>
+
+    <section class="privacy-section">
+        <h2>Local Storage Audit &amp; Management Console</h2>
+        <div class="interactive-panel">
+            <h3>🎛️ Local Storage Console</h3>
+            <p>Inspect or clear the variables COSYlanguages has currently saved in your browser:</p>
+
+            <div id="storage-list">
+                <div class="empty-data-msg">No active learning data found in this browser context.</div>
+            </div>
+
+            <div class="privacy-btn-row" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button type="button" onclick="refreshStorageConsole()" class="btn-secondary">🔄 Refresh Audit</button>
+                <button type="button" onclick="clearAllCozyData()" class="btn-danger-cozy">⚠️ Clear All Learning Data</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="courses/index.html">All Courses 📖</a>
+      <a href="courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="comparative/index.html">Grammar Atlas 🌐</a>
+      <a href="placement-quiz.html">Placement Quiz 📝</a>
+      <a href="hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="https://cosylanguages.github.io/COSYblog/">Blog 📝</a>
+      <a href="https://cosylanguages.github.io/COSYtools/">Reference Engines 🔎</a>
+      <a href="https://cosylanguages.github.io/COSYevents/">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="about/index.html">Our Story 🏡</a>
+      <a href="privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+
+</footer>
+
+<script src="js/data/languages.js"></script>
+<script src="js/core/engine.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/ui.js"></script>
+
+<script>
+    function refreshStorageConsole() {
+        const container = document.getElementById('storage-list');
+        container.innerHTML = '';
+        const keys = [
+            'cosy-dict',
+            'cosy-mistakes',
+            'cosy-streak',
+            'cosy-last-practice',
+            'cosy-points',
+            'selected-speaking-club-level',
+            'cosy-i18n-lang',
+            'cosy_lang_lock',
+            'cosy_audience_preference',
+            'cosy_accessibility_text_scale',
+            'cosy_accessibility_reduced_motion'
+        ];
+        let foundAny = false;
+        keys.forEach(key => {
+            const val = localStorage.getItem(key);
+            if (val !== null) {
+                foundAny = true;
+                const div = document.createElement('div');
+                div.className = 'storage-item';
+                div.innerHTML = `
+                    <span class="storage-key">${key}</span>
+                    <span class="storage-val">${formatVal(key, val)}</span>
+                `;
+                container.appendChild(div);
+            }
+        });
+        if (!foundAny) {
+            container.innerHTML = `<div class="empty-data-msg">No active learning data found in this browser context.</div>`;
+        }
+    }
+
+    function formatVal(key, val) {
+        if (key === 'cosy-dict' || key === 'cosy-mistakes') {
+            try {
+                const arr = JSON.parse(val);
+                return `${arr.length} saved item(s)`;
+            } catch (e) {
+                return 'Invalid JSON';
+            }
+        }
+        if (key === 'cosy-points') return `${val} XP`;
+        if (key === 'cosy-streak') return `${val} day(s)`;
+        return val;
+    }
+
+    function clearAllCozyData() {
+        if (confirm('Are you sure you want to delete all saved study data from this browser?')) {
+            const keys = [
+                'cosy-dict', 'cosy-mistakes', 'cosy-streak',
+                'cosy-last-practice', 'cosy-points', 'selected-speaking-club-level'
+            ];
+            keys.forEach(key => localStorage.removeItem(key));
+            refreshStorageConsole();
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', refreshStorageConsole);
+</script>
+</body>
+</html>

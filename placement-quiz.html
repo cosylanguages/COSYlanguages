@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline Placement Quiz — COSYlanguages</title>
+    <link rel="icon" href="images/logos/cosylanguages.png">
+<link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/portal.css">
+<link rel="stylesheet" href="css/modern.css">
+
+    <style>
+        body {
+            background-color: var(--sage-light, #FAF7F2);
+            color: var(--black, #222);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: var(--surface-color);
+            color: var(--ink);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-top: 8px solid var(--sage-deep, #3d5a45);
+            width: 90%;
+        }
+
+        h1 {
+            font-family:var(--font-serif);
+            color: var(--sage-dark, #2b3e30);
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .quiz-intro {
+            text-align: center;
+            color: var(--ink-soft);
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+
+        /* Language Choice */
+        .lang-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .lang-option {
+            background: var(--surface-color);
+            border: 2px solid var(--border);
+            color: var(--ink);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 800;
+            transition: all 0.2s ease;
+            font-size: 1.1rem;
+        }
+
+        .lang-option:hover {
+            border-color: var(--sage-deep, #3d5a45);
+            transform: translateY(-2px);
+        }
+
+        .lang-option.selected {
+            border-color: var(--sage-deep, #3d5a45);
+            background: var(--sage-deep, #3d5a45);
+            color: white;
+        }
+
+        /* Question Layout */
+        .quiz-progress {
+            font-weight: bold;
+            color: var(--sage-deep, #3d5a45);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 6px;
+            background: var(--cream-dark);
+            border-radius: 3px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: var(--honey-dark, #b7791f);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .question-card {
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--sage-dark, #2b3e30);
+            line-height: 1.5;
+        }
+
+        .option-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .option-btn {
+            background: var(--surface-color);
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: left;
+            font-weight: bold;
+            font-size: 1.05rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: var(--ink);
+        }
+
+        .option-btn:hover {
+            border-color: var(--sage-deep, #3d5a45);
+            background: var(--cream-dark);
+        }
+
+        .option-btn.selected {
+            border-color: var(--sage-deep, #3d5a45);
+            background: var(--green-light);
+            color: var(--green);
+        }
+
+        .option-btn.correct {
+            border-color: var(--green) !important;
+            background-color: var(--green-light) !important;
+            color: var(--green) !important;
+        }
+
+        .option-btn.incorrect {
+            border-color: var(--rose) !important;
+            background-color: var(--rose-light) !important;
+            color: var(--rose) !important;
+        }
+
+        .option-btn.disabled {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+        /* Active-Passive Breakdown Grid */
+        .breakdown-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .breakdown-card {
+            background: var(--cream-dark);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            transition: transform 0.2s;
+        }
+
+        .breakdown-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .breakdown-title {
+            font-weight: 800;
+            font-size: 1.1rem;
+            color: var(--sage-deep, #3d5a45);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .breakdown-metric {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--ink);
+            margin-bottom: 0.5rem;
+        }
+
+        .breakdown-desc {
+            font-size: 0.95rem;
+            color: var(--ink-soft);
+            line-height: 1.5;
+        }
+
+        /* Speaking Gap Notice Box */
+        .gap-notice-box {
+            background: var(--honey-pale);
+            border-left: 5px solid var(--honey-dark, #b7791f);
+            padding: 1.25rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .gap-notice-title {
+            font-weight: bold;
+            color: var(--honey-dark, #b7791f);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .gap-notice-text {
+            font-size: 0.95rem;
+            color: var(--ink-soft);
+            line-height: 1.6;
+        }
+
+        /* Detailed Sub-Skill Diagnostics */
+        .diagnostic-section {
+            background: var(--surface-color);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+        }
+
+        .diagnostic-header {
+            font-family:var(--font-serif);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--sage-deep, #3d5a45);
+            margin-bottom: 1.2rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .skill-row {
+            margin-bottom: 1.2rem;
+        }
+
+        .skill-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .skill-label-container {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+            color: var(--ink-soft);
+        }
+
+        .skill-percentage {
+            color: var(--honey-dark, #b7791f);
+        }
+
+        .skill-track {
+            height: 10px;
+            background: var(--cream-dark);
+            border-radius: 5px;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .skill-fill {
+            height: 100%;
+            background: var(--sage-deep, #3d5a45);
+            border-radius: 5px;
+            transition: width 1s ease-out;
+            width: 0%;
+        }
+
+        /* Hyper-Personalized Action Plan */
+        .action-plan-box {
+            background: var(--cream-dark);
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: left;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.01);
+        }
+
+        .action-plan-title {
+            font-family:var(--font-serif);
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: var(--sage-dark, #2b3e30);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .action-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .action-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 1rem;
+            color: var(--ink-soft);
+            line-height: 1.5;
+        }
+
+        .action-item-icon {
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .action-cta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .action-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.85rem 1.25rem;
+            border-radius: 30px;
+            font-weight: 800;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .action-cta-primary {
+            background: var(--sage-deep, #3d5a45);
+            color: white;
+            box-shadow: 0 4px 6px rgba(61,90,69,0.2);
+        }
+
+        .action-cta-primary:hover {
+            background: var(--sage-dark, #2b3e30);
+            transform: translateY(-1px);
+        }
+
+        .action-cta-secondary {
+            background: var(--surface-color);
+            color: var(--sage-deep, #3d5a45);
+            border: 2px solid var(--sage-deep, #3d5a45);
+        }
+
+        .action-cta-secondary:hover {
+            background: var(--sage-light, #FAF7F2);
+            transform: translateY(-1px);
+        }
+
+        /* Results Screen */
+        .results-card {
+            display: none;
+            text-align: center;
+            animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.9); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .results-emoji {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .results-score {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .results-level {
+            font-size: 2.5rem;
+            font-family:var(--font-serif);
+            color: var(--sage-deep, #3d5a45);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-desc {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: var(--ink-soft);
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+        }
+
+        .results-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--sage-deep, #3d5a45);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background: var(--sage-dark, #2b3e30);
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: var(--surface-color);
+            color: var(--sage-deep, #3d5a45);
+            border: 2px solid var(--sage-deep, #3d5a45);
+        }
+
+        .btn-secondary:hover {
+            background: var(--sage-light, #FAF7F2);
+            transform: translateY(-1px);
+        }
+    </style>
+    <meta name="description" content="Determine your language level with the COSYlanguages placement quiz for English, French, Italian, Russian, and Greek.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/placement-quiz.html">
+  <meta property="og:title" content="Offline Placement Quiz — COSYlanguages">
+  <meta property="og:description" content="Determine your language level with the COSYlanguages placement quiz for English, French, Italian, Russian, and Greek.">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/placement-quiz.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Offline Placement Quiz — COSYlanguages">
+  <meta name="twitter:description" content="Determine your language level with the COSYlanguages placement quiz for English, French, Italian, Russian, and Greek.">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<nav id="cosy-nav"></nav>
+
+<main id=main-content class="page">
+    <div class="main-container">
+        <div class="journey-roadmap-header" style="justify-content: center; margin-bottom: 0.85rem;">
+            <span class="visual-journey-badge">📝 Adaptive Quiz</span>
+            <span class="journey-connector-line"></span>
+            <span class="visual-journey-badge">💬 Active vs Passive Check</span>
+        </div>
+        <h1>COSY Placement Quiz 📝</h1>
+        <p class="quiz-intro" id="quiz-intro-text">Many learners can read or understand high-level grammar passively, but struggle to utter a single word when put on the spot. Our breakthrough progressive placement quiz evaluates both your <strong>Passive Receptive Competence</strong> (questions 1–10 testing progressive CEFR grammar/collocations) and your <strong>Active Productive Confidence</strong> (questions 11–15 simulating real-world speaking tasks). By assessing both, we dynamically calibrate your final recommended level and diagnose your active-passive speaking gap. Choose a language to begin!</p>
+
+        <!-- Step 1: Language Choice -->
+        <div id="step-lang">
+            <div class="lang-grid" id="quiz-lang-grid">
+                <!-- Dynamically populated from COSY_ACTIVE_LANGUAGES -->
+            </div>
+        </div>
+
+        <!-- Step 2: Quiz Game -->
+        <div id="step-quiz" style="display: none;">
+            <div class="quiz-progress" id="quiz-progress-text">Question 1 of 15</div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progress-bar"></div>
+            </div>
+
+            <div id="question-container">
+                <!-- Current question will be loaded here dynamically -->
+            </div>
+        </div>
+
+        <!-- Step 3: Results -->
+        <div id="step-results" class="results-card">
+            <div class="results-emoji">🏆</div>
+            <div class="results-score" id="results-score-text">Score: 12 / 15</div>
+            <div class="results-level" id="results-level-text">Intermediate (B1)</div>
+            <p class="results-desc" id="results-desc-text">You can handle everyday conversations. Let's work on fluency and confidence!</p>
+
+            <div class="results-actions">
+                <a href="index.html" class="btn btn-primary" id="btn-results-home">Go to Homepage 🏡</a>
+                <a href="https://cosylanguages.github.io/COSYpractice/" class="btn btn-secondary" id="btn-results-practice">Try Free Practice 💡</a>
+                <a href="#" class="btn btn-secondary" id="btn-results-curriculum">View Your Curriculum Plan 📋</a>
+                <button type="button" onclick="resetQuiz()" class="btn btn-secondary" id="btn-results-retake">Retake Quiz 🔄</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    const ACTION_BUTTON_TRANSLATIONS = {
+        en: {
+            home: "Go to Homepage 🏡",
+            practice: "Try Free Practice 💡",
+            retake: "Retake Quiz 🔄",
+            curriculum: "View Your Curriculum Plan 📋"
+        },
+        fr: {
+            home: "Aller à l'accueil 🏡",
+            practice: "Essayer l'entraînement gratuit 💡",
+            retake: "Refaire le test 🔄",
+            curriculum: "Voir votre programme 📋"
+        },
+        it: {
+            home: "Vai alla Homepage 🏡",
+            practice: "Prova la pratica gratuita 💡",
+            retake: "Rifai il quiz 🔄",
+            curriculum: "Vedi il tuo piano di studio 📋"
+        },
+        ru: {
+            home: "На главную 🏡",
+            practice: "Бесплатная практика 💡",
+            retake: "Пройти еще раз 🔄",
+            curriculum: "Открыть учебный план 📋"
+        },
+        el: {
+            home: "Αρχική Σελίδα 🏡",
+            practice: "Δωρεάν Εξάσκηση 💡",
+            retake: "Επανάληψη Τεστ 🔄",
+            curriculum: "Δείτε το πρόγραμμα σπουδών 📋"
+        }
+    };
+
+    const PIVOT_TRANSLATIONS = {
+        en: {
+            title: "Adaptive Level Calibration",
+            desc: "Receptive baseline established. We are dynamically optimizing your testing path and pivoting directly to the Conversational Speaking checkpoints to calibrate your active production."
+        },
+        fr: {
+            title: "Étalonnage adaptatif du niveau",
+            desc: "Ligne de base réceptive établie. Nous optimisons dynamiquement votre parcours de test et pivotons directement vers les points de contrôle de l'expression orale pour calibrer votre production active."
+        },
+        it: {
+            title: "Calibrazione adattiva del livello",
+            desc: "Livello di base ricettivo stabilito. Stiamo ottimizzando dinamicamente il percorso del test e passando direttamente ai punti di controllo della conversazione per calibrare la tua produzione attiva."
+        },
+        ru: {
+            title: "Адаптивная калибровка уровня",
+            desc: "Базовый уровень пассивных знаний установлен. Мы оптимизируем ваш путь тестирования и переходим непосредственно к разговорным заданиям для оценки вашей активной речи."
+        },
+        el: {
+            title: "Προσαρμοστική Βαθμονόμηση Επιπέδου",
+            desc: "Η παθητική βάση καθορίστηκε. Βελτιστοποιούμε δυναμικά την πορεία του τεστ και μεταβαίνουμε απευθείας στα σημεία ελέγχου προφορικού λόγου για να βαθμονομήσουμε την ενεργό παραγωγή σας."
+        }
+    };
+
+    // 20 progressive hybrid questions per language (Progressive difficulty alternating between Grammar and Vocabulary: 1-10 progressive CEFR, 11-15 Conversational Fluency, 16-20 Speech Confidence)
+    const QUESTIONS = {
+        en: [
+            // 1. A1 Receptive Grammar (Grammar Q1)
+            { q: "Excuse me, how much ___ these red apples? 🍎", a: ["is", "are", "am"], c: 1 },
+            // 2. A1 Receptive Phrasal Verbs (Vocab Q1)
+            { q: "Please turn ___ the lights before you go to bed.", a: ["off", "out", "down"], c: 0 },
+            // 3. A2 Receptive Irregular Past (Grammar Q2)
+            { q: "We ___ to the cinema last night and saw a great comedy.", a: ["went", "go", "have gone"], c: 0 },
+            // 4. A2 Receptive Comparatives (Vocab Q2)
+            { q: "This smartphone is much ___ than the one I bought last year.", a: ["cheaper", "cheapest", "more cheap"], c: 0 },
+            // 5. B1 Receptive Conditionals (Grammar Q3)
+            { q: "If we ___ early, we would have caught the train.", a: ["left", "had left", "would leave"], c: 1 },
+            // 6. B1 Receptive Research Collocations (Vocab Q3)
+            { q: "I've been ___ research on this topic for several months.", a: ["doing", "making", "having"], c: 0 },
+            // 7. B2 Receptive Prepositional Collocations (Grammar Q4)
+            { q: "She succeeded ___ passing the exam despite the extremely difficult questions.", a: ["in", "at", "on"], c: 0 },
+            // 8. B2 Receptive Regrets / Verb Patterns (Vocab Q4)
+            { q: "I really regret ___ her what he said; it caused a huge argument.", a: ["telling", "to tell", "tell"], c: 0 },
+            // 9. C1 Receptive Inversion (Grammar Q5)
+            { q: "Hardly ___ entered the room when the phone started ringing.", a: ["had I", "I had", "did I"], c: 0 },
+            // 10. C2 Receptive Lexical Idioms (Vocab Q5)
+            { q: "It was only when he spoke that his accent ___ him away as a foreigner.", a: ["gave", "threw", "let"], c: 0 },
+
+            // Active Conversational Fluency (11-15)
+            // 11. Restaurant
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> In a restaurant abroad, if you need to order food and ask for the bill...", a: ["I freeze, point at the menu, or struggle to find basic words.", "I can order and pay comfortably using simple, practiced sentences.", "I can easily chat with the waiter, make jokes, and handle issues effortlessly."], c: -1 },
+            // 12. Storytelling
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> If you need to describe a memorable trip or tell a story about an accident to a friend...", a: ["I struggle to connect ideas and speak in short, broken fragments.", "I can narrate it linearly, though I search for words and make mistakes.", "I can tell it fluently with rich details, natural transitions, and emotions."], c: -1 },
+            // 13. Debating
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> When participating in a fast-paced conversation or debate about controversial topics...", a: ["I feel too slow, anxious, or unable to form arguments on the spot.", "I can express my opinion and defend it, though with some effort.", "I can debate effortlessly, using humor, subtext, and advanced vocabulary."], c: -1 },
+            // 14. Presentation
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> If you are asked to speak spontaneously about highly abstract concepts or deliver an unprepared presentation...", a: ["I struggle to structure my thoughts and have to pause constantly.", "I can speak clearly and maintain a coherent flow, with only minor hesitations.", "I can articulate extremely subtle nuances spontaneously and effortlessly."], c: -1 },
+            // 15. Synonyms & Paraphrasing
+            { q: "💬 <strong>FLUENCY CHECKPOINT:</strong> When talking to native speakers, how easily do you find synonyms and paraphrase when you forget a word?", a: ["I get completely stuck and the conversation grinds to a halt.", "I can usually paraphrase with some effort, but it interrupts my flow.", "I navigate it seamlessly without the listener even noticing I forgot a word."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Spot complex question
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> When a native speaker unexpectedly puts you on the spot and asks you a complex question...", a: ["My mind goes blank and I can say nothing, even if I passively understand the language.", "I feel nervous and need a few seconds to translate, but can eventually answer.", "I can respond instantly and naturally, without translating in my head."], c: -1 },
+            // 17. Noisy Environment
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> How comfortable do you feel speaking your target language on a phone call or in a noisy environment?", a: ["Terrified; I avoid phone calls at all costs and cannot filter background noise.", "Anxious, but I can get through the call with some repetition and deep concentration.", "Completely relaxed; I can communicate clearly and focus on the conversation."], c: -1 },
+            // 18. Mistake Management
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> When you make a grammatical mistake while speaking, what is your typical reaction?", a: ["I freeze, lose confidence, and feel too embarrassed to keep speaking.", "I notice the error and hesitate, but try to correct myself and continue.", "I smoothly self-correct or carry on without letting it affect my flow."], c: -1 },
+            // 19. Speaking in Front of Group
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> If you have to speak in the target language in front of a small group of people (like a meeting or class)...", a: ["I experience physical anxiety (racing heart, shaking) and struggle to speak.", "I feel nervous but can deliver my thoughts with moderate hesitation.", "I feel confident, voice my thoughts clearly, and engage with the group comfortably."], c: -1 },
+            // 20. Mental Translation
+            { q: "💬 <strong>CONFIDENCE CHECKPOINT:</strong> How often do you feel the need to mentally translate from your native language before speaking?", a: ["Always; I have to construct every single sentence in my native tongue first.", "Frequently for complex sentences, though basic phrases come automatically.", "Rarely or never; I think directly in the target language when speaking."], c: -1 }
+        ],
+        fr: [
+            // 1. A1 Receptive Grammar (Grammar Q1)
+            { q: "Bonjour ! Comment ___ vous ?", a: ["allez", "vas", "vont"], c: 0 },
+            // 2. A1 Receptive (Vocab Q1)
+            { q: "J'habite ___ Paris, une très belle ville. 🇫🇷", a: ["à", "en", "au"], c: 0 },
+            // 3. A2 Receptive (Grammar Q2)
+            { q: "Hier, nous ___ un excellent film au cinéma.", a: ["avons regardé", "regardions", "regarderons"], c: 0 },
+            // 4. A2 Receptive (Vocab Q2)
+            { q: "Pendant mes vacances, je ___ tous les jours à la plage.", a: ["allais", "suis allé", "irai"], c: 1 },
+            // 5. B1 Receptive (Grammar Q3)
+            { q: "Si j'avais assez d'argent, je ___ un voyage autour du monde.", a: ["ferais", "ferai", "faisais"], c: 0 },
+            // 6. B1 Receptive (Vocab Q3)
+            { q: "Elle habite en France ___ trois ans et parle couramment français.", a: ["depuis", "pendant", "pour"], c: 0 },
+            // 7. B2 Receptive (Grammar Q4)
+            { q: "Bien que ce travail ___ fatigant, il l'adore.", a: ["soit", "est", "était"], c: 0 },
+            // 8. B2 Receptive (Vocab Q4)
+            { q: "Tu ___ me prévenir de ton retard, je me suis beaucoup inquiété !", a: ["aurais dû", "devrais", "as dû"], c: 0 },
+            // 9. C1 Receptive (Grammar Q5)
+            { q: "Quoi que vous ___ , ne révélez pas ce secret.", a: ["disiez", "dites", "direz"], c: 0 },
+            // 10. C2 Receptive (Vocab Q5)
+            { q: "Pourriez-vous, le cas ___ , nous envoyer un justificatif ?", a: ["échéant", "arrivant", "survenant"], c: 0 },
+
+            // Active Conversational Fluency (11-15)
+            // 11. Restaurant
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Au restaurant à l'étranger, pour commander un repas et demander l'addition...", a: ["Je bloque, je montre le menu du doigt ou je cherche mes mots avec difficulté.", "Je peux commander en utilisant des phrases simples et préparées.", "Je peux échanger facilement avec le serveur, plaisanter et gérer un imprévu."], c: -1 },
+            // 12. Recit
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Si vous devez raconter un souvenir de voyage ou expliquer un problème à un ami...", a: ["Je struggle à connecter mes idées et parle par mots isolés ou phrases hachées.", "Je peux raconter les événements dans l'ordre, bien que je cherche mes mots.", "Je peux raconter l'histoire de manière fluide, avec des détails et des émotions."], c: -1 },
+            // 13. Debat
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Lors d'un débat rapide ou d'une discussion animée sur un sujet de société...", a: ["Je me sens trop lent, anxieux ou incapable d'argumenter spontanément.", "Je peux exprimer mon opinion et la défendre, bien que cela me demande un effort.", "Je peux débattre sans effort, en utilisant l'humour, le second degré et un vocabulaire riche."], c: -1 },
+            // 14. Abstraction
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> S'il vous faut parler de concepts abstraits ou faire une présentation improvisée...", a: ["J'ai du mal à structurer mes idées et je dois m'interrompre constamment.", "Je peux m'exprimer clairement et maintenir un discours cohérent sans trop d'hésitations.", "Je peux exprimer des nuances très subtiles de manière spontanée et naturelle."], c: -1 },
+            // 15. Synonymes
+            { q: "💬 <strong>TEST DE FLUIDITÉ :</strong> Comment réagissez-vous si vous oubliez un mot précis au milieu d'une phrase ?", a: ["Je m'arrête complètement de parler et je suis bloqué.", "Je cherche une périphrase avec effort, ce qui coupe le rythme de ma phrase.", "Je trouve instantanément un synonyme ou j'explique l'idée avec naturel."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Imprevu
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Quand un locuteur natif vous pose une question complexe de manière inattendue...", a: ["C'est le trou noir : je n'arrive pas à parler, même si je comprends tout.", "Je stress et dois traduire dans ma tête, mais je finis par répondre.", "Je réponds instantanément et naturellement, sans traduire dans ma tête."], c: -1 },
+            // 17. Telephone
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Quelle est votre aisance pour parler au téléphone ou dans un endroit très bruyant ?", a: ["C'est terrifiant ; j'évite absolument les appels et ne comprends plus rien avec le bruit.", "Stressant, mais je m'en sors en faisant répéter et en me concentrant intensément.", "Totalement à l'aise ; je peux communiquer clairement et ignorer le bruit de fond."], c: -1 },
+            // 18. Erreurs
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Quand vous faites une erreur de grammaire ou de prononciation en parlant...", a: ["Je perds tous mes moyens, je me sens embarrassé et j'ai du mal à continuer.", "Je remarque l'erreur, j'hésite un peu, mais j'essaie de me corriger et de continuer.", "Je me corrige rapidement de façon fluide ou je continue sans perturber mon élocution."], c: -1 },
+            // 19. Groupe
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> Si vous devez prendre la parole devant un petit groupe (réunion, classe, atelier)...", a: ["Je ressens une forte anxiété physique (cœur qui bat, tremblements) et j'ai du mal à parler.", "Je suis nerveux mais je parviens à exprimer mes idées avec quelques hésitations.", "Je me sens à l'aise, je partage mes idées clairement et j'interagis avec le groupe."], c: -1 },
+            // 20. Traduction mentale
+            { q: "💬 <strong>TEST DE CONFIANCE :</strong> À quelle fréquence devez-vous traduire mentalement depuis votre langue maternelle ?", a: ["Toujours ; je dois construire chaque phrase dans ma langue d'origine d'abord.", "Souvent pour les phrases complexes, mais les expressions simples sortent d'elles-mêmes.", "Rarement ou jamais ; je pense directement en français quand je m'exprime."], c: -1 }
+        ],
+        it: [
+            // 1. A1 Receptive Grammar (Grammar Q1)
+            { q: "Ciao! Io ___ Marco e vengo da Roma.", a: ["sono", "sei", "è"], c: 0 },
+            // 2. A1 Receptive (Vocab Q1)
+            { q: "La borsa è ___ tavolo in cucina.", a: ["sul", "nel", "con"], c: 0 },
+            // 3. A2 Receptive (Grammar Q2)
+            { q: "Sabato scorso noi ___ al mare con gli amici.", a: ["siamo andati", "abbiamo andato", "andiamo"], c: 0 },
+            // 4. A2 Receptive (Vocab Q2)
+            { q: "Da piccolo, mio nonno ___ sempre a piedi a scuola.", a: ["andava", "è stato andato", "andrà"], c: 0 },
+            // 5. B1 Receptive (Grammar Q3)
+            { q: "Se io ___ più tempo, farei un corso di cucina.", a: ["avessi", "avrei", "ho"], c: 0 },
+            // 6. B1 Receptive (Vocab Q3)
+            { q: "Non penso che Maria ___ ancora arrivata in ufficio.", a: ["sia", "è", "sarà"], c: 0 },
+            // 7. B2 Receptive (Grammar Q4)
+            { q: "Penso che quel film ___ molto interessante, dovresti vederlo.", a: ["sia", "è", "fosse"], c: 0 },
+            // 8. B2 Receptive (Vocab Q4)
+            { q: "Se mi avessi ascoltato, non ___ in questo pasticcio!", a: ["ti saresti trovato", "ti fossi trovato", "ti troverai"], c: 0 },
+            // 9. C1 Receptive (Grammar Q5)
+            { q: "Sebbene ___ molto stanco, ha continuato a lavorare tutta la notte.", a: ["fosse", "era", "sarebbe"], c: 0 },
+            // 10. C2 Receptive (Vocab Q5)
+            { q: "È un circolo vizioso, un cane che si ___ la coda. 🐕", a: ["morde", "rincorre", "scuote"], c: 0 },
+
+            // Active Conversational Fluency (11-15)
+            // 11. Ristorante
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> In un ristorante all'estero, se devi ordinare del cibo e chiedere il conto...", a: ["Mi blocco, indico il menu o fatico molto a trovare le parole.", "Posso ordinare quello che voglio usando frasi semplici e già provate.", "Posso conversare facilmente col cameriere, scherzare e gestire imprevisti."], c: -1 },
+            // 12. Viaggio
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Se devi raccontare un viaggio memorabile o spiegare un problema a un amico...", a: ["Fatico a collegare le idee e parlo con frasi brevi e spezzate.", "Posso narrare gli eventi in ordine, anche se cerco le parole e faccio errori.", "Posso raccontare la storia fluidamente, con dettagli, emozioni e naturalezza."], c: -1 },
+            // 13. Dibattito
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Durante un dibattito veloce o una discussione accesa su temi sociali complessi...", a: ["Mi sento troppo lento, ansioso o incapace di formulare argomenti sul momento.", "Posso esprimere la mia opinione e difenderla, anche se con un certo sforzo.", "Posso discutere senza sforzo, usando ironia, sfumature e un vocabolario avanzato."], c: -1 },
+            // 14. Abstratto
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Se ti viene chiesto di parlare spontaneamente di concetti astratti o fare una presentazione improvvisata...", a: ["Faticherei a strutturare i pensieri e dovrei fare continue pause.", "Posso parlare chiaramente e mantenere un flusso coerente, con minime esitazioni.", "Posso esprimere sfumature estremamente sottili in modo spontaneo e naturale."], c: -1 },
+            // 15. Sinonimi
+            { q: "💬 <strong>TEST DI FLUIDITÀ:</strong> Come ti comporti se ti sfugge una parola precisa mentre stai parlando?", a: ["Mi blocco completamente e la conversazione si interrompe.", "Cerco di parafrasare con fatica, interrompendo la fluidità della frase.", "Trovo subito un sinonimo o spiego l'idea in modo naturale."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Domanda Improvvisa
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Quando un madrelingua ti fa una domanda complessa all'improvviso...", a: ["La mia mente si svuota completamente e non riesco a parlare, anche se capisco tutto.", "Mi sento nervoso e ho bisogno di tradurre nella mente, ma alla fine rispondo.", "Posso rispondere all'istante e in modo naturale, senza tradurre nella mente."], c: -1 },
+            // 17. Telefono
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Come ti senti a parlare al telefono o in un ambiente molto rumoroso?", a: ["Terrorizzato; evito le telefonate a tutti i costi e non capisco nulla col rumore.", "Ansioso, ma me la cavo facendomi ripetere le cose e concentrandomi molto.", "Completamente a mio agio; posso comunicare chiaramente e ignorare il rumore."], c: -1 },
+            // 18. Errore
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Quando fai un errore di grammatica o di pronuncia mentre parli...", a: ["Mi scoraggio subito, mi sento in imbarazzo e fatico a continuare a parlare.", "Noto l'errore ed esito, ma provo a correggermi e continuo il discorso.", "Mi autocorreggo in modo fluido o continuo senza farmi influenzare."], c: -1 },
+            // 19. Gruppo
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Se devi parlare in pubblico davanti a un piccolo gruppo (riunione, corso, presentazione)...", a: ["Provo una forte ansia fisica (battito accelerato, tremore) e fatico a parlare.", "Sono nervoso ma riesco a esprimere le mie idee con qualche esitazione.", "Mi sento sicuro, espongo chiaramente i miei pensieri e interagisco con facilità."], c: -1 },
+            // 20. Traduzione mentale
+            { q: "💬 <strong>TEST DI SICUREZZA:</strong> Quanto spesso senti il bisogno di tradurre mentalmente dalla tua lingua madre prima di parlare?", a: ["Sempre; devo costruire ogni singola frase prima nella mia lingua madre.", "Spesso per concetti complessi, mentre le frasi semplici mi vengono automatiche.", "Raramente o mai; penso direttamente in italiano quando mi esprimo."], c: -1 }
+        ],
+        ru: [
+            // 1. A1 Receptive Grammar (Grammar Q1)
+            { q: "Привет! Меня ___ Анна. Как тебя зовут?", a: ["зовут", "зовутт", "звать"], c: 0 },
+            // 2. A1 Receptive (Vocab Q1)
+            { q: "Где моя книга? Она лежит ___ столе. 📕", a: ["на", "в", "у"], c: 0 },
+            // 3. A2 Receptive (Grammar Q2)
+            { q: "Вчера мы ___ в новый ресторан в центре города.", a: ["ходили", "шли", "поедем"], c: 0 },
+            // 4. A2 Receptive (Vocab Q2)
+            { q: "Моша сестра ___ меня на три года.", a: ["старше", "старый", "самый старый"], c: 0 },
+            // 5. B1 Receptive (Grammar Q3)
+            { q: "Если бы у меня было больше свободного времени, я ___ на гитаре.", a: ["играл бы", "буду играть", "играю"], c: 0 },
+            // 6. B1 Receptive (Vocab Q3)
+            { q: "Я учусь в этом университете ___ двух лет.", a: ["в течение", "за", "через"], c: 0 },
+            // 7. B2 Receptive (Grammar Q4)
+            { q: "Мы решили отложить прогулку, несмотря ___ плохую погоду.", a: ["на", "за", "против"], c: 0 },
+            // 8. B2 Receptive (Vocab Q4)
+            { q: "Вам ___ предупредить нас об изменениях заранее!", a: ["следовало", "должны", "нужно"], c: 0 },
+            // 9. C1 Receptive (Grammar Q5)
+            { q: "Этот проект заслуживает внимания, ___ его высокую стоимость.", a: ["невзирая на", "благодаря", "согласно"], c: 0 },
+            // 10. C2 Receptive (Vocab Q5)
+            { q: "После долгих дебатов стороны наконец пришли ___ .", a: ["к общему знаменателю", "в тупик", "на попятную"], c: 0 },
+
+            // Active Conversational Fluency (11-15)
+            // 11. Ресторан
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Если в ресторане за границей вам нужно заказать еду и попросить счет...", a: ["Я зависаю, просто показываю пальцем в меню или с трудом подбираю слова.", "Я могу заказать все необходимое простыми, заранее отрепетированными фразами.", "Я могу легко пообщаться с официантом, пошутить или решить возникшую проблему."], c: -1 },
+            // 12. Рассказ
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Если вам нужно рассказать другу о запоминающейся поездке или истории из жизни...", a: ["Мне трудно связывать мысли, и я говорю короткими, отрывочными фразами.", "Я могу рассказать всё по порядку, хотя часто ищу слова и делаю ошибки.", "Я могу рассказать историю бегло, во всех деталях, выражая эмоции и нюансы."], c: -1 },
+            // 13. Спор
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> При участии в быстром споре или обсуждении сложных социальных тем...", a: ["Я чувствую себя слишком медлительным, нервничаю или не могу аргументировать на ходу.", "Я могу выразить свое мнение и защитить его, хотя это требует усилий.", "Я могу спорить без усилий, используя юмор, подтекст и богатый словарный запас."], c: -1 },
+            // 14. Спонтанность
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Если вас попросят спонтанно рассуждать на абстрактные темы или выступить без подготовки...", a: ["Мне будет трудно структурировать мысли, придется постоянно делать паузы.", "Я могу говорить ясно и поддерживать связную речь с минимальными заминками.", "Я могу выражать тончайшие оттенки смысла спонтанно и абсолютно свободно."], c: -1 },
+            // 15. Забытое слово
+            { q: "💬 <strong>ТЕСТ БЕГЛОСТИ РЕЧИ:</strong> Как вы поступаете, если забыли точное слово во время разговора?", a: ["Я полностью останавливаюсь и не могу продолжить беседу.", "Я пытаюсь с трудом перефразировать мысль, что сильно сбивает темп речи.", "Я мгновенно нахожу синоним или легко объясняю понятие другими словами."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Неожиданный вопрос
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Когда носитель языка неожиданно задает вам сложный вопрос в лоб...", a: ["В голове наступает полная пустота, и я не могу ничего сказать, хотя всё понимаю.", "Я нервничаю и трачу время на мысленный перевод, но в итоге отвечаю.", "Я могу ответить мгновенно и естественно, не переводя фразы в голове."], c: -1 },
+            // 17. Телефон/Шум
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Насколько уверенно вы чувствуете себя при разговоре по телефону или в шумном месте?", a: ["Ужасно; я всеми силами избегаю звонков и теряюсь от любого шума.", "Немного тревожно, но я справляюсь, прося повторить и сильно концентрируясь.", "Абсолютно спокойно; могу общаться четко и абстрагироваться от шума."], c: -1 },
+            // 18. Реакция на ошибки
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Какова ваша реакция на собственную грамматическую ошибку во время речи?", a: ["Я расстраиваюсь, теряю уверенность и стесняюсь продолжать говорить.", "Замечаю ошибку и запинаюсь, но стараюсь исправиться и продолжить.", "Спокойно исправляюсь на ходу или говорю дальше, не теряя темпа."], c: -1 },
+            // 19. Публика
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Если вам нужно высказаться перед небольшой группой людей (совещание, урок, презентация)...", a: ["Я чувствую физический страх (сердцебиение, дрожь) и с трудом выдавливаю слова.", "Нервничаю, но могу изложить свои мысли с небольшими запинками.", "Чувствую себя уверенно, выражаю мысли ясно и легко веду диалог."], c: -1 },
+            // 20. Мысленный перевод
+            { q: "💬 <strong>ТЕСТ УВЕРЕННОСТИ:</strong> Как часто вам приходится мысленно переводить фразы с родного языка перед тем, как сказать?", a: ["Постоянно; сначала конструирую каждое предложение на родном языке.", "Часто при сложных фразах, но простые выражения приходят автоматически.", "Редко или никогда; я сразу думаю на целевом языке, когда говорю."], c: -1 }
+        ],
+        el: [
+            // 1. A1 Receptive Grammar (Grammar Q1)
+            { q: "Γεια σας! Πώς ___ ;", a: ["είστε", "είμαι", "είναι"], c: 0 },
+            // 2. A1 Receptive (Vocab Q1)
+            { q: "Το βιβλίο μου είναι ___ στο τραπέζι. 📘", a: ["πάνω", "κάτω", "μέσα"], c: 0 },
+            // 3. A2 Receptive (Grammar Q2)
+            { q: "Χθες ___ στο σινεμά και είδαμε μια ωραία ταινία.", a: ["πήγαμε", "πηγαίνουμε", "θα πάμε"], c: 0 },
+            // 4. A2 Receptive (Vocab Q2)
+            { q: "Αυτό το αυτοκίνητο είναι ___ από το δικό μου. 🚗", a: ["γρηγορότερο", "γρήγορο", "γρηγορότερα"], c: 0 },
+            // 5. B1 Receptive (Grammar Q3)
+            { q: "Αν ___ χρόνο, θα ερχόμουν μαζί σας στο πάρτι.", a: ["είχα", "έχω", "θα έχω"], c: 0 },
+            // 6. B1 Receptive (Vocab Q3)
+            { q: "Μαθαίνω ελληνικά ___ δύο χρόνια και μου αρέσουν πολύ.", a: ["εδώ και", "από", "για"], c: 0 },
+            // 7. B2 Receptive (Grammar Q4)
+            { q: "Παρόλο που ___ κουρασμένος, συνέχισε να διαβάζει.", a: ["ήταν", "είναι", "θα είναι"], c: 0 },
+            // 8. B2 Receptive (Vocab Q4)
+            { q: "Δεν μπορώ να ___ αυτή την απαράδεκτη συμπεριφορά.", a: ["ανεχτώ", "αντέξω", "κάνω"], c: 0 },
+            // 9. C1 Receptive (Grammar Q5)
+            { q: "Υπό την προϋπόθεση ότι όλοι ___ σύμφωνοι, μπορούμε να ξεκινήσουμε.", a: ["είναι", "θα είναι", "ήταν"], c: 0 },
+            // 10. C2 Receptive (Vocab Q5)
+            { q: "Η προσπάθειά του να τους πείσει απέβη ___ , καθώς κανείς δεν τον πίστεψε.", a: ["άκαρπη", "άδικη", "άτοπη"], c: 0 },
+
+            // Active Conversational Fluency (11-15)
+            // 11. Εστιατόριο
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Σε ένα εστιατόριο στο εξωτερικό, αν πρέπει να παραγγείλετε φαγητό και να ζητήσετε τον λογαριασμό...", a: ["Θα μπλόκαρα, θα έδειχνα το μενού ή θα δυσκολευόμουν πολύ να βρω τις λέξεις.", "Μπορώ να παραγγείλω αυτό που θέλω χρησιμοποιώντας απλές, εξασκημένες προτάσεις.", "Μπορώ εύκολα να συνομιλήσω με τον σερβιτόρο, να κάνω αστεία και να λύσω τυχόν θέματα."], c: -1 },
+            // 12. Διήγηση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Αν πρέπει να περιγράψετε ένα αξέχαστο ταξίδι ή να διηγηθείτε μια ιστορία σε έναν φίλο...", a: ["Δυσκολεύομαι να συνδέσω τις ιδέες μου και μιλάω με σύντομες, σκόρπιες φράσεις.", "Μπορώ να διηγηθώ τα γεγονότα με τη σειρά, αν και ψάχνω λέξεις και κάνω λάθη.", "Μπορώ να πω την ιστορία με ευχέρεια, πλούσιες λεπτομέρειες, συναίσθημα και φυσικότητα."], c: -1 },
+            // 13. Συζήτηση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Όταν συμμετέχετε σε μια γρήγορη συζήτηση ή αντιπαράθεση για κοινωνικά θέματα...", a: ["Νιώθω πολύ αργός, αγχωμένος ή ανίκανος να διατυπώσω επιχειρήματα εκείνη τη στιγμή.", "Μπορώ να εκφράσω τη γνώμη μου και να την υπερασπιστώ, αν και με κάποια προσπάθεια.", "Μπορώ να συζητήσω αβίαστα, χρησιμοποιώντας χιούμορ, υπονοούμενα και προχωρημένο λεξιλόγιο."], c: -1 },
+            // 14. Παρουσίαση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Αν σας ζητηθεί να μιλήσετε αυθόρμητα για αφηρημένες έννοιες ή να κάνετε μια παρουσίαση χωρίς προετοιμασία...", a: ["Θα δυσκολευόμουν να δομήσω τις σκέψεις μου και θα έκανα συνεχείς παύσεις.", "Μπορώ να μιλήσω καθαρά και να διατηρήσω μια συνεχή ροή, με ελάχιστους δισταγμούς.", "Μπορώ να εκφράσω εξαιρετικά λεπτές αποχρώσεις νοήματος αυθόρμητα και αβίαστα."], c: -1 },
+            // 15. Ξεχασμένη λέξη
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΕΥΧΕΡΕΙΑΣ:</strong> Τι κάνετε αν ξεχάσετε μια συγκεκριμένη λέξη κατά τη διάρκεια μιας συνομιλίας;", a: ["Κολλάω τελείως και η συζήτηση σταματά απότομα.", "Προσπαθώ να περιγράψω αυτό που θέλω με δυσκολία, διακόπτοντας τη ροή μου.", "Βρίσκω αμέσως ένα συνώνυμο ή εξηγώ την ιδέα με απόλυτα φυσικό τρόπο."], c: -1 },
+
+            // Speech Confidence & Retrieval Speed (16-20)
+            // 16. Ξαφνική ερώτηση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Όταν ένας φυσικός ομιλητής σάς κάνει ξαφνικά μια δύσκολη ερώτηση...", a: ["Το μυαλό μου αδειάζει τελείως και δεν μπορώ να μιλήσω, παρόλο που καταλαβαίνω τα πάντα.", "Νιώθω άγχος και χρειάζομαι χρόνο για να μεταφράσω στο μυαλό μου, αλλά τελικά απαντώ.", "Μπορώ να απαντήσω αμέσως και φυσικά, χωρίς να κάνω μετάφραση στο μυαλό μου."], c: -1 },
+            // 17. Θόρυβος / Τηλέφωνο
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Πόσο άνετα νιώθετε να μιλάτε στο τηλέφωνο ή σε ένα περιβάλλον με πολύ θόρυβο;", a: ["Τρομοκρατημένος/η. Αποφεύγω τα τηλεφωνήματα και χάνω κάθε συγκέντρωση με τον θόρυβο.", "Αγχωμένος/η, αλλά τα καταφέρνω ζητώντας επαναλήψεις και με μεγάλη προσπάθεια.", "Απόλυτα άνετα. Μπορώ να επικοινωνήσω καθαρά και να αγνοήσω τον θόρυβο."], c: -1 },
+            // 18. Λάθη
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Όταν κάνετε ένα γραμματικό ή εκφωνητικό λάθος καθώς μιλάτε...", a: ["Απογοητεύομαι, χάνω την αυτοπεποίθησή μου και ντρέπομαι να συνεχίσω.", "Παρατηρώ το λάθος και διστάζω, αλλά προσπαθώ να διορθωθώ και να συνεχίσω.", "Διορθώνομαι ομαλά ή συνεχίζω να μιλάω χωρίς να επηρεαστεί η ροή μου."], c: -1 },
+            // 19. Ομάδα
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Αν πρέπει να μιλήσετε μπροστά σε μια μικρή ομάδα (π.χ. σε μια συνάντηση ή μάθημα)...", a: ["Νιώθω σωματικό άγχος (ταχυπαλμία, τρέμουλο) και δυσκολεύομαι να αρθρώσω λέξη.", "Αγχώνομαι αλλά καταφέρνω να εκφράσω τις σκέψεις μου με κάποιους δισταγμούς.", "Νιώθω σιγουριά, εκφράζομαι καθαρά και αλληλεπιδρώ άνετα με την ομάδα."], c: -1 },
+            // 20. Μετάφραση
+            { q: "💬 <strong>ΕΛΕΓΧΟΣ ΑΥΤΟΠΕΠΟΙΘΗΣΗΣ:</strong> Πόσο συχνά νιώθετε την ανάγκη να μεταφράζετε από τη μητρική σας γλώσσα προτού μιλήσετε;", a: ["Πάντα. Πρέπει να κατασκευάσω κάθε πρόταση στη μητρική μου γλώσσα πρώτα.", "Συχνά για περίπλοκες προτάσεις, αν και οι απλές εκφράσεις βγαίνουν αυτόματα.", "Σπάνια έως ποτέ. Σκέφτομαι απευθείας στη γλώσσα-στόχο όταν μιλάω."], c: -1 }
+        ]
+    };
+
+    const LEVEL_EXPLANATIONS = {
+        en: {
+            a1: { name: "Beginner (A1)", desc: "Recommended Level: Beginner (A1). You are starting your journey! Let's build a strong foundation together." },
+            a2: { name: "Elementary (A2)", desc: "Recommended Level: Elementary (A2). You know basic structures and vocabulary. Let's start speaking more!" },
+            b1: { name: "Intermediate (B1)", desc: "Recommended Level: Intermediate (B1). You can handle everyday conversations. Let's work on fluency and confidence!" },
+            b2: { name: "Upper-Intermediate (B2)", desc: "Recommended Level: Upper-Intermediate (B2). You express complex thoughts. Let's polish your vocabulary and master deep discussions!" },
+            c1: { name: "Advanced (C1)", desc: "Recommended Level: Advanced (C1). You speak fluently and understand subtle nuances. Let's refine your style!" },
+            c2: { name: "Proficiency (C2)", desc: "Recommended Level: Proficiency (C2). Outstanding! You have near-native control of the language." }
+        },
+        fr: {
+            a1: { name: "Débutant (A1)", desc: "Niveau recommandé : Débutant (A1). Vous commencez votre voyage ! Construisons ensemble des bases solides." },
+            a2: { name: "Élémentaire (A2)", desc: "Niveau recommandé : Élémentaire (A2). Vous connaissez les structures et le vocabulaire de base. Commençons à parler davantage !" },
+            b1: { name: "Intermédiaire (B1)", desc: "Niveau recommandé : Intermédiaire (B1). Vous pouvez gérer les conversations de la vie quotidienne. Travaillons votre fluidité !" },
+            b2: { name: "Intermédiaire supérieur (B2)", desc: "Niveau recommandé : Intermédiaire supérieur (B2). Vous exprimez des pensées complexes. Peaufinons votre vocabulaire !" },
+            c1: { name: "Avancé (C1)", desc: "Niveau recommandé : Avancé (C1). Vous parlez couramment et comprenez les nuances subtiles. Affinons votre style !" },
+            c2: { name: "Maîtrise (C2)", desc: "Niveau recommandé : Maîtrise (C2). Exceptionnel ! Vous maîtrisez la langue presque comme un locuteur natif." }
+        },
+        it: {
+            a1: { name: "Principiante (A1)", desc: "Livello consigliato: Principiante (A1). Stai iniziando il tuo viaggio! Costruiamo insieme delle fondamenta solide." },
+            a2: { name: "Elementare (A2)", desc: "Livello consigliato: Elementare (A2). Conosci le strutture e il vocabolario di base. Iniziamo a parlare di più!" },
+            b1: { name: "Intermedio (B1)", desc: "Livello consigliato: Intermedio (B1). Puoi gestire le conversazioni di tutti i giorni. Lavoriamo sulla fluidità e sulla sicurezza!" },
+            b2: { name: "Intermedio Superiore (B2)", desc: "Livello consigliato: Intermedio Superiore (B2). Esprimi pensieri complessi. Perfezioniamo il tuo vocabolario!" },
+            c1: { name: "Avanzato (C1)", desc: "Livello consigliato: Avanzato (C1). Parli fluentemente e comprendi sfumature sottili. Affiniamo il tuo stile!" },
+            c2: { name: "Padronanza (C2)", desc: "Livello consigliato: Padronanza (C2). Eccezionale! Hai un controllo della lingua quasi pari a un madrelingua." }
+        },
+        ru: {
+            a1: { name: "Начинающий (A1)", desc: "Рекомендуемый уровень: Начинающий (A1). Вы начинаете свой путь! Давайте вместе построим прочный фундамент." },
+            a2: { name: "Элементарный (A2)", desc: "Рекомендуемый уровень: Элементарный (A2). Вы знаете базовые структуры и лексику. Давайте начнем говорить больше!" },
+            b1: { name: "Средний (B1)", desc: "Рекомендуемый уровень: Средний (B1). Вы можете вести повседневные разговоры. Давайте поработаем над беглостью речи!" },
+            b2: { name: "Выше среднего (B2)", desc: "Рекомендуемый уровень: Выше среднего (B2). Вы выражаете сложные мысли. Давайте отшлифуем ваш словарный запас!" },
+            c1: { name: "Продвинутый (C1)", desc: "Рекомендуемый уровень: Продвинутый (C1). Вы свободно говорите и понимаете тонкие нюансы. Давайте усовершенствуем ваш стиль!" },
+            c2: { name: "В совершенстве (C2)", desc: "Рекомендуемый уровень: В совершенстве (C2). Превосходно! Вы владеете языком практически на уровне носителя." }
+        },
+        el: {
+            a1: { name: "Αρχάριος (A1)", desc: "Προτεινόμενο Επίπεδο: Αρχάριος (A1). Ξεκινάτε το ταξίδι σας! Ας χτίσουμε μαζί γερά θεμέλια." },
+            a2: { name: "Στοιχειώδες (A2)", desc: "Προτεινόμενο Επίπεδο: Στοιχειώδες (A2). Γνωρίζετε βασικές δομές και λεξιλόγιο. Ας αρχίσουμε να μιλάμε περισσότερο!" },
+            b1: { name: "Μέσο (B1)", desc: "Προτεινόμενο Επίπεδο: Μέσο (B1). Μπορείτε να ανταπεξέλθετε σε καθημερινές συζητήσεις. Ας εργαστούμε για την ευχέρειά σας!" },
+            b2: { name: "Ανώτερο-Μέσο (B2)", desc: "Προτεινόμενο Επίπεδο: Ανώτερο-Μέσο (B2). Εκφράζετε σύνθετες σκέψεις. Ας τελειοποιήσουμε το λεξιλόγιό σας!" },
+            c1: { name: "Προχωρημένο (C1)", desc: "Προτεινόμενο Επίπεδο: Προχωρημένο (C1). Μιλάτε με ευχέρεια και κατανοείτε λεπτές αποχρώσεις. Ας βελτιώσουμε το στυλ σας!" },
+            c2: { name: "Άριστη Γνώση (C2)", desc: "Προτεινόμενο Επίπεδο: Άριστη Γνώση (C2). Εξαιρετικό! Έχετε σχεδόν μητρικό έλεγχο της γλώσσας." }
+        }
+    };
+
+    let selectedLang = '';
+    let currentQuestionIdx = 0;
+    let score = 0;
+    let passiveScore = 0;
+    let activeScore = 0;
+    let grammarScore = 0;
+    let vocabScore = 0;
+    let fluencyScore = 0;
+    let anxietyScore = 0;
+    let receptiveFailures = 0;
+    let hasPivoted = false;
+    let isTransitioning = false;
+
+    function startQuiz(lang) {
+        selectedLang = lang;
+        currentQuestionIdx = 0;
+        score = 0;
+        passiveScore = 0;
+        activeScore = 0;
+        grammarScore = 0;
+        vocabScore = 0;
+        fluencyScore = 0;
+        anxietyScore = 0;
+        receptiveFailures = 0;
+        hasPivoted = false;
+
+        document.getElementById('step-lang').style.display = 'none';
+        document.getElementById('quiz-intro-text').style.display = 'none';
+        document.getElementById('step-quiz').style.display = 'block';
+
+        showQuestion();
+    }
+
+    function showQuestion() {
+        const questions = QUESTIONS[selectedLang];
+        const progressText = `Question ${currentQuestionIdx + 1} of 20`;
+        document.getElementById('quiz-progress-text').textContent = progressText;
+
+        const percent = ((currentQuestionIdx) / 20) * 100;
+        document.getElementById('progress-bar').style.width = `${percent}%`;
+
+        const q = questions[currentQuestionIdx];
+        const qHtml = `
+            <div class="question-card" style="display: block;">
+                <div class="question-text">${q.q}</div>
+                <div class="option-list">
+                    ${q.a.map((opt, idx) => `
+                        <button class="option-btn" onclick="selectAnswer(${idx})">${opt}</button>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        document.getElementById('question-container').innerHTML = qHtml;
+    }
+
+    function selectAnswer(ansIdx) {
+        if (isTransitioning) return;
+        isTransitioning = true;
+
+        const questions = QUESTIONS[selectedLang];
+        const q = questions[currentQuestionIdx];
+        const buttons = document.querySelectorAll('.option-btn');
+
+        // Disable all options and show neutral selection feedback without revealing correctness
+        buttons.forEach((btn, idx) => {
+            btn.classList.add('disabled');
+            if (idx === ansIdx) {
+                btn.classList.add('selected');
+            }
+        });
+
+        let triggeredPivot = false;
+
+        if (currentQuestionIdx < 10) {
+            const isCorrect = (ansIdx === q.c);
+            if (isCorrect) {
+                passiveScore++;
+                // Grammar Q indices: 0, 2, 4, 6, 8
+                if ([0, 2, 4, 6, 8].includes(currentQuestionIdx)) {
+                    grammarScore++;
+                } else {
+                    // Vocabulary Q indices: 1, 3, 5, 7, 9
+                    vocabScore++;
+                }
+            } else {
+                if (currentQuestionIdx < 6) {
+                    receptiveFailures++;
+                }
+            }
+        } else {
+            activeScore += ansIdx;
+            // Fluency Q indices: 10, 11, 12, 13, 14
+            if (currentQuestionIdx < 15) {
+                fluencyScore += ansIdx;
+            } else {
+                // Confidence Q indices: 15, 16, 17, 18, 19
+                anxietyScore += ansIdx;
+            }
+        }
+
+        if (currentQuestionIdx < 6 && receptiveFailures >= 2 && !hasPivoted) {
+            hasPivoted = true;
+            triggeredPivot = true;
+        }
+
+        currentQuestionIdx++;
+
+        if (triggeredPivot) {
+            // Adaptive Pivot Transition Card
+            setTimeout(() => {
+                const pt = PIVOT_TRANSLATIONS[selectedLang] || PIVOT_TRANSLATIONS['en'];
+                const pivotHtml = `
+                    <div class="question-card power-test-card">
+                        <div class="power-test-icon">⚡</div>
+                        <div class="question-text power-test-title">${pt.title}</div>
+                        <p class="power-test-sub">
+                            ${pt.desc}
+                        </p>
+                    </div>
+                `;
+                document.getElementById('question-container').innerHTML = pivotHtml;
+                // Fast-forward progress bar to 50% (the end of passive section)
+                document.getElementById('progress-bar').style.width = '50%';
+
+                // Jump directly to index 10 (Question 11 - first active speaking task)
+                currentQuestionIdx = 10;
+
+                setTimeout(() => {
+                    isTransitioning = false;
+                    showQuestion();
+                }, 3500);
+            }, 1200);
+        } else {
+            setTimeout(() => {
+                isTransitioning = false;
+                if (currentQuestionIdx < 20) {
+                    showQuestion();
+                } else {
+                    showResults();
+                }
+            }, 1200);
+        }
+    }
+
+    function showResults() {
+        document.getElementById('step-quiz').style.display = 'none';
+        document.getElementById('step-results').style.display = 'block';
+
+        // 1. Determine Passive Level Baseline
+        let passiveLvl = 'A1';
+        let passiveRank = 1; // 1 to 5
+        if (passiveScore >= 9) { passiveLvl = 'C1'; passiveRank = 5; }
+        else if (passiveScore >= 7) { passiveLvl = 'B2'; passiveRank = 4; }
+        else if (passiveScore >= 5) { passiveLvl = 'B1'; passiveRank = 3; }
+        else if (passiveScore >= 3) { passiveLvl = 'A2'; passiveRank = 2; }
+        else { passiveLvl = 'A1'; passiveRank = 1; }
+
+        // 2. Determine Active Level Baseline (out of 20)
+        let activeLvl = 'A1';
+        if (activeScore >= 16) { activeLvl = 'C1'; }
+        else if (activeScore >= 11) { activeLvl = 'B2'; }
+        else if (activeScore >= 6) { activeLvl = 'B1'; }
+        else if (activeScore >= 2) { activeLvl = 'A2'; }
+        else { activeLvl = 'A0'; }
+
+        // 3. Dynamic Calibration Engine
+        let finalRank = passiveRank;
+        let gapDetected = false;
+
+        if (activeScore <= 4) {
+            // Severe speaking anxiety or block
+            finalRank = Math.max(1, passiveRank - 2); // Dial down by 2 full CEFR levels
+            gapDetected = (passiveRank - finalRank) >= 1;
+        } else if (activeScore <= 10) {
+            // Moderate speaking anxiety/struggle
+            finalRank = Math.max(1, passiveRank - 1); // Dial down by 1 full CEFR level
+            gapDetected = (passiveRank - finalRank) >= 1;
+        } else if (activeScore >= 16 && passiveScore >= 9) {
+            // Outstanding passive and active
+            finalRank = 6; // C2 Proficiency
+        }
+
+        // Map finalRank back to CEFR code
+        let finalLevelCode = 'a1';
+        if (finalRank >= 6) finalLevelCode = 'c2';
+        else if (finalRank >= 5) finalLevelCode = 'c1';
+        else if (finalRank >= 4) finalLevelCode = 'b2';
+        else if (finalRank >= 3) finalLevelCode = 'b1';
+        else if (finalRank >= 2) finalLevelCode = 'a2';
+        else finalLevelCode = 'a1';
+
+        // Fetch explanations
+        const exp = LEVEL_EXPLANATIONS[selectedLang][finalLevelCode];
+        document.getElementById('results-level-text').textContent = exp.name;
+        document.getElementById('results-desc-text').textContent = exp.desc;
+
+        // Dynamic results buttons translation
+        const btns = ACTION_BUTTON_TRANSLATIONS[selectedLang] || ACTION_BUTTON_TRANSLATIONS['en'];
+        document.getElementById('btn-results-home').innerHTML = btns.home;
+        document.getElementById('btn-results-practice').innerHTML = btns.practice;
+        document.getElementById('btn-results-retake').innerHTML = btns.retake;
+
+        // Append url-handoff query parameters (?lang=&level=&topic=) to outbound links
+        const finalLevelUpper = finalLevelCode.toUpperCase();
+        const handoffQuery = `?lang=${selectedLang}&level=${finalLevelUpper}&topic=general`;
+
+        const homeBtn = document.getElementById('btn-results-home');
+        if (homeBtn) homeBtn.href = `index.html${handoffQuery}`;
+
+        const practiceBtn = document.getElementById('btn-results-practice');
+        if (practiceBtn) practiceBtn.href = `https://cosylanguages.github.io/COSYpractice/${handoffQuery}`;
+
+        // Deep-link the recommended course+level into the curriculum (gap-analysis A2).
+        // Maps the calibrated CEFR level to a curriculum file the learner can open.
+        // Falls back to the language hub if that exact level file doesn't exist yet.
+        const LEVEL_TO_FILE = { a1: 'A1', a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
+        const levelFile = LEVEL_TO_FILE[finalLevelCode] || 'A1';
+        const curriculumHref = `curriculum/${selectedLang}/general/${levelFile}.json${handoffQuery}`;
+        const fallbackHref = `languages/${selectedLang}/index.html${handoffQuery}`;
+        const curriculumBtn = document.getElementById('btn-results-curriculum');
+        if (curriculumBtn) {
+            curriculumBtn.innerHTML = `${btns.curriculum} (${finalLevelUpper})`;
+            curriculumBtn.href = fallbackHref; // safe default while we check
+            fetch(curriculumHref, { method: 'HEAD' })
+                .then(r => { if (r.ok) curriculumBtn.href = curriculumHref; })
+                .catch(() => { /* keep fallback */ });
+        }
+
+        // Custom speaking gap / balanced communicative warning block
+        let gapHtml = '';
+        if (gapDetected) {
+            const gapTitles = {
+                en: "⚠️ Passive-Active Speaking Gap Detected!",
+                fr: "⚠️ Décalage entre compréhension et expression !",
+                it: "⚠️ Divario tra comprensione ed espressione!",
+                ru: "⚠️ Выявлен разрыв между теорией и практикой!",
+                el: "⚠️ Ανιχνεύθηκε χάσμα μεταξύ θεωρίας και πράξης!"
+            };
+            const gapTexts = {
+                en: `Your passive grammatical comprehension is outstanding (equivalent to <strong>${passiveLvl}</strong>), but your speaking production speed and confidence are currently at the <strong>${activeLvl}</strong> level. To prevent freezing and build real-world confidence, we recommend starting at a lower, comfortable level (<strong>${finalLevelCode.toUpperCase()}</strong>) to bridge this gap.`,
+                fr: `Votre compréhension grammaticale passive est excellente (équivalente à <strong>${passiveLvl}</strong>), mais votre fluidité et votre confiance à l'oral se situent au niveau <strong>${activeLvl}</strong>. Pour surmonter le blocage de la parole, nous vous recommandons de commencer à un niveau confortable (<strong>${finalLevelCode.toUpperCase()}</strong>).`,
+                it: `La tua comprensione passiva della grammatica è eccellente (equivalente a <strong>${passiveLvl}</strong>), ma la tua fluidità e sicurezza nel parlare sono al livello <strong>${activeLvl}</strong>. Per superare i blocchi, ti consigliamo di iniziare da un livello più basso e confortevole (<strong>${finalLevelCode.toUpperCase()}</strong>).`,
+                ru: `Ваше пассивное знание грамматики и словарного запаса находится на высоком уровне (<strong>${passiveLvl}</strong>), однако при живом общении возникает языковой барьер (уровень <strong>${activeLvl}</strong>). Чтобы преодолеть страх говорения, мы рекомендуем заниматься на уровне <strong>${finalLevelCode.toUpperCase()}</strong>.`,
+                el: `Η παθητική σας κατανόηση της γραμματικής είναι εξαιρετική (αντίστοιχη με <strong>${passiveLvl}</strong>), αλλά η ευχέρειά σας στον προφορικό λόγο βρίσκεται στο επίπεδο <strong>${activeLvl}</strong>. Για να ξεπεράσετε το άγχος, προτείνουμε να ξεκινήσετε από το επίπεδο <strong>${finalLevelCode.toUpperCase()}</strong>.`
+            };
+
+            gapHtml = `
+                <div class="gap-notice-box" id="dynamic-gap-notice">
+                    <div class="gap-notice-title">${gapTitles[selectedLang]}</div>
+                    <div class="gap-notice-text">${gapTexts[selectedLang]}</div>
+                </div>
+            `;
+        } else {
+            const balancedTitles = {
+                en: "✅ Balanced Communicator Profile",
+                fr: "✅ Profil de communicateur équilibré",
+                it: "✅ Profilo di comunicatore equilibrato",
+                ru: "✅ Сбалансированный профиль общения",
+                el: "✅ Ισορροπημένο προφίλ επικοινωνίας"
+            };
+            const balancedTexts = {
+                en: "Your active speaking confidence matches your passive grammatical knowledge. You have a balanced foundation and are ready to excel at your recommended level!",
+                fr: "Votre fluidité orale correspond à vos connaissances grammaticales. Votre profil est équilibré, vous êtes prêt à progresser !",
+                it: "La tua sicurezza nel parlare corrisponde alle tue conoscenze grammaticali. Profilo equilibrato e pronto per il tuo livello!",
+                ru: "Ваша разговорная уверенность полностью соответствует знанию грамматики. Прекрасный баланс теории и практики!",
+                el: "Η αυτοπεποίθησή σας στον προφορικό λόγο ταιριάζει με τις γραμματικές σας γνώσεις. Είστε έτοιμοι να προχωρήσετε!"
+            };
+
+            gapHtml = `
+                <div class="gap-notice-box" id="dynamic-gap-notice" style="border-left-color: var(--green); background: var(--green-light);">
+                    <div class="gap-notice-title" style="color: var(--green);">${balancedTitles[selectedLang]}</div>
+                    <div class="gap-notice-text" style="color: var(--ink-soft);">${balancedTexts[selectedLang]}</div>
+                </div>
+            `;
+        }
+
+        // Render detailed active vs passive breakdown grid
+        const metricTitles = {
+            en: { passive: "Passive Receptive Score", active: "Active Speaking Confidence" },
+            fr: { passive: "Score passif / réception", active: "Confiance active / production" },
+            it: { passive: "Punteggio passivo", active: "Sicurezza attiva" },
+            ru: { passive: "Пассивные знания", active: "Разговорная уверенность" },
+            el: { passive: "Παθητική κατανόηση", active: "Προφορική αυτοπεποίθηση" }
+        };
+
+        const metricDescs = {
+            en: {
+                passive: "Based on progressive CEFR-aligned multiple choice grammar, collocations, and idiomatic questions.",
+                active: "Evaluated through real-world task scenarios, speech flow speed, and anxiety checkpoints."
+            },
+            fr: {
+                passive: "Basé sur des questions progressives de grammaire, de collocations et d'idiomes alignées sur le CECRL.",
+                active: "Évalué à travers des scénarios de tâches réelles, la vitesse d'élocution et des points de contrôle de l'anxiété."
+            },
+            it: {
+                passive: "Basato su domande a scelta multipla progressive di grammatica, collocazioni e idiomi allineate al QCER.",
+                active: "Valutato attraverso scenari di compiti reali, velocità del flusso del parlato e punti di controllo dell'ansia."
+            },
+            ru: {
+                passive: "На основе прогрессивных вопросов с множественным выбором по грамматике, коллокациям и идиомам, соответствующих шкале CEFR.",
+                active: "Оценивается на основе сценариев реального общения, скорости речи и психологических барьеров."
+            },
+            el: {
+                passive: "Βασισμένο σε προοδευτικές ερωτήσεις πολλαπλής επιλογής γραμματικής, συνδυασμών λέξεων και ιδιωματισμών ευθυγραμμισμένων με το CEFR.",
+                active: "Αξιολογείται μέσω σεναρίων πραγματικών εργασιών, ταχύτητας ροής λόγου και σημείων ελέγχου άγχους."
+            }
+        };
+
+        const breakdownHtml = `
+            <div class="breakdown-grid" id="dynamic-breakdown">
+                <div class="breakdown-card">
+                    <div class="breakdown-title">📖 ${metricTitles[selectedLang].passive}</div>
+                    <div class="breakdown-metric">${passiveScore} / 10</div>
+                    <div class="breakdown-desc">${metricDescs[selectedLang].passive}</div>
+                </div>
+                <div class="breakdown-card">
+                    <div class="breakdown-title">🗣️ ${metricTitles[selectedLang].active}</div>
+                    <div class="breakdown-metric">${activeScore} / 20</div>
+                    <div class="breakdown-desc">${metricDescs[selectedLang].active}</div>
+                </div>
+            </div>
+        `;
+
+        // 4. Detailed Skill Diagnostic Calculation and Localization
+        const grammarPct = Math.round((grammarScore / 5) * 100);
+        const vocabPct = Math.round((vocabScore / 5) * 100);
+        const fluencyPct = Math.round((fluencyScore / 10) * 100);
+        const anxietyPct = Math.round((anxietyScore / 10) * 100);
+
+        const diagnosticTranslations = {
+            en: {
+                title: "📊 Detailed Skill Diagnostic",
+                grammar: "Grammar & Structure Accuracy",
+                vocab: "Lexical Range & Collocations",
+                fluency: "Active Conversational Fluency",
+                anxiety: "Speech Confidence & Retrieval Speed"
+            },
+            fr: {
+                title: "📊 Diagnostic détaillé des compétences",
+                grammar: "Structure et précision grammaticale",
+                vocab: "Richesse lexicale et collocations",
+                fluency: "Fluidité de conversation active",
+                anxiety: "Confiance à l'oral et vitesse d'élocution"
+            },
+            it: {
+                title: "📊 Diagnostica dettagliata delle competenze",
+                grammar: "Precisione e struttura grammaticale",
+                vocab: "Ricchezza lessicale e collocazioni",
+                fluency: "Fluidità di conversazione attiva",
+                anxiety: "Sicurezza nel parlare e velocità di recupero"
+            },
+            ru: {
+                title: "📊 Детальный диагностический отчет",
+                grammar: "Грамматическая точность и структура",
+                vocab: "Словарный запас и коллокации",
+                fluency: "Разговорная беглость",
+                anxiety: "Уверенность в общении и скорость реакции"
+            },
+            el: {
+                title: "📊 Διαγνωστική Ανάλυση Δεξιοτήτων",
+                grammar: "Γραμματική Ακρίβεια & Δομή",
+                vocab: "Λεξιλογικό Εύρος & Συνδιασμοί",
+                fluency: "Ευχέρεια στον Προφορικό Λόγο",
+                anxiety: "Αυτοπεποίθηση & Ταχύτητα Αντίδρασης"
+            }
+        };
+
+        const dt = diagnosticTranslations[selectedLang];
+
+        const diagnosticHtml = `
+            <div class="diagnostic-section" id="dynamic-diagnostic">
+                <div class="diagnostic-header">${dt.title}</div>
+                <div class="skill-row">
+                    <div class="skill-label-container">
+                        <span>📖 ${dt.grammar}</span>
+                        <span class="skill-percentage">${grammarPct}%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="width: ${grammarPct}%;"></div>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-label-container">
+                        <span>📚 ${dt.vocab}</span>
+                        <span class="skill-percentage">${vocabPct}%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="width: ${vocabPct}%;"></div>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-label-container">
+                        <span>💬 ${dt.fluency}</span>
+                        <span class="skill-percentage">${fluencyPct}%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="width: ${fluencyPct}%;"></div>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-label-container">
+                        <span>🧠 ${dt.anxiety}</span>
+                        <span class="skill-percentage">${anxietyPct}%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="width: ${anxietyPct}%;"></div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // 5. Hyper-Personalized Action Plan Generator
+        let actionListHtml = '';
+        let ctaButtonHtml = '';
+
+        const actionPlanTranslations = {
+            en: {
+                title: "🎯 Your Personalized Path to Fluency",
+                finder: "Explore Speaking Club Sessions 🔍",
+                immersion: "Accelerate Fluency & Immersion 🧠",
+                practice: "Start Speaking Practice 💡",
+                clubs: "Browse Speaking Clubs 🗣️"
+            },
+            fr: {
+                title: "🎯 Votre plan d'action personnalisé",
+                finder: "Trouver des sessions de club 🔍",
+                immersion: "Accélérer l'immersion & l'oral 🧠",
+                practice: "Commencer l'entraînement 💡",
+                clubs: "Découvrir les clubs 🗣️"
+            },
+            it: {
+                title: "🎯 Il tuo piano d'azione personalizzato",
+                finder: "Trova sessioni di club 🔍",
+                immersion: "Accellera l'immersione 🧠",
+                practice: "Inizia l'allenamento 💡",
+                clubs: "Sfoglia i club 🗣️"
+            },
+            ru: {
+                title: "🎯 Ваш индивидуальный план действий",
+                finder: "Поиск разговорных сессий 🔍",
+                immersion: "Ускорить беглость речи и погружение 🧠",
+                practice: "Начать практику 💡",
+                clubs: "Разговорные клубы 🗣️"
+            },
+            el: {
+                title: "🎯 Το Προσωπικό σας Σχέδιο Δράσης",
+                finder: "Αναζήτηση Sessions 🔍",
+                immersion: "Επιτάχυνση Ευχέρειας & Immersion 🧠",
+                practice: "Ξεκινήστε Εξάσκηση 💡",
+                clubs: "Δείτε τα Speaking Clubs 🗣️"
+            }
+        };
+
+        const t = actionPlanTranslations[selectedLang];
+
+        let actionItems = [];
+        if (finalLevelCode === 'a1' || finalLevelCode === 'a2') {
+            if (selectedLang === 'en') {
+                actionItems.push("Build a solid foundation using our foundational interactive games to form simple sentences.");
+                actionItems.push("Practice core vocabulary card recall drills to build memory muscle.");
+            } else if (selectedLang === 'fr') {
+                actionItems.push("Bâtissez des bases solides avec nos jeux interactifs de construction de phrases simples.");
+                actionItems.push("Entraînez-vous avec les fiches de vocabulaire de base.");
+            } else if (selectedLang === 'it') {
+                actionItems.push("Costruisci fondamenta solide con i nostri giochi interattivi di frasi semplici.");
+                actionItems.push("Esercitati con il richiamo del vocabolario di base.");
+            } else if (selectedLang === 'ru') {
+                actionItems.push("Постройте прочную базу с помощью простых интерактивных игр.");
+                actionItems.push("Практикуйте базовый словарный запас с помощью карточек запоминания.");
+            } else {
+                actionItems.push("Χτίστε γερές βάσεις με τα διαδραστικά μας παιχνίδια για απλές προτάσεις.");
+                actionItems.push("Κάντε επαναλήψεις στο βασικό λεξιλόγιο.");
+            }
+            ctaButtonHtml += `<a href="https://cosylanguages.github.io/COSYpractice/?lang=${selectedLang}&level=${finalLevelUpper}&topic=foundation" class="action-cta-btn action-cta-primary">${t.practice}</a>`;
+        } else if (finalLevelCode === 'b1' || finalLevelCode === 'b2') {
+            if (selectedLang === 'en') {
+                actionItems.push("Join cozy, introspective intermediate speaking sessions like 'I Couldn't Help But Wonder' or 'Mind Matters' to start conversational adaptation.");
+                actionItems.push("Focus on collocations and prepositions to reduce grammar slips.");
+            } else if (selectedLang === 'fr') {
+                actionItems.push("Rejoignez des sessions chaleureuses comme 'Le Journal de Carrie' ou 'Mind Matters' pour vous habituer à parler.");
+                actionItems.push("Misez sur les collocations et prépositions pour structurer vos phrases.");
+            } else if (selectedLang === 'it') {
+                actionItems.push("Partecipa a sessioni confortevoli come 'I Couldn't Help But Wonder' o 'Mind Matters' per sbloccare la conversazione.");
+                actionItems.push("Concentrati su collocazioni e preposizioni per parlare più correttamente.");
+            } else if (selectedLang === 'ru') {
+                actionItems.push("Присоединяйтесь к уютным разговорным сессиям 'I Couldn't Help But Wonder' или 'Mind Matters' для мягкой адаптации.");
+                actionItems.push("Уделяйте внимание устойчивым выражениям (коллокациям) и предлогам.");
+            } else {
+                actionItems.push("Συμμετάσχετε σε φιλικά intermediate speaking sessions όπως το 'I Couldn't Help But Wonder' ή το 'Mind Matters' για να συνηθίσετε τη συνομιλία.");
+                actionItems.push("Εστιάστε σε collocations και προθέσεις για να μειώσετε τα γραμματικά λάθη.");
+            }
+            ctaButtonHtml += `<a href="https://cosylanguages.github.io/COSYevents/?lang=${selectedLang}&level=${finalLevelUpper}&topic=conversational" class="action-cta-btn action-cta-primary">${t.finder}</a>`;
+        } else {
+            if (selectedLang === 'en') {
+                actionItems.push("Participate in fast-paced debates in 'Debatable & Relatable' and explore intellectual coffee debates in 'The Greatest Quotes'.");
+                actionItems.push("Hone your stylistic registers and pick up authentic, native-like idioms.");
+            } else if (selectedLang === 'fr') {
+                actionItems.push("Participez aux débats rapides dans 'Debatable & Relatable' ou aux discussions philosophiques de 'The Greatest Quotes'.");
+                actionItems.push("Affinez votre style et apprenez des expressions idiomatiques authentiques.");
+            } else if (selectedLang === 'it') {
+                actionItems.push("Partecipa a dibattiti veloci in 'Debatable & Relatable' o a discussioni filosofiche in 'The Greatest Quotes'.");
+                actionItems.push("Affina il tuo stile e impara espressioni idiomatiche autentiche.");
+            } else if (selectedLang === 'ru') {
+                actionItems.push("Участвуйте в динамичных дискуссиях в 'Debatable & Relatable' или философских беседах за кофе в 'The Greatest Quotes'.");
+                actionItems.push("Совершенствуйте стилистический регистр и обогащайте речь идиомами.");
+            } else {
+                actionItems.push("Συμμετάσχετε σε γρήγορα debates στο 'Debatable & Relatable' ή σε φιλοσοφικές συζητήσεις στο 'The Greatest Quotes'.");
+                actionItems.push("Βελτιώστε το ύφος σας και μάθετε αυθεντικούς ιδιωματισμούς.");
+            }
+            ctaButtonHtml += `<a href="https://cosylanguages.github.io/COSYevents/?lang=${selectedLang}&level=${finalLevelUpper}&topic=advanced_debate" class="action-cta-btn action-cta-primary">${t.clubs}</a>`;
+        }
+
+        // Add additional immersive recommendation if gap was detected
+        if (gapDetected) {
+            if (selectedLang === 'en') {
+                actionItems.unshift("<strong>TRAIN YOUR BRAIN:</strong> Use the <strong>Immersion & Memory Tools</strong> to practice processing speed delay drills and bypass internal translation blocks.");
+            } else if (selectedLang === 'fr') {
+                actionItems.unshift("<strong>ENTRAÎNEZ VOTRE CERVEAU :</strong> Utilisez l'accélérateur d'immersion cognitive pour travailler la vitesse de réaction et éliminer la traduction mentale.");
+            } else if (selectedLang === 'it') {
+                actionItems.unshift("<strong>ALLENA IL CERVELLO :</strong> Usa l'acceleratore di immersione cognitiva per allenare la velocità di elaborazione e superare i blocchi di traduzione interna.");
+            } else if (selectedLang === 'ru') {
+                actionItems.unshift("<strong>ТРЕНИРУЙТЕ МОЗГ:</strong> Используйте наш тренажер 'Immersion & Memory Tools' для уменьшения времени задержки ответа и избавления от мысленного перевода.");
+            } else {
+                actionItems.unshift("<strong>ΕΞΑΣΚΗΣΗ ΕΓΚΕΦΑΛΟΥ:</strong> Χρησιμοποιήστε το <strong>Immersion & Memory Tools</strong> για να μειώσετε τον χρόνο αντίδρασης και να σταματήσετε να μεταφράζετε από μέσα σας.");
+            }
+            ctaButtonHtml += `<a href="https://cosylanguages.github.io/COSYpractice/cognitive-immersion.html?lang=${selectedLang}&level=${finalLevelUpper}&topic=fluency_accelerator" class="action-cta-btn action-cta-secondary">${t.immersion}</a>`;
+        }
+
+        actionListHtml = actionItems.map(item => `
+            <div class="action-item">
+                <span class="action-item-icon">🚀</span>
+                <span>${item}</span>
+            </div>
+        `).join('');
+
+        const actionPlanHtml = `
+            <div class="action-plan-box" id="dynamic-action-plan">
+                <div class="action-plan-title">${t.title}</div>
+                <div class="action-list">
+                    ${actionListHtml}
+                </div>
+                <div class="action-cta-grid">
+                    ${ctaButtonHtml}
+                </div>
+            </div>
+        `;
+
+        // Update display: hide standard score text container and insert premium breakdowns
+        document.getElementById('results-score-text').style.display = 'none';
+
+        // Clear any previous dynamic results
+        const prevBreakdown = document.getElementById('dynamic-breakdown');
+        if (prevBreakdown) prevBreakdown.remove();
+        const prevGap = document.getElementById('dynamic-gap-notice');
+        if (prevGap) prevGap.remove();
+
+        const descContainer = document.getElementById('results-desc-text');
+
+        // Insert breakdown, diagnostics and action plan
+        const wrapper = document.createElement('div');
+        wrapper.id = 'dynamic-results-wrapper';
+        wrapper.innerHTML = breakdownHtml + diagnosticHtml + gapHtml + actionPlanHtml;
+
+        const prevWrapper = document.getElementById('dynamic-results-wrapper');
+        if (prevWrapper) prevWrapper.remove();
+
+        descContainer.parentNode.insertBefore(wrapper, descContainer.nextSibling);
+
+        // Save to browser localStorage
+        try {
+            const results = JSON.parse(localStorage.getItem('cosy_placement_results') || '{}');
+            results[selectedLang] = {
+                passiveScore: passiveScore,
+                activeScore: activeScore,
+                level: finalLevelCode.toUpperCase(),
+                date: new Date().toLocaleDateString()
+            };
+            localStorage.setItem('cosy_placement_results', JSON.stringify(results));
+        } catch (e) {
+            console.error("Local storage not accessible: ", e);
+        }
+    }
+
+    function resetQuiz() {
+        document.getElementById('step-results').style.display = 'none';
+        document.getElementById('step-lang').style.display = 'block';
+        document.getElementById('quiz-intro-text').style.display = 'block';
+        const prevWrapper = document.getElementById('dynamic-results-wrapper');
+        if (prevWrapper) prevWrapper.remove();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const langGrid = document.getElementById('quiz-lang-grid');
+        if (langGrid && window.COSY_ACTIVE_LANGUAGES) {
+            langGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
+                <div class="lang-option" onclick="startQuiz('${l.code}')">${l.flag || ''} ${l.native}</div>
+            `).join('');
+        }
+    });
+</script>
+
+<script src="js/data/languages.js"></script>
+<script src="js/core/engine.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/ui.js"></script>
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="courses/index.html">All Courses 📖</a>
+      <a href="courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="comparative/index.html">Grammar Atlas 🌐</a>
+      <a href="placement-quiz.html">Placement Quiz 📝</a>
+      <a href="hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="https://cosylanguages.github.io/COSYblog/">Blog 📝</a>
+      <a href="https://cosylanguages.github.io/COSYtools/">Reference Engines 🔎</a>
+      <a href="https://cosylanguages.github.io/COSYevents/">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="about/index.html">Our Story 🏡</a>
+      <a href="privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+
+</footer>
+</body>
+</html>
