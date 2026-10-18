@@ -8,39 +8,20 @@ window.TRANSLATION_MAP = {
     'fr': 'js/data/romance/fr/translations.js',
     'it': 'js/data/romance/it/translations.js',
     'ru': 'js/data/slavic/ru/translations.js',
-    'el': 'js/data/hellenic/el/translations.js',
-    'es': 'js/data/romance/es/translations.js',
-    'de': 'js/data/germanic/de/translations.js',
-    'pt': 'js/data/romance/pt/translations.js',
-    'hy': 'js/data/armenian/hy/translations.js',
-    'ka': 'js/data/kartvelian/ka/translations.js',
-    'tt': 'js/data/turkic/tt/translations.js',
-    'ba': 'js/data/turkic/ba/translations.js',
-    'br': 'js/data/celtic/br/translations.js',
-    'cv': 'js/data/turkic/cv/translations.js'
+    'el': 'js/data/hellenic/el/translations.js'
 };
 
-// Master language registry (14 languages).
-// status: 'active' (lessons offered) | 'coming-soon' (lessons coming soon)
-// groupLessons: true (group lessons offered ONLY in en, fr, it, ru)
-// hasFreeVocabulary: true (free vocabulary available in vocabulary/manifest.json)
-// icon: national flag emoji OR rounded neutral badge for languages without a national flag
+// Master language registry (5 official languages).
+// status: 'active' (lessons offered)
+// groupLessons: true (group lessons offered in en, fr, it, ru)
+// hasFreeVocabulary: true
 
 window.COSY_LANGUAGES = [
-  { code: 'en', name: 'English',    native: 'English',     status: 'active',      icon: '🇬🇧', flag: '🇬🇧', groupLessons: true,  hasFreeVocabulary: true, family: 'germanic', img: 'cosyenglish.png',   has_cases: false, has_data: true },
-  { code: 'fr', name: 'French',     native: 'Français',    status: 'active',      icon: '🇫🇷', flag: '🇫🇷', groupLessons: true,  hasFreeVocabulary: true, family: 'romance',  img: 'cosyfrench.png',    has_cases: false, has_data: true },
-  { code: 'it', name: 'Italian',    native: 'Italiano',    status: 'active',      icon: '🇮🇹', flag: '🇮🇹', groupLessons: true,  hasFreeVocabulary: true, family: 'romance',  img: 'cosyitalian.png',   has_cases: false, has_data: true },
-  { code: 'ru', name: 'Russian',    native: 'Русский',     status: 'active',      icon: '🇷🇺', flag: '🇷🇺', groupLessons: true,  hasFreeVocabulary: true, family: 'slavic',   img: 'cosyrussian.png',   has_cases: true,  has_data: true },
-  { code: 'el', name: 'Greek',      native: 'Ελληνικά',    status: 'active',      icon: '🇬🇷', flag: '🇬🇷', groupLessons: false, hasFreeVocabulary: true, family: 'hellenic', img: 'cosygreek.png',     has_cases: true,  has_data: true },
-  { code: 'es', name: 'Spanish',    native: 'Español',     status: 'coming-soon', icon: '🇪🇸', flag: '🇪🇸', groupLessons: false, hasFreeVocabulary: true, family: 'romance',  img: 'cosyspanish.png',   has_cases: false, has_data: true },
-  { code: 'de', name: 'German',     native: 'Deutsch',     status: 'coming-soon', icon: '🇩🇪', flag: '🇩🇪', groupLessons: false, hasFreeVocabulary: true, family: 'germanic', img: 'cosygerman.png',    has_cases: true,  has_data: true },
-  { code: 'pt', name: 'Portuguese', native: 'Português',   status: 'coming-soon', icon: '🇵🇹', flag: '🇵🇹', groupLessons: false, hasFreeVocabulary: true, family: 'romance',  img: 'cosyportugese.png', has_cases: false, has_data: true },
-  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',     status: 'coming-soon', icon: '🇦🇲', flag: '🇦🇲', groupLessons: false, hasFreeVocabulary: true, family: 'armenian', img: 'cosyarmenian.png',  has_cases: true,  has_data: true },
-  { code: 'ka', name: 'Georgian',   native: 'ქართული',     status: 'coming-soon', icon: '🇬🇪', flag: '🇬🇪', groupLessons: false, hasFreeVocabulary: true, family: 'kartvelian', img: 'cosygeorgian.png', has_cases: true,  has_data: true },
-  { code: 'tt', name: 'Tatar',      native: 'Татарча',     status: 'coming-soon', icon: '<span class="lang-code-badge">TT</span>', flag: 'TT', groupLessons: false, hasFreeVocabulary: true, family: 'turkic',    img: 'cosytatar.png',     has_cases: true,  has_data: true },
-  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',   status: 'coming-soon', icon: '<span class="lang-code-badge">BA</span>', flag: 'BA', groupLessons: false, hasFreeVocabulary: true, family: 'turkic',    img: 'cosybachkir.png',   has_cases: true,  has_data: true },
-  { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'coming-soon', icon: '<span class="lang-code-badge">BR</span>', flag: 'BR', groupLessons: false, hasFreeVocabulary: true, family: 'celtic',    img: 'cosybreton.png',    has_cases: false, has_data: true },
-  { code: 'cv', name: 'Chuvash',    native: 'Чӑвашла',     status: 'coming-soon', icon: '<span class="lang-code-badge">CV</span>', flag: 'CV', groupLessons: false, hasFreeVocabulary: true, family: 'turkic',    img: 'cosylanguages.png', has_cases: true,  has_data: true }
+  { code: 'en', name: 'English', native: 'English',  status: 'active', icon: '🇬🇧', flag: '🇬🇧', groupLessons: true,  hasFreeVocabulary: true, family: 'germanic', img: 'cosyenglish.png', has_cases: false, has_data: true },
+  { code: 'fr', name: 'French',  native: 'Français', status: 'active', icon: '🇫🇷', flag: '🇫🇷', groupLessons: true,  hasFreeVocabulary: true, family: 'romance',  img: 'cosyfrench.png',  has_cases: false, has_data: true },
+  { code: 'it', name: 'Italian', native: 'Italiano', status: 'active', icon: '🇮🇹', flag: '🇮🇹', groupLessons: true,  hasFreeVocabulary: true, family: 'romance',  img: 'cosyitalian.png', has_cases: false, has_data: true },
+  { code: 'ru', name: 'Russian', native: 'Русский',  status: 'active', icon: '🇷🇺', flag: '🇷🇺', groupLessons: true,  hasFreeVocabulary: true, family: 'slavic',   img: 'cosyrussian.png', has_cases: true,  has_data: true },
+  { code: 'el', name: 'Greek',   native: 'Ελληνικά', status: 'active', icon: '🇬🇷', flag: '🇬🇷', groupLessons: false, hasFreeVocabulary: true, family: 'hellenic', img: 'cosygreek.png',   has_cases: true,  has_data: true }
 ];
 
 window.COSY_LEVELS = [

@@ -102,16 +102,12 @@
         if (category === 'speaking') {
             const speakingMap = (window.COSY_DAILY_SPEAKING && window.COSY_DAILY_SPEAKING[lang]) || {};
             const lvl = selectedLevel || 'a0-a1';
-            return speakingMap[lvl] || speakingMap['a0-a1'] || [
-                { prompt: "Describe your favorite childhood memory in 3 minutes.", translation: "Опишите ваше самое любимое воспоминание из детства за 3 минуты." }
-            ];
+            return speakingMap[lvl] || speakingMap['a0-a1'] || [];
         }
         if (category === 'writing') {
             const writingMap = (window.COSY_DAILY_WRITING && window.COSY_DAILY_WRITING[lang]) || {};
             const lvl = selectedLevel || 'a0-a1';
-            return writingMap[lvl] || writingMap['a0-a1'] || [
-                { prompt: "Write 3 sentences about your goals for this week.", translation: "Напишите 3 предложения о ваших целях на эту неделю." }
-            ];
+            return writingMap[lvl] || writingMap['a0-a1'] || [];
         }
         return [];
     }
@@ -283,14 +279,11 @@
         async loadAllCategories() {
             const dayIdx = getDayOfYear();
             for (const config of TABS_CONFIG) {
-                let list = null;
-                if (config.id === 'fact' || config.id === 'idiom') {
+                let list = getLocalFallback(this.lang, config.id, this.selectedLevel);
+                if (!list || list.length === 0) {
                     list = await fetchCategoryData(this.lang, config.id);
                 }
-                if (!list || list.length === 0) {
-                    list = getLocalFallback(this.lang, config.id, this.selectedLevel);
-                }
-                const rawItem = list[dayIdx % list.length];
+                const rawItem = (list && list.length > 0) ? list[dayIdx % list.length] : null;
                 this.categoryData[config.id] = parseDailyItem(rawItem);
             }
         }
