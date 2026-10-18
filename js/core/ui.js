@@ -487,7 +487,107 @@
         if (holder) holder.innerHTML = '<span role="status">Your mail app is opening ✉️ Just press send.</span>';
     };
 
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
-    else init();
+    /* ─── PRICE CALCULATOR ENGINE ──────────────────────────────── */
+    window.calcPrice = function() {
+        const langEl = document.getElementById('calc-lang');
+        const typeEl = document.getElementById('calc-type');
+        const durEl = document.getElementById('calc-dur');
+        const packEl = document.getElementById('calc-pack');
+        const curEl = document.getElementById('calc-cur');
+
+        if (!langEl || !typeEl || !durEl || !packEl || !curEl) return;
+
+        const lang = langEl.value || 'en';
+        const type = typeEl.value || 'general';
+        const dur = parseInt(durEl.value || '60', 10);
+        const packCount = parseInt(packEl.value || '1', 10);
+        const cur = curEl.value || 'EUR';
+
+        // Base 60-min rate in EUR for standard 1-to-1 lessons
+        let baseRate60 = 24;
+        if (type === 'exam' || type === 'professional') {
+            baseRate60 = 28;
+        } else if (type === 'spoken') {
+            baseRate60 = 22;
+        } else if (type === 'group') {
+            baseRate60 = 12;
+        }
+
+        // Adjust for lesson duration relative to standard 60-min base
+        const durationRatio = dur / 60;
+        const singleLessonBase = baseRate60 * durationRatio;
+
+        // Discount rate for lesson packages
+        let discount = 0;
+        if (packCount >= 32) {
+            discount = 0.15;
+        } else if (packCount >= 16) {
+            discount = 0.10;
+        } else if (packCount >= 8) {
+            discount = 0.05;
+        }
+
+        const lessonRateEUR = singleLessonBase * (1 - discount);
+        const totalPriceEUR = lessonRateEUR * packCount;
+
+        // Currency conversion factors
+        const CURRENCY_MAP = {
+            EUR: { symbol: '€', rate: 1.0 },
+            USD: { symbol: '$', rate: 1.08 },
+            RUB: { symbol: '₽', rate: 98.0 }
+        };
+
+        const currObj = CURRENCY_MAP[cur] || CURRENCY_MAP.EUR;
+        const totalConverted = Math.round(totalPriceEUR * currObj.rate);
+        const perLessonConverted = Math.round(lessonRateEUR * currObj.rate);
+
+        const totalEl = document.getElementById('calc-total');
+        const detailEl = document.getElementById('calc-detail');
+        const noteEl = document.getElementById('calc-note');
+        const ctaEl = document.getElementById('calc-cta');
+
+        if (totalEl) {
+            totalEl.textContent = `${currObj.symbol}${totalConverted}`;
+        }
+
+        if (detailEl) {
+            if (packCount > 1) {
+                detailEl.textContent = `${packCount} lessons × ${currObj.symbol}${perLessonConverted}/lesson`;
+            } else {
+                detailEl.textContent = `1 single lesson (${dur} min)`;
+            }
+        }
+
+        if (noteEl) {
+            if (discount > 0) {
+                noteEl.textContent = `Includes ${Math.round(discount * 100)}% pack discount!`;
+            } else {
+                noteEl.textContent = `Standard rate. Save up to 15% with 8+ lesson packs.`;
+            }
+        }
+
+        if (ctaEl) {
+            const courseNames = {
+                general: 'General Course',
+                spoken: 'Spoken Course',
+                exam: 'Exam Preparation',
+                travelling: 'Travelling Course',
+                professional: 'Professional Course',
+                relocation: 'Relocation Course',
+                group: 'Group Lessons'
+            };
+            const langNames = { en: 'English', fr: 'French', it: 'Italian', ru: 'Russian', el: 'Greek' };
+            const cName = courseNames[type] || 'Course';
+            const lName = langNames[lang] || lang.toUpperCase();
+
+            const msg = encodeURIComponent(
+                `Hi! I'd like to book ${packCount} ${dur}-minute ${cName} lesson(s) in ${lName} (${currObj.symbol}${totalConverted}).`
+            );
+            ctaEl.href = `https://wa.me/330766784195?text=${msg}`;
+        }
+    };
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => { init(); calcPrice(); });
+    else { init(); calcPrice(); }
 
 })();

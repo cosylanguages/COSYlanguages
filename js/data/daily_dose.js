@@ -4,6 +4,124 @@
  * plus comprehensive Idioms of the Day spanning A1 to C2 levels.
  */
 
+window.COSY_DAILY_SPEAKING = {
+  "en": {
+    "a0-a1": [
+      { prompt: "Introduce yourself, your age, and where you live in 1 minute.", translation: "Представьтесь, укажите ваш возраст и где вы живете за 1 минуту." },
+      { prompt: "Describe your favorite food and why you like it.", translation: "Опишите вашу любимую еду и почему она вам нравится." },
+      { prompt: "Talk about what you usually do on Sunday mornings.", translation: "Расскажите, что вы обычно делаете по воскресным утрам." }
+    ],
+    "a2": [
+      { prompt: "Describe your last vacation or a memorable weekend trip.", translation: "Опишите ваш последний отпуск или запоминающуюся поездку на выходных." },
+      { prompt: "Explain how to get from your house to the nearest supermarket.", translation: "Объясните, как добраться от вашего дома до ближайшего супермаркета." },
+      { prompt: "Talk about a hobby you started recently or want to start.", translation: "Расскажите о хобби, которое вы недавно начали или хотите начать." }
+    ],
+    "b1-b2": [
+      { prompt: "Discuss the pros and cons of working remotely vs. in an office.", translation: "Обсудите плюсы и минусы удаленной работы по сравнению с работой в офисе." },
+      { prompt: "How has technology changed the way we build relationships?", translation: "Как технологии изменили то, как мы строим отношения?" },
+      { prompt: "Describe a challenge you faced at work/school and how you solved it.", translation: "Опишите проблему, с которой вы столкнулись на работе/учебе, и как вы ее решили." }
+    ],
+    "c1-c2": [
+      { prompt: "Debate the ethical implications of artificial intelligence in creative arts.", translation: "Подискутируйте об этических аспектах использования искусственного интеллекта в творчестве." },
+      { prompt: "Critique the role of social media algorithms on public discourse.", translation: "Проанализируйте влияние алгоритмов социальных сетей на общественный дискурс." },
+      { prompt: "Express your view on global climate policies and personal responsibility.", translation: "Выскажите свое мнение о глобальной климатической политике и личной ответственности." }
+    ]
+  },
+  "fr": {
+    "a0-a1": [
+      { prompt: "Présentez-vous: votre prénom, votre nationalité et votre ville.", translation: "Introduce yourself: your name, nationality, and city." },
+      { prompt: "Décrivez votre journée type le matin en quelques phrases.", translation: "Describe your typical morning routine in a few sentences." }
+    ],
+    "a2": [
+      { prompt: "Racontez votre dernier anniversaire ou une fête entre amis.", translation: "Tell about your last birthday or a party with friends." },
+      { prompt: "Parlez de votre plat français préféré et des ingrédients.", translation: "Talk about your favorite French dish and its ingredients." }
+    ],
+    "b1-b2": [
+      { prompt: "Pensez-vous que les voyages forment la jeunesse ? Justifiez votre avis.", translation: "Do you think travel broadens the mind? Justify your view." },
+      { prompt: "Comment concilier vie professionnelle et vie personnelle ?", translation: "How do you balance professional life and personal life?" }
+    ],
+    "c1-c2": [
+      { prompt: "Analyse critique: l'impact de la numérisation sur les traditions culturelles.", translation: "Critical analysis: the impact of digitization on cultural traditions." },
+      { prompt: "Débattez du rôle de la francophonie dans le monde contemporain.", translation: "Debate the role of the Francophonie in the modern world." }
+    ]
+  },
+  "ru": {
+    "a0-a1": [
+      { prompt: "Расскажите о себе: как вас зовут, откуда вы и чем занимаетесь.", translation: "Introduce yourself: your name, where you are from, and what you do." },
+      { prompt: "Опишите вашу комнату или любимый уголок в доме.", translation: "Describe your room or favorite spot at home." }
+    ],
+    "a2": [
+      { prompt: "Расскажите о вашей любимой книге или фильме.", translation: "Talk about your favorite book or movie." },
+      { prompt: "Как вы обычно проводите свободное время с друзьями?", translation: "How do you usually spend free time with friends?" }
+    ],
+    "b1-b2": [
+      { prompt: "Какую роль в вашей жизни играет изучение иностранных языков?", translation: "What role does learning foreign languages play in your life?" },
+      { prompt: "Обсудите преимущества и недостатки жизни в мегаполисе.", translation: "Discuss the advantages and disadvantages of living in a metropolis." }
+    ],
+    "c1-c2": [
+      { prompt: "Проанализируйте влияние современной классической литературы на общество.", translation: "Analyze the influence of modern classical literature on society." },
+      { prompt: "Выскажите мнение о тенденциях развития современного образования.", translation: "Express your view on the development trends of modern education." }
+    ]
+  }
+};
+
+window.COSY_DAILY_WRITING = {
+  "en": {
+    "a0-a1": [
+      { prompt: "Write 3 simple sentences about what is on your desk right now.", translation: "Напишите 3 простых предложения о том, что сейчас на вашем столе." },
+      { prompt: "Write a short message inviting a friend to drink coffee tomorrow.", translation: "Напишите короткое сообщение с приглашением другу попить кофе завтра." }
+    ],
+    "a2": [
+      { prompt: "Write a 5-line postcard to a colleague describing your weekend.", translation: "Напишите открытку из 5 строк коллеге с описанием ваших выходных." },
+      { prompt: "Write a brief review of a restaurant you visited recently.", translation: "Напишите краткий отзыв о ресторане, который вы недавно посетили." }
+    ],
+    "b1-b2": [
+      { prompt: "Write a formal email requesting information about a language course.", translation: "Напишите официальное письмо с запросом информации о языковом курсе." },
+      { prompt: "Draft a short essay (120 words) on why habit tracking is effective.", translation: "Напишите короткое эссе (120 слов) о том, почему отслеживание привычек эффективно." }
+    ],
+    "c1-c2": [
+      { prompt: "Compose a persuasive paragraph on urban sustainability initiatives.", translation: "Составьте убедительный абзац об инициативах по устойчивому развитию городов." },
+      { prompt: "Write an opinion piece analyzing the shift towards remote gig economies.", translation: "Напишите аналитическую колонку о переходе к гиг-экономике и удаленной работе." }
+    ]
+  },
+  "fr": {
+    "a0-a1": [
+      { prompt: "Écrivez 3 phrases pour décrire le temps qu'il fait aujourd'hui.", translation: "Write 3 sentences describing today's weather." },
+      { prompt: "Rédigez un court message pour remercier un ami pour son invitation.", translation: "Write a short note thanking a friend for their invitation." }
+    ],
+    "a2": [
+      { prompt: "Écrivez un e-mail court pour réserver une chambre d'hôtel.", translation: "Write a short email to reserve a hotel room." },
+      { prompt: "Racontez en 50 mots votre meilleur souvenir de vacances.", translation: "Relate in 50 words your best vacation memory." }
+    ],
+    "b1-b2": [
+      { prompt: "Rédigez une lettre de motivation courte pour un stage.", translation: "Write a short cover letter for an internship." },
+      { prompt: "Écrivez un texte argumentatif sur les bienfaits de la lecture quotidienne.", translation: "Write an argumentative text on the benefits of daily reading." }
+    ],
+    "c1-c2": [
+      { prompt: "Rédigez une synthèse critique sur la transition énergétique globale.", translation: "Write a critical summary on the global energy transition." },
+      { prompt: "Composez un essai persuasif sur la préservation du patrimoine linguistique.", translation: "Compose a persuasive essay on preserving linguistic heritage." }
+    ]
+  },
+  "ru": {
+    "a0-a1": [
+      { prompt: "Напишите 3 предложения о вашей семье или друзьях.", translation: "Write 3 sentences about your family or friends." },
+      { prompt: "Напишите короткую записку коллеге: 'Я буду через 10 минут'.", translation: "Write a short note to a colleague: 'I will be there in 10 minutes'." }
+    ],
+    "a2": [
+      { prompt: "Опишите ваш вчерашний день в 5 предложениях.", translation: "Describe your day yesterday in 5 sentences." },
+      { prompt: "Напишите короткое сообщение друзьям с предложением пойти в кино.", translation: "Write a short message to friends proposing to go to the cinema." }
+    ],
+    "b1-b2": [
+      { prompt: "Напишите отзыв на прочитанную статью или книгу (100 слов).", translation: "Write a review of an article or book you read (100 words)." },
+      { prompt: "Составьте официальное обращение в службу поддержки с описанием проблемы.", translation: "Draft a formal support request describing an issue." }
+    ],
+    "c1-c2": [
+      { prompt: "Напишите эссе-рассуждение на тему 'Свобода выбора в эпоху информации'.", translation: "Write a reflective essay on 'Freedom of choice in the information age'." },
+      { prompt: "Составьте аналитическую заметку о роли культурного обмена в бизнесе.", translation: "Draft an analytical note on the role of cultural exchange in business." }
+    ]
+  }
+};
+
 window.COSY_DAILY_FACTS = {
   "en": [
     "English is the official language of aviation worldwide for air traffic control.",
