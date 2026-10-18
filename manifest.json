@@ -21,18 +21,9 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["education", "games"],
-  "lang": "en",
-  "shortcuts": [
-    {
-      "name": "Practice",
-      "url": "./practice/",
-      "icons": [{ "src": "images/logos/cosylanguages.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Games",
-      "url": "./games/",
-      "icons": [{ "src": "images/logos/cosylanguages.png", "sizes": "96x96" }]
-    }
-  ]
+  "categories": [
+    "education",
+    "games"
+  ],
+  "lang": "en"
 }
