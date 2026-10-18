@@ -1092,16 +1092,20 @@ const COSY = window.COSY = {
 
     closeEcosystemMenu() {
         const menu = document.getElementById('cosy-eco-mega-menu');
+        if (!menu || menu.hasAttribute('hidden') || !menu.classList.contains('open')) return;
+
         const trigger = document.querySelector('.nav-logo, .cosy-nav-logo');
-        if (!menu) return;
         menu.setAttribute('hidden', '');
         menu.classList.remove('open');
         if (trigger) {
             trigger.setAttribute('aria-expanded', 'false');
             trigger.classList.remove('cosy-logo-sparkle');
-            if (this._ecoPreviousFocus) {
-                this._ecoPreviousFocus.focus();
-            }
+        }
+        if (this._ecoPreviousFocus && typeof this._ecoPreviousFocus.focus === 'function') {
+            try {
+                this._ecoPreviousFocus.focus({ preventScroll: true });
+            } catch (e) {}
+            this._ecoPreviousFocus = null;
         }
     },
 
@@ -1137,9 +1141,15 @@ const COSY = window.COSY = {
             });
 
             trig.addEventListener('click', (e) => {
-                // On mobile or keyboard click, prevent default link navigation if menu closed, or toggle
-                e.preventDefault();
-                COSY.toggleEcosystemMenu();
+                const menu = document.getElementById('cosy-eco-mega-menu');
+                const isOpen = menu && !menu.hasAttribute('hidden') && menu.classList.contains('open');
+                if (isOpen) {
+                    e.preventDefault();
+                    COSY.closeEcosystemMenu();
+                } else if (window.innerWidth < 768) {
+                    e.preventDefault();
+                    COSY.openEcosystemMenu();
+                }
             });
 
             trig.addEventListener('keydown', (e) => {

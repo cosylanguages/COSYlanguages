@@ -1,4 +1,5 @@
 {
+  "course_general": "Cours général 📖",
   "nav": {
     "home": "Accueil",
     "practice": "Pratique",
@@ -12,7 +13,9 @@
     "courses": "Cours",
     "calculator": "Calculateur",
     "blog": "Blog",
-    "placement_quiz": "Test de niveau"
+    "placement_quiz": "Test de niveau",
+    "toggle_dark_mode": "🌓 Mode sombre",
+    "whatsapp_contact": "💬 Contactez-nous sur WhatsApp"
   },
   "footer": {
     "courses": "Cours",

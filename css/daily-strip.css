@@ -155,6 +155,47 @@
     box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
 }
 
+/* CEFR Level Selector Pills */
+.daily-strip-level-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.daily-strip-level-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--cosy-color-sage-dark, #375742);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.daily-strip-level-btn {
+    padding: 0.25rem 0.65rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: var(--cosy-radius-full, 100px);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+    background-color: var(--cosy-color-warm-white, #FFFEFB);
+    color: var(--cosy-color-ink-soft, #4A4A4A);
+    cursor: pointer;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-level-btn:hover {
+    background-color: var(--cosy-color-sage-light, #E8F0E9);
+    border-color: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-color-sage-dark, #375742);
+}
+
+.daily-strip-level-btn.active {
+    background-color: var(--cosy-color-sage, #416B49);
+    color: #FFFFFF;
+    border-color: var(--cosy-color-sage-dark, #375742);
+}
+
 /* Panels */
 .daily-strip-panel {
     background: var(--cosy-color-cream, #FAF7F2);

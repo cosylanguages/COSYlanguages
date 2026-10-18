@@ -86,7 +86,7 @@
         return null;
     }
 
-    function getLocalFallback(lang, category) {
+    function getLocalFallback(lang, category, selectedLevel) {
         if (category === 'fact') {
             const list = (window.COSY_DAILY_FACTS && window.COSY_DAILY_FACTS[lang])
                 ? window.COSY_DAILY_FACTS[lang]
@@ -100,12 +100,16 @@
             return list;
         }
         if (category === 'speaking') {
-            return [
+            const speakingMap = (window.COSY_DAILY_SPEAKING && window.COSY_DAILY_SPEAKING[lang]) || {};
+            const lvl = selectedLevel || 'a0-a1';
+            return speakingMap[lvl] || speakingMap['a0-a1'] || [
                 { prompt: "Describe your favorite childhood memory in 3 minutes.", translation: "Опишите ваше самое любимое воспоминание из детства за 3 минуты." }
             ];
         }
         if (category === 'writing') {
-            return [
+            const writingMap = (window.COSY_DAILY_WRITING && window.COSY_DAILY_WRITING[lang]) || {};
+            const lvl = selectedLevel || 'a0-a1';
+            return writingMap[lvl] || writingMap['a0-a1'] || [
                 { prompt: "Write 3 sentences about your goals for this week.", translation: "Напишите 3 предложения о ваших целях на эту неделю." }
             ];
         }
@@ -133,6 +137,7 @@
             this.container = element;
             this.lang = this.container.getAttribute('data-lang') || localStorage.getItem('cosy.pinnedLang') || 'en';
             this.activeTab = 'speaking';
+            this.selectedLevel = localStorage.getItem('cosy.dailyLevel') || 'a0-a1';
             this.categoryData = {};
             this.uniqueId = 'ds_' + Math.random().toString(36).substring(2, 9);
             this.init();
@@ -278,9 +283,12 @@
         async loadAllCategories() {
             const dayIdx = getDayOfYear();
             for (const config of TABS_CONFIG) {
-                let list = await fetchCategoryData(this.lang, config.id);
+                let list = null;
+                if (config.id === 'fact' || config.id === 'idiom') {
+                    list = await fetchCategoryData(this.lang, config.id);
+                }
                 if (!list || list.length === 0) {
-                    list = getLocalFallback(this.lang, config.id);
+                    list = getLocalFallback(this.lang, config.id, this.selectedLevel);
                 }
                 const rawItem = list[dayIdx % list.length];
                 this.categoryData[config.id] = parseDailyItem(rawItem);
@@ -295,7 +303,19 @@
                 const item = this.categoryData[tab.id] || { text: 'Content unavailable.', translation: '', meta: '' };
                 const hasTranslation = Boolean(item.translation);
 
+                const showLevelBar = (tab.id === 'speaking' || tab.id === 'writing');
+                const levelBarHTML = showLevelBar ? `
+                    <div class="daily-strip-level-bar" role="group" aria-label="CEFR Level Filter">
+                        <span class="daily-strip-level-label">Level:</span>
+                        <button type="button" class="daily-strip-level-btn ${this.selectedLevel === 'a0-a1' ? 'active' : ''}" data-level="a0-a1">A0-A1</button>
+                        <button type="button" class="daily-strip-level-btn ${this.selectedLevel === 'a2' ? 'active' : ''}" data-level="a2">A2</button>
+                        <button type="button" class="daily-strip-level-btn ${this.selectedLevel === 'b1-b2' ? 'active' : ''}" data-level="b1-b2">B1-B2</button>
+                        <button type="button" class="daily-strip-level-btn ${this.selectedLevel === 'c1-c2' ? 'active' : ''}" data-level="c1-c2">C1-C2</button>
+                    </div>
+                ` : '';
+
                 panel.innerHTML = `
+                    ${levelBarHTML}
                     <div class="daily-strip-content-main">
                         <p class="daily-strip-prompt">${this.escapeHTML(item.text)}</p>
                         ${hasTranslation ? `<div class="daily-strip-translation" id="${this.uniqueId}_trans_${tab.id}" hidden>${this.escapeHTML(item.translation)}</div>` : ''}
@@ -314,6 +334,23 @@
                         </div>
                     </div>
                 `;
+
+                // Bind level buttons
+                if (showLevelBar) {
+                    panel.querySelectorAll('.daily-strip-level-btn').forEach(btn => {
+                        btn.addEventListener('click', async (e) => {
+                            const newLevel = e.target.getAttribute('data-level');
+                            if (newLevel && newLevel !== this.selectedLevel) {
+                                this.selectedLevel = newLevel;
+                                try {
+                                    localStorage.setItem('cosy.dailyLevel', newLevel);
+                                } catch (err) {}
+                                await this.loadAllCategories();
+                                this.renderContent();
+                            }
+                        });
+                    });
+                }
 
                 // Bind audio button
                 const audioBtn = panel.querySelector('.daily-strip-audio-btn');
