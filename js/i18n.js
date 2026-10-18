@@ -74,7 +74,7 @@
             console.error('[i18n] Failed to load English fallback translations', e);
         }
 
-        const EXISTING_I18N_LANGS = ["el", "en", "es", "fr", "it", "ru"];
+        const EXISTING_I18N_LANGS = ["el", "en", "fr", "it", "ru"];
         if (currentUILang !== 'en' && EXISTING_I18N_LANGS.includes(currentUILang)) {
             try {
                 const langRes = await fetch(`${prefix}js/i18n/${currentUILang}.json?v=${Date.now()}`);
@@ -146,7 +146,7 @@
               <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
             </div>
           </div>
-          <div class="footer-bottom" data-i18n="footer.allRightsReserved">© 2026 COSYlanguages — All rights reserved</div>
+          <div class="footer-bottom" data-i18n="footer.allRightsReserved">© 2020–2026 COSYlanguages — All rights reserved</div>
         `;
     }
 
