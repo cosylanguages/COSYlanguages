@@ -340,7 +340,7 @@
                 `;
             } else {
                 const w = p.word || { word: "---", emoji: "📖", definitions: [{ text: "No word loaded." }] };
-                const defText = w.definition || (w.definitions && w.definitions[0] ? w.definitions[0].text : '');
+                const defText = (typeof w.definition === 'string' && w.definition) || ((w.definitions && w.definitions[0]) ? (w.definitions[0].text || (typeof w.definitions[0] === 'string' ? w.definitions[0] : '')) : '');
                 contentHtml = `
                     <div class="zine-panel ${p.rotation}">
                         <div class="zine-content">

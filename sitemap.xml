@@ -71,49 +71,9 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/ba.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/ba/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/br.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/br/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/coming-soon.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/cv.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/cv/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/de.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/de/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/el.html</loc>
@@ -176,16 +136,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/es.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/es/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.8</priority>
@@ -212,16 +162,6 @@
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/vocabulary.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/hy.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/hy/</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
   </url>
@@ -256,26 +196,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/ka.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/ka/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/pt.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/pt/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/ru.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.8</priority>
@@ -302,16 +222,6 @@
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/ru/vocabulary.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/tt.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/tt/</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
   </url>

@@ -397,7 +397,7 @@
 
         pageSet.forEach((card, idx) => {
             const wordText = card.word || '---';
-            const defText = card.definition || (card.definitions && card.definitions[0] ? card.definitions[0].text : '');
+            const defText = (typeof card.definition === 'string' && card.definition) || ((card.definitions && card.definitions[0]) ? (card.definitions[0].text || (typeof card.definitions[0] === 'string' ? card.definitions[0] : '')) : '');
             const exText = card.example || (card.definitions && card.definitions[0] && card.definitions[0].examples && card.definitions[0].examples[0] ? card.definitions[0].examples[0] : '');
 
             grid.innerHTML += `
