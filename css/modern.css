@@ -689,3 +689,18 @@ html[data-theme="dark"] .course-card.dark, html[data-theme="dark"] .courses-grid
   background: #1f2a23 !important; color: #f1ecdf !important; border-color: rgba(255,255,255,.12) !important;
 }
 html[data-theme="dark"] .course-card.dark .cc-desc { color: #c9c4b5 !important; }
+
+/* Dark mode: legacy inline-coloured headings/links placed directly on the page background */
+html[data-theme="dark"] main > h1[style],
+html[data-theme="dark"] main > h2[style],
+html[data-theme="dark"] main > h3[style]{color:#eef4ef !important}
+html[data-theme="dark"] main > p[style*="color"]{color:#b9c6bd !important}
+html[data-theme="dark"] main > p > a[style*="color"]{color:#9fd3aa !important}
+
+/* Dark mode: language hub sticky sub-header */
+html[data-theme="dark"] .sd-sticky-header{background:#141c16 !important;border-color:rgba(255,255,255,.1) !important}
+html[data-theme="dark"] .sd-breadcrumbs a,
+html[data-theme="dark"] .sd-jump-link{color:#b9d4bf !important}
+html[data-theme="dark"] .sd-breadcrumbs .current{color:#eef4ef !important}
+html[data-theme="dark"] .sd-breadcrumbs .sep{color:#6b7f70 !important}
+html[data-theme="dark"] .sd-jump-link:hover,html[data-theme="dark"] .sd-jump-link:focus-visible{background:rgba(159,211,170,.16);color:#fff !important}
