@@ -1513,5 +1513,13 @@
   "desk_cosy_events": "Événements Cosy",
   "desk_the_podcast": "Le Podcast",
   "desk_back_issues": "Archives",
-  "desk_reflections": "Réflexions"
+  "desk_reflections": "Réflexions",
+  "cefr_methodology_title": "🎓 Progression CECRL & Méthodologie",
+  "cefr_methodology_desc": "Chaque cours est conçu autour de notre cadre communicatif : au moins 40 % du temps est consacré à l’expression orale active. La grammaire est abordée en contexte conversationnel et le vocabulaire est immédiatement appliqué.",
+  "cefr_a1_a2_title": "🌱 Niveaux A1 – A2 : Découverte & Bases solides",
+  "cefr_a1_a2_desc": "Maîtrisez la syntaxe de base, la phonétique, le vocabulaire essentiel et les échanges quotidiens sans crainte des erreurs.",
+  "cefr_b1_b2_title": "🌿 Niveaux B1 – B2 : Expression autonome & Perfectionnement",
+  "cefr_b1_b2_desc": "Exprimez des pensées complexes, débattez de sujets de société, maîtrisez les temps du passé et du subjonctif, et évoluez dans un cadre professionnel.",
+  "cefr_c1_c2_title": "🌳 Niveaux C1 – C2 : Maîtrise, Nuances & Précision",
+  "cefr_c1_c2_desc": "Saisissez les sous-entendus culturels, les nuances idiomatiques, les débats spontanés et atteignez une aisance quasi-native."
 }

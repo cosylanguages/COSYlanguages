@@ -1505,5 +1505,13 @@
   "desk_cosy_events": "Cosy Events",
   "desk_the_podcast": "The Podcast",
   "desk_back_issues": "Back Issues",
-  "desk_reflections": "Reflections"
+  "desk_reflections": "Reflections",
+  "cefr_methodology_title": "🎓 CEFR Progression & Methodology",
+  "cefr_methodology_desc": "Every lesson is engineered around our Speaking-First Communicative Framework: at least 40% of session time is spent in active verbal interaction. Grammar is presented in natural conversational contexts, and vocabulary is immediately applied to real-life adult scenarios.",
+  "cefr_a1_a2_title": "🌱 Levels A1 – A2: Discovery & Foundational Fluency",
+  "cefr_a1_a2_desc": "Master core syntax, phonetic foundations, essential vocabulary, and everyday travel and social exchanges without fear of making mistakes.",
+  "cefr_b1_b2_title": "🌿 Levels B1 – B2: Independent Expression & Polish",
+  "cefr_b1_b2_desc": "Express complex thoughts, debate social topics, master past & subjunctive tenses, and navigate professional environments seamlessly.",
+  "cefr_c1_c2_title": "🌳 Levels C1 – C2: Mastery, Nuance & Precision",
+  "cefr_c1_c2_desc": "Grasp cultural subtext, idiom nuances, spontaneous public debate, and achieve near-native effortless fluency across all registers."
 }

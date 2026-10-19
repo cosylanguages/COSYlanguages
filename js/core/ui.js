@@ -560,7 +560,8 @@
 
         if (noteEl) {
             if (discount > 0) {
-                noteEl.textContent = `Includes ${Math.round(discount * 100)}% pack discount!`;
+                const savingsAmount = Math.round((singleLessonBase * packCount) - totalPriceEUR) * currObj.rate;
+                noteEl.innerHTML = `<span style="display:inline-block; background:var(--sage-dark, #2b3e30); color:#fff; font-weight:800; padding:0.2rem 0.5rem; border-radius:4px; font-size:0.85rem; margin-right:0.4rem;">SAVE ${Math.round(discount * 100)}% OFF</span> Save ${currObj.symbol}${Math.round(savingsAmount)} with package pricing!`;
             } else {
                 noteEl.textContent = `Standard rate. Save up to 15% with 8+ lesson packs.`;
             }
