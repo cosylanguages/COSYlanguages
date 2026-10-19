@@ -1504,5 +1504,13 @@
   "desk_cosy_events": "Eventi Cosy",
   "desk_the_podcast": "Il Podcast",
   "desk_back_issues": "Numeri Arretrati",
-  "desk_reflections": "Riflessioni"
+  "desk_reflections": "Riflessioni",
+  "cefr_methodology_title": "🎓 Progressione QCER & Metodologia",
+  "cefr_methodology_desc": "Ogni lezione è strutturata attorno al nostro approccio comunicativo: almeno il 40% del tempo è dedicato all’interazione orale attiva. La grammatica viene presentata in contesti naturali e il vocabolario viene applicato subito.",
+  "cefr_a1_a2_title": "🌱 Livelli A1 – A2: Scoperta & Basi solide",
+  "cefr_a1_a2_desc": "Padroneggia la sintassi di base, la fonetica, il vocabolario essenziale e le conversazioni quotidiane in totale serenità.",
+  "cefr_b1_b2_title": "🌿 Livelli B1 – B2: Espressione autonoma & Perfezionamento",
+  "cefr_b1_b2_desc": "Esprimi concetti complessi, discuti temi sociali, padroneggia i tempi passati e congiuntivi, e muoviti con disinvoltura al lavoro.",
+  "cefr_c1_c2_title": "🌳 Livelli C1 – C2: Padronanza, Sfumature & Precisione",
+  "cefr_c1_c2_desc": "Cogli il sottotesto culturale, le sfumature idiomatiche, i dibattiti spontanei e raggiungi una fluidità quasi madrelingua."
 }
