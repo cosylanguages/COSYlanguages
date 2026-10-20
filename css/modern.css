@@ -704,3 +704,72 @@ html[data-theme="dark"] .sd-jump-link{color:#b9d4bf !important}
 html[data-theme="dark"] .sd-breadcrumbs .current{color:#eef4ef !important}
 html[data-theme="dark"] .sd-breadcrumbs .sep{color:#6b7f70 !important}
 html[data-theme="dark"] .sd-jump-link:hover,html[data-theme="dark"] .sd-jump-link:focus-visible{background:rgba(159,211,170,.16);color:#fff !important}
+
+/* Dark mode: tokens that pages reference with light fallbacks (so cards no longer stay cream under light text) */
+html[data-theme="dark"], body.theme-dark {
+  --paper-bg: #1a241d;
+  --surface: #222B22;
+  --surface-color: #222B22;
+  --card-bg: #222B22;
+}
+html[data-theme="dark"] .hero-jump-menu a { background: #222B22; color: #cfe3d2; border-color: rgba(255,255,255,.14); }
+html[data-theme="dark"] .hero-jump-menu a:hover { background: #2c3a2e; color: #fff; }
+
+/* Dark mode: page-level "paper" boxes that were hard-coded white/pastel while their text turns light */
+html[data-theme="dark"] .mp-section,
+html[data-theme="dark"] .course-section,
+html[data-theme="dark"] .lesson-sample,
+html[data-theme="dark"] .student-portal-box,
+html[data-theme="dark"] .mnemonic-box,
+html[data-theme="dark"] .value-card,
+html[data-theme="dark"] .contact-card,
+html[data-theme="dark"] .contact-cta-box,
+html[data-theme="dark"] .qr-widget-card,
+html[data-theme="dark"] .episode-card,
+html[data-theme="dark"] .comp-card,
+html[data-theme="dark"] .zine-issue-card,
+html[data-theme="dark"] .zine-guidelines-box,
+html[data-theme="dark"] .signup-card,
+html[data-theme="dark"] .level-card,
+html[data-theme="dark"] .beginner-notice,
+html[data-theme="dark"] .alphabet-card,
+html[data-theme="dark"] .mp-unit-tabs-nav,
+html[data-theme="dark"] .level-nav-bar,
+html[data-theme="dark"] .cta-section {
+  background: #222B22 !important;
+  color: #e8f0e9;
+  border-color: rgba(255,255,255,.12) !important;
+}
+html[data-theme="dark"] .sd-jump-link { background: transparent !important; }
+html[data-theme="dark"] .mp-section h1, html[data-theme="dark"] .mp-section h2, html[data-theme="dark"] .mp-section h3, html[data-theme="dark"] .mp-section h4,
+html[data-theme="dark"] .course-section h2, html[data-theme="dark"] .course-section h3,
+html[data-theme="dark"] .lesson-sample h3, html[data-theme="dark"] .lesson-sample h4,
+html[data-theme="dark"] .beginner-notice h4, html[data-theme="dark"] .cta-section h2, html[data-theme="dark"] .cta-section h3 { color: #eef4ef !important; }
+html[data-theme="dark"] .mp-section p, html[data-theme="dark"] .mp-section li, html[data-theme="dark"] .mp-section td, html[data-theme="dark"] .mp-section th,
+html[data-theme="dark"] .course-section p, html[data-theme="dark"] .course-section li,
+html[data-theme="dark"] .cta-section p, html[data-theme="dark"] .mp-field-content { color: #cfdcd1 !important; }
+html[data-theme="dark"] .mp-field-tag, html[data-theme="dark"] .mp-badge { background: #2c3a2e !important; color: #cfe3d2 !important; }
+html[data-theme="dark"] .mp-section table, html[data-theme="dark"] .mp-section td, html[data-theme="dark"] .mp-section th { border-color: rgba(255,255,255,.14) !important; background: transparent !important; }
+html[data-theme="dark"] .beginner-notice p, html[data-theme="dark"] .beginner-notice li, html[data-theme="dark"] .mnemonic-box p, html[data-theme="dark"] .mnemonic-box li { color: #cfdcd1 !important; }
+html[data-theme="dark"] .mnemonic-box h3, html[data-theme="dark"] .mnemonic-box h4, html[data-theme="dark"] .beginner-notice h4,
+html[data-theme="dark"] .mp-unit h2, html[data-theme="dark"] .mp-unit h3, html[data-theme="dark"] .mp-section > h2, html[data-theme="dark"] .mp-section-title,
+html[data-theme="dark"] .mp-section .mp-unit-title, html[data-theme="dark"] .mp-section [class*="title"] { color: #eef4ef !important; }
+html[data-theme="dark"] .mp-section strong, html[data-theme="dark"] .mp-section em { color: inherit; }
+/* Dark mode: hybrid hero used --sage-dark (a light text token in dark mode) as its background, leaving white text on pale green */
+html[data-theme="dark"] body:not(.page-home) header.hero:not([data-flag]) {
+  background:
+    radial-gradient(ellipse at 80% 20%, rgba(143,177,147,.22) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 80%, rgba(232,168,56,.12) 0%, transparent 50%),
+    linear-gradient(160deg, #1c2e22 0%, #2d4a37 100%);
+}
+html[data-theme="dark"] .hero-tag, html[data-theme="dark"] .sb-label, html[data-theme="dark"] .tool-free-label { color: #d6e8d9 !important; }
+/* The hybrid hero badge always sits on a dark gradient, so its text must be light in both themes */
+.speak-badge[style*="gradient"] .sb-title { color: #ffffff !important; }
+.speak-badge[style*="gradient"] .sb-desc { color: rgba(255,255,255,.82) !important; }
+.speak-badge[style*="gradient"] .sb-label { color: #f2c76a !important; }
+/* Small contrast lifts */
+.footer-bottom { color: #5b6b5e; }
+html[data-theme="dark"] .footer-bottom { color: #a9b8ab; }
+html[data-theme="dark"] .about-breadcrumb a, html[data-theme="dark"] .breadcrumb a, html[data-theme="dark"] .course-breadcrumb a { color: #9fd3aa; }
+html[data-theme="dark"] .about-section h3, html[data-theme="dark"] .value-card h3, html[data-theme="dark"] .contact-card h3 { color: #b6dcbe; }
+html[data-theme="dark"] .zine-guidelines-title, html[data-theme="dark"] .zine-issue-card h4 { color: #eef4ef; }
