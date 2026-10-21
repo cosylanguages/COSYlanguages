@@ -11,7 +11,8 @@
     "login": "🔐 Вход",
     "courses": "Курсы",
     "calculator": "Калькулятор",
-    "blog": "Блог",
+    "magazine": "Журнал",
+    "blog": "Журнал",
     "placement_quiz": "Тест уровня"
   },
   "footer": {
@@ -133,7 +134,7 @@
     "reflections": "Размышления"
   },
   "blog": {
-    "back_to_hub": "← Назад в редакционный блог-хаб",
+    "back_to_hub": "← Назад в редакционный журнал-хаб",
     "script_mode": "📜 Режим телесуфлёра",
     "stage_mode": "📺 Режим презентации",
     "script_view": "📜 Текст телесуфлёра",
@@ -141,7 +142,7 @@
     "read_in": "Читать на:",
     "written_by": "Автор:",
     "min_read": "мин чтения",
-    "return_to_index": "← Вернуться к списку статей",
+    "return_to_index": "← Вернуться к списку выпусков",
     "back_to_home": "← Назад на главную COSYlanguages",
     "founder_deck_title": "🎙️ Редакция основателя и колофон",
     "expand_deck": "Развернуть ▼",

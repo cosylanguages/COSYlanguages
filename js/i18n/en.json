@@ -11,7 +11,8 @@
     "login": "🔐 Log in",
     "courses": "Courses",
     "calculator": "Calculator",
-    "blog": "Blog",
+    "magazine": "Magazine",
+    "blog": "Magazine",
     "placement_quiz": "Placement Quiz"
   },
   "lang_locked_notice": "🔒 Device language locked! Interface language is fixed.",
@@ -135,7 +136,7 @@
     "reflections": "Reflections"
   },
   "blog": {
-    "back_to_hub": "← Back to Blog & Editorial Hub",
+    "back_to_hub": "← Back to Magazine & Editorial Hub",
     "script_mode": "📜 Script Mode",
     "stage_mode": "📺 Stage Mode",
     "script_view": "📜 Script View",
@@ -143,7 +144,7 @@
     "read_in": "Read in:",
     "written_by": "Written by",
     "min_read": "min read",
-    "return_to_index": "← Return to Blog Index",
+    "return_to_index": "← Return to Magazine Index",
     "back_to_home": "← Back to COSYlanguages Home",
     "founder_deck_title": "🎙️ Founder's Editorial Room & Colophon Deck",
     "expand_deck": "Expand Deck ▼",

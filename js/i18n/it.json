@@ -11,7 +11,8 @@
     "login": "🔐 Accedi",
     "courses": "Corsi",
     "calculator": "Calcolatore",
-    "blog": "Blog",
+    "magazine": "Magazine",
+    "blog": "Magazine",
     "placement_quiz": "Test di livello"
   },
   "footer": {
@@ -138,7 +139,7 @@
     "read_in": "Leggi in:",
     "written_by": "Scritto da",
     "min_read": "min di lettura",
-    "return_to_index": "← Torna all'indice del blog",
+    "return_to_index": "← Torna all'indice del magazine",
     "back_to_home": "← Torna alla Home COSYlanguages",
     "founder_deck_title": "🎙️ Stanza del Fondatore & Colophon",
     "expand_deck": "Espandi ▼",
