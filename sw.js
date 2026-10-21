@@ -6,7 +6,7 @@
  *   (the previous cache.addAll() call did exactly that).
  * - Pages and scripts are network-first, so visitors always get fresh code.
  * - Images, fonts and audio are cache-first with a background refresh.
- * - Only same-origin GET requests are handled. Sibling sites (COSYblog, COSYpractice, ...)
+ * - Only same-origin GET requests are handled. Sibling sites (COSYmagazine, COSYpractice, ...)
  *   run their own service workers.
  */
 const CACHE_NAME = 'cosy-hub-v1';

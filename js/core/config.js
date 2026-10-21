@@ -19,7 +19,7 @@
   // Production base URLs for the COSY ecosystem repositories
   const PRODUCTION_URLS = {
     COSYlanguages: "https://cosylanguages.github.io/COSYlanguages/",
-    COSYblog: "https://cosylanguages.github.io/COSYblog/",
+    COSYmagazine: "https://cosylanguages.github.io/COSYmagazine/",
     COSYpractice: "https://cosylanguages.github.io/COSYpractice/",
     COSYdata: "https://cosylanguages.github.io/COSYdata/",
     COSYplatform: "https://cosylanguages.github.io/COSYplatform/",
@@ -36,7 +36,7 @@
     COSYevents: "http://localhost:3002/",
     COSYgames: "http://localhost:3004/",
     COSYtools: "http://localhost:3005/",
-    COSYblog: "http://localhost:3006/",
+    COSYmagazine: "http://localhost:3006/",
     COSYpractice: "http://localhost:3007/",
     COSYdata: "http://localhost:3008/",
     COSYplatform: "http://localhost:3009/"
@@ -49,7 +49,7 @@
     COSYevents: "https://preview-events.cosylanguages.com/",
     COSYgames: "https://preview-games.cosylanguages.com/",
     COSYtools: "https://preview-tools.cosylanguages.com/",
-    COSYblog: "https://preview-blog.cosylanguages.com/",
+    COSYmagazine: "https://preview-magazine.cosylanguages.com/",
     COSYpractice: "https://preview-practice.cosylanguages.com/",
     COSYdata: "https://preview-data.cosylanguages.com/",
     COSYplatform: "https://preview-platform.cosylanguages.com/"
@@ -133,7 +133,8 @@
       if (process.env.COSY_EVENTS_URL) baseSet.COSYevents = process.env.COSY_EVENTS_URL;
       if (process.env.COSY_GAMES_URL) baseSet.COSYgames = process.env.COSY_GAMES_URL;
       if (process.env.COSY_TOOLS_URL) baseSet.COSYtools = process.env.COSY_TOOLS_URL;
-      if (process.env.COSY_BLOG_URL) baseSet.COSYblog = process.env.COSY_BLOG_URL;
+      if (process.env.COSY_MAGAZINE_URL) baseSet.COSYmagazine = process.env.COSY_MAGAZINE_URL;
+      else if (process.env.COSY_BLOG_URL) baseSet.COSYmagazine = process.env.COSY_BLOG_URL;
       if (process.env.COSY_PRACTICE_URL) baseSet.COSYpractice = process.env.COSY_PRACTICE_URL;
       if (process.env.COSY_DATA_URL) baseSet.COSYdata = process.env.COSY_DATA_URL;
       if (process.env.COSY_PLATFORM_URL) baseSet.COSYplatform = process.env.COSY_PLATFORM_URL;

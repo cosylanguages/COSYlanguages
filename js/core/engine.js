@@ -25,7 +25,8 @@ const DEFAULT_ECOSYSTEM_URLS = {
     events: 'https://cosylanguages.github.io/COSYevents/',
     placement_quiz: 'placement-quiz.html',
     calculator: 'index.html#calculator',
-    blog: 'https://cosylanguages.github.io/COSYblog/',
+    magazine: 'https://cosylanguages.github.io/COSYmagazine/',
+    blog: 'https://cosylanguages.github.io/COSYmagazine/',
     join: 'index.html#start',
     login: 'login.html'
 };
@@ -56,7 +57,8 @@ function getEcosystemUrls(env, overrides) {
             events: repoConfig.COSYevents || DEFAULT_ECOSYSTEM_URLS.events,
             placement_quiz: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'placement-quiz.html' : 'placement-quiz.html',
             calculator: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#calculator' : 'index.html#calculator',
-            blog: repoConfig.COSYblog || DEFAULT_ECOSYSTEM_URLS.blog,
+            magazine: repoConfig.COSYmagazine || repoConfig.COSYblog || DEFAULT_ECOSYSTEM_URLS.magazine,
+            blog: repoConfig.COSYmagazine || repoConfig.COSYblog || DEFAULT_ECOSYSTEM_URLS.blog,
             join: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#start' : 'index.html#start',
             login: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'login.html' : 'login.html'
         };
@@ -102,6 +104,7 @@ function getEcosystemUrls(env, overrides) {
     if (processEnv.COSY_EVENTS_URL) procEnvUrls.events = processEnv.COSY_EVENTS_URL;
     if (processEnv.COSY_PLACEMENT_QUIZ_URL) procEnvUrls.placement_quiz = processEnv.COSY_PLACEMENT_QUIZ_URL;
     if (processEnv.COSY_CALCULATOR_URL) procEnvUrls.calculator = processEnv.COSY_CALCULATOR_URL;
+    if (processEnv.COSY_MAGAZINE_URL) procEnvUrls.magazine = processEnv.COSY_MAGAZINE_URL;
     if (processEnv.COSY_BLOG_URL) procEnvUrls.blog = processEnv.COSY_BLOG_URL;
     if (processEnv.COSY_JOIN_URL) procEnvUrls.join = processEnv.COSY_JOIN_URL;
     if (processEnv.COSY_LOGIN_URL) procEnvUrls.login = processEnv.COSY_LOGIN_URL;
@@ -124,7 +127,7 @@ const NAV_CONFIG = {
         { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
         { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
         { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' },
-        { key: 'blog',           hrefKey: 'blog',           icon: '📰' },
+        { key: 'magazine',       hrefKey: 'magazine',       icon: '📰' },
         { key: 'practice',       hrefKey: 'practice',       icon: '💡' },
         { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' }
     ]
@@ -164,11 +167,11 @@ const COSY_ECOSYSTEM_MENU = [
                 href: 'https://cosylanguages.github.io/COSYgames/'
             },
             {
-                key: 'blog',
-                title: 'Blog',
+                key: 'magazine',
+                title: 'COSYmagazine',
                 icon: '📰',
                 promise: 'Articles, guides & podcasts',
-                hrefKey: 'blog'
+                hrefKey: 'magazine'
             }
         ]
     },
@@ -277,7 +280,7 @@ function updateNavActiveState() {
     } else if (path.includes('/courses')) {
         activeId = 'mnav-courses';
     } else if ((path === '/' || path.endsWith('/') || path.endsWith('/index.html')) &&
-        !['/blog', '/games', '/apps', '/languages'].some(section => path.includes(section))) {
+        !['/magazine', '/blog', '/games', '/apps', '/languages'].some(section => path.includes(section))) {
         activeId = 'mnav-home';
     }
 
@@ -302,11 +305,11 @@ function getActiveNavLang() {
 }
 
 const NAV_FALLBACKS = {
-    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: '💬 Contact us', login: '🔐 Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Toggle Dark Mode', whatsapp_contact: '💬 Contact us on WhatsApp' },
-    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: '💬 Contact', login: '🔐 Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil', toggle_dark_mode: '🌓 Mode sombre', whatsapp_contact: '💬 Contactez-nous sur WhatsApp' },
-    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: '💬 Contatti', login: '🔐 Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Modalità scura', whatsapp_contact: '💬 Contattaci su WhatsApp' },
-    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: '💬 Связь', login: '🔐 Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная', toggle_dark_mode: '🌓 Тёмная тема', whatsapp_contact: '💬 Написать нам в WhatsApp' },
-    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: '💬 Επικοινωνία', login: '🔐 Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική', toggle_dark_mode: '🌓 Σκοτεινή λειτουργία', whatsapp_contact: '💬 Επικοινωνήστε μαζί μας στο WhatsApp' }
+    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', magazine: 'Magazine', blog: 'Magazine', join: 'Join', contact: '💬 Contact us', login: '🔐 Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Toggle Dark Mode', whatsapp_contact: '💬 Contact us on WhatsApp' },
+    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', magazine: 'Magazine', blog: 'Magazine', join: 'Rejoindre', contact: '💬 Contact', login: '🔐 Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil', toggle_dark_mode: '🌓 Mode sombre', whatsapp_contact: '💬 Contactez-nous sur WhatsApp' },
+    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', magazine: 'Magazine', blog: 'Magazine', join: 'Unisciti', contact: '💬 Contatti', login: '🔐 Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Modalità scura', whatsapp_contact: '💬 Contattaci su WhatsApp' },
+    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', magazine: 'Журнал', blog: 'Журнал', join: 'Начать', contact: '💬 Связь', login: '🔐 Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная', toggle_dark_mode: '🌓 Тёмная тема', whatsapp_contact: '💬 Написать нам в WhatsApp' },
+    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', magazine: 'Περιοδικό', blog: 'Περιοδικό', join: 'Εγγραφή', contact: '💬 Επικοινωνία', login: '🔐 Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική', toggle_dark_mode: '🌓 Σκοτεινή λειτουργία', whatsapp_contact: '💬 Επικοινωνήστε μαζί μας στο WhatsApp' }
 };
 
 function getNavLabel(key, fallback) {

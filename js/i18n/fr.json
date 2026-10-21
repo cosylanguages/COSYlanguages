@@ -12,7 +12,8 @@
     "login": "🔐 Connexion",
     "courses": "Cours",
     "calculator": "Calculateur",
-    "blog": "Blog",
+    "magazine": "Magazine",
+    "blog": "Magazine",
     "placement_quiz": "Test de niveau",
     "toggle_dark_mode": "🌓 Mode sombre",
     "whatsapp_contact": "💬 Contactez-nous sur WhatsApp"
@@ -144,7 +145,7 @@
     "read_in": "Lire en :",
     "written_by": "Écrit par",
     "min_read": "min de lecture",
-    "return_to_index": "← Retour à l'index du blog",
+    "return_to_index": "← Retour à l'index du magazine",
     "back_to_home": "← Retour à l'accueil COSYlanguages",
     "founder_deck_title": "🎙️ Bureau du Fondateur & Colophon",
     "expand_deck": "Développer ▼",

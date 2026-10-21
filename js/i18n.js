@@ -133,7 +133,7 @@
               <a href="${prefix}hybrid/index.html">Hybrid &amp; Community 🌿</a>
               <a href="https://cosylanguages.github.io/COSYevents/" data-i18n="nav.events">Events 🎉</a>
               <a href="https://cosylanguages.github.io/COSYgames/" data-i18n="nav.games">Games 🎮</a>
-              <a href="https://cosylanguages.github.io/COSYblog/" data-i18n="nav.blog">Blog 📝</a>
+              <a href="https://cosylanguages.github.io/COSYmagazine/" data-i18n="nav.magazine">Magazine 📖</a>
             </div>
             <div class="footer-links-col">
               <h3 data-i18n="footer.project">Project</h3>

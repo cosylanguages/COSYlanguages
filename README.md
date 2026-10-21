@@ -10,7 +10,7 @@ Static site, no backend, no build step. Open `index.html` or serve the folder wi
 | Repo | What lives there |
 |---|---|
 | [COSYpractice](https://github.com/cosylanguages/COSYpractice) | Free daily practice exercises |
-| [COSYblog](https://github.com/cosylanguages/COSYblog) | COSYmagazine: articles, guides, podcast |
+| [COSYmagazine](https://github.com/cosylanguages/COSYmagazine) | COSYmagazine: articles, guides, podcast |
 | [COSYtools](https://github.com/cosylanguages/COSYtools) | Reference engines: dictionaries, verbs, grammar atlas |
 | [COSYgames](https://github.com/cosylanguages/COSYgames) | Language games |
 | [COSYevents](https://github.com/cosylanguages/COSYevents) | Speaking clubs and live events |
