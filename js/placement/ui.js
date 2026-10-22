@@ -314,6 +314,9 @@
           <div style="font-size: 0.85rem; color: var(--sage-dark); font-weight: 700;">
             Preparation: ${prompt.prepSeconds}s | Recording Limit: ${prompt.recordSeconds}s
           </div>
+          <div style="font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.5rem; background: var(--sage-light); padding: 0.5rem 0.75rem; border-radius: 6px;">
+            ℹ️ Audio recording is processed locally for self-assessment and human teacher review. COSY Languages does not fabricate speech analysis or automated AI ratings.
+          </div>
         </div>
 
         <div id="audio-recorder-mount"></div>

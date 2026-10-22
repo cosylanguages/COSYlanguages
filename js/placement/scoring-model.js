@@ -72,7 +72,7 @@
         },
         diagnostics: diagnostics,
         recommendations: recommendations,
-        disclaimer: "Provisional assessment based on observed communicative evidence. Not an official certified language exam credential."
+        disclaimer: "Provisional diagnostic estimate based on observed communicative responses. Not an official certified language credential."
       };
     }
 
@@ -80,25 +80,39 @@
       if (!thread || !thread.itemsAnswered || thread.itemsAnswered.length === 0) {
         return {
           skill: skillName,
-          band: 'A0',
-          range: 'A0–A1',
+          band: 'Insufficient Evidence',
+          range: 'Insufficient Evidence',
           numericLevel: 1.0,
           confidence: 'provisional_insufficient',
           scoreText: 'No evidence collected',
-          evidenceCount: 0
+          evidenceCount: 0,
+          isInsufficient: true
         };
       }
 
       const count = thread.itemsAnswered.length;
+      if (count < 3) {
+        const correctCount = thread.itemsAnswered.filter(i => i.isCorrect).length;
+        return {
+          skill: skillName,
+          band: 'Insufficient Evidence',
+          range: 'Insufficient Evidence',
+          numericLevel: 1.0,
+          confidence: 'provisional_insufficient',
+          scoreText: `${correctCount} / ${count} (Inconclusive - min 3 items required)`,
+          evidenceCount: count,
+          isInsufficient: true
+        };
+      }
+
       const correctCount = thread.itemsAnswered.filter(i => i.isCorrect).length;
       const accuracyPct = Math.round((correctCount / count) * 100);
 
-      // Calculate theta
       let theta = thread.theta || 3.0;
       let numericLevel = Math.max(1.0, Math.min(7.0, theta));
       let band = NUMERIC_BAND[Math.round(numericLevel)] || 'B1';
 
-      // Range determination
+      // Range determination for boundary / variance cases
       let range = band;
       if (thread.variance > 0.2 || count < 4) {
         const lower = NUMERIC_BAND[Math.max(1, Math.round(numericLevel - 0.5))];
@@ -107,8 +121,7 @@
       }
 
       let confidence = 'high';
-      if (count < 3) confidence = 'provisional_insufficient';
-      else if (thread.variance > 0.22) confidence = 'medium';
+      if (thread.variance > 0.22) confidence = 'medium';
 
       return {
         skill: skillName,
@@ -118,7 +131,8 @@
         confidence: confidence,
         scoreText: `${correctCount} / ${count} (${accuracyPct}%)`,
         evidenceCount: count,
-        accuracyPct: accuracyPct
+        accuracyPct: accuracyPct,
+        isInsufficient: false
       };
     }
 
@@ -126,16 +140,30 @@
       if (!thread || !thread.itemsAnswered || thread.itemsAnswered.length === 0) {
         return {
           skill: skillName,
-          band: 'A0',
-          range: 'A0–A1',
+          band: 'Insufficient Evidence',
+          range: 'Insufficient Evidence',
           numericLevel: 1.0,
           confidence: 'provisional_insufficient',
           scoreText: 'Missing productive evidence',
-          evidenceCount: 0
+          evidenceCount: 0,
+          isInsufficient: true
         };
       }
 
       const item = thread.itemsAnswered[0];
+      if (item.skipped) {
+        return {
+          skill: skillName,
+          band: 'Insufficient Evidence',
+          range: 'Insufficient Evidence',
+          numericLevel: 1.0,
+          confidence: 'provisional_insufficient',
+          scoreText: 'Task skipped by user',
+          evidenceCount: 0,
+          isInsufficient: true
+        };
+      }
+
       const band = item.estimatedBand || 'B1';
       const numericLevel = BAND_NUMERIC[band] || 4.0;
 
@@ -144,26 +172,35 @@
         band: band,
         range: band,
         numericLevel: numericLevel,
-        confidence: 'high',
+        confidence: 'provisional_automated',
         scoreText: `Rubric Assessed (${band})`,
         evidenceCount: 1,
-        rubricScores: item.rubricScores || {}
+        rubricScores: item.rubricScores || {},
+        isInsufficient: false
       };
     }
 
     static calculateOverallPlacement(skillResults, purpose, receptiveAvg, productiveAvg, gapDetected) {
+      // If essential skills lack evidence, report overall insufficient evidence
+      const insufficientCount = Object.values(skillResults).filter(s => s.isInsufficient).length;
+      if (insufficientCount >= 3) {
+        return {
+          level: 'Insufficient Evidence',
+          range: 'Insufficient Evidence',
+          numericLevel: 1.0,
+          confidence: 'provisional_insufficient'
+        };
+      }
+
       let numericTarget = 3.0;
 
       if (purpose === 'spoken') {
-        // Spoken course heavily anchors on Speaking level
-        numericTarget = skillResults.speaking.numericLevel;
+        numericTarget = skillResults.speaking.isInsufficient ? receptiveAvg : skillResults.speaking.numericLevel;
       } else if (purpose === 'exam') {
-        // Exam purpose requires solid grammar and reading
         numericTarget = (receptiveAvg * 0.6) + (productiveAvg * 0.4);
       } else {
-        // General purpose: balanced, but restricted by active production if gap exists
         if (gapDetected) {
-          numericTarget = productiveAvg + 0.5; // Cap near productive level to build confidence
+          numericTarget = productiveAvg + 0.5;
         } else {
           numericTarget = (receptiveAvg * 0.5) + (productiveAvg * 0.5);
         }
@@ -194,48 +231,49 @@
       const strengths = [];
       const weaknesses = [];
 
-      // Identify strongest and weakest skills
-      const sorted = Object.entries(skillResults).sort((a, b) => b[1].numericLevel - a[1].numericLevel);
-      const strongest = sorted[0];
-      const weakest = sorted[sorted.length - 1];
+      const validSkills = Object.entries(skillResults).filter(([_, s]) => !s.isInsufficient);
+      if (validSkills.length > 0) {
+        const sorted = validSkills.sort((a, b) => b[1].numericLevel - a[1].numericLevel);
+        const strongest = sorted[0];
+        const weakest = sorted[sorted.length - 1];
 
-      strengths.push(`Strongest performance observed in ${strongest[0].toUpperCase()} (${strongest[1].band}).`);
-      weaknesses.push(`Primary priority area identified in ${weakest[0].toUpperCase()} (${weakest[1].band}).`);
+        strengths.push(`Strongest performance observed in ${strongest[0].toUpperCase()} (${strongest[1].band}).`);
+        weaknesses.push(`Primary priority area identified in ${weakest[0].toUpperCase()} (${weakest[1].band}).`);
+      }
 
       if (gapDetected) {
         weaknesses.push("Active-Passive Gap: Receptive comprehension significantly exceeds productive retrieval confidence under time pressure.");
-      } else {
+      } else if (validSkills.length > 0) {
         strengths.push("Balanced Communicator Profile: Receptive knowledge aligns well with productive speaking and writing capability.");
       }
 
       return {
         strengths: strengths,
-        weaknesses: weaknesses,
-        strongestSkill: strongest[0],
-        weakestSkill: weakest[0]
+        weaknesses: weaknesses
       };
     }
 
     static generateRecommendations(overallLevel, skillResults, gapDetected, targetLang, purpose) {
       const recs = [];
+      const safeLevel = (overallLevel === 'Insufficient Evidence') ? 'A1' : overallLevel;
 
       recs.push({
-        title: `COSY ${targetLang.toUpperCase()} ${overallLevel} Course Module`,
-        url: `courses/general.html?lang=${targetLang}&level=${overallLevel}`,
-        description: `Enrol in the core COSY ${overallLevel} curriculum tailored to your assessed CEFR level.`
+        title: `COSY ${targetLang.toUpperCase()} ${safeLevel} Course Module`,
+        url: `courses/general.html?lang=${targetLang}&level=${safeLevel}`,
+        description: `Enrol in the core COSY ${safeLevel} curriculum tailored to your assessed CEFR level.`
       });
 
       if (gapDetected) {
         recs.push({
           title: "Active Fluency & Cognition Accelerator",
-          url: `https://cosylanguages.github.io/COSYpractice/?lang=${targetLang}&level=${overallLevel}&topic=active_retrieval`,
+          url: `https://cosylanguages.github.io/COSYpractice/?lang=${targetLang}&level=${safeLevel}&topic=active_retrieval`,
           description: "Targeted drills to bypass internal translation blocks and increase speaking retrieval speed."
         });
       }
 
       recs.push({
         title: "Speaking Club & Conversation Practice",
-        url: `https://cosylanguages.github.io/COSYevents/?lang=${targetLang}&level=${overallLevel}`,
+        url: `https://cosylanguages.github.io/COSYevents/?lang=${targetLang}&level=${safeLevel}`,
         description: "Join cozy speaking clubs to practice real-world interaction in a supportive environment."
       });
 

@@ -137,9 +137,9 @@ describe('COSY Placement Assessment Test Suite', () => {
         purpose: 'general',
         mode: 'full_diagnostic',
         skillThreads: {
-          grammar: { theta: 4.0, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }] },
-          vocabulary: { theta: 4.1, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }] },
-          reading: { theta: 4.0, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }] },
+          grammar: { theta: 4.0, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }, { isCorrect: 1 }] },
+          vocabulary: { theta: 4.1, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }, { isCorrect: 1 }] },
+          reading: { theta: 4.0, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }, { isCorrect: 1 }] },
           writing: { theta: 4.0, itemsAnswered: [{ estimatedBand: 'B1', rubricScores: {} }] },
           speaking: { theta: 4.0, itemsAnswered: [{ estimatedBand: 'B1', rubricScores: {} }] }
         }
