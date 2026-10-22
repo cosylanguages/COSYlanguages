@@ -42,12 +42,29 @@ describe('COSY Placement Assessment Test Suite', () => {
       });
     });
 
-    test('Multilingual Question Banks should contain valid items for FR, IT, RU, EL', () => {
+    test('Multilingual Question Banks (FR, IT, RU, EL) schema integrity and item validation', () => {
       const langs = ['fr', 'it', 'ru', 'el'];
       langs.forEach(lang => {
         const bank = MULTILINGUAL_QUESTION_BANKS[lang];
         assert.ok(Array.isArray(bank), `Multilingual bank for ${lang} must be an array`);
-        assert.ok(bank.length >= 18, `Bank for ${lang} should contain at least 18 items across bands`);
+        assert.ok(bank.length >= 21, `Bank for ${lang} should contain items across bands A0-C2 (found ${bank.length})`);
+
+        bank.forEach(item => {
+          assert.ok(item.id, `[${lang}] Item must have an id`);
+          assert.ok(item.id.startsWith(`${lang}_`), `[${lang}] ID must start with language code prefix`);
+          assert.ok(['grammar', 'vocabulary', 'reading'].includes(item.skill), `[${lang}] Skill must be valid`);
+          assert.ok(['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].includes(item.band), `[${lang}] Band must be a valid CEFR band`);
+          assert.ok(typeof item.difficulty === 'number', `[${lang}] Difficulty must be numeric`);
+          assert.ok(item.question, `[${lang}] Item must have question text`);
+          assert.ok(Array.isArray(item.options), `[${lang}] Options must be an array`);
+          assert.ok(item.options.length >= 2, `[${lang}] Must have at least 2 option choices`);
+          assert.ok(typeof item.correctAnswer === 'number', `[${lang}] correctAnswer index must be a number`);
+          assert.ok(item.correctAnswer >= 0 && item.correctAnswer < item.options.length, `[${lang}] correctAnswer index within range`);
+          assert.ok(item.explanation, `[${lang}] Item must have explanation text`);
+          assert.ok(item.scoringRules, `[${lang}] Item must have scoring rules`);
+          assert.ok(item.cefrDescriptor, `[${lang}] Item must specify CEFR descriptor`);
+          assert.strictEqual(item.provisional, true, `[${lang}] Item should be marked provisional`);
+        });
       });
     });
   });
@@ -70,8 +87,8 @@ describe('COSY Placement Assessment Test Suite', () => {
     });
   });
 
-  describe('3. Adaptive Routing Engine', () => {
-    test('Adaptive Engine should route items and dynamically adjust theta', () => {
+  describe('3. Adaptive Routing Engine (Multilingual Support)', () => {
+    test('Adaptive Engine should route English items and adjust theta', () => {
       const engine = new AdaptiveEngine({
         en: ENGLISH_QUESTION_BANK,
         multilingual: MULTILINGUAL_QUESTION_BANKS
@@ -89,9 +106,30 @@ describe('COSY Placement Assessment Test Suite', () => {
         'Theta should increase following correct answer'
       );
     });
+
+    test('Adaptive Engine should route items and adjust theta for French (fr), Italian (it), Russian (ru), Greek (el)', () => {
+      const langs = ['fr', 'it', 'ru', 'el'];
+
+      langs.forEach(lang => {
+        const engine = new AdaptiveEngine({
+          en: ENGLISH_QUESTION_BANK,
+          multilingual: MULTILINGUAL_QUESTION_BANKS
+        }, { mode: 'short_screening', targetLanguage: lang, purpose: 'general' });
+
+        const item = engine.getNextItem();
+        assert.ok(item, `[${lang}] Adaptive engine should fetch an initial item`);
+        assert.ok(item.id.startsWith(`${lang}_`), `[${lang}] Item ID must belong to language bank`);
+
+        const initialTheta = engine.sessionState.skillThreads[item.skill].theta;
+        engine.submitResponse(item.id, { item: item, isCorrect: true, userAnswer: item.correctAnswer });
+
+        const updatedTheta = engine.sessionState.skillThreads[item.skill].theta;
+        assert.ok(updatedTheta > initialTheta, `[${lang}] Theta for ${item.skill} should increase on correct answer`);
+      });
+    });
   });
 
-  describe('4. Scoring Model & Diagnostic Learner Profiles', () => {
+  describe('4. Scoring Model & Diagnostic Learner Profiles (Multilingual)', () => {
     test('Profile 1: Beginner Learner (A1/A0 across all skills)', () => {
       const beginnerState = {
         language: 'en',
@@ -166,6 +204,30 @@ describe('COSY Placement Assessment Test Suite', () => {
 
       const result = ScoringModel.evaluatePlacement(boundaryState);
       assert.ok(result.skills.grammar.range.includes('–'), 'High variance should trigger range reporting (e.g. B1–B2)');
+    });
+
+    test('Multilingual Diagnostic Learner Profiles for French, Italian, Russian, and Greek', () => {
+      const langs = ['fr', 'it', 'ru', 'el'];
+
+      langs.forEach(lang => {
+        // Advanced learner session state
+        const advancedState = {
+          language: lang,
+          purpose: 'general',
+          mode: 'full_diagnostic',
+          skillThreads: {
+            grammar: { theta: 6.2, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }, { isCorrect: 1 }] },
+            vocabulary: { theta: 6.0, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }, { isCorrect: 1 }] },
+            reading: { theta: 6.1, variance: 0.05, itemsAnswered: [{ isCorrect: 1 }, { isCorrect: 1 }, { isCorrect: 1 }] },
+            writing: { theta: 6.0, itemsAnswered: [{ estimatedBand: 'C1', rubricScores: {} }] },
+            speaking: { theta: 6.0, itemsAnswered: [{ estimatedBand: 'C1', rubricScores: {} }] }
+          }
+        };
+
+        const result = ScoringModel.evaluatePlacement(advancedState);
+        assert.strictEqual(result.overallPlacement.level, 'C1', `[${lang}] Expected C1 placement`);
+        assert.strictEqual(result.activePassiveGap.detected, false, `[${lang}] No gap expected for balanced profile`);
+      });
     });
   });
 
