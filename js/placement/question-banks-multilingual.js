@@ -1,6 +1,8 @@
 /**
  * COSY Languages - Multilingual Question Banks (FR, IT, RU, EL)
  * CEFR-aligned items for Grammar, Vocabulary, and Reading across supported languages.
+ * Fully monolingual: every question, prompt, passage, distractor, and explanation is written
+ * exclusively in the target language.
  */
 
 const MULTILINGUAL_QUESTION_BANKS = {
@@ -37,7 +39,7 @@ const MULTILINGUAL_QUESTION_BANKS = {
       "band": "A0",
       "difficulty": 1.0,
       "type": "multiple_choice",
-      "question": "Comment dit-on 'Hello' en français ?",
+      "question": "Quelle expression utilise-t-on pour saluer quelqu'un le matin ?",
       "options": [
         "Bonjour",
         "Au revoir",
@@ -571,7 +573,7 @@ const MULTILINGUAL_QUESTION_BANKS = {
       "band": "A0",
       "difficulty": 1.0,
       "type": "multiple_choice",
-      "question": "Come si dice 'Hello' in italiano?",
+      "question": "Quale parola si usa per salutare un amico?",
       "options": [
         "Ciao",
         "Grazie",
@@ -1105,7 +1107,7 @@ const MULTILINGUAL_QUESTION_BANKS = {
       "band": "A0",
       "difficulty": 1.0,
       "type": "multiple_choice",
-      "question": "Как по-русски 'Thank you'?",
+      "question": "Какое слово выражает благодарность?",
       "options": [
         "Спасибо",
         "Привет",
@@ -1639,7 +1641,7 @@ const MULTILINGUAL_QUESTION_BANKS = {
       "band": "A0",
       "difficulty": 1.0,
       "type": "multiple_choice",
-      "question": "Πώς λέμε 'Thank you' στα ελληνικά;",
+      "question": "Ποια λέξη χρησιμοποιούμε για να ευχαριστήσουμε κάποιον;",
       "options": [
         "Ευχαριστώ",
         "Γεια σου",
