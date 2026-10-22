@@ -122,15 +122,54 @@ function getNavHref(itemKey) {
     return `${p}${rawHref.replace(/^\/+/, '')}`;
 }
 
+const NAV_PILLARS = [
+    {
+        key: 'courses',
+        label: 'Courses',
+        icon: '📚',
+        items: [
+            { key: 'all_courses', label: 'All Course Types', href: 'courses/index.html', icon: '📖' },
+            { key: 'find_course', label: 'Find Your Level / Quiz', href: 'placement_quiz', icon: '📝' },
+            { key: 'price_calc', label: 'Price Calculator', href: 'calculator', icon: '🧮' },
+            { key: 'student_platform', label: 'Student Platform 🔒', href: 'login.html?redirect=https://cosylanguages.github.io/COSYplatform/&note=For%20enrolled%20students', icon: '🎓' }
+        ]
+    },
+    {
+        key: 'free_learning',
+        label: 'Free learning',
+        icon: '💡',
+        items: [
+            { key: 'practice', label: 'Daily Practice', href: 'practice', icon: '💡' },
+            { key: 'grammar_atlas', label: 'Grammar Atlas', href: 'comparative/index.html', icon: '🌐' },
+            { key: 'ref_tools', label: 'Reference Engines & Verbs', href: 'tools', icon: '🔎' },
+            { key: 'games', label: 'Language Games', href: 'games', icon: '🎮' },
+            { key: 'magazine', label: 'Magazine & Podcast', href: 'magazine', icon: '📰' }
+        ]
+    },
+    {
+        key: 'community',
+        label: 'Community',
+        icon: '🌿',
+        items: [
+            { key: 'events', label: 'Live Events & Clubs', href: 'events', icon: '🎉' },
+            { key: 'hybrid', label: 'Hybrid & Community Hub', href: 'hybrid/index.html', icon: '🌿' },
+            { key: 'print_studio', label: 'Print Studio & Zines', href: 'print-studio/print-zine.html', icon: '🖨️' }
+        ]
+    },
+    {
+        key: 'about',
+        label: 'About & Contact',
+        icon: '🏡',
+        items: [
+            { key: 'our_story', label: 'Our Story & Philosophy', href: 'about/index.html', icon: '🏡' },
+            { key: 'privacy', label: 'Privacy & Safety', href: 'privacy.html', icon: '🛡️' },
+            { key: 'contact_wa', label: 'WhatsApp Chat', href: 'https://wa.me/330766784195', icon: '📱' }
+        ]
+    }
+];
+
 const NAV_CONFIG = {
-    free: [
-        { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
-        { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
-        { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' },
-        { key: 'magazine',       hrefKey: 'magazine',       icon: '📰' },
-        { key: 'practice',       hrefKey: 'practice',       icon: '💡' },
-        { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' }
-    ]
+    free: NAV_PILLARS
 };
 
 const COSY_ECOSYSTEM_MENU = [
@@ -328,15 +367,30 @@ function getNavLabel(key, fallback) {
 }
 
 function renderNavLinks(mode) {
-    const config = NAV_CONFIG[mode] || [];
-    return config.map(item => {
-        const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
-        const label = getNavLabel(item.key, fallbackLabel);
-        const key = `nav_${item.key}`;
-        const href = getNavHref(item.hrefKey || item.key);
-        const isExternal = href.startsWith('http://') || href.startsWith('https://');
-        const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
-        return `<li role="none"><a href="${href}" ${isActive(href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem"${targetAttr}>${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
+    const pillars = NAV_PILLARS || [];
+    return pillars.map(pillar => {
+        const pLabel = getNavLabel(pillar.key, pillar.label);
+        const subItemsHtml = pillar.items.map(sub => {
+            let subHref = sub.href;
+            if (!subHref.startsWith('http') && !subHref.endsWith('.html') && !subHref.includes('/')) {
+                subHref = getNavHref(sub.href);
+            } else if (!subHref.startsWith('http') && !subHref.startsWith('/')) {
+                subHref = getPrefix() + sub.href;
+            }
+            const isExt = subHref.startsWith('http');
+            const targetAttr = isExt ? ' target="_blank" rel="noopener"' : '';
+            return `<li><a href="${subHref}" ${targetAttr} role="menuitem">${sub.icon ? sub.icon + ' ' : ''}${sub.label}</a></li>`;
+        }).join('');
+
+        return `
+        <li role="none" class="cosy-nav-more-wrap">
+          <button type="button" class="cosy-nav-more-btn" aria-haspopup="true" aria-expanded="false" onclick="COSY.toggleMoreMenu(this)" role="menuitem">
+            ${pillar.icon ? pillar.icon + ' ' : ''}${pLabel} ▾
+          </button>
+          <ul class="cosy-nav-more-dropdown" role="menu" aria-label="${pLabel}">
+            ${subItemsHtml}
+          </ul>
+        </li>`;
     }).join('');
 }
 
@@ -396,6 +450,7 @@ function navFree () {
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right" style="display:flex; align-items:center; gap:8px;">
+        <a href="${getPrefix()}courses/index.html" class="nav-find-course-cta" style="background:var(--sage-deep, #233827); color:#ffffff; font-weight:700; font-size:0.82rem; padding:8px 14px; border-radius:100px; text-decoration:none; white-space:nowrap; min-height:44px; display:inline-flex; align-items:center; gap:4px;">🔍 Find your course</a>
         <a href="${loginHref}" class="nav-login" data-translate-key="nav_login" data-i18n="nav.login">${t('login', '🔐 Log in')}</a>
         <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" rel="noopener" data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', '💬 Contact us')}</a>
         <div class="cosy-lang-dropdown-wrap" style="position:relative;">
@@ -594,16 +649,32 @@ function mobileMenuHTML (mode) {
     const loginHref = getNavHref('login');
     const pinnedLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.pinnedLang') || localStorage.getItem('cosy_ui_lang'))) || 'en';
 
-    const freeItems = NAV_CONFIG.free || [];
+    const pillars = NAV_PILLARS || [];
 
-    const linksHtml = freeItems.map(item => {
-        const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
-        const label = t(item.key, fallbackLabel);
-        const href = getNavHref(item.hrefKey || item.key);
-        const isExternal = href.startsWith('http://') || href.startsWith('https://');
-        const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
-        return `<a href="${href}" ${targetAttr} class="cosy-mobile-nav-link" data-translate-key="nav_${item.key}" data-i18n="nav.${item.key}">${item.icon ? item.icon + ' ' : ''}${label}</a>`;
-    }).join('\n      ');
+    const pillarsHtml = pillars.map(p => {
+        const pLabel = t(p.key, p.label);
+        const subLinks = p.items.map(sub => {
+            let subHref = sub.href;
+            if (!subHref.startsWith('http') && !subHref.endsWith('.html') && !subHref.includes('/')) {
+                subHref = getNavHref(sub.href);
+            } else if (!subHref.startsWith('http') && !subHref.startsWith('/')) {
+                subHref = getPrefix() + sub.href;
+            }
+            const isExt = subHref.startsWith('http');
+            const targetAttr = isExt ? ' target="_blank" rel="noopener"' : '';
+            return `<a href="${subHref}" ${targetAttr} class="cosy-mobile-sub-link" style="padding: 8px 12px 8px 28px; font-size: 0.88rem; color: var(--ink); display: flex; align-items: center; gap: 6px; text-decoration: none; min-height: 40px;">${sub.icon ? sub.icon + ' ' : ''}${sub.label}</a>`;
+        }).join('');
+
+        return `
+        <div class="cosy-mobile-pillar" style="margin-bottom: 8px;">
+          <div class="cosy-mobile-pillar-title" style="font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--sage-deep, #233827); padding: 6px 12px; background: var(--sage-pale, #e8f0e9); border-radius: 6px; display: flex; align-items: center; gap: 6px;">
+            ${p.icon ? p.icon + ' ' : ''}${pLabel}
+          </div>
+          <div class="cosy-mobile-pillar-sublinks" style="display: flex; flex-direction: column; gap: 2px; margin-top: 4px;">
+            ${subLinks}
+          </div>
+        </div>`;
+    }).join('');
 
     const langs = (typeof window !== 'undefined' && window.COSY_LANGUAGES && window.COSY_LANGUAGES.length)
         ? window.COSY_LANGUAGES
@@ -617,7 +688,8 @@ function mobileMenuHTML (mode) {
 
     return `
       <a href="${homeUrl}" class="cosy-mobile-nav-link" data-translate-key="nav_home" data-i18n="nav.home">🏡 ${t('home', 'Home')}</a>
-      ${linksHtml}
+      <a href="${getPrefix()}courses/index.html" class="cosy-mobile-nav-link" style="background:var(--sage-deep, #233827); color:#fff; font-weight:700; border-radius:100px; text-align:center; justify-content:center; margin: 4px 0;">🔍 Find your course</a>
+      ${pillarsHtml}
       <a href="${loginHref}" class="cosy-mobile-nav-link" data-translate-key="nav_login" data-i18n="nav.login">${t('login', '🔐 Log in')}</a>
 
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
