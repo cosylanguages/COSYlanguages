@@ -83,6 +83,7 @@ main#main-content {
   font-weight: 800;
   transition: all 0.2s ease;
   font-size: 1.1rem;
+  min-height: 48px;
 }
 
 .lang-option:hover {
@@ -111,6 +112,7 @@ main#main-content {
   text-align: left;
   cursor: pointer;
   transition: all 0.2s ease;
+  min-height: 48px;
 }
 
 .mode-option-btn:hover, .purpose-option-btn:hover {
@@ -169,6 +171,7 @@ main#main-content {
   cursor: pointer;
   transition: all 0.2s ease;
   color: var(--ink, #222222);
+  min-height: 48px;
 }
 
 .option-btn:hover {
@@ -207,7 +210,9 @@ main#main-content {
 .skill-tabs-nav {
   display: flex;
   gap: 0.5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   margin-bottom: 1.5rem;
   border-bottom: 2px solid var(--border);
   padding-bottom: 0.5rem;
@@ -221,6 +226,8 @@ main#main-content {
   background: var(--cream-dark);
   color: var(--ink-soft);
   cursor: default;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .skill-tab-pill.active {
@@ -376,6 +383,41 @@ main#main-content {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid var(--border);
+  gap: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  main#main-content {
+    padding-top: 70px !important;
+  }
+  .placement-container {
+    padding: 1.25rem 1rem;
+    margin: 1rem auto 2rem auto;
+    width: 95%;
+  }
+  .placement-title {
+    font-size: 1.6rem;
+  }
+  .placement-subtitle {
+    font-size: 0.95rem;
+  }
+  .onboarding-card {
+    padding: 1rem;
+  }
+  .lang-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mode-grid, .purpose-grid {
+    grid-template-columns: 1fr;
+  }
+  .navigation-bar {
+    flex-direction: column-reverse;
+    gap: 0.75rem;
+  }
+  .navigation-bar .btn {
+    width: 100%;
+  }
 }
 
 @media print {
