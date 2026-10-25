@@ -499,6 +499,29 @@
 
         const lang = langEl.value || 'en';
         const type = typeEl.value || 'general';
+
+        // Only offer the durations each course page actually lists
+        // (keep in sync with "Durations offered" in courses/*.html).
+        const DURATIONS_BY_COURSE = {
+            general: [60, 90],
+            spoken: [15, 30],
+            exam: [60, 90, 120],
+            travelling: [60, 90],
+            professional: [60, 90],
+            relocation: [60, 90],
+            // Groups: Spoken groups run 60 min, other group courses 90 or 120 min
+            group: [60, 90, 120]
+        };
+        const allowedDurations = DURATIONS_BY_COURSE[type] || [60, 90];
+        Array.prototype.forEach.call(durEl.options, function (opt) {
+            const ok = allowedDurations.indexOf(parseInt(opt.value, 10)) !== -1;
+            opt.hidden = !ok;
+            opt.disabled = !ok;
+        });
+        if (allowedDurations.indexOf(parseInt(durEl.value, 10)) === -1) {
+            // Prefer a standard 60-min lesson when available, else the longest offered
+            durEl.value = String(allowedDurations.indexOf(60) !== -1 ? 60 : allowedDurations[allowedDurations.length - 1]);
+        }
         const dur = parseInt(durEl.value || '60', 10);
         const packCount = parseInt(packEl.value || '1', 10);
         const cur = curEl.value || 'EUR';
@@ -560,7 +583,7 @@
 
         if (noteEl) {
             if (discount > 0) {
-                const savingsAmount = Math.round((singleLessonBase * packCount) - totalPriceEUR) * currObj.rate;
+                const savingsAmount = ((singleLessonBase * packCount) - totalPriceEUR) * currObj.rate;
                 noteEl.innerHTML = `<span style="display:inline-block; background:var(--sage-dark, #2b3e30); color:#fff; font-weight:800; padding:0.2rem 0.5rem; border-radius:4px; font-size:0.85rem; margin-right:0.4rem;">SAVE ${Math.round(discount * 100)}% OFF</span> Save ${currObj.symbol}${Math.round(savingsAmount)} with package pricing!`;
             } else {
                 noteEl.textContent = `Standard rate. Save up to 15% with 8+ lesson packs.`;
