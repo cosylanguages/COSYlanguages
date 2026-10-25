@@ -509,7 +509,8 @@
             travelling: [60, 90],
             professional: [60, 90],
             relocation: [60, 90],
-            group: [60, 90]
+            // Groups: Spoken groups run 60 min, other group courses 90 or 120 min
+            group: [60, 90, 120]
         };
         const allowedDurations = DURATIONS_BY_COURSE[type] || [60, 90];
         Array.prototype.forEach.call(durEl.options, function (opt) {
