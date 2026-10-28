@@ -9,6 +9,9 @@
   <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/comparative/index.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Interactive Comparative Language Atlas · COSYlanguages">
+  <meta name="twitter:description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Eurasiatic, Borean), grammar matrix, sound shifts, and transfer insights.">
+  <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
 <meta property="og:description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Eurasiatic, Borean), grammar matrix, sound shifts, and transfer insights.">
 <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
 <link rel="icon" href="../images/logos/cosylanguages.png">
@@ -666,14 +669,15 @@
     <!-- Comparative Research Insights Cards -->
     <div class="research-card-grid">
       <div class="research-card">
-        <h3>🧬 Nostratic &amp; Eurasiatic First Row</h3>
-        <p>In comparative linguistics (Illich-Svitych, Dolgopolsky, Greenberg), Nostratic branches into four primary clades: <strong>Afroasiatic</strong>, <strong>Kartvelian</strong>, <strong>Dravidian</strong>, and <strong>Eurasiatic</strong>.</p>
-        <p>The <strong>Eurasiatic clade</strong> encompasses Indo-European, Uralic, and Turkic (Altaic).</p>
+        <h3>🧬 Nostratic &amp; Eurasiatic</h3>
+        <p><strong>Nostratic</strong> and <strong>Eurasiatic</strong> are two related but distinct proposals, and neither is accepted by most historical linguists.</p>
+        <p><strong>Nostratic</strong> (Illich-Svitych, Dolgopolsky) groups <strong>Afroasiatic</strong>, <strong>Kartvelian</strong>, <strong>Dravidian</strong>, Indo-European, Uralic and Altaic. <strong>Eurasiatic</strong> (Greenberg) is narrower: it leaves out Afroasiatic, Kartvelian and Dravidian, and adds Koreanic, Japonic, Ainu, Nivkh, Chukotko-Kamchatkan and Eskimo-Aleut.</p>
+        <p>Altaic itself is disputed, since many linguists treat Turkic, Mongolic and Tungusic as unrelated families that share features through contact. Choose the <em>Consensus</em> model above for the mainstream view.</p>
       </div>
 
       <div class="research-card">
         <h3>🗣️ Reconstructed Pronoun Cognates</h3>
-        <p>A primary argument for Eurasiatic and Nostratic unity is the conservative stability of first-person (*m*) and second-person (*t*) pronominal stems:</p>
+        <p>A main argument for Eurasiatic and Nostratic unity is the recurring <em>m</em> (1st person) and <em>t</em> (2nd person) pronominal pattern. Singular forms are compared:</p>
         <table class="cognate-mini-table">
           <thead>
             <tr>
@@ -684,24 +688,24 @@
           </thead>
           <tbody>
             <tr>
-              <td><strong>Proto-Nostratic</strong></td>
-              <td>**mi*</td>
-              <td>**ti*</td>
+              <td><strong>Proto-Nostratic</strong> (reconstructed)</td>
+              <td><i>*mi</i></td>
+              <td><i>*ti</i></td>
             </tr>
             <tr>
               <td><strong>English (IE)</strong></td>
-              <td>Me / My</td>
-              <td>Thou / Thee</td>
+              <td>me <small>(oblique form; nominative "I" is unrelated)</small></td>
+              <td>thou / thee <small>(archaic; modern "you" is a different form)</small></td>
             </tr>
             <tr>
               <td><strong>Finnish (Uralic)</strong></td>
-              <td>Minä / Me</td>
-              <td>Sinä (*t- &gt; s-*) / Te</td>
+              <td>minä</td>
+              <td>sinä <small>(<i>t</i> &gt; <i>s</i> before <i>i</i>)</small></td>
             </tr>
             <tr>
               <td><strong>Turkish (Turkic)</strong></td>
-              <td>Ben (*m- &gt; b-*) / Biz</td>
-              <td>Sen (*t- &gt; s-*) / Siz</td>
+              <td>ben <small>(<i>m</i> &gt; <i>b</i>)</small></td>
+              <td>sen <small>(<i>t</i> &gt; <i>s</i>, proposed)</small></td>
             </tr>
           </tbody>
         </table>
@@ -709,7 +713,8 @@
 
       <div class="research-card">
         <h3>💡 Pedagogical Transfer Insights</h3>
-        <p>Understanding macro-family connections transforms language learning. When moving from English or French to Finnish or Turkish, recognizing shared Eurasiatic underlying structures (like agglutinative case markers and SOV/SVO word order shifts) speeds up mental mapping.</p>
+        <p>Shared ancestry does not make a language easier to learn. What helps learners is <em>typological</em> similarity, meaning how languages work today.</p>
+        <p>Finnish and Turkish both build words with suffix chains and case endings, which is very different from English or French, and both have vowel harmony. Their word orders differ (Turkish is mostly SOV, Finnish usually SVO), so don't assume one transfers to the other.</p>
       </div>
     </div>
   </section>
@@ -1521,7 +1526,7 @@
       badge.textContent = 'Kinship: Close Sisters';
       badge.style.background = '#2e7d32';
     } else if (totalSteps <= 5) {
-      badge.textContent = 'Kinship: Cousins (Eurasiatic)';
+      badge.textContent = 'Kinship: Cousins';
       badge.style.background = '#0288d1';
     } else {
       badge.textContent = 'Kinship: Distant Macro-Relatives';

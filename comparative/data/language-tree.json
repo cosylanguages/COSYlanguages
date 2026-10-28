@@ -29,7 +29,7 @@
       "native_name": "Borean Ancestor",
       "type": "super_root",
       "hypotheses": ["borean"],
-      "parents": {},
+      "parents": { "borean": null },
       "depth": 5,
       "pos": [0, 260, 0],
       "typology": {
@@ -146,7 +146,7 @@
         "case_system": "Dual/Plural + Accusative *-m*",
         "script": "Reconstructed"
       },
-      "summary": "Major Nostratic sub-clade proposed by Joseph Greenberg unifying Indo-European, Uralic, and Altaic/Turkic based on shared pronominal paradigms (*m* 'I', *t* 'you').",
+      "summary": "Proposed by Joseph Greenberg as a macro-family of Indo-European, Uralic, Altaic/Turkic and other northern Eurasian families, based on shared pronominal patterns (m- 'I', t- 'you'). Many Nostraticists treat it as the core branch of Nostratic; most historical linguists consider it unproven.",
       "cosy_status": "ancestral"
     },
     {
