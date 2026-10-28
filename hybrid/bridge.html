@@ -6,6 +6,9 @@
     <title>Bridge Tools 🔗 | Hybrid Learning — COSYlanguages</title>
     <meta name="description" content="Connect physical printables with digital practice. Generate QR codes for Leitner flashcards and explore COSYlanguages printable offline studio.">
     <meta property="og:title" content="Bridge Tools 🔗 | Hybrid Learning — COSYlanguages">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/hybrid/bridge.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
     <meta property="og:description" content="Generate printable QR codes linking paper cards directly to online audio, practice games, and Speaking Club sessions.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <link rel="icon" href="../images/logos/cosylanguages.png">
@@ -20,7 +23,7 @@
 <link rel="stylesheet" href="../css/modern.css">
 
     <!-- Client-side QRCode generator library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
 
     <style>
         .qr-widget-card {
@@ -359,10 +362,10 @@
 
 </footer>
 
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/engine.js"></script>
-<script src="../js/core/i18n.js"></script>
-<script src="../js/core/ui.js"></script>
+<script src="../js/data/languages.js" defer></script>
+<script src="../js/core/engine.js" defer></script>
+<script src="../js/core/i18n.js" defer></script>
+<script src="../js/core/ui.js" defer></script>
 
 <script>
     let qrcodeObj = null;
@@ -485,7 +488,7 @@
             </head>
             <body onload="window.print();window.close();">
                 <div class="card">
-                    <img src="${dataUrl}" alt="QR code label">
+                    <img src="${dataUrl}" alt="QR code label" decoding="async" loading="lazy">
                     <div class="brand">🏡 COSYlanguages Bridge Label</div>
                     <div class="url">${text}</div>
                 </div>
