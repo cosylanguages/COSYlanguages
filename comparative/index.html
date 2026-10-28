@@ -1531,6 +1531,27 @@
     renderTransferTips();
   }
 
+  const FAMILY_DESCRIPTIONS = {
+    'Germanic': 'West & North Germanic branch of the Indo-European family',
+    'Romance': 'Descended directly from Vulgar Latin across Southern & Western Europe',
+    'Slavic': 'East, West & South Slavic branch of the Indo-European family',
+    'Hellenic': 'Independent, ancient Hellenic branch of the Indo-European family',
+    'Armenian': 'Independent single-language primary branch of Indo-European',
+    'Kartvelian': 'Indigenous South Caucasian language family',
+    'Turkic': 'Eurasian language family characterized by agglutination and vowel harmony',
+    'Celtic': 'Insular & Continental Celtic branch of Indo-European featuring consonant mutation',
+    'Uralic': 'Eurasian language family including Finno-Ugric branches',
+    'Sino-Tibetan': 'Major East Asian family with tonal phonology and logographic scripts',
+    'Afroasiatic': 'Ancient macro-family spanning North Africa and Western Asia'
+  };
+
+  function getFamilyBadgeHtml(famName) {
+    if (!famName) return '';
+    const slug = famName.toLowerCase().replace(/[^a-z]/g, '');
+    const desc = FAMILY_DESCRIPTIONS[famName] || `${famName} language family`;
+    return `<span class="family-badge family-badge-${slug}" title="${desc}">${famName}</span>`;
+  }
+
   function renderFamilyControls() {
     const container = document.getElementById('family-groups-container');
     if (!container) return;
@@ -1552,7 +1573,7 @@
 
       groupEl.innerHTML = `
         <div class="comp-family-title">
-          <span>${famName}</span>
+          <span>${famName} ${getFamilyBadgeHtml(famName)}</span>
           <button type="button" class="comp-btn-chip ${isAllFamilySelected ? 'active' : ''}" onclick="toggleFamily('${famName}')">
             ${isAllFamilySelected ? 'Deselect Family' : 'Select Family'}
           </button>
@@ -1561,7 +1582,9 @@
           ${langs.map(l => `
             <div class="comp-lang-chip ${selectedLangCodes.has(l.code) ? 'selected' : ''}" onclick="toggleLang('${l.code}')">
               <span>${FLAG_MAP[l.code] || '🌐'}</span>
-              <span>${l.name_en} ${CORE_LANGS.has(l.code) ? '' : '<small style="opacity:0.75; font-size:0.7rem;">(Coming soon)</small>'}</span>
+              <span>${l.name_en}</span>
+              ${getFamilyBadgeHtml(l.family)}
+              ${CORE_LANGS.has(l.code) ? '' : '<small style="opacity:0.75; font-size:0.7rem; margin-left:0.2rem;">(Coming soon)</small>'}
             </div>
           `).join('')}
         </div>
@@ -1633,9 +1656,10 @@
       <tr>
         <th class="col-feature">Grammar Feature</th>
         ${selectedLangs.map(l => `
-          <th class="col-lang" title="${l.name_en} (${l.name_native})">
+          <th class="col-lang" title="${l.name_en} (${l.name_native}) - ${l.family || ''}">
             <div>${FLAG_MAP[l.code] || '🌐'}</div>
             <div style="font-size: 0.78rem; font-weight: 800; color: var(--sage-deep); text-transform: uppercase;">${l.code}${CORE_LANGS.has(l.code) ? '' : ' 🌱'}</div>
+            <div style="margin-top: 0.15rem;">${getFamilyBadgeHtml(l.family)}</div>
             ${CORE_LANGS.has(l.code) ? '' : '<div style="font-size: 0.65rem; color: var(--ink-soft); font-weight: normal;">Coming soon</div>'}
           </th>
         `).join('')}

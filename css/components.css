@@ -1964,6 +1964,109 @@ body.page-privacy .wa-fab,
   font-style: italic;
 }
 
+/* ─── Language Family Badges ─── */
+.family-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: 0.35rem;
+  cursor: help;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  user-select: none;
+}
+
+.family-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+/* Soft, distinct brand colors per language family */
+.family-badge-germanic {
+  background: var(--cosy-color-green-light, #E5F4EC);
+  color: var(--cosy-color-green, #4A6B50);
+  border: 1px solid rgba(74, 107, 80, 0.25);
+}
+
+.family-badge-romance {
+  background: var(--cosy-color-coral-light, #FAEEE8);
+  color: var(--cosy-color-coral, #B84318);
+  border: 1px solid rgba(184, 67, 24, 0.25);
+}
+
+.family-badge-slavic {
+  background: var(--cosy-color-blue-light, #EEF1FB);
+  color: var(--cosy-color-blue, #3A5298);
+  border: 1px solid rgba(58, 82, 152, 0.25);
+}
+
+.family-badge-hellenic {
+  background: var(--cosy-color-navy-light, #E8ECF5);
+  color: var(--cosy-color-navy, #1E2F6B);
+  border: 1px solid rgba(30, 47, 107, 0.25);
+}
+
+.family-badge-armenian {
+  background: var(--cosy-color-plum-light, #F5EDE0);
+  color: var(--cosy-color-plum, #7A5C3A);
+  border: 1px solid rgba(122, 92, 58, 0.25);
+}
+
+.family-badge-kartvelian {
+  background: var(--cosy-color-honey-pale, #FFF8E7);
+  color: var(--cosy-color-honey, #945E05);
+  border: 1px solid rgba(148, 94, 5, 0.25);
+}
+
+.family-badge-turkic {
+  background: var(--cosy-color-sage-light, #E8F0E9);
+  color: var(--cosy-color-sage-dark, #375742);
+  border: 1px solid rgba(55, 87, 66, 0.25);
+}
+
+.family-badge-celtic {
+  background: var(--cosy-color-rose-light, #FCEBEB);
+  color: var(--cosy-color-rose, #A32D2D);
+  border: 1px solid rgba(163, 45, 45, 0.25);
+}
+
+.family-badge-uralic {
+  background: #F0F4F8;
+  color: #2D5A7B;
+  border: 1px solid rgba(45, 90, 123, 0.25);
+}
+
+.family-badge-other {
+  background: var(--cosy-color-cream-dark, #F4EDE2);
+  color: var(--cosy-color-ink-soft, #4A4A4A);
+  border: 1px solid var(--border);
+}
+
+/* Dark mode overrides for family badges */
+html[data-theme="dark"] .family-badge-germanic,
+body.theme-dark .family-badge-germanic { background: #15241B; color: #64B574; }
+html[data-theme="dark"] .family-badge-romance,
+body.theme-dark .family-badge-romance { background: #2D1A15; color: #E57373; }
+html[data-theme="dark"] .family-badge-slavic,
+body.theme-dark .family-badge-slavic { background: #1A202D; color: #7986CB; }
+html[data-theme="dark"] .family-badge-hellenic,
+body.theme-dark .family-badge-hellenic { background: #141A29; color: #64B5F6; }
+html[data-theme="dark"] .family-badge-armenian,
+body.theme-dark .family-badge-armenian { background: #26201A; color: #FFB74D; }
+html[data-theme="dark"] .family-badge-kartvelian,
+body.theme-dark .family-badge-kartvelian { background: #2D2417; color: #FFD54F; }
+html[data-theme="dark"] .family-badge-turkic,
+body.theme-dark .family-badge-turkic { background: #1F2720; color: #81C784; }
+html[data-theme="dark"] .family-badge-celtic,
+body.theme-dark .family-badge-celtic { background: #2D1515; color: #E57373; }
+html[data-theme="dark"] .family-badge-uralic,
+body.theme-dark .family-badge-uralic { background: #18222A; color: #4FC3F7; }
+
 /* ─── Insight Card Component ─── */
 .insight-card {
   background: var(--honey-pale, #FFF8E7);
