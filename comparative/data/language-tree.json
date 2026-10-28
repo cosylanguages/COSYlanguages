@@ -1,0 +1,867 @@
+{
+  "hypotheses": [
+    {
+      "id": "nostratic",
+      "name": "Nostratic Macro-Family Hypothesis",
+      "period": "c. 15,000–12,000 BCE",
+      "description": "Macro-family proposal (Illich-Svitych, Dolgopolsky) unifying Afroasiatic, Kartvelian, Dravidian, and Eurasiatic (Indo-European, Uralic, Turkic/Altaic) under a common Upper Paleolithic ancestor.",
+      "root_id": "nostratic_root"
+    },
+    {
+      "id": "borean",
+      "name": "Borean Super-Phylum Hypothesis",
+      "period": "c. 20,000–15,000 BCE",
+      "description": "Hyper-hypothesis proposed by Harold Fleming and Sergei Starostin grouping Nostratic, Dené-Caucasian, Austric, and Amerind into a single Northern Hemisphere super-clade.",
+      "root_id": "borean_root"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus Comparative View",
+      "period": "Established Historical Linguistics",
+      "description": "Standard mainstream comparative model treating independently demonstrated language families (Indo-European, Uralic, Turkic, Kartvelian, Sino-Tibetan, Afroasiatic, Dravidian) as distinct phyla.",
+      "root_id": "consensus_root"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "borean_root",
+      "name": "Proto-Borean",
+      "native_name": "Borean Ancestor",
+      "type": "super_root",
+      "hypotheses": ["borean"],
+      "parents": {},
+      "depth": 5,
+      "pos": [0, 260, 0],
+      "typology": {
+        "word_order": "SOV (Reconstructed)",
+        "morphology": "Agglutinative / Synthetic",
+        "case_system": "Proto-Case System",
+        "script": "Pre-writing Oral"
+      },
+      "summary": "Hypothetical common ancestor of most language families in the Northern Hemisphere.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "nostratic_root",
+      "name": "Proto-Nostratic",
+      "native_name": "Nostratic Macro-Family",
+      "type": "root",
+      "hypotheses": ["nostratic", "borean"],
+      "parents": {
+        "nostratic": null,
+        "borean": "borean_root"
+      },
+      "depth": 4,
+      "pos": [0, 200, 0],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative / Active",
+        "case_system": "Active-Stative / Nominative",
+        "script": "Pre-writing Oral"
+      },
+      "summary": "Reconstructed macro-family root branching into Afroasiatic, Kartvelian, Dravidian, and Eurasiatic.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "afroasiatic",
+      "name": "Afroasiatic",
+      "native_name": "Hamito-Semitic",
+      "type": "family",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "nostratic_root",
+        "borean": "nostratic_root",
+        "consensus": "consensus_root"
+      },
+      "depth": 3,
+      "pos": [-180, 140, -80],
+      "typology": {
+        "word_order": "VSO / SVO",
+        "morphology": "Root-and-Pattern (Triconsonantal)",
+        "case_system": "Nominative-Accusative / Genitive",
+        "script": "Arabic / Hebrew / Ge'ez"
+      },
+      "summary": "First-tier branch of Nostratic (or independent phylum) covering North Africa and Southwest Asia.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "kartvelian",
+      "name": "Kartvelian",
+      "native_name": "South Caucasian",
+      "type": "family",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "nostratic_root",
+        "borean": "nostratic_root",
+        "consensus": "consensus_root"
+      },
+      "depth": 3,
+      "pos": [-100, 140, -120],
+      "typology": {
+        "word_order": "SOV / SVO",
+        "morphology": "Agglutinative / Polypersonal",
+        "case_system": "Split-Ergative (7 cases)",
+        "script": "Mkhedruli (Georgian)"
+      },
+      "summary": "First-tier Nostratic clade in the Caucasus, featuring polypersonal verb agreement.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "dravidian",
+      "name": "Dravidian",
+      "native_name": "South Asian Dravidian",
+      "type": "family",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "nostratic_root",
+        "borean": "nostratic_root",
+        "consensus": "consensus_root"
+      },
+      "depth": 3,
+      "pos": [140, 140, -100],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative",
+        "case_system": "8 cases",
+        "script": "Tamil / Telugu / Malayalam"
+      },
+      "summary": "First-tier Nostratic clade of the Indian subcontinent with strict SOV order and agglutination.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "eurasiatic",
+      "name": "Eurasiatic Clade",
+      "native_name": "Proto-Eurasiatic (Greenberg)",
+      "type": "macro_family",
+      "hypotheses": ["nostratic", "borean"],
+      "parents": {
+        "nostratic": "nostratic_root",
+        "borean": "nostratic_root"
+      },
+      "depth": 3,
+      "pos": [0, 140, 60],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative -> Fusional",
+        "case_system": "Dual/Plural + Accusative *-m*",
+        "script": "Reconstructed"
+      },
+      "summary": "Major Nostratic sub-clade proposed by Joseph Greenberg unifying Indo-European, Uralic, and Altaic/Turkic based on shared pronominal paradigms (*m* 'I', *t* 'you').",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "indo_european",
+      "name": "Indo-European",
+      "native_name": "Proto-Indo-European",
+      "type": "family",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "eurasiatic",
+        "borean": "eurasiatic",
+        "consensus": "consensus_root"
+      },
+      "depth": 2,
+      "pos": [-120, 80, 100],
+      "typology": {
+        "word_order": "SOV -> SVO",
+        "morphology": "Fusional / Inflected",
+        "case_system": "Nominative-Accusative (8 cases)",
+        "script": "Latin / Cyrillic / Greek / Armenian"
+      },
+      "summary": "Major Eurasiatic branch spanning Europe, Iran, and Northern India.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "uralic",
+      "name": "Uralic",
+      "native_name": "Proto-Uralic",
+      "type": "family",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "eurasiatic",
+        "borean": "eurasiatic",
+        "consensus": "consensus_root"
+      },
+      "depth": 2,
+      "pos": [30, 80, 120],
+      "typology": {
+        "word_order": "SOV / SVO",
+        "morphology": "Agglutinative",
+        "case_system": "Rich Case (12–30 cases)",
+        "script": "Latin / Cyrillic"
+      },
+      "summary": "Eurasiatic family characterized by vowel harmony and rich agglutinative case suffixes.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "turkic",
+      "name": "Turkic (Altaic)",
+      "native_name": "Türkic / Altaic Clade",
+      "type": "family",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "eurasiatic",
+        "borean": "eurasiatic",
+        "consensus": "consensus_root"
+      },
+      "depth": 2,
+      "pos": [120, 80, 80],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative",
+        "case_system": "Nominative-Accusative (6 cases)",
+        "script": "Cyrillic / Latin / Arabic"
+      },
+      "summary": "Eurasiatic agglutinative family with strict vowel harmony and suffixation.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "dene_caucasian_root",
+      "name": "Dené–Caucasian",
+      "native_name": "Dené–Caucasian Super-Family",
+      "type": "macro_family",
+      "hypotheses": ["borean"],
+      "parents": {
+        "borean": "borean_root"
+      },
+      "depth": 4,
+      "pos": [-200, 200, -120],
+      "typology": {
+        "word_order": "SOV / Variable",
+        "morphology": "Polysynthetic / Ergative",
+        "case_system": "Ergative-Absolutive",
+        "script": "Diverse"
+      },
+      "summary": "Proposed macro-family connecting Sino-Tibetan, North Caucasian, Basque, and Na-Dené.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "consensus_root",
+      "name": "Global World Languages",
+      "native_name": "Consensus Phyla",
+      "type": "root",
+      "hypotheses": ["consensus"],
+      "parents": {
+        "consensus": null
+      },
+      "depth": 4,
+      "pos": [0, 200, 0],
+      "typology": {
+        "word_order": "Diverse",
+        "morphology": "Diverse",
+        "case_system": "Diverse",
+        "script": "Diverse"
+      },
+      "summary": "Root container for consensus historical language families.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "sino_tibetan",
+      "name": "Sino-Tibetan",
+      "native_name": "Trans-Himalayan",
+      "type": "family",
+      "hypotheses": ["borean", "consensus"],
+      "parents": {
+        "borean": "dene_caucasian_root",
+        "consensus": "consensus_root"
+      },
+      "depth": 3,
+      "pos": [-220, 140, -160],
+      "typology": {
+        "word_order": "SVO / SOV",
+        "morphology": "Isolating / Tonal",
+        "case_system": "Particle-based",
+        "script": "Hanzi / Tibetan"
+      },
+      "summary": "Major East Asian family including Sinitic (Chinese) and Tibeto-Burman languages.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "germanic",
+      "name": "Germanic",
+      "native_name": "Germanic Sub-Family",
+      "type": "subfamily",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "indo_european",
+        "borean": "indo_european",
+        "consensus": "indo_european"
+      },
+      "depth": 1,
+      "pos": [-160, 30, 120],
+      "typology": {
+        "word_order": "SVO / V2",
+        "morphology": "Fusional (Strong/Weak verbs)",
+        "case_system": "Residual / 4 cases (German)",
+        "script": "Latin"
+      },
+      "summary": "Branch of Indo-European including English, German, Dutch, and Scandinavian languages.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "romance",
+      "name": "Romance",
+      "native_name": "Italic / Romance",
+      "type": "subfamily",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "indo_european",
+        "borean": "indo_european",
+        "consensus": "indo_european"
+      },
+      "depth": 1,
+      "pos": [-110, 30, 150],
+      "typology": {
+        "word_order": "SVO",
+        "morphology": "Fusional",
+        "case_system": "Prepositional (Nominal case loss)",
+        "script": "Latin"
+      },
+      "summary": "Evolved from Vulgar Latin, featuring rich verbal conjugation and noun gender systems.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "slavic",
+      "name": "Slavic",
+      "native_name": "Balto-Slavic",
+      "type": "subfamily",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "indo_european",
+        "borean": "indo_european",
+        "consensus": "indo_european"
+      },
+      "depth": 1,
+      "pos": [-50, 30, 130],
+      "typology": {
+        "word_order": "SVO (Flexible)",
+        "morphology": "Highly Fusional",
+        "case_system": "6–7 cases",
+        "script": "Cyrillic / Latin"
+      },
+      "summary": "Known for intricate verbal aspect (perfective/imperfective) and rich case morphology.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "hellenic",
+      "name": "Hellenic",
+      "native_name": "Greek Branch",
+      "type": "subfamily",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "indo_european",
+        "borean": "indo_european",
+        "consensus": "indo_european"
+      },
+      "depth": 1,
+      "pos": [-15, 30, 60],
+      "typology": {
+        "word_order": "SVO (Flexible)",
+        "morphology": "Fusional",
+        "case_system": "4 cases (Nom, Gen, Acc, Voc)",
+        "script": "Greek"
+      },
+      "summary": "Indo-European branch with 3,500+ years of documented written history.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "celtic",
+      "name": "Celtic",
+      "native_name": "Insular & Continental Celtic",
+      "type": "subfamily",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "indo_european",
+        "borean": "indo_european",
+        "consensus": "indo_european"
+      },
+      "depth": 1,
+      "pos": [-200, 30, 80],
+      "typology": {
+        "word_order": "VSO (Insular)",
+        "morphology": "Fusional / Initial Mutation",
+        "case_system": "Prepositional / Case forms",
+        "script": "Latin"
+      },
+      "summary": "Branch famous for initial consonant mutations and VSO word order.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "armenian_branch",
+      "name": "Armenian",
+      "native_name": "Armenian Branch",
+      "type": "subfamily",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "indo_european",
+        "borean": "indo_european",
+        "consensus": "indo_european"
+      },
+      "depth": 1,
+      "pos": [-70, 30, -20],
+      "typology": {
+        "word_order": "SOV / SVO",
+        "morphology": "Agglutinative influence / Fusional",
+        "case_system": "7 cases",
+        "script": "Armenian"
+      },
+      "summary": "Independent branch of Indo-European with unique phonology and script.",
+      "cosy_status": "ancestral"
+    },
+    {
+      "id": "en",
+      "name": "English",
+      "native_name": "English",
+      "type": "language",
+      "code": "en",
+      "flag": "🇬🇧",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "germanic",
+        "borean": "germanic",
+        "consensus": "germanic"
+      },
+      "depth": 0,
+      "pos": [-190, -30, 130],
+      "typology": {
+        "word_order": "SVO",
+        "morphology": "Analytic / Mildly Fusional",
+        "case_system": "Pronominal only (He/Him)",
+        "script": "Latin"
+      },
+      "summary": "Global lingua franca with Germanic core and heavy Romance/Latin vocabulary layer.",
+      "cosy_status": "core"
+    },
+    {
+      "id": "de",
+      "name": "German",
+      "native_name": "Deutsch",
+      "type": "language",
+      "code": "de",
+      "flag": "🇩🇪",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "germanic",
+        "borean": "germanic",
+        "consensus": "germanic"
+      },
+      "depth": 0,
+      "pos": [-140, -30, 130],
+      "typology": {
+        "word_order": "V2 / SOV in subordinate",
+        "morphology": "Fusional / Compound noun forming",
+        "case_system": "4 cases (Nom, Acc, Dat, Gen)",
+        "script": "Latin"
+      },
+      "summary": "Major West Germanic language with 3 grammatical genders and V2 word order.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "native_name": "Français",
+      "type": "language",
+      "code": "fr",
+      "flag": "🇫🇷",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "romance",
+        "borean": "romance",
+        "consensus": "romance"
+      },
+      "depth": 0,
+      "pos": [-130, -30, 170],
+      "typology": {
+        "word_order": "SVO",
+        "morphology": "Fusional",
+        "case_system": "No nominal cases",
+        "script": "Latin"
+      },
+      "summary": "Romance language with silent final letters, nasal vowels, and compulsory subject pronouns.",
+      "cosy_status": "core"
+    },
+    {
+      "id": "it",
+      "name": "Italian",
+      "native_name": "Italiano",
+      "type": "language",
+      "code": "it",
+      "flag": "🇮🇹",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "romance",
+        "borean": "romance",
+        "consensus": "romance"
+      },
+      "depth": 0,
+      "pos": [-100, -30, 170],
+      "typology": {
+        "word_order": "SVO (Null-subject)",
+        "morphology": "Fusional",
+        "case_system": "No nominal cases",
+        "script": "Latin"
+      },
+      "summary": "Closest major language to Latin with phonemic vowel length and musical rhythm.",
+      "cosy_status": "core"
+    },
+    {
+      "id": "es",
+      "name": "Spanish",
+      "native_name": "Español",
+      "type": "language",
+      "code": "es",
+      "flag": "🇪🇸",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "romance",
+        "borean": "romance",
+        "consensus": "romance"
+      },
+      "depth": 0,
+      "pos": [-115, -30, 190],
+      "typology": {
+        "word_order": "SVO (Null-subject)",
+        "morphology": "Fusional",
+        "case_system": "Prepositional 'a'",
+        "script": "Latin"
+      },
+      "summary": "World's second most spoken native language, featuring clear phonetic orthography.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "pt",
+      "name": "Portuguese",
+      "native_name": "Português",
+      "type": "language",
+      "code": "pt",
+      "flag": "🇵🇹",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "romance",
+        "borean": "romance",
+        "consensus": "romance"
+      },
+      "depth": 0,
+      "pos": [-85, -30, 190],
+      "typology": {
+        "word_order": "SVO (Null-subject)",
+        "morphology": "Fusional",
+        "case_system": "No nominal cases",
+        "script": "Latin"
+      },
+      "summary": "Iberian Romance language with personal infinitive and rich nasal diphthongs.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "ru",
+      "name": "Russian",
+      "native_name": "Русский",
+      "type": "language",
+      "code": "ru",
+      "flag": "🇷🇺",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "slavic",
+        "borean": "slavic",
+        "consensus": "slavic"
+      },
+      "depth": 0,
+      "pos": [-50, -30, 150],
+      "typology": {
+        "word_order": "SVO (Free)",
+        "morphology": "Highly Fusional",
+        "case_system": "6 cases",
+        "script": "Cyrillic"
+      },
+      "summary": "East Slavic language with distinction between hard and soft consonants and verbal aspect.",
+      "cosy_status": "core"
+    },
+    {
+      "id": "el",
+      "name": "Greek",
+      "native_name": "Ελληνικά",
+      "type": "language",
+      "code": "el",
+      "flag": "🇬🇷",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "hellenic",
+        "borean": "hellenic",
+        "consensus": "hellenic"
+      },
+      "depth": 0,
+      "pos": [-15, -30, 80],
+      "typology": {
+        "word_order": "SVO (Flexible)",
+        "morphology": "Fusional",
+        "case_system": "4 cases",
+        "script": "Greek"
+      },
+      "summary": "Independent IE branch providing foundation for European philosophical and scientific vocabulary.",
+      "cosy_status": "core"
+    },
+    {
+      "id": "br",
+      "name": "Breton",
+      "native_name": "Brezhoneg",
+      "type": "language",
+      "code": "br",
+      "flag": "🖤",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "celtic",
+        "borean": "celtic",
+        "consensus": "celtic"
+      },
+      "depth": 0,
+      "pos": [-210, -30, 80],
+      "typology": {
+        "word_order": "V2 / SVO / VSO",
+        "morphology": "Fusional / Initial Mutation",
+        "case_system": "No nominal cases",
+        "script": "Latin"
+      },
+      "summary": "Celtic language spoken in Brittany, France; sole Insular Celtic language on mainland Europe.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "hy",
+      "name": "Armenian",
+      "native_name": "Հայերեն",
+      "type": "language",
+      "code": "hy",
+      "flag": "🇦🇲",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "armenian_branch",
+        "borean": "armenian_branch",
+        "consensus": "armenian_branch"
+      },
+      "depth": 0,
+      "pos": [-70, -30, -20],
+      "typology": {
+        "word_order": "SOV / SVO",
+        "morphology": "Agglutinative / Fusional",
+        "case_system": "7 cases",
+        "script": "Armenian"
+      },
+      "summary": "Indo-European branch with 39-letter alphabet created by Mesrop Mashtots in 405 AD.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "ka",
+      "name": "Georgian",
+      "native_name": "ქართული",
+      "type": "language",
+      "code": "ka",
+      "flag": "🇬🇪",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "kartvelian",
+        "borean": "kartvelian",
+        "consensus": "kartvelian"
+      },
+      "depth": 0,
+      "pos": [-100, -30, -140],
+      "typology": {
+        "word_order": "SVO / SOV",
+        "morphology": "Agglutinative / Polypersonal",
+        "case_system": "7 cases (Ergative)",
+        "script": "Mkhedruli"
+      },
+      "summary": "Kartvelian language with unique Mkhedruli script and split-ergative verb alignment.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "tt",
+      "name": "Tatar",
+      "native_name": "Татарча",
+      "type": "language",
+      "code": "tt",
+      "flag": "🟢",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "turkic",
+        "borean": "turkic",
+        "consensus": "turkic"
+      },
+      "depth": 0,
+      "pos": [100, -30, 90],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative",
+        "case_system": "6 cases",
+        "script": "Cyrillic"
+      },
+      "summary": "Kipchak Turkic language of Tatarstan with strict vowel harmony and suffix stacking.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "ba",
+      "name": "Bashkir",
+      "native_name": "Башҡортса",
+      "type": "language",
+      "code": "ba",
+      "flag": "🔵",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "turkic",
+        "borean": "turkic",
+        "consensus": "turkic"
+      },
+      "depth": 0,
+      "pos": [130, -30, 90],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative",
+        "case_system": "6 cases",
+        "script": "Cyrillic"
+      },
+      "summary": "Kipchak Turkic language closely related to Tatar, featuring interdental consonants.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "cv",
+      "name": "Chuvash",
+      "native_name": "Чăвашла",
+      "type": "language",
+      "code": "cv",
+      "flag": "🔴",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "turkic",
+        "borean": "turkic",
+        "consensus": "turkic"
+      },
+      "depth": 0,
+      "pos": [150, -30, 60],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative",
+        "case_system": "8 cases",
+        "script": "Cyrillic"
+      },
+      "summary": "Oghur Turkic language—the sole surviving member of the Oghur Turkic branch.",
+      "cosy_status": "extended"
+    },
+    {
+      "id": "fi",
+      "name": "Finnish",
+      "native_name": "Suomi",
+      "type": "language",
+      "code": "fi",
+      "flag": "🇫🇮",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "uralic",
+        "borean": "uralic",
+        "consensus": "uralic"
+      },
+      "depth": 0,
+      "pos": [20, -30, 140],
+      "typology": {
+        "word_order": "SVO",
+        "morphology": "Agglutinative",
+        "case_system": "15 cases",
+        "script": "Latin"
+      },
+      "summary": "Finno-Ugric Uralic language renowned for rich case suffixation and lack of grammatical gender.",
+      "cosy_status": "world"
+    },
+    {
+      "id": "hu",
+      "name": "Hungarian",
+      "native_name": "Magyar",
+      "type": "language",
+      "code": "hu",
+      "flag": "🇭🇺",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "uralic",
+        "borean": "uralic",
+        "consensus": "uralic"
+      },
+      "depth": 0,
+      "pos": [50, -30, 140],
+      "typology": {
+        "word_order": "Topic-first / SVO",
+        "morphology": "Agglutinative",
+        "case_system": "18 cases",
+        "script": "Latin"
+      },
+      "summary": "Ugric Uralic language surrounded by Indo-European speakers in Central Europe.",
+      "cosy_status": "world"
+    },
+    {
+      "id": "tr",
+      "name": "Turkish",
+      "native_name": "Türkçe",
+      "type": "language",
+      "code": "tr",
+      "flag": "🇹🇷",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "turkic",
+        "borean": "turkic",
+        "consensus": "turkic"
+      },
+      "depth": 0,
+      "pos": [120, -30, 40],
+      "typology": {
+        "word_order": "SOV",
+        "morphology": "Agglutinative",
+        "case_system": "6 cases",
+        "script": "Latin"
+      },
+      "summary": "Oghuz Turkic language known for high regular agglutination and vowel harmony.",
+      "cosy_status": "world"
+    },
+    {
+      "id": "zh",
+      "name": "Mandarin Chinese",
+      "native_name": "普通话",
+      "type": "language",
+      "code": "zh",
+      "flag": "🇨🇳",
+      "hypotheses": ["borean", "consensus"],
+      "parents": {
+        "borean": "sino_tibetan",
+        "consensus": "sino_tibetan"
+      },
+      "depth": 0,
+      "pos": [-220, -30, -170],
+      "typology": {
+        "word_order": "SVO",
+        "morphology": "Isolating / Monosyllabic",
+        "case_system": "No inflectional cases",
+        "script": "Simplified Hanzi"
+      },
+      "summary": "Sino-Tibetan language with 4 lexical tones and morphosyntactic topic-prominence.",
+      "cosy_status": "world"
+    },
+    {
+      "id": "ar",
+      "name": "Arabic",
+      "native_name": "العربية",
+      "type": "language",
+      "code": "ar",
+      "flag": "🇸🇦",
+      "hypotheses": ["nostratic", "borean", "consensus"],
+      "parents": {
+        "nostratic": "afroasiatic",
+        "borean": "afroasiatic",
+        "consensus": "afroasiatic"
+      },
+      "depth": 0,
+      "pos": [-180, -30, -90],
+      "typology": {
+        "word_order": "VSO / SVO",
+        "morphology": "Root-and-Pattern (Triconsonantal)",
+        "case_system": "3 cases (MSA)",
+        "script": "Arabic"
+      },
+      "summary": "Semitic Afroasiatic language with rich root-and-pattern morphology across the Arab world.",
+      "cosy_status": "world"
+    }
+  ]
+}

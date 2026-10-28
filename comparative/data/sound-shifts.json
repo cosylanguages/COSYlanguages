@@ -1,0 +1,99 @@
+[
+  {
+    "id": "grimms_law",
+    "name": "Grimm's Law (Proto-Indo-European to Proto-Germanic)",
+    "period": "c. 1000–500 BCE",
+    "rule": "Voiceless stops *p, t, k* evolved into voiceless fricatives *f, th, h* in Germanic branches.",
+    "cognates": [
+      {
+        "meaning": "Father",
+        "pie": "*pətḗr",
+        "latin": "pater",
+        "greek": "patēr (πατήρ)",
+        "english": "father",
+        "german": "Vater [fa:tɐ]",
+        "french": "père"
+      },
+      {
+        "meaning": "Three",
+        "pie": "*tréyes",
+        "latin": "trēs",
+        "greek": "treis (τρεις)",
+        "english": "three",
+        "german": "drei",
+        "french": "trois"
+      },
+      {
+        "meaning": "Heart",
+        "pie": "*kḗrd",
+        "latin": "cor / cordis",
+        "greek": "kardía (καρδία)",
+        "english": "heart",
+        "german": "Herz",
+        "french": "cœur"
+      }
+    ]
+  },
+  {
+    "id": "nostratic_pronominal",
+    "name": "Nostratic / Eurasiatic Pronominal Retention",
+    "period": "c. 15,000–10,000 BCE",
+    "rule": "First-person *m-* and second-person *t-* pronominal consonants conserved across Indo-European, Uralic, and Turkic.",
+    "cognates": [
+      {
+        "meaning": "I / Me (1st Person)",
+        "pie": "*eǵ- / *me-",
+        "english": "me / my",
+        "french": "moi / me",
+        "russian": "меня (menya)",
+        "finnish": "minä / me",
+        "turkish": "ben (*m- > b-*) / biz"
+      },
+      {
+        "meaning": "You (2nd Person Singular)",
+        "pie": "*tū- / *te-",
+        "english": "thou / thee",
+        "french": "tu / toi",
+        "russian": "ты (ty)",
+        "finnish": "sinä (*t- > s-*) / te",
+        "turkish": "sen (*t- > s-*) / siz"
+      }
+    ]
+  },
+  {
+    "id": "uralic_vowel_harmony",
+    "name": "Eurasian Vowel Harmony & Suffix Agglutination",
+    "period": "Eurasiatic Typological Convergence",
+    "rule": "Front and back vowels cannot co-occur within a native root; suffixes alter vowel quality to match the stem.",
+    "cognates": [
+      {
+        "meaning": "In the house",
+        "language": "Finnish",
+        "stem": "talo (house)",
+        "suffix": "-ssa (In)",
+        "result": "talossa (In the house)"
+      },
+      {
+        "meaning": "In the forest",
+        "language": "Finnish",
+        "stem": "metsä (forest)",
+        "suffix": "-ssä (In)",
+        "result": "metsässä (In the forest)"
+      },
+      {
+        "meaning": "In the house",
+        "language": "Turkish",
+        "stem": "ev (house)",
+        "suffix": "-de (In)",
+        "result": "evde (In the house)"
+      },
+      {
+        "meaning": "In the room",
+        "language": "Turkish",
+        "stem": "oda (room)",
+        "suffix": "-da (In)",
+        "result": "odada (In the room)"
+      }
+    ]
+  }
+]
