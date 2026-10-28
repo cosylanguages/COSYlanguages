@@ -211,8 +211,17 @@
             roughness: 0.3,
             metalness: 0.2
           });
-        } else if (node.type === 'macro_family' || node.type === 'family') {
-          geometry = new THREE.DodecahedronGeometry(10, 1);
+        } else if (node.type === 'macro_family') {
+          geometry = new THREE.DodecahedronGeometry(11, 1);
+          color = 0xab47bc; // Purple macro family / Eurasiatic
+          material = new THREE.MeshStandardMaterial({
+            color: color,
+            emissive: 0x6a1b9a,
+            emissiveIntensity: 0.3,
+            roughness: 0.3
+          });
+        } else if (node.type === 'family') {
+          geometry = new THREE.DodecahedronGeometry(9.5, 1);
           color = 0x42a5f5; // Bright blue family
           material = new THREE.MeshStandardMaterial({
             color: color,
@@ -232,10 +241,10 @@
           // Language Leaf
           const isCore = node.cosy_status === 'core';
           geometry = new THREE.SphereGeometry(isCore ? 5.5 : 4.5, 16, 16);
-          color = isCore ? 0x66bb6a : 0xab47bc; // Green for COSY core, Purple for extended/world
+          color = isCore ? 0x66bb6a : 0xff7043; // Green for COSY core, Coral for extended/world
           material = new THREE.MeshStandardMaterial({
             color: color,
-            emissive: isCore ? 0x2e7d32 : 0x6a1b9a,
+            emissive: isCore ? 0x2e7d32 : 0xd84315,
             emissiveIntensity: 0.3
           });
         }
@@ -267,14 +276,15 @@
     createCurvedBranch(startVec, endVec, targetNodeType) {
       // Create smooth Bezier curve for trunk/branch
       const midVec = new THREE.Vector3().addVectors(startVec, endVec).multiplyScalar(0.5);
-      midVec.y += 15; // Natural arch
+      midVec.y += 12; // Natural arch
 
       const curve = new THREE.QuadraticBezierCurve3(startVec, midVec, endVec);
       const tubeRadius = (targetNodeType === 'family' || targetNodeType === 'macro_family') ? 1.8 : 0.9;
       const geometry = new THREE.TubeGeometry(curve, 20, tubeRadius, 8, false);
 
       let branchColor = 0x546e7a;
-      if (targetNodeType === 'family') branchColor = 0x78909c;
+      if (targetNodeType === 'macro_family') branchColor = 0x8e24aa;
+      else if (targetNodeType === 'family') branchColor = 0x78909c;
 
       const material = new THREE.MeshStandardMaterial({
         color: branchColor,
@@ -286,6 +296,21 @@
 
       const branchMesh = new THREE.Mesh(geometry, material);
       this.branchesGroup.add(branchMesh);
+    }
+
+    getAncestralBreadcrumbs(nodeId) {
+      if (!nodeId) return [];
+      const path = [];
+      let currentId = nodeId;
+
+      while (currentId) {
+        const node = this.nodesMap.get(currentId);
+        if (!node) break;
+        path.unshift(node);
+        currentId = node.parents[this.currentHypothesis];
+      }
+
+      return path;
     }
 
     highlightLineage(nodeId) {
@@ -323,7 +348,7 @@
         const start = new THREE.Vector3(...n1.pos);
         const end = new THREE.Vector3(...n2.pos);
         const mid = new THREE.Vector3().addVectors(start, end).multiplyScalar(0.5);
-        mid.y += 15;
+        mid.y += 12;
 
         const curve = new THREE.QuadraticBezierCurve3(start, mid, end);
         const tubeGeom = new THREE.TubeGeometry(curve, 24, 2.5, 8, false);
@@ -352,7 +377,8 @@
       this.targetCameraPos = new THREE.Vector3(x, y + 40, z + 120);
 
       if (this.options.onNodeSelect) {
-        this.options.onNodeSelect(node);
+        const breadcrumbs = this.getAncestralBreadcrumbs(nodeId);
+        this.options.onNodeSelect(node, breadcrumbs);
       }
     }
 

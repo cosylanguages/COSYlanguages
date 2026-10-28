@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Interactive Comparative Language Atlas · COSYlanguages</title>
-<meta name="description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Borean), grammar matrix, and transfer insights across world languages.">
+<meta name="description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Eurasiatic, Borean), grammar matrix, and transfer insights across world languages.">
 <meta property="og:title" content="Interactive Comparative Language Atlas · COSYlanguages">
-<meta property="og:description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Borean), grammar matrix, and transfer insights across world languages.">
+<meta property="og:description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Eurasiatic, Borean), grammar matrix, and transfer insights across world languages.">
 <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
 <link rel="icon" href="../images/logos/cosylanguages.png">
 <link rel="manifest" href="../manifest.json">
@@ -181,14 +181,14 @@
     bottom: 1rem;
     right: 1rem;
     z-index: 10;
-    background: rgba(15, 20, 25, 0.9);
+    background: rgba(15, 20, 25, 0.92);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     padding: 1.25rem;
     color: #ffffff;
-    width: 340px;
-    max-height: 80%;
+    width: 360px;
+    max-height: 82%;
     overflow-y: auto;
     box-shadow: 0 8px 32px rgba(0,0,0,0.4);
     display: none;
@@ -221,6 +221,16 @@
     text-transform: uppercase;
     background: #0288d1;
     color: #ffffff;
+  }
+
+  .inspector-breadcrumbs {
+    font-size: 0.76rem;
+    color: #ffd54f;
+    margin-bottom: 0.75rem;
+    background: rgba(255, 213, 79, 0.1);
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    line-height: 1.4;
   }
 
   .inspector-field {
@@ -268,6 +278,55 @@
 
   .taxonomy-node-header:hover {
     background: var(--border);
+  }
+
+  /* Educational Research Cards */
+  .research-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .research-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+
+  .research-card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .research-card p {
+    font-size: 0.88rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin: 0 0 0.75rem;
+  }
+
+  .cognate-mini-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin-top: 0.5rem;
+  }
+
+  .cognate-mini-table th, .cognate-mini-table td {
+    padding: 0.4rem;
+    border: 1px solid var(--border);
+    text-align: left;
+  }
+
+  .cognate-mini-table th {
+    background: var(--surface-soft, #f4efe6);
+    font-weight: 700;
   }
 
   /* Floating Hover Tooltip */
@@ -322,7 +381,7 @@
       Explore World Language Families
     </h1>
     <p style="font-size: 1.1rem; color: var(--ink-soft); line-height: 1.6; margin: 0 auto;">
-      Journey through 3D phylogenetic language trees, switch macro-family hypotheses (Nostratic, Borean, Consensus), compare grammar structures, and unlock transfer insights.
+      Journey through 3D phylogenetic language trees, switch macro-family hypotheses (Nostratic, Eurasiatic, Borean, Consensus), compare grammar structures, and unlock transfer insights.
     </p>
 
     <!-- Navigation View Switcher Tabs -->
@@ -353,9 +412,9 @@
       <div class="hud-control-panel">
         <div class="hud-title">Macro-Phylogenetic Hypothesis</div>
         <select id="hypothesis-select" class="hud-select" onchange="onHypothesisSelect(this.value)">
-          <option value="nostratic" selected>Nostratic Macro-Family (c. 15,000 BCE)</option>
-          <option value="borean">Borean Super-Phylum (c. 20,000 BCE)</option>
-          <option value="consensus">Consensus Historical Linguistics View</option>
+          <option value="nostratic" selected>Nostratic &amp; Eurasiatic Model (Illich-Svitych / Greenberg)</option>
+          <option value="borean">Borean Super-Phylum Model (Starostin / Fleming)</option>
+          <option value="consensus">Consensus Historical Linguistics Model</option>
         </select>
 
         <div class="hud-title">Search &amp; Camera Focus</div>
@@ -378,10 +437,12 @@
           </div>
           <button type="button" onclick="closeNodeInspector()" style="background:none; border:none; color:#fff; cursor:pointer; font-size:1.2rem;">&times;</button>
         </div>
-        <div style="margin-bottom: 0.75rem;">
+        <div style="margin-bottom: 0.5rem;">
           <span id="insp-type" class="inspector-tag">Language</span>
           <span id="insp-status" class="inspector-tag" style="background:#2e7d32; margin-left:0.25rem;">COSY Core</span>
         </div>
+
+        <div id="insp-breadcrumbs" class="inspector-breadcrumbs">Ancestral Path: -</div>
 
         <div class="inspector-field">
           <span class="inspector-label">Native / Endonym</span>
@@ -411,6 +472,56 @@
 
       <!-- 3D Canvas Mount Point -->
       <div id="tree-3d-canvas-container"></div>
+    </div>
+
+    <!-- Comparative Research Insights Cards -->
+    <div class="research-card-grid">
+      <div class="research-card">
+        <h3>🧬 Nostratic &amp; Eurasiatic First Row</h3>
+        <p>In comparative linguistics (Illich-Svitych, Dolgopolsky, Greenberg), Nostratic branches into four primary clades: <strong>Afroasiatic</strong>, <strong>Kartvelian</strong>, <strong>Dravidian</strong>, and <strong>Eurasiatic</strong>.</p>
+        <p>The <strong>Eurasiatic clade</strong> encompasses Indo-European, Uralic, and Turkic (Altaic).</p>
+      </div>
+
+      <div class="research-card">
+        <h3>🗣️ Reconstructed Pronoun Cognates</h3>
+        <p>A primary argument for Eurasiatic and Nostratic unity is the conservative stability of first-person (*m*) and second-person (*t*) pronominal stems:</p>
+        <table class="cognate-mini-table">
+          <thead>
+            <tr>
+              <th>Language / Family</th>
+              <th>1st Person ('I')</th>
+              <th>2nd Person ('You')</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Proto-Nostratic</strong></td>
+              <td>**mi*</td>
+              <td>**ti*</td>
+            </tr>
+            <tr>
+              <td><strong>English (IE)</strong></td>
+              <td>Me / My</td>
+              <td>Thou / Thee</td>
+            </tr>
+            <tr>
+              <td><strong>Finnish (Uralic)</strong></td>
+              <td>Minä / Me</td>
+              <td>Sinä (*t- &gt; s-*) / Te</td>
+            </tr>
+            <tr>
+              <td><strong>Turkish (Turkic)</strong></td>
+              <td>Ben (*m- &gt; b-*) / Biz</td>
+              <td>Sen (*t- &gt; s-*) / Siz</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="research-card">
+        <h3>💡 Pedagogical Transfer Insights</h3>
+        <p>Understanding macro-family connections transforms language learning. When moving from English or French to Finnish or Turkish, recognizing shared Eurasiatic underlying structures (like agglutinative case markers and SOV/SVO word order shifts) speeds up mental mapping.</p>
+      </div>
     </div>
   </section>
 
@@ -609,7 +720,7 @@
     }
   }
 
-  function handle3DNodeSelect(node) {
+  function handle3DNodeSelect(node, breadcrumbs) {
     const card = document.getElementById('node-inspector');
     card.style.display = 'block';
 
@@ -617,6 +728,12 @@
     document.getElementById('insp-name').textContent = node.name;
     document.getElementById('insp-type').textContent = node.type.replace('_', ' ');
     document.getElementById('insp-status').textContent = node.cosy_status || 'ancestry';
+
+    if (breadcrumbs && breadcrumbs.length > 0) {
+      document.getElementById('insp-breadcrumbs').innerHTML = '<strong>Clade Path:</strong> ' + breadcrumbs.map(b => b.name).join(' &rarr; ');
+    } else {
+      document.getElementById('insp-breadcrumbs').textContent = '';
+    }
 
     document.getElementById('insp-native').textContent = node.native_name || '-';
     document.getElementById('insp-word-order').textContent = node.typology?.word_order || 'N/A';
@@ -688,7 +805,6 @@
     const activeHypothesis = document.getElementById('hypothesis-select')?.value || 'nostratic';
     const activeNodes = treeData.nodes.filter(n => n.hypotheses.includes(activeHypothesis));
 
-    // Find root nodes
     const rootNodes = activeNodes.filter(n => n.parents[activeHypothesis] === null);
 
     const buildNodeHtml = (node) => {
