@@ -62,9 +62,9 @@
   },
   {
     "id": "uralic_vowel_harmony",
-    "name": "Eurasian Vowel Harmony & Suffix Agglutination",
-    "period": "Eurasiatic Typological Convergence",
-    "rule": "Front and back vowels cannot co-occur within a native root; suffixes alter vowel quality to match the stem.",
+    "name": "Vowel Harmony & Suffix Agglutination (typological feature)",
+    "period": "Shared typological feature, not a sound law and not evidence of kinship",
+    "rule": "In Finnish and Turkish, front and back vowels generally do not co-occur within a native root (with exceptions, e.g. Turkish anne), and suffix vowels change to match the stem.",
     "cognates": [
       {
         "meaning": "In the house",

@@ -148,19 +148,18 @@
         <h2>Third-Party Requests</h2>
         <p>The site's fonts (Fraunces, Literata and Commissioner) are served from this site itself, so reading a page does not send your address to Google or any other font provider. When you open or follow links on COSYlanguages, your browser can make requests to the following external domains:</p>
         <ul>
-            <li><strong>WhatsApp (`wa.me`):</strong> Contact links for student inquiries and course registration.</li>
-            <li><strong>Telegram (`t.me`):</strong> Public channel and direct message contact links.</li>
-            <li><strong>COSY Ecosystem Repositories (`cosylanguages.github.io`):</strong> Links and data fetches to companion ecosystem sites including COSYtools, COSYgames, COSYevents, COSYmanuals, COSYdata, and COSYplatform.</li>
-            <li><strong>Supabase (`iajkejcmoykubthlwfra.supabase.co`, sign-in only):</strong> The sign-in page sends the submitted email and password to Supabase Auth. After sign-in, it requests the account's `role` from the `profiles` table. The Supabase client can persist an authentication session in browser storage.</li>
-            <li><strong>jsDelivr (<code>cdn.jsdelivr.net</code>):</strong> Delivers the Supabase JavaScript client used by the sign-in page and the Three.js orbit-controls script used by the Comparative Atlas.</li>
-            <li><strong>cdnjs / Cloudflare (<code>cdnjs.cloudflare.com</code>, Comparative Atlas only):</strong> Delivers the Three.js library that draws the 3D language tree.</li>
+            <li><strong>WhatsApp (<code>wa.me</code>):</strong> Contact links for student inquiries and course registration.</li>
+            <li><strong>Telegram (<code>t.me</code>):</strong> Public channel and direct message contact links.</li>
+            <li><strong>COSY Ecosystem Repositories (<code>cosylanguages.github.io</code>):</strong> Links and data fetches to companion ecosystem sites including COSYtools, COSYgames, COSYevents, COSYmanuals, COSYdata, and COSYplatform.</li>
+            <li><strong>Supabase (<code>iajkejcmoykubthlwfra.supabase.co</code>, sign-in only):</strong> The sign-in page sends the submitted email and password to Supabase Auth. After sign-in, it requests the account's <code>role</code> from the <code>profiles</code> table. The Supabase client can persist an authentication session in browser storage.</li>
+            <li><strong>jsDelivr (<code>cdn.jsdelivr.net</code>, sign-in only):</strong> Delivers the Supabase JavaScript client used by the sign-in page. The 3D library used by the Comparative Atlas (Three.js) is served from this site itself.</li>
             <li><strong>Browser speech synthesis (Comparative Atlas):</strong> The audio pronunciation feature uses your browser's built-in text-to-speech. Depending on your browser and chosen voice, the text may be processed by your operating system or by the browser vendor's speech service.</li>
         </ul>
     </section>
 
     <section class="privacy-section">
         <h2>Local Storage &amp; Session Storage Usage</h2>
-        <p>COSYlanguages uses your browser's `localStorage` to preserve your learning state between visits. The stored keys include:</p>
+        <p>COSYlanguages uses your browser's <code>localStorage</code> to preserve your learning state between visits. The stored keys include:</p>
         <ul>
             <li><code class="storage-key">cosy-dict</code>: Saved vocabulary items in your personal notebook.</li>
             <li><code class="storage-key">cosy-mistakes</code>: Logged practice errors for targeted revision.</li>
@@ -175,8 +174,8 @@
     </section>
 
     <section class="privacy-section">
-        <h2>Service Worker Caching (`sw.js`)</h2>
-        <p>The site registers a service worker script (`sw.js`) operating under cache name `cosy-v5`. It uses a network-first strategy for HTML, CSS, and JS files, and a cache-first strategy for media assets (images, logos). This enables offline practice for cached static pages.</p>
+        <h2>Service Worker Caching (<code>sw.js</code>)</h2>
+        <p>The site registers a service worker script (<code>sw.js</code>) operating under cache name <code>cosy-hub-v1</code>. It uses a network-first strategy for HTML, CSS, and JS files, and a cache-first strategy for media assets (images, logos). This enables offline practice for cached static pages.</p>
     </section>
 
     <section class="privacy-section">
