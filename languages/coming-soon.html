@@ -30,6 +30,7 @@
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/languages/coming-soon.html">
   <meta property="og:title" content="COSYlanguages — Free Language Learning Platform">
   <meta property="og:description" content="Explore upcoming languages coming soon to COSYlanguages.">
+  <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
   <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/languages/coming-soon.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
@@ -111,10 +112,10 @@
 
 </footer>
 
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/engine.js"></script>
-<script src="../js/core/i18n.js"></script>
-<script src="../js/core/ui.js"></script>
+<script src="../js/data/languages.js" defer></script>
+<script src="../js/core/engine.js" defer></script>
+<script src="../js/core/i18n.js" defer></script>
+<script src="../js/core/ui.js" defer></script>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -124,7 +125,7 @@
         soonGrid.innerHTML = comingLangs.map(l => `
           <div class="lang-card-soon">
             <a href="${l.code}/" style="text-decoration:none; color:inherit; display:block;">
-              ${l.img && l.img !== 'cosylanguages.png' ? `<img src="../images/languages/${l.img}" alt="${l.name}">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
+              ${l.img && l.img !== 'cosylanguages.png' ? `<img src="../images/languages/${l.img}" alt="${l.name}" decoding="async" loading="lazy">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
               <div class="ls-name">${l.icon || ''} ${l.native}</div>
               <div class="cs-note" style="font-size:0.85rem; color:var(--ink-muted); margin:0.3rem 0;">Lessons coming soon</div>
             </a>
