@@ -21,6 +21,7 @@
 
       this.currentHeatmapMode = 'default';
       this.currentEpochFilter = 2000;
+      this.highlightedNodeIds = null;
 
       // Three.js objects
       this.scene = null;
@@ -175,6 +176,11 @@
       this.renderTreeForHypothesis(this.currentHypothesis);
     }
 
+    highlightMatchingNodes(matchingIds) {
+      this.highlightedNodeIds = matchingIds ? new Set(matchingIds) : null;
+      this.renderTreeForHypothesis(this.currentHypothesis);
+    }
+
     clearSceneGroups() {
       const clearGroup = (group) => {
         while (group.children.length > 0) {
@@ -199,6 +205,10 @@
     }
 
     getNodeColorForHeatmap(node) {
+      if (this.highlightedNodeIds && !this.highlightedNodeIds.has(node.id)) {
+        return 0x37474f; // Dim un-matched nodes
+      }
+
       if (this.currentHeatmapMode === 'word_order') {
         const wo = node.typology?.word_order || '';
         if (wo.includes('SOV')) return 0xef5350; // Red for SOV
@@ -266,7 +276,7 @@
         const material = new THREE.MeshStandardMaterial({
           color: color,
           emissive: color,
-          emissiveIntensity: 0.25,
+          emissiveIntensity: (this.highlightedNodeIds && this.highlightedNodeIds.has(node.id)) ? 0.8 : 0.25,
           roughness: 0.3,
           metalness: 0.2
         });
