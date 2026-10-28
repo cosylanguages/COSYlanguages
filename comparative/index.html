@@ -775,6 +775,9 @@
           </div>
         </div>
       </div>
+
+      <!-- Observations panel container below calculator -->
+      <div id="dist-observations-container" style="margin-top: 1.25rem;"></div>
     </div>
   </section>
 
@@ -826,6 +829,9 @@
         </table>
       </div>
     </div>
+
+    <!-- Observations panel container below matrix table -->
+    <div id="matrix-observations-container" style="margin-top: 1.25rem;"></div>
 
     <!-- Insight card container below comparison matrix table -->
     <div id="matrix-insight-container" style="margin-top: 1.5rem;"></div>
@@ -919,6 +925,123 @@
   let selectedLangCodes = new Set();
   let activeFeatureFilters = new Set();
   let tree3DInstance = null;
+
+  /**
+   * Dynamic Observation Engine
+   * Analyzes active language codes and produces between 2 and 5 concise observations.
+   * Gracefully returns [] if fewer than 2 valid observations exist.
+   */
+  function generateObservations(langCodes) {
+    if (!langCodes || langCodes.length === 0) return [];
+    const codeSet = new Set(langCodes);
+    const selectedLangs = languageMeta.filter(l => codeSet.has(l.code));
+    if (selectedLangs.length === 0) return [];
+
+    const candidateObs = [];
+
+    // Family counts & Latin / Native / Agglutinative roots analysis
+    const romanceLangs = selectedLangs.filter(l => l.family === 'Romance');
+    const germanicLangs = selectedLangs.filter(l => l.family === 'Germanic');
+    const turkicLangs = selectedLangs.filter(l => l.family === 'Turkic');
+    const slavicLangs = selectedLangs.filter(l => l.family === 'Slavic');
+
+    if (romanceLangs.length >= 2) {
+      candidateObs.push(`${romanceLangs.length} languages (${romanceLangs.map(l => l.name_en).join(', ')}) belong to the Romance family and share Latin-derived roots.`);
+    } else if (romanceLangs.length === 1 && selectedLangs.length >= 3) {
+      candidateObs.push(`${romanceLangs[0].name_en} is the sole Romance language in this set using Latin-derived roots.`);
+    }
+
+    if (turkicLangs.length >= 2) {
+      candidateObs.push(`${turkicLangs.length} languages (${turkicLangs.map(l => l.name_en).join(', ')}) use agglutinative native roots and vowel harmony.`);
+    }
+
+    if (germanicLangs.length >= 2) {
+      candidateObs.push(`${germanicLangs.length} languages (${germanicLangs.map(l => l.name_en).join(', ')}) belong to the Germanic family and share Grimm's Law sound shifts.`);
+    }
+
+    if (slavicLangs.length >= 2) {
+      candidateObs.push(`${slavicLangs.length} languages (${slavicLangs.map(l => l.name_en).join(', ')}) share close Slavic cognate roots and rich case systems.`);
+    }
+
+    // Specific language quirks & unique historical/structural features
+    if (codeSet.has('pt')) {
+      candidateObs.push('Portuguese is the only Romance language using numbered weekdays (segunda-feira, terça-feira) instead of Roman god names.');
+    }
+
+    if (codeSet.has('hy')) {
+      candidateObs.push('Armenian represents an independent primary branch of Indo-European with a unique alphabet and naming system.');
+    }
+
+    if (codeSet.has('ka')) {
+      candidateObs.push('Georgian belongs to the indigenous Kartvelian family, featuring complex consonant clusters and split ergativity.');
+    }
+
+    if (codeSet.has('el')) {
+      candidateObs.push('Greek forms its own independent Indo-European branch with over 3,000 years of unbroken written tradition.');
+    }
+
+    if (codeSet.has('br')) {
+      candidateObs.push('Breton is the only Celtic language spoken on mainland Europe, featuring initial consonant mutations.');
+    }
+
+    if (codeSet.has('cv') && (codeSet.has('tt') || codeSet.has('ba'))) {
+      candidateObs.push('Chuvash belongs to the Oghur Turkic branch, standing structurally apart from Common Turkic languages like Tatar and Bashkir.');
+    }
+
+    if (codeSet.has('tt') && codeSet.has('ba')) {
+      candidateObs.push('Tatar and Bashkir belong to the Kipchak Turkic sub-branch and share exceptionally high mutual intelligibility.');
+    }
+
+    if (codeSet.has('es') && codeSet.has('pt')) {
+      candidateObs.push('Spanish and Portuguese share ~89% lexical similarity, though their phonetic systems differ significantly.');
+    }
+
+    if (codeSet.has('en') && codeSet.has('de')) {
+      candidateObs.push('English and German are West Germanic sister languages that share fundamental core vocabulary despite English sound shifts.');
+    }
+
+    if (codeSet.has('ru') && slavicLangs.length >= 1) {
+      candidateObs.push('Russian shares close structural and cognate forms with other East Slavic languages.');
+    }
+
+    // Filter rule: strictly between 2 and 5 observations
+    if (candidateObs.length < 2) {
+      return [];
+    }
+
+    return candidateObs.slice(0, 5);
+  }
+
+  /**
+   * Component Renderer for "Interesting Observations" Panel
+   * Renders panel beneath comparisons or gracefully hides if observations < 2.
+   */
+  function renderObservationsPanel(containerId, langCodes) {
+    const el = typeof containerId === 'string' ? document.getElementById(containerId) : containerId;
+    if (!el) return;
+
+    const observations = generateObservations(langCodes);
+    if (!observations || observations.length < 2) {
+      el.innerHTML = '';
+      el.style.display = 'none';
+      return;
+    }
+
+    const html = `
+      <div class="observations-panel" role="region" aria-label="Interesting Observations">
+        <div class="observations-panel-header">
+          <span class="observations-panel-icon" aria-hidden="true">💡</span>
+          <h3 class="observations-panel-title">Interesting Observations</h3>
+        </div>
+        <ul class="observations-panel-list">
+          ${observations.map(obs => `<li>${obs}</li>`).join('')}
+        </ul>
+      </div>
+    `;
+
+    el.innerHTML = html;
+    el.style.display = 'block';
+  }
 
   /**
    * Reusable InsightCard Component Renderer
@@ -1401,6 +1524,10 @@
       badge.textContent = 'Kinship: Distant Macro-Relatives';
       badge.style.background = '#e65100';
     }
+
+    const langACode = nodeA.code || idA;
+    const langBCode = nodeB.code || idB;
+    renderObservationsPanel('dist-observations-container', [langACode, langBCode]);
   }
 
   /* ==================== 2D TAXONOMY RENDERING ==================== */
@@ -1674,11 +1801,13 @@
 
     if (selectedLangs.length === 0) {
       body.innerHTML = `<tr class="comp-no-data-row"><td colspan="100">Please select at least one language to view the comparative matrix.</td></tr>`;
+      renderObservationsPanel('matrix-observations-container', []);
       return;
     }
 
     if (items.length === 0) {
       body.innerHTML = `<tr class="comp-no-data-row"><td colspan="${selectedLangs.length + 1}">No grammar features found for this category.</td></tr>`;
+      renderObservationsPanel('matrix-observations-container', []);
       return;
     }
 
@@ -1715,6 +1844,7 @@
     `).join('');
 
     body.innerHTML = bodyHtml;
+    renderObservationsPanel('matrix-observations-container', Array.from(selectedLangCodes));
   }
 
   document.addEventListener('DOMContentLoaded', initComparativeAtlas);

@@ -2211,6 +2211,65 @@ body.theme-dark .insight-card-title {
   line-height: 1;
 }
 
+/* ─── Interesting Observations Panel ─── */
+.observations-panel {
+  background: var(--surface-soft, #FAF7F2);
+  border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
+  border-left: 4px solid var(--sage-deep, #2E5A44);
+  border-radius: var(--radius-sm, 12px);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  box-shadow: var(--shadow-sm, 0 2px 8px rgba(0, 0, 0, 0.04));
+}
+
+html[data-theme="dark"] .observations-panel,
+body.theme-dark .observations-panel {
+  background: #1D232A;
+  border-color: rgba(255, 255, 255, 0.12);
+  border-left-color: #81C784;
+}
+
+.observations-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.observations-panel-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.observations-panel-title {
+  font-family: var(--font-heading, var(--font-sans));
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--sage-deep, #2E5A44);
+  margin: 0;
+}
+
+html[data-theme="dark"] .observations-panel-title,
+body.theme-dark .observations-panel-title {
+  color: #A5D6A7;
+}
+
+.observations-panel-list {
+  margin: 0 0 0 1.2rem;
+  padding: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--ink-soft, #4A4A4A);
+}
+
+.observations-panel-list li {
+  margin-bottom: 0.35rem;
+}
+
+.observations-panel-list li:last-child {
+  margin-bottom: 0;
+}
+
 /* Jump links inside the language sticky header (single scrollable row) */
 .sd-jump-links{display:flex;gap:.4rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;min-width:0}
 .sd-jump-links::-webkit-scrollbar{display:none}
