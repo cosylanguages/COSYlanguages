@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Comparative Grammar Atlas · COSYlanguages</title>
-<meta name="description" content="Cross-linguistic comparative grammar matrix mapping A0–A1 grammar features across 14 languages in the COSYlanguages ecosystem.">
-<meta property="og:title" content="Comparative Grammar Atlas · COSYlanguages">
-<meta property="og:description" content="Cross-linguistic comparative grammar matrix mapping A0–A1 grammar features across 14 languages in the COSYlanguages ecosystem.">
+<title>Interactive Comparative Language Atlas · COSYlanguages</title>
+<meta name="description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Borean), grammar matrix, and transfer insights across world languages.">
+<meta property="og:title" content="Interactive Comparative Language Atlas · COSYlanguages">
+<meta property="og:description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Borean), grammar matrix, and transfer insights across world languages.">
 <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
 <link rel="icon" href="../images/logos/cosylanguages.png">
 <link rel="manifest" href="../manifest.json">
@@ -18,7 +18,273 @@
 <link rel="stylesheet" href="../css/layout.css">
 <link rel="stylesheet" href="../css/home.css">
 <link rel="stylesheet" href="../css/modern.css">
-    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/comparative/index.html">
+<link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/comparative/index.html">
+
+<!-- Three.js Libraries for 3D Tree Renderer -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+<style>
+  /* Extended Atlas Layout & Canvas Styling */
+  .atlas-hero {
+    background: linear-gradient(180deg, var(--surface) 0%, var(--surface-soft, #f4efe6) 100%);
+    padding: 3rem 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .atlas-view-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .atlas-tab-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 0.65rem 1.25rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .atlas-tab-btn:hover {
+    border-color: var(--sage-deep, #2e5a44);
+    color: var(--ink);
+  }
+
+  .atlas-tab-btn.active {
+    background: var(--sage-deep, #2e5a44);
+    color: #ffffff;
+    border-color: var(--sage-deep, #2e5a44);
+    box-shadow: 0 4px 12px rgba(46, 90, 68, 0.2);
+  }
+
+  .atlas-view-panel {
+    display: none;
+    margin-top: 1.5rem;
+  }
+
+  .atlas-view-panel.active {
+    display: block;
+  }
+
+  /* 3D Viewport Box */
+  .tree-3d-wrapper {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    background: #0f1419;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5), 0 10px 30px rgba(0,0,0,0.15);
+  }
+
+  #tree-3d-canvas-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Floating Overlay HUD Controls */
+  .hud-control-panel {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    background: rgba(15, 20, 25, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 1rem;
+    color: #ffffff;
+    max-width: 320px;
+  }
+
+  .hud-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #90caf9;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  .hud-select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    outline: none;
+  }
+
+  .hud-select option {
+    background: #1a2129;
+    color: #ffffff;
+  }
+
+  .hud-search-box {
+    position: relative;
+    margin-bottom: 0.75rem;
+  }
+
+  .hud-input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 0.88rem;
+    outline: none;
+  }
+
+  .hud-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .hud-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .hud-btn {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .hud-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  /* Node Inspector Drawer / Card */
+  .node-inspector-card {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 10;
+    background: rgba(15, 20, 25, 0.9);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 1.25rem;
+    color: #ffffff;
+    width: 340px;
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    display: none;
+  }
+
+  .inspector-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+  }
+
+  .inspector-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .inspector-tag {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #0288d1;
+    color: #ffffff;
+  }
+
+  .inspector-field {
+    margin-bottom: 0.6rem;
+    font-size: 0.88rem;
+    line-height: 1.4;
+  }
+
+  .inspector-label {
+    color: #90caf9;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 0.15rem;
+  }
+
+  /* 2D Taxonomy Collapsible Tree */
+  .taxonomy-2d-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+  }
+
+  .taxonomy-node-item {
+    margin-left: 1.25rem;
+    border-left: 2px dashed var(--border);
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .taxonomy-node-header {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 8px;
+    background: var(--surface-soft, #f4efe6);
+    cursor: pointer;
+    font-size: 0.92rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+  }
+
+  .taxonomy-node-header:hover {
+    background: var(--border);
+  }
+
+  /* Floating Hover Tooltip */
+  #tree-3d-tooltip {
+    position: fixed;
+    z-index: 1000;
+    pointer-events: none;
+    background: rgba(10, 14, 18, 0.95);
+    color: #ffffff;
+    padding: 0.5rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    display: none;
+  }
+</style>
 </head>
 <body>
 
@@ -28,7 +294,7 @@
 
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
-<!-- Sticky Header / Breadcrumbs -->
+<!-- Header Breadcrumbs -->
 <header class="sd-sticky-header" aria-label="Breadcrumb header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
@@ -36,90 +302,196 @@
       <span class="sep">/</span>
       <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Master Directory 🔒 (for students)</a>
       <span class="sep">/</span>
-      <span class="current">Comparative Matrix</span>
+      <span class="current">Comparative Atlas</span>
     </div>
   </div>
 </header>
 
-<!-- Hero Header Section -->
-<header aria-label="Header panel" style="background: var(--surface); padding: 3.5rem 1.5rem 2.5rem; text-align: center; border-bottom: 1px solid var(--border);">
-  <div style="max-width: 800px; margin: 0 auto;">
+<!-- Atlas Hero Header -->
+<header class="atlas-hero" aria-label="Atlas Header">
+  <div style="max-width: 900px; margin: 0 auto;">
     <div class="journey-roadmap-header" style="margin-bottom: 0.75rem;">
-      <span class="visual-journey-badge">🌐 Grammar Atlas</span>
+      <span class="visual-journey-badge">🌳 3D Language Tree</span>
       <span class="journey-connector-line"></span>
-      <span class="visual-journey-badge">💡 Transfer Insights</span>
+      <span class="visual-journey-badge">🧬 Macro-Hypotheses</span>
+      <span class="journey-connector-line"></span>
+      <span class="visual-journey-badge">🌐 Grammar Matrix</span>
     </div>
-    <span class="sec-tag">Comparative Grammar Atlas · Level A0–A1</span>
-    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); color: var(--ink); margin: 0.5rem 0 1rem; font-weight: 300;">
-      Compare Grammar Across 14 Languages
+    <span class="sec-tag">Interactive Comparative Atlas</span>
+    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3.2rem); color: var(--ink); margin: 0.5rem 0 1rem; font-weight: 300;">
+      Explore World Language Families
     </h1>
     <p style="font-size: 1.1rem; color: var(--ink-soft); line-height: 1.6; margin: 0 auto;">
-      See how grammar rules connect, contrast, and transfer across languages—so you can build on what you already know instead of starting from scratch every time.
+      Journey through 3D phylogenetic language trees, switch macro-family hypotheses (Nostratic, Borean, Consensus), compare grammar structures, and unlock transfer insights.
     </p>
+
+    <!-- Navigation View Switcher Tabs -->
+    <div class="atlas-view-tabs" role="tablist">
+      <button type="button" class="atlas-tab-btn active" role="tab" id="tab-3d-tree" onclick="switchAtlasView('3d-tree')">
+        <span>🌐 3D Spatial Tree</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-2d-taxonomy" onclick="switchAtlasView('2d-taxonomy')">
+        <span>🌿 2D Taxonomy Tree</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-matrix" onclick="switchAtlasView('matrix')">
+        <span>📊 Grammar Matrix</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-transfer" onclick="switchAtlasView('transfer')">
+        <span>💡 Transfer Insights</span>
+      </button>
+    </div>
   </div>
 </header>
 
-<main class="comp-container page">
+<main class="comp-container page" id="main-content">
 
-  <!-- Filter Controls Panel -->
-  <div class="comp-filter-panel">
-    <div class="comp-filter-header">
-      <h2>Filter Languages</h2>
-      <div class="comp-action-btns">
-        <button type="button" class="comp-btn-chip" id="btn-select-all" onclick="selectAllLangs()">Select All</button>
-        <button type="button" class="comp-btn-chip" id="btn-deselect-all" onclick="deselectAllLangs()">Deselect All</button>
+  <!-- ==================== 1. 3D SPATIAL TREE PANEL ==================== -->
+  <section id="panel-3d-tree" class="atlas-view-panel active" aria-label="3D Language Tree Viewport">
+    <div class="tree-3d-wrapper">
+
+      <!-- Overlay HUD Controls -->
+      <div class="hud-control-panel">
+        <div class="hud-title">Macro-Phylogenetic Hypothesis</div>
+        <select id="hypothesis-select" class="hud-select" onchange="onHypothesisSelect(this.value)">
+          <option value="nostratic" selected>Nostratic Macro-Family (c. 15,000 BCE)</option>
+          <option value="borean">Borean Super-Phylum (c. 20,000 BCE)</option>
+          <option value="consensus">Consensus Historical Linguistics View</option>
+        </select>
+
+        <div class="hud-title">Search &amp; Camera Focus</div>
+        <div class="hud-search-box">
+          <input type="text" id="tree-search-input" class="hud-input" placeholder="Search language or family..." oninput="onTreeSearchInput(this.value)">
+        </div>
+
+        <div class="hud-actions">
+          <button type="button" class="hud-btn" onclick="reset3DCamera()">Reset Camera</button>
+          <button type="button" class="hud-btn" onclick="toggleParticleRotation()">Toggle Motion</button>
+        </div>
+      </div>
+
+      <!-- Node Inspector Card Sidebar -->
+      <div id="node-inspector" class="node-inspector-card">
+        <div class="inspector-header">
+          <div class="inspector-title">
+            <span id="insp-flag">🌐</span>
+            <span id="insp-name">Language Name</span>
+          </div>
+          <button type="button" onclick="closeNodeInspector()" style="background:none; border:none; color:#fff; cursor:pointer; font-size:1.2rem;">&times;</button>
+        </div>
+        <div style="margin-bottom: 0.75rem;">
+          <span id="insp-type" class="inspector-tag">Language</span>
+          <span id="insp-status" class="inspector-tag" style="background:#2e7d32; margin-left:0.25rem;">COSY Core</span>
+        </div>
+
+        <div class="inspector-field">
+          <span class="inspector-label">Native / Endonym</span>
+          <span id="insp-native" style="font-weight: 600;">-</span>
+        </div>
+
+        <div class="inspector-field">
+          <span class="inspector-label">Typological Profile</span>
+          <div style="font-size: 0.82rem; color: #e0e0e0; background: rgba(255,255,255,0.05); padding: 0.5rem; border-radius: 6px; margin-top: 0.2rem;">
+            <div><strong>Word Order:</strong> <span id="insp-word-order">-</span></div>
+            <div><strong>Morphology:</strong> <span id="insp-morphology">-</span></div>
+            <div><strong>Case System:</strong> <span id="insp-cases">-</span></div>
+            <div><strong>Writing Script:</strong> <span id="insp-script">-</span></div>
+          </div>
+        </div>
+
+        <div class="inspector-field">
+          <span class="inspector-label">Summary &amp; Context</span>
+          <div id="insp-summary" style="font-size: 0.85rem; color: #cfd8dc;">-</div>
+        </div>
+
+        <div id="insp-links" style="margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.75rem; font-size: 0.85rem;">
+          <a id="insp-link-tools" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" style="color: #64b5f6; display: block; margin-bottom: 0.3rem;">🔎 Open in Reference Tools</a>
+          <a id="insp-link-manual" href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener" style="color: #81c784; display: block;">🔒 Student Manual</a>
+        </div>
+      </div>
+
+      <!-- 3D Canvas Mount Point -->
+      <div id="tree-3d-canvas-container"></div>
+    </div>
+  </section>
+
+  <!-- ==================== 2. 2D TAXONOMY TREE PANEL ==================== -->
+  <section id="panel-2d-taxonomy" class="atlas-view-panel" aria-label="2D Taxonomy Tree View">
+    <div class="taxonomy-2d-container">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <h2 style="margin:0; font-size: 1.4rem;">Taxonomic Hierarchy View</h2>
+          <p style="margin: 0.2rem 0 0; color: var(--ink-soft); font-size:0.9rem;">Collapsible 2D tree mapping ancestral descent and branch relationships.</p>
+        </div>
+        <button type="button" class="comp-btn-chip" onclick="toggleAll2DNodes()">Expand / Collapse All</button>
+      </div>
+
+      <div id="taxonomy-2d-tree-root"></div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. GRAMMAR MATRIX PANEL ==================== -->
+  <section id="panel-matrix" class="atlas-view-panel" aria-label="Comparative Grammar Matrix">
+    <div class="comp-filter-panel">
+      <div class="comp-filter-header">
+        <h2>Filter Languages &amp; Categories</h2>
+        <div class="comp-action-btns">
+          <button type="button" class="comp-btn-chip" id="btn-select-all" onclick="selectAllLangs()">Select All</button>
+          <button type="button" class="comp-btn-chip" id="btn-deselect-all" onclick="deselectAllLangs()">Deselect All</button>
+        </div>
+      </div>
+
+      <div id="family-groups-container"></div>
+
+      <div class="comp-filter-bar">
+        <label for="category-select">Filter by Category:</label>
+        <select id="category-select" class="comp-cat-select" onchange="renderMatrix()">
+          <option value="all">All Categories</option>
+        </select>
       </div>
     </div>
 
-    <!-- Family Groups Bar -->
-    <div id="family-groups-container"></div>
+    <div class="comp-matrix-wrapper">
+      <div class="comp-matrix-scroll-hint">
+        <span>↔ Scroll horizontally to compare features across languages</span>
+        <span style="font-size: 0.78rem; opacity: 0.85;">A0–A1 Comparative Matrix</span>
+      </div>
+      <div class="comp-matrix-scroll-container">
+        <table class="comp-matrix-table" id="matrix-table">
+          <thead id="matrix-head"></thead>
+          <tbody id="matrix-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 
-    <!-- Category Filter Bar -->
-    <div class="comp-filter-bar">
-      <label for="category-select">Filter by Category:</label>
-      <select id="category-select" class="comp-cat-select" onchange="renderMatrix()">
-        <option value="all">All Categories</option>
-      </select>
+  <!-- ==================== 4. TRANSFER INSIGHTS PANEL ==================== -->
+  <section id="panel-transfer" class="atlas-view-panel" aria-label="Linguistic Transfer Insights">
+    <div class="comp-filter-panel">
+      <div class="comp-filter-bar">
+        <label for="known-lang-select">💡 I already know...</label>
+        <select id="known-lang-select" class="comp-cat-select" onchange="renderTransferTips()">
+          <option value="">-- Select a language you know --</option>
+        </select>
+      </div>
     </div>
 
-    <!-- Known Language Transfer Tips Bar -->
-    <div class="comp-filter-bar">
-      <label for="known-lang-select">💡 I already know...</label>
-      <select id="known-lang-select" class="comp-cat-select" onchange="renderTransferTips()">
-        <option value="">-- Select a language you know --</option>
-      </select>
+    <div id="transfer-tips-box" class="comp-transfer-tips-panel" style="display:block;">
+      <div class="comp-transfer-header">
+        <h3 id="transfer-tips-title" class="comp-transfer-title">
+          💡 Cross-Linguistic Transfer Insights
+        </h3>
+        <button type="button" onclick="clearKnownLang()" class="comp-btn-chip">Clear Selection</button>
+      </div>
+      <div id="transfer-tips-list" class="comp-transfer-grid"></div>
     </div>
-  </div>
-
-  <!-- Transfer Tips Callout Box -->
-  <div id="transfer-tips-box" class="comp-transfer-tips-panel">
-    <div class="comp-transfer-header">
-      <h3 id="transfer-tips-title" class="comp-transfer-title">
-        💡 Linguistic Transfer Insights
-      </h3>
-      <button type="button" onclick="clearKnownLang()" class="comp-btn-chip">Clear</button>
-    </div>
-    <div id="transfer-tips-list" class="comp-transfer-grid"></div>
-  </div>
-
-  <!-- Comparative Matrix Table Wrapper -->
-  <div class="comp-matrix-wrapper">
-    <div class="comp-matrix-scroll-hint">
-      <span>↔ Scroll horizontally to compare all 14 languages</span>
-      <span style="font-size: 0.78rem; opacity: 0.85;">A0–A1 Feature Map</span>
-    </div>
-    <div class="comp-matrix-scroll-container">
-      <table class="comp-matrix-table" id="matrix-table">
-        <thead id="matrix-head"></thead>
-        <tbody id="matrix-body"></tbody>
-      </table>
-    </div>
-  </div>
+  </section>
 
 </main>
 
-<footer>
+<!-- Floating Mouseover Tooltip -->
+<div id="tree-3d-tooltip"></div>
 
+<footer>
   <div class="footer-inner">
     <div class="footer-brand">
       <div class="fb-logo">
@@ -131,12 +503,12 @@
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_courses">Courses</h3>
       <a href="../courses/index.html">All Courses 📖</a>
-      <a href="../courses/general.html" data-translate-key="course_general">General Course 📖</a>
-      <a href="../courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-      <a href="../courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
-      <a href="../courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
-      <a href="../courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
-      <a href="../courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+      <a href="../courses/general.html">General Course 📖</a>
+      <a href="../courses/spoken.html">Spoken Course 🗣️</a>
+      <a href="../courses/exam-preparation.html">Exam Preparation 📝</a>
+      <a href="../courses/travelling.html">Travelling Course ✈️</a>
+      <a href="../courses/professional.html">Professional Course 💼</a>
+      <a href="../courses/relocation.html">Relocation Course 🏡</a>
     </div>
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_explore">Explore</h3>
@@ -161,54 +533,213 @@
     </div>
   </div>
   <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
-
 </footer>
 
 <script src="../js/data/languages.js"></script>
 <script src="../js/core/engine.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/ui.js"></script>
+<script src="../js/comparative-3d.js"></script>
 <div id="toast"></div>
 
 <script>
   let languageMeta = [];
   let grammarInventory = [];
   let transferNotes = [];
+  let treeData = null;
   let selectedLangCodes = new Set();
+  let tree3DInstance = null;
 
   const CORE_LANGS = new Set(['en', 'fr', 'it', 'ru', 'el']);
 
   const FLAG_MAP = {
     en: '🇬🇧', fr: '🇫🇷', it: '🇮🇹', ru: '🇷🇺', el: '🇬🇷',
     es: '🇪🇸', de: '🇩🇪', pt: '🇵🇹', hy: '🇦🇲', ka: '🇬🇪',
-    tt: '🟢', ba: '🔵', br: '🖤', cv: '🔴'
+    tt: '🟢', ba: '🔵', br: '🖤', cv: '🔴', fi: '🇫🇮',
+    hu: '🇭🇺', tr: '🇹🇷', zh: '🇨🇳', ar: '🇸🇦'
   };
 
-  async function loadComparativeData() {
+  async function initComparativeAtlas() {
     try {
-      const [metaRes, invRes, notesRes] = await Promise.all([
+      const [metaRes, invRes, notesRes, treeRes] = await Promise.all([
         fetch('./data/language-meta.json'),
         fetch('./data/grammar-inventory.json'),
-        fetch('./data/transfer-notes.json')
+        fetch('./data/transfer-notes.json'),
+        fetch('./data/language-tree.json')
       ]);
+
       languageMeta = await metaRes.json();
       grammarInventory = await invRes.json();
       transferNotes = await notesRes.json();
+      treeData = await treeRes.json();
 
-      // Default: select all languages
       selectedLangCodes = new Set(languageMeta.map(l => l.code));
 
       renderFamilyControls();
       populateCategories();
       populateKnownLangs();
       renderMatrix();
+      renderTransferTips();
+      render2DTaxonomyTree();
+
+      // Initialize 3D Engine
+      if (window.LanguageTree3D) {
+        tree3DInstance = new window.LanguageTree3D('tree-3d-canvas-container', {
+          onNodeSelect: handle3DNodeSelect,
+          onNodeHover: handle3DNodeHover
+        });
+      }
     } catch (err) {
-      console.error('Failed to load comparative data:', err);
+      console.error('Failed to initialize Comparative Atlas:', err);
     }
   }
 
+  function switchAtlasView(tabId) {
+    document.querySelectorAll('.atlas-tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.atlas-view-panel').forEach(p => p.classList.remove('active'));
+
+    const activeTab = document.getElementById(`tab-${tabId}`);
+    const activePanel = document.getElementById(`panel-${tabId}`);
+
+    if (activeTab) activeTab.classList.add('active');
+    if (activePanel) activePanel.classList.add('active');
+
+    if (tabId === '3d-tree' && tree3DInstance) {
+      setTimeout(() => tree3DInstance.onWindowResize(), 100);
+    }
+  }
+
+  function handle3DNodeSelect(node) {
+    const card = document.getElementById('node-inspector');
+    card.style.display = 'block';
+
+    document.getElementById('insp-flag').textContent = node.flag || (node.type.includes('root') ? '👑' : '🌳');
+    document.getElementById('insp-name').textContent = node.name;
+    document.getElementById('insp-type').textContent = node.type.replace('_', ' ');
+    document.getElementById('insp-status').textContent = node.cosy_status || 'ancestry';
+
+    document.getElementById('insp-native').textContent = node.native_name || '-';
+    document.getElementById('insp-word-order').textContent = node.typology?.word_order || 'N/A';
+    document.getElementById('insp-morphology').textContent = node.typology?.morphology || 'N/A';
+    document.getElementById('insp-cases').textContent = node.typology?.case_system || 'N/A';
+    document.getElementById('insp-script').textContent = node.typology?.script || 'N/A';
+    document.getElementById('insp-summary').textContent = node.summary || '';
+
+    const langMeta = languageMeta.find(l => l.code === node.code);
+    const linkManual = document.getElementById('insp-link-manual');
+    if (langMeta && langMeta.manual_url) {
+      linkManual.href = langMeta.manual_url;
+      linkManual.style.display = 'block';
+    } else {
+      linkManual.style.display = 'none';
+    }
+  }
+
+  function handle3DNodeHover(node, event) {
+    const tooltip = document.getElementById('tree-3d-tooltip');
+    if (!node) {
+      tooltip.style.display = 'none';
+      return;
+    }
+
+    tooltip.style.display = 'block';
+    tooltip.style.left = (event.clientX + 15) + 'px';
+    tooltip.style.top = (event.clientY + 15) + 'px';
+    tooltip.innerHTML = `<strong>${node.flag || '🌳'} ${node.name}</strong> <span style="opacity:0.75; font-size:0.75rem;">(${node.type})</span>`;
+  }
+
+  function closeNodeInspector() {
+    document.getElementById('node-inspector').style.display = 'none';
+  }
+
+  function onHypothesisSelect(hypoId) {
+    if (tree3DInstance) {
+      tree3DInstance.setHypothesis(hypoId);
+    }
+    render2DTaxonomyTree();
+  }
+
+  function onTreeSearchInput(query) {
+    if (!tree3DInstance || !treeData) return;
+    const q = query.toLowerCase().trim();
+    if (!q) return;
+
+    const matched = treeData.nodes.find(n =>
+      n.name.toLowerCase().includes(q) ||
+      (n.native_name && n.native_name.toLowerCase().includes(q)) ||
+      (n.code && n.code.toLowerCase() === q)
+    );
+
+    if (matched) {
+      tree3DInstance.focusNode(matched.id);
+    }
+  }
+
+  function reset3DCamera() {
+    if (tree3DInstance) tree3DInstance.resetCameraView();
+    closeNodeInspector();
+  }
+
+  /* ==================== 2D TAXONOMY RENDERING ==================== */
+  function render2DTaxonomyTree() {
+    const container = document.getElementById('taxonomy-2d-tree-root');
+    if (!container || !treeData) return;
+
+    const activeHypothesis = document.getElementById('hypothesis-select')?.value || 'nostratic';
+    const activeNodes = treeData.nodes.filter(n => n.hypotheses.includes(activeHypothesis));
+
+    // Find root nodes
+    const rootNodes = activeNodes.filter(n => n.parents[activeHypothesis] === null);
+
+    const buildNodeHtml = (node) => {
+      const children = activeNodes.filter(n => n.parents[activeHypothesis] === node.id);
+      const flag = node.flag || (node.type.includes('root') ? '👑' : '🌳');
+
+      return `
+        <div class="taxonomy-node-item">
+          <div class="taxonomy-node-header" onclick="toggleTaxonomyNode(this)">
+            <span>${children.length > 0 ? '▼' : '•'}</span>
+            <span>${flag} ${node.name}</span>
+            <small style="opacity:0.7; font-size:0.75rem;">(${node.type})</small>
+          </div>
+          ${children.length > 0 ? `
+            <div class="taxonomy-node-children">
+              ${children.map(c => buildNodeHtml(c)).join('')}
+            </div>
+          ` : ''}
+        </div>
+      `;
+    };
+
+    container.innerHTML = rootNodes.map(r => buildNodeHtml(r)).join('');
+  }
+
+  function toggleTaxonomyNode(headerEl) {
+    const childrenEl = headerEl.nextElementSibling;
+    if (childrenEl && childrenEl.classList.contains('taxonomy-node-children')) {
+      if (childrenEl.style.display === 'none') {
+        childrenEl.style.display = 'block';
+        headerEl.querySelector('span').textContent = '▼';
+      } else {
+        childrenEl.style.display = 'none';
+        headerEl.querySelector('span').textContent = '▶';
+      }
+    }
+  }
+
+  function toggleAll2DNodes() {
+    const allChildren = document.querySelectorAll('.taxonomy-node-children');
+    const isAnyHidden = Array.from(allChildren).some(c => c.style.display === 'none');
+
+    allChildren.forEach(c => {
+      c.style.display = isAnyHidden ? 'block' : 'none';
+    });
+  }
+
+  /* ==================== GRAMMAR MATRIX & TRANSFER ==================== */
   function populateKnownLangs() {
     const select = document.getElementById('known-lang-select');
+    if (!select) return;
     languageMeta.forEach(l => {
       const opt = document.createElement('option');
       opt.value = l.code;
@@ -218,28 +749,42 @@
   }
 
   function renderTransferTips() {
-    const knownCode = document.getElementById('known-lang-select').value;
+    const knownCode = document.getElementById('known-lang-select')?.value;
     const tipsBox = document.getElementById('transfer-tips-box');
     const tipsList = document.getElementById('transfer-tips-list');
     const tipsTitle = document.getElementById('transfer-tips-title');
 
     if (!knownCode) {
-      tipsBox.style.display = 'none';
+      tipsTitle.innerHTML = `💡 All Cataloged Transfer Insights`;
+      tipsList.innerHTML = transferNotes.map(note => {
+        const targetLang = languageMeta.find(l => l.code === note.target_language);
+        const knownLang = languageMeta.find(l => l.code === note.known_language);
+        const targetName = targetLang ? targetLang.name_en : note.target_language.toUpperCase();
+        const knownName = knownLang ? knownLang.name_en : note.known_language.toUpperCase();
+
+        return `
+          <div class="comp-transfer-card">
+            <div class="comp-transfer-card-header">
+              <span>${FLAG_MAP[note.known_language] || '🌐'} Knowing ${knownName} → ${FLAG_MAP[note.target_language] || '🌐'} Learning ${targetName}:</span>
+            </div>
+            <div class="comp-transfer-card-body">
+              ${note.note}
+            </div>
+          </div>
+        `;
+      }).join('');
       return;
     }
 
     const knownLang = languageMeta.find(l => l.code === knownCode);
     const matchingNotes = transferNotes.filter(n => n.known_language === knownCode);
 
+    tipsTitle.innerHTML = `💡 Transfer Insights when you know ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
+
     if (matchingNotes.length === 0) {
-      tipsBox.style.display = 'block';
-      tipsTitle.innerHTML = `💡 Transfer Insights for ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
       tipsList.innerHTML = `<div style="grid-column: 1 / -1; color: var(--ink-soft); font-style: italic;">No specific transfer notes cataloged for this language yet.</div>`;
       return;
     }
-
-    tipsBox.style.display = 'block';
-    tipsTitle.innerHTML = `💡 Transfer Insights when you know ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
 
     tipsList.innerHTML = matchingNotes.map(note => {
       const targetLang = languageMeta.find(l => l.code === note.target_language);
@@ -266,9 +811,9 @@
 
   function renderFamilyControls() {
     const container = document.getElementById('family-groups-container');
+    if (!container) return;
     container.innerHTML = '';
 
-    // Group languages by family
     const families = {};
     languageMeta.forEach(lang => {
       const fam = lang.family || 'Other';
@@ -305,6 +850,7 @@
 
   function populateCategories() {
     const catSelect = document.getElementById('category-select');
+    if (!catSelect) return;
     const categories = Array.from(new Set(grammarInventory.map(item => item.category))).sort();
 
     categories.forEach(cat => {
@@ -356,11 +902,11 @@
   function renderMatrix() {
     const head = document.getElementById('matrix-head');
     const body = document.getElementById('matrix-body');
-    const selectedCategory = document.getElementById('category-select').value;
+    if (!head || !body) return;
 
+    const selectedCategory = document.getElementById('category-select').value;
     const selectedLangs = languageMeta.filter(l => selectedLangCodes.has(l.code));
 
-    // Render Table Header
     let headHtml = `
       <tr>
         <th class="col-feature">Grammar Feature</th>
@@ -375,7 +921,6 @@
     `;
     head.innerHTML = headHtml;
 
-    // Filter Items
     let items = grammarInventory;
     if (selectedCategory !== 'all') {
       items = items.filter(item => item.category === selectedCategory);
@@ -391,7 +936,6 @@
       return;
     }
 
-    // Render Rows
     let bodyHtml = items.map(item => `
       <tr>
         <td class="col-feature">
@@ -427,7 +971,7 @@
     body.innerHTML = bodyHtml;
   }
 
-  document.addEventListener('DOMContentLoaded', loadComparativeData);
+  document.addEventListener('DOMContentLoaded', initComparativeAtlas);
 </script>
 
 </body>
