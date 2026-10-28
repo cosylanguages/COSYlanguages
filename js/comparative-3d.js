@@ -19,6 +19,9 @@
       this.selectedNodeId = null;
       this.hoveredNodeId = null;
 
+      this.currentHeatmapMode = 'default';
+      this.currentEpochFilter = 2000;
+
       // Three.js objects
       this.scene = null;
       this.camera = null;
@@ -162,6 +165,16 @@
       }
     }
 
+    setHeatmapMode(mode) {
+      this.currentHeatmapMode = mode;
+      this.renderTreeForHypothesis(this.currentHypothesis);
+    }
+
+    setEpochFilter(epochYear) {
+      this.currentEpochFilter = epochYear;
+      this.renderTreeForHypothesis(this.currentHypothesis);
+    }
+
     clearSceneGroups() {
       const clearGroup = (group) => {
         while (group.children.length > 0) {
@@ -185,11 +198,49 @@
       this.interactiveMeshes.clear();
     }
 
+    getNodeColorForHeatmap(node) {
+      if (this.currentHeatmapMode === 'word_order') {
+        const wo = node.typology?.word_order || '';
+        if (wo.includes('SOV')) return 0xef5350; // Red for SOV
+        if (wo.includes('SVO')) return 0x42a5f5; // Blue for SVO
+        if (wo.includes('VSO') || wo.includes('V2')) return 0x66bb6a; // Green for VSO/V2
+        return 0xb0bec5;
+      }
+
+      if (this.currentHeatmapMode === 'morphology') {
+        const morph = node.typology?.morphology || '';
+        if (morph.includes('Agglutinative')) return 0xab47bc; // Purple for Agglutinative
+        if (morph.includes('Fusional')) return 0xffa726; // Orange for Fusional
+        if (morph.includes('Isolating')) return 0x26a69a; // Teal for Isolating
+        return 0xb0bec5;
+      }
+
+      // Default Phylogeny Mode
+      if (node.type === 'super_root' || node.type === 'root') return 0xffa726;
+      if (node.type === 'macro_family') return 0xab47bc;
+      if (node.type === 'family') return 0x42a5f5;
+      if (node.type === 'subfamily') return 0x26a69a;
+      return node.cosy_status === 'core' ? 0x66bb6a : 0xff7043;
+    }
+
+    getNodeEraYear(node) {
+      if (node.type === 'super_root') return -20000;
+      if (node.type === 'root') return -15000;
+      if (node.type === 'macro_family') return -9000;
+      if (node.type === 'family') return -4500;
+      if (node.type === 'subfamily') return -1500;
+      return 500; // Languages
+    }
+
     renderTreeForHypothesis(hypothesisId) {
       this.clearSceneGroups();
 
-      // Filter nodes relevant to this hypothesis
-      this.activeNodes = this.treeData.nodes.filter(node => node.hypotheses.includes(hypothesisId));
+      // Filter nodes relevant to this hypothesis and epoch
+      this.activeNodes = this.treeData.nodes.filter(node => {
+        const inHypo = node.hypotheses.includes(hypothesisId);
+        const era = this.getNodeEraYear(node);
+        return inHypo && era <= this.currentEpochFilter;
+      });
 
       const activeNodeIds = new Set(this.activeNodes.map(n => n.id));
 
@@ -199,55 +250,26 @@
         const [x, y, z] = node.pos;
 
         // Create Node Mesh
-        let geometry, material, color;
+        let geometry;
+        const color = this.getNodeColorForHeatmap(node);
 
         if (node.type === 'super_root' || node.type === 'root') {
           geometry = new THREE.IcosahedronGeometry(14, 2);
-          color = 0xffa726; // Warm amber/gold root
-          material = new THREE.MeshStandardMaterial({
-            color: color,
-            emissive: 0xff6f00,
-            emissiveIntensity: 0.4,
-            roughness: 0.3,
-            metalness: 0.2
-          });
-        } else if (node.type === 'macro_family') {
-          geometry = new THREE.DodecahedronGeometry(11, 1);
-          color = 0xab47bc; // Purple macro family / Eurasiatic
-          material = new THREE.MeshStandardMaterial({
-            color: color,
-            emissive: 0x6a1b9a,
-            emissiveIntensity: 0.3,
-            roughness: 0.3
-          });
-        } else if (node.type === 'family') {
-          geometry = new THREE.DodecahedronGeometry(9.5, 1);
-          color = 0x42a5f5; // Bright blue family
-          material = new THREE.MeshStandardMaterial({
-            color: color,
-            emissive: 0x1565c0,
-            emissiveIntensity: 0.3,
-            roughness: 0.4
-          });
+        } else if (node.type === 'macro_family' || node.type === 'family') {
+          geometry = new THREE.DodecahedronGeometry(node.type === 'macro_family' ? 11 : 9.5, 1);
         } else if (node.type === 'subfamily') {
           geometry = new THREE.SphereGeometry(7, 16, 16);
-          color = 0x26a69a; // Teal sub-family
-          material = new THREE.MeshStandardMaterial({
-            color: color,
-            emissive: 0x00695c,
-            emissiveIntensity: 0.2
-          });
         } else {
-          // Language Leaf
-          const isCore = node.cosy_status === 'core';
-          geometry = new THREE.SphereGeometry(isCore ? 5.5 : 4.5, 16, 16);
-          color = isCore ? 0x66bb6a : 0xff7043; // Green for COSY core, Coral for extended/world
-          material = new THREE.MeshStandardMaterial({
-            color: color,
-            emissive: isCore ? 0x2e7d32 : 0xd84315,
-            emissiveIntensity: 0.3
-          });
+          geometry = new THREE.SphereGeometry(node.cosy_status === 'core' ? 5.5 : 4.5, 16, 16);
         }
+
+        const material = new THREE.MeshStandardMaterial({
+          color: color,
+          emissive: color,
+          emissiveIntensity: 0.25,
+          roughness: 0.3,
+          metalness: 0.2
+        });
 
         const mesh = new THREE.Mesh(geometry, material);
         mesh.position.set(x, y, z);
@@ -274,9 +296,8 @@
     }
 
     createCurvedBranch(startVec, endVec, targetNodeType) {
-      // Create smooth Bezier curve for trunk/branch
       const midVec = new THREE.Vector3().addVectors(startVec, endVec).multiplyScalar(0.5);
-      midVec.y += 12; // Natural arch
+      midVec.y += 12;
 
       const curve = new THREE.QuadraticBezierCurve3(startVec, midVec, endVec);
       const tubeRadius = (targetNodeType === 'family' || targetNodeType === 'macro_family') ? 1.8 : 0.9;
@@ -314,7 +335,6 @@
     }
 
     highlightLineage(nodeId) {
-      // Clear previous highlights
       while (this.highlightGroup.children.length > 0) {
         const child = this.highlightGroup.children[0];
         this.highlightGroup.remove(child);
@@ -324,7 +344,6 @@
 
       if (!nodeId) return;
 
-      // Trace path from node to root
       let currentId = nodeId;
       const pathIds = [currentId];
 
@@ -340,7 +359,6 @@
         }
       }
 
-      // Draw glowing lines along ancestor path
       for (let i = 0; i < pathIds.length - 1; i++) {
         const n1 = this.nodesMap.get(pathIds[i]);
         const n2 = this.nodesMap.get(pathIds[i + 1]);
@@ -353,7 +371,7 @@
         const curve = new THREE.QuadraticBezierCurve3(start, mid, end);
         const tubeGeom = new THREE.TubeGeometry(curve, 24, 2.5, 8, false);
         const glowMaterial = new THREE.MeshBasicMaterial({
-          color: 0xffd54f, // Glowing amber path
+          color: 0xffd54f,
           wireframe: false,
           transparent: true,
           opacity: 0.85
@@ -371,7 +389,6 @@
       this.selectedNodeId = nodeId;
       this.highlightLineage(nodeId);
 
-      // Animate Camera to target
       const [x, y, z] = node.pos;
       this.targetLookAt = new THREE.Vector3(x, y, z);
       this.targetCameraPos = new THREE.Vector3(x, y + 40, z + 120);
@@ -456,12 +473,10 @@
     animate() {
       requestAnimationFrame(() => this.animate());
 
-      // Slowly rotate particle field
       if (this.particleGroup) {
         this.particleGroup.rotation.y += 0.0003;
       }
 
-      // Smooth camera interpolation on focus
       if (this.targetCameraPos && this.targetLookAt) {
         this.camera.position.lerp(this.targetCameraPos, 0.05);
         this.currentLookAt.lerp(this.targetLookAt, 0.05);
