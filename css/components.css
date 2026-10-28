@@ -1964,6 +1964,130 @@ body.page-privacy .wa-fab,
   font-style: italic;
 }
 
+/* ─── Insight Card Component ─── */
+.insight-card {
+  background: var(--honey-pale, #FFF8E7);
+  border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
+  border-radius: var(--radius-sm, 12px);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem;
+  color: var(--ink, #1C1917);
+  transition: all 0.25s ease;
+  box-shadow: var(--shadow-sm, 0 2px 8px rgba(46, 74, 51, 0.08));
+}
+
+html[data-theme="dark"] .insight-card,
+body.theme-dark .insight-card {
+  background: var(--honey-pale, #2D2417);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.insight-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.insight-card-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.insight-card-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.insight-card-title {
+  font-family: var(--font-heading, var(--font-sans));
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--sage-deep, #233827);
+  margin: 0;
+}
+
+html[data-theme="dark"] .insight-card-title,
+body.theme-dark .insight-card-title {
+  color: #FBEBC0;
+}
+
+.insight-card-toggle {
+  background: transparent;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink-soft, #4A4A4A);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.insight-card-toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.insight-card-chevron {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+.insight-card.collapsed .insight-card-chevron {
+  transform: rotate(-90deg);
+}
+
+.insight-card-body {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed rgba(125, 77, 3, 0.2);
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.insight-card.collapsed .insight-card-body {
+  display: none;
+}
+
+.insight-card-explanation {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft, #4A4A4A);
+  margin: 0 0 0.5rem;
+}
+
+.insight-card-list {
+  margin: 0.5rem 0 0.75rem 1.25rem;
+  padding: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--ink, #1C1917);
+}
+
+.insight-card-list li {
+  margin-bottom: 0.25rem;
+}
+
+.insight-card-source {
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+}
+
+.insight-card-source a {
+  color: var(--sage-dark, #375742);
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.15s ease;
+}
+
+.insight-card-source a:hover {
+  color: var(--sage-deep, #233827);
+}
+
 /* Language Code Badge for regional/non-national flags */
 .lang-code-badge {
   display: inline-flex;
