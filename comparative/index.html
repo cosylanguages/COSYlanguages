@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="../css/layout.css">
 <link rel="stylesheet" href="../css/home.css">
 <link rel="stylesheet" href="../css/modern.css">
+<link rel="stylesheet" href="word-explorer.css">
 <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/comparative/index.html">
 
 <!-- Three.js Libraries for 3D Tree Renderer -->
@@ -558,6 +559,9 @@
       <button type="button" class="atlas-tab-btn" role="tab" id="tab-transfer" onclick="switchAtlasView('transfer')">
         <span>💡 Transfer Insights</span>
       </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-word-explorer" onclick="switchAtlasView('word-explorer')">
+        <span>🔤 Word Explorer</span>
+      </button>
     </div>
   </div>
 </header>
@@ -862,6 +866,64 @@
     </div>
   </section>
 
+
+  <!-- ==================== 7. WORD EXPLORER PANEL ==================== -->
+  <section id="panel-word-explorer" class="atlas-view-panel" aria-label="Word Explorer: compare one word across 14 languages">
+    <p id="we-status" class="we-status" role="status"></p>
+    <div id="we-app" hidden>
+      <div class="we-bar">
+        <div class="we-row">
+          <div class="we-search-wrap">
+            <label for="we-search" class="we-note">Search a word (English, native script or transliteration)</label>
+            <input id="we-search" type="search" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="we-results" aria-autocomplete="list" placeholder="e.g. Monday, понедельник, erkushabti">
+            <ul id="we-results" role="listbox" aria-label="Search results" hidden></ul>
+          </div>
+        </div>
+        <div id="we-concepts"></div>
+        <div class="we-row">
+          <fieldset class="we-fieldset">
+            <legend>Show</legend>
+            <label class="we-check"><input type="radio" name="we-mode" value="native"> Native script</label>
+            <label class="we-check"><input type="radio" name="we-mode" value="translit"> Transliteration</label>
+            <label class="we-check"><input type="radio" name="we-mode" value="both"> Both</label>
+          </fieldset>
+          <label class="we-check"><input type="checkbox" id="we-ipa"> IPA</label>
+          <label class="we-check"><input type="checkbox" id="we-byfam"> Group by family</label>
+          <details class="we-filter">
+            <summary>Languages</summary>
+            <div id="we-lang-filter"></div>
+            <button type="button" class="we-btn" id="we-all">All</button>
+            <button type="button" class="we-btn" id="we-none">None</button>
+          </details>
+        </div>
+      </div>
+
+      <h2 id="we-title" class="we-title" tabindex="-1"></h2>
+      <div class="we-player">
+        <button type="button" class="we-btn" id="we-play-all">▶ Play all</button>
+        <button type="button" class="we-btn" id="we-pause" hidden>⏸ Pause</button>
+        <button type="button" class="we-btn" id="we-resume" hidden>▶ Resume</button>
+        <button type="button" class="we-btn" id="we-replay" hidden>↻ Replay</button>
+        <button type="button" class="we-btn" id="we-stop" hidden>■ Stop</button>
+        <span id="we-play-status" class="we-note" role="status" aria-live="polite"></span>
+        <span id="we-audio-note" class="we-note">Audio uses your browser's voices; languages without an installed voice are disabled.</span>
+      </div>
+
+      <table class="we-table">
+        <thead><tr><th scope="col">Language</th><th scope="col">Word</th><th scope="col" id="we-th-ipa">IPA</th><th scope="col">Shared root</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead>
+        <tbody id="we-body"></tbody>
+      </table>
+
+      <div class="we-panel-grid">
+        <div id="we-legend" class="we-legend" hidden></div>
+        <div id="we-observations" class="we-obs" hidden></div>
+        <div id="we-insights" hidden></div>
+      </div>
+      <div id="we-stats" class="we-stats"></div>
+      <p class="we-note">Words and IPA come from <a href="https://github.com/cosylanguages/COSYdata">COSYdata</a>. Shared-root information is draft data until it is marked reviewed.</p>
+    </div>
+  </section>
+
 </main>
 
 <!-- Floating Mouseover Tooltip -->
@@ -916,6 +978,8 @@
 <script src="../js/core/i18n.js" defer></script>
 <script src="../js/core/ui.js" defer></script>
 <script src="../js/comparative-3d.js" defer></script>
+<script src="word-explorer-core.js" defer></script>
+<script src="word-explorer.js" defer></script>
 <div id="toast"></div>
 
 <script>
@@ -1175,6 +1239,9 @@
 
     if (activeTab) activeTab.classList.add('active');
     if (activePanel) activePanel.classList.add('active');
+
+    if (tabId === 'word-explorer' && window.WordExplorer) window.WordExplorer.init();
+    else if (window.WordExplorer) window.WordExplorer.stopAll();
 
     if (tabId === '3d-tree' && tree3DInstance) {
       setTimeout(() => tree3DInstance.onWindowResize(), 100);
