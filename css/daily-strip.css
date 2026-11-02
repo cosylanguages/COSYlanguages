@@ -62,7 +62,69 @@
 .daily-strip-header-actions {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.65rem 0.75rem;
+}
+
+/* COSYpractice Daily Challenge Banner / Pill */
+.daily-strip-challenge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
+    color: #9A3412;
+    border: 1px solid #FDBA74;
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--cosy-radius-full, 100px);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-challenge-pill:hover {
+    background: linear-gradient(135deg, #FFEDD5 0%, #FED7AA 100%);
+    border-color: #FB923C;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(234, 88, 12, 0.15);
+}
+
+.daily-strip-challenge-pill.completed {
+    background: #ECFDF5;
+    color: #065F46;
+    border-color: #A7F3D0;
+}
+
+.daily-strip-challenge-icon {
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.daily-strip-challenge-xp {
+    font-size: 0.75rem;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.7);
+    color: #C2410C;
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--cosy-radius-full, 100px);
+}
+
+.daily-strip-challenge-pill.completed .daily-strip-challenge-xp {
+    color: #047857;
+}
+
+/* COSY Unified Points Badge */
+.daily-strip-points-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: #F0FDF4;
+    color: #166534;
+    border: 1px solid #BBF7D0;
+    padding: 0.35rem 0.7rem;
+    border-radius: var(--cosy-radius-full, 100px);
+    font-size: 0.82rem;
+    font-weight: 700;
 }
 
 .daily-strip-streak {
@@ -74,7 +136,7 @@
     border: 1px solid var(--cosy-color-honey-mid, #FEF0C7);
     padding: 0.35rem 0.75rem;
     border-radius: var(--cosy-radius-full, 100px);
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 700;
 }
 
@@ -86,9 +148,9 @@
     color: var(--cosy-color-sage-deep, #233827);
     border: 1.5px solid var(--cosy-color-sage, #416B49);
     border-radius: var(--cosy-radius-full, 100px);
-    padding: 0.4rem 0.9rem;
+    padding: 0.38rem 0.85rem;
     font-family: inherit;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 800;
     cursor: pointer;
     transition: all var(--cosy-transition-fast, 0.15s ease);
@@ -105,7 +167,8 @@
     border-color: var(--cosy-color-sage-dark, #375742);
 }
 
-.daily-strip-done-btn:focus-visible {
+.daily-strip-done-btn:focus-visible,
+.daily-strip-challenge-pill:focus-visible {
     outline: none;
     box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
 }
@@ -248,9 +311,17 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    padding-top: 0.5rem;
+    gap: 0.65rem;
+    padding-top: 0.6rem;
     border-top: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+}
+
+.daily-strip-actions-left,
+.daily-strip-actions-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .daily-strip-audio-btn,
@@ -276,8 +347,37 @@
     border-color: var(--cosy-color-sage, #416B49);
 }
 
+/* Deep link to COSYpractice Hub */
+.daily-strip-practice-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--cosy-color-sage, #416B49);
+    color: #FFFFFF;
+    border: 1px solid var(--cosy-color-sage-dark, #375742);
+    border-radius: var(--cosy-radius-full, 100px);
+    padding: 0.35rem 0.85rem;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all var(--cosy-transition-fast, 0.15s ease);
+}
+
+.daily-strip-practice-link:hover {
+    background: var(--cosy-color-sage-dark, #375742);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(46, 74, 51, 0.2);
+}
+
+.daily-strip-ext-icon {
+    font-size: 0.85rem;
+    line-height: 1;
+}
+
 .daily-strip-audio-btn:focus-visible,
-.daily-strip-toggle-translation-btn:focus-visible {
+.daily-strip-toggle-translation-btn:focus-visible,
+.daily-strip-practice-link:focus-visible {
     outline: none;
     box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
 }
@@ -288,16 +388,19 @@
     .daily-strip-done-btn,
     .daily-strip-tab,
     .daily-strip-audio-btn,
-    .daily-strip-toggle-translation-btn {
+    .daily-strip-toggle-translation-btn,
+    .daily-strip-practice-link,
+    .daily-strip-challenge-pill {
         transition: none !important;
+        transform: none !important;
     }
 }
 
 /* Responsive adjustments */
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     .daily-strip-container {
-        padding: 1rem;
-        margin: 1rem 0.5rem;
+        padding: 1.15rem;
+        margin: 1.25rem 0.75rem;
     }
     .daily-strip-header {
         flex-direction: column;
@@ -305,10 +408,26 @@
     }
     .daily-strip-header-actions {
         width: 100%;
+        justify-content: flex-start;
+    }
+    .daily-strip-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .daily-strip-actions-left,
+    .daily-strip-actions-right {
+        width: 100%;
         justify-content: space-between;
     }
+    .daily-strip-practice-link {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
     .daily-strip-tab {
-        padding: 0.45rem 0.75rem;
-        font-size: 0.88rem;
+        padding: 0.45rem 0.65rem;
+        font-size: 0.85rem;
     }
 }
