@@ -162,9 +162,9 @@
         <ul>
             <li><code class="storage-key">cosy-dict</code>: Saved vocabulary items in your personal notebook.</li>
             <li><code class="storage-key">cosy-mistakes</code>: Logged practice errors for targeted revision.</li>
-            <li><code class="storage-key">cosy-streak</code>: Active daily practice streak count.</li>
-            <li><code class="storage-key">cosy-last-practice</code>: Date timestamp of your last completed practice session.</li>
-            <li><code class="storage-key">cosy-points</code>: Total accumulated experience points (XP).</li>
+            <li><code class="storage-key">cosy-streak</code> &amp; <code class="storage-key">practice_streak</code>: Active daily practice streak count unified across COSYlanguages and COSYpractice.</li>
+            <li><code class="storage-key">cosy-last-practice</code> &amp; <code class="storage-key">dc_last_completed</code>: Date timestamp of your last completed practice session and daily challenge.</li>
+            <li><code class="storage-key">cosy_total_points</code> &amp; <code class="storage-key">cosy-points</code>: Total accumulated experience points (XP) shared with COSYpractice.</li>
             <li><code class="storage-key">selected-speaking-club-level</code>: Saved CEFR level choice for speaking club filtering.</li>
             <li><code class="storage-key">cosy-i18n-lang</code> &amp; <code class="storage-key">cosy_lang_lock</code>: Interface language preference and lock state.</li>
             <li><code class="storage-key">cosy_audience_preference</code>: Presentation adaptation preference (Children, Teens, Adults, Seniors).</li>
@@ -265,7 +265,10 @@
             'cosy-dict',
             'cosy-mistakes',
             'cosy-streak',
+            'practice_streak',
             'cosy-last-practice',
+            'dc_last_completed',
+            'cosy_total_points',
             'cosy-points',
             'selected-speaking-club-level',
             'cosy-i18n-lang',
@@ -302,16 +305,17 @@
                 return 'Invalid JSON';
             }
         }
-        if (key === 'cosy-points') return `${val} XP`;
-        if (key === 'cosy-streak') return `${val} day(s)`;
+        if (key === 'cosy-points' || key === 'cosy_total_points') return `${val} XP`;
+        if (key === 'cosy-streak' || key === 'practice_streak') return `${val} day(s)`;
         return val;
     }
 
     function clearAllCozyData() {
         if (confirm('Are you sure you want to delete all saved study data from this browser?')) {
             const keys = [
-                'cosy-dict', 'cosy-mistakes', 'cosy-streak',
-                'cosy-last-practice', 'cosy-points', 'selected-speaking-club-level'
+                'cosy-dict', 'cosy-mistakes', 'cosy-streak', 'practice_streak',
+                'cosy-last-practice', 'dc_last_completed', 'cosy_total_points',
+                'cosy-points', 'selected-speaking-club-level'
             ];
             keys.forEach(key => localStorage.removeItem(key));
             refreshStorageConsole();

@@ -1,12 +1,18 @@
 /**
  * COSYlanguages Daily Strip Component Engine
  * File: js/daily-strip.js
+ *
+ * Integrated with COSYpractice (https://cosylanguages.github.io/COSYpractice/):
+ * - Unified streak & points economy (`cosy-streak`, `practice_streak`, `cosy_total_points`)
+ * - Direct deep-link launchers to interactive practice modules
+ * - Daily Challenge sync matching COSYpractice's 7-day schedule
  */
 
 (function () {
     'use strict';
 
     const COSY_DATA_DAILY_BASE = 'https://cosylanguages.github.io/COSYdata/daily/';
+    const COSY_PRACTICE_BASE = 'https://cosylanguages.github.io/COSYpractice/';
 
     const LANG_VOICE_MAP = {
         'en': 'en-US',
@@ -32,6 +38,17 @@
         { id: 'fact', label: 'Fun Fact', icon: '💡' }
     ];
 
+    // COSYpractice 7-day rotating schedule mapping
+    const DAILY_SCHEDULE = {
+        0: { cat: 'speaking', label: 'Speaking Fluency', icon: '🗣️', theme: 'speaking' },
+        1: { cat: 'writing', label: 'Writing & Expression', icon: '✍️', theme: 'writing' },
+        2: { cat: 'grammar', label: 'Grammar Accuracy', icon: '📐', theme: 'all' },
+        3: { cat: 'speaking', label: 'Speaking Conversation', icon: '🗣️', theme: 'speaking' },
+        4: { cat: 'writing', label: 'Writing & Opinion', icon: '✍️', theme: 'writing' },
+        5: { cat: 'vocabulary', label: 'Vocabulary Expansion', icon: '📖', theme: 'all' },
+        6: { cat: 'speaking', label: 'Weekend Speaking Club', icon: '🗣️', theme: 'speaking' }
+    };
+
     function getDayOfYear() {
         const now = new Date();
         const start = new Date(now.getFullYear(), 0, 0);
@@ -52,6 +69,49 @@
         const month = String(d.getMonth() + 1).padStart(2, '0');
         const day = String(d.getDate()).padStart(2, '0');
         return `${d.getFullYear()}-${month}-${day}`;
+    }
+
+    function getTodaySchedule() {
+        const dayOfWeek = new Date().getDay();
+        return DAILY_SCHEDULE[dayOfWeek] || DAILY_SCHEDULE[0];
+    }
+
+    function buildPracticeUrl(lang, cat, level, theme) {
+        const url = new URL(COSY_PRACTICE_BASE);
+        if (lang) url.searchParams.set('lang', lang.toLowerCase());
+        if (cat) url.searchParams.set('cat', cat);
+
+        // Normalize level for COSYpractice URL
+        if (level && level !== 'all') {
+            let lvl = level.toLowerCase();
+            if (lvl === 'a0-a1' || lvl === 'starter') lvl = 'a1';
+            else if (lvl === 'a2' || lvl === 'elementary') lvl = 'a2';
+            else if (lvl === 'b1-b2' || lvl === 'intermediate') lvl = 'b1';
+            else if (lvl === 'c1-c2' || lvl === 'advanced') lvl = 'c1';
+            url.searchParams.set('level', lvl);
+        }
+
+        if (theme && theme !== 'all') {
+            url.searchParams.set('theme', theme);
+        }
+        return url.toString();
+    }
+
+    function getUnifiedStreak() {
+        const s1 = parseInt(localStorage.getItem('cosy-streak') || '0', 10);
+        const s2 = parseInt(localStorage.getItem('practice_streak') || '0', 10);
+        return Math.max(s1, s2, 0);
+    }
+
+    function getUnifiedPoints() {
+        return parseInt(localStorage.getItem('cosy_total_points') || '0', 10);
+    }
+
+    function isPracticeDoneToday() {
+        const todayStr = getTodayKey();
+        const lastPractice = localStorage.getItem('cosy-last-practice');
+        const dcLast = localStorage.getItem('dc_last_completed');
+        return lastPractice === todayStr || dcLast === todayStr;
     }
 
     async function fetchCategoryData(lang, category) {
@@ -148,10 +208,11 @@
         }
 
         renderShell() {
-            const currentStreak = localStorage.getItem('cosy-streak') || '0';
-            const todayStr = getTodayKey();
-            const lastPractice = localStorage.getItem('cosy-last-practice');
-            const isDoneToday = lastPractice === todayStr;
+            const currentStreak = getUnifiedStreak();
+            const totalPoints = getUnifiedPoints();
+            const isDoneToday = isPracticeDoneToday();
+            const todaySchedule = getTodaySchedule();
+            const challengeUrl = `${COSY_PRACTICE_BASE}#daily-challenge`;
 
             this.container.classList.add('daily-strip-container');
             this.container.innerHTML = `
@@ -162,17 +223,25 @@
                         <span class="daily-strip-lang-badge">${this.lang.toUpperCase()}</span>
                     </div>
                     <div class="daily-strip-header-actions">
-                        <div class="daily-strip-streak" title="Your current practice streak">
+                        <a href="${challengeUrl}" class="daily-strip-challenge-pill" title="COSYpractice Daily Challenge: ${todaySchedule.label} (+50 XP)">
+                            <span class="daily-strip-challenge-icon">${todaySchedule.icon}</span>
+                            <span class="daily-strip-challenge-text">Today: <strong>${todaySchedule.label}</strong></span>
+                            <span class="daily-strip-challenge-xp">+50 XP 🏆</span>
+                        </a>
+                        <div class="daily-strip-points-badge" title="Total COSY Points">
+                            ✨ <span class="daily-strip-points-count">${totalPoints}</span> XP
+                        </div>
+                        <div class="daily-strip-streak" title="Your current practice streak across COSYpractice and COSYlanguages">
                             🔥 <span class="daily-strip-streak-count">${currentStreak}</span> day streak
                         </div>
                         <button type="button" class="daily-strip-done-btn ${isDoneToday ? 'completed' : ''}" aria-label="Mark daily practice done">
-                            ${isDoneToday ? '✓ Done today' : 'Mark done today'}
+                            ${isDoneToday ? '✓ Done today' : 'Mark done today (+10 XP)'}
                         </button>
                     </div>
                 </div>
 
                 <div class="daily-strip-tabs" role="tablist" aria-label="Daily Dose Categories">
-                    ${TABS_CONFIG.map((tab, idx) => `
+                    ${TABS_CONFIG.map((tab) => `
                         <button type="button"
                                 class="daily-strip-tab"
                                 id="${this.uniqueId}_tab_${tab.id}"
@@ -241,6 +310,16 @@
                 this.handleMarkDone();
             });
 
+            // Listen for cross-component storage or points updates
+            const onPointsUpdated = () => this.updateStreakUI();
+            window.addEventListener('cosyPointsUpdated', onPointsUpdated);
+            window.addEventListener('cosyStreakUpdated', onPointsUpdated);
+            window.addEventListener('storage', (e) => {
+                if (e.key === 'cosy_total_points' || e.key === 'cosy-streak' || e.key === 'practice_streak' || e.key === 'cosy-last-practice' || e.key === 'dc_last_completed') {
+                    this.updateStreakUI();
+                }
+            });
+
             // Listen for global language change
             window.addEventListener('cosy:langchange', (e) => {
                 if (!this.container.getAttribute('data-lang')) {
@@ -288,6 +367,24 @@
             }
         }
 
+        getHubPracticeLink(tabId) {
+            let cat = 'vocab';
+            let theme = 'all';
+
+            if (tabId === 'speaking') {
+                cat = 'speaking';
+            } else if (tabId === 'writing') {
+                cat = 'grammar';
+            } else if (tabId === 'idiom') {
+                cat = 'vocab';
+                theme = 'phrases_idioms';
+            } else if (tabId === 'fact') {
+                cat = 'vocab';
+            }
+
+            return buildPracticeUrl(this.lang, cat, this.selectedLevel, theme);
+        }
+
         renderContent() {
             TABS_CONFIG.forEach(tab => {
                 const panel = this.container.querySelector(`#${this.uniqueId}_panel_${tab.id}`);
@@ -295,6 +392,7 @@
 
                 const item = this.categoryData[tab.id] || { text: 'Content unavailable.', translation: '', meta: '' };
                 const hasTranslation = Boolean(item.translation);
+                const hubUrl = this.getHubPracticeLink(tab.id);
 
                 const showLevelBar = (tab.id === 'speaking' || tab.id === 'writing');
                 const levelBarHTML = showLevelBar ? `
@@ -324,6 +422,11 @@
                                     🌐 Show Translation
                                 </button>
                             ` : ''}
+                        </div>
+                        <div class="daily-strip-actions-right">
+                            <a href="${hubUrl}" class="daily-strip-practice-link" title="Open targeted exercises on COSYpractice Hub">
+                                🚀 Practice in Hub <span class="daily-strip-ext-icon">↗</span>
+                            </a>
                         </div>
                     </div>
                 `;
@@ -384,8 +487,9 @@
         handleMarkDone() {
             const todayStr = getTodayKey();
             const yesterdayStr = getYesterdayKey();
-            const lastPractice = localStorage.getItem('cosy-last-practice');
-            let streak = parseInt(localStorage.getItem('cosy-streak') || '0', 10);
+            const lastPractice = localStorage.getItem('cosy-last-practice') || localStorage.getItem('dc_last_completed');
+            let streak = getUnifiedStreak();
+            let points = getUnifiedPoints();
 
             if (lastPractice !== todayStr) {
                 if (lastPractice === yesterdayStr) {
@@ -393,21 +497,33 @@
                 } else {
                     streak = 1;
                 }
+                points += 10; // +10 XP for completing daily review
+
+                // Synchronize across COSYlanguages and COSYpractice keys
                 localStorage.setItem('cosy-streak', String(streak));
+                localStorage.setItem('practice_streak', String(streak));
                 localStorage.setItem('cosy-last-practice', todayStr);
+                localStorage.setItem('cosy_total_points', String(points));
+
+                // Dispatch unified events
+                const detail = { streak, totalPts: points, lastCompleted: todayStr };
+                document.dispatchEvent(new CustomEvent('cosyPointsUpdated', { detail }));
+                document.dispatchEvent(new CustomEvent('cosyStreakUpdated', { detail }));
             }
 
             this.updateStreakUI();
         }
 
         updateStreakUI() {
-            const currentStreak = localStorage.getItem('cosy-streak') || '0';
-            const todayStr = getTodayKey();
-            const lastPractice = localStorage.getItem('cosy-last-practice');
-            const isDoneToday = lastPractice === todayStr;
+            const currentStreak = getUnifiedStreak();
+            const currentPoints = getUnifiedPoints();
+            const isDoneToday = isPracticeDoneToday();
 
             const streakCountEl = this.container.querySelector('.daily-strip-streak-count');
             if (streakCountEl) streakCountEl.textContent = currentStreak;
+
+            const pointsCountEl = this.container.querySelector('.daily-strip-points-count');
+            if (pointsCountEl) pointsCountEl.textContent = currentPoints;
 
             const doneBtn = this.container.querySelector('.daily-strip-done-btn');
             if (doneBtn) {
@@ -416,7 +532,22 @@
                     doneBtn.textContent = '✓ Done today';
                 } else {
                     doneBtn.classList.remove('completed');
-                    doneBtn.textContent = 'Mark done today';
+                    doneBtn.textContent = 'Mark done today (+10 XP)';
+                }
+            }
+
+            const challengePill = this.container.querySelector('.daily-strip-challenge-pill');
+            if (challengePill) {
+                const todaySchedule = getTodaySchedule();
+                const dcLast = localStorage.getItem('dc_last_completed');
+                const todayStr = getTodayKey();
+                if (dcLast === todayStr) {
+                    challengePill.classList.add('completed');
+                    challengePill.innerHTML = `
+                        <span class="daily-strip-challenge-icon">✓</span>
+                        <span class="daily-strip-challenge-text">Today: <strong>${todaySchedule.label}</strong> completed</span>
+                        <span class="daily-strip-challenge-xp">+50 XP earned</span>
+                    `;
                 }
             }
         }
@@ -452,5 +583,16 @@
         initAllDailyStrips();
     }
 
+    // Expose helpers & component for modular testing and programmatic usage
     window.COSY_DailyStrip = DailyStripComponent;
+    window.COSY_DailyStrip_Helpers = {
+        buildPracticeUrl,
+        getUnifiedStreak,
+        getUnifiedPoints,
+        isPracticeDoneToday,
+        getTodaySchedule,
+        getTodayKey,
+        getYesterdayKey,
+        DAILY_SCHEDULE
+    };
 })();
