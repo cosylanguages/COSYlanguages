@@ -122,7 +122,7 @@ test('Daily Strip & COSYpractice Collaboration Suite', async (t) => {
         assert.equal(helpers.getUnifiedStreak(), 7);
     });
 
-    await t.test('3. Unified points economy with cosy_total_points', () => {
+    await t.test('3. Unified points helper compatibility with cosy_total_points', () => {
         const { helpers, storage } = setupTestEnvironment();
 
         assert.equal(helpers.getUnifiedPoints(), 0);
@@ -130,7 +130,92 @@ test('Daily Strip & COSYpractice Collaboration Suite', async (t) => {
         assert.equal(helpers.getUnifiedPoints(), 150);
     });
 
-    await t.test('4. Today completion check recognises both cosy-last-practice and dc_last_completed', () => {
+    await t.test('4. Marking daily practice done preserves day streak without adding XP', async () => {
+        const { storage, Component, helpers } = setupTestEnvironment();
+
+        const fakeNode = {
+            addEventListener: () => {},
+            classList: { add: () => {}, remove: () => {} },
+            setAttribute: () => {},
+            removeAttribute: () => {},
+            querySelectorAll: () => [],
+            querySelector: () => null
+        };
+
+        let renderedHTML = '';
+        const element = {
+            classList: { add: () => {} },
+            getAttribute: () => 'en',
+            set innerHTML(html) {
+                renderedHTML = html;
+            },
+            get innerHTML() {
+                return renderedHTML;
+            },
+            querySelector: () => fakeNode,
+            querySelectorAll: () => []
+        };
+
+        const comp = new Component(element);
+        // Wait for async init
+        await new Promise(r => setTimeout(r, 20));
+
+        const todayStr = helpers.getTodayKey();
+        const yesterdayStr = helpers.getYesterdayKey();
+
+        // Simulate continuing yesterday's streak of 3 days
+        storage.set('cosy-streak', '3');
+        storage.set('practice_streak', '3');
+        storage.set('cosy-last-practice', yesterdayStr);
+        storage.set('cosy_total_points', '100');
+
+        comp.handleMarkDone();
+
+        // Day streak should increment to 4
+        assert.equal(storage.get('cosy-streak'), '4');
+        assert.equal(storage.get('practice_streak'), '4');
+        assert.equal(storage.get('cosy-last-practice'), todayStr);
+
+        // Points should remain unchanged (no XP awarded in daily practice)
+        assert.equal(storage.get('cosy_total_points'), '100');
+    });
+
+    await t.test('5. Rendered daily practice shell does not contain XP elements or text', async () => {
+        const { Component } = setupTestEnvironment();
+        let renderedHTML = '';
+        const fakeNode = {
+            addEventListener: () => {},
+            classList: { add: () => {}, remove: () => {} },
+            setAttribute: () => {},
+            removeAttribute: () => {},
+            querySelectorAll: () => [],
+            querySelector: () => null
+        };
+        const element = {
+            classList: { add: () => {} },
+            getAttribute: () => 'en',
+            set innerHTML(html) {
+                renderedHTML = html;
+            },
+            get innerHTML() {
+                return renderedHTML;
+            },
+            querySelector: () => fakeNode,
+            querySelectorAll: () => []
+        };
+
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 20));
+
+        // Ensure no XP badge or mention in daily strip markup
+        assert.ok(!renderedHTML.includes('XP'), 'Daily practice shell should not contain any XP references');
+        assert.ok(!renderedHTML.includes('daily-strip-points-badge'), 'Points badge should not be present');
+        assert.ok(!renderedHTML.includes('daily-strip-challenge-xp'), 'Challenge XP pill should not be present');
+        assert.ok(renderedHTML.includes('day streak'), 'Day streak display should be preserved');
+        assert.ok(renderedHTML.includes('Mark done today'), 'Done button should have clean text without XP');
+    });
+
+    await t.test('6. Today completion check recognises both cosy-last-practice and dc_last_completed', () => {
         const { helpers, storage } = setupTestEnvironment();
         const todayStr = helpers.getTodayKey();
 
@@ -146,7 +231,7 @@ test('Daily Strip & COSYpractice Collaboration Suite', async (t) => {
         assert.equal(helpers.isPracticeDoneToday(), true);
     });
 
-    await t.test('5. COSYpractice 7-day schedule mapping coverage', () => {
+    await t.test('7. COSYpractice 7-day schedule mapping coverage', () => {
         const { helpers } = setupTestEnvironment();
         const schedule = helpers.DAILY_SCHEDULE;
 

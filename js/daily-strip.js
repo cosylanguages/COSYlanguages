@@ -3,7 +3,7 @@
  * File: js/daily-strip.js
  *
  * Integrated with COSYpractice (https://cosylanguages.github.io/COSYpractice/):
- * - Unified streak & points economy (`cosy-streak`, `practice_streak`, `cosy_total_points`)
+ * - Unified day streak (`cosy-streak`, `practice_streak`)
  * - Direct deep-link launchers to interactive practice modules
  * - Daily Challenge sync matching COSYpractice's 7-day schedule
  */
@@ -209,7 +209,6 @@
 
         renderShell() {
             const currentStreak = getUnifiedStreak();
-            const totalPoints = getUnifiedPoints();
             const isDoneToday = isPracticeDoneToday();
             const todaySchedule = getTodaySchedule();
             const challengeUrl = `${COSY_PRACTICE_BASE}#daily-challenge`;
@@ -223,19 +222,15 @@
                         <span class="daily-strip-lang-badge">${this.lang.toUpperCase()}</span>
                     </div>
                     <div class="daily-strip-header-actions">
-                        <a href="${challengeUrl}" class="daily-strip-challenge-pill" title="COSYpractice Daily Challenge: ${todaySchedule.label} (+50 XP)">
+                        <a href="${challengeUrl}" class="daily-strip-challenge-pill" title="COSYpractice Daily Challenge: ${todaySchedule.label}">
                             <span class="daily-strip-challenge-icon">${todaySchedule.icon}</span>
                             <span class="daily-strip-challenge-text">Today: <strong>${todaySchedule.label}</strong></span>
-                            <span class="daily-strip-challenge-xp">+50 XP 🏆</span>
                         </a>
-                        <div class="daily-strip-points-badge" title="Total COSY Points">
-                            ✨ <span class="daily-strip-points-count">${totalPoints}</span> XP
-                        </div>
                         <div class="daily-strip-streak" title="Your current practice streak across COSYpractice and COSYlanguages">
                             🔥 <span class="daily-strip-streak-count">${currentStreak}</span> day streak
                         </div>
                         <button type="button" class="daily-strip-done-btn ${isDoneToday ? 'completed' : ''}" aria-label="Mark daily practice done">
-                            ${isDoneToday ? '✓ Done today' : 'Mark done today (+10 XP)'}
+                            ${isDoneToday ? '✓ Done today' : 'Mark done today'}
                         </button>
                     </div>
                 </div>
@@ -310,12 +305,11 @@
                 this.handleMarkDone();
             });
 
-            // Listen for cross-component storage or points updates
-            const onPointsUpdated = () => this.updateStreakUI();
-            window.addEventListener('cosyPointsUpdated', onPointsUpdated);
-            window.addEventListener('cosyStreakUpdated', onPointsUpdated);
+            // Listen for cross-component storage or streak updates
+            const onStreakUpdated = () => this.updateStreakUI();
+            window.addEventListener('cosyStreakUpdated', onStreakUpdated);
             window.addEventListener('storage', (e) => {
-                if (e.key === 'cosy_total_points' || e.key === 'cosy-streak' || e.key === 'practice_streak' || e.key === 'cosy-last-practice' || e.key === 'dc_last_completed') {
+                if (e.key === 'cosy-streak' || e.key === 'practice_streak' || e.key === 'cosy-last-practice' || e.key === 'dc_last_completed') {
                     this.updateStreakUI();
                 }
             });
@@ -489,7 +483,6 @@
             const yesterdayStr = getYesterdayKey();
             const lastPractice = localStorage.getItem('cosy-last-practice') || localStorage.getItem('dc_last_completed');
             let streak = getUnifiedStreak();
-            let points = getUnifiedPoints();
 
             if (lastPractice !== todayStr) {
                 if (lastPractice === yesterdayStr) {
@@ -497,17 +490,14 @@
                 } else {
                     streak = 1;
                 }
-                points += 10; // +10 XP for completing daily review
 
-                // Synchronize across COSYlanguages and COSYpractice keys
+                // Synchronize streak across COSYlanguages and COSYpractice keys
                 localStorage.setItem('cosy-streak', String(streak));
                 localStorage.setItem('practice_streak', String(streak));
                 localStorage.setItem('cosy-last-practice', todayStr);
-                localStorage.setItem('cosy_total_points', String(points));
 
                 // Dispatch unified events
-                const detail = { streak, totalPts: points, lastCompleted: todayStr };
-                document.dispatchEvent(new CustomEvent('cosyPointsUpdated', { detail }));
+                const detail = { streak, lastCompleted: todayStr };
                 document.dispatchEvent(new CustomEvent('cosyStreakUpdated', { detail }));
             }
 
@@ -516,14 +506,10 @@
 
         updateStreakUI() {
             const currentStreak = getUnifiedStreak();
-            const currentPoints = getUnifiedPoints();
             const isDoneToday = isPracticeDoneToday();
 
             const streakCountEl = this.container.querySelector('.daily-strip-streak-count');
             if (streakCountEl) streakCountEl.textContent = currentStreak;
-
-            const pointsCountEl = this.container.querySelector('.daily-strip-points-count');
-            if (pointsCountEl) pointsCountEl.textContent = currentPoints;
 
             const doneBtn = this.container.querySelector('.daily-strip-done-btn');
             if (doneBtn) {
@@ -532,7 +518,7 @@
                     doneBtn.textContent = '✓ Done today';
                 } else {
                     doneBtn.classList.remove('completed');
-                    doneBtn.textContent = 'Mark done today (+10 XP)';
+                    doneBtn.textContent = 'Mark done today';
                 }
             }
 
@@ -546,7 +532,6 @@
                     challengePill.innerHTML = `
                         <span class="daily-strip-challenge-icon">✓</span>
                         <span class="daily-strip-challenge-text">Today: <strong>${todaySchedule.label}</strong> completed</span>
-                        <span class="daily-strip-challenge-xp">+50 XP earned</span>
                     `;
                 }
             }
