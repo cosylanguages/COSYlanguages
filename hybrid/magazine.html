@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSYmagazine Editions &amp; Full Content Directory | COSYlanguages</title>
+  <meta name="description" content="Explore the full content page of what each and every COSYmagazine issue includes: editorial essays, 14-language verb systems, sentence frames, grammar timelines, podcasts, and tactile zines.">
+  <link rel="icon" href="../images/logos/cosylanguages.png">
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/hybrid/magazine.html">
+
+  <meta property="og:title" content="COSYmagazine Editions &amp; Full Content Directory">
+  <meta property="og:description" content="Explore what each and every monthly issue of COSYmagazine includes across all 10 recurring desks and 14 target languages.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/hybrid/magazine.html">
+  <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/modern.css">
+
+  <style>
+    .mag-hero {
+      background: linear-gradient(135deg, var(--bg-cream, #FAF7F2) 0%, #F3EDE2 100%);
+      padding: 3.5rem 1.5rem 2.5rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border, #e7e5e4);
+    }
+    .mag-kicker {
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--sage, #416b49);
+      margin-bottom: 0.5rem;
+    }
+    .mag-title {
+      font-family: var(--font-serif, 'Fraunces', serif);
+      font-size: 2.6rem;
+      color: var(--ink, #1c1917);
+      margin: 0 0 1rem;
+      line-height: 1.15;
+    }
+    .mag-desc {
+      font-size: 1.15rem;
+      color: var(--ink-muted, #57534e);
+      max-width: 760px;
+      margin: 0 auto 1.75rem;
+      line-height: 1.6;
+    }
+    .mag-actions {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .mag-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    .blueprint-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 3.5rem;
+    }
+    .blueprint-card {
+      background: var(--surface, #ffffff);
+      border: 1px solid var(--border, #e7e5e4);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .blueprint-card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--ink, #1c1917);
+    }
+    .blueprint-card-desc {
+      font-size: 0.92rem;
+      color: var(--ink-soft, #57534e);
+      line-height: 1.5;
+    }
+    .issue-timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+    .issue-block {
+      background: var(--surface, #ffffff);
+      border: 1px solid var(--border, #e7e5e4);
+      border-radius: 16px;
+      padding: 2.25rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+      position: relative;
+    }
+    .issue-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      border-bottom: 2px solid var(--border, #e7e5e4);
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .issue-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 100px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: var(--sage-mist, #e0eee2);
+      color: var(--sage, #416b49);
+      margin-bottom: 0.4rem;
+    }
+    .issue-title {
+      font-family: var(--font-serif, 'Fraunces', serif);
+      font-size: 1.85rem;
+      margin: 0;
+      color: var(--ink, #1c1917);
+    }
+    .issue-cefr {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--ink-muted, #78716c);
+    }
+    .issue-articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+    .article-item {
+      background: var(--cream, #FAF7F2);
+      border: 1px solid var(--border, #e7e5e4);
+      border-radius: 10px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .article-desk-tag {
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--sage, #416b49);
+      margin-bottom: 0.35rem;
+    }
+    .article-heading {
+      font-family: var(--font-serif, 'Fraunces', serif);
+      font-size: 1.15rem;
+      margin: 0 0 0.5rem;
+      color: var(--ink, #1c1917);
+      line-height: 1.35;
+    }
+    .article-summary {
+      font-size: 0.88rem;
+      color: var(--ink-soft, #44403c);
+      line-height: 1.5;
+      margin-bottom: 0.75rem;
+    }
+    .article-footer-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+      font-weight: 600;
+      border-top: 1px dashed var(--border, #e7e5e4);
+      padding-top: 0.6rem;
+      margin-top: 0.5rem;
+    }
+    .article-link {
+      color: var(--sage, #416b49);
+      text-decoration: none;
+    }
+    .article-link:hover {
+      text-decoration: underline;
+    }
+    .lang-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin-top: 0.4rem;
+    }
+    .lang-pill {
+      font-size: 0.72rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      background: #ffffff;
+      border: 1px solid var(--border, #e7e5e4);
+      color: var(--ink-soft, #44403c);
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="cosy-nav"></nav>
+
+  <header class="mag-hero">
+    <div class="mag-kicker">COSY Ecosystem Editorial</div>
+    <h1 class="mag-title">COSYmagazine Full Content Blueprint</h1>
+    <p class="mag-desc">Explore the exact content structure, editorial syllabus, and interactive assets included in each and every monthly issue of COSYmagazine across our 14 languages.</p>
+    <div class="mag-actions">
+      <a href="https://cosylanguages.github.io/COSYmagazine/" target="_blank" rel="noopener" class="btn-primary">Browse Live Magazine 📖</a>
+      <a href="zine.html" class="btn-secondary">Tactile Zine Hub 🗞️</a>
+      <a href="../print-studio/print-zine.html" class="btn-secondary">Printable Zine Maker ✂️</a>
+    </div>
+  </header>
+
+  <main class="mag-container">
+    <section>
+      <span class="sec-tag">Editorial Standard</span>
+      <h2 class="sec-h2">The 10 Recurring Magazine Desks in Every Issue</h2>
+      <p class="sec-p">Every issue of COSYmagazine is intentionally structured around communicative production rather than passive rule retention. Here is what every edition incorporates:</p>
+
+      <div class="blueprint-grid">
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>📰</span> Front Page / Editorial Room</div>
+          <p class="blueprint-card-desc">The monthly lead story covering language psychology, overcoming conversational freeze, or the pedagogical design of our multi-language curriculum.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>🔤</span> Words Across 14 Languages</div>
+          <p class="blueprint-card-desc">High-frequency active vocabulary: 10 essential verbs, 50 conversational phrase upgrades, and strong adjectives systematically mapped across 14 languages.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>📐</span> Grammar Made Cosy</div>
+          <p class="blueprint-card-desc">Visual timeline representations of verb aspect, tense logic, and phrasal verb schemas designed to eliminate rote memorization.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>🗓️</span> Saturday Mistakes</div>
+          <p class="blueprint-card-desc">Diagnostic error clinic dissecting 5 pervasive learner traps, false friends (*faux amis*), and phonological interference with direct spoken alternatives.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>🗣️</span> Say It &amp; Sentence Frames</div>
+          <p class="blueprint-card-desc">Conversational scaffolding with 10 reusable sentence frames enabling learners to produce complex thoughts immediately without word-by-word mental translation.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>🎙️</span> COSYtalks &amp; Podcast Decks</div>
+          <p class="blueprint-card-desc">Audio companion episodes linked to interactive 16:9 Stage Mode (<code>?stage=1</code>) for classrooms and Teleprompter Script Mode (<code>?script=1</code>) for learner recordings.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>🎭</span> Culture, Quotes &amp; Nuance</div>
+          <p class="blueprint-card-desc">Linguistic insights, untranslatable cultural terms (*meraki*, *gemütlich*, *dolce far niente*), and sound shifts connecting cognate families.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>💭</span> Learner Voices &amp; Reflections</div>
+          <p class="blueprint-card-desc">Real 100–250 word authentic submissions from students sharing funny cross-cultural blunders, aha moments, and speaking club stories.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>🗞️</span> Tactile Print Studio Zine</div>
+          <p class="blueprint-card-desc">Every issue pairs with single-sheet 8-page foldable pocket zines, broadsheet PDFs, or Leitner flashcards to take practice off-screen.</p>
+        </div>
+
+        <div class="blueprint-card">
+          <div class="blueprint-card-header"><span>🎉</span> Practice &amp; Live Events Bridge</div>
+          <p class="blueprint-card-desc">Direct deep-links connecting each article to daily exercises on COSYpractice and upcoming Cinema Club or Speaking Club themes on COSYevents.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <span class="sec-tag">Archive &amp; Issues Breakdown</span>
+      <h2 class="sec-h2">Monthly Issue Content Guide</h2>
+      <p class="sec-p">Explore the syllabus, articles, and target languages for each published monthly volume:</p>
+
+      <div class="issue-timeline">
+
+        <!-- August 2026 -->
+        <article class="issue-block">
+          <div class="issue-header">
+            <div>
+              <span class="issue-badge">Vol. 2026.08</span>
+              <h3 class="issue-title">Get Ready for School</h3>
+              <div class="issue-cefr">CEFR Target: A0–A2 (Starter to Elementary) • 18 Articles</div>
+            </div>
+            <a href="https://cosylanguages.github.io/COSYmagazine/?issue=Vol.%202026.08" target="_blank" rel="noopener" class="btn-primary">View Full August Issue →</a>
+          </div>
+
+          <div class="issue-articles-grid">
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">📰 Front Page</span>
+                <h4 class="article-heading">Why Speaking-First is the Only Way to True Fluency</h4>
+                <p class="article-summary">When starting a language, grammar tables feel safe. But confidence comes when you speak in lesson one and treat mistakes as stepping stones.</p>
+              </div>
+              <div class="article-footer-row">
+                <span>EN • 6 min read</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/why-speaking-first.html" target="_blank" rel="noopener" class="article-link">Read Article →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">📰 Front Page</span>
+                <h4 class="article-heading">How We Built the COSY Master Curriculum Across 14 Languages</h4>
+                <p class="article-summary">Behind the scenes of aligning 14 languages into a modular, CEFR-calibrated syllabus from Starter (A0) to Mastery (C2).</p>
+              </div>
+              <div class="article-footer-row">
+                <span>EN • 8 min read</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/building-cosy-master-curriculum.html" target="_blank" rel="noopener" class="article-link">Read Article →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🔤 Words • 14 Languages</span>
+                <h4 class="article-heading">Top 10 Essential Verbs for Absolute Beginners (Part 1)</h4>
+                <p class="article-summary">The 10 core verbs every beginner needs first: <em>be, have, think, know, like, want, work/study, go, can, eat/drink</em> mapped across all 14 languages.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span><span class="lang-pill">🇩🇪 DE</span><span class="lang-pill">🇪🇸 ES</span><span class="lang-pill">🇵🇹 PT</span><span class="lang-pill">🇦🇲 HY</span><span class="lang-pill">🇬🇪 KA</span><span class="lang-pill">TT</span><span class="lang-pill">BA</span><span class="lang-pill">BR</span><span class="lang-pill">CV</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>🎙️ Includes Podcast Ep #2</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs.html" target="_blank" rel="noopener" class="article-link">Explore Master Guide →</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- September 2026 -->
+        <article class="issue-block">
+          <div class="issue-header">
+            <div>
+              <span class="issue-badge">Vol. 2026.09</span>
+              <h3 class="issue-title">Me vs Intermediate Plateau</h3>
+              <div class="issue-cefr">CEFR Target: B1–B2 (Intermediate to Upper-Intermediate) • 16 Articles</div>
+            </div>
+            <a href="https://cosylanguages.github.io/COSYmagazine/?issue=Vol.%202026.09" target="_blank" rel="noopener" class="btn-primary">View Full September Issue →</a>
+          </div>
+
+          <div class="issue-articles-grid">
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">📖 Long Reads</span>
+                <h4 class="article-heading">Overcoming the Intermediate Plateau (B1 to B2)</h4>
+                <p class="article-summary">Actionable strategies to escape comfortable stagnation: active recall, deliberate lexical retrieval, and expressive storytelling.</p>
+              </div>
+              <div class="article-footer-row">
+                <span>EN • 9 min read</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/overcoming-intermediate-plateau.html" target="_blank" rel="noopener" class="article-link">Read Article →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🔤 Words • 5 Core Languages</span>
+                <h4 class="article-heading">Stop Saying These 50 Phrases! Conversational Upgrades</h4>
+                <p class="article-summary">Natural idiomatic alternatives to robotic textbook phrases in English, French, Italian, Russian, and Greek.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>B1–B2 Level</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/replace-50-overused-phrases.html" target="_blank" rel="noopener" class="article-link">Read Guide →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🔤 Words • 5 Core Languages</span>
+                <h4 class="article-heading">Stop Saying 'Very'! 50 Stronger Adjectives</h4>
+                <p class="article-summary">Replace repetitive 'very + adjective' pairings with rich, expressive vocabulary (e.g., <em>furious, spotless, ancient</em>).</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>B1–B2 Level</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/replace-very-50-stronger-adjectives.html" target="_blank" rel="noopener" class="article-link">Read Guide →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🔤 Words • 5 Core Languages</span>
+                <h4 class="article-heading">Top 10 Overused Verbs and Their Precise Synonyms</h4>
+                <p class="article-summary">How to trade generic verbs like <em>get, make, do</em> for exact communicative verbs in spontaneous speech.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>B1–B2 Level</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verb-synonyms-intermediate-plateau.html" target="_blank" rel="noopener" class="article-link">Read Guide →</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- October 2026 -->
+        <article class="issue-block">
+          <div class="issue-header">
+            <div>
+              <span class="issue-badge">Vol. 2026.10</span>
+              <h3 class="issue-title">JY DM's Birthday &amp; His Favs + Saturday Mistakes</h3>
+              <div class="issue-cefr">CEFR Target: A0–B2 • 25 Articles &amp; Print Zine Issue #1</div>
+            </div>
+            <a href="https://cosylanguages.github.io/COSYmagazine/?issue=Vol.%202026.10" target="_blank" rel="noopener" class="btn-primary">View Full October Issue →</a>
+          </div>
+
+          <div class="issue-articles-grid">
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🎙️ COSYtalks • 5 Languages</span>
+                <h4 class="article-heading">Why Do We Freeze When Conversations Go Off Script?</h4>
+                <p class="article-summary">Examining conversational freeze, amygdala hijack during foreign language production, and 3 emergency bridge phrases to stay calm.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>📺 Stage &amp; Script Modes</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/why-do-we-freeze-when-conversations-go-off-script.html" target="_blank" rel="noopener" class="article-link">Read &amp; Present →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🔤 Words • 14 Languages</span>
+                <h4 class="article-heading">Stop Translating! 10 Reusable Sentence Frames</h4>
+                <p class="article-summary">10 versatile sentence frameworks that let learners express opinion, justification, and uncertainty without translation from day one.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span><span class="lang-pill">🇩🇪 DE</span><span class="lang-pill">🇪🇸 ES</span><span class="lang-pill">🇵🇹 PT</span><span class="lang-pill">🇦🇲 HY</span><span class="lang-pill">🇬🇪 KA</span><span class="lang-pill">TT</span><span class="lang-pill">BA</span><span class="lang-pill">BR</span><span class="lang-pill">CV</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>All 14 Languages</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/stop-translating-10-sentence-frames.html" target="_blank" rel="noopener" class="article-link">Read Guide →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🗓️ Saturday Mistakes • 5 Languages</span>
+                <h4 class="article-heading">Saturday Mistakes Episode 1: 5 Common Traps &amp; Fixes</h4>
+                <p class="article-summary">Clear diagnosis and corrections for high-frequency mistakes: false friends, prepositions, and over-generalization.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>Diagnostic Clinic</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/saturday-mistakes-5-english-mistakes.html" target="_blank" rel="noopener" class="article-link">Read Ep 1 →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🗞️ Print Studio Companion</span>
+                <h4 class="article-heading">Monthly Zine Issue #1 (October Gazette)</h4>
+                <p class="article-summary">Printable A4 broadsheet &amp; booklet featuring featured editorials, vocabulary tables, and Cinema Club highlights.</p>
+              </div>
+              <div class="article-footer-row">
+                <span>🖨️ PDF / Print View</span>
+                <a href="../print-studio/monthly-zine-issue-1.html" class="article-link">Open Zine Gazette →</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- November 2026 -->
+        <article class="issue-block">
+          <div class="issue-header">
+            <div>
+              <span class="issue-badge">Vol. 2026.11</span>
+              <h3 class="issue-title">November Academia</h3>
+              <div class="issue-cefr">CEFR Target: A2–C1 • 8 Articles</div>
+            </div>
+            <a href="https://cosylanguages.github.io/COSYmagazine/?issue=Vol.%202026.11" target="_blank" rel="noopener" class="btn-primary">View Full November Issue →</a>
+          </div>
+
+          <div class="issue-articles-grid">
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">📐 Grammar Master Timelines • 5 Languages</span>
+                <h4 class="article-heading">Demystifying Tenses: The Master Timeline Guide</h4>
+                <p class="article-summary">A visual chronological master guide mapping past, present, future, and aspectual relationships across English, French, Italian, Russian, and Greek.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>Visual Timelines</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/demystifying-english-tenses-timeline-guide.html" target="_blank" rel="noopener" class="article-link">Explore Guide →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🎙️ COSYtalks</span>
+                <h4 class="article-heading">Creative Writing in Language Learning: Micro-Sparks to Stories</h4>
+                <p class="article-summary">How writing micro-fiction, poetry, and reflective notes accelerates syntactic mastery and personal attachment to target vocabulary.</p>
+              </div>
+              <div class="article-footer-row">
+                <span>EN • 7 min read</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/creative-writing-in-language-learning.html" target="_blank" rel="noopener" class="article-link">Read Story →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🎙️ COSYtalks</span>
+                <h4 class="article-heading">Unlocking Neuroplasticity: The Playful Brain</h4>
+                <p class="article-summary">Why low affective filters and playfulness create optimal neural wiring for language retention in adult learners.</p>
+              </div>
+              <div class="article-footer-row">
+                <span>EN • 6 min read</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/neuroplasticity-and-the-playful-brain.html" target="_blank" rel="noopener" class="article-link">Read Story →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🎙️ COSYtalks</span>
+                <h4 class="article-heading">Beyond Code-Switching &amp; Translation: L2 Integration</h4>
+                <p class="article-summary">Transitioning from mental translation to thinking directly in the second language through emotional warmth and practical anchoring.</p>
+              </div>
+              <div class="article-footer-row">
+                <span>EN • 7 min read</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/beyond-code-switching-and-translation.html" target="_blank" rel="noopener" class="article-link">Read Story →</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- December 2026 -->
+        <article class="issue-block">
+          <div class="issue-header">
+            <div>
+              <span class="issue-badge">Vol. 2026 — December</span>
+              <h3 class="issue-title">Winter Grammar &amp; High Frequency Verbs</h3>
+              <div class="issue-cefr">CEFR Target: A1–B2 • 16 Articles</div>
+            </div>
+            <a href="https://cosylanguages.github.io/COSYmagazine/?issue=Vol.%202026%20—%20December%20Issue" target="_blank" rel="noopener" class="btn-primary">View Full December Issue →</a>
+          </div>
+
+          <div class="issue-articles-grid">
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">📐 Grammar Made Cosy</span>
+                <h4 class="article-heading">The Secret Logic of Phrasal Verbs</h4>
+                <p class="article-summary">Decoding particles (<em>up, out, off, down</em>) through spatial metaphors rather than brute rote memorization.</p>
+              </div>
+              <div class="article-footer-row">
+                <span>EN • 11 min read</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/the-logic-of-phrasal-verbs-everybody-scream.html" target="_blank" rel="noopener" class="article-link">Read Guide →</a>
+              </div>
+            </div>
+
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🔤 Words • 14 Languages</span>
+                <h4 class="article-heading">Top 10 Essential Verbs across 14 Languages (Part 2)</h4>
+                <p class="article-summary">The second tier of fundamental verbs: <em>give, take, say/tell, see/look, hear/listen, come, find, feel, ask, try</em> mapped across all 14 languages.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span><span class="lang-pill">🇩🇪 DE</span><span class="lang-pill">🇪🇸 ES</span><span class="lang-pill">🇵🇹 PT</span><span class="lang-pill">🇦🇲 HY</span><span class="lang-pill">🇬🇪 KA</span><span class="lang-pill">TT</span><span class="lang-pill">BA</span><span class="lang-pill">BR</span><span class="lang-pill">CV</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>All 14 Languages</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs-part-2.html" target="_blank" rel="noopener" class="article-link">Read Part 2 →</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- February 2027 -->
+        <article class="issue-block">
+          <div class="issue-header">
+            <div>
+              <span class="issue-badge">Vol. 2027 — February</span>
+              <h3 class="issue-title">February Grammar &amp; High Frequency Verbs</h3>
+              <div class="issue-cefr">CEFR Target: A0–B2 • 15 Articles</div>
+            </div>
+            <a href="https://cosylanguages.github.io/COSYmagazine/?issue=Vol.%202027%20—%20February%20Issue" target="_blank" rel="noopener" class="btn-primary">View Full February Issue →</a>
+          </div>
+
+          <div class="issue-articles-grid">
+            <div class="article-item">
+              <div>
+                <span class="article-desk-tag">🔤 Words • 14 Languages</span>
+                <h4 class="article-heading">Top 10 Essential Verbs across 14 Languages (Part 3)</h4>
+                <p class="article-summary">Rounding out foundational communicative verbs: <em>start, finish, help, wait, understand, remember, forget, leave, use, live</em> across 14 languages.</p>
+                <div class="lang-pills">
+                  <span class="lang-pill">🇬🇧 EN</span><span class="lang-pill">🇫🇷 FR</span><span class="lang-pill">🇮🇹 IT</span><span class="lang-pill">🇷🇺 RU</span><span class="lang-pill">🇬🇷 EL</span><span class="lang-pill">🇩🇪 DE</span><span class="lang-pill">🇪🇸 ES</span><span class="lang-pill">🇵🇹 PT</span><span class="lang-pill">🇦🇲 HY</span><span class="lang-pill">🇬🇪 KA</span><span class="lang-pill">TT</span><span class="lang-pill">BA</span><span class="lang-pill">BR</span><span class="lang-pill">CV</span>
+                </div>
+              </div>
+              <div class="article-footer-row">
+                <span>All 14 Languages</span>
+                <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs-part-3.html" target="_blank" rel="noopener" class="article-link">Read Part 3 →</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+      </div>
+      <div class="footer-links-col">
+        <h3 data-translate-key="footer_h5_courses">Courses</h3>
+        <a href="../courses/index.html">All Courses 📖</a>
+        <a href="../courses/general.html">General Course 📖</a>
+        <a href="../courses/spoken.html">Spoken Course 🗣️</a>
+        <a href="../courses/exam-preparation.html">Exam Preparation 📝</a>
+      </div>
+      <div class="footer-links-col">
+        <h3 data-translate-key="footer_h5_explore">Explore</h3>
+        <a href="magazine.html">Magazine Content Directory 📖</a>
+        <a href="zine.html">Zine Hub 🗞️</a>
+        <a href="https://cosylanguages.github.io/COSYmagazine/">Live COSYmagazine 📰</a>
+        <a href="https://cosylanguages.github.io/COSYpractice/">Free Practice 💡</a>
+      </div>
+      <div class="footer-links-col">
+        <h3>Project</h3>
+        <a href="../about/index.html">Our Story 🏡</a>
+        <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+      </div>
+      <div class="footer-links-col">
+        <h3 data-translate-key="footer_h5_contact">Contact</h3>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2020–2026 COSYlanguages, All rights reserved</div>
+  </footer>
+
+  <script src="../js/core/engine.js" defer></script>
+  <script src="../js/core/i18n.js" defer></script>
+  <script src="../js/core/ui.js" defer></script>
+</body>
+</html>
