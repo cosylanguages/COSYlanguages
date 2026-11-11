@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Courses 📚 | COSYlanguages</title>
-    <meta name="description" content="Explore our 6 structured language courses in English, French, Italian, Russian, and Greek. 1-to-1 and group lessons with a speaking-first approach.">
+    <title>Language Courses &amp; Learning Roadmaps 📚 | COSYlanguages</title>
+    <meta name="description" content="Explore our comprehensive language courses in English, French, Italian, Russian, and Greek. Complete CEFR roadmaps, professional tracks, and exam preparation.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/courses/index.html">
-    <meta property="og:title" content="Language Courses 📚 | COSYlanguages">
-    <meta property="og:description" content="Explore our 6 structured language courses in English, French, Italian, Russian, and Greek. 1-to-1 and group lessons with a speaking-first approach.">
+    <meta property="og:title" content="Language Courses &amp; Learning Roadmaps 📚 | COSYlanguages">
+    <meta property="og:description" content="Explore our comprehensive language courses in English, French, Italian, Russian, and Greek. Complete CEFR roadmaps, professional tracks, and exam preparation.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/courses/index.html">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Language Courses 📚 | COSYlanguages">
+    <meta name="twitter:title" content="Language Courses &amp; Learning Roadmaps 📚 | COSYlanguages">
     <meta name="twitter:description" content="Explore our 6 structured language courses in English, French, Italian, Russian, and Greek.">
     <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <meta name="theme-color" content="#FAF7F2">
 
-<link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
-<link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/modern.css">
 
     <style>
       .course-hub-wrap {
-        max-width: 1100px;
+        max-width: 1140px;
         margin: 0 auto;
         padding: 2rem 1.5rem 4rem;
       }
@@ -39,7 +39,7 @@
         margin-bottom: 1.5rem;
       }
       .course-breadcrumb a {
-        color: var(--sage);
+        color: var(--sage, #416b49);
         text-decoration: none;
       }
       .course-breadcrumb a:hover {
@@ -51,90 +51,219 @@
       }
       .courses-hero h1 {
         font-family: var(--font-serif);
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         color: var(--ink);
         margin-bottom: 1rem;
+        line-height: 1.2;
       }
       .courses-hero p {
         font-size: 1.15rem;
         color: var(--ink-soft);
-        max-width: 700px;
+        max-width: 760px;
         margin: 0 auto;
         line-height: 1.6;
       }
       .courses-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 1.5rem;
-        margin-bottom: 3rem;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 1.75rem;
+        margin-bottom: 3.5rem;
       }
       .course-hub-card {
         background: var(--warm-white, #FAF7F2);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: var(--r-md, 12px);
-        padding: 1.75rem;
+        padding: 1.85rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
       }
       .course-hub-card:hover {
         transform: translateY(-3px);
-        box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+        box-shadow: 0 10px 28px rgba(0,0,0,0.07);
+        border-color: var(--sage, #416b49);
       }
       .chc-icon {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         margin-bottom: 0.75rem;
         display: inline-block;
       }
+      .chc-badge {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 0.2rem 0.6rem;
+        border-radius: 999px;
+        background: rgba(65, 107, 73, 0.12);
+        color: var(--sage, #416b49);
+        margin-bottom: 0.5rem;
+      }
       .chc-title {
         font-family: var(--font-serif);
-        font-size: 1.35rem;
+        font-size: 1.4rem;
         color: var(--ink);
         margin-bottom: 0.5rem;
       }
       .chc-desc {
         font-size: 0.95rem;
         color: var(--ink-soft);
-        line-height: 1.5;
-        margin-bottom: 1.5rem;
+        line-height: 1.55;
+        margin-bottom: 1.25rem;
         flex-grow: 1;
+      }
+      .chc-features {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 1.5rem 0;
+        font-size: 0.88rem;
+        color: var(--ink-soft);
+      }
+      .chc-features li {
+        margin-bottom: 0.35rem;
+        display: flex;
+        align-items: baseline;
+        gap: 0.4rem;
+      }
+      .chc-features li::before {
+        content: "✓";
+        color: var(--sage, #416b49);
+        font-weight: bold;
       }
       .chc-link {
         display: inline-flex;
         align-items: center;
         gap: 0.4rem;
-        font-weight: 600;
+        font-weight: 700;
         color: var(--sage, #416b49);
         text-decoration: none;
       }
       .chc-link:hover {
         text-decoration: underline;
       }
+      .decision-matrix-card {
+        background: #ffffff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: var(--r-md, 12px);
+        padding: 2.25rem;
+        margin-bottom: 3.5rem;
+      }
+      .decision-matrix-card h2 {
+        font-family: var(--font-serif);
+        font-size: 1.7rem;
+        color: var(--ink);
+        margin-bottom: 0.75rem;
+      }
+      .decision-table-wrap {
+        overflow-x: auto;
+        margin-top: 1.25rem;
+      }
+      .decision-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        font-size: 0.92rem;
+      }
+      .decision-table th {
+        background: var(--surface-color, #F5F1EB);
+        color: var(--ink);
+        padding: 0.85rem 1rem;
+        font-weight: 700;
+        border-bottom: 2px solid var(--border, #E2DCD5);
+      }
+      .decision-table td {
+        padding: 0.9rem 1rem;
+        border-bottom: 1px solid var(--border, #E2DCD5);
+        color: var(--ink-soft);
+        vertical-align: top;
+      }
+      .decision-table tr:hover td {
+        background: rgba(0,0,0,0.015);
+      }
+      .course-pill {
+        font-weight: 700;
+        color: var(--ink);
+        white-space: nowrap;
+      }
+      .choose-this {
+        color: #2e7d32;
+        font-weight: 600;
+      }
+      .choose-other {
+        color: #b84318;
+        font-size: 0.88rem;
+      }
+      .cefr-roadmap-summary {
+        background: var(--surface-color, #FAF7F2);
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: var(--r-md, 12px);
+        padding: 2.25rem;
+        margin-bottom: 3.5rem;
+      }
+      .cefr-roadmap-summary h2 {
+        font-family: var(--font-serif);
+        font-size: 1.7rem;
+        color: var(--ink);
+        margin-bottom: 0.75rem;
+      }
+      .cefr-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.25rem;
+        margin-top: 1.5rem;
+      }
+      .cefr-step-box {
+        background: #ffffff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 8px;
+        padding: 1.25rem;
+      }
+      .cefr-step-box h3 {
+        font-size: 1.05rem;
+        color: var(--sage, #416b49);
+        margin-bottom: 0.4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .cefr-step-box p {
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+        line-height: 1.5;
+        margin-bottom: 0.5rem;
+      }
+      .cefr-step-box ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
       .group-note-box {
         background: rgba(65, 107, 73, 0.08);
         border: 1px solid var(--sage, #416b49);
         border-radius: var(--r-md, 12px);
-        padding: 1.25rem 1.5rem;
+        padding: 1.5rem 1.75rem;
         margin-bottom: 2.5rem;
         text-align: center;
       }
       .group-note-box p {
         margin: 0;
         color: var(--ink);
-        font-size: 1rem;
+        font-size: 1.02rem;
       }
       .contact-cta-box {
         text-align: center;
         background: #fff;
         border: 1px solid var(--border, #E2DCD5);
         border-radius: var(--r-md, 12px);
-        padding: 2rem;
+        padding: 2.25rem;
         margin-bottom: 2.5rem;
       }
       .contact-cta-box h2 {
         font-family: var(--font-serif);
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         margin-bottom: 0.5rem;
       }
       .contact-cta-box p {
@@ -178,113 +307,254 @@
 
   <section class="courses-hero">
     <div class="journey-roadmap-header">
-      <span class="visual-journey-badge">📖 Journey Roadmap</span>
+      <span class="visual-journey-badge">📖 Complete Learning Roadmaps</span>
       <span class="journey-connector-line"></span>
-      <span class="visual-journey-badge">🗣️ Speaking First</span>
+      <span class="visual-journey-badge">🗣️ Speaking-First Pedagogy</span>
     </div>
-    <h1>Our Language Courses 📚</h1>
-    <p>Structured, 1-to-1 and group language lessons with a speaking-first approach. Learn with active language learners who love what they teach.</p>
+    <h1>Our Language Courses &amp; Roadmaps 📚</h1>
+    <p>Every language journey has distinct requirements. Whether you need academic mastery, official CEFR certification, professional workplace precision, spontaneous spoken fluency, or expatriate integration, discover our comprehensive syllabus and select the exact roadmap suited to your goals.</p>
   </section>
 
   <!-- CEFR Level Milestones & Educational Methodology Section -->
-  <section class="educational-methodology-box" style="background: var(--surface-color); border: 1px solid var(--border); border-radius: var(--r-md, 12px); padding: 2rem; margin-bottom: 3rem; text-align: left;">
-    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.75rem;" data-translate-key="cefr_methodology_title">🎓 CEFR Progression &amp; Methodology</h2>
-    <p style="font-size: 1rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1.5rem;" data-translate-key="cefr_methodology_desc">
-      Every lesson is engineered around our <strong>Speaking-First Communicative Framework</strong>: at least <strong>40% of session time</strong> is spent in active verbal interaction. Grammar is presented in natural conversational contexts, and vocabulary is immediately applied to real-life adult scenarios.
+  <section class="cefr-roadmap-summary">
+    <h2>🎓 The CEFR Framework &amp; Pedagogical Architecture</h2>
+    <p style="font-size: 1.02rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1.5rem;">
+      All COSY courses are aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>. Our communicative method ensures that no matter your target level, at least <strong>40% of every lesson is dedicated to active, unscripted oral production</strong>, backed by deep grammatical competence, lexical precision, and strategic listening.
     </p>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
-      <div style="background: var(--paper); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem;">
-        <div style="font-weight: 800; color: var(--sage); margin-bottom: 0.4rem;" data-translate-key="cefr_a1_a2_title">🌱 Levels A1 – A2: Discovery &amp; Foundational Fluency</div>
-        <div style="font-size: 0.92rem; color: var(--ink-soft); line-height: 1.5;" data-translate-key="cefr_a1_a2_desc">Master core syntax, phonetic foundations, essential vocabulary, and everyday travel and social exchanges without fear of making mistakes.</div>
+    <div class="cefr-grid">
+      <div class="cefr-step-box">
+        <h3>🌱 A1 Breakthrough <span>0 – 100 hrs</span></h3>
+        <p><strong>Foundation &amp; First Words:</strong> Construct simple affirmative, negative, and interrogative sentences. Form basic questions and express daily physical needs.</p>
+        <ul>
+          <li><strong>Grammar:</strong> Present indicative, word order, gender/number agreement, articles, core pronouns.</li>
+          <li><strong>Vocab:</strong> Greetings, family, numbers, food, everyday objects, numbers, telling time (~500–800 words).</li>
+        </ul>
       </div>
-      <div style="background: var(--paper); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem;">
-        <div style="font-weight: 800; color: var(--sage); margin-bottom: 0.4rem;" data-translate-key="cefr_b1_b2_title">🌿 Levels B1 – B2: Independent Expression &amp; Polish</div>
-        <div style="font-size: 0.92rem; color: var(--ink-soft); line-height: 1.5;" data-translate-key="cefr_b1_b2_desc">Express complex thoughts, debate social topics, master past &amp; subjunctive tenses, and navigate professional environments seamlessly.</div>
+
+      <div class="cefr-step-box">
+        <h3>🌿 A2 Waystage <span>100 – 200 hrs</span></h3>
+        <p><strong>Everyday Survival &amp; Routine Exchanges:</strong> Describe personal background, immediate surroundings, work duties, and narrate events in simple past tenses.</p>
+        <ul>
+          <li><strong>Grammar:</strong> Simple past/passé composé/passato prossimo, future aspects, modals, comparatives.</li>
+          <li><strong>Vocab:</strong> Shopping, local geography, employment, travel routines, health, weather (~1,200–1,500 words).</li>
+        </ul>
       </div>
-      <div style="background: var(--paper); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem;">
-        <div style="font-weight: 800; color: var(--sage); margin-bottom: 0.4rem;" data-translate-key="cefr_c1_c2_title">🌳 Levels C1 – C2: Mastery, Nuance &amp; Precision</div>
-        <div style="font-size: 0.92rem; color: var(--ink-soft); line-height: 1.5;" data-translate-key="cefr_c1_c2_desc">Grasp cultural subtext, idiom nuances, spontaneous public debate, and achieve near-native effortless fluency across all registers.</div>
+
+      <div class="cefr-step-box">
+        <h3>🌾 B1 Threshold <span>200 – 400 hrs</span></h3>
+        <p><strong>Independent Fluency &amp; Problem Solving:</strong> Handle unexpected situations while traveling, express opinions, outline ambitions, narrate plots and reason logically.</p>
+        <ul>
+          <li><strong>Grammar:</strong> Imperfect vs past, basic conditionals, relative pronouns, passive voice, purpose/cause connectors.</li>
+          <li><strong>Vocab:</strong> Current affairs, media, relationships, professional tasks, abstract concepts (~2,500–3,000 words).</li>
+        </ul>
+      </div>
+
+      <div class="cefr-step-box">
+        <h3>🌲 B2 Vantage <span>400 – 600 hrs</span></h3>
+        <p><strong>Professional Competence &amp; Complex Debate:</strong> Understand technical articles, defend viewpoints with nuance, interact fluently without strain with native speakers.</p>
+        <ul>
+          <li><strong>Grammar:</strong> Subjunctive/conjunctive mood, mixed conditionals, discourse markers, passive/causative constructions.</li>
+          <li><strong>Vocab:</strong> Idiomatic expressions, workplace negotiations, politics, ethics, specialized jargon (~4,500–5,500 words).</li>
+        </ul>
+      </div>
+
+      <div class="cefr-step-box">
+        <h3>🌳 C1 Effective Operational <span>600 – 800 hrs</span></h3>
+        <p><strong>Spontaneous Nuance &amp; Advanced Discourse:</strong> Grasp subtle irony, humor, academic papers, and structure complex oral presentations effortlessly.</p>
+        <ul>
+          <li><strong>Grammar:</strong> Cleft sentences, fronting/inversion for rhetorical emphasis, advanced modal nuances, register shifts.</li>
+          <li><strong>Vocab:</strong> High-register abstractions, colloquial idioms, academic rhetoric, legislative and literary terminology (~8,000+ words).</li>
+        </ul>
+      </div>
+
+      <div class="cefr-step-box">
+        <h3>🏛️ C2 Mastery <span>800+ hrs</span></h3>
+        <p><strong>Near-Native Polish &amp; Stylistic Precision:</strong> Understand virtually anything read or heard; reconstruct arguments coherently from diverse spoken and written sources.</p>
+        <ul>
+          <li><strong>Grammar:</strong> Full dialectal sensitivity, stylistic archaic/literary registers, seamless syntax manipulation.</li>
+          <li><strong>Vocab:</strong> Complete cultural subtext, regional metaphors, philosophical and specialized literature (~15,000+ words).</li>
+        </ul>
       </div>
     </div>
   </section>
 
+  <!-- 6 Course Hub Cards -->
   <div class="courses-grid">
     <div class="course-hub-card">
       <div>
+        <span class="chc-badge">Balanced All-Round</span>
         <span class="chc-icon">📖</span>
         <h2 class="chc-title">General Course</h2>
-        <p class="chc-desc">All 4 skills growing together, structured CEFR-level progression.</p>
+        <p class="chc-desc">The complete 4-skill curriculum (Listening, Speaking, Reading, Writing) taking learners sequentially from A1 to C2 with rigorous grammar, vocabulary, and active conversation.</p>
+        <ul class="chc-features">
+          <li>Systematic CEFR progression (A1 through C2)</li>
+          <li>Rigorous grammar frameworks with communicative tasks</li>
+          <li>Weekly written tasks and continuous oral review</li>
+          <li>Available 1-to-1 or small group cohorts</li>
+        </ul>
       </div>
-      <a href="general.html" class="chc-link">Explore General Course →</a>
+      <a href="general.html" class="chc-link">Explore General Course &amp; Roadmap →</a>
     </div>
 
     <div class="course-hub-card">
       <div>
+        <span class="chc-badge">Conversation Intensive</span>
         <span class="chc-icon">🗣️</span>
         <h2 class="chc-title">Spoken Course</h2>
-        <p class="chc-desc">Experience real conversation with your teacher in 15 or 30 minute focused sessions, free from rigid grammar tables and repetitive worksheets.</p>
+        <p class="chc-desc">Break the psychological speaking barrier through high-intensity 15 or 30-minute oral sessions. Focused on spontaneous reaction, fluency, active listening, and idiomatic fluidity.</p>
+        <ul class="chc-features">
+          <li>100% oral focus: no repetitive written worksheets</li>
+          <li>Daily habits: high-frequency 15 or 30-min formats</li>
+          <li>Overcoming speaking anxiety and translation lag</li>
+          <li>Spontaneous debates, news analysis, and storytelling</li>
+        </ul>
       </div>
-      <a href="spoken.html" class="chc-link">Explore Spoken Course →</a>
+      <a href="spoken.html" class="chc-link">Explore Spoken Course &amp; Roadmap →</a>
     </div>
 
     <div class="course-hub-card">
       <div>
+        <span class="chc-badge">Official Certification</span>
         <span class="chc-icon">📝</span>
         <h2 class="chc-title">Exam Preparation</h2>
-        <p class="chc-desc">Authentic tasks, exact exam conditions. Focus on the oral component where it matters most.</p>
+        <p class="chc-desc">Strategic preparation for recognized official certifications: IELTS, TOEFL, Cambridge, DELF/DALF, TCF, CILS, CELI, TORFL, and Ellinomatheia. Exact timing and rubric mastery.</p>
+        <ul class="chc-features">
+          <li>Full breakdown of Speaking, Writing, Reading &amp; Listening parts</li>
+          <li>Timed mock simulations under real exam conditions</li>
+          <li>Examiner criteria: task response, lexical resource, fluency</li>
+          <li>Score optimization and error remediation strategies</li>
+        </ul>
       </div>
-      <a href="exam-preparation.html" class="chc-link">Explore Exam Preparation →</a>
+      <a href="exam-preparation.html" class="chc-link">Explore Exam Prep &amp; Exam Parts →</a>
     </div>
 
     <div class="course-hub-card">
       <div>
-        <span class="chc-icon">✈️</span>
-        <h2 class="chc-title">Travelling Course</h2>
-        <p class="chc-desc">Master essential real-world communication for travel: booking, directions, emergencies, and local culture.</p>
-      </div>
-      <a href="travelling.html" class="chc-link">Explore Travelling Course →</a>
-    </div>
-
-    <div class="course-hub-card">
-      <div>
+        <span class="chc-badge">Targeted Career Tracks</span>
         <span class="chc-icon">💼</span>
         <h2 class="chc-title">Professional Course</h2>
-        <p class="chc-desc">Elevate your career with targeted language skills for interviews, negotiations, business presentations, and networking.</p>
+        <p class="chc-desc">Specialized language coaching across 4 distinct professional tracks: Academic &amp; Research, Information Technology (IT), Hospitality &amp; Tourism, and Juridical &amp; Translation.</p>
+        <ul class="chc-features">
+          <li><strong>Academic:</strong> PhD research, paper drafting, conference talks</li>
+          <li><strong>IT / Tech:</strong> Standups, code reviews, technical architecture</li>
+          <li><strong>Hospitality:</strong> Guest relations, concierge, luxury F&amp;B</li>
+          <li><strong>Juridical &amp; Legal:</strong> Contracts, statutory terms, cross-border law</li>
+        </ul>
       </div>
-      <a href="professional.html" class="chc-link">Explore Professional Course →</a>
+      <a href="professional.html" class="chc-link">Explore Professional Tracks &amp; Syllabus →</a>
     </div>
 
     <div class="course-hub-card">
       <div>
+        <span class="chc-badge">Expat Settlement</span>
         <span class="chc-icon">🏡</span>
         <h2 class="chc-title">Relocation Course</h2>
-        <p class="chc-desc">Navigate housing, administration, healthcare, local services, and social integration in your new home country.</p>
+        <p class="chc-desc">Practical linguistic mastery for moving abroad: leasing contracts, government bureaucracy, bank accounts, healthcare systems, school enrollment, and social integration.</p>
+        <ul class="chc-features">
+          <li>Administrative survival and legal bureaucracy forms</li>
+          <li>Real estate negotiations, rental agreements, utility setup</li>
+          <li>Medical visits, prescriptions, emergency services</li>
+          <li>Neighborhood etiquette, civic life, and local culture</li>
+        </ul>
       </div>
-      <a href="relocation.html" class="chc-link">Explore Relocation Course →</a>
+      <a href="relocation.html" class="chc-link">Explore Relocation Roadmap &amp; Needs →</a>
+    </div>
+
+    <div class="course-hub-card">
+      <div>
+        <span class="chc-badge">Travel Readiness</span>
+        <span class="chc-icon">✈️</span>
+        <h2 class="chc-title">Travelling Course</h2>
+        <p class="chc-desc">Fast-track survival and communicative immersion for travelers. Master bookings, navigation, culinary adventures, emergency management, and authentic cultural exchanges.</p>
+        <ul class="chc-features">
+          <li>Airports, train stations, local transit, and lost luggage</li>
+          <li>Hotels, check-in, special requests, and room issues</li>
+          <li>Menus, culinary vocabulary, dietary restrictions, tipping</li>
+          <li>Emergency healthcare, police reporting, directions</li>
+        </ul>
+      </div>
+      <a href="travelling.html" class="chc-link">Explore Travelling Track &amp; Scenarios →</a>
     </div>
   </div>
 
+  <!-- Course Decision Matrix / Chooser Guide -->
+  <section class="decision-matrix-card">
+    <h2>🧭 Course Selection Decision Matrix</h2>
+    <p>Not sure which course fits your current stage and goals? Use this comparison guide to find your optimal path:</p>
+
+    <div class="decision-table-wrap">
+      <table class="decision-table">
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Choose This Course If...</th>
+            <th>Key Focus Areas</th>
+            <th>Otherwise, Choose Another If...</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="course-pill">📖 General</td>
+            <td class="choose-this">You want structured, balanced mastery of all 4 language skills (Reading, Writing, Listening, Speaking) with steady CEFR progression.</td>
+            <td>Grammar rules, vocabulary breadth, phonetics, structured writing, real-world conversational drills.</td>
+            <td class="choose-other">Choose <strong>Spoken</strong> if you already understand grammar and only want conversation; choose <strong>Exam Prep</strong> if you have an exam date in &lt;6 months.</td>
+          </tr>
+          <tr>
+            <td class="course-pill">🗣️ Spoken</td>
+            <td class="choose-this">You have passive grammar knowledge but freeze when speaking, or you want high-frequency 15–30 min conversational workouts.</td>
+            <td>Spontaneous reaction, oral fluency, idiomatic expressions, confidence building, active listening.</td>
+            <td class="choose-other">Choose <strong>General</strong> if you need to learn grammar from scratch or require formal writing/reading credentials.</td>
+          </tr>
+          <tr>
+            <td class="course-pill">📝 Exam Prep</td>
+            <td class="choose-this">You are registered for or preparing to sit an official test (IELTS, TOEFL, Cambridge, DELF/DALF, CILS, CELI, TORFL, etc.).</td>
+            <td>Exam rubrics, timed tasks, writing syntheses, oral monologue/dialogue, mock papers with scoring feedback.</td>
+            <td class="choose-other">Choose <strong>General</strong> if your current CEFR level is too far below target exam requirements (build the foundation first).</td>
+          </tr>
+          <tr>
+            <td class="course-pill">💼 Professional</td>
+            <td class="choose-this">You need language for career performance in Academic, IT/Tech, Hospitality, or Juridical/Legal fields.</td>
+            <td>Domain-specific vocabulary, executive presentations, contract drafting/reading, tech standups, guest resolution.</td>
+            <td class="choose-other">Choose <strong>General</strong> if your baseline language level is below B1; specialized jargon requires an intermediate foundation.</td>
+          </tr>
+          <tr>
+            <td class="course-pill">🏡 Relocation</td>
+            <td class="choose-this">You are relocating or have recently moved abroad and need to navigate daily administration, leases, healthcare, and social life.</td>
+            <td>Administrative forms, rental contracts, doctor visits, tax registrations, utility setup, expat social integration.</td>
+            <td class="choose-other">Choose <strong>Professional</strong> if your daily living needs are settled and you strictly require workplace/corporate communication.</td>
+          </tr>
+          <tr>
+            <td class="course-pill">✈️ Travelling</td>
+            <td class="choose-this">You are taking a vacation or business trip and want to travel independently without relying on digital translation apps.</td>
+            <td>High-frequency travel vocabulary, directions, hotel issues, restaurant ordering, transit, emergency phrasing.</td>
+            <td class="choose-other">Choose <strong>Relocation</strong> if you intend to stay permanently or sign long-term tenancy and employment contracts.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
   <div class="group-note-box">
-    <p><strong>👥 Group lessons also available</strong> in English, French, Italian and Russian. Share the cost and learn together. <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons.">Ask about groups →</a></p>
+    <p><strong>👥 Group Lessons Available:</strong> Join cohort classes in English, French, Italian, and Russian. Learn alongside peers at your exact CEFR level with guided speaking activities. <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons.">Ask our coordinators about upcoming groups →</a></p>
   </div>
 
   <div class="contact-cta-box">
-    <h2>Have questions about our courses?</h2>
-    <p>Get in touch directly with our teaching team to find the best course for your goals.</p>
+    <h2>Still Unsure Which Roadmap Fits Your Journey?</h2>
+    <p>Reach out directly to our pedagogical advisors. We evaluate your current CEFR baseline, your timeframe, and your practical goals to suggest the optimal plan.</p>
     <div class="contact-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages%20courses." class="btn-primary" target="_blank" rel="noopener">💬 WhatsApp</a>
-      <a href="https://t.me/cosylanguagesproject" class="btn-secondary" target="_blank" rel="noopener">✈️ Telegram</a>
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20guidance%20on%20choosing%20the%20right%20course." class="btn-primary" target="_blank" rel="noopener">💬 WhatsApp Advisory</a>
+      <a href="https://t.me/cosylanguagesproject" class="btn-secondary" target="_blank" rel="noopener">✈️ Telegram Channel</a>
+      <a href="../placement-quiz.html" class="btn-accent" style="background: var(--sage, #416b49); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 700;">📝 Free Placement Quiz</a>
     </div>
   </div>
 
   <div class="student-portal-box">
-    🎓 <strong>Already a student?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Go to your course platform →</a>
+    🎓 <strong>Enrolled Student?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Access your personalized assignments on COSYplatform →</a>
   </div>
 </main>
 
 <footer>
-
   <div class="footer-inner">
     <div class="footer-brand">
       <div class="fb-logo">
@@ -326,7 +596,6 @@
     </div>
   </div>
   <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
-
 </footer>
 
 <script src="../js/data/languages.js" defer></script>
