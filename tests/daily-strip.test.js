@@ -316,3 +316,37 @@ test('Daily Strip dictionary-backed idiom calendar', async (t) => {
         assert.match(item.meta, /^CEFR B1 • Literally: "A slice of cake" • Example: "The test was a piece of cake\."$/);
     });
 });
+
+test('Daily Strip CEFR level task differentiation', async (t) => {
+    await t.test('tasks differ meaningfully across A0-A1, A2, B1-B2, and C1-C2', () => {
+        const { helpers } = setupTestEnvironment();
+        const levels = ['a0-a1', 'a2', 'b1-b2', 'c1-c2'];
+
+        for (const cat of ['speaking', 'writing']) {
+            const promptsByLevel = levels.map(lvl => {
+                const list = helpers.getLocalFallback('en', cat, lvl, 1);
+                const picked = helpers.pickItemForLevel(list, lvl, 1);
+                return picked.prompt;
+            });
+
+            // Ensure all 4 prompts are unique and non-empty
+            const uniquePrompts = new Set(promptsByLevel);
+            assert.equal(uniquePrompts.size, 4, `All 4 CEFR levels must yield different ${cat} tasks`);
+        }
+    });
+
+    await t.test('pickItemForLevel correctly filters items by CEFR level', () => {
+        const { helpers } = setupTestEnvironment();
+        const items = [
+            { prompt: 'Starter task', level: 'A0-A1' },
+            { prompt: 'Elementary task', level: 'A2' },
+            { prompt: 'Intermediate task', level: 'B1-B2' },
+            { prompt: 'Advanced task', level: 'C1-C2' }
+        ];
+
+        assert.equal(helpers.pickItemForLevel(items, 'a0-a1', 0).prompt, 'Starter task');
+        assert.equal(helpers.pickItemForLevel(items, 'a2', 0).prompt, 'Elementary task');
+        assert.equal(helpers.pickItemForLevel(items, 'b1-b2', 0).prompt, 'Intermediate task');
+        assert.equal(helpers.pickItemForLevel(items, 'c1-c2', 0).prompt, 'Advanced task');
+    });
+});
