@@ -16,7 +16,7 @@
     <meta name="twitter:description" content="Explore our 6 structured language courses in English, French, Italian, Russian, and Greek.">
     <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <link rel="icon" href="../images/logos/cosylanguages.png">
-    <meta name="theme-color" content="#FAF7F2">
+    <meta name="theme-color" content="#416b49">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -26,8 +26,13 @@
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
     <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
+      :root {
+        --course-accent: #416b49;
+        --course-accent-light: rgba(65, 107, 73, 0.08);
+      }
       .course-hub-wrap {
         max-width: 1140px;
         margin: 0 auto;
@@ -45,24 +50,6 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .courses-hero {
-        text-align: center;
-        margin-bottom: 3rem;
-      }
-      .courses-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.6rem;
-        color: var(--ink);
-        margin-bottom: 1rem;
-        line-height: 1.2;
-      }
-      .courses-hero p {
-        font-size: 1.15rem;
-        color: var(--ink-soft);
-        max-width: 760px;
-        margin: 0 auto;
-        line-height: 1.6;
-      }
       .courses-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -72,45 +59,46 @@
       .course-hub-card {
         background: var(--warm-white, #FAF7F2);
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
-        padding: 1.85rem;
+        border-radius: var(--card-radius);
+        padding: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        box-shadow: var(--card-shadow-sm);
+        transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
       }
       .course-hub-card:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 28px rgba(0,0,0,0.07);
+        transform: translateY(-5px);
+        box-shadow: var(--card-shadow-hover);
         border-color: var(--sage, #416b49);
       }
       .chc-icon {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         margin-bottom: 0.75rem;
         display: inline-block;
       }
       .chc-badge {
         display: inline-block;
         font-size: 0.75rem;
-        font-weight: 700;
+        font-weight: 800;
         text-transform: uppercase;
-        letter-spacing: 0.05em;
-        padding: 0.2rem 0.6rem;
+        letter-spacing: 0.06em;
+        padding: 0.25rem 0.7rem;
         border-radius: 999px;
         background: rgba(65, 107, 73, 0.12);
         color: var(--sage, #416b49);
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
       }
       .chc-title {
         font-family: var(--font-serif);
-        font-size: 1.4rem;
+        font-size: 1.45rem;
         color: var(--ink);
         margin-bottom: 0.5rem;
       }
       .chc-desc {
         font-size: 0.95rem;
         color: var(--ink-soft);
-        line-height: 1.55;
+        line-height: 1.6;
         margin-bottom: 1.25rem;
         flex-grow: 1;
       }
@@ -118,14 +106,14 @@
         list-style: none;
         padding: 0;
         margin: 0 0 1.5rem 0;
-        font-size: 0.88rem;
+        font-size: 0.9rem;
         color: var(--ink-soft);
       }
       .chc-features li {
-        margin-bottom: 0.35rem;
+        margin-bottom: 0.45rem;
         display: flex;
         align-items: baseline;
-        gap: 0.4rem;
+        gap: 0.45rem;
       }
       .chc-features li::before {
         content: "✓";
@@ -146,19 +134,20 @@
       .decision-matrix-card {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
-        padding: 2.25rem;
+        border-radius: var(--card-radius);
+        padding: 2.5rem;
         margin-bottom: 3.5rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .decision-matrix-card h2 {
         font-family: var(--font-serif);
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         color: var(--ink);
         margin-bottom: 0.75rem;
       }
       .decision-table-wrap {
         overflow-x: auto;
-        margin-top: 1.25rem;
+        margin-top: 1.5rem;
       }
       .decision-table {
         width: 100%;
@@ -169,21 +158,21 @@
       .decision-table th {
         background: var(--surface-color, #F5F1EB);
         color: var(--ink);
-        padding: 0.85rem 1rem;
-        font-weight: 700;
+        padding: 1rem 1.15rem;
+        font-weight: 800;
         border-bottom: 2px solid var(--border, #E2DCD5);
       }
       .decision-table td {
-        padding: 0.9rem 1rem;
+        padding: 1rem 1.15rem;
         border-bottom: 1px solid var(--border, #E2DCD5);
         color: var(--ink-soft);
         vertical-align: top;
       }
       .decision-table tr:hover td {
-        background: rgba(0,0,0,0.015);
+        background: rgba(65, 107, 73, 0.02);
       }
       .course-pill {
-        font-weight: 700;
+        font-weight: 800;
         color: var(--ink);
         white-space: nowrap;
       }
@@ -195,80 +184,31 @@
         color: #b84318;
         font-size: 0.88rem;
       }
-      .cefr-roadmap-summary {
-        background: var(--surface-color, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
-        padding: 2.25rem;
-        margin-bottom: 3.5rem;
-      }
-      .cefr-roadmap-summary h2 {
-        font-family: var(--font-serif);
-        font-size: 1.7rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-      }
-      .cefr-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 1.25rem;
-        margin-top: 1.5rem;
-      }
-      .cefr-step-box {
-        background: #ffffff;
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: 8px;
-        padding: 1.25rem;
-      }
-      .cefr-step-box h3 {
-        font-size: 1.05rem;
-        color: var(--sage, #416b49);
-        margin-bottom: 0.4rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .cefr-step-box p {
-        font-size: 0.9rem;
-        color: var(--ink-soft);
-        line-height: 1.5;
-        margin-bottom: 0.5rem;
-      }
-      .cefr-step-box ul {
-        margin: 0;
-        padding-left: 1.2rem;
-        font-size: 0.85rem;
-        color: var(--ink-soft);
-      }
       .group-note-box {
-        background: rgba(65, 107, 73, 0.08);
-        border: 1px solid var(--sage, #416b49);
-        border-radius: var(--r-md, 12px);
-        padding: 1.5rem 1.75rem;
+        background: linear-gradient(135deg, rgba(65, 107, 73, 0.08) 0%, rgba(65, 107, 73, 0.02) 100%);
+        border: 1.5px solid var(--sage, #416b49);
+        border-radius: var(--card-radius);
+        padding: 1.5rem 2rem;
         margin-bottom: 2.5rem;
         text-align: center;
-      }
-      .group-note-box p {
-        margin: 0;
-        color: var(--ink);
-        font-size: 1.02rem;
       }
       .contact-cta-box {
         text-align: center;
         background: #fff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
-        padding: 2.25rem;
+        border-radius: var(--card-radius);
+        padding: 2.5rem;
         margin-bottom: 2.5rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .contact-cta-box h2 {
         font-family: var(--font-serif);
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         margin-bottom: 0.5rem;
       }
       .contact-cta-box p {
         color: var(--ink-soft);
-        margin-bottom: 1.25rem;
+        margin-bottom: 1.5rem;
       }
       .contact-btns {
         display: flex;
@@ -279,7 +219,7 @@
       .student-portal-box {
         background: #f0f4f1;
         border: 1px dashed var(--sage, #416b49);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-top: 2rem;
@@ -305,76 +245,204 @@
     <a href="../index.html">Home</a> / <span>Courses</span>
   </div>
 
-  <section class="courses-hero">
-    <div class="journey-roadmap-header">
+  <section class="course-hero-modern">
+    <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
       <span class="visual-journey-badge">📖 Complete Learning Roadmaps</span>
       <span class="journey-connector-line"></span>
       <span class="visual-journey-badge">🗣️ Speaking-First Pedagogy</span>
+      <span class="journey-connector-line"></span>
+      <span class="visual-journey-badge">🧭 Decision Architecture</span>
     </div>
     <h1>Our Language Courses &amp; Roadmaps 📚</h1>
     <p>Every language journey has distinct requirements. Whether you need academic mastery, official CEFR certification, professional workplace precision, spontaneous spoken fluency, or expatriate integration, discover our comprehensive syllabus and select the exact roadmap suited to your goals.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">🗣️</span> 40%+ Active Speaking Guaranteed</div>
+      <div class="hero-stat-pill"><span class="icon">🎓</span> CEFR A1 → C2 Benchmarked</div>
+      <div class="hero-stat-pill"><span class="icon">🌍</span> 5 Supported Languages</div>
+      <div class="hero-stat-pill"><span class="icon">🎯</span> 1-to-1 &amp; Small Cohorts</div>
+    </div>
   </section>
 
-  <!-- CEFR Level Milestones & Educational Methodology Section -->
-  <section class="cefr-roadmap-summary">
-    <h2>🎓 The CEFR Framework &amp; Pedagogical Architecture</h2>
+  <!-- CEFR Framework Visual Timeline Section -->
+  <section class="course-section" style="background:#fff; border: 1px solid var(--border); border-radius: var(--card-radius); padding: 2.5rem; margin-bottom: 3.5rem; box-shadow: var(--card-shadow-sm);">
+    <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--ink); margin-bottom: 0.75rem;">🎓 The CEFR Framework &amp; Pedagogical Architecture</h2>
     <p style="font-size: 1.02rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1.5rem;">
       All COSY courses are aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>. Our communicative method ensures that no matter your target level, at least <strong>40% of every lesson is dedicated to active, unscripted oral production</strong>, backed by deep grammatical competence, lexical precision, and strategic listening.
     </p>
 
-    <div class="cefr-grid">
-      <div class="cefr-step-box">
-        <h3>🌱 A1 Breakthrough <span>0 – 100 hrs</span></h3>
-        <p><strong>Foundation &amp; First Words:</strong> Construct simple affirmative, negative, and interrogative sentences. Form basic questions and express daily physical needs.</p>
-        <ul>
-          <li><strong>Grammar:</strong> Present indicative, word order, gender/number agreement, articles, core pronouns.</li>
-          <li><strong>Vocab:</strong> Greetings, family, numbers, food, everyday objects, numbers, telling time (~500–800 words).</li>
-        </ul>
+    <div class="visual-timeline-track">
+      <!-- A1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">A1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌱 Breakthrough &amp; Discovery</span>
+            <span class="timeline-badge-pill">0 – 100 Guided Hours</span>
+          </div>
+          <p style="margin:0 0 0.75rem 0; font-size:0.92rem; color:var(--ink-soft);">Construct simple affirmative, negative, and interrogative sentences. Form basic questions and express daily physical needs with clear phonetics.</p>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Present simple indicative &amp; core auxiliaries (be, have)</li>
+                <li>Articles, gender/number noun agreement, core pronouns</li>
+                <li>Basic word order (SVO) &amp; question formation</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~600–800 words)</h4>
+              <ul>
+                <li>Self-introductions, family, home, food, numbers 0–1,000</li>
+                <li>Daily routines, telling time, basic café transactions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="cefr-step-box">
-        <h3>🌿 A2 Waystage <span>100 – 200 hrs</span></h3>
-        <p><strong>Everyday Survival &amp; Routine Exchanges:</strong> Describe personal background, immediate surroundings, work duties, and narrate events in simple past tenses.</p>
-        <ul>
-          <li><strong>Grammar:</strong> Simple past/passé composé/passato prossimo, future aspects, modals, comparatives.</li>
-          <li><strong>Vocab:</strong> Shopping, local geography, employment, travel routines, health, weather (~1,200–1,500 words).</li>
-        </ul>
+      <!-- A2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">A2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌿 Waystage &amp; Survival</span>
+            <span class="timeline-badge-pill">100 – 200 Guided Hours</span>
+          </div>
+          <p style="margin:0 0 0.75rem 0; font-size:0.92rem; color:var(--ink-soft);">Communicate in routine tasks requiring a direct exchange of information. Narrate past events and describe immediate surroundings.</p>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Simple past / passé composé / passato prossimo / прошедшее</li>
+                <li>Future tenses, modal auxiliaries (can, must, should)</li>
+                <li>Comparatives, superlatives, direct/indirect pronouns</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~1,200–1,600 words)</h4>
+              <ul>
+                <li>Shopping, city navigation, vacations, weather</li>
+                <li>Health complaints, pharmacy visits, personal interests</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="cefr-step-box">
-        <h3>🌾 B1 Threshold <span>200 – 400 hrs</span></h3>
-        <p><strong>Independent Fluency &amp; Problem Solving:</strong> Handle unexpected situations while traveling, express opinions, outline ambitions, narrate plots and reason logically.</p>
-        <ul>
-          <li><strong>Grammar:</strong> Imperfect vs past, basic conditionals, relative pronouns, passive voice, purpose/cause connectors.</li>
-          <li><strong>Vocab:</strong> Current affairs, media, relationships, professional tasks, abstract concepts (~2,500–3,000 words).</li>
-        </ul>
+      <!-- B1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">B1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌾 Threshold &amp; Independence</span>
+            <span class="timeline-badge-pill">200 – 400 Guided Hours</span>
+          </div>
+          <p style="margin:0 0 0.75rem 0; font-size:0.92rem; color:var(--ink-soft);">Enter unprepared into conversations on familiar topics. Express opinions, reason logically, and handle unexpected situations when traveling.</p>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Past continuous vs past simple, imperfect vs perfective aspect</li>
+                <li>First &amp; second conditionals, passive voice, relative clauses</li>
+                <li>Discourse connectors: cause, contrast, consequence</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~2,500–3,200 words)</h4>
+              <ul>
+                <li>Workplace environments, media, current affairs, social trends</li>
+                <li>Abstract concepts, personal ambitions, storytelling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="cefr-step-box">
-        <h3>🌲 B2 Vantage <span>400 – 600 hrs</span></h3>
-        <p><strong>Professional Competence &amp; Complex Debate:</strong> Understand technical articles, defend viewpoints with nuance, interact fluently without strain with native speakers.</p>
-        <ul>
-          <li><strong>Grammar:</strong> Subjunctive/conjunctive mood, mixed conditionals, discourse markers, passive/causative constructions.</li>
-          <li><strong>Vocab:</strong> Idiomatic expressions, workplace negotiations, politics, ethics, specialized jargon (~4,500–5,500 words).</li>
-        </ul>
+      <!-- B2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">B2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌲 Vantage &amp; Fluency</span>
+            <span class="timeline-badge-pill">400 – 600 Guided Hours</span>
+          </div>
+          <p style="margin:0 0 0.75rem 0; font-size:0.92rem; color:var(--ink-soft);">Achieve operational independence. Interact with native speakers fluently without strain; understand technical articles and defend viewpoints with nuance.</p>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Subjunctive mood (doubt, emotion, necessity), mixed conditionals</li>
+                <li>Advanced passive, causative structures, reported speech nuances</li>
+                <li>Participle clauses, gerunds vs infinitives with subtle shifts</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~4,500–6,000 words)</h4>
+              <ul>
+                <li>Global politics, ethics, technological disruption, art analysis</li>
+                <li>Idiomatic expressions, phrasal verbs, workplace negotiations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="cefr-step-box">
-        <h3>🌳 C1 Effective Operational <span>600 – 800 hrs</span></h3>
-        <p><strong>Spontaneous Nuance &amp; Advanced Discourse:</strong> Grasp subtle irony, humor, academic papers, and structure complex oral presentations effortlessly.</p>
-        <ul>
-          <li><strong>Grammar:</strong> Cleft sentences, fronting/inversion for rhetorical emphasis, advanced modal nuances, register shifts.</li>
-          <li><strong>Vocab:</strong> High-register abstractions, colloquial idioms, academic rhetoric, legislative and literary terminology (~8,000+ words).</li>
-        </ul>
+      <!-- C1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">C1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌳 Effective Operational Proficiency</span>
+            <span class="timeline-badge-pill">600 – 800 Guided Hours</span>
+          </div>
+          <p style="margin:0 0 0.75rem 0; font-size:0.92rem; color:var(--ink-soft);">Master stylistic nuance, irony, and rhetorical elegance. Use language flexibly for academic, professional, and literary purposes.</p>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Cleft sentences, inversion/fronting for dramatic emphasis</li>
+                <li>Subtle modal auxiliaries denoting nuanced speculation</li>
+                <li>Nominalization and advanced academic synthesis</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~8,000–10,000 words)</h4>
+              <ul>
+                <li>Philosophy, jurisprudence, financial markets, sociology</li>
+                <li>Academic critique, rhetorical oratory, cultural metaphors</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="cefr-step-box">
-        <h3>🏛️ C2 Mastery <span>800+ hrs</span></h3>
-        <p><strong>Near-Native Polish &amp; Stylistic Precision:</strong> Understand virtually anything read or heard; reconstruct arguments coherently from diverse spoken and written sources.</p>
-        <ul>
-          <li><strong>Grammar:</strong> Full dialectal sensitivity, stylistic archaic/literary registers, seamless syntax manipulation.</li>
-          <li><strong>Vocab:</strong> Complete cultural subtext, regional metaphors, philosophical and specialized literature (~15,000+ words).</li>
-        </ul>
+      <!-- C2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">C2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🏛️ Mastery &amp; Bilingual Polish</span>
+            <span class="timeline-badge-pill">800+ Guided Hours</span>
+          </div>
+          <p style="margin:0 0 0.75rem 0; font-size:0.92rem; color:var(--ink-soft);">Near-native linguistic intuition. Reconstruct arguments from diverse sources coherently and express fine shades of meaning effortlessly.</p>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Full mastery of historical, literary, and regional syntax variants</li>
+                <li>Micro-nuances of prosody, stress, intonation contouring, and cadence</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~15,000+ words)</h4>
+              <ul>
+                <li>Complete cultural subtext, historical idioms, regional dialects</li>
+                <li>Classical literature, specialized scientific papers, jurisprudence</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -536,7 +604,7 @@
   </section>
 
   <div class="group-note-box">
-    <p><strong>👥 Group Lessons Available:</strong> Join cohort classes in English, French, Italian, and Russian. Learn alongside peers at your exact CEFR level with guided speaking activities. <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons.">Ask our coordinators about upcoming groups →</a></p>
+    <p style="margin: 0; color: var(--ink); font-size: 1.05rem;"><strong>👥 Group Lessons Available:</strong> Join cohort classes in English, French, Italian, and Russian. Learn alongside peers at your exact CEFR level with guided speaking activities. <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons." style="color: var(--sage, #416b49); font-weight: 700;">Ask our coordinators about upcoming groups →</a></p>
   </div>
 
   <div class="contact-cta-box">

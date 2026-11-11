@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
     <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
       :root {
@@ -49,167 +50,26 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .course-hero {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-left: 6px solid var(--course-accent);
-        border-radius: var(--r-md, 12px);
-        padding: 2.5rem 2rem;
-        margin-bottom: 2.5rem;
-      }
-      .course-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.4rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-        line-height: 1.2;
-      }
-      .course-hero .promise {
-        font-size: 1.25rem;
-        color: var(--ink-soft);
-        line-height: 1.55;
-        margin-bottom: 1.75rem;
-      }
-      .hero-cta-btns {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-accent {
-        background: var(--course-accent);
-        color: #ffffff;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--r-sm, 8px);
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: opacity 0.2s;
-      }
-      .btn-accent:hover {
-        opacity: 0.9;
-        color: #ffffff;
-      }
       .course-section {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 2.25rem 2rem;
         margin-bottom: 2rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .course-section h2 {
         font-family: var(--font-serif);
-        font-size: 1.55rem;
+        font-size: 1.6rem;
         color: var(--ink);
         margin-bottom: 1.2rem;
         border-bottom: 2px solid rgba(0,0,0,0.06);
         padding-bottom: 0.6rem;
       }
-      .course-section p {
-        line-height: 1.65;
-        color: var(--ink-soft);
-        margin-bottom: 1rem;
-      }
-      .course-section ul {
-        padding-left: 1.35rem;
-        margin-bottom: 1rem;
-      }
-      .course-section li {
-        margin-bottom: 0.45rem;
-        line-height: 1.6;
-        color: var(--ink-soft);
-      }
-      .decision-box {
-        background: var(--course-accent-light);
-        border-left: 5px solid var(--course-accent);
-        border-radius: 8px;
-        padding: 1.25rem 1.5rem;
-        margin: 1.5rem 0;
-      }
-      .decision-box strong {
-        color: var(--course-accent);
-      }
-      .reloc-pillar-card {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: 10px;
-        padding: 1.5rem;
-        margin-bottom: 1.5rem;
-      }
-      .reloc-pillar-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-bottom: 0.75rem;
-      }
-      .reloc-pillar-title {
-        font-family: var(--font-serif);
-        font-size: 1.3rem;
-        font-weight: 700;
-        color: var(--course-accent);
-      }
-      .reloc-pillar-badge {
-        font-size: 0.8rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        padding: 0.25rem 0.6rem;
-        border-radius: 999px;
-        background: var(--course-accent-light);
-        color: var(--course-accent);
-      }
-      .reloc-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1.25rem;
-        margin-top: 1rem;
-      }
-      .reloc-subbox {
-        background: #ffffff;
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: 8px;
-        padding: 1.15rem;
-      }
-      .reloc-subbox h4 {
-        font-size: 0.95rem;
-        font-weight: 700;
-        color: var(--ink);
-        margin-bottom: 0.4rem;
-        display: flex;
-        align-items: center;
-        gap: 0.35rem;
-      }
-      .reloc-subbox ul {
-        margin: 0;
-        padding-left: 1.15rem;
-        font-size: 0.88rem;
-      }
-      .faq-item {
-        border-bottom: 1px solid var(--border, #E2DCD5);
-        padding: 1rem 0;
-      }
-      .faq-item:last-child {
-        border-bottom: none;
-      }
-      .faq-question {
-        font-family: var(--font-serif);
-        font-size: 1.15rem;
-        color: var(--ink);
-        font-weight: 700;
-        margin-bottom: 0.4rem;
-      }
-      .faq-answer {
-        color: var(--ink-soft);
-        line-height: 1.6;
-        font-size: 0.95rem;
-        margin: 0;
-      }
       .student-portal-box {
         background: #fdf6f0;
         border: 1px dashed var(--course-accent);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-bottom: 2.5rem;
@@ -252,7 +112,7 @@
   </div>
 
   <!-- Hero -->
-  <section class="course-hero">
+  <section class="course-hero-modern">
     <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
       <span class="visual-journey-badge">🏡 Relocation Track</span>
       <span class="journey-connector-line"></span>
@@ -261,142 +121,171 @@
       <span class="visual-journey-badge">🤝 Social Integration</span>
     </div>
     <h1>Expat Relocation Language Course 🏡</h1>
-    <p class="promise">Transform your new country into a true home. Move past the feeling of being an isolated outsider. Master the real language of daily living: reading rental leases, registering at town halls, setting up utilities and bank accounts, visiting doctors, enrolling children in local schools, and making local friends.</p>
-    <div class="hero-cta-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20relocating%20and%20would%20like%20to%20learn%20for%20daily%20life." class="btn-accent" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+    <p style="font-size: 1.15rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1rem;">Transform your new country into a true home. Move past the feeling of being an isolated outsider. Master the real language of daily living: reading rental leases, registering at town halls, setting up utilities and bank accounts, visiting doctors, enrolling children in local schools, and making local friends.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">📑</span> Housing Leases &amp; Tenancy Law</div>
+      <div class="hero-stat-pill"><span class="icon">🏛️</span> Town Hall &amp; Prefecture Registration</div>
+      <div class="hero-stat-pill"><span class="icon">🩺</span> Healthcare Cards &amp; Pharmacy Care</div>
+      <div class="hero-stat-pill"><span class="icon">🤝</span> Neighborhood &amp; School Community</div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20relocating%20and%20would%20like%20to%20learn%20for%20daily%20life." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
       <a href="../placement-quiz.html" class="btn-secondary">Check Current Level</a>
       <a href="../index.html#calculator" class="btn-secondary">See Pricing</a>
     </div>
   </section>
 
   <!-- Decision Compass -->
-  <section class="course-section">
-    <h2>🧭 Course Selection Compass: Is the Relocation Course Necessary For You?</h2>
-    <div class="decision-box">
-      <p style="margin: 0 0 0.5rem 0;"><strong>✅ This course is necessary if:</strong></p>
-      <ul style="margin-bottom: 0.75rem;">
-        <li>You are moving permanently or long-term to France, the UK, the US, Italy, Greece, or Russian-speaking regions and need to manage daily life without hiring expensive translation coordinators.</li>
-        <li>You feel overwhelmed by local paperwork: residency permits (<em>titre de séjour, permesso di soggiorno</em>), tax identification numbers (<em>tax code, codice fiscale, AFM</em>), rental deposits, and medical reimbursements.</li>
-        <li>You want to build genuine local relationships: chatting with neighbors, participating in school PTA meetings, and understanding civic culture.</li>
-      </ul>
-      <p style="margin: 0 0 0.5rem 0;"><strong>⚠️ Otherwise, choose another course:</strong></p>
-      <ul style="margin-bottom: 0;">
-        <li>Choose the <strong><a href="travelling.html">Travelling Course</a></strong> if you are only taking a short holiday or visiting for a few weeks without permanent administrative obligations.</li>
-        <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if your relocation life is already organized and you specifically need corporate language for software development, law, or academic research.</li>
-        <li>Choose the <strong><a href="exam-preparation.html">Exam Preparation Course</a></strong> if you need an official certificate (e.g. B1 citizenship exam or university matriculation diploma).</li>
-      </ul>
+  <section class="decision-compass-box">
+    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.5rem;">🧭 Course Selection Compass: Is the Relocation Course Necessary For You?</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 1.25rem;">Clarify whether settlement language coaching is your main priority:</p>
+
+    <div class="decision-compass-grid">
+      <div class="decision-side-card necessary">
+        <div class="decision-side-title">✅ This course is necessary if...</div>
+        <ul>
+          <li>You are moving permanently or long-term to France, the UK, the US, Italy, Greece, or Russian-speaking regions and need to manage daily life without hiring expensive translation coordinators.</li>
+          <li>You feel overwhelmed by local paperwork: residency permits (<em>titre de séjour, permesso di soggiorno</em>), tax identification numbers (<em>tax code, codice fiscale, AFM</em>), rental deposits, and medical reimbursements.</li>
+          <li>You want to build genuine local relationships: chatting with neighbors, participating in school PTA meetings, and understanding civic culture.</li>
+        </ul>
+      </div>
+
+      <div class="decision-side-card alternative">
+        <div class="decision-side-title">⚠️ Otherwise, choose another course if...</div>
+        <ul>
+          <li>Choose the <strong><a href="travelling.html">Travelling Course</a></strong> if you are only taking a short holiday or visiting for a few weeks without permanent administrative obligations.</li>
+          <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if your relocation life is already organized and you specifically need corporate language for software development, law, or academic research.</li>
+          <li>Choose the <strong><a href="exam-preparation.html">Exam Preparation Course</a></strong> if you need an official certificate (e.g. B1 citizenship exam or university matriculation diploma).</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- 4 Pillars of Relocation Mastery -->
   <section class="course-section">
     <h2>🗺️ The 4 Pillars of Expat Settlement Roadmap</h2>
-    <p>We systematically address the real-world obstacles every newcomer encounters during the first 12 months abroad:</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;">We systematically address the real-world obstacles every newcomer encounters during the first 12 months abroad:</p>
 
-    <!-- Pillar 1 -->
-    <div class="reloc-pillar-card">
-      <div class="reloc-pillar-header">
-        <span class="reloc-pillar-title">📑 Pillar 1: Housing, Leases &amp; Utilities Setup</span>
-        <span class="reloc-pillar-badge">The First Month</span>
-      </div>
-      <p>Target: Communicate directly with real estate agents, decipher rental agreements, report maintenance issues, and register household electricity, water, and internet contracts.</p>
+    <div class="visual-timeline-track">
+      <!-- Pillar 1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">📑 Pillar 1: Housing, Leases &amp; Utilities Setup</span>
+            <span class="timeline-badge-pill">The First Month</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Communicate directly with real estate agents, decipher rental agreements, report maintenance issues, and register household electricity, water, and internet contracts.</p>
 
-      <div class="reloc-grid">
-        <div class="reloc-subbox">
-          <h4>🏡 Practical Competencies</h4>
-          <ul>
-            <li>Inquiring about listings, scheduling viewings, asking about landlord deposits and agency fees</li>
-            <li>Reading clauses: notice periods, utility charges (<em>charges comprises / spese condominiali</em>), subleasing rules</li>
-            <li>Setting up accounts with telecom providers and municipal utility companies</li>
-          </ul>
-        </div>
-        <div class="reloc-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Housing lexicon: <em>guarantor, security deposit, inventory check (état des lieux), breakdown of maintenance</em></li>
-            <li>Assertive issue reporting: water leaks, mold, radiator bleeding, locksmith services</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Pillar 2 -->
-    <div class="reloc-pillar-card">
-      <div class="reloc-pillar-header">
-        <span class="reloc-pillar-title">🏛️ Pillar 2: Municipal Bureaucracy &amp; Banking</span>
-        <span class="reloc-pillar-badge">Official Status</span>
-      </div>
-      <p>Target: Attend municipal appointments, open bank accounts, register for tax IDs, and handle residency permit renewals with calm composure.</p>
-
-      <div class="reloc-grid">
-        <div class="reloc-subbox">
-          <h4>🏛️ Practical Competencies</h4>
-          <ul>
-            <li>Opening checking accounts, understanding international transfer fees and debit card limits</li>
-            <li>Visiting prefecture/town hall (<em>mairie / comune</em>) for civil registration and residency cards</li>
-            <li>Interpreting official postal notices, tax declarations, and certified apostille stamps</li>
-          </ul>
-        </div>
-        <div class="reloc-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Bureaucratic terms: <em>proof of address (justificatif de domicile), certified translation, fiscal code</em></li>
-            <li>Clarification phrasing: <em>"Which additional supporting document is required for this file?"</em></li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🏡 Practical Competencies</h4>
+              <ul>
+                <li>Inquiring about listings, scheduling viewings, asking about landlord deposits and fees</li>
+                <li>Reading clauses: notice periods, utility charges (<em>charges comprises / spese condominiali</em>)</li>
+                <li>Setting up accounts with telecom providers and utility companies</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Housing terms: <em>guarantor, security deposit, inventory check (état des lieux)</em></li>
+                <li>Assertive issue reporting: water leaks, mold, radiator bleeding, locksmith services</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Pillar 3 -->
-    <div class="reloc-pillar-card">
-      <div class="reloc-pillar-header">
-        <span class="reloc-pillar-title">🩺 Pillar 3: Healthcare, Pharmacies &amp; Insurance</span>
-        <span class="reloc-pillar-badge">Vital Wellbeing</span>
-      </div>
-      <p>Target: Choose a general practitioner (GP), communicate medical histories, understand prescription instructions, and navigate national health insurance reimbursement schemes.</p>
+      <!-- Pillar 2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🏛️ Pillar 2: Municipal Bureaucracy &amp; Banking</span>
+            <span class="timeline-badge-pill">Official Status</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Attend municipal appointments, open bank accounts, register for tax IDs, and handle residency permit renewals with calm composure.</p>
 
-      <div class="reloc-grid">
-        <div class="reloc-subbox">
-          <h4>🩺 Practical Competencies</h4>
-          <ul>
-            <li>Booking doctor appointments, describing chronic ailments and allergic reactions</li>
-            <li>Understanding prescription dosages and pharmacy label warnings</li>
-            <li>Navigating health cards (<em>Carte Vitale, Tessera Sanitaria, AMKA</em>) and private top-up insurance</li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🏛️ Practical Competencies</h4>
+              <ul>
+                <li>Opening checking accounts, understanding international transfer fees and card limits</li>
+                <li>Visiting prefecture/town hall (<em>mairie / comune</em>) for civil registration</li>
+                <li>Interpreting official postal notices, tax declarations, and certified apostilles</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Bureaucratic terms: <em>proof of address (justificatif de domicile), certified translation, fiscal code</em></li>
+                <li>Clarification: <em>"Which additional supporting document is required for this file?"</em></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="reloc-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Medical symptom terminology: chronic vs acute pain, specialist referrals, lab bloodwork orders</li>
-            <li>Insurance claims: co-payments, deductions, hospital admission procedures</li>
-          </ul>
+      </div>
+
+      <!-- Pillar 3 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">3</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🩺 Pillar 3: Healthcare, Pharmacies &amp; Insurance</span>
+            <span class="timeline-badge-pill">Vital Wellbeing</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Choose a general practitioner (GP), communicate medical histories, understand prescription instructions, and navigate national health insurance reimbursement schemes.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🩺 Practical Competencies</h4>
+              <ul>
+                <li>Booking doctor appointments, describing chronic ailments and allergic reactions</li>
+                <li>Understanding prescription dosages and pharmacy label warnings</li>
+                <li>Navigating health cards (<em>Carte Vitale, Tessera Sanitaria, AMKA</em>)</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Symptom terminology: chronic vs acute pain, specialist referrals, lab bloodwork orders</li>
+                <li>Insurance claims: co-payments, deductions, hospital admission procedures</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Pillar 4 -->
-    <div class="reloc-pillar-card">
-      <div class="reloc-pillar-header">
-        <span class="reloc-pillar-title">🤝 Pillar 4: Neighborhood Community &amp; Family Life</span>
-        <span class="reloc-pillar-badge">Thriving Locally</span>
-      </div>
-      <p>Target: Overcome social isolation. Chat with neighborhood merchants, participate in local community events, converse with teachers during school conferences, and make local friends.</p>
+      <!-- Pillar 4 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">4</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🤝 Pillar 4: Neighborhood Community &amp; Family Life</span>
+            <span class="timeline-badge-pill">Thriving Locally</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Overcome social isolation. Chat with neighborhood merchants, participate in local community events, converse with teachers during school conferences, and make local friends.</p>
 
-      <div class="reloc-grid">
-        <div class="reloc-subbox">
-          <h4>🤝 Practical Competencies</h4>
-          <ul>
-            <li>Parent-teacher meetings: discussing child adaptation, grades, and extracurricular clubs</li>
-            <li>Neighborly etiquette: building renovation notices, package reception, noise agreements</li>
-            <li>Joining sports clubs, local associations (<em>associations de quartier</em>), and cultural societies</li>
-          </ul>
-        </div>
-        <div class="reloc-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Warm conversational openers, local community slang, polite dinner invitation acceptances</li>
-            <li>Expressing gratitude, small talk about local festivities, and regional traditions</li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🤝 Practical Competencies</h4>
+              <ul>
+                <li>Parent-teacher meetings: discussing adaptation, grades, and school clubs</li>
+                <li>Neighborly etiquette: building renovation notices, package reception</li>
+                <li>Joining sports clubs, local associations (<em>associations de quartier</em>)</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Warm conversational openers, local community slang, polite dinner acceptances</li>
+                <li>Expressing gratitude, small talk about local festivities, regional traditions</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -405,27 +294,29 @@
   <!-- Languages Offered -->
   <section class="course-section">
     <h2>Languages Available &amp; Expat Formats</h2>
-    <p>Available in <strong>English</strong> (UK, US, Canada, Australia), <strong>French</strong> (France, Belgium, Switzerland, Quebec), <strong>Italian</strong> (Italy, Ticino), <strong>Russian</strong> (Eurasia), and <strong>Greek</strong> (Greece, Cyprus).</p>
-    <p><strong>Coaching Formats:</strong> 1-to-1 tailored sessions or family packages for couples relocating together. Sessions can directly review your live administrative paperwork and lease agreements.</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Available in <strong>English</strong> (UK, US, Canada, Australia), <strong>French</strong> (France, Belgium, Switzerland, Quebec), <strong>Italian</strong> (Italy, Ticino), <strong>Russian</strong> (Eurasia), and <strong>Greek</strong> (Greece, Cyprus).</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;"><strong>Coaching Formats:</strong> 1-to-1 tailored sessions or family packages for couples relocating together. Sessions can directly review your live administrative paperwork and lease agreements.</p>
   </section>
 
   <!-- In-Depth FAQ Section -->
   <section class="course-section">
     <h2>Frequently Asked Questions (FAQ)</h2>
 
-    <div class="faq-item">
-      <div class="faq-question">Can we practice my actual upcoming administrative appointment?</div>
-      <div class="faq-answer">Yes, 100%. If you have an upcoming appointment at the prefecture, the police station, the bank, or a rental viewing, we simulate the exact dialogue in advance. You will walk into the room knowing the exact questions you will be asked and how to answer them without hesitation.</div>
-    </div>
+    <div class="faq-box-container">
+      <div class="faq-card">
+        <div class="faq-card-title">Can we practice my actual upcoming administrative appointment?</div>
+        <div class="faq-card-body">Yes, 100%. If you have an upcoming appointment at the prefecture, the police station, the bank, or a rental viewing, we simulate the exact dialogue in advance. You will walk into the room knowing the exact questions you will be asked and how to answer them without hesitation.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Can the teacher help me understand letters received from the government?</div>
-      <div class="faq-answer">Yes! Official letters are notoriously full of dense legalese and administrative jargon. During your lessons, you and your teacher can read the correspondence together, identifying the required deadlines and action items.</div>
-    </div>
+      <div class="faq-card">
+        <div class="faq-card-title">Can the teacher help me understand letters received from the government?</div>
+        <div class="faq-card-body">Yes! Official letters are notoriously full of dense legalese and administrative jargon. During your lessons, you and your teacher can read the correspondence together, identifying the required deadlines and action items.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">I have children who need to enroll in local school. Can this course help?</div>
-      <div class="faq-answer">Absolutely. We cover school registration forms, canteen meal selections, after-school care sign-ups, and the essential vocabulary needed for parent-teacher conferences.</div>
+      <div class="faq-card">
+        <div class="faq-card-title">I have children who need to enroll in local school. Can this course help?</div>
+        <div class="faq-card-body">Absolutely. We cover school registration forms, canteen meal selections, after-school care sign-ups, and the essential vocabulary needed for parent-teacher conferences.</div>
+      </div>
     </div>
   </section>
 

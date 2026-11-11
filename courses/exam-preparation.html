@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
     <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
       :root {
@@ -49,92 +50,27 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .course-hero {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-left: 6px solid var(--course-accent);
-        border-radius: var(--r-md, 12px);
-        padding: 2.5rem 2rem;
-        margin-bottom: 2.5rem;
-      }
-      .course-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.4rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-        line-height: 1.2;
-      }
-      .course-hero .promise {
-        font-size: 1.25rem;
-        color: var(--ink-soft);
-        line-height: 1.55;
-        margin-bottom: 1.75rem;
-      }
-      .hero-cta-btns {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-accent {
-        background: var(--course-accent);
-        color: #ffffff;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--r-sm, 8px);
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: opacity 0.2s;
-      }
-      .btn-accent:hover {
-        opacity: 0.9;
-        color: #ffffff;
-      }
       .course-section {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 2.25rem 2rem;
         margin-bottom: 2rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .course-section h2 {
         font-family: var(--font-serif);
-        font-size: 1.55rem;
+        font-size: 1.6rem;
         color: var(--ink);
         margin-bottom: 1.2rem;
         border-bottom: 2px solid rgba(0,0,0,0.06);
         padding-bottom: 0.6rem;
       }
-      .course-section p {
-        line-height: 1.65;
-        color: var(--ink-soft);
-        margin-bottom: 1rem;
-      }
-      .course-section ul {
-        padding-left: 1.35rem;
-        margin-bottom: 1rem;
-      }
-      .course-section li {
-        margin-bottom: 0.45rem;
-        line-height: 1.6;
-        color: var(--ink-soft);
-      }
-      .decision-box {
-        background: var(--course-accent-light);
-        border-left: 5px solid var(--course-accent);
-        border-radius: 8px;
-        padding: 1.25rem 1.5rem;
-        margin: 1.5rem 0;
-      }
-      .decision-box strong {
-        color: var(--course-accent);
-      }
       .exam-suite-card {
         background: var(--warm-white, #FAF7F2);
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: 10px;
-        padding: 1.5rem;
+        border-radius: 12px;
+        padding: 1.75rem;
         margin-bottom: 1.75rem;
       }
       .exam-suite-header {
@@ -153,9 +89,9 @@
       }
       .exam-suite-badge {
         font-size: 0.8rem;
-        font-weight: 700;
+        font-weight: 800;
         text-transform: uppercase;
-        padding: 0.25rem 0.6rem;
+        padding: 0.25rem 0.65rem;
         border-radius: 999px;
         background: var(--course-accent-light);
         color: var(--course-accent);
@@ -169,12 +105,12 @@
       .exam-part-box {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: 8px;
-        padding: 1.15rem;
+        border-radius: 10px;
+        padding: 1.25rem;
       }
       .exam-part-box h4 {
         font-size: 1rem;
-        font-weight: 700;
+        font-weight: 800;
         color: var(--ink);
         margin-bottom: 0.4rem;
         display: flex;
@@ -184,37 +120,17 @@
       .exam-part-box .timing {
         font-size: 0.8rem;
         color: var(--course-accent);
-        font-weight: 700;
+        font-weight: 800;
       }
       .exam-part-box ul {
         margin: 0;
         padding-left: 1.15rem;
         font-size: 0.88rem;
       }
-      .faq-item {
-        border-bottom: 1px solid var(--border, #E2DCD5);
-        padding: 1rem 0;
-      }
-      .faq-item:last-child {
-        border-bottom: none;
-      }
-      .faq-question {
-        font-family: var(--font-serif);
-        font-size: 1.15rem;
-        color: var(--ink);
-        font-weight: 700;
-        margin-bottom: 0.4rem;
-      }
-      .faq-answer {
-        color: var(--ink-soft);
-        line-height: 1.6;
-        font-size: 0.95rem;
-        margin: 0;
-      }
       .student-portal-box {
         background: #f7f2f6;
         border: 1px dashed var(--course-accent);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-bottom: 2.5rem;
@@ -257,7 +173,7 @@
   </div>
 
   <!-- Hero -->
-  <section class="course-hero">
+  <section class="course-hero-modern">
     <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
       <span class="visual-journey-badge">📝 Exam Track</span>
       <span class="journey-connector-line"></span>
@@ -266,37 +182,52 @@
       <span class="visual-journey-badge">🏆 Official Certification</span>
     </div>
     <h1>Official Exam Preparation Course 📝</h1>
-    <p class="promise">Targeted, high-intensity coaching designed to conquer official language certifications. We break down every component—Speaking, Writing, Reading, and Listening—with exact exam timing, authentic rubrics, examiner scoring strategies, and realistic mock simulations.</p>
-    <div class="hero-cta-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20preparing%20for%20a%20language%20exam%20and%20would%20like%20coaching." class="btn-accent" target="_blank" rel="noopener">💬 Discuss Your Exam on WhatsApp</a>
+    <p style="font-size: 1.15rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1rem;">Targeted, high-intensity coaching designed to conquer official language certifications. We break down every component—Speaking, Writing, Reading, and Listening—with exact exam timing, authentic rubrics, examiner scoring strategies, and realistic mock simulations.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">⏱️</span> 100% Exact Timed Exam Conditions</div>
+      <div class="hero-stat-pill"><span class="icon">🎯</span> All 4 Parts Covered (Oral, Writing, Reading, Listening)</div>
+      <div class="hero-stat-pill"><span class="icon">📊</span> Examiner Scoring Rubrics &amp; Band Targets</div>
+      <div class="hero-stat-pill"><span class="icon">📝</span> Authentic Past Papers &amp; Mock Debriefs</div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20preparing%20for%20a%20language%20exam%20and%20would%20like%20coaching." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Discuss Your Exam on WhatsApp</a>
       <a href="../placement-quiz.html" class="btn-secondary">Check Current CEFR Level</a>
       <a href="../index.html#calculator" class="btn-secondary">See Prices</a>
     </div>
   </section>
 
   <!-- Decision Compass -->
-  <section class="course-section">
-    <h2>🧭 Course Selection Compass: Is Exam Preparation Necessary For You?</h2>
-    <div class="decision-box">
-      <p style="margin: 0 0 0.5rem 0;"><strong>✅ This course is necessary if:</strong></p>
-      <ul style="margin-bottom: 0.75rem;">
-        <li>You have a booked or impending test date for an internationally accredited certificate (IELTS, TOEFL, Cambridge, DELF, DALF, TCF, CILS, CELI, TORFL, or Ellinomatheia) required for university admission, immigration, or professional licensing.</li>
-        <li>Your overall language level is already close to or matches the target CEFR band, but you need to master test structure, timing, task rubrics, and avoid losing points on oral or essay synthesis.</li>
-        <li>You need realistic full-length mock examinations with objective examiner scoring and strategic error remediation.</li>
-      </ul>
-      <p style="margin: 0 0 0.5rem 0;"><strong>⚠️ Otherwise, choose another course:</strong></p>
-      <ul style="margin-bottom: 0;">
-        <li>Choose the <strong><a href="general.html">General Course</a></strong> if your current language level is significantly below the exam requirement (e.g. you are currently A2 and need B2/C1; you must build foundational grammar and vocabulary first).</li>
-        <li>Choose the <strong><a href="spoken.html">Spoken Course</a></strong> if you have no exam deadlines and purely want unconstrained conversational fluency without rigorous scoring rubrics.</li>
-        <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if you need language for your corporate workplace (IT, Hospitality, Legal) rather than an academic standardized test.</li>
-      </ul>
+  <section class="decision-compass-box">
+    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.5rem;">🧭 Course Selection Compass: Is Exam Preparation Necessary For You?</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 1.25rem;">Compare whether you need targeted exam coaching or general skill development:</p>
+
+    <div class="decision-compass-grid">
+      <div class="decision-side-card necessary">
+        <div class="decision-side-title">✅ This course is necessary if...</div>
+        <ul>
+          <li>You have a booked or impending test date for an internationally accredited certificate (IELTS, TOEFL, Cambridge, DELF, DALF, TCF, CILS, CELI, TORFL, or Ellinomatheia) required for university admission, immigration, or professional licensing.</li>
+          <li>Your overall language level is already close to or matches the target CEFR band, but you need to master test structure, timing, task rubrics, and avoid losing points on oral or essay synthesis.</li>
+          <li>You need realistic full-length mock examinations with objective examiner scoring and strategic error remediation.</li>
+        </ul>
+      </div>
+
+      <div class="decision-side-card alternative">
+        <div class="decision-side-title">⚠️ Otherwise, choose another course if...</div>
+        <ul>
+          <li>Choose the <strong><a href="general.html">General Course</a></strong> if your current language level is significantly below the exam requirement (e.g. you are currently A2 and need B2/C1; you must build foundational grammar and vocabulary first).</li>
+          <li>Choose the <strong><a href="spoken.html">Spoken Course</a></strong> if you have no exam deadlines and purely want unconstrained conversational fluency without rigorous scoring rubrics.</li>
+          <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if you need language for your corporate workplace (IT, Hospitality, Legal) rather than an academic standardized test.</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- Supported Exam Suites -->
   <section class="course-section">
     <h2>🏆 Official Certifications Supported Across Languages</h2>
-    <p>We provide tailored test-taking preparation matching the exact testing frameworks established by national ministries of education and international testing consortia:</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;">We provide tailored test-taking preparation matching the exact testing frameworks established by national ministries of education and international testing consortia:</p>
 
     <!-- English -->
     <div class="exam-suite-card">
@@ -304,7 +235,7 @@
         <span class="exam-suite-title">🇬🇧 English: IELTS, TOEFL iBT &amp; Cambridge</span>
         <span class="exam-suite-badge">B1 to C2 Levels</span>
       </div>
-      <p>Targeted preparation for IELTS Academic &amp; General Training (Bands 6.0 – 8.5+), TOEFL iBT (80 – 115+), and Cambridge Qualifications (B2 First / FCE, C1 Advanced / CAE, C2 Proficiency / CPE).</p>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Targeted preparation for IELTS Academic &amp; General Training (Bands 6.0 – 8.5+), TOEFL iBT (80 – 115+), and Cambridge Qualifications (B2 First / FCE, C1 Advanced / CAE, C2 Proficiency / CPE).</p>
 
       <div class="exam-parts-grid">
         <div class="exam-part-box">
@@ -349,7 +280,7 @@
         <span class="exam-suite-title">🇫🇷 French: DELF, DALF &amp; TCF</span>
         <span class="exam-suite-badge">France Éducation International</span>
       </div>
-      <p>Official diplomas awarded by the French Ministry of National Education: DELF (A1, A2, B1, B2), DALF (C1, C2), and TCF (Test de Connaissance du Français for university or nationality).</p>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Official diplomas awarded by the French Ministry of National Education: DELF (A1, A2, B1, B2), DALF (C1, C2), and TCF (Test de Connaissance du Français for university or nationality).</p>
 
       <div class="exam-parts-grid">
         <div class="exam-part-box">
@@ -392,7 +323,7 @@
         <span class="exam-suite-title">🇮🇹 Italian: CILS, CELI &amp; PLIDA</span>
         <span class="exam-suite-badge">Universities of Siena, Perugia &amp; Dante Alighieri</span>
       </div>
-      <p>Legally recognized certificates required for Italian university matriculation, citizenship (B1 Cittadinanza), and professional register enrollment.</p>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Legally recognized certificates required for Italian university matriculation, citizenship (B1 Cittadinanza), and professional register enrollment.</p>
 
       <div class="exam-parts-grid">
         <div class="exam-part-box">
@@ -433,7 +364,7 @@
         <span class="exam-suite-title">🇷🇺 Russian: TORFL / ТРКИ (I to IV)</span>
         <span class="exam-suite-badge">State Testing System</span>
       </div>
-      <p>Test of Russian as a Foreign Language (Тест по русскому языку как иностранному). Standard requirement for admission to Russian universities and certified translation licenses.</p>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Test of Russian as a Foreign Language (Тест по русскому языку как иностранному). Standard requirement for admission to Russian universities and certified translation licenses.</p>
 
       <div class="exam-parts-grid">
         <div class="exam-part-box">
@@ -473,7 +404,7 @@
         <span class="exam-suite-title">🇬🇷 Greek: Certificate of Attainment in Greek (Ελληνομάθεια)</span>
         <span class="exam-suite-badge">Centre for the Greek Language</span>
       </div>
-      <p>The only globally recognized qualification for Modern Greek, administered by the Ministry of Education of Greece (Πιστοποίηση Επάρκειας της Ελληνομάθειας A1–C2).</p>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">The only globally recognized qualification for Modern Greek, administered by the Ministry of Education of Greece (Πιστοποίηση Επάρκειας της Ελληνομάθειας A1–C2).</p>
 
       <div class="exam-parts-grid">
         <div class="exam-part-box">
@@ -509,38 +440,40 @@
   <!-- Demands & Capabilities -->
   <section class="course-section">
     <h2>⚡ Demands, Rigor &amp; Test-Taking Capabilities Built</h2>
-    <p>Success in official language exams demands more than general conversation—it requires strategic execution under psychological and chronological pressure:</p>
-    <ul>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Success in official language exams demands more than general conversation—it requires strategic execution under psychological and chronological pressure:</p>
+    <ul style="color: var(--ink-soft); line-height: 1.6;">
       <li><strong>Chronological Precision:</strong> Every task is practiced under strict stopwatch conditions so you instinctively know how to allocate minutes during the live exam.</li>
       <li><strong>Rubric Alignment:</strong> You learn exactly what examiners listen and look for: lexical density, varied syntactic architecture, avoidance of repetitive vocabulary, and cohesive flow.</li>
       <li><strong>Speaking Composure:</strong> We run rigorous mock speaking interviews where you practice speaking continuously for 2 minutes without hesitation, filler words, or freezing.</li>
       <li><strong>Diagnostic Writing Evaluation:</strong> Every submitted essay or synthesis receives thorough line-by-line markups indicating task achievement, grammatical range, lexical sophistication, and cohesive structuring.</li>
     </ul>
-    <p><strong>Recommended Lesson Formats:</strong> 90 or 120-minute intensive double sessions to simulate actual examination conditions.</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;"><strong>Recommended Lesson Formats:</strong> 90 or 120-minute intensive double sessions to simulate actual examination conditions.</p>
   </section>
 
   <!-- In-Depth FAQ Section -->
   <section class="course-section">
     <h2>Frequently Asked Questions (FAQ)</h2>
 
-    <div class="faq-item">
-      <div class="faq-question">How far in advance should I begin exam preparation?</div>
-      <div class="faq-answer">If your current CEFR level already matches the exam tier (e.g. you are currently B2 and need to pass DELF B2 or IELTS 6.5), we recommend <strong>6 to 10 weeks</strong> of focused exam-technique preparation. If you need to jump one full CEFR level (e.g. from B1 to B2), you will typically need <strong>4 to 6 months</strong> of combined general language elevation and exam drills.</div>
-    </div>
+    <div class="faq-box-container">
+      <div class="faq-card">
+        <div class="faq-card-title">How far in advance should I begin exam preparation?</div>
+        <div class="faq-card-body">If your current CEFR level already matches the exam tier (e.g. you are currently B2 and need to pass DELF B2 or IELTS 6.5), we recommend <strong>6 to 10 weeks</strong> of focused exam-technique preparation. If you need to jump one full CEFR level (e.g. from B1 to B2), you will typically need <strong>4 to 6 months</strong> of combined general language elevation and exam drills.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Do you administer the official exams directly?</div>
-      <div class="faq-answer">No. Official certification exams are administered by accredited examination centres (British Council, IDP, Alliance Française, Institut Français, Società Dante Alighieri, official state universities). We provide the rigorous preparatory training and mock testing so you arrive fully primed to succeed on exam day.</div>
-    </div>
+      <div class="faq-card">
+        <div class="faq-card-title">Do you administer the official exams directly?</div>
+        <div class="faq-card-body">No. Official certification exams are administered by accredited examination centres (British Council, IDP, Alliance Française, Institut Français, Società Dante Alighieri, official state universities). We provide the rigorous preparatory training and mock testing so you arrive fully primed to succeed on exam day.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Will we do full-length mock exams?</div>
-      <div class="faq-answer">Yes. Full timed mock tests are an essential milestone of our preparation. You will complete authentic past papers under exact exam timing, followed by an in-depth score debriefing and targeted remediation of weak areas.</div>
-    </div>
+      <div class="faq-card">
+        <div class="faq-card-title">Will we do full-length mock exams?</div>
+        <div class="faq-card-body">Yes. Full timed mock tests are an essential milestone of our preparation. You will complete authentic past papers under exact exam timing, followed by an in-depth score debriefing and targeted remediation of weak areas.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">What if I only struggle with the oral or writing part?</div>
-      <div class="faq-answer">Because our 1-to-1 coaching is entirely bespoke, we can dedicate 80% or 100% of your lesson time exclusively to the oral interview or writing tasks while you do the reading and listening independently.</div>
+      <div class="faq-card">
+        <div class="faq-card-title">What if I only struggle with the oral or writing part?</div>
+        <div class="faq-card-body">Because our 1-to-1 coaching is entirely bespoke, we can dedicate 80% or 100% of your lesson time exclusively to the oral interview or writing tasks while you do the reading and listening independently.</div>
+      </div>
     </div>
   </section>
 

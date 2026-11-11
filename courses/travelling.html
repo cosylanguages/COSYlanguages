@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
     <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
       :root {
@@ -49,167 +50,26 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .course-hero {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-left: 6px solid var(--course-accent);
-        border-radius: var(--r-md, 12px);
-        padding: 2.5rem 2rem;
-        margin-bottom: 2.5rem;
-      }
-      .course-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.4rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-        line-height: 1.2;
-      }
-      .course-hero .promise {
-        font-size: 1.25rem;
-        color: var(--ink-soft);
-        line-height: 1.55;
-        margin-bottom: 1.75rem;
-      }
-      .hero-cta-btns {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-accent {
-        background: var(--course-accent);
-        color: #ffffff;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--r-sm, 8px);
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: opacity 0.2s;
-      }
-      .btn-accent:hover {
-        opacity: 0.9;
-        color: #ffffff;
-      }
       .course-section {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 2.25rem 2rem;
         margin-bottom: 2rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .course-section h2 {
         font-family: var(--font-serif);
-        font-size: 1.55rem;
+        font-size: 1.6rem;
         color: var(--ink);
         margin-bottom: 1.2rem;
         border-bottom: 2px solid rgba(0,0,0,0.06);
         padding-bottom: 0.6rem;
       }
-      .course-section p {
-        line-height: 1.65;
-        color: var(--ink-soft);
-        margin-bottom: 1rem;
-      }
-      .course-section ul {
-        padding-left: 1.35rem;
-        margin-bottom: 1rem;
-      }
-      .course-section li {
-        margin-bottom: 0.45rem;
-        line-height: 1.6;
-        color: var(--ink-soft);
-      }
-      .decision-box {
-        background: var(--course-accent-light);
-        border-left: 5px solid var(--course-accent);
-        border-radius: 8px;
-        padding: 1.25rem 1.5rem;
-        margin: 1.5rem 0;
-      }
-      .decision-box strong {
-        color: var(--course-accent);
-      }
-      .scenario-card {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: 10px;
-        padding: 1.5rem;
-        margin-bottom: 1.5rem;
-      }
-      .scenario-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-bottom: 0.75rem;
-      }
-      .scenario-title {
-        font-family: var(--font-serif);
-        font-size: 1.3rem;
-        font-weight: 700;
-        color: var(--course-accent);
-      }
-      .scenario-badge {
-        font-size: 0.8rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        padding: 0.25rem 0.6rem;
-        border-radius: 999px;
-        background: var(--course-accent-light);
-        color: var(--course-accent);
-      }
-      .scenario-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1.25rem;
-        margin-top: 1rem;
-      }
-      .scenario-subbox {
-        background: #ffffff;
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: 8px;
-        padding: 1.15rem;
-      }
-      .scenario-subbox h4 {
-        font-size: 0.95rem;
-        font-weight: 700;
-        color: var(--ink);
-        margin-bottom: 0.4rem;
-        display: flex;
-        align-items: center;
-        gap: 0.35rem;
-      }
-      .scenario-subbox ul {
-        margin: 0;
-        padding-left: 1.15rem;
-        font-size: 0.88rem;
-      }
-      .faq-item {
-        border-bottom: 1px solid var(--border, #E2DCD5);
-        padding: 1rem 0;
-      }
-      .faq-item:last-child {
-        border-bottom: none;
-      }
-      .faq-question {
-        font-family: var(--font-serif);
-        font-size: 1.15rem;
-        color: var(--ink);
-        font-weight: 700;
-        margin-bottom: 0.4rem;
-      }
-      .faq-answer {
-        color: var(--ink-soft);
-        line-height: 1.6;
-        font-size: 0.95rem;
-        margin: 0;
-      }
       .student-portal-box {
         background: #f0f7f1;
         border: 1px dashed var(--course-accent);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-bottom: 2.5rem;
@@ -252,7 +112,7 @@
   </div>
 
   <!-- Hero -->
-  <section class="course-hero">
+  <section class="course-hero-modern">
     <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
       <span class="visual-journey-badge">✈️ Travel Track</span>
       <span class="journey-connector-line"></span>
@@ -261,146 +121,175 @@
       <span class="visual-journey-badge">⚡ Rapid-Immersion</span>
     </div>
     <h1>Travelling Language Course ✈️</h1>
-    <p class="promise">Travel with genuine autonomy and cultural intimacy. Eliminate dependence on automated translation apps and phrasebooks. Rehearse high-stakes, real-world situations out loud: airport border control, lost luggage, hotel check-ins, authentic regional menus, transit strikes, and emergency healthcare.</p>
-    <div class="hero-cta-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20planning%20a%20trip%20and%20want%20to%20learn%20for%20travel." class="btn-accent" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+    <p style="font-size: 1.15rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1rem;">Travel with genuine autonomy and cultural intimacy. Eliminate dependence on automated translation apps and phrasebooks. Rehearse high-stakes, real-world situations out loud: airport border control, lost luggage, hotel check-ins, authentic regional menus, transit strikes, and emergency healthcare.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">🧭</span> High-Frequency Situational Drills</div>
+      <div class="hero-stat-pill"><span class="icon">🍷</span> Authentic Menus &amp; Regional Food Culture</div>
+      <div class="hero-stat-pill"><span class="icon">🚑</span> Medical &amp; Navigation Safety Scenarios</div>
+      <div class="hero-stat-pill"><span class="icon">👫</span> Solo or Couple Companion Format</div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20planning%20a%20trip%20and%20want%20to%20learn%20for%20travel." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
       <a href="../placement-quiz.html" class="btn-secondary">Check Current Level</a>
       <a href="../index.html#calculator" class="btn-secondary">Check Tuition</a>
     </div>
   </section>
 
   <!-- Decision Compass -->
-  <section class="course-section">
-    <h2>🧭 Course Selection Compass: Is the Travelling Course Necessary For You?</h2>
-    <div class="decision-box">
-      <p style="margin: 0 0 0.5rem 0;"><strong>✅ This course is necessary if:</strong></p>
-      <ul style="margin-bottom: 0.75rem;">
-        <li>You have an upcoming vacation, road trip, or international business visit (in 2 to 8 weeks) and want fast-track survival fluency without getting bogged down in grammar theory.</li>
-        <li>You want to explore off-the-beaten-path regions where locals, taxi drivers, and café staff speak little or no English.</li>
-        <li>You want to order meals with confidence, ask for local recommendations, bargain at outdoor markets, and handle unexpected mishaps (delays, lost property, pharmacy needs).</li>
-      </ul>
-      <p style="margin: 0 0 0.5rem 0;"><strong>⚠️ Otherwise, choose another course:</strong></p>
-      <ul style="margin-bottom: 0;">
-        <li>Choose the <strong><a href="relocation.html">Relocation Course</a></strong> if you are moving permanently or long-term, needing rental lease contracts, visa administration, tax registration, and social integration.</li>
-        <li>Choose the <strong><a href="general.html">General Course</a></strong> if you want complete, balanced mastery of reading, writing, syntax, and structured CEFR level progression.</li>
-        <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if your travels involve corporate meetings, technical engineering reviews, or executive negotiation.</li>
-      </ul>
+  <section class="decision-compass-box">
+    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.5rem;">🧭 Course Selection Compass: Is the Travelling Course Necessary For You?</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 1.25rem;">Determine if fast-track travel readiness matches your upcoming plans:</p>
+
+    <div class="decision-compass-grid">
+      <div class="decision-side-card necessary">
+        <div class="decision-side-title">✅ This course is necessary if...</div>
+        <ul>
+          <li>You have an upcoming vacation, road trip, or international business visit (in 2 to 8 weeks) and want fast-track survival fluency without getting bogged down in grammar theory.</li>
+          <li>You want to explore off-the-beaten-path regions where locals, taxi drivers, and café staff speak little or no English.</li>
+          <li>You want to order meals with confidence, ask for local recommendations, bargain at outdoor markets, and handle unexpected mishaps (delays, lost property, pharmacy needs).</li>
+        </ul>
+      </div>
+
+      <div class="decision-side-card alternative">
+        <div class="decision-side-title">⚠️ Otherwise, choose another course if...</div>
+        <ul>
+          <li>Choose the <strong><a href="relocation.html">Relocation Course</a></strong> if you are moving permanently or long-term, needing rental lease contracts, visa administration, tax registration, and social integration.</li>
+          <li>Choose the <strong><a href="general.html">General Course</a></strong> if you want complete, balanced mastery of reading, writing, syntax, and structured CEFR level progression.</li>
+          <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if your travels involve corporate meetings, technical engineering reviews, or executive negotiation.</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- Situational Travel Roadmap -->
   <section class="course-section">
     <h2>🗺️ Situational Travel Roadmap: From Departure to Local Connection</h2>
-    <p>Our travel curriculum is structured as a chronological journey covering every realistic travel touchpoint:</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Our travel curriculum is structured as a chronological journey covering every realistic travel touchpoint:</p>
 
-    <!-- Module 1 -->
-    <div class="scenario-card">
-      <div class="scenario-header">
-        <span class="scenario-title">🛫 Module 1: Transit, Border Control &amp; Navigation</span>
-        <span class="scenario-badge">High Stakes</span>
-      </div>
-      <p>Target: Navigate airports, international railway hubs, subways, and car rental agencies with zero anxiety.</p>
+    <div class="visual-timeline-track">
+      <!-- Module 1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🛫 Module 1: Transit, Border Control &amp; Navigation</span>
+            <span class="timeline-badge-pill">High Stakes</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Navigate airports, international railway hubs, subways, and car rental agencies with zero anxiety.</p>
 
-      <div class="scenario-grid">
-        <div class="scenario-subbox">
-          <h4>🗣️ Roleplays &amp; Scenarios</h4>
-          <ul>
-            <li>Customs &amp; immigration: purpose of trip, length of stay, declaration</li>
-            <li>Train stations: buying tickets, validating platform stamps, requesting seat changes</li>
-            <li>Lost baggage claims: describing suitcase colors, materials, and contents</li>
-          </ul>
-        </div>
-        <div class="scenario-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Directions: <em>straight ahead, turn right at the traffic lights, platform number</em></li>
-            <li>Transit announcements: delays, track changes, cancellations</li>
-            <li>Vehicle rentals: insurance coverage, fuel policies, reporting vehicle dents</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Module 2 -->
-    <div class="scenario-card">
-      <div class="scenario-header">
-        <span class="scenario-title">🏨 Module 2: Accommodations &amp; Resolving Hotel Issues</span>
-        <span class="scenario-badge">Comfort &amp; Service</span>
-      </div>
-      <p>Target: Check into hotels or guesthouses, negotiate room preferences, and assertively resolve lodging issues.</p>
-
-      <div class="scenario-grid">
-        <div class="scenario-subbox">
-          <h4>🗣️ Roleplays &amp; Scenarios</h4>
-          <ul>
-            <li>Early check-in, late check-out, and luggage storage arrangements</li>
-            <li>Lodging complaints: non-working A/C or heating, missing towels, street noise</li>
-            <li>Requesting local concierge tips: quiet non-touristy restaurants, safe walking routes</li>
-          </ul>
-        </div>
-        <div class="scenario-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Room amenities: wi-fi password, adapter, keycard malfunction</li>
-            <li>Polite assertions: <em>"Could you please check...", "The room seems to be..."</em></li>
-            <li>Payment &amp; city taxes: tourist tax, invoice breakdown, deposit refunds</li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🗣️ Roleplays &amp; Scenarios</h4>
+              <ul>
+                <li>Customs &amp; immigration: purpose of trip, length of stay, declaration</li>
+                <li>Train stations: buying tickets, validating platform stamps, seat changes</li>
+                <li>Lost baggage claims: suitcase colors, materials, and contents</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Directions: <em>straight ahead, turn right at the traffic lights, platform number</em></li>
+                <li>Transit announcements: delays, track changes, cancellations</li>
+                <li>Vehicle rentals: insurance coverage, fuel policies, reporting dents</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Module 3 -->
-    <div class="scenario-card">
-      <div class="scenario-header">
-        <span class="scenario-title">🍷 Module 3: Culinary Immersion &amp; Restaurant Culture</span>
-        <span class="scenario-badge">Cultural Delights</span>
-      </div>
-      <p>Target: Read authentic untranslated menus, order food with confidence, state food allergies, and understand tipping customs.</p>
+      <!-- Module 2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🏨 Module 2: Accommodations &amp; Resolving Hotel Issues</span>
+            <span class="timeline-badge-pill">Comfort &amp; Service</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Check into hotels or guesthouses, negotiate room preferences, and assertively resolve lodging issues.</p>
 
-      <div class="scenario-grid">
-        <div class="scenario-subbox">
-          <h4>🗣️ Roleplays &amp; Scenarios</h4>
-          <ul>
-            <li>Booking a table by phone and requesting an outdoor terrace seat</li>
-            <li>Navigating regional specialties, cooking styles, and wine pairings</li>
-            <li>Expressing food restrictions (vegetarian, gluten-free, nut allergies)</li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🗣️ Roleplays &amp; Scenarios</h4>
+              <ul>
+                <li>Early check-in, late check-out, and luggage storage arrangements</li>
+                <li>Lodging complaints: non-working A/C or heating, missing towels, noise</li>
+                <li>Requesting concierge tips: quiet non-touristy restaurants, safe walking</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Room amenities: wi-fi password, adapter, keycard malfunction</li>
+                <li>Polite assertions: <em>"Could you please check...", "The room seems to be..."</em></li>
+                <li>Payment &amp; city taxes: tourist tax, invoice breakdown, deposit refunds</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="scenario-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Meats, cheeses, seafood, produce, and local cooking terms</li>
-            <li>Requesting the bill, splitting payments, and local tipping etiquette</li>
-            <li>Complimenting the chef and expressing authentic appreciation</li>
-          </ul>
+      </div>
+
+      <!-- Module 3 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">3</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🍷 Module 3: Culinary Immersion &amp; Restaurant Culture</span>
+            <span class="timeline-badge-pill">Cultural Delights</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Read authentic untranslated menus, order food with confidence, state food allergies, and understand tipping customs.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🗣️ Roleplays &amp; Scenarios</h4>
+              <ul>
+                <li>Booking a table by phone and requesting an outdoor terrace seat</li>
+                <li>Navigating regional specialties, cooking styles, and wine pairings</li>
+                <li>Expressing food restrictions (vegetarian, gluten-free, nut allergies)</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Meats, cheeses, seafood, produce, and local cooking terms</li>
+                <li>Requesting the bill, splitting payments, and local tipping etiquette</li>
+                <li>Complimenting the chef and expressing authentic appreciation</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Module 4 -->
-    <div class="scenario-card">
-      <div class="scenario-header">
-        <span class="scenario-title">🚑 Module 4: Emergencies, Healthcare &amp; Safety</span>
-        <span class="scenario-badge">Crucial Safety</span>
-      </div>
-      <p>Target: Communicate urgent needs to pharmacists, emergency doctors, or police officers if unexpected events occur.</p>
+      <!-- Module 4 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">4</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🚑 Module 4: Emergencies, Healthcare &amp; Safety</span>
+            <span class="timeline-badge-pill">Crucial Safety</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Communicate urgent needs to pharmacists, emergency doctors, or police officers if unexpected events occur.</p>
 
-      <div class="scenario-grid">
-        <div class="scenario-subbox">
-          <h4>🗣️ Roleplays &amp; Scenarios</h4>
-          <ul>
-            <li>Pharmacy consultations: describing fever, sprains, stomach upsets, insect bites</li>
-            <li>Reporting a lost wallet or stolen passport at the local police station (<em>commissariat/questura</em>)</li>
-            <li>Contacting emergency services and describing exact physical locations</li>
-          </ul>
-        </div>
-        <div class="scenario-subbox">
-          <h4>📚 Key Vocabulary &amp; Phrasing</h4>
-          <ul>
-            <li>Anatomical terms, pain descriptors (sharp, dull, throbbing), dosages</li>
-            <li>Emergency keywords: <em>help, emergency, fire, police, ambulance, prescription</em></li>
-            <li>Official document loss statements for consular travel certificates</li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🗣️ Roleplays &amp; Scenarios</h4>
+              <ul>
+                <li>Pharmacy consultations: describing fever, sprains, stomach upsets</li>
+                <li>Reporting a lost wallet or stolen passport at local police (<em>commissariat/questura</em>)</li>
+                <li>Contacting emergency services and describing exact physical locations</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Key Vocabulary &amp; Phrasing</h4>
+              <ul>
+                <li>Anatomical terms, pain descriptors (sharp, dull), dosages</li>
+                <li>Emergency keywords: <em>help, emergency, fire, police, ambulance, prescription</em></li>
+                <li>Official document loss statements for consular travel certificates</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -409,27 +298,29 @@
   <!-- Languages Offered -->
   <section class="course-section">
     <h2>Languages Available &amp; Travel Formats</h2>
-    <p>Available in <strong>English</strong> (for global international travel), <strong>French</strong> (France, Switzerland, Belgium, Francophone Africa), <strong>Italian</strong> (Italy, Ticino), <strong>Russian</strong> (Eurasia &amp; Central Asia), and <strong>Greek</strong> (Greece, Cyprus, Aegean Islands).</p>
-    <p><strong>Package Options:</strong> 5, 10, or 20-lesson accelerated travel prep courses (60 or 90 minutes each), available 1-to-1 or for couples/travel companions.</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Available in <strong>English</strong> (for global international travel), <strong>French</strong> (France, Switzerland, Belgium, Francophone Africa), <strong>Italian</strong> (Italy, Ticino), <strong>Russian</strong> (Eurasia &amp; Central Asia), and <strong>Greek</strong> (Greece, Cyprus, Aegean Islands).</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;"><strong>Package Options:</strong> 5, 10, or 20-lesson accelerated travel prep courses (60 or 90 minutes each), available 1-to-1 or for couples/travel companions.</p>
   </section>
 
   <!-- In-Depth FAQ Section -->
   <section class="course-section">
     <h2>Frequently Asked Questions (FAQ)</h2>
 
-    <div class="faq-item">
-      <div class="faq-question">I only have 3 weeks before my trip. Is that enough time?</div>
-      <div class="faq-answer">Yes! Even 6 to 8 hours of targeted conversational rehearsal on high-frequency scenarios (ordering, asking directions, hotel check-in) completely transforms your travel experience. You will stop panicking and feel welcomed by locals.</div>
-    </div>
+    <div class="faq-box-container">
+      <div class="faq-card">
+        <div class="faq-card-title">I only have 3 weeks before my trip. Is that enough time?</div>
+        <div class="faq-card-body">Yes! Even 6 to 8 hours of targeted conversational rehearsal on high-frequency scenarios (ordering, asking directions, hotel check-in) completely transforms your travel experience. You will stop panicking and feel welcomed by locals.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Can my partner or travel companion join the lesson?</div>
-      <div class="faq-answer">Yes. We welcome duos! Practicing dialogues together as travel companions makes the sessions exceptionally fun and realistic for your journey.</div>
-    </div>
+      <div class="faq-card">
+        <div class="faq-card-title">Can my partner or travel companion join the lesson?</div>
+        <div class="faq-card-body">Yes. We welcome duos! Practicing dialogues together as travel companions makes the sessions exceptionally fun and realistic for your journey.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Will we learn about local culture and etiquette?</div>
-      <div class="faq-answer">Absolutely. Cultural faux-pas often matter more than grammar mistakes. You will learn the cultural nuances: how to greet shopkeepers in France, coffee ordering rituals in Italy, toast customs in Russia, and hospitality etiquette (<em>filoxenia</em>) in Greece.</div>
+      <div class="faq-card">
+        <div class="faq-card-title">Will we learn about local culture and etiquette?</div>
+        <div class="faq-card-body">Absolutely. Cultural faux-pas often matter more than grammar mistakes. You will learn the cultural nuances: how to greet shopkeepers in France, coffee ordering rituals in Italy, toast customs in Russia, and hospitality etiquette (<em>filoxenia</em>) in Greece.</div>
+      </div>
     </div>
   </section>
 

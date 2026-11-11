@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
     <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
       :root {
@@ -49,167 +50,26 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .course-hero {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-left: 6px solid var(--course-accent);
-        border-radius: var(--r-md, 12px);
-        padding: 2.5rem 2rem;
-        margin-bottom: 2.5rem;
-      }
-      .course-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.4rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-        line-height: 1.2;
-      }
-      .course-hero .promise {
-        font-size: 1.25rem;
-        color: var(--ink-soft);
-        line-height: 1.55;
-        margin-bottom: 1.75rem;
-      }
-      .hero-cta-btns {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-accent {
-        background: var(--course-accent);
-        color: #ffffff;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--r-sm, 8px);
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: opacity 0.2s;
-      }
-      .btn-accent:hover {
-        opacity: 0.9;
-        color: #ffffff;
-      }
       .course-section {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 2.25rem 2rem;
         margin-bottom: 2rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .course-section h2 {
         font-family: var(--font-serif);
-        font-size: 1.55rem;
+        font-size: 1.6rem;
         color: var(--ink);
         margin-bottom: 1.2rem;
         border-bottom: 2px solid rgba(0,0,0,0.06);
         padding-bottom: 0.6rem;
       }
-      .course-section p {
-        line-height: 1.65;
-        color: var(--ink-soft);
-        margin-bottom: 1rem;
-      }
-      .course-section ul {
-        padding-left: 1.35rem;
-        margin-bottom: 1rem;
-      }
-      .course-section li {
-        margin-bottom: 0.45rem;
-        line-height: 1.6;
-        color: var(--ink-soft);
-      }
-      .decision-box {
-        background: var(--course-accent-light);
-        border-left: 5px solid var(--course-accent);
-        border-radius: 8px;
-        padding: 1.25rem 1.5rem;
-        margin: 1.5rem 0;
-      }
-      .decision-box strong {
-        color: var(--course-accent);
-      }
-      .spoken-stage-card {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: 10px;
-        padding: 1.5rem;
-        margin-bottom: 1.75rem;
-      }
-      .spoken-stage-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-bottom: 0.75rem;
-      }
-      .spoken-stage-title {
-        font-family: var(--font-serif);
-        font-size: 1.3rem;
-        font-weight: 700;
-        color: var(--course-accent);
-      }
-      .spoken-stage-badge {
-        font-size: 0.8rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        padding: 0.25rem 0.6rem;
-        border-radius: 999px;
-        background: var(--course-accent-light);
-        color: var(--course-accent);
-      }
-      .spoken-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 1.25rem;
-        margin-top: 1rem;
-      }
-      .spoken-subbox {
-        background: #ffffff;
-        border: 1px solid var(--border, #E2DCD5);
-        border-radius: 8px;
-        padding: 1.15rem;
-      }
-      .spoken-subbox h4 {
-        font-size: 0.95rem;
-        font-weight: 700;
-        color: var(--ink);
-        margin-bottom: 0.4rem;
-        display: flex;
-        align-items: center;
-        gap: 0.35rem;
-      }
-      .spoken-subbox ul {
-        margin: 0;
-        padding-left: 1.15rem;
-        font-size: 0.88rem;
-      }
-      .faq-item {
-        border-bottom: 1px solid var(--border, #E2DCD5);
-        padding: 1rem 0;
-      }
-      .faq-item:last-child {
-        border-bottom: none;
-      }
-      .faq-question {
-        font-family: var(--font-serif);
-        font-size: 1.15rem;
-        color: var(--ink);
-        font-weight: 700;
-        margin-bottom: 0.4rem;
-      }
-      .faq-answer {
-        color: var(--ink-soft);
-        line-height: 1.6;
-        font-size: 0.95rem;
-        margin: 0;
-      }
       .student-portal-box {
         background: #fdf5f2;
         border: 1px dashed var(--course-accent);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-bottom: 2.5rem;
@@ -252,7 +112,7 @@
   </div>
 
   <!-- Hero -->
-  <section class="course-hero">
+  <section class="course-hero-modern">
     <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
       <span class="visual-journey-badge">🗣️ Pure Spoken Fluency</span>
       <span class="journey-connector-line"></span>
@@ -261,118 +121,144 @@
       <span class="visual-journey-badge">🚫 Zero Worksheets</span>
     </div>
     <h1>Spoken Language Course 🗣️</h1>
-    <p class="promise">Liberate your active speaking voice. Designed specifically for adults who understand grammar rules and vocabulary on paper, but freeze, hesitate, or translate word-for-word in their head when required to speak spontaneously. Conducted in dynamic 15 or 30-minute daily or multi-weekly oral sessions.</p>
-    <div class="hero-cta-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20start%20the%20Spoken%20Course." class="btn-accent" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+    <p style="font-size: 1.15rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1rem;">Liberate your active speaking voice. Designed specifically for adults who understand grammar rules and vocabulary on paper, but freeze, hesitate, or translate word-for-word in their head when required to speak spontaneously. Conducted in dynamic 15 or 30-minute daily or multi-weekly oral sessions.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">⚡</span> 100% Uninterrupted Speaking Time</div>
+      <div class="hero-stat-pill"><span class="icon">⏱️</span> 15 or 30-Minute High-Frequency Bursts</div>
+      <div class="hero-stat-pill"><span class="icon">🚫</span> 0 Grammar Worksheets or Homework</div>
+      <div class="hero-stat-pill"><span class="icon">🧠</span> Neuro-linguistic Anxiety Reduction</div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20start%20the%20Spoken%20Course." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
       <a href="../placement-quiz.html" class="btn-secondary">Check Current Oral Level</a>
       <a href="../index.html#calculator" class="btn-secondary">Check Pricing</a>
     </div>
   </section>
 
   <!-- Decision Compass -->
-  <section class="course-section">
-    <h2>🧭 Course Selection Compass: Is the Spoken Course Necessary For You?</h2>
-    <div class="decision-box">
-      <p style="margin: 0 0 0.5rem 0;"><strong>✅ This course is necessary if:</strong></p>
-      <ul style="margin-bottom: 0.75rem;">
-        <li>You suffer from the <em>"Passive-Active Gap"</em>: you can read articles, understand podcasts or movies, but when an actual human speaks to you, you freeze or take 20 seconds to construct a simple sentence.</li>
-        <li>You have zero interest in filling out written grammar worksheets, memorizing isolated conjugations, or doing traditional homework exercises.</li>
-        <li>Your schedule is packed, and you prefer 15 or 30-minute intense conversational workouts 3 to 5 days a week to build genuine automaticity.</li>
-      </ul>
-      <p style="margin: 0 0 0.5rem 0;"><strong>⚠️ Otherwise, choose another course:</strong></p>
-      <ul style="margin-bottom: 0;">
-        <li>Choose the <strong><a href="general.html">General Course</a></strong> if you are a beginner with no prior grammar foundation, or if you need to develop formal writing, reading comprehension, and balanced CEFR certification skills.</li>
-        <li>Choose the <strong><a href="exam-preparation.html">Exam Preparation Course</a></strong> if you have to pass an official certification (IELTS, TOEFL, DELF, CILS) with strict written and oral rubric criteria.</li>
-        <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if you need industry-specific workplace communication for IT, Law, Academia, or Luxury Hospitality.</li>
-      </ul>
+  <section class="decision-compass-box">
+    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.5rem;">🧭 Course Selection Compass: Is the Spoken Course Necessary For You?</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 1.25rem;">Ensure the Spoken Course fits your personal study style:</p>
+
+    <div class="decision-compass-grid">
+      <div class="decision-side-card necessary">
+        <div class="decision-side-title">✅ This course is necessary if...</div>
+        <ul>
+          <li>You suffer from the <em>"Passive-Active Gap"</em>: you can read articles, understand podcasts or movies, but when an actual human speaks to you, you freeze or take 20 seconds to construct a simple sentence.</li>
+          <li>You have zero interest in filling out written grammar worksheets, memorizing isolated conjugations, or doing traditional homework exercises.</li>
+          <li>Your schedule is packed, and you prefer 15 or 30-minute intense conversational workouts 3 to 5 days a week to build genuine automaticity.</li>
+        </ul>
+      </div>
+
+      <div class="decision-side-card alternative">
+        <div class="decision-side-title">⚠️ Otherwise, choose another course if...</div>
+        <ul>
+          <li>Choose the <strong><a href="general.html">General Course</a></strong> if you are a beginner with no prior grammar foundation, or if you need to develop formal writing, reading comprehension, and balanced CEFR certification skills.</li>
+          <li>Choose the <strong><a href="exam-preparation.html">Exam Preparation Course</a></strong> if you have to pass an official certification (IELTS, TOEFL, DELF, CILS) with strict written and oral rubric criteria.</li>
+          <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if you need industry-specific workplace communication for IT, Law, Academia, or Luxury Hospitality.</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- Speaking Competencies Across CEFR Roadmap -->
   <section class="course-section">
     <h2>🗺️ Spoken Fluency Roadmap: Overcoming the Speaking Barrier</h2>
-    <p>Our spoken curriculum tracks progression across distinct communicative hurdles rather than static written grammar chapters:</p>
+    <p style="color:var(--ink-soft); line-height: 1.6;">Our spoken curriculum tracks progression across distinct communicative hurdles rather than static written grammar chapters:</p>
 
-    <!-- Stage 1 -->
-    <div class="spoken-stage-card">
-      <div class="spoken-stage-header">
-        <span class="spoken-stage-title">🌱 Stage 1: Breaking Silence &amp; Sound Production (A1 – A2)</span>
-        <span class="spoken-stage-badge">Overcoming Insecurity</span>
-      </div>
-      <p>Target: Eliminate the fear of sounding foolish. Train facial muscles and vocal tract for authentic rhythm, correct intonation, and direct question-response automaticity without mental translation.</p>
+    <div class="visual-timeline-track">
+      <!-- Stage 1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌱 Stage 1: Breaking Silence &amp; Sound Production (A1 – A2)</span>
+            <span class="timeline-badge-pill">Overcoming Insecurity</span>
+          </div>
+          <p style="color:var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Eliminate the fear of sounding foolish. Train facial muscles and vocal tract for authentic rhythm, correct intonation, and direct question-response automaticity without mental translation.</p>
 
-      <div class="spoken-grid">
-        <div class="spoken-subbox">
-          <h4>🎯 Conversational Skills</h4>
-          <ul>
-            <li>Immediate answers to personal inquiries without long pauses</li>
-            <li>Survival conversational repairs: asking for repetition, reformulating</li>
-            <li>Everyday narrative flow: describing your weekend in 3 continuous minutes</li>
-          </ul>
-        </div>
-        <div class="spoken-subbox">
-          <h4>🧠 Anxiety-Reduction Techniques</h4>
-          <ul>
-            <li>Error tolerance protocol: teacher notes errors quietly without interrupting rhythm</li>
-            <li>Chunking method: learning set phrases (<em>"I'd say that...", "Actually..."</em>)</li>
-            <li>Micro-monologues on high-comfort personal topics</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Stage 2 -->
-    <div class="spoken-stage-card">
-      <div class="spoken-stage-header">
-        <span class="spoken-stage-title">🌿 Stage 2: Spontaneous Reaction &amp; Active Debate (B1 – B2)</span>
-        <span class="spoken-stage-badge">Conversational Independence</span>
-      </div>
-      <p>Target: Speak without advance preparation. Defend personal opinions, navigate disagreements diplomatically, interrupt politely, and sustain 15 minutes of uninterrupted topical conversation.</p>
-
-      <div class="spoken-grid">
-        <div class="spoken-subbox">
-          <h4>🎯 Conversational Skills</h4>
-          <ul>
-            <li>Expressing strong agreement, partial concurrence, and polite dissent</li>
-            <li>Using conversational discourse fillers naturally (rather than native-language sounds)</li>
-            <li>Real-time story narration with vivid sensory vocabulary and past tenses</li>
-          </ul>
-        </div>
-        <div class="spoken-subbox">
-          <h4>🧠 Anxiety-Reduction Techniques</h4>
-          <ul>
-            <li>Rapid-fire reaction drills: reacting spontaneously to provocative headlines</li>
-            <li>De-escalating the "inner perfectionist": focusing on message transmission</li>
-            <li>Immediate audio playback analysis during the final 5 minutes of each session</li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🎯 Conversational Skills</h4>
+              <ul>
+                <li>Immediate answers to personal inquiries without long pauses</li>
+                <li>Survival conversational repairs: asking for repetition, reformulating</li>
+                <li>Everyday narrative flow: describing your weekend in 3 continuous minutes</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🧠 Anxiety-Reduction Techniques</h4>
+              <ul>
+                <li>Error tolerance protocol: teacher notes errors quietly without interrupting rhythm</li>
+                <li>Chunking method: learning set phrases (<em>"I'd say that...", "Actually..."</em>)</li>
+                <li>Micro-monologues on high-comfort personal topics</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Stage 3 -->
-    <div class="spoken-stage-card">
-      <div class="spoken-stage-header">
-        <span class="spoken-stage-title">🌳 Stage 3: Nuance, Irony &amp; Near-Native Polish (C1 – C2)</span>
-        <span class="spoken-stage-badge">Effortless Rhetoric</span>
-      </div>
-      <p>Target: Grasp subtle cultural humor, sarcastic subtext, and colloquial idioms. Pivot between formal register and street slang effortlessly with native prosody and rhythm.</p>
+      <!-- Stage 2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌿 Stage 2: Spontaneous Reaction &amp; Active Debate (B1 – B2)</span>
+            <span class="timeline-badge-pill">Conversational Independence</span>
+          </div>
+          <p style="color:var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Speak without advance preparation. Defend personal opinions, navigate disagreements diplomatically, interrupt politely, and sustain 15 minutes of uninterrupted topical conversation.</p>
 
-      <div class="spoken-grid">
-        <div class="spoken-subbox">
-          <h4>🎯 Conversational Skills</h4>
-          <ul>
-            <li>Engaging in rapid repartee, humor, sarcasm, and playful debate</li>
-            <li>Handling spontaneous philosophical and societal controversies without hesitation</li>
-            <li>Mastery of regional accents, colloquial abbreviations, and cultural metaphors</li>
-          </ul>
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🎯 Conversational Skills</h4>
+              <ul>
+                <li>Expressing strong agreement, partial concurrence, and polite dissent</li>
+                <li>Using conversational discourse fillers naturally (rather than native sounds)</li>
+                <li>Real-time story narration with vivid sensory vocabulary and past tenses</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🧠 Anxiety-Reduction Techniques</h4>
+              <ul>
+                <li>Rapid-fire reaction drills: reacting spontaneously to provocative headlines</li>
+                <li>De-escalating the "inner perfectionist": focusing on message transmission</li>
+                <li>Immediate audio playback analysis during final 5 minutes of each session</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="spoken-subbox">
-          <h4>🧠 Advanced Rhetorical Polish</h4>
-          <ul>
-            <li>Vocal intonation modulation to convey skepticism, empathy, or excitement</li>
-            <li>Unfiltered conversation with native interlocutors at natural fast-talking speeds</li>
-            <li>Critique of cinema, literature, geopolitics, and human psychology</li>
-          </ul>
+      </div>
+
+      <!-- Stage 3 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">3</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌳 Stage 3: Nuance, Irony &amp; Near-Native Polish (C1 – C2)</span>
+            <span class="timeline-badge-pill">Effortless Rhetoric</span>
+          </div>
+          <p style="color:var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Target:</strong> Grasp subtle cultural humor, sarcastic subtext, and colloquial idioms. Pivot between formal register and street slang effortlessly with native prosody and rhythm.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🎯 Conversational Skills</h4>
+              <ul>
+                <li>Engaging in rapid repartee, humor, sarcasm, and playful debate</li>
+                <li>Handling spontaneous philosophical and societal controversies without hesitation</li>
+                <li>Mastery of regional accents, colloquial abbreviations, and cultural metaphors</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🧠 Advanced Rhetorical Polish</h4>
+              <ul>
+                <li>Vocal intonation modulation to convey skepticism, empathy, or excitement</li>
+                <li>Unfiltered conversation with native interlocutors at natural fast-talking speeds</li>
+                <li>Critique of cinema, literature, geopolitics, and human psychology</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -381,37 +267,39 @@
   <!-- How 15 & 30-min sessions work -->
   <section class="course-section">
     <h2>Why 15 or 30-Minute High-Frequency Sessions Work</h2>
-    <p>Cognitive linguistics proves that <strong>daily 15 or 30-minute high-frequency oral immersion</strong> is vastly superior to a single 2-hour lesson once a week for speaking fluency:</p>
-    <ul>
+    <p style="color:var(--ink-soft); line-height: 1.6;">Cognitive linguistics proves that <strong>daily 15 or 30-minute high-frequency oral immersion</strong> is vastly superior to a single 2-hour lesson once a week for speaking fluency:</p>
+    <ul style="color:var(--ink-soft); line-height: 1.6;">
       <li><strong>Cognitive Stamina:</strong> In a 15-minute 1-to-1 session, you speak for ~12 full minutes. In a 60-minute passive classroom, you rarely speak more than 5 minutes total.</li>
       <li><strong>Neuroplasticity &amp; Habit Formation:</strong> Daily conversational contact creates strong neural pathways, preventing the brain from slipping back into native-language default modes.</li>
       <li><strong>Zero Homework Burden:</strong> You log into the call, talk, receive real-time pronunciation and phrasing adjustments, and finish your lesson energized for your workday.</li>
     </ul>
-    <p><strong>Languages Offered:</strong> English, French, Italian, Russian, and Greek.</p>
+    <p style="color:var(--ink-soft); line-height: 1.6;"><strong>Languages Offered:</strong> English, French, Italian, Russian, and Greek.</p>
   </section>
 
   <!-- In-Depth FAQ Section -->
   <section class="course-section">
     <h2>Frequently Asked Questions (FAQ)</h2>
 
-    <div class="faq-item">
-      <div class="faq-question">What if I don't know what to talk about?</div>
-      <div class="faq-answer">You will never run out of topics. Our teachers are trained conversational facilitators armed with hundreds of curated discussion prompts, recent cultural controversies, philosophical thought experiments, visual stimuli, and breaking news articles. We also build topics around your personal hobbies, career, and intellectual interests.</div>
-    </div>
+    <div class="faq-box-container">
+      <div class="faq-card">
+        <div class="faq-card-title">What if I don't know what to talk about?</div>
+        <div class="faq-card-body">You will never run out of topics. Our teachers are trained conversational facilitators armed with hundreds of curated discussion prompts, recent cultural controversies, philosophical thought experiments, visual stimuli, and breaking news articles. We also build topics around your personal hobbies, career, and intellectual interests.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Will the teacher interrupt me every time I make a grammar mistake?</div>
-      <div class="faq-answer">No! Constant interruptions destroy conversational momentum and reinforce speaking anxiety. Instead, our teachers use <em>delayed feedback</em>: they type notes in your shared document while you speak, and at the end of the conversation topic, you review the phrasing together, practicing the natural corrections out loud.</div>
-    </div>
+      <div class="faq-card">
+        <div class="faq-card-title">Will the teacher interrupt me every time I make a grammar mistake?</div>
+        <div class="faq-card-body">No! Constant interruptions destroy conversational momentum and reinforce speaking anxiety. Instead, our teachers use <em>delayed feedback</em>: they type notes in your shared document while you speak, and at the end of the conversation topic, you review the phrasing together, practicing the natural corrections out loud.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Can I really make progress in just 15 minutes a day?</div>
-      <div class="faq-answer">Yes. Consistency outperforms duration. Four 15-minute sessions a week produce 60 minutes of pure, uninterrupted 1-to-1 talking time. Students consistently report a massive reduction in mental translation lag within 3 to 4 weeks.</div>
-    </div>
+      <div class="faq-card">
+        <div class="faq-card-title">Can I really make progress in just 15 minutes a day?</div>
+        <div class="faq-card-body">Yes. Consistency outperforms duration. Four 15-minute sessions a week produce 60 minutes of pure, uninterrupted 1-to-1 talking time. Students consistently report a massive reduction in mental translation lag within 3 to 4 weeks.</div>
+      </div>
 
-    <div class="faq-item">
-      <div class="faq-question">Can absolute beginners take the Spoken Course?</div>
-      <div class="faq-answer">Absolute beginners (true A0) are strongly advised to start with our <a href="general.html">General Course</a> for at least 4 to 6 weeks to acquire the minimal phonetics and 200 essential words needed to hold a basic exchange. From false-beginner (A1) upward, the Spoken Course is highly effective.</div>
+      <div class="faq-card">
+        <div class="faq-card-title">Can absolute beginners take the Spoken Course?</div>
+        <div class="faq-card-body">Absolute beginners (true A0) are strongly advised to start with our <a href="general.html">General Course</a> for at least 4 to 6 weeks to acquire the minimal phonetics and 200 essential words needed to hold a basic exchange. From false-beginner (A1) upward, the Spoken Course is highly effective.</div>
+      </div>
     </div>
   </section>
 
