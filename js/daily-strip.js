@@ -211,7 +211,234 @@
         };
     }
 
-    function getLocalFallback(lang, category, selectedLevel) {
+    // Curated distinctive fallback prompts per CEFR level band and language
+    const LEVEL_CURATED_PROMPTS = {
+        speaking: {
+            en: {
+                'a0-a1': [
+                    { prompt: "Introduce yourself: say your name, where you are from, and what languages you are learning.", level: "A0-A1" },
+                    { prompt: "Describe three items currently on your desk or in your room.", level: "A0-A1" },
+                    { prompt: "Talk about your favourite meal: what is it and when do you usually eat it?", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Describe your typical morning routine and what helps you wake up smoothly.", level: "A2" },
+                    { prompt: "Talk about a recent trip or holiday you enjoyed: where did you go and who was with you?", level: "A2" },
+                    { prompt: "How do you like to spend a rainy Sunday afternoon?", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "How has modern technology transformed how you stay in touch with friends and family?", level: "B1-B2" },
+                    { prompt: "Describe a challenge you faced recently and how you managed to overcome it.", level: "B1-B2" },
+                    { prompt: "Do you prefer living in a bustling metropolitan city or a peaceful town? Explain your view.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "To what extent does speaking multiple languages alter an individual's worldview or cognitive perception?", level: "C1-C2" },
+                    { prompt: "Critique the role of algorithms in shaping contemporary public discourse and culture.", level: "C1-C2" },
+                    { prompt: "Discuss the balance between preserving linguistic heritage and adopting global lingua francas.", level: "C1-C2" }
+                ]
+            },
+            fr: {
+                'a0-a1': [
+                    { prompt: "Présentez-vous : donnez votre prénom, votre ville d'origine et vos passe-temps favoris.", level: "A0-A1" },
+                    { prompt: "Décrivez ce qu'il y a sur votre table ou dans votre sac en trois phrases simples.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Quel est votre endroit préféré pour passer les vacances et pourquoi ?", level: "A2" },
+                    { prompt: "Comment préférez-vous passer un dimanche pluvieux en hiver ?", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Quel rôle joue la musique ou l'art dans votre quotidien et votre inspiration ?", level: "B1-B2" },
+                    { prompt: "Quels sont selon vous les plus grands avantages d'apprendre une langue étrangère à l'âge adulte ?", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Dans quelle mesure l'essor des nouvelles technologies redéfinit-il les relations humaines contemporaines ?", level: "C1-C2" },
+                    { prompt: "Analysez l'impact des expressions idiomatiques sur la transmission de l'identité culturelle.", level: "C1-C2" }
+                ]
+            },
+            it: {
+                'a0-a1': [
+                    { prompt: "Presentati: di' il tuo nome, da dove vieni e cosa ti piace fare nel tempo libero.", level: "A0-A1" },
+                    { prompt: "Descrivi cosa vedi intorno a te in questo momento usando parole semplici.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Qual è la tua città preferita da visitare e cosa ti piace di più?", level: "A2" },
+                    { prompt: "Come ami trascorrere il fine settimana per rilassarti dopo il lavoro o lo studio?", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Quali generi musicali ascolti quando studi e come influenzano la tua concentrazione?", level: "B1-B2" },
+                    { prompt: "Preferisci vivere in una metropoli dinamica o in un piccolo borgo storico? Spiega i motivi.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "In che modo l'esperienza di apprendere una lingua modifica la nostra percezione delle altre culture?", level: "C1-C2" },
+                    { prompt: "Valuta criticamente i vantaggi e i rischi dell'intelligenza artificiale nella conservazione del patrimonio linguistico.", level: "C1-C2" }
+                ]
+            },
+            ru: {
+                'a0-a1': [
+                    { prompt: "Представьтесь: расскажите, как вас зовут, откуда вы и чем увлекаетесь.", level: "A0-A1" },
+                    { prompt: "Назовите пять предметов, которые находятся рядом с вами прямо сейчас.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Какое ваше любимое время года и почему оно вам так нравится?", level: "A2" },
+                    { prompt: "Как вы обычно проводите свои выходные дни: дома или на прогулках?", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Какую роль музыка и чтение книг играют в вашей повседневной жизни?", level: "B1-B2" },
+                    { prompt: "Где вам комфортнее жить: в динамичном мегаполисе или в спокойном пригороде?", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Как освоение нескольких языковых систем влияет на гибкость мышления и восприятие культурных нюансов?", level: "C1-C2" },
+                    { prompt: "Оцените влияние современных цифровых коммуникаций на богатство и эволюцию литературного языка.", level: "C1-C2" }
+                ]
+            },
+            el: {
+                'a0-a1': [
+                    { prompt: "Παρουσιάστε τον εαυτό σας: πείτε το όνομά σας, από πού είστε και τι σας αρέσει να κάνετε.", level: "A0-A1" },
+                    { prompt: "Περιγράψτε τρία αντικείμενα που βρίσκονται στο δωμάτιό σας αυτή τη στιγμή.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Ποιο είναι το αγαπημένο σας μέρος για διακοπές στην Ελλάδα και γιατί;", level: "A2" },
+                    { prompt: "Πώς προτιμάτε να περνάτε ένα χαλαρό Σαββατοκύριακο με φίλους;", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Τι ρόλο παίζει η μουσική καθημερινά στη διάθεση και τη συγκέντρωσή σας;", level: "B1-B2" },
+                    { prompt: "Προτιμάτε τη ζωή σε μια μεγάλη πόλη ή σε ένα παραθαλάσσιο χωριό; Εξηγήστε.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Σε ποιο βαθμό η πολυγλωσσία διευρύνει την κριτική σκέψη και τη διαπολιτισμική ενσυναίσθηση;", level: "C1-C2" },
+                    { prompt: "Αναλύστε την επίδραση της ψηφιακής τεχνολογίας στη διατήρηση των γλωσσικών παραδόσεων.", level: "C1-C2" }
+                ]
+            }
+        },
+        writing: {
+            en: {
+                'a0-a1': [
+                    { prompt: "Write 3-4 simple sentences about what you do every morning.", level: "A0-A1" },
+                    { prompt: "Write a short shopping list with 5 things you need to buy and why.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Write a short paragraph describing your ideal relaxing day from morning to evening.", level: "A2" },
+                    { prompt: "Compose a brief message inviting a friend for coffee or a weekend walk.", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Write a short reflective paragraph on a personal goal you set this year and your progress.", level: "B1-B2" },
+                    { prompt: "Compose a polite, concise email requesting a brief deadline extension for a project.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Write a persuasive opinion piece on whether public transit should be free in major urban centers.", level: "C1-C2" },
+                    { prompt: "Draft a critical synthesis examining how artificial intelligence could reshape creative disciplines.", level: "C1-C2" }
+                ]
+            },
+            fr: {
+                'a0-a1': [
+                    { prompt: "Écrivez trois phrases simples pour décrire votre journée type.", level: "A0-A1" },
+                    { prompt: "Rédigez une courte liste de vos cinq activités préférées du week-end.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Écrivez un paragraphe décrivant votre journée idéale.", level: "A2" },
+                    { prompt: "Rédigez un court courriel d'invitation à un ami pour un dîner.", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Rédigez une critique concise d'un livre ou d'un film marquant que vous avez découvert récemment.", level: "B1-B2" },
+                    { prompt: "Expliquez dans un texte structuré pourquoi une routine matinale équilibrée favorise le bien-être.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Rédigez un essai argumentatif analysant les répercussions du travail à distance sur la cohésion sociale.", level: "C1-C2" },
+                    { prompt: "Proposez une réflexion critique sur la protection de la diversité linguistique à l'ère numérique.", level: "C1-C2" }
+                ]
+            },
+            it: {
+                'a0-a1': [
+                    { prompt: "Scrivi tre frasi semplici sulla tua routine quotidiana.", level: "A0-A1" },
+                    { prompt: "Fai una lista delle tue cinque cose preferite da fare durante le vacanze.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Scrivi un breve paragrafo sulla tua giornata ideale.", level: "A2" },
+                    { prompt: "Scrivi un'email informale per invitare un amico a prendere un caffè.", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Scrivi una breve recensione di un libro o di un film che ti ha particolarmente colpito.", level: "B1-B2" },
+                    { prompt: "Spiega in un paragrafo argomentativo l'importanza di dedicare tempo a un hobby creativo.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Elabora una riflessione critica sul rapporto tra sostenibilità urbana e benessere psicologico dei cittadini.", level: "C1-C2" },
+                    { prompt: "Scrivi un saggio breve sul ruolo della narrazione letteraria nell'interpretazione del presente.", level: "C1-C2" }
+                ]
+            },
+            ru: {
+                'a0-a1': [
+                    { prompt: "Напишите 3-4 простых предложения о том, как начинается ваше утро.", level: "A0-A1" },
+                    { prompt: "Составьте список из 5 вещей, которые вам понадобятся во время путешествия.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Напишите короткий абзац об идеальном распорядке вашего выходного дня.", level: "A2" },
+                    { prompt: "Напишите дружеское сообщение с приглашением встретиться в парке или кафе.", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Напишите короткий отзыв о прочитанной книге или просмотренном фильме, который заставил задуматься.", level: "B1-B2" },
+                    { prompt: "Объясните, почему важно находить баланс между профессиональной деятельностью и личным временем.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Напишите эссе-рассуждение о влиянии цифровизации на культуру живого человеческого общения.", level: "C1-C2" },
+                    { prompt: "Сформулируйте критический анализ перспектив использования искусственного интеллекта в гуманитарных науках.", level: "C1-C2" }
+                ]
+            },
+            el: {
+                'a0-a1': [
+                    { prompt: "Γράψτε τρεις απλές προτάσεις για το τι κάνετε κάθε πρωί.", level: "A0-A1" },
+                    { prompt: "Φτιάξτε μια λίστα με πέντε πράγματα που χρειάζεστε για ένα ταξίδι.", level: "A0-A1" }
+                ],
+                'a2': [
+                    { prompt: "Γράψτε μια μικρή παράγραφο για την ιδανική σας μέρα χαλάρωσης.", level: "A2" },
+                    { prompt: "Συντάξτε ένα σύντομο φιλικό μήνυμα προσκαλώντας έναν φίλο για καφέ.", level: "A2" }
+                ],
+                'b1-b2': [
+                    { prompt: "Γράψτε μια σύντομη κριτική για ένα βιβλίο ή ταινία που σας έκανε θετική εντύπωση.", level: "B1-B2" },
+                    { prompt: "Εξηγήστε γιατί η επαφή με τη φύση είναι σημαντική για τη μείωση του καθημερινού άγχους.", level: "B1-B2" }
+                ],
+                'c1-c2': [
+                    { prompt: "Συντάξτε ένα δοκίμιο άποψης σχετικά με τη σημασία της δια βίου μάθησης στη σύγχρονη κοινωνία.", level: "C1-C2" },
+                    { prompt: "Αναπτύξτε μια κριτική θεώρηση για τη σχέση τεχνολογικής εξέλιξης και πολιτιστικής ταυτότητας.", level: "C1-C2" }
+                ]
+            }
+        }
+    };
+
+    function pickItemForLevel(items, selectedLevel, dayIdx) {
+        if (!items || items.length === 0) return null;
+        const norm = (selectedLevel || 'a0-a1').toLowerCase();
+
+        // Level matching predicate
+        const isMatch = (itemLevel) => {
+            if (!itemLevel) return false;
+            const lvl = itemLevel.toLowerCase();
+            if (norm === 'a0-a1') return lvl.includes('a0') || lvl.includes('a1');
+            if (norm === 'a2') return lvl.includes('a2') && !lvl.includes('b2');
+            if (norm === 'b1-b2') return lvl.includes('b1') || lvl.includes('b2');
+            if (norm === 'c1-c2') return lvl.includes('c1') || lvl.includes('c2');
+            return false;
+        };
+
+        const matching = items.filter(it => isMatch(it && it.level));
+        if (matching.length > 0) {
+            return matching[dayIdx % matching.length];
+        }
+
+        // Secondary fallback: nearest adjacent level
+        if (norm === 'c1-c2') {
+            const high = items.filter(it => (it.level || '').toUpperCase().includes('B2') || (it.level || '').toUpperCase().includes('B1'));
+            if (high.length > 0) return high[dayIdx % high.length];
+        } else if (norm === 'a0-a1') {
+            const low = items.filter(it => (it.level || '').toUpperCase().includes('A2') || (it.level || '').toUpperCase().includes('A1'));
+            if (low.length > 0) return low[dayIdx % low.length];
+        }
+
+        return items[dayIdx % items.length];
+    }
+
+    function getLocalFallback(lang, category, selectedLevel, dayIdx) {
+        const idx = typeof dayIdx === 'number' ? dayIdx : getDayOfYear();
+        const lvl = (selectedLevel || 'a0-a1').toLowerCase();
+
         if (category === 'fact') {
             const list = (window.COSY_DAILY_FACTS && window.COSY_DAILY_FACTS[lang])
                 ? window.COSY_DAILY_FACTS[lang]
@@ -224,14 +451,22 @@
                 : [{ idiom: "Break a leg", meaning: "Good luck!" }];
             return list;
         }
+
+        // Curated distinctive level-tailored prompts first
+        const categoryPrompts = LEVEL_CURATED_PROMPTS[category];
+        if (categoryPrompts && categoryPrompts[lang] && categoryPrompts[lang][lvl]) {
+            return categoryPrompts[lang][lvl];
+        }
+        if (categoryPrompts && categoryPrompts['en'] && categoryPrompts['en'][lvl]) {
+            return categoryPrompts['en'][lvl];
+        }
+
         if (category === 'speaking') {
             const speakingMap = (window.COSY_DAILY_SPEAKING && window.COSY_DAILY_SPEAKING[lang]) || {};
-            const lvl = selectedLevel || 'a0-a1';
             return speakingMap[lvl] || speakingMap['a0-a1'] || [];
         }
         if (category === 'writing') {
             const writingMap = (window.COSY_DAILY_WRITING && window.COSY_DAILY_WRITING[lang]) || {};
-            const lvl = selectedLevel || 'a0-a1';
             return writingMap[lvl] || writingMap['a0-a1'] || [];
         }
         return [];
@@ -430,7 +665,31 @@
                         continue;
                     }
                 }
-                let list = getLocalFallback(this.lang, config.id, this.selectedLevel);
+
+                // Level-differentiated tasks for speaking and writing
+                if (config.id === 'speaking' || config.id === 'writing') {
+                    // Prefer curated distinctive local prompts first to guarantee task divergence across CEFR levels
+                    const curated = getLocalFallback(this.lang, config.id, this.selectedLevel, dayIdx);
+                    if (curated && curated.length > 0) {
+                        const pickedCurated = pickItemForLevel(curated, this.selectedLevel, dayIdx);
+                        if (pickedCurated) {
+                            this.categoryData[config.id] = parseDailyItem(pickedCurated);
+                            continue;
+                        }
+                    }
+
+                    // Then remote category data with level filtering
+                    const remoteList = await fetchCategoryData(this.lang, config.id);
+                    if (remoteList && remoteList.length > 0) {
+                        const pickedRemote = pickItemForLevel(remoteList, this.selectedLevel, dayIdx);
+                        if (pickedRemote) {
+                            this.categoryData[config.id] = parseDailyItem(pickedRemote);
+                            continue;
+                        }
+                    }
+                }
+
+                let list = getLocalFallback(this.lang, config.id, this.selectedLevel, dayIdx);
                 if (!list || list.length === 0) {
                     list = await fetchCategoryData(this.lang, config.id);
                 }
@@ -661,6 +920,8 @@
         pickCalendarCard,
         fetchCalendarDay,
         parseDailyItem,
+        pickItemForLevel,
+        getLocalFallback,
         DAILY_SCHEDULE
     };
 })();
