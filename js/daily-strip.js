@@ -146,6 +146,71 @@
         return null;
     }
 
+    // ---- Dictionary-backed calendar (COSYdata/daily/<lang>/calendar/<slot>/YYYY-MM.json) ----
+    const CALENDAR_LEVELS = ['A2', 'B1', 'B2', 'C1', 'C2'];
+
+    // Calendar levels to try for a strip level band, most wanted first. Bands that span two
+    // levels alternate by day so both get exposure. Idioms start at A2, so A0-A1 maps to A2.
+    function calendarLevelPreference(selectedLevel, dayOfYear) {
+        const odd = dayOfYear % 2 === 1;
+        if (selectedLevel === 'b1-b2') return odd ? ['B2', 'B1'] : ['B1', 'B2'];
+        if (selectedLevel === 'c1-c2') return odd ? ['C2', 'C1'] : ['C1', 'C2'];
+        return ['A2'];
+    }
+
+    // Choose one level's card from a calendar day; falls back to the nearest level the language has.
+    function pickCalendarCard(day, selectedLevel, dayOfYear) {
+        if (!day || typeof day !== 'object') return null;
+        const available = Object.keys(day).filter(l => day[l] && day[l].word);
+        if (!available.length) return null;
+        const prefs = calendarLevelPreference(selectedLevel, dayOfYear);
+        const hit = prefs.find(l => available.includes(l));
+        if (hit) return { level: hit, card: day[hit] };
+        const want = CALENDAR_LEVELS.indexOf(prefs[0]);
+        available.sort((a, b) => Math.abs(CALENDAR_LEVELS.indexOf(a) - want) - Math.abs(CALENDAR_LEVELS.indexOf(b) - want));
+        return { level: available[0], card: day[available[0]] };
+    }
+
+    // Returns the day object for dateKey, or null when the language/month has no calendar.
+    // A missing calendar is remembered for the session so we do not re-request a 404.
+    async function fetchCalendarDay(lang, slot, dateKey) {
+        const month = dateKey.slice(0, 7);
+        const cacheKey = `cosy_daily_cal_${lang}_${slot}_${month}`;
+        let cal = null;
+        try {
+            const cached = sessionStorage.getItem(cacheKey);
+            if (cached) cal = JSON.parse(cached);
+        } catch (e) {
+            // Ignore sessionStorage access/parse errors
+        }
+        if (!cal) {
+            try {
+                const res = await fetch(`${COSY_DATA_DAILY_BASE}${lang}/calendar/${slot}/${month}.json`);
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                cal = await res.json();
+            } catch (err) {
+                cal = { missing: true };
+            }
+            try {
+                sessionStorage.setItem(cacheKey, JSON.stringify(cal));
+            } catch (e) {
+                // Ignore storage quota errors
+            }
+        }
+        return (cal && cal.days && cal.days[dateKey]) || null;
+    }
+
+    function calendarCardToItem(pick) {
+        const c = pick.card;
+        return {
+            idiom: c.word,
+            definition: c.definition,
+            example: c.example,
+            literal_meaning: c.literal_meaning,
+            level: pick.level
+        };
+    }
+
     function getLocalFallback(lang, category, selectedLevel) {
         if (category === 'fact') {
             const list = (window.COSY_DAILY_FACTS && window.COSY_DAILY_FACTS[lang])
@@ -181,11 +246,15 @@
         const translation = item.translation || item.meaning || item.explanation || item.ru || item.en || '';
         let meta = '';
         if (item.level) meta += `CEFR ${item.level.toUpperCase()}`;
+        if (item.literal_meaning) {
+            if (meta) meta += ' • ';
+            meta += `Literally: "${item.literal_meaning}"`;
+        }
         if (item.example) {
             if (meta) meta += ' • ';
             meta += `Example: "${item.example}"`;
         }
-        return { text, translation, meta };
+        return { text, translation, definition: item.definition || '', meta };
     }
 
     class DailyStripComponent {
@@ -352,6 +421,15 @@
         async loadAllCategories() {
             const dayIdx = getDayOfYear();
             for (const config of TABS_CONFIG) {
+                if (config.id === 'idiom') {
+                    // Dictionary-backed idiom of the day; falls through to the legacy lists when absent.
+                    const day = await fetchCalendarDay(this.lang, 'idiom', getTodayKey());
+                    const pick = pickCalendarCard(day, this.selectedLevel, dayIdx);
+                    if (pick) {
+                        this.categoryData[config.id] = parseDailyItem(calendarCardToItem(pick));
+                        continue;
+                    }
+                }
                 let list = getLocalFallback(this.lang, config.id, this.selectedLevel);
                 if (!list || list.length === 0) {
                     list = await fetchCategoryData(this.lang, config.id);
@@ -403,6 +481,7 @@
                     ${levelBarHTML}
                     <div class="daily-strip-content-main">
                         <p class="daily-strip-prompt">${this.escapeHTML(item.text)}</p>
+                        ${item.definition ? `<div class="daily-strip-definition">${this.escapeHTML(item.definition)}</div>` : ''}
                         ${hasTranslation ? `<div class="daily-strip-translation" id="${this.uniqueId}_trans_${tab.id}" hidden>${this.escapeHTML(item.translation)}</div>` : ''}
                         ${item.meta ? `<div class="daily-strip-meta">${this.escapeHTML(item.meta)}</div>` : ''}
                     </div>
@@ -578,6 +657,10 @@
         getTodaySchedule,
         getTodayKey,
         getYesterdayKey,
+        calendarLevelPreference,
+        pickCalendarCard,
+        fetchCalendarDay,
+        parseDailyItem,
         DAILY_SCHEDULE
     };
 })();

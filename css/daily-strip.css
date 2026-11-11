@@ -263,7 +263,8 @@
     margin: 0;
 }
 
-.daily-strip-translation {
+.daily-strip-translation,
+.daily-strip-definition {
     font-size: 0.98rem;
     color: var(--cosy-color-ink-soft, #4A4A4A);
     font-style: italic;

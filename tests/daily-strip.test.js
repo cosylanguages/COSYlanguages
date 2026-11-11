@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-function setupTestEnvironment() {
+function setupTestEnvironment(extraGlobals = {}) {
     const storage = new Map();
     const fakeLocalStorage = {
         getItem: (k) => storage.has(k) ? storage.get(k) : null,
@@ -59,7 +59,8 @@ function setupTestEnvironment() {
         CustomEvent: fakeWindow.CustomEvent,
         Date: Date,
         Math: Math,
-        console: console
+        console: console,
+        ...extraGlobals
     };
     fakeWindow.window = fakeWindow;
     fakeWindow.document = fakeDocument;
@@ -246,5 +247,72 @@ test('Daily Strip & COSYpractice Collaboration Suite', async (t) => {
         const todaySchedule = helpers.getTodaySchedule();
         assert.ok(todaySchedule);
         assert.ok(todaySchedule.label);
+    });
+});
+
+test('Daily Strip dictionary-backed idiom calendar', async (t) => {
+    const day = {
+        A2: { id: 'en:a:idiom', word: 'On cloud nine', definition: 'Extremely happy', example: 'She was on cloud nine.' },
+        B1: { id: 'en:b:idiom', word: 'Piece of cake', definition: 'Very easy', example: 'The test was a piece of cake.', literal_meaning: 'A slice of cake' },
+        C1: { id: 'en:c:idiom', word: 'Bone of contention', definition: 'A subject of dispute', example: 'Money is a bone of contention.' }
+    };
+
+    await t.test('level bands map to calendar levels; two-level bands alternate by day', () => {
+        const { helpers } = setupTestEnvironment();
+        const pref = helpers.calendarLevelPreference;
+        assert.deepEqual(Array.from(pref('a0-a1', 10)), ['A2']);
+        assert.deepEqual(Array.from(pref('a2', 11)), ['A2']);
+        assert.deepEqual(Array.from(pref('b1-b2', 10)), ['B1', 'B2']);
+        assert.deepEqual(Array.from(pref('b1-b2', 11)), ['B2', 'B1']);
+        assert.deepEqual(Array.from(pref('c1-c2', 10)), ['C1', 'C2']);
+    });
+
+    await t.test('pickCalendarCard prefers the band, else the nearest available level, else null', () => {
+        const { helpers } = setupTestEnvironment();
+        const pick = helpers.pickCalendarCard;
+        assert.equal(pick(day, 'a2', 10).level, 'A2');
+        assert.equal(pick(day, 'b1-b2', 10).level, 'B1');
+        // B2 preferred on odd days but absent: falls to B1
+        assert.equal(pick(day, 'b1-b2', 11).level, 'B1');
+        assert.equal(pick(day, 'c1-c2', 10).card.word, 'Bone of contention');
+        // language with only A2 and B1 (e.g. Italian) and a C band selected: nearest is B1
+        assert.equal(pick({ A2: day.A2, B1: day.B1 }, 'c1-c2', 10).level, 'B1');
+        assert.equal(pick({}, 'a2', 10), null);
+        assert.equal(pick(null, 'a2', 10), null);
+    });
+
+    await t.test('fetchCalendarDay returns the day, caches the month, and remembers a missing calendar', async () => {
+        const calls = [];
+        const fakeFetch = async (url) => {
+            calls.push(url);
+            if (url.includes('/en/calendar/idiom/2026-11.json')) {
+                return { ok: true, json: async () => ({ month: '2026-11', days: { '2026-11-10': day } }) };
+            }
+            return { ok: false, status: 404 };
+        };
+        const { helpers } = setupTestEnvironment({ fetch: fakeFetch });
+
+        const got = await helpers.fetchCalendarDay('en', 'idiom', '2026-11-10');
+        assert.equal(got.B1.word, 'Piece of cake');
+        assert.ok(calls[0].endsWith('/COSYdata/daily/en/calendar/idiom/2026-11.json'));
+        await helpers.fetchCalendarDay('en', 'idiom', '2026-11-11');
+        assert.equal(calls.length, 1, 'second call for the same month must hit the session cache');
+
+        assert.equal(await helpers.fetchCalendarDay('el', 'idiom', '2026-11-10'), null);
+        assert.equal(await helpers.fetchCalendarDay('el', 'idiom', '2026-11-10'), null);
+        assert.equal(calls.length, 2, 'a 404 is remembered for the session');
+        assert.equal(await helpers.fetchCalendarDay('en', 'idiom', '2030-01-01'), null);
+    });
+
+    await t.test('a calendar card renders its definition, literal meaning and example', () => {
+        const { helpers } = setupTestEnvironment();
+        const item = helpers.parseDailyItem({
+            idiom: 'Piece of cake', definition: 'Very easy', example: 'The test was a piece of cake.',
+            literal_meaning: 'A slice of cake', level: 'B1'
+        });
+        assert.equal(item.text, 'Piece of cake');
+        assert.equal(item.definition, 'Very easy');
+        assert.equal(item.translation, '', 'the definition is shown by default, not hidden as a translation');
+        assert.match(item.meta, /^CEFR B1 • Literally: "A slice of cake" • Example: "The test was a piece of cake\."$/);
     });
 });
