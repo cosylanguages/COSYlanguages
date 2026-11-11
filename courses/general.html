@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>General Course 📖 | COSYlanguages</title>
-    <meta name="description" content="All 4 skills growing together with structured CEFR-level progression. 1-to-1 and group lessons in English, French, Italian, Russian, and Greek.">
+    <title>General Language Course 📖 | COSYlanguages</title>
+    <meta name="description" content="Master all 4 language skills (Speaking, Listening, Reading, Writing) with our structured CEFR-aligned roadmap from A1 to C2. Rigorous grammar, rich vocabulary, and real-life adult fluency.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/courses/general.html">
-    <meta property="og:title" content="General Course 📖 | COSYlanguages">
-    <meta property="og:description" content="All 4 skills growing together with structured CEFR-level progression. 1-to-1 and group lessons in English, French, Italian, Russian, and Greek.">
+    <meta property="og:title" content="General Language Course 📖 | COSYlanguages">
+    <meta property="og:description" content="Master all 4 language skills with our structured CEFR-aligned roadmap from A1 to C2. Rigorous grammar, rich vocabulary, and speaking-first practice.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/courses/general.html">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="General Course 📖 | COSYlanguages">
-    <meta name="twitter:description" content="All 4 skills growing together with structured CEFR-level progression.">
+    <meta name="twitter:title" content="General Language Course 📖 | COSYlanguages">
+    <meta name="twitter:description" content="All 4 skills growing together with structured CEFR progression in English, French, Italian, Russian, and Greek.">
     <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <meta name="theme-color" content="#2d5a36">
 
-<link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
-<link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
       :root {
         --course-accent: #2d5a36;
+        --course-accent-light: rgba(45, 90, 54, 0.08);
       }
       .course-detail-wrap {
-        max-width: 900px;
+        max-width: 960px;
         margin: 0 auto;
         padding: 2rem 1.5rem 4rem;
       }
@@ -48,80 +50,26 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .course-hero {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-left: 6px solid var(--course-accent);
-        border-radius: var(--r-md, 12px);
-        padding: 2.5rem 2rem;
-        margin-bottom: 2.5rem;
-      }
-      .course-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.2rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-      }
-      .course-hero .promise {
-        font-size: 1.25rem;
-        color: var(--ink-soft);
-        line-height: 1.5;
-        margin-bottom: 1.75rem;
-      }
-      .hero-cta-btns {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-accent {
-        background: var(--course-accent);
-        color: #ffffff;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--r-sm, 8px);
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: opacity 0.2s;
-      }
-      .btn-accent:hover {
-        opacity: 0.9;
-        color: #ffffff;
-      }
       .course-section {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
-        padding: 2rem;
+        border-radius: var(--card-radius);
+        padding: 2.25rem 2rem;
         margin-bottom: 2rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .course-section h2 {
         font-family: var(--font-serif);
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         color: var(--ink);
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
         border-bottom: 2px solid rgba(0,0,0,0.06);
-        padding-bottom: 0.5rem;
-      }
-      .course-section ul {
-        padding-left: 1.25rem;
-        margin: 0;
-      }
-      .course-section li {
-        margin-bottom: 0.5rem;
-        line-height: 1.6;
-        color: var(--ink-soft);
-      }
-      .course-section p {
-        line-height: 1.6;
-        color: var(--ink-soft);
-        margin-bottom: 0.75rem;
+        padding-bottom: 0.6rem;
       }
       .student-portal-box {
         background: #f0f4f1;
         border: 1px dashed var(--course-accent);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-bottom: 2.5rem;
@@ -158,63 +106,430 @@
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <main id="main-content" class="course-detail-wrap">
-  <!-- 1. Breadcrumb -->
+  <!-- Breadcrumb -->
   <div class="course-breadcrumb">
     <a href="../index.html">Home</a> / <a href="index.html">Courses</a> / <span>General Course</span>
   </div>
 
-  <!-- 2. Hero -->
-  <section class="course-hero">
+  <!-- Hero -->
+  <section class="course-hero-modern">
     <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
-      <span class="visual-journey-badge">📖 General Track</span>
+      <span class="visual-journey-badge">📖 Full CEFR Track</span>
       <span class="journey-connector-line"></span>
-      <span class="visual-journey-badge">💬 40% Speaking Goal</span>
+      <span class="visual-journey-badge">🗣️ 40%+ Speaking Time</span>
+      <span class="journey-connector-line"></span>
+      <span class="visual-journey-badge">✍️ 4 Skills Balanced</span>
     </div>
-    <h1>General Course 📖</h1>
-    <p class="promise">All 4 skills growing together, structured CEFR-level progression.</p>
-    <div class="hero-cta-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20the%20General%20Course." class="btn-accent" target="_blank" rel="noopener">💬 Message us on WhatsApp</a>
-      <a href="../index.html#calculator" class="btn-secondary">See prices</a>
+    <h1>General Language Course 📖</h1>
+    <p style="font-size: 1.15rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1rem;">A structured, comprehensive educational roadmap taking adult learners from complete beginner (A1) to effortless native-like mastery (C2). All four foundational skills—Listening, Speaking, Reading, and Writing—develop harmoniously through meaningful, real-world adult communication.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">📈</span> Complete A1 → C2 Syllabus</div>
+      <div class="hero-stat-pill"><span class="icon">💬</span> 40% Minimum Active Speaking</div>
+      <div class="hero-stat-pill"><span class="icon">📝</span> Personalized Weekly Written Feedback</div>
+      <div class="hero-stat-pill"><span class="icon">👥</span> 1-to-1 or Cohort Groups</div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20enroll%20in%20the%20General%20Course." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+      <a href="../placement-quiz.html" class="btn-secondary">Take Free Placement Quiz</a>
+      <a href="../index.html#calculator" class="btn-secondary">Calculate Tuition</a>
     </div>
   </section>
 
-  <!-- 3. Who it's for -->
-  <section class="course-section">
-    <h2>Who it's for</h2>
-    <p>Adults who want to learn a language properly, step by step, alongside a busy life. No specific goal needed, just steady progress.</p>
+  <!-- Course Identity & Chooser Compass -->
+  <section class="decision-compass-box">
+    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.5rem;">🧭 Course Selection Compass: Is This Course Necessary For You?</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 1.25rem;">Compare your immediate priorities to ensure the General Course matches your exact stage:</p>
+
+    <div class="decision-compass-grid">
+      <div class="decision-side-card necessary">
+        <div class="decision-side-title">✅ This course is necessary if...</div>
+        <ul>
+          <li>You want a robust, long-term foundation covering syntax, vocabulary, phonetics, reading, and formal writing without skipping essential grammar mechanics.</li>
+          <li>You want to systematically move up official CEFR milestones (A1 → A2 → B1 → B2 → C1 → C2) for personal accomplishment or international relocation.</li>
+          <li>You prefer having structured homework, written feedback, and guided communicative speaking drills in every single lesson.</li>
+        </ul>
+      </div>
+
+      <div class="decision-side-card alternative">
+        <div class="decision-side-title">⚠️ Otherwise, choose another course if...</div>
+        <ul>
+          <li>Choose the <strong><a href="spoken.html">Spoken Course</a></strong> if you already grasp basic grammar rules and solely want spontaneous conversational practice in 15 or 30-minute sessions without homework worksheets.</li>
+          <li>Choose the <strong><a href="exam-preparation.html">Exam Preparation Course</a></strong> if you need an official certificate (IELTS, TOEFL, Cambridge, DELF/DALF, CILS, CELI, TORFL) within the next 1–6 months and need targeted rubric drills.</li>
+          <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if you already have intermediate fluency (B1+) and need workplace-specific language for IT, Academia, Hospitality, or Legal affairs.</li>
+          <li>Choose the <strong><a href="relocation.html">Relocation Course</a></strong> if your immediate priority is municipal administration, apartment leases, and healthcare setup.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <!-- 4. What you'll do -->
+  <!-- Complete CEFR Level Roadmap Timeline -->
   <section class="course-section">
-    <h2>What you'll do</h2>
-    <ul>
-      <li>Speak from lesson one.</li>
-      <li>Grow listening, speaking, reading and writing together.</li>
-      <li>Follow a clear path from your level upward.</li>
-      <li>Use situations from your real adult life.</li>
+    <h2>🗺️ The Complete CEFR Level Roadmap (A1 to C2)</h2>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Our curriculum establishes exact grammatical inventories, thematic vocabulary domains, cognitive demands, and demonstrable can-do skills at every CEFR milestone:</p>
+
+    <div class="visual-timeline-track">
+      <!-- A1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">A1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌱 Level A1: Breakthrough &amp; Discovery</span>
+            <span class="timeline-badge-pill">0 – 100 Guided Hours</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Pedagogical Goal:</strong> Overcome fear of speaking from lesson one. Establish clear phonetic habits and formulate basic affirmative, negative, and interrogative sentences for concrete daily needs.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Present simple indicative &amp; auxiliaries (to be, to have)</li>
+                <li>Definite &amp; indefinite articles, noun gender/plural agreements</li>
+                <li>Subject, possessive, and demonstrative pronouns</li>
+                <li>Basic word order (SVO) &amp; forming WH- questions</li>
+                <li>Cardinal numbers, dates, telling time, basic prepositions</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~600–800 words)</h4>
+              <ul>
+                <li>Self-introductions, nationality, languages, professions</li>
+                <li>Immediate family, home furnishings, colors, clothing</li>
+                <li>Everyday food, ordering in cafés, days &amp; months</li>
+                <li>Physical descriptions, basic weather expressions</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>⚡ Demands &amp; Expectations</h4>
+              <ul>
+                <li>1–2 hours of self-study between sessions</li>
+                <li>Active repetition of phonetics to avoid accent traps</li>
+                <li>Clear, patient speech rate supported by visual context</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🎯 Can-Do Abilities &amp; Knowledge</h4>
+              <ul>
+                <li>Fill out simple forms with personal details (hotel check-in)</li>
+                <li>Ask and answer basic questions about living situations</li>
+                <li>Understand simple audio announcements spoken slowly</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- A2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">A2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌿 Level A2: Waystage &amp; Survival</span>
+            <span class="timeline-badge-pill">100 – 200 Guided Hours</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Pedagogical Goal:</strong> Communicate in simple, routine tasks requiring a direct exchange of information on familiar matters. Narrate recent experiences in the past and project future plans.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Past tenses (Simple Past / Passé Composé / Passato Prossimo / Прошедшее)</li>
+                <li>Future expressions (going to, will, future simple)</li>
+                <li>Modal verbs of obligation &amp; permission (can, must, should)</li>
+                <li>Comparative &amp; superlative degrees of adjectives</li>
+                <li>Direct and indirect object pronouns; time prepositions</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~1,200–1,600 words)</h4>
+              <ul>
+                <li>Shopping, transactions, clothes shopping, market stalls</li>
+                <li>Local geography, public transport directions, maps</li>
+                <li>Past vacations, childhood memories, personal interests</li>
+                <li>Health symptoms, pharmacy visits, simple medical advice</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>⚡ Demands &amp; Expectations</h4>
+              <ul>
+                <li>Short weekly writing tasks (informal postcards, short emails)</li>
+                <li>Sustaining 2–3 minute spoken monologues on personal topics</li>
+                <li>Comprehension of short authentic brochures and menus</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🎯 Can-Do Abilities &amp; Knowledge</h4>
+              <ul>
+                <li>Describe background and environment in connected simple sentences</li>
+                <li>Participate in short social exchanges without immediate translation</li>
+                <li>Extract key facts from timetables, advertisements, and signs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- B1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">B1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌾 Level B1: Threshold &amp; Independence</span>
+            <span class="timeline-badge-pill">200 – 400 Guided Hours</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Pedagogical Goal:</strong> Enter unprepared into conversations on familiar topics. Express opinions, reason logically, narrate plots of books or films, and handle unexpected situations when traveling.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Past continuous vs past simple; imperfect vs perfective aspect</li>
+                <li>First and second conditionals (hypothetical situations)</li>
+                <li>Passive voice for factual and impersonal reporting</li>
+                <li>Relative clauses with relative pronouns (who, which, that)</li>
+                <li>Discourse connectors: cause, contrast, consequence, concession</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~2,500–3,200 words)</h4>
+              <ul>
+                <li>Workplace environments, job applications, career ambitions</li>
+                <li>Media, news headlines, entertainment, social trends</li>
+                <li>Environmental issues, travel experiences, dreams &amp; goals</li>
+                <li>Feelings, relationships, character traits, problem solving</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>⚡ Demands &amp; Expectations</h4>
+              <ul>
+                <li>2–3 hours weekly study; regular essay drafting (150–200 words)</li>
+                <li>Spontaneous debate without pre-written speaking notes</li>
+                <li>Listening to standard radio broadcasts, podcasts, and video clips</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🎯 Can-Do Abilities &amp; Knowledge</h4>
+              <ul>
+                <li>Connect phrases smoothly to explain viewpoints and reasons</li>
+                <li>Write straightforward, coherent texts on personal interest topics</li>
+                <li>Summarize articles and respond critically to opposing viewpoints</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- B2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">B2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌲 Level B2: Vantage &amp; Fluency</span>
+            <span class="timeline-badge-pill">400 – 600 Guided Hours</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Pedagogical Goal:</strong> Achieve full operational independence. Understand complex ideas in technical and literary texts; interact with native speakers with a high degree of spontaneity and grammatical accuracy.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Subjunctive / Conjunctive mood (doubt, emotion, necessity)</li>
+                <li>Mixed conditionals and past unfulfilled hypotheses (Third Conditional)</li>
+                <li>Advanced passive, causative structures, and reported speech</li>
+                <li>Participle clauses, gerunds vs infinitives with subtle shifts</li>
+                <li>Complex discourse markers for structured argumentation</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~4,500–6,000 words)</h4>
+              <ul>
+                <li>Global politics, economic trends, ethics, tech disruption</li>
+                <li>Idiomatic expressions, phrasal verbs, collocations, register nuances</li>
+                <li>Art, cinema, literature analysis, scientific debate</li>
+                <li>Workplace negotiations, persuasive pitch delivery, formal letters</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>⚡ Demands &amp; Expectations</h4>
+              <ul>
+                <li>Critical reading of authentic newspapers and editorials</li>
+                <li>Weekly formal writing tasks (reports, essays 250–350 words)</li>
+                <li>Self-correction of grammatical slips dynamically during speech</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🎯 Can-Do Abilities &amp; Knowledge</h4>
+              <ul>
+                <li>Deliver clear, detailed descriptions across your field of interest</li>
+                <li>Explain viewpoints on topical issues detailing pros and cons</li>
+                <li>Comprehend complex spoken arguments and documentary lectures</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- C1 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">C1</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🌳 Level C1: Effective Operational Proficiency</span>
+            <span class="timeline-badge-pill">600 – 800 Guided Hours</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Pedagogical Goal:</strong> Master stylistic nuances, irony, and rhetorical elegance. Use language flexibly and effectively for social, academic, and professional purposes with effortless fluency.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Cleft sentences, inversion, and fronting for dramatic emphasis</li>
+                <li>Subtle modal auxiliaries denoting varying degrees of deduction</li>
+                <li>Nominalization and advanced syntactic synthesis in academic writing</li>
+                <li>Archaic, literary, and vernacular register shifts</li>
+                <li>Complex co-reference, ellipsis, and stylistic substitution</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~8,000–10,000 words)</h4>
+              <ul>
+                <li>Philosophical discourse, legal jargon, financial markets, sociology</li>
+                <li>Extensive idiomatic repertoire, cultural metaphors, double entendres</li>
+                <li>Academic prose, scholarly critique, policy analysis</li>
+                <li>Persuasive public oratory, negotiation subtleties, irony</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>⚡ Demands &amp; Expectations</h4>
+              <ul>
+                <li>Immersion in uncut native podcasts, political debates, and literature</li>
+                <li>Writing long-form synthesis papers, abstracts, and reviews</li>
+                <li>Zero hesitation in spontaneous debates on controversial topics</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🎯 Can-Do Abilities &amp; Knowledge</h4>
+              <ul>
+                <li>Express ideas spontaneously without obvious searching for words</li>
+                <li>Relate your contribution skillfully to those of other speakers</li>
+                <li>Produce clear, smoothly flowing text with controlled organizational patterns</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- C2 -->
+      <div class="timeline-step-node">
+        <div class="timeline-step-marker">C2</div>
+        <div class="timeline-card-content">
+          <div class="timeline-card-header">
+            <span class="timeline-card-title">🏛️ Level C2: Mastery &amp; Bilingual Polish</span>
+            <span class="timeline-badge-pill">800+ Guided Hours</span>
+          </div>
+          <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;"><strong>Pedagogical Goal:</strong> Near-native linguistic intuition. Reconstruct arguments and accounts from different spoken and written sources, summarizing them into a coherent presentation with stylistic finesse.</p>
+
+          <div class="card-breakdown-grid">
+            <div class="card-breakdown-box">
+              <h4>🧩 Grammar Inventory</h4>
+              <ul>
+                <li>Effortless command of historical, literary, and regional syntactic variants</li>
+                <li>Micro-nuances of punctuation, prosody, stress, and intonation contouring</li>
+                <li>Total freedom in manipulating sentence length and rhythmic cadence</li>
+                <li>Spontaneous creative linguistic innovation and wordplay</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>📚 Vocabulary Themes (~15,000+ words)</h4>
+              <ul>
+                <li>Complete cultural subtext, historical idioms, regional dialects</li>
+                <li>Classical literature, specialized scientific papers, jurisprudence</li>
+                <li>Humor, sarcasm, satire, subtle subtext in film and books</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>⚡ Demands &amp; Expectations</h4>
+              <ul>
+                <li>Deep engagement with original literature, legal briefs, and historical texts</li>
+                <li>Publishable-grade written compositions with flawless stylistic tone</li>
+                <li>Ability to mediate heated cultural disputes with perfect diplomatic tact</li>
+              </ul>
+            </div>
+            <div class="card-breakdown-box">
+              <h4>🎯 Can-Do Abilities &amp; Knowledge</h4>
+              <ul>
+                <li>Understand with ease virtually everything heard or read</li>
+                <li>Convey finer shades of meaning precisely even in complex situations</li>
+                <li>Advocate persuasively in any professional, diplomatic, or literary arena</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Languages Offered -->
+  <section class="course-section">
+    <h2>Languages Available</h2>
+    <p style="color:var(--ink-soft); line-height: 1.6;">Our General Course is offered across five world languages, each instructed with authentic materials and cultural depth:</p>
+    <ul style="color:var(--ink-soft); line-height: 1.6;">
+      <li><strong>English</strong> (Taught continuously since 2020) — General CEFR tracks from A1 to C2.</li>
+      <li><strong>French</strong> (Taught since 2022) — Complete grammatical progression including French subjunctive, passé simple, and cultural fluency.</li>
+      <li><strong>Italian</strong> (Taught since 2022) — Systematic mastery of gender agreement, congiuntivo, and modern conversational Italian.</li>
+      <li><strong>Russian</strong> (Taught since 2022) — Cyrillic alphabet, 6-case grammatical declension system, verbs of motion, and aspectual pairs.</li>
+      <li><strong>Greek</strong> (Taught since 2025) — Modern Greek phonology, alphabet, nominal cases, and verb conjugation patterns.</li>
     </ul>
+    <p style="color:var(--ink-soft); line-height: 1.6;">👥 <strong>Cohorts &amp; Formats:</strong> Available in both private 1-to-1 coaching and small collaborative groups (3–6 students) in English, French, Italian, and Russian.</p>
   </section>
 
-  <!-- 5. Languages -->
+  <!-- How Lessons Work -->
   <section class="course-section">
-    <h2>Languages</h2>
-    <p>Available in <strong>English</strong> (taught since 2020), <strong>French</strong> (since 2022), <strong>Italian</strong> (since 2022), <strong>Russian</strong> (since 2022), and <strong>Greek</strong> (since 2025).</p>
-    <p>👥 <strong>Group lessons:</strong> Available in English, French, Italian, and Russian.</p>
+    <h2>How Lessons Work &amp; Pedagogical Method</h2>
+    <p style="color:var(--ink-soft); line-height: 1.6;">Every session is structured around our communicative principle where <strong>at least 40% of class time is spent in active oral dialogue</strong>:</p>
+    <ul style="color:var(--ink-soft); line-height: 1.6;">
+      <li><strong>Targeted Warm-Up (10 min):</strong> Spontaneous recall of previously learned lexical structures through rapid-fire question-and-answer prompts.</li>
+      <li><strong>Grammar in Context (20 min):</strong> Inductive grammar exploration using authentic texts, podcasts, or dialogues rather than abstract decontextualized tables.</li>
+      <li><strong>Communicative Practice (20 min):</strong> Role-play, scenario resolution, and structured debate requiring active application of new syntax.</li>
+      <li><strong>Active Production &amp; Error Feedback (10 min):</strong> Immediate oral recap, real-time correction in shared notes, and customized homework assignments.</li>
+    </ul>
+    <p style="color:var(--ink-soft); line-height: 1.6;"><strong>Lesson Durations Offered:</strong> 60 minutes or 90 minutes.</p>
   </section>
 
-  <!-- 6. How lessons work -->
+  <!-- In-Depth FAQ Section -->
   <section class="course-section">
-    <h2>How lessons work</h2>
-    <p>Lessons are conducted 1-to-1 (or in small group cohorts) with a strict speaking-first methodology where at least 40% of every lesson is active speaking.</p>
-    <p><strong>Durations offered:</strong> 60 minutes or 90 minutes.</p>
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <div class="faq-box-container">
+      <div class="faq-card">
+        <div class="faq-card-title">How do I know which CEFR level I should start at?</div>
+        <div class="faq-card-body">Before your first lesson, you will take our free <a href="../placement-quiz.html">adaptive placement quiz</a>. Additionally, your teacher conducts an initial oral diagnostic evaluation during your trial session to pinpoint your precise baseline across receptive and productive skills.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">How long does it take to advance from one CEFR level to the next?</div>
+        <div class="faq-card-body">On average, advancing through A1 takes about 80–100 guided hours; A2 takes ~100–120 hours; B1 takes ~180–200 hours; and B2 takes ~200–250 hours. With 2 lessons per week and regular homework, adult students typically advance one sub-level (e.g. B1.1 to B1.2) every 3 to 4 months.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">Is there mandatory homework in the General Course?</div>
+        <div class="faq-card-body">Yes. Because the General Course is a comprehensive 4-skill curriculum, regular practice between lessons is crucial. You will receive 30–60 minutes of weekly homework comprising reading, writing, and vocabulary drills hosted on <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">COSYplatform</a>. If you want zero homework and only oral dialogue, choose our <a href="spoken.html">Spoken Course</a>.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">Can I switch between 1-to-1 lessons and group classes?</div>
+        <div class="faq-card-body">Yes, our flexible structure lets you transition between individual 1-to-1 coaching and small peer groups when a new cohort opens at your exact CEFR level.</div>
+      </div>
+    </div>
   </section>
 
-  <!-- 7. Small box at bottom -->
+  <!-- Portal Box -->
   <div class="student-portal-box">
-    🎓 <strong>Already a student?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Go to your course platform →</a>
+    🎓 <strong>Already enrolled?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Log in to COSYplatform to view your homework and class notes →</a>
   </div>
 
-  <!-- 8. Link to next/previous course and back to /courses/ -->
+  <!-- Pagination -->
   <nav class="course-nav-links" aria-label="Course pagination">
     <a href="relocation.html">← Previous: Relocation Course</a>
     <a href="index.html">All Courses 📚</a>
@@ -223,7 +538,6 @@
 </main>
 
 <footer>
-
   <div class="footer-inner">
     <div class="footer-brand">
       <div class="fb-logo">
@@ -265,7 +579,6 @@
     </div>
   </div>
   <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
-
 </footer>
 
 <script src="../js/data/languages.js" defer></script>

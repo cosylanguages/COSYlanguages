@@ -1,0 +1,328 @@
+/* ── Course Roadmaps & Visual Enhancement Styles ── */
+:root {
+  --roadmap-connector: #e2dcd5;
+  --roadmap-glow: rgba(65, 107, 73, 0.12);
+  --card-radius: 16px;
+  --card-shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.04);
+  --card-shadow-md: 0 10px 30px rgba(0, 0, 0, 0.07);
+  --card-shadow-hover: 0 16px 40px rgba(0, 0, 0, 0.11);
+}
+
+/* ── Hero Enhancement ── */
+.course-hero-modern {
+  position: relative;
+  background: linear-gradient(135deg, #ffffff 0%, var(--warm-white, #FAF7F2) 100%);
+  border: 1px solid var(--border, #E2DCD5);
+  border-left: 6px solid var(--course-accent, #416B49);
+  border-radius: var(--card-radius);
+  padding: 3rem 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: var(--card-shadow-md);
+  overflow: hidden;
+}
+
+.course-hero-modern::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(circle, var(--course-accent-light, rgba(65, 107, 73, 0.08)) 0%, transparent 70%);
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.course-hero-modern h1 {
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  color: var(--ink);
+  margin-bottom: 0.85rem;
+  line-height: 1.18;
+}
+
+.hero-stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.75rem 0 2rem;
+}
+
+.hero-stat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #ffffff;
+  border: 1px solid var(--border, #E2DCD5);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+  box-shadow: var(--card-shadow-sm);
+}
+
+.hero-stat-pill .icon {
+  font-size: 1.15rem;
+}
+
+/* ── Decision Compass Callout ── */
+.decision-compass-box {
+  background: #ffffff;
+  border: 1px solid var(--border, #E2DCD5);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow-sm);
+  padding: 2.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.decision-compass-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .decision-compass-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.decision-side-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.decision-side-card.necessary {
+  background: linear-gradient(145deg, #f3f8f4 0%, #ffffff 100%);
+  border: 1.5px solid #a4c9ad;
+}
+
+.decision-side-card.alternative {
+  background: linear-gradient(145deg, #fdf7f4 0%, #ffffff 100%);
+  border: 1.5px solid #e8bcad;
+}
+
+.decision-side-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.decision-side-card.necessary .decision-side-title {
+  color: #216833;
+}
+
+.decision-side-card.alternative .decision-side-title {
+  color: #a44820;
+}
+
+.decision-side-card ul {
+  padding-left: 1.25rem;
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.decision-side-card li {
+  margin-bottom: 0.5rem;
+  color: var(--ink-soft);
+}
+
+/* ── Visual Roadmap Timeline ── */
+.visual-timeline-track {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.visual-timeline-track::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  bottom: 25px;
+  left: 28px;
+  width: 4px;
+  background: linear-gradient(180deg, var(--course-accent, #416B49) 0%, #e2dcd5 100%);
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  .visual-timeline-track::before {
+    left: 20px;
+  }
+}
+
+.timeline-step-node {
+  position: relative;
+  padding-left: 70px;
+}
+
+@media (max-width: 640px) {
+  .timeline-step-node {
+    padding-left: 54px;
+  }
+}
+
+.timeline-step-marker {
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 3px solid var(--course-accent, #416B49);
+  color: var(--course-accent, #416B49);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  z-index: 2;
+}
+
+@media (max-width: 640px) {
+  .timeline-step-marker {
+    left: 4px;
+    width: 36px;
+    height: 36px;
+    font-size: 0.85rem;
+  }
+}
+
+.timeline-card-content {
+  background: #ffffff;
+  border: 1px solid var(--border, #E2DCD5);
+  border-radius: var(--card-radius);
+  padding: 1.75rem;
+  box-shadow: var(--card-shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-card-content:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-md);
+}
+
+.timeline-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.timeline-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--course-accent, #416B49);
+}
+
+.timeline-badge-pill {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: var(--course-accent-light, rgba(65, 107, 73, 0.08));
+  color: var(--course-accent, #416B49);
+}
+
+/* ── Interactive 4-Box Grid inside Cards ── */
+.card-breakdown-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.card-breakdown-box {
+  background: var(--warm-white, #FAF7F2);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 10px;
+  padding: 1.15rem;
+}
+
+.card-breakdown-box h4 {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.card-breakdown-box ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.card-breakdown-box li {
+  margin-bottom: 0.35rem;
+}
+
+/* ── FAQ Accordion Enhancement ── */
+.faq-box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-card {
+  background: #ffffff;
+  border: 1px solid var(--border, #E2DCD5);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  transition: border-color 0.2s ease;
+}
+
+.faq-card:hover {
+  border-color: var(--course-accent, #416B49);
+}
+
+.faq-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.faq-card-title::before {
+  content: "Q:";
+  font-family: var(--font-sans);
+  color: var(--course-accent, #416B49);
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.faq-card-body {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: 0;
+  padding-left: 1.6rem;
+}

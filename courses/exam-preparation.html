@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam Preparation 📝 | COSYlanguages</title>
-    <meta name="description" content="Authentic tasks, exact exam conditions. Focus on the oral component where it matters most. 1-to-1 language coaching.">
+    <title>Official Exam Preparation Course 📝 | COSYlanguages</title>
+    <meta name="description" content="Strategic preparation for IELTS, TOEFL, Cambridge, DELF/DALF, TCF, CILS, CELI, TORFL, and Ellinomatheia. Exact exam conditions, timing, all 4 parts, scoring rubrics, and intensive oral coaching.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/courses/exam-preparation.html">
-    <meta property="og:title" content="Exam Preparation 📝 | COSYlanguages">
-    <meta property="og:description" content="Authentic tasks, exact exam conditions. Focus on the oral component where it matters most. 1-to-1 language coaching.">
+    <meta property="og:title" content="Official Exam Preparation Course 📝 | COSYlanguages">
+    <meta property="og:description" content="Authentic tasks, exact exam timing and conditions. Intensive coaching for IELTS, TOEFL, Cambridge, DELF/DALF, CILS, CELI, TORFL, and Ellinomatheia.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/courses/exam-preparation.html">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Exam Preparation 📝 | COSYlanguages">
-    <meta name="twitter:description" content="Authentic tasks, exact exam conditions. Focus on the oral component where it matters most.">
+    <meta name="twitter:title" content="Official Exam Preparation Course 📝 | COSYlanguages">
+    <meta name="twitter:description" content="Authentic tasks, exact exam conditions. Focus on the oral and written components where scores are won.">
     <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <meta name="theme-color" content="#6a2c5a">
 
-<link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
-<link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
       :root {
         --course-accent: #6a2c5a;
+        --course-accent-light: rgba(106, 44, 90, 0.08);
       }
       .course-detail-wrap {
-        max-width: 900px;
+        max-width: 960px;
         margin: 0 auto;
         padding: 2rem 1.5rem 4rem;
       }
@@ -48,80 +50,87 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .course-hero {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-left: 6px solid var(--course-accent);
-        border-radius: var(--r-md, 12px);
-        padding: 2.5rem 2rem;
-        margin-bottom: 2.5rem;
-      }
-      .course-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.2rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-      }
-      .course-hero .promise {
-        font-size: 1.25rem;
-        color: var(--ink-soft);
-        line-height: 1.5;
-        margin-bottom: 1.75rem;
-      }
-      .hero-cta-btns {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-accent {
-        background: var(--course-accent);
-        color: #ffffff;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--r-sm, 8px);
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: opacity 0.2s;
-      }
-      .btn-accent:hover {
-        opacity: 0.9;
-        color: #ffffff;
-      }
       .course-section {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
-        padding: 2rem;
+        border-radius: var(--card-radius);
+        padding: 2.25rem 2rem;
         margin-bottom: 2rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .course-section h2 {
         font-family: var(--font-serif);
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         color: var(--ink);
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
         border-bottom: 2px solid rgba(0,0,0,0.06);
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.6rem;
       }
-      .course-section ul {
-        padding-left: 1.25rem;
-        margin: 0;
+      .exam-suite-card {
+        background: var(--warm-white, #FAF7F2);
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 12px;
+        padding: 1.75rem;
+        margin-bottom: 1.75rem;
       }
-      .course-section li {
-        margin-bottom: 0.5rem;
-        line-height: 1.6;
-        color: var(--ink-soft);
-      }
-      .course-section p {
-        line-height: 1.6;
-        color: var(--ink-soft);
+      .exam-suite-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 0.5rem;
         margin-bottom: 0.75rem;
+      }
+      .exam-suite-title {
+        font-family: var(--font-serif);
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: var(--course-accent);
+      }
+      .exam-suite-badge {
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding: 0.25rem 0.65rem;
+        border-radius: 999px;
+        background: var(--course-accent-light);
+        color: var(--course-accent);
+      }
+      .exam-parts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.25rem;
+        margin-top: 1rem;
+      }
+      .exam-part-box {
+        background: #ffffff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 10px;
+        padding: 1.25rem;
+      }
+      .exam-part-box h4 {
+        font-size: 1rem;
+        font-weight: 800;
+        color: var(--ink);
+        margin-bottom: 0.4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .exam-part-box .timing {
+        font-size: 0.8rem;
+        color: var(--course-accent);
+        font-weight: 800;
+      }
+      .exam-part-box ul {
+        margin: 0;
+        padding-left: 1.15rem;
+        font-size: 0.88rem;
       }
       .student-portal-box {
         background: #f7f2f6;
         border: 1px dashed var(--course-accent);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-bottom: 2.5rem;
@@ -158,63 +167,322 @@
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <main id="main-content" class="course-detail-wrap">
-  <!-- 1. Breadcrumb -->
+  <!-- Breadcrumb -->
   <div class="course-breadcrumb">
     <a href="../index.html">Home</a> / <a href="index.html">Courses</a> / <span>Exam Preparation</span>
   </div>
 
-  <!-- 2. Hero -->
-  <section class="course-hero">
+  <!-- Hero -->
+  <section class="course-hero-modern">
     <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
       <span class="visual-journey-badge">📝 Exam Track</span>
       <span class="journey-connector-line"></span>
+      <span class="visual-journey-badge">⏱️ Exact Timed Simulations</span>
+      <span class="journey-connector-line"></span>
       <span class="visual-journey-badge">🏆 Official Certification</span>
     </div>
-    <h1>Exam Preparation 📝</h1>
-    <p class="promise">Authentic tasks, exact exam conditions. Focus on the oral component where it matters most.</p>
-    <div class="hero-cta-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20the%20Exam%20Preparation%20course." class="btn-accent" target="_blank" rel="noopener">💬 Message us on WhatsApp</a>
-      <a href="../index.html#calculator" class="btn-secondary">See prices</a>
+    <h1>Official Exam Preparation Course 📝</h1>
+    <p style="font-size: 1.15rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1rem;">Targeted, high-intensity coaching designed to conquer official language certifications. We break down every component—Speaking, Writing, Reading, and Listening—with exact exam timing, authentic rubrics, examiner scoring strategies, and realistic mock simulations.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">⏱️</span> 100% Exact Timed Exam Conditions</div>
+      <div class="hero-stat-pill"><span class="icon">🎯</span> All 4 Parts Covered (Oral, Writing, Reading, Listening)</div>
+      <div class="hero-stat-pill"><span class="icon">📊</span> Examiner Scoring Rubrics &amp; Band Targets</div>
+      <div class="hero-stat-pill"><span class="icon">📝</span> Authentic Past Papers &amp; Mock Debriefs</div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20preparing%20for%20a%20language%20exam%20and%20would%20like%20coaching." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Discuss Your Exam on WhatsApp</a>
+      <a href="../placement-quiz.html" class="btn-secondary">Check Current CEFR Level</a>
+      <a href="../index.html#calculator" class="btn-secondary">See Prices</a>
     </div>
   </section>
 
-  <!-- 3. Who it's for -->
-  <section class="course-section">
-    <h2>Who it's for</h2>
-    <p>Learners preparing for a language exam who want to feel ready on the day, especially for the speaking part.</p>
+  <!-- Decision Compass -->
+  <section class="decision-compass-box">
+    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.5rem;">🧭 Course Selection Compass: Is Exam Preparation Necessary For You?</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 1.25rem;">Compare whether you need targeted exam coaching or general skill development:</p>
+
+    <div class="decision-compass-grid">
+      <div class="decision-side-card necessary">
+        <div class="decision-side-title">✅ This course is necessary if...</div>
+        <ul>
+          <li>You have a booked or impending test date for an internationally accredited certificate (IELTS, TOEFL, Cambridge, DELF, DALF, TCF, CILS, CELI, TORFL, or Ellinomatheia) required for university admission, immigration, or professional licensing.</li>
+          <li>Your overall language level is already close to or matches the target CEFR band, but you need to master test structure, timing, task rubrics, and avoid losing points on oral or essay synthesis.</li>
+          <li>You need realistic full-length mock examinations with objective examiner scoring and strategic error remediation.</li>
+        </ul>
+      </div>
+
+      <div class="decision-side-card alternative">
+        <div class="decision-side-title">⚠️ Otherwise, choose another course if...</div>
+        <ul>
+          <li>Choose the <strong><a href="general.html">General Course</a></strong> if your current language level is significantly below the exam requirement (e.g. you are currently A2 and need B2/C1; you must build foundational grammar and vocabulary first).</li>
+          <li>Choose the <strong><a href="spoken.html">Spoken Course</a></strong> if you have no exam deadlines and purely want unconstrained conversational fluency without rigorous scoring rubrics.</li>
+          <li>Choose the <strong><a href="professional.html">Professional Course</a></strong> if you need language for your corporate workplace (IT, Hospitality, Legal) rather than an academic standardized test.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <!-- 4. What you'll do -->
+  <!-- Supported Exam Suites -->
   <section class="course-section">
-    <h2>What you'll do</h2>
-    <ul>
-      <li>Work through authentic exam-style tasks.</li>
-      <li>Practise under exact exam conditions.</li>
-      <li>Focus on the oral component where it matters most.</li>
-      <li>Tell us which exam you're taking and we'll match the tasks to it.</li>
+    <h2>🏆 Official Certifications Supported Across Languages</h2>
+    <p style="color: var(--ink-soft); line-height: 1.6;">We provide tailored test-taking preparation matching the exact testing frameworks established by national ministries of education and international testing consortia:</p>
+
+    <!-- English -->
+    <div class="exam-suite-card">
+      <div class="exam-suite-header">
+        <span class="exam-suite-title">🇬🇧 English: IELTS, TOEFL iBT &amp; Cambridge</span>
+        <span class="exam-suite-badge">B1 to C2 Levels</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Targeted preparation for IELTS Academic &amp; General Training (Bands 6.0 – 8.5+), TOEFL iBT (80 – 115+), and Cambridge Qualifications (B2 First / FCE, C1 Advanced / CAE, C2 Proficiency / CPE).</p>
+
+      <div class="exam-parts-grid">
+        <div class="exam-part-box">
+          <h4>🗣️ Oral / Speaking <span class="timing">11–15 min</span></h4>
+          <ul>
+            <li><strong>Part 1:</strong> Personal interview and prompt familiarity (4–5 min)</li>
+            <li><strong>Part 2:</strong> 2-minute individual long turn monologue with 1-min preparation</li>
+            <li><strong>Part 3:</strong> Abstract two-way thematic discussion and opinion defense (4–5 min)</li>
+            <li><strong>Examiner Rubric:</strong> Fluency &amp; Coherence, Lexical Resource, Grammatical Range &amp; Accuracy, Pronunciation.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>✍️ Writing Component <span class="timing">60 min</span></h4>
+          <ul>
+            <li><strong>Task 1 (20 min, 150 words):</strong> Synthesize data from graphs/charts/diagrams or draft formal correspondence</li>
+            <li><strong>Task 2 (40 min, 250 words):</strong> Academic discursive essay arguing an issue with examples</li>
+            <li><strong>Key Demands:</strong> Cohesive devices, academic register, thesis statement clarity, zero word-count deficits.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>🎧 Listening Component <span class="timing">30–40 min</span></h4>
+          <ul>
+            <li>4 sections of increasing complexity: everyday social dialogues to complex university lectures</li>
+            <li>40 questions (multiple choice, sentence completion, diagram labeling)</li>
+            <li>Strategy: Predicting keywords, managing distractor options, tracking signpost language.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>📖 Reading Component <span class="timing">60 min</span></h4>
+          <ul>
+            <li>3 long authentic academic texts (approx. 2,150–2,750 words total)</li>
+            <li>True / False / Not Given, headings matching, summary completion</li>
+            <li>Strategy: Skimming for gist, scanning for specific data, managing strict 20-min per passage limits.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- French -->
+    <div class="exam-suite-card">
+      <div class="exam-suite-header">
+        <span class="exam-suite-title">🇫🇷 French: DELF, DALF &amp; TCF</span>
+        <span class="exam-suite-badge">France Éducation International</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Official diplomas awarded by the French Ministry of National Education: DELF (A1, A2, B1, B2), DALF (C1, C2), and TCF (Test de Connaissance du Français for university or nationality).</p>
+
+      <div class="exam-parts-grid">
+        <div class="exam-part-box">
+          <h4>🗣️ Production Orale <span class="timing">15–30 min</span></h4>
+          <ul>
+            <li><strong>Entretien dirigé:</strong> Spontaneous presentation of self and background</li>
+            <li><strong>Exercice en interaction:</strong> Role-play resolving a dispute or negotiation</li>
+            <li><strong>Monologue suivi / Exposé (B2/C1):</strong> 10-minute presentation analyzing an article followed by rigorous debate with examiners.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>✍️ Production Écrite <span class="timing">45–90 min</span></h4>
+          <ul>
+            <li><strong>B1/B2:</strong> Formal letter of complaint, essay arguing a societal problem (250 words)</li>
+            <li><strong>C1:</strong> Synthesis of multiple technical documents (220 words) + persuasive argumentative essay (250 words)</li>
+            <li><strong>Key Demands:</strong> Mastery of French subjunctive, logical connectors (<em>cependant, en revanche, d'autant plus que</em>).</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>🎧 Compréhension Orale <span class="timing">25–40 min</span></h4>
+          <ul>
+            <li>Radio broadcasts (France Inter, RFI), press conferences, public interviews</li>
+            <li>Multiple choice and short response questions</li>
+            <li>Technique: Handling authentic French contractions, rapid colloquial tempo, and nuanced registers.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>📖 Compréhension Écrite <span class="timing">35–60 min</span></h4>
+          <ul>
+            <li>Articles from <em>Le Monde</em>, <em>Courrier International</em>, administrative texts</li>
+            <li>Extracting implicit ideological stances and identifying tone/satire.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Italian -->
+    <div class="exam-suite-card">
+      <div class="exam-suite-header">
+        <span class="exam-suite-title">🇮🇹 Italian: CILS, CELI &amp; PLIDA</span>
+        <span class="exam-suite-badge">Universities of Siena, Perugia &amp; Dante Alighieri</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Legally recognized certificates required for Italian university matriculation, citizenship (B1 Cittadinanza), and professional register enrollment.</p>
+
+      <div class="exam-parts-grid">
+        <div class="exam-part-box">
+          <h4>🗣️ Produzione Orale <span class="timing">10–15 min</span></h4>
+          <ul>
+            <li>Dialogo con l'esaminatore: Real-world situational roleplay</li>
+            <li>Monologo: Visual prompt or text analysis, structured argumentation</li>
+            <li>Scoring focus: Natural pronunciation, congiuntivo accuracy, idiomatic Italian expressions.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>✍️ Produzione Scritta <span class="timing">60–90 min</span></h4>
+          <ul>
+            <li>Due prove: Formal letter/email to institutions + narrative or expository essay</li>
+            <li>Focus: Syntax harmony, correct prepositions with verbs, rich vocabulary.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>🎧 Ascolto &amp; Comprensione <span class="timing">30–45 min</span></h4>
+          <ul>
+            <li>Radio recordings, authentic conversations, academic lectures</li>
+            <li>Testing comprehension of implicit meaning and regional accents.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>🧩 Analisi delle Strutture <span class="timing">60 min</span></h4>
+          <ul>
+            <li>Cloze tests, morphological transformations, preposition insertion</li>
+            <li>In-depth test of Italian grammar mechanics and idioms.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Russian -->
+    <div class="exam-suite-card">
+      <div class="exam-suite-header">
+        <span class="exam-suite-title">🇷🇺 Russian: TORFL / ТРКИ (I to IV)</span>
+        <span class="exam-suite-badge">State Testing System</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Test of Russian as a Foreign Language (Тест по русскому языку как иностранному). Standard requirement for admission to Russian universities and certified translation licenses.</p>
+
+      <div class="exam-parts-grid">
+        <div class="exam-part-box">
+          <h4>🗣️ Говорение (Speaking) <span class="timing">25–45 min</span></h4>
+          <ul>
+            <li>Participating in dialogues with specific communicative goals</li>
+            <li>Expressing evaluation of a heard or read text; spontaneous interview</li>
+            <li>Scoring: Intonation constructions (ИК-1 to ИК-7), verbs of motion, correct case usage.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>✍️ Письмо (Writing) <span class="timing">50–80 min</span></h4>
+          <ul>
+            <li>ТРКИ-1 (B1): Drafting an informal/formal letter and reproductive summary of a text</li>
+            <li>ТРКИ-2/3 (B2/C1): Analytical report, official appeal, critical essay based on multiple sources.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>🎧 Аудирование (Listening) <span class="timing">35–45 min</span></h4>
+          <ul>
+            <li>News broadcasts, film dialogues, scientific or cultural lectures</li>
+            <li>Evaluating intentions, emotions, and cause-and-effect relationships.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>🧩 Лексика. Грамматика <span class="timing">60–90 min</span></h4>
+          <ul>
+            <li>Rigorous testing of Russian nominal/adjectival case inflections, aspect pairs (СВ/НСВ), participle &amp; gerund constructions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Greek -->
+    <div class="exam-suite-card">
+      <div class="exam-suite-header">
+        <span class="exam-suite-title">🇬🇷 Greek: Certificate of Attainment in Greek (Ελληνομάθεια)</span>
+        <span class="exam-suite-badge">Centre for the Greek Language</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">The only globally recognized qualification for Modern Greek, administered by the Ministry of Education of Greece (Πιστοποίηση Επάρκειας της Ελληνομάθειας A1–C2).</p>
+
+      <div class="exam-parts-grid">
+        <div class="exam-part-box">
+          <h4>🗣️ Παραγωγή Προφορικού Λόγου <span class="timing">10–15 min</span></h4>
+          <ul>
+            <li>Warm-up conversation, picture description, structured dialogue or debate with co-candidate</li>
+            <li>Emphasis on natural stress placement, nominal declension precision, and aspectual verb forms.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>✍️ Παραγωγή Γραπτού Λόγου <span class="timing">45–75 min</span></h4>
+          <ul>
+            <li>Informal and formal correspondence, essay expressing personal standpoint with structured arguments.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>🎧 Κατανόηση Προφορικού <span class="timing">30–40 min</span></h4>
+          <ul>
+            <li>Radio announcements, conversations, interviews in standard Modern Greek</li>
+            <li>Distinguishing key factual details from supporting opinions.</li>
+          </ul>
+        </div>
+        <div class="exam-part-box">
+          <h4>📖 Κατανόηση Γραπτού Λόγου <span class="timing">45–60 min</span></h4>
+          <ul>
+            <li>Newspaper articles, historical excerpts, literary selections with comprehension queries.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demands & Capabilities -->
+  <section class="course-section">
+    <h2>⚡ Demands, Rigor &amp; Test-Taking Capabilities Built</h2>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Success in official language exams demands more than general conversation—it requires strategic execution under psychological and chronological pressure:</p>
+    <ul style="color: var(--ink-soft); line-height: 1.6;">
+      <li><strong>Chronological Precision:</strong> Every task is practiced under strict stopwatch conditions so you instinctively know how to allocate minutes during the live exam.</li>
+      <li><strong>Rubric Alignment:</strong> You learn exactly what examiners listen and look for: lexical density, varied syntactic architecture, avoidance of repetitive vocabulary, and cohesive flow.</li>
+      <li><strong>Speaking Composure:</strong> We run rigorous mock speaking interviews where you practice speaking continuously for 2 minutes without hesitation, filler words, or freezing.</li>
+      <li><strong>Diagnostic Writing Evaluation:</strong> Every submitted essay or synthesis receives thorough line-by-line markups indicating task achievement, grammatical range, lexical sophistication, and cohesive structuring.</li>
     </ul>
+    <p style="color: var(--ink-soft); line-height: 1.6;"><strong>Recommended Lesson Formats:</strong> 90 or 120-minute intensive double sessions to simulate actual examination conditions.</p>
   </section>
 
-  <!-- 5. Languages -->
+  <!-- In-Depth FAQ Section -->
   <section class="course-section">
-    <h2>Languages</h2>
-    <p>Available in <strong>English</strong> (taught since 2020), <strong>French</strong> (since 2022), <strong>Italian</strong> (since 2022), <strong>Russian</strong> (since 2022), and <strong>Greek</strong> (since 2025).</p>
-    <p>👥 <strong>Group lessons:</strong> Available in English, French, Italian, and Russian.</p>
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <div class="faq-box-container">
+      <div class="faq-card">
+        <div class="faq-card-title">How far in advance should I begin exam preparation?</div>
+        <div class="faq-card-body">If your current CEFR level already matches the exam tier (e.g. you are currently B2 and need to pass DELF B2 or IELTS 6.5), we recommend <strong>6 to 10 weeks</strong> of focused exam-technique preparation. If you need to jump one full CEFR level (e.g. from B1 to B2), you will typically need <strong>4 to 6 months</strong> of combined general language elevation and exam drills.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">Do you administer the official exams directly?</div>
+        <div class="faq-card-body">No. Official certification exams are administered by accredited examination centres (British Council, IDP, Alliance Française, Institut Français, Società Dante Alighieri, official state universities). We provide the rigorous preparatory training and mock testing so you arrive fully primed to succeed on exam day.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">Will we do full-length mock exams?</div>
+        <div class="faq-card-body">Yes. Full timed mock tests are an essential milestone of our preparation. You will complete authentic past papers under exact exam timing, followed by an in-depth score debriefing and targeted remediation of weak areas.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">What if I only struggle with the oral or writing part?</div>
+        <div class="faq-card-body">Because our 1-to-1 coaching is entirely bespoke, we can dedicate 80% or 100% of your lesson time exclusively to the oral interview or writing tasks while you do the reading and listening independently.</div>
+      </div>
+    </div>
   </section>
 
-  <!-- 6. How lessons work -->
-  <section class="course-section">
-    <h2>How lessons work</h2>
-    <p>1-to-1 intensive coaching sessions structured around target exam rubrics and timed task execution.</p>
-    <p><strong>Durations offered:</strong> 120 minutes intensive mock sessions (or standard 60/90 minutes based on target exam requirements).</p>
-  </section>
-
-  <!-- 7. Small box at bottom -->
+  <!-- Portal Box -->
   <div class="student-portal-box">
-    🎓 <strong>Already a student?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Go to your course platform →</a>
+    🎓 <strong>Enrolled in Exam Prep?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Access your mock tests and past exam papers on COSYplatform →</a>
   </div>
 
-  <!-- 8. Link to next/previous course and back to /courses/ -->
+  <!-- Pagination -->
   <nav class="course-nav-links" aria-label="Course pagination">
     <a href="spoken.html">← Previous: Spoken Course</a>
     <a href="index.html">All Courses 📚</a>
@@ -223,7 +491,6 @@
 </main>
 
 <footer>
-
   <div class="footer-inner">
     <div class="footer-brand">
       <div class="fb-logo">
@@ -265,7 +532,6 @@
     </div>
   </div>
   <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
-
 </footer>
 
 <script src="../js/data/languages.js" defer></script>

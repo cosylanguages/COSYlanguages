@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Course 💼 | COSYlanguages</title>
-    <meta name="description" content="Elevate your career with targeted language skills for interviews, negotiations, business presentations, and networking. 1-to-1 coaching.">
+    <title>Professional Language Courses 💼 | COSYlanguages</title>
+    <meta name="description" content="Specialized language coaching for industry professionals across 4 tracks: Academic &amp; Research, Information Technology (IT), Hospitality &amp; Tourism, and Juridical &amp; Translation.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/courses/professional.html">
-    <meta property="og:title" content="Professional Course 💼 | COSYlanguages">
-    <meta property="og:description" content="Elevate your career with targeted language skills for interviews, negotiations, business presentations, and networking. 1-to-1 coaching.">
+    <meta property="og:title" content="Professional Language Courses 💼 | COSYlanguages">
+    <meta property="og:description" content="Specialized language coaching across 4 tracks: Academic &amp; Research, IT &amp; Engineering, Hospitality &amp; Tourism, and Juridical &amp; Translation.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/courses/professional.html">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Professional Course 💼 | COSYlanguages">
-    <meta name="twitter:description" content="Elevate your career with targeted language skills for interviews, negotiations, business presentations, and networking.">
+    <meta name="twitter:title" content="Professional Language Courses 💼 | COSYlanguages">
+    <meta name="twitter:description" content="Specialized language coaching across Academic, IT, Hospitality, and Juridical tracks.">
     <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <meta name="theme-color" content="#1e3a60">
 
-<link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/shared-nav.css">
     <link rel="stylesheet" href="../css/cosy-icons.css">
-<link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/modern.css">
+    <link rel="stylesheet" href="../css/course-roadmaps.css">
 
     <style>
       :root {
         --course-accent: #1e3a60;
+        --course-accent-light: rgba(30, 58, 96, 0.08);
       }
       .course-detail-wrap {
-        max-width: 900px;
+        max-width: 960px;
         margin: 0 auto;
         padding: 2rem 1.5rem 4rem;
       }
@@ -48,80 +50,56 @@
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
-      .course-hero {
-        background: var(--warm-white, #FAF7F2);
-        border: 1px solid var(--border, #E2DCD5);
-        border-left: 6px solid var(--course-accent);
-        border-radius: var(--r-md, 12px);
-        padding: 2.5rem 2rem;
-        margin-bottom: 2.5rem;
-      }
-      .course-hero h1 {
-        font-family: var(--font-serif);
-        font-size: 2.2rem;
-        color: var(--ink);
-        margin-bottom: 0.75rem;
-      }
-      .course-hero .promise {
-        font-size: 1.25rem;
-        color: var(--ink-soft);
-        line-height: 1.5;
-        margin-bottom: 1.75rem;
-      }
-      .hero-cta-btns {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-      }
-      .btn-accent {
-        background: var(--course-accent);
-        color: #ffffff;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--r-sm, 8px);
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        transition: opacity 0.2s;
-      }
-      .btn-accent:hover {
-        opacity: 0.9;
-        color: #ffffff;
-      }
       .course-section {
         background: #ffffff;
         border: 1px solid var(--border, #E2DCD5);
-        border-radius: var(--r-md, 12px);
-        padding: 2rem;
+        border-radius: var(--card-radius);
+        padding: 2.25rem 2rem;
         margin-bottom: 2rem;
+        box-shadow: var(--card-shadow-sm);
       }
       .course-section h2 {
         font-family: var(--font-serif);
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         color: var(--ink);
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
         border-bottom: 2px solid rgba(0,0,0,0.06);
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.6rem;
       }
-      .course-section ul {
-        padding-left: 1.25rem;
-        margin: 0;
+      .prof-track-card {
+        background: var(--warm-white, #FAF7F2);
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 12px;
+        padding: 1.85rem;
+        margin-bottom: 2rem;
       }
-      .course-section li {
-        margin-bottom: 0.5rem;
-        line-height: 1.6;
-        color: var(--ink-soft);
+      .prof-track-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 0.85rem;
       }
-      .course-section p {
-        line-height: 1.6;
-        color: var(--ink-soft);
-        margin-bottom: 0.75rem;
+      .prof-track-title {
+        font-family: var(--font-serif);
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--course-accent);
+      }
+      .prof-track-badge {
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding: 0.25rem 0.65rem;
+        border-radius: 999px;
+        background: var(--course-accent-light);
+        color: var(--course-accent);
       }
       .student-portal-box {
         background: #f1f4f8;
         border: 1px dashed var(--course-accent);
-        border-radius: var(--r-md, 12px);
+        border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
         text-align: center;
         margin-bottom: 2.5rem;
@@ -158,63 +136,294 @@
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <main id="main-content" class="course-detail-wrap">
-  <!-- 1. Breadcrumb -->
+  <!-- Breadcrumb -->
   <div class="course-breadcrumb">
     <a href="../index.html">Home</a> / <a href="index.html">Courses</a> / <span>Professional Course</span>
   </div>
 
-  <!-- 2. Hero -->
-  <section class="course-hero">
+  <!-- Hero -->
+  <section class="course-hero-modern">
     <div class="journey-roadmap-header" style="justify-content: flex-start; margin-bottom: 0.75rem;">
-      <span class="visual-journey-badge">💼 Business Track</span>
+      <span class="visual-journey-badge">💼 Professional Tracks</span>
       <span class="journey-connector-line"></span>
-      <span class="visual-journey-badge">👔 Career Advancement</span>
+      <span class="visual-journey-badge">👔 Executive Precision</span>
+      <span class="journey-connector-line"></span>
+      <span class="visual-journey-badge">🎯 Domain-Specific Fluency</span>
     </div>
-    <h1>Professional Course 💼</h1>
-    <p class="promise">Elevate your career with targeted language skills for interviews, negotiations, business presentations, and networking.</p>
-    <div class="hero-cta-btns">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20the%20Professional%20Course." class="btn-accent" target="_blank" rel="noopener">💬 Message us on WhatsApp</a>
-      <a href="../index.html#calculator" class="btn-secondary">See prices</a>
+    <h1>Professional Language Courses 💼</h1>
+    <p style="font-size: 1.15rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1rem;">Tailored linguistic coaching engineered for career excellence. We offer four distinct specialized tracks: Academic &amp; Research, Information Technology (IT), Hospitality &amp; Tourism, and Juridical &amp; Translation. Master the exact terminology, communicative ethics, and persuasive rhetoric needed in your sector.</p>
+
+    <div class="hero-stats-row">
+      <div class="hero-stat-pill"><span class="icon">🎓</span> Academic &amp; Research Track</div>
+      <div class="hero-stat-pill"><span class="icon">💻</span> IT &amp; Engineering Track</div>
+      <div class="hero-stat-pill"><span class="icon">🛎️</span> Hospitality &amp; Tourism Track</div>
+      <div class="hero-stat-pill"><span class="icon">⚖️</span> Juridical &amp; Translation Track</div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20discuss%20a%20Professional%20Language%20Course." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Discuss Your Industry on WhatsApp</a>
+      <a href="../placement-quiz.html" class="btn-secondary">Check Baseline Level</a>
+      <a href="../index.html#calculator" class="btn-secondary">Tuition Calculator</a>
     </div>
   </section>
 
-  <!-- 3. Who it's for -->
-  <section class="course-section">
-    <h2>Who it's for</h2>
-    <p>Working adults who need a language for their career, whether for a new job, a promotion or an international team.</p>
+  <!-- Decision Compass -->
+  <section class="decision-compass-box">
+    <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--ink); margin-bottom: 0.5rem;">🧭 Course Selection Compass: Is a Professional Course Necessary For You?</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 1.25rem;">Confirm whether your professional goals align with our specialized industry tracks:</p>
+
+    <div class="decision-compass-grid">
+      <div class="decision-side-card necessary">
+        <div class="decision-side-title">✅ This course is necessary if...</div>
+        <ul>
+          <li>You already possess an intermediate foundation (recommended B1 or higher) and need to operate professionally in an international environment—leading meetings, presenting research, conducting code reviews, negotiating contracts, or managing upscale guest service.</li>
+          <li>You want lessons centered 100% on authentic workplace artifacts: your slides, code commits, academic manuscripts, contracts, or customer escalation emails.</li>
+          <li>You need to master diplomatic tact, professional registers, hedging, and industry jargon without generic textbook filler.</li>
+        </ul>
+      </div>
+
+      <div class="decision-side-card alternative">
+        <div class="decision-side-title">⚠️ Otherwise, choose another course if...</div>
+        <ul>
+          <li>Choose the <strong><a href="general.html">General Course</a></strong> if your general level is currently A1 or A2. Specialized professional terminology requires an established grammatical core first.</li>
+          <li>Choose the <strong><a href="spoken.html">Spoken Course</a></strong> if you only want everyday social conversation to maintain fluency rather than formal technical communication.</li>
+          <li>Choose the <strong><a href="exam-preparation.html">Exam Preparation Course</a></strong> if your goal is an official certificate (IELTS, TOEFL, DELF, CILS) for a university or visa requirement.</li>
+          <li>Choose the <strong><a href="relocation.html">Relocation Course</a></strong> if you need language for setting up daily life (housing, bank accounts, healthcare) in a new country.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <!-- 4. What you'll do -->
+  <!-- The 4 In-Depth Professional Tracks -->
   <section class="course-section">
-    <h2>What you'll do</h2>
-    <ul>
-      <li>Prepare for interviews.</li>
-      <li>Practise negotiations.</li>
-      <li>Rehearse business presentations.</li>
-      <li>Build confidence for networking.</li>
-    </ul>
+    <h2>🎯 Our 4 Specialized Professional Tracks</h2>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Each track has its own distinct syllabus, roleplays, lexical corpus, and communicative benchmarks:</p>
+
+    <!-- Track 1: Academic -->
+    <div class="prof-track-card">
+      <div class="prof-track-header">
+        <span class="prof-track-title">🎓 1. Academic &amp; Research Track</span>
+        <span class="prof-track-badge">Professors, PhDs, Postdocs &amp; Students</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Designed for university lecturers, research scholars, master's students, and doctoral candidates who must publish peer-reviewed articles, deliver keynote conference presentations, defend dissertations, and teach seminars in a non-native tongue.</p>
+
+      <div class="card-breakdown-grid">
+        <div class="card-breakdown-box">
+          <h4>🔬 Target Audience</h4>
+          <ul>
+            <li>University teachers &amp; professors</li>
+            <li>PhD researchers &amp; postdocs</li>
+            <li>Postgraduate / Master's candidates</li>
+            <li>Academic grant applicants</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>📚 Thematic Lexicon &amp; Syntax</h4>
+          <ul>
+            <li>Academic hedging: <em>suggests that, tentatively points to</em></li>
+            <li>Peer review response templates &amp; rebuttal rhetoric</li>
+            <li>Methodological rigor and empirical citations</li>
+            <li>Nominalization and formal scholarly syntax</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>⚡ Demands &amp; Prerequisite</h4>
+          <ul>
+            <li><strong>Entry Level:</strong> Minimum CEFR B1+ / B2</li>
+            <li>Bringing original draft abstracts or thesis excerpts</li>
+            <li>Live rehearsal of conference presentations with Q&amp;A</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>🎯 Key Skills &amp; Capabilities</h4>
+          <ul>
+            <li>Delivering 20-minute presentations smoothly</li>
+            <li>Handling hostile questions with diplomatic composure</li>
+            <li>Writing crystal-clear scientific abstracts &amp; reviews</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Track 2: IT & Technology -->
+    <div class="prof-track-card">
+      <div class="prof-track-header">
+        <span class="prof-track-title">💻 2. Information Technology (IT) Track</span>
+        <span class="prof-track-badge">Software Engineers, PMs, DevOps &amp; QA</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Engineered for developers, technical project managers, QA engineers, and engineering leads working in distributed, multicultural tech teams across agile and remote environments.</p>
+
+      <div class="card-breakdown-grid">
+        <div class="card-breakdown-box">
+          <h4>👨‍💻 Target Audience</h4>
+          <ul>
+            <li>Software developers (Frontend, Backend, Fullstack)</li>
+            <li>Product Managers &amp; Scrum Masters</li>
+            <li>DevOps, Cloud Architects, and SREs</li>
+            <li>Technical Support &amp; QA Engineers</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>📚 Thematic Lexicon &amp; Syntax</h4>
+          <ul>
+            <li>Agile rituals: standups, retrospectives, grooming</li>
+            <li>Pull request (PR) reviews: constructive feedback</li>
+            <li>Architecture design documents (RFCs) &amp; trade-offs</li>
+            <li>Incident management: postmortems, RCA, triage</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>⚡ Demands &amp; Prerequisite</h4>
+          <ul>
+            <li><strong>Entry Level:</strong> Minimum CEFR B1</li>
+            <li>Rehearsing concise status updates under 2 minutes</li>
+            <li>Explaining complex algorithms to non-tech peers</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>🎯 Key Skills &amp; Capabilities</h4>
+          <ul>
+            <li>Articulating blockers clearly without defensive phrasing</li>
+            <li>Negotiating timelines and scope changes with PMs</li>
+            <li>Passing international tech job interviews &amp; system design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Track 3: Hospitality & Tourism -->
+    <div class="prof-track-card">
+      <div class="prof-track-header">
+        <span class="prof-track-title">🛎️ 3. Hospitality &amp; Tourism Track</span>
+        <span class="prof-track-badge">Hotels, Restaurants, Concierge &amp; F&amp;B</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Tailored for front-desk personnel, concierges, restaurant managers, sommeliers, and tourism professionals providing premium customer experiences to international patrons.</p>
+
+      <div class="card-breakdown-grid">
+        <div class="card-breakdown-box">
+          <h4>🏨 Target Audience</h4>
+          <ul>
+            <li>Hotel front-desk agents &amp; reservation specialists</li>
+            <li>Head concierges &amp; luxury guest relations managers</li>
+            <li>Restaurant hosts, servers, and sommeliers</li>
+            <li>Tour guides &amp; event hospitality coordinators</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>📚 Thematic Lexicon &amp; Syntax</h4>
+          <ul>
+            <li>Diplomatic politeness registers &amp; formal honorifics</li>
+            <li>Detailed culinary vocabulary, allergens, and pairings</li>
+            <li>De-escalation templates for dissatisfied guests</li>
+            <li>Local cultural recommendations and VIP arrangements</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>⚡ Demands &amp; Prerequisite</h4>
+          <ul>
+            <li><strong>Entry Level:</strong> Minimum CEFR A2+ / B1</li>
+            <li>Flawless pronunciation and welcoming vocal prosody</li>
+            <li>Quick-thinking active listening under high-stress hours</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>🎯 Key Skills &amp; Capabilities</h4>
+          <ul>
+            <li>Resolving billing disputes with graceful discretion</li>
+            <li>Presenting complex wine lists and tasting menus</li>
+            <li>Delivering personalized concierge advice to clientele</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Track 4: Juridical & Legal Translation -->
+    <div class="prof-track-card">
+      <div class="prof-track-header">
+        <span class="prof-track-title">⚖️ 4. Juridical &amp; Translation Track</span>
+        <span class="prof-track-badge">Lawyers, Corporate Counsel &amp; Legal Translators</span>
+      </div>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Created for legal practitioners, corporate compliance officers, paralegals, and professional translators who navigate bilateral commercial contracts, regulatory statutes, and cross-border disputes.</p>
+
+      <div class="card-breakdown-grid">
+        <div class="card-breakdown-box">
+          <h4>🏛️ Target Audience</h4>
+          <ul>
+            <li>Commercial &amp; corporate lawyers</li>
+            <li>In-house legal counsels &amp; compliance officers</li>
+            <li>Certified legal translators &amp; court interpreters</li>
+            <li>Cross-border M&amp;A consultants</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>📚 Thematic Lexicon &amp; Syntax</h4>
+          <ul>
+            <li>Contractual clauses: warranties, indemnity, force majeure</li>
+            <li>Comparative terminology: common vs civil law</li>
+            <li>Precision drafting: avoiding ambiguous modal verbs</li>
+            <li>Statutory compliance, GDPR, and intellectual property</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>⚡ Demands &amp; Prerequisite</h4>
+          <ul>
+            <li><strong>Entry Level:</strong> Minimum CEFR B2</li>
+            <li>Zero tolerance for ambiguity or false friends (<em>faux amis</em>)</li>
+            <li>Analysis of real bilingual contracts during sessions</li>
+          </ul>
+        </div>
+        <div class="card-breakdown-box">
+          <h4>🎯 Key Skills &amp; Capabilities</h4>
+          <ul>
+            <li>Negotiating contract modifications clause-by-clause</li>
+            <li>Translating statutory texts with rigorous equivalence</li>
+            <li>Advising boards on regulatory risks with precision</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- 5. Languages -->
+  <!-- Languages & Formats -->
   <section class="course-section">
-    <h2>Languages</h2>
-    <p>Available in <strong>English</strong> (taught since 2020), <strong>French</strong> (since 2022), <strong>Italian</strong> (since 2022), <strong>Russian</strong> (since 2022), and <strong>Greek</strong> (since 2025).</p>
-    <p>👥 <strong>Group lessons:</strong> Available in English, French, Italian, and Russian.</p>
+    <h2>Languages Available &amp; Executive Coaching Structure</h2>
+    <p style="color: var(--ink-soft); line-height: 1.6;">Professional courses are offered across all our core languages: <strong>English</strong> (Business, Tech &amp; Legal), <strong>French</strong> (Diplomacy, Luxury, Law &amp; Hospitality), <strong>Italian</strong> (Design, Architecture, Legal &amp; F&amp;B), <strong>Russian</strong> (Trade, Energy, Academic &amp; Legal), and <strong>Greek</strong> (Maritime, Tourism &amp; Legal).</p>
+    <p style="color: var(--ink-soft); line-height: 1.6;"><strong>Lesson Duration:</strong> Executive 60-minute or 90-minute private sessions. Cohort corporate group training is also available for companies and teams.</p>
   </section>
 
-  <!-- 6. How lessons work -->
+  <!-- In-Depth FAQ Section -->
   <section class="course-section">
-    <h2>How lessons work</h2>
-    <p>1-to-1 tailored executive coaching sessions focused on your specific field and workplace tasks.</p>
-    <p><strong>Durations offered:</strong> 60 minutes or 90 minutes.</p>
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <div class="faq-box-container">
+      <div class="faq-card">
+        <div class="faq-card-title">Can we use my actual company documents or academic papers in class?</div>
+        <div class="faq-card-body">Yes, absolutely. In fact, we strongly encourage it. Our teachers sign strict confidentiality non-disclosure agreements (NDAs) if required. Working directly on your upcoming slide decks, code reviews, email correspondences, or paper drafts delivers immediate return on investment.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">What if my current general language level is only A2?</div>
+        <div class="faq-card-body">If you are at an A2 level, jumping directly into legal arbitration or academic peer reviews will lead to cognitive overload. We recommend taking our <a href="general.html">General Course</a> for 2–3 months to solidify core grammar and vocabulary, before transitioning into a specialized Professional Track once you reach B1.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">Do you offer corporate invoicing for employer reimbursement?</div>
+        <div class="faq-card-body">Yes. We supply formal invoices, certificates of attendance, and competency progress reports suitable for corporate training budgets, HR departments, and employee development programs.</div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-card-title">How does the teacher know my industry's specific jargon?</div>
+        <div class="faq-card-body">Our instructors are experienced professionals with backgrounds in international business, academic research, translation, and tech environments. Furthermore, we conduct an extensive intake analysis of your specialized domain vocabulary before lesson one to tailor materials to your niche.</div>
+      </div>
+    </div>
   </section>
 
-  <!-- 7. Small box at bottom -->
+  <!-- Portal Box -->
   <div class="student-portal-box">
-    🎓 <strong>Already a student?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Go to your course platform →</a>
+    🎓 <strong>Enrolled in a Professional Course?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Access your industry case studies and shared notes on COSYplatform →</a>
   </div>
 
-  <!-- 8. Link to next/previous course and back to /courses/ -->
+  <!-- Pagination -->
   <nav class="course-nav-links" aria-label="Course pagination">
     <a href="travelling.html">← Previous: Travelling Course</a>
     <a href="index.html">All Courses 📚</a>
@@ -223,7 +432,6 @@
 </main>
 
 <footer>
-
   <div class="footer-inner">
     <div class="footer-brand">
       <div class="fb-logo">
@@ -265,7 +473,6 @@
     </div>
   </div>
   <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
-
 </footer>
 
 <script src="../js/data/languages.js" defer></script>
