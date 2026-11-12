@@ -17,6 +17,7 @@ Static site, no backend, no build step. Open `index.html` or serve the folder wi
 | [COSYplatform](https://github.com/cosylanguages/COSYplatform) | Paid courses (students) |
 | [COSYmanuals](https://github.com/cosylanguages/COSYmanuals) | Course manuals (students) |
 | [COSYdata](https://github.com/cosylanguages/COSYdata) | Shared linguistic data |
+| [COSYstudio](https://github.com/cosylanguages/COSYstudio) | Printable study tools (staged from `print-studio/`) |
 
 Ecosystem URLs are defined once, in `js/core/config.js`.
 

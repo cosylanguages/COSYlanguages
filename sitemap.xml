@@ -56,6 +56,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/hybrid/magazine.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/hybrid/</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
@@ -72,11 +77,6 @@
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/coming-soon.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/el.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.8</priority>
   </url>
@@ -106,11 +106,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/en.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/en/curriculum.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
@@ -134,11 +129,6 @@
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/en/vocabulary.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/curriculum.html</loc>
@@ -166,11 +156,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/it.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/it/curriculum.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
@@ -194,11 +179,6 @@
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/it/vocabulary.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/languages/ru.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/ru/curriculum.html</loc>
@@ -226,11 +206,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cosylanguages.github.io/COSYlanguages/login.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/placement-quiz.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.8</priority>
@@ -239,5 +214,30 @@
     <loc>https://cosylanguages.github.io/COSYlanguages/privacy.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/print-studio/monthly-zine-issue-1.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/print-studio/print-boardgame.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/print-studio/print-box.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/print-studio/print-cards.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/print-studio/print-zine.html</loc>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.5</priority>
   </url>
 </urlset>

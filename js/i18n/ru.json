@@ -1,4 +1,5 @@
 {
+  "course_general": "Общий курс 📖",
   "nav": {
     "home": "Главная",
     "practice": "Практика",
@@ -13,7 +14,9 @@
     "calculator": "Калькулятор",
     "magazine": "Журнал",
     "blog": "Журнал",
-    "placement_quiz": "Тест уровня"
+    "placement_quiz": "Тест уровня",
+    "toggle_dark_mode": "🌓 Тёмная тема",
+    "whatsapp_contact": "💬 Написать нам в WhatsApp"
   },
   "footer": {
     "courses": "Курсы",
@@ -176,5 +179,7 @@
     "issue_october_title": "День рождения JY DM и его фавориты",
     "page_x_of_y": "Страница {current} из {total}",
     "script_teleprompter": "📜 Сценарий суфлёра"
-  }
+  },
+  "lang_locked_notice": "🔒 Язык устройства закреплён! Язык интерфейса фиксирован.",
+  "lang_unlocked_notice": "🔓 Язык устройства разблокирован! Теперь вы можете менять язык."
 }

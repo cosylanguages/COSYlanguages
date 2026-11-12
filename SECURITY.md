@@ -19,17 +19,17 @@ To protect our open-source ecosystem, the following security standards must be s
 ### A. Environment & Secret Management
 *   **API & Key Security:** Publishable / anonymous keys (such as Supabase anon keys) may be public, but administrative and service role keys must never be committed to the repository.
 *   **Access Rules in Supabase RLS:** Platform access control, table security, and authorization rules live in Supabase Row Level Security (RLS) policies rather than client-side secrecy.
-*   **Secret Injection at Deploy Time:** Credentials and configuration values are injected dynamically during the deployment build process (as implemented in `.github/workflows/deploy.yml` using `${{ secrets.COSY_SUPABASE_URL }}`).
+*   **Secret Injection at Deploy Time:** This repository ships no build step or deploy workflow; the Supabase URL and anon key are read from `window.COSY_SUPABASE_URL` / `window.COSY_SUPABASE_ANON_KEY` when present and otherwise fall back to the public project values inlined in `login.html` and `js/core/auth-sso.js`. Because there is no server-side injection point, treat those two values as public and never commit a service-role key here.
 *   **Secret Scanning:** Enable GitHub Secret Scanning under repository settings to automatically scan for accidentally committed service keys, tokens, or personal identifiers.
 
 ### B. Branch Protections & Access Control
 *   **Protected `main` Branch:** Direct pushes to the `main` branch should be restricted. All code changes must proceed through Pull Requests (PRs).
-*   **Mandatory Status Checks:** Configure PR rules to require passing unit tests and structural audits (such as our Playwright suite and `scripts/audits/audit_website_data.py`) before changes can be merged.
+*   **Mandatory Status Checks:** Configure PR rules to require the unit tests in `tests/` (`node --test tests/placement.test.js tests/daily-strip.test.js`) and HTML validation (`npx html-validate '**/*.html'`) to pass before changes can be merged.
 *   **Least Privilege Access:** Collaborator permissions must follow the principle of least privilege. Administrative keys and credentials must be restricted to project leads only.
 
 ### C. Dependency Hygiene
-*   **Vulnerability Scanning:** Utilize GitHub Dependabot to automatically audit and alert developers regarding vulnerabilities in our developer toolchain (`package.json`).
-*   **Keep DevTools Decoupled:** Keep production scripts entirely vanilla and static. No heavy, vulnerable Node.js frameworks are shipped to production.
+*   **Vulnerability Scanning:** The site itself has no runtime dependencies and no `package.json`; the only third-party code is loaded from CDNs at runtime (Supabase, Three.js, qrcode.js). Keep that set minimal and pinned, and review it whenever a page adds a new CDN `<script>`.
+*   **Keep the Site Static:** Keep production scripts entirely vanilla and static. Do not introduce a bundled framework or build toolchain for the public pages.
 
 ---
 
@@ -48,4 +48,5 @@ Please do **not** open a public GitHub issue for security exploits. We will revi
 
 Since data lives in your browser's local cache:
 1.  **Shared Computer Safety:** If studying on a shared or public computer, utilize "Private/Incognito" mode so that your local dictionary list is wiped once you close the browser.
-2.  **Backup Regularly:** Use our built-in "Export Data 📥" feature on your Notebook page to download a local backup file (`.json`) of your study records. You can restore this on any device at any time.
+2.  **Sign Out on Shared Devices:** If you signed in on `login.html`, sign out when you finish so the stored Supabase session is cleared from the browser.
+3.  **Manage Stored Data:** The Privacy page (`privacy.html`) lists every local-storage key this site uses and provides a button to clear the saved study data from the current browser.

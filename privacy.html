@@ -152,29 +152,32 @@
             <li><strong>Telegram (`t.me`):</strong> Public channel and direct message contact links.</li>
             <li><strong>COSY Ecosystem Repositories (`cosylanguages.github.io`):</strong> Links and data fetches to companion ecosystem sites including COSYtools, COSYgames, COSYevents, COSYmanuals, COSYdata, and COSYplatform.</li>
             <li><strong>Supabase (`iajkejcmoykubthlwfra.supabase.co`, sign-in only):</strong> The sign-in page sends the submitted email and password to Supabase Auth. After sign-in, it requests the account's `role` from the `profiles` table. The Supabase client can persist an authentication session in browser storage.</li>
-            <li><strong>jsDelivr (`cdn.jsdelivr.net`, sign-in only):</strong> Delivers the Supabase JavaScript client used by the sign-in page.</li>
+            <li><strong>jsDelivr (`cdn.jsdelivr.net`):</strong> Delivers the Supabase JavaScript client on the sign-in page, and the Three.js OrbitControls add-on on the comparative page.</li>
+            <li><strong>cdnjs (`cdnjs.cloudflare.com`):</strong> Delivers the Three.js library on the comparative page and the QR-code library on the Hybrid bridge page.</li>
+            <li><strong>Outbound content links:</strong> The language hubs and resource lists link out to third-party sites such as dictionaries (WordReference, Collins, Larousse, Treccani, Forvo), streaming and radio (Radio Garden, TV Garden, ARTE, BBC, PBS, RaiPlay), and shopping or property marketplaces. These are ordinary links: your browser contacts those domains only if you click them, and each site then applies its own privacy policy.</li>
         </ul>
     </section>
 
     <section class="privacy-section">
         <h2>Local Storage &amp; Session Storage Usage</h2>
-        <p>COSYlanguages uses your browser's `localStorage` to preserve your learning state between visits. The stored keys include:</p>
+        <p>This site uses your browser's <code>localStorage</code> to preserve your learning state between visits. All COSY sites share the <code>cosylanguages.github.io</code> origin, so companion sites can add their own keys under the same origin; the keys this site reads or writes are:</p>
         <ul>
-            <li><code class="storage-key">cosy-dict</code>: Saved vocabulary items in your personal notebook.</li>
-            <li><code class="storage-key">cosy-mistakes</code>: Logged practice errors for targeted revision.</li>
-            <li><code class="storage-key">cosy-streak</code> &amp; <code class="storage-key">practice_streak</code>: Active daily practice streak count unified across COSYlanguages and COSYpractice.</li>
-            <li><code class="storage-key">cosy-last-practice</code> &amp; <code class="storage-key">dc_last_completed</code>: Date timestamp of your last completed practice session and daily challenge.</li>
-            <li><code class="storage-key">cosy_total_points</code> &amp; <code class="storage-key">cosy-points</code>: Total accumulated experience points (XP) shared with COSYpractice.</li>
-            <li><code class="storage-key">selected-speaking-club-level</code>: Saved CEFR level choice for speaking club filtering.</li>
-            <li><code class="storage-key">cosy-i18n-lang</code> &amp; <code class="storage-key">cosy_lang_lock</code>: Interface language preference and lock state.</li>
-            <li><code class="storage-key">cosy_audience_preference</code>: Presentation adaptation preference (Children, Teens, Adults, Seniors).</li>
-            <li><code class="storage-key">cosy_accessibility_text_scale</code> &amp; <code class="storage-key">cosy_accessibility_reduced_motion</code>: Accessibility display preferences.</li>
+            <li><code class="storage-key">cosy-streak</code> &amp; <code class="storage-key">practice_streak</code>: Active daily practice streak count, kept in sync with COSYpractice.</li>
+            <li><code class="storage-key">cosy-last-practice</code> &amp; <code class="storage-key">dc_last_completed</code>: Date of your last completed practice session and daily challenge.</li>
+            <li><code class="storage-key">cosy_total_points</code>: Total accumulated experience points (XP), read from the value COSYpractice writes.</li>
+            <li><code class="storage-key">cosy.theme</code> &amp; <code class="storage-key">cosy_theme</code>: Dark / light theme choice.</li>
+            <li><code class="storage-key">cosy_ui_lang</code>, <code class="storage-key">cosy_last_language</code> &amp; <code class="storage-key">cosy_ui_lang_locked</code>: Interface language choice and language-lock state.</li>
+            <li><code class="storage-key">cosy.pinnedLang</code> &amp; <code class="storage-key">cosy.dailyLevel</code>: Pinned language and daily-strip level selection.</li>
+            <li><code class="storage-key">cosy_placement_session</code>: In-progress placement-quiz answers.</li>
+            <li><code class="storage-key">cosy_ecosystem_urls</code>: Local overrides for companion-site URLs.</li>
+            <li><code class="storage-key">cosy-auth</code>, <code class="storage-key">cosy_user</code>, <code class="storage-key">cosy_user_role</code> &amp; <code class="storage-key">cosy_user_lang</code> (sign-in only): Supabase session token and the signed-in account's profile, role and language.</li>
         </ul>
+        <p>Supabase Auth may also persist a session under <code>supabase.auth.token</code>, and a legacy <code>language</code> key is read for backwards compatibility.</p>
     </section>
 
     <section class="privacy-section">
         <h2>Service Worker Caching (`sw.js`)</h2>
-        <p>The site registers a service worker script (`sw.js`) operating under cache name `cosy-v5`. It uses a network-first strategy for HTML, CSS, and JS files, and a cache-first strategy for media assets (images, logos). This enables offline practice for cached static pages.</p>
+        <p>The site registers a service worker script (`sw.js`) operating under cache name `cosy-hub-v1`. It uses a network-first strategy for HTML, CSS, and JS files, and a cache-first strategy for media assets (images, fonts, audio). This enables offline practice for cached static pages.</p>
     </section>
 
     <section class="privacy-section">
@@ -262,20 +265,26 @@
         const container = document.getElementById('storage-list');
         container.innerHTML = '';
         const keys = [
-            'cosy-dict',
-            'cosy-mistakes',
             'cosy-streak',
             'practice_streak',
             'cosy-last-practice',
             'dc_last_completed',
             'cosy_total_points',
-            'cosy-points',
-            'selected-speaking-club-level',
-            'cosy-i18n-lang',
-            'cosy_lang_lock',
-            'cosy_audience_preference',
-            'cosy_accessibility_text_scale',
-            'cosy_accessibility_reduced_motion'
+            'cosy.theme',
+            'cosy_theme',
+            'cosy_ui_lang',
+            'cosy_last_language',
+            'cosy_ui_lang_locked',
+            'cosy.pinnedLang',
+            'cosy.dailyLevel',
+            'cosy_placement_session',
+            'cosy_ecosystem_urls',
+            'cosy-auth',
+            'cosy_user',
+            'cosy_user_role',
+            'cosy_user_lang',
+            'supabase.auth.token',
+            'language'
         ];
         let foundAny = false;
         keys.forEach(key => {

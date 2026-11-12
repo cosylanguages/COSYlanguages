@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="../css/layout.css">
 <link rel="stylesheet" href="../css/home.css">
 <link rel="stylesheet" href="../css/modern.css">
-<link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/comparative/index.html">
+<link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/comparative/">
 
 <!-- Three.js Libraries for 3D Tree Renderer -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
@@ -677,9 +677,9 @@
         <table class="cognate-mini-table">
           <thead>
             <tr>
-              <th>Language / Family</th>
-              <th>1st Person ('I')</th>
-              <th>2nd Person ('You')</th>
+              <th scope="col">Language / Family</th>
+              <th scope="col">1st Person ('I')</th>
+              <th scope="col">2nd Person ('You')</th>
             </tr>
           </thead>
           <tbody>
@@ -1353,8 +1353,8 @@
         <table class="cognate-mini-table">
           <thead>
             <tr>
-              ${Object.keys(shift.cognates[0]).map(k => `<th style="text-transform:capitalize;">${k}</th>`).join('')}
-              <th>Audio</th>
+              ${Object.keys(shift.cognates[0]).map(k => `<th scope="col" style="text-transform:capitalize;">${k}</th>`).join('')}
+              <th scope="col">Audio</th>
             </tr>
           </thead>
           <tbody>
@@ -1784,9 +1784,9 @@
 
     let headHtml = `
       <tr>
-        <th class="col-feature">Grammar Feature</th>
+        <th scope="col" class="col-feature">Grammar Feature</th>
         ${selectedLangs.map(l => `
-          <th class="col-lang" title="${l.name_en} (${l.name_native}) - ${l.family || ''}">
+          <th scope="col" class="col-lang" title="${l.name_en} (${l.name_native}) - ${l.family || ''}">
             <div>${FLAG_MAP[l.code] || '🌐'}</div>
             <div style="font-size: 0.78rem; font-weight: 800; color: var(--sage-deep); text-transform: uppercase;">${l.code}${CORE_LANGS.has(l.code) ? '' : ' 🌱'}</div>
             <div style="margin-top: 0.15rem;">${getFamilyBadgeHtml(l.family)}</div>
