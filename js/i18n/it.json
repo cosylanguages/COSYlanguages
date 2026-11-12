@@ -1,4 +1,5 @@
 {
+  "course_general": "Corso generale 📖",
   "nav": {
     "home": "Home",
     "practice": "Pratica",
@@ -13,7 +14,9 @@
     "calculator": "Calcolatore",
     "magazine": "Magazine",
     "blog": "Magazine",
-    "placement_quiz": "Test di livello"
+    "placement_quiz": "Test di livello",
+    "toggle_dark_mode": "🌓 Modalità scura",
+    "whatsapp_contact": "💬 Contattaci su WhatsApp"
   },
   "footer": {
     "courses": "Corsi",
@@ -173,5 +176,10 @@
     "issue_october_title": "Il compleanno di JY DM e i suoi preferiti",
     "page_x_of_y": "Pagina {current} di {total}",
     "script_teleprompter": "📜 Gobbo / Teleprompter"
+  },
+  "lang_locked_notice": "🔒 Lingua del dispositivo bloccata! La lingua dell'interfaccia è fissa.",
+  "lang_unlocked_notice": "🔓 Lingua del dispositivo sbloccata! Ora puoi cambiare lingua.",
+  "long_reads": {
+    "description": "Leggiamo e discutiamo micro-capitoli di straordinari libri di saggistica, audiolibri e podcast lunghi. Esplora idee profonde, analizza i capitoli ed espandi i tuoi limiti conversazionali."
   }
 }

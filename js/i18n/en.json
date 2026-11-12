@@ -1,4 +1,5 @@
 {
+  "course_general": "General Course 📖",
   "nav": {
     "home": "Home",
     "practice": "Practice",
@@ -13,7 +14,9 @@
     "calculator": "Calculator",
     "magazine": "Magazine",
     "blog": "Magazine",
-    "placement_quiz": "Placement Quiz"
+    "placement_quiz": "Placement Quiz",
+    "toggle_dark_mode": "🌓 Toggle Dark Mode",
+    "whatsapp_contact": "💬 Contact us on WhatsApp"
   },
   "lang_locked_notice": "🔒 Device language locked! Interface language is fixed.",
   "lang_unlocked_notice": "🔓 Device language unlocked! You can now switch languages.",

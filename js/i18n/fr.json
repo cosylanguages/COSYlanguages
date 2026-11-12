@@ -179,5 +179,7 @@
     "issue_october_title": "L'anniversaire de JY DM et ses coup de cœur",
     "page_x_of_y": "Page {current} sur {total}",
     "script_teleprompter": "📜 Téléprompteur"
-  }
+  },
+  "lang_locked_notice": "🔒 Device language locked! Interface language is fixed.",
+  "lang_unlocked_notice": "🔓 Device language unlocked! You can now switch languages."
 }
