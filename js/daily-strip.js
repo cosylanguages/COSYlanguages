@@ -31,12 +31,16 @@
         'cv': 'cv'
     };
 
-    const TABS_CONFIG = [
-        { id: 'speaking', label: 'Speaking Prompt', icon: '🗣️' },
-        { id: 'writing', label: 'Writing Prompt', icon: '✍️' },
-        { id: 'idiom', label: 'Idiom of the Day', icon: '💬' },
-        { id: 'fact', label: 'Fun Fact', icon: '💡' }
-    ];
+    // Every tab a strip can show. A host picks and orders them with data-slots="word,idiom";
+    // without it a strip shows the default four below. `calendar` names the COSYdata calendar slot a tab reads.
+    const TAB_REGISTRY = {
+        speaking: { id: 'speaking', label: 'Speaking Prompt', icon: '🗣️' },
+        writing: { id: 'writing', label: 'Writing Prompt', icon: '✍️' },
+        idiom: { id: 'idiom', label: 'Idiom of the Day', icon: '💬', calendar: 'idiom' },
+        fact: { id: 'fact', label: 'Fun Fact', icon: '💡' },
+        word: { id: 'word', label: 'Word of the Day', icon: '📖', calendar: 'word' }
+    };
+    const TABS_CONFIG = ['speaking', 'writing', 'idiom', 'fact'].map(id => TAB_REGISTRY[id]);
 
     // COSYpractice 7-day rotating schedule mapping
     const DAILY_SCHEDULE = {
@@ -147,23 +151,26 @@
     }
 
     // ---- Dictionary-backed calendar (COSYdata/daily/<lang>/calendar/<slot>/YYYY-MM.json) ----
-    const CALENDAR_LEVELS = ['A2', 'B1', 'B2', 'C1', 'C2'];
+    const CALENDAR_LEVELS = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
     // Calendar levels to try for a strip level band, most wanted first. Bands that span two
-    // levels alternate by day so both get exposure. Idioms start at A2, so A0-A1 maps to A2.
-    function calendarLevelPreference(selectedLevel, dayOfYear) {
+    // levels alternate by day so both get exposure. Idioms start at A2, so A0-A1 maps to A2 for
+    // them; words have A0 and A1 of their own.
+    function calendarLevelPreference(selectedLevel, dayOfYear, slot) {
         const odd = dayOfYear % 2 === 1;
-        if (selectedLevel === 'b1-b2') return odd ? ['B2', 'B1'] : ['B1', 'B2'];
-        if (selectedLevel === 'c1-c2') return odd ? ['C2', 'C1'] : ['C1', 'C2'];
+        const pair = (a, b) => (odd ? [b, a] : [a, b]);
+        if (selectedLevel === 'b1-b2') return pair('B1', 'B2');
+        if (selectedLevel === 'c1-c2') return pair('C1', 'C2');
+        if (slot === 'word') return selectedLevel === 'a2' ? ['A2'] : pair('A0', 'A1');
         return ['A2'];
     }
 
     // Choose one level's card from a calendar day; falls back to the nearest level the language has.
-    function pickCalendarCard(day, selectedLevel, dayOfYear) {
+    function pickCalendarCard(day, selectedLevel, dayOfYear, slot) {
         if (!day || typeof day !== 'object') return null;
         const available = Object.keys(day).filter(l => day[l] && day[l].word);
         if (!available.length) return null;
-        const prefs = calendarLevelPreference(selectedLevel, dayOfYear);
+        const prefs = calendarLevelPreference(selectedLevel, dayOfYear, slot);
         const hit = prefs.find(l => available.includes(l));
         if (hit) return { level: hit, card: day[hit] };
         const want = CALENDAR_LEVELS.indexOf(prefs[0]);
@@ -200,15 +207,26 @@
         return (cal && cal.days && cal.days[dateKey]) || null;
     }
 
-    function calendarCardToItem(pick) {
+    function calendarCardToItem(pick, slot) {
         const c = pick.card;
-        return {
-            idiom: c.word,
+        const item = {
             definition: c.definition,
             example: c.example,
             literal_meaning: c.literal_meaning,
-            level: pick.level
+            emoji: c.emoji,
+            level: pick.level,
+            fromCalendar: true
         };
+        if (slot === 'word') {
+            // "la gare", "l'orage": no space after an elided article
+            const article = c.article ? c.article + (/['’]$/.test(c.article) ? '' : ' ') : '';
+            item.text = article + c.word;
+            item.pos = c.pos;
+            item.transcription = c.transcription;
+        } else {
+            item.idiom = c.word;
+        }
+        return item;
     }
 
     // Curated distinctive fallback prompts per CEFR level band and language
@@ -481,6 +499,14 @@
         const translation = item.translation || item.meaning || item.explanation || item.ru || item.en || '';
         let meta = '';
         if (item.level) meta += `CEFR ${item.level.toUpperCase()}`;
+        if (item.pos) {
+            if (meta) meta += ' • ';
+            meta += item.pos;
+        }
+        if (item.transcription) {
+            if (meta) meta += ' • ';
+            meta += item.transcription;
+        }
         if (item.literal_meaning) {
             if (meta) meta += ' • ';
             meta += `Literally: "${item.literal_meaning}"`;
@@ -489,14 +515,20 @@
             if (meta) meta += ' • ';
             meta += `Example: "${item.example}"`;
         }
-        return { text, translation, definition: item.definition || '', meta };
+        return { text, translation, definition: item.definition || '', emoji: item.emoji || '', fromCalendar: Boolean(item.fromCalendar), meta };
     }
 
     class DailyStripComponent {
         constructor(element) {
             this.container = element;
             this.lang = this.container.getAttribute('data-lang') || localStorage.getItem('cosy.pinnedLang') || 'en';
-            this.activeTab = 'speaking';
+            // data-slots="word,idiom" chooses and orders the tabs; unknown names are ignored.
+            const slots = (this.container.getAttribute('data-slots') || '').split(',').map(x => x.trim()).filter(id => TAB_REGISTRY[id]);
+            this.tabs = slots.length ? slots.map(id => TAB_REGISTRY[id]) : TABS_CONFIG;
+            this.title = this.container.getAttribute('data-title') || 'Daily Practice Strip';
+            // data-compact="true": no Practice challenge pill, streak or "done today" button (for non-Practice hosts)
+            this.compact = this.container.getAttribute('data-compact') === 'true';
+            this.activeTab = this.tabs[0].id;
             this.selectedLevel = localStorage.getItem('cosy.dailyLevel') || 'a0-a1';
             this.categoryData = {};
             this.uniqueId = 'ds_' + Math.random().toString(36).substring(2, 9);
@@ -522,10 +554,10 @@
                 <div class="daily-strip-header">
                     <div class="daily-strip-title-wrap">
                         <span class="daily-strip-title-icon">🌟</span>
-                        <h2 class="daily-strip-title">Daily Practice Strip</h2>
+                        <h2 class="daily-strip-title">${this.escapeHTML(this.title)}</h2>
                         <span class="daily-strip-lang-badge">${this.lang.toUpperCase()}</span>
                     </div>
-                    <div class="daily-strip-header-actions">
+                    ${this.compact ? '' : `<div class="daily-strip-header-actions">
                         <a href="${challengeUrl}" class="daily-strip-challenge-pill" title="COSYpractice Daily Challenge: ${todaySchedule.label}">
                             <span class="daily-strip-challenge-icon">${todaySchedule.icon}</span>
                             <span class="daily-strip-challenge-text">Today: <strong>${todaySchedule.label}</strong></span>
@@ -536,11 +568,11 @@
                         <button type="button" class="daily-strip-done-btn ${isDoneToday ? 'completed' : ''}" aria-label="Mark daily practice done">
                             ${isDoneToday ? '✓ Done today' : 'Mark done today'}
                         </button>
-                    </div>
+                    </div>`}
                 </div>
 
                 <div class="daily-strip-tabs" role="tablist" aria-label="Daily Dose Categories">
-                    ${TABS_CONFIG.map((tab) => `
+                    ${this.tabs.map((tab) => `
                         <button type="button"
                                 class="daily-strip-tab"
                                 id="${this.uniqueId}_tab_${tab.id}"
@@ -555,7 +587,7 @@
                 </div>
 
                 <div class="daily-strip-panels">
-                    ${TABS_CONFIG.map((tab) => `
+                    ${this.tabs.map((tab) => `
                         <div id="${this.uniqueId}_panel_${tab.id}"
                              class="daily-strip-panel"
                              role="tabpanel"
@@ -605,9 +637,11 @@
 
             // "Mark done today" button
             const doneBtn = this.container.querySelector('.daily-strip-done-btn');
-            doneBtn.addEventListener('click', () => {
-                this.handleMarkDone();
-            });
+            if (doneBtn) {
+                doneBtn.addEventListener('click', () => {
+                    this.handleMarkDone();
+                });
+            }
 
             // Listen for cross-component storage or streak updates
             const onStreakUpdated = () => this.updateStreakUI();
@@ -634,7 +668,7 @@
             if (this.activeTab === tabId) return;
             this.activeTab = tabId;
 
-            TABS_CONFIG.forEach(tab => {
+            this.tabs.forEach(tab => {
                 const tabBtn = this.container.querySelector(`#${this.uniqueId}_tab_${tab.id}`);
                 const panel = this.container.querySelector(`#${this.uniqueId}_panel_${tab.id}`);
                 const isActive = tab.id === tabId;
@@ -655,13 +689,18 @@
 
         async loadAllCategories() {
             const dayIdx = getDayOfYear();
-            for (const config of TABS_CONFIG) {
-                if (config.id === 'idiom') {
+            for (const config of this.tabs) {
+                if (config.calendar) {
                     // Dictionary-backed idiom of the day; falls through to the legacy lists when absent.
-                    const day = await fetchCalendarDay(this.lang, 'idiom', getTodayKey());
-                    const pick = pickCalendarCard(day, this.selectedLevel, dayIdx);
+                    const day = await fetchCalendarDay(this.lang, config.calendar, getTodayKey());
+                    const pick = pickCalendarCard(day, this.selectedLevel, dayIdx, config.calendar);
                     if (pick) {
-                        this.categoryData[config.id] = parseDailyItem(calendarCardToItem(pick));
+                        this.categoryData[config.id] = parseDailyItem(calendarCardToItem(pick, config.calendar));
+                        continue;
+                    }
+                    if (config.id === 'word') {
+                        // the word tab has no legacy list to fall back on
+                        this.categoryData[config.id] = parseDailyItem(null);
                         continue;
                     }
                 }
@@ -717,7 +756,7 @@
         }
 
         renderContent() {
-            TABS_CONFIG.forEach(tab => {
+            this.tabs.forEach(tab => {
                 const panel = this.container.querySelector(`#${this.uniqueId}_panel_${tab.id}`);
                 if (!panel) return;
 
@@ -725,7 +764,7 @@
                 const hasTranslation = Boolean(item.translation);
                 const hubUrl = this.getHubPracticeLink(tab.id);
 
-                const showLevelBar = (tab.id === 'speaking' || tab.id === 'writing');
+                const showLevelBar = (tab.id === 'speaking' || tab.id === 'writing' || item.fromCalendar);
                 const levelBarHTML = showLevelBar ? `
                     <div class="daily-strip-level-bar" role="group" aria-label="CEFR Level Filter">
                         <span class="daily-strip-level-label">Level:</span>
@@ -739,7 +778,7 @@
                 panel.innerHTML = `
                     ${levelBarHTML}
                     <div class="daily-strip-content-main">
-                        <p class="daily-strip-prompt">${this.escapeHTML(item.text)}</p>
+                        <p class="daily-strip-prompt">${item.emoji ? `<span class="daily-strip-emoji" aria-hidden="true">${this.escapeHTML(item.emoji)}</span> ` : ''}${this.escapeHTML(item.text)}</p>
                         ${item.definition ? `<div class="daily-strip-definition">${this.escapeHTML(item.definition)}</div>` : ''}
                         ${hasTranslation ? `<div class="daily-strip-translation" id="${this.uniqueId}_trans_${tab.id}" hidden>${this.escapeHTML(item.translation)}</div>` : ''}
                         ${item.meta ? `<div class="daily-strip-meta">${this.escapeHTML(item.meta)}</div>` : ''}
@@ -875,6 +914,14 @@
             }
         }
 
+        // Public: switch the strip's language (used by hosts that offer their own language picker).
+        setLang(code) {
+            if (!code || code === this.lang) return Promise.resolve();
+            this.lang = code;
+            this.container.setAttribute('data-lang', code);
+            return this.reloadForLang();
+        }
+
         async reloadForLang() {
             const langBadge = this.container.querySelector('.daily-strip-lang-badge');
             if (langBadge) langBadge.textContent = this.lang.toUpperCase();
@@ -919,6 +966,7 @@
         calendarLevelPreference,
         pickCalendarCard,
         fetchCalendarDay,
+        calendarCardToItem,
         parseDailyItem,
         pickItemForLevel,
         getLocalFallback,
