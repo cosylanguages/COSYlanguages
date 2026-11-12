@@ -12,7 +12,18 @@
     'use strict';
 
     const COSY_DATA_DAILY_BASE = 'https://cosylanguages.github.io/COSYdata/daily/';
+
     const COSY_PRACTICE_BASE = 'https://cosylanguages.github.io/COSYpractice/';
+    const COSY_HUB_DATA_BASE = 'https://cosylanguages.github.io/COSYlanguages/data/daily/';
+
+    // Where each daily file is read from, in order. The first location that returns data wins; COSYdata is the
+    // legacy location (it now holds vocabulary only) and is kept as a fallback while the new homes are deployed.
+    const DAILY_SOURCES = {
+        speaking: [COSY_PRACTICE_BASE + 'data/daily/', COSY_DATA_DAILY_BASE],
+        writing: [COSY_PRACTICE_BASE + 'data/daily/', COSY_DATA_DAILY_BASE],
+        facts: [COSY_HUB_DATA_BASE, COSY_DATA_DAILY_BASE],
+        idioms: [COSY_DATA_DAILY_BASE]
+    };
 
     const LANG_VOICE_MAP = {
         'en': 'en-US',
@@ -130,22 +141,24 @@
         }
 
         const remoteCategory = category === 'fact' ? 'facts' : (category === 'idiom' ? 'idioms' : category);
-        const url = `${COSY_DATA_DAILY_BASE}${lang}/${remoteCategory}.json`;
+        const bases = DAILY_SOURCES[remoteCategory] || [COSY_DATA_DAILY_BASE];
 
-        try {
-            const res = await fetch(url);
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const data = await res.json();
-            if (Array.isArray(data) && data.length > 0) {
-                try {
-                    sessionStorage.setItem(cacheKey, JSON.stringify(data));
-                } catch (e) {
-                    // Ignore storage quota errors
+        for (const base of bases) {
+            try {
+                const res = await fetch(`${base}${lang}/${remoteCategory}.json`);
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const data = await res.json();
+                if (Array.isArray(data) && data.length > 0) {
+                    try {
+                        sessionStorage.setItem(cacheKey, JSON.stringify(data));
+                    } catch (e) {
+                        // Ignore storage quota errors
+                    }
+                    return data;
                 }
-                return data;
+            } catch (err) {
+                // Try the next location; the caller falls back to built-in prompts if none has data
             }
-        } catch (err) {
-            // Fallback handled downstream
         }
         return null;
     }
@@ -965,6 +978,8 @@
         getYesterdayKey,
         calendarLevelPreference,
         pickCalendarCard,
+        fetchCategoryData,
+        DAILY_SOURCES,
         fetchCalendarDay,
         calendarCardToItem,
         parseDailyItem,

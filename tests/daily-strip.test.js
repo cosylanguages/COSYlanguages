@@ -443,3 +443,55 @@ test('Daily Strip word-of-the-day slot and configurable tabs', async (t) => {
         assert.ok(urls.some(u => u.includes('/it/calendar/word/')), 'setLang reloads from the new language');
     });
 });
+
+test('Daily Strip reads each daily file from its home, with COSYdata as the legacy fallback', async (t) => {
+    const PRACTICE = 'https://cosylanguages.github.io/COSYpractice/data/daily/';
+    const HUB = 'https://cosylanguages.github.io/COSYlanguages/data/daily/';
+    const LEGACY = 'https://cosylanguages.github.io/COSYdata/daily/';
+
+    await t.test('sources: speaking and writing from Practice, facts from the hub, idioms from COSYdata', () => {
+        const { helpers } = setupTestEnvironment();
+        const src = helpers.DAILY_SOURCES;
+        assert.deepEqual(Array.from(src.speaking), [PRACTICE, LEGACY]);
+        assert.deepEqual(Array.from(src.writing), [PRACTICE, LEGACY]);
+        assert.deepEqual(Array.from(src.facts), [HUB, LEGACY]);
+        assert.deepEqual(Array.from(src.idioms), [LEGACY]);
+    });
+
+    await t.test('the new location wins and is cached; the legacy location is not requested', async () => {
+        const calls = [];
+        const fakeFetch = async (url) => {
+            calls.push(url);
+            return { ok: true, json: async () => [{ id: 'x', prompt: 'from ' + url }] };
+        };
+        const { helpers } = setupTestEnvironment({ fetch: fakeFetch });
+        const got = await helpers.fetchCategoryData('de', 'speaking');
+        assert.equal(got[0].prompt, 'from ' + PRACTICE + 'de/speaking.json');
+        assert.deepEqual(calls, [PRACTICE + 'de/speaking.json']);
+        await helpers.fetchCategoryData('de', 'speaking');
+        assert.equal(calls.length, 1, 'second call uses the session cache');
+        await helpers.fetchCategoryData('de', 'fact');
+        assert.equal(calls[1], HUB + 'de/facts.json', 'the strip tab id "fact" maps to facts.json on the hub');
+    });
+
+    await t.test('falls back to COSYdata when the new location is missing or empty', async () => {
+        const calls = [];
+        const fakeFetch = async (url) => {
+            calls.push(url);
+            if (url.startsWith(PRACTICE)) return { ok: false, status: 404 };
+            if (url.startsWith(HUB)) return { ok: true, json: async () => [] };
+            return { ok: true, json: async () => [{ id: 'legacy' }] };
+        };
+        const { helpers } = setupTestEnvironment({ fetch: fakeFetch });
+        assert.equal((await helpers.fetchCategoryData('es', 'writing'))[0].id, 'legacy');
+        assert.deepEqual(calls, [PRACTICE + 'es/writing.json', LEGACY + 'es/writing.json']);
+        calls.length = 0;
+        assert.equal((await helpers.fetchCategoryData('es', 'fact'))[0].id, 'legacy', 'an empty list counts as missing');
+        assert.deepEqual(calls, [HUB + 'es/facts.json', LEGACY + 'es/facts.json']);
+    });
+
+    await t.test('returns null when no location has data, so the caller uses built-in prompts', async () => {
+        const { helpers } = setupTestEnvironment({ fetch: async () => ({ ok: false, status: 404 }) });
+        assert.equal(await helpers.fetchCategoryData('ka', 'speaking'), null);
+    });
+});
