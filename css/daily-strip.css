@@ -545,3 +545,9 @@ body.theme-dark .daily-strip-toggle-translation-btn:hover {
         font-size: 0.85rem;
     }
 }
+
+.daily-strip-emoji {
+    font-size: 1.35em;
+    line-height: 1;
+    margin-right: 0.15em;
+}
