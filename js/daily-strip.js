@@ -49,7 +49,8 @@
         writing: { id: 'writing', label: 'Writing Prompt', icon: '✍️' },
         idiom: { id: 'idiom', label: 'Idiom of the Day', icon: '💬', calendar: 'idiom' },
         fact: { id: 'fact', label: 'Fun Fact', icon: '💡' },
-        word: { id: 'word', label: 'Word of the Day', icon: '📖', calendar: 'word' }
+        word: { id: 'word', label: 'Word of the Day', icon: '📖', calendar: 'word' },
+        'phrasal-verb': { id: 'phrasal-verb', label: 'Phrasal Verb of the Day', icon: '🔗', calendar: 'phrasal-verb' }
     };
     const TABS_CONFIG = ['speaking', 'writing', 'idiom', 'fact'].map(id => TAB_REGISTRY[id]);
 
@@ -238,6 +239,8 @@
             item.transcription = c.transcription;
         } else {
             item.idiom = c.word;
+            item.transcription = c.transcription;
+            item.synonyms = c.synonyms;
         }
         return item;
     }
@@ -519,6 +522,10 @@
         if (item.transcription) {
             if (meta) meta += ' • ';
             meta += item.transcription;
+        }
+        if (Array.isArray(item.synonyms) && item.synonyms.length) {
+            if (meta) meta += ' • ';
+            meta += `Similar: ${item.synonyms.join(', ')}`;
         }
         if (item.literal_meaning) {
             if (meta) meta += ' • ';

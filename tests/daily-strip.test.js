@@ -495,3 +495,56 @@ test('Daily Strip reads each daily file from its home, with COSYdata as the lega
         assert.equal(await helpers.fetchCategoryData('ka', 'speaking'), null);
     });
 });
+
+test('Daily Strip phrasal-verb-of-the-day tab', async (t) => {
+    const card = { id: 'en:splash-out:verb', word: 'splash out', definition: 'To spend money freely on something special.',
+                   example: 'We decided to splash out on a luxury suite.', transcription: '/splæʃ aʊt/', emoji: '💸',
+                   synonyms: ['splurge', 'spend extravagantly'] };
+
+    await t.test('a phrasal verb card shows definition, IPA, synonyms and example', () => {
+        const { helpers } = setupTestEnvironment();
+        const item = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'B1', card }, 'phrasal-verb'));
+        assert.equal(item.text, 'splash out');
+        assert.equal(item.definition, 'To spend money freely on something special.');
+        assert.equal(item.emoji, '💸');
+        assert.equal(item.fromCalendar, true);
+        assert.equal(item.meta, 'CEFR B1 • /splæʃ aʊt/ • Similar: splurge, spend extravagantly • Example: "We decided to splash out on a luxury suite."');
+    });
+
+    await t.test('level bands use the idiom mapping: A0-A2 read A2, advanced bands alternate', () => {
+        const { helpers } = setupTestEnvironment();
+        const pref = (lvl, d) => Array.from(helpers.calendarLevelPreference(lvl, d, 'phrasal-verb'));
+        assert.deepEqual(pref('a0-a1', 10), ['A2']);
+        assert.deepEqual(pref('b1-b2', 11), ['B2', 'B1']);
+        // English publishes A2-C1: C2 is absent, so the C band always lands on C1
+        const day = { A2: card, B1: card, B2: card, C1: { ...card, word: 'weigh in on' } };
+        assert.equal(helpers.pickCalendarCard(day, 'c1-c2', 10, 'phrasal-verb').level, 'C1');
+        assert.equal(helpers.pickCalendarCard(day, 'c1-c2', 11, 'phrasal-verb').level, 'C1');
+    });
+
+    await t.test('data-slots can request the tab and the strip loads calendar/phrasal-verb', async () => {
+        const urls = [];
+        const todayKey = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; })();
+        const fakeFetch = async (url) => {
+            urls.push(url);
+            if (url.includes('/calendar/phrasal-verb/')) return { ok: true, json: async () => ({ days: { [todayKey]: { A2: card, B1: card } } }) };
+            return { ok: false, status: 404 };
+        };
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'en', 'data-slots': 'phrasal-verb,word', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+        assert.ok(shell.includes('Phrasal Verb of the Day'));
+        assert.equal(comp.activeTab, 'phrasal-verb');
+        const panel = nodes[`#${comp.uniqueId}_panel_phrasal-verb`];
+        assert.ok(panel && panel.html.includes('splash out') && panel.html.includes('daily-strip-definition'));
+        assert.ok(urls.some(u => u.includes('/COSYdata/daily/en/calendar/phrasal-verb/')));
+    });
+});
