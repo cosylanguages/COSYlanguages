@@ -599,3 +599,72 @@ test('Daily Strip verb of the day and verb + preposition tabs', async (t) => {
         assert.ok(!verbPanel.includes('Practice in Hub'), 'the hub practice link is replaced');
     });
 });
+
+test('Daily Strip reads prompts and facts from data files, not from tables or globals', async (t) => {
+    await t.test('pickItemForLevel prefers curated entries for the learner band', () => {
+        const { helpers } = setupTestEnvironment();
+        const items = [
+            { prompt: 'loose A2-B1', level: 'A2-B1' },
+            { prompt: 'loose A2', level: 'A2' },
+            { prompt: 'curated A2', level: 'A2', curated: true },
+            { prompt: 'curated B1-B2', level: 'B1-B2', curated: true },
+            { prompt: 'loose B2-C1', level: 'B2-C1' }
+        ];
+        for (let d = 0; d < 6; d++) assert.equal(helpers.pickItemForLevel(items, 'a2', d).prompt, 'curated A2');
+        for (let d = 0; d < 6; d++) assert.equal(helpers.pickItemForLevel(items, 'b1-b2', d).prompt, 'curated B1-B2');
+        // no curated entry for the band: every matching entry takes part
+        const seen = new Set();
+        for (let d = 0; d < 6; d++) seen.add(helpers.pickItemForLevel(items, 'c1-c2', d).prompt);
+        assert.deepEqual(Array.from(seen), ['loose B2-C1']);
+    });
+
+    await t.test('legacy window.COSY_DAILY_* tables are ignored; built-ins are English one-liners', () => {
+        const { helpers, context } = setupTestEnvironment();
+        context.window.COSY_DAILY_FACTS = { fr: ['Fait n°1 : synthetic'] };
+        context.window.COSY_DAILY_SPEAKING = { fr: { 'a2': [{ prompt: 'Sujet n°1 synthetic', level: 'A2' }] } };
+        assert.deepEqual(Array.from(helpers.getLocalFallback('fr', 'fact', 'a2', 0)), ['Learning a new language expands memory and cognitive flexibility.']);
+        const sp = helpers.getLocalFallback('fr', 'speaking', 'a2', 0);
+        assert.ok(!JSON.stringify(sp).includes('synthetic'));
+        assert.equal(sp.length, 1);
+    });
+
+    await t.test('a strip in a language without curated prompts shows that language, not English', async () => {
+        const de = [
+            { id: 'de:speaking:1', prompt: 'Beschreiben Sie Ihren idealen Tag.', level: 'A2' },
+            { id: 'de:speaking:2', prompt: 'Erzählen Sie von Ihrer Familie.', level: 'A1-A2' }
+        ];
+        const fakeFetch = async (url) => (url.endsWith('/de/speaking.json') ? { ok: true, json: async () => de } : { ok: false, status: 404 });
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'de', 'data-slots': 'speaking,fact', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(/Beschreiben Sie|Erzählen Sie/.test(html), 'German prompt from the data file');
+        assert.ok(!html.includes('Introduce yourself'), 'no English curated prompt for a German learner');
+        // the fact file is missing: the built-in fact is the last resort
+        assert.ok(nodes[`#${comp.uniqueId}_panel_fact`].html.includes('Learning a new language'));
+    });
+
+    await t.test('with every fetch failing the strip still shows a prompt per level', async () => {
+        const { Component } = setupTestEnvironment({ fetch: async () => ({ ok: false, status: 500 }) });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'ka', 'data-slots': 'speaking,writing', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+        assert.ok(nodes[`#${comp.uniqueId}_panel_speaking`].html.includes('Introduce yourself'));
+        assert.ok(nodes[`#${comp.uniqueId}_panel_writing`].html.includes('Write 3-4 simple sentences'));
+    });
+});
