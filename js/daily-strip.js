@@ -14,6 +14,7 @@
     const COSY_DATA_DAILY_BASE = 'https://cosylanguages.github.io/COSYdata/daily/';
 
     const COSY_PRACTICE_BASE = 'https://cosylanguages.github.io/COSYpractice/';
+    const COSY_TOOLS_DAILY_URL = 'https://cosylanguages.github.io/COSYtools/practice/daily/';
     const COSY_HUB_DATA_BASE = 'https://cosylanguages.github.io/COSYlanguages/data/daily/';
 
     // Where each daily file is read from, in order. The first location that returns data wins; COSYdata is the
@@ -50,7 +51,10 @@
         idiom: { id: 'idiom', label: 'Idiom of the Day', icon: '💬', calendar: 'idiom' },
         fact: { id: 'fact', label: 'Fun Fact', icon: '💡' },
         word: { id: 'word', label: 'Word of the Day', icon: '📖', calendar: 'word' },
-        'phrasal-verb': { id: 'phrasal-verb', label: 'Phrasal Verb of the Day', icon: '🔗', calendar: 'phrasal-verb' }
+        'phrasal-verb': { id: 'phrasal-verb', label: 'Phrasal Verb of the Day', icon: '🔗', calendar: 'phrasal-verb' },
+        // verbs COSYtools can drill; `toolsLabel` swaps the footer link for one into the COSYtools Daily page
+        verb: { id: 'verb', label: 'Verb of the Day', icon: '🔤', calendar: 'verb', toolsLabel: '🛠️ Conjugate it in COSYtools' },
+        'verb-prep': { id: 'verb-prep', label: 'Verb + Preposition', icon: '🧩', calendar: 'verb-prep', toolsLabel: '🎯 Guess the preposition in COSYtools' }
     };
     const TABS_CONFIG = ['speaking', 'writing', 'idiom', 'fact'].map(id => TAB_REGISTRY[id]);
 
@@ -175,7 +179,7 @@
         const pair = (a, b) => (odd ? [b, a] : [a, b]);
         if (selectedLevel === 'b1-b2') return pair('B1', 'B2');
         if (selectedLevel === 'c1-c2') return pair('C1', 'C2');
-        if (slot === 'word') return selectedLevel === 'a2' ? ['A2'] : pair('A0', 'A1');
+        if (slot === 'word' || slot === 'verb' || slot === 'verb-prep') return selectedLevel === 'a2' ? ['A2'] : pair('A0', 'A1');
         return ['A2'];
     }
 
@@ -228,7 +232,8 @@
             example: c.example,
             literal_meaning: c.literal_meaning,
             emoji: c.emoji,
-            level: pick.level,
+            // verb cards come from cumulative pools, so show the verb's own level, not the pool it was drawn for
+            level: (slot === 'verb' || slot === 'verb-prep') && c.level ? c.level : pick.level,
             fromCalendar: true
         };
         if (slot === 'word') {
@@ -236,6 +241,9 @@
             const article = c.article ? c.article + (/['’]$/.test(c.article) ? '' : ' ') : '';
             item.text = article + c.word;
             item.pos = c.pos;
+            item.transcription = c.transcription;
+        } else if (slot === 'verb' || slot === 'verb-prep') {
+            item.text = c.word;
             item.transcription = c.transcription;
         } else {
             item.idiom = c.word;
@@ -782,7 +790,11 @@
 
                 const item = this.categoryData[tab.id] || { text: 'Content unavailable.', translation: '', meta: '' };
                 const hasTranslation = Boolean(item.translation);
-                const hubUrl = this.getHubPracticeLink(tab.id);
+                const hubUrl = tab.toolsLabel
+                    ? `${COSY_TOOLS_DAILY_URL}?lang=${encodeURIComponent(this.lang)}`
+                    : this.getHubPracticeLink(tab.id);
+                const linkLabel = tab.toolsLabel || '🚀 Practice in Hub';
+                const linkTitle = tab.toolsLabel ? 'Open today\'s verb in the COSYtools Daily page' : 'Open targeted exercises on COSYpractice Hub';
 
                 const showLevelBar = (tab.id === 'speaking' || tab.id === 'writing' || item.fromCalendar);
                 const levelBarHTML = showLevelBar ? `
@@ -815,8 +827,8 @@
                             ` : ''}
                         </div>
                         <div class="daily-strip-actions-right">
-                            <a href="${hubUrl}" class="daily-strip-practice-link" title="Open targeted exercises on COSYpractice Hub">
-                                🚀 Practice in Hub <span class="daily-strip-ext-icon">↗</span>
+                            <a href="${hubUrl}" class="daily-strip-practice-link" title="${linkTitle}">
+                                ${linkLabel} <span class="daily-strip-ext-icon">↗</span>
                             </a>
                         </div>
                     </div>

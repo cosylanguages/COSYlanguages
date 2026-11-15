@@ -548,3 +548,54 @@ test('Daily Strip phrasal-verb-of-the-day tab', async (t) => {
         assert.ok(urls.some(u => u.includes('/COSYdata/daily/en/calendar/phrasal-verb/')));
     });
 });
+
+test('Daily Strip verb of the day and verb + preposition tabs', async (t) => {
+    const card = { id: 'fr:marcher:verb', word: 'marcher', level: 'A1', definition: 'Se déplacer à pied en faisant des pas.',
+                   example: 'Nous marchons dans le parc.', transcription: '/maʁ.ʃe/', emoji: '🚶' };
+
+    await t.test('a verb card shows the verb, its own level, IPA and example', () => {
+        const { helpers } = setupTestEnvironment();
+        // drawn for the B2 pool, but the verb itself is A1
+        const item = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'B2', card }, 'verb'));
+        assert.equal(item.text, 'marcher');
+        assert.equal(item.emoji, '🚶');
+        assert.equal(item.meta, 'CEFR A1 • /maʁ.ʃe/ • Example: "Nous marchons dans le parc."');
+        const vp = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'B2', card }, 'verb-prep'));
+        assert.equal(vp.text, 'marcher');
+    });
+
+    await t.test('level bands: A0 and A1 are separate for verbs, like words', () => {
+        const { helpers } = setupTestEnvironment();
+        for (const slot of ['verb', 'verb-prep']) {
+            assert.deepEqual(Array.from(helpers.calendarLevelPreference('a0-a1', 10, slot)), ['A0', 'A1']);
+            assert.deepEqual(Array.from(helpers.calendarLevelPreference('a0-a1', 11, slot)), ['A1', 'A0']);
+            assert.deepEqual(Array.from(helpers.calendarLevelPreference('a2', 10, slot)), ['A2']);
+            assert.deepEqual(Array.from(helpers.calendarLevelPreference('c1-c2', 11, slot)), ['C2', 'C1']);
+        }
+    });
+
+    await t.test('both tabs link into the COSYtools Daily page in the strip language', async () => {
+        const todayKey = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; })();
+        const fakeFetch = async (url) => (url.includes('/calendar/verb')
+            ? { ok: true, json: async () => ({ days: { [todayKey]: { A0: card, A1: card, A2: card, B1: card, B2: card, C1: card, C2: card } } }) }
+            : { ok: false, status: 404 });
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'fr', 'data-slots': 'verb,verb-prep,word', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+        assert.ok(shell.includes('Verb of the Day') && shell.includes('Verb + Preposition'));
+        const verbPanel = nodes[`#${comp.uniqueId}_panel_verb`].html;
+        const prepPanel = nodes[`#${comp.uniqueId}_panel_verb-prep`].html;
+        const link = 'https://cosylanguages.github.io/COSYtools/practice/daily/?lang=fr';
+        assert.ok(verbPanel.includes(link) && verbPanel.includes('Conjugate it in COSYtools'));
+        assert.ok(prepPanel.includes(link) && prepPanel.includes('Guess the preposition in COSYtools'));
+        assert.ok(!verbPanel.includes('Practice in Hub'), 'the hub practice link is replaced');
+    });
+});
