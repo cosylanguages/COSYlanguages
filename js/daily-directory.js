@@ -21,7 +21,8 @@
     var BASE = 'https://cosylanguages.github.io/';
 
     // Canonical homes of the ecosystem daily surfaces, grouped by the repository that owns each one.
-    // Keep this list in step with COSYtools/shared/js/daily-feed.js (DAILY_DESTINATIONS).
+    // This list also carries the COSYtools drills; COSYtools' own daily page lists only its four sibling
+    // owners (COSYtools/shared/js/daily-feed.js DAILY_DESTINATIONS), since there it is the host itself.
     var DESTINATIONS = [
         {
             key: 'data', repo: 'COSYdata', icon: '📖',
