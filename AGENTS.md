@@ -49,3 +49,25 @@ and only run in CI.
 - `comparative/` holds the Comparative Atlas; Word Explorer is a tab wired in
   `comparative/index.html` (`word-explorer-*.js/css`, docs in `WORD_EXPLORER.md`).
 - Shared assets live in `shared/`; i18n strings in `shared/i18n/*.json`.
+
+## Daily elements (ecosystem ownership)
+
+Every daily element stays in the repository that owns it. Do not copy a sibling's
+daily content into another repo — link out instead.
+
+| Element | Owning repo | Where |
+|---|---|---|
+| Word, verb, verb + preposition, phrasal verb, idiom of the day | COSYdata | `daily/<lang>/calendar/<slot>/YYYY-MM.json`, `daily/<lang>/idioms.json` (prebuilt monthly by `scripts/build-daily-calendar.cjs`) |
+| Speaking and writing prompts, Daily Challenge | COSYpractice | `data/daily/<lang>/speaking.json`, `writing.json`, `hub.js` |
+| Fun fact + hub daily strip | COSYlanguages | `data/daily/<lang>/facts.json`, `js/daily-strip.js` |
+| Cultural spotlights (holiday, science, music, film & TV) | COSYevents | `shared/js/daily-spotlights.js`, rotated by the `daily-spotlights` workflow |
+| Daily drills (conjugation, prepositions) | COSYtools | `practice/daily/`, `shared/js/daily-feed.js` |
+
+The shared directory that links all of these together is `js/daily-directory.js` +
+`css/daily-directory.css` in this repo. Sibling repos load it cross-origin (like
+`js/daily-strip.js`) and mount it with
+`<div data-daily-directory data-self="data|practice|languages|events|tools">`.
+`data-self` marks the host's own card "You are here"; `data-lang` localises the
+heading. Keep its `DESTINATIONS` list in step with COSYtools
+`shared/js/daily-feed.js` `DAILY_DESTINATIONS`. Tests: `tests/daily-directory.test.js`.
+

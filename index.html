@@ -72,6 +72,7 @@
     <link rel="stylesheet" href="css/shared-nav.css">
     <link rel="stylesheet" href="css/cosy-icons.css">
     <link rel="stylesheet" href="css/daily-strip.css">
+    <link rel="stylesheet" href="css/daily-directory.css">
     <link rel="stylesheet" href="css/modern.css">
     <link rel="preload" href="fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/commissioner-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -103,6 +104,8 @@
 
 <main class="page page-journey-container">
 
+<!-- Daily directory: link out to every repo's daily surface, keeping each element in its owner. -->
+<div data-daily-directory data-self="languages" data-lang="en"></div>
 
 <!-- SECTION 1: STORY -->
 <section id="story" class="home-section cozy-passion-banner reveal">
@@ -506,6 +509,7 @@
 <script src="js/core/auth-sso.js" defer></script>
 <script src="js/core/ui.js" defer></script>
 <script src="js/daily-strip.js" defer></script>
+<script src="js/daily-directory.js" defer></script>
 
 <script>
   // Interactive Language & Course Hub Controller
