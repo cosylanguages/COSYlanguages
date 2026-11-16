@@ -28,6 +28,23 @@ Ecosystem URLs are defined once, in `js/core/config.js`.
 - `js/core/` – config, nav/engine, i18n, UI behaviour
 - `sw.js` – offline shell (best-effort precache)
 
+## Daily elements
+Every daily element stays in the repository that owns it; the pages link out to each other instead of copying content.
+
+| Element | Owner |
+|---|---|
+| Word, verb, verb + preposition, phrasal verb and idiom of the day | [COSYdata](https://github.com/cosylanguages/COSYdata) |
+| Speaking and writing prompts, Daily Challenge | [COSYpractice](https://github.com/cosylanguages/COSYpractice) |
+| Fun fact and the hub daily strip | COSYlanguages (`data/daily/<lang>/facts.json`) |
+| Cultural spotlights (holiday, science, music, film & TV) | [COSYevents](https://github.com/cosylanguages/COSYevents) |
+
+- `js/daily-strip.js` + `css/daily-strip.css` – the hub daily strip. It reads the fact file above and
+  pulls word/idiom data from COSYdata and prompts from COSYpractice, rotating by day of year.
+- `js/daily-directory.js` + `css/daily-directory.css` – a shared directory of every daily surface.
+  Other repositories load it cross-origin and mount it with `<div data-daily-directory data-self="data">`.
+  `data-self` marks the host's own card as "You are here"; `data-lang` localises the heading.
+- Tests: `node --test tests/*.test.js` (`tests/daily-directory.test.js` covers the directory).
+
 ## Notes
 - Fully free for visitors. Supabase is only loaded on `login.html`.
 - Fonts are self-hosted (Fraunces, Literata, Commissioner); no third-party requests.
