@@ -22,8 +22,7 @@
     const DAILY_SOURCES = {
         speaking: [COSY_PRACTICE_BASE + 'data/daily/', COSY_DATA_DAILY_BASE],
         writing: [COSY_PRACTICE_BASE + 'data/daily/', COSY_DATA_DAILY_BASE],
-        facts: [COSY_HUB_DATA_BASE, COSY_DATA_DAILY_BASE],
-        idioms: [COSY_DATA_DAILY_BASE]
+        facts: [COSY_HUB_DATA_BASE, COSY_DATA_DAILY_BASE]
     };
 
     const LANG_VOICE_MAP = {
@@ -43,12 +42,11 @@
         'cv': 'cv'
     };
 
-    // Every tab a strip can show. A host picks and orders them with data-slots="word,idiom";
+    // Every tab a strip can show. A host picks and orders them with data-slots="word,phrasal-verb";
     // without it a strip shows the default four below. `calendar` names the COSYdata calendar slot a tab reads.
     const TAB_REGISTRY = {
         speaking: { id: 'speaking', label: 'Speaking Prompt', icon: '🗣️' },
         writing: { id: 'writing', label: 'Writing Prompt', icon: '✍️' },
-        idiom: { id: 'idiom', label: 'Idiom of the Day', icon: '💬', calendar: 'idiom' },
         fact: { id: 'fact', label: 'Fun Fact', icon: '💡' },
         word: { id: 'word', label: 'Word of the Day', icon: '📖', calendar: 'word' },
         'phrasal-verb': { id: 'phrasal-verb', label: 'Phrasal Verb of the Day', icon: '🔗', calendar: 'phrasal-verb' },
@@ -56,7 +54,7 @@
         verb: { id: 'verb', label: 'Verb of the Day', icon: '🔤', calendar: 'verb', toolsLabel: '🛠️ Conjugate it in COSYtools' },
         'verb-prep': { id: 'verb-prep', label: 'Verb + Preposition', icon: '🧩', calendar: 'verb-prep', toolsLabel: '🎯 Guess the preposition in COSYtools' }
     };
-    const TABS_CONFIG = ['speaking', 'writing', 'idiom', 'fact'].map(id => TAB_REGISTRY[id]);
+    const TABS_CONFIG = ['speaking', 'writing', 'fact'].map(id => TAB_REGISTRY[id]);
 
     // COSYpractice 7-day rotating schedule mapping
     const DAILY_SCHEDULE = {
@@ -145,7 +143,7 @@
             // Ignore sessionStorage access errors
         }
 
-        const remoteCategory = category === 'fact' ? 'facts' : (category === 'idiom' ? 'idioms' : category);
+        const remoteCategory = category === 'fact' ? 'facts' : category;
         const bases = DAILY_SOURCES[remoteCategory] || [COSY_DATA_DAILY_BASE];
 
         for (const base of bases) {
@@ -172,7 +170,7 @@
     const CALENDAR_LEVELS = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
     // Calendar levels to try for a strip level band, most wanted first. Bands that span two
-    // levels alternate by day so both get exposure. Idioms start at A2, so A0-A1 maps to A2 for
+    // levels alternate by day so both get exposure. Phrasal verbs start at A2, so A0-A1 maps to A2 for
     // them; words have A0 and A1 of their own.
     function calendarLevelPreference(selectedLevel, dayOfYear, slot) {
         const odd = dayOfYear % 2 === 1;
@@ -307,14 +305,11 @@
     }
 
     // Last-resort content when no data file could be fetched. Real content comes from the data files
-    // (COSYpractice for prompts, the hub for facts, COSYdata for idioms), never from this function.
+    // (COSYpractice for prompts, the hub for facts, COSYdata for vocabulary), never from this function.
     function getLocalFallback(lang, category, selectedLevel, dayIdx) {
         const lvl = (selectedLevel || 'a0-a1').toLowerCase();
         if (category === 'fact') {
             return ['Learning a new language expands memory and cognitive flexibility.'];
-        }
-        if (category === 'idiom') {
-            return [{ idiom: 'Break a leg', meaning: 'Good luck!' }];
         }
         const prompts = BUILT_IN_PROMPTS[category];
         return prompts ? (prompts[lvl] || prompts['a0-a1']) : [];
@@ -356,7 +351,7 @@
         constructor(element) {
             this.container = element;
             this.lang = this.container.getAttribute('data-lang') || localStorage.getItem('cosy.pinnedLang') || 'en';
-            // data-slots="word,idiom" chooses and orders the tabs; unknown names are ignored.
+            // data-slots="word,phrasal-verb" chooses and orders the tabs; unknown names are ignored.
             const slots = (this.container.getAttribute('data-slots') || '').split(',').map(x => x.trim()).filter(id => TAB_REGISTRY[id]);
             this.tabs = slots.length ? slots.map(id => TAB_REGISTRY[id]) : TABS_CONFIG;
             this.title = this.container.getAttribute('data-title') || 'Daily Practice Strip';
@@ -525,7 +520,7 @@
             const dayIdx = getDayOfYear();
             for (const config of this.tabs) {
                 if (config.calendar) {
-                    // Dictionary-backed idiom of the day; falls through to the legacy lists when absent.
+                    // Dictionary-backed slot (word, verb, phrasal verb); falls through to the legacy lists when absent.
                     const day = await fetchCalendarDay(this.lang, config.calendar, getTodayKey());
                     const pick = pickCalendarCard(day, this.selectedLevel, dayIdx, config.calendar);
                     if (pick) {
@@ -539,7 +534,7 @@
                     }
                 }
 
-                // Data files first (COSYpractice prompts, hub facts, COSYdata idioms), built-in last resort after
+                // Data files first (COSYpractice prompts, hub facts, COSYdata vocabulary), built-in last resort after
                 const isPrompt = config.id === 'speaking' || config.id === 'writing';
                 const pickFrom = (list) => (isPrompt ? pickItemForLevel(list, this.selectedLevel, dayIdx) : list[dayIdx % list.length]);
                 let rawItem = null;
@@ -561,9 +556,6 @@
                 cat = 'speaking';
             } else if (tabId === 'writing') {
                 cat = 'grammar';
-            } else if (tabId === 'idiom') {
-                cat = 'vocab';
-                theme = 'phrases_idioms';
             } else if (tabId === 'fact') {
                 cat = 'vocab';
             }

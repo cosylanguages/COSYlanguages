@@ -411,7 +411,7 @@ test('Daily Strip word-of-the-day slot and configurable tabs', async (t) => {
             set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; }
         });
         let shell = '';
-        const attrs = { 'data-lang': 'fr', 'data-slots': 'word, idiom, nonsense', 'data-compact': 'true', 'data-title': 'Daily vocabulary' };
+        const attrs = { 'data-lang': 'fr', 'data-slots': 'word, phrasal-verb, nonsense', 'data-compact': 'true', 'data-title': 'Daily vocabulary' };
         const element = {
             classList: { add() {} },
             getAttribute: (k) => (k in attrs ? attrs[k] : null),
@@ -424,7 +424,7 @@ test('Daily Strip word-of-the-day slot and configurable tabs', async (t) => {
         await new Promise(r => setTimeout(r, 30));
 
         assert.ok(shell.includes('Daily vocabulary'), 'custom title');
-        assert.ok(shell.includes('Word of the Day') && shell.includes('Idiom of the Day'), 'requested tabs');
+        assert.ok(shell.includes('Word of the Day') && shell.includes('Phrasal Verb of the Day'), 'requested tabs');
         assert.ok(!shell.includes('Speaking Prompt') && !shell.includes('Fun Fact') && !shell.includes('nonsense'), 'unrequested tabs are absent');
         assert.ok(!shell.includes('daily-strip-challenge-pill') && !shell.includes('Mark done today') && !shell.includes('day streak'), 'compact hides the Practice widgets');
         assert.equal(comp.activeTab, 'word', 'first requested tab is active');
@@ -449,13 +449,13 @@ test('Daily Strip reads each daily file from its home, with COSYdata as the lega
     const HUB = 'https://cosylanguages.github.io/COSYlanguages/data/daily/';
     const LEGACY = 'https://cosylanguages.github.io/COSYdata/daily/';
 
-    await t.test('sources: speaking and writing from Practice, facts from the hub, idioms from COSYdata', () => {
+    await t.test('sources: speaking and writing from Practice, facts from the hub', () => {
         const { helpers } = setupTestEnvironment();
         const src = helpers.DAILY_SOURCES;
         assert.deepEqual(Array.from(src.speaking), [PRACTICE, LEGACY]);
         assert.deepEqual(Array.from(src.writing), [PRACTICE, LEGACY]);
         assert.deepEqual(Array.from(src.facts), [HUB, LEGACY]);
-        assert.deepEqual(Array.from(src.idioms), [LEGACY]);
+        assert.equal(src.idioms, undefined, 'idioms live in COSYdata, not here');
     });
 
     await t.test('the new location wins and is cached; the legacy location is not requested', async () => {
