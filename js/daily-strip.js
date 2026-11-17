@@ -428,7 +428,20 @@
                         </div>
                     `).join('')}
                 </div>
+                ${this.container.getAttribute('data-directory') === 'true' ? '<div class="daily-strip-directory" data-daily-directory data-compact="true" data-self="languages" data-lang="${this.lang}"></div>' : ''}
             `;
+            this.mountDirectory();
+        }
+
+        // data-directory="true" adds one line of links to the other COSY daily surfaces under the tabs.
+        // If daily-directory.js has not run yet it renders the slot itself when it loads.
+        mountDirectory() {
+            const slot = this.container.querySelector && this.container.querySelector('[data-daily-directory]');
+            const dir = typeof window !== 'undefined' && window.COSY_DailyDirectory;
+            if (slot && dir && typeof dir.renderCompact === 'function') {
+                slot.setAttribute('data-lang', this.lang);
+                dir.renderCompact(slot);
+            }
         }
 
         bindEvents() {
@@ -737,6 +750,7 @@
         async reloadForLang() {
             const langBadge = this.container.querySelector('.daily-strip-lang-badge');
             if (langBadge) langBadge.textContent = this.lang.toUpperCase();
+            this.mountDirectory();
             await this.loadAllCategories();
             this.renderContent();
         }

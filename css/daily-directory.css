@@ -144,3 +144,51 @@
         color: var(--cosy-color-ink, #F5F5F4);
     }
 }
+
+/* Compact one-line form, embedded under the hub daily strip */
+.daily-directory--compact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.5rem;
+    max-width: none;
+    margin: 0;
+    padding: 0.6rem 0 0;
+    background: transparent;
+    border: 0;
+    border-top: 1px dashed var(--cosy-color-border, rgba(74, 107, 80, 0.15));
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.82rem;
+}
+
+.daily-directory-more {
+    color: var(--cosy-color-ink-muted, #5B6470);
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+.daily-directory-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.65rem;
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+    border-radius: 999px;
+    background: var(--cosy-color-cream, #FAF7F2);
+    color: var(--cosy-color-sage-dark, #2E4A33);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.daily-directory-chip:hover,
+.daily-directory-chip:focus-visible {
+    border-color: var(--cosy-color-sage, #416B49);
+    background: var(--cosy-color-warm-white, #FFFEFB);
+}
+
+html[data-theme="dark"] .daily-directory-chip,
+body.theme-dark .daily-directory-chip {
+    background: rgba(255, 255, 255, 0.06);
+    color: inherit;
+}

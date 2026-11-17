@@ -83,11 +83,11 @@
     ];
 
     var I18N = {
-        en: { heading: 'Daily across the COSY ecosystem', sub: 'Every daily element stays in the repository that owns it — follow a card to read it there.', self: 'You are here', open: 'Open' },
-        fr: { heading: 'Le quotidien dans l\'écosystème COSY', sub: 'Chaque élément quotidien reste dans le dépôt qui le possède — suivez une carte pour le lire là-bas.', self: 'Vous êtes ici', open: 'Ouvrir' },
-        it: { heading: 'Il quotidiano nell\'ecosistema COSY', sub: 'Ogni elemento quotidiano resta nel repository che lo possiede — segui una scheda per leggerlo lì.', self: 'Sei qui', open: 'Apri' },
-        ru: { heading: 'Ежедневное в экосистеме COSY', sub: 'Каждый ежедневный элемент остаётся в своём репозитории — откройте карточку, чтобы прочитать его там.', self: 'Вы здесь', open: 'Открыть' },
-        el: { heading: 'Καθημερινά στο οικοσύστημα COSY', sub: 'Κάθε καθημερινό στοιχείο μένει στο αποθετήριο που το κατέχει — ακολουθήστε μια κάρτα για να το διαβάσετε εκεί.', self: 'Είστε εδώ', open: 'Άνοιγμα' }
+        en: { more: 'More dailies across COSY', heading: 'Daily across the COSY ecosystem', sub: 'Every daily element stays in the repository that owns it — follow a card to read it there.', self: 'You are here', open: 'Open' },
+        fr: { more: 'Plus de quotidiens dans COSY', heading: 'Le quotidien dans l\'écosystème COSY', sub: 'Chaque élément quotidien reste dans le dépôt qui le possède — suivez une carte pour le lire là-bas.', self: 'Vous êtes ici', open: 'Ouvrir' },
+        it: { more: 'Altri quotidiani in COSY', heading: 'Il quotidiano nell\'ecosistema COSY', sub: 'Ogni elemento quotidiano resta nel repository che lo possiede — segui una scheda per leggerlo lì.', self: 'Sei qui', open: 'Apri' },
+        ru: { more: 'Ещё ежедневное в COSY', heading: 'Ежедневное в экосистеме COSY', sub: 'Каждый ежедневный элемент остаётся в своём репозитории — откройте карточку, чтобы прочитать его там.', self: 'Вы здесь', open: 'Открыть' },
+        el: { more: 'Περισσότερα καθημερινά στο COSY', heading: 'Καθημερινά στο οικοσύστημα COSY', sub: 'Κάθε καθημερινό στοιχείο μένει στο αποθετήριο που το κατέχει — ακολουθήστε μια κάρτα για να το διαβάσετε εκεί.', self: 'Είστε εδώ', open: 'Άνοιγμα' }
     };
 
     var instanceSeq = 0;
@@ -131,10 +131,27 @@
         '</article>';
     }
 
+    // Compact form for embedding under another daily surface (the hub strip): one line of chips
+    // linking to the other owners. Hover or focus a chip to see what that owner publishes each day.
+    function compactHTML(selfKey, t) {
+        var chips = DESTINATIONS.filter(function (d) { return d.key !== selfKey; }).map(function (d) {
+            var tip = d.slots.map(function (s) { return s.label; }).join(' · ');
+            return '<a class="daily-directory-chip" href="' + escapeHTML(d.url) + '" target="_blank" rel="noopener" title="' + escapeHTML(tip) + '">' +
+                '<span aria-hidden="true">' + escapeHTML(d.icon) + '</span> ' + escapeHTML(d.title) +
+                ' <span class="daily-directory-ext" aria-hidden="true">↗</span></a>';
+        }).join('');
+        return '<nav class="daily-directory daily-directory--compact" aria-label="' + escapeHTML(t.more) + '">' +
+            '<span class="daily-directory-more">🌐 ' + escapeHTML(t.more) + '</span>' + chips + '</nav>';
+    }
+
     function render(host) {
         var selfKey = (host.getAttribute('data-self') || '').trim();
         var lang = (host.getAttribute('data-lang') || document.documentElement.lang || 'en').slice(0, 2);
         var t = stringsFor(lang);
+        if (host.getAttribute('data-compact') === 'true') {
+            host.innerHTML = compactHTML(selfKey, t);
+            return;
+        }
         var titleId = 'daily-directory-title-' + (++instanceSeq);
 
         host.innerHTML =
@@ -167,6 +184,7 @@
     window.COSY_DailyDirectory = {
         DESTINATIONS: DESTINATIONS,
         render: render,
+        renderCompact: function (host) { host.setAttribute('data-compact', 'true'); render(host); host.__dailyDirectoryRendered = true; },
         destinations: function () {
             return DESTINATIONS.map(function (d) {
                 return {
