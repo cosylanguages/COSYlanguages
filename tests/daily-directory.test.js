@@ -97,3 +97,27 @@ test('Daily Directory Suite', async (t) => {
         assert.equal(strip(host.innerHTML), first, 're-rendering produces the same markup apart from the unique heading id');
     });
 });
+
+test('Daily Directory compact mode (embedded under the hub strip)', async (t) => {
+    await t.test('renders one line of chips, skipping the host\'s own card, with the slots as tooltips', () => {
+        const host = fakeNode({ 'data-self': 'languages', 'data-lang': 'en', 'data-compact': 'true' });
+        load(host);
+        assert.ok(host.innerHTML.includes('daily-directory--compact'));
+        assert.equal((host.innerHTML.match(/daily-directory-chip"/g) || []).length, 4, 'four other owners');
+        assert.ok(!host.innerHTML.includes('daily-directory-card'), 'no full cards');
+        assert.ok(!host.innerHTML.includes('/COSYlanguages/'), 'does not link to itself');
+        assert.ok(host.innerHTML.includes('Word of the Day'), 'tooltip lists what each owner publishes');
+        assert.ok(host.innerHTML.includes('More dailies across COSY'));
+    });
+    await t.test('is localised', () => {
+        const host = fakeNode({ 'data-self': 'languages', 'data-lang': 'fr', 'data-compact': 'true' });
+        load(host);
+        assert.ok(host.innerHTML.includes('Plus de quotidiens dans COSY'));
+    });
+    await t.test('renderCompact works for the strip even without the attribute', () => {
+        const dir = load();
+        const host = fakeNode({ 'data-self': 'languages', 'data-lang': 'en' });
+        dir.renderCompact(host);
+        assert.ok(host.innerHTML.includes('daily-directory-chip'));
+    });
+});
