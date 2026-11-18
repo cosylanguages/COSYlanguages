@@ -558,6 +558,7 @@ body.theme-dark .daily-strip-toggle-translation-btn:hover {
 .daily-strip-container {
     position: relative;
     overflow: hidden;
+    container-type: inline-size;
     background: linear-gradient(180deg, var(--cosy-color-sage-mist, #F0F5F1) 0, var(--cosy-color-warm-white, #FFFEFB) 120px);
     box-shadow: 0 10px 30px rgba(46, 74, 51, 0.10), 0 1px 3px rgba(46, 74, 51, 0.06);
 }
@@ -702,6 +703,22 @@ body.theme-dark .daily-strip-tab[aria-selected="true"] {
 html[data-theme="dark"] .daily-strip-panel,
 body.theme-dark .daily-strip-panel {
     background: #1F2A22;
+}
+
+/* The strip is placed in columns of very different widths, so the tabs react to the strip's own width,
+   not the screen's: below ~600px they stack icon over label and the label may wrap instead of overlapping. */
+@container (max-width: 600px) {
+    .daily-strip-tabs { border-radius: 18px; }
+    .daily-strip-tab {
+        flex-direction: column;
+        gap: 0.1rem;
+        font-size: 0.78rem;
+        line-height: 1.15;
+        text-align: center;
+        white-space: normal;
+        padding: 0.4rem 0.25rem;
+        border-radius: 14px;
+    }
 }
 
 @media (max-width: 480px) {
