@@ -71,3 +71,15 @@ The shared directory that links all of these together is `js/daily-directory.js`
 heading. Keep its `DESTINATIONS` list in step with COSYtools
 `shared/js/daily-feed.js` `DAILY_DESTINATIONS`. Tests: `tests/daily-directory.test.js`.
 
+## Ecosystem strip (shared, top of every site)
+
+`js/ecosystem-strip.js` + `css/ecosystem-strip.css` render the one-line
+"🌐 COSY Ecosystem" bar that sits at the very top of every COSY site except the
+COSYlanguages hub. Sibling repos load it cross-origin and mount it with
+`<div data-ecosystem-strip data-self="events">`; `data-self` (the repo's key) drops
+the host's own link, `data-lang` localises the brand. The public links, in
+canonical order, are COSYlanguages · COSYevents · COSYdata · COSYtools ·
+COSYpractice · COSYgames; COSYplatform and COSYmanuals are appended only for
+signed-in visitors (shared Supabase key `cosy-auth`). Do not hand-write the bar in
+a sibling repo — mount this component instead. Tests: `tests/ecosystem-strip.test.js`.
+

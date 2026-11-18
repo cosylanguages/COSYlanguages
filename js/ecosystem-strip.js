@@ -39,6 +39,20 @@
 
     var AUTH_STORAGE_KEY = 'cosy-auth';
 
+    // The brand phrase and accessible name, translated for the languages the ecosystem ships.
+    var STRINGS = {
+        en: { brand: '🌐 COSY Ecosystem:', label: 'COSY Ecosystem products' },
+        fr: { brand: '🌐 Écosystème COSY :', label: 'Produits de l\u2019écosystème COSY' },
+        it: { brand: '🌐 Ecosistema COSY:', label: 'Prodotti dell\u2019ecosistema COSY' },
+        ru: { brand: '🌐 Экосистема COSY:', label: 'Продукты экосистемы COSY' },
+        el: { brand: '🌐 Οικοσύστημα COSY:', label: 'Προϊόντα οικοσυστήματος COSY' }
+    };
+
+    function stringsFor(lang) {
+        var code = String(lang || 'en').slice(0, 2).toLowerCase();
+        return STRINGS[code] || STRINGS.en;
+    }
+
     function escapeHTML(value) {
         return String(value == null ? '' : value)
             .replace(/&/g, '&amp;')
@@ -73,7 +87,7 @@
             escapeHTML(dest.label) + ' ' + escapeHTML(dest.icon) + '</a>';
     }
 
-    function buildHTML(selfKey) {
+    function buildHTML(selfKey, t) {
         var destinations = PUBLIC_DESTINATIONS.slice();
         if (isSignedIn()) destinations = destinations.concat(MEMBER_DESTINATIONS);
 
@@ -85,17 +99,20 @@
         }).join('');
 
         return '<div class="cosy-strip-inner">' +
-            '<span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>' +
+            '<span class="cosy-strip-brand">' + escapeHTML(t.brand) + '</span>' +
             '<ul class="cosy-strip-links">' + links + '</ul>' +
             '</div>';
     }
 
     function render(host) {
         var selfKey = (host.getAttribute('data-self') || '').trim().toLowerCase();
+        var lang = host.getAttribute('data-lang') ||
+            (document.documentElement && document.documentElement.lang) || 'en';
+        var t = stringsFor(lang);
         host.classList.add('cosy-ecosystem-strip');
         host.setAttribute('role', 'navigation');
-        host.setAttribute('aria-label', 'COSY Ecosystem products');
-        host.innerHTML = buildHTML(selfKey);
+        host.setAttribute('aria-label', t.label);
+        host.innerHTML = buildHTML(selfKey, t);
     }
 
     function initAll() {

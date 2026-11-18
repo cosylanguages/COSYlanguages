@@ -36,9 +36,10 @@ function makeHost(selfKey) {
     return host;
 }
 
-function load(hostEl, storage = {}) {
+function load(hostEl, storage = {}, lang = 'en') {
     const document = {
         readyState: 'complete',
+        documentElement: { lang },
         querySelectorAll: (sel) => (sel === '[data-ecosystem-strip]' && hostEl ? [hostEl] : []),
         addEventListener() {}
     };
@@ -134,5 +135,20 @@ test('Ecosystem Strip Suite', async (t) => {
         assert.ok(host.innerHTML.includes('class="cosy-strip-links"'));
         assert.ok(host._classes.includes('cosy-ecosystem-strip'));
         assert.equal(host.getAttribute('role'), 'navigation');
+    });
+
+    await t.test('8. Brand and label follow the page language', () => {
+        const fr = makeHost('events');
+        load(fr, {}, 'fr');
+        assert.ok(fr.innerHTML.includes('Écosystème COSY'));
+        assert.equal(fr.getAttribute('aria-label'), 'Produits de l’écosystème COSY');
+
+        const ru = makeHost('events');
+        load(ru, {}, 'ru');
+        assert.ok(ru.innerHTML.includes('Экосистема COSY'));
+
+        const unknown = makeHost('events');
+        load(unknown, {}, 'zz');
+        assert.ok(unknown.innerHTML.includes('🌐 COSY Ecosystem:'), 'unknown language falls back to English');
     });
 });
