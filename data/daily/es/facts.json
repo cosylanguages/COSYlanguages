@@ -48,5 +48,255 @@
     "id": "es:fact:10",
     "fact": "Palabras como 'chocolate', 'tomate' y 'aguacate' llegaron al español procedentes del náhuatl.",
     "topic": "etymology"
+  },
+  {
+    "id": "es:fact:11",
+    "fact": "El español es la segunda lengua materna más hablada del mundo tras el mandarín.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:12",
+    "fact": "El español se habla oficialmente en 21 países de América, Europa y África.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:13",
+    "fact": "El primer libro de gramática española fue escrito por Nebrija en 1492.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:14",
+    "fact": "La letra 'ñ' nació en los monasterios medievales como abreviatura de 'nn'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:15",
+    "fact": "El español tiene más de 88.000 palabras registradas en el Diccionario de la RAE.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:16",
+    "fact": "La palabra 'ojo' proviene del latín oculus.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:17",
+    "fact": "Los signos de apertura (¿, ¡) son únicos del idioma español.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:18",
+    "fact": "El español es una lengua romance derivada del latín vulgar ibérico.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:19",
+    "fact": "La palabra 'ojalá' proviene del árabe hispánico aw šá lláh ('si Dios quiere').",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:20",
+    "fact": "El español cuenta con más de 4.000 palabras de origen árabe.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:21",
+    "fact": "La palabra más larga en la RAE es electroencefalografista (23 letras).",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:22",
+    "fact": "El español es idioma oficial de la ONU, la UE y la Unión Africana.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:23",
+    "fact": "La palabra 'murciélago' contiene las cinco vocales.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:24",
+    "fact": "El español tiene tres conjugaciones verbales (-ar, -er, -ir).",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:25",
+    "fact": "El español utiliza dos verbos para expresar 'to be': ser y estar.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:26",
+    "fact": "La palabra 'siesta' viene de la sexta hora romana (el mediodía).",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:27",
+    "fact": "El español es hablado por más de 500 millones de personas.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:28",
+    "fact": "Don Quijote de la Mancha es la obra narrativa más traducida del mundo.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:29",
+    "fact": "La palabra 'almohada' proviene del árabe al-mujadda.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:30",
+    "fact": "El español utiliza la coma (,) como separador decimal estándar.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:31",
+    "fact": "La palabra 'fiesta' proviene del latín festa.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:32",
+    "fact": "La palabra 'chocolate' proviene del náhuatl xocolatl.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:33",
+    "fact": "El acento ortográfico (tilde) marca la sílaba tónica cuando rompe la regla general.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:34",
+    "fact": "En Argentina y Uruguay se utiliza el voseo (uso de vos).",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:35",
+    "fact": "La palabra 'mariposa' proviene de la frase infantil 'María, pósate'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:36",
+    "fact": "El español fue la primera lengua europea hablada en Filipinas.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:37",
+    "fact": "La palabra 'barrio' proviene del árabe barri (exterior).",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:38",
+    "fact": "Sustantivos como 'el cura' y 'la cura' cambian de significado según el género.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:39",
+    "fact": "La palabra 'canoa' fue la primera palabra indígena americana adoptada en español.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:40",
+    "fact": "La palabra 'sobremesa' describe la conversación tranquila tras la comida.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:41",
+    "fact": "El saludo '¡Hola!' se utiliza en todo el mundo hispanohablante.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:42",
+    "fact": "El término 'spanglish' describe el fenómeno de alternancia lingüística.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:43",
+    "fact": "El español posee un rico sistema de diminutivos (-ito, -ico, -illo).",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:44",
+    "fact": "La palabra 'amigo' proviene del latín amicus.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:45",
+    "fact": "El español tiene vocales puras y claras sin reducción vocálica.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:46",
+    "fact": "La palabra 'adiós' es contracción de 'A Dios seas encomendado'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:47",
+    "fact": "Usted proviene de la fórmula de cortesía Vuestra Merced.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:48",
+    "fact": "La palabra 'sol' proviene del latín sol, solis.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:49",
+    "fact": "La palabra 'zapato' proviene del turco/persa a través del árabe.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:50",
+    "fact": "La palabra 'pueblo' proviene del latín populus.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:51",
+    "fact": "La palabra 'guitarra' proviene del griego kithara.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:52",
+    "fact": "México es el país con mayor número de hispanohablantes del mundo.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:53",
+    "fact": "La palabra 'aceite' proviene del árabe az-zayt.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:54",
+    "fact": "El español no tiene sílabas dobles como bb o pp, salvo cc y nn.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:55",
+    "fact": "La palabra 'camino' proviene del céltico camminos.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:56",
+    "fact": "La palabra 'flamenco' nombra tanto el arte como al ave.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:57",
+    "fact": "El verbo haber se usaba originalmente para expresar posesión.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:58",
+    "fact": "La palabra 'azúcar' proviene del árabe as-sukkar.",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:59",
+    "fact": "La palabra 'alcalde' proviene del árabe al-qadi (el juez).",
+    "topic": "legacy"
+  },
+  {
+    "id": "es:fact:60",
+    "fact": "El idioma español es una de las lenguas más musicales y fonéticas.",
+    "topic": "legacy"
   }
 ]

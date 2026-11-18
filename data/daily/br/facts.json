@@ -48,5 +48,255 @@
     "id": "br:fact:10",
     "fact": "An abadennoù radio ha skinwel e brezhoneg a sikour da virout bev broad ar yezh.",
     "topic": "media"
+  },
+  {
+    "id": "br:fact:11",
+    "fact": "Ar brezhoneg a zo ur yezh keltiek eus brank Enez-Vreizh.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:12",
+    "fact": "Ar brezhoneg a zo an eil yezh keltiek komzet ar muiañ er bed.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:13",
+    "fact": "E brezhoneg e kaver kemmoù-kensonenn (mutationoù).",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:14",
+    "fact": "Gerioù zo evel 'biz' ha 'kaer' a zo implijet er vuhez pemdez.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:15",
+    "fact": "Ar ger 'Demat' a zo ar salutadenn evit bonjour.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:16",
+    "fact": "Ar ger 'Kenavo' a zo an doare da lavarout au revoir.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:17",
+    "fact": "Breizh a zo rannet etre Breizh-Uhel ha Breizh-Izel.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:18",
+    "fact": "Ar fest-noz a zo enfrestret e glad gladel UNESCO.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:19",
+    "fact": "Diwan a zo ur rouedad skolioù brezhonek krouet e 1977.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:20",
+    "fact": "Ar gwenn-ha-du a zo banniel Breizh krouet e 1923.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:21",
+    "fact": "Ar brezhoneg a zo komzet gant war-dro 200 000 a dud.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:22",
+    "fact": "Ofis Publik ar Brezhoneg a zo karget da skoazellañ ar yezh.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:23",
+    "fact": "Ar ger 'mignoniezh' a zo gwall bouezus er vuhez.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:24",
+    "fact": "Brezhoweb a zo ar chadenn skinwel e brezhoneg.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:25",
+    "fact": "Radio Kerne ha Radio Bro Dreger a skingas e brezhoneg.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:26",
+    "fact": "Ar ger 'kig-ha-farz' a zo ur meuz hengounel eus Bro-Leon.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:27",
+    "fact": "Ar brezhoneg en deus 4 rannyezh vras (Kerne, Leon, Treger, Gwened).",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:28",
+    "fact": "Ar ger 'mor' a zo gwall bresant e geriaoueg Breizh.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:29",
+    "fact": "Ar ger 'amzer' a dalv ken ar mare ken an hin.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:30",
+    "fact": "An heniarth a zo anv kozh yezhoù Keltied Breizh-Veur.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:31",
+    "fact": "Ar ger 'kalon' a dalv ar galon pe ar genfeal.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:32",
+    "fact": "Ar ger 'ti' a zo an ti ma vever ennañ.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:33",
+    "fact": "An orin eus ar brezhoneg a zo degaset eus Enez-Vreizh er Vvet kantved.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:34",
+    "fact": "Ar ger 'eost' a dalv an eostad hag miz Eost.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:35",
+    "fact": "Ar ger 'menez' a zo ur menez uhel pe brec'h.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:36",
+    "fact": "Ar brezhoneg en deus un doare-skrivañ unvan (peurunvan).",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:37",
+    "fact": "Ar ger 'bara' a zo meuz diazez pep pred.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:38",
+    "fact": "Ar ger 'yec'hed' a vez lavaret evit ar yec'hed mat.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:39",
+    "fact": "Ar ger 'steredenn' a zo ur steredenn en neñv.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:40",
+    "fact": "An Erminig a zo arouez duged Breizh.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:41",
+    "fact": "Ar ger 'kan' a zo Kantu ha sonerezh hengounel.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:42",
+    "fact": "Ar ger 'goulou' a dalv ar goulou a sklêrijenn.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:43",
+    "fact": "Ar ger 'eured' a zo gouel an dimeziñ.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:44",
+    "fact": "Ar brezhoneg en deus gerioù niveriñ ugentel (20, 40, 60).",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:45",
+    "fact": "Ar ger 'bro' a dalv ar vro pe ar patria.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:46",
+    "fact": "Ar ger 'dour' a zo dour glan an natur.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:47",
+    "fact": "Ar ger 'heol' a zo an heol a domma.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:48",
+    "fact": "Ar ger 'gwenn' a zo al liv gwenn glan.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:49",
+    "fact": "Ar ger 'du' a zo al liv du noz.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:50",
+    "fact": "Ar ger 'glas' a zo liv an oabl hag ar mor.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:51",
+    "fact": "Ar brezhoneg a zo ur yezh vev ha skrivet.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:52",
+    "fact": "Ar ger 'plijadur' a zo laouenidigezh krouet.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:53",
+    "fact": "Ar ger 'karantez' a dalv an amor dous.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:54",
+    "fact": "Ar ger 'peoc'h' a zo ar peoc'h sioul.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:55",
+    "fact": "Ar ger 'menez-are' a zo un aradennad menezioù e Breizh.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:56",
+    "fact": "Ar ger 'spered' a zo ar spered sklaer.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:57",
+    "fact": "Ar ger 'leun' a zo leun a spi mat.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:58",
+    "fact": "Ar ger 'gwirionez' a dalv ar gwir pur.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:59",
+    "fact": "Ar ger 'skouarn' a zo an skouarn a selaou.",
+    "topic": "legacy"
+  },
+  {
+    "id": "br:fact:60",
+    "fact": "Ar brezhoneg a unan an dud dre ar c'hulturel.",
+    "topic": "legacy"
   }
 ]
