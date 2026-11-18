@@ -87,21 +87,26 @@
             escapeHTML(dest.label) + ' ' + escapeHTML(dest.icon) + '</a>';
     }
 
-    function buildHTML(selfKey, t) {
+    function linksHTML(selfKey) {
         var destinations = PUBLIC_DESTINATIONS.slice();
         if (isSignedIn()) destinations = destinations.concat(MEMBER_DESTINATIONS);
 
         // The host's own site is left out of the bar entirely.
         destinations = destinations.filter(function (dest) { return dest.key !== selfKey; });
 
-        var links = destinations.map(function (dest) {
+        return destinations.map(function (dest) {
             return '<li>' + linkHTML(dest) + '</li>';
         }).join('');
+    }
 
-        return '<div class="cosy-strip-inner">' +
-            '<span class="cosy-strip-brand">' + escapeHTML(t.brand) + '</span>' +
-            '<ul class="cosy-strip-links">' + links + '</ul>' +
-            '</div>';
+    // Hosts may keep their own trailing control (e.g. COSYtools' theme toggle) inside the bar:
+    //   <div data-ecosystem-strip data-self="tools"><button id="cosy-theme-toggle">…</button></div>
+    function extractExtra(host) {
+        var extra = host.querySelector('[data-strip-extra], #cosy-theme-toggle');
+        if (!extra) return '';
+        var html = extra.outerHTML;
+        extra.parentNode.removeChild(extra);
+        return html;
     }
 
     function render(host) {
@@ -112,7 +117,24 @@
         host.classList.add('cosy-ecosystem-strip');
         host.setAttribute('role', 'navigation');
         host.setAttribute('aria-label', t.label);
-        host.innerHTML = buildHTML(selfKey, t);
+
+        // On a later refresh, update the brand and links in place so any host control we already
+        // moved into the bar keeps its event listeners.
+        var inner = host.querySelector('.cosy-strip-inner');
+        if (inner) {
+            var brandEl = inner.querySelector('.cosy-strip-brand');
+            if (brandEl) brandEl.textContent = t.brand;
+            var listEl = inner.querySelector('.cosy-strip-links');
+            if (listEl) listEl.innerHTML = linksHTML(selfKey);
+            return;
+        }
+
+        var extraHTML = extractExtra(host);
+        host.innerHTML = '<div class="cosy-strip-inner">' +
+            '<span class="cosy-strip-brand">' + escapeHTML(t.brand) + '</span>' +
+            '<ul class="cosy-strip-links">' + linksHTML(selfKey) + '</ul>' +
+            (extraHTML ? '<span class="cosy-strip-extra">' + extraHTML + '</span>' : '') +
+            '</div>';
     }
 
     function initAll() {

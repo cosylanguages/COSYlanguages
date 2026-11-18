@@ -22,6 +22,7 @@ function fakeNode(attrs = {}) {
         _classes: [],
         getAttribute(k) { return k in this._attrs ? this._attrs[k] : null; },
         setAttribute(k, v) { this._attrs[k] = v; },
+        querySelector() { return null; },
         classList: {
             add(c) { if (!this._owner._classes.includes(c)) this._owner._classes.push(c); }
         },
@@ -150,5 +151,30 @@ test('Ecosystem Strip Suite', async (t) => {
         const unknown = makeHost('events');
         load(unknown, {}, 'zz');
         assert.ok(unknown.innerHTML.includes('🌐 COSY Ecosystem:'), 'unknown language falls back to English');
+    });
+
+    await t.test('9. A host control inside the mount is kept in the bar', () => {
+        // Minimal DOM good enough for extractExtra: one child with an outerHTML + parentNode.
+        const toggle = {
+            outerHTML: '<button id="cosy-theme-toggle">Dark</button>',
+            parentNode: { removeChild() { toggle.__removed = true; } }
+        };
+        const host = {
+            _html: '', _attrs: { 'data-self': 'tools' }, _classes: [],
+            classList: { add(c) { host._classes.push(c); } },
+            getAttribute(k) { return k in this._attrs ? this._attrs[k] : null; },
+            setAttribute(k, v) { this._attrs[k] = v; },
+            get innerHTML() { return this._html; },
+            set innerHTML(v) { this._html = v; },
+            querySelector(sel) {
+                if (sel.includes('cosy-theme-toggle')) return toggle;
+                return null;
+            }
+        };
+        load(host);
+        assert.ok(toggle.__removed, 'the control is moved out of its original place');
+        assert.ok(host.innerHTML.includes('cosy-theme-toggle'), 'the control is placed back in the bar');
+        assert.ok(host.innerHTML.includes('cosy-strip-extra'));
+        assert.ok(host.innerHTML.includes('COSYlanguages'), 'links still render');
     });
 });

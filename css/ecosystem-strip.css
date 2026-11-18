@@ -55,6 +55,13 @@
   flex-wrap: wrap;
 }
 
+/* Host-owned control moved into the bar (e.g. COSYtools' theme toggle). */
+.cosy-strip-extra {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+}
+
 .cosy-strip-link {
   color: var(--cosy-strip-fg);
   text-decoration: none;
