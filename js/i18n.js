@@ -127,13 +127,13 @@
             </div>
             <div class="footer-links-col">
               <h3 data-i18n="footer.explore">Explore</h3>
-              <a href="${prefix}#languages" data-i18n="nav.languages">Languages 🌍</a>
-              <a href="https://cosylanguages.github.io/COSYpractice/" data-i18n="nav.practice">Free Practice 💡</a>
-              <a href="${prefix}placement-quiz.html">Placement Quiz 📝</a>
-              <a href="${prefix}hybrid/index.html">Hybrid &amp; Community 🌿</a>
-              <a href="https://cosylanguages.github.io/COSYevents/" data-i18n="nav.events">Events 🎉</a>
-              <a href="https://cosylanguages.github.io/COSYgames/" data-i18n="nav.games">Games 🎮</a>
-              <a href="https://cosylanguages.github.io/COSYmagazine/" data-i18n="nav.magazine">Magazine 📖</a>
+              <a href="${prefix}#languages"><span class="nav-item-icon" aria-hidden="true">🌍</span> <span data-i18n="nav.languages">Languages</span></a>
+              <a href="https://cosylanguages.github.io/COSYpractice/"><span class="nav-item-icon" aria-hidden="true">💡</span> <span data-i18n="nav.practice">Free Practice</span></a>
+              <a href="${prefix}placement-quiz.html"><span class="nav-item-icon" aria-hidden="true">📝</span> Placement Quiz</a>
+              <a href="${prefix}hybrid/index.html"><span class="nav-item-icon" aria-hidden="true">🌿</span> Hybrid &amp; Community</a>
+              <a href="https://cosylanguages.github.io/COSYevents/"><span class="nav-item-icon" aria-hidden="true">🎉</span> <span data-i18n="nav.events">Events</span></a>
+              <a href="https://cosylanguages.github.io/COSYgames/"><span class="nav-item-icon" aria-hidden="true">🎮</span> <span data-i18n="nav.games">Games</span></a>
+              <a href="https://cosylanguages.github.io/COSYmagazine/"><span class="nav-item-icon" aria-hidden="true">📖</span> <span data-i18n="nav.magazine">Magazine</span></a>
             </div>
             <div class="footer-links-col">
               <h3 data-i18n="footer.project">Project</h3>
