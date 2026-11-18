@@ -14,6 +14,11 @@
  * own link. COSYplatform and COSYmanuals are shown only to signed-in visitors; the session is read
  * from the shared Supabase storage key "cosy-auth" (same key every COSY site writes), and the bar
  * updates live when the visitor signs in or out in another tab.
+ *
+ * Add `data-theme-toggle` to the mount to opt into the shared theme engine (dark mode): the saved or
+ * system theme is applied on load and, when the page has no theme control of its own, a toggle is
+ * added to the bar's trailing slot. Pages without the attribute are not touched in any way, and a
+ * page that already ships its own control is left alone so no second toggle is ever added.
  */
 
 (function () {
@@ -138,10 +143,134 @@
         }
     }
 
+    // ── Shared theme engine (opt-in via data-theme-toggle on the mount) ──────────────
+    // Same storage contract as the per-site cosy-theme.js: primary key "cosy.theme", with the
+    // older "cosy_theme" / "ce-theme" keys read and written so every COSY page agrees.
+    var THEME_KEY = 'cosy.theme';
+    var THEME_LEGACY = ['cosy_theme', 'ce-theme'];
+
+    // Any control a page already ships. If one is present the bar never adds a second toggle.
+    var THEME_CONTROL_SELECTOR = '[data-cosy-theme-toggle], #cosy-theme-toggle, #bn-theme, ' +
+        '.theme-toggle-btn, .cosy-theme-btn, .cosy-theme-toggle-btn, .cg-theme-btn, .ev-theme-btn, .dh-theme-btn';
+
+    function readTheme(key) {
+        try {
+            var v = window.localStorage.getItem(key);
+            return v === 'dark' || v === 'light' ? v : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function storedTheme() {
+        var v = readTheme(THEME_KEY);
+        for (var i = 0; !v && i < THEME_LEGACY.length; i++) v = readTheme(THEME_LEGACY[i]);
+        return v;
+    }
+
+    function systemTheme() {
+        try {
+            return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        } catch (e) {
+            return 'light';
+        }
+    }
+
+    function currentTheme() {
+        return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    }
+
+    // Some hosts (and the unit-test fakes) expose getAttribute but not hasAttribute.
+    function hasAttr(el, name) {
+        if (!el) return false;
+        if (typeof el.hasAttribute === 'function') return el.hasAttribute(name);
+        return el.getAttribute(name) != null;
+    }
+
+    function applyTheme(theme) {
+        var root = document.documentElement;
+        root.setAttribute('data-theme', theme);
+        root.style.colorScheme = theme;
+        root.classList.toggle('theme-dark', theme === 'dark');
+        if (document.body) document.body.classList.toggle('theme-dark', theme === 'dark');
+        paintThemeToggles(theme);
+    }
+
+    function setTheme(theme) {
+        if (theme !== 'dark' && theme !== 'light') return;
+        [THEME_KEY].concat(THEME_LEGACY).forEach(function (k) {
+            try { window.localStorage.setItem(k, theme); } catch (e) {}
+        });
+        applyTheme(theme);
+    }
+
+    function paintThemeToggles(theme) {
+        var dark = theme === 'dark';
+        var label = dark ? 'Switch to light theme' : 'Switch to dark theme';
+        Array.prototype.forEach.call(document.querySelectorAll(THEME_CONTROL_SELECTOR), function (n) {
+            n.setAttribute('aria-pressed', dark ? 'true' : 'false');
+            n.setAttribute('aria-label', label);
+            n.setAttribute('title', label);
+            if (!n.hasAttribute('data-keep-label')) n.textContent = dark ? '☀️' : '🌙';
+        });
+    }
+
+    // A page has "opted in" when any mounted strip carries data-theme-toggle.
+    function themeOptedIn() {
+        return !!document.querySelector('[data-ecosystem-strip][data-theme-toggle]');
+    }
+
+    function makeThemeToggle() {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.id = 'cosy-theme-toggle';
+        btn.className = 'cosy-theme-toggle-btn';
+        btn.setAttribute('data-cosy-theme-toggle', '');
+        btn.textContent = currentTheme() === 'dark' ? '☀️' : '🌙';
+        return btn;
+    }
+
+    function ensureThemeToggle(host) {
+        if (!hasAttr(host, 'data-theme-toggle')) return;
+        // A page that already ships its own control keeps it; we only drive it.
+        var hasOwn = document.querySelector(THEME_CONTROL_SELECTOR);
+        if (hasOwn) { paintThemeToggles(currentTheme()); return; }
+        var slot = host.querySelector('.cosy-strip-extra');
+        if (slot && slot.querySelector && !slot.querySelector('#cosy-theme-toggle')) slot.appendChild(makeThemeToggle());
+    }
+
+    function watchTheme() {
+        document.addEventListener('click', function (e) {
+            var t = e.target && e.target.closest ? e.target.closest('#cosy-theme-toggle') : null;
+            if (!t) return;
+            e.preventDefault();
+            setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+        });
+        window.addEventListener('storage', function (e) {
+            if (e.key === THEME_KEY && (e.newValue === 'dark' || e.newValue === 'light')) applyTheme(e.newValue);
+        });
+        try {
+            if (window.matchMedia) {
+                var mq = window.matchMedia('(prefers-color-scheme: dark)');
+                if (mq.addEventListener) mq.addEventListener('change', function (e) {
+                    if (!storedTheme()) applyTheme(e.matches ? 'dark' : 'light');
+                });
+            }
+        } catch (e) {}
+    }
+
+    function initTheme() {
+        if (!themeOptedIn()) return;
+        // Apply before first paint (deferred scripts run before the page is painted).
+        applyTheme(storedTheme() || systemTheme());
+        watchTheme();
+    }
+
     function initAll() {
         Array.prototype.forEach.call(document.querySelectorAll('[data-ecosystem-strip]'), function (el) {
             if (!el.__ecosystemStripRendered) {
                 render(el);
+                ensureThemeToggle(el);
                 el.__ecosystemStripRendered = true;
             }
         });
@@ -151,6 +280,7 @@
     function refreshAll() {
         Array.prototype.forEach.call(document.querySelectorAll('[data-ecosystem-strip]'), function (el) {
             render(el);
+            ensureThemeToggle(el);
         });
     }
 
@@ -163,8 +293,9 @@
     }
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function () { initAll(); watchAuth(); });
+        document.addEventListener('DOMContentLoaded', function () { initTheme(); initAll(); watchAuth(); });
     } else {
+        initTheme();
         initAll();
         watchAuth();
     }
@@ -173,6 +304,9 @@
         render: render,
         refresh: refreshAll,
         isSignedIn: isSignedIn,
+        setTheme: setTheme,
+        getTheme: currentTheme,
+        toggleTheme: function () { setTheme(currentTheme() === 'dark' ? 'light' : 'dark'); },
         PUBLIC_DESTINATIONS: PUBLIC_DESTINATIONS,
         MEMBER_DESTINATIONS: MEMBER_DESTINATIONS
     };

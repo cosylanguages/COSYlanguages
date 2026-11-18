@@ -62,6 +62,26 @@
   align-items: center;
 }
 
+/* Shared theme toggle, added by the bar when a page opts in with data-theme-toggle. */
+.cosy-theme-toggle-btn {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--cosy-strip-fg);
+  border-radius: var(--cosy-radius-full, 100px);
+  padding: 2px 8px;
+  font: inherit;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.cosy-theme-toggle-btn:hover,
+.cosy-theme-toggle-btn:focus-visible {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--cosy-strip-accent);
+  outline: none;
+}
+
 .cosy-strip-link {
   color: var(--cosy-strip-fg);
   text-decoration: none;

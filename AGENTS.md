@@ -83,6 +83,22 @@ COSYpractice · COSYgames; COSYplatform and COSYmanuals are appended only for
 signed-in visitors (shared Supabase key `cosy-auth`). Do not hand-write the bar in
 a sibling repo — mount this component instead. Tests: `tests/ecosystem-strip.test.js`.
 
+### Shared theme engine (opt-in)
+
+The same file carries the shared dark-mode engine. Add `data-theme-toggle` to the
+mount to opt in: the saved or system theme is applied on load and, when the page
+has no theme control of its own, a toggle is appended to the bar's trailing slot.
+Pages without the attribute are not touched. The engine reads and writes the same
+keys as the per-site `cosy-theme.js` (`cosy.theme` primary, `cosy_theme` /
+`ce-theme` legacy), so the choice follows the visitor across the ecosystem.
+
+A page that already ships its own control (`[data-cosy-theme-toggle]`,
+`#cosy-theme-toggle`, `#bn-theme`, `.cg-theme-btn`, `.ev-theme-btn`,
+`.dh-theme-btn`, `.theme-toggle-btn`, `.cosy-theme-btn`) is left alone — the bar
+never adds a second toggle. Only opt in a page whose stylesheet chain reaches the
+dark tokens (`tokens.css`, directly or via `style.css`); a page without them would
+show a toggle that does nothing.
+
 ## Embeddable content (stable IDs + cross-repo embeds)
 
 Content that other repos quote gets a stable id and an embed component, so pages
