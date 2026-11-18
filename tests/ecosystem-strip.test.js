@@ -60,7 +60,7 @@ function load(hostEl, storage = {}, lang = 'en') {
     return context.window.COSY_EcosystemStrip;
 }
 
-const PUBLIC_KEYS = ['languages', 'events', 'data', 'tools', 'practice', 'games'];
+const PUBLIC_KEYS = ['languages', 'events', 'data', 'tools', 'practice', 'games', 'magazine'];
 const MEMBER_KEYS = ['platform', 'manuals'];
 
 function liveSession() {
@@ -79,7 +79,7 @@ test('Ecosystem Strip Suite', async (t) => {
         load(host);
         const links = linksOf(host.innerHTML);
         const labels = links.map((l) => l.label.replace(/ [^\s]+$/, '')); // drop trailing emoji
-        assert.deepEqual(labels, ['COSYlanguages', 'COSYevents', 'COSYdata', 'COSYtools', 'COSYpractice', 'COSYgames']);
+        assert.deepEqual(labels, ['COSYlanguages', 'COSYevents', 'COSYdata', 'COSYtools', 'COSYpractice', 'COSYgames', 'COSYmagazine']);
     });
 
     await t.test('2. The host\'s own site is left out', () => {

@@ -28,7 +28,8 @@
         { key: 'data',      label: 'COSYdata',      icon: '📊', url: BASE + 'COSYdata/' },
         { key: 'tools',     label: 'COSYtools',     icon: '🔎', url: BASE + 'COSYtools/' },
         { key: 'practice',  label: 'COSYpractice',  icon: '🗣️', url: BASE + 'COSYpractice/' },
-        { key: 'games',     label: 'COSYgames',     icon: '🎮', url: BASE + 'COSYgames/' }
+        { key: 'games',     label: 'COSYgames',     icon: '🎮', url: BASE + 'COSYgames/' },
+        { key: 'magazine',  label: 'COSYmagazine',  icon: '📰', url: BASE + 'COSYmagazine/' }
     ];
 
     // Gated / account areas, revealed only to signed-in visitors.
