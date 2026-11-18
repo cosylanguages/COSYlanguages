@@ -551,3 +551,171 @@ body.theme-dark .daily-strip-toggle-translation-btn:hover {
     line-height: 1;
     margin-right: 0.15em;
 }
+
+/* ---- Visual polish ----
+   A sage-to-honey accent edge, a segmented tab control that never clips, a calmer header and a
+   reading panel with an accent rule. Overrides the base rules above; colours keep the COSY tokens. */
+.daily-strip-container {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--cosy-color-sage-mist, #F0F5F1) 0, var(--cosy-color-warm-white, #FFFEFB) 120px);
+    box-shadow: 0 10px 30px rgba(46, 74, 51, 0.10), 0 1px 3px rgba(46, 74, 51, 0.06);
+}
+
+.daily-strip-container::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--cosy-color-sage, #416B49), var(--cosy-color-honey-mid, #E9B949));
+}
+
+.daily-strip-header {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.daily-strip-title-icon {
+    display: inline-grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--cosy-color-honey-pale, #FFF8E7);
+    font-size: 1.1rem;
+}
+
+.daily-strip-header-actions {
+    gap: 0.45rem;
+}
+
+.daily-strip-challenge-pill,
+.daily-strip-streak,
+.daily-strip-done-btn {
+    padding: 0.28rem 0.65rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
+}
+
+/* Tabs: segmented control */
+.daily-strip-tabs {
+    gap: 0.25rem;
+    padding: 0.25rem;
+    margin-bottom: 0.9rem;
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+    border-radius: var(--cosy-radius-full, 100px);
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+}
+
+.daily-strip-tab {
+    flex: 1 1 0;
+    justify-content: center;
+    min-width: 0;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.88rem;
+    border: 0;
+    border-radius: var(--cosy-radius-full, 100px);
+}
+
+.daily-strip-tab:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.daily-strip-tab[aria-selected="true"] {
+    background: #FFFFFF;
+    color: var(--cosy-color-sage-dark, #2E4A33);
+    box-shadow: 0 1px 4px rgba(46, 74, 51, 0.18);
+}
+
+/* Reading panel */
+.daily-strip-panel {
+    background: #FFFFFF;
+    border-left: 4px solid var(--cosy-color-sage, #416B49);
+    box-shadow: 0 1px 2px rgba(46, 74, 51, 0.05);
+    animation: daily-strip-in 0.25s ease both;
+}
+
+.daily-strip-prompt {
+    font-size: 1.28rem;
+    line-height: 1.45;
+}
+
+.daily-strip-level-bar {
+    padding: 0.2rem;
+    width: fit-content;
+    max-width: 100%;
+    border-radius: var(--cosy-radius-full, 100px);
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+    gap: 0.15rem;
+}
+
+.daily-strip-level-label {
+    padding: 0 0.5rem 0 0.6rem;
+}
+
+.daily-strip-level-btn {
+    border-color: transparent;
+    background: transparent;
+}
+
+.daily-strip-level-btn.active {
+    background: var(--cosy-color-sage, #416B49);
+}
+
+.daily-strip-practice-link {
+    padding: 0.4rem 0.9rem;
+    border-radius: var(--cosy-radius-full, 100px);
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(65, 107, 73, 0.3);
+}
+
+@keyframes daily-strip-in {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .daily-strip-panel { animation: none; }
+}
+
+html[data-theme="dark"] .daily-strip-container,
+body.theme-dark .daily-strip-container {
+    background: linear-gradient(180deg, #223026 0, #1B241E 120px);
+}
+
+html[data-theme="dark"] .daily-strip-tabs,
+html[data-theme="dark"] .daily-strip-level-bar,
+body.theme-dark .daily-strip-tabs,
+body.theme-dark .daily-strip-level-bar {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .daily-strip-tab[aria-selected="true"],
+body.theme-dark .daily-strip-tab[aria-selected="true"] {
+    background: #2D4A37;
+    color: #FFFFFF;
+}
+
+html[data-theme="dark"] .daily-strip-panel,
+body.theme-dark .daily-strip-panel {
+    background: #1F2A22;
+}
+
+@media (max-width: 480px) {
+    .daily-strip-tabs { border-radius: 18px; }
+    .daily-strip-tab {
+        flex-direction: column;
+        gap: 0.1rem;
+        font-size: 0.76rem;
+        line-height: 1.15;
+        text-align: center;
+        white-space: normal;
+        padding: 0.4rem 0.25rem;
+        border-radius: 14px;
+    }
+    .daily-strip-level-bar { border-radius: 18px; }
+    .daily-strip-prompt { font-size: 1.15rem; }
+}
