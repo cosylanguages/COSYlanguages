@@ -1,8 +1,8 @@
 [
   {
     "id": "fr:fact:1",
-    "fact": "Le français est parlé comme langue officielle dans 29 pays à travers le monde.",
-    "topic": "demographics"
+    "fact": "Le français est langue officielle dans vingt-neuf pays.",
+    "topic": "global"
   },
   {
     "id": "fr:fact:2",
@@ -11,317 +11,142 @@
   },
   {
     "id": "fr:fact:3",
-    "fact": "L'Académie française préserve officiellement la langue française depuis sa création en 1635.",
-    "topic": "history"
+    "fact": "L'Académie française, fondée en 1635 par Richelieu, veille sur la langue.",
+    "topic": "figures"
   },
   {
     "id": "fr:fact:4",
-    "fact": "La lettre 'E' est la lettre la plus fréquemment utilisée dans les textes français.",
-    "topic": "alphabet"
-  },
-  {
-    "id": "fr:fact:5",
-    "fact": "Le mot 'oiseau' contient toutes les voyelles fondamentales sans répétition.",
-    "topic": "vocabulary"
-  },
-  {
-    "id": "fr:fact:6",
-    "fact": "Le 'verlan' est une forme d'argot français qui inverse les syllabes des mots.",
-    "topic": "linguistics"
-  },
-  {
-    "id": "fr:fact:7",
-    "fact": "Le français a servi de langue officielle en Angleterre pendant près de trois siècles après 1066.",
+    "fact": "Après 1066, le français a été la langue de la cour d'Angleterre pendant près de trois siècles.",
     "topic": "history"
   },
   {
-    "id": "fr:fact:8",
-    "fact": "Le pangramme 'Portez ce vieux whisky au juge blond qui fume' contient toutes les lettres de l'alphabet français.",
-    "topic": "alphabet"
-  },
-  {
-    "id": "fr:fact:9",
-    "fact": "Le français est l'une des langues officielles des Nations Unies et du Comité International Olympique.",
-    "topic": "global"
-  },
-  {
-    "id": "fr:fact:10",
-    "fact": "La langue française s'enrichit régulièrement de nouveaux termes proposés par l'OIF et l'Académie française.",
+    "id": "fr:fact:5",
+    "fact": "Le 'verlan' inverse les syllabes des mots, comme 'femme' qui devient 'meuf'.",
     "topic": "linguistics"
   },
   {
+    "id": "fr:fact:6",
+    "fact": "Le mot 'oiseau' contient les cinq voyelles sans répétition.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "fr:fact:7",
+    "fact": "Le pangramme 'Portez ce vieux whisky au juge blond qui fume' contient toutes les lettres de l'alphabet.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "fr:fact:8",
+    "fact": "Le français est l'une des langues officielles de l'ONU.",
+    "topic": "global"
+  },
+  {
+    "id": "fr:fact:9",
+    "fact": "Les Serments de Strasbourg, en 842, sont le plus ancien texte conservé en français.",
+    "topic": "history"
+  },
+  {
+    "id": "fr:fact:10",
+    "fact": "François Rabelais a enrichi le français de nombreux mots nouveaux.",
+    "topic": "literature"
+  },
+  {
     "id": "fr:fact:11",
-    "fact": "Le français a été la langue officielle de l'Angleterre de 1066 à 1399.",
-    "topic": "legacy"
+    "fact": "Les comédies de Molière ont fixé des expressions encore utilisées aujourd'hui.",
+    "topic": "literature"
   },
   {
     "id": "fr:fact:12",
-    "fact": "L'Académie française a été fondée en 1635 par le cardinal de Richelieu.",
-    "topic": "legacy"
+    "fact": "L'Académie française publie un dictionnaire depuis 1694.",
+    "topic": "institutions"
   },
   {
     "id": "fr:fact:13",
-    "fact": "Le mot 'oiseaux' contient toutes les voyelles sauf le Y.",
-    "topic": "legacy"
+    "fact": "L'accent circonflexe marque souvent un ancien 's' disparu, comme dans 'forêt'.",
+    "topic": "etymology"
   },
   {
     "id": "fr:fact:14",
-    "fact": "Le français est parlé par plus de 320 millions de personnes sur 5 continents.",
-    "topic": "legacy"
+    "fact": "Victor Hugo est l'un des auteurs les plus traduits au monde.",
+    "topic": "literature"
   },
   {
     "id": "fr:fact:15",
-    "fact": "Le plus long mot français officiel est 'intergouvernementalisations' (27 lettres).",
-    "topic": "legacy"
+    "fact": "Le français a été la langue de la diplomatie européenne depuis le XVIIe siècle.",
+    "topic": "global"
   },
   {
     "id": "fr:fact:16",
-    "fact": "En français, tous les jours de la semaine finissent par 'di' sauf dimanche.",
-    "topic": "legacy"
+    "fact": "'Chocolat', 'tomate' et 'avocat' viennent de langues amérindiennes.",
+    "topic": "etymology"
   },
   {
     "id": "fr:fact:17",
-    "fact": "Le vouvoiement ('vous') remonte au Bas-Empire romain.",
-    "topic": "legacy"
+    "fact": "Au Québec, le français est la langue officielle.",
+    "topic": "global"
   },
   {
     "id": "fr:fact:18",
-    "fact": "Le mot 'bureau' désignait à l'origine une étoffe de laine tisse de bure.",
-    "topic": "legacy"
+    "fact": "En France, 70, 80 et 90 se disent 'soixante-dix', 'quatre-vingts' et 'quatre-vingt-dix'.",
+    "topic": "vocabulary"
   },
   {
     "id": "fr:fact:19",
-    "fact": "Le mot 'bonjour' est l'une des salutations les plus connues au monde.",
-    "topic": "legacy"
+    "fact": "Le français distingue le 'tu' familier et le 'vous' de politesse.",
+    "topic": "grammar"
   },
   {
     "id": "fr:fact:20",
-    "fact": "Le mot 'restaurant' vient du verbe restaurer (redonner de la force).",
-    "topic": "legacy"
+    "fact": "Les liaisons relient les mots, comme 'les amis' prononcé 'lé-z-ami'.",
+    "topic": "phonetics"
   },
   {
     "id": "fr:fact:21",
-    "fact": "L'accent circonflexe (^) marque souvent un 's' disparu du latin.",
-    "topic": "legacy"
+    "fact": "Le pronom 'on' remplace souvent 'nous' à l'oral.",
+    "topic": "grammar"
   },
   {
     "id": "fr:fact:22",
-    "fact": "La francophonie regroupe 88 états et gouvernements membres de l'OIF.",
-    "topic": "legacy"
+    "fact": "Le mot 'aujourd'hui' vient de 'au jour d'hui', où 'hui' signifiait 'ce jour'.",
+    "topic": "etymology"
   },
   {
     "id": "fr:fact:23",
-    "fact": "Le mot 'travail' vient du latin tripalium (instrument à trois pieux).",
-    "topic": "legacy"
+    "fact": "La francophonie regroupe plus de 300 millions de locuteurs.",
+    "topic": "demographics"
   },
   {
     "id": "fr:fact:24",
-    "fact": "Le verbe 'être' provient de trois verbes latins différents.",
-    "topic": "legacy"
+    "fact": "'Oui' descend du latin 'hoc ille'.",
+    "topic": "etymology"
   },
   {
     "id": "fr:fact:25",
-    "fact": "L'expression 'poser un lapin' signifiait au XIXe siècle ne pas payer une prestation.",
-    "topic": "legacy"
+    "fact": "Georges Perec a écrit tout un roman, 'La Disparition', sans jamais employer la lettre 'e'.",
+    "topic": "literature"
   },
   {
     "id": "fr:fact:26",
-    "fact": "Le mot 'aujourd'hui' contient un pléonasme ('hui' signifiait ce jour).",
-    "topic": "legacy"
+    "fact": "Le français s'écrit avec l'accent aigu, grave, circonflexe, le tréma et la cédille.",
+    "topic": "alphabet"
   },
   {
     "id": "fr:fact:27",
-    "fact": "Le français est la langue officielle des Jeux Olympiques avec l'anglais.",
-    "topic": "legacy"
+    "fact": "Le prix Goncourt récompense chaque année un roman de langue française.",
+    "topic": "literature"
   },
   {
     "id": "fr:fact:28",
-    "fact": "En Suisse et Belgique, on dit 'septante' et 'nonante' au lieu de soixante-dix.",
-    "topic": "legacy"
+    "fact": "Le français est la langue de travail de nombreuses organisations internationales.",
+    "topic": "global"
   },
   {
     "id": "fr:fact:29",
-    "fact": "Le mot 'déjà-vu' est un terme français adopté universellement.",
-    "topic": "legacy"
+    "fact": "Le mot 'week-end' est un emprunt à l'anglais, malgré les recommandations officielles.",
+    "topic": "vocabulary"
   },
   {
     "id": "fr:fact:30",
-    "fact": "Le mot 'poubelle' vient du préfet Eugène Poubelle en 1883.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:31",
-    "fact": "Le verbe 'manger' vient du latin manducare (mâcher).",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:32",
-    "fact": "L'expression 'avoir le cafard' a été popularisée par Baudelaire en 1857.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:33",
-    "fact": "Le mot 'silhouette' vient du ministre Étienne de Silhouette.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:34",
-    "fact": "La virgule est le séparateur décimal officiel en français.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:35",
-    "fact": "Le mot 'biscuit' signifie littéralement 'cuit deux fois'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:36",
-    "fact": "Le français comporte environ 13% de mots empruntés à d'autres langues.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:37",
-    "fact": "Le mot 'pantalon' vient du personnage de comédie Pantalone.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:38",
-    "fact": "L'accent aigu (') ne s'utilise en français que sur la lettre E.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:39",
-    "fact": "Le mot 'chef' signifiait à l'origine 'tête' en ancien français.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:40",
-    "fact": "Le Grand Robert de la langue française contient plus de 100 000 mots.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:41",
-    "fact": "L'expression 'C'est la vie' est célèbre dans le monde entier.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:42",
-    "fact": "Le verbe 'savoir' et 'pouvoir' sont parmi les plus fréquents en français.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:43",
-    "fact": "Le mot 'timbre' désignait à l'origine une petite cloche.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:44",
-    "fact": "Le français était la langue de la diplomatie européenne du XVIIe au XXe siècle.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:45",
-    "fact": "Le mot 'savoir-faire' est un concept d'artisanat français international.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:46",
-    "fact": "L'expression 'revenons à nos moutons' vient de Maître Pathelin (1464).",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:47",
-    "fact": "Le mot 'orchestre' provient du grec orkhestra.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:48",
-    "fact": "Le français est la deuxième langue la plus étudiée dans l'UE.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:49",
-    "fact": "Le mot 'dépaysé' exprime le sentiment de changer complètement d'environnement.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:50",
-    "fact": "Le verbe 'vouloir' exprime à la fois la volonté et la politesse.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:51",
-    "fact": "Le mot 'château' vient du latin castellum (fort militaire).",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:52",
-    "fact": "Le mot 'rendez-vous' est entré en anglais au XVIe siècle.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:53",
-    "fact": "Le mot 'clafoutis' vient de l'occitan clafotis (remplir).",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:54",
-    "fact": "Le mot 'galette' vient de gal (galet/pierre plate en ancien français).",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:55",
-    "fact": "Le français utilise des guillemets doubles (« ») en typographie.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:56",
-    "fact": "Le mot 'amphithéâtre' provient directement du grec ancien.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:57",
-    "fact": "Le français ne possède pas de neutre grammaticien.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:58",
-    "fact": "Le mot 'bouchon' vient du mot bousche (poignée de paille).",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:59",
-    "fact": "Le verbe 'faire' est l'un des verbes les plus polyvalents du français.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:60",
-    "fact": "Le salut 'Enchanté' exprime la joie de faire la connaissance de quelqu'un.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:61",
-    "fact": "Le français a été la langue officielle de l'Angleterre pendant environ 300 ans.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:62",
-    "fact": "Le mot 'salut' peut signifier à la fois 'bonjour' et 'au revoir'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:63",
-    "fact": "Le français est souvent considéré comme la langue de la diplomatie.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:64",
-    "fact": "Environ 45 % des mots anglais sont d'origine française.",
-    "topic": "legacy"
-  },
-  {
-    "id": "fr:fact:65",
-    "fact": "Le français est la seule langue, avec l'anglais, à être parlée sur les 5 continents.",
-    "topic": "legacy"
+    "fact": "Le 'passé simple' est réservé à l'écrit soutenu et à la littérature.",
+    "topic": "grammar"
   }
 ]

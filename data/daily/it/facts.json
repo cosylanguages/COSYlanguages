@@ -1,327 +1,152 @@
 [
   {
     "id": "it:fact:1",
-    "fact": "L'italiano moderno deriva direttamente dal dialetto fiorentino utilizzato da Dante Alighieri e Francesco Petrarca.",
+    "fact": "L'italiano moderno deriva dal fiorentino di Dante e Petrarca.",
     "topic": "history"
   },
   {
     "id": "it:fact:2",
-    "fact": "L'alfabeto italiano classico è composto da sole 21 lettere, escludendo j, k, w, x e y usate nei forestierismi.",
+    "fact": "L'alfabeto italiano ha 21 lettere; j, k, w, x e y si usano solo nei forestierismi.",
     "topic": "alphabet"
   },
   {
     "id": "it:fact:3",
-    "fact": "L'italiano è la lingua internazionale della musica classica e dell'opera lirica.",
+    "fact": "L'italiano è la lingua internazionale della musica e dell'opera lirica.",
     "topic": "culture"
   },
   {
     "id": "it:fact:4",
-    "fact": "In Italia esistono decine di lingue regionali e dialetti storicamente indipendenti fra loro.",
+    "fact": "In Italia si parlano decine di lingue regionali e dialetti indipendenti.",
     "topic": "linguistics"
   },
   {
     "id": "it:fact:5",
-    "fact": "La parola 'ciao' deriva storicamente dalla formula veneta 'schiavo vostro' ('al vostro servizio').",
+    "fact": "La parola 'ciao' deriva dal veneto 's-ciao' ('schiavo vostro').",
     "topic": "etymology"
   },
   {
     "id": "it:fact:6",
-    "fact": "L'Accademia della Crusca, fondata a Firenze nel 1583, è una delle più antiche istituzioni linguistiche del mondo.",
-    "topic": "history"
+    "fact": "L'Accademia della Crusca, fondata a Firenze nel 1583, è tra le più antiche istituzioni linguistiche.",
+    "topic": "institutions"
   },
   {
     "id": "it:fact:7",
-    "fact": "L'italiano è lingua ufficiale anche in Svizzera, San Marino e nella Città del Vaticano.",
-    "topic": "demographics"
+    "fact": "L'italiano è lingua ufficiale anche in Svizzera, San Marino e Città del Vaticano.",
+    "topic": "global"
   },
   {
     "id": "it:fact:8",
-    "fact": "Il pangramma 'Quel vago giovanetto finto spia compera con zelo i beni di Xilofon' contiene tutte le lettere.",
-    "topic": "alphabet"
+    "fact": "La Divina Commedia di Dante ha fissato il volgare fiorentino come base della lingua.",
+    "topic": "literature"
   },
   {
     "id": "it:fact:9",
-    "fact": "Moltissime parole legate alla cucina e all'arte in tutto il mondo provengono dall'italiano.",
+    "fact": "Molte parole di cucina e d'arte nel mondo vengono dall'italiano.",
     "topic": "vocabulary"
   },
   {
     "id": "it:fact:10",
-    "fact": "In italiano le vocali sono sempre pronunciate in modo chiaro e definito.",
+    "fact": "In italiano le vocali si pronunciano in modo chiaro e stabile.",
     "topic": "phonetics"
   },
   {
     "id": "it:fact:11",
-    "fact": "L'italiano moderno si basa sul dialetto fiorentino del XIV secolo di Dante e Petrarca.",
-    "topic": "legacy"
+    "fact": "Petrarca e Boccaccio, con Dante, sono le 'tre corone' della letteratura italiana.",
+    "topic": "literature"
   },
   {
     "id": "it:fact:12",
-    "fact": "L'italiano è la quinta lingua più studiata al mondo.",
-    "topic": "legacy"
+    "fact": "L'italiano ha due generi e il plurale cambia la vocale finale.",
+    "topic": "grammar"
   },
   {
     "id": "it:fact:13",
-    "fact": "Il primo testo in volgare italiano è il Placito Capuano del 960 d.C.",
-    "topic": "legacy"
+    "fact": "Le doppie consonanti cambiano il significato, come 'pala' e 'palla'.",
+    "topic": "phonetics"
   },
   {
     "id": "it:fact:14",
-    "fact": "L'Accademia della Crusca a Firenze è stata fondata nel 1583.",
-    "topic": "legacy"
+    "fact": "Alessandro Manzoni, nei 'Promessi sposi', contribuì a unificare la lingua scritta.",
+    "topic": "figures"
   },
   {
     "id": "it:fact:15",
-    "fact": "La parola 'ciao' deriva da 'sciao vostro' (sono vostro schiavo) in veneziano.",
-    "topic": "legacy"
+    "fact": "L'italiano standard si basa sul fiorentino colto del Trecento.",
+    "topic": "history"
   },
   {
     "id": "it:fact:16",
-    "fact": "L'italiano è la lingua internazionale dell'opera lirica.",
-    "topic": "legacy"
+    "fact": "Il 'passato remoto' è tipico della narrazione scritta e del Sud.",
+    "topic": "grammar"
   },
   {
     "id": "it:fact:17",
-    "fact": "La parola italiana più lunga nel dizionario è 'precipitevolissimevolmente'.",
-    "topic": "legacy"
+    "fact": "Parole come 'pizza', 'opera' e 'ciao' sono entrate in molte lingue.",
+    "topic": "vocabulary"
   },
   {
     "id": "it:fact:18",
-    "fact": "In italiano quasi tutte le parole native terminano con una vocale.",
-    "topic": "legacy"
+    "fact": "Il 'congiuntivo' è un modo verbale molto usato in italiano.",
+    "topic": "grammar"
   },
   {
     "id": "it:fact:19",
-    "fact": "La parola 'spaghetti' è il diminutivo di 'spago'.",
-    "topic": "legacy"
+    "fact": "Giacomo Leopardi scrisse 'L'infinito', uno dei più celebri componimenti italiani.",
+    "topic": "literature"
   },
   {
     "id": "it:fact:20",
-    "fact": "L'italiano possiede oltre 30 dialetti regionali storici con grammatica propria.",
-    "topic": "legacy"
+    "fact": "L'italiano usa l'accento grafico solo sulle parole tronche e su alcune monosillabe.",
+    "topic": "typography"
   },
   {
     "id": "it:fact:21",
-    "fact": "La parola 'espresso' per il caffè significa fatto al momento.",
-    "topic": "legacy"
+    "fact": "L'Italia ha 20 regioni, molte con una propria lingua storica.",
+    "topic": "global"
   },
   {
     "id": "it:fact:22",
-    "fact": "La parola 'cappuccino' prende il nome dal saio dei frati cappuccini.",
-    "topic": "legacy"
+    "fact": "Il latino è alla base dell'italiano e delle altre lingue romanze.",
+    "topic": "etymology"
   },
   {
     "id": "it:fact:23",
-    "fact": "Il punto esclamativo fu introdotto da Coluccio Salutati nel XIV secolo.",
-    "topic": "legacy"
+    "fact": "La Crusca pubblicò il primo vocabolario dell'italiano nel 1612.",
+    "topic": "history"
   },
   {
     "id": "it:fact:24",
-    "fact": "L'alfabeto italiano tradizionale usa solo 21 lettere.",
-    "topic": "legacy"
+    "fact": "Italo Calvino è uno degli scrittori italiani più tradotti nel mondo.",
+    "topic": "figures"
   },
   {
     "id": "it:fact:25",
-    "fact": "La parola 'tiramisù' significa letteralmente 'sollevami il morale'.",
-    "topic": "legacy"
+    "fact": "L'italiano è la lingua ufficiale dell'ordine di Malta e della Santa Sede.",
+    "topic": "global"
   },
   {
     "id": "it:fact:26",
-    "fact": "La parola 'quarantena' è nata a Venezia nel XIV secolo per l'isolamento navale.",
-    "topic": "legacy"
+    "fact": "Parole come 'banca', 'rischio' e 'fallimento' nacquero nei mercati italiani del Medioevo e si diffusero in Europa.",
+    "topic": "etymology"
   },
   {
     "id": "it:fact:27",
-    "fact": "L'espressione 'in bocca al lupo' richiede la risposta 'crepi!'.",
-    "topic": "legacy"
+    "fact": "L'italiano usa 'tu' e 'lei' per distinguere informalità e cortesia.",
+    "topic": "grammar"
   },
   {
     "id": "it:fact:28",
-    "fact": "La parola 'fiasco' nel senso di fallimento viene dal teatro italiano.",
-    "topic": "legacy"
+    "fact": "Il sonetto nacque in Sicilia, alla corte di Federico II, nel XIII secolo.",
+    "topic": "literature"
   },
   {
     "id": "it:fact:29",
-    "fact": "L'italiano ha tre coniugazioni verbali principali (-are, -ere, -ire).",
-    "topic": "legacy"
+    "fact": "Il 'bel paese' è un soprannome dell'Italia, coniato da Dante.",
+    "topic": "culture"
   },
   {
     "id": "it:fact:30",
-    "fact": "Il gelato fu perfezionato a Firenze nel XVI secolo da Buontalenti.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:31",
-    "fact": "La parola 'biscotto' deriva dal latino bis coctus (cotto due volte).",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:32",
-    "fact": "L'espressione 'dolce far niente' descrive il piacere del riposo senza fretta.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:33",
-    "fact": "Il sonetto fu inventato in Sicilia nel XIII secolo da Giacomo da Lentini.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:34",
-    "fact": "La parola 'pantalone' deriva dalla maschera veneziana della Commedia dell'Arte.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:35",
-    "fact": "L'italiano è lingua ufficiale in Italia, Svizzera, San Marino e Vaticano.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:36",
-    "fact": "La parola 'pizza' è attestata per la prima volta nel 997 d.C. a Gaeta.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:37",
-    "fact": "La parola 'ghetto' è nata a Venezia nel 1516 dal nome di una fonderia.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:38",
-    "fact": "La parola 'paparazzi' deriva dal film La Dolce Vita di Federico Fellini.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:39",
-    "fact": "L'italiano ha oltre 160 000 parole nel Dizionario Gradit.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:40",
-    "fact": "La parola 'al fresco' in italiano significa all'aria aperta.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:41",
-    "fact": "Il termine 'maestro' è usato in tutto il mondo per direttori d'orchestra.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:42",
-    "fact": "L'espressione 'al dente' descrive la pasta cotta alla giusta consistenza.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:43",
-    "fact": "La parola 'ballottaggio' deriva dalle pallottole usate per votare a Venezia.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:44",
-    "fact": "L'italiano ha un ricco sistema di suffissi alterativi (-ino, -one, -accio).",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:45",
-    "fact": "La parola 'opera' significa semplicemente lavoro o composizione.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:46",
-    "fact": "La parola 'prima donna' indica la cantante lirica principale.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:47",
-    "fact": "L'italiano distingue nettamente le consonanti doppie dalle scempie (palla/pala).",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:48",
-    "fact": "La parola 'carnevale' deriva dal latino carnem levare.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:49",
-    "fact": "L'italiano è la lingua europea con maggiore corrispondenza grafia-pronuncia.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:50",
-    "fact": "La parola 'amarcord' fu inventata da Fellini in dialetto romagnolo.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:51",
-    "fact": "L'espressione 'buon appetito' è il saluto tradizionale prima del pasto.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:52",
-    "fact": "La parola 'allegro' in musica viene direttamente dall'italiano.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:53",
-    "fact": "Il termine 'scherzo' indica un movimento musicale veloce e vivace.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:54",
-    "fact": "La parola 'graffiti' deriva dall'italiano graffiato.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:55",
-    "fact": "L'italiano usa l'apostrofo per segnare l'elisione della vocale finale.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:56",
-    "fact": "La parola 'solfeggio' viene dalle note musicali Sol e Fa.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:57",
-    "fact": "Il termine 'intermezzo' indicava un'opera breve tra due atti principali.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:58",
-    "fact": "La parola 'piazza' deriva dal greco plateia (strada larga).",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:59",
-    "fact": "La parola 'bruscamente' deriva da brusco (aspro/pungente).",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:60",
-    "fact": "L'espressione 'buona giornata' si usa per augurare una felice giornata.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:61",
-    "fact": "L'italiano è diventato la lingua ufficiale d'Italia solo nel 1861.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:62",
-    "fact": "Il nome 'Italia' deriva probabilmente dal vocabolo 'vitu' (vitello) delle tribù italiche.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:63",
     "fact": "L'italiano è la quarta lingua più studiata al mondo.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:64",
-    "fact": "La parola 'Ciao' deriva dal veneziano 's'ciavo vostro', che significa 'sono vostro schiavo'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "it:fact:65",
-    "fact": "L'alfabeto italiano standard ha solo 21 lettere; J, K, W, X e Y sono usate solo per parole straniere.",
-    "topic": "legacy"
+    "topic": "demographics"
   }
 ]
