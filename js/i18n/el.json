@@ -7,16 +7,16 @@
     "games": "Παιχνίδια",
     "events": "Εκδηλώσεις",
     "contact": "Επικοινωνία",
-    "languages": "Γλώσσες 🌍",
+    "languages": "Γλώσσες",
     "myLessons": "Τα μαθήματά μου 🔐",
-    "login": "🔐 Σύνδεση",
+    "login": "Σύνδεση",
     "courses": "Μαθήματα",
     "calculator": "Υπολογιστής",
     "magazine": "Περιοδικό",
     "blog": "Περιοδικό",
     "placement_quiz": "Τεστ επιπέδου",
-    "toggle_dark_mode": "🌓 Σκοτεινή λειτουργία",
-    "whatsapp_contact": "💬 Επικοινωνήστε μαζί μας στο WhatsApp"
+    "toggle_dark_mode": "Σκοτεινή λειτουργία",
+    "whatsapp_contact": "Επικοινωνήστε μαζί μας στο WhatsApp"
   },
   "footer": {
     "courses": "Μαθήματα",

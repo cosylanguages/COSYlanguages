@@ -7,16 +7,16 @@
     "games": "Игры",
     "events": "Клубы",
     "contact": "Связаться",
-    "languages": "Языки 🌍",
+    "languages": "Языки",
     "myLessons": "Мои уроки 🔐",
-    "login": "🔐 Вход",
+    "login": "Вход",
     "courses": "Курсы",
     "calculator": "Калькулятор",
     "magazine": "Журнал",
     "blog": "Журнал",
     "placement_quiz": "Тест уровня",
-    "toggle_dark_mode": "🌓 Тёмная тема",
-    "whatsapp_contact": "💬 Написать нам в WhatsApp"
+    "toggle_dark_mode": "Тёмная тема",
+    "whatsapp_contact": "Написать нам в WhatsApp"
   },
   "footer": {
     "courses": "Курсы",

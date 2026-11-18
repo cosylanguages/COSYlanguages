@@ -125,11 +125,9 @@ function getNavHref(itemKey) {
 const NAV_CONFIG = {
     free: [
         { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
-        { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
-        { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' },
+        { key: 'events',         hrefKey: 'events',         icon: '🎉' },
         { key: 'magazine',       hrefKey: 'magazine',       icon: '📰' },
-        { key: 'practice',       hrefKey: 'practice',       icon: '💡' },
-        { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' }
+        { key: 'practice',       hrefKey: 'practice',       icon: '💡' }
     ]
 };
 
@@ -305,11 +303,11 @@ function getActiveNavLang() {
 }
 
 const NAV_FALLBACKS = {
-    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', magazine: 'Magazine', blog: 'Magazine', join: 'Join', contact: '💬 Contact us', login: '🔐 Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Toggle Dark Mode', whatsapp_contact: '💬 Contact us on WhatsApp' },
-    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', magazine: 'Magazine', blog: 'Magazine', join: 'Rejoindre', contact: '💬 Contact', login: '🔐 Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil', toggle_dark_mode: '🌓 Mode sombre', whatsapp_contact: '💬 Contactez-nous sur WhatsApp' },
-    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', magazine: 'Magazine', blog: 'Magazine', join: 'Unisciti', contact: '💬 Contatti', login: '🔐 Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Modalità scura', whatsapp_contact: '💬 Contattaci su WhatsApp' },
-    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', magazine: 'Журнал', blog: 'Журнал', join: 'Начать', contact: '💬 Связь', login: '🔐 Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная', toggle_dark_mode: '🌓 Тёмная тема', whatsapp_contact: '💬 Написать нам в WhatsApp' },
-    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', magazine: 'Περιοδικό', blog: 'Περιοδικό', join: 'Εγγραφή', contact: '💬 Επικοινωνία', login: '🔐 Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική', toggle_dark_mode: '🌓 Σκοτεινή λειτουργία', whatsapp_contact: '💬 Επικοινωνήστε μαζί μας στο WhatsApp' }
+    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', magazine: 'Magazine', blog: 'Magazine', join: 'Join', contact: 'Contact us', login: 'Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home', toggle_dark_mode: 'Toggle Dark Mode', whatsapp_contact: 'Contact us on WhatsApp' },
+    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', magazine: 'Magazine', blog: 'Magazine', join: 'Rejoindre', contact: 'Contact', login: 'Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil', toggle_dark_mode: 'Mode sombre', whatsapp_contact: 'Contactez-nous sur WhatsApp' },
+    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', magazine: 'Magazine', blog: 'Magazine', join: 'Unisciti', contact: 'Contatti', login: 'Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home', toggle_dark_mode: 'Modalità scura', whatsapp_contact: 'Contattaci su WhatsApp' },
+    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', magazine: 'Журнал', blog: 'Журнал', join: 'Начать', contact: 'Связь', login: 'Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная', toggle_dark_mode: 'Тёмная тема', whatsapp_contact: 'Написать нам в WhatsApp' },
+    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', magazine: 'Περιοδικό', blog: 'Περιοδικό', join: 'Εγγραφή', contact: 'Επικοινωνία', login: 'Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική', toggle_dark_mode: 'Σκοτεινή λειτουργία', whatsapp_contact: 'Επικοινωνήστε μαζί μας στο WhatsApp' }
 };
 
 function getNavLabel(key, fallback) {
@@ -336,7 +334,8 @@ function renderNavLinks(mode) {
         const href = getNavHref(item.hrefKey || item.key);
         const isExternal = href.startsWith('http://') || href.startsWith('https://');
         const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
-        return `<li role="none"><a href="${href}" ${isActive(href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem"${targetAttr}>${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
+        const icon = item.icon ? `<span class="nav-item-icon" aria-hidden="true">${item.icon}</span> ` : '';
+        return `<li role="none"><a href="${href}" ${isActive(href)} role="menuitem"${targetAttr}>${icon}<span data-translate-key="${key}" data-i18n="nav.${item.key}">${label}</span></a></li>`;
     }).join('');
 }
 
@@ -396,8 +395,8 @@ function navFree () {
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right" style="display:flex; align-items:center; gap:8px;">
-        <a href="${loginHref}" class="nav-login" data-translate-key="nav_login" data-i18n="nav.login">${t('login', '🔐 Log in')}</a>
-        <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" rel="noopener" data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', '💬 Contact us')}</a>
+        <a href="${loginHref}" class="nav-login"><span class="nav-item-icon" aria-hidden="true">🔐</span> <span data-translate-key="nav_login" data-i18n="nav.login">${t('login', 'Log in')}</span></a>
+        <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" rel="noopener"><span class="nav-item-icon" aria-hidden="true">💬</span> <span data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', 'Contact us')}</span></a>
         <div class="cosy-lang-dropdown-wrap" style="position:relative;">
           <button id="cosy-lang-menu-btn" type="button" class="cosy-lang-menu-btn" aria-haspopup="dialog" aria-expanded="false" aria-controls="cosy-lang-panel" aria-label="Select Language" onclick="COSY.toggleLangPanel()" style="background:none; border:1px solid var(--border); border-radius:var(--r-sm); padding:4px 8px; font-size:0.85rem; height:36px; cursor:pointer; display:inline-flex; align-items:center; gap:4px; color:var(--ink);">
             🌐 <span class="cosy-pinned-lang-label" id="cosy-pinned-lang-badge">${pinnedLang.toUpperCase()}</span>
@@ -602,7 +601,8 @@ function mobileMenuHTML (mode) {
         const href = getNavHref(item.hrefKey || item.key);
         const isExternal = href.startsWith('http://') || href.startsWith('https://');
         const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
-        return `<a href="${href}" ${targetAttr} class="cosy-mobile-nav-link" data-translate-key="nav_${item.key}" data-i18n="nav.${item.key}">${item.icon ? item.icon + ' ' : ''}${label}</a>`;
+        const icon = item.icon ? `<span class="nav-item-icon" aria-hidden="true">${item.icon}</span> ` : '';
+        return `<a href="${href}" ${targetAttr} class="cosy-mobile-nav-link">${icon}<span data-translate-key="nav_${item.key}" data-i18n="nav.${item.key}">${label}</span></a>`;
     }).join('\n      ');
 
     const langs = (typeof window !== 'undefined' && window.COSY_LANGUAGES && window.COSY_LANGUAGES.length)
@@ -616,9 +616,9 @@ function mobileMenuHTML (mode) {
         ];
 
     return `
-      <a href="${homeUrl}" class="cosy-mobile-nav-link" data-translate-key="nav_home" data-i18n="nav.home">🏡 ${t('home', 'Home')}</a>
+      <a href="${homeUrl}" class="cosy-mobile-nav-link"><span class="nav-item-icon" aria-hidden="true">🏡</span> <span data-translate-key="nav_home" data-i18n="nav.home">${t('home', 'Home')}</span></a>
       ${linksHtml}
-      <a href="${loginHref}" class="cosy-mobile-nav-link" data-translate-key="nav_login" data-i18n="nav.login">${t('login', '🔐 Log in')}</a>
+      <a href="${loginHref}" class="cosy-mobile-nav-link"><span class="nav-item-icon" aria-hidden="true">🔐</span> <span data-translate-key="nav_login" data-i18n="nav.login">${t('login', 'Log in')}</span></a>
 
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
 
@@ -635,7 +635,7 @@ function mobileMenuHTML (mode) {
 
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
 
-      <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="cosy-mobile-nav-link mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;" data-translate-key="nav_toggle_dark_mode" data-i18n="nav.toggle_dark_mode">${t('toggle_dark_mode', '🌓 Toggle Dark Mode')}</a>
+      <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="cosy-mobile-nav-link mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;"><span class="nav-item-icon" aria-hidden="true">🌓</span> <span data-translate-key="nav_toggle_dark_mode" data-i18n="nav.toggle_dark_mode">${t('toggle_dark_mode', 'Toggle Dark Mode')}</span></a>
 
       <div class="cosy-mobile-lang-section" style="padding: 8px 12px;">
          <span style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft, #666); display: block; margin-bottom: 6px;" data-i18n="label.language">Languages We Teach 🌍</span>
@@ -653,7 +653,7 @@ function mobileMenuHTML (mode) {
       </div>
 
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
-      <a href="https://wa.me/330766784195" target="_blank" rel="noopener" class="mm-cta cosy-mobile-nav-link" style="background: var(--sage, #416b49); color: #fff; font-weight: 700; border-radius: 100px; text-align: center; justify-content: center;" data-translate-key="nav_whatsapp_contact" data-i18n="nav.whatsapp_contact">${t('whatsapp_contact', '💬 Contact us on WhatsApp')}</a>`
+      <a href="https://wa.me/330766784195" target="_blank" rel="noopener" class="mm-cta cosy-mobile-nav-link" style="background: var(--sage, #416b49); color: #fff; font-weight: 700; border-radius: 100px; text-align: center; justify-content: center;"><span class="nav-item-icon" aria-hidden="true">💬</span> <span data-translate-key="nav_whatsapp_contact" data-i18n="nav.whatsapp_contact">${t('whatsapp_contact', 'Contact us on WhatsApp')}</span></a>`
 }
 
 function updateMobileNavTranslated() {

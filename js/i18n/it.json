@@ -7,16 +7,16 @@
     "games": "Giochi",
     "events": "Eventi",
     "contact": "Contattaci",
-    "languages": "Lingue 🌍",
+    "languages": "Lingue",
     "myLessons": "Le mie lezioni 🔐",
-    "login": "🔐 Accedi",
+    "login": "Accedi",
     "courses": "Corsi",
     "calculator": "Calcolatore",
     "magazine": "Magazine",
     "blog": "Magazine",
     "placement_quiz": "Test di livello",
-    "toggle_dark_mode": "🌓 Modalità scura",
-    "whatsapp_contact": "💬 Contattaci su WhatsApp"
+    "toggle_dark_mode": "Modalità scura",
+    "whatsapp_contact": "Contattaci su WhatsApp"
   },
   "footer": {
     "courses": "Corsi",
