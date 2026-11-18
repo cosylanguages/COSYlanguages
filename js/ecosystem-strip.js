@@ -101,13 +101,7 @@
 
     // Hosts may keep their own trailing control (e.g. COSYtools' theme toggle) inside the bar:
     //   <div data-ecosystem-strip data-self="tools"><button id="cosy-theme-toggle">…</button></div>
-    function extractExtra(host) {
-        var extra = host.querySelector('[data-strip-extra], #cosy-theme-toggle');
-        if (!extra) return '';
-        var html = extra.outerHTML;
-        extra.parentNode.removeChild(extra);
-        return html;
-    }
+    var EXTRA_SELECTOR = '[data-strip-extra], #cosy-theme-toggle';
 
     function render(host) {
         var selfKey = (host.getAttribute('data-self') || '').trim().toLowerCase();
@@ -129,12 +123,18 @@
             return;
         }
 
-        var extraHTML = extractExtra(host);
+        var extra = host.querySelector(EXTRA_SELECTOR);
         host.innerHTML = '<div class="cosy-strip-inner">' +
             '<span class="cosy-strip-brand">' + escapeHTML(t.brand) + '</span>' +
             '<ul class="cosy-strip-links">' + linksHTML(selfKey) + '</ul>' +
-            (extraHTML ? '<span class="cosy-strip-extra">' + extraHTML + '</span>' : '') +
+            '<span class="cosy-strip-extra"></span>' +
             '</div>';
+
+        // Move the live node (not a copy) into the trailing slot so it keeps its listeners.
+        if (extra) {
+            var slot = host.querySelector('.cosy-strip-extra');
+            if (slot && slot.appendChild) slot.appendChild(extra);
+        }
     }
 
     function initAll() {

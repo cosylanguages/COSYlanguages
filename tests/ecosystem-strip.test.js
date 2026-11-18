@@ -153,12 +153,9 @@ test('Ecosystem Strip Suite', async (t) => {
         assert.ok(unknown.innerHTML.includes('🌐 COSY Ecosystem:'), 'unknown language falls back to English');
     });
 
-    await t.test('9. A host control inside the mount is kept in the bar', () => {
-        // Minimal DOM good enough for extractExtra: one child with an outerHTML + parentNode.
-        const toggle = {
-            outerHTML: '<button id="cosy-theme-toggle">Dark</button>',
-            parentNode: { removeChild() { toggle.__removed = true; } }
-        };
+    await t.test('9. A host control inside the mount is moved into the bar', () => {
+        const toggle = { id: 'cosy-theme-toggle' };
+        const slot = { _kids: [], appendChild(n) { this._kids.push(n); } };
         const host = {
             _html: '', _attrs: { 'data-self': 'tools' }, _classes: [],
             classList: { add(c) { host._classes.push(c); } },
@@ -167,13 +164,16 @@ test('Ecosystem Strip Suite', async (t) => {
             get innerHTML() { return this._html; },
             set innerHTML(v) { this._html = v; },
             querySelector(sel) {
-                if (sel.includes('cosy-theme-toggle')) return toggle;
+                if (sel === '.cosy-strip-inner') return null;
+                if (sel.indexOf('cosy-theme-toggle') !== -1) return toggle;
+                if (sel === '.cosy-strip-extra') {
+                    return host._html.includes('cosy-strip-extra') ? slot : null;
+                }
                 return null;
             }
         };
         load(host);
-        assert.ok(toggle.__removed, 'the control is moved out of its original place');
-        assert.ok(host.innerHTML.includes('cosy-theme-toggle'), 'the control is placed back in the bar');
+        assert.deepEqual(slot._kids, [toggle], 'the live control node is moved into the trailing slot');
         assert.ok(host.innerHTML.includes('cosy-strip-extra'));
         assert.ok(host.innerHTML.includes('COSYlanguages'), 'links still render');
     });
