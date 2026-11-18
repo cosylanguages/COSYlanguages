@@ -1,302 +1,152 @@
 [
   {
     "id": "es:fact:1",
-    "fact": "El español es la segunda lengua materna más hablada del mundo por número de hablantes nativos.",
+    "fact": "El español es la segunda lengua materna más hablada del mundo tras el chino mandarín.",
     "topic": "demographics"
   },
   {
     "id": "es:fact:2",
-    "fact": "El alfabeto español incluye la letra 'Ñ', que fue añadida oficialmente en el siglo XVIII.",
+    "fact": "La letra 'ñ' se añadió oficialmente al alfabeto en el siglo XVIII.",
     "topic": "alphabet"
   },
   {
     "id": "es:fact:3",
-    "fact": "En español se utilizan los signos de interrogación y exclamación invertidos (¿ ¡) al inicio de las oraciones.",
+    "fact": "El español usa signos de interrogación y exclamación invertidos al inicio (¿ ¡).",
     "topic": "punctuation"
   },
   {
     "id": "es:fact:4",
-    "fact": "El español es idioma oficial en 21 países de Europa, América y África.",
+    "fact": "El español es idioma oficial en 21 países.",
     "topic": "global"
   },
   {
     "id": "es:fact:5",
-    "fact": "La obra 'Don Quijote de la Mancha' de Miguel de Cervantes es considerada la primera novela moderna.",
+    "fact": "'Don Quijote de la Mancha', de Miguel de Cervantes, se considera la primera novela moderna.",
     "topic": "literature"
   },
   {
     "id": "es:fact:6",
-    "fact": "El pangrama 'Benjamín pidió una bebida con whisky y hielo al viejo mozo' contiene casi todas las letras del alfabeto.",
-    "topic": "alphabet"
-  },
-  {
-    "id": "es:fact:7",
-    "fact": "Aproximadamente 4.000 palabras en español provienen del árabe debido a ocho siglos de convivencia histórica.",
+    "fact": "Unas 4.000 palabras del español provienen del árabe, tras ocho siglos de convivencia.",
     "topic": "etymology"
   },
   {
+    "id": "es:fact:7",
+    "fact": "La Real Academia Española se fundó en 1713 para fijar la lengua.",
+    "topic": "institutions"
+  },
+  {
     "id": "es:fact:8",
-    "fact": "La Real Academia Española (RAE) fue fundada en 1713 para regular y fijar la lengua española.",
-    "topic": "history"
+    "fact": "Palabras como 'chocolate', 'tomate' y 'aguacate' llegaron del náhuatl.",
+    "topic": "etymology"
   },
   {
     "id": "es:fact:9",
-    "fact": "El español tiene un sistema fonético claro donde las cinco vocales siempre mantienen el mismo sonido básico.",
+    "fact": "El español tiene cinco vocales con un sonido estable.",
     "topic": "phonetics"
   },
   {
     "id": "es:fact:10",
-    "fact": "Palabras como 'chocolate', 'tomate' y 'aguacate' llegaron al español procedentes del náhuatl.",
-    "topic": "etymology"
+    "fact": "Cervantes y Shakespeare murieron en 1616, casi al mismo tiempo.",
+    "topic": "literature"
   },
   {
     "id": "es:fact:11",
-    "fact": "El español es la segunda lengua materna más hablada del mundo tras el mandarín.",
-    "topic": "legacy"
+    "fact": "El español se escribe con dos puntos de interrogación: uno de apertura y otro de cierre.",
+    "topic": "punctuation"
   },
   {
     "id": "es:fact:12",
-    "fact": "El español se habla oficialmente en 21 países de América, Europa y África.",
-    "topic": "legacy"
+    "fact": "El 'vosotros' se usa en España, mientras que en América se emplea 'ustedes'.",
+    "topic": "grammar"
   },
   {
     "id": "es:fact:13",
-    "fact": "El primer libro de gramática española fue escrito por Nebrija en 1492.",
-    "topic": "legacy"
+    "fact": "El español distingue el 'tú' y el 'usted' según la formalidad.",
+    "topic": "grammar"
   },
   {
     "id": "es:fact:14",
-    "fact": "La letra 'ñ' nació en los monasterios medievales como abreviatura de 'nn'.",
-    "topic": "legacy"
+    "fact": "Gabriel García Márquez, premio Nobel de 1982, escribió 'Cien años de soledad'.",
+    "topic": "figures"
   },
   {
     "id": "es:fact:15",
-    "fact": "El español tiene más de 88.000 palabras registradas en el Diccionario de la RAE.",
-    "topic": "legacy"
+    "fact": "El español es la lengua romance con más hablantes nativos.",
+    "topic": "linguistics"
   },
   {
     "id": "es:fact:16",
-    "fact": "La palabra 'ojo' proviene del latín oculus.",
-    "topic": "legacy"
+    "fact": "El 'voseo' emplea 'vos' en lugar de 'tú' en varios países americanos.",
+    "topic": "grammar"
   },
   {
     "id": "es:fact:17",
-    "fact": "Los signos de apertura (¿, ¡) son únicos del idioma español.",
-    "topic": "legacy"
+    "fact": "El diccionario de la RAE y la ASALE es obra conjunta de 23 academias.",
+    "topic": "institutions"
   },
   {
     "id": "es:fact:18",
-    "fact": "El español es una lengua romance derivada del latín vulgar ibérico.",
-    "topic": "legacy"
+    "fact": "La letra 'ñ' nació de la abreviatura de 'nn' en manuscritos medievales.",
+    "topic": "etymology"
   },
   {
     "id": "es:fact:19",
-    "fact": "La palabra 'ojalá' proviene del árabe hispánico aw šá lláh ('si Dios quiere').",
-    "topic": "legacy"
+    "fact": "El español procede del latín vulgar hablado en la península ibérica.",
+    "topic": "history"
   },
   {
     "id": "es:fact:20",
-    "fact": "El español cuenta con más de 4.000 palabras de origen árabe.",
-    "topic": "legacy"
+    "fact": "'El Aleph' y 'Ficciones', de Jorge Luis Borges, renovaron la narrativa del siglo XX.",
+    "topic": "literature"
   },
   {
     "id": "es:fact:21",
-    "fact": "La palabra más larga en la RAE es electroencefalografista (23 letras).",
-    "topic": "legacy"
+    "fact": "El español tiene dos géneros gramaticales y el artículo concuerda con el sustantivo.",
+    "topic": "grammar"
   },
   {
     "id": "es:fact:22",
-    "fact": "El español es idioma oficial de la ONU, la UE y la Unión Africana.",
-    "topic": "legacy"
+    "fact": "El 'ch' y el 'll' fueron letras del alfabeto entre 1803 y 2010.",
+    "topic": "alphabet"
   },
   {
     "id": "es:fact:23",
-    "fact": "La palabra 'murciélago' contiene las cinco vocales.",
-    "topic": "legacy"
+    "fact": "La primera gramática del español, de Antonio de Nebrija, es de 1492.",
+    "topic": "history"
   },
   {
     "id": "es:fact:24",
-    "fact": "El español tiene tres conjugaciones verbales (-ar, -er, -ir).",
-    "topic": "legacy"
+    "fact": "El español es la tercera lengua más usada en internet.",
+    "topic": "global"
   },
   {
     "id": "es:fact:25",
-    "fact": "El español utiliza dos verbos para expresar 'to be': ser y estar.",
-    "topic": "legacy"
+    "fact": "El pretérito y el imperfecto se combinan para narrar en pasado.",
+    "topic": "grammar"
   },
   {
     "id": "es:fact:26",
-    "fact": "La palabra 'siesta' viene de la sexta hora romana (el mediodía).",
-    "topic": "legacy"
+    "fact": "El español de América y el de España difieren sobre todo en el léxico y el acento.",
+    "topic": "linguistics"
   },
   {
     "id": "es:fact:27",
-    "fact": "El español es hablado por más de 500 millones de personas.",
-    "topic": "legacy"
+    "fact": "La 'h' es muda en español, salvo en palabras como 'hielo' o tras 'c' y 'ch'.",
+    "topic": "phonetics"
   },
   {
     "id": "es:fact:28",
-    "fact": "Don Quijote de la Mancha es la obra narrativa más traducida del mundo.",
-    "topic": "legacy"
+    "fact": "Federico García Lorca y Pablo Neruda figuran entre los grandes poetas en español.",
+    "topic": "literature"
   },
   {
     "id": "es:fact:29",
-    "fact": "La palabra 'almohada' proviene del árabe al-mujadda.",
-    "topic": "legacy"
+    "fact": "El español emplea la 'tilde' para marcar el acento y distinguir significados.",
+    "topic": "typography"
   },
   {
     "id": "es:fact:30",
-    "fact": "El español utiliza la coma (,) como separador decimal estándar.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:31",
-    "fact": "La palabra 'fiesta' proviene del latín festa.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:32",
-    "fact": "La palabra 'chocolate' proviene del náhuatl xocolatl.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:33",
-    "fact": "El acento ortográfico (tilde) marca la sílaba tónica cuando rompe la regla general.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:34",
-    "fact": "En Argentina y Uruguay se utiliza el voseo (uso de vos).",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:35",
-    "fact": "La palabra 'mariposa' proviene de la frase infantil 'María, pósate'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:36",
-    "fact": "El español fue la primera lengua europea hablada en Filipinas.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:37",
-    "fact": "La palabra 'barrio' proviene del árabe barri (exterior).",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:38",
-    "fact": "Sustantivos como 'el cura' y 'la cura' cambian de significado según el género.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:39",
-    "fact": "La palabra 'canoa' fue la primera palabra indígena americana adoptada en español.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:40",
-    "fact": "La palabra 'sobremesa' describe la conversación tranquila tras la comida.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:41",
-    "fact": "El saludo '¡Hola!' se utiliza en todo el mundo hispanohablante.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:42",
-    "fact": "El término 'spanglish' describe el fenómeno de alternancia lingüística.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:43",
-    "fact": "El español posee un rico sistema de diminutivos (-ito, -ico, -illo).",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:44",
-    "fact": "La palabra 'amigo' proviene del latín amicus.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:45",
-    "fact": "El español tiene vocales puras y claras sin reducción vocálica.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:46",
-    "fact": "La palabra 'adiós' es contracción de 'A Dios seas encomendado'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:47",
-    "fact": "Usted proviene de la fórmula de cortesía Vuestra Merced.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:48",
-    "fact": "La palabra 'sol' proviene del latín sol, solis.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:49",
-    "fact": "La palabra 'zapato' proviene del turco/persa a través del árabe.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:50",
-    "fact": "La palabra 'pueblo' proviene del latín populus.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:51",
-    "fact": "La palabra 'guitarra' proviene del griego kithara.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:52",
-    "fact": "México es el país con mayor número de hispanohablantes del mundo.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:53",
-    "fact": "La palabra 'aceite' proviene del árabe az-zayt.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:54",
-    "fact": "El español no tiene sílabas dobles como bb o pp, salvo cc y nn.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:55",
-    "fact": "La palabra 'camino' proviene del céltico camminos.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:56",
-    "fact": "La palabra 'flamenco' nombra tanto el arte como al ave.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:57",
-    "fact": "El verbo haber se usaba originalmente para expresar posesión.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:58",
-    "fact": "La palabra 'azúcar' proviene del árabe as-sukkar.",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:59",
-    "fact": "La palabra 'alcalde' proviene del árabe al-qadi (el juez).",
-    "topic": "legacy"
-  },
-  {
-    "id": "es:fact:60",
-    "fact": "El idioma español es una de las lenguas más musicales y fonéticas.",
-    "topic": "legacy"
+    "fact": "El 'subjuntivo' es un modo verbal muy productivo en español.",
+    "topic": "grammar"
   }
 ]

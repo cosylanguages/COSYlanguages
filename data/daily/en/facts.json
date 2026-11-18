@@ -1,427 +1,207 @@
 [
   {
     "id": "en:fact:1",
-    "fact": "English is the official international language of aviation and maritime communications worldwide.",
-    "topic": "linguistics"
+    "fact": "English is a West Germanic language whose vocabulary is more than half Latin and French in origin.",
+    "topic": "etymology"
   },
   {
     "id": "en:fact:2",
-    "fact": "The word 'Pneumonoultramicroscopicsilicovolcanoconiosis' is the longest word in major English dictionaries, referring to a lung disease.",
-    "topic": "vocabulary"
-  },
-  {
-    "id": "en:fact:3",
-    "fact": "The pangram 'The quick brown fox jumps over the lazy dog' contains every letter of the English alphabet.",
-    "topic": "alphabet"
-  },
-  {
-    "id": "en:fact:4",
-    "fact": "The word 'set' historically had more distinct dictionary definitions than almost any other word in English.",
-    "topic": "vocabulary"
-  },
-  {
-    "id": "en:fact:5",
-    "fact": "English is classified as a Germanic language, but over half of its modern vocabulary comes from Latin and French origins.",
-    "topic": "etymology"
-  },
-  {
-    "id": "en:fact:6",
-    "fact": "William Shakespeare added more than 1,700 words to the English language, including 'lonely', 'swagger', and 'uncomfortable'.",
+    "fact": "William Shakespeare is credited with introducing or popularising over 1,700 English words, among them 'lonely', 'swagger' and 'bedazzled'.",
     "topic": "literature"
   },
   {
-    "id": "en:fact:7",
-    "fact": "The letter 'E' is the most frequently used letter in written English, appearing in roughly 11% of all words.",
-    "topic": "linguistics"
-  },
-  {
-    "id": "en:fact:8",
-    "fact": "The shortest complete sentence in English is 'I am.', consisting of a subject and a verb.",
-    "topic": "grammar"
-  },
-  {
-    "id": "en:fact:9",
-    "fact": "A 'ghost word' is a word that entered a dictionary purely by printer or editor error, such as 'dord' in 1934.",
+    "id": "en:fact:3",
+    "fact": "The oldest surviving English poem, 'Caedmon's Hymn', was composed in the 7th century.",
     "topic": "history"
   },
   {
-    "id": "en:fact:10",
-    "fact": "The dot over the lowercase letters 'i' and 'j' is called a 'tittle'.",
-    "topic": "typography"
+    "id": "en:fact:4",
+    "fact": "English has no official academy; its usage is set by convention and dictionaries rather than by a regulator.",
+    "topic": "institutions"
   },
   {
-    "id": "en:fact:11",
-    "fact": "There are no common English words that form a true rhyme with 'orange', 'purple', 'silver', or 'month'.",
+    "id": "en:fact:5",
+    "fact": "The letter 'e' is the most common letter in English, appearing in roughly one in nine words.",
     "topic": "phonetics"
   },
   {
-    "id": "en:fact:12",
-    "fact": "The word 'alphabet' comes directly from the first two letters of the Greek alphabet: alpha (Α) and beta (Β).",
-    "topic": "etymology"
+    "id": "en:fact:6",
+    "fact": "The dot over the letters 'i' and 'j' is called a 'tittle'.",
+    "topic": "typography"
   },
   {
-    "id": "en:fact:13",
-    "fact": "English used to have grammatical gender for nouns, just like modern German, French, and Spanish, until around the 13th century.",
+    "id": "en:fact:7",
+    "fact": "'Dord' was a real dictionary ghost word, printed in Webster's 1934 edition by mistake.",
     "topic": "history"
   },
   {
+    "id": "en:fact:8",
+    "fact": "The word 'alphabet' comes from the first two letters of the Greek alphabet, alpha and beta.",
+    "topic": "etymology"
+  },
+  {
+    "id": "en:fact:9",
+    "fact": "English is the third most spoken native language in the world, after Mandarin Chinese and Spanish.",
+    "topic": "demographics"
+  },
+  {
+    "id": "en:fact:10",
+    "fact": "The Great Vowel Shift, between roughly 1400 and 1700, changed how English long vowels were pronounced.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:11",
+    "fact": "'Beowulf' is the longest surviving poem written in Old English.",
+    "topic": "literature"
+  },
+  {
+    "id": "en:fact:12",
+    "fact": "English spelling often preserves medieval pronunciations, which is why 'knight' and 'through' look nothing like they sound.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "en:fact:13",
+    "fact": "The Oxford English Dictionary contains more than 500,000 entries and took almost 50 years to compile.",
+    "topic": "institutions"
+  },
+  {
     "id": "en:fact:14",
-    "fact": "The word 'run' is projected to eclipse 'set' in future dictionaries as the word with the highest number of distinct meanings.",
+    "fact": "'OK' is among the most widely recognised words in the world and may be the most spoken word on Earth.",
     "topic": "vocabulary"
   },
   {
     "id": "en:fact:15",
-    "fact": "The ampersand symbol ('&') was once considered the 27th letter of the English alphabet in the 19th century.",
-    "topic": "typography"
+    "fact": "Samuel Johnson published his 'Dictionary of the English Language' in 1755.",
+    "topic": "figures"
   },
   {
     "id": "en:fact:16",
-    "fact": "A word created by combining two existing words, like 'brunch' (breakfast + lunch) or 'smog' (smoke + fog), is called a portmanteau.",
-    "topic": "linguistics"
+    "fact": "English word order is subject-verb-object, and meaning often depends on order rather than on case endings.",
+    "topic": "grammar"
   },
   {
     "id": "en:fact:17",
-    "fact": "Old English was written using a runic alphabet called Futhorc before adopting the Latin script.",
-    "topic": "history"
+    "fact": "English once had a distinct singular pronoun, 'thou', which fell out of everyday use by the 18th century.",
+    "topic": "grammar"
   },
   {
     "id": "en:fact:18",
-    "fact": "The word 'clue' originally meant a ball of thread. Its modern meaning comes from the myth of Theseus navigating the labyrinth with thread.",
+    "fact": "The word 'sandwich' comes from the 4th Earl of Sandwich, said to have eaten meat between bread to keep playing cards.",
     "topic": "etymology"
   },
   {
     "id": "en:fact:19",
-    "fact": "More people speak English as a second or foreign language worldwide than native speakers of the language.",
-    "topic": "demographics"
-  },
-  {
-    "id": "en:fact:20",
-    "fact": "The term 'uncopyrightable' is one of the longest English words that can be spelled without repeating any letter.",
-    "topic": "vocabulary"
-  },
-  {
-    "id": "en:fact:21",
-    "fact": "English spelling became fixed largely due to William Caxton installing the first printing press in England in 1476.",
-    "topic": "history"
-  },
-  {
-    "id": "en:fact:22",
-    "fact": "The Great Vowel Shift between 1400 and 1700 fundamentally changed long vowel pronunciations in English, making spelling differ from pronunciation.",
-    "topic": "phonetics"
-  },
-  {
-    "id": "en:fact:23",
-    "fact": "Words that are spelled the same backwards and forwards, like 'radar', 'level', and 'kayak', are known as palindromes.",
-    "topic": "linguistics"
-  },
-  {
-    "id": "en:fact:24",
-    "fact": "The word 'sandwich' was named after John Montagu, the 4th Earl of Sandwich, who asked for meat served between two slices of bread.",
-    "topic": "etymology"
-  },
-  {
-    "id": "en:fact:25",
-    "fact": "English is one of the six official working languages of the United Nations, alongside French, Spanish, Russian, Chinese, and Arabic.",
+    "fact": "English is the most widely taught second language in the world.",
     "topic": "global"
   },
   {
-    "id": "en:fact:26",
-    "fact": "The expression 'O.K.' is one of the most recognized words on the planet, originating as a humorous misspelling of 'oll korrect' in 1839.",
+    "id": "en:fact:20",
+    "fact": "Words such as 'shampoo', 'bungalow' and 'pyjamas' entered English from Hindi and other Indian languages.",
     "topic": "etymology"
   },
   {
-    "id": "en:fact:27",
-    "fact": "The word 'robot' entered English from a 1920 Czech play by Karel Čapek, derived from the Slavic word 'robota' meaning forced labor.",
-    "topic": "etymology"
+    "id": "en:fact:21",
+    "fact": "The term 'big bang' was coined by the astronomer Fred Hoyle, and 'quark' was borrowed from a James Joyce novel.",
+    "topic": "vocabulary"
   },
   {
-    "id": "en:fact:28",
-    "fact": "The sentence 'Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo' is a grammatically valid sentence in English.",
-    "topic": "grammar"
+    "id": "en:fact:22",
+    "fact": "English uses the apostrophe to mark possession and contraction, a feature largely absent from related languages.",
+    "topic": "punctuation"
   },
   {
-    "id": "en:fact:29",
-    "fact": "The symbol '#' is officially called an octothorpe, though commonly known as the number, pound, or hashtag symbol.",
+    "id": "en:fact:23",
+    "fact": "'Set' has one of the largest numbers of distinct dictionary meanings of any English word.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "en:fact:24",
+    "fact": "The first English dictionary, by Robert Cawdrey in 1604, defined only about 3,000 words.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:25",
+    "fact": "The pronoun 'I' is the only English pronoun that is always capitalised.",
     "topic": "typography"
   },
   {
-    "id": "en:fact:30",
-    "fact": "English adopts new words constantly; dictionaries add over 1,000 new words or updated definitions every single year.",
+    "id": "en:fact:26",
+    "fact": "Noah Webster's American dictionary of 1828 helped fix distinct American spellings such as 'color' and 'center'.",
+    "topic": "figures"
+  },
+  {
+    "id": "en:fact:27",
+    "fact": "English has unusually many synonyms because it absorbed words from many languages, often with subtle differences of register.",
     "topic": "linguistics"
   },
   {
+    "id": "en:fact:28",
+    "fact": "The sentence 'the quick brown fox jumps over the lazy dog' is a pangram: it uses every letter of the alphabet.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "en:fact:29",
+    "fact": "Old English looked so different from modern English that 'Beowulf' is usually read in translation.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:30",
+    "fact": "The words 'beef', 'pork' and 'mutton' come from Norman French, while 'cow', 'pig' and 'sheep' are Anglo-Saxon.",
+    "topic": "etymology"
+  },
+  {
     "id": "en:fact:31",
-    "fact": "English is the official language of aviation worldwide for air traffic control.",
-    "topic": "legacy"
+    "fact": "English grammar once had a full case system and grammatical gender, both lost after the Norman Conquest.",
+    "topic": "grammar"
   },
   {
     "id": "en:fact:32",
-    "fact": "The word 'set' has over 430 distinct definitions in the Oxford English Dictionary.",
-    "topic": "legacy"
+    "fact": "'Rhythm' is one of the longest common English words written without the vowel letters a, e, i, o or u.",
+    "topic": "vocabulary"
   },
   {
     "id": "en:fact:33",
-    "fact": "A pangram is a sentence containing every letter of the alphabet.",
-    "topic": "legacy"
+    "fact": "English is the working language of international air traffic control and maritime communication.",
+    "topic": "global"
   },
   {
     "id": "en:fact:34",
-    "fact": "The shortest complete sentence in English is 'Go!'.",
-    "topic": "legacy"
+    "fact": "The playwright Christopher Marlowe helped establish blank verse, which Shakespeare then made his own.",
+    "topic": "literature"
   },
   {
     "id": "en:fact:35",
-    "fact": "More people speak English as a second language than as a native language.",
-    "topic": "legacy"
+    "fact": "The word 'goodbye' is a contraction of the old farewell 'God be with ye'.",
+    "topic": "etymology"
   },
   {
     "id": "en:fact:36",
-    "fact": "The oldest English word still in active use is 'town'.",
-    "topic": "legacy"
+    "fact": "English has borrowed words so freely from other languages that it is sometimes called a 'magpie' language.",
+    "topic": "linguistics"
   },
   {
     "id": "en:fact:37",
-    "fact": "The letter 'E' is the most common letter in English (11% of all text).",
-    "topic": "legacy"
+    "fact": "Daniel Defoe's 'Robinson Crusoe', published in 1719, is often called one of the first English novels.",
+    "topic": "literature"
   },
   {
     "id": "en:fact:38",
-    "fact": "A 'ghost word' is a dictionary entry created by mistake, like 'Dord' in 1934.",
-    "topic": "legacy"
+    "fact": "The letter 'z' is the least frequently used letter in English.",
+    "topic": "phonetics"
   },
   {
     "id": "en:fact:39",
-    "fact": "The dot over the letters 'i' and 'j' is called a 'tittle'.",
-    "topic": "legacy"
+    "fact": "Many English plurals are irregular, such as 'child/children' and 'mouse/mice'.",
+    "topic": "grammar"
   },
   {
     "id": "en:fact:40",
-    "fact": "Shakespeare introduced over 1,700 words to the English language.",
-    "topic": "legacy"
+    "fact": "Geoffrey Chaucer wrote 'The Canterbury Tales' in Middle English in the late 14th century.",
+    "topic": "literature"
   },
   {
     "id": "en:fact:41",
-    "fact": "The word 'clue' originally meant a ball of thread in Greek mythology.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:42",
-    "fact": "The fruit 'orange' gave its name to the color in English in the 16th century.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:43",
-    "fact": "A 'snood' is a traditional headgear historically worn to hold long hair.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:44",
-    "fact": "English shares over 60% of core vocabulary with Old High German.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:45",
-    "fact": "The word 'run' has over 645 distinct meanings in modern usage.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:46",
-    "fact": "The phrase 'Rule of thumb' originates from old measuring practices.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:47",
-    "fact": "The longest word in English without a vowel is 'rhythms'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:48",
-    "fact": "English is an official language in 67 countries.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:49",
-    "fact": "The word 'goodbye' comes from 'God be with ye'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:50",
-    "fact": "The ampersand (&) was once considered the 27th letter of the alphabet.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:51",
-    "fact": "The word 'alphabet' comes from alpha and beta.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:52",
-    "fact": "Old English was originally written in runes called Futhorc.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:53",
-    "fact": "The word 'mortgage' comes from Old French for 'dead pledge'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:54",
-    "fact": "English vocabulary is roughly 29% French, 29% Latin, and 26% Germanic.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:55",
-    "fact": "The word 'trivia' comes from Latin trivium (intersection of three roads).",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:56",
-    "fact": "The word 'salary' comes from Latin salarium (salt allowance for soldiers).",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:57",
-    "fact": "The phrase 'O'Clock' stands for 'Of the Clock'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:58",
-    "fact": "The term 'dreadlocks' originated in Jamaica in the 1950s.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:59",
-    "fact": "English has no single central language academy regulating its words.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:60",
-    "fact": "The word 'glamour' originally meant magic or enchantment in Scottish.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:61",
-    "fact": "The word 'quarantine' comes from Italian quaranta giorni (40 days).",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:62",
-    "fact": "English words 'month', 'orange', 'silver', and 'purple' have no perfect rhymes.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:63",
-    "fact": "The word 'disaster' literally means 'bad star' from Greek.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:64",
-    "fact": "The word 'serendipity' was coined by Horace Walpole in 1754.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:65",
-    "fact": "The English vocabulary doubles roughly every century.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:66",
-    "fact": "The word 'avocado' comes from the Nahuatl word ahuacatl.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:67",
-    "fact": "The word 'sandwich' was named after John Montagu, 4th Earl of Sandwich.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:68",
-    "fact": "The word 'whiskey' comes from Gaelic uisce beatha ('water of life').",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:69",
-    "fact": "The term 'boycott' comes from Captain Charles Boycott, an Irish land agent.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:70",
-    "fact": "The word 'sinister' comes from the Latin word for 'left-handed'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:71",
-    "fact": "The English alphabet formerly included letters like thorn (Þ) and eth (Ð).",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:72",
-    "fact": "The word 'companion' comes from Latin for 'one with whom you share bread'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:73",
-    "fact": "The word 'fiasco' comes from Italian far fiasco ('make a bottle').",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:74",
-    "fact": "English lost noun case inflections after the Norman Conquest of 1066.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:75",
-    "fact": "The word 'tragedy' literally means 'goat song' in ancient Greek.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:76",
-    "fact": "The word 'sarcasm' comes from Greek sarkasmos ('to tear flesh').",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:77",
-    "fact": "The word 'lunatic' comes from Latin luna (moon), believing madness was lunar.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:78",
-    "fact": "The word 'curfew' comes from French couvre-feu ('cover the fire').",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:79",
-    "fact": "The word 'cliché' comes from the sound of printing plates in French.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:80",
-    "fact": "The word 'pandemonium' was coined by John Milton in Paradise Lost.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:81",
-    "fact": "The word 'alphabet' comes from the first two letters of the Greek alphabet: alpha and beta.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:82",
-    "fact": "English is the official language of the sky! All pilots must speak English regardless of their origin.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:83",
-    "fact": "'Queueing' is the only word with five consecutive vowels.",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:84",
-    "fact": "'Rhythm' is the longest English word without a real vowel (a, e, i, o, u).",
-    "topic": "legacy"
-  },
-  {
-    "id": "en:fact:85",
-    "fact": "The shortest complete sentence in English is 'I am.'",
-    "topic": "legacy"
+    "fact": "The word 'nice' once meant 'foolish' or 'ignorant' before shifting to its modern sense of 'pleasant'.",
+    "topic": "etymology"
   }
 ]

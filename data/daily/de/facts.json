@@ -1,7 +1,7 @@
 [
   {
     "id": "de:fact:1",
-    "fact": "Deutsch ist die am häufigsten gesprochene Muttersprache in der Europäischen Union.",
+    "fact": "Deutsch ist die meistgesprochene Muttersprache in der Europäischen Union.",
     "topic": "demographics"
   },
   {
@@ -11,12 +11,12 @@
   },
   {
     "id": "de:fact:3",
-    "fact": "Das deutsche Alphabet besitzt neben den 26 Standardbuchstaben drei Umläute (Ä, Ö, Ü) und das Eszett (ß).",
+    "fact": "Das Alphabet hat 26 Buchstaben, dazu kommen die Umlaute Ä, Ö, Ü und das Eszett (ß).",
     "topic": "alphabet"
   },
   {
     "id": "de:fact:4",
-    "fact": "Die deutsche Sprache ist bekannt für lange Zusammensetzungen wie 'Donaudampfschifffahrtsgesellschaft'.",
+    "fact": "Deutsch bildet lange Zusammensetzungen wie 'Donaudampfschifffahrtsgesellschaft'.",
     "topic": "vocabulary"
   },
   {
@@ -26,277 +26,127 @@
   },
   {
     "id": "de:fact:6",
-    "fact": "Das Pangramm 'Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich' enthält alle Buchstaben inklusive Umlaute.",
-    "topic": "alphabet"
+    "fact": "Die Brüder Grimm sammelten Märchen und begannen das 'Deutsche Wörterbuch'.",
+    "topic": "figures"
   },
   {
     "id": "de:fact:7",
-    "fact": "Deutsch ist Amtssprache in Deutschland, Österreich, der Schweiz, Liechtenstein, Luxemburg und Belgien.",
-    "topic": "global"
+    "fact": "Martin Luthers Bibelübersetzung im 16. Jahrhundert prägte die neuhochdeutsche Schriftsprache.",
+    "topic": "history"
   },
   {
     "id": "de:fact:8",
-    "fact": "Die Brüder Grimm sammelten nicht nur Märchen, sondern verfassten auch das erste umfassende deutsche Wörterbuch.",
-    "topic": "history"
-  },
-  {
-    "id": "de:fact:9",
-    "fact": "Mehr als 10 % aller weltweit gedruckten Bücher erscheinen in deutscher Sprache.",
+    "fact": "Mehr als zehn Prozent aller weltweit gedruckten Bücher erscheinen auf Deutsch.",
     "topic": "culture"
   },
   {
+    "id": "de:fact:9",
+    "fact": "Goethe und Schiller prägten die Weimarer Klassik.",
+    "topic": "literature"
+  },
+  {
     "id": "de:fact:10",
-    "fact": "Martin Luthers Bibelübersetzung im 16. Jahrhundert prägte die moderne deutsche Schriftsprache maßgeblich.",
-    "topic": "history"
+    "fact": "Das ß heißt 'Eszett' oder 'scharfes S'.",
+    "topic": "alphabet"
   },
   {
     "id": "de:fact:11",
-    "fact": "Das Deutsche ist die am meisten gesprochene Muttersprache in der EU.",
-    "topic": "legacy"
+    "fact": "Deutsch kennt vier Fälle: Nominativ, Genitiv, Dativ und Akkusativ.",
+    "topic": "grammar"
   },
   {
     "id": "de:fact:12",
-    "fact": "Im Deutschen werden alle Nomen (Substantive) großgeschrieben.",
-    "topic": "legacy"
+    "fact": "Der Genitiv wird im Alltag oft durch 'von' ersetzt.",
+    "topic": "grammar"
   },
   {
     "id": "de:fact:13",
-    "fact": "Das Deutsche besitzt drei grammatische Geschlechter: der, die, das.",
-    "topic": "legacy"
+    "fact": "Die Grimmschen Märchen wie 'Hänsel und Gretel' wurden weltberühmt.",
+    "topic": "literature"
   },
   {
     "id": "de:fact:14",
-    "fact": "Das Wort 'Kindergarten' wurde weltweit aus dem Deutschen übernommen.",
-    "topic": "legacy"
+    "fact": "Das Wort 'Kindergarten' wurde in viele Sprachen übernommen.",
+    "topic": "vocabulary"
   },
   {
     "id": "de:fact:15",
-    "fact": "Das Deutsche ist bekannt für lange Zusammensetzungen (Komposita).",
-    "topic": "legacy"
+    "fact": "Deutsch ist Amtssprache in sechs Ländern Europas.",
+    "topic": "global"
   },
   {
     "id": "de:fact:16",
-    "fact": "Das deutsche Alphabet besitzt den Buchstaben 'ß' (Eszett).",
-    "topic": "legacy"
+    "fact": "Trennbare Verben wie 'aufstehen' trennen im Satz ihre Vorsilbe ab.",
+    "topic": "grammar"
   },
   {
     "id": "de:fact:17",
-    "fact": "Die Brüder Grimm stellten das Deutsche Wörterbuch zusammen.",
-    "topic": "legacy"
+    "fact": "Wörter wie 'Rucksack', 'Angst' und 'Weltanschauung' wurden ins Englische entlehnt.",
+    "topic": "etymology"
   },
   {
     "id": "de:fact:18",
-    "fact": "Das Deutsche hat vier Fälle: Nominativ, Genitiv, Dativ, Akkusativ.",
-    "topic": "legacy"
+    "fact": "Der Duden ist das maßgebliche Rechtschreibwörterbuch des Deutschen.",
+    "topic": "institutions"
   },
   {
     "id": "de:fact:19",
-    "fact": "Das Wort 'Schadenfreude' existiert als Lehnwort im Englischen.",
-    "topic": "legacy"
+    "fact": "Die Rechtschreibreform von 1996 vereinfachte die deutsche Schreibung.",
+    "topic": "history"
   },
   {
     "id": "de:fact:20",
-    "fact": "Martin Luthers Bibelübersetzung von 1522 prägte das Neuhochdeutsche.",
-    "topic": "legacy"
+    "fact": "Deutsch hat viele Dialekte, die sich stark voneinander unterscheiden.",
+    "topic": "linguistics"
   },
   {
     "id": "de:fact:21",
-    "fact": "Das Deutsche hat über 130 Millionen Sprecher weltweit.",
-    "topic": "legacy"
+    "fact": "Niederdeutsch war die Sprache der Hanse im Norden Europas.",
+    "topic": "history"
   },
   {
     "id": "de:fact:22",
-    "fact": "Das Wort 'Ohrwurm' beschreibt ein Lied, das im Kopf bleibt.",
-    "topic": "legacy"
+    "fact": "Thomas Mann erhielt 1929 den Nobelpreis für Literatur.",
+    "topic": "figures"
   },
   {
     "id": "de:fact:23",
-    "fact": "Das Deutsche ist Amtssprache in 6 europäischen Ländern.",
-    "topic": "legacy"
+    "fact": "Um 1450 begann Johannes Gutenberg in Mainz den Buchdruck mit beweglichen Lettern.",
+    "topic": "history"
   },
   {
     "id": "de:fact:24",
-    "fact": "Das Wort 'Fernweh' beschreibt die Sehnsucht nach fernen Ländern.",
-    "topic": "legacy"
+    "fact": "Zahlwörter wie 'einundzwanzig' werden von hinten gesprochen.",
+    "topic": "vocabulary"
   },
   {
     "id": "de:fact:25",
-    "fact": "Im Deutschen steht das konjugierte Verb im Hauptsatz an Position 2.",
-    "topic": "legacy"
+    "fact": "In der Schweiz schreibt man statt ß immer 'ss'.",
+    "topic": "typography"
   },
   {
     "id": "de:fact:26",
-    "fact": "Das Wort 'Zeitgeist' bezeichnet den Geist einer Epoche.",
-    "topic": "legacy"
+    "fact": "Deutsch und Englisch gehören beide zur germanischen Sprachfamilie.",
+    "topic": "linguistics"
   },
   {
     "id": "de:fact:27",
-    "fact": "Das Deutsche gehört zum westgermanischen Sprachzweig.",
-    "topic": "legacy"
+    "fact": "Das älteste umfangreiche deutsche Wörterbuch ist der 'Abrogans' aus dem 8. Jahrhundert.",
+    "topic": "history"
   },
   {
     "id": "de:fact:28",
-    "fact": "Das Wort 'Wanderlust' beschreibt die Lust am Reisen.",
-    "topic": "legacy"
+    "fact": "Das Deutsche kennt das 'Futur I' mit 'werden' plus Infinitiv.",
+    "topic": "grammar"
   },
   {
     "id": "de:fact:29",
-    "fact": "Im Deutschen stehen Verben im Nebensatz am Ende.",
-    "topic": "legacy"
+    "fact": "Friedrich Schiller schrieb die 'Ode an die Freude', die Beethoven vertonte.",
+    "topic": "literature"
   },
   {
     "id": "de:fact:30",
-    "fact": "Das Wort 'Handschuh' setzt sich aus Hand und Schuh zusammen.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:31",
-    "fact": "Das Wort 'Fingerspitzengefühl' beschreibt hohes Taktgefühl.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:32",
-    "fact": "Die Gutenberg-Bibel wurde um 1455 in Mainz gedruckt.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:33",
-    "fact": "Das Wort 'Kummerspeck' bezeichnet Frustgewicht.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:34",
-    "fact": "Das Deutsche hat eine präzise Laut-Buchstaben-Zuordnung.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:35",
-    "fact": "Das Wort 'Glühwein' ist das Getränk deutscher Weihnachtsmärkte.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:36",
-    "fact": "Im Deutschen unterscheidet man trennbare und untrennbare Verben.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:37",
-    "fact": "Sturm und Drang war eine bedeutende Literatur-Epoche.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:38",
-    "fact": "Das Deutsche besitzt die Umlaute Ä, Ö, Ü.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:39",
-    "fact": "Das Wort 'Torschlusspanik' beschreibt die Angst vor verpassten Chancen.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:40",
-    "fact": "Das Deutsche grenzt Nebensätze durch Kommas ab.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:41",
-    "fact": "Das Wort 'Bauhaus' prägte die weltweite Architektur.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:42",
-    "fact": "Im Deutschen grüßt man mittags mit 'Mahlzeit!'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:43",
-    "fact": "Das Deutsche hat über 35 regionale Dialektgruppen.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:44",
-    "fact": "Das Deutsche verwendet das Passiv sehr häufig im Fachtext.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:45",
-    "fact": "Das Wort 'Besserwisser' bezeichnet rechthaberische Personen.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:46",
-    "fact": "Das Wort 'Gemütlichkeit' beschreibt eine behagliche Atmosphäre.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:47",
-    "fact": "Deutschland gilt als Land der Dichter und Denker.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:48",
-    "fact": "Das Deutsche unterscheidet das höfliche 'Sie' vom 'du'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:49",
-    "fact": "Das Wort 'Feierabend' bezeichnet das Ende des Arbeitstages.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:50",
-    "fact": "Das Wort 'Weltschmerz' beschreibt tiefe Wehmut.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:51",
-    "fact": "Das Deutsche hat ein System von Modalpartikeln (ja, doch, mal).",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:52",
-    "fact": "Das Wort 'Guten Tag' ist der klassische Gruß.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:53",
-    "fact": "Das Wort 'Dachsbau' bezeichnet den Bau eines Dachses.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:54",
-    "fact": "Das Deutsche bildet das Perfekt mit haben oder sein.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:55",
-    "fact": "Das Wort 'Freundschaft' drückt tiefe Bindung aus.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:56",
-    "fact": "Das Wort 'Dankeschön' drücken Dankbarkeit aus.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:57",
-    "fact": "Die Deutsche Sprache verwendet genaue Zeitangaben.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:58",
-    "fact": "Das Wort 'Auf Wiedersehen' ist der förmliche Abschiedsgruß.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:59",
-    "fact": "Das Deutsche besitzt präzise Fachbegriffe in der Philosophie.",
-    "topic": "legacy"
-  },
-  {
-    "id": "de:fact:60",
-    "fact": "Das Wort 'Sommernachtstraum' verweist auf laue Sommernachte.",
-    "topic": "legacy"
+    "fact": "Die 'Weimarer Klassik' war eine Blütezeit der deutschen Literatur um 1800.",
+    "topic": "literature"
   }
 ]

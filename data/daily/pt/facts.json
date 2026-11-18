@@ -1,302 +1,152 @@
 [
   {
     "id": "pt:fact:1",
-    "fact": "O português é a língua oficial de nove países espalhados por quatro continentes.",
+    "fact": "O português é língua oficial de nove países em quatro continentes.",
     "topic": "global"
   },
   {
     "id": "pt:fact:2",
-    "fact": "Mais de 250 milhões de pessoas têm o português como língua materna.",
+    "fact": "Mais de 250 milhões de pessoas falam português como língua materna.",
     "topic": "demographics"
   },
   {
     "id": "pt:fact:3",
-    "fact": "A palavra 'saudade' é famosa por expressar um sentimento profundo de nostalgia e falta.",
+    "fact": "A palavra 'saudade' exprime uma nostalgia difícil de traduzir.",
     "topic": "vocabulary"
   },
   {
     "id": "pt:fact:4",
-    "fact": "O galego e o português partilharam a mesma origem linguística na Idade Média (galego-português).",
+    "fact": "O galego e o português tiveram origem comum na Idade Média.",
     "topic": "history"
   },
   {
     "id": "pt:fact:5",
-    "fact": "O poema épico 'Os Lusíadas' de Luís de Camões é o maior marco da literatura portuguesa.",
+    "fact": "'Os Lusíadas', de Luís de Camões, é a grande epopeia da língua portuguesa.",
     "topic": "literature"
   },
   {
     "id": "pt:fact:6",
-    "fact": "O pangrama 'Um pequeno jabuti xereta viu dois caçadores de aves em fúria' contém quase todas as letras.",
-    "topic": "alphabet"
+    "fact": "A CPLP reúne os países de língua oficial portuguesa.",
+    "topic": "institutions"
   },
   {
     "id": "pt:fact:7",
-    "fact": "A Comunidade dos Países de Língua Portuguesa (CPLP) promove a cooperação entre os países lusófonos.",
-    "topic": "global"
-  },
-  {
-    "id": "pt:fact:8",
-    "fact": "O Acordo Ortográfico unificou a grafia das palavras entre o português europeu e o brasileiro.",
+    "fact": "O Acordo Ortográfico unificou a grafia entre Portugal e o Brasil.",
     "topic": "linguistics"
   },
   {
+    "id": "pt:fact:8",
+    "fact": "Muitas palavras inglesas de navegação têm origem portuguesa.",
+    "topic": "etymology"
+  },
+  {
     "id": "pt:fact:9",
-    "fact": "O português é a quinta língua mais falada no mundo e a terceira mais falada no mundo ocidental.",
+    "fact": "O português é a quinta língua mais falada do mundo.",
     "topic": "demographics"
   },
   {
     "id": "pt:fact:10",
-    "fact": "Muitas palavras em inglês relacionadas com a navegação e comércio marítimo têm origem no português.",
-    "topic": "etymology"
+    "fact": "A língua portuguesa conserva o 'futuro do subjuntivo', raro entre as línguas românicas.",
+    "topic": "grammar"
   },
   {
     "id": "pt:fact:11",
-    "fact": "O português é a língua oficial de 9 países na CPLP.",
-    "topic": "legacy"
+    "fact": "Fernando Pessoa escreveu sob vários heterónimos, como Álvaro de Campos.",
+    "topic": "figures"
   },
   {
     "id": "pt:fact:12",
-    "fact": "O português é a 5ª língua nativa mais falada do mundo.",
-    "topic": "legacy"
+    "fact": "Machado de Assis é um dos maiores escritores brasileiros.",
+    "topic": "literature"
   },
   {
     "id": "pt:fact:13",
-    "fact": "A palavra 'saudade' exprime o sentimento profundo de falta.",
-    "topic": "legacy"
+    "fact": "O português europeu e o brasileiro diferem no ritmo e na pronúncia.",
+    "topic": "phonetics"
   },
   {
     "id": "pt:fact:14",
-    "fact": "O galego e o português formavam a mesma língua na Idade Média.",
-    "topic": "legacy"
+    "fact": "A palavra 'fado' vem do latim 'fatum', que significa 'destino'.",
+    "topic": "etymology"
   },
   {
     "id": "pt:fact:15",
-    "fact": "O primeiro documento em português é o Testamento de D. Afonso II (1214).",
-    "topic": "legacy"
+    "fact": "O português usa o acento til na vogal nasal, como em 'coração'.",
+    "topic": "typography"
   },
   {
     "id": "pt:fact:16",
-    "fact": "Cerca de 1000 palavras em português são de origem árabe (azeite, algodão).",
-    "topic": "legacy"
+    "fact": "José Saramago recebeu o Nobel de Literatura em 1998.",
+    "topic": "figures"
   },
   {
     "id": "pt:fact:17",
-    "fact": "A palavra 'obrigado' vem do latim obligatus.",
-    "topic": "legacy"
+    "fact": "O galego-português foi a língua da poesia medieval peninsular.",
+    "topic": "history"
   },
   {
     "id": "pt:fact:18",
-    "fact": "O Acordo Ortográfico unificou a grafia entre o Brasil e Portugal.",
-    "topic": "legacy"
+    "fact": "O português tem o 'pretérito imperfeito' e o 'perfeito' bem distintos.",
+    "topic": "grammar"
   },
   {
     "id": "pt:fact:19",
-    "fact": "Fernando Pessoa é um dos maiores poetas da língua portuguesa.",
-    "topic": "legacy"
+    "fact": "Palavras como 'caju', 'tapioca' e 'mandioca' vêm do tupi.",
+    "topic": "etymology"
   },
   {
     "id": "pt:fact:20",
-    "fact": "A palavra 'fado' vem do latim fatum (destino).",
-    "topic": "legacy"
+    "fact": "O Brasil é o país com mais falantes de português no mundo.",
+    "topic": "global"
   },
   {
     "id": "pt:fact:21",
-    "fact": "O Brasil possui mais de 210 milhões de falantes de português.",
-    "topic": "legacy"
+    "fact": "O 'você' substituiu o 'tu' em grande parte do Brasil.",
+    "topic": "grammar"
   },
   {
     "id": "pt:fact:22",
-    "fact": "A Universidade de Coimbra foi fundada em 1290.",
-    "topic": "legacy"
+    "fact": "A literatura de cordel é uma tradição poética do Nordeste brasileiro.",
+    "topic": "literature"
   },
   {
     "id": "pt:fact:23",
-    "fact": "O til (~) indica a nasalização de vogais em português.",
-    "topic": "legacy"
+    "fact": "O português é língua oficial também em Angola, Moçambique e Timor-Leste.",
+    "topic": "global"
   },
   {
     "id": "pt:fact:24",
-    "fact": "A palavra 'café' entrou no português a partir do turco kahve.",
-    "topic": "legacy"
+    "fact": "O 'gerúndio' e o 'infinitivo gerundivo' distinguem o português de outras línguas.",
+    "topic": "grammar"
   },
   {
     "id": "pt:fact:25",
-    "fact": "Luís de Camões publicou 'Os Lusíadas' em 1572.",
-    "topic": "legacy"
+    "fact": "A primeira gramática do português foi escrita por Fernão de Oliveira, em 1536.",
+    "topic": "history"
   },
   {
     "id": "pt:fact:26",
-    "fact": "O português tem três conjugações verbais (-ar, -er, -ir).",
-    "topic": "legacy"
+    "fact": "Camões e Pessoa são os dois grandes nomes da literatura portuguesa.",
+    "topic": "literature"
   },
   {
     "id": "pt:fact:27",
-    "fact": "O verbo 'haver' exprime existência no sentido de existir.",
-    "topic": "legacy"
+    "fact": "O português usa os artigos definidos 'o' e 'a' antes dos possessivos.",
+    "topic": "grammar"
   },
   {
     "id": "pt:fact:28",
-    "fact": "A Bossa Nova foi criada no Rio de Janeiro nos anos 1950.",
-    "topic": "legacy"
+    "fact": "A palavra 'obrigado' agradece literalmente dizendo que se está 'obrigado' a retribuir.",
+    "topic": "etymology"
   },
   {
     "id": "pt:fact:29",
-    "fact": "O português é a língua mais falada no hemisfério sul.",
-    "topic": "legacy"
+    "fact": "O mirandês, falado em Portugal, é a segunda língua oficial do país.",
+    "topic": "linguistics"
   },
   {
     "id": "pt:fact:30",
-    "fact": "A palavra 'caipirinha' vem de caipira.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:31",
-    "fact": "O brigadeiro foi criado no Brasil nos anos 1940.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:32",
-    "fact": "A palavra 'azulejo' vem do árabe al-zullayj (pedra polida).",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:33",
-    "fact": "O português usa a cedilha (ç) apenas antes de a, o, u.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:34",
-    "fact": "Mia Couto é um aclamado escritor moçambicano em língua portuguesa.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:35",
-    "fact": "O bacalhau é um prato tradicional na culinária portuguesa.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:36",
-    "fact": "O português deriva do latim vulgar da Península Ibérica.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:37",
-    "fact": "A palavra 'samba' é Patrimônio Cultural Imaterial do Brasil.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:38",
-    "fact": "O fado português é Patrimônio Cultural Imaterial da UNESCO.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:39",
-    "fact": "A palavra 'marmelada' vem de marmelo.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:40",
-    "fact": "Machado de Assis fundou a Academia Brasileira de Letras em 1897.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:41",
-    "fact": "A palavra 'carnaval' é celebrada intensamente no Brasil.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:42",
-    "fact": "O português possui pronomes oblíquos átonos e tônicos.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:43",
-    "fact": "A palavra 'gentileza' gera gentileza é um famoso lema carioca.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:44",
-    "fact": "O termo 'Lusofonia' designa a comunidade de língua portuguesa.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:45",
-    "fact": "A palavra 'abraço' é a saudação afetuosa mais comum em português.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:46",
-    "fact": "A literatura portuguesa tem uma rica tradição de trovadorismo.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:47",
-    "fact": "O português utiliza o artigo definido perante nomes próprios no Brasil e Portugal.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:48",
-    "fact": "A palavra 'praia' vem do latim tardio plagia.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:49",
-    "fact": "O português possui ditongos orais e nasais.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:50",
-    "fact": "A palavra 'alegria' vem do latim alacer.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:51",
-    "fact": "A palavra 'esperança' vem do latim sperare.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:52",
-    "fact": "O português é uma língua oficial da União Europeia.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:53",
-    "fact": "A palavra 'festa' celebra momentos alegres na cultura lusófona.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:54",
-    "fact": "O vocábulo 'bom dia' é a saudação matinal tradicional.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:55",
-    "fact": "O português possui o pronome de tratamento 'você'.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:56",
-    "fact": "A palavra 'churrasco' é uma tradição culinária no sul do Brasil.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:57",
-    "fact": "A palavra 'futebol' é a paixão esportiva nos países lusófonos.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:58",
-    "fact": "O português tem uma fonética rica com sons vogais abertos e fechados.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:59",
-    "fact": "A expressão 'tudo bem?' é a pergunta de cortesia mais usada.",
-    "topic": "legacy"
-  },
-  {
-    "id": "pt:fact:60",
-    "fact": "O português une culturas na Europa, América, África e Ásia.",
-    "topic": "legacy"
+    "fact": "O português é a língua mais falada no hemisfério sul.",
+    "topic": "global"
   }
 ]
