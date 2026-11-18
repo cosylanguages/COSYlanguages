@@ -83,3 +83,23 @@ COSYpractice · COSYgames; COSYplatform and COSYmanuals are appended only for
 signed-in visitors (shared Supabase key `cosy-auth`). Do not hand-write the bar in
 a sibling repo — mount this component instead. Tests: `tests/ecosystem-strip.test.js`.
 
+## Embeddable content (stable IDs + cross-repo embeds)
+
+Content that other repos quote gets a stable id and an embed component, so pages
+link to the source of truth instead of copying it.
+
+| Content | Owning repo | Id / data | Embed |
+|---|---|---|---|
+| Grammar point | COSYmanuals | `<main id="<lang>-<level>-<slug>" data-grammar-point="…">`; registry `data/grammar-points.json` + `.index.json` (built by `scripts/assign_grammar_ids.py`) | `shared/js/grammar-embed.js` → `<div data-grammar-embed="en-a1-adjectives"></div>` |
+| Verb conjugation table | COSYdata | `conj:<lang>:<verb-slug>:<form>` (e.g. `conj:fr:etre:present`); `shared/conjugation-registry.json` + `shared/conjugation-index.json` (built by `scripts/build-conjugation-registry.mjs`) | `shared/conjugation-embed.js` → `<div data-conjugation-embed="conj:fr:etre:present"></div>` |
+| Speaking-club review | COSYevents | hand-authored `data/club-reviews.json` | `shared/js/club-reviews.js` → `<div data-club-reviews></div>` (all) or `data-club-reviews="<club-slug>"` (one club) |
+
+Both embeds render into an isolated shadow root and fetch cross-origin, so a host
+page needs only the mount element plus the component script. A conjugation id may
+name a single language (`conj:fr:etre:present`) or every language for one verb
+(`conj:be:present`, limited with `data-conjugation-embed-langs="en,fr"`).
+Grammar points also have an offline edition: `manuals/<lang>/print/full.html`
+(booklet) and `full.pdf`, wired into each print hub. Tests:
+`COSYmanuals/tests/grammar-embed.test.mjs`, `COSYdata/tests/conjugation-embed.test.mjs`,
+`COSYevents/scripts/test_club_reviews.js`.
+
