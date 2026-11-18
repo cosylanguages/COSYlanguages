@@ -220,8 +220,6 @@
   "cw_keep_going": "Continuez ! Vous avez rempli {0}% du puzzle.",
   "cw_success": "Excellent ! Vous avez résolu tout le puzzle.",
   "cyprus": "Chypre 🇨🇾",
-  "daily_dose_tag": "💊 Votre dose de français",
-  "daily_dose_title": "Mot du jour & Anecdote",
   "daily_life": "Vie quotidienne 🛒",
   "daily_life_desc": "Explorez les magasins et services réels: idéal pour un vocabulaire pratique en contexte.",
   "daily_life_title": "La vie quotidienne en français",
@@ -375,15 +373,6 @@
   "french": "Français 🇫🇷",
   "fullah_sugah": "Fullah Sugah",
   "fullah_sugah_desc": "Magasin de vêtements et d'accessoires.",
-  "fun_fact_fr": [
-    "Le français a été la langue officielle de l'Angleterre pendant environ 300 ans.",
-    "Le mot 'salut' peut signifier à la fois 'bonjour' et 'au revoir'.",
-    "Le français est souvent considéré comme la langue de la diplomatie.",
-    "Environ 45 % des mots anglais sont d'origine française.",
-    "Le français est la seule langue, avec l'anglais, à être parlée sur les 5 continents."
-  ],
-  "fun_fact_placeholder": "Chargement...",
-  "fun_fact_title": "Fait amusant du jour 🤣",
   "galeries_lafayette": "Galeries Lafayette",
   "galeries_lafayette_desc": "Grand magasin de mode et de luxe.",
   "game_bingo": "Numéros Chanceux 🔢",
@@ -1370,13 +1359,6 @@
   "a1_roadmap_desc": "Accédez au programme complet d'apprentissage de l'anglais A1 débutant.",
   "a1_roadmap_title": "Programme d'Anglais A1 🗺️",
   "crossword_guide_text": "Appuyez sur une case pour la sélectionner. Regardez les indices et tapez le mot. Cliquez sur \"Vérifier\" une fois terminé !",
-  "fun_fact_en": [
-    "Le mot 'alphabet' provient des deux premières lettres de l'alphabet grec : alpha et bêta.",
-    "L'anglais est la langue officielle du ciel ! Tous les pilotes doivent parler anglais.",
-    "'Queueing' est le seul mot avec cinq voyelles consécutives.",
-    "'Rhythm' est le plus long mot anglais sans voyelle classique.",
-    "La phrase complète la plus courte en anglais est 'I am.'"
-  ],
   "game_crossword": "Mots Croisés Cosy 🧩",
   "select_type": "Sélectionner le mode ⚙️",
   "theme_grammar_adjectives_basic_A1": "Basic Adjectives 🎨",

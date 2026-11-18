@@ -148,5 +148,280 @@
     "id": "en:fact:30",
     "fact": "English adopts new words constantly; dictionaries add over 1,000 new words or updated definitions every single year.",
     "topic": "linguistics"
+  },
+  {
+    "id": "en:fact:31",
+    "fact": "English is the official language of aviation worldwide for air traffic control.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:32",
+    "fact": "The word 'set' has over 430 distinct definitions in the Oxford English Dictionary.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:33",
+    "fact": "A pangram is a sentence containing every letter of the alphabet.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:34",
+    "fact": "The shortest complete sentence in English is 'Go!'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:35",
+    "fact": "More people speak English as a second language than as a native language.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:36",
+    "fact": "The oldest English word still in active use is 'town'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:37",
+    "fact": "The letter 'E' is the most common letter in English (11% of all text).",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:38",
+    "fact": "A 'ghost word' is a dictionary entry created by mistake, like 'Dord' in 1934.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:39",
+    "fact": "The dot over the letters 'i' and 'j' is called a 'tittle'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:40",
+    "fact": "Shakespeare introduced over 1,700 words to the English language.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:41",
+    "fact": "The word 'clue' originally meant a ball of thread in Greek mythology.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:42",
+    "fact": "The fruit 'orange' gave its name to the color in English in the 16th century.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:43",
+    "fact": "A 'snood' is a traditional headgear historically worn to hold long hair.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:44",
+    "fact": "English shares over 60% of core vocabulary with Old High German.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:45",
+    "fact": "The word 'run' has over 645 distinct meanings in modern usage.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:46",
+    "fact": "The phrase 'Rule of thumb' originates from old measuring practices.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:47",
+    "fact": "The longest word in English without a vowel is 'rhythms'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:48",
+    "fact": "English is an official language in 67 countries.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:49",
+    "fact": "The word 'goodbye' comes from 'God be with ye'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:50",
+    "fact": "The ampersand (&) was once considered the 27th letter of the alphabet.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:51",
+    "fact": "The word 'alphabet' comes from alpha and beta.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:52",
+    "fact": "Old English was originally written in runes called Futhorc.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:53",
+    "fact": "The word 'mortgage' comes from Old French for 'dead pledge'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:54",
+    "fact": "English vocabulary is roughly 29% French, 29% Latin, and 26% Germanic.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:55",
+    "fact": "The word 'trivia' comes from Latin trivium (intersection of three roads).",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:56",
+    "fact": "The word 'salary' comes from Latin salarium (salt allowance for soldiers).",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:57",
+    "fact": "The phrase 'O'Clock' stands for 'Of the Clock'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:58",
+    "fact": "The term 'dreadlocks' originated in Jamaica in the 1950s.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:59",
+    "fact": "English has no single central language academy regulating its words.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:60",
+    "fact": "The word 'glamour' originally meant magic or enchantment in Scottish.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:61",
+    "fact": "The word 'quarantine' comes from Italian quaranta giorni (40 days).",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:62",
+    "fact": "English words 'month', 'orange', 'silver', and 'purple' have no perfect rhymes.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:63",
+    "fact": "The word 'disaster' literally means 'bad star' from Greek.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:64",
+    "fact": "The word 'serendipity' was coined by Horace Walpole in 1754.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:65",
+    "fact": "The English vocabulary doubles roughly every century.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:66",
+    "fact": "The word 'avocado' comes from the Nahuatl word ahuacatl.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:67",
+    "fact": "The word 'sandwich' was named after John Montagu, 4th Earl of Sandwich.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:68",
+    "fact": "The word 'whiskey' comes from Gaelic uisce beatha ('water of life').",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:69",
+    "fact": "The term 'boycott' comes from Captain Charles Boycott, an Irish land agent.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:70",
+    "fact": "The word 'sinister' comes from the Latin word for 'left-handed'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:71",
+    "fact": "The English alphabet formerly included letters like thorn (Þ) and eth (Ð).",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:72",
+    "fact": "The word 'companion' comes from Latin for 'one with whom you share bread'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:73",
+    "fact": "The word 'fiasco' comes from Italian far fiasco ('make a bottle').",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:74",
+    "fact": "English lost noun case inflections after the Norman Conquest of 1066.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:75",
+    "fact": "The word 'tragedy' literally means 'goat song' in ancient Greek.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:76",
+    "fact": "The word 'sarcasm' comes from Greek sarkasmos ('to tear flesh').",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:77",
+    "fact": "The word 'lunatic' comes from Latin luna (moon), believing madness was lunar.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:78",
+    "fact": "The word 'curfew' comes from French couvre-feu ('cover the fire').",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:79",
+    "fact": "The word 'cliché' comes from the sound of printing plates in French.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:80",
+    "fact": "The word 'pandemonium' was coined by John Milton in Paradise Lost.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:81",
+    "fact": "The word 'alphabet' comes from the first two letters of the Greek alphabet: alpha and beta.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:82",
+    "fact": "English is the official language of the sky! All pilots must speak English regardless of their origin.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:83",
+    "fact": "'Queueing' is the only word with five consecutive vowels.",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:84",
+    "fact": "'Rhythm' is the longest English word without a real vowel (a, e, i, o, u).",
+    "topic": "legacy"
+  },
+  {
+    "id": "en:fact:85",
+    "fact": "The shortest complete sentence in English is 'I am.'",
+    "topic": "legacy"
   }
 ]

@@ -220,8 +220,6 @@
   "cw_keep_going": "Continua così! Hai completato il {0}% del puzzle.",
   "cw_success": "Eccellente! Hai risolto l'intero puzzle.",
   "cyprus": "Cipro 🇨🇾",
-  "daily_dose_tag": "💊 La tua dose di italiano",
-  "daily_dose_title": "Parola del giorno & Curiosità",
   "daily_life": "Vita quotidiana 🛒",
   "daily_life_desc": "Esplora negozi e servizi reali: ottimo per il vocabolario pratico in contesto.",
   "daily_life_title": "Vita quotidiana in Italia",
@@ -375,15 +373,6 @@
   "french": "Francese 🇫🇷",
   "fullah_sugah": "Fullah Sugah",
   "fullah_sugah_desc": "Negozio di abbigliamento e accessori.",
-  "fun_fact_it": [
-    "L'italiano è diventato la lingua ufficiale d'Italia solo nel 1861.",
-    "Il nome 'Italia' deriva probabilmente dal vocabolo 'vitu' (vitello) delle tribù italiche.",
-    "L'italiano è la quarta lingua più studiata al mondo.",
-    "La parola 'Ciao' deriva dal veneziano 's'ciavo vostro', che significa 'sono vostro schiavo'.",
-    "L'alfabeto italiano standard ha solo 21 lettere; J, K, W, X e Y sono usate solo per parole straniere."
-  ],
-  "fun_fact_placeholder": "Caricamento in corso...",
-  "fun_fact_title": "Fatto divertente del giorno 🤣",
   "galeries_lafayette": "Galeries Lafayette",
   "galeries_lafayette_desc": "Grandi magazzini di alta moda e lusso.",
   "game_bingo": "Numeri Fortunati 🔢",
@@ -1343,13 +1332,6 @@
   "a1_roadmap_desc": "Accedi al programma completo di inglese A1 per principianti.",
   "a1_roadmap_title": "Percorso Inglese A1 🗺️",
   "crossword_guide_text": "Tocca una casella per selezionarla. Guarda gli indizi e digita la parola. Clicca su \"Verifica\" quando hai finito!",
-  "fun_fact_en": [
-    "La parola 'alfabeto' deriva dalle prime due lettere dell'alfabeto greco: alpha e beta.",
-    "L'inglese è la lingua ufficiale dei cieli! Tutti i piloti devono parlare inglese.",
-    "'Queueing' è l'unica parola con cinque vocali consecutive.",
-    "'Rhythm' è la parola inglese più lunga senza una vocale classica.",
-    "La frase completa più breve in inglese è 'I am.'"
-  ],
   "game_crossword": "Cruciverba Cosy 🧩",
   "select_type": "Seleziona modalità ⚙️",
   "theme_grammar_adjectives_basic_A1": "Basic Adjectives 🎨",

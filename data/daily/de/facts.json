@@ -48,5 +48,255 @@
     "id": "de:fact:10",
     "fact": "Martin Luthers Bibelübersetzung im 16. Jahrhundert prägte die moderne deutsche Schriftsprache maßgeblich.",
     "topic": "history"
+  },
+  {
+    "id": "de:fact:11",
+    "fact": "Das Deutsche ist die am meisten gesprochene Muttersprache in der EU.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:12",
+    "fact": "Im Deutschen werden alle Nomen (Substantive) großgeschrieben.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:13",
+    "fact": "Das Deutsche besitzt drei grammatische Geschlechter: der, die, das.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:14",
+    "fact": "Das Wort 'Kindergarten' wurde weltweit aus dem Deutschen übernommen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:15",
+    "fact": "Das Deutsche ist bekannt für lange Zusammensetzungen (Komposita).",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:16",
+    "fact": "Das deutsche Alphabet besitzt den Buchstaben 'ß' (Eszett).",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:17",
+    "fact": "Die Brüder Grimm stellten das Deutsche Wörterbuch zusammen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:18",
+    "fact": "Das Deutsche hat vier Fälle: Nominativ, Genitiv, Dativ, Akkusativ.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:19",
+    "fact": "Das Wort 'Schadenfreude' existiert als Lehnwort im Englischen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:20",
+    "fact": "Martin Luthers Bibelübersetzung von 1522 prägte das Neuhochdeutsche.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:21",
+    "fact": "Das Deutsche hat über 130 Millionen Sprecher weltweit.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:22",
+    "fact": "Das Wort 'Ohrwurm' beschreibt ein Lied, das im Kopf bleibt.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:23",
+    "fact": "Das Deutsche ist Amtssprache in 6 europäischen Ländern.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:24",
+    "fact": "Das Wort 'Fernweh' beschreibt die Sehnsucht nach fernen Ländern.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:25",
+    "fact": "Im Deutschen steht das konjugierte Verb im Hauptsatz an Position 2.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:26",
+    "fact": "Das Wort 'Zeitgeist' bezeichnet den Geist einer Epoche.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:27",
+    "fact": "Das Deutsche gehört zum westgermanischen Sprachzweig.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:28",
+    "fact": "Das Wort 'Wanderlust' beschreibt die Lust am Reisen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:29",
+    "fact": "Im Deutschen stehen Verben im Nebensatz am Ende.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:30",
+    "fact": "Das Wort 'Handschuh' setzt sich aus Hand und Schuh zusammen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:31",
+    "fact": "Das Wort 'Fingerspitzengefühl' beschreibt hohes Taktgefühl.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:32",
+    "fact": "Die Gutenberg-Bibel wurde um 1455 in Mainz gedruckt.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:33",
+    "fact": "Das Wort 'Kummerspeck' bezeichnet Frustgewicht.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:34",
+    "fact": "Das Deutsche hat eine präzise Laut-Buchstaben-Zuordnung.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:35",
+    "fact": "Das Wort 'Glühwein' ist das Getränk deutscher Weihnachtsmärkte.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:36",
+    "fact": "Im Deutschen unterscheidet man trennbare und untrennbare Verben.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:37",
+    "fact": "Sturm und Drang war eine bedeutende Literatur-Epoche.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:38",
+    "fact": "Das Deutsche besitzt die Umlaute Ä, Ö, Ü.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:39",
+    "fact": "Das Wort 'Torschlusspanik' beschreibt die Angst vor verpassten Chancen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:40",
+    "fact": "Das Deutsche grenzt Nebensätze durch Kommas ab.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:41",
+    "fact": "Das Wort 'Bauhaus' prägte die weltweite Architektur.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:42",
+    "fact": "Im Deutschen grüßt man mittags mit 'Mahlzeit!'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:43",
+    "fact": "Das Deutsche hat über 35 regionale Dialektgruppen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:44",
+    "fact": "Das Deutsche verwendet das Passiv sehr häufig im Fachtext.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:45",
+    "fact": "Das Wort 'Besserwisser' bezeichnet rechthaberische Personen.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:46",
+    "fact": "Das Wort 'Gemütlichkeit' beschreibt eine behagliche Atmosphäre.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:47",
+    "fact": "Deutschland gilt als Land der Dichter und Denker.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:48",
+    "fact": "Das Deutsche unterscheidet das höfliche 'Sie' vom 'du'.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:49",
+    "fact": "Das Wort 'Feierabend' bezeichnet das Ende des Arbeitstages.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:50",
+    "fact": "Das Wort 'Weltschmerz' beschreibt tiefe Wehmut.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:51",
+    "fact": "Das Deutsche hat ein System von Modalpartikeln (ja, doch, mal).",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:52",
+    "fact": "Das Wort 'Guten Tag' ist der klassische Gruß.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:53",
+    "fact": "Das Wort 'Dachsbau' bezeichnet den Bau eines Dachses.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:54",
+    "fact": "Das Deutsche bildet das Perfekt mit haben oder sein.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:55",
+    "fact": "Das Wort 'Freundschaft' drückt tiefe Bindung aus.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:56",
+    "fact": "Das Wort 'Dankeschön' drücken Dankbarkeit aus.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:57",
+    "fact": "Die Deutsche Sprache verwendet genaue Zeitangaben.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:58",
+    "fact": "Das Wort 'Auf Wiedersehen' ist der förmliche Abschiedsgruß.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:59",
+    "fact": "Das Deutsche besitzt präzise Fachbegriffe in der Philosophie.",
+    "topic": "legacy"
+  },
+  {
+    "id": "de:fact:60",
+    "fact": "Das Wort 'Sommernachtstraum' verweist auf laue Sommernachte.",
+    "topic": "legacy"
   }
 ]

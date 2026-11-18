@@ -394,8 +394,6 @@
         }
         window.updateMobileNav();
 
-        window.updateDailyDose();
-        document.addEventListener('cosyLanguageChanged', window.updateDailyDose);
         if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
 
         // First country tab on language pages
@@ -419,25 +417,6 @@
         const targetTab = document.querySelector(`.ctab[data-country="${code}"]`);
         if (targetTab) targetTab.classList.add('active');
     };
-
-    window.updateDailyDose = function() {
-        const htmlLang = document.documentElement.lang || (document.body && document.body.dataset ? document.body.dataset.langTheme : '');
-        const lang = (htmlLang || localStorage.getItem('cosy_user_lang') || 'en').toLowerCase();
-
-        const now = new Date();
-        const start = new Date(now.getFullYear(), 0, 0);
-        const dayOfYear = Math.floor((now - start) / (1000 * 60 * 60 * 24));
-
-        const fact = document.getElementById('fun-fact-of-the-day');
-        if (fact) {
-            const factList = (window.COSY_DAILY_FACTS && window.COSY_DAILY_FACTS[lang]) ? window.COSY_DAILY_FACTS[lang] : [
-                "Languages connect people across cultures and time."
-            ];
-            const factItem = factList[dayOfYear % factList.length];
-            fact.innerHTML = factItem;
-        }
-    };
-
 
     /* "Notify me" forms on upcoming-language pages.
        There is no backend, so we open the visitor's mail app with a ready-made message
