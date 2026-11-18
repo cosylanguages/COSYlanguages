@@ -125,11 +125,9 @@ function getNavHref(itemKey) {
 const NAV_CONFIG = {
     free: [
         { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
-        { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
-        { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' },
+        { key: 'events',         hrefKey: 'events',         icon: '🎉' },
         { key: 'magazine',       hrefKey: 'magazine',       icon: '📰' },
-        { key: 'practice',       hrefKey: 'practice',       icon: '💡' },
-        { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' }
+        { key: 'practice',       hrefKey: 'practice',       icon: '💡' }
     ]
 };
 
