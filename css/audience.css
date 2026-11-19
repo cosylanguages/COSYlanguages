@@ -1,0 +1,379 @@
+/**
+ * css/audience.css
+ * Audience Preference & Independent Accessibility Stylesheet for COSYlanguages.
+ */
+
+/* ── 1. Floating Selector Control Widget ── */
+.cosy-audience-widget {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9990;
+    font-family: var(--font-sans, 'Nunito', sans-serif);
+}
+
+.cosy-audience-fab {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--surface-color, #ffffff);
+    color: var(--ink, #2a2a2a);
+    border: 1.5px solid var(--border, rgba(74, 107, 80, 0.2));
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm, 0 2px 12px rgba(0, 0, 0, 0.08));
+    transition: all 0.2s ease;
+}
+
+.cosy-audience-fab:hover {
+    background: var(--cream, #fdfcf8);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow, 0 4px 16px rgba(0,0,0,0.12));
+}
+
+.cosy-audience-panel {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 320px;
+    background: var(--surface-color, #ffffff);
+    border: 1px solid var(--border, rgba(74, 107, 80, 0.2));
+    border-radius: var(--r-md, 14px);
+    padding: 18px;
+    box-shadow: var(--shadow-lg, 0 8px 28px rgba(0, 0, 0, 0.16));
+    box-sizing: border-box;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.cap-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    border-bottom: 1px solid var(--border, rgba(0, 0, 0, 0.08));
+    padding-bottom: 8px;
+}
+
+.cap-header h3 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--sage-dark, #375742);
+}
+
+.cap-close {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    color: var(--muted, #5c5957);
+    cursor: pointer;
+    padding: 2px 6px;
+}
+
+.cap-section {
+    margin-bottom: 16px;
+}
+
+.cap-section-title {
+    margin-bottom: 8px;
+}
+
+.cap-section-title span {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--ink, #2a2a2a);
+}
+
+.cap-section-title small {
+    font-size: 0.72rem;
+    color: var(--muted, #5c5957);
+}
+
+.cap-btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+
+.cap-option-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 10px;
+    background: var(--cream, #fdfcf8);
+    border: 1px solid var(--border, rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.15s ease;
+}
+
+.cap-option-btn .cob-icon {
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.cap-option-btn .cob-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--ink, #2a2a2a);
+}
+
+.cap-option-btn small {
+    font-size: 0.68rem;
+    color: var(--muted, #5c5957);
+}
+
+.cap-option-btn:hover {
+    border-color: var(--sage, #416b49);
+    background: var(--sage-mist, #f0f5f1);
+}
+
+.cap-option-btn.active {
+    background: var(--sage-light, #e8f0e9);
+    border-color: var(--sage-dark, #375742);
+    box-shadow: inset 0 0 0 1px var(--sage-dark, #375742);
+}
+
+.cap-field-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 0.82rem;
+    color: var(--ink, #2a2a2a);
+}
+
+.cap-select {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface-color);
+    color: var(--ink);
+}
+
+.cap-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+}
+
+.cap-reset-link {
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cap-privacy-link {
+    font-size: 0.75rem;
+    color: var(--sage-dark, #375742);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cap-privacy-link:hover {
+    text-decoration: underline;
+}
+
+
+/* ── 2. Content Visibility Adaptation Tokens ── */
+.audience-only-children,
+.audience-only-teens,
+.audience-only-adults,
+.audience-only-seniors {
+    display: none !important;
+}
+
+/* Children Mode Visibility */
+html[data-audience="children"] .audience-only-children {
+    display: block !important;
+}
+html[data-audience="children"] .audience-only-children.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="children"] .audience-hide-children {
+    display: none !important;
+}
+
+/* Teens Mode Visibility */
+html[data-audience="teens"] .audience-only-teens {
+    display: block !important;
+}
+html[data-audience="teens"] .audience-only-teens.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="teens"] .audience-hide-teens {
+    display: none !important;
+}
+
+/* Adults Mode Visibility */
+html[data-audience="adults"] .audience-only-adults {
+    display: block !important;
+}
+html[data-audience="adults"] .audience-only-adults.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="adults"] .audience-hide-adults {
+    display: none !important;
+}
+
+/* Seniors Mode Visibility */
+html[data-audience="seniors"] .audience-only-seniors {
+    display: block !important;
+}
+html[data-audience="seniors"] .audience-only-seniors.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="seniors"] .audience-hide-seniors {
+    display: none !important;
+}
+
+
+/* ── 3. Audience Mode Presentation Adaptations ── */
+
+/* 🎈 Children Mode Adaptations */
+html[data-audience="children"] button,
+html[data-audience="children"] .btn-primary,
+html[data-audience="children"] .btn-secondary,
+html[data-audience="children"] .sd-jump-link,
+html[data-audience="children"] .lang-card {
+    min-height: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: var(--r-xl, 32px);
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
+html[data-audience="children"] .hero-tag {
+    background: #FFECB3;
+    color: #8D6E63;
+    font-size: 1.1rem;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+html[data-audience="children"] .course-card {
+    border-radius: 24px;
+    border: 3px solid rgba(65, 107, 73, 0.2);
+}
+
+
+/* ⚡ Teens Mode Adaptations */
+html[data-audience="teens"] .hero-tag {
+    background: #E1F5FE;
+    color: #0288D1;
+    font-weight: 800;
+}
+
+html[data-audience="teens"] .tool-pill,
+html[data-audience="teens"] .teen-speed-chip {
+    background: #E8EAF6;
+    color: #3F51B5;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+html[data-audience="teens"] .course-card {
+    border-left: 4px solid #3F51B5;
+}
+
+
+/* 🎯 Adults Mode Adaptations */
+html[data-audience="adults"] .hero-tag {
+    background: var(--sage-light, #e8f0e9);
+    color: var(--sage-dark, #375742);
+    font-weight: 700;
+}
+
+html[data-audience="adults"] .adult-goal-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: #FFF8E1;
+    color: #F57F17;
+    border: 1px solid #FFE082;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+html[data-audience="adults"] .adult-time-estimate {
+    font-size: 0.82rem;
+    color: var(--muted, #5c5957);
+    font-weight: 600;
+}
+
+
+/* 🕶️ Seniors Mode Adaptations */
+html[data-audience="seniors"] {
+    line-height: 1.7;
+}
+
+html[data-audience="seniors"] body {
+    font-size: 1.1rem;
+}
+
+html[data-audience="seniors"] .hero-h1,
+html[data-audience="seniors"] h1,
+html[data-audience="seniors"] h2,
+html[data-audience="seniors"] h3 {
+    letter-spacing: 0.02em;
+    color: #111111;
+}
+
+html[data-audience="seniors"] .course-card,
+html[data-audience="seniors"] .tool-card,
+html[data-audience="seniors"] .step,
+html[data-audience="seniors"] button,
+html[data-audience="seniors"] .btn-primary,
+html[data-audience="seniors"] .btn-secondary {
+    border: 2px solid #222222 !important;
+}
+
+html[data-audience="seniors"] p,
+html[data-audience="seniors"] .hero-sub,
+html[data-audience="seniors"] .sec-p {
+    color: #222222 !important;
+}
+
+
+/* ── 4. Independent Accessibility Settings ── */
+
+/* Text Scaling Multipliers */
+html[data-text-scale="1.15"] {
+    font-size: 115%;
+}
+
+html[data-text-scale="1.25"] {
+    font-size: 125%;
+}
+
+html[data-text-scale="1.40"] {
+    font-size: 140%;
+}
+
+/* Reduced Motion Override */
+html[data-reduced-motion="true"] *,
+html[data-reduced-motion="true"] *::before,
+html[data-reduced-motion="true"] *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+}

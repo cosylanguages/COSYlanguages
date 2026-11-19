@@ -171,8 +171,20 @@
             <li><code class="storage-key">cosy_placement_session</code>: In-progress placement-quiz answers.</li>
             <li><code class="storage-key">cosy_ecosystem_urls</code>: Local overrides for companion-site URLs.</li>
             <li><code class="storage-key">cosy-auth</code>, <code class="storage-key">cosy_user</code>, <code class="storage-key">cosy_user_role</code> &amp; <code class="storage-key">cosy_user_lang</code> (sign-in only): Supabase session token and the signed-in account's profile, role and language.</li>
+            <li><code class="storage-key">cosy_audience_preference</code>, <code class="storage-key">cosy_accessibility_text_scale</code> &amp; <code class="storage-key">cosy_accessibility_reduced_motion</code>: Optional audience mode and accessibility choices (text size, reduced motion). Stored only in this browser; never includes age or identity.</li>
         </ul>
         <p>Supabase Auth may also persist a session under <code>supabase.auth.token</code>, and a legacy <code>language</code> key is read for backwards compatibility.</p>
+    </section>
+
+    <section class="privacy-section">
+        <h2>Audience Preferences &amp; Zero Age Collection</h2>
+        <p>The home page offers an optional <strong>Audience Preference</strong> control (<em>Children</em>, <em>Teens</em>, <em>Adults</em>, <em>Seniors</em>, or the default neutral mode) together with independent accessibility settings (text size and reduced motion).</p>
+        <ul>
+            <li><strong>Zero age collection:</strong> We never ask for your date of birth, exact age or identity.</li>
+            <li><strong>No behavioral profiling:</strong> We do not infer demographic information from how you use the site.</li>
+            <li><strong>Safe defaults:</strong> The site works fully in neutral mode without choosing anything.</li>
+            <li><strong>Local storage only:</strong> Your choices are saved in this browser (<code>cosy_audience_preference</code>, <code>cosy_accessibility_text_scale</code>, <code>cosy_accessibility_reduced_motion</code>) and are never sent to a server. Use the reset button in the panel, or the storage console below, to remove them.</li>
+        </ul>
     </section>
 
     <section class="privacy-section">
@@ -265,6 +277,9 @@
         const container = document.getElementById('storage-list');
         container.innerHTML = '';
         const keys = [
+            'cosy_audience_preference',
+            'cosy_accessibility_text_scale',
+            'cosy_accessibility_reduced_motion',
             'cosy-streak',
             'practice_streak',
             'cosy-last-practice',
