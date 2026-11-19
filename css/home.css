@@ -626,7 +626,7 @@
   font-size: 0.88rem;
   font-weight: 700;
   color: var(--sage-deep, #28442e);
-  background: #ffffff;
+  background: var(--warm-white);
   padding: 0.4rem 0.85rem;
   border-radius: 8px;
   border: 1px solid rgba(65, 107, 73, 0.15);
