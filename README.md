@@ -45,6 +45,10 @@ Every daily element stays in the repository that owns it; the pages link out to 
   `data-self` marks the host's own card as "You are here"; `data-lang` localises the heading.
 - Tests: `node --test tests/*.test.js` (`tests/daily-directory.test.js` covers the directory).
 
+## Documentation
+Long-form specs and audits live in [`docs/`](docs/README.md): ecosystem architecture,
+the placement system, the COSYmagazine editorial spec, and privacy notes.
+
 ## Notes
 - Fully free for visitors. Supabase is only loaded on `login.html`.
 - Fonts are self-hosted (Fraunces, Literata, Commissioner); no third-party requests.
