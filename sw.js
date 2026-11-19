@@ -35,10 +35,12 @@ const SHELL = [
   './css/home.css',
   './css/mobile.css',
   './css/shared-nav.css',
+  './css/audience.css',
   './js/core/config.js',
   './js/core/engine.js',
   './js/core/i18n.js',
   './js/core/ui.js',
+  './js/core/audience.js',
   './js/data/languages.js',
   './images/logos/cosylanguages.png',
   './manifest.json'
