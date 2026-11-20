@@ -889,6 +889,41 @@ test('Daily Strip general-course cards: activity instead of exam, and audience f
         assert.ok(!html.includes('daily-strip-chip-exam'), 'no exam chip in general mode');
     });
 
+    await t.test('the band guide describes the card actually shown, not the requested band', async () => {
+        const { comp, nodes } = mountWith(mixed, { 'data-audience': 'young' });
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'c1-c2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        // the audience preference moved a young learner off the adult-only C1-C2 card
+        assert.ok(!html.includes('Present a proposal'), 'adult-only card not shown');
+        assert.ok(!html.includes('C1-C2 · Advanced'), 'guide must not claim C1-C2 for a lower card');
+        assert.ok(html.includes('Breakthrough') || html.includes('Waystage') || html.includes('Threshold to Vantage'),
+            'guide matches the card level');
+    });
+
+    await t.test('the site-wide audience preference (children/teens/adults/seniors) is honoured', async () => {
+        for (const [stored, expected] of [['children', 'young'], ['teens', 'teen'], ['adults', 'adult'], ['seniors', 'senior']]) {
+            const fakeFetch = async (url) => (url.endsWith('/en/speaking.json') ? { ok: true, json: async () => mixed } : { ok: false, status: 404 });
+            const { Component } = setupTestEnvironment({
+                fetch: fakeFetch,
+                localStorage: { getItem: (k) => (k === 'cosy_audience_preference' ? stored : null), setItem() {}, removeItem() {} }
+            });
+            const nodes = {};
+            const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+                querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+            let shell = '';
+            const attrs = { 'data-lang': 'en', 'data-slots': 'speaking', 'data-compact': 'true' };
+            const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+                set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+                querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+            const comp = new Component(element);
+            await new Promise(r => setTimeout(r, 30));
+            assert.equal(comp.audience, expected, `${stored} maps to ${expected}`);
+        }
+    });
+
     await t.test('data-track="exam" keeps course material out', async () => {
         const { comp, nodes } = mountWith(mixed, { 'data-track': 'exam' });
         await new Promise(r => setTimeout(r, 30));

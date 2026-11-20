@@ -293,6 +293,26 @@
         identify: '🔎 Identify'
     };
 
+    // The site-wide audience preference (js/core/audience.js) uses children/teens/adults/seniors; prompt cards
+    // tag themselves young/teen/adult/senior. A container may also pin its own data-audience.
+    const AUDIENCE_ALIASES = {
+        children: 'young', child: 'young', young: 'young',
+        teens: 'teen', teen: 'teen',
+        adults: 'adult', adult: 'adult',
+        seniors: 'senior', senior: 'senior'
+    };
+
+    function resolveAudience(container) {
+        const own = (container.getAttribute('data-audience') || '').toLowerCase();
+        if (AUDIENCE_ALIASES[own]) return AUDIENCE_ALIASES[own];
+        try {
+            const stored = (localStorage.getItem('cosy_audience_preference') || '').toLowerCase();
+            if (AUDIENCE_ALIASES[stored]) return AUDIENCE_ALIASES[stored];
+        } catch (e) { /* storage blocked */ }
+        const root = (document.documentElement && document.documentElement.getAttribute('data-audience')) || '';
+        return AUDIENCE_ALIASES[root.toLowerCase()] || '';
+    }
+
     // "45s", "1 min 30s", "2 min" — speaking times are stored in seconds.
     function formatDuration(seconds) {
         const total = Math.max(0, Math.round(Number(seconds) || 0));
@@ -321,6 +341,16 @@
 
     const BAND_ORDER = ['a0-a1', 'a2', 'b1-b2', 'c1-c2'];
 
+    // A card's own level tag ("A2", "A2-B1", "B1-B2") mapped onto a SPEAKING_BAND_GUIDE key. The guide must
+    // describe the card actually shown, which is not always the band the learner selected (the audience
+    // preference can move a card to a neighbouring band).
+    function guideKeyForLevel(level) {
+        for (const band of BAND_ORDER) {
+            if (levelInBand(level, band)) return band;
+        }
+        return '';
+    }
+
     // Does a card's level fall inside the requested band?
     function levelInBand(itemLevel, band) {
         if (!itemLevel) return false;
@@ -343,37 +373,40 @@
         const norm = (selectedLevel || 'a0-a1').toLowerCase();
         const start = Math.max(0, BAND_ORDER.indexOf(norm));
 
-        // Preference order, best first:
-        //   1. the chosen band, a card written for this audience
-        //   2. the nearest band that has a card for this audience
-        //   3. the chosen band, any audience
-        //   4. anything, nearest band first
-        // Age comes before level on purpose: a young learner who picks C1-C2 is better served a B1-B2 card
-        // about school than an adult-only card about compulsory voting, because level measures language, not
-        // maturity. The strip is a practice prompt, so the small level adjustment costs nothing.
-        const suits = (it) => !audience
-            || !Array.isArray(it.audience) || it.audience.length === 0 || it.audience.includes(audience);
+        // How well a card fits the requested audience:
+        //   2  it names this audience
+        //   1  it names no audience at all (older cards, neutral wording — safe for anyone)
+        //   0  it names other audiences only
+        const fit = (it) => {
+            if (!audience) return 1;
+            if (!Array.isArray(it.audience) || it.audience.length === 0) return 1;
+            return it.audience.includes(audience) ? 2 : 0;
+        };
+
         const distances = BAND_ORDER.map((b, i) => i)
             .sort((a, b) => Math.abs(a - start) - Math.abs(b - start) || a - b);
         const others = distances.filter((i) => i !== start);
 
-        const poolAt = (i, requireAudience) => {
+        const poolAt = (i, minFit) => {
             const matching = items.filter((it) => levelInBand(it && it.level, BAND_ORDER[i])
-                && (!requireAudience || suits(it)));
+                && fit(it) >= minFit);
             if (matching.length === 0) return null;
             // hand-curated prompts written for one band win over loosely tagged ones
             const curated = matching.filter((it) => it.curated);
             return curated.length > 0 ? curated : matching;
         };
 
+        // Explicitly age-appropriate first, then neutral wording, then material for other ages as a last
+        // resort. Age comes before level inside each tier on purpose: a young learner who picks C1-C2 is
+        // better served a B1-B2 card about school than an adult-only card about compulsory voting, because a
+        // level measures language, not maturity.
         const passes = [
-            [start, true],
-            ...others.map((i) => [i, true]),
-            [start, false],
-            ...others.map((i) => [i, false])
+            [start, 2], ...others.map((i) => [i, 2]),
+            [start, 1], ...others.map((i) => [i, 1]),
+            [start, 0], ...others.map((i) => [i, 0])
         ];
-        for (const [i, requireAudience] of passes) {
-            const pool = poolAt(i, requireAudience);
+        for (const [i, minFit] of passes) {
+            const pool = poolAt(i, minFit);
             if (pool) return pool[dayIdx % pool.length];
         }
 
@@ -427,6 +460,7 @@
             emoji: item.emoji || '',
             fromCalendar: Boolean(item.fromCalendar),
             meta,
+            level: item.level || '',
             // exam-style speaking scaffolding; all optional so older cached prompts still render
             track: item.track === 'general' ? 'general' : 'exam',
             exam: item.exam || '',
@@ -452,10 +486,7 @@
             this.compact = this.container.getAttribute('data-compact') === 'true';
             this.activeTab = this.tabs[0].id;
             this.selectedLevel = localStorage.getItem('cosy.dailyLevel') || 'a0-a1';
-            // data-audience="young|teen|adult|senior" asks for material written for that group; unset means
-            // no preference and every card in the chosen band is eligible.
-            const aud = (this.container.getAttribute('data-audience') || '').toLowerCase();
-            this.audience = ['young', 'teen', 'adult', 'senior'].includes(aud) ? aud : '';
+            this.audience = resolveAudience(this.container);
             // data-track="general" hides exam tasks; "exam" keeps only them. Unset means both.
             const trk = (this.container.getAttribute('data-track') || '').toLowerCase();
             this.track = ['general', 'exam'].includes(trk) ? trk : '';
@@ -723,7 +754,9 @@
                     </div>
                 ` : '';
 
-                const guide = tab.id === 'speaking' ? SPEAKING_BAND_GUIDE[this.selectedLevel] : null;
+                const guide = tab.id === 'speaking'
+                    ? SPEAKING_BAND_GUIDE[guideKeyForLevel(item.level) || this.selectedLevel]
+                    : null;
                 const guideHTML = guide ? `
                     <div class="daily-strip-band-guide">
                         <div class="daily-strip-band-guide-head">
