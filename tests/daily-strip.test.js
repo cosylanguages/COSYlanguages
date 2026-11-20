@@ -797,3 +797,106 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(!html.includes('band-guide'), 'no speaking band guide on writing');
     });
 });
+
+test('Daily Strip general-course cards: activity instead of exam, and audience filtering', async (t) => {
+    const mixed = [
+        { id: 'en:speaking:g1', prompt: 'Name five things in a kitchen.', level: 'A0-A1', curated: true,
+          track: 'general', task: 'Name as many as you can', activity: 'brainstorm', audience: ['young', 'teen', 'adult', 'senior'],
+          prep_seconds: 10, speak_seconds: 45, follow_ups: ['Which do you use most?'] },
+        { id: 'en:speaking:g2', prompt: 'Present a proposal for your community.', level: 'C1-C2', curated: true,
+          track: 'general', task: 'Present a proposal', activity: 'present', audience: ['adult', 'senior'],
+          prep_seconds: 45, speak_seconds: 120, follow_ups: ['What is the first step?'] },
+        { id: 'en:speaking:c1', prompt: 'Describe a skill you learned.', level: 'B1-B2', curated: true,
+          exam: 'IELTS', part: 'Part 2 · Long turn (cue card)', task: 'Cue card talk', audience: ['teen', 'adult', 'senior'],
+          prep_seconds: 60, speak_seconds: 120, follow_ups: ['Was it difficult?'] }
+    ];
+
+    function mountWith(items, extraAttrs = {}) {
+        const fakeFetch = async (url) => (url.endsWith('/en/speaking.json') ? { ok: true, json: async () => items } : { ok: false, status: 404 });
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'en', 'data-slots': 'speaking', 'data-compact': 'true', ...extraAttrs };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        return { comp: new Component(element), nodes };
+    }
+
+    await t.test('parseDailyItem marks a general card and keeps its activity and audience', () => {
+        const { helpers } = setupTestEnvironment();
+        const item = helpers.parseDailyItem(mixed[0]);
+        assert.equal(item.track, 'general');
+        assert.equal(item.activity, 'brainstorm');
+        assert.deepEqual(Array.from(item.audience), ['young', 'teen', 'adult', 'senior']);
+        assert.equal(item.exam, '');
+        const exam = helpers.parseDailyItem(mixed[2]);
+        assert.equal(exam.track, 'exam');
+        assert.equal(exam.activity, '');
+    });
+
+    await t.test('a general card shows its activity chip and no exam chip', async () => {
+        const { comp, nodes } = mountWith(mixed);
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'a0-a1';
+        await comp.loadAllCategories();
+        comp.renderContent();
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('daily-strip-chip-activity'), 'activity chip');
+        assert.ok(html.includes('Brainstorm'), 'activity label');
+        assert.ok(!html.includes('daily-strip-chip-exam'), 'no exam chip on a general card');
+        assert.ok(!html.includes('daily-strip-chip-part'), 'no part chip on a general card');
+    });
+
+    await t.test('data-audience keeps a young learner away from an adult-only band', async () => {
+        const { comp, nodes } = mountWith(mixed, { 'data-audience': 'young' });
+        await new Promise(r => setTimeout(r, 30));
+        assert.equal(comp.audience, 'young');
+        comp.selectedLevel = 'c1-c2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(!html.includes('Present a proposal'), 'adult-only card is filtered out for a young learner');
+    });
+
+    await t.test('data-audience still serves the same card to an audience that suits it', async () => {
+        const { comp, nodes } = mountWith(mixed, { 'data-audience': 'senior' });
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'c1-c2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('Present a proposal'), 'senior sees the adult/senior card');
+    });
+
+    await t.test('an unknown data-audience is ignored rather than filtering everything out', async () => {
+        const { comp } = mountWith(mixed, { 'data-audience': 'martian' });
+        await new Promise(r => setTimeout(r, 30));
+        assert.equal(comp.audience, '');
+    });
+
+    await t.test('data-track="general" keeps exam tasks out', async () => {
+        const { comp, nodes } = mountWith(mixed, { 'data-track': 'general' });
+        await new Promise(r => setTimeout(r, 30));
+        assert.equal(comp.track, 'general');
+        comp.selectedLevel = 'b1-b2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(!html.includes('Cue card talk'), 'exam task is filtered out');
+        assert.ok(!html.includes('daily-strip-chip-exam'), 'no exam chip in general mode');
+    });
+
+    await t.test('data-track="exam" keeps course material out', async () => {
+        const { comp, nodes } = mountWith(mixed, { 'data-track': 'exam' });
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'b1-b2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('Cue card talk'), 'exam task is shown');
+        assert.ok(!html.includes('daily-strip-chip-activity'), 'no activity chip in exam mode');
+    });
+});

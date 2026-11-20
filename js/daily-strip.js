@@ -277,6 +277,22 @@
         }
     };
 
+    // General-course speaking cards carry an activity key; the chip shows a readable label for it.
+    const ACTIVITY_LABELS = {
+        brainstorm: '💡 Brainstorm',
+        analyse: '🔍 Analyse',
+        describe: '🎨 Describe',
+        compare: '⚖️ Compare',
+        discuss: '💬 Discuss',
+        narrate: '📖 Tell a story',
+        'role-play': '🎭 Role-play',
+        'problem-solving': '🧩 Problem-solving',
+        interview: '🎤 Interview',
+        plan: '🗂️ Plan together',
+        present: '📢 Present',
+        identify: '🔎 Identify'
+    };
+
     // "45s", "1 min 30s", "2 min" — speaking times are stored in seconds.
     function formatDuration(seconds) {
         const total = Math.max(0, Math.round(Number(seconds) || 0));
@@ -303,36 +319,62 @@
         }
     };
 
-    function pickItemForLevel(items, selectedLevel, dayIdx) {
-        if (!items || items.length === 0) return null;
-        const norm = (selectedLevel || 'a0-a1').toLowerCase();
+    const BAND_ORDER = ['a0-a1', 'a2', 'b1-b2', 'c1-c2'];
 
-        // Level matching predicate
-        const isMatch = (itemLevel) => {
-            if (!itemLevel) return false;
-            const lvl = itemLevel.toLowerCase();
-            if (norm === 'a0-a1') return lvl.includes('a0') || lvl.includes('a1');
-            if (norm === 'a2') return lvl.includes('a2') && !lvl.includes('b2');
-            if (norm === 'b1-b2') return lvl.includes('b1') || lvl.includes('b2');
-            if (norm === 'c1-c2') return lvl.includes('c1') || lvl.includes('c2');
-            return false;
+    // Does a card's level fall inside the requested band?
+    function levelInBand(itemLevel, band) {
+        if (!itemLevel) return false;
+        const lvl = itemLevel.toLowerCase();
+        if (band === 'a0-a1') return lvl.includes('a0') || lvl.includes('a1');
+        if (band === 'a2') return lvl.includes('a2') && !lvl.includes('b2');
+        if (band === 'b1-b2') return lvl.includes('b1') || lvl.includes('b2');
+        if (band === 'c1-c2') return lvl.includes('c1') || lvl.includes('c2');
+        return false;
+    }
+
+    function pickItemForLevel(items, selectedLevel, dayIdx, audience, track) {
+        if (!items || items.length === 0) return null;
+        // data-track="general" asks for course material with no exam at all; "exam" keeps only exam tasks.
+        // Without it every card in the band stays eligible.
+        if (track === 'general' || track === 'exam') {
+            const byTrack = items.filter((it) => (it && it.track === 'general' ? 'general' : 'exam') === track);
+            if (byTrack.length > 0) items = byTrack;
+        }
+        const norm = (selectedLevel || 'a0-a1').toLowerCase();
+        const start = Math.max(0, BAND_ORDER.indexOf(norm));
+
+        // Preference order, best first:
+        //   1. the chosen band, a card written for this audience
+        //   2. the nearest band that has a card for this audience
+        //   3. the chosen band, any audience
+        //   4. anything, nearest band first
+        // Age comes before level on purpose: a young learner who picks C1-C2 is better served a B1-B2 card
+        // about school than an adult-only card about compulsory voting, because level measures language, not
+        // maturity. The strip is a practice prompt, so the small level adjustment costs nothing.
+        const suits = (it) => !audience
+            || !Array.isArray(it.audience) || it.audience.length === 0 || it.audience.includes(audience);
+        const distances = BAND_ORDER.map((b, i) => i)
+            .sort((a, b) => Math.abs(a - start) - Math.abs(b - start) || a - b);
+        const others = distances.filter((i) => i !== start);
+
+        const poolAt = (i, requireAudience) => {
+            const matching = items.filter((it) => levelInBand(it && it.level, BAND_ORDER[i])
+                && (!requireAudience || suits(it)));
+            if (matching.length === 0) return null;
+            // hand-curated prompts written for one band win over loosely tagged ones
+            const curated = matching.filter((it) => it.curated);
+            return curated.length > 0 ? curated : matching;
         };
 
-        const matching = items.filter(it => isMatch(it && it.level));
-        if (matching.length > 0) {
-            // hand-curated prompts written for one band win over loosely tagged ones
-            const curated = matching.filter(it => it.curated);
-            const pool = curated.length > 0 ? curated : matching;
-            return pool[dayIdx % pool.length];
-        }
-
-        // Secondary fallback: nearest adjacent level
-        if (norm === 'c1-c2') {
-            const high = items.filter(it => (it.level || '').toUpperCase().includes('B2') || (it.level || '').toUpperCase().includes('B1'));
-            if (high.length > 0) return high[dayIdx % high.length];
-        } else if (norm === 'a0-a1') {
-            const low = items.filter(it => (it.level || '').toUpperCase().includes('A2') || (it.level || '').toUpperCase().includes('A1'));
-            if (low.length > 0) return low[dayIdx % low.length];
+        const passes = [
+            [start, true],
+            ...others.map((i) => [i, true]),
+            [start, false],
+            ...others.map((i) => [i, false])
+        ];
+        for (const [i, requireAudience] of passes) {
+            const pool = poolAt(i, requireAudience);
+            if (pool) return pool[dayIdx % pool.length];
         }
 
         return items[dayIdx % items.length];
@@ -386,9 +428,12 @@
             fromCalendar: Boolean(item.fromCalendar),
             meta,
             // exam-style speaking scaffolding; all optional so older cached prompts still render
+            track: item.track === 'general' ? 'general' : 'exam',
             exam: item.exam || '',
             part: item.part || '',
             task: item.task || '',
+            activity: item.activity || '',
+            audience: Array.isArray(item.audience) ? item.audience.filter(a => typeof a === 'string') : [],
             followUps: Array.isArray(item.follow_ups) ? item.follow_ups.filter(q => typeof q === 'string' && q.trim()) : [],
             prepSeconds: Number.isFinite(Number(item.prep_seconds)) && Number(item.prep_seconds) > 0 ? Number(item.prep_seconds) : 0,
             speakSeconds: Number.isFinite(Number(item.speak_seconds)) && Number(item.speak_seconds) > 0 ? Number(item.speak_seconds) : 0
@@ -407,6 +452,13 @@
             this.compact = this.container.getAttribute('data-compact') === 'true';
             this.activeTab = this.tabs[0].id;
             this.selectedLevel = localStorage.getItem('cosy.dailyLevel') || 'a0-a1';
+            // data-audience="young|teen|adult|senior" asks for material written for that group; unset means
+            // no preference and every card in the chosen band is eligible.
+            const aud = (this.container.getAttribute('data-audience') || '').toLowerCase();
+            this.audience = ['young', 'teen', 'adult', 'senior'].includes(aud) ? aud : '';
+            // data-track="general" hides exam tasks; "exam" keeps only them. Unset means both.
+            const trk = (this.container.getAttribute('data-track') || '').toLowerCase();
+            this.track = ['general', 'exam'].includes(trk) ? trk : '';
             this.categoryData = {};
             this.uniqueId = 'ds_' + Math.random().toString(36).substring(2, 9);
             this.init();
@@ -597,7 +649,9 @@
 
                 // Data files first (COSYpractice prompts, hub facts, COSYdata vocabulary), built-in last resort after
                 const isPrompt = config.id === 'speaking' || config.id === 'writing';
-                const pickFrom = (list) => (isPrompt ? pickItemForLevel(list, this.selectedLevel, dayIdx) : list[dayIdx % list.length]);
+                const pickFrom = (list) => (isPrompt
+                    ? pickItemForLevel(list, this.selectedLevel, dayIdx, this.audience, this.track)
+                    : list[dayIdx % list.length]);
                 let rawItem = null;
                 const remoteList = await fetchCategoryData(this.lang, config.id);
                 if (remoteList && remoteList.length > 0) rawItem = pickFrom(remoteList);
@@ -652,6 +706,8 @@
                 // prepare and speak.
                 const chips = [];
                 if (tab.id === 'speaking' && item.exam) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
+                // General-course cards practise speaking for its own sake: show the activity instead of an exam.
+                if (tab.id === 'speaking' && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(ACTIVITY_LABELS[item.activity] || item.activity)}</span>`);
                 if (tab.id === 'speaking' && item.part) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
                 if (tab.id === 'speaking' && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
                 if (tab.id === 'speaking' && item.prepSeconds) chips.push(`<span class="daily-strip-chip">⏱️ Prep ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
