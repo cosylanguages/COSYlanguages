@@ -1,0 +1,86 @@
+{
+  "lang": "es",
+  "ui": {
+    "what": "Lo que exige este nivel",
+    "focus": "Lengua a la que aspirar:",
+    "canDo": "En este nivel puedes:",
+    "length": "Longitud típica:",
+    "exams": "Certificado por:"
+  },
+  "bands": {
+    "a0-a1": {
+      "label": "A0-A1 · Acceso",
+      "speaking": {
+        "canDo": "Presentarte y presentar a otros, hacer y responder preguntas sencillas sobre dónde vives, qué haces y qué tienes, y usar expresiones aisladas y frases muy cortas.",
+        "expects": "Frases cortas sobre ti y la vida diaria. Responde con frases completas, aunque sean sencillas.",
+        "focus": "Presente, preguntas básicas, números, nombres cotidianos",
+        "exams": "DELE A1 · SIELE"
+      },
+      "writing": {
+        "canDo": "Escribir frases aisladas y sencillas sobre ti, rellenar un formulario con tus datos personales y escribir una postal o un mensaje corto y sencillo.",
+        "expects": "Frases cortas sobre ti y la vida diaria. Una idea por frase, ortografía y mayúsculas correctas.",
+        "focus": "Presente, enlaces básicos (y / pero / porque), ortografía, puntuación",
+        "exams": "DELE A1 · SIELE",
+        "length": "20-40 palabras"
+      }
+    },
+    "a2": {
+      "label": "A2 · Plataforma",
+      "speaking": {
+        "canDo": "Mantener intercambios breves de rutina, describir tu familia, tu rutina, tu entorno inmediato y hechos pasados, y resolver transacciones sencillas como compras, viajes y citas.",
+        "expects": "Describe tu rutina, hechos pasados y planes en unas frases enlazadas.",
+        "focus": "Tiempos de pasado y futuro, porque / pero / así que, colocaciones frecuentes",
+        "exams": "DELE A2 · SIELE"
+      },
+      "writing": {
+        "canDo": "Escribir notas y mensajes cortos y sencillos, una carta o un correo personal muy simple y describir aspectos cotidianos de tu vida con una serie de frases sencillas enlazadas.",
+        "expects": "Describe tu rutina, hechos pasados y planes en unas frases enlazadas y escribe un mensaje informal breve que cumpla su objetivo.",
+        "focus": "Tiempos de pasado y futuro, párrafos, conectores cotidianos, registro informal",
+        "exams": "DELE A2 · SIELE",
+        "length": "40-80 palabras"
+      }
+    },
+    "b1-b2": {
+      "label": "B1-B2 · Umbral a Avanzado",
+      "speaking": {
+        "canDo": "Desenvolverte en la mayoría de situaciones de viaje, dar una breve charla preparada, explicar y defender una opinión con razones y ejemplos y seguir las ideas principales de un tema desconocido.",
+        "expects": "Da y defiende una opinión con razones y ejemplos, y aborda un tema desconocido.",
+        "focus": "Condicionales, conectores, atenuación, léxico temático",
+        "exams": "DELE B1-B2 · SIELE"
+      },
+      "writing": {
+        "canDo": "Escribir textos claros y cohesionados sobre temas conocidos, cartas personales que describen experiencias e impresiones y breves informes o ensayos con pros y contras.",
+        "expects": "Organiza un texto con introducción, desarrollo y cierre, y apoya una opinión con razones y ejemplos.",
+        "focus": "Oraciones temáticas, mecanismos de cohesión, registro formal e informal, lenguaje de opinión",
+        "exams": "DELE B1-B2 · SIELE",
+        "length": "100-180 palabras"
+      }
+    },
+    "c1-c2": {
+      "label": "C1-C2 · Dominio",
+      "speaking": {
+        "canDo": "Hablar con fluidez y espontaneidad buscando poco las palabras, defender una postura con precisión, conceder contraargumentos y cambiar de registro entre contextos académicos, profesionales y sociales.",
+        "expects": "Defiende una postura con precisión, concede contraargumentos y adapta tu registro.",
+        "focus": "Nominalización, marcadores de postura, giros idiomáticos y académicos",
+        "exams": "DELE C1-C2 · SIELE"
+      },
+      "writing": {
+        "canDo": "Expresarte en un texto claro y bien estructurado, escribir sobre temas complejos en un ensayo, informe o carta y adoptar el registro y la estructura retórica adecuados al lector.",
+        "expects": "Defiende una postura con precisión, sopesa contraargumentos y controla registro, cohesión y énfasis en un texto largo.",
+        "focus": "Nominalización, atenuación, sintaxis compleja, estructura retórica, giros académicos",
+        "exams": "DELE C1-C2 · SIELE",
+        "length": "200-300 palabras"
+      }
+    }
+  },
+  "chrome": {
+    "level": "Nivel:",
+    "prep": "Prep.",
+    "speak": "Habla",
+    "words": "palabras",
+    "followUps": "Preguntas de seguimiento",
+    "checklist": "Antes de terminar, comprueba",
+    "listen": "Escuchar",
+    "practice": "Practicar en el Hub"
+  }
+}

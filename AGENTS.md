@@ -86,9 +86,11 @@ questions). `exam` and `part` are required by the validator, and `part` names th
 exam's own speaking part ("Part 2 · Long turn (cue card)", "Sprechen Teil 1 · Vortrag",
 "Tarea 1 · Monólogo", "Задание 1 · Монолог по теме").
 The strip renders those as chips, a "Prep 1 min / Speak 2 min" line and a follow-up
-list, plus `SPEAKING_BAND_GUIDE` in `js/daily-strip.js` — what the selected band
-expects and the language to aim for, the CEFR can-do descriptor for the band
-("At this level you can: …") and the exams that certify it ("Certified by: …").
+list, plus the CEFR band guide — what the selected band expects and the language to
+aim for, the CEFR can-do descriptor for the band ("At this level you can: …") and the
+exams that certify it ("Certified by: …"). The guide is localized: the English text is
+the built-in `SPEAKING_BAND_GUIDE` in `js/daily-strip.js`, and
+`data/daily/<lang>/band-guide.json` overrides it per language (see "Band guide" below).
 Fields stay optional at render time, so prompts
 without them (including cached ones) still render; the brief is speaking-only. Validate
 in COSYpractice with `node scripts/validate-daily-prompts.js`. Tests:
@@ -132,11 +134,10 @@ tracks and the same `audience` rules. Writing cards carry their own scaffolding:
 - `write_minutes` – the time limit, shown as "40 min".
 - `checklist` – 2–3 self-check points, shown under "Before you finish, check".
 
-`WRITING_BAND_GUIDE` in `js/daily-strip.js` mirrors `SPEAKING_BAND_GUIDE`: the
-band's `expects`, `focus`, `canDo`, `length` and the exams that certify it. Both
-guides render through the same code path, so a writing card gets chips and a band
-guide but never speaking-only fields (`prep_seconds`, `speak_seconds`,
-`follow_ups`).
+The writing band guide mirrors the speaking one: the band's `expects`, `focus`,
+`canDo`, `length` and the exams that certify it, localized the same way. Both guides
+render through the same code path, so a writing card gets chips and a band guide but
+never speaking-only fields (`prep_seconds`, `speak_seconds`, `follow_ups`).
 
 Coverage floor, enforced by `node scripts/test-writing-coverage.js`: **≥6 curated
 exam cards and ≥4 general cards per CEFR band per language**, complete scaffolding
@@ -145,6 +146,30 @@ ids are `<lang>:writing:x<n>` (exam) and `wx<n>`/`gx<n>` (general), clear of the
 legacy `1..10`, `c1..cN` and `g1..gN` ids. Authoring rules of thumb: exams at each
 band follow IELTS, TOEFL, Cambridge, DELF/DALF, Goethe, DELE and ТРКИ task
 shapes; general cards name a real-life writing situation, not an exam.
+
+## Band guide (localized, `data/daily/<lang>/band-guide.json`)
+
+One file per language, all 14, including `cv` (which has no `data/ui` file). Shape:
+
+```json
+{ "lang": "ru",
+  "ui":     { "what": "…", "focus": "…", "canDo": "…", "length": "…", "exams": "…" },
+  "chrome": { "level": "…", "prep": "…", "speak": "…", "words": "…",
+              "followUps": "…", "checklist": "…", "listen": "…", "practice": "…" },
+  "bands":  { "a0-a1": { "label": "A0-A1 · Уровень выживания",
+                         "speaking": { "canDo": "…", "expects": "…", "focus": "…", "exams": "…" },
+                         "writing":  { "canDo": "…", "expects": "…", "focus": "…", "exams": "…", "length": "…" } } } }
+```
+
+`label` sits on the band entry; the other fields sit on the `speaking`/`writing`
+entry — `guideFor()` merges the track entry and lifts `label` separately. Each
+language names the exams that certify *that* language (ТРКИ for `ru`, Goethe for
+`de`, DAB for `br`, the state exam for `tt`/`ba`/`cv`, …), so a translated guide never
+shows the English exam list. `fetchBandGuide()` loads the file once per language and
+caches it in `sessionStorage`; any missing file, band or field falls back to the
+English built-in, so a partial translation degrades to English rather than blanking.
+Tests: `tests/daily-strip.test.js` (completeness, no-English-leak, per-language exams,
+fallback, partial merge, language switch).
 
 ## Ecosystem strip (shared, top of every site)
 

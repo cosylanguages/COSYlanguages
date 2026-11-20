@@ -1,0 +1,86 @@
+{
+  "lang": "en",
+  "ui": {
+    "what": "What this level expects",
+    "focus": "Language to aim for:",
+    "canDo": "At this level you can:",
+    "length": "Typical length:",
+    "exams": "Certified by:"
+  },
+  "bands": {
+    "a0-a1": {
+      "label": "A0-A1 · Breakthrough",
+      "speaking": {
+        "canDo": "Introduce yourself and others, ask and answer simple questions about where you live, what you do and what you have, and use isolated phrases and very short sentences.",
+        "expects": "Short phrases about yourself and everyday things. Answer in full sentences, even simple ones.",
+        "focus": "Present simple, basic questions, numbers, everyday nouns",
+        "exams": "Cambridge Pre A1 Starters and A1 Movers · Trinity GESE 1-2"
+      },
+      "writing": {
+        "canDo": "Write simple isolated phrases and sentences about yourself, fill in a form with personal details, and write a short simple postcard or message.",
+        "expects": "Short sentences about yourself and everyday things. One idea per sentence, correct spelling and capital letters.",
+        "focus": "Present simple, basic linking (and / but / because), spelling, punctuation",
+        "exams": "Cambridge Pre A1 Starters and A1 Movers · Trinity GESE 1-2",
+        "length": "20-40 words"
+      }
+    },
+    "a2": {
+      "label": "A2 · Waystage",
+      "speaking": {
+        "canDo": "Handle short routine exchanges, describe your family, routine, immediate surroundings and past events, and cope with simple transactions such as shopping, travel and appointments.",
+        "expects": "Describe your routine, past events and plans in a few linked sentences.",
+        "focus": "Past and future forms, because / but / so, common collocations",
+        "exams": "Cambridge A2 Key · Trinity ISE Foundation · IELTS 3.0-4.0"
+      },
+      "writing": {
+        "canDo": "Write short, simple notes and messages, a very simple personal letter or email, and describe everyday aspects of your life in a series of simple linked phrases.",
+        "expects": "Describe routine, past events and plans in a few linked sentences, and write a short informal message that gets the job done.",
+        "focus": "Past and future forms, paragraphing, everyday connectors, informal register",
+        "exams": "Cambridge A2 Key · Trinity ISE Foundation · IELTS 3.0-4.0",
+        "length": "40-80 words"
+      }
+    },
+    "b1-b2": {
+      "label": "B1-B2 · Threshold to Vantage",
+      "speaking": {
+        "canDo": "Deal with most situations while travelling, give a short prepared talk, explain and defend an opinion with reasons and examples, and follow the main points of an unfamiliar topic.",
+        "expects": "Give and defend an opinion with reasons and examples, and handle an unfamiliar topic.",
+        "focus": "Conditionals, connectors, hedging, topic vocabulary",
+        "exams": "Cambridge B1 Preliminary and B2 First · IELTS 4.0-6.5 · TOEFL iBT 42-94 · Trinity ISE I-II"
+      },
+      "writing": {
+        "canDo": "Write straightforward connected text on familiar topics, personal letters describing experiences and impressions, and short reports or essays that give reasons for and against a view.",
+        "expects": "Organise a text with an opening, body and close, and support an opinion with reasons and examples.",
+        "focus": "Topic sentences, cohesive devices, formal and informal register, opinion language",
+        "exams": "Cambridge B1 Preliminary and B2 First · IELTS 4.0-6.5 · TOEFL iBT 42-94 · Trinity ISE I-II",
+        "length": "100-180 words"
+      }
+    },
+    "c1-c2": {
+      "label": "C1-C2 · Advanced",
+      "speaking": {
+        "canDo": "Speak fluently and spontaneously with little searching for words, argue a case precisely, concede counterarguments, and shift register between academic, professional and social settings.",
+        "expects": "Argue a position precisely, concede counterarguments and adapt your register.",
+        "focus": "Nominalisation, stance markers, idiomatic and academic phrasing",
+        "exams": "C1 Advanced · C2 Proficiency · IELTS 7.0+ · TOEFL iBT 95+ · ECPE"
+      },
+      "writing": {
+        "canDo": "Express yourself in clear, well-structured text, write about complex subjects in an essay, report or letter, and adopt an appropriate register and rhetorical structure for the reader.",
+        "expects": "Argue a position precisely, weigh counterarguments and control register, cohesion and emphasis over a long text.",
+        "focus": "Nominalisation, hedging, complex syntax, rhetorical structure, academic phrasing",
+        "exams": "C1 Advanced · C2 Proficiency · IELTS 7.0+ · TOEFL iBT 95+ · ECPE",
+        "length": "200-300 words"
+      }
+    }
+  },
+  "chrome": {
+    "level": "Level:",
+    "prep": "Prep",
+    "speak": "Speak",
+    "words": "words",
+    "followUps": "Follow-up questions",
+    "checklist": "Before you finish, check",
+    "listen": "Listen",
+    "practice": "Practice in Hub"
+  }
+}

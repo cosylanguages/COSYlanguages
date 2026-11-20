@@ -166,6 +166,34 @@
         return null;
     }
 
+    // The band guides ship in English inside this file; data/daily/<lang>/band-guide.json carries the same
+    // structure per language, including the exams that actually certify *that* language. Anything missing
+    // from a translation falls back to the English guide rather than leaving a gap in the panel.
+    async function fetchBandGuide(lang) {
+        const cacheKey = `cosy_band_guide_${lang}`;
+        try {
+            const cached = sessionStorage.getItem(cacheKey);
+            if (cached) return JSON.parse(cached);
+        } catch (e) {
+            // Ignore sessionStorage access errors
+        }
+
+        try {
+            const res = await fetch(`${COSY_HUB_DATA_BASE}${lang}/band-guide.json`);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const data = await res.json();
+            if (!data || !data.bands) return null;
+            try {
+                sessionStorage.setItem(cacheKey, JSON.stringify(data));
+            } catch (e) {
+                // Ignore storage quota errors
+            }
+            return data;
+        } catch (err) {
+            return null;
+        }
+    }
+
     // ---- Dictionary-backed calendar (COSYdata/daily/<lang>/calendar/<slot>/YYYY-MM.json) ----
     const CALENDAR_LEVELS = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
@@ -562,6 +590,7 @@
             const trk = (this.container.getAttribute('data-track') || '').toLowerCase();
             this.track = ['general', 'exam'].includes(trk) ? trk : '';
             this.categoryData = {};
+            this.bandGuide = null;
             this.uniqueId = 'ds_' + Math.random().toString(36).substring(2, 9);
             this.init();
         }
@@ -569,6 +598,7 @@
         async init() {
             this.renderShell();
             this.bindEvents();
+            await this.loadBandGuide();
             await this.loadAllCategories();
             this.renderContent();
             this.updateStreakUI();
@@ -731,6 +761,36 @@
             });
         }
 
+        async loadBandGuide() {
+            this.bandGuide = await fetchBandGuide(this.lang);
+        }
+
+        // Panel chrome (Level:, Prep, Speak, words, Follow-up questions, ...) localized by the same file.
+        chrome() {
+            const c = (this.bandGuide && this.bandGuide.chrome) || {};
+            return {
+                level: c.level || 'Level:', prep: c.prep || 'Prep', speak: c.speak || 'Speak',
+                words: c.words || 'words', followUps: c.followUps || 'Follow-up questions',
+                checklist: c.checklist || 'Before you finish, check',
+                listen: c.listen || 'Listen', practice: c.practice || 'Practice in Hub'
+            };
+        }
+
+        // Resolve the guide for the card on screen. The localized file wins where it has the band; the
+        // English built-in covers anything it does not (older cache, unshipped language, partial file).
+        guideFor(track, bandKey) {
+            const builtIn = track === 'writing' ? WRITING_BAND_GUIDE : SPEAKING_BAND_GUIDE;
+            const base = builtIn[bandKey];
+            if (!base) return null;
+            const localized = this.bandGuide && this.bandGuide.bands && this.bandGuide.bands[bandKey];
+            if (!localized) return { guide: base, ui: null };
+            // label sits on the band entry; canDo/expects/focus/exams/length sit on the track entry.
+            return {
+                guide: { ...base, ...localized[track], label: localized.label || base.label },
+                ui: this.bandGuide.ui || null
+            };
+        }
+
         async loadAllCategories() {
             const dayIdx = getDayOfYear();
             for (const config of this.tabs) {
@@ -786,17 +846,18 @@
                 if (!panel) return;
 
                 const item = this.categoryData[tab.id] || { text: 'Content unavailable.', translation: '', meta: '' };
+                const chrome = this.chrome();
                 const hasTranslation = Boolean(item.translation);
                 const hubUrl = tab.toolsLabel
                     ? `${COSY_TOOLS_DAILY_URL}?lang=${encodeURIComponent(this.lang)}`
                     : this.getHubPracticeLink(tab.id);
-                const linkLabel = tab.toolsLabel || '🚀 Practice in Hub';
+                const linkLabel = tab.toolsLabel || `🚀 ${chrome.practice}`;
                 const linkTitle = tab.toolsLabel ? 'Open today\'s verb in the COSYtools Daily page' : 'Open targeted exercises on COSYpractice Hub';
 
                 const showLevelBar = (tab.id === 'speaking' || tab.id === 'writing' || item.fromCalendar);
                 const levelBarHTML = showLevelBar ? `
                     <div class="daily-strip-level-bar" role="group" aria-label="CEFR Level Filter">
-                        <span class="daily-strip-level-label">Level:</span>
+                        <span class="daily-strip-level-label">${this.escapeHTML(chrome.level)}</span>
                         <button type="button" class="daily-strip-level-btn ${this.selectedLevel === 'a0-a1' ? 'active' : ''}" data-level="a0-a1">A0-A1</button>
                         <button type="button" class="daily-strip-level-btn ${this.selectedLevel === 'a2' ? 'active' : ''}" data-level="a2">A2</button>
                         <button type="button" class="daily-strip-level-btn ${this.selectedLevel === 'b1-b2' ? 'active' : ''}" data-level="b1-b2">B1-B2</button>
@@ -819,12 +880,12 @@
                 if (isWriting && item.part) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
                 if (isWriting && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
                 if (isWriting && item.genre) chips.push(`<span class="daily-strip-chip daily-strip-chip-genre">${this.escapeHTML(item.genre)}</span>`);
-                if (isSpeaking && item.prepSeconds) chips.push(`<span class="daily-strip-chip">⏱️ Prep ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
-                if (isSpeaking && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ Speak ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
+                if (isSpeaking && item.prepSeconds) chips.push(`<span class="daily-strip-chip">⏱️ ${this.escapeHTML(chrome.prep)} ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
+                if (isSpeaking && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ ${this.escapeHTML(chrome.speak)} ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
                 if (isWriting && (item.wordMin || item.wordMax)) {
                     const target = item.wordMin && item.wordMax
-                        ? `${item.wordMin}-${item.wordMax} words`
-                        : `${item.wordMin || item.wordMax}+ words`;
+                        ? `${item.wordMin}-${item.wordMax} ${chrome.words}`
+                        : `${item.wordMin || item.wordMax}+ ${chrome.words}`;
                     chips.push(`<span class="daily-strip-chip">📝 ${this.escapeHTML(target)}</span>`);
                 }
                 if (isWriting && item.writeMinutes) chips.push(`<span class="daily-strip-chip">⏱️ ${this.escapeHTML(item.writeMinutes)} min</span>`);
@@ -832,7 +893,7 @@
 
                 const followUpsHTML = tab.id === 'speaking' && item.followUps.length ? `
                     <div class="daily-strip-followups">
-                        <span class="daily-strip-followups-label">Follow-up questions</span>
+                        <span class="daily-strip-followups-label">${this.escapeHTML(chrome.followUps)}</span>
                         <ul class="daily-strip-followups-list">
                             ${item.followUps.map(q => `<li>${this.escapeHTML(q)}</li>`).join('')}
                         </ul>
@@ -842,27 +903,29 @@
                 // A checklist turns the prompt into a self-marking task: tick each point before calling it done.
                 const checklistHTML = isWriting && item.checklist.length ? `
                     <div class="daily-strip-checklist">
-                        <span class="daily-strip-checklist-label">Before you finish, check</span>
+                        <span class="daily-strip-checklist-label">${this.escapeHTML(chrome.checklist)}</span>
                         <ul class="daily-strip-checklist-list">
                             ${item.checklist.map(c => `<li>${this.escapeHTML(c)}</li>`).join('')}
                         </ul>
                     </div>
                 ` : '';
 
-                const guide = isSpeaking
-                    ? SPEAKING_BAND_GUIDE[guideKeyForLevel(item.level) || this.selectedLevel]
-                    : (isWriting ? WRITING_BAND_GUIDE[guideKeyForLevel(item.level) || this.selectedLevel] : null);
+                const guideEntry = isSpeaking || isWriting
+                    ? this.guideFor(isWriting ? 'writing' : 'speaking', guideKeyForLevel(item.level) || this.selectedLevel)
+                    : null;
+                const guide = guideEntry && guideEntry.guide;
+                const guideUI = (guideEntry && guideEntry.ui) || {};
                 const guideHTML = guide ? `
                     <div class="daily-strip-band-guide">
                         <div class="daily-strip-band-guide-head">
                             <span class="daily-strip-band-guide-label">${this.escapeHTML(guide.label)}</span>
-                            <span class="daily-strip-band-guide-what">What this level expects</span>
+                            <span class="daily-strip-band-guide-what">${this.escapeHTML(guideUI.what || 'What this level expects')}</span>
                         </div>
                         <p class="daily-strip-band-guide-expects">${this.escapeHTML(guide.expects)}</p>
-                        <p class="daily-strip-band-guide-focus"><strong>Language to aim for:</strong> ${this.escapeHTML(guide.focus)}</p>
-                        ${guide.canDo ? `<p class="daily-strip-band-guide-cando"><strong>At this level you can:</strong> ${this.escapeHTML(guide.canDo)}</p>` : ''}
-                        ${guide.length ? `<p class="daily-strip-band-guide-length"><strong>Typical length:</strong> ${this.escapeHTML(guide.length)}</p>` : ''}
-                        ${guide.exams ? `<p class="daily-strip-band-guide-exams"><strong>Certified by:</strong> ${this.escapeHTML(guide.exams)}</p>` : ''}
+                        <p class="daily-strip-band-guide-focus"><strong>${this.escapeHTML(guideUI.focus || 'Language to aim for:')}</strong> ${this.escapeHTML(guide.focus)}</p>
+                        ${guide.canDo ? `<p class="daily-strip-band-guide-cando"><strong>${this.escapeHTML(guideUI.canDo || 'At this level you can:')}</strong> ${this.escapeHTML(guide.canDo)}</p>` : ''}
+                        ${guide.length ? `<p class="daily-strip-band-guide-length"><strong>${this.escapeHTML(guideUI.length || 'Typical length:')}</strong> ${this.escapeHTML(guide.length)}</p>` : ''}
+                        ${guide.exams ? `<p class="daily-strip-band-guide-exams"><strong>${this.escapeHTML(guideUI.exams || 'Certified by:')}</strong> ${this.escapeHTML(guide.exams)}</p>` : ''}
                     </div>
                 ` : '';
 
@@ -881,7 +944,7 @@
                     <div class="daily-strip-footer">
                         <div class="daily-strip-actions-left">
                             <button type="button" class="daily-strip-audio-btn" aria-label="Listen to audio pronunciation">
-                                🔊 Listen
+                                🔊 ${this.escapeHTML(chrome.listen)}
                             </button>
                             ${hasTranslation ? `
                                 <button type="button" class="daily-strip-toggle-translation-btn" data-target="${this.uniqueId}_trans_${tab.id}">
@@ -1021,6 +1084,7 @@
             const langBadge = this.container.querySelector('.daily-strip-lang-badge');
             if (langBadge) langBadge.textContent = this.lang.toUpperCase();
             this.mountDirectory();
+            await this.loadBandGuide();
             await this.loadAllCategories();
             this.renderContent();
         }
@@ -1062,6 +1126,7 @@
         calendarLevelPreference,
         pickCalendarCard,
         fetchCategoryData,
+        fetchBandGuide,
         DAILY_SOURCES,
         fetchCalendarDay,
         calendarCardToItem,
