@@ -800,9 +800,10 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
 
 test('Daily Strip general-course cards: activity instead of exam, and audience filtering', async (t) => {
     const mixed = [
-        { id: 'en:speaking:g1', prompt: 'Name five things in a kitchen.', level: 'A0-A1', curated: true,
+        { id: 'en:speaking:g1', prompt: 'Name ten things in a kitchen. Which do you use every day? What do you do with them?', level: 'A0-A1', curated: true,
           track: 'general', task: 'Name as many as you can', activity: 'brainstorm', audience: ['young', 'teen', 'adult', 'senior'],
-          prep_seconds: 10, speak_seconds: 45, follow_ups: ['Which do you use most?'] },
+          prep_seconds: 10, speak_seconds: 45,
+          follow_ups: ['Which one is the most useful?', 'Which one is dangerous for children?', 'What is in your kitchen that is not in mine?'] },
         { id: 'en:speaking:g2', prompt: 'Present a proposal for your community.', level: 'C1-C2', curated: true,
           track: 'general', task: 'Present a proposal', activity: 'present', audience: ['adult', 'senior'],
           prep_seconds: 45, speak_seconds: 120, follow_ups: ['What is the first step?'] },
@@ -887,6 +888,17 @@ test('Daily Strip general-course cards: activity instead of exam, and audience f
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         assert.ok(!html.includes('Cue card talk'), 'exam task is filtered out');
         assert.ok(!html.includes('daily-strip-chip-exam'), 'no exam chip in general mode');
+    });
+
+    await t.test('a general card shows all three follow-up questions', async () => {
+        const { comp, nodes } = mountWith(mixed, {});
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'a0-a1';
+        await comp.loadAllCategories();
+        comp.renderContent();
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('Follow-up questions'), 'follow-ups block rendered');
+        for (const q of mixed[0].follow_ups) assert.ok(html.includes(q), `shows: ${q}`);
     });
 
     await t.test('the band guide describes the card actually shown, not the requested band', async () => {
