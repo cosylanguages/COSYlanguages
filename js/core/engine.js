@@ -823,9 +823,13 @@ const COSY = window.COSY = {
     getPrefix,
 
     initTheme() {
+        // cosy-theme.js owns the choice (it runs before first paint); re-apply here
+        // so pages that load the engine without the shared module still settle.
         let theme = null;
         try {
-            theme = localStorage.getItem('cosy.theme') || localStorage.getItem('cosy_theme');
+            theme = (window.CosyTheme && window.CosyTheme.get())
+                || localStorage.getItem('cosy.theme')
+                || localStorage.getItem('cosy_theme');
         } catch (e) {}
         if (!theme) {
             theme = (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
@@ -854,22 +858,30 @@ const COSY = window.COSY = {
     toggleTheme() {
         let currentTheme = null;
         try {
-            currentTheme = localStorage.getItem('cosy.theme') || localStorage.getItem('cosy_theme');
+            currentTheme = (window.CosyTheme && window.CosyTheme.get())
+                || localStorage.getItem('cosy.theme')
+                || localStorage.getItem('cosy_theme');
         } catch (e) {}
         if (!currentTheme) {
             currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
         }
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        try {
-            localStorage.setItem('cosy.theme', newTheme);
-            localStorage.setItem('cosy_theme', newTheme);
-        } catch (e) {}
-        document.documentElement.setAttribute('data-theme', newTheme);
-        if (typeof document !== 'undefined' && document.body) {
-            if (newTheme === 'dark') {
-                document.body.classList.add('theme-dark');
-            } else {
-                document.body.classList.remove('theme-dark');
+        if (window.CosyTheme && typeof window.CosyTheme.set === 'function') {
+            // Shared module writes both storage keys, html[data-theme], .theme-dark
+            // and color-scheme, so every other COSY page agrees.
+            window.CosyTheme.set(newTheme);
+        } else {
+            try {
+                localStorage.setItem('cosy.theme', newTheme);
+                localStorage.setItem('cosy_theme', newTheme);
+            } catch (e) {}
+            document.documentElement.setAttribute('data-theme', newTheme);
+            if (typeof document !== 'undefined' && document.body) {
+                if (newTheme === 'dark') {
+                    document.body.classList.add('theme-dark');
+                } else {
+                    document.body.classList.remove('theme-dark');
+                }
             }
         }
         this.updateThemeIcons(newTheme);

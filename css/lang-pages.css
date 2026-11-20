@@ -831,7 +831,7 @@ html[data-theme="dark"] .mc-link, body.theme-dark .mc-link {
   display: inline-flex;
   align-items: center;
   gap: .4rem;
-  background: #ffffff;
+  background: var(--warm-white);
   color: var(--accent-dark, #1a3f5c);
   font-family:var(--font-sans);
   font-weight: 900;

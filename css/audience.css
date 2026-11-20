@@ -305,9 +305,9 @@ html[data-audience="adults"] .adult-goal-chip {
     align-items: center;
     gap: 6px;
     padding: 4px 10px;
-    background: #FFF8E1;
-    color: #F57F17;
-    border: 1px solid #FFE082;
+    background: var(--cosy-semantic-warning-light);
+    color: var(--cosy-semantic-warning);
+    border: 1px solid var(--cosy-semantic-warning);
     border-radius: 8px;
     font-size: 0.8rem;
     font-weight: 700;

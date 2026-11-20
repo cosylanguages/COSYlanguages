@@ -52,7 +52,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: #ffffff;
+  background: var(--warm-white);
   border: 1px solid var(--border, #E2DCD5);
   padding: 0.5rem 1rem;
   border-radius: 999px;
@@ -179,7 +179,7 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #ffffff;
+  background: var(--warm-white);
   border: 3px solid var(--course-accent, #416B49);
   color: var(--course-accent, #416B49);
   display: flex;
