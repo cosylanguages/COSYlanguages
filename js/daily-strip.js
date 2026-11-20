@@ -25,23 +25,6 @@
         facts: [COSY_HUB_DATA_BASE, COSY_DATA_DAILY_BASE]
     };
 
-    const LANG_VOICE_MAP = {
-        'en': 'en-US',
-        'fr': 'fr-FR',
-        'it': 'it-IT',
-        'ru': 'ru-RU',
-        'el': 'el-GR',
-        'es': 'es-ES',
-        'de': 'de-DE',
-        'pt': 'pt-PT',
-        'hy': 'hy-AM',
-        'ka': 'ka-GE',
-        'tt': 'tt',
-        'ba': 'ba',
-        'br': 'br',
-        'cv': 'cv'
-    };
-
     // Every tab a strip can show. A host picks and orders them with data-slots="word,phrasal-verb";
     // without it a strip shows the default four below. `calendar` names the COSYdata calendar slot a tab reads.
     const TAB_REGISTRY = {
@@ -92,27 +75,6 @@
     function getTodaySchedule() {
         const dayOfWeek = new Date().getDay();
         return DAILY_SCHEDULE[dayOfWeek] || DAILY_SCHEDULE[0];
-    }
-
-    function buildPracticeUrl(lang, cat, level, theme) {
-        const url = new URL(COSY_PRACTICE_BASE);
-        if (lang) url.searchParams.set('lang', lang.toLowerCase());
-        if (cat) url.searchParams.set('cat', cat);
-
-        // Normalize level for COSYpractice URL
-        if (level && level !== 'all') {
-            let lvl = level.toLowerCase();
-            if (lvl === 'a0-a1' || lvl === 'starter') lvl = 'a1';
-            else if (lvl === 'a2' || lvl === 'elementary') lvl = 'a2';
-            else if (lvl === 'b1-b2' || lvl === 'intermediate') lvl = 'b1';
-            else if (lvl === 'c1-c2' || lvl === 'advanced') lvl = 'c1';
-            url.searchParams.set('level', lvl);
-        }
-
-        if (theme && theme !== 'all') {
-            url.searchParams.set('theme', theme);
-        }
-        return url.toString();
     }
 
     function getUnifiedStreak() {
@@ -687,8 +649,7 @@
             return {
                 level: c.level || 'Level:', prep: c.prep || 'Prep', speak: c.speak || 'Speak',
                 words: c.words || 'words', followUps: c.followUps || 'Follow-up questions',
-                checklist: c.checklist || 'Before you finish, check',
-                listen: c.listen || 'Listen', practice: c.practice || 'Practice in Hub'
+                checklist: c.checklist || 'Before you finish, check'
             };
         }
 
@@ -726,21 +687,6 @@
             }
         }
 
-        getHubPracticeLink(tabId) {
-            let cat = 'vocab';
-            let theme = 'all';
-
-            if (tabId === 'speaking') {
-                cat = 'speaking';
-            } else if (tabId === 'writing') {
-                cat = 'grammar';
-            } else if (tabId === 'fact') {
-                cat = 'vocab';
-            }
-
-            return buildPracticeUrl(this.lang, cat, this.selectedLevel, theme);
-        }
-
         renderContent() {
             this.tabs.forEach(tab => {
                 const panel = this.container.querySelector(`#${this.uniqueId}_panel_${tab.id}`);
@@ -749,11 +695,8 @@
                 const item = this.categoryData[tab.id] || { text: 'Content unavailable.', translation: '', meta: '' };
                 const chrome = this.chrome();
                 const hasTranslation = Boolean(item.translation);
-                const hubUrl = tab.toolsLabel
-                    ? `${COSY_TOOLS_DAILY_URL}?lang=${encodeURIComponent(this.lang)}`
-                    : this.getHubPracticeLink(tab.id);
-                const linkLabel = tab.toolsLabel || `🚀 ${chrome.practice}`;
-                const linkTitle = tab.toolsLabel ? 'Open today\'s verb in the COSYtools Daily page' : 'Open targeted exercises on COSYpractice Hub';
+                // Only the COSYtools tabs carry a footer link now; the generic "Practice in Hub" deep link is gone.
+                const toolsUrl = tab.toolsLabel ? `${COSY_TOOLS_DAILY_URL}?lang=${encodeURIComponent(this.lang)}` : '';
 
                 const showLevelBar = (tab.id === 'speaking' || tab.id === 'writing' || item.fromCalendar);
                 const levelBarHTML = showLevelBar ? `
@@ -792,7 +735,8 @@
                 if (isWriting && item.writeMinutes) chips.push(`<span class="daily-strip-chip">⏱️ ${this.escapeHTML(item.writeMinutes)} min</span>`);
                 const chipsHTML = chips.length ? `<div class="daily-strip-chips">${chips.join('')}</div>` : '';
 
-                const followUpsHTML = tab.id === 'speaking' && item.followUps.length ? `
+                // Both prompt tabs can carry follow-ups: speaking answers them aloud, writing uses them to extend the draft.
+                const followUpsHTML = (isSpeaking || isWriting) && item.followUps.length ? `
                     <div class="daily-strip-followups">
                         <span class="daily-strip-followups-label">${this.escapeHTML(chrome.followUps)}</span>
                         <ul class="daily-strip-followups-list">
@@ -824,20 +768,19 @@
                     </div>
                     <div class="daily-strip-footer">
                         <div class="daily-strip-actions-left">
-                            <button type="button" class="daily-strip-audio-btn" aria-label="Listen to audio pronunciation">
-                                🔊 ${this.escapeHTML(chrome.listen)}
-                            </button>
                             ${hasTranslation ? `
                                 <button type="button" class="daily-strip-toggle-translation-btn" data-target="${this.uniqueId}_trans_${tab.id}">
                                     🌐 Show Translation
                                 </button>
                             ` : ''}
                         </div>
+                        ${toolsUrl ? `
                         <div class="daily-strip-actions-right">
-                            <a href="${hubUrl}" class="daily-strip-practice-link" title="${linkTitle}">
-                                ${linkLabel} <span class="daily-strip-ext-icon">↗</span>
+                            <a href="${toolsUrl}" class="daily-strip-practice-link" title="Open today's verb in the COSYtools Daily page">
+                                ${tab.toolsLabel} <span class="daily-strip-ext-icon">↗</span>
                             </a>
                         </div>
+                        ` : ''}
                     </div>
                 `;
 
@@ -855,14 +798,6 @@
                                 this.renderContent();
                             }
                         });
-                    });
-                }
-
-                // Bind audio button
-                const audioBtn = panel.querySelector('.daily-strip-audio-btn');
-                if (audioBtn) {
-                    audioBtn.addEventListener('click', () => {
-                        this.speakText(item.text);
                     });
                 }
 
@@ -884,14 +819,6 @@
                     });
                 }
             });
-        }
-
-        speakText(text) {
-            if (!('speechSynthesis' in window)) return;
-            window.speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = LANG_VOICE_MAP[this.lang] || 'en-US';
-            window.speechSynthesis.speak(utterance);
         }
 
         handleMarkDone() {
@@ -997,7 +924,6 @@
     // Expose helpers & component for modular testing and programmatic usage
     window.COSY_DailyStrip = DailyStripComponent;
     window.COSY_DailyStrip_Helpers = {
-        buildPracticeUrl,
         getUnifiedStreak,
         getUnifiedPoints,
         isPracticeDoneToday,

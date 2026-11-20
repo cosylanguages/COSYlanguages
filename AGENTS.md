@@ -114,9 +114,12 @@ general track must use all twelve activities in all fourteen languages. Add card
 never drop below the floor. Every language currently clears it in every band (899
 curated speaking cards in total); the thin six (hy, ka, tt, ba, cv, br) were raised
 from the old 8/4 floor and the richer five (en, fr, it, ru, el) from 4 to 5 general
-cards in the lower bands. Content is append-only in practice: new ids are
+cards in the lower bands. Those five were then widened again by 20 cards each
+(12 exam + 8 general), so en holds 105, and el/fr/it/ru hold 87 each — 999 curated
+cards in total. Content is append-only in practice: new ids are
 `<lang>:speaking:x<n>` (exam), `gx<n>`/`gy<n>` (general) and `p<n>` (richer-language
-exam gaps) to stay clear of the legacy `1..10`, `c1..cN` and `g1..gN` ids.
+exam gaps) to stay clear of the legacy `1..10`, `c1..cN` and `g1..gN` ids. New exam
+cards continue the `c<n>` sequence at the highest number already used.
 
 ## Daily speaking prompts: exam and general tracks
 
@@ -169,14 +172,17 @@ still consumed:
 { "lang": "ru",
   "ui":     { "what": "…", "focus": "…", "canDo": "…", "length": "…", "exams": "…" },
   "chrome": { "level": "…", "prep": "…", "speak": "…", "words": "…",
-              "followUps": "…", "checklist": "…", "listen": "…", "practice": "…" },
+              "followUps": "…", "checklist": "…" },
   "bands":  { "a0-a1": { "label": "A0-A1 · Уровень выживания",
                          "speaking": { "canDo": "…", "expects": "…", "focus": "…", "exams": "…" },
                          "writing":  { "canDo": "…", "expects": "…", "focus": "…", "exams": "…", "length": "…" } } } }
 ```
 
 `chrome` localizes the panel's own labels ("Level:", "Prep", "Speak", "words",
-"Follow-up questions", "Before you finish, check", "Listen", "Practice in Hub").
+"Follow-up questions", "Before you finish, check"). `listen` and `practice` remain in
+the files but are no longer read: the "🔊 Listen" button and the "🚀 Practice in Hub"
+link were removed from every tab, so the only footer link left is the COSYtools one
+on the verb tabs.
 `ui` and `bands` are retained in the files but no longer rendered; the per-language
 `exams` strings are the reference for which exam certifies which band.
 `fetchBandGuide()` loads the file once per language and caches it in

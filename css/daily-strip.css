@@ -411,7 +411,6 @@
     gap: 0.5rem;
 }
 
-.daily-strip-audio-btn,
 .daily-strip-toggle-translation-btn {
     display: inline-flex;
     align-items: center;
@@ -428,7 +427,6 @@
     transition: all var(--cosy-transition-fast, 0.15s ease);
 }
 
-.daily-strip-audio-btn:hover,
 .daily-strip-toggle-translation-btn:hover {
     background: var(--cosy-color-sage-light, #E8F0E9);
     border-color: var(--cosy-color-sage, #416B49);
@@ -462,7 +460,6 @@
     line-height: 1;
 }
 
-.daily-strip-audio-btn:focus-visible,
 .daily-strip-toggle-translation-btn:focus-visible,
 .daily-strip-practice-link:focus-visible {
     outline: none;
@@ -474,7 +471,6 @@
     .daily-strip-container,
     .daily-strip-done-btn,
     .daily-strip-tab,
-    .daily-strip-audio-btn,
     .daily-strip-toggle-translation-btn,
     .daily-strip-practice-link,
     .daily-strip-challenge-pill {
@@ -665,18 +661,14 @@ body.theme-dark .daily-strip-footer {
     border-top-color: rgba(255, 255, 255, 0.08);
 }
 
-html[data-theme="dark"] .daily-strip-audio-btn,
 html[data-theme="dark"] .daily-strip-toggle-translation-btn,
-body.theme-dark .daily-strip-audio-btn,
 body.theme-dark .daily-strip-toggle-translation-btn {
     background: #243127;
     border-color: rgba(255, 255, 255, 0.15);
     color: #D6E8D9;
 }
 
-html[data-theme="dark"] .daily-strip-audio-btn:hover,
 html[data-theme="dark"] .daily-strip-toggle-translation-btn:hover,
-body.theme-dark .daily-strip-audio-btn:hover,
 body.theme-dark .daily-strip-toggle-translation-btn:hover {
     background: #2D4A37;
     color: #FFFFFF;

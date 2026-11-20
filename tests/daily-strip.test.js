@@ -79,33 +79,9 @@ function setupTestEnvironment(extraGlobals = {}) {
 
 test('Daily Strip & COSYpractice Collaboration Suite', async (t) => {
 
-    await t.test('1. Practice Hub URL generator should construct valid deep links', () => {
+    await t.test('1. The generic Practice Hub deep link is gone', () => {
         const { helpers } = setupTestEnvironment();
-        const buildUrl = helpers.buildPracticeUrl;
-
-        // Speaking deep link
-        const spkUrl = buildUrl('en', 'speaking', 'a0-a1', 'speaking');
-        assert.ok(spkUrl.startsWith('https://cosylanguages.github.io/COSYpractice/'));
-        const parsedSpk = new URL(spkUrl);
-        assert.equal(parsedSpk.searchParams.get('lang'), 'en');
-        assert.equal(parsedSpk.searchParams.get('cat'), 'speaking');
-        assert.equal(parsedSpk.searchParams.get('level'), 'a1');
-        assert.equal(parsedSpk.searchParams.get('theme'), 'speaking');
-
-        // French grammar deep link with B1 level mapping
-        const frUrl = buildUrl('fr', 'grammar', 'b1-b2', 'all');
-        const parsedFr = new URL(frUrl);
-        assert.equal(parsedFr.searchParams.get('lang'), 'fr');
-        assert.equal(parsedFr.searchParams.get('cat'), 'grammar');
-        assert.equal(parsedFr.searchParams.get('level'), 'b1');
-        assert.equal(parsedFr.searchParams.get('theme'), null);
-
-        // Italian idiom deep link
-        const itUrl = buildUrl('it', 'vocab', 'all', 'phrases_idioms');
-        const parsedIt = new URL(itUrl);
-        assert.equal(parsedIt.searchParams.get('lang'), 'it');
-        assert.equal(parsedIt.searchParams.get('cat'), 'vocab');
-        assert.equal(parsedIt.searchParams.get('theme'), 'phrases_idioms');
+        assert.equal(helpers.buildPracticeUrl, undefined, 'buildPracticeUrl was removed with the hub link');
     });
 
     await t.test('2. Streak synchronization across cosy-streak and practice_streak', () => {
@@ -596,7 +572,8 @@ test('Daily Strip verb of the day and verb + preposition tabs', async (t) => {
         const link = 'https://cosylanguages.github.io/COSYtools/practice/daily/?lang=fr';
         assert.ok(verbPanel.includes(link) && verbPanel.includes('Conjugate it in COSYtools'));
         assert.ok(prepPanel.includes(link) && prepPanel.includes('Guess the preposition in COSYtools'));
-        assert.ok(!verbPanel.includes('Practice in Hub'), 'the hub practice link is replaced');
+        assert.ok(!verbPanel.includes('Practice in Hub'), 'the hub practice link is gone');
+        assert.ok(!verbPanel.includes('daily-strip-audio-btn'), 'the Listen button is gone');
     });
 });
 
@@ -793,7 +770,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(!html.includes('daily-strip-band-guide'), 'no band guide');
     });
 
-    await t.test('the writing tab shows its own brief and band guide, never the speaking one', async () => {
+    await t.test('the writing tab shows its own brief and its own follow-ups, never the speaking ones', async () => {
         const writing = [{ id: 'en:writing:1', prompt: 'Write a short paragraph about your week.', level: 'A2', curated: true,
                            task: 'Paragraph', genre: 'Description', exam: 'IELTS', part: 'Part 1',
                            word_min: 140, word_max: 190, write_minutes: 40,
@@ -821,8 +798,32 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(html.includes('Before you finish, check'), 'self-check list renders');
         assert.ok(!html.includes('daily-strip-band-guide'), 'no band guide on writing');
         assert.ok(!html.includes('Typical length'), 'no length line');
-        assert.ok(!html.includes('Follow-up questions'), 'no speaking follow-ups on writing');
+        assert.ok(html.includes('Follow-up questions'), 'writing cards carry follow-ups too');
+        assert.ok(html.includes('Why?'), 'the writing follow-up is shown');
         assert.ok(!html.includes('Prep 30s') && !html.includes('Speak 1m'), 'no speaking timings on writing');
+    });
+
+    await t.test('a writing card without follow-ups renders no follow-up block', async () => {
+        const writing = [{ id: 'en:writing:2', prompt: 'Write a note to your neighbour.', level: 'A2', curated: true,
+                           task: 'Note', genre: 'Message', exam: 'Cambridge A2 Key', part: 'Part 6',
+                           word_min: 25, word_max: 35, write_minutes: 10,
+                           checklist: ['You said where the key is.', 'You used a greeting.'] }];
+        const fakeFetch = async (url) => (url.endsWith('/en/writing.json') ? { ok: true, json: async () => writing } : { ok: false, status: 404 });
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'en', 'data-slots': 'writing', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+
+        const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
+        assert.ok(!html.includes('Follow-up questions'), 'no follow-up block without data');
+        assert.ok(html.includes('Before you finish, check'), 'the checklist still renders');
     });
 });
 
@@ -1047,7 +1048,8 @@ test('Daily Strip chrome localization: every language labels its own controls', 
     const pathLocal = require('node:path');
     const DATA = pathLocal.join(__dirname, '../data/daily');
     const LANGS = ['en', 'fr', 'de', 'es', 'it', 'pt', 'ru', 'el', 'hy', 'ka', 'tt', 'ba', 'cv', 'br'];
-    const CHROME_KEYS = ['level', 'prep', 'speak', 'words', 'followUps', 'checklist', 'listen', 'practice'];
+    // listen/practice are no longer rendered: the Listen button and the Practice in Hub link were removed.
+    const CHROME_KEYS = ['level', 'prep', 'speak', 'words', 'followUps', 'checklist'];
 
     // Serve the real band-guide.json from disk, so the test exercises the same files the browser fetches.
     function mount(lang, items, opts = {}) {
