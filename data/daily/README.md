@@ -34,12 +34,14 @@ entry can also carry the exam brief:
 
 ```json
 { "id": "en:speaking:c7", "prompt": "Describe a skill you learned that changed your daily life…",
-  "level": "B1-B2", "curated": true, "task": "Cue card talk", "exam": "IELTS Part 2",
+  "level": "B1-B2", "curated": true,
+  "exam": "IELTS", "part": "Part 2 · Long turn (cue card)", "task": "Cue card talk",
   "prep_seconds": 60, "speak_seconds": 120, "follow_ups": ["Was it difficult at the beginning?"] }
 ```
 
-The strip renders `task` and `exam` as chips, `prep_seconds` / `speak_seconds` as "Prep 1 min /
+The strip renders `exam`, `part` and `task` as chips, `prep_seconds` / `speak_seconds` as "Prep 1 min /
 Speak 2 min", `follow_ups` as a short list, and a band guide (`SPEAKING_BAND_GUIDE` in
-`js/daily-strip.js`) that says what the selected CEFR band expects and which language to aim for. All
-fields are optional, so prompts without them still render. Schema and validation live in COSYpractice
-(`data/daily/README.md`, `scripts/validate-daily-prompts.js`).
+`js/daily-strip.js`) that says what the selected CEFR band expects and which language to aim for. `part`
+names the real speaking part of that exam, so the chip reads like "IELTS · Part 2 · Long turn (cue card)".
+All fields are optional at render time, so prompts without them still render. Schema and validation live
+in COSYpractice (`data/daily/README.md`, `scripts/validate-daily-prompts.js`).

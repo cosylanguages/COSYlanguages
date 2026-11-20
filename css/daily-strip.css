@@ -314,6 +314,13 @@
     color: var(--cosy-color-sage-dark, #375742);
 }
 
+.daily-strip-chip-part {
+    background: transparent;
+    border-style: dashed;
+    border-color: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-color-sage-dark, #375742);
+}
+
 .daily-strip-followups {
     margin-top: 0.5rem;
     padding: 0.6rem 0.85rem;
@@ -607,6 +614,13 @@ body.theme-dark .daily-strip-chip-task {
 html[data-theme="dark"] .daily-strip-chip-exam,
 body.theme-dark .daily-strip-chip-exam {
     background: rgba(143, 177, 147, 0.2);
+    border-color: #8FB193;
+    color: #D6E8D9;
+}
+
+html[data-theme="dark"] .daily-strip-chip-part,
+body.theme-dark .daily-strip-chip-part {
+    background: transparent;
     border-color: #8FB193;
     color: #D6E8D9;
 }

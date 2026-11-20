@@ -387,6 +387,7 @@
             meta,
             // exam-style speaking scaffolding; all optional so older cached prompts still render
             exam: item.exam || '',
+            part: item.part || '',
             task: item.task || '',
             followUps: Array.isArray(item.follow_ups) ? item.follow_ups.filter(q => typeof q === 'string' && q.trim()) : [],
             prepSeconds: Number.isFinite(Number(item.prep_seconds)) && Number(item.prep_seconds) > 0 ? Number(item.prep_seconds) : 0,
@@ -647,10 +648,12 @@
                     </div>
                 ` : '';
 
-                // Exam-style brief: the task type, the exam it is modelled on and how long to prepare and speak.
+                // Exam-style brief: the exam and the speaking part it comes from, the task type, and how long to
+                // prepare and speak.
                 const chips = [];
-                if (tab.id === 'speaking' && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
                 if (tab.id === 'speaking' && item.exam) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
+                if (tab.id === 'speaking' && item.part) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
+                if (tab.id === 'speaking' && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
                 if (tab.id === 'speaking' && item.prepSeconds) chips.push(`<span class="daily-strip-chip">⏱️ Prep ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
                 if (tab.id === 'speaking' && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ Speak ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
                 const chipsHTML = chips.length ? `<div class="daily-strip-chips">${chips.join('')}</div>` : '';

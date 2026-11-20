@@ -672,10 +672,10 @@ test('Daily Strip reads prompts and facts from data files, not from tables or gl
 test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide', async (t) => {
     const speaking = [
         { id: 'en:speaking:c1', prompt: 'Describe a skill you learned that changed your daily life.', topic: 'skills',
-          level: 'B1-B2', curated: true, exam: 'IELTS Part 2', task: 'Cue card talk',
+          level: 'B1-B2', curated: true, exam: 'IELTS', part: 'Part 2 · Long turn (cue card)', task: 'Cue card talk',
           prep_seconds: 60, speak_seconds: 120, follow_ups: ['Was it difficult at the beginning?', 'Would you recommend it?'] },
         { id: 'en:speaking:c2', prompt: 'Introduce yourself: name, town, work and one hobby.', topic: 'introductions',
-          level: 'A0-A1', curated: true, exam: 'DELF A1', task: 'Personal introduction',
+          level: 'A0-A1', curated: true, exam: 'DELF A1', part: 'Part 1 · Entretien dirigé', task: 'Se présenter',
           prep_seconds: 15, speak_seconds: 45, follow_ups: ['How do you spell your name?'] }
     ];
 
@@ -706,7 +706,8 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         const { helpers } = setupTestEnvironment();
         const item = helpers.parseDailyItem(speaking[0]);
         assert.equal(item.task, 'Cue card talk');
-        assert.equal(item.exam, 'IELTS Part 2');
+        assert.equal(item.exam, 'IELTS');
+        assert.equal(item.part, 'Part 2 · Long turn (cue card)');
         assert.equal(item.prepSeconds, 60);
         assert.equal(item.speakSeconds, 120);
         assert.deepEqual(Array.from(item.followUps), ['Was it difficult at the beginning?', 'Would you recommend it?']);
@@ -714,6 +715,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         const bare = helpers.parseDailyItem({ prompt: 'Just a prompt', level: 'A2' });
         assert.equal(bare.task, '');
         assert.equal(bare.exam, '');
+        assert.equal(bare.part, '');
         assert.equal(bare.prepSeconds, 0);
         assert.equal(bare.speakSeconds, 0);
         assert.deepEqual(Array.from(bare.followUps), []);
@@ -733,7 +735,8 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
 
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         assert.ok(html.includes('Cue card talk'), 'task chip');
-        assert.ok(html.includes('IELTS Part 2'), 'exam chip');
+        assert.ok(html.includes('IELTS'), 'exam chip');
+        assert.ok(html.includes('Part 2 · Long turn (cue card)'), 'part chip');
         assert.ok(html.includes('Prep 1 min'), 'prep time');
         assert.ok(html.includes('Speak 2 min'), 'speaking time');
         assert.ok(html.includes('Follow-up questions'), 'follow-up heading');
@@ -752,8 +755,9 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
 
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         assert.ok(html.includes('A0-A1 · Breakthrough'), 'A0-A1 guide');
-        assert.ok(html.includes('Personal introduction'), 'A0-A1 task chip');
+        assert.ok(html.includes('Se présenter'), 'A0-A1 task chip');
         assert.ok(html.includes('DELF A1'), 'A0-A1 exam chip');
+        assert.ok(html.includes('Part 1 · Entretien dirigé'), 'A0-A1 part chip');
         assert.ok(!html.includes('Threshold to Vantage'), 'no other band guide');
     });
 
@@ -773,7 +777,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
 
     await t.test('the writing tab never shows the speaking brief', async () => {
         const writing = [{ id: 'en:writing:1', prompt: 'Write a short paragraph about your week.', level: 'A2',
-                           task: 'Paragraph', exam: 'IELTS', prep_seconds: 30, speak_seconds: 60, follow_ups: ['Why?'] }];
+                           task: 'Paragraph', exam: 'IELTS', part: 'Part 1', prep_seconds: 30, speak_seconds: 60, follow_ups: ['Why?'] }];
         const fakeFetch = async (url) => (url.endsWith('/en/writing.json') ? { ok: true, json: async () => writing } : { ok: false, status: 404 });
         const { Component } = setupTestEnvironment({ fetch: fakeFetch });
         const nodes = {};
