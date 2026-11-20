@@ -29,6 +29,11 @@ Watch-outs:
   `COSYlanguages` as the source of truth.
 - `COSYlanguages` is a shallow clone in some workspaces; run
   `git fetch --unshallow` (or `--deepen=N`) before history-dependent operations.
+- Pushing needs a write-scoped PAT supplied by the user. `GITHUB_TOKEN`, `GH_PAT` and
+  `OH_GIT_CREDENTIAL_ACCESS_TOKEN_GITHUB` have all been read-only in past sessions
+  (git returns `403 ... denied to cosylanguages` even though the REST API reports
+  `push: true`, because that field reflects the account role, not the token scope).
+  Commit locally, then ask for a PAT instead of retrying tokens.
 
 ## Tests
 
