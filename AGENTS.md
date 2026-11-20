@@ -92,6 +92,27 @@ without them (including cached ones) still render; the brief is speaking-only. V
 in COSYpractice with `node scripts/validate-daily-prompts.js`. Tests:
 `tests/daily-strip.test.js`.
 
+## Daily speaking prompts: exam and general tracks
+
+`data/daily/<lang>/speaking.json` in COSYpractice has two kinds of card.
+
+- **Exam track** (default): `exam` + `part` + `task`, modelled on a real exam task.
+- **General course** (`"track": "general"`): no exam; carries `activity` instead
+  (brainstorm, analyse, describe, compare, discuss, narrate, role-play,
+  problem-solving, interview, plan, present, identify).
+
+Every curated card also carries `audience` (`young`, `teen`, `adult`, `senior`).
+The strip resolves an audience from the container's `data-audience`, else the
+site-wide `cosy_audience_preference` (`children`/`teens`/`adults`/`seniors`, see
+`js/core/audience.js`), else `<html data-audience>`. It then ranks cards by
+audience fit first and level distance second, so age beats level: a young learner
+who picks C1-C2 gets a B1-B2 card rather than an adult-only one. The band guide
+renders the level of the card actually shown, not the clicked band.
+`data-track="general"|"exam"` narrows to one track.
+
+Validator: `node scripts/validate-daily-prompts.js` in COSYpractice. Tests:
+`tests/daily-strip.test.js` here.
+
 ## Ecosystem strip (shared, top of every site)
 
 `js/ecosystem-strip.js` + `css/ecosystem-strip.css` render the one-line
