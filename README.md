@@ -40,11 +40,10 @@ Every daily element stays in the repository that owns it; the pages link out to 
 
 - `js/daily-strip.js` + `css/daily-strip.css` – the hub daily strip. It reads the fact file above and
   pulls word/idiom data from COSYdata and prompts from COSYpractice, rotating by day of year.
-  The speaking and writing tabs also show a CEFR band guide: what the level expects, the
-  language to aim for, the can-do descriptor for the band, the typical length, and the
-  proficiency exams that certify it. The guide is localized per language through
-  `data/daily/<lang>/band-guide.json` (14 languages), falling back to the English
-  `SPEAKING_BAND_GUIDE` / `WRITING_BAND_GUIDE` in `js/daily-strip.js`.
+  The speaking and writing tabs show exam/part/task chips, prep and speak timings and a
+  follow-up list; panel labels ("Level:", "Prep", "Follow-up questions", …) are localized
+  per language through `data/daily/<lang>/band-guide.json` (14 languages), falling back to
+  the English labels in `js/daily-strip.js`.
   Writing cards add exam/part/task/genre chips, a word target, a time limit and a
   self-check list. Mount it with `<div data-daily-strip data-lang="en">`;
   `data-track="exam|general"` filters the prompts and `data-audience` picks the age tier.

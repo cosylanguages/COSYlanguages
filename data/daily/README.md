@@ -40,8 +40,7 @@ entry can also carry the exam brief:
 ```
 
 The strip renders `exam`, `part` and `task` as chips, `prep_seconds` / `speak_seconds` as "Prep 1 min /
-Speak 2 min", `follow_ups` as a short list, and a band guide (`SPEAKING_BAND_GUIDE` in
-`js/daily-strip.js`) that says what the selected CEFR band expects and which language to aim for. `part`
+Speak 2 min", and `follow_ups` as a short list. `part`
 names the real speaking part of that exam, so the chip reads like "IELTS · Part 2 · Long turn (cue card)".
 All fields are optional at render time, so prompts without them still render. Schema and validation live
 in COSYpractice (`data/daily/README.md`, `scripts/validate-daily-prompts.js`).

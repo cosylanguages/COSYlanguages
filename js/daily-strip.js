@@ -280,80 +280,6 @@
     }
 
 
-    // What each CEFR band expects of a speaker, paraphrased from the CEFR illustrative descriptors. Shown under
-    // the speaking prompt so a learner knows what "good" sounds like at the level they picked.
-    //   canDo   the global speaking descriptor for the band, in plain language
-    //   expects the task the learner should be able to perform on this card
-    //   focus   the grammar and lexis that carries that task
-    //   exams   the proficiency exams that certify the band, so the prompt has a destination
-    const SPEAKING_BAND_GUIDE = {
-        'a0-a1': {
-            label: 'A0-A1 · Breakthrough',
-            canDo: 'Introduce yourself and others, ask and answer simple questions about where you live, what you do and what you have, and use isolated phrases and very short sentences.',
-            expects: 'Short phrases about yourself and everyday things. Answer in full sentences, even simple ones.',
-            focus: 'Present simple, basic questions, numbers, everyday nouns',
-            exams: 'Cambridge Pre A1 Starters and A1 Movers · DELF A1 · Goethe-Zertifikat A1 · DELE A1 · ТЭУ · Ελληνομάθεια Α1'
-        },
-        'a2': {
-            label: 'A2 · Waystage',
-            canDo: 'Handle short routine exchanges, describe your family, routine, immediate surroundings and past events, and cope with simple transactions such as shopping, travel and appointments.',
-            expects: 'Describe your routine, past events and plans in a few linked sentences.',
-            focus: 'Past and future forms, because / but / so, common collocations',
-            exams: 'Cambridge A2 Key · Trinity ISE Foundation · DELF A2 · Goethe A2 · telc A2 · DELE A2 · ТБУ · Ελληνομάθεια Α2'
-        },
-        'b1-b2': {
-            label: 'B1-B2 · Threshold to Vantage',
-            canDo: 'Deal with most situations while travelling, give a short prepared talk, explain and defend an opinion with reasons and examples, and follow the main points of an unfamiliar topic.',
-            expects: 'Give and defend an opinion with reasons and examples, and handle an unfamiliar topic.',
-            focus: 'Conditionals, connectors, hedging, topic vocabulary',
-            exams: 'Cambridge B1 Preliminary and B2 First · IELTS 4.0-6.5 · TOEFL iBT 42-94 · DELF B1-B2 · Goethe B1-B2 · DELE B1-B2 · ТРКИ-1-2'
-        },
-        'c1-c2': {
-            label: 'C1-C2 · Advanced',
-            canDo: 'Speak fluently and spontaneously with little searching for words, argue a case precisely, concede counterarguments, and shift register between academic, professional and social settings.',
-            expects: 'Argue a position precisely, concede counterarguments and adapt your register.',
-            focus: 'Nominalisation, stance markers, idiomatic and academic phrasing',
-            exams: 'C1 Advanced · C2 Proficiency · IELTS 7.0+ · TOEFL iBT 95+ · DALF C1-C2 · Goethe C1-C2 · DELE C1-C2 · ТРКИ-3-4'
-        }
-    };
-
-    // What each CEFR band is expected to produce in writing, the language that carries it, and the exams
-    // that certify it. Mirrors SPEAKING_BAND_GUIDE so both prompt tabs explain themselves the same way.
-    const WRITING_BAND_GUIDE = {
-        'a0-a1': {
-            label: 'A0-A1 · Breakthrough',
-            canDo: 'Write simple isolated phrases and sentences about yourself, fill in a form with personal details, and write a short simple postcard or message.',
-            expects: 'Short sentences about yourself and everyday things. One idea per sentence, correct spelling and capital letters.',
-            focus: 'Present simple, basic linking (and / but / because), spelling, punctuation',
-            exams: 'Cambridge Pre A1 Starters and A1 Movers · DELF A1 · Goethe-Zertifikat A1 · DELE A1 · ТЭУ · Ελληνομάθεια Α1',
-            length: '20-40 words'
-        },
-        'a2': {
-            label: 'A2 · Waystage',
-            canDo: 'Write short, simple notes and messages, a very simple personal letter or email, and describe everyday aspects of your life in a series of simple linked phrases.',
-            expects: 'Describe routine, past events and plans in a few linked sentences, and write a short informal message that gets the job done.',
-            focus: 'Past and future forms, paragraphing, everyday connectors, informal register',
-            exams: 'Cambridge A2 Key · Trinity ISE Foundation · DELF A2 · Goethe A2 · telc A2 · DELE A2 · ТБУ · Ελληνομάθεια Α2',
-            length: '40-80 words'
-        },
-        'b1-b2': {
-            label: 'B1-B2 · Threshold to Vantage',
-            canDo: 'Write straightforward connected text on familiar topics, personal letters describing experiences and impressions, and short reports or essays that give reasons for and against a view.',
-            expects: 'Organise a text with an opening, body and close, and support an opinion with reasons and examples.',
-            focus: 'Topic sentences, cohesive devices, formal and informal register, opinion language',
-            exams: 'Cambridge B1 Preliminary and B2 First · IELTS 4.0-6.5 (Task 1 and 2) · TOEFL iBT 42-94 · DELF B1-B2 · Goethe B1-B2 · DELE B1-B2 · ТРКИ-1-2',
-            length: '100-180 words'
-        },
-        'c1-c2': {
-            label: 'C1-C2 · Advanced',
-            canDo: 'Express yourself in clear, well-structured text, write about complex subjects in an essay, report or letter, and adopt an appropriate register and rhetorical structure for the reader.',
-            expects: 'Argue a position precisely, weigh counterarguments and control register, cohesion and emphasis over a long text.',
-            focus: 'Nominalisation, hedging, complex syntax, rhetorical structure, academic phrasing',
-            exams: 'C1 Advanced · C2 Proficiency · IELTS 7.0+ · TOEFL iBT 95+ · DALF C1-C2 · Goethe C1-C2 · DELE C1-C2 · ТРКИ-3-4',
-            length: '200-300 words'
-        }
-    };
-
     // General-course writing cards carry an activity key; the chip shows a readable label for it.
     const WRITING_ACTIVITY_LABELS = {
         describe: '🎨 Describe',
@@ -433,16 +359,6 @@
     };
 
     const BAND_ORDER = ['a0-a1', 'a2', 'b1-b2', 'c1-c2'];
-
-    // A card's own level tag ("A2", "A2-B1", "B1-B2") mapped onto a SPEAKING_BAND_GUIDE key. The guide must
-    // describe the card actually shown, which is not always the band the learner selected (the audience
-    // preference can move a card to a neighbouring band).
-    function guideKeyForLevel(level) {
-        for (const band of BAND_ORDER) {
-            if (levelInBand(level, band)) return band;
-        }
-        return '';
-    }
 
     // Does a card's level fall inside the requested band?
     function levelInBand(itemLevel, band) {
@@ -776,21 +692,6 @@
             };
         }
 
-        // Resolve the guide for the card on screen. The localized file wins where it has the band; the
-        // English built-in covers anything it does not (older cache, unshipped language, partial file).
-        guideFor(track, bandKey) {
-            const builtIn = track === 'writing' ? WRITING_BAND_GUIDE : SPEAKING_BAND_GUIDE;
-            const base = builtIn[bandKey];
-            if (!base) return null;
-            const localized = this.bandGuide && this.bandGuide.bands && this.bandGuide.bands[bandKey];
-            if (!localized) return { guide: base, ui: null };
-            // label sits on the band entry; canDo/expects/focus/exams/length sit on the track entry.
-            return {
-                guide: { ...base, ...localized[track], label: localized.label || base.label },
-                ui: this.bandGuide.ui || null
-            };
-        }
-
         async loadAllCategories() {
             const dayIdx = getDayOfYear();
             for (const config of this.tabs) {
@@ -910,25 +811,6 @@
                     </div>
                 ` : '';
 
-                const guideEntry = isSpeaking || isWriting
-                    ? this.guideFor(isWriting ? 'writing' : 'speaking', guideKeyForLevel(item.level) || this.selectedLevel)
-                    : null;
-                const guide = guideEntry && guideEntry.guide;
-                const guideUI = (guideEntry && guideEntry.ui) || {};
-                const guideHTML = guide ? `
-                    <div class="daily-strip-band-guide">
-                        <div class="daily-strip-band-guide-head">
-                            <span class="daily-strip-band-guide-label">${this.escapeHTML(guide.label)}</span>
-                            <span class="daily-strip-band-guide-what">${this.escapeHTML(guideUI.what || 'What this level expects')}</span>
-                        </div>
-                        <p class="daily-strip-band-guide-expects">${this.escapeHTML(guide.expects)}</p>
-                        <p class="daily-strip-band-guide-focus"><strong>${this.escapeHTML(guideUI.focus || 'Language to aim for:')}</strong> ${this.escapeHTML(guide.focus)}</p>
-                        ${guide.canDo ? `<p class="daily-strip-band-guide-cando"><strong>${this.escapeHTML(guideUI.canDo || 'At this level you can:')}</strong> ${this.escapeHTML(guide.canDo)}</p>` : ''}
-                        ${guide.length ? `<p class="daily-strip-band-guide-length"><strong>${this.escapeHTML(guideUI.length || 'Typical length:')}</strong> ${this.escapeHTML(guide.length)}</p>` : ''}
-                        ${guide.exams ? `<p class="daily-strip-band-guide-exams"><strong>${this.escapeHTML(guideUI.exams || 'Certified by:')}</strong> ${this.escapeHTML(guide.exams)}</p>` : ''}
-                    </div>
-                ` : '';
-
                 panel.innerHTML = `
                     ${levelBarHTML}
                     ${chipsHTML}
@@ -939,7 +821,6 @@
                         ${item.meta ? `<div class="daily-strip-meta">${this.escapeHTML(item.meta)}</div>` : ''}
                         ${followUpsHTML}
                         ${checklistHTML}
-                        ${guideHTML}
                     </div>
                     <div class="daily-strip-footer">
                         <div class="daily-strip-actions-left">
@@ -1134,7 +1015,6 @@
         pickItemForLevel,
         getLocalFallback,
         formatDuration,
-        SPEAKING_BAND_GUIDE,
         DAILY_SCHEDULE
     };
 })();

@@ -742,12 +742,12 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(html.includes('Speak 2 min'), 'speaking time');
         assert.ok(html.includes('Follow-up questions'), 'follow-up heading');
         assert.ok(html.includes('Was it difficult at the beginning?'), 'first follow-up');
-        assert.ok(html.includes('B1-B2 · Threshold to Vantage'), 'band guide label');
-        assert.ok(html.includes('Give and defend an opinion'), 'band expectation');
-        assert.ok(html.includes('Language to aim for'), 'focus line');
+        assert.ok(!html.includes('daily-strip-band-guide'), 'the CEFR band guide is not rendered');
+        assert.ok(!html.includes('Certified by:'), 'no certifying-exam line');
+        assert.ok(!html.includes('Language to aim for'), 'no focus line');
     });
 
-    await t.test('the band guide follows the selected level', async () => {
+    await t.test('the selected level picks the card and its chips', async () => {
         const { comp, nodes } = mountStrip(speaking);
         await new Promise(r => setTimeout(r, 30));
         comp.selectedLevel = 'a0-a1';
@@ -755,14 +755,13 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         comp.renderContent();
 
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('A0-A1 · Breakthrough'), 'A0-A1 guide');
         assert.ok(html.includes('Se présenter'), 'A0-A1 task chip');
         assert.ok(html.includes('DELF A1'), 'A0-A1 exam chip');
         assert.ok(html.includes('Part 1 · Entretien dirigé'), 'A0-A1 part chip');
         assert.ok(!html.includes('Threshold to Vantage'), 'no other band guide');
     });
 
-    await t.test('every band guide states the can-do descriptor and the exams that certify the band', async () => {
+    await t.test('no CEFR band guide is rendered for any band', async () => {
         for (const level of ['a0-a1', 'a2', 'b1-b2', 'c1-c2']) {
             const { comp, nodes } = mountStrip(speaking);
             await new Promise(r => setTimeout(r, 30));
@@ -771,24 +770,13 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
             comp.renderContent();
 
             const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-            assert.ok(html.includes('At this level you can:'), `can-do line for ${level}`);
-            assert.ok(html.includes('Certified by:'), `exam destinations for ${level}`);
+            assert.ok(!html.includes('daily-strip-band-guide'), `no guide block for ${level}`);
+            assert.ok(!html.includes('What this level expects'), `no expectations heading for ${level}`);
+            assert.ok(!html.includes('At this level you can:'), `no can-do line for ${level}`);
+            assert.ok(!html.includes('Certified by:'), `no exam destinations for ${level}`);
+            assert.ok(!html.includes('Typical length'), `no length line for ${level}`);
+            assert.ok(html.includes('daily-strip-prompt'), `the prompt still renders for ${level}`);
         }
-    });
-
-    await t.test('the band guide names the exams a learner would sit at that band', async () => {
-        const { comp, nodes } = mountStrip(speaking);
-        await new Promise(r => setTimeout(r, 30));
-        comp.selectedLevel = 'b1-b2';
-        await comp.loadAllCategories();
-        comp.renderContent();
-
-        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('B1-B2 · Threshold to Vantage'), 'B1-B2 guide');
-        assert.ok(html.includes('Cambridge B1 Preliminary and B2 First'), 'B1-B2 exams named');
-        assert.ok(html.includes('IELTS 4.0-6.5'), 'IELTS band range named');
-        assert.ok(!html.includes('Pre A1 Starters'), 'no beginner exams on a B1-B2 guide');
-        assert.ok(!html.includes('C2 Proficiency'), 'no advanced-only exams on a B1-B2 guide');
     });
 
     await t.test('a prompt without scaffolding renders no chips and no follow-ups', async () => {
@@ -802,7 +790,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         assert.ok(!html.includes('daily-strip-chips'), 'no chips');
         assert.ok(!html.includes('Follow-up questions'), 'no follow-ups');
-        assert.ok(html.includes('A2 · Waystage'), 'band guide still shown for the speaking tab');
+        assert.ok(!html.includes('daily-strip-band-guide'), 'no band guide');
     });
 
     await t.test('the writing tab shows its own brief and band guide, never the speaking one', async () => {
@@ -831,11 +819,10 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(html.includes('140-190 words'), 'word target chip renders');
         assert.ok(html.includes('40 min'), 'time limit chip renders');
         assert.ok(html.includes('Before you finish, check'), 'self-check list renders');
-        assert.ok(html.includes('A2 · Waystage'), 'writing band guide is shown');
-        assert.ok(html.includes('Typical length'), 'the guide states the expected length');
+        assert.ok(!html.includes('daily-strip-band-guide'), 'no band guide on writing');
+        assert.ok(!html.includes('Typical length'), 'no length line');
         assert.ok(!html.includes('Follow-up questions'), 'no speaking follow-ups on writing');
         assert.ok(!html.includes('Prep 30s') && !html.includes('Speak 1m'), 'no speaking timings on writing');
-        assert.ok(!html.includes('A0-A1 · Breakthrough'), 'the guide describes the card level, not the default');
     });
 });
 
@@ -951,9 +938,7 @@ test('Daily Strip general-course cards: activity instead of exam, and audience f
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         // the audience preference moved a young learner off the adult-only C1-C2 card
         assert.ok(!html.includes('Present a proposal'), 'adult-only card not shown');
-        assert.ok(!html.includes('C1-C2 · Advanced'), 'guide must not claim C1-C2 for a lower card');
-        assert.ok(html.includes('Breakthrough') || html.includes('Waystage') || html.includes('Threshold to Vantage'),
-            'guide matches the card level');
+        assert.ok(!html.includes('daily-strip-band-guide'), 'no band guide to mislabel the card');
     });
 
     await t.test('the site-wide audience preference (children/teens/adults/seniors) is honoured', async () => {
@@ -989,7 +974,7 @@ test('Daily Strip general-course cards: activity instead of exam, and audience f
     });
 });
 
-test('Daily Strip writing guide: CEFR expectations, length and general-track activity', async (t) => {
+test('Daily Strip writing brief: task, genre, word target and general-track activity', async (t) => {
     function mountWriting(items) {
         const fakeFetch = async (url) => (url.endsWith('/en/writing.json') ? { ok: true, json: async () => items } : { ok: false, status: 404 });
         const { Component } = setupTestEnvironment({ fetch: fakeFetch });
@@ -1023,9 +1008,8 @@ test('Daily Strip writing guide: CEFR expectations, length and general-track act
           checklist: ['Your position is clear in the introduction.', 'You addressed a counterargument.'] },
     ];
 
-    await t.test('every writing band guide states what the level expects and the typical length', async () => {
-        for (const [level, label] of [['a0-a1', 'A0-A1 · Breakthrough'], ['a2', 'A2 · Waystage'],
-            ['b1-b2', 'B1-B2 · Threshold to Vantage'], ['c1-c2', 'C1-C2 · Advanced']]) {
+    await t.test('no writing band guide is rendered for any band', async () => {
+        for (const level of ['a0-a1', 'a2', 'b1-b2', 'c1-c2']) {
             const { comp, nodes } = mountWriting(writing);
             await new Promise(r => setTimeout(r, 30));
             comp.selectedLevel = level;
@@ -1033,26 +1017,14 @@ test('Daily Strip writing guide: CEFR expectations, length and general-track act
             comp.renderContent();
 
             const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
-            assert.ok(html.includes(label), `writing guide label for ${level}`);
-            assert.ok(html.includes('What this level expects'), `expectations heading for ${level}`);
-            assert.ok(html.includes('Typical length'), `typical length for ${level}`);
-            assert.ok(html.includes('Certified by:'), `certifying exams for ${level}`);
+            assert.ok(!html.includes('daily-strip-band-guide'), `no guide block for ${level}`);
+            assert.ok(!html.includes('What this level expects'), `no expectations heading for ${level}`);
+            assert.ok(!html.includes('At this level you can:'), `no can-do line for ${level}`);
+            assert.ok(!html.includes('Certified by:'), `no certifying exams for ${level}`);
+            assert.ok(!html.includes('Typical length'), `no typical length for ${level}`);
+            assert.ok(!html.includes('Language to aim for'), `no focus line for ${level}`);
+            assert.ok(html.includes('daily-strip-prompt'), `the prompt still renders for ${level}`);
         }
-    });
-
-    await t.test('the writing guide names the exams a learner would sit at that band', async () => {
-        const { comp, nodes } = mountWriting(writing);
-        await new Promise(r => setTimeout(r, 30));
-        comp.selectedLevel = 'b1-b2';
-        await comp.loadAllCategories();
-        comp.renderContent();
-
-        const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
-        assert.ok(html.includes('IELTS 4.0-6.5'), 'IELTS band range named');
-        assert.ok(html.includes('TOEFL iBT'), 'TOEFL named');
-        assert.ok(html.includes('DELF B1-B2'), 'DELF named');
-        assert.ok(!html.includes('Pre A1 Starters'), 'no beginner exams on a B1-B2 guide');
-        assert.ok(!html.includes('DALF C1-C2'), 'no advanced-only exams on a B1-B2 guide');
     });
 
     await t.test('a general writing card shows its activity chip and no exam chip', async () => {
@@ -1070,15 +1042,14 @@ test('Daily Strip writing guide: CEFR expectations, length and general-track act
     });
 });
 
-test('Daily Strip band guide localization: every language speaks for itself', async (t) => {
+test('Daily Strip chrome localization: every language labels its own controls', async (t) => {
     const fsLocal = require('node:fs');
     const pathLocal = require('node:path');
     const DATA = pathLocal.join(__dirname, '../data/daily');
     const LANGS = ['en', 'fr', 'de', 'es', 'it', 'pt', 'ru', 'el', 'hy', 'ka', 'tt', 'ba', 'cv', 'br'];
-    const BANDS = ['a0-a1', 'a2', 'b1-b2', 'c1-c2'];
+    const CHROME_KEYS = ['level', 'prep', 'speak', 'words', 'followUps', 'checklist', 'listen', 'practice'];
 
-    // Serve the real band-guide.json from disk alongside the prompt list, so the test exercises the same
-    // files the browser fetches rather than a hand-written stub.
+    // Serve the real band-guide.json from disk, so the test exercises the same files the browser fetches.
     function mount(lang, items, opts = {}) {
         const guidePath = pathLocal.join(DATA, lang, 'band-guide.json');
         const fakeFetch = async (url) => {
@@ -1087,8 +1058,11 @@ test('Daily Strip band guide localization: every language speaks for itself', as
                 const doc = JSON.parse(fsLocal.readFileSync(guidePath, 'utf8'));
                 return { ok: true, json: async () => doc };
             }
-            if (url.endsWith(`/${lang}/speaking.json`) || url.endsWith(`/${lang}/writing.json`)) {
-                return { ok: true, json: async () => items };
+            if (url.endsWith(`/${lang}/speaking.json`)) {
+                return { ok: true, json: async () => items.filter(i => i.id.includes(':speaking:')) };
+            }
+            if (url.endsWith(`/${lang}/writing.json`)) {
+                return { ok: true, json: async () => items.filter(i => i.id.includes(':writing:')) };
             }
             return { ok: false, status: 404 };
         };
@@ -1112,31 +1086,40 @@ test('Daily Strip band guide localization: every language speaks for itself', as
           word_min: 100, word_max: 180, write_minutes: 30, checklist: ['One idea per paragraph.'] },
     ];
 
-    await t.test('every language ships a complete, well-formed band guide file', () => {
+    await t.test('every language ships the chrome labels the panel needs', () => {
         for (const lang of LANGS) {
             const doc = JSON.parse(fsLocal.readFileSync(pathLocal.join(DATA, lang, 'band-guide.json'), 'utf8'));
             assert.equal(doc.lang, lang, `${lang}: lang field`);
-            for (const k of ['what', 'focus', 'canDo', 'length', 'exams']) {
-                assert.ok(doc.ui && doc.ui[k], `${lang}: ui.${k}`);
-            }
-            for (const k of ['level', 'prep', 'speak', 'words', 'followUps', 'checklist', 'listen', 'practice']) {
+            for (const k of CHROME_KEYS) {
                 assert.ok(doc.chrome && doc.chrome[k], `${lang}: chrome.${k}`);
-            }
-            for (const band of BANDS) {
-                const entry = doc.bands[band];
-                assert.ok(entry, `${lang}: band ${band}`);
-                assert.ok(entry.label, `${lang}/${band}: label`);
-                for (const track of ['speaking', 'writing']) {
-                    for (const f of ['canDo', 'expects', 'focus', 'exams']) {
-                        assert.ok(entry[track][f], `${lang}/${band}/${track}: ${f}`);
-                    }
-                }
-                assert.ok(entry.writing.length, `${lang}/${band}: writing length`);
             }
         }
     });
 
-    await t.test('the panel renders the language\'s own guide, not the English one', async () => {
+    await t.test('the panel uses the language\'s own labels, not the English ones', async () => {
+        for (const lang of LANGS) {
+            const { comp, nodes } = mount(lang, prompt(lang));
+            await new Promise(r => setTimeout(r, 40));
+            comp.selectedLevel = 'b1-b2';
+            await comp.loadAllCategories();
+            comp.renderContent();
+
+            const doc = JSON.parse(fsLocal.readFileSync(pathLocal.join(DATA, lang, 'band-guide.json'), 'utf8'));
+            const c = doc.chrome;
+            const speak = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+            const write = nodes[`#${comp.uniqueId}_panel_writing`].html;
+
+            assert.ok(speak.includes(c.followUps), `${lang}: localized follow-up heading`);
+            assert.ok(speak.includes(c.prep), `${lang}: localized prep label`);
+            assert.ok(speak.includes(c.speak), `${lang}: localized speak label`);
+            assert.ok(write.includes(c.checklist), `${lang}: localized checklist label`);
+            if (lang !== 'en') {
+                assert.ok(!speak.includes('Follow-up questions'), `${lang}: no English follow-up heading`);
+            }
+        }
+    });
+
+    await t.test('no band guide text is rendered in any language', async () => {
         for (const lang of LANGS) {
             const { comp, nodes } = mount(lang, prompt(lang));
             await new Promise(r => setTimeout(r, 40));
@@ -1149,47 +1132,18 @@ test('Daily Strip band guide localization: every language speaks for itself', as
             const speak = nodes[`#${comp.uniqueId}_panel_speaking`].html;
             const write = nodes[`#${comp.uniqueId}_panel_writing`].html;
 
-            assert.ok(speak.includes(b.speaking.expects), `${lang}: speaking expects on the panel`);
-            assert.ok(speak.includes(b.label), `${lang}: band label on the panel`);
-            assert.ok(speak.includes(doc.ui.what), `${lang}: localized "what" heading`);
-            assert.ok(write.includes(b.writing.focus), `${lang}: writing focus on the panel`);
-            assert.ok(write.includes(b.writing.length), `${lang}: localized typical length`);
+            assert.ok(!speak.includes('daily-strip-band-guide'), `${lang}: no guide on speaking`);
+            assert.ok(!write.includes('daily-strip-band-guide'), `${lang}: no guide on writing`);
+            assert.ok(!speak.includes(b.speaking.expects), `${lang}: no expectation text on the panel`);
+            assert.ok(!speak.includes(b.label), `${lang}: no band label on the panel`);
+            assert.ok(!speak.includes(doc.ui.what), `${lang}: no "what" heading`);
+            assert.ok(!write.includes(b.writing.focus), `${lang}: no writing focus`);
+            // the guide's own length *label*, since a card's word-target chip can share the value text
+            assert.ok(!write.includes(doc.ui.length), `${lang}: no typical-length label`);
         }
     });
 
-    await t.test('non-English guides never leak the English exam list', async () => {
-        for (const lang of LANGS.filter(l => l !== 'en')) {
-            const { comp, nodes } = mount(lang, prompt(lang));
-            await new Promise(r => setTimeout(r, 40));
-            comp.selectedLevel = 'b1-b2';
-            await comp.loadAllCategories();
-            comp.renderContent();
-
-            const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-            assert.ok(!html.includes('Threshold to Vantage'), `${lang}: no English band label`);
-            assert.ok(!html.includes('TOEFL iBT'), `${lang}: no English exam list`);
-            assert.ok(!html.includes('What this level expects'), `${lang}: no English heading`);
-        }
-    });
-
-    await t.test('each language names the exams that certify that language', async () => {
-        const expectations = {
-            fr: 'DALF C1-C2', de: 'Goethe-Zertifikat C1-C2', es: 'DELE C1-C2', it: 'CILS C1-C2',
-            pt: 'CAPLE DAPLE', ru: 'ТРКИ-3', el: 'Ελληνομάθεια Γ1-Γ2', hy: 'Հայոց լեզվի',
-            ka: 'ქართული ენის', tt: 'Татар теле', ba: 'Башҡорт теле', cv: 'Чӑваш чӗлхипе', br: 'DAB 4'
-        };
-        for (const [lang, marker] of Object.entries(expectations)) {
-            const { comp, nodes } = mount(lang, prompt(lang, 'C1-C2'));
-            await new Promise(r => setTimeout(r, 40));
-            comp.selectedLevel = 'c1-c2';
-            await comp.loadAllCategories();
-            comp.renderContent();
-            const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-            assert.ok(html.includes(marker), `${lang}: C-band guide names ${marker}`);
-        }
-    });
-
-    await t.test('a missing or broken guide file falls back to the English guide', async () => {
+    await t.test('a missing or broken guide file falls back to the English chrome labels', async () => {
         const { comp, nodes } = mount('tt', prompt('tt'), { breakGuide: true });
         await new Promise(r => setTimeout(r, 40));
         comp.selectedLevel = 'b1-b2';
@@ -1197,42 +1151,12 @@ test('Daily Strip band guide localization: every language speaks for itself', as
         comp.renderContent();
 
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('B1-B2 · Threshold to Vantage'), 'English band label used');
-        assert.ok(html.includes('What this level expects'), 'English heading used');
-        assert.ok(html.includes('Give and defend an opinion'), 'English expectation used');
+        assert.ok(html.includes('Follow-up questions'), 'English follow-up heading used');
+        assert.ok(html.includes('Prep'), 'English prep label used');
+        assert.ok(html.includes('daily-strip-prompt'), 'the prompt still renders');
     });
 
-    await t.test('a partial guide file is topped up from English rather than blanked', async () => {
-        const partial = { lang: 'tt', ui: { what: 'Бу дәрәҗә нәрсә таләп итә' },
-            bands: { 'b1-b2': { label: 'B1-B2 · Урта', speaking: { expects: 'Фикерне дәлилләр белән әйтегез.' }, writing: {} } } };
-        const fakeFetch = async (url) => {
-            if (url.endsWith('/tt/band-guide.json')) return { ok: true, json: async () => partial };
-            if (url.endsWith('/tt/speaking.json') || url.endsWith('/tt/writing.json')) return { ok: true, json: async () => prompt('tt') };
-            return { ok: false, status: 404 };
-        };
-        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
-        const nodes = {};
-        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
-            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
-        let shell = '';
-        const attrs = { 'data-lang': 'tt', 'data-slots': 'speaking', 'data-compact': 'true' };
-        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
-            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
-            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
-        const comp = new Component(element);
-        await new Promise(r => setTimeout(r, 40));
-        comp.selectedLevel = 'b1-b2';
-        await comp.loadAllCategories();
-        comp.renderContent();
-
-        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('Фикерне дәлилләр белән әйтегез.'), 'translated expectation shown');
-        assert.ok(html.includes('Бу дәрәҗә нәрсә таләп итә'), 'translated heading shown');
-        assert.ok(html.includes('Conditionals, connectors, hedging, topic vocabulary'), 'English focus fills the gap');
-        assert.ok(html.includes('Certified by:'), 'English exam label fills the gap');
-    });
-
-    await t.test('switching language reloads the guide for the new language', async () => {
+    await t.test('switching language reloads the chrome labels for the new language', async () => {
         const guideFor = (lang) => JSON.parse(fsLocal.readFileSync(pathLocal.join(DATA, lang, 'band-guide.json'), 'utf8'));
         const fakeFetch = async (url) => {
             for (const lang of ['de', 'fr']) {
@@ -1255,14 +1179,14 @@ test('Daily Strip band guide localization: every language speaks for itself', as
         comp.selectedLevel = 'b1-b2';
         await comp.loadAllCategories();
         comp.renderContent();
-        assert.ok(nodes[`#${comp.uniqueId}_panel_speaking`].html.includes('Mittelstufe'), 'German guide first');
+        assert.ok(nodes[`#${comp.uniqueId}_panel_speaking`].html.includes('Nachfragen'), 'German label first');
 
         await comp.setLang('fr');
         comp.selectedLevel = 'b1-b2';
         await comp.loadAllCategories();
         comp.renderContent();
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('Seuil à Avancé'), 'French guide after switching');
-        assert.ok(!html.includes('Mittelstufe'), 'German guide gone after switching');
+        assert.ok(html.includes('Questions de suivi'), 'French label after switching');
+        assert.ok(!html.includes('Nachfragen'), 'German label gone after switching');
     });
 });

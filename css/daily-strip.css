@@ -357,62 +357,6 @@
     gap: 0.2rem;
 }
 
-.daily-strip-band-guide {
-    margin-top: 0.4rem;
-    padding-top: 0.6rem;
-    border-top: 1px dashed var(--cosy-color-border, rgba(74, 107, 80, 0.2));
-}
-
-.daily-strip-band-guide-head {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 0.3rem;
-}
-
-.daily-strip-band-guide-label {
-    font-size: 0.78rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--cosy-color-sage-dark, #375742);
-}
-
-.daily-strip-band-guide-what {
-    font-size: 0.74rem;
-    color: var(--cosy-color-ink-muted, #5C5957);
-}
-
-.daily-strip-band-guide-expects {
-    margin: 0 0 0.25rem;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: var(--cosy-color-ink-soft, #4A4A4A);
-}
-
-.daily-strip-band-guide-focus {
-    margin: 0;
-    font-size: 0.85rem;
-    color: var(--cosy-color-ink-muted, #5C5957);
-}
-
-.daily-strip-band-guide-cando,
-.daily-strip-band-guide-length,
-.daily-strip-band-guide-exams {
-    margin: 0.35rem 0 0;
-    font-size: 0.85rem;
-    line-height: 1.5;
-    color: var(--cosy-color-ink-muted, #5C5957);
-}
-
-.daily-strip-band-guide-cando strong,
-.daily-strip-band-guide-length strong,
-.daily-strip-band-guide-exams strong {
-    color: var(--cosy-color-sage-dark, #375742);
-    font-weight: 600;
-}
-
 /* Writing self-check: a tick list the learner runs through before calling the task finished. */
 .daily-strip-checklist {
     margin-top: 0.5rem;
@@ -447,24 +391,6 @@
     border-color: var(--cosy-color-sage, #416B49);
     color: var(--cosy-color-sage-dark, #375742);
     font-weight: 600;
-}
-
-html[data-theme="dark"] .daily-strip-band-guide-cando,
-html[data-theme="dark"] .daily-strip-band-guide-length,
-html[data-theme="dark"] .daily-strip-band-guide-exams,
-body.theme-dark .daily-strip-band-guide-cando,
-body.theme-dark .daily-strip-band-guide-length,
-body.theme-dark .daily-strip-band-guide-exams {
-    color: #D6E8D9;
-}
-
-html[data-theme="dark"] .daily-strip-band-guide-cando strong,
-html[data-theme="dark"] .daily-strip-band-guide-length strong,
-html[data-theme="dark"] .daily-strip-band-guide-exams strong,
-body.theme-dark .daily-strip-band-guide-cando strong,
-body.theme-dark .daily-strip-band-guide-length strong,
-body.theme-dark .daily-strip-band-guide-exams strong {
-    color: #8FB193;
 }
 
 .daily-strip-footer {
@@ -722,32 +648,16 @@ body.theme-dark .daily-strip-checklist {
 
 html[data-theme="dark"] .daily-strip-followups-label,
 html[data-theme="dark"] .daily-strip-checklist-label,
-html[data-theme="dark"] .daily-strip-band-guide-label,
 body.theme-dark .daily-strip-followups-label,
-body.theme-dark .daily-strip-checklist-label,
-body.theme-dark .daily-strip-band-guide-label {
+body.theme-dark .daily-strip-checklist-label {
     color: #8FB193;
 }
 
 html[data-theme="dark"] .daily-strip-followups-list,
 html[data-theme="dark"] .daily-strip-checklist-list,
-html[data-theme="dark"] .daily-strip-band-guide-expects,
 body.theme-dark .daily-strip-followups-list,
-body.theme-dark .daily-strip-checklist-list,
-body.theme-dark .daily-strip-band-guide-expects {
+body.theme-dark .daily-strip-checklist-list {
     color: #D6E8D9;
-}
-
-html[data-theme="dark"] .daily-strip-band-guide,
-body.theme-dark .daily-strip-band-guide {
-    border-top-color: rgba(255, 255, 255, 0.12);
-}
-
-html[data-theme="dark"] .daily-strip-band-guide-what,
-html[data-theme="dark"] .daily-strip-band-guide-focus,
-body.theme-dark .daily-strip-band-guide-what,
-body.theme-dark .daily-strip-band-guide-focus {
-    color: #9CA3AF;
 }
 
 html[data-theme="dark"] .daily-strip-footer,
