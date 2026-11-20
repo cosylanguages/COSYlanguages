@@ -29,11 +29,20 @@ Watch-outs:
   `COSYlanguages` as the source of truth.
 - `COSYlanguages` is a shallow clone in some workspaces; run
   `git fetch --unshallow` (or `--deepen=N`) before history-dependent operations.
-- Pushing needs a write-scoped PAT supplied by the user. `GITHUB_TOKEN`, `GH_PAT` and
-  `OH_GIT_CREDENTIAL_ACCESS_TOKEN_GITHUB` have all been read-only in past sessions
-  (git returns `403 ... denied to cosylanguages` even though the REST API reports
-  `push: true`, because that field reflects the account role, not the token scope).
-  Commit locally, then ask for a PAT instead of retrying tokens.
+- `git push` can fail with `403 ... denied to cosylanguages` even when the token has
+  write access. The cause is credential plumbing, not permissions: `~/.gitconfig` sets a
+  URL-scoped `credential.https://github.com.helper`, and that helper wins over a generic
+  `-c credential.helper=...` override, so it feeds git a token without write scope.
+  Push with an explicit URL instead, bypassing the helpers:
+
+  ```bash
+  GIT_TERMINAL_PROMPT=0 git -c credential.helper= -c 'credential.https://github.com.helper=' \
+    push "https://x-access-token:${GH_PAT}@github.com/cosylanguages/COSYlanguages.git" main:main
+  ```
+
+  Before blaming the token, check it with the API (`POST /git/refs` on an existing SHA):
+  a `201` means the token is fine and the problem is the helper. Never persist the PAT in
+  the remote URL — pass it per command as above.
 
 ## Tests
 
