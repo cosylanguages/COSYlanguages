@@ -397,6 +397,76 @@
     color: var(--cosy-color-ink-muted, #5C5957);
 }
 
+.daily-strip-band-guide-cando,
+.daily-strip-band-guide-length,
+.daily-strip-band-guide-exams {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--cosy-color-ink-muted, #5C5957);
+}
+
+.daily-strip-band-guide-cando strong,
+.daily-strip-band-guide-length strong,
+.daily-strip-band-guide-exams strong {
+    color: var(--cosy-color-sage-dark, #375742);
+    font-weight: 600;
+}
+
+/* Writing self-check: a tick list the learner runs through before calling the task finished. */
+.daily-strip-checklist {
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.85rem;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: var(--cosy-radius-xs, 4px);
+    border-left: 3px solid var(--cosy-color-sage-light, #E8F0E9);
+}
+
+.daily-strip-checklist-label {
+    display: block;
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--cosy-color-sage-dark, #375742);
+    margin-bottom: 0.3rem;
+}
+
+.daily-strip-checklist-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    font-size: 0.92rem;
+    color: var(--cosy-color-ink-soft, #4A4A4A);
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.daily-strip-chip-genre {
+    background: var(--cosy-color-sage-mist, #F0F5F1);
+    border-color: var(--cosy-color-sage, #416B49);
+    color: var(--cosy-color-sage-dark, #375742);
+    font-weight: 600;
+}
+
+html[data-theme="dark"] .daily-strip-band-guide-cando,
+html[data-theme="dark"] .daily-strip-band-guide-length,
+html[data-theme="dark"] .daily-strip-band-guide-exams,
+body.theme-dark .daily-strip-band-guide-cando,
+body.theme-dark .daily-strip-band-guide-length,
+body.theme-dark .daily-strip-band-guide-exams {
+    color: #D6E8D9;
+}
+
+html[data-theme="dark"] .daily-strip-band-guide-cando strong,
+html[data-theme="dark"] .daily-strip-band-guide-length strong,
+html[data-theme="dark"] .daily-strip-band-guide-exams strong,
+body.theme-dark .daily-strip-band-guide-cando strong,
+body.theme-dark .daily-strip-band-guide-length strong,
+body.theme-dark .daily-strip-band-guide-exams strong {
+    color: #8FB193;
+}
+
 .daily-strip-footer {
     display: flex;
     align-items: center;
@@ -634,28 +704,36 @@ body.theme-dark .daily-strip-chip-part {
 }
 
 html[data-theme="dark"] .daily-strip-chip-activity,
-body.theme-dark .daily-strip-chip-activity {
+html[data-theme="dark"] .daily-strip-chip-genre,
+body.theme-dark .daily-strip-chip-activity,
+body.theme-dark .daily-strip-chip-genre {
     background: rgba(143, 177, 147, 0.2);
     border-color: #8FB193;
     color: #D6E8D9;
 }
 
 html[data-theme="dark"] .daily-strip-followups,
-body.theme-dark .daily-strip-followups {
+html[data-theme="dark"] .daily-strip-checklist,
+body.theme-dark .daily-strip-followups,
+body.theme-dark .daily-strip-checklist {
     background: rgba(0, 0, 0, 0.35);
     border-left-color: #416B49;
 }
 
 html[data-theme="dark"] .daily-strip-followups-label,
+html[data-theme="dark"] .daily-strip-checklist-label,
 html[data-theme="dark"] .daily-strip-band-guide-label,
 body.theme-dark .daily-strip-followups-label,
+body.theme-dark .daily-strip-checklist-label,
 body.theme-dark .daily-strip-band-guide-label {
     color: #8FB193;
 }
 
 html[data-theme="dark"] .daily-strip-followups-list,
+html[data-theme="dark"] .daily-strip-checklist-list,
 html[data-theme="dark"] .daily-strip-band-guide-expects,
 body.theme-dark .daily-strip-followups-list,
+body.theme-dark .daily-strip-checklist-list,
 body.theme-dark .daily-strip-band-guide-expects {
     color: #D6E8D9;
 }

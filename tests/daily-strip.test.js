@@ -647,7 +647,8 @@ test('Daily Strip reads prompts and facts from data files, not from tables or gl
         await new Promise(r => setTimeout(r, 30));
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         assert.ok(/Beschreiben Sie|Erzählen Sie/.test(html), 'German prompt from the data file');
-        assert.ok(!html.includes('Introduce yourself'), 'no English curated prompt for a German learner');
+        // The band guide is English UI copy and may say "introduce yourself"; the *prompt* must be German.
+        assert.ok(!html.includes('Introduce yourself: say your name'), 'no English curated prompt for a German learner');
         // the fact file is missing: the built-in fact is the last resort
         assert.ok(nodes[`#${comp.uniqueId}_panel_fact`].html.includes('Learning a new language'));
     });
@@ -761,6 +762,35 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(!html.includes('Threshold to Vantage'), 'no other band guide');
     });
 
+    await t.test('every band guide states the can-do descriptor and the exams that certify the band', async () => {
+        for (const level of ['a0-a1', 'a2', 'b1-b2', 'c1-c2']) {
+            const { comp, nodes } = mountStrip(speaking);
+            await new Promise(r => setTimeout(r, 30));
+            comp.selectedLevel = level;
+            await comp.loadAllCategories();
+            comp.renderContent();
+
+            const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+            assert.ok(html.includes('At this level you can:'), `can-do line for ${level}`);
+            assert.ok(html.includes('Certified by:'), `exam destinations for ${level}`);
+        }
+    });
+
+    await t.test('the band guide names the exams a learner would sit at that band', async () => {
+        const { comp, nodes } = mountStrip(speaking);
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'b1-b2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('B1-B2 · Threshold to Vantage'), 'B1-B2 guide');
+        assert.ok(html.includes('Cambridge B1 Preliminary and B2 First'), 'B1-B2 exams named');
+        assert.ok(html.includes('IELTS 4.0-6.5'), 'IELTS band range named');
+        assert.ok(!html.includes('Pre A1 Starters'), 'no beginner exams on a B1-B2 guide');
+        assert.ok(!html.includes('C2 Proficiency'), 'no advanced-only exams on a B1-B2 guide');
+    });
+
     await t.test('a prompt without scaffolding renders no chips and no follow-ups', async () => {
         const plain = [{ id: 'en:speaking:1', prompt: 'What do you do at the weekend?', level: 'A2' }];
         const { comp, nodes } = mountStrip(plain);
@@ -775,9 +805,12 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(html.includes('A2 · Waystage'), 'band guide still shown for the speaking tab');
     });
 
-    await t.test('the writing tab never shows the speaking brief', async () => {
-        const writing = [{ id: 'en:writing:1', prompt: 'Write a short paragraph about your week.', level: 'A2',
-                           task: 'Paragraph', exam: 'IELTS', part: 'Part 1', prep_seconds: 30, speak_seconds: 60, follow_ups: ['Why?'] }];
+    await t.test('the writing tab shows its own brief and band guide, never the speaking one', async () => {
+        const writing = [{ id: 'en:writing:1', prompt: 'Write a short paragraph about your week.', level: 'A2', curated: true,
+                           task: 'Paragraph', genre: 'Description', exam: 'IELTS', part: 'Part 1',
+                           word_min: 140, word_max: 190, write_minutes: 40,
+                           checklist: ['Each paragraph has one main idea.', 'You gave a reason for your opinion.'],
+                           prep_seconds: 30, speak_seconds: 60, follow_ups: ['Why?'] }];
         const fakeFetch = async (url) => (url.endsWith('/en/writing.json') ? { ok: true, json: async () => writing } : { ok: false, status: 404 });
         const { Component } = setupTestEnvironment({ fetch: fakeFetch });
         const nodes = {};
@@ -792,9 +825,17 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         await new Promise(r => setTimeout(r, 30));
 
         const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
-        assert.ok(!html.includes('daily-strip-chips'), 'no exam chips on writing');
-        assert.ok(!html.includes('Follow-up questions'), 'no follow-ups on writing');
-        assert.ok(!html.includes('band-guide'), 'no speaking band guide on writing');
+        assert.ok(html.includes('daily-strip-chips'), 'writing cards show their brief');
+        assert.ok(html.includes('IELTS') && html.includes('Part 1'), 'exam and part chips render');
+        assert.ok(html.includes('Description'), 'genre chip renders');
+        assert.ok(html.includes('140-190 words'), 'word target chip renders');
+        assert.ok(html.includes('40 min'), 'time limit chip renders');
+        assert.ok(html.includes('Before you finish, check'), 'self-check list renders');
+        assert.ok(html.includes('A2 · Waystage'), 'writing band guide is shown');
+        assert.ok(html.includes('Typical length'), 'the guide states the expected length');
+        assert.ok(!html.includes('Follow-up questions'), 'no speaking follow-ups on writing');
+        assert.ok(!html.includes('Prep 30s') && !html.includes('Speak 1m'), 'no speaking timings on writing');
+        assert.ok(!html.includes('A0-A1 · Breakthrough'), 'the guide describes the card level, not the default');
     });
 });
 
@@ -945,5 +986,86 @@ test('Daily Strip general-course cards: activity instead of exam, and audience f
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         assert.ok(html.includes('Cue card talk'), 'exam task is shown');
         assert.ok(!html.includes('daily-strip-chip-activity'), 'no activity chip in exam mode');
+    });
+});
+
+test('Daily Strip writing guide: CEFR expectations, length and general-track activity', async (t) => {
+    function mountWriting(items) {
+        const fakeFetch = async (url) => (url.endsWith('/en/writing.json') ? { ok: true, json: async () => items } : { ok: false, status: 404 });
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'en', 'data-slots': 'writing', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        return { comp: new Component(element), nodes };
+    }
+
+    const writing = [
+        { id: 'en:writing:e1', prompt: 'Write four sentences about your family.', level: 'A0-A1', curated: true,
+          track: 'exam', exam: 'Cambridge Pre A1 Starters', part: 'Reading & Writing', task: 'Short sentences',
+          genre: 'Short sentences', word_min: 10, word_max: 25, write_minutes: 10,
+          checklist: ['Every sentence starts with a capital letter.', 'You answered every part of the task.'] },
+        { id: 'en:writing:g1', prompt: 'Describe your bedroom in five sentences.', level: 'A2', curated: true,
+          track: 'general', task: 'Describe your room', activity: 'describe', genre: 'Description',
+          word_min: 40, word_max: 70, write_minutes: 15,
+          checklist: ['You wrote all the information the task asks for.', 'You joined ideas with and or but.'] },
+        { id: 'en:writing:e3', prompt: 'Write an essay on remote work.', level: 'B1-B2', curated: true,
+          track: 'exam', exam: 'Cambridge B2 First', part: 'Writing Part 1', task: 'Essay', genre: 'Essay',
+          word_min: 140, word_max: 190, write_minutes: 40,
+          checklist: ['Each paragraph has one main idea.', 'You gave a reason for your opinion.'] },
+        { id: 'en:writing:e4', prompt: 'Write an essay on free speech.', level: 'C1-C2', curated: true,
+          track: 'exam', exam: 'Cambridge C1 Advanced', part: 'Writing Part 1', task: 'Essay', genre: 'Essay',
+          word_min: 220, word_max: 260, write_minutes: 45,
+          checklist: ['Your position is clear in the introduction.', 'You addressed a counterargument.'] },
+    ];
+
+    await t.test('every writing band guide states what the level expects and the typical length', async () => {
+        for (const [level, label] of [['a0-a1', 'A0-A1 · Breakthrough'], ['a2', 'A2 · Waystage'],
+            ['b1-b2', 'B1-B2 · Threshold to Vantage'], ['c1-c2', 'C1-C2 · Advanced']]) {
+            const { comp, nodes } = mountWriting(writing);
+            await new Promise(r => setTimeout(r, 30));
+            comp.selectedLevel = level;
+            await comp.loadAllCategories();
+            comp.renderContent();
+
+            const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
+            assert.ok(html.includes(label), `writing guide label for ${level}`);
+            assert.ok(html.includes('What this level expects'), `expectations heading for ${level}`);
+            assert.ok(html.includes('Typical length'), `typical length for ${level}`);
+            assert.ok(html.includes('Certified by:'), `certifying exams for ${level}`);
+        }
+    });
+
+    await t.test('the writing guide names the exams a learner would sit at that band', async () => {
+        const { comp, nodes } = mountWriting(writing);
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'b1-b2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+
+        const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
+        assert.ok(html.includes('IELTS 4.0-6.5'), 'IELTS band range named');
+        assert.ok(html.includes('TOEFL iBT'), 'TOEFL named');
+        assert.ok(html.includes('DELF B1-B2'), 'DELF named');
+        assert.ok(!html.includes('Pre A1 Starters'), 'no beginner exams on a B1-B2 guide');
+        assert.ok(!html.includes('DALF C1-C2'), 'no advanced-only exams on a B1-B2 guide');
+    });
+
+    await t.test('a general writing card shows its activity chip and no exam chip', async () => {
+        const { comp, nodes } = mountWriting(writing);
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'a2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+
+        const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
+        assert.ok(html.includes('🎨 Describe'), 'activity chip uses the writing label');
+        assert.ok(!html.includes('daily-strip-chip-exam'), 'no exam chip on a general card');
+        assert.ok(html.includes('40-70 words'), 'word target from the card');
+        assert.ok(html.includes('15 min'), 'time limit from the card');
     });
 });

@@ -87,10 +87,19 @@ exam's own speaking part ("Part 2 · Long turn (cue card)", "Sprechen Teil 1 · 
 "Tarea 1 · Monólogo", "Задание 1 · Монолог по теме").
 The strip renders those as chips, a "Prep 1 min / Speak 2 min" line and a follow-up
 list, plus `SPEAKING_BAND_GUIDE` in `js/daily-strip.js` — what the selected band
-expects and the language to aim for. Fields stay optional at render time, so prompts
+expects and the language to aim for, the CEFR can-do descriptor for the band
+("At this level you can: …") and the exams that certify it ("Certified by: …").
+Fields stay optional at render time, so prompts
 without them (including cached ones) still render; the brief is speaking-only. Validate
 in COSYpractice with `node scripts/validate-daily-prompts.js`. Tests:
 `tests/daily-strip.test.js`.
+
+Coverage floor, enforced by `node scripts/test-speaking-coverage.js` in COSYpractice:
+**≥8 curated exam cards and ≥4 general cards per CEFR band per language**, and the
+general track must use all twelve activities in all fourteen languages. Add cards,
+never drop below the floor. Content is append-only in practice: new ids are
+`<lang>:speaking:x<n>` (exam), `gx<n>`/`gy<n>` (general) and `p<n>` (richer-language
+exam gaps) to stay clear of the legacy `1..10`, `c1..cN` and `g1..gN` ids.
 
 ## Daily speaking prompts: exam and general tracks
 
@@ -112,6 +121,30 @@ renders the level of the card actually shown, not the clicked band.
 
 Validator: `node scripts/validate-daily-prompts.js` in COSYpractice. Tests:
 `tests/daily-strip.test.js` here.
+
+## Daily writing prompts: exam and general tracks
+
+`data/daily/<lang>/writing.json` mirrors the speaking files, with the same two
+tracks and the same `audience` rules. Writing cards carry their own scaffolding:
+
+- `genre` – what the learner is producing ("Formal email", "Essay", "Review").
+- `word_min` / `word_max` – the word target, shown as "140-190 words".
+- `write_minutes` – the time limit, shown as "40 min".
+- `checklist` – 2–3 self-check points, shown under "Before you finish, check".
+
+`WRITING_BAND_GUIDE` in `js/daily-strip.js` mirrors `SPEAKING_BAND_GUIDE`: the
+band's `expects`, `focus`, `canDo`, `length` and the exams that certify it. Both
+guides render through the same code path, so a writing card gets chips and a band
+guide but never speaking-only fields (`prep_seconds`, `speak_seconds`,
+`follow_ups`).
+
+Coverage floor, enforced by `node scripts/test-writing-coverage.js`: **≥6 curated
+exam cards and ≥4 general cards per CEFR band per language**, complete scaffolding
+on every curated card, and all twelve writing activities used per language. New
+ids are `<lang>:writing:x<n>` (exam) and `wx<n>`/`gx<n>` (general), clear of the
+legacy `1..10`, `c1..cN` and `g1..gN` ids. Authoring rules of thumb: exams at each
+band follow IELTS, TOEFL, Cambridge, DELF/DALF, Goethe, DELE and ТРКИ task
+shapes; general cards name a real-life writing situation, not an exam.
 
 ## Ecosystem strip (shared, top of every site)
 

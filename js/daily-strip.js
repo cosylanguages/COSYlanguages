@@ -254,27 +254,92 @@
 
     // What each CEFR band expects of a speaker, paraphrased from the CEFR illustrative descriptors. Shown under
     // the speaking prompt so a learner knows what "good" sounds like at the level they picked.
+    //   canDo   the global speaking descriptor for the band, in plain language
+    //   expects the task the learner should be able to perform on this card
+    //   focus   the grammar and lexis that carries that task
+    //   exams   the proficiency exams that certify the band, so the prompt has a destination
     const SPEAKING_BAND_GUIDE = {
         'a0-a1': {
             label: 'A0-A1 · Breakthrough',
+            canDo: 'Introduce yourself and others, ask and answer simple questions about where you live, what you do and what you have, and use isolated phrases and very short sentences.',
             expects: 'Short phrases about yourself and everyday things. Answer in full sentences, even simple ones.',
-            focus: 'Present simple, basic questions, numbers, everyday nouns'
+            focus: 'Present simple, basic questions, numbers, everyday nouns',
+            exams: 'Cambridge Pre A1 Starters and A1 Movers · DELF A1 · Goethe-Zertifikat A1 · DELE A1 · ТЭУ · Ελληνομάθεια Α1'
         },
         'a2': {
             label: 'A2 · Waystage',
+            canDo: 'Handle short routine exchanges, describe your family, routine, immediate surroundings and past events, and cope with simple transactions such as shopping, travel and appointments.',
             expects: 'Describe your routine, past events and plans in a few linked sentences.',
-            focus: 'Past and future forms, because / but / so, common collocations'
+            focus: 'Past and future forms, because / but / so, common collocations',
+            exams: 'Cambridge A2 Key · Trinity ISE Foundation · DELF A2 · Goethe A2 · telc A2 · DELE A2 · ТБУ · Ελληνομάθεια Α2'
         },
         'b1-b2': {
             label: 'B1-B2 · Threshold to Vantage',
+            canDo: 'Deal with most situations while travelling, give a short prepared talk, explain and defend an opinion with reasons and examples, and follow the main points of an unfamiliar topic.',
             expects: 'Give and defend an opinion with reasons and examples, and handle an unfamiliar topic.',
-            focus: 'Conditionals, connectors, hedging, topic vocabulary'
+            focus: 'Conditionals, connectors, hedging, topic vocabulary',
+            exams: 'Cambridge B1 Preliminary and B2 First · IELTS 4.0-6.5 · TOEFL iBT 42-94 · DELF B1-B2 · Goethe B1-B2 · DELE B1-B2 · ТРКИ-1-2'
         },
         'c1-c2': {
             label: 'C1-C2 · Advanced',
+            canDo: 'Speak fluently and spontaneously with little searching for words, argue a case precisely, concede counterarguments, and shift register between academic, professional and social settings.',
             expects: 'Argue a position precisely, concede counterarguments and adapt your register.',
-            focus: 'Nominalisation, stance markers, idiomatic and academic phrasing'
+            focus: 'Nominalisation, stance markers, idiomatic and academic phrasing',
+            exams: 'C1 Advanced · C2 Proficiency · IELTS 7.0+ · TOEFL iBT 95+ · DALF C1-C2 · Goethe C1-C2 · DELE C1-C2 · ТРКИ-3-4'
         }
+    };
+
+    // What each CEFR band is expected to produce in writing, the language that carries it, and the exams
+    // that certify it. Mirrors SPEAKING_BAND_GUIDE so both prompt tabs explain themselves the same way.
+    const WRITING_BAND_GUIDE = {
+        'a0-a1': {
+            label: 'A0-A1 · Breakthrough',
+            canDo: 'Write simple isolated phrases and sentences about yourself, fill in a form with personal details, and write a short simple postcard or message.',
+            expects: 'Short sentences about yourself and everyday things. One idea per sentence, correct spelling and capital letters.',
+            focus: 'Present simple, basic linking (and / but / because), spelling, punctuation',
+            exams: 'Cambridge Pre A1 Starters and A1 Movers · DELF A1 · Goethe-Zertifikat A1 · DELE A1 · ТЭУ · Ελληνομάθεια Α1',
+            length: '20-40 words'
+        },
+        'a2': {
+            label: 'A2 · Waystage',
+            canDo: 'Write short, simple notes and messages, a very simple personal letter or email, and describe everyday aspects of your life in a series of simple linked phrases.',
+            expects: 'Describe routine, past events and plans in a few linked sentences, and write a short informal message that gets the job done.',
+            focus: 'Past and future forms, paragraphing, everyday connectors, informal register',
+            exams: 'Cambridge A2 Key · Trinity ISE Foundation · DELF A2 · Goethe A2 · telc A2 · DELE A2 · ТБУ · Ελληνομάθεια Α2',
+            length: '40-80 words'
+        },
+        'b1-b2': {
+            label: 'B1-B2 · Threshold to Vantage',
+            canDo: 'Write straightforward connected text on familiar topics, personal letters describing experiences and impressions, and short reports or essays that give reasons for and against a view.',
+            expects: 'Organise a text with an opening, body and close, and support an opinion with reasons and examples.',
+            focus: 'Topic sentences, cohesive devices, formal and informal register, opinion language',
+            exams: 'Cambridge B1 Preliminary and B2 First · IELTS 4.0-6.5 (Task 1 and 2) · TOEFL iBT 42-94 · DELF B1-B2 · Goethe B1-B2 · DELE B1-B2 · ТРКИ-1-2',
+            length: '100-180 words'
+        },
+        'c1-c2': {
+            label: 'C1-C2 · Advanced',
+            canDo: 'Express yourself in clear, well-structured text, write about complex subjects in an essay, report or letter, and adopt an appropriate register and rhetorical structure for the reader.',
+            expects: 'Argue a position precisely, weigh counterarguments and control register, cohesion and emphasis over a long text.',
+            focus: 'Nominalisation, hedging, complex syntax, rhetorical structure, academic phrasing',
+            exams: 'C1 Advanced · C2 Proficiency · IELTS 7.0+ · TOEFL iBT 95+ · DALF C1-C2 · Goethe C1-C2 · DELE C1-C2 · ТРКИ-3-4',
+            length: '200-300 words'
+        }
+    };
+
+    // General-course writing cards carry an activity key; the chip shows a readable label for it.
+    const WRITING_ACTIVITY_LABELS = {
+        describe: '🎨 Describe',
+        narrate: '📖 Tell a story',
+        inform: '📰 Inform',
+        persuade: '⚖️ Persuade',
+        explain: '🔍 Explain',
+        instruct: '🧭 Give instructions',
+        summarise: '🗂️ Summarise',
+        review: '⭐ Review',
+        'personal-message': '✉️ Personal message',
+        'formal-message': '📧 Formal message',
+        'creative-writing': '✨ Creative writing',
+        journal: '📔 Journal'
     };
 
     // General-course speaking cards carry an activity key; the chip shows a readable label for it.
@@ -470,7 +535,13 @@
             audience: Array.isArray(item.audience) ? item.audience.filter(a => typeof a === 'string') : [],
             followUps: Array.isArray(item.follow_ups) ? item.follow_ups.filter(q => typeof q === 'string' && q.trim()) : [],
             prepSeconds: Number.isFinite(Number(item.prep_seconds)) && Number(item.prep_seconds) > 0 ? Number(item.prep_seconds) : 0,
-            speakSeconds: Number.isFinite(Number(item.speak_seconds)) && Number(item.speak_seconds) > 0 ? Number(item.speak_seconds) : 0
+            speakSeconds: Number.isFinite(Number(item.speak_seconds)) && Number(item.speak_seconds) > 0 ? Number(item.speak_seconds) : 0,
+            // writing scaffolding; optional so legacy prompts keep rendering
+            genre: item.genre || '',
+            wordMin: Number.isFinite(Number(item.word_min)) && Number(item.word_min) > 0 ? Number(item.word_min) : 0,
+            wordMax: Number.isFinite(Number(item.word_max)) && Number(item.word_max) > 0 ? Number(item.word_max) : 0,
+            writeMinutes: Number.isFinite(Number(item.write_minutes)) && Number(item.write_minutes) > 0 ? Number(item.write_minutes) : 0,
+            checklist: Array.isArray(item.checklist) ? item.checklist.filter(c => typeof c === 'string' && c.trim()) : []
         };
     }
 
@@ -733,16 +804,30 @@
                     </div>
                 ` : '';
 
-                // Exam-style brief: the exam and the speaking part it comes from, the task type, and how long to
-                // prepare and speak.
+                // Exam-style brief. Speaking shows the exam, part, task and timings; writing shows the exam,
+                // task, genre, word target and time limit.
                 const chips = [];
-                if (tab.id === 'speaking' && item.exam) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
-                // General-course cards practise speaking for its own sake: show the activity instead of an exam.
-                if (tab.id === 'speaking' && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(ACTIVITY_LABELS[item.activity] || item.activity)}</span>`);
-                if (tab.id === 'speaking' && item.part) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
-                if (tab.id === 'speaking' && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
-                if (tab.id === 'speaking' && item.prepSeconds) chips.push(`<span class="daily-strip-chip">⏱️ Prep ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
-                if (tab.id === 'speaking' && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ Speak ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
+                const isSpeaking = tab.id === 'speaking';
+                const isWriting = tab.id === 'writing';
+                if (isSpeaking && item.exam) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
+                if (isWriting && item.exam) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
+                // General-course cards practise the skill for its own sake: show the activity instead of an exam.
+                if (isSpeaking && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(ACTIVITY_LABELS[item.activity] || item.activity)}</span>`);
+                if (isWriting && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(WRITING_ACTIVITY_LABELS[item.activity] || item.activity)}</span>`);
+                if (isSpeaking && item.part) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
+                if (isSpeaking && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
+                if (isWriting && item.part) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
+                if (isWriting && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
+                if (isWriting && item.genre) chips.push(`<span class="daily-strip-chip daily-strip-chip-genre">${this.escapeHTML(item.genre)}</span>`);
+                if (isSpeaking && item.prepSeconds) chips.push(`<span class="daily-strip-chip">⏱️ Prep ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
+                if (isSpeaking && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ Speak ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
+                if (isWriting && (item.wordMin || item.wordMax)) {
+                    const target = item.wordMin && item.wordMax
+                        ? `${item.wordMin}-${item.wordMax} words`
+                        : `${item.wordMin || item.wordMax}+ words`;
+                    chips.push(`<span class="daily-strip-chip">📝 ${this.escapeHTML(target)}</span>`);
+                }
+                if (isWriting && item.writeMinutes) chips.push(`<span class="daily-strip-chip">⏱️ ${this.escapeHTML(item.writeMinutes)} min</span>`);
                 const chipsHTML = chips.length ? `<div class="daily-strip-chips">${chips.join('')}</div>` : '';
 
                 const followUpsHTML = tab.id === 'speaking' && item.followUps.length ? `
@@ -754,9 +839,19 @@
                     </div>
                 ` : '';
 
-                const guide = tab.id === 'speaking'
+                // A checklist turns the prompt into a self-marking task: tick each point before calling it done.
+                const checklistHTML = isWriting && item.checklist.length ? `
+                    <div class="daily-strip-checklist">
+                        <span class="daily-strip-checklist-label">Before you finish, check</span>
+                        <ul class="daily-strip-checklist-list">
+                            ${item.checklist.map(c => `<li>${this.escapeHTML(c)}</li>`).join('')}
+                        </ul>
+                    </div>
+                ` : '';
+
+                const guide = isSpeaking
                     ? SPEAKING_BAND_GUIDE[guideKeyForLevel(item.level) || this.selectedLevel]
-                    : null;
+                    : (isWriting ? WRITING_BAND_GUIDE[guideKeyForLevel(item.level) || this.selectedLevel] : null);
                 const guideHTML = guide ? `
                     <div class="daily-strip-band-guide">
                         <div class="daily-strip-band-guide-head">
@@ -765,6 +860,9 @@
                         </div>
                         <p class="daily-strip-band-guide-expects">${this.escapeHTML(guide.expects)}</p>
                         <p class="daily-strip-band-guide-focus"><strong>Language to aim for:</strong> ${this.escapeHTML(guide.focus)}</p>
+                        ${guide.canDo ? `<p class="daily-strip-band-guide-cando"><strong>At this level you can:</strong> ${this.escapeHTML(guide.canDo)}</p>` : ''}
+                        ${guide.length ? `<p class="daily-strip-band-guide-length"><strong>Typical length:</strong> ${this.escapeHTML(guide.length)}</p>` : ''}
+                        ${guide.exams ? `<p class="daily-strip-band-guide-exams"><strong>Certified by:</strong> ${this.escapeHTML(guide.exams)}</p>` : ''}
                     </div>
                 ` : '';
 
@@ -777,6 +875,7 @@
                         ${hasTranslation ? `<div class="daily-strip-translation" id="${this.uniqueId}_trans_${tab.id}" hidden>${this.escapeHTML(item.translation)}</div>` : ''}
                         ${item.meta ? `<div class="daily-strip-meta">${this.escapeHTML(item.meta)}</div>` : ''}
                         ${followUpsHTML}
+                        ${checklistHTML}
                         ${guideHTML}
                     </div>
                     <div class="daily-strip-footer">
