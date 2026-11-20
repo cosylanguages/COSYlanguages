@@ -252,6 +252,40 @@
     }
 
 
+    // What each CEFR band expects of a speaker, paraphrased from the CEFR illustrative descriptors. Shown under
+    // the speaking prompt so a learner knows what "good" sounds like at the level they picked.
+    const SPEAKING_BAND_GUIDE = {
+        'a0-a1': {
+            label: 'A0-A1 · Breakthrough',
+            expects: 'Short phrases about yourself and everyday things. Answer in full sentences, even simple ones.',
+            focus: 'Present simple, basic questions, numbers, everyday nouns'
+        },
+        'a2': {
+            label: 'A2 · Waystage',
+            expects: 'Describe your routine, past events and plans in a few linked sentences.',
+            focus: 'Past and future forms, because / but / so, common collocations'
+        },
+        'b1-b2': {
+            label: 'B1-B2 · Threshold to Vantage',
+            expects: 'Give and defend an opinion with reasons and examples, and handle an unfamiliar topic.',
+            focus: 'Conditionals, connectors, hedging, topic vocabulary'
+        },
+        'c1-c2': {
+            label: 'C1-C2 · Advanced',
+            expects: 'Argue a position precisely, concede counterarguments and adapt your register.',
+            focus: 'Nominalisation, stance markers, idiomatic and academic phrasing'
+        }
+    };
+
+    // "45s", "1 min 30s", "2 min" — speaking times are stored in seconds.
+    function formatDuration(seconds) {
+        const total = Math.max(0, Math.round(Number(seconds) || 0));
+        if (total < 60) return `${total}s`;
+        const minutes = Math.floor(total / 60);
+        const rest = total % 60;
+        return rest ? `${minutes} min ${rest}s` : `${minutes} min`;
+    }
+
     // Offline last resort: one English prompt per CEFR band. The real prompts live in COSYpractice (data/daily),
     // so this is only used when every fetch fails.
     const BUILT_IN_PROMPTS = {
@@ -344,7 +378,20 @@
             if (meta) meta += ' • ';
             meta += `Example: "${item.example}"`;
         }
-        return { text, translation, definition: item.definition || '', emoji: item.emoji || '', fromCalendar: Boolean(item.fromCalendar), meta };
+        return {
+            text,
+            translation,
+            definition: item.definition || '',
+            emoji: item.emoji || '',
+            fromCalendar: Boolean(item.fromCalendar),
+            meta,
+            // exam-style speaking scaffolding; all optional so older cached prompts still render
+            exam: item.exam || '',
+            task: item.task || '',
+            followUps: Array.isArray(item.follow_ups) ? item.follow_ups.filter(q => typeof q === 'string' && q.trim()) : [],
+            prepSeconds: Number.isFinite(Number(item.prep_seconds)) && Number(item.prep_seconds) > 0 ? Number(item.prep_seconds) : 0,
+            speakSeconds: Number.isFinite(Number(item.speak_seconds)) && Number(item.speak_seconds) > 0 ? Number(item.speak_seconds) : 0
+        };
     }
 
     class DailyStripComponent {
@@ -600,13 +647,45 @@
                     </div>
                 ` : '';
 
+                // Exam-style brief: the task type, the exam it is modelled on and how long to prepare and speak.
+                const chips = [];
+                if (tab.id === 'speaking' && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
+                if (tab.id === 'speaking' && item.exam) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
+                if (tab.id === 'speaking' && item.prepSeconds) chips.push(`<span class="daily-strip-chip">⏱️ Prep ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
+                if (tab.id === 'speaking' && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ Speak ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
+                const chipsHTML = chips.length ? `<div class="daily-strip-chips">${chips.join('')}</div>` : '';
+
+                const followUpsHTML = tab.id === 'speaking' && item.followUps.length ? `
+                    <div class="daily-strip-followups">
+                        <span class="daily-strip-followups-label">Follow-up questions</span>
+                        <ul class="daily-strip-followups-list">
+                            ${item.followUps.map(q => `<li>${this.escapeHTML(q)}</li>`).join('')}
+                        </ul>
+                    </div>
+                ` : '';
+
+                const guide = tab.id === 'speaking' ? SPEAKING_BAND_GUIDE[this.selectedLevel] : null;
+                const guideHTML = guide ? `
+                    <div class="daily-strip-band-guide">
+                        <div class="daily-strip-band-guide-head">
+                            <span class="daily-strip-band-guide-label">${this.escapeHTML(guide.label)}</span>
+                            <span class="daily-strip-band-guide-what">What this level expects</span>
+                        </div>
+                        <p class="daily-strip-band-guide-expects">${this.escapeHTML(guide.expects)}</p>
+                        <p class="daily-strip-band-guide-focus"><strong>Language to aim for:</strong> ${this.escapeHTML(guide.focus)}</p>
+                    </div>
+                ` : '';
+
                 panel.innerHTML = `
                     ${levelBarHTML}
+                    ${chipsHTML}
                     <div class="daily-strip-content-main">
                         <p class="daily-strip-prompt">${item.emoji ? `<span class="daily-strip-emoji" aria-hidden="true">${this.escapeHTML(item.emoji)}</span> ` : ''}${this.escapeHTML(item.text)}</p>
                         ${item.definition ? `<div class="daily-strip-definition">${this.escapeHTML(item.definition)}</div>` : ''}
                         ${hasTranslation ? `<div class="daily-strip-translation" id="${this.uniqueId}_trans_${tab.id}" hidden>${this.escapeHTML(item.translation)}</div>` : ''}
                         ${item.meta ? `<div class="daily-strip-meta">${this.escapeHTML(item.meta)}</div>` : ''}
+                        ${followUpsHTML}
+                        ${guideHTML}
                     </div>
                     <div class="daily-strip-footer">
                         <div class="daily-strip-actions-left">
@@ -798,6 +877,8 @@
         parseDailyItem,
         pickItemForLevel,
         getLocalFallback,
+        formatDuration,
+        SPEAKING_BAND_GUIDE,
         DAILY_SCHEDULE
     };
 })();

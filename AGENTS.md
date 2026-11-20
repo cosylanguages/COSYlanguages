@@ -71,6 +71,21 @@ The shared directory that links all of these together is `js/daily-directory.js`
 heading. Keep its `DESTINATIONS` list in step with COSYtools
 `shared/js/daily-feed.js` `DAILY_DESTINATIONS`. Tests: `tests/daily-directory.test.js`.
 
+### Speaking tab (curated CEFR prompts + exam brief)
+
+The Speaking tab reads COSYpractice `data/daily/<lang>/speaking.json`. Every one of
+the 14 languages has curated prompts (`"curated": true`) for all four strip bands —
+A0-A1, A2, B1-B2, C1-C2 — modelled on the speaking parts of IELTS, TOEFL, CPE/CAE,
+Trinity, DELF/DALF, TCF, DELE/SIELE, Goethe, ÖSD, telc, CELI, CILS, CAPLE/Celpe-Bras,
+ТРКИ and Ελληνομάθεια. Curated entries carry an optional exam brief:
+`task`, `exam`, `prep_seconds`, `speak_seconds`, `follow_ups` (one or two questions).
+The strip renders those as chips, a "Prep 1 min / Speak 2 min" line and a follow-up
+list, plus `SPEAKING_BAND_GUIDE` in `js/daily-strip.js` — what the selected band
+expects and the language to aim for. All fields are optional, so prompts without
+them (including cached ones) still render; the brief is speaking-only. Validate in
+COSYpractice with `node scripts/validate-daily-prompts.js` (it now requires curated
+speaking coverage for every band in every language). Tests: `tests/daily-strip.test.js`.
+
 ## Ecosystem strip (shared, top of every site)
 
 `js/ecosystem-strip.js` + `css/ecosystem-strip.css` render the one-line

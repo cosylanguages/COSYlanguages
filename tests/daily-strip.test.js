@@ -668,3 +668,128 @@ test('Daily Strip reads prompts and facts from data files, not from tables or gl
         assert.ok(nodes[`#${comp.uniqueId}_panel_writing`].html.includes('Write 3-4 simple sentences'));
     });
 });
+
+test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide', async (t) => {
+    const speaking = [
+        { id: 'en:speaking:c1', prompt: 'Describe a skill you learned that changed your daily life.', topic: 'skills',
+          level: 'B1-B2', curated: true, exam: 'IELTS Part 2', task: 'Cue card talk',
+          prep_seconds: 60, speak_seconds: 120, follow_ups: ['Was it difficult at the beginning?', 'Would you recommend it?'] },
+        { id: 'en:speaking:c2', prompt: 'Introduce yourself: name, town, work and one hobby.', topic: 'introductions',
+          level: 'A0-A1', curated: true, exam: 'DELF A1', task: 'Personal introduction',
+          prep_seconds: 15, speak_seconds: 45, follow_ups: ['How do you spell your name?'] }
+    ];
+
+    function mountStrip(items) {
+        const fakeFetch = async (url) => (url.endsWith('/en/speaking.json') ? { ok: true, json: async () => items } : { ok: false, status: 404 });
+        const { Component, helpers } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'en', 'data-slots': 'speaking', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        return { comp: new Component(element), nodes, helpers };
+    }
+
+    await t.test('formatDuration reads as 45s, 1 min 30s and 2 min', () => {
+        const { helpers } = setupTestEnvironment();
+        assert.equal(helpers.formatDuration(45), '45s');
+        assert.equal(helpers.formatDuration(90), '1 min 30s');
+        assert.equal(helpers.formatDuration(120), '2 min');
+        assert.equal(helpers.formatDuration(0), '0s');
+        assert.equal(helpers.formatDuration('nonsense'), '0s');
+    });
+
+    await t.test('parseDailyItem keeps the exam scaffolding and drops junk', () => {
+        const { helpers } = setupTestEnvironment();
+        const item = helpers.parseDailyItem(speaking[0]);
+        assert.equal(item.task, 'Cue card talk');
+        assert.equal(item.exam, 'IELTS Part 2');
+        assert.equal(item.prepSeconds, 60);
+        assert.equal(item.speakSeconds, 120);
+        assert.deepEqual(Array.from(item.followUps), ['Was it difficult at the beginning?', 'Would you recommend it?']);
+
+        const bare = helpers.parseDailyItem({ prompt: 'Just a prompt', level: 'A2' });
+        assert.equal(bare.task, '');
+        assert.equal(bare.exam, '');
+        assert.equal(bare.prepSeconds, 0);
+        assert.equal(bare.speakSeconds, 0);
+        assert.deepEqual(Array.from(bare.followUps), []);
+
+        const junk = helpers.parseDailyItem({ prompt: 'p', prep_seconds: -5, speak_seconds: 'x', follow_ups: [1, '', 'ok?'] });
+        assert.equal(junk.prepSeconds, 0);
+        assert.equal(junk.speakSeconds, 0);
+        assert.deepEqual(Array.from(junk.followUps), ['ok?']);
+    });
+
+    await t.test('the B1-B2 speaking panel shows the exam brief and the band guide', async () => {
+        const { comp, nodes } = mountStrip(speaking);
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'b1-b2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('Cue card talk'), 'task chip');
+        assert.ok(html.includes('IELTS Part 2'), 'exam chip');
+        assert.ok(html.includes('Prep 1 min'), 'prep time');
+        assert.ok(html.includes('Speak 2 min'), 'speaking time');
+        assert.ok(html.includes('Follow-up questions'), 'follow-up heading');
+        assert.ok(html.includes('Was it difficult at the beginning?'), 'first follow-up');
+        assert.ok(html.includes('B1-B2 · Threshold to Vantage'), 'band guide label');
+        assert.ok(html.includes('Give and defend an opinion'), 'band expectation');
+        assert.ok(html.includes('Language to aim for'), 'focus line');
+    });
+
+    await t.test('the band guide follows the selected level', async () => {
+        const { comp, nodes } = mountStrip(speaking);
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'a0-a1';
+        await comp.loadAllCategories();
+        comp.renderContent();
+
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('A0-A1 · Breakthrough'), 'A0-A1 guide');
+        assert.ok(html.includes('Personal introduction'), 'A0-A1 task chip');
+        assert.ok(html.includes('DELF A1'), 'A0-A1 exam chip');
+        assert.ok(!html.includes('Threshold to Vantage'), 'no other band guide');
+    });
+
+    await t.test('a prompt without scaffolding renders no chips and no follow-ups', async () => {
+        const plain = [{ id: 'en:speaking:1', prompt: 'What do you do at the weekend?', level: 'A2' }];
+        const { comp, nodes } = mountStrip(plain);
+        await new Promise(r => setTimeout(r, 30));
+        comp.selectedLevel = 'a2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(!html.includes('daily-strip-chips'), 'no chips');
+        assert.ok(!html.includes('Follow-up questions'), 'no follow-ups');
+        assert.ok(html.includes('A2 · Waystage'), 'band guide still shown for the speaking tab');
+    });
+
+    await t.test('the writing tab never shows the speaking brief', async () => {
+        const writing = [{ id: 'en:writing:1', prompt: 'Write a short paragraph about your week.', level: 'A2',
+                           task: 'Paragraph', exam: 'IELTS', prep_seconds: 30, speak_seconds: 60, follow_ups: ['Why?'] }];
+        const fakeFetch = async (url) => (url.endsWith('/en/writing.json') ? { ok: true, json: async () => writing } : { ok: false, status: 404 });
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'en', 'data-slots': 'writing', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+
+        const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
+        assert.ok(!html.includes('daily-strip-chips'), 'no exam chips on writing');
+        assert.ok(!html.includes('Follow-up questions'), 'no follow-ups on writing');
+        assert.ok(!html.includes('band-guide'), 'no speaking band guide on writing');
+    });
+});
