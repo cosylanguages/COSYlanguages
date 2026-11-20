@@ -97,9 +97,12 @@ in COSYpractice with `node scripts/validate-daily-prompts.js`. Tests:
 `tests/daily-strip.test.js`.
 
 Coverage floor, enforced by `node scripts/test-speaking-coverage.js` in COSYpractice:
-**≥8 curated exam cards and ≥4 general cards per CEFR band per language**, and the
+**≥10 curated exam cards and ≥5 general cards per CEFR band per language**, and the
 general track must use all twelve activities in all fourteen languages. Add cards,
-never drop below the floor. Content is append-only in practice: new ids are
+never drop below the floor. Every language currently clears it in every band (899
+curated speaking cards in total); the thin six (hy, ka, tt, ba, cv, br) were raised
+from the old 8/4 floor and the richer five (en, fr, it, ru, el) from 4 to 5 general
+cards in the lower bands. Content is append-only in practice: new ids are
 `<lang>:speaking:x<n>` (exam), `gx<n>`/`gy<n>` (general) and `p<n>` (richer-language
 exam gaps) to stay clear of the legacy `1..10`, `c1..cN` and `g1..gN` ids.
 
