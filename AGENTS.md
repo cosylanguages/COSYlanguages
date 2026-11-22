@@ -44,6 +44,10 @@ Watch-outs:
   a `201` means the token is fine and the problem is the helper. Never persist the PAT in
   the remote URL — pass it per command as above.
 
+## Course types
+
+The canonical list of course types lives in COSYplatform (`curriculums/_schema/course-types.json`, documented in its `docs/COURSE_TYPES.md`). Real courses with a page in `courses/`: `general`, `spoken`, `professional`, `travelling`, `relocation`, and `exam`. The exam page is `courses/exam-preparation.html`; `courses/exam.html` redirects to it so the platform's name for the course resolves. `discussion` (speaking clubs from COSYevents, platform only) and `pronunciation` (planned) have no page here.
+
 ## Tests
 
 This repo uses the Node built-in test runner. Word Explorer unit tests:
