@@ -108,6 +108,14 @@ without them (including cached ones) still render; the brief is speaking-only. V
 in COSYpractice with `node scripts/validate-daily-prompts.js`. Tests:
 `tests/daily-strip.test.js`.
 
+French cards also carry `theme`, the category id from
+`COSYpractice/data/exam/fr/delf-dalf-themes.json`. The catalogue lists the DELF B1,
+DELF B2, DALF C1 and DALF C2 themes supplied for exam preparation (55 categories,
+545 themes) with the official task shapes. The Exam Preparation course page
+(`courses/exam-preparation.html`) renders it through `js/exam-themes.js`, and
+COSYpractice's `node scripts/test-exam-themes.js` fails if a category has no speaking
+or writing card at the matching exam.
+
 Coverage floor, enforced by `node scripts/test-speaking-coverage.js` in COSYpractice:
 **≥10 curated exam cards and ≥5 general cards per CEFR band per language**, and the
 general track must use all twelve activities in all fourteen languages. Add cards,
