@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Official Exam Preparation Course 📝 | COSYlanguages</title>
-    <meta name="description" content="Strategic preparation for IELTS, TOEFL, Cambridge, DELF/DALF, TCF, CILS, CELI, TORFL, and Ellinomatheia. Exact exam conditions, timing, all 4 parts, scoring rubrics, and intensive oral coaching.">
+    <meta name="description" content="Strategic preparation for IELTS, TOEFL, Cambridge, DELF/DALF, TCF, CILS, CELI, TORFL, and Ellinomatheia. Exact exam conditions, timing, all 4 parts, scoring rubrics, DELF/DALF themes by level, and intensive oral coaching.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/courses/exam-preparation.html">
     <meta property="og:title" content="Official Exam Preparation Course 📝 | COSYlanguages">
-    <meta property="og:description" content="Authentic tasks, exact exam timing and conditions. Intensive coaching for IELTS, TOEFL, Cambridge, DELF/DALF, CILS, CELI, TORFL, and Ellinomatheia.">
+    <meta property="og:description" content="Authentic tasks, exact exam timing and conditions. DELF/DALF themes by level plus intensive coaching for IELTS, TOEFL, Cambridge, DELF/DALF, CILS, CELI, TORFL, and Ellinomatheia.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/courses/exam-preparation.html">
     <meta property="og:type" content="website">
@@ -155,6 +155,148 @@
         font-weight: 600;
         text-decoration: none;
       }
+      .exam-theme-level {
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        background: var(--warm-white, #FAF7F2);
+      }
+      .exam-theme-level h3 {
+        font-family: var(--font-serif);
+        font-size: 1.25rem;
+        color: var(--course-accent);
+        margin: 0 0 0.4rem;
+      }
+      .exam-theme-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+      .exam-theme-chip {
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding: 0.25rem 0.65rem;
+        border-radius: 999px;
+        background: var(--course-accent-light);
+        color: var(--course-accent);
+      }
+      .exam-theme-parts {
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+        margin: 0 0 1rem;
+        line-height: 1.55;
+      }
+      .exam-theme-format {
+        margin: 0 0 0.9rem;
+        padding-left: 1.1rem;
+        color: var(--ink-soft);
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+      .exam-theme-format li { margin-bottom: 0.2rem; }
+      .exam-theme-extra {
+        margin-top: 1.25rem;
+        border-top: 1px solid var(--border, #E2DCD5);
+        padding-top: 1rem;
+      }
+      .exam-theme-extra > summary {
+        cursor: pointer;
+        font-weight: 800;
+        color: var(--course-accent);
+        font-size: 1rem;
+      }
+      .exam-theme-method-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .exam-theme-method {
+        background: #fff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 10px;
+        padding: 1rem;
+      }
+      .exam-theme-method h4 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--ink); }
+      .exam-theme-subhead { margin: 0.7rem 0 0.2rem; font-weight: 700; font-size: 0.85rem; color: var(--ink); }
+      .exam-theme-method ul, .exam-theme-examples ul {
+        margin: 0 0 0.4rem;
+        padding-left: 1.1rem;
+        color: var(--ink-soft);
+        font-size: 0.86rem;
+        line-height: 1.45;
+      }
+      .exam-theme-examples { margin: 0.4rem 0 1rem; padding-left: 0; list-style: none; }
+      .exam-theme-example {
+        background: #fff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 10px;
+        padding: 0.9rem 1rem;
+        margin-bottom: 0.75rem;
+      }
+      .exam-theme-example > strong { color: var(--ink); }
+      .exam-theme-example p { margin: 0.35rem 0; color: var(--ink-soft); font-size: 0.88rem; line-height: 1.5; }
+      .exam-theme-example-type {
+        display: inline-block;
+        margin-left: 0.35rem;
+        padding: 0.05rem 0.5rem;
+        border-radius: 999px;
+        background: var(--course-accent-light);
+        color: var(--course-accent);
+        font-size: 0.72rem;
+        font-weight: 700;
+      }
+      .exam-theme-source { font-style: italic; }
+      .exam-theme-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+      }
+      .exam-theme-category {
+        background: #fff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 10px;
+        padding: 1rem;
+      }
+      .exam-theme-category h4 {
+        font-size: 0.98rem;
+        font-weight: 800;
+        color: var(--ink);
+        margin: 0 0 0.45rem;
+      }
+      .exam-theme-category summary {
+        cursor: pointer;
+        font-weight: 800;
+        color: var(--ink);
+        font-size: 0.98rem;
+        line-height: 1.4;
+      }
+      .exam-theme-category[open] summary { margin-bottom: 0.45rem; }
+      .exam-theme-count {
+        display: inline-block;
+        margin-left: 0.35rem;
+        padding: 0.05rem 0.45rem;
+        border-radius: 999px;
+        background: var(--course-accent-light);
+        color: var(--course-accent);
+        font-size: 0.75rem;
+      }
+      .exam-theme-category ul {
+        margin: 0;
+        padding-left: 1.1rem;
+        color: var(--ink-soft);
+        font-size: 0.88rem;
+        line-height: 1.5;
+      }
+      .exam-theme-category li { margin-bottom: 0.2rem; }
+      .exam-theme-error {
+        color: var(--ink-soft);
+        font-size: 0.92rem;
+      }
+      .exam-theme-error a { color: var(--course-accent); font-weight: 700; }
+
       .course-nav-links a:hover {
         text-decoration: underline;
       }
@@ -278,43 +420,52 @@
     <div class="exam-suite-card">
       <div class="exam-suite-header">
         <span class="exam-suite-title">🇫🇷 French: DELF, DALF &amp; TCF</span>
-        <span class="exam-suite-badge">France Éducation International</span>
+        <span class="exam-suite-badge">DELF A1–B2 · DALF C1–C2</span>
       </div>
-      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Official diplomas awarded by the French Ministry of National Education: DELF (A1, A2, B1, B2), DALF (C1, C2), and TCF (Test de Connaissance du Français for university or nationality).</p>
+      <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 0.75rem;">Official diplomas awarded by the French Ministry of National Education and delivered by France Éducation international: DELF (A1, A2, B1, B2), DALF (C1, C2), and the TCF (Test de Connaissance du Français) for university admission or French nationality. Each diploma certifies four competences; the oral and written production tasks carry the most weight in preparation time.</p>
 
       <div class="exam-parts-grid">
         <div class="exam-part-box">
-          <h4>🗣️ Production Orale <span class="timing">15–30 min</span></h4>
+          <h4>🗣️ Production orale <span class="timing">15 min – 1 h</span></h4>
           <ul>
-            <li><strong>Entretien dirigé:</strong> Spontaneous presentation of self and background</li>
-            <li><strong>Exercice en interaction:</strong> Role-play resolving a dispute or negotiation</li>
-            <li><strong>Monologue suivi / Exposé (B2/C1):</strong> 10-minute presentation analyzing an article followed by rigorous debate with examiners.</li>
+            <li><strong>DELF B1 — 15 min (10 min prep):</strong> entretien dirigé, exercice en interaction, expression d'un point de vue.</li>
+            <li><strong>DELF B2 — 20 min (30 min prep):</strong> monologue suivi à partir d'un document, puis exercice en interaction.</li>
+            <li><strong>DALF C1 — 30 min (1 h prep):</strong> exposé de 8–10 min sur un dossier, suivi d'un entretien de 15–20 min.</li>
+            <li><strong>DALF C2 — 1 h (1 h prep):</strong> écoute d'un document audio, exposé de 15 min (5 min de compte rendu + 10 min d'argumentation), puis débat de 10 min.</li>
           </ul>
         </div>
         <div class="exam-part-box">
-          <h4>✍️ Production Écrite <span class="timing">45–90 min</span></h4>
+          <h4>✍️ Production écrite <span class="timing">45 min – 3 h 30</span></h4>
           <ul>
-            <li><strong>B1/B2:</strong> Formal letter of complaint, essay arguing a societal problem (250 words)</li>
-            <li><strong>C1:</strong> Synthesis of multiple technical documents (220 words) + persuasive argumentative essay (250 words)</li>
-            <li><strong>Key Demands:</strong> Mastery of French subjunctive, logical connectors (<em>cependant, en revanche, d'autant plus que</em>).</li>
+            <li><strong>DELF B1 — 45 min, 160–180 words:</strong> message court puis article ou essai argumentatif.</li>
+            <li><strong>DELF B2 — 60 min, 250 words:</strong> lettre formelle, article ou essai argumenté.</li>
+            <li><strong>DALF C1 — 2 h 30:</strong> synthèse de 220 words + essai argumenté de 250 words.</li>
+            <li><strong>DALF C2 — 3 h 30, 700 words minimum:</strong> texte structuré à partir d'un dossier d'environ 2 000 words.</li>
+            <li><strong>Depuis janvier 2026:</strong> le dossier C2 ne contient plus de documents iconographiques, uniquement des textes informatifs ou argumentatifs.</li>
           </ul>
         </div>
         <div class="exam-part-box">
-          <h4>🎧 Compréhension Orale <span class="timing">25–40 min</span></h4>
+          <h4>🎧 Compréhension orale <span class="timing">25–40 min</span></h4>
           <ul>
-            <li>Radio broadcasts (France Inter, RFI), press conferences, public interviews</li>
-            <li>Multiple choice and short response questions</li>
-            <li>Technique: Handling authentic French contractions, rapid colloquial tempo, and nuanced registers.</li>
+            <li><strong>DELF B1:</strong> 25 min · <strong>DELF B2:</strong> 30 min</li>
+            <li><strong>DALF C1:</strong> 40 min · <strong>DALF C2:</strong> 30 min</li>
+            <li>Radio broadcasts (France Inter, RFI), interviews, conferences and debates; multiple choice, short answer and note-taking tasks.</li>
+            <li>Technique: handling authentic contractions, rapid colloquial tempo and shifts of register.</li>
           </ul>
         </div>
         <div class="exam-part-box">
-          <h4>📖 Compréhension Écrite <span class="timing">35–60 min</span></h4>
+          <h4>📖 Compréhension écrite <span class="timing">45 min – 3 h 30</span></h4>
           <ul>
-            <li>Articles from <em>Le Monde</em>, <em>Courrier International</em>, administrative texts</li>
-            <li>Extracting implicit ideological stances and identifying tone/satire.</li>
+            <li><strong>DELF B1:</strong> 45 min · <strong>DELF B2:</strong> 1 h</li>
+            <li><strong>DALF C1:</strong> 50 min · <strong>DALF C2:</strong> 3 h 30 (lecture du dossier + production écrite)</li>
+            <li>Articles from <em>Le Monde</em>, <em>Courrier International</em>, literary and administrative texts.</li>
+            <li>Extracting implicit stances, identifying tone and satire, and linking ideas across documents.</li>
           </ul>
         </div>
       </div>
+
+      <p style="color: var(--ink-soft); font-size: 0.9rem; margin: 1rem 0 0;"><strong>TCF:</strong> compulsory listening, reading and language-structure tests, with optional speaking and writing. Preparation focuses on the same theme bank and on timed task practice.</p>
+      <p style="color: var(--ink-soft); font-size: 0.9rem; margin: 0.5rem 0 0;"><a href="#delf-dalf-themes" style="color: var(--course-accent); font-weight: 700;">See the DELF/DALF theme bank by level ↓</a> · <a href="https://cosylanguages.github.io/COSYpractice/" target="_blank" rel="noopener" style="color: var(--course-accent); font-weight: 700;">Practise a French speaking or writing prompt today →</a></p>
     </div>
 
     <!-- Italian -->
@@ -437,6 +588,20 @@
     </div>
   </section>
 
+  <!-- DELF / DALF themes -->
+  <section class="course-section" id="delf-dalf-themes">
+    <h2>📚 DELF &amp; DALF Theme Bank by Level</h2>
+    <p style="color: var(--ink-soft); line-height: 1.6;">The themes below are the ones that recur in DELF B1, DELF B2, DALF C1 and DALF C2 preparation manuals and past sessions. Each level is grouped by category, and every category is practised by a speaking card and a writing card in the COSYpractice daily bank.</p>
+    <div data-exam-themes="fr">
+      <p class="exam-theme-error">Loading the theme bank… If it does not appear, open the <a href="https://cosylanguages.github.io/COSYpractice/data/exam/fr/delf-dalf-themes.json" target="_blank" rel="noopener">source catalogue</a> or <a href="https://cosylanguages.github.io/COSYpractice/" target="_blank" rel="noopener">practise a French prompt</a>.</p>
+    </div>
+    <noscript>
+      <p class="exam-theme-error">The interactive theme bank needs JavaScript. The catalogue is also available as <a href="https://cosylanguages.github.io/COSYpractice/data/exam/fr/delf-dalf-themes.json">JSON</a>.</p>
+    </noscript>
+    <p style="color: var(--ink-soft); font-size: 0.9rem; margin-top: 1rem;">Sources: themes supplied for DELF B1, DELF B2, DALF C1 and DALF C2, cross-checked with the official France Éducation international task formats. Last updated 22 November 2026.</p>
+  </section>
+
+
   <!-- Demands & Capabilities -->
   <section class="course-section">
     <h2>⚡ Demands, Rigor &amp; Test-Taking Capabilities Built</h2>
@@ -538,5 +703,6 @@
 <script src="../js/core/engine.js" defer></script>
 <script src="../js/core/i18n.js" defer></script>
 <script src="../js/core/ui.js" defer></script>
+<script src="../js/exam-themes.js" defer></script>
 </body>
 </html>
