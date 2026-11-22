@@ -51,6 +51,46 @@
         return '<p class="exam-theme-parts"><strong>' + label + '</strong> ' + items.join(' · ') + '</p>';
     }
 
+    function list(items, className) {
+        if (!Array.isArray(items) || !items.length) return '';
+        return '<ul' + (className ? ' class="' + className + '"' : '') + '>' + items.map(function (item) {
+            return '<li>' + escapeHtml(item) + '</li>';
+        }).join('') + '</ul>';
+    }
+
+    function renderExample(example) {
+        var parts = ['<li class="exam-theme-example">'];
+        parts.push('<strong>' + escapeHtml(example.title || 'Exemple') + '</strong>');
+        if (example.type) parts.push(' <span class="exam-theme-example-type">' + escapeHtml(example.type) + '</span>');
+        if (example.task) parts.push('<p>' + escapeHtml(example.task) + '</p>');
+        if (example.source) parts.push('<p class="exam-theme-source">Source : ' + escapeHtml(example.source) + '</p>');
+        if (Array.isArray(example.documents) && example.documents.length) {
+            parts.push('<p class="exam-theme-subhead">Documents</p>' + list(example.documents));
+        }
+        if (Array.isArray(example.questions) && example.questions.length) {
+            parts.push('<p class="exam-theme-subhead">Questions</p>' + list(example.questions));
+        }
+        if (Array.isArray(example.topics) && example.topics.length) {
+            parts.push('<p class="exam-theme-subhead">Sujets possibles</p>' + list(example.topics));
+        }
+        parts.push('</li>');
+        return parts.join('');
+    }
+
+    function renderMethod(method, label) {
+        if (!method) return '';
+        return '<section class="exam-theme-method"><h4>' + escapeHtml(label) + '</h4>' +
+            (method.errors && method.errors.length ? '<p class="exam-theme-subhead">Erreurs à éviter</p>' + list(method.errors) : '') +
+            (method.tips && method.tips.length ? '<p class="exam-theme-subhead">Conseils</p>' + list(method.tips) : '') +
+            '</section>';
+    }
+
+    function renderExamples(examples, label) {
+        if (!Array.isArray(examples) || !examples.length) return '';
+        return '<h4 class="exam-theme-subhead">' + escapeHtml(label) + '</h4>' +
+            '<ul class="exam-theme-examples">' + examples.map(renderExample).join('') + '</ul>';
+    }
+
     function renderLevel(level, data) {
         var oral = data.speaking || {};
         var written = data.writing || {};
@@ -68,14 +108,29 @@
                 '</details>';
         }).join('');
 
+        var method = (oral.method || written.method || (data.reading && data.reading.method)) ?
+            '<details class="exam-theme-extra">' +
+                '<summary>Méthode et exemples de sujets</summary>' +
+                '<div class="exam-theme-method-grid">' +
+                    renderMethod(oral.method, 'Méthode · oral') +
+                    renderMethod(written.method, 'Méthode · écrit') +
+                    renderMethod(data.reading && data.reading.method, 'Méthode · lecture') +
+                '</div>' +
+                renderExamples(oral.examples, 'Exemples de sujets · oral') +
+                renderExamples(written.examples, 'Exemples de sujets · écrit') +
+                renderExamples(data.reading && data.reading.examples, 'Exemples de lecture') +
+            '</details>' : '';
+
         return '<div class="exam-theme-level" data-level="' + escapeHtml(level) + '">' +
             '<h3>' + escapeHtml(data.exam || level) + ' · ' + escapeHtml(level) + '</h3>' +
             '<div class="exam-theme-meta">' + chips.map(function (chip) {
                 return '<span class="exam-theme-chip">' + escapeHtml(chip) + '</span>';
             }).join('') + '</div>' +
+            list(data.formatNotes, 'exam-theme-format') +
             partsLine(oral.parts, 'Oral :') +
             partsLine(written.parts, 'Écrit :') +
             '<div class="exam-theme-grid">' + categories + '</div>' +
+            method +
             '</div>';
     }
 

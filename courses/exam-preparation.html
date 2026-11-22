@@ -188,6 +188,67 @@
         margin: 0 0 1rem;
         line-height: 1.55;
       }
+      .exam-theme-format {
+        margin: 0 0 0.9rem;
+        padding-left: 1.1rem;
+        color: var(--ink-soft);
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+      .exam-theme-format li { margin-bottom: 0.2rem; }
+      .exam-theme-extra {
+        margin-top: 1.25rem;
+        border-top: 1px solid var(--border, #E2DCD5);
+        padding-top: 1rem;
+      }
+      .exam-theme-extra > summary {
+        cursor: pointer;
+        font-weight: 800;
+        color: var(--course-accent);
+        font-size: 1rem;
+      }
+      .exam-theme-method-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .exam-theme-method {
+        background: #fff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 10px;
+        padding: 1rem;
+      }
+      .exam-theme-method h4 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--ink); }
+      .exam-theme-subhead { margin: 0.7rem 0 0.2rem; font-weight: 700; font-size: 0.85rem; color: var(--ink); }
+      .exam-theme-method ul, .exam-theme-examples ul {
+        margin: 0 0 0.4rem;
+        padding-left: 1.1rem;
+        color: var(--ink-soft);
+        font-size: 0.86rem;
+        line-height: 1.45;
+      }
+      .exam-theme-examples { margin: 0.4rem 0 1rem; padding-left: 0; list-style: none; }
+      .exam-theme-example {
+        background: #fff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: 10px;
+        padding: 0.9rem 1rem;
+        margin-bottom: 0.75rem;
+      }
+      .exam-theme-example > strong { color: var(--ink); }
+      .exam-theme-example p { margin: 0.35rem 0; color: var(--ink-soft); font-size: 0.88rem; line-height: 1.5; }
+      .exam-theme-example-type {
+        display: inline-block;
+        margin-left: 0.35rem;
+        padding: 0.05rem 0.5rem;
+        border-radius: 999px;
+        background: var(--course-accent-light);
+        color: var(--course-accent);
+        font-size: 0.72rem;
+        font-weight: 700;
+      }
+      .exam-theme-source { font-style: italic; }
       .exam-theme-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -370,16 +431,17 @@
             <li><strong>DELF B1 — 15 min (10 min prep):</strong> entretien dirigé, exercice en interaction, expression d'un point de vue.</li>
             <li><strong>DELF B2 — 20 min (30 min prep):</strong> monologue suivi à partir d'un document, puis exercice en interaction.</li>
             <li><strong>DALF C1 — 30 min (1 h prep):</strong> exposé de 8–10 min sur un dossier, suivi d'un entretien de 15–20 min.</li>
-            <li><strong>DALF C2 — 1 h (1 h prep):</strong> compte rendu d'un document audio, puis développement argumenté et entretien.</li>
+            <li><strong>DALF C2 — 1 h (1 h prep):</strong> écoute d'un document audio, exposé de 15 min (5 min de compte rendu + 10 min d'argumentation), puis débat de 10 min.</li>
           </ul>
         </div>
         <div class="exam-part-box">
-          <h4>✍️ Production écrite <span class="timing">45 min – 3 h</span></h4>
+          <h4>✍️ Production écrite <span class="timing">45 min – 3 h 30</span></h4>
           <ul>
             <li><strong>DELF B1 — 45 min, 160–180 words:</strong> message court puis article ou essai argumentatif.</li>
             <li><strong>DELF B2 — 60 min, 250 words:</strong> lettre formelle, article ou essai argumenté.</li>
             <li><strong>DALF C1 — 2 h 30:</strong> synthèse de 220 words + essai argumenté de 250 words.</li>
-            <li><strong>DALF C2 — 3 h:</strong> compte rendu critique de 250 words + texte argumenté de 300 words.</li>
+            <li><strong>DALF C2 — 3 h 30, 700 words minimum:</strong> texte structuré à partir d'un dossier d'environ 2 000 words.</li>
+            <li><strong>Depuis janvier 2026:</strong> le dossier C2 ne contient plus de documents iconographiques, uniquement des textes informatifs ou argumentatifs.</li>
           </ul>
         </div>
         <div class="exam-part-box">
@@ -392,10 +454,10 @@
           </ul>
         </div>
         <div class="exam-part-box">
-          <h4>📖 Compréhension écrite <span class="timing">45 min – 1 h</span></h4>
+          <h4>📖 Compréhension écrite <span class="timing">45 min – 3 h 30</span></h4>
           <ul>
             <li><strong>DELF B1:</strong> 45 min · <strong>DELF B2:</strong> 1 h</li>
-            <li><strong>DALF C1:</strong> 50 min · <strong>DALF C2:</strong> 1 h</li>
+            <li><strong>DALF C1:</strong> 50 min · <strong>DALF C2:</strong> 3 h 30 (lecture du dossier + production écrite)</li>
             <li>Articles from <em>Le Monde</em>, <em>Courrier International</em>, literary and administrative texts.</li>
             <li>Extracting implicit stances, identifying tone and satire, and linking ideas across documents.</li>
           </ul>
