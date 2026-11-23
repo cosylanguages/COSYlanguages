@@ -148,6 +148,10 @@
        --cosy-on-brand is the foreground for any brand fill.
        --cosy-ink-* is the same hue as a text-safe ink (lightened for dark). */
     --cosy-on-brand:                     #ffffff;
+    /* Brand *fills* stay dark in every theme so white text keeps its contrast;
+       --cosy-color-sage-dark is an ink colour and flips to a light tint in dark mode. */
+    --cosy-fill-sage:                    #375742;
+    --cosy-fill-sage-hover:              #2E4A33;
     --cosy-on-sage-dark:                 #ffffff;
     --cosy-ink-sage:                     #416B49;
     --cosy-ink-teal:                     var(--cosy-ink-sage);
@@ -294,6 +298,9 @@
     --btn-weight:                        var(--cosy-font-weight-extrabold);
 
     /* Primary Filled Button */
+    --cosy-fill-sage:                    #3C5A42;
+    --cosy-fill-sage-hover:              #47694E;
+
     --btn-primary-bg:                    var(--cosy-color-sage-dark);
     --btn-primary-color:                 var(--cosy-on-sage-dark);
     --btn-primary-hover-bg:              var(--cosy-color-sage-deep);
@@ -503,6 +510,9 @@ html[data-theme="dark"], body.theme-dark { color-scheme: dark; }
 
         --cosy-shadow-raised:                0 4px 12px rgba(0, 0, 0, 0.40), 0 2px 0 rgba(0, 0, 0, 0.60);
         --cosy-shadow-pressed:               0 1px 4px rgba(0, 0, 0, 0.30), 0 0 0 rgba(0, 0, 0, 0);
+
+        --cosy-fill-sage:                    #3C5A42;
+        --cosy-fill-sage-hover:              #47694E;
 
         --btn-primary-bg:                    var(--cosy-color-sage-dark);
         --btn-primary-color:                 var(--cosy-on-sage-dark);

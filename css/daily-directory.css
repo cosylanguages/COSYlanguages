@@ -110,12 +110,12 @@
     font-weight: 700;
     text-decoration: none;
     color: var(--cosy-on-brand);
-    background: var(--cosy-color-sage-dark, #234027);
+    background: var(--cosy-fill-sage, #375742);
     transition: background-color var(--cosy-transition-fast, 0.15s ease);
 }
 
 .daily-directory-link:hover {
-    background: var(--cosy-color-sage, #416B49);
+    background: var(--cosy-fill-sage-hover, #2E4A33);
 }
 
 .daily-directory-badge {
