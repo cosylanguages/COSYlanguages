@@ -32,6 +32,7 @@
     <style>
       :root {
         --course-accent: #1e3a60;
+        --course-accent-ink: var(--cosy-ink-navy);
         --course-accent-light: rgba(30, 58, 96, 0.08);
       }
       .course-detail-wrap {
@@ -45,14 +46,14 @@
         margin-bottom: 1.5rem;
       }
       .course-breadcrumb a {
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         text-decoration: none;
       }
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
       .course-section {
-        background: #ffffff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: var(--card-radius);
         padding: 2.25rem 2rem;
@@ -86,7 +87,7 @@
         font-family: var(--font-serif);
         font-size: 1.4rem;
         font-weight: 700;
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
       }
       .prof-track-badge {
         font-size: 0.8rem;
@@ -95,7 +96,7 @@
         padding: 0.25rem 0.65rem;
         border-radius: 999px;
         background: var(--course-accent-light);
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
       }
       .student-portal-box {
         background: #f1f4f8;
@@ -106,7 +107,7 @@
         margin-bottom: 2.5rem;
       }
       .student-portal-box a {
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-weight: 700;
         text-decoration: none;
       }
@@ -121,7 +122,7 @@
         border-top: 1px solid var(--border, #E2DCD5);
       }
       .course-nav-links a {
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-weight: 600;
         text-decoration: none;
       }
@@ -132,7 +133,7 @@
 </head>
 <body>
 
-<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
 
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
@@ -162,7 +163,7 @@
     </div>
 
     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20discuss%20a%20Professional%20Language%20Course." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Discuss Your Industry on WhatsApp</a>
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20discuss%20a%20Professional%20Language%20Course." class="btn-accent" style="background: var(--course-accent); color: var(--cosy-on-brand); padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Discuss Your Industry on WhatsApp</a>
       <a href="../placement-quiz.html" class="btn-secondary">Check Baseline Level</a>
       <a href="../index.html#calculator" class="btn-secondary">Tuition Calculator</a>
     </div>

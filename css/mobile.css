@@ -3,16 +3,8 @@
    Apply to practice.html and events.html
    ═══════════════════════════════════════════ */
 
-/* ── Design tokens (match index.html) ── */
+/* ── Layout tokens ── */
 :root {
-  --sage:#6b8f71; --sage-dark:#4a6b50; --sage-deep:#2e4a33;
-  --sage-pale:#e8f0e9; --sage-mist:#f0f5f1;
-  --cream:#fdf8f0; --cream-dark:#f5ede0;
-  --honey:#e8a838; --honey-dark:#a06b10; --honey-pale:#fff8e7;
-  --ink:#2a2a2a; --muted:#6b6b6b; --border:rgba(74,107,80,.12);
-  --radius:18px; --radius-sm:10px;
-  --shadow-sm:0 2px 12px rgba(46,74,51,.07);
-  --shadow:0 6px 28px rgba(46,74,51,.10);
   /* safe area insets for iPhone notch/home bar */
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-top:    env(safe-area-inset-top, 0px);
@@ -82,7 +74,7 @@
     position: absolute;
     top: 6px; right: calc(50% - 18px);
     background: #e24b4a;
-    color: #fff;
+    color: var(--cosy-on-brand);
     font-size: 9px;
     font-weight: 900;
     min-width: 16px;
@@ -282,7 +274,7 @@
     height: 56px;
     border-radius: 999px;
     background: var(--sage);
-    color: #fff;
+    color: var(--cosy-on-brand);
     border: none;
     font-family:var(--font-sans);
     font-weight: 900;
@@ -303,7 +295,7 @@
     padding: 0 20px;
     border-radius: 999px;
     background: var(--honey);
-    color: #fff;
+    color: var(--cosy-on-brand);
     border: none;
     font-family:var(--font-sans);
     font-weight: 900;
@@ -376,8 +368,8 @@
   }
 
   .answer-btn-mobile:active { transform: scale(0.98); }
-  .answer-btn-mobile.correct { border-color: #1a6b45; background: #e5f4ec; color: #1a6b45; }
-  .answer-btn-mobile.incorrect { border-color: #a32d2d; background: #fcebeb; color: #a32d2d; }
+  .answer-btn-mobile.correct { border-color: #1a6b45; background: var(--cosy-color-green-light); color: var(--cosy-ink-sage); }
+  .answer-btn-mobile.incorrect { border-color: #a32d2d; background: var(--cosy-color-rose-light); color: var(--cosy-ink-rose); }
 
   /* Full-screen correct/incorrect flash */
   .answer-flash {
@@ -511,7 +503,7 @@
     height: 56px;
     border-radius: 999px;
     background: var(--sage);
-    color: #fff;
+    color: var(--cosy-on-brand);
     border: none;
     font-family:var(--font-sans);
     font-weight: 900;
@@ -651,7 +643,7 @@
     height: 56px;
     border-radius: 999px;
     background: var(--sage);
-    color: #fff;
+    color: var(--cosy-on-brand);
     border: none;
     font-family:var(--font-sans);
     font-weight: 900;
@@ -708,7 +700,7 @@
     text-align: center;
   }
 
-  .ah-timer.urgent { color: #a32d2d; }
+  .ah-timer.urgent { color: var(--cosy-ink-rose); }
 
   .ah-buttons {
     display: grid;
@@ -721,9 +713,9 @@
   .ah-btn-correct {
     height: 80px;
     border-radius: var(--radius);
-    background: #e5f4ec;
+    background: var(--cosy-color-green-light);
     border: 2px solid #1a6b45;
-    color: #1a6b45;
+    color: var(--cosy-ink-sage);
     font-family:var(--font-sans);
     font-weight: 900;
     font-size: 18px;
@@ -731,14 +723,14 @@
     -webkit-tap-highlight-color: transparent;
     transition: transform .12s;
   }
-  .ah-btn-correct:active { transform: scale(0.94); background: #1a6b45; color: #fff; }
+  .ah-btn-correct:active { transform: scale(0.94); background: #1a6b45; color: var(--cosy-on-brand); }
 
   .ah-btn-incorrect {
     height: 80px;
     border-radius: var(--radius);
-    background: #fcebeb;
+    background: var(--cosy-color-rose-light);
     border: 2px solid #a32d2d;
-    color: #a32d2d;
+    color: var(--cosy-ink-rose);
     font-family:var(--font-sans);
     font-weight: 900;
     font-size: 18px;
@@ -746,7 +738,7 @@
     -webkit-tap-highlight-color: transparent;
     transition: transform .12s;
   }
-  .ah-btn-incorrect:active { transform: scale(0.94); background: #a32d2d; color: #fff; }
+  .ah-btn-incorrect:active { transform: scale(0.94); background: #a32d2d; color: var(--cosy-on-brand); }
 
   /* Fluency Flow — large spin button */
   .fluency-flow-mobile {
@@ -799,7 +791,7 @@
     height: 140px;
     border-radius: 50%;
     background: var(--sage);
-    color: #fff;
+    color: var(--cosy-on-brand);
     border: none;
     font-family:var(--font-sans);
     font-weight: 900;
@@ -979,7 +971,7 @@ body.embedded-mode main {
   left: 2px;
   font-size: 10px;
   font-weight: 900;
-  color: var(--sage);
+  color: var(--cosy-ink-sage);
   line-height: 1;
   pointer-events: none;
 }
@@ -1026,18 +1018,6 @@ body.embedded-mode main {
 }
 .cw-cell.active-cell {
   background: #ffeb3b;
-}
-
-html[data-theme="dark"], body.theme-dark {
-  --cream: #1a1f1a;
-  --cream-dark: #141914;
-  --sage-pale: #1e2b1f;
-  --sage-mist: #1a241b;
-  --honey-pale: #2a2010;
-  --ink: #e8f0e9;
-  --ink-soft: #c8d8c9;
-  --muted: #8a9e8b;
-  --border: rgba(107,143,113,.2);
 }
 
 html[data-theme="dark"] body, body.theme-dark {

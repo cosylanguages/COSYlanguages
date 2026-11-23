@@ -350,7 +350,7 @@ html[data-audience="seniors"] .btn-secondary {
 html[data-audience="seniors"] p,
 html[data-audience="seniors"] .hero-sub,
 html[data-audience="seniors"] .sec-p {
-    color: #222222 !important;
+    color: var(--cosy-color-ink) !important;
 }
 
 

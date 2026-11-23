@@ -216,17 +216,17 @@ function initMarathonProgress() {
     if (header && !header.querySelector(".lesson-check")) {
       const checkBtn = document.createElement("button");
       checkBtn.className = "lesson-check";
-      checkBtn.style.cssText = "float:right; background:rgba(255,255,255,0.2); border:1px solid #fff; color:#fff; padding:0.2rem 0.6rem; border-radius:4px; font-size:0.8rem; cursor:pointer; font-weight:700;";
+      checkBtn.style.cssText = "float:right; background:rgba(0,0,0,0.35); border:1px solid rgba(255,255,255,0.65); color:#fff; padding:0.2rem 0.6rem; border-radius:4px; font-size:0.8rem; cursor:pointer; font-weight:700;";
 
       const isSeen = pageSeen.includes(lessonId);
       checkBtn.textContent = isSeen ? "✓ Lu" : "+ Marquer lu";
-      if (isSeen) checkBtn.style.background = "#ffffff", checkBtn.style.color = "#1b4332";
+      if (isSeen) checkBtn.style.background = "#ffffff", checkBtn.style.color = "#1B4332";
 
       checkBtn.addEventListener("click", () => {
         if (pageSeen.includes(lessonId)) {
           pageSeen = pageSeen.filter(id => id !== lessonId);
           checkBtn.textContent = "+ Marquer lu";
-          checkBtn.style.background = "rgba(255,255,255,0.2)";
+          checkBtn.style.background = "rgba(0,0,0,0.35)";
           checkBtn.style.color = "#ffffff";
         } else {
           pageSeen.push(lessonId);

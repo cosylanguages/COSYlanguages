@@ -181,7 +181,7 @@ body.theme-dark.page-home {
   gap: 0.75rem 1rem;
   margin: 0 0 1.75rem;
 }
-.page-home .hero .btn-primary { background: var(--sage); color: #fff; border: 0; }
+.page-home .hero .btn-primary { background: var(--sage); color: var(--cosy-on-brand); border: 0; }
 .page-home .hero .btn-primary:hover { background: var(--sage-dark); }
 .page-home .hero .btn-secondary {
   background: transparent;
@@ -322,7 +322,7 @@ html[data-theme="dark"] .page-home .hero-inner .daily-strip-container {
   display: block; text-align: left;
   width: auto; height: auto;
   background: none; border-radius: 0;
-  color: var(--sage);
+  color: var(--cosy-ink-sage);
   font-family: var(--font-serif);
   font-size: 2.6rem;
   font-weight: 500;
@@ -364,11 +364,11 @@ html[data-theme="dark"] .page-home .hero-inner .daily-strip-container {
 .page-home .lang-tab-btn .lt-level { font-size: 0.8rem; font-weight: 500; color: var(--ink-muted); }
 .page-home .lang-tab-btn:hover { border-color: var(--sage); background: var(--paper); }
 .page-home .lang-tab-btn.active {
-  background: var(--sage);
-  border-color: var(--sage);
-  color: #fff;
+  background: var(--cosy-color-sage-dark);
+  border-color: var(--cosy-color-sage-dark);
+  color: var(--cosy-on-sage-dark);
 }
-.page-home .lang-tab-btn.active .lt-level { color: rgba(255,255,255,.82); }
+.page-home .lang-tab-btn.active .lt-level { color: inherit; opacity: .82; }
 
 .page-home .lang-hub-banner {
   display: flex;
@@ -529,7 +529,7 @@ html[data-theme="dark"] .page-home .course-row-professional { --track: #7C8FD6; 
   color: var(--ink);
   cursor: pointer;
 }
-.page-home .calc-summary-action { color: var(--sage); font-weight: 600; }
+.page-home .calc-summary-action { color: var(--cosy-ink-sage); font-weight: 600; }
 .page-home .calc-card-embedded { border-top: 1px solid var(--border); background: transparent; box-shadow: none; }
 
 /* ── Reviews ──────────────────────────────────────────────────── */
@@ -569,7 +569,7 @@ html[data-theme="dark"] .page-home .course-row-professional { --track: #7C8FD6; 
   border: 1.5px solid var(--border-hover, rgba(74,107,80,.3));
   box-shadow: none;
 }
-.page-home .reviews-nav-btn:hover { background: var(--sage); color: #fff; border-color: var(--sage); }
+.page-home .reviews-nav-btn:hover { background: var(--sage); color: var(--cosy-on-brand); border-color: var(--sage); }
 
 /* ── Final call: the only dark moment ─────────────────────────── */
 .page-home #start {
@@ -639,7 +639,7 @@ html[data-theme="dark"] .page-home .course-row-professional { --track: #7C8FD6; 
 .course-card.dark .cc-title, .courses-grid .cc-title { color: inherit !important; font-family: var(--cosy-font-serif); }
 .course-card.dark .cc-desc, .courses-grid .cc-desc { color: var(--ink-muted, #5a5a50) !important; }
 .courses-grid.summary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
-.btn-card-on-dark { background: var(--cosy-color-primary, #3f6b4b) !important; color: #fff !important; border-radius: 999px; }
+.btn-card-on-dark { background: var(--cosy-color-primary, #3f6b4b) !important; color: var(--cosy-on-brand) !important; border-radius: 999px; }
 html[data-theme="dark"] .course-card.dark, html[data-theme="dark"] .courses-grid .course-card {
   background: #1f2a23 !important; color: #f1ecdf !important; border-color: rgba(255,255,255,.12) !important;
 }
@@ -658,7 +658,7 @@ html[data-theme="dark"] .sd-breadcrumbs a,
 html[data-theme="dark"] .sd-jump-link{color:#b9d4bf !important}
 html[data-theme="dark"] .sd-breadcrumbs .current{color:#eef4ef !important}
 html[data-theme="dark"] .sd-breadcrumbs .sep{color:#6b7f70 !important}
-html[data-theme="dark"] .sd-jump-link:hover,html[data-theme="dark"] .sd-jump-link:focus-visible{background:rgba(159,211,170,.16);color:#fff !important}
+html[data-theme="dark"] .sd-jump-link:hover,html[data-theme="dark"] .sd-jump-link:focus-visible{background:rgba(159,211,170,.16);color:var(--cosy-on-brand) !important}
 
 /* Dark mode: tokens that pages reference with light fallbacks (so cards no longer stay cream under light text) */
 html[data-theme="dark"], body.theme-dark {
@@ -668,7 +668,7 @@ html[data-theme="dark"], body.theme-dark {
   --card-bg: #222B22;
 }
 html[data-theme="dark"] .hero-jump-menu a { background: #222B22; color: #cfe3d2; border-color: rgba(255,255,255,.14); }
-html[data-theme="dark"] .hero-jump-menu a:hover { background: #2c3a2e; color: #fff; }
+html[data-theme="dark"] .hero-jump-menu a:hover { background: #2c3a2e; color: var(--cosy-on-brand); }
 
 /* Dark mode: page-level "paper" boxes that were hard-coded white/pastel while their text turns light */
 html[data-theme="dark"] .mp-section,
@@ -719,12 +719,11 @@ html[data-theme="dark"] body:not(.page-home) header.hero:not([data-flag]) {
 }
 html[data-theme="dark"] .hero-tag, html[data-theme="dark"] .sb-label, html[data-theme="dark"] .tool-free-label { color: #d6e8d9 !important; }
 /* The hybrid hero badge always sits on a dark gradient, so its text must be light in both themes */
-.speak-badge[style*="gradient"] .sb-title { color: #ffffff !important; }
+.speak-badge[style*="gradient"] .sb-title { color: var(--cosy-on-brand) !important; }
 .speak-badge[style*="gradient"] .sb-desc { color: rgba(255,255,255,.82) !important; }
 .speak-badge[style*="gradient"] .sb-label { color: #f2c76a !important; }
 /* Small contrast lifts */
-.footer-bottom { color: #5b6b5e; }
-html[data-theme="dark"] .footer-bottom { color: #a9b8ab; }
+.footer-bottom { color: inherit; opacity: .8; }
 html[data-theme="dark"] .about-breadcrumb a, html[data-theme="dark"] .breadcrumb a, html[data-theme="dark"] .course-breadcrumb a { color: #9fd3aa; }
 html[data-theme="dark"] .about-section h3, html[data-theme="dark"] .value-card h3, html[data-theme="dark"] .contact-card h3 { color: #b6dcbe; }
 html[data-theme="dark"] .zine-guidelines-title, html[data-theme="dark"] .zine-issue-card h4 { color: #eef4ef; }

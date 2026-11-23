@@ -27,7 +27,7 @@
   flex-direction: column;
   gap: 0.25rem;
   max-width: 540px;
-  color: #ffffff;
+  color: var(--cosy-on-brand);
 }
 
 .hrs-stars {
@@ -51,10 +51,10 @@
 }
 
 .hrs-link:hover {
-  color: #ffffff;
+  color: var(--cosy-on-brand);
 }
 
-.sb-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); margin-bottom: var(--space-sm); display: block; }
+.sb-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--cosy-ink-gold); margin-bottom: var(--space-sm); display: block; }
 .sb-title { font-size: 1.4rem; font-weight: 600; line-height: 1.3; margin-bottom: 10px; color: var(--ink); }
 .sb-desc { font-size: .95rem; color: var(--ink-muted); line-height: 1.6; }
 
@@ -68,7 +68,7 @@
   word-break: break-word;
   overflow-wrap: break-word;
 }
-.hs-lbl { font-size: .75rem; color: #ffffff; font-weight: 700; text-transform: uppercase; }
+.hs-lbl { font-size: .75rem; color: var(--cosy-on-brand); font-weight: 700; text-transform: uppercase; }
 
 /* ── Reusable Section Pattern & Organic Flow Enhancements ────────────────── */
 .home-section {
@@ -116,7 +116,7 @@
 
 #start {
   background: linear-gradient(135deg, var(--cosy-color-sage-deep, #233827) 0%, var(--cosy-color-sage-dark, #375742) 100%);
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -126,7 +126,7 @@
 }
 
 #start .sec-h2 {
-  color: #ffffff;
+  color: var(--cosy-on-brand);
 }
 
 #start .sec-p {
@@ -308,9 +308,9 @@
 }
 
 .lang-tab-btn.active {
-  background: var(--sage-deep, #233827);
-  color: #ffffff;
-  border-color: var(--sage-deep, #233827);
+  background: var(--cosy-color-sage-dark, #375742);
+  color: var(--cosy-on-sage-dark, #ffffff);
+  border-color: var(--cosy-color-sage-dark, #375742);
   box-shadow: 0 4px 12px rgba(35, 56, 39, 0.25);
 }
 
@@ -330,7 +330,7 @@
 
 .lang-tab-btn.active .lt-level {
   background: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+  color: var(--cosy-on-brand);
 }
 
 .lang-hub-banner {
@@ -381,7 +381,7 @@
 }
 
 .lhb-cta:hover {
-  color: var(--sage, #416b49);
+  color: var(--cosy-ink-sage, #416b49);
 }
 
 /* ── Course Card Specifics ─────────────────────────── */
@@ -395,25 +395,25 @@
 .cc-icon { font-size: 2.2rem; margin-bottom: var(--space-lg); }
 .btn-card-on-dark {
   border-color: rgba(255, 255, 255, 0.6) !important;
-  color: #ffffff !important;
+  color: var(--cosy-on-brand) !important;
 }
 .btn-card-on-dark:hover {
   background: rgba(255, 255, 255, 0.2) !important;
-  color: #ffffff !important;
+  color: var(--cosy-on-brand) !important;
   border-color: #ffffff !important;
 }
 .cc-title { font-size: 1.55rem; font-weight: 600; margin-bottom: var(--space-sm); line-height: 1.2; }
-.cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: var(--space-md); color: var(--coral); }
+.cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: var(--space-md); color: var(--cosy-ink-coral); }
 .cc-desc { font-size: .94rem; line-height: 1.6; margin-bottom: var(--space-xl); opacity: .8; flex-grow: 1; min-height: 80px; }
 .cc-footer { font-size: .78rem; font-weight: 600; opacity: .5; margin-bottom: var(--space-lg); display: flex; flex-direction: column; gap: 4px; color: inherit; }
 
-.group-note { background: #fff8e7; border: 1px solid rgba(232,168,56,.2); border-radius: var(--r-lg); padding: var(--space-lg) var(--space-xl); display: flex; align-items: center; gap: var(--space-lg); margin-top: var(--space-lg); }
-.group-note p { font-size: .92rem; color: var(--navy); line-height: 1.6; }
-.group-note a { color: var(--navy); font-weight: 700; text-decoration: underline; }
+.group-note { background: var(--cosy-color-honey-pale); border: 1px solid rgba(232,168,56,.2); border-radius: var(--r-lg); padding: var(--space-lg) var(--space-xl); display: flex; align-items: center; gap: var(--space-lg); margin-top: var(--space-lg); }
+.group-note p { font-size: .92rem; color: var(--cosy-ink-navy); line-height: 1.6; }
+.group-note a { color: var(--cosy-ink-navy); font-weight: 700; text-decoration: underline; }
 
 /* ── Language Card Specifics ────────────────────────── */
 .lang-name { font-size: 1.05rem; font-weight: 600; margin-bottom: .2rem; }
-.lang-resource-teaser { font-size: .7rem; font-weight: 700; color: var(--teal); margin-top: .8rem; text-transform: uppercase; }
+.lang-resource-teaser { font-size: .7rem; font-weight: 700; color: var(--cosy-ink-teal); margin-top: .8rem; text-transform: uppercase; }
 
 .ls-name { font-size: .8rem; font-weight: 600; color: var(--ink-muted); }
 .lead-capture { margin-top: .8rem; display: flex; gap: 4px; }
@@ -515,15 +515,15 @@
 .er-icon { font-size: 2.5rem; }
 .er-body h4 { font-size: 1.15rem; margin-bottom: .4rem; }
 .er-body p { font-size: .92rem; color: var(--ink-soft); line-height: 1.6; }
-.er-link { background: var(--gold); color: #fff; font-weight: 700; padding: 10px 24px; border-radius: 100px; font-size: .88rem; }
+.er-link { background: var(--gold); color: var(--cosy-on-brand); font-weight: 700; padding: 10px 24px; border-radius: 100px; font-size: .88rem; }
 
 /* ── Calculator Specifics ───────────────────────────── */
 .calc-field label { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin-bottom: .6rem; }
 
 .calc-result { background: var(--teal-light); border: 2px solid var(--teal); border-radius: var(--r-lg); padding: 2rem 2.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem; }
-.cr-price { font-size: 3.2rem; font-weight: 600; color: var(--teal); line-height: 1; }
+.cr-price { font-size: 3.2rem; font-weight: 600; color: var(--cosy-ink-teal); line-height: 1; }
 .cr-detail { font-size: 1.1rem; font-weight: 600; color: var(--ink-muted); margin-top: .2rem; }
-.cr-note { font-size: .8rem; font-weight: 700; color: var(--teal); margin-top: .4rem; text-transform: uppercase; }
+.cr-note { font-size: .8rem; font-weight: 700; color: var(--cosy-ink-teal); margin-top: .4rem; text-transform: uppercase; }
 .original-price { text-decoration: line-through; opacity: .4; font-size: 1.5rem; margin-right: 12px; vertical-align: middle; color: var(--ink); }
 .calc-note { text-align: center; margin-top: 1.5rem; font-size: .85rem; color: var(--ink-soft); }
 .calc-note a { text-decoration: underline; color: var(--sage-dark); font-weight: 700; transition: color 0.2s; }
@@ -591,7 +591,7 @@
   display: inline-block;
   font-size: 0.82rem;
   font-weight: 800;
-  color: var(--sage, #416b49);
+  color: var(--cosy-ink-sage, #416b49);
   background: rgba(65, 107, 73, 0.1);
   padding: 0.35rem 0.9rem;
   border-radius: 100px;
@@ -643,24 +643,24 @@
 .hero .btn-secondary {
   background: rgba(255, 255, 255, 0.15);
   border-color: #ffffff;
-  color: #ffffff;
+  color: var(--cosy-on-brand);
 }
 
 .hero .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.28);
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   border-color: #ffffff;
 }
 
 .hero .btn-soft {
   background: rgba(255, 255, 255, 0.22);
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   border-color: transparent;
 }
 
 .hero .btn-soft:hover {
   background: rgba(255, 255, 255, 0.35);
-  color: #ffffff;
+  color: var(--cosy-on-brand);
 }
 
 .btn-tertiary-link {
@@ -752,7 +752,7 @@
 
 .calc-summary-action {
   font-size: 0.88rem;
-  color: var(--sage);
+  color: var(--cosy-ink-sage);
   text-decoration: underline;
 }
 
@@ -825,7 +825,7 @@
 
 .review-card-inner {
   background: #082822; /* Dark cozy teal/green matching reference image */
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   border-radius: 24px;
   padding: 2.75rem 3rem 2.25rem;
   width: 100%;
@@ -880,7 +880,7 @@
 .review-slide-brand {
   font-size: 1.1rem;
   font-weight: 800;
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   letter-spacing: 0.02em;
 }
 
@@ -919,7 +919,7 @@
 
 .reviews-nav-btn:hover {
   transform: scale(1.2);
-  color: var(--sage, #416b49);
+  color: var(--cosy-ink-sage, #416b49);
 }
 
 .reviews-nav-btn:focus-visible {

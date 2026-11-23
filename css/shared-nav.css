@@ -42,7 +42,7 @@
 
 .cosy-strip-link:hover,
 .cosy-strip-link.active {
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   border-bottom: 2px solid #fcd34d;
   font-weight: 700;
 }
@@ -232,8 +232,8 @@ body.theme-dark .cosy-navbar {
 
 .cosy-nav-cta,
 #cosy-nav .nav-cta {
-  background: var(--sage, #416b49);
-  color: #ffffff;
+  background: var(--cosy-color-sage-dark, #375742);
+  color: var(--cosy-on-sage-dark, #ffffff);
   border-radius: 100px;
   font-size: 0.82rem;
   font-weight: 700;
@@ -247,7 +247,8 @@ body.theme-dark .cosy-navbar {
 }
 
 .cosy-nav-cta:hover {
-  background: var(--sage-dark, #375742);
+  background: var(--cosy-color-sage-deep, #233827);
+  color: var(--cosy-on-sage-dark, #ffffff);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(46, 74, 51, 0.18);
 }

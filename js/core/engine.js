@@ -823,6 +823,14 @@ const COSY = window.COSY = {
     getPrefix,
 
     initTheme() {
+        // Pages that must never repaint (print previews) pin themselves with
+        // <html data-theme-locked="light"> and are left alone.
+        const locked = document.documentElement.getAttribute('data-theme-locked');
+        if (locked) {
+            document.documentElement.setAttribute('data-theme', locked);
+            if (document.body) document.body.classList.remove('theme-dark');
+            return;
+        }
         // cosy-theme.js owns the choice (it runs before first paint); re-apply here
         // so pages that load the engine without the shared module still settle.
         let theme = null;

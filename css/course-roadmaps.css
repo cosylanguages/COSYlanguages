@@ -68,7 +68,7 @@
 
 /* ── Decision Compass Callout ── */
 .decision-compass-box {
-  background: #ffffff;
+  background: var(--cosy-color-surface);
   border: 1px solid var(--border, #E2DCD5);
   border-radius: var(--card-radius);
   box-shadow: var(--card-shadow-sm);
@@ -181,7 +181,7 @@
   border-radius: 50%;
   background: var(--warm-white);
   border: 3px solid var(--course-accent, #416B49);
-  color: var(--course-accent, #416B49);
+  color: var(--course-accent-ink, #416B49);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +201,7 @@
 }
 
 .timeline-card-content {
-  background: #ffffff;
+  background: var(--cosy-color-surface);
   border: 1px solid var(--border, #E2DCD5);
   border-radius: var(--card-radius);
   padding: 1.75rem;
@@ -229,7 +229,7 @@
   font-family: var(--font-serif);
   font-size: 1.35rem;
   font-weight: 700;
-  color: var(--course-accent, #416B49);
+  color: var(--course-accent-ink, #416B49);
 }
 
 .timeline-badge-pill {
@@ -240,7 +240,7 @@
   padding: 0.25rem 0.65rem;
   border-radius: 999px;
   background: var(--course-accent-light, rgba(65, 107, 73, 0.08));
-  color: var(--course-accent, #416B49);
+  color: var(--course-accent-ink, #416B49);
 }
 
 /* ── Interactive 4-Box Grid inside Cards ── */
@@ -288,7 +288,7 @@
 }
 
 .faq-card {
-  background: #ffffff;
+  background: var(--cosy-color-surface);
   border: 1px solid var(--border, #E2DCD5);
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
@@ -314,7 +314,7 @@
 .faq-card-title::before {
   content: "Q:";
   font-family: var(--font-sans);
-  color: var(--course-accent, #416B49);
+  color: var(--course-accent-ink, #416B49);
   font-weight: 900;
   font-size: 1rem;
 }

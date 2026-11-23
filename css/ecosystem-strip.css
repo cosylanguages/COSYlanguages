@@ -94,7 +94,7 @@
 
 .cosy-strip-link:hover,
 .cosy-strip-link:focus-visible {
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   border-bottom-color: var(--cosy-strip-accent);
   outline: none;
 }
@@ -102,7 +102,7 @@
 /* The visitor's current site: shown, but marked and not a link away from itself. */
 .cosy-strip-link.is-self,
 .cosy-strip-link.active {
-  color: #ffffff;
+  color: var(--cosy-on-brand);
   font-weight: 700;
   border-bottom-color: var(--cosy-strip-accent);
 }

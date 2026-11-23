@@ -109,7 +109,7 @@
     border-radius: 9px;
     font-weight: 700;
     text-decoration: none;
-    color: #fff;
+    color: var(--cosy-on-brand);
     background: var(--cosy-color-sage-dark, #234027);
     transition: background-color var(--cosy-transition-fast, 0.15s ease);
 }

@@ -17,21 +17,21 @@
   :root {
     --mp-primary: #1e5631;
     --mp-primary-light: #e8f5e9;
-    --mp-accent: #2e7d32;
+    --mp-accent: #2E6B33;
     --mp-gold: #d4af37;
     --mp-border: #c8e6c9;
   }
 
   body {
     font-family: 'Nunito', system-ui, -apple-system, sans-serif;
-    color: #2c3e50;
-    background-color: #fcfdfc;
+    color: var(--cosy-color-ink-soft);
+    background-color: var(--cosy-color-cream);
     line-height: 1.65;
   }
 
   .mp-hero {
     background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 50%, #40916c 100%);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 3.5rem 1.5rem 2.5rem;
     border-bottom: 4px solid #74c69d;
     text-align: center;
@@ -42,7 +42,7 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.75rem;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
   }
 
   .mp-hero p.subtitle {
@@ -64,7 +64,7 @@
     background: rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 0.35rem 0.85rem;
     border-radius: 50px;
     font-size: 0.88rem;
@@ -75,7 +75,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background: #ffffff;
+    background: var(--cosy-color-surface);
     border-bottom: 1px solid #e2e8f0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
@@ -91,19 +91,19 @@
   }
 
   .sd-jump-link {
-    color: #2d6a4f;
+    color: var(--cosy-ink-sage);
     text-decoration: none;
     font-weight: 700;
     font-size: 0.9rem;
     padding: 0.3rem 0.75rem;
     border-radius: 6px;
-    background: #f0fdf4;
+    background: var(--cosy-color-green-light);
     transition: background 0.2s, color 0.2s;
   }
 
   .sd-jump-link:hover {
     background: #2d6a4f;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
   }
 
   .mp-container {
@@ -113,7 +113,7 @@
   }
 
   .mp-section {
-    background: #ffffff;
+    background: var(--cosy-color-surface);
     border-radius: 12px;
     border: 1px solid #e2e8f0;
     padding: 2rem;
@@ -122,7 +122,7 @@
   }
 
   .mp-section h2 {
-    color: #1b4332;
+    color: var(--cosy-ink-sage);
     font-family: 'Lora', Georgia, serif;
     font-size: 1.8rem;
     margin-top: 0;
@@ -139,7 +139,7 @@
   }
 
   .level-card {
-    background: #ffffff;
+    background: var(--cosy-color-surface);
     border: 2px solid #e2e8f0;
     border-radius: 12px;
     padding: 1.5rem;
@@ -171,7 +171,7 @@
   .level-card-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #1b4332;
+    color: var(--cosy-ink-sage);
     margin: 0;
   }
 
@@ -182,16 +182,16 @@
     font-weight: 800;
   }
 
-  .pill-a0a1 { background: #e3f2fd; color: #0d47a1; }
-  .pill-a2 { background: #e8f5e9; color: #1b5e20; }
-  .pill-b1 { background: #fff8e1; color: #f57f17; }
-  .pill-b2 { background: #fbe9e7; color: #bf360c; }
+  .pill-a0a1 { background: var(--cosy-color-blue-light); color: var(--cosy-ink-blue); }
+  .pill-a2 { background: var(--cosy-color-green-light); color: var(--cosy-ink-green); }
+  .pill-b1 { background: var(--cosy-color-honey-pale); color: var(--cosy-ink-honey); }
+  .pill-b2 { background: #fbe9e7; color: #96330F; }
   .pill-c1 { background: #f3e5f5; color: #4a148c; }
   .pill-c2 { background: #eceff1; color: #263238; }
 
   .level-card-desc {
     font-size: 0.95rem;
-    color: #4a5568;
+    color: var(--cosy-color-ink-soft);
     margin-bottom: 1.25rem;
     flex-grow: 1;
   }
@@ -206,27 +206,27 @@
     transition: background 0.2s ease;
   }
 
-  .btn-a0a1 { background: #1976d2; color: #ffffff; }
+  .btn-a0a1 { background: #1565C0; color: var(--cosy-on-brand); }
   .btn-a0a1:hover { background: #0d47a1; }
-  .btn-a2 { background: #2e7d32; color: #ffffff; }
+  .btn-a2 { background: #2E6B33; color: var(--cosy-on-brand); }
   .btn-a2:hover { background: #1b5e20; }
-  .btn-b1 { background: #f57f17; color: #ffffff; }
-  .btn-b1:hover { background: #e65100; }
-  .btn-b2 { background: #d84315; color: #ffffff; }
-  .btn-b2:hover { background: #bf360c; }
-  .btn-c1 { background: #6a1b9a; color: #ffffff; }
+  .btn-b1 { background: #A85C00; color: var(--cosy-on-brand); }
+  .btn-b1:hover { background: #8A4A00; }
+  .btn-b2 { background: #B34418; color: var(--cosy-on-brand); }
+  .btn-b2:hover { background: #96330F; }
+  .btn-c1 { background: #5B1685; color: var(--cosy-on-brand); }
   .btn-c1:hover { background: #4a148c; }
-  .btn-c2 { background: #37474f; color: #ffffff; }
+  .btn-c2 { background: #2B3A41; color: var(--cosy-on-brand); }
   .btn-c2:hover { background: #263238; }
 
   .mp-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
   .mp-table th, .mp-table td { padding: 0.75rem 1rem; border: 1px solid #e2e8f0; text-align: left; }
-  .mp-table th { background: #f0fdf4; color: #1b4332; }
+  .mp-table th { background: var(--cosy-color-green-light); color: var(--cosy-ink-sage); }
 
   /* Mnemonic Box */
   .mnemonic-box {
-    background: #fff8e1;
-    border-left: 4px solid #f57f17;
+    background: var(--cosy-color-honey-pale);
+    border-left: 4px solid #A85C00;
     border-radius: 6px;
     padding: 1rem 1.25rem;
     margin: 1rem 0;
@@ -234,7 +234,7 @@
 
   .mnemonic-box h4 {
     margin: 0 0 0.4rem 0;
-    color: #795548;
+    color: var(--cosy-ink-plum);
     font-size: 1.05rem;
   }
 
@@ -255,15 +255,20 @@
 
   .family-card h4 {
     margin: 0 0 0.5rem 0;
-    color: #1b4332;
+    color: var(--cosy-ink-sage);
     font-size: 1.1rem;
   }
 
   .family-card p {
     margin: 0;
     font-size: 0.92rem;
-    color: #4a5568;
+    color: var(--cosy-color-ink-soft);
   }
+
+  /* The footer sets a fixed accent inline; children must inherit it rather
+     than the theme ink, which would go pale on the dark accent in dark mode. */
+  footer.site-footer, footer.site-footer h3, footer.site-footer p,
+  footer.site-footer a, footer.site-footer div, footer.site-footer span { color: inherit; }
 </style>
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon-prononciation.html">
   <meta property="og:title" content="Marathon de prononciation française — COSY">
@@ -459,7 +464,7 @@
 
 <footer class="site-footer" style="background: #1b4332; color: #d8f3dc; padding: 2.5rem 1.5rem; text-align: center; margin-top: 3rem;">
   <div style="max-width: 1100px; margin: 0 auto;">
-    <p style="margin-bottom: 0.5rem; font-weight: 700; color: #ffffff;">COSYlanguages · Marathon de Prononciation Française</p>
+    <p style="margin-bottom: 0.5rem; font-weight: 700; color: var(--cosy-on-brand);">COSYlanguages · Marathon de Prononciation Française</p>
     <p style="margin-bottom: 1rem; font-size: 0.9rem;"><a href="index.html" style="color: #74c69d; text-decoration: none;">← Retour au Hub Français</a> | <a href="pronunciation.html" style="color: #74c69d; text-decoration: none;">Guide de Prononciation</a></p>
     <p style="font-size: 0.8rem; color: #b7e4c7;">© 2026 COSYlanguages. Tous droits réservés.</p>
   </div>

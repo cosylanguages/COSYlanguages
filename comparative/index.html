@@ -67,9 +67,9 @@
   }
 
   .atlas-tab-btn.active {
-    background: var(--sage-deep, #2e5a44);
-    color: #ffffff;
-    border-color: var(--sage-deep, #2e5a44);
+    background: var(--cosy-color-sage-dark, #375742);
+    color: var(--cosy-on-sage-dark, #ffffff);
+    border-color: var(--cosy-color-sage-dark, #375742);
     box-shadow: 0 4px 12px rgba(46, 90, 68, 0.2);
   }
 
@@ -109,7 +109,7 @@
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 12px;
     padding: 1rem;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     max-width: 330px;
   }
 
@@ -128,7 +128,7 @@
     border-radius: 6px;
     background: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.2);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     font-size: 0.88rem;
     margin-bottom: 0.6rem;
     outline: none;
@@ -136,7 +136,7 @@
 
   .hud-select option {
     background: #1a2129;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
   }
 
   .hud-search-box {
@@ -150,7 +150,7 @@
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     font-size: 0.88rem;
     outline: none;
   }
@@ -169,7 +169,7 @@
     flex: 1;
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 0.4rem 0.5rem;
     border-radius: 6px;
     font-size: 0.78rem;
@@ -183,8 +183,8 @@
   }
 
   .hud-btn.active-mode {
-    background: #0288d1;
-    border-color: #0288d1;
+    background: #01579B;
+    border-color: #01579B;
   }
 
   .hud-chip-btn {
@@ -192,7 +192,7 @@
     border-radius: 4px;
     background: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.2);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     font-size: 0.72rem;
     cursor: pointer;
   }
@@ -225,7 +225,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     padding: 1.25rem;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     width: 360px;
     max-height: 82%;
     overflow-y: auto;
@@ -245,7 +245,7 @@
   .inspector-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -258,8 +258,8 @@
     font-size: 0.72rem;
     font-weight: 700;
     text-transform: uppercase;
-    background: #0288d1;
-    color: #ffffff;
+    background: #01579B;
+    color: var(--cosy-on-brand);
   }
 
   .inspector-breadcrumbs {
@@ -297,7 +297,7 @@
     background: rgba(10, 15, 22, 0.95);
     border: 1px solid #42a5f5;
     box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 1rem 1.5rem;
     border-radius: 12px;
     max-width: 580px;
@@ -329,7 +329,7 @@
 
   .audio-play-btn {
     background: var(--sage-deep, #2e5a44);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     border: none;
     border-radius: 50%;
     width: 28px;
@@ -376,13 +376,13 @@
     padding: 0.6rem;
     border-radius: 8px;
     border: 1px solid var(--border);
-    background: var(--surface-soft, #f4efe6);
+    background: var(--cosy-color-cream-dark, #F4EDE2);
     font-size: 0.9rem;
   }
 
   .dist-result-card {
     grid-column: 1 / -1;
-    background: var(--surface-soft, #f4efe6);
+    background: var(--cosy-color-cream-dark, #F4EDE2);
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 1.25rem;
@@ -425,7 +425,7 @@
     gap: 0.5rem;
     padding: 0.35rem 0.75rem;
     border-radius: 8px;
-    background: var(--surface-soft, #f4efe6);
+    background: var(--cosy-color-cream-dark, #F4EDE2);
     cursor: pointer;
     font-size: 0.92rem;
     font-weight: 600;
@@ -481,7 +481,7 @@
   }
 
   .cognate-mini-table th {
-    background: var(--surface-soft, #f4efe6);
+    background: var(--cosy-color-cream-dark, #F4EDE2);
     font-weight: 700;
   }
 
@@ -491,7 +491,7 @@
     z-index: 1000;
     pointer-events: none;
     background: rgba(10, 14, 18, 0.95);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 0.5rem 0.85rem;
     border-radius: 6px;
     font-size: 0.82rem;
@@ -503,7 +503,7 @@
 </head>
 <body>
 
-<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
 
 <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
 
@@ -622,7 +622,7 @@
             <span id="insp-flag">🌐</span>
             <span id="insp-name">Language Name</span>
           </div>
-          <button type="button" onclick="closeNodeInspector()" style="background:none; border:none; color:#fff; cursor:pointer; font-size:1.2rem;">&times;</button>
+          <button type="button" onclick="closeNodeInspector()" style="background:none; border:none; color:var(--cosy-on-brand); cursor:pointer; font-size:1.2rem;">&times;</button>
         </div>
         <div style="margin-bottom: 0.5rem;">
           <span id="insp-type" class="inspector-tag">Language</span>
@@ -1590,7 +1590,7 @@
       badge.style.background = '#2e7d32';
     } else if (totalSteps <= 5) {
       badge.textContent = 'Kinship: Cousins (Eurasiatic)';
-      badge.style.background = '#0288d1';
+      badge.style.background = '#01579B';
     } else {
       badge.textContent = 'Kinship: Distant Macro-Relatives';
       badge.style.background = '#e65100';

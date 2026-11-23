@@ -28,7 +28,7 @@
 
     <style>
         .qr-widget-card {
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             border: 2px solid var(--border);
             border-radius: var(--r-md, 16px);
             padding: 2rem;
@@ -56,7 +56,7 @@
         }
         .qr-input:focus {
             border-color: var(--sage-deep, #3d5a45);
-            background: #ffffff;
+            background: var(--cosy-color-surface);
         }
         .qr-presets {
             display: flex;
@@ -92,7 +92,7 @@
             margin-top: 1.5rem;
         }
         .qr-code-box {
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             padding: 1.25rem;
             border-radius: 12px;
             border: 1px solid var(--border);
@@ -137,7 +137,7 @@
 </head>
 <body>
 
-<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
 
 <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20Bridge%20Tools." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
 
@@ -245,7 +245,7 @@
       </div>
       <div class="qr-meta">
         <h4 style="margin:0 0 0.5rem; font-family:'Fraunces', serif; color:var(--sage-deep);">Target Link:</h4>
-        <div id="qr-url-display" style="font-size:0.85rem; word-break:break-all; color:var(--ink-soft); font-family:monospace; margin-bottom:1rem; background:#ffffff; padding:0.5rem 0.75rem; border-radius:6px; border:1px solid var(--border);">https://cosylanguages.github.io/COSYpractice/</div>
+        <div id="qr-url-display" style="font-size:0.85rem; word-break:break-all; color:var(--ink-soft); font-family:monospace; margin-bottom:1rem; background:var(--cosy-color-surface); padding:0.5rem 0.75rem; border-radius:6px; border:1px solid var(--border);">https://cosylanguages.github.io/COSYpractice/</div>
 
         <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">Stick this QR code on a Leitner card or pocket booklet so learners can scan and jump straight to audio practice!</p>
 
@@ -298,8 +298,8 @@
   <div class="pwa-teaser-card reveal">
     <div class="pwa-icon">📲</div>
     <div>
-      <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif; color:#1e4620;">Coming Soon: Offline-First PWA Mode ⚡</h3>
-      <p style="margin:0; font-size:0.95rem; color:#2c5e30; line-height:1.5;">We are building offline service-worker caching for <a href="https://cosylanguages.github.io/COSYpractice/" style="color:#1e4620; font-weight:bold;">Practice Hub</a> and <a href="https://cosylanguages.github.io/COSYgames/" style="color:#1e4620; font-weight:bold;">Language Games</a>. Soon you'll be able to pin COSYlanguages to your home screen and complete exercises on the subway or off the grid without an internet connection!</p>
+      <h3 style="margin:0 0 0.5rem; font-family:'Fraunces', serif; color:var(--cosy-ink-sage);">Coming Soon: Offline-First PWA Mode ⚡</h3>
+      <p style="margin:0; font-size:0.95rem; color:#2c5e30; line-height:1.5;">We are building offline service-worker caching for <a href="https://cosylanguages.github.io/COSYpractice/" style="color:var(--cosy-ink-sage); font-weight:bold;">Practice Hub</a> and <a href="https://cosylanguages.github.io/COSYgames/" style="color:var(--cosy-ink-sage); font-weight:bold;">Language Games</a>. Soon you'll be able to pin COSYlanguages to your home screen and complete exercises on the subway or off the grid without an internet connection!</p>
     </div>
   </div>
 </section>
@@ -484,7 +484,7 @@
                     .card { border: 2px dashed #3d5a45; padding: 1.5rem; display: inline-block; border-radius: 12px; max-width: 250px; }
                     img { width: 150px; height: 150px; }
                     .brand { font-weight: bold; color: #3d5a45; margin-top: 0.5rem; font-size: 0.9rem; }
-                    .url { font-size: 0.75rem; word-break: break-all; color: #666; margin-top: 0.25rem; }
+                    .url { font-size: 0.75rem; word-break: break-all; color: var(--cosy-color-ink-soft); margin-top: 0.25rem; }
                 </style>
             </head>
             <body onload="window.print();window.close();">

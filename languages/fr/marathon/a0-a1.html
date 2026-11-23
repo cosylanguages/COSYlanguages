@@ -24,14 +24,14 @@
 
   body {
     font-family: 'Nunito', system-ui, -apple-system, sans-serif;
-    color: #2c3e50;
-    background-color: #fcfdfc;
+    color: var(--cosy-color-ink-soft);
+    background-color: var(--cosy-color-cream);
     line-height: 1.65;
   }
 
   .mp-hero {
     background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 50%, #40916c 100%);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 3rem 1.5rem 2rem;
     border-bottom: 4px solid #74c69d;
     text-align: center;
@@ -42,7 +42,7 @@
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
   }
 
   .mp-hero p.subtitle {
@@ -64,7 +64,7 @@
     background: rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 0.3rem 0.75rem;
     border-radius: 50px;
     font-size: 0.85rem;
@@ -75,7 +75,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background: #ffffff;
+    background: var(--cosy-color-surface);
     border-bottom: 1px solid #e2e8f0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
@@ -91,19 +91,19 @@
   }
 
   .sd-jump-link {
-    color: #2d6a4f;
+    color: var(--cosy-ink-sage);
     text-decoration: none;
     font-weight: 700;
     font-size: 0.88rem;
     padding: 0.3rem 0.7rem;
     border-radius: 6px;
-    background: #f0fdf4;
+    background: var(--cosy-color-green-light);
     transition: background 0.2s, color 0.2s;
   }
 
   .sd-jump-link:hover, .sd-jump-link.active {
     background: #2d6a4f;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
   }
 
   .mp-container {
@@ -113,7 +113,7 @@
   }
 
   .mp-section {
-    background: #ffffff;
+    background: var(--cosy-color-surface);
     border-radius: 12px;
     border: 1px solid #e2e8f0;
     padding: 2rem;
@@ -122,7 +122,7 @@
   }
 
   .mp-section h2 {
-    color: #1b4332;
+    color: var(--cosy-ink-sage);
     font-family: 'Lora', Georgia, serif;
     font-size: 1.7rem;
     margin-top: 0;
@@ -148,8 +148,8 @@
   }
 
   .mp-table th {
-    background-color: #f0fdf4;
-    color: #1b4332;
+    background-color: var(--cosy-color-green-light);
+    color: var(--cosy-ink-sage);
     font-weight: 700;
   }
 
@@ -158,7 +158,7 @@
   }
 
   .mnemonic-box {
-    background: #fff8e1;
+    background: var(--cosy-color-honey-pale);
     border-left: 4px solid #f57f17;
     border-radius: 6px;
     padding: 1rem 1.25rem;
@@ -167,12 +167,12 @@
 
   .mnemonic-box h4 {
     margin: 0 0 0.4rem 0;
-    color: #795548;
+    color: var(--cosy-ink-plum);
     font-size: 1.05rem;
   }
 
   .beginner-notice {
-    background: #e3f2fd;
+    background: var(--cosy-color-blue-light);
     border-left: 4px solid #1976d2;
     border-radius: 6px;
     padding: 1rem 1.25rem;
@@ -180,7 +180,7 @@
   }
 
   .lesson-sample {
-    background: #ffffff;
+    background: var(--cosy-color-surface);
     border: 2px solid #74c69d;
     border-radius: 12px;
     margin-bottom: 2rem;
@@ -189,13 +189,13 @@
 
   .lesson-sample-header {
     background: #2d6a4f;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     padding: 1rem 1.5rem;
   }
 
   .lesson-sample-header h3 {
     margin: 0;
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     font-size: 1.25rem;
   }
 
@@ -207,7 +207,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f0fdf4;
+    background: var(--cosy-color-green-light);
     border: 1px solid #b7e4c7;
     border-radius: 8px;
     padding: 1rem 1.5rem;
@@ -215,7 +215,7 @@
   }
 
   .level-nav-bar a {
-    color: #1b4332;
+    color: var(--cosy-ink-sage);
     font-weight: 700;
     text-decoration: none;
   }
@@ -227,15 +227,20 @@
     margin: 1rem 0;
   }
   .alphabet-card {
-    background: #f0fdf4;
+    background: var(--cosy-color-green-light);
     border: 1px solid #c8e6c9;
     border-radius: 8px;
     padding: 0.6rem;
     text-align: center;
   }
-  .alphabet-card .letter { font-size: 1.4rem; font-weight: 800; color: #1b4332; }
-  .alphabet-card .ipa { font-size: 0.85rem; color: #2e7d32; font-weight: 600; }
-  .alphabet-card .example { font-size: 0.8rem; color: #555; margin-top: 0.2rem; }
+  .alphabet-card .letter { font-size: 1.4rem; font-weight: 800; color: var(--cosy-ink-sage); }
+  .alphabet-card .ipa { font-size: 0.85rem; color: var(--cosy-ink-sage); font-weight: 600; }
+  .alphabet-card .example { font-size: 0.8rem; color: var(--cosy-color-ink-soft); margin-top: 0.2rem; }
+
+  /* The footer sets a fixed accent inline; children must inherit it rather
+     than the theme ink, which would go pale on the dark accent in dark mode. */
+  footer.site-footer, footer.site-footer h3, footer.site-footer p,
+  footer.site-footer a, footer.site-footer div, footer.site-footer span { color: inherit; }
 </style>
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/a0-a1.html">
   <meta property="og:title" content="🟢 Marathon de Prononciation — Niveau A0-A1 Fondations · COSY">
@@ -279,7 +284,7 @@
 
   <div class="beginner-notice">
     <h4>💡 Vous débutez en français ? (Welcome Beginners!)</h4>
-    <p style="margin: 0; font-size: 0.95rem; color: #1e3a8a;">
+    <p style="margin: 0; font-size: 0.95rem; color: var(--cosy-ink-blue);">
       Ce niveau est votre guide complet étape par étape. Chaque leçon contient une <strong>recette de son physique</strong> (comment placer votre bouche et votre langue) et notre structure fixe à 14 champs avec visuel dédié.
     </p>
   </div>

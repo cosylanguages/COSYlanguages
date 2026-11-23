@@ -32,6 +32,7 @@
     <style>
       :root {
         --course-accent: #6a2c5a;
+        --course-accent-ink: var(--cosy-ink-plum);
         --course-accent-light: rgba(106, 44, 90, 0.08);
       }
       .course-detail-wrap {
@@ -45,14 +46,14 @@
         margin-bottom: 1.5rem;
       }
       .course-breadcrumb a {
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         text-decoration: none;
       }
       .course-breadcrumb a:hover {
         text-decoration: underline;
       }
       .course-section {
-        background: #ffffff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: var(--card-radius);
         padding: 2.25rem 2rem;
@@ -86,7 +87,7 @@
         font-family: var(--font-serif);
         font-size: 1.35rem;
         font-weight: 700;
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
       }
       .exam-suite-badge {
         font-size: 0.8rem;
@@ -95,7 +96,7 @@
         padding: 0.25rem 0.65rem;
         border-radius: 999px;
         background: var(--course-accent-light);
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
       }
       .exam-parts-grid {
         display: grid;
@@ -104,7 +105,7 @@
         margin-top: 1rem;
       }
       .exam-part-box {
-        background: #ffffff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: 10px;
         padding: 1.25rem;
@@ -120,7 +121,7 @@
       }
       .exam-part-box .timing {
         font-size: 0.8rem;
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-weight: 800;
       }
       .exam-part-box ul {
@@ -137,7 +138,7 @@
         margin-bottom: 2.5rem;
       }
       .student-portal-box a {
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-weight: 700;
         text-decoration: none;
       }
@@ -152,7 +153,7 @@
         border-top: 1px solid var(--border, #E2DCD5);
       }
       .course-nav-links a {
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-weight: 600;
         text-decoration: none;
       }
@@ -166,7 +167,7 @@
       .exam-theme-level h3 {
         font-family: var(--font-serif);
         font-size: 1.25rem;
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         margin: 0 0 0.4rem;
       }
       .exam-theme-meta {
@@ -181,7 +182,7 @@
         padding: 0.25rem 0.65rem;
         border-radius: 999px;
         background: var(--course-accent-light);
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
       }
       .exam-theme-parts {
         font-size: 0.9rem;
@@ -205,7 +206,7 @@
       .exam-theme-extra > summary {
         cursor: pointer;
         font-weight: 800;
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-size: 1rem;
       }
       .exam-theme-method-grid {
@@ -215,7 +216,7 @@
         margin-top: 1rem;
       }
       .exam-theme-method {
-        background: #fff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: 10px;
         padding: 1rem;
@@ -231,7 +232,7 @@
       }
       .exam-theme-examples { margin: 0.4rem 0 1rem; padding-left: 0; list-style: none; }
       .exam-theme-example {
-        background: #fff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: 10px;
         padding: 0.9rem 1rem;
@@ -245,7 +246,7 @@
         padding: 0.05rem 0.5rem;
         border-radius: 999px;
         background: var(--course-accent-light);
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-size: 0.72rem;
         font-weight: 700;
       }
@@ -256,7 +257,7 @@
         gap: 1rem;
       }
       .exam-theme-category {
-        background: #fff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: 10px;
         padding: 1rem;
@@ -281,7 +282,7 @@
         padding: 0.05rem 0.45rem;
         border-radius: 999px;
         background: var(--course-accent-light);
-        color: var(--course-accent);
+        color: var(--course-accent-ink);
         font-size: 0.75rem;
       }
       .exam-theme-category ul {
@@ -296,7 +297,7 @@
         color: var(--ink-soft);
         font-size: 0.92rem;
       }
-      .exam-theme-error a { color: var(--course-accent); font-weight: 700; }
+      .exam-theme-error a { color: var(--course-accent-ink); font-weight: 700; }
 
       .course-nav-links a:hover {
         text-decoration: underline;
@@ -305,7 +306,7 @@
 </head>
 <body>
 
-<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
 
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
@@ -335,7 +336,7 @@
     </div>
 
     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20preparing%20for%20a%20language%20exam%20and%20would%20like%20coaching." class="btn-accent" style="background: var(--course-accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Discuss Your Exam on WhatsApp</a>
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27m%20preparing%20for%20a%20language%20exam%20and%20would%20like%20coaching." class="btn-accent" style="background: var(--course-accent); color: var(--cosy-on-brand); padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; text-decoration: none;" target="_blank" rel="noopener">💬 Discuss Your Exam on WhatsApp</a>
       <a href="../placement-quiz.html" class="btn-secondary">Check Current CEFR Level</a>
       <a href="../index.html#calculator" class="btn-secondary">See Prices</a>
     </div>
@@ -466,7 +467,7 @@
       </div>
 
       <p style="color: var(--ink-soft); font-size: 0.9rem; margin: 1rem 0 0;"><strong>TCF:</strong> compulsory listening, reading and language-structure tests, with optional speaking and writing. Preparation focuses on the same theme bank and on timed task practice.</p>
-      <p style="color: var(--ink-soft); font-size: 0.9rem; margin: 0.5rem 0 0;"><a href="#delf-dalf-themes" style="color: var(--course-accent); font-weight: 700;">See the DELF/DALF theme bank by level ↓</a> · <a href="https://cosylanguages.github.io/COSYpractice/" target="_blank" rel="noopener" style="color: var(--course-accent); font-weight: 700;">Practise a French speaking or writing prompt today →</a></p>
+      <p style="color: var(--ink-soft); font-size: 0.9rem; margin: 0.5rem 0 0;"><a href="#delf-dalf-themes" style="color: var(--course-accent-ink); font-weight: 700;">See the DELF/DALF theme bank by level ↓</a> · <a href="https://cosylanguages.github.io/COSYpractice/" target="_blank" rel="noopener" style="color: var(--course-accent-ink); font-weight: 700;">Practise a French speaking or writing prompt today →</a></p>
     </div>
 
     <!-- Italian -->

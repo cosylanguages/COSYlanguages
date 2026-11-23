@@ -29,7 +29,7 @@
         radial-gradient(ellipse at 80% 20%, rgba(143,177,147,.35) 0%, transparent 55%),
         radial-gradient(ellipse at 15% 80%, rgba(232,168,56,.18) 0%, transparent 50%),
         linear-gradient(160deg, var(--sage-dark) 0%, var(--sage) 100%);
-    color: #fff;
+    color: var(--cosy-on-brand);
     text-align: left;
 }
 
@@ -199,10 +199,17 @@ footer {
 /* ── Page Sections ─────────────────────────────────── */
 .cta-section {
     background: var(--ink);
-    color: #fff;
+    color: var(--cosy-on-brand);
     border-radius: var(--r-xl);
     padding: 4.5rem 2rem;
     text-align: center;
+}
+
+/* Secondary buttons sit on the near-black CTA panel, so they need the
+   on-dark palette instead of the sage ink used on light surfaces. */
+.cta-section .btn-secondary, .cta-section .btn-soft, .cta-section .btn-tertiary {
+    color: #ffffff;
+    border-color: rgba(255,255,255,.55);
 }
 
 /* ── Responsive Adjustments ─────────────────────────── */

@@ -72,7 +72,7 @@
     align-items: center;
     gap: 0.4rem;
     background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
-    color: #9A3412;
+    color: var(--cosy-ink-coral);
     border: 1px solid #FDBA74;
     padding: 0.35rem 0.75rem;
     border-radius: var(--cosy-radius-full, 100px);
@@ -90,7 +90,7 @@
 }
 
 .daily-strip-challenge-pill.completed {
-    background: #ECFDF5;
+    background: var(--cosy-color-green-light);
     color: #065F46;
     border-color: #A7F3D0;
 }
@@ -131,12 +131,12 @@
 
 .daily-strip-done-btn:hover {
     background: var(--cosy-color-sage, #416B49);
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 .daily-strip-done-btn.completed {
     background: var(--cosy-color-sage, #416B49);
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
     border-color: var(--cosy-color-sage-dark, #375742);
 }
 
@@ -228,7 +228,7 @@
 
 .daily-strip-level-btn.active {
     background-color: var(--cosy-color-sage, #416B49);
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
     border-color: var(--cosy-color-sage-dark, #375742);
 }
 
@@ -305,7 +305,7 @@
 .daily-strip-chip-task {
     background: var(--cosy-color-sage, #416B49);
     border-color: var(--cosy-color-sage-dark, #375742);
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 .daily-strip-chip-exam {
@@ -438,7 +438,7 @@
     align-items: center;
     gap: 0.35rem;
     background: var(--cosy-color-sage, #416B49);
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
     border: 1px solid var(--cosy-color-sage-dark, #375742);
     border-radius: var(--cosy-radius-full, 100px);
     padding: 0.35rem 0.85rem;
@@ -521,7 +521,7 @@ body.theme-dark .daily-strip-done-btn {
 html[data-theme="dark"] .daily-strip-done-btn:hover,
 body.theme-dark .daily-strip-done-btn:hover {
     background: #416B49;
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 html[data-theme="dark"] .daily-strip-tab,
@@ -531,7 +531,7 @@ body.theme-dark .daily-strip-tab {
 
 html[data-theme="dark"] .daily-strip-tab:hover,
 body.theme-dark .daily-strip-tab:hover {
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
     background: #243127;
 }
 
@@ -562,14 +562,14 @@ body.theme-dark .daily-strip-level-btn {
 html[data-theme="dark"] .daily-strip-level-btn:hover,
 body.theme-dark .daily-strip-level-btn:hover {
     background-color: #2D4A37;
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 html[data-theme="dark"] .daily-strip-level-btn.active,
 body.theme-dark .daily-strip-level-btn.active {
     background-color: #416B49;
     border-color: #8FB193;
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 html[data-theme="dark"] .daily-strip-panel,
@@ -608,7 +608,7 @@ html[data-theme="dark"] .daily-strip-chip-task,
 body.theme-dark .daily-strip-chip-task {
     background: #416B49;
     border-color: #8FB193;
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 html[data-theme="dark"] .daily-strip-chip-exam,
@@ -671,7 +671,7 @@ body.theme-dark .daily-strip-toggle-translation-btn {
 html[data-theme="dark"] .daily-strip-toggle-translation-btn:hover,
 body.theme-dark .daily-strip-toggle-translation-btn:hover {
     background: #2D4A37;
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 /* Responsive adjustments */
@@ -861,7 +861,7 @@ body.theme-dark .daily-strip-level-bar {
 html[data-theme="dark"] .daily-strip-tab[aria-selected="true"],
 body.theme-dark .daily-strip-tab[aria-selected="true"] {
     background: #2D4A37;
-    color: #FFFFFF;
+    color: var(--cosy-on-brand);
 }
 
 html[data-theme="dark"] .daily-strip-panel,

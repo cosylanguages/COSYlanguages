@@ -32,6 +32,7 @@
     <style>
       :root {
         --course-accent: #416b49;
+        --course-accent-ink: var(--cosy-ink-sage);
         --course-accent-light: rgba(65, 107, 73, 0.08);
       }
       .course-hub-wrap {
@@ -45,7 +46,7 @@
         margin-bottom: 1.5rem;
       }
       .course-breadcrumb a {
-        color: var(--sage, #416b49);
+        color: var(--cosy-ink-sage, #416b49);
         text-decoration: none;
       }
       .course-breadcrumb a:hover {
@@ -87,7 +88,7 @@
         padding: 0.25rem 0.7rem;
         border-radius: 999px;
         background: rgba(65, 107, 73, 0.12);
-        color: var(--sage, #416b49);
+        color: var(--cosy-ink-sage, #416b49);
         margin-bottom: 0.75rem;
       }
       .chc-title {
@@ -118,7 +119,7 @@
       }
       .chc-features li::before {
         content: "✓";
-        color: var(--sage, #416b49);
+        color: var(--cosy-ink-sage, #416b49);
         font-weight: bold;
       }
       .chc-link {
@@ -126,14 +127,14 @@
         align-items: center;
         gap: 0.4rem;
         font-weight: 700;
-        color: var(--sage, #416b49);
+        color: var(--cosy-ink-sage, #416b49);
         text-decoration: none;
       }
       .chc-link:hover {
         text-decoration: underline;
       }
       .decision-matrix-card {
-        background: #ffffff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: var(--card-radius);
         padding: 2.5rem;
@@ -178,7 +179,7 @@
         white-space: nowrap;
       }
       .choose-this {
-        color: #2e7d32;
+        color: var(--cosy-ink-sage);
         font-weight: 600;
       }
       .choose-other {
@@ -195,7 +196,7 @@
       }
       .contact-cta-box {
         text-align: center;
-        background: #fff;
+        background: var(--cosy-color-surface);
         border: 1px solid var(--border, #E2DCD5);
         border-radius: var(--card-radius);
         padding: 2.5rem;
@@ -218,7 +219,7 @@
         flex-wrap: wrap;
       }
       .student-portal-box {
-        background: #f0f4f1;
+        background: var(--cosy-color-cream);
         border: 1px dashed var(--sage, #416b49);
         border-radius: var(--card-radius);
         padding: 1.25rem 1.5rem;
@@ -226,7 +227,7 @@
         margin-top: 2rem;
       }
       .student-portal-box a {
-        color: var(--sage, #416b49);
+        color: var(--cosy-ink-sage, #416b49);
         font-weight: 700;
         text-decoration: none;
       }
@@ -237,7 +238,7 @@
 </head>
 <body>
 
-<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
 
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
@@ -266,7 +267,7 @@
   </section>
 
   <!-- CEFR Framework Visual Timeline Section -->
-  <section class="course-section" style="background:#fff; border: 1px solid var(--border); border-radius: var(--card-radius); padding: 2.5rem; margin-bottom: 3.5rem; box-shadow: var(--card-shadow-sm);">
+  <section class="course-section" style="background:var(--cosy-color-surface); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 2.5rem; margin-bottom: 3.5rem; box-shadow: var(--card-shadow-sm);">
     <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--ink); margin-bottom: 0.75rem;">🎓 The CEFR Framework &amp; Pedagogical Architecture</h2>
     <p style="font-size: 1.02rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 1.5rem;">
       All COSY courses are aligned with the <strong>Common European Framework of Reference for Languages (CEFR)</strong>. Our communicative method ensures that no matter your target level, at least <strong>40% of every lesson is dedicated to active, unscripted oral production</strong>, backed by deep grammatical competence, lexical precision, and strategic listening.
@@ -605,7 +606,7 @@
   </section>
 
   <div class="group-note-box">
-    <p style="margin: 0; color: var(--ink); font-size: 1.05rem;"><strong>👥 Group Lessons Available:</strong> Join cohort classes in English, French, Italian, and Russian. Learn alongside peers at your exact CEFR level with guided speaking activities. <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons." style="color: var(--sage, #416b49); font-weight: 700;">Ask our coordinators about upcoming groups →</a></p>
+    <p style="margin: 0; color: var(--ink); font-size: 1.05rem;"><strong>👥 Group Lessons Available:</strong> Join cohort classes in English, French, Italian, and Russian. Learn alongside peers at your exact CEFR level with guided speaking activities. <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons." style="color: var(--cosy-ink-sage, #416b49); font-weight: 700;">Ask our coordinators about upcoming groups →</a></p>
   </div>
 
   <div class="contact-cta-box">
@@ -614,7 +615,7 @@
     <div class="contact-btns">
       <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20guidance%20on%20choosing%20the%20right%20course." class="btn-primary" target="_blank" rel="noopener">💬 WhatsApp Advisory</a>
       <a href="https://t.me/cosylanguagesproject" class="btn-secondary" target="_blank" rel="noopener">✈️ Telegram Channel</a>
-      <a href="../placement-quiz.html" class="btn-accent" style="background: var(--sage, #416b49); color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 700;">📝 Free Placement Quiz</a>
+      <a href="../placement-quiz.html" class="btn-accent" style="background: var(--sage, #416b49); color: var(--cosy-on-brand); padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 700;">📝 Free Placement Quiz</a>
     </div>
   </div>
 
