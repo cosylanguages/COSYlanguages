@@ -85,7 +85,7 @@ Once standalone sub-products are extracted into their own repositories, **`COSYl
 
 ### 3. Universal Diagnostic Placement & Language Portals
 * **Placement Quiz (`placement-quiz.html`):** Fast, account-free CEFR level assessment.
-* **Language Portal Hubs (`languages/{iso}/index.html`):** Dedicated entry points for each language featuring daily dose idioms/facts and topic roadmaps.
+* **Language Portal Hubs (`languages/{iso}/index.html`):** Dedicated entry points for each language featuring daily word/verb cards, speaking and writing prompts, a fun fact, and topic roadmaps.
 
 ### 4. Open Language Data Standard & Cross-Reference Index
 * Retains `data/index/{lang}_index.json` search indexes that cross-reference grammar topics, vocabulary items, and exercises across the entire ecosystem.

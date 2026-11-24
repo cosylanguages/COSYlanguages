@@ -39,7 +39,8 @@ Every daily element stays in the repository that owns it; the pages link out to 
 | Cultural spotlights (holiday, science, music, film & TV) | [COSYevents](https://github.com/cosylanguages/COSYevents) |
 
 - `js/daily-strip.js` + `css/daily-strip.css` – the hub daily strip. It reads the fact file above and
-  pulls word/idiom data from COSYdata and prompts from COSYpractice, rotating by day of year.
+  pulls word, verb, verb + preposition and idiom data from COSYdata and prompts from COSYpractice,
+  rotating by day of year.
   The speaking and writing tabs show exam/part/task chips, prep and speak timings and a
   follow-up list; panel labels ("Level:", "Prep", "Follow-up questions", …) are localized
   per language through `data/daily/<lang>/band-guide.json` (14 languages), falling back to
@@ -47,6 +48,10 @@ Every daily element stays in the repository that owns it; the pages link out to 
   Writing cards add exam/part/task/genre chips, a word target, a time limit and a
   self-check list. Mount it with `<div data-daily-strip data-lang="en">`;
   `data-track="exam|general"` filters the prompts and `data-audience` picks the age tier.
+  `data-slots="word,verb,verb-prep,idiom,speaking,writing,fact"` selects and orders the tabs;
+  the language pages show every slot that language publishes. `data-recall="true"` starts
+  vocabulary answers hidden behind a "Show answer" control, so the learner retrieves the
+  meaning before revealing it.
 - `js/daily-directory.js` + `css/daily-directory.css` – a shared directory of every daily surface.
   Other repositories load it cross-origin and mount it with `<div data-daily-directory data-self="data">`.
   `data-self` marks the host's own card as "You are here"; `data-lang` localises the heading.
