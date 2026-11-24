@@ -1,6 +1,6 @@
 /* ── Print Grammar Specific Styles ─────────────────── */
 @media print {
-    body { background: #fff; color: var(--cosy-color-ink); font-size: 10pt; line-height: 1.4; }
+    body { background: #fff; color: #111; font-size: 10pt; line-height: 1.4; }
 
     /* Hide digital-only non-printable components */
     nav, footer, .wa-fab, #toast, .back-link,

@@ -52,10 +52,11 @@
             key: 'languages', repo: 'COSYlanguages', icon: '🌍',
             title: 'Daily Strip',
             url: BASE + 'COSYlanguages/',
-            description: 'The hub daily strip: prompts and fun fact, with audio and level filtering.',
+            description: 'The hub daily strip: word, verb, speaking and writing prompts, and a fun fact, with level filtering.',
             slots: [
-                { label: 'Fun Fact', icon: '💡' },
-                { label: 'Speaking & Writing', icon: '✍️' }
+                { label: 'Word & Verb', icon: '📖' },
+                { label: 'Speaking & Writing', icon: '✍️' },
+                { label: 'Fun Fact', icon: '💡' }
             ]
         },
         {

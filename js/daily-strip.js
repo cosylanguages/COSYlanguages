@@ -32,6 +32,7 @@
         writing: { id: 'writing', label: 'Writing Prompt', icon: '✍️' },
         fact: { id: 'fact', label: 'Fun Fact', icon: '💡' },
         word: { id: 'word', label: 'Word of the Day', icon: '📖', calendar: 'word' },
+        idiom: { id: 'idiom', label: 'Idiom of the Day', icon: '💬', calendar: 'idiom' },
         'phrasal-verb': { id: 'phrasal-verb', label: 'Phrasal Verb of the Day', icon: '🔗', calendar: 'phrasal-verb' },
         // verbs COSYtools can drill; `toolsLabel` swaps the footer link for one into the COSYtools Daily page
         verb: { id: 'verb', label: 'Verb of the Day', icon: '🔤', calendar: 'verb', toolsLabel: '🛠️ Conjugate it in COSYtools' },
@@ -222,7 +223,14 @@
             emoji: c.emoji,
             // verb cards come from cumulative pools, so show the verb's own level, not the pool it was drawn for
             level: (slot === 'verb' || slot === 'verb-prep') && c.level ? c.level : pick.level,
-            fromCalendar: true
+            fromCalendar: true,
+            preposition: c.preposition,
+            prepositions: c.prepositions,
+            case: c.case,
+            pattern: c.pattern,
+            common_mistake: c.common_mistake,
+            review: Boolean(c.review),
+            slotLevel: c.slot_level || pick.level
         };
         if (slot === 'word') {
             // "la gare", "l'orage": no space after an elided article
@@ -231,7 +239,8 @@
             item.pos = c.pos;
             item.transcription = c.transcription;
         } else if (slot === 'verb' || slot === 'verb-prep') {
-            item.text = c.word;
+            const prep = slot === 'verb-prep' && c.preposition && c.preposition !== 'none' ? ` ${c.preposition}` : '';
+            item.text = c.word + prep;
             item.transcription = c.transcription;
         } else {
             item.idiom = c.word;
@@ -401,9 +410,13 @@
             return { text: item, translation: '', meta: '' };
         }
         const text = item.prompt || item.fact || item.idiom || item.text || item.question || item.phrase || '';
-        const translation = item.translation || item.meaning || item.explanation || item.ru || item.en || '';
+        const translation = item.translation || item.real_meaning || item.meaning || item.explanation || item.ru || item.en || '';
         let meta = '';
         if (item.level) meta += `CEFR ${item.level.toUpperCase()}`;
+        if (item.review) {
+            if (meta) meta += ' • ';
+            meta += item.slotLevel ? `Review for ${item.slotLevel.toUpperCase()}` : 'Review';
+        }
         if (item.pos) {
             if (meta) meta += ' • ';
             meta += item.pos;
@@ -411,6 +424,21 @@
         if (item.transcription) {
             if (meta) meta += ' • ';
             meta += item.transcription;
+        }
+        if (item.preposition) {
+            if (meta) meta += ' • ';
+            const preps = Array.isArray(item.prepositions) && item.prepositions.length > 1
+                ? item.prepositions
+                : [item.preposition];
+            meta += item.preposition === 'none' ? 'No preposition (direct object)' : `+ ${preps.join(' / ')}`;
+        }
+        if (item.case) {
+            if (meta) meta += ' • ';
+            meta += `Case: ${item.case}`;
+        }
+        if (item.pattern) {
+            if (meta) meta += ' • ';
+            meta += `Pattern: ${item.pattern}`;
         }
         if (Array.isArray(item.synonyms) && item.synonyms.length) {
             if (meta) meta += ' • ';
@@ -424,14 +452,23 @@
             if (meta) meta += ' • ';
             meta += `Example: "${item.example}"`;
         }
+        if (item.common_mistake) {
+            if (meta) meta += ' • ';
+            meta += `Common mistake: ${item.common_mistake}`;
+        }
         return {
             text,
             translation,
-            definition: item.definition || '',
+            definition: item.definition || item.real_meaning || '',
             emoji: item.emoji || '',
             fromCalendar: Boolean(item.fromCalendar),
             meta,
             level: item.level || '',
+            preposition: item.preposition || '',
+            pattern: item.pattern || '',
+            case: item.case || '',
+            review: Boolean(item.review),
+            slotLevel: item.slotLevel || '',
             // exam-style speaking scaffolding; all optional so older cached prompts still render
             track: item.track === 'general' ? 'general' : 'exam',
             exam: item.exam || '',
@@ -461,6 +498,8 @@
             this.title = this.container.getAttribute('data-title') || 'Daily Practice Strip';
             // data-compact="true": no Practice challenge pill, streak or "done today" button (for non-Practice hosts)
             this.compact = this.container.getAttribute('data-compact') === 'true';
+            // data-recall="true": vocabulary cards start with the answer hidden, so the learner recalls before revealing.
+            this.recall = this.container.getAttribute('data-recall') === 'true';
             this.activeTab = this.tabs[0].id;
             this.selectedLevel = localStorage.getItem('cosy.dailyLevel') || 'a0-a1';
             this.audience = resolveAudience(this.container);
@@ -695,6 +734,12 @@
                 const item = this.categoryData[tab.id] || { text: 'Content unavailable.', translation: '', meta: '' };
                 const chrome = this.chrome();
                 const hasTranslation = Boolean(item.translation);
+                // Published word levels can be narrower than the selected band; say so instead of silently
+                // showing an A2 word as if it were C1 material. Review cards already carry their own label.
+                const levelNote = item.fromCalendar && item.level && !item.review && !levelInBand(item.level, this.selectedLevel)
+                    ? `Nearest available level: ${item.level}`
+                    : '';
+                const meta = [item.meta, levelNote].filter(Boolean).join(' • ');
                 // Only the COSYtools tabs carry a footer link now; the generic "Practice in Hub" deep link is gone.
                 const toolsUrl = tab.toolsLabel ? `${COSY_TOOLS_DAILY_URL}?lang=${encodeURIComponent(this.lang)}` : '';
 
@@ -755,24 +800,39 @@
                     </div>
                 ` : '';
 
+                const isVocab = Boolean(tab.calendar);
+                const answerId = `${this.uniqueId}_answer_${tab.id}`;
+                const translationButtonHTML = hasTranslation ? `
+                    <button type="button" class="daily-strip-toggle-translation-btn" data-target="${this.uniqueId}_trans_${tab.id}">
+                        🌐 Show Translation
+                    </button>
+                ` : '';
+                const answerHTML = `
+                    ${item.definition ? `<div class="daily-strip-definition">${this.escapeHTML(item.definition)}</div>` : ''}
+                    ${hasTranslation ? `<div class="daily-strip-translation" id="${this.uniqueId}_trans_${tab.id}" hidden>${this.escapeHTML(item.translation)}</div>` : ''}
+                    ${meta ? `<div class="daily-strip-meta">${this.escapeHTML(meta)}</div>` : ''}
+                    ${isVocab ? translationButtonHTML : ''}
+                `;
+                const answerBlockHTML = isVocab
+                    ? `<div class="daily-strip-answer" id="${answerId}"${this.recall ? ' hidden' : ''}>${answerHTML}</div>`
+                    : answerHTML;
+                const revealHTML = isVocab
+                    ? `<button type="button" class="daily-strip-reveal-btn" data-target="${answerId}" aria-expanded="${this.recall ? 'false' : 'true'}" aria-label="${this.recall ? 'Show answer' : 'Hide answer'}" title="${this.recall ? 'Show answer' : 'Hide answer'}">${this.recall ? '👁️ Show answer' : '🙈 Hide answer'}</button>`
+                    : '';
+
                 panel.innerHTML = `
                     ${levelBarHTML}
                     ${chipsHTML}
                     <div class="daily-strip-content-main">
                         <p class="daily-strip-prompt">${item.emoji ? `<span class="daily-strip-emoji" aria-hidden="true">${this.escapeHTML(item.emoji)}</span> ` : ''}${this.escapeHTML(item.text)}</p>
-                        ${item.definition ? `<div class="daily-strip-definition">${this.escapeHTML(item.definition)}</div>` : ''}
-                        ${hasTranslation ? `<div class="daily-strip-translation" id="${this.uniqueId}_trans_${tab.id}" hidden>${this.escapeHTML(item.translation)}</div>` : ''}
-                        ${item.meta ? `<div class="daily-strip-meta">${this.escapeHTML(item.meta)}</div>` : ''}
+                        ${revealHTML}
+                        ${answerBlockHTML}
                         ${followUpsHTML}
                         ${checklistHTML}
                     </div>
                     <div class="daily-strip-footer">
                         <div class="daily-strip-actions-left">
-                            ${hasTranslation ? `
-                                <button type="button" class="daily-strip-toggle-translation-btn" data-target="${this.uniqueId}_trans_${tab.id}">
-                                    🌐 Show Translation
-                                </button>
-                            ` : ''}
+                            ${hasTranslation && !isVocab ? translationButtonHTML : ''}
                         </div>
                         ${toolsUrl ? `
                         <div class="daily-strip-actions-right">
@@ -815,6 +875,29 @@
                                 transDiv.setAttribute('hidden', '');
                                 transBtn.textContent = '🌐 Show Translation';
                             }
+                        }
+                    });
+                }
+
+                // Recall mode: reveal the meaning only after the learner has tried to retrieve it.
+                const revealBtn = panel.querySelector('.daily-strip-reveal-btn');
+                if (revealBtn) {
+                    revealBtn.addEventListener('click', () => {
+                        const answer = panel.querySelector(`#${answerId}`);
+                        if (!answer) return;
+                        const hidden = answer.hasAttribute('hidden');
+                        if (hidden) {
+                            answer.removeAttribute('hidden');
+                            revealBtn.textContent = '🙈 Hide answer';
+                            revealBtn.setAttribute('aria-expanded', 'true');
+                            revealBtn.setAttribute('aria-label', 'Hide answer');
+                            revealBtn.setAttribute('title', 'Hide answer');
+                        } else {
+                            answer.setAttribute('hidden', '');
+                            revealBtn.textContent = '👁️ Show answer';
+                            revealBtn.setAttribute('aria-expanded', 'false');
+                            revealBtn.setAttribute('aria-label', 'Show answer');
+                            revealBtn.setAttribute('title', 'Show answer');
                         }
                     });
                 }

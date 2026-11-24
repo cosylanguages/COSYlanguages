@@ -525,6 +525,89 @@ test('Daily Strip phrasal-verb-of-the-day tab', async (t) => {
     });
 });
 
+test('Daily Strip idiom-of-the-day tab', async (t) => {
+    const card = { id: 'en:break-a-leg:idiom', word: 'break a leg', definition: 'To wish someone good luck before a performance.',
+                   example: 'Break a leg at your audition!', literal_meaning: 'Break a bone in your leg', emoji: '🍀' };
+
+    await t.test('an idiom card shows its meaning, literal gloss and example', () => {
+        const { helpers } = setupTestEnvironment();
+        const item = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'B1', card }, 'idiom'));
+        assert.equal(item.text, 'break a leg');
+        assert.equal(item.definition, 'To wish someone good luck before a performance.');
+        assert.equal(item.emoji, '🍀');
+        assert.ok(item.meta.includes('Literally: "Break a bone in your leg"'));
+        assert.ok(item.meta.includes('Example: "Break a leg at your audition!"'));
+    });
+
+    await t.test('data-slots can request the idiom tab and the strip loads calender/idiom', async () => {
+        const urls = [];
+        const todayKey = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; })();
+        const fakeFetch = async (url) => {
+            urls.push(url);
+            if (url.includes('/calendar/idiom/')) return { ok: true, json: async () => ({ days: { [todayKey]: { A2: card, B1: card } } }) };
+            return { ok: false, status: 404 };
+        };
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'en', 'data-slots': 'idiom', 'data-compact': 'true' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+        assert.ok(shell.includes('Idiom of the Day'));
+        assert.equal(comp.activeTab, 'idiom');
+        const panel = nodes[`#${comp.uniqueId}_panel_idiom`];
+        assert.ok(panel && panel.html.includes('break a leg') && panel.html.includes('daily-strip-definition'));
+        assert.ok(urls.some(u => u.includes('/COSYdata/daily/en/calendar/idiom/')));
+    });
+});
+
+test('Daily Strip recall mode', async (t) => {
+    const card = { id: 'fr:semaine:noun', word: 'semaine', pos: 'noun', definition: 'Une période composée de sept jours.',
+                   example: 'Je travaille cinq jours par semaine.', transcription: '/sə.mɛn/', emoji: '🗓️' };
+
+    async function mount(recall) {
+        const todayKey = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; })();
+        const fakeFetch = async (url) => {
+            if (url.includes('/calendar/word/')) return { ok: true, json: async () => ({ days: { [todayKey]: { A1: card } } }) };
+            return { ok: false, status: 404 };
+        };
+        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const nodes = {};
+        const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
+            querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
+        let shell = '';
+        const attrs = { 'data-lang': 'fr', 'data-slots': 'word', 'data-compact': 'true', 'data-recall': recall ? 'true' : 'false' };
+        const element = { classList: { add() {} }, getAttribute: (k) => (k in attrs ? attrs[k] : null), setAttribute() {},
+            set innerHTML(v) { shell = v; }, get innerHTML() { return shell; },
+            querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
+        const comp = new Component(element);
+        await new Promise(r => setTimeout(r, 30));
+        return { comp, nodes, shell };
+    }
+
+    await t.test('recall mode hides the answer and shows a reveal control', async () => {
+        const { comp, nodes } = await mount(true);
+        const html = nodes[`#${comp.uniqueId}_panel_word`].html;
+        assert.ok(html.includes('daily-strip-answer'));
+        assert.ok(/daily-strip-answer[^>]* hidden/.test(html), 'answer starts hidden');
+        assert.ok(html.includes('daily-strip-reveal-btn'));
+        assert.ok(html.includes('Show answer'));
+    });
+
+    await t.test('without recall mode the answer is visible and can be hidden', async () => {
+        const { comp, nodes } = await mount(false);
+        const html = nodes[`#${comp.uniqueId}_panel_word`].html;
+        assert.ok(/daily-strip-answer/.test(html));
+        assert.ok(!/daily-strip-answer[^>]* hidden/.test(html), 'answer starts visible');
+        assert.ok(html.includes('Hide answer'));
+    });
+});
+
 test('Daily Strip verb of the day and verb + preposition tabs', async (t) => {
     const card = { id: 'fr:marcher:verb', word: 'marcher', level: 'A1', definition: 'Se déplacer à pied en faisant des pas.',
                    example: 'Nous marchons dans le parc.', transcription: '/maʁ.ʃe/', emoji: '🚶' };
@@ -538,6 +621,64 @@ test('Daily Strip verb of the day and verb + preposition tabs', async (t) => {
         assert.equal(item.meta, 'CEFR A1 • /maʁ.ʃe/ • Example: "Nous marchons dans le parc."');
         const vp = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'B2', card }, 'verb-prep'));
         assert.equal(vp.text, 'marcher');
+    });
+
+    await t.test('a verb + preposition card shows the preposition, pattern and review label', () => {
+        const { helpers } = setupTestEnvironment();
+        const vpCard = {
+            id: 'en:depend:verb', word: 'depend', level: 'A2',
+            definition: 'To rely on something.', example: 'It depends on the weather.',
+            preposition: 'on', prepositions: ['on'], pattern: 'depend on [someone / something]',
+            slot_level: 'C1', review: true
+        };
+        const item = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'C1', card: vpCard }, 'verb-prep'));
+        assert.equal(item.text, 'depend on');
+        assert.equal(item.preposition, 'on');
+        assert.equal(item.review, true);
+        assert.equal(item.slotLevel, 'C1');
+        assert.ok(item.meta.includes('Review for C1'));
+        assert.ok(item.meta.includes('+ on'));
+        assert.ok(item.meta.includes('Pattern: depend on'));
+    });
+
+    await t.test('a verb with two governed prepositions shows both', () => {
+        const { helpers } = setupTestEnvironment();
+        const vpCard = {
+            id: 'fr:jouer:verb', word: 'jouer', level: 'A1',
+            definition: 'Se livrer à un jeu.', example: 'Elle joue au tennis.',
+            preposition: 'à', prepositions: ['à', 'de'], pattern: 'jouer + à + [sport] / jouer + de + [instrument]',
+            slot_level: 'B1', review: true
+        };
+        const item = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'B1', card: vpCard }, 'verb-prep'));
+        assert.equal(item.text, 'jouer à');
+        assert.ok(item.meta.includes('+ à / de'));
+    });
+
+    await t.test('a direct-object verb says so instead of inventing a preposition', () => {
+        const { helpers } = setupTestEnvironment();
+        const vpCard = {
+            id: 'en:greet:verb', word: 'greet', level: 'A2',
+            definition: 'To welcome someone.', example: 'She greeted everyone.',
+            preposition: 'none', prepositions: ['none'], pattern: 'greet [someone] (direct object)',
+            slot_level: 'B1', review: true
+        };
+        const item = helpers.parseDailyItem(helpers.calendarCardToItem({ level: 'B1', card: vpCard }, 'verb-prep'));
+        assert.equal(item.text, 'greet');
+        assert.ok(item.meta.includes('No preposition (direct object)'));
+        assert.ok(item.meta.includes('Pattern: greet'));
+    });
+
+    await t.test('legacy idiom real_meaning becomes the visible definition', () => {
+        const { helpers } = setupTestEnvironment();
+        const item = helpers.parseDailyItem({
+            idiom: 'Avoir le cafard',
+            literal_meaning: 'To have the cockroach',
+            real_meaning: 'To feel sad, gloomy, or blue',
+            example: "Il a le cafard depuis l'hiver."
+        });
+        assert.equal(item.definition, 'To feel sad, gloomy, or blue');
+        assert.equal(item.translation, 'To feel sad, gloomy, or blue');
+        assert.ok(item.meta.includes('Literally: "To have the cockroach"'));
     });
 
     await t.test('level bands: A0 and A1 are separate for verbs, like words', () => {
