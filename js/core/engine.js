@@ -122,6 +122,14 @@ function getNavHref(itemKey) {
     return `${p}${rawHref.replace(/^\/+/, '')}`;
 }
 
+function getLoginHref() {
+    const href = getNavHref('login');
+    if (typeof window === 'undefined' || !window.location) return href;
+    if (!/login\.html(?:[?#]|$)/.test(href) || /[?&](?:redirect|next)=/.test(href)) return href;
+    if (/\/login\.html$/.test(window.location.pathname)) return href;
+    return href + (href.indexOf('?') === -1 ? '?' : '&') + 'redirect=' + encodeURIComponent(window.location.href);
+}
+
 const NAV_CONFIG = {
     free: [
         { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
@@ -380,7 +388,7 @@ function renderLangPanelHTML() {
 function navFree () {
     const t = getNavLabel;
     const homeHref = getNavHref('home');
-    const loginHref = getNavHref('login');
+    const loginHref = getLoginHref();
     const isDark = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.theme') || localStorage.getItem('cosy_theme') || 'light') === 'dark');
     const pinnedLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.pinnedLang') || localStorage.getItem('cosy_ui_lang'))) || getActiveNavLang() || 'en';
     const logoPrefix = getPrefix();
@@ -590,7 +598,7 @@ function applyMode () {
 function mobileMenuHTML (mode) {
     const t = getNavLabel;
     const homeUrl = getNavHref('home');
-    const loginHref = getNavHref('login');
+    const loginHref = getLoginHref();
     const pinnedLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.pinnedLang') || localStorage.getItem('cosy_ui_lang'))) || 'en';
 
     const freeItems = NAV_CONFIG.free || [];
