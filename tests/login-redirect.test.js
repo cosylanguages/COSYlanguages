@@ -26,6 +26,13 @@ test('returns an absolute same-origin redirect with its query string', () => {
   assert.equal(resolve(target, options()), target);
 });
 
+test('returns a visitor to any COSY app page, not just platform or manuals', () => {
+  const events = 'https://cosylanguages.github.io/COSYevents/events/speaking-club.html?session=abc';
+  const magazine = 'https://cosylanguages.github.io/COSYmagazine/issues/2026-11.html';
+  assert.equal(resolve(events, options()), events);
+  assert.equal(resolve(magazine, options()), magazine);
+});
+
 test('preserves a hash used by lesson deep links', () => {
   const target = 'https://cosylanguages.github.io/COSYplatform/index.html#lesson=lessons/en/b1/unit1-travel.json';
   assert.equal(resolve(target, options()), target);
