@@ -52,13 +52,13 @@ function boot({ stored = {}, storageBlocked = false } = {}) {
     return { api: window.COSY.Audience, root, store, network: () => network, byId };
 }
 
-test('exposes API, starts neutral and injects the widget', () => {
+test('exposes API, starts neutral and does not inject the old settings panel', () => {
     const { api, root, byId } = boot();
     assert.ok(api);
     assert.equal(root.getAttribute('data-audience'), 'default');
     assert.equal(root.getAttribute('data-text-scale'), '1.0');
     assert.equal(root.getAttribute('data-reduced-motion'), 'false');
-    assert.ok(byId['cosy-audience-widget']);
+    assert.equal(byId['cosy-audience-widget'], undefined);
 });
 
 test('setAudience / setTextScale / setReducedMotion apply and persist', () => {
