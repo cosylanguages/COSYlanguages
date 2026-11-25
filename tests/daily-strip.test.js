@@ -1304,7 +1304,12 @@ test('Daily Strip chrome localization: every language labels its own controls', 
         const fakeFetch = async (url) => {
             for (const lang of ['de', 'fr']) {
                 if (url.endsWith(`/${lang}/band-guide.json`)) return { ok: true, json: async () => guideFor(lang) };
-                if (url.endsWith(`/${lang}/speaking.json`)) return { ok: true, json: async () => prompt(lang) };
+                if (url.endsWith(`/${lang}/speaking.json`)) {
+                    return { ok: true, json: async () => prompt(lang).filter((item) => item.id.includes(':speaking:')) };
+                }
+                if (url.endsWith(`/${lang}/writing.json`)) {
+                    return { ok: true, json: async () => prompt(lang).filter((item) => item.id.includes(':writing:')) };
+                }
             }
             return { ok: false, status: 404 };
         };
@@ -1319,6 +1324,7 @@ test('Daily Strip chrome localization: every language labels its own controls', 
             querySelector: (sel) => (nodes[sel] = nodes[sel] || makeNode()), querySelectorAll: () => [] };
         const comp = new Component(element);
         await new Promise(r => setTimeout(r, 40));
+        await comp.loadBandGuide();
         comp.selectedLevel = 'b1-b2';
         await comp.loadAllCategories();
         comp.renderContent();
