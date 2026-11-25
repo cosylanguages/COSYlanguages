@@ -33,7 +33,9 @@ This document details the privacy implications and technical safeguards built in
 
 ## 2. Audit & Management Console
 
-Users can view, modify, or delete their stored preferences at any time:
+Users can view or delete their stored preferences at any time:
 1. Open **Privacy & Safety** (`privacy.html`).
 2. Audit active local keys under **Your Local Storage Audit Console**.
-3. Use the **Reset Preferences** button in the Audience Control Panel or click **Clear All Learning Data** on `privacy.html`.
+3. Click **Clear All Learning Data** on `privacy.html`.
+
+The floating Audience Control Panel has been removed. Existing saved preferences are still honoured on page load, but there is no longer an on-page control for changing them.
