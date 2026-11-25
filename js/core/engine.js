@@ -122,12 +122,16 @@ function getNavHref(itemKey) {
     return `${p}${rawHref.replace(/^\/+/, '')}`;
 }
 
+const LOGIN_REDIRECT_VERSION = '20261125-1';
+
 function getLoginHref() {
     const href = getNavHref('login');
     if (typeof window === 'undefined' || !window.location) return href;
     if (!/login\.html(?:[?#]|$)/.test(href) || /[?&](?:redirect|next)=/.test(href)) return href;
     if (/\/login\.html$/.test(window.location.pathname)) return href;
-    return href + (href.indexOf('?') === -1 ? '?' : '&') + 'redirect=' + encodeURIComponent(window.location.href);
+    const sep = href.indexOf('?') === -1 ? '?' : '&';
+    return href + sep + 'redirect=' + encodeURIComponent(window.location.href)
+        + '&v=' + LOGIN_REDIRECT_VERSION;
 }
 
 const NAV_CONFIG = {
@@ -190,7 +194,7 @@ const COSY_ECOSYSTEM_MENU = [
                 title: 'Student Platform',
                 icon: '🎓',
                 promise: 'Your personal course dashboard',
-                href: 'login.html?redirect=https://cosylanguages.github.io/COSYplatform/&note=This%20area%20is%20for%20enrolled%20students.',
+                href: 'login.html?redirect=https://cosylanguages.github.io/COSYplatform/&note=This%20area%20is%20for%20enrolled%20students.&v=20261125-1',
                 isGated: true
             },
             {
@@ -198,7 +202,7 @@ const COSY_ECOSYSTEM_MENU = [
                 title: 'Manuals',
                 icon: '📚',
                 promise: 'Full lesson materials & guides',
-                href: 'login.html?redirect=https://cosylanguages.github.io/COSYmanuals/&note=This%20area%20is%20for%20enrolled%20students.',
+                href: 'login.html?redirect=https://cosylanguages.github.io/COSYmanuals/&note=This%20area%20is%20for%20enrolled%20students.&v=20261125-1',
                 isGated: true
             }
         ]
