@@ -38,6 +38,7 @@ const SHELL = [
   './css/audience.css',
   './js/core/config.js',
   './js/core/engine.js',
+  './js/core/login-redirect.js',
   './js/core/i18n.js',
   './js/core/ui.js',
   './js/core/audience.js',

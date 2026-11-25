@@ -250,6 +250,7 @@
     <script src="js/core/config.js" defer></script>
     <script src="js/data/languages.js" defer></script>
     <script src="js/core/engine.js" defer></script>
+    <script src="js/core/login-redirect.js"></script>
 
     <script>
         // =========================================================================
@@ -268,7 +269,6 @@
         }
 
         const COSY_PLATFORM_URL = "https://cosylanguages.github.io/COSYplatform/";
-        const COSY_MANUALS_URL = "https://cosylanguages.github.io/COSYmanuals/";
 
         function showAlert(message, type = 'error') {
             const banner = document.getElementById('alert-banner');
@@ -282,22 +282,22 @@
             banner.style.display = 'none';
         }
 
-        function getRedirectTarget(role) {
+        function getRedirectTarget() {
             const params = new URLSearchParams(window.location.search);
-            const redirectParam = params.get('redirect');
 
-            // Check if ?redirect= query param is provided and belongs to authorized ecosystem domains
-            if (redirectParam) {
-                if (redirectParam.startsWith(COSY_PLATFORM_URL) || redirectParam.startsWith(COSY_MANUALS_URL)) {
-                    return redirectParam;
-                }
-            }
+            // Return to the page the visitor came from. Only same-origin COSY
+            // pages are accepted; otherwise the referrer, then the platform.
+            // `next` is accepted as a legacy alias for `redirect`.
+            const resolved = window.COSYLoginRedirect
+                ? window.COSYLoginRedirect.resolve(params.get('redirect') || params.get('next'), {
+                    base: window.location.href,
+                    origin: window.location.origin,
+                    referrer: document.referrer,
+                    fallback: COSY_PLATFORM_URL
+                })
+                : null;
 
-            // Role-based default destination
-            if (role === 'teacher' || role === 'admin' || role === 'founder') {
-                return COSY_MANUALS_URL;
-            }
-            return COSY_PLATFORM_URL;
+            return resolved || COSY_PLATFORM_URL;
         }
 
         async function handleSignIn(event) {
@@ -349,7 +349,7 @@
                     }
                 }
 
-                let targetUrl = getRedirectTarget(role);
+                let targetUrl = getRedirectTarget();
 
                 // Store local user state
                 const cosyUser = { id: authData.user.id, email: authData.user.email, role: role };
@@ -369,6 +369,24 @@
                 submitBtn.textContent = 'Sign In ➔';
             }
         }
+
+        // A signed-in visitor who was sent here by another COSY page should go
+        // straight back there instead of being shown the form again.
+        (async function redirectIfAlreadySignedIn() {
+            if (!supabaseClient) return;
+
+            const params = new URLSearchParams(window.location.search);
+            if (!params.get('redirect') && !params.get('next')) return;
+
+            try {
+                const { data } = await supabaseClient.auth.getSession();
+                if (data && data.session && data.session.user) {
+                    window.location.replace(getRedirectTarget());
+                }
+            } catch (err) {
+                console.warn('[login] Could not check the existing session:', err);
+            }
+        })();
     </script>
 </body>
 </html>
