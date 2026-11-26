@@ -1,6 +1,6 @@
 /**
  * js/core/config.js
- * Central Configuration Layer for COSY Repository URLs and Ecosystem Routes.
+ * Central Configuration Layer for COSYlanguages Repository URLs and Ecosystem Routes.
  * Single source of truth across COSYlanguages, COSYmanuals, COSYevents, COSYgames, and COSYtools.
  */
 
@@ -16,7 +16,7 @@
 })(typeof self !== "undefined" ? self : this, function () {
   "use strict";
 
-  // Production base URLs for the COSY ecosystem repositories
+  // Production base URLs for the COSYlanguages ecosystem repositories
   const PRODUCTION_URLS = {
     COSYlanguages: "https://cosylanguages.github.io/COSYlanguages/",
     COSYmagazine: "https://cosylanguages.github.io/COSYmagazine/",

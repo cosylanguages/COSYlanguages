@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Adaptive Routing Engine
+ * COSYlanguages - Adaptive Routing Engine
  * Dynamic item selection and skill thread calibration.
  */
 

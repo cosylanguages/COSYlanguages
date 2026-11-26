@@ -1,5 +1,5 @@
 /**
- * COSY Languages - English Question Bank (CEFR A0-C2)
+ * COSYlanguages - English Question Bank (CEFR A0-C2)
  * Comprehensive quality-controlled item bank for Grammar, Vocabulary, and Reading.
  * Total items: 252 items (7 bands x 3 skills x 12 items).
  */
@@ -742,7 +742,7 @@ const ENGLISH_QUESTION_BANK = [
     "band": "A0",
     "difficulty": 1.0,
     "type": "reading_passage",
-    "passage": "WELCOME TO COSY HOTEL",
+    "passage": "WELCOME TO COSYlanguages HOTEL",
     "question": "What place is this?",
     "options": [
       "A hotel",

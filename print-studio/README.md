@@ -1,4 +1,4 @@
-# COSY Print Studio Staging Area
+# COSYlanguages Print Studio Staging Area
 
 This directory (`print-studio/`) serves as the consolidated staging area for all pedagogical print tools, flashcard generators, pocket zines, box models, and boardgame builders in the COSYlanguages ecosystem.
 

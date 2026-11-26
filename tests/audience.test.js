@@ -45,7 +45,7 @@ function boot({ stored = {}, storageBlocked = false } = {}) {
         addEventListener: () => {},
         dispatchEvent: () => true
     };
-    const window = { COSY: undefined, localStorage, matchMedia: () => ({ matches: false }), CustomEvent: function (t, o) { this.type = t; this.detail = o && o.detail; }, dispatchEvent: () => true, fetch: () => { network++; }, XMLHttpRequest: function () { network++; } };
+    const window = { COSYlanguages: undefined, localStorage, matchMedia: () => ({ matches: false }), CustomEvent: function (t, o) { this.type = t; this.detail = o && o.detail; }, dispatchEvent: () => true, fetch: () => { network++; }, XMLHttpRequest: function () { network++; } };
     window.window = window; window.document = document;
     const ctx = vm.createContext({ window, document, localStorage, CustomEvent: window.CustomEvent, console });
     vm.runInContext(SRC, ctx);

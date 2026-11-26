@@ -1,6 +1,6 @@
 # Contributing to COSYlanguages
 
-Thank you for your interest in contributing to **COSYlanguages**! This repository is the public front door of the COSY ecosystem: a static, no-build GitHub Pages site that hosts the language hubs, the course catalogue, the placement quiz, the price calculator and the "Hybrid & Community" pages.
+Thank you for your interest in contributing to **COSYlanguages**! This repository is the public front door of the COSYlanguages ecosystem: a static, no-build GitHub Pages site that hosts the language hubs, the course catalogue, the placement quiz, the price calculator and the "Hybrid & Community" pages.
 
 There is no backend and no build step. Open `index.html` directly, or serve the folder with any static server.
 
@@ -66,7 +66,6 @@ The following paths in this repository are consumed by sibling ecosystem reposit
 - `login.html`
 - `privacy.html`
 - `comparative/index.html`
-- `hybrid/index.html` (kept as a moved-notice stub — the hybrid pages were retired, the URL must keep resolving)
 - `images/logos/cosylanguages.png`
 - `shared/css/tokens.css` (design-token source)
 - `languages/it.html` (language redirect stub)

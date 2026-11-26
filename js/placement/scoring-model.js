@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Scoring & Diagnostic Placement Model
+ * COSYlanguages - Scoring & Diagnostic Placement Model
  * Independent 5-skill scoring, range reporting, and active-passive gap analysis.
  */
 

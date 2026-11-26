@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Localised placement prompts (FR, IT, RU, EL)
+ * COSYlanguages - Localised placement prompts (FR, IT, RU, EL)
  *
  * The English prompts in prompts-and-rubrics.js are not reusable across
  * languages: asking a French learner to explain "why you want to learn English"

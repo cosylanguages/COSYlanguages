@@ -1,6 +1,6 @@
 /**
  * js/core/auth-sso.js
- * Cross-Domain Ecosystem Single Sign-On (SSO) Module for COSY Applications.
+ * Cross-Domain Ecosystem Single Sign-On (SSO) Module for COSYlanguages Applications.
  * Manages cross-repo session handling via shared Supabase storage.
  */
 

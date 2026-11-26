@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Writing Evaluator Module
+ * COSYlanguages - Writing Evaluator Module
  * Client-side analytic rubric analyzer and teacher review workflow.
  *
  * Every heuristic here is language-aware: connectors, formal markers and the

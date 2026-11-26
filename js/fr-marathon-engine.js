@@ -1,4 +1,4 @@
-/* COSY French Pronunciation Marathon Shared Engine */
+/* COSYlanguages French Pronunciation Marathon Shared Engine */
 
 const MP_PALETTE = {
   paper: "#FBF7EE",

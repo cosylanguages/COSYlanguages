@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Prompts & Rubrics Specifications
+ * COSYlanguages - Prompts & Rubrics Specifications
  * Task prompts across CEFR bands (A0-C2) for Writing and Speaking,
  * along with analytic rubrics and performance anchors.
  */

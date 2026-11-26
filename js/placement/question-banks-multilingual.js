@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Multilingual Question Banks (FR, IT, RU, EL)
+ * COSYlanguages - Multilingual Question Banks (FR, IT, RU, EL)
  * CEFR-aligned items for Grammar, Vocabulary, and Reading across supported languages.
  * Fully monolingual: every question, prompt, passage, distractor, and explanation is written
  * exclusively in the target language.

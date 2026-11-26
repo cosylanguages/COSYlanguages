@@ -1,8 +1,8 @@
-# COSY Languages — Placement Assessment System Documentation 🌿
+# COSYlanguages — Placement Assessment System Documentation 🌿
 
 ## 1. Executive Summary & Architecture
 
-The COSY Languages Placement Assessment is a practical, rigorous, adaptive language-placement system built specifically for static web environments (GitHub Pages). It evaluates five distinct skill areas independently:
+The COSYlanguages Placement Assessment is a practical, rigorous, adaptive language-placement system built specifically for static web environments (GitHub Pages). It evaluates five distinct skill areas independently:
 
 1. **Grammar** (Structure & syntax accuracy)
 2. **Vocabulary** (Lexical range, collocations, idioms)
@@ -23,7 +23,7 @@ The COSY Languages Placement Assessment is a practical, rigorous, adaptive langu
 
 The assessment adheres to the Council of Europe's **CEFR Companion Volume** descriptors across 7 operational bands:
 
-| Band Code | CEFR Descriptor & COSY Operational Definition |
+| Band Code | CEFR Descriptor & COSYlanguages Operational Definition |
 |-----------|------------------------------------------------|
 | **A0** | Practical label for learners below/around Pre-A1 (isolated basic words, formulaic recognition). |
 | **A1** | Breakthrough / Beginner (simple phrases, basic needs, concrete daily topics). |
@@ -102,7 +102,7 @@ Before describing the question bank as psychometrically validated:
 1. **Pilot Sample:** Administer test to a minimum cohort of $N = 300$ language learners across target levels.
 2. **Item Calibration:** Calculate Item Difficulty ($p$-values) and Discrimination Indices ($r_{bis}$) to refine provisional items.
 3. **Inter-Rater Reliability:** Conduct double-blind human rating on writing and speaking submissions to calculate Intraclass Correlation Coefficient ($\text{ICC} \ge 0.80$).
-4. **External Anchor Comparison:** Compare COSY placement recommendations against standard standardized exams (IELTS, DELF, CILS, TORFL) to verify concurrent validity.
+4. **External Anchor Comparison:** Compare COSYlanguages placement recommendations against standard standardized exams (IELTS, DELF, CILS, TORFL) to verify concurrent validity.
 
 ---
 

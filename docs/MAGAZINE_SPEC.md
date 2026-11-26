@@ -36,7 +36,7 @@ Every COSYmagazine edition contains a curated selection from the following 10 ed
 | 5 | **Say It & Sentence Frames** | `Say It` 🗣️ | Ready-to-use conversational scaffolding, circumlocution tools ("What to say when you don't know the word"), and conversational bridge phrases. |
 | 6 | **COSYtalks & Podcast Decks** | `COSYtalks` / `The Podcast` 🎙️ | Accompanying audio episodes with dual modes: interactive 16:9 presentation slides (`?stage=1`) for classrooms and teleprompter scripts (`?script=1`) for self-recording. |
 | 7 | **Culture, Quotes & Nuances** | `Culture & Quotes` 🎭 | Idiomatic expressions, untranslatable cultural concepts (*gemütlich*, *meraki*, *dolce far niente*), literary micro-sparks, and historical sound shifts. |
-| 8 | **Learner Voices & Community** | `Reflections` 💭 | 100–250 word authentic student submissions, funny misunderstandings, breakthrough milestones, and reflections from the global COSY community. |
+| 8 | **Learner Voices & Community** | `Reflections` 💭 | 100–250 word authentic student submissions, funny misunderstandings, breakthrough milestones, and reflections from the global COSYlanguages community. |
 | 9 | **Tactile Print Studio Companion** | `Back Issues` / `Zine` 🗞️ | Single-sheet fold-out pocket zines (via `print-studio/print-zine.html`), broadsheet PDFs, and double-sided Leitner flashcard sheets. |
 | 10 | **Practice & Live Events Bridge** | `Cosy Events` 🎉 | Deep-linked interactive exercises on COSYpractice matching the issue's vocabulary/grammar, plus upcoming Cinema Club and Speaking Club themes on COSYevents. |
 
@@ -48,8 +48,8 @@ Every COSYmagazine edition contains a curated selection from the following 10 ed
 - **Theme**: Foundations, methodology, and core active verbs.
 - **CEFR Target**: A0–A2 (Starter to Elementary).
 - **Contents**:
-  - *Front Page*: "Welcome to the COSY Editorial & Learning Corner" & "Why Speaking-First is the Only Way to True Fluency".
-  - *Curriculum Reveal*: "How We Built the COSY Master Curriculum Across 14 Languages".
+  - *Front Page*: "Welcome to the COSYlanguages Editorial & Learning Corner" & "Why Speaking-First is the Only Way to True Fluency".
+  - *Curriculum Reveal*: "How We Built the COSYlanguages Master Curriculum Across 14 Languages".
   - *Words (14 Languages)*: "Top 10 Essential Verbs for Absolute Beginners (A0–A1)" across EN, FR, IT, RU, EL, DE, ES, PT, HY, KA, TT, BA, BR, CV (*be, have, think, know, like, want, work/study, go, can, eat/drink*).
   - *Podcast Episode #2*: High-frequency verb drill and conversational pronunciation.
 

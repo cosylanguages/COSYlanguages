@@ -2,7 +2,7 @@
  * COSYlanguages Daily Directory Component
  * File: js/daily-directory.js
  *
- * One shared directory of every daily surface in the COSY ecosystem. Each repository keeps its
+ * One shared directory of every daily surface in the COSYlanguages ecosystem. Each repository keeps its
  * daily content where it belongs; this component only links out to the page that owns it, so no
  * repository copies another's content.
  *
@@ -88,11 +88,11 @@
     ];
 
     var I18N = {
-        en: { more: 'More dailies across COSY', heading: 'Daily across the COSY ecosystem', sub: 'Every daily element stays in the repository that owns it — follow a card to read it there.', self: 'You are here', open: 'Open' },
-        fr: { more: 'Plus de quotidiens dans COSY', heading: 'Le quotidien dans l\'écosystème COSY', sub: 'Chaque élément quotidien reste dans le dépôt qui le possède — suivez une carte pour le lire là-bas.', self: 'Vous êtes ici', open: 'Ouvrir' },
-        it: { more: 'Altri quotidiani in COSY', heading: 'Il quotidiano nell\'ecosistema COSY', sub: 'Ogni elemento quotidiano resta nel repository che lo possiede — segui una scheda per leggerlo lì.', self: 'Sei qui', open: 'Apri' },
-        ru: { more: 'Ещё ежедневное в COSY', heading: 'Ежедневное в экосистеме COSY', sub: 'Каждый ежедневный элемент остаётся в своём репозитории — откройте карточку, чтобы прочитать его там.', self: 'Вы здесь', open: 'Открыть' },
-        el: { more: 'Περισσότερα καθημερινά στο COSY', heading: 'Καθημερινά στο οικοσύστημα COSY', sub: 'Κάθε καθημερινό στοιχείο μένει στο αποθετήριο που το κατέχει — ακολουθήστε μια κάρτα για να το διαβάσετε εκεί.', self: 'Είστε εδώ', open: 'Άνοιγμα' }
+        en: { more: 'More dailies across COSYlanguages', heading: 'Daily across the COSYlanguages ecosystem', sub: 'Every daily element stays in the repository that owns it — follow a card to read it there.', self: 'You are here', open: 'Open' },
+        fr: { more: 'Plus de quotidiens dans COSYlanguages', heading: 'Le quotidien dans l\'écosystème COSYlanguages', sub: 'Chaque élément quotidien reste dans le dépôt qui le possède — suivez une carte pour le lire là-bas.', self: 'Vous êtes ici', open: 'Ouvrir' },
+        it: { more: 'Altri quotidiani in COSYlanguages', heading: 'Il quotidiano nell\'ecosistema COSYlanguages', sub: 'Ogni elemento quotidiano resta nel repository che lo possiede — segui una scheda per leggerlo lì.', self: 'Sei qui', open: 'Apri' },
+        ru: { more: 'Ещё ежедневное в COSYlanguages', heading: 'Ежедневное в экосистеме COSYlanguages', sub: 'Каждый ежедневный элемент остаётся в своём репозитории — откройте карточку, чтобы прочитать его там.', self: 'Вы здесь', open: 'Открыть' },
+        el: { more: 'Περισσότερα καθημερινά στο COSYlanguages', heading: 'Καθημερινά στο οικοσύστημα COSYlanguages', sub: 'Κάθε καθημερινό στοιχείο μένει στο αποθετήριο που το κατέχει — ακολουθήστε μια κάρτα για να το διαβάσετε εκεί.', self: 'Είστε εδώ', open: 'Άνοιγμα' }
     };
 
     var instanceSeq = 0;

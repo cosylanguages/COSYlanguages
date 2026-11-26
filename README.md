@@ -1,6 +1,6 @@
 # COSYlanguages 🌿
 
-The free, cosy front door to the COSY ecosystem: language hubs (English, French, Italian, Russian, Greek and more), the course catalogue, a placement quiz, a price calculator and the "Hybrid & Community" pages.
+The free, cosy front door to the COSYlanguages ecosystem: language hubs (English, French, Italian, Russian, Greek and more), the course catalogue, a placement quiz, a price calculator and the "Hybrid & Community" pages.
 
 Static site, no backend, no build step. Open `index.html` or serve the folder with any static server.
 
@@ -65,4 +65,4 @@ the placement system, the COSYmagazine editorial spec, and privacy notes.
 - Fully free for visitors. Supabase is only loaded on `login.html`.
 - Fonts are self-hosted (Fraunces, Literata, Commissioner); no third-party requests.
 
-© 2020–2026 COSY Languages. All rights reserved.
+© 2020–2026 COSYlanguages. All rights reserved.

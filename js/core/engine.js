@@ -307,26 +307,12 @@ function getActiveNavLang() {
     return (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || htmlLang || 'en';
 }
 
-const NAV_FALLBACKS = {
-    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', magazine: 'Magazine', blog: 'Magazine', join: 'Join', contact: 'Contact us', login: 'Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home', toggle_dark_mode: 'Toggle Dark Mode', whatsapp_contact: 'Contact us on WhatsApp' },
-    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', magazine: 'Magazine', blog: 'Magazine', join: 'Rejoindre', contact: 'Contact', login: 'Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil', toggle_dark_mode: 'Mode sombre', whatsapp_contact: 'Contactez-nous sur WhatsApp' },
-    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', magazine: 'Magazine', blog: 'Magazine', join: 'Unisciti', contact: 'Contatti', login: 'Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home', toggle_dark_mode: 'Modalità scura', whatsapp_contact: 'Contattaci su WhatsApp' },
-    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', magazine: 'Журнал', blog: 'Журнал', join: 'Начать', contact: 'Связь', login: 'Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная', toggle_dark_mode: 'Тёмная тема', whatsapp_contact: 'Написать нам в WhatsApp' },
-    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', magazine: 'Περιοδικό', blog: 'Περιοδικό', join: 'Εγγραφή', contact: 'Επικοινωνία', login: 'Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική', toggle_dark_mode: 'Σκοτεινή λειτουργία', whatsapp_contact: 'Επικοινωνήστε μαζί μας στο WhatsApp' }
-};
-
 function getNavLabel(key, fallback) {
     const cleanKey = key.replace(/^nav\./, '');
-    const activeLang = getActiveNavLang();
-
-    if (NAV_FALLBACKS[activeLang] && NAV_FALLBACKS[activeLang][cleanKey]) {
-        return NAV_FALLBACKS[activeLang][cleanKey];
-    }
     if (typeof window !== 'undefined' && window.t) {
         const val = window.t('nav.' + cleanKey) || window.t('nav_' + cleanKey) || window.t(cleanKey);
         if (val) return val;
     }
-    if (NAV_FALLBACKS.en && NAV_FALLBACKS.en[cleanKey]) return NAV_FALLBACKS.en[cleanKey];
     return fallback;
 }
 
@@ -628,7 +614,7 @@ function mobileMenuHTML (mode) {
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
 
       <div class="cosy-mobile-eco-section" style="padding: 4px 12px;">
-        <span class="cosy-mobile-eco-title" style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft, #666); display: block; margin-bottom: 6px;">COSY ecosystem</span>
+        <span class="cosy-mobile-eco-title" style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft, #666); display: block; margin-bottom: 6px;">COSYlanguages ecosystem</span>
         <div style="display: flex; flex-direction: column; gap: 4px;">
           <a href="${homeUrl}" class="cosy-mobile-eco-link active" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYlanguages</a>
           <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYevents 🎉</a>
@@ -835,7 +821,7 @@ const COSY = window.COSY = {
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
         if (window.CosyTheme && typeof window.CosyTheme.set === 'function') {
             // Shared module writes both storage keys, html[data-theme], .theme-dark
-            // and color-scheme, so every other COSY page agrees.
+            // and color-scheme, so every other COSYlanguages page agrees.
             window.CosyTheme.set(newTheme);
         } else {
             try {
@@ -1002,7 +988,6 @@ const COSY = window.COSY = {
     getNavHref,
     DEFAULT_ECOSYSTEM_URLS,
     NAV_CONFIG,
-    NAV_FALLBACKS,
     COSY_ECOSYSTEM_MENU,
 
     renderEcosystemMegaMenuHTML() {
@@ -1032,9 +1017,9 @@ const COSY = window.COSY = {
         }).join('');
 
         return `
-          <div id="cosy-eco-mega-menu" class="cosy-eco-mega-menu" role="dialog" aria-label="COSY Ecosystem Navigation" hidden>
+          <div id="cosy-eco-mega-menu" class="cosy-eco-mega-menu" role="dialog" aria-label="COSYlanguages Ecosystem Navigation" hidden>
             <div class="cosy-eco-menu-header">
-              <span class="cosy-eco-menu-title">🌐 COSY Ecosystem</span>
+              <span class="cosy-eco-menu-title">🌐 COSYlanguages Ecosystem</span>
               <button type="button" class="cosy-eco-menu-close" aria-label="Close ecosystem menu" onclick="COSY.closeEcosystemMenu()">✕</button>
             </div>
             <div class="cosy-eco-menu-body">
@@ -1305,45 +1290,6 @@ const COSY = window.COSY = {
         return (window.curriculumData && window.curriculumData[key]) || [];
     },
 
-    async loadMorphologyData(lang) {
-        if (!lang) return [];
-
-        const langLow = lang.toLowerCase();
-        window.morphologyData = window.morphologyData || {};
-        window.morphologyData[langLow] = window.morphologyData[langLow] || [];
-
-        const prefix = getPrefix();
-        const files = ['verbs.json', 'nouns.json', 'pronouns.json', 'determiners.json', 'adjectives.json', 'numerals.json'];
-
-        const loadPromises = files.map(file => {
-            const path = `${prefix}grammar/${langLow}/morphology/${file}`;
-            return fetch(path)
-                .then(res => res.ok ? res.json() : null)
-                .then(data => {
-                    if (data && data.groups) {
-                        data.groups.forEach(group => {
-                            const items = group.items || [group];
-                            items.forEach(item => {
-                                if (!item.id) return;
-                                const entry = {
-                                    ...item,
-                                    group: group.id,
-                                    group_label: group.label || group.id,
-                                    category: data.category || 'morphology',
-                                    language: langLow
-                                };
-                                window.morphologyData[langLow].push(entry);
-                            });
-                        });
-                    }
-                })
-                .catch(err => console.warn(`[COSY Morphology Loader] Failed to load ${path}:`, err));
-        });
-
-        await Promise.all(loadPromises);
-        return window.morphologyData[langLow];
-    },
-
     setNavContext(html) {
         const ctx = document.getElementById('cosy-nav-context');
         if (ctx) ctx.innerHTML = html;
@@ -1423,7 +1369,6 @@ if (typeof module !== 'undefined' && module.exports) {
         getNavHref,
         DEFAULT_ECOSYSTEM_URLS,
         NAV_CONFIG,
-        NAV_FALLBACKS,
         COSY_ECOSYSTEM_MENU
     };
 }

@@ -107,12 +107,12 @@ test('Daily Directory compact mode (embedded under the hub strip)', async (t) =>
         assert.ok(!host.innerHTML.includes('daily-directory-card'), 'no full cards');
         assert.ok(!host.innerHTML.includes('/COSYlanguages/'), 'does not link to itself');
         assert.ok(host.innerHTML.includes('Word of the Day'), 'tooltip lists what each owner publishes');
-        assert.ok(host.innerHTML.includes('More dailies across COSY'));
+        assert.ok(host.innerHTML.includes('More dailies across COSYlanguages'));
     });
     await t.test('is localised', () => {
         const host = fakeNode({ 'data-self': 'languages', 'data-lang': 'fr', 'data-compact': 'true' });
         load(host);
-        assert.ok(host.innerHTML.includes('Plus de quotidiens dans COSY'));
+        assert.ok(host.innerHTML.includes('Plus de quotidiens dans COSYlanguages'));
     });
     await t.test('renderCompact works for the strip even without the attribute', () => {
         const dir = load();

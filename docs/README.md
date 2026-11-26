@@ -6,7 +6,7 @@ root files: [README](../README.md), [CONTRIBUTING](../CONTRIBUTING.md),
 
 | Document | What it covers |
 |---|---|
-| [ECOSYSTEM_ARCHITECTURE.md](ECOSYSTEM_ARCHITECTURE.md) | How the COSY repositories fit together and where each owns its content |
+| [ECOSYSTEM_ARCHITECTURE.md](ECOSYSTEM_ARCHITECTURE.md) | How the COSYlanguages repositories fit together and where each owns its content |
 | [PLACEMENT.md](PLACEMENT.md) | The placement assessment system: adaptive engine, scoring, reporting |
 | [MAGAZINE_SPEC.md](MAGAZINE_SPEC.md) | COSYmagazine content and editorial architecture specification |
 | [audience-preferences-privacy.md](audience-preferences-privacy.md) | Audience preference handling and privacy notes |

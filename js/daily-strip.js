@@ -582,7 +582,7 @@
             this.mountDirectory();
         }
 
-        // data-directory="true" adds one line of links to the other COSY daily surfaces under the tabs.
+        // data-directory="true" adds one line of links to the other COSYlanguages daily surfaces under the tabs.
         // If daily-directory.js has not run yet it renders the slot itself when it loads.
         mountDirectory() {
             const slot = this.container.querySelector && this.container.querySelector('[data-daily-directory]');

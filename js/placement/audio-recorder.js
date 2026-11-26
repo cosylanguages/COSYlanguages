@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Browser Audio Recorder Component
+ * COSYlanguages - Browser Audio Recorder Component
  * Handles microphone recording via MediaRecorder API, status feedback,
  * level meter visualization, playback, deletion, and non-audio fallbacks.
  */

@@ -1,8 +1,8 @@
 /**
- * COSY Ecosystem Strip (shared)
+ * COSYlanguages Ecosystem Strip (shared)
  * File: js/ecosystem-strip.js
  *
- * One shared "🌐 COSY Ecosystem" bar for every COSY site except the COSYlanguages hub itself.
+ * One shared "🌐 COSYlanguages Ecosystem" bar for every COSYlanguages site except the COSYlanguages hub itself.
  * It links to the sibling repositories; it never copies their content.
  *
  * Hosts mount it with:
@@ -12,7 +12,7 @@
  *
  * `data-self` (languages|events|data|tools|practice|games|platform|manuals|studio) removes the host's
  * own link. COSYplatform and COSYmanuals are shown only to signed-in visitors; the session is read
- * from the shared Supabase storage key "cosy-auth" (same key every COSY site writes), and the bar
+ * from the shared Supabase storage key "cosy-auth" (same key every COSYlanguages site writes), and the bar
  * updates live when the visitor signs in or out in another tab.
  *
  * Add `data-theme-toggle` to the mount to opt into the shared theme engine (dark mode): the saved or
@@ -47,11 +47,11 @@
 
     // The brand phrase and accessible name, translated for the languages the ecosystem ships.
     var STRINGS = {
-        en: { brand: '🌐 COSY Ecosystem:', label: 'COSY Ecosystem products' },
-        fr: { brand: '🌐 Écosystème COSY :', label: 'Produits de l\u2019écosystème COSY' },
-        it: { brand: '🌐 Ecosistema COSY:', label: 'Prodotti dell\u2019ecosistema COSY' },
-        ru: { brand: '🌐 Экосистема COSY:', label: 'Продукты экосистемы COSY' },
-        el: { brand: '🌐 Οικοσύστημα COSY:', label: 'Προϊόντα οικοσυστήματος COSY' }
+        en: { brand: '🌐 COSYlanguages Ecosystem:', label: 'COSYlanguages Ecosystem products' },
+        fr: { brand: '🌐 Écosystème COSYlanguages :', label: 'Produits de l\u2019écosystème COSYlanguages' },
+        it: { brand: '🌐 Ecosistema COSYlanguages:', label: 'Prodotti dell\u2019ecosistema COSYlanguages' },
+        ru: { brand: '🌐 Экосистема COSYlanguages:', label: 'Продукты экосистемы COSYlanguages' },
+        el: { brand: '🌐 Οικοσύστημα COSYlanguages:', label: 'Προϊόντα οικοσυστήματος COSYlanguages' }
     };
 
     function stringsFor(lang) {
@@ -145,7 +145,7 @@
 
     // ── Shared theme engine (opt-in via data-theme-toggle on the mount) ──────────────
     // Same storage contract as the per-site cosy-theme.js: primary key "cosy.theme", with the
-    // older "cosy_theme" / "ce-theme" keys read and written so every COSY page agrees.
+    // older "cosy_theme" / "ce-theme" keys read and written so every COSYlanguages page agrees.
     var THEME_KEY = 'cosy.theme';
     var THEME_LEGACY = ['cosy_theme', 'ce-theme'];
 

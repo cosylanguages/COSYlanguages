@@ -1,6 +1,6 @@
 # Word Explorer (Comparative Atlas tab)
 
-Compare one concept (weekday, month, season) across the 14 COSY languages.
+Compare one concept (weekday, month, season) across the 14 COSYlanguages languages.
 
 - **Data**: fetched at runtime from COSYdata (`comparative/languages.json`, `comparative/concepts/calendar.json`,
   `comparative/linguistics/calendar-cognates.json`) at `https://cosylanguages.github.io/COSYdata/`.

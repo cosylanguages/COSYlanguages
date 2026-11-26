@@ -1,188 +1,290 @@
 /**
  * js/core/i18n.js
- * Language detection and UI localization system based on JSON string files.
- * Adheres to the "No-Translation" immersion principle: content is exclusively
- * target-language based, no fallback to English permitted.
+ * The site's single i18n engine.
+ *
+ * Two string sets exist and both are consumed here:
+ *   data/ui/<lang>.json      flat or nested keys for t() and [data-translate-key]
+ *   js/i18n/<lang>.json      nested keys for [data-i18n] chrome in page markup
+ *
+ * It also injects the canonical footer, so a page does not need to keep a second
+ * copy of the footer in its own HTML.
  */
 
 (function() {
     'use strict';
 
+    const UI_DATA_LANGS = ['el', 'en', 'fr', 'it', 'ru'];
+    const CHROME_LANGS = ['el', 'en', 'fr', 'it', 'ru'];
+
     let currentLang = null;
     let translations = {};
+    let chromeTranslations = {};
+    let chromeFallback = {};
 
     /**
-     * Determines the current language based on the environment.
-     * localStorage wins, otherwise fallback to path/URL, otherwise 'en'.
+     * Relative prefix ('../' repeated) that reaches the site root. Used for the
+     * fetches and for the injected footer links, on Pages, on a local server and
+     * from a file:// checkout.
+     */
+    function getPrefix() {
+        if (window.COSY && typeof window.COSY.getPrefix === 'function') {
+            return window.COSY.getPrefix();
+        }
+        let path = window.location.pathname;
+        for (const base of ['/COSYlanguages/', '/COSYlanguages']) {
+            if (path.startsWith(base)) {
+                path = path.slice(base.length);
+                break;
+            }
+        }
+        if (path.startsWith('/')) path = path.slice(1);
+        const segments = path.split('/').filter(Boolean);
+        if (segments.length && segments[segments.length - 1].includes('.')) segments.pop();
+        return segments.length ? '../'.repeat(segments.length) : './';
+    }
+
+    /**
+     * Determines the current language: stored choice, then the URL path, then 'en'.
      */
     function detectLanguage() {
+        // A /languages/<code>/ page is written in that language; the URL wins over
+        // a previously stored UI choice, otherwise the page reads in one language
+        // and its navigation in another.
+        const langMatch = window.location.pathname.match(/\/languages\/([a-z]{2})\//);
+        if (langMatch) return langMatch[1].toLowerCase();
+
         const stored = localStorage.getItem('cosy_last_language');
         if (stored) return stored.toLowerCase();
 
-        const path = window.location.pathname;
-
-        // Rule 1: URL path determines language (e.g., /languages/el/)
-        const langMatch = path.match(/\/languages\/([a-z]{2})\//);
-        if (langMatch) return langMatch[1].toLowerCase();
-
-        // Fallback to English
-        return 'en';
+        return (document.documentElement.lang || 'en').toLowerCase();
     }
 
-    /**
-     * Fetches the UI strings JSON for a given language.
-     */
-    const EXISTING_UI_DATA_LANGS = ["el", "en", "fr", "it", "ru"];
-    async function fetchTranslations(lang) {
-        if (!lang || !EXISTING_UI_DATA_LANGS.includes(lang)) return {};
-
-        const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function')
-            ? window.COSY.getPrefix()
-            : '/';
-
+    async function fetchJSON(path) {
         try {
-            const response = await fetch(`${prefix}data/ui/${lang}.json?v=${Date.now()}`);
-            if (!response.ok) throw new Error(`Could not load ${lang}.json`);
+            const response = await fetch(`${path}?v=${Date.now()}`);
+            if (!response.ok) return null;
             return await response.json();
-        } catch (e) {
-            console.warn(`[i18n] Failed to load UI strings for ${lang}`, e);
-            return {};
+        } catch (error) {
+            console.warn('[i18n] could not load', path, error);
+            return null;
         }
     }
 
+    async function fetchTranslations(lang) {
+        if (!lang || !UI_DATA_LANGS.includes(lang)) return {};
+        return (await fetchJSON(`${getPrefix()}data/ui/${lang}.json`)) || {};
+    }
+
+    async function fetchChrome(lang) {
+        return (await fetchJSON(`${getPrefix()}js/i18n/${lang}.json`)) || {};
+    }
+
+    function nestedLookup(source, key) {
+        if (!source || !key) return '';
+        if (typeof source[key] === 'string') return source[key];
+        let value = source;
+        for (const part of key.split('.')) {
+            if (value && typeof value === 'object' && part in value) {
+                value = value[part];
+            } else {
+                return '';
+            }
+        }
+        return typeof value === 'string' ? value : '';
+    }
 
     /**
-     * Translates a key using the currently loaded strings.
-     * Supports nested keys (e.g., "nav.home").
+     * t() resolves against data/ui/<lang>.json: literal key first, then nested.
+     * A missing key stays empty: target-language pages are not back-filled with
+     * English (the documented immersion rule).
      */
     window.t = function(key) {
         if (!key) return '';
-
-        // Try literal match first
-        if (translations[key]) return translations[key];
-
-        // Try nested match
-        const parts = key.split('.');
-        let val = translations;
-        for (const part of parts) {
-            if (val && typeof val === 'object' && part in val) {
-                val = val[part];
-            } else {
-                return ''; // No-Translation Rule: leave blank if missing
-            }
-        }
-        return typeof val === 'string' ? val : '';
+        if (typeof translations[key] === 'string') return translations[key];
+        return nestedLookup(translations, key);
     };
 
+    /** Chrome lookup for [data-i18n]: current language, then English. */
+    function tc(key) {
+        return nestedLookup(chromeTranslations, key) || nestedLookup(chromeFallback, key);
+    }
+
+    const PICTOGRAPH = /[\u{1F000}-\u{1FAFF}\u{2190}-\u{21FF}\u{2300}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}]/u;
+
     /**
-     * Applies translations to all elements with data-translate-key.
+     * Many string values carry their own emoji while the surrounding template
+     * renders one too, which showed up as "🔐🔐 Connexion". Drop the value's
+     * pictographs when the same node's context already shows one.
      */
+    function dedupeIcon(el, value) {
+        const parent = el.parentElement;
+        if (!parent || !parent.querySelector('.nav-item-icon')) return value;
+
+        const stripped = value.replace(/[\u{1F000}-\u{1FAFF}\u{2190}-\u{21FF}\u{2300}-\u{27BF}\u{2B00}-\u{2BFF}]/gu, '')
+            .replace(/\s{2,}/g, ' ')
+            .trim();
+        return stripped || value;
+    }
+
+    function applyText(el, value) {
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+            if (el.hasAttribute('placeholder')) el.setAttribute('placeholder', value);
+            else el.value = value;
+        } else if (el.tagName === 'META') {
+            el.setAttribute('content', value);
+        } else if (el.tagName === 'TITLE') {
+            if (value) document.title = value;
+        } else {
+            el.innerHTML = value;
+        }
+    }
+
     function applyTranslations() {
-        if (!currentLang) return; // Safety check
-        if (!translations || Object.keys(translations).length === 0) return; // Safety check
-
-        const elements = document.querySelectorAll('[data-translate-key]');
-        elements.forEach(el => {
-            const key = el.getAttribute('data-translate-key');
-            const translation = window.t(key);
-
-            // Immersion rule: if key is missing, it becomes blank (or stays blank)
-            // if we are in a specific language mode.
-            if (translation || el.hasAttribute('data-immersion-strict')) {
-                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-                    if (el.hasAttribute('placeholder')) el.setAttribute('placeholder', translation);
-                    else el.value = translation;
-                } else if (el.tagName === 'META') {
-                    el.setAttribute('content', translation);
-                } else if (el.tagName === 'TITLE') {
-                    if (translation) document.title = translation;
-                } else {
-                    el.innerHTML = translation;
-                }
+        // data-translate-key wins: it is the language-specific string, while
+        // data-i18n falls back to English and would overwrite it on shared nodes.
+        document.querySelectorAll('[data-translate-key]').forEach(el => {
+            const value = window.t(el.getAttribute('data-translate-key'));
+            if (value || el.hasAttribute('data-immersion-strict')) {
+                applyText(el, value ? dedupeIcon(el, value) : value);
+                if (value) el.setAttribute('data-i18n-applied', '1');
             }
         });
+
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            if (el.getAttribute('data-i18n-applied')) return;
+            const value = tc(el.getAttribute('data-i18n'));
+            if (value) applyText(el, value);
+        });
+
+        document.querySelectorAll('[data-i18n-aria-label]').forEach(el => {
+            const value = tc(el.getAttribute('data-i18n-aria-label'));
+            if (value) el.setAttribute('aria-label', value);
+        });
+
+        updateFlagPickerUI();
+    }
+
+    function updateFlagPickerUI() {
+        for (const id of ['cosy-language-switcher', 'cosy-language-switcher-mobile']) {
+            const el = document.getElementById(id);
+            if (el) el.value = currentLang;
+        }
     }
 
     /**
-     * Public setLanguage for manual switching.
+     * Replaces the page footer with the canonical one. Pages that render their own
+     * footer (reference apps, app containers) opt out and keep theirs.
      */
-    let inSyncChange = false;
-    window.setLanguage = async function(lang) {
-        if (!lang) return;
-        if (inSyncChange) return;
-
-        // Check language lock state
-        if (localStorage.getItem('cosy_ui_lang_locked') === 'true' && currentLang && lang.toLowerCase() !== currentLang.toLowerCase()) {
-            if (window.setUILanguage) {
-                await window.setUILanguage(lang);
-            }
+    function injectCanonicalFooter() {
+        const footer = document.querySelector('footer');
+        if (!footer) return;
+        if (
+            footer.classList.contains('app-footer') ||
+            footer.hasAttribute('data-no-canonical-footer') ||
+            footer.closest('.app-container') ||
+            document.querySelector('.app-container')
+        ) {
             return;
         }
 
+        const prefix = getPrefix();
+        footer.innerHTML = `
+          <div class="footer-inner">
+            <div class="footer-brand">
+              <div class="fb-logo">
+                <img src="${prefix}images/logos/cosylanguages.png" alt="COSYlanguages logo">
+                <span class="fb-name">COSYlanguages</span>
+              </div>
+              <p data-i18n="footer.description">Your friendly corner to master new languages and connect with the world. 🌍</p>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.courses">Courses</h3>
+              <a href="https://cosylanguages.github.io/COSYplatform/" data-i18n="course_general">Paid Courses (COSYplatform) 🎓</a>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.explore">Explore</h3>
+              <a href="${prefix}#languages"><span class="nav-item-icon" aria-hidden="true">🌍</span> <span data-i18n="nav.languages">Languages</span></a>
+              <a href="https://cosylanguages.github.io/COSYpractice/"><span class="nav-item-icon" aria-hidden="true">💡</span> <span data-i18n="nav.practice">Free Practice</span></a>
+              <a href="${prefix}placement-quiz.html"><span class="nav-item-icon" aria-hidden="true">📝</span> Placement Quiz</a>
+              <a href="https://cosylanguages.github.io/COSYevents/"><span class="nav-item-icon" aria-hidden="true">🎉</span> <span data-i18n="nav.events">Events</span></a>
+              <a href="https://cosylanguages.github.io/COSYgames/"><span class="nav-item-icon" aria-hidden="true">🎮</span> <span data-i18n="nav.games">Games</span></a>
+              <a href="https://cosylanguages.github.io/COSYmagazine/"><span class="nav-item-icon" aria-hidden="true">📖</span> <span data-i18n="nav.magazine">Magazine</span></a>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.project">Project</h3>
+              <a href="${prefix}privacy.html" data-i18n="footer.privacy">Privacy &amp; Safety 🛡️</a>
+            </div>
+            <div class="footer-links-col">
+              <h3 data-i18n="footer.contact">Contact</h3>
+              <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+              <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+              <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+            </div>
+          </div>
+          <div class="footer-bottom" data-i18n="footer.allRightsReserved">© 2020–2026 COSYlanguages — All rights reserved</div>
+        `;
+    }
+
+    async function loadLanguage(lang) {
+        currentLang = (lang || 'en').toLowerCase();
+        const [ui, chrome] = await Promise.all([
+            fetchTranslations(currentLang),
+            CHROME_LANGS.includes(currentLang) ? fetchChrome(currentLang) : Promise.resolve({})
+        ]);
+        translations = ui || {};
+        chromeTranslations = chrome || {};
+        if (Object.keys(chromeFallback).length === 0) {
+            chromeFallback = currentLang === 'en' ? chromeTranslations : await fetchChrome('en');
+        }
+    }
+
+    let inSyncChange = false;
+
+    /**
+     * Switching entry point, exposed as both setLanguage (engine scripts) and
+     * setUILanguage (page controls) so every existing caller keeps working.
+     */
+    async function switchTo(lang) {
+        if (!lang || inSyncChange) return;
+        const next = lang.toLowerCase();
+        if (currentLang && next === currentLang) return;
+        if (localStorage.getItem('cosy_ui_lang_locked') === 'true' && currentLang) return;
+
         inSyncChange = true;
         try {
-            currentLang = lang.toLowerCase();
+            await loadLanguage(next);
+            // Only an explicit choice is remembered; reading a /languages/<code>/
+            // page must not silently switch the whole site's chrome.
             localStorage.setItem('cosy_last_language', currentLang);
-            translations = await fetchTranslations(currentLang);
+            injectCanonicalFooter();
             applyTranslations();
-
-            if (window.setUILanguage) {
-                await window.setUILanguage(currentLang);
-            }
-
-            // Refresh navbar/mobile menu/etc. to update lang pickers & menus
-            if (window.COSY && typeof window.COSY.refresh === 'function') {
-                window.COSY.refresh();
-            }
-
+            if (window.COSY && typeof window.COSY.refresh === 'function') window.COSY.refresh();
             document.dispatchEvent(new CustomEvent('cosyLanguageChanged', { detail: { lang: currentLang } }));
         } finally {
             inSyncChange = false;
         }
+    }
+
+    window.setLanguage = switchTo;
+    window.setUILanguage = switchTo;
+
+    window.toggleLanguageLock = function() {
+        const locked = localStorage.getItem('cosy_ui_lang_locked') === 'true';
+        const next = !locked;
+        localStorage.setItem('cosy_ui_lang_locked', next ? 'true' : 'false');
+        const message = nestedLookup(chromeTranslations, next ? 'lang_locked_notice' : 'lang_unlocked_notice') ||
+            (next ? 'Device language locked.' : 'Device language unlocked.');
+        if (window.COSY && typeof window.COSY.showToast === 'function') window.COSY.showToast(message);
+        updateFlagPickerUI();
+        document.dispatchEvent(new CustomEvent('cosyLanguageLockChanged', { detail: { locked: next } }));
+        return next;
     };
 
-    /**
-     * Initializes the i18n system.
-     */
     async function initI18n() {
-        currentLang = detectLanguage();
-
-        // Dynamically load the new UI i18n loader (js/i18n.js) using robust fallback path detector
-        let prefix = '/';
-        if (window.COSY && typeof window.COSY.getPrefix === 'function') {
-            prefix = window.COSY.getPrefix();
-        } else {
-            let relativePath = window.location.pathname;
-            if (relativePath.startsWith('/COSYlanguages/')) {
-                relativePath = relativePath.substring('/COSYlanguages/'.length);
-            } else if (relativePath.startsWith('/COSYlanguages')) {
-                relativePath = relativePath.substring('/COSYlanguages'.length);
-            } else if (relativePath.startsWith('/')) {
-                relativePath = relativePath.substring(1);
-            }
-            const segments = relativePath.split('/').filter(Boolean);
-            if (segments.length > 0 && segments[segments.length - 1].includes('.')) {
-                segments.pop();
-            }
-            const depth = segments.length;
-            prefix = depth > 0 ? '../'.repeat(depth) : './';
-        }
-
-        const uiScript = document.createElement('script');
-        uiScript.src = prefix + 'js/i18n.js';
-        document.head.appendChild(uiScript);
-
-        if (currentLang) {
-            localStorage.setItem('cosy_last_language', currentLang);
-            translations = await fetchTranslations(currentLang);
-            applyTranslations();
-
-            // Refresh navbar/mobile menu/etc. if engine is already loaded
-            if (window.COSY && typeof window.COSY.refresh === 'function') {
-                window.COSY.refresh();
-            }
-        }
-
+        await loadLanguage(detectLanguage());
+        injectCanonicalFooter();
+        applyTranslations();
+        if (window.COSY && typeof window.COSY.refresh === 'function') window.COSY.refresh();
         document.dispatchEvent(new CustomEvent('cosyI18nReady', { detail: { lang: currentLang } }));
     }
 
@@ -192,10 +294,12 @@
         initI18n();
     }
 
-    // Expose internal state for debugging/engine
     window.COSY_I18N = {
         get currentLang() { return currentLang; },
         get translations() { return translations; },
+        get chrome() { return chromeTranslations; },
+        t: window.t,
         refresh: applyTranslations
     };
+    window.COSY_UI_I18N = window.COSY_I18N;
 })();

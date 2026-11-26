@@ -71,8 +71,8 @@ COSYevents and COSYgames already exist as companion repositories. The remaining 
 Once standalone sub-products are extracted into their own repositories, **`COSYlanguages`** (`cosylanguages.github.io/COSYlanguages`) evolves into a cleaner, focused **Master Gateway, Textbook Library & Ecosystem Hub**:
 
 ### 1. Unified Multi-Product Ecosystem Gateway
-* **Central Directory & Hub:** Serves as the landing portal introducing the COSY philosophy ("Slow-Tech", privacy-first, zero translation fallback).
-* **Ecosystem Navigator Bar:** A header component providing quick access across all COSY web apps:
+* **Central Directory & Hub:** Serves as the landing portal introducing the COSYlanguages philosophy ("Slow-Tech", privacy-first, zero translation fallback).
+* **Ecosystem Navigator Bar:** A header component providing quick access across all COSYlanguages web apps:
   - 🌐 **COSYlanguages:** Core Hub & CEFR Textbooks
   - 🛠️ **COSYtools:** Conjugators, Gender & Regime Reference
   - 🗣️ **COSYevents:** Speaking Clubs & Multimedia Nights

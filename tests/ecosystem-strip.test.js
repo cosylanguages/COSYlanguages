@@ -2,7 +2,7 @@
  * tests/ecosystem-strip.test.js
  * Unit tests for the shared ecosystem strip (js/ecosystem-strip.js).
  *
- * The strip is the top "🌐 COSY Ecosystem" bar on every COSY site except the COSYlanguages hub.
+ * The strip is the top "🌐 COSYlanguages Ecosystem" bar on every COSYlanguages site except the COSYlanguages hub.
  * These tests assert the canonical link set and order, that the host's own site is left out, and
  * that the member-only links (COSYplatform, COSYmanuals) appear only for signed-in visitors.
  */
@@ -172,7 +172,7 @@ test('Ecosystem Strip Suite', async (t) => {
     await t.test('7. Renders the branded container and marks itself for styling', () => {
         const host = makeHost('data');
         load(host);
-        assert.ok(host.innerHTML.includes('🌐 COSY Ecosystem:'));
+        assert.ok(host.innerHTML.includes('🌐 COSYlanguages Ecosystem:'));
         assert.ok(host.innerHTML.includes('class="cosy-strip-links"'));
         assert.ok(host._classes.includes('cosy-ecosystem-strip'));
         assert.equal(host.getAttribute('role'), 'navigation');
@@ -181,16 +181,16 @@ test('Ecosystem Strip Suite', async (t) => {
     await t.test('8. Brand and label follow the page language', () => {
         const fr = makeHost('events');
         load(fr, {}, 'fr');
-        assert.ok(fr.innerHTML.includes('Écosystème COSY'));
-        assert.equal(fr.getAttribute('aria-label'), 'Produits de l’écosystème COSY');
+        assert.ok(fr.innerHTML.includes('Écosystème COSYlanguages'));
+        assert.equal(fr.getAttribute('aria-label'), 'Produits de l’écosystème COSYlanguages');
 
         const ru = makeHost('events');
         load(ru, {}, 'ru');
-        assert.ok(ru.innerHTML.includes('Экосистема COSY'));
+        assert.ok(ru.innerHTML.includes('Экосистема COSYlanguages'));
 
         const unknown = makeHost('events');
         load(unknown, {}, 'zz');
-        assert.ok(unknown.innerHTML.includes('🌐 COSY Ecosystem:'), 'unknown language falls back to English');
+        assert.ok(unknown.innerHTML.includes('🌐 COSYlanguages Ecosystem:'), 'unknown language falls back to English');
     });
 
     await t.test('9. A host control inside the mount is moved into the bar', () => {

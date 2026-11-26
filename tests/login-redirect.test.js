@@ -2,7 +2,7 @@
  * tests/login-redirect.test.js
  * Unit tests for the shared post-login redirect resolver.
  *
- * The resolver must return visitors to the COSY page they came from without
+ * The resolver must return visitors to the COSYlanguages page they came from without
  * allowing open redirects, and must never bounce back to the sign-in page.
  */
 
@@ -26,7 +26,7 @@ test('returns an absolute same-origin redirect with its query string', () => {
   assert.equal(resolve(target, options()), target);
 });
 
-test('returns a visitor to any COSY app page, not just platform or manuals', () => {
+test('returns a visitor to any COSYlanguages app page, not just platform or manuals', () => {
   const events = 'https://cosylanguages.github.io/COSYevents/events/speaking-club.html?session=abc';
   const magazine = 'https://cosylanguages.github.io/COSYmagazine/issues/2026-11.html';
   assert.equal(resolve(events, options()), events);
@@ -81,7 +81,7 @@ test('rejects bare tokens that are not page paths', () => {
   assert.equal(resolve('lessons/en/b1/unit1-travel.json', options()), FALLBACK);
 });
 
-test('falls back to the referring COSY page when the redirect is unusable', () => {
+test('falls back to the referring COSYlanguages page when the redirect is unusable', () => {
   const referrer = 'https://cosylanguages.github.io/COSYmanuals/index.html?manual=en-b1-grammar';
   assert.equal(resolve('en-b1-grammar', options({ referrer })), referrer);
 });

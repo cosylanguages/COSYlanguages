@@ -1,4 +1,4 @@
-# COSY Ecosystem Architectural Consistency & Security Audit
+# COSYlanguages Ecosystem Architectural Consistency & Security Audit
 
 **Repository:** `cosylanguages/COSYlanguages`
 **Scope:** Interconnected Ecosystem (`COSYlanguages`, `COSYpractice`, `COSYmagazine`, `COSYtools`, `COSYgames`, `COSYevents`, `COSYplatform`, `COSYmanuals`, `COSYdata`)
@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-`COSYlanguages` serves as the public, free front door to the interconnected COSY ecosystem—a suite of 9 specialized repositories providing language learning resources, practice games, reference dictionaries, event management, and paid platform tools.
+`COSYlanguages` serves as the public, free front door to the interconnected COSYlanguages ecosystem—a suite of 9 specialized repositories providing language learning resources, practice games, reference dictionaries, event management, and paid platform tools.
 
 As a static frontend application deployed via GitHub Pages, `COSYlanguages` achieves exceptional performance and zero-cost scaling. However, as the ecosystem expanded, shared responsibilities—such as cross-domain navigation, single sign-on (SSO), internationalization (i18n), design tokens, and linguistic data fetching—were implemented across individual repositories using copied scripts, duplicated configurations, and client-side access control.
 
@@ -69,11 +69,13 @@ This audit evaluates:
 - **Duplication Risk**: `COSYpractice`, `COSYgames`, `COSYevents`, and `COSYtools` duplicate portions of `engine.js` to render the identical top navigation bar and footer across subdomains.
 - **Impact**: Schema updates to ecosystem links (e.g., renaming `COSYblog` to `COSYmagazine`) required manual updates across multiple repos.
 
-### 2.3 Dual i18n Translation Engines & Redundant Dictionaries
-- **Issue**: Translation keys are defined in two places:
-  1. Standalone JSON files in `data/ui/<lang>.json` loaded by `js/core/i18n.js`.
-  2. Hardcoded fallback dictionary objects (`NAV_FALLBACKS`) embedded inside `js/core/engine.js`.
-- **Impact**: Updating UI translations (e.g., adding French or Greek navigation labels) requires modifying both `js/core/i18n.js` / `js/core/engine.js` and `data/ui/fr.json`.
+### 2.3 i18n Dictionaries (resolved)
+- **Was**: three translation sources — `data/ui/<lang>.json`, `js/i18n/<lang>.json`, and a
+  `NAV_FALLBACKS` object embedded in `js/core/engine.js` — applied by two competing engines.
+- **Now**: one engine (`js/core/i18n.js`) over two files. `js/i18n.js` and `NAV_FALLBACKS`
+  were removed; the 45 nav labels that only existed in the embedded object were copied into
+  the five dictionaries that had them, and `getNavLabel()` reads `window.t()` with the
+  template's English default as the last resort.
 
 ### 2.4 Design System & Token Duplication
 - **Issue**: Design tokens (colors, typography, radii, shadows) reside in `css/tokens.css` and base layout styles in `css/base.css`, `css/components.css`, and `css/shared-nav.css`.
@@ -133,7 +135,7 @@ To eliminate redundant JavaScript and CSS copies across the 9 ecosystem reposito
   ```
 
 ### Recommendation 2: Consolidate i18n Dictionaries
-Remove embedded `NAV_FALLBACKS` from `js/core/engine.js` and establish `data/ui/<lang>.json` as the single source of truth for translations across `COSYlanguages`. Ensure fallback language resolution (`en`) is handled dynamically by `js/core/i18n.js`.
+Done: `NAV_FALLBACKS` and `js/i18n.js` are gone, `data/ui/<lang>.json` plus `js/i18n/<lang>.json` are the only sources, and `js/core/i18n.js` handles the English fallback.
 
 ### Recommendation 3: Implement Supabase Row Level Security (RLS) Verification
 Ensure all tables in the Supabase backend (`profiles`, `student_progress`, `manual_access`) have explicit RLS policies defined:
@@ -159,4 +161,4 @@ Add a lightweight CI workflow in `COSYlanguages` and connected repositories to v
 | **Data Fetching** | Non-blocking fetch, single owner per dataset | Low (Good) | Keep the `COSYdata` fetch model; no local duplicate |
 | **Authentication** | Supabase SSO with `localStorage` | Medium | Verify Supabase RLS policies |
 | **Client/Server Boundary**| Pure static frontend | Low (Good) | Maintain zero-secret static architecture |
-| **i18n Translations** | Dual source (`NAV_FALLBACKS` + JSON) | Low | Unified `data/ui/*.json` dictionary engine |
+| **i18n Translations** | Three sources, two engines | Resolved | Single engine over `data/ui/*.json` + `js/i18n/*.json` |

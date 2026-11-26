@@ -2,7 +2,7 @@
  * js/core/login-redirect.js
  * Resolves where to send a user after a successful sign-in.
  *
- * The shared sign-in page lives on the same origin as every COSY site
+ * The shared sign-in page lives on the same origin as every COSYlanguages site
  * (https://cosylanguages.github.io). A redirect is honoured only when it points
  * back into that origin, so the page the visitor came from is restored without
  * opening an open-redirect hole. When no usable redirect is supplied the browser

@@ -8,7 +8,7 @@ const AdaptiveEngine = require('../js/placement/adaptive-engine.js');
 const ScoringModel = require('../js/placement/scoring-model.js');
 const WritingEvaluator = require('../js/placement/writing-evaluator.js');
 
-describe('COSY Placement Assessment Test Suite', () => {
+describe('COSYlanguages Placement Assessment Test Suite', () => {
 
   describe('1. Question Banks & Schema Integrity', () => {
     test('English Question Bank should contain exactly 252 items across 7 CEFR bands', () => {

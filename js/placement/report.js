@@ -1,5 +1,5 @@
 /**
- * COSY Languages - Placement Assessment Report Generator
+ * COSYlanguages - Placement Assessment Report Generator
  * Builds clean HTML printable reports and exports.
  */
 
@@ -81,7 +81,7 @@
         <div class="report-wrapper" style="padding: 1rem;">
           <div style="text-align: center; margin-bottom: 2rem;">
             <h1 style="font-family: var(--font-serif); color: var(--sage-dark); font-size: 2rem; margin-bottom: 0.25rem;">
-              COSY Languages Assessment Report 🌿
+              COSYlanguages Assessment Report 🌿
             </h1>
             <div style="font-size: 0.95rem; color: var(--ink-soft);">
               Date: ${new Date(reportData.timestamp).toLocaleDateString()} | Language: <strong>${(reportData.language || 'en').toUpperCase()}</strong> | Purpose: <strong>${reportData.purpose}</strong>

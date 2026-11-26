@@ -1,8 +1,8 @@
 /**
- * COSY shared theme switch. The same file lives in COSYlanguages, COSYevents, COSYdata and COSYtools.
+ * COSYlanguages shared theme switch. The same file lives in COSYlanguages, COSYevents, COSYdata and COSYtools.
  *
  * - Default follows the visitor's system setting (prefers-color-scheme).
- * - The choice is saved under "cosy.theme" ("light" | "dark"). Every COSY site is served from the
+ * - The choice is saved under "cosy.theme" ("light" | "dark"). Every COSYlanguages site is served from the
  *   cosylanguages.github.io origin, so they share localStorage and the choice follows the visitor.
  * - Older keys (cosy_theme, ce-theme) are read as a fallback and kept in step so pages that still use them agree.
  * - Sets <html data-theme="light|dark"> plus the legacy .theme-dark class, and keeps other tabs in sync.

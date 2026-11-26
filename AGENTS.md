@@ -95,10 +95,9 @@ Invariants that were broken before and must not regress:
 
 ## Hybrid section (retired)
 
-`hybrid/bridge|magazine|radio|zine.html` were deleted: they duplicated COSYmagazine,
-`print-studio/` and COSYtools. `hybrid/index.html` survives as a `noindex`
-moved-notice page only because CONTRIBUTING lists it as a stable cross-repo path —
-keep it resolving, do not add content to it.
+`hybrid/` is gone: `bridge`, `magazine`, `radio` and `zine` repeated content owned by
+COSYmagazine, `print-studio/` and COSYtools, and the hub itself was a second entry
+point. Do not recreate it — link to the owning repository instead.
 
 ## Tests
 
@@ -118,6 +117,49 @@ Other repos in the org have their own runners (`npm test` in `COSYplatform`,
 `COSYtools`, `COSYmagazine`, `COSYdata`; `node --test tests/*.test.mjs` in
 `COSYworld`/`COSYmanuals`). Supabase/RLS tests require the Supabase CLI + Docker
 and only run in CI.
+
+## Brand rule
+
+The project is **COSYlanguages** (or **CL** in tight UI labels). The bare word "COSY"
+must not appear anywhere: not in prose, not in `<title>`/meta, not in the UI
+dictionaries. Cases settled so far:
+
+- Self-references use "COSYlanguages": `COSYlanguages Ecosystem`, `COSYlanguages
+  Placement Assessment`, `COSYlanguages Gazette & Community Zine`.
+- Gamification labels use the short form: `CL Points`, "10 CL points for each
+  correct answer".
+- Sub-site names (`COSYdata`, `COSYtools`, `COSYmagazine`, `COSYEnglish`,
+  `COSYfrançais`, …) are identifiers, not the bare word, and stay.
+- Code identifiers stay too: `window.COSY`, `COSY.*` calls in `onclick`
+  attributes, `COSY_I18N`, DOM ids/classes (`cosy-nav`, `cosy-theme-btn`),
+  storage keys (`cosy.theme`, `cosy_last_language`), the file names
+  `cosy-theme.js` / `cosy*`, and the `cosy-hub-vN` cache name.
+
+Renaming a code identifier is a separate, breaking change: sibling repositories
+call `window.COSY` and read the `cosy.*` storage keys.
+
+## Internationalisation (one engine, two dictionaries)
+
+`js/core/i18n.js` is the only i18n engine. `js/i18n.js` was deleted: it was a
+second engine that re-fetched and re-applied strings, and it existed for its
+footer injection only, which now lives in `js/core/i18n.js`.
+
+- `data/ui/<lang>.json` — flat/nested keys, served to `window.t()` and to
+  `[data-translate-key]` nodes (nav and footer templates in `engine.js`). Missing
+  keys stay empty on purpose: target-language pages are not back-filled with
+  English.
+- `js/i18n/<lang>.json` — nested keys for `[data-i18n]` chrome in page markup,
+  with an English fallback.
+- Both files exist for el, en, fr, it, ru; other languages fall back to English
+  chrome.
+- A `/languages/<code>/` path decides the UI language for that page. Only an
+  explicit switch is remembered in `cosy_last_language`, so reading a French page
+  does not silently turn the rest of the site French.
+- `[data-translate-key]` wins over `[data-i18n]` on the same node, and values that
+  carry their own emoji alongside a `.nav-item-icon` are stripped, otherwise the
+  nav rendered "🔐🔐 Connexion".
+- The engine injects the canonical footer; pages that render their own footer
+  (`data-no-canonical-footer`, `.app-footer`, `.app-container`) opt out.
 
 ## Conventions
 
@@ -268,7 +310,7 @@ no-English-leak, fallback, language switch).
 ## Ecosystem strip (shared, top of every site)
 
 `js/ecosystem-strip.js` + `css/ecosystem-strip.css` render the one-line
-"🌐 COSY Ecosystem" bar that sits at the very top of every COSY site except the
+"🌐 COSYlanguages Ecosystem" bar that sits at the very top of every COSYlanguages site except the
 COSYlanguages hub. Sibling repos load it cross-origin and mount it with
 `<div data-ecosystem-strip data-self="events">`; `data-self` (the repo's key) drops
 the host's own link, `data-lang` localises the brand. The public links, in
