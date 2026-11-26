@@ -20,6 +20,10 @@
 
     var BASE = 'https://cosylanguages.github.io/';
 
+    // The registry that lists every daily element, its owner and its data source. The built-in
+    // DESTINATIONS below stay as the offline fallback; when the registry loads it replaces them.
+    var MANIFEST_URL = BASE + 'COSYtools/shared/js/daily-manifest.json';
+
     // Canonical homes of the ecosystem daily surfaces, grouped by the repository that owns each one.
     // This list also carries the COSYtools drills; COSYtools' own daily page lists only its four sibling
     // owners (COSYtools/shared/js/daily-feed.js DAILY_DESTINATIONS), since there it is the host itself.
@@ -167,6 +171,43 @@
             '</section>';
     }
 
+    // Host cards from the registry, with each slot resolved to the element it names.
+    function hostsFromManifest(manifest) {
+        if (!manifest || !Array.isArray(manifest.directory) || !manifest.directory.length) return null;
+        var byId = {};
+        (manifest.elements || []).forEach(function (el) { byId[el.id] = el; });
+        return manifest.directory.map(function (host) {
+            return {
+                key: host.key,
+                repo: host.repo,
+                icon: host.icon,
+                title: host.title,
+                url: host.url,
+                description: host.description,
+                slots: (host.slots || []).map(function (id) {
+                    var el = byId[id];
+                    return { label: el ? el.title : id, icon: el ? el.icon : '' };
+                })
+            };
+        });
+    }
+
+    function adoptManifest() {
+        if (typeof fetch !== 'function') return;
+        fetch(MANIFEST_URL)
+            .then(function (res) { return res.ok ? res.json() : null; })
+            .then(function (manifest) {
+                var hosts = hostsFromManifest(manifest);
+                if (!hosts) return;
+                DESTINATIONS = hosts;
+                Array.prototype.forEach.call(document.querySelectorAll('[data-daily-directory]'), function (el) {
+                    el.__dailyDirectoryRendered = false;
+                });
+                initAll();
+            })
+            .catch(function () { /* keep the built-in list */ });
+    }
+
     function initAll() {
         Array.prototype.forEach.call(document.querySelectorAll('[data-daily-directory]'), function (el) {
             if (!el.__dailyDirectoryRendered) {
@@ -177,13 +218,18 @@
     }
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initAll);
+        document.addEventListener('DOMContentLoaded', function () {
+            initAll();
+            adoptManifest();
+        });
     } else {
         initAll();
+        adoptManifest();
     }
 
     window.COSY_DailyDirectory = {
         DESTINATIONS: DESTINATIONS,
+        hostsFromManifest: hostsFromManifest,
         render: render,
         renderCompact: function (host) { host.setAttribute('data-compact', 'true'); render(host); host.__dailyDirectoryRendered = true; },
         destinations: function () {
