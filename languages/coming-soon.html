@@ -53,7 +53,7 @@
         <span class="visual-journey-badge">🌐 Upcoming Languages</span>
     </div>
     <h1 data-translate-key="lang_coming_soon">Coming soon 🌱</h1>
-    <p class="hero-sub">We're working hard to bring more languages to COSY. Sign up to be notified when your language is ready.</p>
+    <p class="hero-sub">We're working hard to bring more languages to COSY. Tell us which one you'd like next — we read every message.</p>
 </header>
 
 <main id="main-content" class="coming-soon-content">
@@ -90,7 +90,7 @@
     </div>
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_explore">Explore</h3>
-      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer">Manuals Hub 🔒 (for students)</a>
       <a href="../comparative/index.html">Grammar Atlas 🌐</a>
       <a href="../placement-quiz.html">Placement Quiz 📝</a>
       <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
@@ -123,7 +123,14 @@
     document.addEventListener('DOMContentLoaded', () => {
       const soonGrid = document.getElementById('lang-grid-soon');
       const comingLangs = window.COSY_COMING_SOON_LANGUAGES || (window.COSY_LANGUAGES ? window.COSY_LANGUAGES.filter(l => l.status === 'coming-soon' || l.status === 'coming_soon') : []);
-      if (soonGrid && comingLangs) {
+      if (soonGrid && comingLangs.length === 0) {
+        const open = (window.COSY_LANGUAGES || []).filter(l => l.status === 'active');
+        soonGrid.innerHTML = `
+          <p class="cs-empty" style="grid-column: 1 / -1; text-align:center; color:var(--ink-muted); max-width:38rem; margin:0 auto;">
+            No new language is scheduled right now. These are already open:
+            ${open.map(l => `<a href="${l.code}/" style="color:var(--sage-dark); font-weight:700; text-decoration:underline;">${l.native}</a>`).join(' · ')}
+          </p>`;
+      } else if (soonGrid) {
         soonGrid.innerHTML = comingLangs.map(l => `
           <div class="lang-card-soon">
             <a href="${l.code}/" style="text-decoration:none; color:inherit; display:block;">

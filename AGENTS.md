@@ -56,6 +56,12 @@ This repo uses the Node built-in test runner. Word Explorer unit tests:
 node --test tests/word-explorer.test.js
 ```
 
+`tests/html-links.test.js` is the static guard for the published pages: every relative
+`href`/`src` must resolve on disk, every `target="_blank"` anchor must carry
+`rel="noopener noreferrer"`, and every `sitemap.xml` `<loc>` must map to a real file.
+There is no build step, so these checks are the only thing standing between an edit and
+a 404 on Pages. Run the whole suite with `node --test tests/*.test.js`.
+
 Other repos in the org have their own runners (`npm test` in `COSYplatform`,
 `COSYtools`, `COSYmagazine`, `COSYdata`; `node --test tests/*.test.mjs` in
 `COSYworld`/`COSYmanuals`). Supabase/RLS tests require the Supabase CLI + Docker

@@ -515,7 +515,7 @@
     <div class="sd-breadcrumbs">
       <a href="../index.html">Home</a>
       <span class="sep">/</span>
-      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Master Directory 🔒 (for students)</a>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer">Master Directory 🔒 (for students)</a>
       <span class="sep">/</span>
       <span class="current">Comparative Atlas</span>
     </div>
@@ -652,8 +652,8 @@
         </div>
 
         <div id="insp-links" style="margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.75rem; font-size: 0.85rem;">
-          <a id="insp-link-tools" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" style="color: #64b5f6; display: block; margin-bottom: 0.3rem;">🔎 Open in Reference Tools</a>
-          <a id="insp-link-manual" href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener" style="color: #81c784; display: block;">🔒 Student Manual</a>
+          <a id="insp-link-tools" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener noreferrer" style="color: #64b5f6; display: block; margin-bottom: 0.3rem;">🔎 Open in Reference Tools</a>
+          <a id="insp-link-manual" href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer" style="color: #81c784; display: block;">🔒 Student Manual</a>
         </div>
       </div>
 
@@ -690,8 +690,8 @@
           <tbody>
             <tr>
               <td><strong>Proto-Nostratic</strong></td>
-              <td>**mi*</td>
-              <td>**ti*</td>
+              <td>*mi*</td>
+              <td>*ti*</td>
             </tr>
             <tr>
               <td><strong>English (IE)</strong></td>
@@ -951,7 +951,7 @@
     </div>
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_explore">Explore</h3>
-      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer">Manuals Hub 🔒 (for students)</a>
       <a href="../comparative/index.html">Grammar Atlas 🌐</a>
       <a href="../placement-quiz.html">Placement Quiz 📝</a>
       <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
@@ -1902,9 +1902,9 @@
             const manualPath = l.manual_url.startsWith('http') ? l.manual_url : ('https://cosylanguages.github.io/COSYmanuals' + l.manual_url);
             return `
               <td class="comp-cell-status">
-                <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="comp-cell-link" title="Open COSYtools Reference Engine">🔎 Tools</a>
+                <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener noreferrer" class="comp-cell-link" title="Open COSYtools Reference Engine">🔎 Tools</a>
                 <br>
-                <a href="${manualPath}" target="_blank" rel="noopener" style="font-size:0.7rem; color:var(--ink-muted);" title="Manual for students">🔒 for students</a>
+                <a href="${manualPath}" target="_blank" rel="noopener noreferrer" style="font-size:0.7rem; color:var(--ink-muted);" title="Manual for students">🔒 for students</a>
               </td>
             `;
           } else {

@@ -9,7 +9,7 @@
  * - Only same-origin GET requests are handled. Sibling sites (COSYmagazine, COSYpractice, ...)
  *   run their own service workers.
  */
-const CACHE_NAME = 'cosy-hub-v2';
+const CACHE_NAME = 'cosy-hub-v3';
 
 const SHELL = [
   './',
@@ -28,6 +28,11 @@ const SHELL = [
   './courses/relocation.html',
   './comparative/index.html',
   './hybrid/index.html',
+  './languages/en/index.html',
+  './languages/fr/index.html',
+  './languages/it/index.html',
+  './languages/ru/index.html',
+  './languages/el/index.html',
   './css/tokens.css',
   './css/base.css',
   './css/components.css',
@@ -43,6 +48,18 @@ const SHELL = [
   './js/core/ui.js',
   './js/core/audience.js',
   './js/data/languages.js',
+  './js/daily-strip.js',
+  './js/placement/adaptive-engine.js',
+  './js/placement/scoring-model.js',
+  './js/placement/question-bank-en.js',
+  './js/placement/question-banks-multilingual.js',
+  './js/placement/prompts-and-rubrics.js',
+  './js/placement/writing-evaluator.js',
+  './js/placement/audio-recorder.js',
+  './js/placement/report.js',
+  './js/placement/ui.js',
+  './css/placement.css',
+  './css/daily-strip.css',
   './images/logos/cosylanguages.png',
   './manifest.json'
 ];

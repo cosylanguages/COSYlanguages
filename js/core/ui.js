@@ -409,13 +409,21 @@
         panels.forEach(p => p.classList.remove('show'));
 
         const tabs = document.querySelectorAll('.ctab');
-        tabs.forEach(t => t.classList.remove('active'));
+        tabs.forEach(t => {
+            t.classList.remove('active');
+            t.setAttribute('aria-pressed', 'false');
+            const cc = t.getAttribute('data-country');
+            if (cc) t.setAttribute('aria-controls', `country-${cc}`);
+        });
 
         const targetPanel = document.getElementById(`country-${code}`);
         if (targetPanel) targetPanel.classList.add('show');
 
         const targetTab = document.querySelector(`.ctab[data-country="${code}"]`);
-        if (targetTab) targetTab.classList.add('active');
+        if (targetTab) {
+            targetTab.classList.add('active');
+            targetTab.setAttribute('aria-pressed', 'true');
+        }
     };
 
     /* "Notify me" forms on upcoming-language pages.
@@ -513,6 +521,8 @@
             USD: { symbol: '$', rate: 1.08 },
             RUB: { symbol: '₽', rate: 98.0 }
         };
+        const FX_RATES_AS_OF = '2026-11';
+        const fxNote = cur === 'EUR' ? '' : ` (rates as of ${FX_RATES_AS_OF})`;
 
         const currObj = CURRENCY_MAP[cur] || CURRENCY_MAP.EUR;
         const totalConverted = Math.round(totalPriceEUR * currObj.rate);
@@ -529,7 +539,7 @@
 
         if (detailEl) {
             if (packCount > 1) {
-                detailEl.textContent = `${packCount} lessons × ${currObj.symbol}${perLessonConverted}/lesson`;
+                detailEl.textContent = `${packCount} lessons × ${currObj.symbol}${perLessonConverted}/lesson${fxNote}`;
             } else {
                 detailEl.textContent = `1 single lesson (${dur} min)`;
             }
@@ -540,7 +550,7 @@
                 const savingsAmount = ((singleLessonBase * packCount) - totalPriceEUR) * currObj.rate;
                 noteEl.innerHTML = `<span style="display:inline-block; background:var(--sage-dark, #2b3e30); color:#fff; font-weight:800; padding:0.2rem 0.5rem; border-radius:4px; font-size:0.85rem; margin-right:0.4rem;">SAVE ${Math.round(discount * 100)}% OFF</span> Save ${currObj.symbol}${Math.round(savingsAmount)} with package pricing!`;
             } else {
-                noteEl.textContent = `Standard rate. Save up to 15% with 8+ lesson packs.`;
+                noteEl.textContent = `Standard rate. Save 5% from 8 lessons, 10% from 16, 15% from 32.`;
             }
         }
 

@@ -156,6 +156,41 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon-prononciation.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/a0-a1.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/a2.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/b1.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/b2.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/c1.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/c2.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://cosylanguages.github.io/COSYlanguages/languages/it/curriculum.html</loc>
     <lastmod>2026-10-17</lastmod>
     <priority>0.6</priority>
