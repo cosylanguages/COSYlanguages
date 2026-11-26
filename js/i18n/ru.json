@@ -18,15 +18,6 @@
     "toggle_dark_mode": "Тёмная тема",
     "whatsapp_contact": "Написать нам в WhatsApp"
   },
-  "footer": {
-    "courses": "Курсы",
-    "explore": "Обзор",
-    "contact": "Контакты",
-    "project": "Проект",
-    "privacy": "Конфиденциальность 🛡️",
-    "allRightsReserved": "© 2020–2026 COSYlanguages — Все права защищены",
-    "description": "Ваш уютный уголок для освоения новых языков и общения со всем миром. 🌍"
-  },
   "button": {
     "bookNow": "Записаться сейчас →",
     "exploreTypes": "Посмотреть виды ↓",

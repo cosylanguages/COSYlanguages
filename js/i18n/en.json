@@ -20,15 +20,6 @@
   },
   "lang_locked_notice": "🔒 Device language locked! Interface language is fixed.",
   "lang_unlocked_notice": "🔓 Device language unlocked! You can now switch languages.",
-  "footer": {
-    "courses": "Courses",
-    "explore": "Explore",
-    "contact": "Contact",
-    "project": "Project",
-    "privacy": "Privacy & Safety 🛡️",
-    "allRightsReserved": "© 2020–2026 COSYlanguages — All rights reserved",
-    "description": "Your friendly corner to master new languages and connect with the world. 🌍"
-  },
   "button": {
     "bookNow": "Book Now →",
     "exploreTypes": "Explore types ↓",

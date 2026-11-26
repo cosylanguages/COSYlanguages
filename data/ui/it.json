@@ -1490,5 +1490,15 @@
   "nav_join": "Unisciti",
   "nav_more": "Altro ▾",
   "nav_pin_to_home": "📲 Aggiungi a Home",
-  "nav_breadcrumb_home": "Home"
+  "nav_breadcrumb_home": "Home",
+  "footer_all_courses": "Tutti i corsi 📖",
+  "footer_manuals": "Manuali 🔒 (studenti)",
+  "footer_grammar_atlas": "Atlante di grammatica 🌐",
+  "footer_placement_quiz": "Test di livello 📝",
+  "footer_magazine": "Magazine 📖",
+  "footer_events": "Eventi 🎉",
+  "footer_tools": "Motori di riferimento 🔎",
+  "footer_about": "La nostra storia 🏡",
+  "footer_privacy": "Privacy e sicurezza 🛡️",
+  "footer_h5_project": "Progetto"
 }

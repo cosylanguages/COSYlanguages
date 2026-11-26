@@ -9,7 +9,7 @@
  * - Only same-origin GET requests are handled. Sibling sites (COSYmagazine, COSYpractice, ...)
  *   run their own service workers.
  */
-const CACHE_NAME = 'cosy-hub-v4';
+const CACHE_NAME = 'cosy-hub-v5';
 
 const SHELL = [
   './',

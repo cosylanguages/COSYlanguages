@@ -1499,5 +1499,15 @@
   "nav_join": "Rejoindre",
   "nav_more": "Plus ▾",
   "nav_breadcrumb_home": "Accueil",
-  "nav_pin_to_home": "📲 Épingler à l'accueil"
+  "nav_pin_to_home": "📲 Épingler à l'accueil",
+  "footer_all_courses": "Tous les cours 📖",
+  "footer_manuals": "Manuels 🔒 (étudiants)",
+  "footer_grammar_atlas": "Atlas de grammaire 🌐",
+  "footer_placement_quiz": "Test de niveau 📝",
+  "footer_magazine": "Magazine 📖",
+  "footer_events": "Événements 🎉",
+  "footer_tools": "Moteurs de référence 🔎",
+  "footer_about": "Notre histoire 🏡",
+  "footer_privacy": "Confidentialité et sécurité 🛡️",
+  "footer_h5_project": "Projet"
 }

@@ -158,8 +158,12 @@ footer injection only, which now lives in `js/core/i18n.js`.
 - `[data-translate-key]` wins over `[data-i18n]` on the same node, and values that
   carry their own emoji alongside a `.nav-item-icon` are stripped, otherwise the
   nav rendered "🔐🔐 Connexion".
-- The engine injects the canonical footer; pages that render their own footer
-  (`data-no-canonical-footer`, `.app-footer`, `.app-container`) opt out.
+- The footer is per-page markup and is translated in place: every page carries its
+  own `<footer>` whose labels use `data-translate-key` (`footer_*`, `course_*`). The
+  engine no longer generates one. It used to replace every footer at runtime with a
+  generic copy, which silently dropped the six course links, so `tests/footer.test.js`
+  now holds the contract: one non-empty footer per page, the standard links present,
+  and every label it asks for defined in all thirteen dictionaries.
 
 ## Conventions
 

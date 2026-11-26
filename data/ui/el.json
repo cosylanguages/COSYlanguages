@@ -1499,5 +1499,15 @@
   "nav_join": "Εγγραφή",
   "nav_more": "Περισσότερα ▾",
   "nav_pin_to_home": "📲 Στην αρχική οθόνη",
-  "nav_breadcrumb_home": "Αρχική"
+  "nav_breadcrumb_home": "Αρχική",
+  "footer_all_courses": "Όλα τα μαθήματα 📖",
+  "footer_manuals": "Εγχειρίδια 🔒 (για σπουδαστές)",
+  "footer_grammar_atlas": "Άτλας γραμματικής 🌐",
+  "footer_placement_quiz": "Τεστ επιπέδου 📝",
+  "footer_magazine": "Περιοδικό 📖",
+  "footer_events": "Εκδηλώσεις 🎉",
+  "footer_tools": "Μηχανές αναφοράς 🔎",
+  "footer_about": "Η ιστορία μας 🏡",
+  "footer_privacy": "Απόρρητο και ασφάλεια 🛡️",
+  "footer_h5_project": "Έργο"
 }

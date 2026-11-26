@@ -1490,5 +1490,15 @@
   "nav_join": "Начать",
   "nav_more": "Ещё ▾",
   "nav_pin_to_home": "📲 На главный экран",
-  "nav_breadcrumb_home": "Главная"
+  "nav_breadcrumb_home": "Главная",
+  "footer_all_courses": "Все курсы 📖",
+  "footer_manuals": "Учебники 🔒 (для студентов)",
+  "footer_grammar_atlas": "Атлас грамматики 🌐",
+  "footer_placement_quiz": "Тест уровня 📝",
+  "footer_magazine": "Журнал 📖",
+  "footer_events": "Мероприятия 🎉",
+  "footer_tools": "Справочные движки 🔎",
+  "footer_about": "Наша история 🏡",
+  "footer_privacy": "Конфиденциальность и безопасность 🛡️",
+  "footer_h5_project": "Проект"
 }

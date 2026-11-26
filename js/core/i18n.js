@@ -6,8 +6,8 @@
  *   data/ui/<lang>.json      flat or nested keys for t() and [data-translate-key]
  *   js/i18n/<lang>.json      nested keys for [data-i18n] chrome in page markup
  *
- * It also injects the canonical footer, so a page does not need to keep a second
- * copy of the footer in its own HTML.
+ * Page chrome that lives in markup (nav, footer) is translated in place through
+ * [data-translate-key] and [data-i18n]; nothing is rewritten wholesale.
  */
 
 (function() {
@@ -171,60 +171,6 @@
         }
     }
 
-    /**
-     * Replaces the page footer with the canonical one. Pages that render their own
-     * footer (reference apps, app containers) opt out and keep theirs.
-     */
-    function injectCanonicalFooter() {
-        const footer = document.querySelector('footer');
-        if (!footer) return;
-        if (
-            footer.classList.contains('app-footer') ||
-            footer.hasAttribute('data-no-canonical-footer') ||
-            footer.closest('.app-container') ||
-            document.querySelector('.app-container')
-        ) {
-            return;
-        }
-
-        const prefix = getPrefix();
-        footer.innerHTML = `
-          <div class="footer-inner">
-            <div class="footer-brand">
-              <div class="fb-logo">
-                <img src="${prefix}images/logos/cosylanguages.png" alt="COSYlanguages logo">
-                <span class="fb-name">COSYlanguages</span>
-              </div>
-              <p data-i18n="footer.description">Your friendly corner to master new languages and connect with the world. 🌍</p>
-            </div>
-            <div class="footer-links-col">
-              <h3 data-i18n="footer.courses">Courses</h3>
-              <a href="https://cosylanguages.github.io/COSYplatform/" data-i18n="course_general">Paid Courses (COSYplatform) 🎓</a>
-            </div>
-            <div class="footer-links-col">
-              <h3 data-i18n="footer.explore">Explore</h3>
-              <a href="${prefix}#languages"><span class="nav-item-icon" aria-hidden="true">🌍</span> <span data-i18n="nav.languages">Languages</span></a>
-              <a href="https://cosylanguages.github.io/COSYpractice/"><span class="nav-item-icon" aria-hidden="true">💡</span> <span data-i18n="nav.practice">Free Practice</span></a>
-              <a href="${prefix}placement-quiz.html"><span class="nav-item-icon" aria-hidden="true">📝</span> Placement Quiz</a>
-              <a href="https://cosylanguages.github.io/COSYevents/"><span class="nav-item-icon" aria-hidden="true">🎉</span> <span data-i18n="nav.events">Events</span></a>
-              <a href="https://cosylanguages.github.io/COSYgames/"><span class="nav-item-icon" aria-hidden="true">🎮</span> <span data-i18n="nav.games">Games</span></a>
-              <a href="https://cosylanguages.github.io/COSYmagazine/"><span class="nav-item-icon" aria-hidden="true">📖</span> <span data-i18n="nav.magazine">Magazine</span></a>
-            </div>
-            <div class="footer-links-col">
-              <h3 data-i18n="footer.project">Project</h3>
-              <a href="${prefix}privacy.html" data-i18n="footer.privacy">Privacy &amp; Safety 🛡️</a>
-            </div>
-            <div class="footer-links-col">
-              <h3 data-i18n="footer.contact">Contact</h3>
-              <a href="https://wa.me/330766784195">WhatsApp 📱</a>
-              <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
-              <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
-            </div>
-          </div>
-          <div class="footer-bottom" data-i18n="footer.allRightsReserved">© 2020–2026 COSYlanguages — All rights reserved</div>
-        `;
-    }
-
     async function loadLanguage(lang) {
         currentLang = (lang || 'en').toLowerCase();
         const [ui, chrome] = await Promise.all([
@@ -256,7 +202,6 @@
             // Only an explicit choice is remembered; reading a /languages/<code>/
             // page must not silently switch the whole site's chrome.
             localStorage.setItem('cosy_last_language', currentLang);
-            injectCanonicalFooter();
             applyTranslations();
             if (window.COSY && typeof window.COSY.refresh === 'function') window.COSY.refresh();
             document.dispatchEvent(new CustomEvent('cosyLanguageChanged', { detail: { lang: currentLang } }));
@@ -282,7 +227,6 @@
 
     async function initI18n() {
         await loadLanguage(detectLanguage());
-        injectCanonicalFooter();
         applyTranslations();
         if (window.COSY && typeof window.COSY.refresh === 'function') window.COSY.refresh();
         document.dispatchEvent(new CustomEvent('cosyI18nReady', { detail: { lang: currentLang } }));

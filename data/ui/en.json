@@ -1498,5 +1498,15 @@
   "nav_join": "Join",
   "nav_more": "More ▾",
   "nav_pin_to_home": "📲 Pin to Home",
-  "nav_breadcrumb_home": "Home"
+  "nav_breadcrumb_home": "Home",
+  "footer_all_courses": "All Courses 📖",
+  "footer_manuals": "Manuals Hub 🔒 (for students)",
+  "footer_grammar_atlas": "Grammar Atlas 🌐",
+  "footer_placement_quiz": "Placement Quiz 📝",
+  "footer_magazine": "Magazine 📖",
+  "footer_events": "Events 🎉",
+  "footer_tools": "Reference Engines 🔎",
+  "footer_about": "Our Story 🏡",
+  "footer_privacy": "Privacy & Safety 🛡️",
+  "footer_h5_project": "Project"
 }
