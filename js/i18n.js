@@ -130,7 +130,6 @@
               <a href="${prefix}#languages"><span class="nav-item-icon" aria-hidden="true">🌍</span> <span data-i18n="nav.languages">Languages</span></a>
               <a href="https://cosylanguages.github.io/COSYpractice/"><span class="nav-item-icon" aria-hidden="true">💡</span> <span data-i18n="nav.practice">Free Practice</span></a>
               <a href="${prefix}placement-quiz.html"><span class="nav-item-icon" aria-hidden="true">📝</span> Placement Quiz</a>
-              <a href="${prefix}hybrid/index.html"><span class="nav-item-icon" aria-hidden="true">🌿</span> Hybrid &amp; Community</a>
               <a href="https://cosylanguages.github.io/COSYevents/"><span class="nav-item-icon" aria-hidden="true">🎉</span> <span data-i18n="nav.events">Events</span></a>
               <a href="https://cosylanguages.github.io/COSYgames/"><span class="nav-item-icon" aria-hidden="true">🎮</span> <span data-i18n="nav.games">Games</span></a>
               <a href="https://cosylanguages.github.io/COSYmagazine/"><span class="nav-item-icon" aria-hidden="true">📖</span> <span data-i18n="nav.magazine">Magazine</span></a>

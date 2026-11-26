@@ -48,6 +48,58 @@ Watch-outs:
 
 The canonical list of course types lives in COSYplatform (`curriculums/_schema/course-types.json`, documented in its `docs/COURSE_TYPES.md`). Real courses with a page in `courses/`: `general`, `spoken`, `professional`, `travelling`, `relocation`, and `exam`. The exam page is `courses/exam-preparation.html`; `courses/exam.html` redirects to it so the platform's name for the course resolves. `discussion` (speaking clubs from COSYevents, platform only) and `pronunciation` (planned) have no page here.
 
+## Data ownership (do not copy between repositories)
+
+Each kind of content has exactly one owning repository. This repo links to it or
+fetches it at runtime; it never stores a second copy.
+
+| Content | Owner | How this repo reaches it |
+|---|---|---|
+| Vocabulary, word lists, verbs, idioms, daily word/verb/idiom | COSYdata | `COSY.loadLanguageData()` → `COSYdata/vocabulary/<lang>/index.json` (no local fallback) |
+| Curriculum units, lessons, level syllabi, course-type schema | COSYplatform | `COSY.loadCurriculum()` → `COSYplatform/curriculums/<lang>/general/<LEVEL>.json` |
+| Grammar points, morphology, manuals | COSYmanuals | `shared/js/grammar-embed.js`, link-outs |
+| Speaking/writing prompts, drills, daily practice | COSYpractice | `data/daily/<lang>/*.json` is a *cache* of COSYpractice output; edit the source repo |
+| Cultural spotlights, club reviews | COSYevents | `shared/js/daily-spotlights.js`, `shared/js/club-reviews.js` |
+
+The `languages/<code>/vocabulary.html` and `curriculum.html` pages are link hubs, not
+data pages: they must point at the owning repository instead of rendering local lists.
+A missing fetch means "no data yet", never "fall back to a local copy".
+
+## Placement quiz (`placement-quiz.html`, `js/placement/`)
+
+Account-free CEFR check with five skill threads (grammar, vocabulary, reading,
+writing, speaking). Docs: `docs/PLACEMENT.md`. Tests: `tests/placement.test.js`.
+
+Invariants that were broken before and must not regress:
+
+- **Prompts are localised, not reused English.** Task text lives in
+  `prompts-multilingual.js` (six writing tasks A1–C2 + five speaking tasks per
+  language). Read them through `getWritingPrompts(lang)` / `getSpeakingPrompts(lang)`
+  in `prompts-and-rubrics.js`; never read `writingPrompts.en` directly.
+- **Banks are 42 items per language** (7 bands × 3 receptive skills × 2). Two per
+  cell is the floor — with one, the adaptive selector has nothing to choose at that
+  difficulty. English has 252 (×12).
+- **The evaluator is language-aware.** Connectors, formal markers and the long-word
+  threshold come from a per-language profile in `writing-evaluator.js`; tokens are
+  split on `\p{L}`, because an ASCII-only tokenizer scored every Greek or Cyrillic
+  submission as A1. Called as `evaluateSubmission(text, prompt, { language })`.
+- **Ability is estimated, not stepped.** `estimateAbility()` is a Rasch maximum
+  likelihood over the answered items and also returns the standard error, which
+  drives the reported range and confidence. The old +0.6/−0.6 walk ignored how
+  informative each answer was.
+- **Item budget is `min(3|8, items available)`.** A budget larger than the bank makes
+  a thread run dry instead of ending on a count.
+- **Skipping grants nothing.** A skipped task leaves `theta` untouched and is
+  reported as `Insufficient Evidence`; speaking is self-assessed through a CEFR
+  select because no audio is analysed.
+
+## Hybrid section (retired)
+
+`hybrid/bridge|magazine|radio|zine.html` were deleted: they duplicated COSYmagazine,
+`print-studio/` and COSYtools. `hybrid/index.html` survives as a `noindex`
+moved-notice page only because CONTRIBUTING lists it as a stable cross-repo path —
+keep it resolving, do not add content to it.
+
 ## Tests
 
 This repo uses the Node built-in test runner. Word Explorer unit tests:

@@ -270,9 +270,35 @@
     `;
   }
 
+  const CEFR_ORDER = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+  function promptsForKind(kind) {
+    const spec = window.COSY_PLACEMENT_PROMPTS_RUBRICS;
+    if (!spec) return [];
+    const getter = kind === 'writing' ? spec.getWritingPrompts : spec.getSpeakingPrompts;
+    if (typeof getter === 'function') return getter(selectedLanguage);
+    return (kind === 'writing' ? spec.writingPrompts : spec.speakingPrompts).en || [];
+  }
+
+  function pickPrompt(prompts, band, stage) {
+    if (!prompts.length) return null;
+    if (stage) {
+      const staged = prompts.find(p => p.stage === stage);
+      if (staged) return staged;
+    }
+    const exact = prompts.find(p => p.band === band);
+    if (exact) return exact;
+    const covering = prompts.find(p => Array.isArray(p.targetBands) && p.targetBands.includes(band));
+    if (covering) return covering;
+    const target = Math.max(0, CEFR_ORDER.indexOf(band));
+    return prompts.slice().sort((a, b) =>
+      Math.abs(CEFR_ORDER.indexOf(a.band) - target) - Math.abs(CEFR_ORDER.indexOf(b.band) - target)
+    )[0];
+  }
+
   function renderWritingTask(taskInfo) {
-    const prompts = (window.COSY_PLACEMENT_PROMPTS_RUBRICS && window.COSY_PLACEMENT_PROMPTS_RUBRICS.writingPrompts.en) || [];
-    const prompt = prompts.find(p => p.band === taskInfo.estimatedBand) || prompts[0];
+    const prompts = promptsForKind('writing');
+    const prompt = pickPrompt(prompts, taskInfo.estimatedBand);
 
     return `
       <div class="question-card" style="display: block;">
@@ -299,8 +325,8 @@
   }
 
   function renderSpeakingTask(taskInfo) {
-    const prompts = (window.COSY_PLACEMENT_PROMPTS_RUBRICS && window.COSY_PLACEMENT_PROMPTS_RUBRICS.speakingPrompts.en) || [];
-    const prompt = prompts.find(p => p.stage === 'opinion_argument') || prompts[0];
+    const prompts = promptsForKind('speaking');
+    const prompt = pickPrompt(prompts, taskInfo.estimatedBand, 'opinion_argument');
 
     return `
       <div class="question-card" style="display: block;">
@@ -320,6 +346,20 @@
         </div>
 
         <div id="audio-recorder-mount"></div>
+
+        <div style="margin-top: 1rem; padding: 0.75rem 0.9rem; background: var(--sage-light); border-radius: 8px;">
+          <label for="speaking-self-rating" style="font-size: 0.9rem; font-weight: 700; color: var(--sage-deep); display: block; margin-bottom: 0.4rem;">
+            How would you rate the answer you just gave?
+          </label>
+          <select id="speaking-self-rating" class="styled-sel" style="padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); font-family: inherit; font-size: 0.9rem;">
+            ${['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(band =>
+              `<option value="${band}"${band === (taskInfo.estimatedBand || 'B2') ? ' selected' : ''}>${band}</option>`
+            ).join('')}
+          </select>
+          <p style="font-size: 0.8rem; color: var(--ink-soft); margin: 0.5rem 0 0;">
+            This is self-assessment: the browser cannot analyse your speech, and we will not invent a rating. Your recording is kept for teacher review.
+          </p>
+        </div>
 
         <div style="text-align: right; margin-top: 1.25rem;">
           <button type="button" class="btn btn-primary" id="btn-submit-speaking">Submit Speaking Checkpoint 🗣️</button>
@@ -368,11 +408,10 @@
         if (btnSubmit) {
           btnSubmit.addEventListener('click', () => {
             const text = textarea ? textarea.value.trim() : '';
-            const prompts = (window.COSY_PLACEMENT_PROMPTS_RUBRICS && window.COSY_PLACEMENT_PROMPTS_RUBRICS.writingPrompts.en) || [];
-            const prompt = prompts.find(p => p.band === currentItem.estimatedBand) || prompts[0];
+            const prompt = pickPrompt(promptsForKind('writing'), currentItem.estimatedBand);
 
             const evalResult = window.COSYWritingEvaluator ?
-              window.COSYWritingEvaluator.evaluateSubmission(text, prompt) :
+              window.COSYWritingEvaluator.evaluateSubmission(text, prompt, { language: selectedLanguage }) :
               { estimatedBand: 'B1', rubricScores: {} };
 
             engine.submitResponse('writing', {
@@ -397,8 +436,9 @@
         const btnSubmit = document.getElementById('btn-submit-speaking');
         if (btnSubmit) {
           btnSubmit.addEventListener('click', () => {
-            let evalBand = 'B1';
-            let notes = '';
+            const selfRating = document.getElementById('speaking-self-rating');
+            let evalBand = selfRating ? selfRating.value : (currentItem.estimatedBand || 'B1');
+            let notes = 'self-assessed';
 
             if (activeAudioRecorder && activeAudioRecorder.state === 'unsupported') {
               const fallback = activeAudioRecorder.getFallbackData();

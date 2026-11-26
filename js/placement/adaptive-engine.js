@@ -123,10 +123,15 @@
           rubricScores: responseData.rubricScores || {},
           rawScore: responseData.rawScore || 0,
           estimatedBand: responseData.estimatedBand || 'B1',
+          skipped: Boolean(responseData.skipped),
           responseData: responseData,
           timestamp: timestamp
         });
-        thread.theta = BAND_NUMERIC[responseData.estimatedBand] || 4.0;
+        // A skipped task is no evidence: keep the prior ability instead of
+        // granting the default band.
+        if (!responseData.skipped) {
+          thread.theta = BAND_NUMERIC[responseData.estimatedBand] || 4.0;
+        }
         thread.finished = true;
 
         this.sessionState.history.push({
@@ -159,16 +164,16 @@
         timestamp: timestamp
       });
 
-      // Update theta using adaptive step
-      const step = 0.6;
-      if (isCorrect) {
-        thread.theta = Math.min(7.0, thread.theta + step);
-      } else {
-        thread.theta = Math.max(1.0, thread.theta - step);
-      }
+      const estimate = this.estimateAbility(thread.itemsAnswered);
+      thread.theta = estimate.theta;
+      thread.se = estimate.se;
 
-      // Check stopping criteria for this skill thread
-      const maxItemsForSkill = this.mode === 'short_screening' ? 3 : 8;
+      // Stop when the item budget for this skill is spent. The budget can never
+      // exceed what the bank actually holds, otherwise the thread would silently
+      // run out of items instead of ending on a count.
+      const availableForSkill = this.countItemsForSkill(item.skill);
+      const requestedBudget = this.mode === 'short_screening' ? 3 : 8;
+      const maxItemsForSkill = Math.max(1, Math.min(requestedBudget, availableForSkill || requestedBudget));
       if (thread.count >= maxItemsForSkill) {
         thread.finished = true;
       }
@@ -211,6 +216,48 @@
                       this.questionBanks.multilingual || {};
         return multi[lang] || [];
       }
+    }
+
+    countItemsForSkill(skill) {
+      const bank = this.getQuestionBankForLanguage(this.targetLanguage);
+      return bank.filter(item => item.skill === skill).length;
+    }
+
+    /**
+     * Maximum-likelihood ability estimate for a Rasch (1PL) model.
+     * A fixed-step staircase drifts one band per two answers regardless of how
+     * informative the answers were; the likelihood estimate uses every response.
+     */
+    estimateAbility(answers) {
+      const scored = (answers || []).filter(a => typeof a.isCorrect !== 'undefined');
+      if (scored.length === 0) return { theta: 3.0, se: null };
+
+      let bestTheta = 3.0;
+      let bestLogLikelihood = -Infinity;
+      for (let theta = 1.0; theta <= 7.0001; theta += 0.05) {
+        let logLikelihood = 0;
+        for (const answer of scored) {
+          const difficulty = typeof answer.itemDifficulty === 'number' ? answer.itemDifficulty : 4.0;
+          const p = 1 / (1 + Math.exp(-(theta - difficulty)));
+          logLikelihood += answer.isCorrect
+            ? Math.log(Math.max(p, 1e-9))
+            : Math.log(Math.max(1 - p, 1e-9));
+        }
+        if (logLikelihood > bestLogLikelihood) {
+          bestLogLikelihood = logLikelihood;
+          bestTheta = theta;
+        }
+      }
+
+      let information = 0;
+      for (const answer of scored) {
+        const difficulty = typeof answer.itemDifficulty === 'number' ? answer.itemDifficulty : 4.0;
+        const p = 1 / (1 + Math.exp(-(bestTheta - difficulty)));
+        information += p * (1 - p);
+      }
+      const se = information > 0 ? 1 / Math.sqrt(information) : null;
+
+      return { theta: Math.min(7, Math.max(1, bestTheta)), se };
     }
 
     numericToBand(num) {

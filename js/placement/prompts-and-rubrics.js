@@ -294,11 +294,43 @@ const SPEAKING_RUBRIC = {
   ]
 };
 
+// Localised task sets live in prompts-multilingual.js (window.COSY_PLACEMENT_PROMPTS_ML)
+// so that this file stays the specification and that file stays translation content.
+function localisedSource() {
+  if (typeof window !== 'undefined' && window.COSY_PLACEMENT_PROMPTS_ML) {
+    return window.COSY_PLACEMENT_PROMPTS_ML;
+  }
+  if (typeof module !== 'undefined' && module.exports && typeof require === 'function') {
+    try {
+      return require('./prompts-multilingual.js');
+    } catch (error) {
+      return null;
+    }
+  }
+  return null;
+}
+
+function localisedPrompts(kind, lang) {
+  if (!lang) return null;
+  const code = String(lang).toLowerCase().slice(0, 2);
+  if (code === 'en') return null;
+  const ml = localisedSource() || {};
+  const set = ml[kind] && ml[kind][code];
+  return Array.isArray(set) && set.length ? set : null;
+}
+
+function promptsFor(kind, fallbackSet, lang) {
+  return localisedPrompts(kind, lang) || fallbackSet.en || [];
+}
+
 const PROMPTS_AND_RUBRICS = {
   writingPrompts: WRITING_PROMPTS,
   speakingPrompts: SPEAKING_PROMPTS,
   writingRubric: WRITING_RUBRIC,
-  speakingRubric: SPEAKING_RUBRIC
+  speakingRubric: SPEAKING_RUBRIC,
+  getWritingPrompts: (lang) => promptsFor('writing', WRITING_PROMPTS, lang),
+  getSpeakingPrompts: (lang) => promptsFor('speaking', SPEAKING_PROMPTS, lang),
+  hasLocalisedPrompts: (lang) => Boolean(localisedPrompts('writing', lang))
 };
 
 if (typeof window !== 'undefined') {

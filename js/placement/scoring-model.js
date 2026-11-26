@@ -112,16 +112,24 @@
       let numericLevel = Math.max(1.0, Math.min(7.0, theta));
       let band = NUMERIC_BAND[Math.round(numericLevel)] || 'B1';
 
-      // Range determination for boundary / variance cases
+      // Range and confidence come from the standard error of the ability
+      // estimate when the engine produced one; the per-item variance is only a
+      // fallback for sessions recorded before that existed.
       let range = band;
-      if (thread.variance > 0.2 || count < 4) {
+      let confidence = 'high';
+      const se = typeof thread.se === 'number' ? thread.se : null;
+
+      if (se !== null) {
+        const lower = NUMERIC_BAND[Math.max(1, Math.min(7, Math.round(numericLevel - se)))];
+        const upper = NUMERIC_BAND[Math.max(1, Math.min(7, Math.round(numericLevel + se)))];
+        range = (lower !== upper) ? `${lower}–${upper}` : lower;
+        confidence = se <= 0.6 ? 'high' : (se <= 1.1 ? 'medium' : 'low');
+      } else if (thread.variance > 0.2 || count < 4) {
         const lower = NUMERIC_BAND[Math.max(1, Math.round(numericLevel - 0.5))];
         const upper = NUMERIC_BAND[Math.min(7, Math.round(numericLevel + 0.5))];
         range = (lower !== upper) ? `${lower}–${upper}` : lower;
+        if (thread.variance > 0.22) confidence = 'medium';
       }
-
-      let confidence = 'high';
-      if (thread.variance > 0.22) confidence = 'medium';
 
       return {
         skill: skillName,

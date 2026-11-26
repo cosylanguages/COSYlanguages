@@ -538,7 +538,174 @@ const MULTILINGUAL_QUESTION_BANKS = {
       },
       "cefrDescriptor": "Analyse herméneutique C2",
       "provisional": true
-    }
+    },
+    {
+      "id": "fr_grammar_a0_02", "skill": "grammar", "subskill": "interrogatifs", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "___ âge as-tu ?", "options": ["Quel", "Quelle", "Quels"], "correctAnswer": 0,
+      "explanation": "« Quel » s'accorde avec « âge », nom masculin singulier.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Interrogatifs de base A0", "provisional": true
+    },
+    {
+      "id": "fr_vocab_a0_02", "skill": "vocabulary", "subskill": "nombres", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "Quel nombre vient juste après sept ?", "options": ["huit", "neuf", "six"], "correctAnswer": 0,
+      "explanation": "La suite est : six, sept, huit, neuf.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Nombres usuels A0", "provisional": true
+    },
+    {
+      "id": "fr_read_a0_02", "skill": "reading", "subskill": "notices", "band": "A0", "difficulty": 1,
+      "type": "reading_passage", "passage": "BOULANGERIE — FERMÉ LE LUNDI", "question": "Peut-on acheter du pain le lundi ?",
+      "options": ["Non, c'est fermé", "Oui, le matin", "Oui, l'après-midi"], "correctAnswer": 0,
+      "explanation": "« Fermé le lundi » indique que la boutique est close ce jour-là.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Panneaux simples A0", "provisional": true
+    },
+    {
+      "id": "fr_grammar_a1_02", "skill": "grammar", "subskill": "articles_definis", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "___ livres sont sur la table.", "options": ["Les", "Le", "La"], "correctAnswer": 0,
+      "explanation": "« Livres » est un nom masculin pluriel : article défini « les ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Articles définis A1", "provisional": true
+    },
+    {
+      "id": "fr_vocab_a1_02", "skill": "vocabulary", "subskill": "famille", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "Le père de ma mère est mon ___.", "options": ["grand-père", "oncle", "frère"], "correctAnswer": 0,
+      "explanation": "Le père de la mère est le grand-père maternel.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Liens familiaux A1", "provisional": true
+    },
+    {
+      "id": "fr_read_a1_02", "skill": "reading", "subskill": "horaires", "band": "A1", "difficulty": 2,
+      "type": "reading_passage", "passage": "PISCINE MUNICIPALE — Ouvert de 9h à 19h — Dernière entrée : 18h15",
+      "question": "À quelle heure faut-il entrer au plus tard ?",
+      "options": ["18h15", "19h", "9h"], "correctAnswer": 0,
+      "explanation": "La dernière entrée est autorisée à 18h15, avant la fermeture.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Informations pratiques A1", "provisional": true
+    },
+    {
+      "id": "fr_grammar_a2_02", "skill": "grammar", "subskill": "passe_compose", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "Hier, elle ___ au cinéma avec sa sœur.", "options": ["est allée", "a allé", "va"], "correctAnswer": 0,
+      "explanation": "« Aller » se conjugue avec « être » et le participe s'accorde : « elle est allée ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Passé composé A2", "provisional": true
+    },
+    {
+      "id": "fr_vocab_a2_02", "skill": "vocabulary", "subskill": "travail", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "À quoi sert un entretien d'embauche ?",
+      "options": ["À rencontrer un employeur pour un poste", "À réserver un billet d'avion", "À payer ses impôts"], "correctAnswer": 0,
+      "explanation": "L'entretien d'embauche est la rencontre entre le candidat et l'employeur.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Vocabulaire professionnel A2", "provisional": true
+    },
+    {
+      "id": "fr_read_a2_02", "skill": "reading", "subskill": "courriel", "band": "A2", "difficulty": 3,
+      "type": "reading_passage", "passage": "Bonjour Sophie, je suis malade aujourd'hui et je ne pourrai pas venir mardi. Peut-on reporter la réunion à jeudi ? Merci, Marc",
+      "question": "Pourquoi Marc écrit-il ?",
+      "options": ["Pour demander de déplacer une réunion", "Pour annuler un cours de sport", "Pour commander un repas"], "correctAnswer": 0,
+      "explanation": "Il explique sa maladie puis demande de reporter la réunion à jeudi.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Courriel simple A2", "provisional": true
+    },
+    {
+      "id": "fr_grammar_b1_02", "skill": "grammar", "subskill": "subjonctif", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "Il faut que tu ___ plus tôt demain.", "options": ["partes", "pars", "partiras"], "correctAnswer": 0,
+      "explanation": "« Il faut que » exige le subjonctif : « que tu partes ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Subjonctif présent B1", "provisional": true
+    },
+    {
+      "id": "fr_vocab_b1_02", "skill": "vocabulary", "subskill": "collocations", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "Après une longue réflexion, il a ___ une décision difficile.",
+      "options": ["pris", "fait", "donné"], "correctAnswer": 0,
+      "explanation": "La collocation correcte est « prendre une décision ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Collocations courantes B1", "provisional": true
+    },
+    {
+      "id": "fr_read_b1_02", "skill": "reading", "subskill": "article", "band": "B1", "difficulty": 4,
+      "type": "reading_passage", "passage": "La médiathèque du quartier change ses horaires à partir du 1er octobre. Elle ouvrira désormais jusqu'à 20h du mardi au samedi, mais restera fermée le lundi matin pour permettre le réaménagement des salles.",
+      "question": "Pourquoi la médiathèque ferme-t-elle le lundi matin ?",
+      "options": ["Pour réaménager les salles", "Parce que le personnel est en vacances", "Parce qu'il n'y a pas assez de visiteurs"], "correctAnswer": 0,
+      "explanation": "Le texte indique explicitement que la fermeture sert au réaménagement des salles.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Article informatif B1", "provisional": true
+    },
+    {
+      "id": "fr_grammar_b2_02", "skill": "grammar", "subskill": "voix_passive", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "Les travaux ___ avant la fin de l'année.", "options": ["seront achevés", "seront achever", "achèveront"], "correctAnswer": 0,
+      "explanation": "Voix passive au futur : « seront achevés » (être + participe passé).",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Voix passive B2", "provisional": true
+    },
+    {
+      "id": "fr_vocab_b2_02", "skill": "vocabulary", "subskill": "expressions", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "Que signifie « à titre indicatif » ?",
+      "options": ["À titre d'information, sans valeur définitive", "De manière obligatoire", "Sous forme de contrat"], "correctAnswer": 0,
+      "explanation": "L'expression signale une information donnée pour orienter, sans caractère contraignant.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Expressions abstraites B2", "provisional": true
+    },
+    {
+      "id": "fr_read_b2_02", "skill": "reading", "subskill": "argumentation", "band": "B2", "difficulty": 5,
+      "type": "reading_passage", "passage": "Le télétravail a séduit par sa souplesse, mais les entreprises qui l'ont généralisé sans cadre constatent aujourd'hui un affaiblissement du lien entre équipes. Plutôt que de revenir au bureau à temps plein, plusieurs directions choisissent d'imposer des journées de présence communes.",
+      "question": "Quelle solution les entreprises retiennent-elles ?",
+      "options": ["Des journées de présence fixes et partagées", "Le retour complet au bureau", "La suppression du télétravail"], "correctAnswer": 0,
+      "explanation": "Le texte oppose explicitement cette solution au retour à temps plein.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Texte argumentatif B2", "provisional": true
+    },
+    {
+      "id": "fr_grammar_c1_02", "skill": "grammar", "subskill": "concession", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "Bien qu'il ___ toutes les conditions requises, sa candidature n'a pas été retenue.",
+      "options": ["remplisse", "remplit", "remplissait"], "correctAnswer": 0,
+      "explanation": "« Bien que » impose le subjonctif : « qu'il remplisse ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Concession et subjonctif C1", "provisional": true
+    },
+    {
+      "id": "fr_vocab_c1_02", "skill": "vocabulary", "subskill": "nuances", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "Dans « une mesure prise à titre provisoire », « provisoire » signifie :",
+      "options": ["Temporaire, destinée à être remplacée", "Définitive et irrévocable", "Confidentielle"], "correctAnswer": 0,
+      "explanation": "« Provisoire » s'oppose à « définitif » : la mesure est temporaire.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Nuances lexicales C1", "provisional": true
+    },
+    {
+      "id": "fr_read_c1_02", "skill": "reading", "subskill": "stance", "band": "C1", "difficulty": 6,
+      "type": "reading_passage", "passage": "On reproche souvent aux régulateurs leur lenteur. Le reproche n'est pas infondé, mais il méconnaît une contrainte structurelle : une norme adoptée trop vite risque d'être obsolète avant d'être appliquée, tandis qu'une norme trop tardive laisse s'installer des pratiques difficiles à défaire.",
+      "question": "Quelle est la position de l'auteur ?",
+      "options": ["La critique de la lenteur est partiellement juste mais ignore un dilemme réel", "Les régulateurs sont totalement incompétents", "Il faut réguler le plus vite possible"], "correctAnswer": 0,
+      "explanation": "L'auteur concède le reproche puis le nuance en exposant un compromis temporel.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Nuance argumentative C1", "provisional": true
+    },
+    {
+      "id": "fr_grammar_c2_02", "skill": "grammar", "subskill": "subjonctif_imparfait", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "Qu'il ___ refusé, cela n'aurait rien changé à l'issue du vote.",
+      "options": ["eût", "avait", "aurait"], "correctAnswer": 0,
+      "explanation": "Le subjonctif plus-que-parfait (« qu'il eût refusé ») marque l'antériorité dans un registre soutenu.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Subjonctif littéraire C2", "provisional": true
+    },
+    {
+      "id": "fr_vocab_c2_02", "skill": "vocabulary", "subskill": "lexique_soutenu", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "Un propos « lénifiant » est un propos qui :",
+      "options": ["apaise, en adoucissant les tensions", "accuse avec virulence", "déstabilise par son ambiguïté"], "correctAnswer": 0,
+      "explanation": "« Lénifiant » qualifie ce qui calme, adoucit, parfois excessivement.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Lexique soutenu C2", "provisional": true
+    },
+    {
+      "id": "fr_read_c2_02", "skill": "reading", "subskill": "synthese", "band": "C2", "difficulty": 7,
+      "type": "reading_passage", "passage": "L'argument selon lequel l'automatisation libérerait du temps de travail suppose une répartition équitable des gains de productivité. Or rien, dans l'histoire des mutations techniques, n'indique qu'une telle répartition s'opère spontanément : elle a toujours résulté de rapports de force, non de la technique elle-même.",
+      "question": "Que conteste l'auteur ?",
+      "options": ["Le caractère automatique du partage des gains de productivité", "L'existence des gains de productivité", "La possibilité historique du progrès technique"], "correctAnswer": 0,
+      "explanation": "L'auteur ne nie pas les gains : il conteste l'idée qu'ils se distribuent d'eux-mêmes.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Synthèse critique C2", "provisional": true
+    },
   ],
   "it": [
     {
@@ -1072,7 +1239,172 @@ const MULTILINGUAL_QUESTION_BANKS = {
       },
       "cefrDescriptor": "Ermeneutica avanzata C2",
       "provisional": true
-    }
+    },
+    {
+      "id": "it_grammar_a0_02", "skill": "grammar", "subskill": "interrogativi", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "___ è il tuo nome?", "options": ["Quale", "Quali", "Qual"], "correctAnswer": 0,
+      "explanation": "« Nome » è singolare: si usa « quale ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Interrogativi di base A0", "provisional": true
+    },
+    {
+      "id": "it_vocab_a0_02", "skill": "vocabulary", "subskill": "numeri", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "Quale numero viene subito dopo otto?", "options": ["nove", "dieci", "sette"], "correctAnswer": 0,
+      "explanation": "La sequenza è: sette, otto, nove, dieci.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Numeri di base A0", "provisional": true
+    },
+    {
+      "id": "it_read_a0_02", "skill": "reading", "subskill": "avvisi", "band": "A0", "difficulty": 1,
+      "type": "reading_passage", "passage": "FARMACIA — CHIUSO LA DOMENICA", "question": "La domenica la farmacia è aperta?",
+      "options": ["No, è chiusa", "Sì, solo al mattino", "Sì, tutto il giorno"], "correctAnswer": 0,
+      "explanation": "« Chiuso la domenica » significa che è chiusa quel giorno.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Avvisi semplici A0", "provisional": true
+    },
+    {
+      "id": "it_grammar_a1_02", "skill": "grammar", "subskill": "articoli_determinativi", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "___ libri sono sul tavolo.", "options": ["I", "Il", "La"], "correctAnswer": 0,
+      "explanation": "« Libri » è maschile plurale: articolo determinativo « i ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Articoli determinativi A1", "provisional": true
+    },
+    {
+      "id": "it_vocab_a1_02", "skill": "vocabulary", "subskill": "famiglia", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "Il padre di mia madre è mio ___.", "options": ["nonno", "zio", "fratello"], "correctAnswer": 0,
+      "explanation": "Il padre della madre è il nonno materno.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Relazioni familiari A1", "provisional": true
+    },
+    {
+      "id": "it_read_a1_02", "skill": "reading", "subskill": "orari", "band": "A1", "difficulty": 2,
+      "type": "reading_passage", "passage": "BIBLIOTECA CIVICA — Aperta dalle 9 alle 18 — Ultimo ingresso: 17:30",
+      "question": "Entro che ora si può entrare?", "options": ["17:30", "18:00", "9:00"], "correctAnswer": 0,
+      "explanation": "L'ultimo ingresso è consentito fino alle 17:30.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Informazioni pratiche A1", "provisional": true
+    },
+    {
+      "id": "it_grammar_a2_02", "skill": "grammar", "subskill": "passato_prossimo", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "Ieri sera Anna ___ al cinema con sua sorella.", "options": ["è andata", "ha andato", "va"], "correctAnswer": 0,
+      "explanation": "« Andare » vuole l'ausiliare « essere » e il participio concorda: « è andata ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Passato prossimo A2", "provisional": true
+    },
+    {
+      "id": "it_vocab_a2_02", "skill": "vocabulary", "subskill": "lavoro", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "A che cosa serve un colloquio di lavoro?",
+      "options": ["A incontrare un datore di lavoro per una posizione", "A prenotare un treno", "A pagare le tasse"], "correctAnswer": 0,
+      "explanation": "Il colloquio è l'incontro tra candidato e datore di lavoro.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Lessico del lavoro A2", "provisional": true
+    },
+    {
+      "id": "it_read_a2_02", "skill": "reading", "subskill": "email", "band": "A2", "difficulty": 3,
+      "type": "reading_passage", "passage": "Ciao Luca, oggi sono malato e domani non potrò venire. Possiamo spostare la riunione a giovedì? Grazie, Marco",
+      "question": "Perché Marco scrive?", "options": ["Per chiedere di spostare una riunione", "Per annullare una lezione", "Per ordinare un pranzo"], "correctAnswer": 0,
+      "explanation": "Spiega di essere malato e chiede di rinviare la riunione.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Email semplice A2", "provisional": true
+    },
+    {
+      "id": "it_grammar_b1_02", "skill": "grammar", "subskill": "congiuntivo", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "Bisogna che tu ___ prima domani.", "options": ["parta", "parti", "partirai"], "correctAnswer": 0,
+      "explanation": "« Bisogna che » richiede il congiuntivo: « che tu parta ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Congiuntivo presente B1", "provisional": true
+    },
+    {
+      "id": "it_vocab_b1_02", "skill": "vocabulary", "subskill": "collocazioni", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "Dopo una lunga riflessione, ha ___ una decisione difficile.",
+      "options": ["preso", "fatto", "dato"], "correctAnswer": 0,
+      "explanation": "La collocazione corretta è « prendere una decisione ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Collocazioni comuni B1", "provisional": true
+    },
+    {
+      "id": "it_read_b1_02", "skill": "reading", "subskill": "articolo", "band": "B1", "difficulty": 4,
+      "type": "reading_passage", "passage": "Da ottobre la biblioteca di quartiere resterà aperta fino alle 20 dal martedì al sabato. Il lunedì mattina sarà chiusa per permettere il riordino delle sale.",
+      "question": "Perché la biblioteca è chiusa il lunedì mattina?",
+      "options": ["Per riordinare le sale", "Per le ferie del personale", "Perché ci sono pochi visitatori"], "correctAnswer": 0,
+      "explanation": "Il testo dice esplicitamente che la chiusura serve al riordino delle sale.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Articolo informativo B1", "provisional": true
+    },
+    {
+      "id": "it_grammar_b2_02", "skill": "grammar", "subskill": "passivo", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "I lavori ___ entro la fine dell'anno.", "options": ["saranno completati", "saranno completare", "completeranno"], "correctAnswer": 0,
+      "explanation": "Passivo al futuro: « saranno completati » (essere + participio passato).",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Forma passiva B2", "provisional": true
+    },
+    {
+      "id": "it_vocab_b2_02", "skill": "vocabulary", "subskill": "espressioni", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "Che cosa significa « a titolo informativo »?",
+      "options": ["Come informazione, senza valore definitivo", "In modo obbligatorio", "Sotto forma di contratto"], "correctAnswer": 0,
+      "explanation": "L'espressione indica un'informazione orientativa, non vincolante.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Espressioni astratte B2", "provisional": true
+    },
+    {
+      "id": "it_read_b2_02", "skill": "reading", "subskill": "argomentazione", "band": "B2", "difficulty": 5,
+      "type": "reading_passage", "passage": "Il lavoro da remoto ha conquistato per la sua flessibilità, ma molte aziende che lo hanno generalizzato senza regole notano oggi un indebolimento dei legami tra i team. Invece di tornare in ufficio a tempo pieno, diverse direzioni scelgono di imporre giornate di presenza comuni.",
+      "question": "Quale soluzione scelgono diverse aziende?",
+      "options": ["Giornate di presenza fisse e condivise", "Il ritorno completo in ufficio", "L'abolizione del lavoro da remoto"], "correctAnswer": 0,
+      "explanation": "Il testo contrappone questa soluzione al ritorno a tempo pieno.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Testo argomentativo B2", "provisional": true
+    },
+    {
+      "id": "it_grammar_c1_02", "skill": "grammar", "subskill": "concessione", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "Benché ___ tutti i requisiti, la sua candidatura non è stata accettata.",
+      "options": ["soddisfacesse", "soddisfa", "soddisferà"], "correctAnswer": 0,
+      "explanation": "« Benché » richiede il congiuntivo: « soddisfacesse ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Concessione e congiuntivo C1", "provisional": true
+    },
+    {
+      "id": "it_vocab_c1_02", "skill": "vocabulary", "subskill": "sfumature", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "In « un provvedimento adottato in via provvisoria », « provvisorio » significa:",
+      "options": ["Temporaneo, destinato a essere sostituito", "Definitivo e irrevocabile", "Riservato"], "correctAnswer": 0,
+      "explanation": "« Provvisorio » si oppone a « definitivo ».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Sfumature lessicali C1", "provisional": true
+    },
+    {
+      "id": "it_read_c1_02", "skill": "reading", "subskill": "posizione", "band": "C1", "difficulty": 6,
+      "type": "reading_passage", "passage": "Si rimprovera spesso ai regolatori la loro lentezza. Il rimprovero non è infondato, ma ignora un vincolo strutturale: una norma approvata troppo in fretta rischia di essere obsoleta prima di essere applicata, mentre una norma troppo tardiva lascia consolidarsi pratiche difficili da smontare.",
+      "question": "Qual è la posizione dell'autore?",
+      "options": ["La critica è in parte giusta ma trascura un dilemma reale", "I regolatori sono del tutto incompetenti", "Bisogna regolare il più rapidamente possibile"], "correctAnswer": 0,
+      "explanation": "L'autore concede il rimprovero e poi lo sfuma mostrando un compromesso temporale.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Argomentazione sfumata C1", "provisional": true
+    },
+    {
+      "id": "it_grammar_c2_02", "skill": "grammar", "subskill": "congiuntivo_trapassato", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "Che ___ rifiutato, non avrebbe cambiato l'esito della votazione.",
+      "options": ["avesse", "aveva", "avrebbe"], "correctAnswer": 0,
+      "explanation": "Congiuntivo trapassato: « che avesse rifiutato » indica anteriorità.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Congiuntivo letterario C2", "provisional": true
+    },
+    {
+      "id": "it_vocab_c2_02", "skill": "vocabulary", "subskill": "lessico_colto", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "Un discorso « lenitivo » è un discorso che:",
+      "options": ["placa, attenuando le tensioni", "accusa con durezza", "confonde per la sua ambiguità"], "correctAnswer": 0,
+      "explanation": "« Lenitivo » indica ciò che calma e attenua.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Lessico colto C2", "provisional": true
+    },
+    {
+      "id": "it_read_c2_02", "skill": "reading", "subskill": "sintesi", "band": "C2", "difficulty": 7,
+      "type": "reading_passage", "passage": "L'argomento secondo cui l'automazione libererebbe tempo di lavoro presuppone una distribuzione equa dei guadagni di produttività. Ebbene, nulla nella storia delle trasformazioni tecniche indica che tale distribuzione avvenga spontaneamente: è sempre derivata da rapporti di forza, non dalla tecnica in sé.",
+      "question": "Che cosa contesta l'autore?",
+      "options": ["Il carattere automatico della distribuzione dei guadagni", "L'esistenza dei guadagni di produttività", "La possibilità storica del progresso tecnico"], "correctAnswer": 0,
+      "explanation": "Non nega i guadagni: contesta l'idea che si distribuiscano da soli.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Sintesi critica C2", "provisional": true
+    },
   ],
   "ru": [
     {
@@ -1606,7 +1938,174 @@ const MULTILINGUAL_QUESTION_BANKS = {
       },
       "cefrDescriptor": "Герменевтика C2",
       "provisional": true
-    }
+    },
+    {
+      "id": "ru_grammar_a0_02", "skill": "grammar", "subskill": "вопросы", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "___ тебя зовут?", "options": ["Как", "Кто", "Что"], "correctAnswer": 0,
+      "explanation": "Вопрос об имени строится с «как»: «Как тебя зовут?»",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Вопросительные слова A0", "provisional": true
+    },
+    {
+      "id": "ru_vocab_a0_02", "skill": "vocabulary", "subskill": "числа", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "Какое число идёт сразу после семи?", "options": ["восемь", "девять", "шесть"], "correctAnswer": 0,
+      "explanation": "Ряд такой: шесть, семь, восемь, девять.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Базовые числительные A0", "provisional": true
+    },
+    {
+      "id": "ru_read_a0_02", "skill": "reading", "subskill": "объявления", "band": "A0", "difficulty": 1,
+      "type": "reading_passage", "passage": "АПТЕКА — ЗАКРЫТО В ВОСКРЕСЕНЬЕ", "question": "Можно ли купить лекарства в воскресенье?",
+      "options": ["Нет, аптека закрыта", "Да, утром", "Да, вечером"], "correctAnswer": 0,
+      "explanation": "«Закрыто в воскресенье» означает, что аптека не работает.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Простые объявления A0", "provisional": true
+    },
+    {
+      "id": "ru_grammar_a1_02", "skill": "grammar", "subskill": "падежи", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "Я живу в ___ .", "options": ["Москве", "Москва", "Москву"], "correctAnswer": 0,
+      "explanation": "После «в» в значении места нужен предложный падеж: «в Москве».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Предложный падеж A1", "provisional": true
+    },
+    {
+      "id": "ru_vocab_a1_02", "skill": "vocabulary", "subskill": "семья", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "Отец моей мамы — это мой ___.", "options": ["дедушка", "дядя", "брат"], "correctAnswer": 0,
+      "explanation": "Отец матери — дедушка.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Семья A1", "provisional": true
+    },
+    {
+      "id": "ru_read_a1_02", "skill": "reading", "subskill": "расписание", "band": "A1", "difficulty": 2,
+      "type": "reading_passage", "passage": "БАССЕЙН — Открыт с 9 до 20 часов — Последний вход: 19:00",
+      "question": "До какого времени можно войти?",
+      "options": ["до 19:00", "до 20:00", "до 9:00"], "correctAnswer": 0,
+      "explanation": "Последний вход разрешён в 19:00, за час до закрытия.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Практическая информация A1", "provisional": true
+    },
+    {
+      "id": "ru_grammar_a2_02", "skill": "grammar", "subskill": "вид_глагола", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "Вчера я ___ книгу до конца.", "options": ["прочитал", "читал", "читаю"], "correctAnswer": 0,
+      "explanation": "Завершённое действие с результатом требует совершенного вида: «прочитал».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Совершенный вид A2", "provisional": true
+    },
+    {
+      "id": "ru_vocab_a2_02", "skill": "vocabulary", "subskill": "работа", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "Для чего нужно собеседование?",
+      "options": ["Чтобы познакомиться с работодателем и получить работу", "Чтобы купить билет на поезд", "Чтобы заплатить налоги"], "correctAnswer": 0,
+      "explanation": "Собеседование — встреча кандидата с работодателем.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Лексика работы A2", "provisional": true
+    },
+    {
+      "id": "ru_read_a2_02", "skill": "reading", "subskill": "письмо", "band": "A2", "difficulty": 3,
+      "type": "reading_passage", "passage": "Привет, Ольга! Я заболел и завтра не смогу прийти. Можно перенести встречу на четверг? Спасибо, Иван",
+      "question": "Зачем Иван пишет?",
+      "options": ["Чтобы перенести встречу", "Чтобы отменить урок", "Чтобы заказать обед"], "correctAnswer": 0,
+      "explanation": "Он объясняет болезнь и просит перенести встречу на четверг.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Простое письмо A2", "provisional": true
+    },
+    {
+      "id": "ru_grammar_b1_02", "skill": "grammar", "subskill": "условное", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "Если бы у меня было время, я ___ больше читать.", "options": ["стал бы", "стану", "стал"], "correctAnswer": 0,
+      "explanation": "Нереальное условие требует сослагательного наклонения с частицей «бы»: «стал бы».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Сослагательное наклонение B1", "provisional": true
+    },
+    {
+      "id": "ru_vocab_b1_02", "skill": "vocabulary", "subskill": "сочетаемость", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "После долгих размышлений он ___ трудное решение.",
+      "options": ["принял", "сделал", "дал"], "correctAnswer": 0,
+      "explanation": "Правильное сочетание — «принять решение».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Устойчивые сочетания B1", "provisional": true
+    },
+    {
+      "id": "ru_read_b1_02", "skill": "reading", "subskill": "статья", "band": "B1", "difficulty": 4,
+      "type": "reading_passage", "passage": "С октября районная библиотека будет работать до 20 часов со вторника по субботу. По понедельникам утром она закрыта: в это время переставляют мебель и обновляют фонд.",
+      "question": "Почему библиотека закрыта в понедельник утром?",
+      "options": ["Чтобы обновить залы и фонд", "Потому что сотрудники в отпуске", "Потому что мало посетителей"], "correctAnswer": 0,
+      "explanation": "В тексте прямо сказано, что в это время переставляют мебель и обновляют фонд.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Информационная статья B1", "provisional": true
+    },
+    {
+      "id": "ru_grammar_b2_02", "skill": "grammar", "subskill": "причастие", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "Работы ___ до конца года.", "options": ["будут завершены", "завершат", "будут завершать"], "correctAnswer": 0,
+      "explanation": "Страдательный залог будущего времени: «будут завершены».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Страдательный залог B2", "provisional": true
+    },
+    {
+      "id": "ru_vocab_b2_02", "skill": "vocabulary", "subskill": "выражения", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "Что означает «в справочном порядке»?",
+      "options": ["Для информации, без окончательного значения", "Обязательно к исполнению", "В форме договора"], "correctAnswer": 0,
+      "explanation": "Выражение указывает на ориентировочную, необязательную информацию.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Абстрактные выражения B2", "provisional": true
+    },
+    {
+      "id": "ru_read_b2_02", "skill": "reading", "subskill": "аргументация", "band": "B2", "difficulty": 5,
+      "type": "reading_passage", "passage": "Удалённая работа привлекла гибкостью, но компании, которые ввели её без правил, сегодня отмечают ослабление связей внутри команд. Вместо полного возвращения в офис многие руководители выбирают обязательные общие дни присутствия.",
+      "question": "Какое решение выбирают компании?",
+      "options": ["Общие фиксированные дни в офисе", "Полный возврат в офис", "Отмену удалённой работы"], "correctAnswer": 0,
+      "explanation": "Текст противопоставляет это решение полному возвращению в офис.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Аргументирующий текст B2", "provisional": true
+    },
+    {
+      "id": "ru_grammar_c1_02", "skill": "grammar", "subskill": "уступка", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "Хотя он ___ все требования, его кандидатуру не утвердили.",
+      "options": ["выполнил", "выполняет", "выполнит"], "correctAnswer": 0,
+      "explanation": "После «хотя» в прошедшем времени употребляется форма прошедшего времени: «выполнил».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Уступительные конструкции C1", "provisional": true
+    },
+    {
+      "id": "ru_vocab_c1_02", "skill": "vocabulary", "subskill": "оттенки", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "В выражении «временная мера» слово «временная» означает:",
+      "options": ["действующая ограниченный срок", "окончательная и неизменная", "секретная"], "correctAnswer": 0,
+      "explanation": "«Временный» противоположно «постоянному»: мера действует ограниченный срок.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Лексические оттенки C1", "provisional": true
+    },
+    {
+      "id": "ru_read_c1_02", "skill": "reading", "subskill": "позиция", "band": "C1", "difficulty": 6,
+      "type": "reading_passage", "passage": "Регуляторов часто упрекают в медлительности. Упрёк не лишён оснований, но он не учитывает структурное ограничение: норма, принятая слишком быстро, рискует устареть до применения, а слишком поздняя норма позволяет закрепиться практикам, которые потом трудно отменить.",
+      "question": "Какова позиция автора?",
+      "options": ["Критика отчасти справедлива, но не учитывает реальную дилемму", "Регуляторы полностью некомпетентны", "Регулировать нужно как можно быстрее"], "correctAnswer": 0,
+      "explanation": "Автор признаёт упрёк, но уточняет его, показывая временную дилемму.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Нюансированная аргументация C1", "provisional": true
+    },
+    {
+      "id": "ru_grammar_c2_02", "skill": "grammar", "subskill": "деепричастие", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "___ все обстоятельства, он всё же принял это предложение.",
+      "options": ["Взвесив", "Взвешивая", "Взвешенный"], "correctAnswer": 0,
+      "explanation": "Совершённое добавочное действие передаётся деепричастием совершенного вида: «взвесив».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Деепричастные обороты C2", "provisional": true
+    },
+    {
+      "id": "ru_vocab_c2_02", "skill": "vocabulary", "subskill": "книжная_лексика", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "«Куртуазный» поступок — это поступок:",
+      "options": ["изысканно вежливый, галантный", "грубый и резкий", "необдуманный"], "correctAnswer": 0,
+      "explanation": "«Куртуазный» означает подчёркнуто вежливый, галантный.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Книжная лексика C2", "provisional": true
+    },
+    {
+      "id": "ru_read_c2_02", "skill": "reading", "subskill": "синтез", "band": "C2", "difficulty": 7,
+      "type": "reading_passage", "passage": "Утверждение, будто автоматизация освободит время для труда, предполагает справедливое распределение выгод от роста производительности. Однако ничто в истории технических изменений не говорит о том, что такое распределение происходит само собой: оно всегда было результатом соотношения сил, а не самой техники.",
+      "question": "Что оспаривает автор?",
+      "options": ["Автоматический характер распределения выгод", "Существование роста производительности", "Историческую возможность технического прогресса"], "correctAnswer": 0,
+      "explanation": "Автор не отрицает выгоды, а оспаривает их самостоятельное распределение.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Критический синтез C2", "provisional": true
+    },
   ],
   "el": [
     {
@@ -2140,7 +2639,174 @@ const MULTILINGUAL_QUESTION_BANKS = {
       },
       "cefrDescriptor": "Ερμηνευτική C2",
       "provisional": true
-    }
+    },
+    {
+      "id": "el_grammar_a0_02", "skill": "grammar", "subskill": "ερωτηματικές", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "___ σε λένε;", "options": ["Πώς", "Ποιος", "Τι"], "correctAnswer": 0,
+      "explanation": "Η ερώτηση για το όνομα γίνεται με «πώς»: «Πώς σε λένε;»",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Βασικές ερωτηματικές A0", "provisional": true
+    },
+    {
+      "id": "el_vocab_a0_02", "skill": "vocabulary", "subskill": "αριθμοί", "band": "A0", "difficulty": 1,
+      "type": "multiple_choice", "question": "Ποιος αριθμός έρχεται αμέσως μετά το επτά;", "options": ["οκτώ", "εννέα", "έξι"], "correctAnswer": 0,
+      "explanation": "Η σειρά είναι: έξι, επτά, οκτώ, εννέα.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Βασικοί αριθμοί A0", "provisional": true
+    },
+    {
+      "id": "el_read_a0_02", "skill": "reading", "subskill": "πινακίδες", "band": "A0", "difficulty": 1,
+      "type": "reading_passage", "passage": "ΦΑΡΜΑΚΕΙΟ — ΚΛΕΙΣΤΟ ΤΗΝ ΚΥΡΙΑΚΗ", "question": "Μπορώ να αγοράσω φάρμακα την Κυριακή;",
+      "options": ["Όχι, είναι κλειστό", "Ναι, το πρωί", "Ναι, το βράδυ"], "correctAnswer": 0,
+      "explanation": "«Κλειστό την Κυριακή» σημαίνει ότι το φαρμακείο δεν λειτουργεί.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Απλές πινακίδες A0", "provisional": true
+    },
+    {
+      "id": "el_grammar_a1_02", "skill": "grammar", "subskill": "άρθρα", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "___ βιβλία είναι στο τραπέζι.", "options": ["Τα", "Το", "Η"], "correctAnswer": 0,
+      "explanation": "Το «βιβλία» είναι ουδέτερο πληθυντικό: οριστικό άρθρο «τα».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Οριστικά άρθρα A1", "provisional": true
+    },
+    {
+      "id": "el_vocab_a1_02", "skill": "vocabulary", "subskill": "οικογένεια", "band": "A1", "difficulty": 2,
+      "type": "multiple_choice", "question": "Ο πατέρας της μητέρας μου είναι ο ___.", "options": ["παππούς", "θείος", "αδελφός"], "correctAnswer": 0,
+      "explanation": "Ο πατέρας της μητέρας είναι ο παππούς από την πλευρά της μητέρας.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Οικογενειακές σχέσεις A1", "provisional": true
+    },
+    {
+      "id": "el_read_a1_02", "skill": "reading", "subskill": "ωράριο", "band": "A1", "difficulty": 2,
+      "type": "reading_passage", "passage": "ΔΗΜΟΤΙΚΗ ΒΙΒΛΙΟΘΗΚΗ — Ανοιχτά 9:00-18:00 — Τελευταία είσοδος: 17:30",
+      "question": "Μέχρι τι ώρα μπορώ να μπω;",
+      "options": ["17:30", "18:00", "9:00"], "correctAnswer": 0,
+      "explanation": "Η τελευταία είσοδος επιτρέπεται στις 17:30.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Πρακτικές πληροφορίες A1", "provisional": true
+    },
+    {
+      "id": "el_grammar_a2_02", "skill": "grammar", "subskill": "αόριστος", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "Χθες η Άννα ___ στον κινηματογράφο με την αδελφή της.", "options": ["πήγε", "πηγαίνει", "θα πάει"], "correctAnswer": 0,
+      "explanation": "Για ολοκληρωμένη πράξη στο παρελθόν χρησιμοποιείται αόριστος: «πήγε».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Αόριστος A2", "provisional": true
+    },
+    {
+      "id": "el_vocab_a2_02", "skill": "vocabulary", "subskill": "εργασία", "band": "A2", "difficulty": 3,
+      "type": "multiple_choice", "question": "Σε τι χρησιμεύει μια συνέντευξη για δουλειά;",
+      "options": ["Να γνωρίσεις τον εργοδότη για μια θέση", "Να κλείσεις εισιτήριο", "Να πληρώσεις φόρους"], "correctAnswer": 0,
+      "explanation": "Η συνέντευξη είναι η συνάντηση του υποψηφίου με τον εργοδότη.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Λεξιλόγιο εργασίας A2", "provisional": true
+    },
+    {
+      "id": "el_read_a2_02", "skill": "reading", "subskill": "email", "band": "A2", "difficulty": 3,
+      "type": "reading_passage", "passage": "Γεια σου Μαρία, είμαι άρρωστος σήμερα και αύριο δεν θα μπορέσω να έρθω. Μπορούμε να μεταφέρουμε τη συνάντηση την Πέμπτη; Ευχαριστώ, Νίκος",
+      "question": "Γιατί γράφει ο Νίκος;",
+      "options": ["Για να μεταφέρει μια συνάντηση", "Για να ακυρώσει ένα μάθημα", "Για να παραγγείλει φαγητό"], "correctAnswer": 0,
+      "explanation": "Εξηγεί ότι είναι άρρωστος και ζητά να μεταφερθεί η συνάντηση.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Απλό email A2", "provisional": true
+    },
+    {
+      "id": "el_grammar_b1_02", "skill": "grammar", "subskill": "υποτακτική", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "Πρέπει να ___ νωρίτερα αύριο.", "options": ["φύγεις", "φεύγεις", "θα φύγεις"], "correctAnswer": 0,
+      "explanation": "Μετά το «να» χρησιμοποιείται υποτακτική: «να φύγεις».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Υποτακτική B1", "provisional": true
+    },
+    {
+      "id": "el_vocab_b1_02", "skill": "vocabulary", "subskill": "συνάψεις", "band": "B1", "difficulty": 4,
+      "type": "multiple_choice", "question": "Ύστερα από πολλή σκέψη, ___ μια δύσκολη απόφαση.",
+      "options": ["πήρε", "έκανε", "έδωσε"], "correctAnswer": 0,
+      "explanation": "Η σωστή σύναψη είναι «παίρνω απόφαση».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Συνήθεις συνάψεις B1", "provisional": true
+    },
+    {
+      "id": "el_read_b1_02", "skill": "reading", "subskill": "άρθρο", "band": "B1", "difficulty": 4,
+      "type": "reading_passage", "passage": "Από τον Οκτώβριο η δημοτική βιβλιοθήκη θα μένει ανοιχτή μέχρι τις 20:00 από Τρίτη έως Σάββατο. Τη Δευτέρα το πρωί θα είναι κλειστή, ώστε να τακτοποιηθούν οι αίθουσες.",
+      "question": "Γιατί η βιβλιοθήκη είναι κλειστή τη Δευτέρα το πρωί;",
+      "options": ["Για να τακτοποιηθούν οι αίθουσες", "Επειδή το προσωπικό έχει άδεια", "Επειδή έρχονται λίγοι επισκέπτες"], "correctAnswer": 0,
+      "explanation": "Το κείμενο λέει ρητά ότι η κλειστή περίοδος χρησιμεύει για την τακτοποίηση των αιθουσών.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Ενημερωτικό άρθρο B1", "provisional": true
+    },
+    {
+      "id": "el_grammar_b2_02", "skill": "grammar", "subskill": "παθητική", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "Οι εργασίες ___ μέχρι το τέλος του χρόνου.", "options": ["θα ολοκληρωθούν", "θα ολοκληρώνουν", "ολοκληρώνουν"], "correctAnswer": 0,
+      "explanation": "Παθητική φωνή μέλλοντα: «θα ολοκληρωθούν».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Παθητική φωνή B2", "provisional": true
+    },
+    {
+      "id": "el_vocab_b2_02", "skill": "vocabulary", "subskill": "εκφράσεις", "band": "B2", "difficulty": 5,
+      "type": "multiple_choice", "question": "Τι σημαίνει «ενδεικτικά»;",
+      "options": ["Πληροφοριακά, χωρίς δεσμευτική ισχύ", "Υποχρεωτικά", "Με τη μορφή σύμβασης"], "correctAnswer": 0,
+      "explanation": "Το «ενδεικτικά» δηλώνει πληροφορία προσανατολισμού, όχι υποχρέωση.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Αφηρημένες εκφράσεις B2", "provisional": true
+    },
+    {
+      "id": "el_read_b2_02", "skill": "reading", "subskill": "επιχειρηματολογία", "band": "B2", "difficulty": 5,
+      "type": "reading_passage", "passage": "Η τηλεργασία κέρδισε χάρη στην ευελιξία της, όμως οι εταιρείες που την εφάρμοσαν χωρίς κανόνες διαπιστώνουν σήμερα αποδυνάμωση των δεσμών στις ομάδες. Αντί να επιστρέψουν πλήρως στο γραφείο, αρκετές διοικήσεις επιλέγουν κοινές ημέρες παρουσίας.",
+      "question": "Ποια λύση επιλέγουν οι εταιρείες;",
+      "options": ["Σταθερές κοινές ημέρες παρουσίας", "Πλήρη επιστροφή στο γραφείο", "Κατάργηση της τηλεργασίας"], "correctAnswer": 0,
+      "explanation": "Το κείμενο αντιπαραβάλλει αυτή τη λύση με την πλήρη επιστροφή.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Επιχειρηματολογικό κείμενο B2", "provisional": true
+    },
+    {
+      "id": "el_grammar_c1_02", "skill": "grammar", "subskill": "παραχώρηση", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "Αν και ___ όλα τα προσόντα, η υποψηφιότητά του απορρίφθηκε.",
+      "options": ["διέθετε", "διαθέτει", "θα διαθέσει"], "correctAnswer": 0,
+      "explanation": "Σε παραχώρηση στο παρελθόν χρησιμοποιείται παρατατικός: «αν και διέθετε».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Παραχώρηση C1", "provisional": true
+    },
+    {
+      "id": "el_vocab_c1_02", "skill": "vocabulary", "subskill": "αποχρώσεις", "band": "C1", "difficulty": 6,
+      "type": "multiple_choice", "question": "Στη φράση «προσωρινό μέτρο», το «προσωρινό» σημαίνει:",
+      "options": ["που ισχύει για περιορισμένο διάστημα", "οριστικό και αμετάκλητο", "εμπιστευτικό"], "correctAnswer": 0,
+      "explanation": "Το «προσωρινό» αντιτίθεται στο «οριστικό».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Λεξιλογικές αποχρώσεις C1", "provisional": true
+    },
+    {
+      "id": "el_read_c1_02", "skill": "reading", "subskill": "στάση", "band": "C1", "difficulty": 6,
+      "type": "reading_passage", "passage": "Συχνά κατηγορούν τους ρυθμιστές για βραδύτητα. Η κατηγορία δεν είναι αβάσιμη, αλλά αγνοεί έναν διαρθρωτικό περιορισμό: ένας κανόνας που ψηφίζεται πολύ γρήγορα κινδυνεύει να είναι ξεπερασμένος πριν εφαρμοστεί, ενώ ένας πολύ καθυστερημένος κανόνας επιτρέπει να παγιωθούν πρακτικές δύσκολο να ανατραπούν.",
+      "question": "Ποια είναι η θέση του συγγραφέα;",
+      "options": ["Η κριτική είναι εν μέρει δικαιολογημένη αλλά αγνοεί ένα πραγματικό δίλημμα", "Οι ρυθμιστές είναι εντελώς ανίκανοι", "Πρέπει να ρυθμίζουμε όσο το δυνατόν γρηγορότερα"], "correctAnswer": 0,
+      "explanation": "Ο συγγραφέας δέχεται την κριτική και έπειτα τη σχετικοποιεί με ένα δίλημμα χρόνου.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Διαβαθμισμένη επιχειρηματολογία C1", "provisional": true
+    },
+    {
+      "id": "el_grammar_c2_02", "skill": "grammar", "subskill": "μετοχή", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "___ όλες τις παραμέτρους, αποφάσισε τελικά να δεχθεί την πρόταση.",
+      "options": ["Έχοντας σταθμίσει", "Σταθμίζοντας", "Σταθμισμένος"], "correctAnswer": 0,
+      "explanation": "Η συντελεσμένη δευτερεύουσα πράξη δηλώνεται με «έχοντας» + απαρέμφατο: «έχοντας σταθμίσει».",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Μετοχικές φράσεις C2", "provisional": true
+    },
+    {
+      "id": "el_vocab_c2_02", "skill": "vocabulary", "subskill": "λόγια_λέξη", "band": "C2", "difficulty": 7,
+      "type": "multiple_choice", "question": "Μια «κατευναστική» δήλωση είναι δήλωση που:",
+      "options": ["ηρεμεί, αμβλύνοντας τις εντάσεις", "κατηγορεί με δριμύτητα", "μπερδεύει λόγω ασάφειας"], "correctAnswer": 0,
+      "explanation": "Το «κατευναστικός» δηλώνει αυτό που καθησυχάζει και απαλύνει.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Λόγια λεξιλόγιο C2", "provisional": true
+    },
+    {
+      "id": "el_read_c2_02", "skill": "reading", "subskill": "σύνθεση", "band": "C2", "difficulty": 7,
+      "type": "reading_passage", "passage": "Το επιχείρημα ότι η αυτοματοποίηση θα ελευθερώσει χρόνο εργασίας προϋποθέτει δίκαιη κατανομή των κερδών παραγωγικότητας. Ωστόσο τίποτε στην ιστορία των τεχνικών αλλαγών δεν δείχνει ότι μια τέτοια κατανομή συντελείται αυτόματα: πάντα προέκυπτε από συσχετισμούς δυνάμεων, όχι από την ίδια την τεχνική.",
+      "question": "Τι αμφισβητεί ο συγγραφέας;",
+      "options": ["Τον αυτόματο χαρακτήρα της κατανομής των κερδών", "Την ύπαρξη κερδών παραγωγικότητας", "Την ιστορική δυνατότητα τεχνικής προόδου"], "correctAnswer": 0,
+      "explanation": "Δεν αρνείται τα κέρδη: αμφισβητεί ότι κατανέμονται από μόνα τους.",
+      "scoringRules": { "points": 1, "partialPoints": 0 },
+      "cefrDescriptor": "Κριτική σύνθεση C2", "provisional": true
+    },
   ]
 };
 

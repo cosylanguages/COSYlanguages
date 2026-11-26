@@ -27,7 +27,6 @@ const SHELL = [
   './courses/professional.html',
   './courses/relocation.html',
   './comparative/index.html',
-  './hybrid/index.html',
   './languages/en/index.html',
   './languages/fr/index.html',
   './languages/it/index.html',

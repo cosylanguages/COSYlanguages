@@ -1,6 +1,10 @@
 /**
  * COSY Languages - Writing Evaluator Module
  * Client-side analytic rubric analyzer and teacher review workflow.
+ *
+ * Every heuristic here is language-aware: connectors, formal markers and the
+ * long-word threshold come from the language profile, and tokenisation keeps
+ * Unicode letters so Greek and Cyrillic text is measured, not erased.
  */
 
 (function (root, factory) {
@@ -15,32 +19,207 @@
 
   const BANDS = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
-  const ADVANCED_CONNECTORS = [
-    'furthermore', 'nevertheless', 'consequently', 'notwithstanding', 'subsequently',
-    'moreover', 'on the other hand', 'in contrast', 'in addition', 'despite',
-    'although', 'whereas', 'hence', 'thus', 'accordingly', 'conversely'
-  ];
+  const LANGUAGE_PROFILES = {
+    en: {
+      name: 'English',
+      stripAccents: false,
+      longWord: 9,
+      connectors: [
+        'furthermore', 'moreover', 'nevertheless', 'nonetheless', 'consequently', 'subsequently',
+        'therefore', 'however', 'although', 'though', 'whereas', 'despite', 'in addition',
+        'on the other hand', 'in contrast', 'as a result', 'thus', 'hence', 'accordingly',
+        'conversely', 'notwithstanding', 'in conclusion', 'for instance', 'in other words'
+      ],
+      formal: ['sincerely', 'faithfully', 'i am writing', 'would like to', 'yours sincerely', 'dear sir', 'dear madam'],
+      informal: ['hey', 'gonna', 'wanna', 'cheers', 'thanks a lot', 'what\'s up']
+    },
+    fr: {
+      name: 'French',
+      stripAccents: true,
+      longWord: 10,
+      connectors: [
+        'cependant', 'néanmoins', 'toutefois', 'pourtant', 'en revanche', 'par conséquent',
+        'par ailleurs', 'en outre', 'de plus', 'ainsi', 'donc', 'en effet', 'notamment',
+        'tandis que', 'alors que', 'bien que', 'quoique', 'puisque', 'car', 'ensuite',
+        'enfin', 'd\'une part', 'd\'autre part', 'au contraire', 'malgré', 'étant donné',
+        'en conclusion', 'par exemple', 'c\'est-à-dire'
+      ],
+      formal: ['vous', 'cordialement', 'je vous prie', 'madame', 'monsieur', 'veuillez'],
+      informal: ['salut', 'ça va', 'bises', 'tu es', 't\'es']
+    },
+    it: {
+      name: 'Italian',
+      stripAccents: true,
+      longWord: 10,
+      connectors: [
+        'tuttavia', 'però', 'quindi', 'perciò', 'pertanto', 'inoltre', 'in aggiunta',
+        'd\'altra parte', 'al contrario', 'invece', 'sebbene', 'benché', 'nonostante',
+        'poiché', 'siccome', 'affinché', 'mentre', 'dunque', 'in conclusione',
+        'per esempio', 'cioè', 'infine'
+      ],
+      formal: ['lei', 'cordiali saluti', 'gentile', 'distinti saluti', 'la prego', 'vorrei'],
+      informal: ['ciao', 'come va', 'ti', 'tu sei', 'baci']
+    },
+    ru: {
+      name: 'Russian',
+      stripAccents: false,
+      longWord: 8,
+      connectors: [
+        'однако', 'тем не менее', 'следовательно', 'поэтому', 'кроме того', 'более того',
+        'впрочем', 'хотя', 'поскольку', 'значит', 'итак', 'наоборот', 'зато',
+        'вместе с тем', 'в связи с этим', 'несмотря на', 'благодаря', 'тогда как',
+        'при этом', 'в заключение', 'например', 'то есть'
+      ],
+      formal: ['вы', 'уважаем', 'с уважением', 'здравствуйте', 'позвольте', 'прошу'],
+      informal: ['привет', 'ты ', 'тебя', 'как дела', 'пока']
+    },
+    el: {
+      name: 'Greek',
+      stripAccents: true,
+      longWord: 9,
+      connectors: [
+        'ωστόσο', 'όμως', 'επομένως', 'συνεπώς', 'επιπλέον', 'εξάλλου', 'αντιθέτως',
+        'αντίθετα', 'παρόλο που', 'παρότι', 'ενώ', 'διότι', 'επειδή', 'άρα', 'δηλαδή',
+        'επίσης', 'αφού', 'ώστε', 'καθώς', 'συμπερασματικά', 'για παράδειγμα'
+      ],
+      formal: ['εσείς', 'με εκτίμηση', 'αξιότιμε', 'παρακαλώ', 'θα ήθελα'],
+      informal: ['γεια', 'εσύ', 'τι κάνεις', 'φιλιά']
+    }
+  };
 
-  const B2_C2_VOCAB_KEYWORDS = [
-    'substantive', 'viability', 'resilience', 'disparity', 'compelling', 'unethical',
-    'nuance', 'impasse', 'incisive', 'equivocal', 'trenchant', 'astute', 'duress',
-    'exquisite', 'finesse', 'diatribe', 'ineffable', 'inexorable', 'hermeneutic',
-    'dichotomy', 'epistemology', 'paradigm', 'juxtaposition', 'deconstruction'
-  ];
+  const DEFAULT_PROFILE = LANGUAGE_PROFILES.en;
+
+  function clamp(value, min, max) {
+    return Math.max(min, Math.min(max, value));
+  }
+
+  function resolveLanguage(taskPrompt, options) {
+    const candidates = [options && options.language, taskPrompt && taskPrompt.language];
+    if (typeof document !== 'undefined' && document.documentElement) {
+      candidates.push(document.documentElement.lang);
+    }
+    for (const candidate of candidates) {
+      if (!candidate) continue;
+      const code = String(candidate).toLowerCase().slice(0, 2);
+      if (LANGUAGE_PROFILES[code]) return code;
+    }
+    return 'en';
+  }
+
+  function normalise(text, stripAccents) {
+    let value = String(text || '').toLowerCase();
+    if (stripAccents && typeof value.normalize === 'function') {
+      value = value.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+    value = value.replace(/[^\p{L}\p{N}' -]/gu, ' ').replace(/\s+/g, ' ').trim();
+    return ` ${value} `;
+  }
+
+  function letterTokens(text) {
+    return String(text || '')
+      .split(/\s+/)
+      .map(token => token.replace(/[^\p{L}\p{N}]/gu, ''))
+      .filter(token => token.length > 0);
+  }
+
+  function countTerms(haystack, terms, stripAccents) {
+    let hits = 0;
+    for (const term of terms) {
+      const needle = normalise(term, stripAccents).trim();
+      if (needle && haystack.includes(` ${needle} `)) hits++;
+    }
+    return hits;
+  }
+
+  function scoreTaskFulfilment(wordCount, minWords, sentenceCount, connectorHits, longWordRatio) {
+    const ratio = wordCount / Math.max(1, minWords);
+    let score = 1;
+    if (ratio >= 0.4) score = 2;
+    if (ratio >= 0.8) score = 3;
+    if (ratio >= 1.0 && sentenceCount >= 2) score = 4;
+    if (ratio >= 1.0 && sentenceCount >= 3 && connectorHits >= 2) score = 5;
+    if (ratio >= 1.1 && sentenceCount >= 4 && connectorHits >= 3) score = 6;
+    if (ratio >= 1.2 && sentenceCount >= 5 && connectorHits >= 4 && longWordRatio >= 0.18) score = 7;
+    return clamp(score, 1, 7);
+  }
+
+  function scoreCohesion(connectorHits, avgSentenceLength) {
+    let score = 1;
+    if (connectorHits >= 1) score = 3;
+    if (connectorHits >= 2 && avgSentenceLength >= 9) score = 4;
+    if (connectorHits >= 3 && avgSentenceLength >= 11) score = 5;
+    if (connectorHits >= 4 && avgSentenceLength >= 13) score = 6;
+    if (connectorHits >= 5 && avgSentenceLength >= 15) score = 7;
+    return clamp(score, 1, 7);
+  }
+
+  function scoreGrammar(avgSentenceLength, lengthVariety, capitalisationRate, connectorHits) {
+    let score = 1;
+    if (avgSentenceLength >= 7) score = 3;
+    if (avgSentenceLength >= 10 && capitalisationRate <= 0.15) score = 4;
+    if (avgSentenceLength >= 12.5 && lengthVariety >= 2 && connectorHits >= 1) score = 5;
+    if (avgSentenceLength >= 15 && lengthVariety >= 4 && connectorHits >= 2 && capitalisationRate <= 0.1) score = 6;
+    if (avgSentenceLength >= 17.5 && lengthVariety >= 5 && connectorHits >= 3 && capitalisationRate === 0) score = 7;
+    return clamp(score, 1, 7);
+  }
+
+  function scoreVocabulary(rootTtr, longWordRatio) {
+    let score = 1;
+    if (rootTtr >= 4.0) score = 3;
+    if (rootTtr >= 4.8) score = 4;
+    if (rootTtr >= 5.4 || longWordRatio >= 0.14) score = 5;
+    if ((rootTtr >= 6.0 && longWordRatio >= 0.15) || longWordRatio >= 0.24) score = 6;
+    if (rootTtr >= 6.6 && longWordRatio >= 0.20) score = 7;
+    return clamp(score, 1, 7);
+  }
+
+  function scoreMechanics(capitalisationRate, extraDefects) {
+    return clamp(7 - Math.round(capitalisationRate * 12) - Math.min(5, extraDefects), 1, 7);
+  }
+
+  function scoreRegister(target, formalHits, informalHits, contractions, longWordRatio) {
+    // Scores consistency with the requested register, not the presence of a
+    // particular set of courtesy formulas (an essay has no "Dear Sir").
+    let score;
+    if (target === 'formal') {
+      score = 5;
+      if (formalHits >= 1) score += 1;
+      if (formalHits >= 2 || (longWordRatio >= 0.18 && contractions === 0)) score += 1;
+      score -= Math.min(3, informalHits + contractions);
+    } else if (target === 'informal') {
+      score = 5;
+      if (informalHits >= 1) score += 1;
+      if (informalHits >= 2 || contractions >= 1) score += 1;
+      score -= Math.min(3, formalHits);
+    } else {
+      score = 4 + (contractions === 0 ? 1 : 0) + (longWordRatio >= 0.18 ? 1 : 0);
+    }
+    return clamp(Math.round(score), 1, 7);
+  }
 
   class WritingEvaluator {
     /**
-     * Evaluate submitted text against target prompt requirements
+     * Evaluate submitted text against the prompt's requirements.
+     *
+     * @param {string} text        Learner submission.
+     * @param {object} taskPrompt  Prompt object (minWords, maxWords, band, register, language).
+     * @param {object} [options]   { language: 'fr' }.
      */
-    static evaluateSubmission(text, taskPrompt, userSelfRating = null) {
-      const cleanText = (text || '').trim();
-      const words = cleanText ? cleanText.split(/\s+/) : [];
-      const wordCount = words.length;
+    static evaluateSubmission(text, taskPrompt, options = {}) {
+      const prompt = taskPrompt || {};
+      const language = resolveLanguage(prompt, options);
+      const profile = LANGUAGE_PROFILES[language] || DEFAULT_PROFILE;
+
+      const cleanText = String(text || '').trim();
+      const tokens = letterTokens(cleanText);
+      const wordCount = tokens.length;
+      const minWords = prompt.minWords || 30;
 
       if (wordCount < 5) {
         return {
           estimatedBand: 'A0',
           numericLevel: 1.0,
+          language,
           rubricScores: {
             task_fulfilment: 1,
             organisation_cohesion: 1,
@@ -50,125 +229,135 @@
             mechanics_spelling_punctuation: 1
           },
           feedback: {
-            summary: "Submission too short to assess productive writing ability.",
-            wordCount: wordCount,
-            minTargetWords: taskPrompt.minWords || 20,
-            errorExamples: ["Insufficient length for evaluation."],
+            summary: 'Submission too short to assess productive writing ability.',
+            wordCount,
+            minTargetWords: minWords,
+            errorExamples: ['Insufficient length for evaluation.'],
             strengths: [],
-            improvementAdvice: ["Please write complete sentences answering the prompt."]
+            improvementAdvice: [`Please write complete sentences answering the prompt (at least ${minWords} ${profile.name} words).`]
           }
         };
       }
 
-      // Sentence count & average sentence length
-      const sentences = cleanText.split(/[.!?]+/).filter(s => s.trim().length > 0);
+      const sentences = cleanText
+        .split(/[.!?…]+/)
+        .map(s => s.trim())
+        .filter(s => letterTokens(s).length > 0);
       const sentenceCount = Math.max(1, sentences.length);
       const avgSentenceLength = wordCount / sentenceCount;
+      const sentenceLengths = sentences.map(s => letterTokens(s).length);
+      const lengthVariety = new Set(sentenceLengths.map(n => Math.round(n / 4))).size;
 
-      // Lexical diversity (Type-Token Ratio)
-      const uniqueWords = new Set(words.map(w => w.toLowerCase().replace(/[^a-z0-9]/g, '')));
-      const ttr = uniqueWords.size / wordCount;
+      const uniqueTokens = new Set(tokens.map(t => t.toLowerCase()));
+      // Root type-token ratio: stable across text lengths, unlike unique/wordCount
+      // which mechanically punishes longer (therefore better) submissions.
+      const rootTtr = uniqueTokens.size / Math.sqrt(wordCount);
+      const longWordRatio = tokens.filter(t => t.length >= profile.longWord).length / wordCount;
 
-      // Connector count
-      const lowerText = cleanText.toLowerCase();
-      let connectorCount = 0;
-      ADVANCED_CONNECTORS.forEach(conn => {
-        if (lowerText.includes(conn)) connectorCount++;
-      });
+      const haystack = normalise(cleanText, profile.stripAccents);
+      const connectorHits = countTerms(haystack, profile.connectors, profile.stripAccents);
+      const formalHits = countTerms(haystack, profile.formal, profile.stripAccents);
+      const informalHits = countTerms(haystack, profile.informal, profile.stripAccents);
+      // Contractions only mark informality in English; French/Italian elisions
+      // ("l'accélération") are ordinary written forms, not a register slip.
+      const contractions = language === 'en'
+        ? (cleanText.match(/\p{L}+['\u2019](?:t|s|re|ve|ll|d|m)\b/giu) || []).length
+        : 0;
 
-      // Advanced vocabulary hits
-      let advVocabHits = 0;
-      B2_C2_VOCAB_KEYWORDS.forEach(kw => {
-        if (lowerText.includes(kw)) advVocabHits++;
-      });
-
-      // Simple mechanics check
-      const capitalizationErrors = sentences.filter(s => {
-        const trimmed = s.trim();
-        return trimmed.length > 0 && trimmed[0] !== trimmed[0].toUpperCase();
+      const capitalisationErrors = sentences.filter(s => {
+        const first = s.trim()[0];
+        return first && first !== first.toUpperCase();
       }).length;
+      const capitalisationRate = capitalisationErrors / sentenceCount;
 
-      // Rubric Criterion Calculations (1 to 7 scale)
-      let taskFulfilmentScore = 2; // Default A1/A2 baseline
-      const minW = taskPrompt.minWords || 30;
-      if (wordCount >= minW * 0.5) taskFulfilmentScore = 2;
-      if (wordCount >= minW) taskFulfilmentScore = 3;
-      if (wordCount >= minW * 1.2) taskFulfilmentScore = 4;
-      if (wordCount >= minW * 1.5 && advVocabHits > 0) taskFulfilmentScore = 5;
-      if (wordCount >= minW * 1.8 && advVocabHits >= 2) taskFulfilmentScore = 6;
+      const repeatedWords = (cleanText.match(/\b(\p{L}+)\s+\1\b/gu) || []).length;
+      const doubleSpaces = (cleanText.match(/ {2,}/g) || []).length;
+      const missingFinalPunctuation = /[.!?…"')\]]$/.test(cleanText) ? 0 : 1;
+      const extraDefects = Math.min(3, repeatedWords) + Math.min(1, doubleSpaces) + missingFinalPunctuation;
 
-      let cohesionScore = 2;
-      if (connectorCount >= 1) cohesionScore = 3;
-      if (connectorCount >= 2 && avgSentenceLength >= 12) cohesionScore = 4;
-      if (connectorCount >= 3 && avgSentenceLength >= 15) cohesionScore = 5;
-      if (connectorCount >= 4 && avgSentenceLength >= 18) cohesionScore = 6;
+      const taskFulfilment = scoreTaskFulfilment(wordCount, minWords, sentenceCount, connectorHits, longWordRatio);
+      const cohesion = scoreCohesion(connectorHits, avgSentenceLength);
+      const grammar = scoreGrammar(avgSentenceLength, lengthVariety, capitalisationRate, connectorHits);
+      const vocabulary = scoreVocabulary(rootTtr, longWordRatio);
+      const mechanics = scoreMechanics(capitalisationRate, extraDefects);
+      const register = scoreRegister(prompt.register, formalHits, informalHits, contractions, longWordRatio);
 
-      let grammarScore = 2;
-      if (avgSentenceLength >= 8) grammarScore = 3;
-      if (avgSentenceLength >= 12 && capitalizationErrors === 0) grammarScore = 4;
-      if (avgSentenceLength >= 16 && connectorCount >= 2) grammarScore = 5;
-      if (avgSentenceLength >= 20 && connectorCount >= 3) grammarScore = 6;
+      // Rubric weights mirror prompts-and-rubrics.js (0.2 x 4, 0.1 x 2).
+      let overallNumeric =
+          taskFulfilment * 0.20 +
+          cohesion * 0.20 +
+          grammar * 0.20 +
+          vocabulary * 0.20 +
+          register * 0.10 +
+          mechanics * 0.10;
 
-      let vocabScore = 2;
-      if (wordCount >= 20 && ttr > 0.5) vocabScore = 3;
-      if (wordCount >= 50 && ttr > 0.6) vocabScore = 4;
-      if (advVocabHits >= 1 || (ttr > 0.65 && wordCount > 100)) vocabScore = 5;
-      if (advVocabHits >= 2 || (ttr > 0.7 && wordCount > 150)) vocabScore = 6;
-
-      let mechanicsScore = Math.max(1, 6 - capitalizationErrors);
-
-      let overallNumeric = (taskFulfilmentScore + cohesionScore + grammarScore + vocabScore + mechanicsScore) / 5;
-
-      // Cap overall numeric level if text length is severely deficient
-      if (wordCount < minW * 0.5) {
-        overallNumeric = Math.min(2.0, overallNumeric); // Cap at A1 level (2.0)
-      } else if (wordCount < minW) {
-        overallNumeric = Math.min(3.0, overallNumeric); // Cap at A2 level (3.0)
+      // CEFR logic: a task that is not attempted at the required length cannot
+      // certify the band it belongs to, however polished the sentences are.
+      if (wordCount < minWords * 0.4) {
+        overallNumeric = Math.min(3.0, overallNumeric);
+      } else if (wordCount < minWords * 0.7) {
+        overallNumeric = Math.min(4.0, overallNumeric);
       }
 
-      const bandIndex = Math.max(0, Math.min(6, Math.round(overallNumeric) - 1));
-      const estimatedBand = BANDS[bandIndex] || 'B1';
+      const bandIndex = clamp(Math.round(overallNumeric) - 1, 0, BANDS.length - 1);
+      const estimatedBand = BANDS[bandIndex];
 
-      // Construct constructive feedback
       const errorExamples = [];
-      if (wordCount < minW) {
-        errorExamples.push(`Text length (${wordCount} words) is below recommended target of ${minW} words.`);
+      if (wordCount < minWords) {
+        errorExamples.push(`Text length (${wordCount} words) is below the target of ${minWords} words.`);
       }
-      if (capitalizationErrors > 0) {
-        errorExamples.push(`Observed ${capitalizationErrors} sentence(s) without initial capital letters.`);
+      if (capitalisationErrors > 0) {
+        errorExamples.push(`${capitalisationErrors} sentence(s) start without a capital letter.`);
       }
 
       const strengths = [];
-      if (connectorCount >= 2) strengths.push(`Effective use of logical linking words (${connectorCount} connectors detected).`);
-      if (wordCount >= 30 && ttr > 0.6) strengths.push("Good lexical diversity with low word repetition.");
-      if (advVocabHits > 0) strengths.push(`Demonstrated advanced vocabulary precision (${advVocabHits} higher-level term(s)).`);
+      if (connectorHits >= 2) {
+        strengths.push(`Effective linking words (${connectorHits} ${profile.name} connectors detected).`);
+      }
+      if (rootTtr >= 5.4) strengths.push('Good lexical range with little word repetition.');
+      if (longWordRatio >= 0.18) strengths.push('Frequent use of longer, more precise words.');
 
       const advice = [];
-      if (connectorCount < 2) advice.push("Incorporate logical connectors (e.g., 'however', 'furthermore', 'despite') to connect ideas.");
-      if (avgSentenceLength < 10) advice.push("Practice combining simple sentences into compound and complex structures.");
+      if (connectorHits < 2) {
+        advice.push(`Connect ideas with ${profile.name} linkers (for example: ${profile.connectors.slice(0, 3).join(', ')}).`);
+      }
+      if (avgSentenceLength < 9) advice.push('Combine short sentences into compound and complex structures.');
+      if (wordCount < minWords) advice.push(`Aim for at least ${minWords} words to show your full range.`);
 
       return {
-        estimatedBand: estimatedBand,
+        estimatedBand,
         numericLevel: overallNumeric,
-        wordCount: wordCount,
+        language,
+        wordCount,
         rubricScores: {
-          task_fulfilment: taskFulfilmentScore,
-          organisation_cohesion: cohesionScore,
-          grammatical_range_accuracy: grammarScore,
-          vocabulary_range_precision: vocabScore,
-          mechanics_spelling_punctuation: mechanicsScore
+          task_fulfilment: taskFulfilment,
+          organisation_cohesion: cohesion,
+          grammatical_range_accuracy: grammar,
+          vocabulary_range_precision: vocabulary,
+          register_appropriateness: register,
+          mechanics_spelling_punctuation: mechanics
+        },
+        metrics: {
+          sentenceCount,
+          avgSentenceLength: Math.round(avgSentenceLength * 10) / 10,
+          rootTtr: Math.round(rootTtr * 100) / 100,
+          longWordRatio: Math.round(longWordRatio * 100) / 100,
+          connectors: connectorHits
         },
         feedback: {
           summary: `Demonstrates productive capability aligned with CEFR ${estimatedBand}.`,
-          wordCount: wordCount,
-          minTargetWords: minW,
-          errorExamples: errorExamples,
-          strengths: strengths,
+          wordCount,
+          minTargetWords: minWords,
+          errorExamples,
+          strengths,
           improvementAdvice: advice
         }
       };
     }
   }
+
+  WritingEvaluator.LANGUAGE_PROFILES = LANGUAGE_PROFILES;
+  WritingEvaluator.supportedLanguages = Object.keys(LANGUAGE_PROFILES);
 
   return WritingEvaluator;
 }));

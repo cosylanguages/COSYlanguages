@@ -45,14 +45,15 @@ This audit evaluates:
   - `COSYlanguages` attempts to load vocabulary index files directly from `https://cosylanguages.github.io/COSYdata/vocabulary/<lang>/index.json`.
   - Fetch requests use `AbortController` with a 1500ms timeout threshold.
   - If `COSYdata` is reachable, thematic JSON files are fetched in parallel and merged into global window state (`window.vocabularyData`, `window.verbsData`, etc.).
-  - If `COSYdata` fails or times out, the engine gracefully falls back to local legacy script files in `vocabulary/<lang>/<level>/`.
-- **Architectural Strengths**: High resilience against CDN failures; non-blocking fallback mechanism preserves offline capability.
+  - If `COSYdata` fails or times out the loader returns whatever COSYdata already delivered. There is no local `vocabulary/` copy: vocabulary has exactly one owner (COSYdata), and this repository ships no word lists.
+- **Architectural Strengths**: Single source of truth — a vocabulary edit lands in one repository and cannot drift between two copies.
 
 ### 1.3 Platform Curriculum Integrations (`COSYplatform`)
 - **Implementation**: In `js/core/engine.js` via `COSY.loadCurriculum()`.
 - **Mechanism**:
-  - Fetches course curricula directly from GitHub Raw (`https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/<lang>/general/<LEVEL>.json`).
+  - Fetches course curricula from the published COSYplatform site (`https://cosylanguages.github.io/COSYplatform/curriculums/<lang>/general/<LEVEL>.json`), falling back to the same path on `_v2.json` and then to GitHub Raw.
   - Attaches curriculum structures to `window.curriculumData` for course preview UI.
+  - Curriculum has exactly one owner (COSYplatform). This repository stores no units, lessons or syllabi.
 
 ---
 

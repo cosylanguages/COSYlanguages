@@ -229,13 +229,6 @@ const BASE_URL = (typeof window !== 'undefined' && (window.location.pathname.sta
 const KEY_PRACTICE = 'cosy_practice'
 const KEY_NOTEBOOK = 'cosy_notebook' // { [lessonId]: { notes: '', mistakes: [] } }
 
-let vocabManifest = null;
-const FALLBACK_VOCAB_FILES = [
-    'vocabulary.js','verbs.js','adjectives.js','grammar_elements.js',
-    'grammar.js','dishes.js','speaking.js','debates.js','opinions.js',
-    'quotes.js','fluency.js','locations.js','people.js','nationalities.js'
-];
-
 /* ═══════════════════════════════════════════════════════════════
    2. STATE MANAGEMENT
    ═══════════════════════════════════════════════════════════════ */
@@ -771,52 +764,6 @@ function inject () {
    6. PUBLIC API
    ═══════════════════════════════════════════════════════════════ */
 
-async function getVocabFileList(lang, folderCode) {
-    const prefix = getPrefix();
-    if (!vocabManifest) {
-        try {
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 1000);
-            const res = await fetch(prefix + 'vocabulary/manifest.json', { signal: controller.signal });
-            clearTimeout(timeoutId);
-            if (res.ok) {
-                vocabManifest = await res.json();
-            } else {
-                console.warn('[COSY] vocabulary/manifest.json missing, using fallback list');
-            }
-        } catch (e) {
-            console.warn('[COSY] Failed to fetch manifest, using fallback list', e);
-        }
-    }
-
-    if (vocabManifest && vocabManifest[lang] && vocabManifest[lang][folderCode]) {
-        return vocabManifest[lang][folderCode];
-    }
-    return FALLBACK_VOCAB_FILES;
-}
-
-async function loadVocabFile(path) {
-    const prefix = getPrefix();
-    const fullPath = prefix + path;
-
-    return new Promise((resolve) => {
-        const s = document.createElement('script');
-        let done = false;
-        const cleanup = () => {
-            if (!done) {
-                done = true;
-                if (s.parentNode) s.remove();
-                resolve();
-            }
-        };
-        s.onload = cleanup;
-        s.onerror = cleanup;
-        s.src = fullPath;
-        setTimeout(cleanup, 250);
-        document.head.appendChild(s);
-    });
-}
-
 let STATE = readState();
 
 if (typeof window !== 'undefined') {
@@ -1314,58 +1261,44 @@ const COSY = window.COSY = {
                 }
             }
         } catch (err) {
-            console.warn(`[COSYdata] COSYdata fetch failed for ${lang}, falling back to local files:`, err);
+            // Vocabulary is owned by COSYdata; this repository deliberately ships no
+            // local vocabulary files, so a failed fetch means "no data", not "fall back".
+            console.warn(`[COSYdata] vocabulary fetch failed for ${lang}:`, err);
         }
 
-        // Fallback to local script loading for non-migrated languages or offline mode
-        const allEntries = [];
-        const beforeCounts = {};
-        keys.forEach(key => { beforeCounts[key] = window[key][lang].length; });
-
-        const loadPromises = [];
-        for (const lid of levelsToLoad) {
-            const folderCode = window.getLevelDir ? window.getLevelDir(lid) : lid;
-            const basePath = lid === 'all' ? `vocabulary/${lang}/` : `vocabulary/${lang}/${folderCode}/`;
-            const files = await getVocabFileList(lang, folderCode);
-            for (const file of files) {
-                loadPromises.push(loadVocabFile(basePath + file));
-            }
-        }
-
-        await Promise.all(loadPromises);
-
-        keys.forEach(key => {
-            const after = window[key][lang];
-            allEntries.push(...after.slice(beforeCounts[key]));
-        });
-
-        return remoteEntries.concat(allEntries);
+        return remoteEntries;
     },
 
     async loadCurriculum(lang, level) {
         if (!lang || !level) return [];
 
-        const prefix = getPrefix();
         const levelUp = level.toUpperCase();
         const levelLow = level.toLowerCase();
         const langLow = lang.toLowerCase();
 
-        const standardPath = `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${lang}/general/${levelUp}.json`;
-        const v2Path = `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${lang}/general/${levelUp}_v2.json`;
+        // Curriculum is owned by COSYplatform; this repository never stores units.
+        const COSYPLATFORM_BASE = 'https://cosylanguages.github.io/COSYplatform/curriculums/';
+        const candidatePaths = [
+            `${COSYPLATFORM_BASE}${langLow}/general/${levelUp}.json`,
+            `${COSYPLATFORM_BASE}${langLow}/general/${levelUp}_v2.json`,
+            `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${langLow}/general/${levelUp}.json`
+        ];
 
-        try {
-            const res = await fetch(standardPath);
-            const data = res.ok ? await res.json() : await fetch(v2Path).then(r => r.ok ? r.json() : null);
-            if (data && data.units) {
-                const units = data.units;
-                window.curriculumData = window.curriculumData || {};
-                const key = `${langLow}_${levelLow}`;
-                window.curriculumData[key] = units;
-                if (window.cosyDays) window.cosyDays.state.curriculum = units;
-                return units;
+        for (const path of candidatePaths) {
+            try {
+                const res = await fetch(path);
+                if (!res.ok) continue;
+                const data = await res.json();
+                if (data && data.units) {
+                    window.curriculumData = window.curriculumData || {};
+                    const key = `${langLow}_${levelLow}`;
+                    window.curriculumData[key] = data.units;
+                    if (window.cosyDays) window.cosyDays.state.curriculum = data.units;
+                    return data.units;
+                }
+            } catch (e) {
+                console.warn(`[COSYplatform] curriculum fetch failed: ${path}`, e);
             }
-        } catch (e) {
-            console.warn(`Failed to load curriculum for ${lang} ${level}:`, e);
         }
 
         const key = `${langLow}_${levelLow}`;

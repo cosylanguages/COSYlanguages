@@ -22,7 +22,7 @@ Static site, no backend, no build step. Open `index.html` or serve the folder wi
 Ecosystem URLs are defined once, in `js/core/config.js`.
 
 ## Structure
-- `index.html`, `courses/`, `languages/<code>/`, `about/`, `hybrid/`, `comparative/` – pages
+- `index.html`, `courses/`, `languages/<code>/`, `about/`, `comparative/` – pages
 - `css/` – design tokens, base styles, `modern.css` (the cosy design layer), self-hosted `fonts/`
 - `data/ui/<lang>.json` – interface translations (`data-translate-key`)
 - `js/core/` – config, nav/engine, i18n, UI behaviour

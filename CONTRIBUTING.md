@@ -66,7 +66,7 @@ The following paths in this repository are consumed by sibling ecosystem reposit
 - `login.html`
 - `privacy.html`
 - `comparative/index.html`
-- `hybrid/index.html`
+- `hybrid/index.html` (kept as a moved-notice stub — the hybrid pages were retired, the URL must keep resolving)
 - `images/logos/cosylanguages.png`
 - `shared/css/tokens.css` (design-token source)
 - `languages/it.html` (language redirect stub)
