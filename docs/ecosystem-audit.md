@@ -156,7 +156,7 @@ Add a lightweight CI workflow in `COSYlanguages` and connected repositories to v
 | Audit Area | Current State | Risk Level | Target State |
 |---|---|---|---|
 | **Ecosystem Routing** | Duplicated `config.js` in 5 repos | Low | Single CDN / NPM module `@cosylanguages/core` |
-| **Data Fetching** | Non-blocking fetch with local fallback | Low (Good) | Maintain hybrid `COSYdata` fetch model |
+| **Data Fetching** | Non-blocking fetch, single owner per dataset | Low (Good) | Keep the `COSYdata` fetch model; no local duplicate |
 | **Authentication** | Supabase SSO with `localStorage` | Medium | Verify Supabase RLS policies |
 | **Client/Server Boundary**| Pure static frontend | Low (Good) | Maintain zero-secret static architecture |
 | **i18n Translations** | Dual source (`NAV_FALLBACKS` + JSON) | Low | Unified `data/ui/*.json` dictionary engine |
