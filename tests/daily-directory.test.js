@@ -121,3 +121,36 @@ test('Daily Directory compact mode (embedded under the hub strip)', async (t) =>
         assert.ok(host.innerHTML.includes('daily-directory-chip'));
     });
 });
+
+test('Daily Directory registry adoption', async (t) => {
+    await t.test('builds host cards from the daily manifest', () => {
+        const dir = load();
+        const manifest = {
+            elements: [
+                { id: 'word', title: 'Word of the Day', icon: '📖' },
+                { id: 'speaking', title: 'Speaking Prompt', icon: '🗣️' }
+            ],
+            directory: [
+                { key: 'data', repo: 'COSYdata', icon: '📖', title: 'Vocabulary of the Day', url: 'https://example.test/COSYdata/', description: 'Word and verb of the day.', slots: ['word'] },
+                { key: 'practice', repo: 'COSYpractice', icon: '🗣️', title: 'Speaking & Writing', url: 'https://example.test/COSYpractice/', description: 'Prompts and challenge.', slots: ['speaking', 'unknown-slot'] }
+            ]
+        };
+        const hosts = dir.hostsFromManifest(manifest);
+        assert.equal(hosts.length, 2);
+        assert.equal(hosts[0].slots[0].label, 'Word of the Day');
+        assert.equal(hosts[0].slots[0].icon, '📖');
+        assert.equal(hosts[1].slots[1].label, 'unknown-slot', 'unresolved ids fall back to the id');
+        assert.equal(hosts[1].url, 'https://example.test/COSYpractice/');
+    });
+    await t.test('rejects a manifest without a directory', () => {
+        const dir = load();
+        assert.equal(dir.hostsFromManifest({}), null);
+        assert.equal(dir.hostsFromManifest(null), null);
+    });
+    await t.test('falls back to the built-in list when fetch is unavailable', () => {
+        const host = fakeNode({ 'data-self': 'languages', 'data-lang': 'en' });
+        const dir = load(host);
+        assert.equal(dir.destinations().length, 5, 'built-in list still renders');
+        assert.ok(host.innerHTML.includes('Vocabulary of the Day'));
+    });
+});
