@@ -248,6 +248,35 @@ folder.
 Adding a product means adding its folder and its manifest entry. Removing one means
 deleting both.
 
+## Component layer (`docs/COMPONENTS.md`)
+
+`css/components.css` is the kernel's public component layer: buttons, nav, cards,
+badges, inputs, floating buttons, toasts, the sticky-directory header and
+`.site-footer`. Every page loads it, so it is the most expensive CSS in the repo.
+Keep it for shared primitives only.
+
+Product-owned styles live with the product and are loaded by the product's own
+page, after the kernel:
+
+| Product | Stylesheet | Owns |
+|---|---|---|
+| Comparative Atlas | `comparative/atlas.css` | `.comp-*`, `.family-badge*`, `.insight-card*`, `.observations-panel*`, `.transfer-tip*` |
+| Comparative Atlas | `comparative/word-explorer.css` | `.we-*` |
+| Coming Soon | `languages/coming-soon.css` | `.coming-soon-cta-*`, `.lang-card*` |
+
+`docs/COMPONENTS.md` is the inventory: public API, cross-repo nav hooks, reserved
+classes. `tests/components.test.js` fails when a documented class is not defined
+in the kernel, when a public class is unused, or when a product selector
+reappears in `css/components.css`.
+
+The Atlas tabs and Word Explorer active chips use `--cosy-signal-deep` (white
+text), not sage; selected language chips use `--cosy-signal-soft` /
+`--cosy-signal-ink`. The heatmap mode chips use the same deep teal.
+
+A bare file under `languages/` (for example `languages/coming-soon.html`) belongs
+to the `languages` hub, not to a product named after the file. `product()` in
+`tests/architecture.test.js` classifies it that way.
+
 ## Footer: one source, rendered at source time
 
 `shared/partials/footer.html` is the standard footer. `scripts/sync-footer.js`

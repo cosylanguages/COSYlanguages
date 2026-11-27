@@ -61,7 +61,14 @@ function product(name) {
     const parts = name.split('/');
     if (parts.length === 1) return null;
     if (KERNEL.has(parts[0])) return `kernel:${parts[0]}`;
-    if (parts[0] === 'languages') return `languages/${parts[1]}`;
+    if (parts[0] === 'languages') {
+        // `languages/<code>/…` is one product per language. A bare file such as
+        // `languages/coming-soon.html` belongs to the shared language hub, not to
+        // a product named after the file.
+        return parts.length > 2 || (parts.length === 2 && !parts[1].includes('.'))
+            ? `languages/${parts[1]}`
+            : 'languages';
+    }
     return parts[0];
 }
 

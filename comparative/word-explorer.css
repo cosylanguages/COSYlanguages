@@ -1,6 +1,6 @@
 /* Word Explorer. Uses site tokens with safe fallbacks. */
 #panel-word-explorer { --we-ink: var(--ink, #1c1917); --we-soft: var(--ink-soft, #4a4a4a); --we-bd: var(--border, rgba(74,107,80,.18));
-  --we-surface: var(--surface, #fff); --we-accent: var(--sage-deep, #2e5a44); }
+  --we-surface: var(--surface, #fff); --we-accent: var(--cosy-signal-deep); }
 .we-status { text-align: center; color: var(--we-soft); padding: 2rem 0; }
 .we-bar { display: grid; gap: .9rem; }
 .we-row { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; align-items: center; }
@@ -11,13 +11,13 @@
 html[data-theme="dark"] .we-chip.active,
 html[data-theme="dark"] .we-chip.we-chip-sm.active,
 body.theme-dark .we-chip.active,
-body.theme-dark .we-chip.we-chip-sm.active { background: #2D4A37; border-color: #6f9a78; color: #E8F0E9; }
-.we-chip:focus-visible, .we-icon-btn:focus-visible, #we-search:focus-visible, .we-opt:focus-visible, summary:focus-visible, .we-btn:focus-visible { outline: 3px solid #1d6fb8; outline-offset: 2px; }
+body.theme-dark .we-chip.we-chip-sm.active { background: var(--cosy-signal-deep); border-color: var(--cosy-signal); color: var(--cosy-on-sage-dark, #ffffff); }
+.we-chip:focus-visible, .we-icon-btn:focus-visible, #we-search:focus-visible, .we-opt:focus-visible, summary:focus-visible, .we-btn:focus-visible { outline: 3px solid var(--cosy-signal-ink); outline-offset: 2px; }
 .we-search-wrap { position: relative; flex: 1 1 260px; max-width: 420px; }
 #we-search { width: 100%; padding: .6rem .9rem; border: 1px solid var(--we-bd); border-radius: 10px; font: inherit; background: var(--we-surface); color: var(--we-ink); }
 #we-results { position: absolute; z-index: 20; left: 0; right: 0; margin: .2rem 0 0; padding: .25rem; list-style: none; background: var(--we-surface); border: 1px solid var(--we-bd); border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,.12); }
 .we-opt { padding: .45rem .7rem; border-radius: 8px; cursor: pointer; }
-.we-opt.active, .we-opt:hover { background: rgba(46,90,68,.12); }
+.we-opt.active, .we-opt:hover { background: var(--cosy-signal-soft); }
 .we-none { color: var(--we-soft); cursor: default; }
 .we-fieldset { border: 0; padding: 0; margin: 0; display: flex; gap: .9rem; align-items: center; flex-wrap: wrap; }
 .we-fieldset legend { font-weight: 600; margin-right: .5rem; float: left; }

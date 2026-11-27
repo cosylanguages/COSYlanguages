@@ -1,0 +1,18 @@
+/* Coming Soon — product-owned styles.
+   Loaded only by languages/coming-soon.html, after the shared component layer. */
+
+/* Coming Soon Clean CSS Classes */
+.coming-soon-cta-sec {
+  margin-top: 6rem;
+  text-align: center;
+}
+.coming-soon-cta-btn {
+  margin-top: 1.5rem;
+}
+
+.lang-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.5rem 1rem; text-align: center; transition: all .2s; cursor: pointer; }
+.lang-card:hover { transform: translateY(-4px); border-color: var(--cosy-signal); box-shadow: 0 8px 25px rgba(10, 187, 181, 0.12); }
+.lang-card img { width: 56px; height: 56px; margin: 0 auto 1rem; }
+
+.lang-card-soon { background: var(--warm-white); border: 1px dashed var(--border); border-radius: var(--r-md); padding: 1.2rem .8rem; text-align: center; opacity: .8; cursor: pointer; }
+.lang-card-soon img { width: 40px; height: 40px; margin: 0 auto .6rem; }
