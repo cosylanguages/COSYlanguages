@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <script src="shared/js/cosy-theme.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In — COSYlanguages Ecosystem Entry Point</title>
+    <title data-translate-key="login_title">Sign In — COSYlanguages Ecosystem Entry Point</title>
     <meta name="description" content="Shared sign-in entry point for restricted COSYlanguages platform applications. Public resources on COSYlanguages remain free with no login required.">
     <meta name="robots" content="noindex, follow">
     <link rel="icon" href="images/logos/cosylanguages.png">
@@ -192,32 +192,32 @@
     <main class="login-container">
         <div class="login-header">
             <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" class="login-logo" width="48" height="48" decoding="async" loading="lazy">
-            <h1 class="login-title">Sign In</h1>
-            <p class="login-subtitle">Shared authentication entry point for restricted COSYlanguages platform applications</p>
+            <h1 class="login-title"><span data-translate-key="login_h1">Sign In</span></h1>
+            <p class="login-subtitle"><span data-translate-key="login_sub">Shared authentication entry point for restricted COSYlanguages platform applications</span></p>
         </div>
 
         <div id="alert-banner" class="alert-box" role="alert"></div>
 
         <form id="login-form" class="login-form" onsubmit="handleSignIn(event)">
             <div class="form-group">
-                <label for="email" class="form-label">Email Address</label>
+                <label for="email" class="form-label"><span data-translate-key="login_email">Email Address</span></label>
                 <input type="email" id="email" class="form-input" placeholder="name@example.com" required autocomplete="email">
             </div>
 
             <div class="form-group">
-                <label for="password" class="form-label">Password</label>
+                <label for="password" class="form-label"><span data-translate-key="login_password">Password</span></label>
                 <input type="password" id="password" class="form-input" placeholder="••••••••" required autocomplete="current-password">
             </div>
 
-            <button type="submit" id="submit-btn" class="login-btn">Sign In ➔</button>
+            <button type="submit" id="submit-btn" class="login-btn"><span data-translate-key="login_submit">Sign In ➔</span></button>
         </form>
 
         <div class="info-card">
-            <strong>🌐 Public Access Notice:</strong> Practice tools, games, placement quiz and the blog are free and need no account. Sign in is only for students, teachers and the founder to open their courses and manuals.
+            <strong><span data-translate-key="login_notice">🌐 Public Access Notice:</span></strong> Practice tools, games, placement quiz and the blog are free and need no account. Sign in is only for students, teachers and the founder to open their courses and manuals.
         </div>
 
         <div style="text-align: center;">
-            <a href="index.html" class="home-link">← Return to COSYlanguages Home</a>
+            <a href="index.html" class="home-link"><span data-translate-key="login_back">← Return to COSYlanguages Home</span></a>
         </div>
     </main>
 
