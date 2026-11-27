@@ -163,11 +163,6 @@ html[data-theme="dark"] .page-home .hero-inner .daily-strip-container {
   background: transparent;
   text-align: left;
 }
-.page-home .cozy-passion-banner {
-  background: none; border: 0; border-radius: 0; box-shadow: none;
-  margin: 0 auto; padding-left: var(--page-gutter); padding-right: var(--page-gutter);
-  text-align: left; overflow: visible;
-}
 .page-home #courses { display: none; }   /* empty anchor kept for old links */
 
 /* A tinted band that runs edge to edge without extra wrappers. */
@@ -189,7 +184,6 @@ html[data-theme="dark"] .page-home .hero-inner .daily-strip-container {
 /* Story: one statement. */
 .page-home #story { padding-top: clamp(3rem, 6vw, 5rem); padding-bottom: clamp(1rem, 3vw, 2rem); }
 .page-home #story::before, .page-home #story::after { content: none; }
-.page-home .cpb-inner { max-width: none; padding: 0; background: none; text-align: left; }
 .page-home #story .sec-h2 {
   font-size: clamp(2rem, 4.4vw, 3.4rem);
   max-width: 20ch;

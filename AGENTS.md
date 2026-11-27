@@ -133,7 +133,13 @@ node --test tests/word-explorer.test.js
 `href`/`src` must resolve on disk, every `target="_blank"` anchor must carry
 `rel="noopener noreferrer"`, and every `sitemap.xml` `<loc>` must map to a real file.
 `tests/architecture.test.js` is the guard for the shell contract (see "Shell
-contract" below). `tests/a11y.test.js` is the static accessibility guard: every
+contract" below).
+`npm run audit:css` (`scripts/audit-css-usage.js`) reports CSS classes that no
+page, script or data file mentions — 140 today, mostly in `print-studio/print.css`
+and legacy homepage sections. It is a report, not a gate: classes built at runtime
+(`'we-g' + index`) or used by a sibling repo through a shared stylesheet look dead,
+so check each hit before deleting. `css/portal.css` went this way once
+`placement-quiz.html` turned out to link it without using a single rule. `tests/a11y.test.js` is the static accessibility guard: every
 page declares `<html lang>`, every image carries `alt`, every button and link has
 an accessible name, every form field is labelled, ids are unique per page and
 `aria-labelledby`/`describedby`/`controls`/`owns` references resolve. It cannot
