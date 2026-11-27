@@ -727,7 +727,10 @@ Grammar points also have an offline edition: `manuals/<lang>/print/full.html`
   passed the upper quarter of the viewport is `aria-current`. The rail is fixed to
   the right edge and shown from 1025px up; below that it is hidden and
   `#back-to-top` is the only floating control. Above 1025px the rail's chevron
-  replaces that button, so the two never share the corner. Styles live in
+  replaces that button, so the two never share the corner — but only where a rail
+  exists: `setupSideSectionDots()` sets `body.has-section-rail`, and the CSS hides
+  the button off that class. Course pages have no `<section id>`, so they keep the
+  button at every width. Styles live in
   `css/components.css` — `css/modern.css` used to hide the rail, and removing that
   rule is what turned it on.
 

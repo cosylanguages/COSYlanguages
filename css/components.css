@@ -828,8 +828,9 @@ body.theme-dark .back-to-top-label {
     display: flex;
   }
 
-  /* The rail's top chevron is the back-to-top control. */
-  #back-to-top {
+  /* The rail's top chevron is the back-to-top control. Pages without a rail
+     (fewer than three sections) keep the button. */
+  body.has-section-rail #back-to-top {
     display: none;
   }
 }

@@ -62,6 +62,7 @@
     const setupSideSectionDots = () => {
         const existingDots = document.querySelector('.cosy-side-dots');
         if (existingDots) existingDots.remove();
+        document.body.classList.remove('has-section-rail');
 
         const main = document.querySelector('main.page, main.content-container, main, article, #main-content') || document.body;
         const candidates = main.querySelectorAll(
@@ -165,6 +166,7 @@
         });
 
         document.body.appendChild(rail);
+        document.body.classList.add('has-section-rail');
 
         // The dot whose section has passed the upper quarter of the viewport is current.
         let queued = false;
