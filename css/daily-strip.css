@@ -338,35 +338,6 @@
     gap: 0.2rem;
 }
 
-/* Writing self-check: a tick list the learner runs through before calling the task finished. */
-.daily-strip-checklist {
-    margin-top: 0.5rem;
-    padding: 0.6rem 0.85rem;
-    background: rgba(255, 255, 255, 0.55);
-    border-radius: var(--cosy-radius-xs, 4px);
-    border-left: 3px solid var(--cosy-color-sage-light, #E8F0E9);
-}
-
-.daily-strip-checklist-label {
-    display: block;
-    font-size: 0.74rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--cosy-color-sage-dark, #375742);
-    margin-bottom: 0.3rem;
-}
-
-.daily-strip-checklist-list {
-    margin: 0;
-    padding-left: 1.1rem;
-    font-size: 0.92rem;
-    color: var(--cosy-color-ink-soft, #4A4A4A);
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-}
-
 .daily-strip-footer {
     display: flex;
     align-items: center;
@@ -613,24 +584,18 @@ body.theme-dark .daily-strip-chip-activity {
 }
 
 html[data-theme="dark"] .daily-strip-followups,
-html[data-theme="dark"] .daily-strip-checklist,
-body.theme-dark .daily-strip-followups,
-body.theme-dark .daily-strip-checklist {
+body.theme-dark .daily-strip-followups {
     background: rgba(0, 0, 0, 0.35);
     border-left-color: var(--cosy-color-sage);
 }
 
 html[data-theme="dark"] .daily-strip-followups-label,
-html[data-theme="dark"] .daily-strip-checklist-label,
-body.theme-dark .daily-strip-followups-label,
-body.theme-dark .daily-strip-checklist-label {
+body.theme-dark .daily-strip-followups-label {
     color: #8FB193;
 }
 
 html[data-theme="dark"] .daily-strip-followups-list,
-html[data-theme="dark"] .daily-strip-checklist-list,
-body.theme-dark .daily-strip-followups-list,
-body.theme-dark .daily-strip-checklist-list {
+body.theme-dark .daily-strip-followups-list {
     color: #D6E8D9;
 }
 

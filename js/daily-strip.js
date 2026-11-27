@@ -761,8 +761,7 @@
             return {
                 level: ui('strip_level') || c.level || 'Level:',
                 speak: ui('strip_speak') || c.speak || 'Speak', words: ui('strip_words') || c.words || 'words',
-                followUps: ui('strip_follow_ups') || c.followUps || 'Follow-up questions',
-                checklist: ui('strip_checklist') || c.checklist || 'Before you finish, check'
+                followUps: ui('strip_follow_ups') || c.followUps || 'Follow-up questions'
             };
         }
 
@@ -858,16 +857,6 @@
                     </div>
                 ` : '';
 
-                // A checklist turns the prompt into a self-marking task: tick each point before calling it done.
-                const checklistHTML = isWriting && !isBeginnerWriting && item.checklist.length ? `
-                    <div class="daily-strip-checklist">
-                        <span class="daily-strip-checklist-label">${this.escapeHTML(chrome.checklist)}</span>
-                        <ul class="daily-strip-checklist-list">
-                            ${item.checklist.map(c => `<li>${this.escapeHTML(c)}</li>`).join('')}
-                        </ul>
-                    </div>
-                ` : '';
-
                 const isVocab = Boolean(tab.calendar);
                 const answerId = `${this.uniqueId}_answer_${tab.id}`;
                 const translationButtonHTML = hasTranslation ? `
@@ -896,7 +885,6 @@
                         ${revealHTML}
                         ${answerBlockHTML}
                         ${followUpsHTML}
-                        ${checklistHTML}
                     </div>
                     <div class="daily-strip-footer">
                         <div class="daily-strip-actions-left">

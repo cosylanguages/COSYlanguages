@@ -943,7 +943,8 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(!html.includes('Description'), 'no genre chip');
         assert.ok(html.includes('140-190 words'), 'word target chip renders');
         assert.ok(html.includes('40 min'), 'time limit chip renders');
-        assert.ok(html.includes('Before you finish, check'), 'self-check list renders');
+        assert.ok(!html.includes('Before you finish, check'), 'no self-check list');
+        assert.ok(!html.includes('Each paragraph has one main idea.'), 'no checklist items');
         assert.ok(!html.includes('daily-strip-band-guide'), 'no band guide on writing');
         assert.ok(!html.includes('Typical length'), 'no length line');
         assert.ok(html.includes('Follow-up questions'), 'writing cards carry follow-ups too');
@@ -951,7 +952,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(!html.includes('Prep 30s') && !html.includes('Speak 1m'), 'no speaking timings on writing');
     });
 
-    await t.test('a writing card without follow-ups renders no follow-up block', async () => {
+    await t.test('a writing card without follow-ups renders neither a follow-up block nor a checklist', async () => {
         const writing = [{ id: 'en:writing:2', prompt: 'Write a note to your neighbour.', level: 'A2', curated: true,
                            task: 'Note', genre: 'Message', exam: 'Cambridge A2 Key', part: 'Part 6',
                            word_min: 25, word_max: 35, write_minutes: 10,
@@ -971,7 +972,8 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
 
         const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
         assert.ok(!html.includes('Follow-up questions'), 'no follow-up block without data');
-        assert.ok(html.includes('Before you finish, check'), 'the checklist still renders');
+        assert.ok(!html.includes('Before you finish, check'), 'the checklist is not rendered');
+        assert.ok(!html.includes('You said where the key is.'), 'no checklist items');
     });
 });
 
@@ -1190,7 +1192,7 @@ test('Daily Strip writing brief: task, genre, word target and general-track acti
         assert.ok(html.includes('15 min'), 'time limit from the card');
     });
 
-    await t.test('A0-A1 writing drops the time limit and the checklist', async () => {
+    await t.test('A0-A1 writing drops the time limit', async () => {
         const { comp, nodes } = mountWriting(writing);
         await new Promise(r => setTimeout(r, 30));
         comp.selectedLevel = 'a0-a1';
@@ -1207,7 +1209,7 @@ test('Daily Strip writing brief: task, genre, word target and general-track acti
         assert.ok(html.includes('10-25 words'), 'the word target stays');
     });
 
-    await t.test('B1-B2 and C1-C2 writing keep the word target, time limit and checklist', async () => {
+    await t.test('B1-B2 and C1-C2 writing keep the word target and time limit', async () => {
         for (const [level, exam, minutes, words] of [
             ['b1-b2', 'Cambridge B2 First', '40 min', '140-190 words'],
             ['c1-c2', 'Cambridge C1 Advanced', '45 min', '220-260 words']
@@ -1223,7 +1225,7 @@ test('Daily Strip writing brief: task, genre, word target and general-track acti
             assert.ok(!html.includes('Writing Part 1'), `${level}: no part chip`);
             assert.ok(html.includes(minutes), `${level}: time limit`);
             assert.ok(html.includes(words), `${level}: word target`);
-            assert.ok(html.includes('Before you finish, check'), `${level}: self-check list`);
+            assert.ok(!html.includes('Before you finish, check'), `${level}: no self-check list`);
         }
     });
 });
@@ -1234,8 +1236,8 @@ test('Daily Strip chrome localization: every language labels its own controls', 
     const DATA = pathLocal.join(__dirname, '../data/daily');
     const LANGS = ['en', 'fr', 'de', 'es', 'it', 'pt', 'ru', 'el', 'hy', 'ka', 'tt', 'ba', 'cv', 'br'];
     // listen/practice are no longer rendered: the Listen button and the Practice in Hub link were removed.
-    // prep is no longer rendered: speaking keeps only the speaking timer.
-    const CHROME_KEYS = ['level', 'speak', 'words', 'followUps', 'checklist'];
+    // prep and checklist are no longer rendered: speaking keeps only the speaking timer, writing its word target.
+    const CHROME_KEYS = ['level', 'speak', 'words', 'followUps'];
 
     // Serve the real band-guide.json from disk, so the test exercises the same files the browser fetches.
     function mount(lang, items, opts = {}) {
@@ -1297,11 +1299,9 @@ test('Daily Strip chrome localization: every language labels its own controls', 
             const doc = JSON.parse(fsLocal.readFileSync(pathLocal.join(DATA, lang, 'band-guide.json'), 'utf8'));
             const c = doc.chrome;
             const speak = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-            const write = nodes[`#${comp.uniqueId}_panel_writing`].html;
 
             assert.ok(speak.includes(c.followUps), `${lang}: localized follow-up heading`);
             assert.ok(speak.includes(c.speak), `${lang}: localized speak label`);
-            assert.ok(write.includes(c.checklist), `${lang}: localized checklist label`);
             if (lang !== 'en') {
                 assert.ok(!speak.includes('Follow-up questions'), `${lang}: no English follow-up heading`);
             }
@@ -1348,7 +1348,7 @@ test('Daily Strip chrome localization: every language labels its own controls', 
         // English prompts and an English guide, but a French interface: the labels
         // must read in the visitor's language, not the language being practised.
         const fr = { strip_level: 'Niveau :', strip_speak: 'Parlez',
-            strip_words: 'mots', strip_follow_ups: 'Questions de suivi', strip_checklist: 'Avant de finir, vérifiez' };
+            strip_words: 'mots', strip_follow_ups: 'Questions de suivi' };
         const { comp, nodes } = mount('en', prompt('en'), { t: (k) => fr[k] || '' });
         await new Promise(r => setTimeout(r, 40));
         comp.selectedLevel = 'b1-b2';

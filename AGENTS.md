@@ -539,16 +539,16 @@ tracks and the same `audience` rules. Writing cards carry their own scaffolding:
 - `genre` – what the learner is producing ("Formal email", "Essay", "Review").
 - `word_min` / `word_max` – the word target, shown as "140-190 words".
 - `write_minutes` – the time limit, shown as "40 min".
-- `checklist` – 2–3 self-check points, shown under "Before you finish, check".
+- `checklist` – 2–3 self-check points, kept in the data but no longer rendered.
 
-Writing cards render only the word target, the time limit and the self-check list.
-The exam name, part label, task and genre stay in the data but are no longer painted
-as chips, because the prompt carries the task. They never show the speaking-only
-fields (`prep_seconds`, `speak_seconds`, `follow_ups`).
+Writing cards render only the word target and the time limit. The exam name, part
+label, task, genre and checklist stay in the data but are no longer painted,
+because the prompt carries the task. They never show the speaking-only fields
+(`prep_seconds`, `speak_seconds`, `follow_ups`).
 
 A0-A1 writing is deliberately stripped back: it keeps the word target but hides the
-`write_minutes` chip and the checklist.
-B1-B2 and C1-C2 keep the time limit and the checklist. Tests: `tests/daily-strip.test.js`.
+`write_minutes` chip.
+B1-B2 and C1-C2 keep the time limit. Tests: `tests/daily-strip.test.js`.
 
 Coverage floor, enforced by `node scripts/test-writing-coverage.js`: **≥6 curated
 exam cards and ≥4 general cards per CEFR band per language**, complete scaffolding
@@ -575,12 +575,13 @@ still consumed:
 ```
 
 `chrome` carries the panel's own labels ("Level:", "Speak", "words",
-"Follow-up questions", "Before you finish, check") **in the language being practised**,
+"Follow-up questions") **in the language being practised**,
 so it is a fallback only: the strip reads those labels from `data/ui/<lang>.json`
-(`strip_level`, `strip_speak`, `strip_words`, `strip_follow_ups`,
-`strip_checklist`) first, because a French interface practising English must still
-say "Niveau :" and "Questions de suivi". `prep` and `strip_prep` remain in the files
-but are no longer read: the preparation-timer chip was removed from the speaking tab.
+(`strip_level`, `strip_speak`, `strip_words`, `strip_follow_ups`)
+first, because a French interface practising English must still
+say "Niveau :" and "Questions de suivi". `prep`/`strip_prep` and
+`checklist`/`strip_checklist` remain in the files but are no longer read: the
+preparation-timer chip and the writing self-check list were removed.
 `listen` and `practice` remain in
 the files but are no longer read: the "🔊 Listen" button and the "🚀 Practice in Hub"
 link were removed from every tab, so the only footer link left is the COSYtools one
