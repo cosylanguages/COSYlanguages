@@ -1,0 +1,15 @@
+{
+  "contract": 1,
+  "comment": "Each product is an independent app: one folder, one public entry, no shared internals. Deleting a product means deleting its folder and this entry; tests/products.test.js then proves nothing else depended on it.",
+  "products": [
+    { "id": "about", "dir": "about", "entry": "about/index.html", "title": "About COSYlanguages" },
+    { "id": "comparative", "dir": "comparative", "entry": "comparative/index.html", "title": "Comparative Atlas" },
+    { "id": "courses", "dir": "courses", "entry": "courses/index.html", "title": "Courses" },
+    { "id": "print-studio", "dir": "print-studio", "entry": "print-studio/print-box.html", "title": "Print Studio" },
+    { "id": "languages-en", "dir": "languages/en", "entry": "languages/en/index.html", "title": "English" },
+    { "id": "languages-fr", "dir": "languages/fr", "entry": "languages/fr/index.html", "title": "French" },
+    { "id": "languages-it", "dir": "languages/it", "entry": "languages/it/index.html", "title": "Italian" },
+    { "id": "languages-ru", "dir": "languages/ru", "entry": "languages/ru/index.html", "title": "Russian" },
+    { "id": "languages-el", "dir": "languages/el", "entry": "languages/el/index.html", "title": "Greek" }
+  ]
+}

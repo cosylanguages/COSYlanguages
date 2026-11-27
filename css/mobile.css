@@ -67,7 +67,7 @@
   }
 
   .mobile-nav-item.active {
-    color: var(--sage-dark);
+    color: var(--cosy-signal-ink);
   }
 
   .mobile-nav-item .mn-badge {

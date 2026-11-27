@@ -186,6 +186,18 @@ change there recolours every sibling repo at once. It has three tiers:
 Rule of thumb: a new accent may only be introduced by retiring one. The budget is
 the signal tier, six course tracks, six levels and the semantic red/amber/green.
 
+### This repository's identity is the signal tier
+
+Sage is the paper; teal is the brand. `--cosy-languages-accent`, `--btn-primary-*`,
+the nav CTA (`#cosy-nav .nav-cta`), the home hero primary, active nav
+(`.cosy-nav-link.active`, `.mobile-nav-item.active`), button focus, breadcrumb hover
+and `::selection` all resolve to the signal tier. Fills use `--cosy-fill-signal`
+(the #0ABBB5→#0CA2B0 gradient) with `--cosy-on-signal` (#06201F) — dark ink, because
+#0ABBB5 is 2.39:1 on white. Teal text uses `--cosy-signal-ink`, never
+`--cosy-signal`. `tests/design-system.test.js` holds the contract: brand accent
+wired, fills readable, tier consumed, no page hardcodes the brand hexes. Do not
+"fix" the dark ink to white.
+
 `css/components.css` owns `.site-footer`, the short footer for single-purpose
 documents (marathon levels, print hubs). It is token-only and follows the theme. A
 page must never paint its own footer colour inline — that is how the eight marathon
@@ -216,6 +228,25 @@ or `languages/<code>/`; everything else (`css/`, `js/`, `shared/`, `images/`,
 
 Consequence worth knowing: a page that hardcodes a shade fails the suite, and a
 page that forgets `engine.js` fails it too.
+
+## Products manifest (`products.json`)
+
+`products.json` is the delete checklist. Each entry is `{ id, dir, entry }` and
+`tests/products.test.js` proves the rule the architecture rests on: deleting a
+product's folder and its manifest entry may leave navigation links to fix, but it
+can never leave a script, style, data or image dependency pointing into the deleted
+folder.
+
+- Every product folder on disk is listed, and every listed folder exists.
+- `entry` is a real HTML page inside `dir` and is reachable from sitemap, home, nav
+  or footer.
+- No file outside a product may reference that product's non-HTML assets (`.js`,
+  `.css`, `.json`, images, fonts, PDFs). Page links are navigation and are allowed;
+  shared code must live in the kernel.
+- No product may reference another product's non-HTML assets.
+
+Adding a product means adding its folder and its manifest entry. Removing one means
+deleting both.
 
 ## Footer: one source, rendered at source time
 

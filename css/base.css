@@ -47,8 +47,8 @@ a {
 
 /* Selection is one of the places the signal colour earns its keep. */
 ::selection {
-    background: var(--cosy-signal-soft, #DFFAF8);
-    color: var(--cosy-color-ink, #1C1917);
+    background: var(--cosy-signal, #0ABBB5);
+    color: var(--cosy-on-signal, #06201F);
 }
 
 img {
@@ -86,20 +86,20 @@ body.theme-contrast {
 
 /* Custom Accessible Focus Ring using site palette */
 :focus-visible {
-    outline: 3px solid var(--teal);
+    outline: 3px solid var(--cosy-signal-ink);
     outline-offset: 3px;
     border-radius: var(--r-sm);
 }
 
 /* Specific focus styling for cards and pills and larger buttons */
 .qs-card:focus-visible, .lang-pill:focus-visible, .cat-pill:focus-visible {
-    outline: 3px solid var(--teal);
+    outline: 3px solid var(--cosy-signal-ink);
     outline-offset: 3px;
     border-radius: var(--r-lg);
 }
 
 .mc-opt:focus-visible, .tf-btn:focus-visible, .btn-start:focus-visible, .btn-primary:focus-visible, .btn-secondary:focus-visible, .wheel-btn:focus-visible {
-    outline: 3px solid var(--teal);
+    outline: 3px solid var(--cosy-signal-ink);
     outline-offset: 3px;
     border-radius: 100px;
 }

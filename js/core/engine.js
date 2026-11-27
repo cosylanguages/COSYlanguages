@@ -695,7 +695,7 @@ function mobileMenuHTML (mode) {
       </div>
 
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
-      <a href="https://wa.me/330766784195" target="_blank" rel="noopener" class="mm-cta cosy-mobile-nav-link" data-contact-chooser aria-haspopup="dialog" style="background: var(--sage, #416b49); color: #fff; font-weight: 700; border-radius: 100px; text-align: center; justify-content: center;"><span class="nav-item-icon" aria-hidden="true">💬</span> <span data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', 'Contact us')}</span></a>`
+      <a href="https://wa.me/330766784195" target="_blank" rel="noopener" class="mm-cta cosy-mobile-nav-link" data-contact-chooser aria-haspopup="dialog" style="background: var(--cosy-fill-signal); color: var(--cosy-on-signal); font-weight: 700; border-radius: 100px; text-align: center; justify-content: center;"><span class="nav-item-icon" aria-hidden="true">💬</span> <span data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', 'Contact us')}</span></a>`
 }
 
 function updateMobileNavTranslated() {

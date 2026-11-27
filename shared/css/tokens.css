@@ -63,7 +63,8 @@
     --primary-color:                     var(--sage);
 
     /* ── 3. Named Repository Brand Accents ──────────────────────────────── */
-    --cosy-languages-accent:             #416B49;
+    /* This repository's identity is the signal teal, not the sage ground. */
+    --cosy-languages-accent:             var(--cosy-signal);
     --cosy-tools-accent:                 #0D7A5F;
     --cosy-manuals-accent:               #7A5C3A;
     --cosy-platform-accent:              #1E2F6B;
@@ -204,7 +205,7 @@
     --cosy-semantic-success-light:       #E5F4EC;
     --cosy-semantic-warning:             #945E05;
     --cosy-semantic-warning-light:       #FFF8E7;
-    --cosy-semantic-focus:               #416B49;
+    --cosy-semantic-focus:               var(--cosy-signal-deep);
 
     --focus-ring:                        0 0 0 3px var(--cosy-signal-deep);
 
@@ -301,34 +302,34 @@
     --cosy-fill-sage:                    #3C5A42;
     --cosy-fill-sage-hover:              #47694E;
 
-    --btn-primary-bg:                    var(--cosy-color-sage-dark);
-    --btn-primary-color:                 var(--cosy-on-sage-dark);
-    --btn-primary-hover-bg:              var(--cosy-color-sage-deep);
-    --btn-primary-hover-color:           var(--cosy-on-sage-dark);
+    --btn-primary-bg:                    var(--cosy-fill-signal);
+    --btn-primary-color:                 var(--cosy-on-signal);
+    --btn-primary-hover-bg:              var(--cosy-fill-signal-hover);
+    --btn-primary-hover-color:           var(--cosy-on-signal);
     --btn-primary-shadow:                var(--cosy-shadow-raised);
-    --btn-primary-hover-shadow:          0 6px 18px rgba(35, 56, 39, 0.28), 0 3px 0 rgba(35, 56, 39, 0.40);
+    --btn-primary-hover-shadow:          0 6px 18px rgba(8, 122, 128, 0.28), 0 3px 0 rgba(8, 122, 128, 0.40);
 
     /* Secondary Outlined Button (Same shadow depth as primary) */
     --btn-secondary-bg:                  transparent;
-    --btn-secondary-border:              2px solid var(--cosy-ink-sage);
-    --btn-secondary-color:               var(--cosy-ink-sage);
-    --btn-secondary-hover-bg:            var(--sage-light);
-    --btn-secondary-hover-color:         var(--sage-deep);
+    --btn-secondary-border:              2px solid var(--cosy-signal-ink);
+    --btn-secondary-color:               var(--cosy-signal-ink);
+    --btn-secondary-hover-bg:            var(--cosy-signal-soft);
+    --btn-secondary-hover-color:         var(--cosy-signal-ink);
     --btn-secondary-shadow:              var(--cosy-shadow-raised);
-    --btn-secondary-hover-shadow:        0 6px 18px rgba(35, 56, 39, 0.25), 0 3px 0 rgba(35, 56, 39, 0.35);
+    --btn-secondary-hover-shadow:        0 6px 18px rgba(8, 122, 128, 0.25), 0 3px 0 rgba(8, 122, 128, 0.35);
 
     /* Soft Fill Button */
-    --btn-soft-bg:                       var(--sage-light);
+    --btn-soft-bg:                       var(--cosy-signal-soft);
     --btn-soft-border:                   1.5px solid transparent;
-    --btn-soft-color:                    var(--sage-deep);
-    --btn-soft-hover-bg:                 var(--sage-mist);
-    --btn-soft-hover-color:              var(--sage-deep);
+    --btn-soft-color:                    var(--cosy-signal-ink);
+    --btn-soft-hover-bg:                 var(--cosy-signal-soft-hover);
+    --btn-soft-hover-color:              var(--cosy-signal-ink);
     --btn-soft-shadow:                   var(--cosy-shadow-raised);
-    --btn-soft-hover-shadow:             0 6px 18px rgba(35, 56, 39, 0.22), 0 3px 0 rgba(35, 56, 39, 0.30);
+    --btn-soft-hover-shadow:             0 6px 18px rgba(8, 122, 128, 0.22), 0 3px 0 rgba(8, 122, 128, 0.30);
 
     /* Tertiary Link Button */
-    --btn-tertiary-color:                var(--sage-dark);
-    --btn-tertiary-hover-color:          var(--sage-deep);
+    --btn-tertiary-color:                var(--cosy-signal-ink);
+    --btn-tertiary-hover-color:          var(--cosy-signal-ink);
     --btn-tertiary-weight:               var(--cosy-font-weight-bold);
 
     /* ── 15. Signal Tier (teal) ────────────────────────────────────────────
@@ -342,6 +343,15 @@
     --cosy-signal-soft:                  #DFFAF8;
     --cosy-signal-ink:                   var(--cosy-signal-deep);
     --cosy-signal-gradient:              linear-gradient(135deg, #0ABBB5 0%, #0CA2B0 100%);
+    --cosy-signal-gradient-hover:        linear-gradient(135deg, #16CFC9 0%, #0FB2C0 100%);
+    --cosy-signal-soft-hover:            #C7F2EF;
+
+    /* Signal fills carry dark ink, never white: #0ABBB5 is 2.4:1 on white but
+       7.2:1 under --cosy-on-signal, so the fill pair is readable in both themes
+       without the ink token flipping with them. */
+    --cosy-fill-signal:                  var(--cosy-signal-gradient);
+    --cosy-fill-signal-hover:            var(--cosy-signal-gradient-hover);
+    --cosy-on-signal:                    #06201F;
 
     /* Direct aliases for consumer apps */
     --signal:                            var(--cosy-signal);
@@ -570,22 +580,23 @@ html[data-theme="dark"], body.theme-dark { color-scheme: dark; }
         --cosy-fill-sage:                    #3C5A42;
         --cosy-fill-sage-hover:              #47694E;
 
-        --btn-primary-bg:                    var(--cosy-color-sage-dark);
-        --btn-primary-color:                 var(--cosy-on-sage-dark);
-        --btn-primary-hover-bg:              var(--cosy-color-sage-deep);
-        --btn-primary-hover-color:           var(--cosy-on-sage-dark);
-        --btn-secondary-border:              2px solid var(--cosy-ink-sage);
-        --btn-secondary-color:               var(--cosy-ink-sage);
-        --btn-secondary-hover-bg:            rgba(107, 143, 113, 0.15);
-        --btn-secondary-hover-color:         #ffffff;
-        --btn-soft-bg:                       rgba(107, 143, 113, 0.20);
-        --btn-soft-color:                    var(--sage-light);
-        --btn-soft-hover-bg:                 rgba(107, 143, 113, 0.32);
-        --btn-soft-hover-color:              #ffffff;
-        --btn-tertiary-color:                var(--sage-light);
-        --btn-tertiary-hover-color:          #ffffff;
+        --btn-primary-bg:                    var(--cosy-fill-signal);
+        --btn-primary-color:                 var(--cosy-on-signal);
+        --btn-primary-hover-bg:              var(--cosy-fill-signal-hover);
+        --btn-primary-hover-color:           var(--cosy-on-signal);
+        --btn-secondary-border:              2px solid var(--cosy-signal-ink);
+        --btn-secondary-color:               var(--cosy-signal-ink);
+        --btn-secondary-hover-bg:            var(--cosy-signal-soft);
+        --btn-secondary-hover-color:         var(--cosy-signal-ink);
+        --btn-soft-bg:                       var(--cosy-signal-soft);
+        --btn-soft-color:                    var(--cosy-signal-ink);
+        --btn-soft-hover-bg:                 rgba(127, 231, 225, 0.16);
+        --btn-soft-hover-color:              var(--cosy-signal-ink);
+        --btn-tertiary-color:                var(--cosy-signal-ink);
+        --btn-tertiary-hover-color:          var(--cosy-signal-ink);
 
         --cosy-signal-soft:                  #0B2E2E;
+        --cosy-signal-soft-hover:            #0E3B3B;
         --cosy-signal-ink:                   #7FE7E1;
         --focus-ring:                        0 0 0 3px var(--cosy-signal);
     }
@@ -649,20 +660,20 @@ html[data-theme="dark"], body.theme-dark {
     --cosy-shadow-raised:                0 4px 12px rgba(0, 0, 0, 0.40), 0 2px 0 rgba(0, 0, 0, 0.60);
     --cosy-shadow-pressed:               0 1px 4px rgba(0, 0, 0, 0.30), 0 0 0 rgba(0, 0, 0, 0);
 
-    --btn-primary-bg:                    var(--cosy-color-sage-dark);
-    --btn-primary-color:                 var(--cosy-on-sage-dark);
-    --btn-primary-hover-bg:              var(--cosy-color-sage-deep);
-    --btn-primary-hover-color:           var(--cosy-on-sage-dark);
-    --btn-secondary-border:              2px solid var(--cosy-ink-sage);
-    --btn-secondary-color:               var(--cosy-ink-sage);
-    --btn-secondary-hover-bg:            rgba(107, 143, 113, 0.15);
-    --btn-secondary-hover-color:         #ffffff;
-    --btn-soft-bg:                       rgba(107, 143, 113, 0.20);
-    --btn-soft-color:                    var(--sage-light);
-    --btn-soft-hover-bg:                 rgba(107, 143, 113, 0.32);
-    --btn-soft-hover-color:              #ffffff;
-    --btn-tertiary-color:                var(--sage-light);
-    --btn-tertiary-hover-color:          #ffffff;
+    --btn-primary-bg:                    var(--cosy-fill-signal);
+    --btn-primary-color:                 var(--cosy-on-signal);
+    --btn-primary-hover-bg:              var(--cosy-fill-signal-hover);
+    --btn-primary-hover-color:           var(--cosy-on-signal);
+    --btn-secondary-border:              2px solid var(--cosy-signal-ink);
+    --btn-secondary-color:               var(--cosy-signal-ink);
+    --btn-secondary-hover-bg:            var(--cosy-signal-soft);
+    --btn-secondary-hover-color:         var(--cosy-signal-ink);
+    --btn-soft-bg:                       var(--cosy-signal-soft);
+    --btn-soft-color:                    var(--cosy-signal-ink);
+    --btn-soft-hover-bg:                 rgba(127, 231, 225, 0.16);
+    --btn-soft-hover-color:              var(--cosy-signal-ink);
+    --btn-tertiary-color:                var(--cosy-signal-ink);
+    --btn-tertiary-hover-color:          var(--cosy-signal-ink);
 
     /* Pale chip and track surfaces must darken too, otherwise a chip keeps its
        cream fill on a dark page while its text token flips to near-white. */
@@ -686,6 +697,7 @@ html[data-theme="dark"], body.theme-dark {
     --cosy-color-lamp-soft:              #2E2716;
 
     --cosy-signal-soft:                  #0B2E2E;
+    --cosy-signal-soft-hover:            #0E3B3B;
     --cosy-signal-ink:                   #7FE7E1;
     --focus-ring:                        0 0 0 3px var(--cosy-signal);
 }
