@@ -2,28 +2,28 @@
 :root {
   --font-sans:   'Commissioner', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --font-serif:  'Fraunces', 'Literata', Georgia, 'Times New Roman', serif;
-  --sage:        #416b49;
-  --sage-dark:   #375742;
-  --sage-deep:   #233827;
-  --sage-pale:   #e8f0e9;
-  --sage-mist:   #f0f5f1;
+  --sage:        var(--cosy-color-sage);
+  --sage-dark:   var(--cosy-color-sage-dark);
+  --sage-deep:   var(--cosy-color-sage-deep);
+  --sage-pale:   var(--cosy-color-sage-pale);
+  --sage-mist:   var(--cosy-color-sage-mist);
   --cream:       #fdfcf8;
-  --cream-dark:  #f5ede0;
+  --cream-dark:  var(--cosy-color-plum-light);
   --honey:       #e8a838;
   --honey-dark:  #a06b10;
-  --honey-pale:  #fff8e7;
+  --honey-pale:  var(--cosy-color-honey-pale);
   --ink:         #2a2a2a;
-  --ink-soft:    #4a4a4a;
-  --muted:       #5c5957;
+  --ink-soft:    var(--cosy-color-ink-soft);
+  --muted:       var(--cosy-color-ink-muted);
   --border:      rgba(74,107,80,.16);
   --radius:      18px;
   --radius-sm:   10px;
   --shadow-sm:   0 2px 12px rgba(46,74,51,.07);
   --shadow:      0 6px 28px rgba(46,74,51,.12);
-  --card-bg:     #ffffff;
+  --card-bg:     var(--cosy-color-surface);
   --card-text:   #2a2a2a;
-  --card-sub:    #5c5957;
-  --sec-title:   #233827;
+  --card-sub:    var(--cosy-color-ink-muted);
+  --sec-title:   var(--cosy-color-sage-deep);
 
   /* Section Tones for Alternating Section Pattern */
   --bg-tone-1:   #faf7f2;
@@ -214,7 +214,7 @@ img{display:block;}
 
 .hero .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.28);
-  border-color: #ffffff;
+  border-color: var(--cosy-on-brand);
   color: var(--cosy-on-brand);
   transform: translateY(-2px);
 }
@@ -872,7 +872,7 @@ html[data-theme="dark"] .mc-link, body.theme-dark .mc-link {
 
 /* Footer */
 footer {
-  background: #233827;
+  background: var(--cosy-color-sage-deep);
   color: rgba(255,255,255,.82);
   padding: 3.5rem 2rem 2.5rem;
   font-size: .82rem;

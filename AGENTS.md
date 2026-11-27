@@ -208,8 +208,11 @@ or `languages/<code>/`; everything else (`css/`, `js/`, `shared/`, `images/`,
 4. Inline `style=` attributes carry no off-palette colour. The last exceptions are
    seven hexes in the Comparative Atlas HUD, which draws on a fixed dark canvas;
    convert those with dedicated HUD tokens before removing the allowlist.
-5. Off-palette colour literals in `.html`/`.css` are budgeted at 641 and may only
-   shrink. Add a token instead of raising the number.
+5. Off-palette colour literals in `.html`/`.css` are budgeted at 428 and may only
+   shrink. Add a token instead of raising the number. A literal inside
+   `var(--token, #fallback)` is not counted: it is the token's own value spelled out
+   for engines without custom properties. Only literals that stand on their own are
+   debt, which is why the count is 428 and not the ~790 a raw grep finds.
 
 Consequence worth knowing: a page that hardcodes a shade fails the suite, and a
 page that forgets `engine.js` fails it too.
@@ -274,6 +277,13 @@ footer injection only, which now lives in `js/core/i18n.js`.
 - Keep changes additive and minimal; do not delete existing functionality.
 - `comparative/` holds the Comparative Atlas; Word Explorer is a tab wired in
   `comparative/index.html` (`word-explorer-*.js/css`, docs in `WORD_EXPLORER.md`).
+  Only the landing view's data loads up front (`language-meta`, `language-tree`,
+  `daily-insights`); `ensureViewData(tabId)` in `comparative/index.html` fetches
+  `grammar-inventory` (31 KB), `sound-shifts` and `transfer-notes` the first time
+  their tab opens, and renders that panel then. Word Explorer has always loaded
+  its own data on first tab activation. Deferring the three saves ~37 KB on a
+  page most visitors use for the 3D tree. A new panel must register in
+  `ensureViewData` and `ATLAS_DATA`, or it renders empty.
 - Shared assets live in `shared/`; i18n strings in `shared/i18n/*.json`.
 
 ## Daily elements (ecosystem ownership)

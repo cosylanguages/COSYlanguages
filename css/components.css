@@ -37,7 +37,7 @@
     --vocab-color:     var(--sage, #416b49);
     --grammar-color:   var(--honey, #945e05);
     --speaking-color:  var(--honey, #945e05);
-    --group-note-bg:   #fff8e7;
+    --group-note-bg:   var(--cosy-color-honey-pale);
 
     /* Tag Colors for accessibility */
     --a2-tag-bg: #FAF0E6;
@@ -1402,7 +1402,7 @@ body.page-privacy .wa-fab,
   color: white;
 }
 .course-card-relocation {
-  background: linear-gradient(135deg, #d66161, #8a2a2a);
+  background: linear-gradient(135deg, var(--cosy-color-accent), #8a2a2a);
   color: white;
 }
 .course-card-upcoming {

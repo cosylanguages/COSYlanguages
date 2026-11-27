@@ -208,7 +208,7 @@ footer {
 /* Secondary buttons sit on the near-black CTA panel, so they need the
    on-dark palette instead of the sage ink used on light surfaces. */
 .cta-section .btn-secondary, .cta-section .btn-soft, .cta-section .btn-tertiary {
-    color: #ffffff;
+    color: var(--cosy-on-brand);
     border-color: rgba(255,255,255,.55);
 }
 

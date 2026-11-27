@@ -400,7 +400,7 @@
 .btn-card-on-dark:hover {
   background: rgba(255, 255, 255, 0.2) !important;
   color: var(--cosy-on-brand) !important;
-  border-color: #ffffff !important;
+  border-color: var(--cosy-on-brand) !important;
 }
 .cc-title { font-size: 1.55rem; font-weight: 600; margin-bottom: var(--space-sm); line-height: 1.2; }
 .cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: var(--space-md); color: var(--cosy-ink-coral); }
@@ -642,14 +642,14 @@
 
 .hero .btn-secondary {
   background: rgba(255, 255, 255, 0.15);
-  border-color: #ffffff;
+  border-color: var(--cosy-on-brand);
   color: var(--cosy-on-brand);
 }
 
 .hero .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.28);
   color: var(--cosy-on-brand);
-  border-color: #ffffff;
+  border-color: var(--cosy-on-brand);
 }
 
 .hero .btn-soft {

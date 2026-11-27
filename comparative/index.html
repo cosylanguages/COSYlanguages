@@ -1195,34 +1195,73 @@
     hu: '🇭🇺', tr: '🇹🇷', zh: '🇨🇳', ar: '🇸🇦'
   };
 
+  // The 3D tree is the landing view, so only its data plus the daily insight
+  // strip load up front. The matrix, sound shifts and transfer panels fetch
+  // their own JSON the first time a visitor opens them.
+  const ATLAS_DATA = {
+    'language-meta': './data/language-meta.json',
+    'language-tree': './data/language-tree.json',
+    'daily-insights': './data/daily-insights.json',
+    'grammar-inventory': './data/grammar-inventory.json',
+    'sound-shifts': './data/sound-shifts.json',
+    'transfer-notes': './data/transfer-notes.json'
+  };
+  const atlasDataCache = {};
+  const viewReady = new Set();
+
+  async function atlasData(name) {
+    if (!atlasDataCache[name]) {
+      atlasDataCache[name] = fetch(ATLAS_DATA[name]).then(res => {
+        if (!res.ok) throw new Error(ATLAS_DATA[name] + ' ' + res.status);
+        return res.json();
+      });
+    }
+    return atlasDataCache[name];
+  }
+
+  async function ensureViewData(tabId) {
+    if (viewReady.has(tabId)) return;
+    try {
+      if (tabId === 'matrix') {
+        grammarInventory = await atlasData('grammar-inventory');
+        populateCategories();
+        renderMatrix();
+        renderViewInsight('matrix-insight-container', 2);
+      } else if (tabId === 'sound-shifts') {
+        soundShiftsData = await atlasData('sound-shifts');
+        renderSoundShifts();
+        renderViewInsight('sound-shifts-insight-container', 1);
+      } else if (tabId === 'transfer') {
+        transferNotes = await atlasData('transfer-notes');
+        populateKnownLangs();
+        renderTransferTips();
+      } else if (tabId === '2d-taxonomy') {
+        render2DTaxonomyTree();
+      } else {
+        return;
+      }
+      viewReady.add(tabId);
+    } catch (err) {
+      console.error('Comparative Atlas: could not load ' + tabId + ' data:', err);
+    }
+  }
+
   async function initComparativeAtlas() {
     try {
-      const [metaRes, invRes, notesRes, treeRes, shiftsRes, insightsRes] = await Promise.all([
-        fetch('./data/language-meta.json'),
-        fetch('./data/grammar-inventory.json'),
-        fetch('./data/transfer-notes.json'),
-        fetch('./data/language-tree.json'),
-        fetch('./data/sound-shifts.json'),
-        fetch('./data/daily-insights.json')
+      const [languageMetaData, tree, insights] = await Promise.all([
+        atlasData('language-meta'),
+        atlasData('language-tree'),
+        atlasData('daily-insights')
       ]);
 
-      languageMeta = await metaRes.json();
-      grammarInventory = await invRes.json();
-      transferNotes = await notesRes.json();
-      treeData = await treeRes.json();
-      soundShiftsData = await shiftsRes.json();
-      dailyInsightsData = await insightsRes.json();
+      languageMeta = languageMetaData;
+      treeData = tree;
+      dailyInsightsData = insights;
 
       selectedLangCodes = new Set(languageMeta.map(l => l.code));
 
       renderFamilyControls();
-      populateCategories();
-      populateKnownLangs();
-      renderMatrix();
-      renderTransferTips();
-      render2DTaxonomyTree();
       populateCalculatorSelects();
-      renderSoundShifts();
       renderDailyInsights();
 
       // Initialize 3D Engine
@@ -1249,6 +1288,8 @@
 
     if (tabId === 'word-explorer' && window.WordExplorer) window.WordExplorer.init();
     else if (window.WordExplorer) window.WordExplorer.stopAll();
+
+    ensureViewData(tabId);
 
     if (tabId === '3d-tree' && tree3DInstance) {
       setTimeout(() => tree3DInstance.onWindowResize(), 100);
@@ -1391,8 +1432,8 @@
     window.speechSynthesis.speak(utterance);
   }
 
-  function renderDailyInsights() {
-    if (!dailyInsightsData || dailyInsightsData.length === 0) return;
+  function dailyInsight(offset) {
+    if (!dailyInsightsData || dailyInsightsData.length === 0) return null;
 
     // Pick a daily insight based on day-of-year rotation
     const now = new Date();
@@ -1401,17 +1442,26 @@
     const oneDay = 1000 * 60 * 60 * 24;
     const dayOfYear = Math.floor(diff / oneDay);
 
-    const dailyIndex = dayOfYear % dailyInsightsData.length;
-    const topInsight = dailyInsightsData[dailyIndex];
+    return dailyInsightsData[(dayOfYear + offset) % dailyInsightsData.length];
+  }
 
+  function renderDailyInsights() {
+    const topInsight = dailyInsight(0);
+    if (!topInsight) return;
     renderInsightCard('daily-insight-container', topInsight, 'Did you know? (Daily Insight)');
+  }
 
-    // Render table-specific insights
-    const soundShiftInsight = dailyInsightsData[(dailyIndex + 1) % dailyInsightsData.length];
-    renderInsightCard('sound-shifts-insight-container', soundShiftInsight, 'Did you know? (Phonetics)');
+  // The phonetics and grammar-matrix cards sit in panels that load on demand,
+  // so they are drawn when their panel opens rather than at bootstrap.
+  const VIEW_INSIGHT_TITLES = {
+    'sound-shifts-insight-container': 'Did you know? (Phonetics)',
+    'matrix-insight-container': 'Did you know? (Grammar Matrix)'
+  };
 
-    const matrixInsight = dailyInsightsData[(dailyIndex + 2) % dailyInsightsData.length];
-    renderInsightCard('matrix-insight-container', matrixInsight, 'Did you know? (Grammar Matrix)');
+  function renderViewInsight(containerId, offset) {
+    const insight = dailyInsight(offset);
+    if (!insight) return;
+    renderInsightCard(containerId, insight, VIEW_INSIGHT_TITLES[containerId]);
   }
 
   function renderSoundShifts() {
@@ -1852,6 +1902,7 @@
     const head = document.getElementById('matrix-head');
     const body = document.getElementById('matrix-body');
     if (!head || !body) return;
+    if (grammarInventory.length === 0) return;
 
     const selectedCategory = document.getElementById('category-select').value;
     const selectedLangs = languageMeta.filter(l => selectedLangCodes.has(l.code));

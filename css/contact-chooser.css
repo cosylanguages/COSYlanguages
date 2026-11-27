@@ -74,7 +74,7 @@
   min-height: 64px;
   padding: 0.9rem 0.75rem;
   border-radius: 14px;
-  color: #fff;
+  color: var(--cosy-on-brand);
   font-size: 1.02rem;
   font-weight: 800;
   text-align: center;

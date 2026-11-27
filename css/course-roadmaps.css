@@ -97,12 +97,12 @@
 }
 
 .decision-side-card.necessary {
-  background: linear-gradient(145deg, #f3f8f4 0%, #ffffff 100%);
+  background: linear-gradient(145deg, #f3f8f4 0%, var(--cosy-color-surface) 100%);
   border: 1.5px solid #a4c9ad;
 }
 
 .decision-side-card.alternative {
-  background: linear-gradient(145deg, #fdf7f4 0%, #ffffff 100%);
+  background: linear-gradient(145deg, #fdf7f4 0%, var(--cosy-color-surface) 100%);
   border: 1.5px solid #e8bcad;
 }
 

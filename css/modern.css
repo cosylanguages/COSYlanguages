@@ -118,7 +118,7 @@ footer .footer-links-col a { line-height: 1.9; }
 
 .page-home {
   --band-sage: var(--sage-mist, #F0F5F1);
-  --band-lamp: #FFF8E7;
+  --band-lamp: var(--cosy-color-honey-pale);
   --night: #1B2A20;           /* final call-to-action band */
   --night-ink: #F6F1E6;
   --paper: var(--warm-white, #FFFEFB);
@@ -128,7 +128,7 @@ body.theme-dark.page-home {
   --band-sage: #1C241E;
   --band-lamp: #241F15;
   --night: #0F1712;
-  --night-ink: #E8F0E9;
+  --night-ink: var(--cosy-color-sage-pale);
   --paper: #222B22;
 }
 

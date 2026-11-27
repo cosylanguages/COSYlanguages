@@ -961,8 +961,8 @@ html[data-theme="dark"] .cosy-side-dot.active {
 
 html[data-theme="dark"] .cosy-side-dot .cosy-dot-tooltip,
 body.theme-dark .cosy-side-dot .cosy-dot-tooltip {
-  background: #FAF7F2;
-  color: #1C1917;
+  background: var(--cosy-color-cream);
+  color: var(--cosy-color-ink);
 }
 
 .cosy-side-dot:hover .cosy-dot-tooltip,

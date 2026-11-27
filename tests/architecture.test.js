@@ -143,12 +143,16 @@ test('inline styles carry no off-palette colour', () => {
 });
 
 test('off-palette colour debt in markup may only shrink', () => {
-    // Measured when the palette tiers landed. Add a token instead of raising this.
-    const BUDGET = 641;
+    // A `var(--token, #fallback)` literal is sanctioned: it is the token's own
+    // value, spelled out for engines without custom properties. Only literals
+    // that stand on their own are debt, so fallbacks are stripped first.
+    // Add a token instead of raising this.
+    const BUDGET = 428;
+    const VAR = /var\([^()]*\)/g;
     const offenders = [];
     for (const file of FILES) {
         if (!/\.(?:html|css)$/.test(file) || file === TOKENS) continue;
-        const source = fs.readFileSync(file, 'utf8');
+        const source = fs.readFileSync(file, 'utf8').replace(VAR, '');
         for (const hex of source.matchAll(HEX)) {
             if (!PALETTE.has(hex[0].toLowerCase())) offenders.push(relative(file));
         }
