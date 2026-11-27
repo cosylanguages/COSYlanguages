@@ -1,0 +1,86 @@
+{
+  "lang": "br",
+  "ui": {
+    "what": "Ar pezh a c'hortoz an live-mañ",
+    "focus": "Yezh da gefridiñ:",
+    "canDo": "El live-mañ e c'hallit:",
+    "length": "Hirder boas:",
+    "exams": "Kadarnaet gant:"
+  },
+  "bands": {
+    "a0-a1": {
+      "label": "A0-A1 · Derou",
+      "speaking": {
+        "canDo": "En em ginnig ha ginnig tud all, sevel ha respont da c'houlennoù eeun diwar-benn ul lec'h ma vevit, ar pezh a rit hag ar pezh hoc'h eus, hag implijout lavarennoù distag ha frazennoù berr-tre.",
+        "expects": "Lavarennoù berr diwar ho penn hag ar vuhez pemdez. Respontit gant frazennoù klok, zoken pa vezont eeun.",
+        "focus": "Amzer-vremañ, goulennoù diazez, niveroù, anvioù pemdez",
+        "exams": "DAB 1 · Diplom war ar Brezhoneg"
+      },
+      "writing": {
+        "canDo": "Skrivañ lavarennoù distag ha frazennoù eeun diwar ho penn, leuniañ ur follennad gant ho titouroù personel ha skrivañ ur gartenn-bost pe ur gemennadenn verr hag eeun.",
+        "expects": "Frazennoù berr diwar ho penn hag ar vuhez pemdez. Un ideenn dre frazenn, reizhskrivadur ha pennlizherennoù mat.",
+        "focus": "Amzer-vremañ, liammoù eeun (ha / met / abalamour), reizhskrivadur, poentadur",
+        "exams": "DAB 1 · Diplom war ar Brezhoneg",
+        "length": "20-40 ger"
+      }
+    },
+    "a2": {
+      "label": "A2 · Skoazell",
+      "speaking": {
+        "canDo": "Seveniñ eskemmoù berr pemdez, deskrivañ ho familh, ho puhez pemdez, ho endro tostañ hag an darvoudoù tremenet, hag ober war-dro treuzgreadoù eeun evel prenañ, beajiñ ha randevuoù.",
+        "expects": "Deskrivit ho puhez pemdez, an darvoudoù tremenet hag ho raktresoù gant un nebeud frazennoù liammet.",
+        "focus": "Amzerioù tremenet ha da-zont, abalamour / met / neuze, kendaoùoù pemdez",
+        "exams": "DAB 2 · Diplom war ar Brezhoneg"
+      },
+      "writing": {
+        "canDo": "Skrivañ notennoù ha kemennadennoù berr hag eeun, ul lizher pe ur postel personel eeun-tre, ha deskrivañ tuioù pemdez ho puhez gant ur rummad lavarennoù eeun liammet.",
+        "expects": "Deskrivit ar vuhez pemdez, an darvoudoù tremenet hag ar raktresoù gant un nebeud frazennoù liammet, ha skrivañ ur gemennadenn verr nann-ofisiel a seven an oberenn.",
+        "focus": "Amzerioù tremenet ha da-zont, rannbennadoù, liammoù pemdez, stil nann-ofisiel",
+        "exams": "DAB 2 · Diplom war ar Brezhoneg",
+        "length": "40-80 ger"
+      }
+    },
+    "b1-b2": {
+      "label": "B1-B2 · Treuzoù",
+      "speaking": {
+        "canDo": "Talañ ouzh an darn vrasañ eus an degouezhioù e-pad ur veaj, aozañ ur brezegenn verr, displegañ ha difenn ur savboent gant abegoù ha skouerioù, ha heuliañ pennaennoù un danvez anavezet-mat.",
+        "expects": "Lavarit ha difennit ur savboent gant abegoù ha skouerioù, ha tammit ur sujed anavezout.",
+        "focus": "Amzerioù diviz, liammoù, damvenegiñ, gerioù gouez",
+        "exams": "DAB 3 · Diplom war ar Brezhoneg"
+      },
+      "writing": {
+        "canDo": "Skrivañ testennoù sklaer ha liammet diwar sujedoù anavezet, lizheroù personel o teskrivañ skiantoù ha santadoù, ha danevelloù pe arnodskridoù berr gant abegoù a-du hag a-enep.",
+        "expects": "Aozit ur skrid gant ur rakskrid, ur c'horf hag un dibenn, ha skorit ur savboent gant abegoù ha skouerioù.",
+        "focus": "Frazennoù danvez, binvioù liammañ, stil ofisiel ha nann-ofisiel, yezh ar savboentoù",
+        "exams": "DAB 3 · Diplom war ar Brezhoneg",
+        "length": "100-180 ger"
+      }
+    },
+    "c1-c2": {
+      "label": "C1-C2 · A-raok",
+      "speaking": {
+        "canDo": "Kaozeal ent flour hag ent emgefreek hep klask gerioù, difenn ur savlec'h gant evezhded, asantiñ da enebargoù, ha cheñch stil etre endroioù akademek, micherel ha sokial.",
+        "expects": "Difennit ur savlec'h gant evezhded, asantit da enebargoù ha kemmit ho stil.",
+        "focus": "Anvadur, merkoù savlec'h, troiennoù skeudennek hag akademek",
+        "exams": "DAB 4 · Diplom war ar Brezhoneg"
+      },
+      "writing": {
+        "canDo": "En em ezteurel en ur skrid sklaer ha frammet mat, skrivañ diwar sujedoù kemplezh en un arnodskrid, un danevell pe ul lizher, ha degemer ur stil hag ur framm retorik azas ouzh al lenner.",
+        "expects": "Difennit ur savlec'h gant evezhded, pouezit an enebargoù ha kontrolit stil, liammded hag pouez en ur skrid hir.",
+        "focus": "Anvadur, damvenegiñ, sintaks kemplezh, framm retorik, troiennoù akademek",
+        "exams": "DAB 4 · Diplom war ar Brezhoneg",
+        "length": "200-300 ger"
+      }
+    }
+  },
+  "chrome": {
+    "level": "Live:",
+    "prep": "Aozañ",
+    "speak": "Kaozeal",
+    "words": "ger",
+    "followUps": "Goulennoù ouzhpenn",
+    "checklist": "A-raok echuiñ, gwiriit",
+    "listen": "Selaou",
+    "practice": "Pleustriñ en Hub"
+  }
+}

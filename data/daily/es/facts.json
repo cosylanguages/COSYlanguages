@@ -1,0 +1,152 @@
+[
+  {
+    "id": "es:fact:1",
+    "fact": "El español es la segunda lengua materna más hablada del mundo tras el chino mandarín.",
+    "topic": "demographics"
+  },
+  {
+    "id": "es:fact:2",
+    "fact": "La letra 'ñ' se añadió oficialmente al alfabeto en el siglo XVIII.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "es:fact:3",
+    "fact": "El español usa signos de interrogación y exclamación invertidos al inicio (¿ ¡).",
+    "topic": "punctuation"
+  },
+  {
+    "id": "es:fact:4",
+    "fact": "El español es idioma oficial en 21 países.",
+    "topic": "global"
+  },
+  {
+    "id": "es:fact:5",
+    "fact": "'Don Quijote de la Mancha', de Miguel de Cervantes, se considera la primera novela moderna.",
+    "topic": "literature"
+  },
+  {
+    "id": "es:fact:6",
+    "fact": "Unas 4.000 palabras del español provienen del árabe, tras ocho siglos de convivencia.",
+    "topic": "etymology"
+  },
+  {
+    "id": "es:fact:7",
+    "fact": "La Real Academia Española se fundó en 1713 para fijar la lengua.",
+    "topic": "institutions"
+  },
+  {
+    "id": "es:fact:8",
+    "fact": "Palabras como 'chocolate', 'tomate' y 'aguacate' llegaron del náhuatl.",
+    "topic": "etymology"
+  },
+  {
+    "id": "es:fact:9",
+    "fact": "El español tiene cinco vocales con un sonido estable.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "es:fact:10",
+    "fact": "Cervantes y Shakespeare murieron en 1616, casi al mismo tiempo.",
+    "topic": "literature"
+  },
+  {
+    "id": "es:fact:11",
+    "fact": "El español se escribe con dos puntos de interrogación: uno de apertura y otro de cierre.",
+    "topic": "punctuation"
+  },
+  {
+    "id": "es:fact:12",
+    "fact": "El 'vosotros' se usa en España, mientras que en América se emplea 'ustedes'.",
+    "topic": "grammar"
+  },
+  {
+    "id": "es:fact:13",
+    "fact": "El español distingue el 'tú' y el 'usted' según la formalidad.",
+    "topic": "grammar"
+  },
+  {
+    "id": "es:fact:14",
+    "fact": "Gabriel García Márquez, premio Nobel de 1982, escribió 'Cien años de soledad'.",
+    "topic": "figures"
+  },
+  {
+    "id": "es:fact:15",
+    "fact": "El español es la lengua romance con más hablantes nativos.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "es:fact:16",
+    "fact": "El 'voseo' emplea 'vos' en lugar de 'tú' en varios países americanos.",
+    "topic": "grammar"
+  },
+  {
+    "id": "es:fact:17",
+    "fact": "El diccionario de la RAE y la ASALE es obra conjunta de 23 academias.",
+    "topic": "institutions"
+  },
+  {
+    "id": "es:fact:18",
+    "fact": "La letra 'ñ' nació de la abreviatura de 'nn' en manuscritos medievales.",
+    "topic": "etymology"
+  },
+  {
+    "id": "es:fact:19",
+    "fact": "El español procede del latín vulgar hablado en la península ibérica.",
+    "topic": "history"
+  },
+  {
+    "id": "es:fact:20",
+    "fact": "'El Aleph' y 'Ficciones', de Jorge Luis Borges, renovaron la narrativa del siglo XX.",
+    "topic": "literature"
+  },
+  {
+    "id": "es:fact:21",
+    "fact": "El español tiene dos géneros gramaticales y el artículo concuerda con el sustantivo.",
+    "topic": "grammar"
+  },
+  {
+    "id": "es:fact:22",
+    "fact": "El 'ch' y el 'll' fueron letras del alfabeto entre 1803 y 2010.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "es:fact:23",
+    "fact": "La primera gramática del español, de Antonio de Nebrija, es de 1492.",
+    "topic": "history"
+  },
+  {
+    "id": "es:fact:24",
+    "fact": "El español es la tercera lengua más usada en internet.",
+    "topic": "global"
+  },
+  {
+    "id": "es:fact:25",
+    "fact": "El pretérito y el imperfecto se combinan para narrar en pasado.",
+    "topic": "grammar"
+  },
+  {
+    "id": "es:fact:26",
+    "fact": "El español de América y el de España difieren sobre todo en el léxico y el acento.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "es:fact:27",
+    "fact": "La 'h' es muda en español, salvo en palabras como 'hielo' o tras 'c' y 'ch'.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "es:fact:28",
+    "fact": "Federico García Lorca y Pablo Neruda figuran entre los grandes poetas en español.",
+    "topic": "literature"
+  },
+  {
+    "id": "es:fact:29",
+    "fact": "El español emplea la 'tilde' para marcar el acento y distinguir significados.",
+    "topic": "typography"
+  },
+  {
+    "id": "es:fact:30",
+    "fact": "El 'subjuntivo' es un modo verbal muy productivo en español.",
+    "topic": "grammar"
+  }
+]

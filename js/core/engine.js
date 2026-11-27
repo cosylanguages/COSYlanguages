@@ -1,0 +1,1428 @@
+// App bootstrap: initialises global state, visitor mode, and app startup sequence.
+/**
+ * js/core/engine.js
+ * App bootstrap, global state management, and user role detection (Free visitor).
+ */
+/**
+ * cosy-mode.js — THE ENGINE
+ * ─────────────────────────────────────────────────────────────────────────────
+ * COSYlanguages shared mode system.
+ * Visitor mode only.
+ * ───────────────────────────────────────────────────────────────────────────── */
+;(function () { 'use strict'
+
+/* ═══════════════════════════════════════════════════════════════
+   1. CONSTANTS & KEYS
+   ═══════════════════════════════════════════════════════════════ */
+
+const DEFAULT_ECOSYSTEM_URLS = {
+    home: 'index.html',
+    languages: 'index.html#languages',
+    courses: 'index.html#courses',
+    practice: 'https://cosylanguages.github.io/COSYpractice/',
+    tools: 'https://cosylanguages.github.io/COSYtools/',
+    games: 'https://cosylanguages.github.io/COSYgames/',
+    events: 'https://cosylanguages.github.io/COSYevents/',
+    placement_quiz: 'placement-quiz.html',
+    calculator: 'index.html#calculator',
+    magazine: 'https://cosylanguages.github.io/COSYmagazine/',
+    blog: 'https://cosylanguages.github.io/COSYmagazine/',
+    join: 'index.html#start',
+    login: 'login.html'
+};
+
+function getConfigModule() {
+    if (typeof window !== 'undefined' && window.COSY_CONFIG_MODULE) {
+        return window.COSY_CONFIG_MODULE;
+    }
+    if (typeof require === 'function') {
+        try {
+            return require('./config.js');
+        } catch (e) {}
+    }
+    return null;
+}
+
+function getEcosystemUrls(env, overrides) {
+    const cfg = getConfigModule();
+    if (cfg && typeof cfg.getEcosystemConfig === 'function') {
+        const repoConfig = cfg.getEcosystemConfig({ env: env, overrides: overrides });
+        return {
+            home: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html' : 'index.html',
+            languages: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#languages' : 'index.html#languages',
+            courses: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#courses' : 'index.html#courses',
+            practice: repoConfig.COSYpractice || DEFAULT_ECOSYSTEM_URLS.practice,
+            tools: repoConfig.COSYtools,
+            games: repoConfig.COSYgames,
+            events: repoConfig.COSYevents || DEFAULT_ECOSYSTEM_URLS.events,
+            placement_quiz: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'placement-quiz.html' : 'placement-quiz.html',
+            calculator: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#calculator' : 'index.html#calculator',
+            magazine: repoConfig.COSYmagazine || repoConfig.COSYblog || DEFAULT_ECOSYSTEM_URLS.magazine,
+            blog: repoConfig.COSYmagazine || repoConfig.COSYblog || DEFAULT_ECOSYSTEM_URLS.blog,
+            join: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#start' : 'index.html#start',
+            login: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'login.html' : 'login.html'
+        };
+    }
+
+    // Fallback if config module is absent
+    const processEnv = (typeof process !== 'undefined' && process.env) ? process.env : {};
+    const winConfig = (typeof window !== 'undefined' && window.COSY_CONFIG) ? window.COSY_CONFIG : {};
+    const winUrls = (typeof window !== 'undefined' && window.COSY_ECOSYSTEM_URLS) ? window.COSY_ECOSYSTEM_URLS : {};
+
+    let localSavedUrls = {};
+    if (typeof localStorage !== 'undefined') {
+        try {
+            const raw = localStorage.getItem('cosy_ecosystem_urls');
+            if (raw) localSavedUrls = JSON.parse(raw);
+        } catch (e) {}
+    }
+
+    const activeEnv = env ||
+        winConfig.env ||
+        (typeof window !== 'undefined' && window.COSY_ENV) ||
+        processEnv.COSY_ENV ||
+        ((typeof location !== 'undefined' && location.hostname && (location.hostname === 'localhost' || location.hostname === '127.0.0.1')) ? 'development' : 'production');
+
+    const envDefaults = Object.assign({}, DEFAULT_ECOSYSTEM_URLS);
+
+    if (activeEnv === 'development') {
+        envDefaults.home = 'index.html';
+        envDefaults.languages = 'index.html#languages';
+        envDefaults.courses = 'index.html#courses';
+        envDefaults.placement_quiz = 'placement-quiz.html';
+        envDefaults.calculator = 'index.html#calculator';
+        envDefaults.join = 'index.html#start';
+    }
+
+    const procEnvUrls = {};
+    if (processEnv.COSY_HOME_URL) procEnvUrls.home = processEnv.COSY_HOME_URL;
+    if (processEnv.COSY_LANGUAGES_URL) procEnvUrls.languages = processEnv.COSY_LANGUAGES_URL;
+    if (processEnv.COSY_COURSES_URL) procEnvUrls.courses = processEnv.COSY_COURSES_URL;
+    if (processEnv.COSY_PRACTICE_URL) procEnvUrls.practice = processEnv.COSY_PRACTICE_URL;
+    if (processEnv.COSY_TOOLS_URL) procEnvUrls.tools = processEnv.COSY_TOOLS_URL;
+    if (processEnv.COSY_GAMES_URL) procEnvUrls.games = processEnv.COSY_GAMES_URL;
+    if (processEnv.COSY_EVENTS_URL) procEnvUrls.events = processEnv.COSY_EVENTS_URL;
+    if (processEnv.COSY_PLACEMENT_QUIZ_URL) procEnvUrls.placement_quiz = processEnv.COSY_PLACEMENT_QUIZ_URL;
+    if (processEnv.COSY_CALCULATOR_URL) procEnvUrls.calculator = processEnv.COSY_CALCULATOR_URL;
+    if (processEnv.COSY_MAGAZINE_URL) procEnvUrls.magazine = processEnv.COSY_MAGAZINE_URL;
+    if (processEnv.COSY_BLOG_URL) procEnvUrls.blog = processEnv.COSY_BLOG_URL;
+    if (processEnv.COSY_JOIN_URL) procEnvUrls.join = processEnv.COSY_JOIN_URL;
+    if (processEnv.COSY_LOGIN_URL) procEnvUrls.login = processEnv.COSY_LOGIN_URL;
+
+    return Object.assign({}, envDefaults, procEnvUrls, localSavedUrls, winUrls, winConfig.urls, overrides);
+}
+
+function getNavHref(itemKey) {
+    const urls = getEcosystemUrls();
+    const rawHref = urls[itemKey] || DEFAULT_ECOSYSTEM_URLS[itemKey] || 'index.html';
+    if (!rawHref) return 'index.html';
+    const isAbsolute = rawHref.startsWith('http://') || rawHref.startsWith('https://') || rawHref.startsWith('//');
+    if (isAbsolute) return rawHref;
+    const p = getPrefix();
+    return `${p}${rawHref.replace(/^\/+/, '')}`;
+}
+
+const LOGIN_REDIRECT_VERSION = '20261125-1';
+
+function getLoginHref() {
+    const href = getNavHref('login');
+    if (typeof window === 'undefined' || !window.location) return href;
+    if (!/login\.html(?:[?#]|$)/.test(href) || /[?&](?:redirect|next)=/.test(href)) return href;
+    if (/\/login\.html$/.test(window.location.pathname)) return href;
+    const sep = href.indexOf('?') === -1 ? '?' : '&';
+    return href + sep + 'redirect=' + encodeURIComponent(window.location.href)
+        + '&v=' + LOGIN_REDIRECT_VERSION;
+}
+
+const NAV_CONFIG = {
+    free: [
+        { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
+        { key: 'events',         hrefKey: 'events',         icon: '🎉' },
+        { key: 'magazine',       hrefKey: 'magazine',       icon: '📰' },
+        { key: 'practice',       hrefKey: 'practice',       icon: '💡' }
+    ]
+};
+
+// Chrome strings the nav renders itself. window.t() comes from the i18n engine; the
+// English literal is the fallback for pages that load this file without it.
+function tt(key, fallback) {
+    const value = (typeof window !== 'undefined' && window.t) ? window.t(key) : '';
+    return value || fallback;
+}
+
+const COSY_ECOSYSTEM_MENU = [
+    {
+        group: 'Learn for free',
+        accentKey: 'learn-free',
+        items: [
+            {
+                key: 'practice',
+                title: 'Practice',
+                icon: '💡',
+                promise: 'Interactive drills & instant feedback',
+                hrefKey: 'practice'
+            },
+            {
+                key: 'dictionary',
+                title: 'Dictionary',
+                icon: '📖',
+                promise: 'Rich vocabulary & example sentences',
+                href: 'https://cosylanguages.github.io/COSYdata/'
+            },
+            {
+                key: 'tools',
+                title: 'Verb & Preposition Library',
+                icon: '🔎',
+                promise: 'Master conjugation & preposition patterns',
+                href: 'https://cosylanguages.github.io/COSYtools/'
+            },
+            {
+                key: 'games',
+                title: 'Games',
+                icon: '🎮',
+                promise: 'Fun, immersive language practice',
+                href: 'https://cosylanguages.github.io/COSYgames/'
+            },
+            {
+                key: 'magazine',
+                title: 'COSYmagazine',
+                icon: '📰',
+                promise: 'Articles, guides & podcasts',
+                hrefKey: 'magazine'
+            }
+        ]
+    },
+    {
+        group: 'Your classes (members)',
+        accentKey: 'your-classes',
+        items: [
+            {
+                key: 'platform',
+                title: 'Student Platform',
+                icon: '🎓',
+                promise: 'Your personal course dashboard',
+                href: 'login.html?redirect=https://cosylanguages.github.io/COSYplatform/&note=This%20area%20is%20for%20enrolled%20students.&v=20261125-1',
+                isGated: true
+            },
+            {
+                key: 'manuals',
+                title: 'Manuals',
+                icon: '📚',
+                promise: 'Full lesson materials & guides',
+                href: 'login.html?redirect=https://cosylanguages.github.io/COSYmanuals/&note=This%20area%20is%20for%20enrolled%20students.&v=20261125-1',
+                isGated: true
+            }
+        ]
+    },
+    {
+        group: 'Join in',
+        accentKey: 'join-in',
+        items: [
+            {
+                key: 'events',
+                title: 'Live Events',
+                icon: '🎉',
+                promise: 'Speaking clubs & live workshops',
+                hrefKey: 'events'
+            }
+        ]
+    }
+];
+
+const BASE_URL = (typeof window !== 'undefined' && (window.location.pathname.startsWith('/COSYlanguages/') || window.location.pathname === '/COSYlanguages'))
+    ? '/COSYlanguages/'
+    : '/';
+
+const KEY_PRACTICE = 'cosy_practice'
+const KEY_NOTEBOOK = 'cosy_notebook' // { [lessonId]: { notes: '', mistakes: [] } }
+
+/* ═══════════════════════════════════════════════════════════════
+   2. STATE MANAGEMENT
+   ═══════════════════════════════════════════════════════════════ */
+function readState () {
+    const mode = 'free'
+
+    // Consolidate practice state from multiple keys
+    const practice = tryParse(localStorage.getItem(KEY_PRACTICE)) || { totalPts: 0, streak: 0, mistakes: [] }
+    practice.totalPts = parseInt(localStorage.getItem('cosy_total_points') || practice.totalPts || '0')
+    practice.streak = parseInt(localStorage.getItem('practice_streak') || practice.streak || '0')
+
+    const notebook = tryParse(localStorage.getItem(KEY_NOTEBOOK)) || {}
+    return { mode, practice, notebook }
+}
+
+function tryParse (str) { try { return str ? JSON.parse(str) : null } catch { return null } }
+
+function getPrefix() {
+    return BASE_URL;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   3. AUTH & LIVE SYNC (DEPRECATED)
+   ═══════════════════════════════════════════════════════════════ */
+// Authenticated features moved to ProgressMe.
+
+/* ═══════════════════════════════════════════════════════════════
+   4. NAV TEMPLATES
+   ═══════════════════════════════════════════════════════════════ */
+function isActive (href) {
+    const target = new URL(href, window.location.href);
+    const current = new URL(window.location.href);
+    const targetPath = target.pathname.replace(/\/index\.html$/, '/');
+    const currentPath = current.pathname.replace(/\/index\.html$/, '/');
+
+    if (target.origin === current.origin && targetPath === currentPath && (!target.hash || target.hash === current.hash)) {
+        return 'aria-current="page"';
+    }
+    return '';
+}
+
+function updateNavActiveState() {
+    if (typeof document === 'undefined' || typeof window === 'undefined') return;
+
+    const path = window.location.pathname.toLowerCase();
+    const items = document.querySelectorAll('.mobile-nav-item');
+    items.forEach(item => item.classList.remove('active'));
+
+    let activeId = null;
+    if (path.includes('/practice')) {
+        activeId = 'mnav-practice';
+    } else if (path.includes('/courses')) {
+        activeId = 'mnav-courses';
+    } else if ((path === '/' || path.endsWith('/') || path.endsWith('/index.html')) &&
+        !['/magazine', '/blog', '/games', '/apps', '/languages'].some(section => path.includes(section))) {
+        activeId = 'mnav-home';
+    }
+
+    if (activeId) {
+        const activeItem = document.getElementById(activeId);
+        if (activeItem) activeItem.classList.add('active');
+    }
+}
+
+function getActiveNavLang() {
+    if (typeof window === 'undefined') return 'en';
+    const path = window.location.pathname.toLowerCase();
+    const langMatch = path.match(/\/languages\/([a-z]{2})\b/);
+    if (langMatch && langMatch[1]) {
+        return langMatch[1];
+    }
+    const htmlLang = (document.documentElement && document.documentElement.lang) ? document.documentElement.lang.toLowerCase() : '';
+    if (path.includes('/languages/') && htmlLang) {
+        return htmlLang;
+    }
+    return (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || htmlLang || 'en';
+}
+
+function getNavLabel(key, fallback) {
+    const cleanKey = key.replace(/^nav\./, '');
+    if (typeof window !== 'undefined' && window.t) {
+        const val = window.t('nav.' + cleanKey) || window.t('nav_' + cleanKey) || window.t(cleanKey);
+        if (val) return val;
+    }
+    return fallback;
+}
+
+function renderNavLinks(mode) {
+    const config = NAV_CONFIG[mode] || [];
+    return config.map(item => {
+        const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
+        const label = getNavLabel(item.key, fallbackLabel);
+        const key = `nav_${item.key}`;
+        const href = getNavHref(item.hrefKey || item.key);
+        const isExternal = href.startsWith('http://') || href.startsWith('https://');
+        const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
+        const icon = item.icon ? `<span class="nav-item-icon" aria-hidden="true">${item.icon}</span> ` : '';
+        return `<li role="none"><a href="${href}" ${isActive(href)} role="menuitem"${targetAttr}>${icon}<span data-translate-key="${key}" data-i18n="nav.${item.key}">${label}</span></a></li>`;
+    }).join('');
+}
+
+function getAvailableLanguages() {
+    if (typeof window !== 'undefined' && window.COSY_LANGUAGES && window.COSY_LANGUAGES.length) {
+        return window.COSY_LANGUAGES;
+    }
+    return [
+        { code: 'en', name: 'English', native: 'English', icon: '🇬🇧' },
+        { code: 'fr', name: 'French', native: 'Français', icon: '🇫🇷' },
+        { code: 'it', name: 'Italian', native: 'Italiano', icon: '🇮🇹' },
+        { code: 'ru', name: 'Russian', native: 'Русский', icon: '🇷🇺' },
+        { code: 'el', name: 'Greek', native: 'Ελληνικά', icon: '🇬🇷' }
+    ];
+}
+
+/**
+ * The registry stores English names, which read wrong on a localised page
+ * ("English (English)" in a French panel). Intl.DisplayNames gives the name in the
+ * interface language; the registry name stays as the fallback.
+ */
+function langDisplayName(lang) {
+    const ui = (typeof window !== 'undefined' && window.COSY_I18N && window.COSY_I18N.currentLang)
+        || (typeof document !== 'undefined' && document.documentElement.lang)
+        || 'en';
+    try {
+        const localized = new Intl.DisplayNames([ui], { type: 'language' }).of(lang.code);
+        if (localized) return localized.charAt(0).toUpperCase() + localized.slice(1);
+    } catch (e) {
+        // Engines without Intl.DisplayNames fall through to the registry name.
+    }
+    return lang.name || lang.code;
+}
+
+function renderLangPanelHTML() {
+    const currentPinned = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.pinnedLang') || localStorage.getItem('cosy_ui_lang'))) || 'en';
+    const languages = getAvailableLanguages();
+
+    const rows = languages.map(l => {
+        const isPinned = (l.code === currentPinned);
+        const iconDisplay = (l.icon && !l.icon.includes('<')) ? l.icon : (l.flag && !l.flag.includes('<') ? l.flag : '🌐');
+        const displayName = langDisplayName(l);
+        return `
+          <div class="cosy-lang-row ${isPinned ? 'is-pinned' : ''}" data-lang="${l.code}" onclick="COSY.pinLanguage('${l.code}', event)" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){COSY.pinLanguage('${l.code}', event);}">
+            <span class="cosy-lang-flag">${iconDisplay}</span>
+            <span class="cosy-lang-info">
+              <span class="cosy-lang-name">${displayName}</span>
+              ${l.native && l.native !== displayName ? `<span class="cosy-lang-native">(${l.native})</span>` : ''}
+            </span>
+            <button type="button" class="cosy-lang-pin-btn ${isPinned ? 'pinned' : ''}" aria-pressed="${isPinned ? 'true' : 'false'}" aria-label="${tt('lang_pin', 'Pin')} ${displayName}" onclick="COSY.pinLanguage('${l.code}', event)" title="${tt('lang_pin', 'Pin')} ${displayName}">📌</button>
+          </div>`;
+    }).join('');
+
+    return `
+      <div id="cosy-lang-panel" class="cosy-lang-panel" role="dialog" aria-label="${tt('lang_panel_title', 'Languages We Teach')}" hidden>
+        <div class="cosy-lang-panel-header">
+          <span class="cosy-lang-panel-title">${tt('lang_panel_title', 'Languages We Teach')}</span>
+          <button type="button" class="cosy-lang-panel-close" aria-label="${tt('lang_panel_close', 'Close language menu')}" onclick="COSY.closeLangPanel()">✕</button>
+        </div>
+        <div class="cosy-lang-list">
+          ${rows}
+        </div>
+      </div>`;
+}
+
+function navFree () {
+    const t = getNavLabel;
+    const homeHref = getNavHref('home');
+    const loginHref = getLoginHref();
+    const isDark = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.theme') || localStorage.getItem('cosy_theme') || 'light') === 'dark');
+    const pinnedLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.pinnedLang') || localStorage.getItem('cosy_ui_lang'))) || getActiveNavLang() || 'en';
+    const logoPrefix = getPrefix();
+
+    return `
+      <a class="nav-logo" href="${homeHref}" aria-label="${t('home_aria', 'COSYlanguages Home')}">
+        <img src="${logoPrefix}images/logos/cosylanguages.png" alt="COSYlanguages logo" onerror="this.style.display='none'">
+        <span>COSYlanguages</span>
+      </a>
+      <ul class="nav-links" role="menubar">
+        ${renderNavLinks('free')}
+      </ul>
+      <div id="cosy-nav-context" class="nav-context"></div>
+      <div class="nav-right" style="display:flex; align-items:center; gap:8px;">
+        <a href="${loginHref}" class="nav-login"><span class="nav-item-icon" aria-hidden="true">🔐</span> <span data-translate-key="nav_login" data-i18n="nav.login">${t('login', 'Log in')}</span></a>
+        <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" rel="noopener" data-contact-chooser aria-haspopup="dialog"><span class="nav-item-icon" aria-hidden="true">💬</span> <span data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', 'Contact us')}</span></a>
+        <div class="cosy-lang-dropdown-wrap" style="position:relative;">
+          <button id="cosy-lang-menu-btn" type="button" class="cosy-lang-menu-btn" aria-haspopup="dialog" aria-expanded="false" aria-controls="cosy-lang-panel" aria-label="${tt('lang_select', 'Select language')}" onclick="COSY.toggleLangPanel()" style="background:none; border:1px solid var(--border); border-radius:var(--r-sm); padding:4px 8px; font-size:0.85rem; height:36px; cursor:pointer; display:inline-flex; align-items:center; gap:4px; color:var(--ink);">
+            🌐 <span class="cosy-pinned-lang-label" id="cosy-pinned-lang-badge">${pinnedLang.toUpperCase()}</span>
+          </button>
+          ${renderLangPanelHTML()}
+        </div>
+        <button type="button" class="theme-toggle-btn cosy-theme-btn" onclick="COSY.toggleTheme()" aria-label="Toggle Theme" style="background:none; border:none; font-size:1.2rem; cursor:pointer; padding:6px; display:inline-flex; align-items:center;">
+            ${isDark ? '☀️' : '🌙'}
+        </button>
+        <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false" aria-controls="cosy-mobile-menu">☰</button>
+      </div>`
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   5. UI CORE (Templates)
+   ═══════════════════════════════════════════════════════════════ */
+
+/**
+ * The panel is built once, so a language switch has to patch the names the panel
+ * already shows; re-rendering the whole nav would drop its context and open state.
+ */
+function refreshLanguagePanelNames() {
+    if (typeof document === 'undefined') return;
+    const languages = getAvailableLanguages();
+    document.querySelectorAll('.cosy-lang-row').forEach(row => {
+        const lang = languages.find(l => l.code === row.dataset.lang);
+        if (!lang) return;
+        const displayName = langDisplayName(lang);
+        const nameEl = row.querySelector('.cosy-lang-name');
+        if (nameEl) nameEl.textContent = displayName;
+        const nativeEl = row.querySelector('.cosy-lang-native');
+        if (nativeEl) nativeEl.textContent = (lang.native && lang.native !== displayName) ? `(${lang.native})` : '';
+        const pin = row.querySelector('.cosy-lang-pin-btn');
+        if (pin) {
+            const label = `${tt('lang_pin', 'Pin')} ${displayName}`;
+            pin.setAttribute('aria-label', label);
+            pin.title = label;
+        }
+    });
+}
+
+if (typeof document !== 'undefined') {
+    document.addEventListener('cosyLanguageChanged', refreshLanguagePanelNames);
+}
+
+function bindNavKeyboardHandlers() {
+    const nav = document.getElementById('cosy-nav');
+    if (nav && !nav.dataset.kbdBound) {
+        nav.dataset.kbdBound = 'true';
+        nav.addEventListener('keydown', (e) => {
+            const menuItems = Array.from(nav.querySelectorAll('[role="menuitem"], .cosy-nav-more-btn'));
+            if (menuItems.length === 0) return;
+            const currentIndex = menuItems.indexOf(document.activeElement);
+
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                if (currentIndex !== -1) {
+                    e.preventDefault();
+                    const nextIndex = (currentIndex + 1) % menuItems.length;
+                    menuItems[nextIndex].focus();
+                }
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                if (currentIndex !== -1) {
+                    e.preventDefault();
+                    const prevIndex = (currentIndex - 1 + menuItems.length) % menuItems.length;
+                    menuItems[prevIndex].focus();
+                }
+            } else if (e.key === 'Home') {
+                e.preventDefault();
+                menuItems[0].focus();
+            } else if (e.key === 'End') {
+                e.preventDefault();
+                menuItems[menuItems.length - 1].focus();
+            }
+        });
+    }
+
+    if (typeof document !== 'undefined' && !window.cosyNavOutsideHandlerSetup) {
+        window.cosyNavOutsideHandlerSetup = true;
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const langPanel = document.getElementById('cosy-lang-panel');
+                if (langPanel && !langPanel.hasAttribute('hidden')) {
+                    if (window.COSY && typeof window.COSY.closeLangPanel === 'function') {
+                        window.COSY.closeLangPanel();
+                    }
+                }
+
+                const moreDropdown = document.querySelector('.cosy-nav-more-wrap.open');
+                if (moreDropdown) {
+                    moreDropdown.classList.remove('open');
+                    const btn = moreDropdown.querySelector('.cosy-nav-more-btn');
+                    if (btn) {
+                        btn.setAttribute('aria-expanded', 'false');
+                        btn.focus();
+                    }
+                }
+
+                const mm = document.getElementById('cosy-mobile-menu');
+                if (mm && mm.classList.contains('open')) {
+                    mm.classList.remove('open');
+                    const btn = document.querySelector('.nav-menu-btn');
+                    if (btn) {
+                        btn.setAttribute('aria-expanded', 'false');
+                        btn.focus();
+                    }
+                }
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            const langWrap = document.querySelector('.cosy-lang-dropdown-wrap');
+            if (langWrap && !langWrap.contains(e.target)) {
+                if (window.COSY && typeof window.COSY.closeLangPanel === 'function') {
+                    window.COSY.closeLangPanel();
+                }
+            }
+
+            const moreDropdown = document.querySelector('.cosy-nav-more-wrap.open');
+            if (moreDropdown && !moreDropdown.contains(e.target)) {
+                moreDropdown.classList.remove('open');
+                const btn = moreDropdown.querySelector('.cosy-nav-more-btn');
+                if (btn) btn.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
+}
+
+function ensureSharedNavCss() {
+    if (typeof document === 'undefined') return;
+    const p = getPrefix();
+    if (!document.querySelector('link[href*="css/shared-nav.css"]')) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = p + 'css/shared-nav.css';
+        const nav = document.getElementById('cosy-nav');
+        if (nav) nav.style.visibility = 'hidden';
+        link.onload = () => {
+            if (nav) nav.style.visibility = '';
+        };
+        link.onerror = () => {
+            if (nav) nav.style.visibility = '';
+        };
+        if (document.head) {
+            document.head.appendChild(link);
+        } else {
+            document.addEventListener('DOMContentLoaded', () => {
+                if (document.head) document.head.appendChild(link);
+            });
+        }
+    } else {
+        const nav = document.getElementById('cosy-nav');
+        if (nav) nav.style.visibility = '';
+    }
+}
+
+function renderNav() {
+    ensureSharedNavCss();
+    applyMode();
+}
+
+function applyMode () {
+    const { mode } = STATE;
+    if (typeof document !== 'undefined' && document.body) {
+        document.body.className = document.body.className.replace(/mode-\w+/g, '').trim();
+        document.body.classList.add('mode-free');
+    }
+
+    ensureSharedNavCss();
+
+    const nav = typeof document !== 'undefined' ? document.getElementById('cosy-nav') : null;
+    if (nav) {
+        nav.className = 'nav-container';
+        const t = getNavLabel;
+        nav.setAttribute('aria-label', t('main_aria', 'Main Navigation'));
+        nav.innerHTML = navFree();
+        bindNavKeyboardHandlers();
+
+        const staleMenu = document.getElementById('cosy-eco-mega-menu');
+        if (staleMenu) staleMenu.remove();
+        const menuContainer = document.createElement('div');
+        menuContainer.innerHTML = window.COSY.renderEcosystemMegaMenuHTML();
+        if (menuContainer.firstElementChild) {
+            document.body.appendChild(menuContainer.firstElementChild);
+        }
+        window.COSY.bindEcosystemLogoTriggers();
+
+        const activeNavLang = getActiveNavLang();
+        const desktopSw = document.getElementById('cosy-language-switcher');
+        if (desktopSw) desktopSw.value = activeNavLang;
+
+        // Restore context if any
+        if (typeof COSY !== 'undefined' && COSY._navContext) {
+            const ctx = document.getElementById('cosy-nav-context');
+            if (ctx) ctx.innerHTML = COSY._navContext;
+        }
+    }
+
+    const mm = typeof document !== 'undefined' ? document.getElementById('cosy-mobile-menu') : null;
+    if (mm) {
+        mm.innerHTML = mobileMenuHTML(mode);
+        const mobileSw = document.getElementById('cosy-language-switcher-mobile');
+        if (mobileSw) mobileSw.value = getActiveNavLang();
+    }
+
+    if (typeof window !== 'undefined' && window.COSY_UI && typeof window.COSY_UI.updateMobileNav === 'function') {
+        window.COSY_UI.updateMobileNav(mode);
+    }
+
+    if (typeof document !== 'undefined') {
+        document.dispatchEvent(new CustomEvent('cosyModeChanged', { detail: STATE }));
+    }
+
+    // Re-apply translations if i18n is available
+    if (typeof window !== 'undefined' && window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') {
+        window.COSY_I18N.refresh();
+    }
+}
+
+function mobileMenuHTML (mode) {
+    const t = getNavLabel;
+    const homeUrl = getNavHref('home');
+    const loginHref = getLoginHref();
+    const pinnedLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy.pinnedLang') || localStorage.getItem('cosy_ui_lang'))) || 'en';
+
+    const freeItems = NAV_CONFIG.free || [];
+
+    const linksHtml = freeItems.map(item => {
+        const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
+        const label = t(item.key, fallbackLabel);
+        const href = getNavHref(item.hrefKey || item.key);
+        const isExternal = href.startsWith('http://') || href.startsWith('https://');
+        const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
+        const icon = item.icon ? `<span class="nav-item-icon" aria-hidden="true">${item.icon}</span> ` : '';
+        return `<a href="${href}" ${targetAttr} class="cosy-mobile-nav-link">${icon}<span data-translate-key="nav_${item.key}" data-i18n="nav.${item.key}">${label}</span></a>`;
+    }).join('\n      ');
+
+    const langs = getAvailableLanguages();
+
+    return `
+      <a href="${homeUrl}" class="cosy-mobile-nav-link"><span class="nav-item-icon" aria-hidden="true">🏡</span> <span data-translate-key="nav_home" data-i18n="nav.home">${t('home', 'Home')}</span></a>
+      ${linksHtml}
+      <a href="${loginHref}" class="cosy-mobile-nav-link"><span class="nav-item-icon" aria-hidden="true">🔐</span> <span data-translate-key="nav_login" data-i18n="nav.login">${t('login', 'Log in')}</span></a>
+
+      <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
+
+      <div class="cosy-mobile-eco-section" style="padding: 4px 12px;">
+        <span class="cosy-mobile-eco-title" style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft, #666); display: block; margin-bottom: 6px;">${tt('eco_mobile_title', 'COSYlanguages ecosystem')}</span>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <a href="${homeUrl}" class="cosy-mobile-eco-link active" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYlanguages</a>
+          <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYevents 🎉</a>
+          <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYgames 🎮</a>
+          <a href="https://cosylanguages.github.io/COSYdata/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYdata 📖</a>
+          <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYtools 🔎</a>
+        </div>
+      </div>
+
+      <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
+
+      <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="cosy-mobile-nav-link mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;"><span class="nav-item-icon" aria-hidden="true">🌓</span> <span data-translate-key="nav_toggle_dark_mode" data-i18n="nav.toggle_dark_mode">${t('toggle_dark_mode', 'Toggle Dark Mode')}</span></a>
+
+      <div class="cosy-mobile-lang-section" style="padding: 8px 12px;">
+         <span style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft, #666); display: block; margin-bottom: 6px;" data-i18n="label.language">Languages We Teach 🌍</span>
+         <div class="cosy-mobile-lang-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 6px;">
+           ${langs.map(l => {
+              const isPinned = (l.code === pinnedLang);
+              const iconDisplay = (l.icon && !l.icon.includes('<')) ? l.icon : (l.flag && !l.flag.includes('<') ? l.flag : '🌐');
+              return `
+              <button type="button" class="cosy-mobile-lang-btn ${isPinned ? 'pinned' : ''}" onclick="COSY.pinLanguage('${l.code}', event)" style="display:flex; align-items:center; justify-content:space-between; padding:8px 10px; border:1px solid var(--border, rgba(74, 107, 80, 0.12)); border-radius:6px; background:${isPinned ? 'var(--sage-mist, #e0eee2)' : 'var(--warm-white, #fff)'}; color:var(--ink, #2a2a2a); font-size:0.82rem; font-weight:600; cursor:pointer; min-height:44px;">
+                <span>${iconDisplay} ${l.code.toUpperCase()}</span>
+                <span>📌</span>
+              </button>`;
+           }).join('')}
+         </div>
+      </div>
+
+      <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
+      <a href="https://wa.me/330766784195" target="_blank" rel="noopener" class="mm-cta cosy-mobile-nav-link" data-contact-chooser aria-haspopup="dialog" style="background: var(--sage, #416b49); color: #fff; font-weight: 700; border-radius: 100px; text-align: center; justify-content: center;"><span class="nav-item-icon" aria-hidden="true">💬</span> <span data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', 'Contact us')}</span></a>`
+}
+
+function updateMobileNavTranslated() {
+    const mobileNav = document.querySelector('.mobile-nav');
+    if (!mobileNav) return;
+
+    const getNavHref = (window.COSY && typeof window.COSY.getNavHref === 'function')
+        ? window.COSY.getNavHref
+        : (key => (key === 'home' ? 'index.html' : key === 'courses' ? 'index.html#courses' : `https://cosylanguages.github.io/COSY${key}/`));
+
+    const t = getNavLabel;
+    const homeHref = getNavHref('home');
+    const practiceHref = getNavHref('practice');
+    const gamesHref = getNavHref('games');
+    const eventsHref = getNavHref('events');
+    const coursesHref = getNavHref('courses');
+
+    mobileNav.innerHTML = `
+        <a href="${practiceHref}" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span data-i18n="nav.practice">${t('practice', 'Practice')}</span></a>
+        <a href="${gamesHref}" ${gamesHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span data-i18n="nav.games">${t('games', 'Games')}</span></a>
+        <a href="${eventsHref}" ${eventsHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span data-i18n="nav.events">${t('events', 'Events')}</span></a>
+        <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses"><span class="mn-icon">📚</span><span data-i18n="nav.courses">${t('courses', 'Courses')}</span></a>
+        <a href="${homeHref}" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span data-i18n="nav.home">${t('home', 'Home')}</span></a>`;
+
+    const path = window.location.pathname;
+    const items = document.querySelectorAll('.mobile-nav-item');
+
+    items.forEach(item => item.classList.remove('active'));
+
+    updateNavActiveState();
+}
+
+if (typeof window !== 'undefined') {
+    Object.defineProperty(window, 'updateMobileNav', {
+        get: function() { return updateMobileNavTranslated; },
+        set: function(val) { /* ignore hardcoded ui.js overwrite */ },
+        configurable: true,
+        enumerable: true
+    });
+}
+
+function injectStyles() {
+    const p = getPrefix();
+    if (!document.querySelector(`link[href*="css/components.css"]`)) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = p + 'css/components.css';
+        document.head.appendChild(link);
+    }
+}
+
+function ensureI18nLoaded() {
+    if (window.COSY_I18N || window.setLanguage) return;
+
+    // Check if script is already present in DOM
+    const existing = document.querySelector('script[src*="js/core/i18n.js"]');
+    if (existing) return;
+
+    const p = getPrefix();
+    const s = document.createElement('script');
+    s.src = p + 'js/core/i18n.js';
+    document.head.appendChild(s);
+}
+
+function ensureSSOLoaded() {
+    if (typeof document === 'undefined') return;
+    const p = getPrefix();
+
+    function loadSSO() {
+        if (!document.querySelector('script[src*="js/core/auth-sso.js"]')) {
+            const s = document.createElement('script');
+            s.src = p + 'js/core/auth-sso.js';
+            document.head.appendChild(s);
+        }
+    }
+
+    // The Supabase client is only needed on the sign-in page (login.html loads it itself).
+    // Every other page reads the stored session without any third-party request.
+    const onLoginPage = /(^|\/)login\.html$/.test(window.location.pathname);
+    if (onLoginPage && !window.supabase && !document.querySelector('script[src*="supabase-js"]')) {
+        const sbScript = document.createElement('script');
+        sbScript.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1';
+        sbScript.crossOrigin = 'anonymous';
+        sbScript.onload = loadSSO;
+        document.head.appendChild(sbScript);
+    } else {
+        loadSSO();
+    }
+}
+
+function inject () {
+    injectStyles();
+    ensureI18nLoaded();
+    ensureSSOLoaded();
+    if (!document.getElementById('cosy-mobile-menu')) {
+        const m = document.createElement('div'); m.id = 'cosy-mobile-menu'; document.body.appendChild(m);
+    }
+
+    applyMode();
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   6. PUBLIC API
+   ═══════════════════════════════════════════════════════════════ */
+
+let STATE = readState();
+
+if (typeof window !== 'undefined') {
+    window.toggleTheme = function() {
+        if (window.COSY && typeof window.COSY.toggleTheme === 'function') {
+            window.COSY.toggleTheme();
+        }
+    };
+}
+
+const COSY = window.COSY = {
+    renderNav,
+    refresh: applyMode,
+    get mode() { return STATE.mode },
+    get practice() { return STATE.practice },
+    get notebook() { return STATE.notebook },
+    getPrefix,
+
+    initTheme() {
+        // Pages that must never repaint (print previews) pin themselves with
+        // <html data-theme-locked="light"> and are left alone.
+        const locked = document.documentElement.getAttribute('data-theme-locked');
+        if (locked) {
+            document.documentElement.setAttribute('data-theme', locked);
+            if (document.body) document.body.classList.remove('theme-dark');
+            return;
+        }
+        // cosy-theme.js owns the choice (it runs before first paint); re-apply here
+        // so pages that load the engine without the shared module still settle.
+        let theme = null;
+        try {
+            theme = (window.CosyTheme && window.CosyTheme.get())
+                || localStorage.getItem('cosy.theme')
+                || localStorage.getItem('cosy_theme');
+        } catch (e) {}
+        if (!theme) {
+            theme = (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+        if (typeof document !== 'undefined' && document.body) {
+            if (theme === 'dark') {
+                document.body.classList.add('theme-dark');
+            } else {
+                document.body.classList.remove('theme-dark');
+            }
+        }
+        this.updateThemeIcons(theme);
+    },
+
+    updateThemeIcons(theme) {
+        if (typeof document === 'undefined') return;
+        const currentTheme = theme || document.documentElement.getAttribute('data-theme') || 'light';
+        const toggles = document.querySelectorAll('.theme-toggle-btn, .cosy-theme-btn');
+        toggles.forEach(btn => {
+            btn.innerHTML = currentTheme === 'dark' ? '☀️' : '🌙';
+            btn.setAttribute('aria-label', currentTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        });
+    },
+
+    toggleTheme() {
+        let currentTheme = null;
+        try {
+            currentTheme = (window.CosyTheme && window.CosyTheme.get())
+                || localStorage.getItem('cosy.theme')
+                || localStorage.getItem('cosy_theme');
+        } catch (e) {}
+        if (!currentTheme) {
+            currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        }
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        if (window.CosyTheme && typeof window.CosyTheme.set === 'function') {
+            // Shared module writes both storage keys, html[data-theme], .theme-dark
+            // and color-scheme, so every other COSYlanguages page agrees.
+            window.CosyTheme.set(newTheme);
+        } else {
+            try {
+                localStorage.setItem('cosy.theme', newTheme);
+                localStorage.setItem('cosy_theme', newTheme);
+            } catch (e) {}
+            document.documentElement.setAttribute('data-theme', newTheme);
+            if (typeof document !== 'undefined' && document.body) {
+                if (newTheme === 'dark') {
+                    document.body.classList.add('theme-dark');
+                } else {
+                    document.body.classList.remove('theme-dark');
+                }
+            }
+        }
+        this.updateThemeIcons(newTheme);
+        if (window.COSY && typeof window.COSY.showToast === 'function') {
+            window.COSY.showToast(`Theme switched to ${newTheme}!`);
+        }
+    },
+
+    getPinnedLanguage() {
+        try {
+            return localStorage.getItem('cosy.pinnedLang') || localStorage.getItem('cosy_ui_lang') || 'en';
+        } catch (e) {
+            return 'en';
+        }
+    },
+
+    pinLanguage(langCode, event) {
+        if (event) {
+            event.stopPropagation();
+            if (event.preventDefault) event.preventDefault();
+        }
+        try {
+            localStorage.setItem('cosy.pinnedLang', langCode);
+            localStorage.setItem('cosy_ui_lang', langCode);
+            localStorage.setItem('cosy_last_language', langCode);
+        } catch (e) {}
+
+        const detail = { lang: langCode, pinned: true };
+        const evt = new CustomEvent('cosy:langchange', {
+            detail: detail,
+            bubbles: true
+        });
+        if (typeof window !== 'undefined' && window.dispatchEvent) {
+            window.dispatchEvent(evt);
+        } else if (typeof document !== 'undefined' && document.dispatchEvent) {
+            document.dispatchEvent(evt);
+        }
+
+        if (typeof window !== 'undefined' && typeof window.setLanguage === 'function') {
+            window.setLanguage(langCode);
+        }
+
+        this.updateLangPanelUI(langCode);
+    },
+
+    dispatchInitialLangChange() {
+        const lang = this.getPinnedLanguage();
+        const detail = { lang: lang, pinned: true, initial: true };
+        const evt = new CustomEvent('cosy:langchange', {
+            detail: detail,
+            bubbles: true
+        });
+        if (typeof window !== 'undefined' && window.dispatchEvent) {
+            window.dispatchEvent(evt);
+        } else if (typeof document !== 'undefined' && document.dispatchEvent) {
+            document.dispatchEvent(evt);
+        }
+    },
+
+    updateLangPanelUI(pinnedLang) {
+        if (typeof document === 'undefined') return;
+        const currentLang = pinnedLang || this.getPinnedLanguage();
+        const badge = document.getElementById('cosy-pinned-lang-badge');
+        if (badge) {
+            badge.textContent = currentLang.toUpperCase();
+        }
+
+        const rows = document.querySelectorAll('.cosy-lang-row');
+        rows.forEach(row => {
+            const code = row.getAttribute('data-lang');
+            const isPinned = (code === currentLang);
+            if (isPinned) {
+                row.classList.add('is-pinned');
+            } else {
+                row.classList.remove('is-pinned');
+            }
+            const pinBtn = row.querySelector('.cosy-lang-pin-btn');
+            if (pinBtn) {
+                pinBtn.classList.toggle('pinned', isPinned);
+                pinBtn.setAttribute('aria-pressed', isPinned ? 'true' : 'false');
+            }
+        });
+    },
+
+    toggleLangPanel() {
+        const panel = document.getElementById('cosy-lang-panel');
+        if (!panel) return;
+        const isHidden = panel.hasAttribute('hidden') || !panel.classList.contains('open');
+        if (isHidden) {
+            this.openLangPanel();
+        } else {
+            this.closeLangPanel();
+        }
+    },
+
+    openLangPanel() {
+        const panel = document.getElementById('cosy-lang-panel');
+        const btn = document.getElementById('cosy-lang-menu-btn');
+        if (!panel) return;
+        panel.removeAttribute('hidden');
+        panel.classList.add('open');
+        if (btn) btn.setAttribute('aria-expanded', 'true');
+        this.updateLangPanelUI();
+        const firstBtn = panel.querySelector('button, a, [tabindex="0"]');
+        if (firstBtn) firstBtn.focus();
+    },
+
+    closeLangPanel() {
+        const panel = document.getElementById('cosy-lang-panel');
+        const btn = document.getElementById('cosy-lang-menu-btn');
+        if (!panel) return;
+        const isOpen = !panel.hasAttribute('hidden') && panel.classList.contains('open');
+        if (!isOpen) return;
+        panel.setAttribute('hidden', '');
+        panel.classList.remove('open');
+        if (btn) {
+            btn.setAttribute('aria-expanded', 'false');
+            if (document.activeElement && panel.contains(document.activeElement)) {
+                btn.focus();
+            }
+        }
+    },
+
+    toggleMoreMenu(btn) {
+      if (!btn) return;
+      const wrap = btn.closest('.cosy-nav-more-wrap');
+      if (!wrap) return;
+      wrap.classList.toggle('open');
+      const isOpen = wrap.classList.contains('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      if (isOpen) {
+        const firstLink = wrap.querySelector('.cosy-nav-more-dropdown a');
+        if (firstLink) firstLink.focus();
+      }
+    },
+
+    toggleMobileMenu () {
+      const mm = typeof document !== 'undefined' ? document.getElementById('cosy-mobile-menu') : null;
+      const btn = typeof document !== 'undefined' ? document.querySelector('.nav-menu-btn') : null;
+      if (mm) {
+        mm.classList.toggle('open');
+        const isOpen = mm.classList.contains('open');
+        if (btn) btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        if (isOpen) {
+            const firstLink = mm.querySelector('a');
+            if (firstLink) firstLink.focus();
+        }
+      }
+    },
+    getEcosystemUrls,
+    getNavHref,
+    DEFAULT_ECOSYSTEM_URLS,
+    NAV_CONFIG,
+    COSY_ECOSYSTEM_MENU,
+
+    renderEcosystemMegaMenuHTML() {
+        const groupsHtml = COSY_ECOSYSTEM_MENU.map(grp => {
+            const cardsHtml = grp.items.map(item => {
+                const href = item.href ? item.href : (item.hrefKey ? getNavHref(item.hrefKey) : '#');
+                const lockBadge = item.isGated ? `<span class="cosy-eco-card-lock" title="${tt('eco_gated_title', 'Enrolled students area')}">🔒</span>` : '';
+                const externalAttr = (href.startsWith('http://') || href.startsWith('https://')) ? ' target="_blank" rel="noopener"' : '';
+                return `
+                  <a href="${href}" class="cosy-eco-card" data-accent="${grp.accentKey}" ${externalAttr}>
+                    <div class="cosy-eco-card-header">
+                      <span class="cosy-eco-card-icon">${item.icon}</span>
+                      <span class="cosy-eco-card-title">${tt('eco_' + item.key.replace(/-/g, '_') + '_title', item.title)}</span>
+                      ${lockBadge}
+                    </div>
+                    <div class="cosy-eco-card-promise">${tt('eco_' + item.key.replace(/-/g, '_') + '_promise', item.promise)}</div>
+                  </a>`;
+            }).join('');
+
+            return `
+              <div class="cosy-eco-group" data-accent="${grp.accentKey}">
+                <div class="cosy-eco-group-title">${tt('eco_group_' + grp.accentKey.replace(/-/g, '_'), grp.group)}</div>
+                <div class="cosy-eco-group-grid">
+                  ${cardsHtml}
+                </div>
+              </div>`;
+        }).join('');
+
+        return `
+          <div id="cosy-eco-mega-menu" class="cosy-eco-mega-menu" role="dialog" aria-label="${tt('eco_menu_aria', 'COSYlanguages ecosystem navigation')}" hidden>
+            <div class="cosy-eco-menu-header">
+              <span class="cosy-eco-menu-title">${tt('eco_menu_title', '🌐 COSYlanguages Ecosystem')}</span>
+              <button type="button" class="cosy-eco-menu-close" aria-label="${tt('eco_menu_close', 'Close ecosystem menu')}" onclick="COSY.closeEcosystemMenu()">✕</button>
+            </div>
+            <div class="cosy-eco-menu-body">
+              ${groupsHtml}
+            </div>
+          </div>`;
+    },
+
+    openEcosystemMenu() {
+        const menu = document.getElementById('cosy-eco-mega-menu');
+        const trigger = document.querySelector('.nav-logo, .cosy-nav-logo');
+        if (!menu) return;
+        menu.removeAttribute('hidden');
+        menu.classList.add('open');
+        if (trigger) {
+            trigger.setAttribute('aria-expanded', 'true');
+            trigger.classList.add('cosy-logo-sparkle');
+        }
+        this._ecoPreviousFocus = document.activeElement;
+        const firstCard = menu.querySelector('.cosy-eco-card, button');
+        if (firstCard) firstCard.focus();
+    },
+
+    closeEcosystemMenu() {
+        const menu = document.getElementById('cosy-eco-mega-menu');
+        if (!menu || menu.hasAttribute('hidden') || !menu.classList.contains('open')) return;
+
+        const trigger = document.querySelector('.nav-logo, .cosy-nav-logo');
+        menu.setAttribute('hidden', '');
+        menu.classList.remove('open');
+        if (trigger) {
+            trigger.setAttribute('aria-expanded', 'false');
+            trigger.classList.remove('cosy-logo-sparkle');
+        }
+        if (this._ecoPreviousFocus && typeof this._ecoPreviousFocus.focus === 'function') {
+            try {
+                if (document.activeElement && menu.contains(document.activeElement)) {
+                    this._ecoPreviousFocus.focus({ preventScroll: true });
+                }
+            } catch (e) {}
+            this._ecoPreviousFocus = null;
+        }
+    },
+
+    toggleEcosystemMenu() {
+        const menu = document.getElementById('cosy-eco-mega-menu');
+        if (!menu) return;
+        const isOpen = !menu.hasAttribute('hidden') && menu.classList.contains('open');
+        if (isOpen) {
+            this.closeEcosystemMenu();
+        } else {
+            this.openEcosystemMenu();
+        }
+    },
+
+    bindEcosystemLogoTriggers() {
+        const triggers = document.querySelectorAll('.nav-logo, .cosy-nav-logo');
+        triggers.forEach(trig => {
+            if (trig.dataset.ecoBound) return;
+            trig.dataset.ecoBound = 'true';
+            trig.setAttribute('aria-haspopup', 'dialog');
+            trig.setAttribute('aria-expanded', 'false');
+
+            let hoverTimer = null;
+            trig.addEventListener('mouseenter', () => {
+                if (window.innerWidth >= 768) {
+                    hoverTimer = setTimeout(() => {
+                        COSY.openEcosystemMenu();
+                    }, 150);
+                }
+            });
+            trig.addEventListener('mouseleave', () => {
+                if (hoverTimer) clearTimeout(hoverTimer);
+            });
+
+            trig.addEventListener('click', (e) => {
+                const menu = document.getElementById('cosy-eco-mega-menu');
+                const isOpen = menu && !menu.hasAttribute('hidden') && menu.classList.contains('open');
+                if (isOpen) {
+                    e.preventDefault();
+                    COSY.closeEcosystemMenu();
+                } else if (window.innerWidth < 768) {
+                    e.preventDefault();
+                    COSY.openEcosystemMenu();
+                }
+            });
+
+            trig.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    COSY.toggleEcosystemMenu();
+                }
+            });
+        });
+
+        // Setup global escape / focus trap / click outside handler for ecosystem menu
+        if (!window._ecoGlobalHandlerBound) {
+            window._ecoGlobalHandlerBound = true;
+
+            document.addEventListener('keydown', (e) => {
+                const menu = document.getElementById('cosy-eco-mega-menu');
+                if (!menu || menu.hasAttribute('hidden') || !menu.classList.contains('open')) return;
+
+                if (e.key === 'Escape') {
+                    e.preventDefault();
+                    COSY.closeEcosystemMenu();
+                    return;
+                }
+
+                if (e.key === 'Tab') {
+                    const focusables = Array.from(menu.querySelectorAll('a[href], button, [tabindex="0"]')).filter(el => !el.hasAttribute('disabled'));
+                    if (focusables.length === 0) return;
+                    const firstEl = focusables[0];
+                    const lastEl = focusables[focusables.length - 1];
+
+                    if (e.shiftKey) {
+                        if (document.activeElement === firstEl) {
+                            e.preventDefault();
+                            lastEl.focus();
+                        }
+                    } else {
+                        if (document.activeElement === lastEl) {
+                            e.preventDefault();
+                            firstEl.focus();
+                        }
+                    }
+                }
+            });
+
+            document.addEventListener('click', (e) => {
+                const menu = document.getElementById('cosy-eco-mega-menu');
+                const logo = e.target.closest('.nav-logo, .cosy-nav-logo');
+                if (!menu || menu.hasAttribute('hidden') || !menu.classList.contains('open')) return;
+
+                if (!menu.contains(e.target) && !logo) {
+                    COSY.closeEcosystemMenu();
+                }
+            });
+        }
+    },
+
+
+    async loadLanguageData(lang, levelId) {
+        const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';
+        let levelsToLoad = (levelId === 'all')
+            ? (window.COSY_LEVELS ? window.COSY_LEVELS.map(l => l.id) : ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'])
+            : [levelId];
+        let remoteEntries = [];
+
+        const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements', 'dishesData'];
+        keys.forEach(key => {
+            window[key] = window[key] || {};
+            window[key][lang] = window[key][lang] || [];
+        });
+
+        // Attempt remote COSYdata fetch first for centralized vocabulary
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 1500);
+            const indexRes = await fetch(`${COSYDATA_BASE}vocabulary/${lang}/index.json`, { signal: controller.signal });
+            clearTimeout(timeoutId);
+            if (indexRes.ok) {
+                const indexData = await indexRes.json();
+                const themeFiles = [...new Set(Object.values(indexData))];
+                const themeFetches = themeFiles.map(tf =>
+                    fetch(`${COSYDATA_BASE}vocabulary/${lang}/${tf}`, { signal: controller.signal })
+                        .then(r => r.ok ? r.json() : null)
+                        .catch(() => null)
+                );
+                const themeResults = await Promise.all(themeFetches);
+                const loadedEntries = [];
+                const seenIds = new Set(window.vocabularyData[lang].map(e => e.id || e.word));
+
+                for (const tData of themeResults) {
+                    if (!tData) continue;
+                    const items = Array.isArray(tData) ? tData : (tData.id ? [tData] : Object.values(tData));
+                    for (const item of items) {
+                        if (!item || !item.word) continue;
+                        const keyId = item.id || `${item.word.toLowerCase()}|${item.level || ''}`;
+                        if (seenIds.has(keyId)) continue;
+                        seenIds.add(keyId);
+
+                        // Normalize level and level_code
+                        if (!item.level && item.level_code) item.level = item.level_code;
+                        if (!item.level_code && item.level) item.level_code = item.level;
+
+                        // Check level filter if applicable
+                        if (levelId && levelId !== 'all') {
+                            const itemLvl = (item.level_code || item.level || '').toLowerCase();
+                            const folderCode = window.getLevelDir ? window.getLevelDir(levelId).toLowerCase() : levelId.toLowerCase();
+                            const shortCode = window.levelIdToShort ? window.levelIdToShort(levelId).toLowerCase() : levelId.toLowerCase();
+                            if (itemLvl !== levelId.toLowerCase() && itemLvl !== folderCode && itemLvl !== shortCode) {
+                                const aliases = { 'starter': 'a1', 'elementary': 'a2', 'intermediate': 'b1', 'upper-intermediate': 'b2', 'advanced': 'c1', 'proficiency': 'c2' };
+                                if (aliases[itemLvl] !== shortCode && itemLvl !== shortCode) continue;
+                            }
+                        }
+
+                        window.vocabularyData[lang].push(item);
+                        loadedEntries.push(item);
+
+                        if (item.form === 'verb' || item.pos === 'verb') window.verbsData[lang].push(item);
+                        if (item.form === 'adjective' || item.pos === 'adjective') window.adjectivesData[lang].push(item);
+                        if (item.theme === 'locations' || item.pos_section === 'locations') window.locationsData[lang].push(item);
+                        if (item.theme === 'people' || item.pos_section === 'people') window.peopleData[lang].push(item);
+                        if (item.theme === 'nationalities') window.nationalitiesData[lang].push(item);
+                        if (item.theme === 'dishes') window.dishesData[lang].push(item);
+                    }
+                }
+
+                if (loadedEntries.length > 0) {
+                    remoteEntries = loadedEntries;
+                    if (levelId !== 'all') return remoteEntries;
+
+                    const remoteLevels = new Set(remoteEntries.map(item => {
+                        const itemLevel = item.level_code || item.level || '';
+                        const shortCode = window.levelIdToShort ? window.levelIdToShort(itemLevel) : itemLevel;
+                        return String(shortCode).toUpperCase();
+                    }));
+                    levelsToLoad = levelsToLoad.filter(lid => {
+                        const shortCode = window.levelIdToShort ? window.levelIdToShort(lid) : lid;
+                        return !remoteLevels.has(String(shortCode).toUpperCase());
+                    });
+                    if (levelsToLoad.length === 0) return remoteEntries;
+                }
+            }
+        } catch (err) {
+            // Vocabulary is owned by COSYdata; this repository deliberately ships no
+            // local vocabulary files, so a failed fetch means "no data", not "fall back".
+            console.warn(`[COSYdata] vocabulary fetch failed for ${lang}:`, err);
+        }
+
+        return remoteEntries;
+    },
+
+    async loadCurriculum(lang, level) {
+        if (!lang || !level) return [];
+
+        const levelUp = level.toUpperCase();
+        const levelLow = level.toLowerCase();
+        const langLow = lang.toLowerCase();
+
+        // Curriculum is owned by COSYplatform; this repository never stores units.
+        const COSYPLATFORM_BASE = 'https://cosylanguages.github.io/COSYplatform/curriculums/';
+        const candidatePaths = [
+            `${COSYPLATFORM_BASE}${langLow}/general/${levelUp}.json`,
+            `${COSYPLATFORM_BASE}${langLow}/general/${levelUp}_v2.json`,
+            `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${langLow}/general/${levelUp}.json`
+        ];
+
+        for (const path of candidatePaths) {
+            try {
+                const res = await fetch(path);
+                if (!res.ok) continue;
+                const data = await res.json();
+                if (data && data.units) {
+                    window.curriculumData = window.curriculumData || {};
+                    const key = `${langLow}_${levelLow}`;
+                    window.curriculumData[key] = data.units;
+                    if (window.cosyDays) window.cosyDays.state.curriculum = data.units;
+                    return data.units;
+                }
+            } catch (e) {
+                console.warn(`[COSYplatform] curriculum fetch failed: ${path}`, e);
+            }
+        }
+
+        const key = `${langLow}_${levelLow}`;
+        return (window.curriculumData && window.curriculumData[key]) || [];
+    },
+
+    setNavContext(html) {
+        const ctx = document.getElementById('cosy-nav-context');
+        if (ctx) ctx.innerHTML = html;
+        this._navContext = html; // Persist across refreshes in current session
+    },
+    updateNavActiveState,
+
+    registerSW() {
+        if ('serviceWorker' in navigator) {
+            const p = getPrefix();
+            // Register root service worker for Free Portal
+            navigator.serviceWorker.register(p + 'sw.js').catch(e => console.log('SW (Root):', e));
+        }
+    }
+};
+
+if (typeof window !== 'undefined') {
+    window.addEventListener('cosy:langchange', (event) => {
+        const lang = event.detail && event.detail.lang;
+        if (lang) {
+            const badge = document.getElementById('cosy-pinned-lang-badge');
+            if (badge) {
+                badge.textContent = lang.toUpperCase();
+            }
+        }
+    });
+}
+
+if (typeof document !== 'undefined') {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            COSY.initTheme();
+            inject();
+            COSY.registerSW();
+            updateNavActiveState();
+            COSY.dispatchInitialLangChange();
+        });
+    } else {
+        COSY.initTheme();
+        inject();
+        COSY.registerSW();
+        updateNavActiveState();
+        COSY.dispatchInitialLangChange();
+    }
+}
+if (typeof window !== 'undefined') {
+    window.addEventListener('hashchange', updateNavActiveState);
+    window.addEventListener('popstate', updateNavActiveState);
+}
+
+COSY.getUser = function() {
+    try {
+        if (typeof localStorage !== 'undefined') {
+            const stored = localStorage.getItem('cosy_user') || localStorage.getItem('supabase.auth.token');
+            if (stored) {
+                const parsed = JSON.parse(stored);
+                return parsed.user || parsed;
+            }
+        }
+    } catch(e) {}
+    if (typeof window !== 'undefined' && window.COSY_USER) {
+        return window.COSY_USER;
+    }
+    return null;
+};
+
+COSY.isUserAuthenticated = function() {
+    const u = COSY.getUser();
+    if (!u) return false;
+    const role = String(u.role || u.user_metadata?.role || u.app_metadata?.role || 'student').toLowerCase();
+    return (role === 'student' || role === 'teacher' || role === 'admin');
+};
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        getEcosystemUrls,
+        getNavHref,
+        DEFAULT_ECOSYSTEM_URLS,
+        NAV_CONFIG,
+        COSY_ECOSYSTEM_MENU
+    };
+}
+
+})();

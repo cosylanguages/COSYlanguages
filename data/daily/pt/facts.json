@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pt:fact:1",
+    "fact": "O português é língua oficial de nove países em quatro continentes.",
+    "topic": "global"
+  },
+  {
+    "id": "pt:fact:2",
+    "fact": "Mais de 250 milhões de pessoas falam português como língua materna.",
+    "topic": "demographics"
+  },
+  {
+    "id": "pt:fact:3",
+    "fact": "A palavra 'saudade' exprime uma nostalgia difícil de traduzir.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "pt:fact:4",
+    "fact": "O galego e o português tiveram origem comum na Idade Média.",
+    "topic": "history"
+  },
+  {
+    "id": "pt:fact:5",
+    "fact": "'Os Lusíadas', de Luís de Camões, é a grande epopeia da língua portuguesa.",
+    "topic": "literature"
+  },
+  {
+    "id": "pt:fact:6",
+    "fact": "A CPLP reúne os países de língua oficial portuguesa.",
+    "topic": "institutions"
+  },
+  {
+    "id": "pt:fact:7",
+    "fact": "O Acordo Ortográfico unificou a grafia entre Portugal e o Brasil.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "pt:fact:8",
+    "fact": "Muitas palavras inglesas de navegação têm origem portuguesa.",
+    "topic": "etymology"
+  },
+  {
+    "id": "pt:fact:9",
+    "fact": "O português é a quinta língua mais falada do mundo.",
+    "topic": "demographics"
+  },
+  {
+    "id": "pt:fact:10",
+    "fact": "A língua portuguesa conserva o 'futuro do subjuntivo', raro entre as línguas românicas.",
+    "topic": "grammar"
+  },
+  {
+    "id": "pt:fact:11",
+    "fact": "Fernando Pessoa escreveu sob vários heterónimos, como Álvaro de Campos.",
+    "topic": "figures"
+  },
+  {
+    "id": "pt:fact:12",
+    "fact": "Machado de Assis é um dos maiores escritores brasileiros.",
+    "topic": "literature"
+  },
+  {
+    "id": "pt:fact:13",
+    "fact": "O português europeu e o brasileiro diferem no ritmo e na pronúncia.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "pt:fact:14",
+    "fact": "A palavra 'fado' vem do latim 'fatum', que significa 'destino'.",
+    "topic": "etymology"
+  },
+  {
+    "id": "pt:fact:15",
+    "fact": "O português usa o acento til na vogal nasal, como em 'coração'.",
+    "topic": "typography"
+  },
+  {
+    "id": "pt:fact:16",
+    "fact": "José Saramago recebeu o Nobel de Literatura em 1998.",
+    "topic": "figures"
+  },
+  {
+    "id": "pt:fact:17",
+    "fact": "O galego-português foi a língua da poesia medieval peninsular.",
+    "topic": "history"
+  },
+  {
+    "id": "pt:fact:18",
+    "fact": "O português tem o 'pretérito imperfeito' e o 'perfeito' bem distintos.",
+    "topic": "grammar"
+  },
+  {
+    "id": "pt:fact:19",
+    "fact": "Palavras como 'caju', 'tapioca' e 'mandioca' vêm do tupi.",
+    "topic": "etymology"
+  },
+  {
+    "id": "pt:fact:20",
+    "fact": "O Brasil é o país com mais falantes de português no mundo.",
+    "topic": "global"
+  },
+  {
+    "id": "pt:fact:21",
+    "fact": "O 'você' substituiu o 'tu' em grande parte do Brasil.",
+    "topic": "grammar"
+  },
+  {
+    "id": "pt:fact:22",
+    "fact": "A literatura de cordel é uma tradição poética do Nordeste brasileiro.",
+    "topic": "literature"
+  },
+  {
+    "id": "pt:fact:23",
+    "fact": "O português é língua oficial também em Angola, Moçambique e Timor-Leste.",
+    "topic": "global"
+  },
+  {
+    "id": "pt:fact:24",
+    "fact": "O 'gerúndio' e o 'infinitivo gerundivo' distinguem o português de outras línguas.",
+    "topic": "grammar"
+  },
+  {
+    "id": "pt:fact:25",
+    "fact": "A primeira gramática do português foi escrita por Fernão de Oliveira, em 1536.",
+    "topic": "history"
+  },
+  {
+    "id": "pt:fact:26",
+    "fact": "Camões e Pessoa são os dois grandes nomes da literatura portuguesa.",
+    "topic": "literature"
+  },
+  {
+    "id": "pt:fact:27",
+    "fact": "O português usa os artigos definidos 'o' e 'a' antes dos possessivos.",
+    "topic": "grammar"
+  },
+  {
+    "id": "pt:fact:28",
+    "fact": "A palavra 'obrigado' agradece literalmente dizendo que se está 'obrigado' a retribuir.",
+    "topic": "etymology"
+  },
+  {
+    "id": "pt:fact:29",
+    "fact": "O mirandês, falado em Portugal, é a segunda língua oficial do país.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "pt:fact:30",
+    "fact": "O português é a língua mais falada no hemisfério sul.",
+    "topic": "global"
+  }
+]

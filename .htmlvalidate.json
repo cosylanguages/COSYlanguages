@@ -1,0 +1,20 @@
+{
+  "elements": [
+    "html5"
+  ],
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "rules": {
+    "attr-case": "off",
+    "attr-quotes": "off",
+    "element-case": "off",
+    "element-required-attributes": "off",
+    "no-dup-id": "off",
+    "no-inline-style": "off",
+    "no-missing-references": "off",
+    "no-trailing-whitespace": "off",
+    "require-sri": "off",
+    "void-style": "off"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "lang": "de",
+  "ui": {
+    "what": "Was dieses Niveau erwartet",
+    "focus": "Sprache, auf die du hinarbeitest:",
+    "canDo": "Auf diesem Niveau kannst du:",
+    "length": "Typische Länge:",
+    "exams": "Zertifiziert durch:"
+  },
+  "bands": {
+    "a0-a1": {
+      "label": "A0-A1 · Grundstufe",
+      "speaking": {
+        "canDo": "Sich selbst und andere vorstellen, einfache Fragen zu Wohnort, Tätigkeit und Besitz stellen und beantworten und einzelne Wendungen sowie sehr kurze Sätze verwenden.",
+        "expects": "Kurze Sätze über dich und den Alltag. Antworte in ganzen Sätzen, auch wenn sie einfach sind.",
+        "focus": "Präsens, einfache Fragen, Zahlen, Alltagswörter",
+        "exams": "Goethe-Zertifikat A1 · telc Deutsch A1 · ÖSD A1"
+      },
+      "writing": {
+        "canDo": "Einfache, einzelne Sätze über dich schreiben, ein Formular mit persönlichen Angaben ausfüllen und eine kurze, einfache Postkarte oder Nachricht verfassen.",
+        "expects": "Kurze Sätze über dich und den Alltag. Ein Gedanke pro Satz, richtige Rechtschreibung und Großschreibung.",
+        "focus": "Präsens, einfache Verknüpfung (und / aber / weil), Rechtschreibung, Zeichensetzung",
+        "exams": "Goethe-Zertifikat A1 · telc Deutsch A1 · ÖSD A1",
+        "length": "20-40 Wörter"
+      }
+    },
+    "a2": {
+      "label": "A2 · Grundstufe",
+      "speaking": {
+        "canDo": "Kurze Routinegespräche führen, Familie, Alltag, unmittelbare Umgebung und Vergangenes beschreiben und einfache Situationen wie Einkaufen, Reisen und Termine bewältigen.",
+        "expects": "Beschreibe deinen Alltag, Vergangenes und Pläne in einigen verbundenen Sätzen.",
+        "focus": "Vergangenheits- und Zukunftsformen, weil / aber / deshalb, häufige Kollokationen",
+        "exams": "Goethe-Zertifikat A2 · telc Deutsch A2 · ÖSD A2"
+      },
+      "writing": {
+        "canDo": "Kurze, einfache Notizen und Nachrichten schreiben, einen sehr einfachen persönlichen Brief oder eine E-Mail verfassen und alltägliche Aspekte deines Lebens in einfachen, verbundenen Sätzen beschreiben.",
+        "expects": "Beschreibe Alltag, Vergangenes und Pläne in einigen verbundenen Sätzen und schreibe eine kurze informelle Nachricht, die ihren Zweck erfüllt.",
+        "focus": "Vergangenheits- und Zukunftsformen, Absätze, Alltagskonnektoren, informeller Stil",
+        "exams": "Goethe-Zertifikat A2 · telc Deutsch A2 · ÖSD A2",
+        "length": "40-80 Wörter"
+      }
+    },
+    "b1-b2": {
+      "label": "B1-B2 · Mittelstufe",
+      "speaking": {
+        "canDo": "Die meisten Reisesituationen bewältigen, einen kurzen vorbereiteten Vortrag halten, eine Meinung mit Gründen und Beispielen erklären und verteidigen und die Hauptpunkte eines unbekannten Themas erfassen.",
+        "expects": "Äußere und verteidige eine Meinung mit Gründen und Beispielen und bewältige ein unbekanntes Thema.",
+        "focus": "Konditional, Konnektoren, Abschwächung, Themenwortschatz",
+        "exams": "Goethe-Zertifikat B1-B2 · telc Deutsch B1-B2 · ÖSD B1-B2 · TestDaF"
+      },
+      "writing": {
+        "canDo": "Klare, zusammenhängende Texte zu vertrauten Themen schreiben, persönliche Briefe über Erfahrungen und Eindrücke verfassen und kurze Berichte oder Aufsätze mit Pro und Contra formulieren.",
+        "expects": "Gliedere einen Text in Einleitung, Hauptteil und Schluss und stütze eine Meinung mit Gründen und Beispielen.",
+        "focus": "Themensätze, Kohäsionsmittel, formeller und informeller Stil, Meinungssprache",
+        "exams": "Goethe-Zertifikat B1-B2 · telc Deutsch B1-B2 · ÖSD B1-B2 · TestDaF",
+        "length": "100-180 Wörter"
+      }
+    },
+    "c1-c2": {
+      "label": "C1-C2 · Oberstufe",
+      "speaking": {
+        "canDo": "Fließend und spontan sprechen, ohne lange nach Worten zu suchen, eine Sache präzise vertreten, Gegenargumente einräumen und den Stil zwischen akademischen, beruflichen und gesellschaftlichen Kontexten wechseln.",
+        "expects": "Vertritt eine Position präzise, räume Gegenargumente ein und passe deinen Stil an.",
+        "focus": "Nominalisierung, Haltungsmarker, idiomatische und akademische Wendungen",
+        "exams": "Goethe-Zertifikat C1-C2 · TestDaF · telc Deutsch C1"
+      },
+      "writing": {
+        "canDo": "Dich in klarem, gut strukturiertem Text ausdrücken, über komplexe Themen in Aufsatz, Bericht oder Brief schreiben und einen für den Leser passenden Stil und Aufbau wählen.",
+        "expects": "Vertritt eine Position präzise, wäge Gegenargumente ab und steuere Stil, Kohärenz und Hervorhebung über einen langen Text.",
+        "focus": "Nominalisierung, Abschwächung, komplexe Syntax, rhetorischer Aufbau, akademische Wendungen",
+        "exams": "Goethe-Zertifikat C1-C2 · TestDaF · telc Deutsch C1",
+        "length": "200-300 Wörter"
+      }
+    }
+  },
+  "chrome": {
+    "level": "Niveau:",
+    "prep": "Vorbereitung",
+    "speak": "Sprechen",
+    "words": "Wörter",
+    "followUps": "Nachfragen",
+    "checklist": "Bevor du fertig bist, prüfe",
+    "listen": "Anhören",
+    "practice": "Im Hub üben"
+  }
+}

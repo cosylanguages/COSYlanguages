@@ -1,0 +1,152 @@
+[
+  {
+    "id": "fr:fact:1",
+    "fact": "Le français est langue officielle dans vingt-neuf pays.",
+    "topic": "global"
+  },
+  {
+    "id": "fr:fact:2",
+    "fact": "Environ 45 % du vocabulaire anglais moderne provient du français et du latin.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "fr:fact:3",
+    "fact": "L'Académie française, fondée en 1635 par Richelieu, veille sur la langue.",
+    "topic": "figures"
+  },
+  {
+    "id": "fr:fact:4",
+    "fact": "Après 1066, le français a été la langue de la cour d'Angleterre pendant près de trois siècles.",
+    "topic": "history"
+  },
+  {
+    "id": "fr:fact:5",
+    "fact": "Le 'verlan' inverse les syllabes des mots, comme 'femme' qui devient 'meuf'.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "fr:fact:6",
+    "fact": "Le mot 'oiseau' contient les cinq voyelles sans répétition.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "fr:fact:7",
+    "fact": "Le pangramme 'Portez ce vieux whisky au juge blond qui fume' contient toutes les lettres de l'alphabet.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "fr:fact:8",
+    "fact": "Le français est l'une des langues officielles de l'ONU.",
+    "topic": "global"
+  },
+  {
+    "id": "fr:fact:9",
+    "fact": "Les Serments de Strasbourg, en 842, sont le plus ancien texte conservé en français.",
+    "topic": "history"
+  },
+  {
+    "id": "fr:fact:10",
+    "fact": "François Rabelais a enrichi le français de nombreux mots nouveaux.",
+    "topic": "literature"
+  },
+  {
+    "id": "fr:fact:11",
+    "fact": "Les comédies de Molière ont fixé des expressions encore utilisées aujourd'hui.",
+    "topic": "literature"
+  },
+  {
+    "id": "fr:fact:12",
+    "fact": "L'Académie française publie un dictionnaire depuis 1694.",
+    "topic": "institutions"
+  },
+  {
+    "id": "fr:fact:13",
+    "fact": "L'accent circonflexe marque souvent un ancien 's' disparu, comme dans 'forêt'.",
+    "topic": "etymology"
+  },
+  {
+    "id": "fr:fact:14",
+    "fact": "Victor Hugo est l'un des auteurs les plus traduits au monde.",
+    "topic": "literature"
+  },
+  {
+    "id": "fr:fact:15",
+    "fact": "Le français a été la langue de la diplomatie européenne depuis le XVIIe siècle.",
+    "topic": "global"
+  },
+  {
+    "id": "fr:fact:16",
+    "fact": "'Chocolat', 'tomate' et 'avocat' viennent de langues amérindiennes.",
+    "topic": "etymology"
+  },
+  {
+    "id": "fr:fact:17",
+    "fact": "Au Québec, le français est la langue officielle.",
+    "topic": "global"
+  },
+  {
+    "id": "fr:fact:18",
+    "fact": "En France, 70, 80 et 90 se disent 'soixante-dix', 'quatre-vingts' et 'quatre-vingt-dix'.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "fr:fact:19",
+    "fact": "Le français distingue le 'tu' familier et le 'vous' de politesse.",
+    "topic": "grammar"
+  },
+  {
+    "id": "fr:fact:20",
+    "fact": "Les liaisons relient les mots, comme 'les amis' prononcé 'lé-z-ami'.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "fr:fact:21",
+    "fact": "Le pronom 'on' remplace souvent 'nous' à l'oral.",
+    "topic": "grammar"
+  },
+  {
+    "id": "fr:fact:22",
+    "fact": "Le mot 'aujourd'hui' vient de 'au jour d'hui', où 'hui' signifiait 'ce jour'.",
+    "topic": "etymology"
+  },
+  {
+    "id": "fr:fact:23",
+    "fact": "La francophonie regroupe plus de 300 millions de locuteurs.",
+    "topic": "demographics"
+  },
+  {
+    "id": "fr:fact:24",
+    "fact": "'Oui' descend du latin 'hoc ille'.",
+    "topic": "etymology"
+  },
+  {
+    "id": "fr:fact:25",
+    "fact": "Georges Perec a écrit tout un roman, 'La Disparition', sans jamais employer la lettre 'e'.",
+    "topic": "literature"
+  },
+  {
+    "id": "fr:fact:26",
+    "fact": "Le français s'écrit avec l'accent aigu, grave, circonflexe, le tréma et la cédille.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "fr:fact:27",
+    "fact": "Le prix Goncourt récompense chaque année un roman de langue française.",
+    "topic": "literature"
+  },
+  {
+    "id": "fr:fact:28",
+    "fact": "Le français est la langue de travail de nombreuses organisations internationales.",
+    "topic": "global"
+  },
+  {
+    "id": "fr:fact:29",
+    "fact": "Le mot 'week-end' est un emprunt à l'anglais, malgré les recommandations officielles.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "fr:fact:30",
+    "fact": "Le 'passé simple' est réservé à l'écrit soutenu et à la littérature.",
+    "topic": "grammar"
+  }
+]

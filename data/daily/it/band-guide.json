@@ -1,0 +1,86 @@
+{
+  "lang": "it",
+  "ui": {
+    "what": "Cosa richiede questo livello",
+    "focus": "Lingua a cui puntare:",
+    "canDo": "A questo livello sai:",
+    "length": "Lunghezza tipica:",
+    "exams": "Certificato da:"
+  },
+  "bands": {
+    "a0-a1": {
+      "label": "A0-A1 · Contatto",
+      "speaking": {
+        "canDo": "Presentarti e presentare altri, fare e rispondere a domande semplici su dove vivi, cosa fai e cosa possiedi, e usare espressioni isolate e frasi molto brevi.",
+        "expects": "Frasi brevi su di te e sulla vita quotidiana. Rispondi con frasi complete, anche se semplici.",
+        "focus": "Presente, domande di base, numeri, nomi quotidiani",
+        "exams": "CILS A1 · CELI Impatto"
+      },
+      "writing": {
+        "canDo": "Scrivere frasi isolate e semplici su di te, compilare un modulo con i tuoi dati personali e scrivere una cartolina o un messaggio breve e semplice.",
+        "expects": "Frasi brevi su di te e sulla vita quotidiana. Un'idea per frase, ortografia e maiuscole corrette.",
+        "focus": "Presente, nessi semplici (e / ma / perché), ortografia, punteggiatura",
+        "exams": "CILS A1 · CELI Impatto",
+        "length": "20-40 parole"
+      }
+    },
+    "a2": {
+      "label": "A2 · Sopravvivenza",
+      "speaking": {
+        "canDo": "Sostenere brevi scambi di routine, descrivere la famiglia, la routine, l'ambiente immediato e avvenimenti passati, e affrontare transazioni semplici come acquisti, viaggi e appuntamenti.",
+        "expects": "Descrivi la tua routine, avvenimenti passati e progetti in alcune frasi collegate.",
+        "focus": "Tempi passati e futuri, perché / ma / quindi, collocazioni frequenti",
+        "exams": "CILS A2 · CELI 1"
+      },
+      "writing": {
+        "canDo": "Scrivere note e messaggi brevi e semplici, una lettera o un'email personale molto semplice e descrivere aspetti quotidiani della tua vita con una serie di frasi semplici collegate.",
+        "expects": "Descrivi routine, avvenimenti passati e progetti in alcune frasi collegate e scrivi un breve messaggio informale che raggiunga lo scopo.",
+        "focus": "Tempi passati e futuri, paragrafi, connettivi quotidiani, registro informale",
+        "exams": "CILS A2 · CELI 1",
+        "length": "40-80 parole"
+      }
+    },
+    "b1-b2": {
+      "label": "B1-B2 · Soglia a Progresso",
+      "speaking": {
+        "canDo": "Affrontare la maggior parte delle situazioni in viaggio, tenere un breve discorso preparato, spiegare e difendere un'opinione con ragioni ed esempi e seguire i punti principali di un argomento non familiare.",
+        "expects": "Esprimi e difendi un'opinione con ragioni ed esempi, e affronta un argomento non familiare.",
+        "focus": "Periodo ipotetico, connettivi, attenuazione, lessico tematico",
+        "exams": "CILS B1-B2 · CELI 2-3"
+      },
+      "writing": {
+        "canDo": "Scrivere testi chiari e coesi su argomenti familiari, lettere personali che descrivono esperienze e impressioni e brevi relazioni o saggi con pro e contro.",
+        "expects": "Organizza un testo con introduzione, corpo e conclusione e sostieni un'opinione con ragioni ed esempi.",
+        "focus": "Frasi tematiche, coesione, registro formale e informale, linguaggio dell'opinione",
+        "exams": "CILS B1-B2 · CELI 2-3",
+        "length": "100-180 parole"
+      }
+    },
+    "c1-c2": {
+      "label": "C1-C2 · Padronanza",
+      "speaking": {
+        "canDo": "Parlare con scioltezza e spontaneità cercando poco le parole, sostenere una tesi con precisione, concedere controargomentazioni e cambiare registro tra contesti accademici, professionali e sociali.",
+        "expects": "Sostieni una posizione con precisione, concedi controargomentazioni e adatta il registro.",
+        "focus": "Nominalizzazione, marcatori di posizione, espressioni idiomatiche e accademiche",
+        "exams": "CILS C1-C2 · CELI 4-5"
+      },
+      "writing": {
+        "canDo": "Esprimerti in un testo chiaro e ben strutturato, scrivere su argomenti complessi in un saggio, una relazione o una lettera e adottare registro e struttura retorica adatti al lettore.",
+        "expects": "Sostieni una posizione con precisione, valuta le controargomentazioni e controlla registro, coesione ed enfasi su un testo lungo.",
+        "focus": "Nominalizzazione, attenuazione, sintassi complessa, struttura retorica, espressioni accademiche",
+        "exams": "CILS C1-C2 · CELI 4-5",
+        "length": "200-300 parole"
+      }
+    }
+  },
+  "chrome": {
+    "level": "Livello:",
+    "prep": "Prep.",
+    "speak": "Parla",
+    "words": "parole",
+    "followUps": "Domande di approfondimento",
+    "checklist": "Prima di finire, controlla",
+    "listen": "Ascolta",
+    "practice": "Esercitati nell'Hub"
+  }
+}

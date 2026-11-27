@@ -1,0 +1,27 @@
+# Debug and command-output artifacts
+*_output.txt
+*_results.txt
+server.log
+*_check.txt
+axe_violations_temp.json
+
+*.log
+node_modules/
+test-results/
+results/
+audit_screenshots/
+verification/screenshots/
+verification/videos/
+failure-*.png
+.DS_Store
+Thumbs.db
+.env
+js/config.js
+node_modules/
+package-lock.json
+test-results/
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc

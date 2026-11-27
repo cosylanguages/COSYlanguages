@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="shared/js/cosy-theme.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Assessment — COSYlanguages</title>
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/portal.css">
+    <link rel="stylesheet" href="css/modern.css">
+    <link rel="stylesheet" href="css/placement.css">
+
+    <meta name="description" content="Determine your precise CEFR language level across Grammar, Vocabulary, Reading, Writing, and Speaking with the COSYlanguages adaptive placement assessment.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/placement-quiz.html">
+    <meta property="og:title" content="Placement Assessment — COSYlanguages">
+    <meta property="og:description" content="Determine your precise CEFR language level across Grammar, Vocabulary, Reading, Writing, and Speaking with the COSYlanguages adaptive placement assessment.">
+  <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/placement-quiz.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Placement Assessment — COSYlanguages">
+    <meta name="twitter:description" content="Determine your precise CEFR language level across Grammar, Vocabulary, Reading, Writing, and Speaking with the COSYlanguages adaptive placement assessment.">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<nav id="cosy-nav"></nav>
+
+<main id="main-content" class="page">
+    <div class="placement-container">
+        <div style="text-align: center;">
+            <span class="placement-header-badge" data-placement-i18n="page.badge">📝 CEFR Adaptive Assessment</span>
+        </div>
+        <h1 class="placement-title" data-placement-i18n="page.title">COSYlanguages Placement Assessment 🌿</h1>
+        <p class="placement-subtitle" data-placement-i18n="page.subtitle" data-placement-html="true">
+            A practical, rigorous, adaptive system evaluating <strong>Grammar</strong>, <strong>Vocabulary</strong>, <strong>Reading Comprehension</strong>, <strong>Writing Production</strong>, and <strong>Speaking Interaction</strong> independently across CEFR bands (A0/Pre-A1 to C2).
+        </p>
+
+        <div id="placement-content-area">
+            <!-- Dynamic assessment interface mounted here by js/placement/ui.js -->
+        </div>
+    </div>
+</main>
+
+<script src="js/data/languages.js" defer></script>
+<script src="js/placement/question-bank-en.js" defer></script>
+<script src="js/placement/question-banks-multilingual.js" defer></script>
+<script src="js/placement/prompts-multilingual.js" defer></script>
+<script src="js/placement/prompts-and-rubrics.js" defer></script>
+<script src="js/placement/adaptive-engine.js" defer></script>
+<script src="js/placement/scoring-model.js" defer></script>
+<script src="js/placement/writing-evaluator.js" defer></script>
+<script src="js/placement/audio-recorder.js" defer></script>
+<script src="js/placement/report.js" defer></script>
+<script src="js/placement/strings.js" defer></script>
+<script src="js/placement/ui.js" defer></script>
+
+<script src="js/core/engine.js" defer></script>
+<script src="js/core/i18n.js" defer></script>
+<script src="js/core/ui.js" defer></script>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="courses/index.html" data-translate-key="footer_all_courses">All Courses 📖</a>
+      <a href="courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer" data-translate-key="footer_manuals">Manuals Hub 🔒 (for students)</a>
+      <a href="comparative/index.html" data-translate-key="footer_grammar_atlas">Grammar Atlas 🌐</a>
+      <a href="placement-quiz.html" data-translate-key="footer_placement_quiz">Placement Quiz 📝</a>
+      <a href="https://cosylanguages.github.io/COSYmagazine/" data-translate-key="footer_magazine">Magazine 📖</a>
+      <a href="https://cosylanguages.github.io/COSYtools/" data-translate-key="footer_tools">Reference Engines 🔎</a>
+      <a href="https://cosylanguages.github.io/COSYevents/" data-translate-key="footer_events">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3><span data-translate-key="footer_h5_project">Project</span></h3>
+      <a href="about/index.html" data-translate-key="footer_about">Our Story 🏡</a>
+      <a href="privacy.html" data-translate-key="footer_privacy">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/jamesyork">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+</footer>
+</body>
+</html>

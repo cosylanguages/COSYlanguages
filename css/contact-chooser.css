@@ -1,0 +1,112 @@
+/* Contact chooser: one "Contact us" entry point for WhatsApp and Telegram. */
+.cosy-contact-chooser[hidden] {
+  display: none !important;
+}
+
+.cosy-contact-chooser {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+.cosy-contact-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 18, 14, 0.62);
+  backdrop-filter: blur(3px);
+}
+
+.cosy-contact-dialog {
+  position: relative;
+  width: min(100%, 440px);
+  padding: 1.6rem;
+  background: var(--cosy-color-surface, #FFFDF8);
+  color: var(--cosy-color-ink, #1C1917);
+  border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+  border-radius: 20px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.32);
+}
+
+.cosy-contact-dialog h2 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  color: var(--cosy-color-ink, #1C1917);
+}
+
+.cosy-contact-dialog p {
+  margin: 0 0 1.25rem;
+  color: var(--cosy-color-ink-soft, #4A4A4A);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.cosy-contact-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.7rem;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.06);
+  color: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.cosy-contact-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.cosy-contact-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  padding: 0.9rem 0.75rem;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 1.02rem;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.cosy-contact-option:hover,
+.cosy-contact-option:focus-visible {
+  transform: translateY(-2px);
+  filter: brightness(1.07);
+}
+
+.cosy-contact-wa {
+  background: #25D366;
+}
+
+.cosy-contact-tg {
+  background: #229ED9;
+}
+
+body.cosy-contact-open {
+  overflow: hidden;
+}
+
+html[data-theme="dark"] .cosy-contact-close,
+body.theme-dark .cosy-contact-close {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 420px) {
+  .cosy-contact-options {
+    grid-template-columns: 1fr;
+  }
+}

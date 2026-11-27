@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>
+  // This page answers unknown paths at any depth, so its relative URLs need an
+  // explicit root. Derive it instead of hardcoding /COSYlanguages/: GitHub Pages
+  // serves the repo directory, while local checkouts and custom domains serve the
+  // site at /. A hardcoded base made every stylesheet and script 404 off Pages.
+  (function () {
+    var match = window.location.pathname.match(/^(.*?\/COSYlanguages)\/?/);
+    var base = document.createElement('base');
+    base.href = match ? match[1] + '/' : '/';
+    document.head.appendChild(base);
+  })();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="shared/js/cosy-theme.js"></script>
+<meta name="robots" content="noindex, follow">
+<title>Page Not Found - COSYlanguages</title>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/modern.css">
+
+<style>
+  body {
+    background-color: var(--sage-light, #FAF7F2);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    font-family: var(--font-sans);
+    color: var(--cosy-color-ink, #1C1917);
+  }
+
+  .cosy-404-container {
+    max-width: 800px;
+    width: 100%;
+    background: var(--cosy-color-surface);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: 8px solid var(--sage-deep, #3d5a45);
+    margin-bottom: 2rem;
+  }
+
+  .logo-img {
+    height: 70px;
+    width: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    font-family: var(--font-serif);
+    color: var(--sage-dark, #2b3e30);
+    margin: 0;
+    line-height: 1;
+  }
+
+  h2 {
+    font-family: var(--font-serif);
+    color: var(--sage-deep, #3d5a45);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+
+  p.desc {
+    font-size: 1.15rem;
+    color: var(--cosy-color-ink-soft);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+
+  .lang-selector {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .lang-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 2px solid #e2e8f0;
+    background: var(--cosy-color-surface);
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: all 0.2s ease;
+  }
+
+  .lang-btn:hover {
+    border-color: var(--sage-deep, #3d5a45);
+    background: var(--cosy-color-cream);
+  }
+
+  .lang-btn.active {
+    background: var(--cosy-color-sage-dark, #375742);
+    color: var(--cosy-on-sage-dark, #ffffff);
+    border-color: var(--cosy-color-sage-dark, #375742);
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+  }
+
+  .btn-primary {
+    background: var(--cosy-color-sage-dark, #375742);
+    color: var(--cosy-on-sage-dark, #ffffff) !important;
+  }
+
+  .btn-primary:hover {
+    background: var(--cosy-color-sage-deep, #233827);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    background: var(--cosy-color-surface);
+    color: var(--cosy-ink-sage, #416B49) !important;
+    border: 2px solid var(--cosy-ink-sage, #416B49);
+  }
+
+  .btn-secondary:hover {
+    background: var(--sage-light, #FAF7F2);
+    transform: translateY(-1px);
+  }
+</style>
+    <meta name="description" content="Page not found - COSYlanguages online language learning platform.">
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/404.html">
+  <meta property="og:title" content="Page Not Found - COSYlanguages">
+  <meta property="og:description" content="Page not found - COSYlanguages online language learning platform.">
+  <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/404.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Page Not Found - COSYlanguages">
+  <meta name="twitter:description" content="Page not found - COSYlanguages online language learning platform.">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<main id="main-content" class="cosy-404-container">
+  <img id="logo-img" src="images/logos/cosylanguages.png" alt="COSYlanguages Logo" class="logo-img" width="140" height="140" decoding="async">
+
+  <h1 id="error-code">404</h1>
+  <h2 id="error-title" data-translate-key="notfound_title">Page Not Found</h2>
+  <p id="error-desc" class="desc" data-translate-key="notfound_desc">We couldn't find the page you're looking for. Let's get you back to learning!</p>
+
+  <div class="lang-selector">
+    <button type="button" class="lang-btn active" data-lang="en" onclick="selectLanguage('en')">🇬🇧 English</button>
+    <button type="button" class="lang-btn" data-lang="fr" onclick="selectLanguage('fr')">🇫🇷 Français</button>
+    <button type="button" class="lang-btn" data-lang="it" onclick="selectLanguage('it')">🇮🇹 Italiano</button>
+    <button type="button" class="lang-btn" data-lang="ru" onclick="selectLanguage('ru')">🇷🇺 Русский</button>
+    <button type="button" class="lang-btn" data-lang="el" onclick="selectLanguage('el')">🇬🇷 Ελληνικά</button>
+  </div>
+
+  <div class="links">
+    <a id="btn-home" href="index.html" class="btn btn-primary" data-translate-key="nav_home">Home 🏡</a>
+    <a id="btn-courses" href="courses/index.html" class="btn btn-secondary" data-translate-key="nav_courses">Courses 📚</a>
+    <a id="btn-practice" href="https://cosylanguages.github.io/COSYpractice/" class="btn btn-secondary" data-translate-key="nav_practice">Practice 💡</a>
+    <a id="btn-languages" href="index.html#languages" class="btn btn-secondary" data-translate-key="nav_languages">Languages 🌍</a>
+    <a id="btn-quiz" href="placement-quiz.html" class="btn btn-secondary" data-translate-key="footer_placement_quiz">Placement Quiz 📝</a>
+  </div>
+</main>
+
+<script>
+  // The page used to carry its own UI_TEXT table and a selectLanguage() that only
+  // rewrote these five nodes, so switching language left the nav and the footer
+  // English. The strings live in data/ui now and the shared engine does the switch.
+  function selectLanguage(lang) {
+      markActiveLanguage(lang);
+      if (window.setUILanguage) window.setUILanguage(lang);
+  }
+
+  function markActiveLanguage(lang) {
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+  }
+
+  document.addEventListener('cosyI18nReady', e => markActiveLanguage(e.detail && e.detail.lang));
+  document.addEventListener('cosyLanguageChanged', e => markActiveLanguage(e.detail && e.detail.lang));
+</script>
+
+<script src="js/data/languages.js" defer></script>
+<script src="js/core/engine.js" defer></script>
+<script src="js/core/i18n.js" defer></script>
+<script src="js/core/ui.js" defer></script>
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="courses/index.html" data-translate-key="footer_all_courses">All Courses 📖</a>
+      <a href="courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer" data-translate-key="footer_manuals">Manuals Hub 🔒 (for students)</a>
+      <a href="comparative/index.html" data-translate-key="footer_grammar_atlas">Grammar Atlas 🌐</a>
+      <a href="placement-quiz.html" data-translate-key="footer_placement_quiz">Placement Quiz 📝</a>
+      <a href="https://cosylanguages.github.io/COSYmagazine/" data-translate-key="footer_magazine">Magazine 📖</a>
+      <a href="https://cosylanguages.github.io/COSYtools/" data-translate-key="footer_tools">Reference Engines 🔎</a>
+      <a href="https://cosylanguages.github.io/COSYevents/" data-translate-key="footer_events">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3><span data-translate-key="footer_h5_project">Project</span></h3>
+      <a href="about/index.html" data-translate-key="footer_about">Our Story 🏡</a>
+      <a href="privacy.html" data-translate-key="footer_privacy">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/jamesyork">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "it:fact:1",
+    "fact": "L'italiano moderno deriva dal fiorentino di Dante e Petrarca.",
+    "topic": "history"
+  },
+  {
+    "id": "it:fact:2",
+    "fact": "L'alfabeto italiano ha 21 lettere; j, k, w, x e y si usano solo nei forestierismi.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "it:fact:3",
+    "fact": "L'italiano è la lingua internazionale della musica e dell'opera lirica.",
+    "topic": "culture"
+  },
+  {
+    "id": "it:fact:4",
+    "fact": "In Italia si parlano decine di lingue regionali e dialetti indipendenti.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "it:fact:5",
+    "fact": "La parola 'ciao' deriva dal veneto 's-ciao' ('schiavo vostro').",
+    "topic": "etymology"
+  },
+  {
+    "id": "it:fact:6",
+    "fact": "L'Accademia della Crusca, fondata a Firenze nel 1583, è tra le più antiche istituzioni linguistiche.",
+    "topic": "institutions"
+  },
+  {
+    "id": "it:fact:7",
+    "fact": "L'italiano è lingua ufficiale anche in Svizzera, San Marino e Città del Vaticano.",
+    "topic": "global"
+  },
+  {
+    "id": "it:fact:8",
+    "fact": "La Divina Commedia di Dante ha fissato il volgare fiorentino come base della lingua.",
+    "topic": "literature"
+  },
+  {
+    "id": "it:fact:9",
+    "fact": "Molte parole di cucina e d'arte nel mondo vengono dall'italiano.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "it:fact:10",
+    "fact": "In italiano le vocali si pronunciano in modo chiaro e stabile.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "it:fact:11",
+    "fact": "Petrarca e Boccaccio, con Dante, sono le 'tre corone' della letteratura italiana.",
+    "topic": "literature"
+  },
+  {
+    "id": "it:fact:12",
+    "fact": "L'italiano ha due generi e il plurale cambia la vocale finale.",
+    "topic": "grammar"
+  },
+  {
+    "id": "it:fact:13",
+    "fact": "Le doppie consonanti cambiano il significato, come 'pala' e 'palla'.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "it:fact:14",
+    "fact": "Alessandro Manzoni, nei 'Promessi sposi', contribuì a unificare la lingua scritta.",
+    "topic": "figures"
+  },
+  {
+    "id": "it:fact:15",
+    "fact": "L'italiano standard si basa sul fiorentino colto del Trecento.",
+    "topic": "history"
+  },
+  {
+    "id": "it:fact:16",
+    "fact": "Il 'passato remoto' è tipico della narrazione scritta e del Sud.",
+    "topic": "grammar"
+  },
+  {
+    "id": "it:fact:17",
+    "fact": "Parole come 'pizza', 'opera' e 'ciao' sono entrate in molte lingue.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "it:fact:18",
+    "fact": "Il 'congiuntivo' è un modo verbale molto usato in italiano.",
+    "topic": "grammar"
+  },
+  {
+    "id": "it:fact:19",
+    "fact": "Giacomo Leopardi scrisse 'L'infinito', uno dei più celebri componimenti italiani.",
+    "topic": "literature"
+  },
+  {
+    "id": "it:fact:20",
+    "fact": "L'italiano usa l'accento grafico solo sulle parole tronche e su alcune monosillabe.",
+    "topic": "typography"
+  },
+  {
+    "id": "it:fact:21",
+    "fact": "L'Italia ha 20 regioni, molte con una propria lingua storica.",
+    "topic": "global"
+  },
+  {
+    "id": "it:fact:22",
+    "fact": "Il latino è alla base dell'italiano e delle altre lingue romanze.",
+    "topic": "etymology"
+  },
+  {
+    "id": "it:fact:23",
+    "fact": "La Crusca pubblicò il primo vocabolario dell'italiano nel 1612.",
+    "topic": "history"
+  },
+  {
+    "id": "it:fact:24",
+    "fact": "Italo Calvino è uno degli scrittori italiani più tradotti nel mondo.",
+    "topic": "figures"
+  },
+  {
+    "id": "it:fact:25",
+    "fact": "L'italiano è la lingua ufficiale dell'ordine di Malta e della Santa Sede.",
+    "topic": "global"
+  },
+  {
+    "id": "it:fact:26",
+    "fact": "Parole come 'banca', 'rischio' e 'fallimento' nacquero nei mercati italiani del Medioevo e si diffusero in Europa.",
+    "topic": "etymology"
+  },
+  {
+    "id": "it:fact:27",
+    "fact": "L'italiano usa 'tu' e 'lei' per distinguere informalità e cortesia.",
+    "topic": "grammar"
+  },
+  {
+    "id": "it:fact:28",
+    "fact": "Il sonetto nacque in Sicilia, alla corte di Federico II, nel XIII secolo.",
+    "topic": "literature"
+  },
+  {
+    "id": "it:fact:29",
+    "fact": "Il 'bel paese' è un soprannome dell'Italia, coniato da Dante.",
+    "topic": "culture"
+  },
+  {
+    "id": "it:fact:30",
+    "fact": "L'italiano è la quarta lingua più studiata al mondo.",
+    "topic": "demographics"
+  }
+]

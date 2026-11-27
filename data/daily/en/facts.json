@@ -1,0 +1,207 @@
+[
+  {
+    "id": "en:fact:1",
+    "fact": "English is a West Germanic language whose vocabulary is more than half Latin and French in origin.",
+    "topic": "etymology"
+  },
+  {
+    "id": "en:fact:2",
+    "fact": "William Shakespeare is credited with introducing or popularising over 1,700 English words, among them 'lonely', 'swagger' and 'bedazzled'.",
+    "topic": "literature"
+  },
+  {
+    "id": "en:fact:3",
+    "fact": "The oldest surviving English poem, 'Caedmon's Hymn', was composed in the 7th century.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:4",
+    "fact": "English has no official academy; its usage is set by convention and dictionaries rather than by a regulator.",
+    "topic": "institutions"
+  },
+  {
+    "id": "en:fact:5",
+    "fact": "The letter 'e' is the most common letter in English, appearing in roughly one in nine words.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "en:fact:6",
+    "fact": "The dot over the letters 'i' and 'j' is called a 'tittle'.",
+    "topic": "typography"
+  },
+  {
+    "id": "en:fact:7",
+    "fact": "'Dord' was a real dictionary ghost word, printed in Webster's 1934 edition by mistake.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:8",
+    "fact": "The word 'alphabet' comes from the first two letters of the Greek alphabet, alpha and beta.",
+    "topic": "etymology"
+  },
+  {
+    "id": "en:fact:9",
+    "fact": "English is the third most spoken native language in the world, after Mandarin Chinese and Spanish.",
+    "topic": "demographics"
+  },
+  {
+    "id": "en:fact:10",
+    "fact": "The Great Vowel Shift, between roughly 1400 and 1700, changed how English long vowels were pronounced.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:11",
+    "fact": "'Beowulf' is the longest surviving poem written in Old English.",
+    "topic": "literature"
+  },
+  {
+    "id": "en:fact:12",
+    "fact": "English spelling often preserves medieval pronunciations, which is why 'knight' and 'through' look nothing like they sound.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "en:fact:13",
+    "fact": "The Oxford English Dictionary contains more than 500,000 entries and took almost 50 years to compile.",
+    "topic": "institutions"
+  },
+  {
+    "id": "en:fact:14",
+    "fact": "'OK' is among the most widely recognised words in the world and may be the most spoken word on Earth.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "en:fact:15",
+    "fact": "Samuel Johnson published his 'Dictionary of the English Language' in 1755.",
+    "topic": "figures"
+  },
+  {
+    "id": "en:fact:16",
+    "fact": "English word order is subject-verb-object, and meaning often depends on order rather than on case endings.",
+    "topic": "grammar"
+  },
+  {
+    "id": "en:fact:17",
+    "fact": "English once had a distinct singular pronoun, 'thou', which fell out of everyday use by the 18th century.",
+    "topic": "grammar"
+  },
+  {
+    "id": "en:fact:18",
+    "fact": "The word 'sandwich' comes from the 4th Earl of Sandwich, said to have eaten meat between bread to keep playing cards.",
+    "topic": "etymology"
+  },
+  {
+    "id": "en:fact:19",
+    "fact": "English is the most widely taught second language in the world.",
+    "topic": "global"
+  },
+  {
+    "id": "en:fact:20",
+    "fact": "Words such as 'shampoo', 'bungalow' and 'pyjamas' entered English from Hindi and other Indian languages.",
+    "topic": "etymology"
+  },
+  {
+    "id": "en:fact:21",
+    "fact": "The term 'big bang' was coined by the astronomer Fred Hoyle, and 'quark' was borrowed from a James Joyce novel.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "en:fact:22",
+    "fact": "English uses the apostrophe to mark possession and contraction, a feature largely absent from related languages.",
+    "topic": "punctuation"
+  },
+  {
+    "id": "en:fact:23",
+    "fact": "'Set' has one of the largest numbers of distinct dictionary meanings of any English word.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "en:fact:24",
+    "fact": "The first English dictionary, by Robert Cawdrey in 1604, defined only about 3,000 words.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:25",
+    "fact": "The pronoun 'I' is the only English pronoun that is always capitalised.",
+    "topic": "typography"
+  },
+  {
+    "id": "en:fact:26",
+    "fact": "Noah Webster's American dictionary of 1828 helped fix distinct American spellings such as 'color' and 'center'.",
+    "topic": "figures"
+  },
+  {
+    "id": "en:fact:27",
+    "fact": "English has unusually many synonyms because it absorbed words from many languages, often with subtle differences of register.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "en:fact:28",
+    "fact": "The sentence 'the quick brown fox jumps over the lazy dog' is a pangram: it uses every letter of the alphabet.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "en:fact:29",
+    "fact": "Old English looked so different from modern English that 'Beowulf' is usually read in translation.",
+    "topic": "history"
+  },
+  {
+    "id": "en:fact:30",
+    "fact": "The words 'beef', 'pork' and 'mutton' come from Norman French, while 'cow', 'pig' and 'sheep' are Anglo-Saxon.",
+    "topic": "etymology"
+  },
+  {
+    "id": "en:fact:31",
+    "fact": "English grammar once had a full case system and grammatical gender, both lost after the Norman Conquest.",
+    "topic": "grammar"
+  },
+  {
+    "id": "en:fact:32",
+    "fact": "'Rhythm' is one of the longest common English words written without the vowel letters a, e, i, o or u.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "en:fact:33",
+    "fact": "English is the working language of international air traffic control and maritime communication.",
+    "topic": "global"
+  },
+  {
+    "id": "en:fact:34",
+    "fact": "The playwright Christopher Marlowe helped establish blank verse, which Shakespeare then made his own.",
+    "topic": "literature"
+  },
+  {
+    "id": "en:fact:35",
+    "fact": "The word 'goodbye' is a contraction of the old farewell 'God be with ye'.",
+    "topic": "etymology"
+  },
+  {
+    "id": "en:fact:36",
+    "fact": "English has borrowed words so freely from other languages that it is sometimes called a 'magpie' language.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "en:fact:37",
+    "fact": "Daniel Defoe's 'Robinson Crusoe', published in 1719, is often called one of the first English novels.",
+    "topic": "literature"
+  },
+  {
+    "id": "en:fact:38",
+    "fact": "The letter 'z' is the least frequently used letter in English.",
+    "topic": "phonetics"
+  },
+  {
+    "id": "en:fact:39",
+    "fact": "Many English plurals are irregular, such as 'child/children' and 'mouse/mice'.",
+    "topic": "grammar"
+  },
+  {
+    "id": "en:fact:40",
+    "fact": "Geoffrey Chaucer wrote 'The Canterbury Tales' in Middle English in the late 14th century.",
+    "topic": "literature"
+  },
+  {
+    "id": "en:fact:41",
+    "fact": "The word 'nice' once meant 'foolish' or 'ignorant' before shifting to its modern sense of 'pleasant'.",
+    "topic": "etymology"
+  }
+]

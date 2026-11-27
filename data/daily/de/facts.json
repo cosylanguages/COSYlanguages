@@ -1,0 +1,152 @@
+[
+  {
+    "id": "de:fact:1",
+    "fact": "Deutsch ist die meistgesprochene Muttersprache in der Europäischen Union.",
+    "topic": "demographics"
+  },
+  {
+    "id": "de:fact:2",
+    "fact": "Im Deutschen werden alle Nomen großgeschrieben.",
+    "topic": "grammar"
+  },
+  {
+    "id": "de:fact:3",
+    "fact": "Das Alphabet hat 26 Buchstaben, dazu kommen die Umlaute Ä, Ö, Ü und das Eszett (ß).",
+    "topic": "alphabet"
+  },
+  {
+    "id": "de:fact:4",
+    "fact": "Deutsch bildet lange Zusammensetzungen wie 'Donaudampfschifffahrtsgesellschaft'.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "de:fact:5",
+    "fact": "Deutsch hat drei grammatische Geschlechter: Maskulinum, Femininum und Neutrum.",
+    "topic": "grammar"
+  },
+  {
+    "id": "de:fact:6",
+    "fact": "Die Brüder Grimm sammelten Märchen und begannen das 'Deutsche Wörterbuch'.",
+    "topic": "figures"
+  },
+  {
+    "id": "de:fact:7",
+    "fact": "Martin Luthers Bibelübersetzung im 16. Jahrhundert prägte die neuhochdeutsche Schriftsprache.",
+    "topic": "history"
+  },
+  {
+    "id": "de:fact:8",
+    "fact": "Mehr als zehn Prozent aller weltweit gedruckten Bücher erscheinen auf Deutsch.",
+    "topic": "culture"
+  },
+  {
+    "id": "de:fact:9",
+    "fact": "Goethe und Schiller prägten die Weimarer Klassik.",
+    "topic": "literature"
+  },
+  {
+    "id": "de:fact:10",
+    "fact": "Das ß heißt 'Eszett' oder 'scharfes S'.",
+    "topic": "alphabet"
+  },
+  {
+    "id": "de:fact:11",
+    "fact": "Deutsch kennt vier Fälle: Nominativ, Genitiv, Dativ und Akkusativ.",
+    "topic": "grammar"
+  },
+  {
+    "id": "de:fact:12",
+    "fact": "Der Genitiv wird im Alltag oft durch 'von' ersetzt.",
+    "topic": "grammar"
+  },
+  {
+    "id": "de:fact:13",
+    "fact": "Die Grimmschen Märchen wie 'Hänsel und Gretel' wurden weltberühmt.",
+    "topic": "literature"
+  },
+  {
+    "id": "de:fact:14",
+    "fact": "Das Wort 'Kindergarten' wurde in viele Sprachen übernommen.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "de:fact:15",
+    "fact": "Deutsch ist Amtssprache in sechs Ländern Europas.",
+    "topic": "global"
+  },
+  {
+    "id": "de:fact:16",
+    "fact": "Trennbare Verben wie 'aufstehen' trennen im Satz ihre Vorsilbe ab.",
+    "topic": "grammar"
+  },
+  {
+    "id": "de:fact:17",
+    "fact": "Wörter wie 'Rucksack', 'Angst' und 'Weltanschauung' wurden ins Englische entlehnt.",
+    "topic": "etymology"
+  },
+  {
+    "id": "de:fact:18",
+    "fact": "Der Duden ist das maßgebliche Rechtschreibwörterbuch des Deutschen.",
+    "topic": "institutions"
+  },
+  {
+    "id": "de:fact:19",
+    "fact": "Die Rechtschreibreform von 1996 vereinfachte die deutsche Schreibung.",
+    "topic": "history"
+  },
+  {
+    "id": "de:fact:20",
+    "fact": "Deutsch hat viele Dialekte, die sich stark voneinander unterscheiden.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "de:fact:21",
+    "fact": "Niederdeutsch war die Sprache der Hanse im Norden Europas.",
+    "topic": "history"
+  },
+  {
+    "id": "de:fact:22",
+    "fact": "Thomas Mann erhielt 1929 den Nobelpreis für Literatur.",
+    "topic": "figures"
+  },
+  {
+    "id": "de:fact:23",
+    "fact": "Um 1450 begann Johannes Gutenberg in Mainz den Buchdruck mit beweglichen Lettern.",
+    "topic": "history"
+  },
+  {
+    "id": "de:fact:24",
+    "fact": "Zahlwörter wie 'einundzwanzig' werden von hinten gesprochen.",
+    "topic": "vocabulary"
+  },
+  {
+    "id": "de:fact:25",
+    "fact": "In der Schweiz schreibt man statt ß immer 'ss'.",
+    "topic": "typography"
+  },
+  {
+    "id": "de:fact:26",
+    "fact": "Deutsch und Englisch gehören beide zur germanischen Sprachfamilie.",
+    "topic": "linguistics"
+  },
+  {
+    "id": "de:fact:27",
+    "fact": "Das älteste umfangreiche deutsche Wörterbuch ist der 'Abrogans' aus dem 8. Jahrhundert.",
+    "topic": "history"
+  },
+  {
+    "id": "de:fact:28",
+    "fact": "Das Deutsche kennt das 'Futur I' mit 'werden' plus Infinitiv.",
+    "topic": "grammar"
+  },
+  {
+    "id": "de:fact:29",
+    "fact": "Friedrich Schiller schrieb die 'Ode an die Freude', die Beethoven vertonte.",
+    "topic": "literature"
+  },
+  {
+    "id": "de:fact:30",
+    "fact": "Die 'Weimarer Klassik' war eine Blütezeit der deutschen Literatur um 1800.",
+    "topic": "literature"
+  }
+]

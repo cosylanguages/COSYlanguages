@@ -1,0 +1,1709 @@
+[
+  {
+    "id": "fact-001",
+    "title": "Did you know?",
+    "explanation": "Portuguese names weekdays using ordinal numbers rather than pagan Roman deities, a liturgical reform initiated by Saint Martin of Braga in the 6th century:",
+    "list": [
+      "segunda-feira (Monday - 2nd day)",
+      "terça-feira (Tuesday - 3rd day)",
+      "quarta-feira (Wednesday - 4th day)",
+      "quinta-feira (Thursday - 5th day)",
+      "sexta-feira (Friday - 6th day)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-002",
+    "title": "Did you know?",
+    "explanation": "Portuguese possesses a personal (conjugated) infinitive (infinitivo pessoal) that accepts personal endings, allowing infinitives to mark explicit grammatical subjects:",
+    "list": [
+      "É importante estudarmos (It is important that we study)",
+      "Para eles compreenderem (For them to understand)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-003",
+    "title": "Did you know?",
+    "explanation": "Portuguese retains an active future subjunctive mood (futuro do subjuntivo) derived from the Latin future perfect, used in temporal and conditional clauses:",
+    "list": [
+      "Quando eu chegar (When I arrive)",
+      "Se tu tiveres tempo (If you have time)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-004",
+    "title": "Did you know?",
+    "explanation": "Portuguese nasal diphthongs (such as 'ão', 'ões', 'ães') evolved historically from Latin intervocalic '-n-' drop accompanied by vowel nasalization:",
+    "list": [
+      "Latin 'panem' -> 'pão' (bread)",
+      "Latin 'canes' -> 'cães' (dogs)",
+      "Latin 'rationes' -> 'razões' (reasons)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-005",
+    "title": "Did you know?",
+    "explanation": "Armenian constitutes an independent, single-language primary branch of the Indo-European family, possessing unique sound shifts like PIE voiceless stops shifting to aspirated stops (*p -> pʰ).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-006",
+    "title": "Did you know?",
+    "explanation": "Armenian uses an agglutinative nominal declension system with 6 to 7 cases (Nominative, Accusative, Genitive, Dative, Ablative, Instrumental, Locative), derived from historical restructuring.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-007",
+    "title": "Did you know?",
+    "explanation": "Classical Armenian (Grabar) possessed an organic pitch accent system that collapsed in Modern Armenian into stress fixed on the final syllable of words.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-008",
+    "title": "Did you know?",
+    "explanation": "Armenian syntax exhibits agglutinative postpositions following genitive or dative nouns rather than prepositions, reflecting regional Caucasian areal convergence.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-009",
+    "title": "Did you know?",
+    "explanation": "Armenian underwent a historic split into two major literary standards: Eastern Armenian (preserving voiced/voiceless distinction) and Western Armenian (undergoing consonant shift).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-010",
+    "title": "Did you know?",
+    "explanation": "Armenian differential object marking requires animate direct objects in the dative case with a definite article, whereas inanimate objects take the nominative form.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-011",
+    "title": "Did you know?",
+    "explanation": "Armenian verb conjugation distinguishes between three stem classes based on thematic vowels (-el, -al, -il), determining continuous and perfective paradigms.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-012",
+    "title": "Did you know?",
+    "explanation": "Armenian possesses a dedicated narrative/evidential modal particle system in past tenses, expressing hearsay or unwitnessed actions.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-013",
+    "title": "Did you know?",
+    "explanation": "Armenian vocabulary preserves archaic Indo-European cognates for core kinship terms: 'mayr' (mother < *mātēr), 'hayr' (father < *patēr), 'yegbayr' (brother < *bhrātēr).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-014",
+    "title": "Did you know?",
+    "explanation": "Armenian verb negation uses the prefix 'ch-' attached directly before verb augment stems (e.g. gitem -> chgitem = I do not know).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-015",
+    "title": "Did you know?",
+    "explanation": "Georgian belongs to the Kartvelian (South Caucasian) family and features complex split ergativity: transitive subjects take ergative case (-m) only in aorist (past perfective) aspect.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-016",
+    "title": "Did you know?",
+    "explanation": "Georgian verbs demonstrate extreme polypersonalism, encoding subject, direct object, and indirect object simultaneously through complex preverbal and pronominal prefixes.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-017",
+    "title": "Did you know?",
+    "explanation": "Georgian phonology permits large initial consonant clusters (screevecs) without intervening vowels, such as 'vprtskvni' (I am peeling).",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-018",
+    "title": "Did you know?",
+    "explanation": "Georgian nominal declension features 7 cases (Nominative, Ergative, Dative, Genitive, Instrumental, Adverbial, Vocative) with agglutinative case suffixes.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-019",
+    "title": "Did you know?",
+    "explanation": "Georgian exhibitsversion markers (vowels -a-, -i-, -e-, -o- inserted before verb roots) to indicate who benefits from or experiences an action.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-020",
+    "title": "Did you know?",
+    "explanation": "Georgian numerals follow a strict vigesimal (base-20) counting system, where 40 is 'or-m-ots-i' (two twenties) and 70 is 'sam-ots-da-at-i' (three twenties and ten).",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-021",
+    "title": "Did you know?",
+    "explanation": "Georgian possesses three distinct ejectives series (p', t', k', q', ts', ch') produced with glottic closure rather than pulmonic airflow.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-022",
+    "title": "Did you know?",
+    "explanation": "Kartvelian languages possess no grammatical gender, no articles, and no morphosyntactic distinction between 'he', 'she', and 'it'.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-023",
+    "title": "Did you know?",
+    "explanation": "Georgian preverbs function dual-purposely: marking spatial direction of motion and simultaneously denoting perfective aspect.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-024",
+    "title": "Did you know?",
+    "explanation": "Georgian uses 4 distinct verb screeves (paradigmatic tense-aspect-mood sets) grouped into three series based on case-marking alignments.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-025",
+    "title": "Did you know?",
+    "explanation": "Breton is the sole Celtic language spoken on continental Europe today, belonging to the Brythonic sub-branch along with Welsh and Cornish.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-026",
+    "title": "Did you know?",
+    "explanation": "Breton exhibits initial consonant mutations, where the first consonant of a word changes phonetically based on the preceding grammatical context (lenition, spirantization, proving, nasalization):",
+    "list": [
+      "ti (house) -> ma zi (my house - spirantization)",
+      "ti (house) -> da di (your house - lenition)",
+      "ti (house) -> ho ti (your pl. house - proving)"
+    ],
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-027",
+    "title": "Did you know?",
+    "explanation": "Breton exhibits analytic verb morphology where the subject pronoun can be omitted when using synthetic inflections, or preserved with invariant verb forms.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-028",
+    "title": "Did you know?",
+    "explanation": "Breton syntax strictly follows VSO (Verb-Subject-Object) or topic-initial (SVO/OVS) order with mandatory 'a' or 'e' verbal particles.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-029",
+    "title": "Did you know?",
+    "explanation": "Breton numerals use a complete vigesimal (base-20) structure: 80 is 'pevar-ugent' (four twenties) and 90 is 'pevar-ugent-dour' (four twenties and ten).",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-030",
+    "title": "Did you know?",
+    "explanation": "Breton uses inflected prepositions (prepositional pronouns) that blend preposition and personal pronoun into a single word (e.g., 'gant' = with -> 'ganto' = with them).",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-031",
+    "title": "Did you know?",
+    "explanation": "Breton verbal system possesses a dedicated habitual present and habitual past tense distinct from simple present and imperfect.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-032",
+    "title": "Did you know?",
+    "explanation": "Breton features dual nouns formed by preposing the numeral 'daou' (masculine) or 'div' (feminine) to body parts (e.g., 'lagad' = eye -> 'daoulagad' = pair of eyes).",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-033",
+    "title": "Did you know?",
+    "explanation": "Breton undergoes stress shift where primary accent rests on the penultimate (second-to-last) syllable in native Brythonic vocabulary.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-034",
+    "title": "Did you know?",
+    "explanation": "Breton demonstrates verbal noun subordination, employing verbal nouns with prepositions instead of finite conjugated verbs in dependent clauses.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-035",
+    "title": "Did you know?",
+    "explanation": "Chuvash is the sole surviving representative of the Oghur (Lir-Turkic) branch, differing fundamentally from Common Turkic (Shaz-Turkic) by exhibiting rhotacism (*z -> r) and lambdacism (*š -> l).",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-036",
+    "title": "Did you know?",
+    "explanation": "Comparative Turkic sound law: Where Common Turkic (Tatar/Turkish) has final '-z', Chuvash systematically displays '-r':",
+    "list": [
+      "Tatar 'küz' (eye) <-> Chuvash 'kur'",
+      "Tatar 'qız' (girl) <-> Chuvash 'xĕr'",
+      "Tatar 'biz' (we) <-> Chuvash 'epir'"
+    ],
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-037",
+    "title": "Did you know?",
+    "explanation": "Comparative Turkic sound law: Where Common Turkic has final '-š', Chuvash displays '-l':",
+    "list": [
+      "Tatar 'taş' (stone) <-> Chuvash 'tul'",
+      "Tatar 'qış' (winter) <-> Chuvash 'xĕll'"
+    ],
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-038",
+    "title": "Did you know?",
+    "explanation": "Chuvash preserves archaic Bulgar Turkic features that entered early Finno-Ugric and Hungarian loanword strata over a thousand years ago.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-039",
+    "title": "Did you know?",
+    "explanation": "Chuvash nominal system employs 8 case suffixes (Nominative, Genitive, Objective/Dative, Ablative, Instrumental, Comitative, Locative, Causal).",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-040",
+    "title": "Did you know?",
+    "explanation": "Chuvash exhibits strict palatal vowel harmony, categorizing vowels into front (ä, e, i, ĕ) and back (a, u, ı, ă) groups.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-041",
+    "title": "Did you know?",
+    "explanation": "Chuvash possesses reduced extra-short vowels ('ă' /ă/ and 'ĕ' /ĕ/) that undergo syncope in unaccented word-final syllables.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-042",
+    "title": "Did you know?",
+    "explanation": "Chuvash verb system distinguishes between direct witnessed past (-r-) and indirect non-witnessed/evidential past (-n-).",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-043",
+    "title": "Did you know?",
+    "explanation": "Chuvash possessive declension attaches possessive suffixes before case suffixes, following agglutinative Turkic ordering rules.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-044",
+    "title": "Did you know?",
+    "explanation": "Chuvash negation uses the particle 'an' for imperative mood and verb-final suffix '-m' for indicative tenses.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-045",
+    "title": "Did you know?",
+    "explanation": "Tatar belongs to the Kipchak (Northwestern) branch of Turkic languages, featuring aggressive vowel harmony and agglutinative affixation.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-046",
+    "title": "Did you know?",
+    "explanation": "Tatar undergoes historic Volga-Turkic vowel shift, where Proto-Turkic *a shifted to rounded /o/ or /å/ and *e shifted to /i/.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-047",
+    "title": "Did you know?",
+    "explanation": "Tatar nominal declension employs 6 case markers: Nominative, Genitive, Dative, Accusative, Locative, and Ablative.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-048",
+    "title": "Did you know?",
+    "explanation": "Tatar verbal system utilizes auxiliary verbs ('paryu', 'chıqu', 'kılu') paired with gerund forms (-p / -ıp) to express aspectual nuances.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-049",
+    "title": "Did you know?",
+    "explanation": "Tatar possessive suffixes attach directly to stems, causing final voiceless stops (k, q, p) to voice intervocalically (e.g. 'kitap' -> 'kitabı').",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-050",
+    "title": "Did you know?",
+    "explanation": "Tatar utilizes non-witnessed / indirect past tense in '-gan / -gän' to indicate reported speech or late realization of facts.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-051",
+    "title": "Did you know?",
+    "explanation": "Tatar exhibits strict SOV (Subject-Object-Verb) word order where postpositions ('öchen', 'mıdan') follow genitive or nominative nouns.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-052",
+    "title": "Did you know?",
+    "explanation": "Tatar interrogative particle '-my / -me' harmonizes with the preceding stem vowel and attaches directly to the focus word.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-053",
+    "title": "Did you know?",
+    "explanation": "Tatar lacks grammatical gender entirely; third-person singular pronoun 'ul' means 'he', 'she', and 'it' interchangeably.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-054",
+    "title": "Did you know?",
+    "explanation": "Tatar plural suffix '-lar / -lär' converts to '-nar / -när' when following nasal consonants (m, n, ŋ).",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-055",
+    "title": "Did you know?",
+    "explanation": "Bashkir belongs to the Kipchak-Bulgar sub-branch of Turkic, distinguished by a sound shift converting Proto-Turkic initial *s- into /h-/.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-056",
+    "title": "Did you know?",
+    "explanation": "Comparative Turkic sound law: Proto-Turkic initial *s- corresponds systematically to Bashkir /h-/:",
+    "list": [
+      "Tatar 'sut' (milk) <-> Bashkir 'hüt'",
+      "Tatar 'süz' (word) <-> Bashkir 'hüz'",
+      "Tatar 'sen' (you) <-> Bashkir 'hine'"
+    ],
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-057",
+    "title": "Did you know?",
+    "explanation": "Bashkir phonology contains dental fricatives /θ/ (written ҙ) and /ð/ (written ҫ) that evolved from intervocalic and final Proto-Turkic *z and *s.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-058",
+    "title": "Did you know?",
+    "explanation": "Bashkir exhibits complex assimilation of case and plural suffixes, yielding up to 16 phonetic surface variants for a single case suffix.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-059",
+    "title": "Did you know?",
+    "explanation": "Bashkir noun inflection uses 6 case categories attached via agglutinative post-stem suffix chains.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-060",
+    "title": "Did you know?",
+    "explanation": "Bashkir verb morphology uses the suffix '-a / -ä' or '-o / -ö' for present-future tense depending on stem vowel rounding.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-061",
+    "title": "Did you know?",
+    "explanation": "Bashkir participates in Volga Turkic vowel rotation, shifting Proto-Turkic short high vowels to reduced mid vowels.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-062",
+    "title": "Did you know?",
+    "explanation": "Bashkir possessive constructions use Genitive noun + head noun with possessive suffix (e.g., 'äse-neŋ öy-ö' = mother's house).",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-063",
+    "title": "Did you know?",
+    "explanation": "Bashkir evidential mood suffix '-ğan / -gän' distinguishes secondhand narrative reporting from eyewitnessed experience (-to / -te).",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-064",
+    "title": "Did you know?",
+    "explanation": "Bashkir postpositions require preceding complement nouns to appear in specific cases (Nominative, Genitive, or Ablative).",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-065",
+    "title": "Did you know?",
+    "explanation": "Modern Greek is the sole surviving direct descendant of the Hellenic branch of Indo-European, possessing recorded written history across 34 centuries.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-066",
+    "title": "Did you know?",
+    "explanation": "Modern Greek reduced Classical Greek's complex 9-vowel system (with long/short distinction) to a symmetrical 5-vowel system (/a/, /e/, /i/, /o/, /u/) via iotacism.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-067",
+    "title": "Did you know?",
+    "explanation": "Modern Greek uses the semicolon character (;) as a question mark, while a high dot (·) functions as a semicolon.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-068",
+    "title": "Did you know?",
+    "explanation": "Greek nominal morphology marks 4 case inflections (Nominative, Genitive, Accusative, Vocative) across three grammatical genders.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-069",
+    "title": "Did you know?",
+    "explanation": "Greek verbal system is structured around aspect (Imperfective/Continuous vs. Perfective/Aorist) rather than pure temporal tense.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-070",
+    "title": "Did you know?",
+    "explanation": "Greek subjunctive mood is formed analytically by placing the aspectual particle 'na' (να) before the finite verb stem.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-071",
+    "title": "Did you know?",
+    "explanation": "Greek retains synthetic passive/mediopassive voice inflections (-omai, -ese, -etai) descended directly from Ancient Greek mediopassive paradigms.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-072",
+    "title": "Did you know?",
+    "explanation": "Greek uses initial stop voicing digraphs 'mp' (μπ) for /b/ and 'nt' (ντ) for /d/, as single letters 'β' and 'δ' shifted to fricatives /v/ and /ð/.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-073",
+    "title": "Did you know?",
+    "explanation": "Greek retains ancient clitic pronoun placement rules, where weak personal pronouns precede finite verbs but follow imperatives and gerunds.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-074",
+    "title": "Did you know?",
+    "explanation": "Greek loss of the dative case led to genitive taking over possessive/indirect object roles in Northern dialects and accusative in Southern dialects.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-075",
+    "title": "Did you know?",
+    "explanation": "Russian belongs to the East Slavic branch of Indo-European, retaining 6 rich nominal cases (Nominative, Genitive, Dative, Accusative, Instrumental, Prepositional).",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-076",
+    "title": "Did you know?",
+    "explanation": "Russian past tense verbs inflect by grammatical gender (masculine, feminine, neuter) rather than person, because they originated from ancient L-participles: ",
+    "list": [
+      "Он чита-л (He read - masc)",
+      "Она чита-ла (She read - fem)",
+      "Оно чита-ло (It read - neut)",
+      "Они чита-ли (They read - pl)"
+    ],
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-077",
+    "title": "Did you know?",
+    "explanation": "Russian verbal aspect divides virtually every verb into an imperfective/perfective pair, where perfective stems are created via prepositional prefixes or suffixal shifts.",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-078",
+    "title": "Did you know?",
+    "explanation": "Russian exhibits full palatalization (soft vs. hard consonants), where 15 consonant phonemes possess distinct palatalized counterparts.",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-079",
+    "title": "Did you know?",
+    "explanation": "Russian exhibits mobile stress that shifts accent across stems during declension or conjugation (e.g., 'ruka' [hand nom.] vs. 'ruki' [acc. pl.]).",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-080",
+    "title": "Did you know?",
+    "explanation": "Russian omits the present tense copula ('to be') in standard speech, joining subject and nominal predicate directly: 'Ya student' (I am a student).",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-081",
+    "title": "Did you know?",
+    "explanation": "Russian animacy rule modifies Accusative case: animate masculine singular and animate plural nouns take Genitive endings instead of Nominative endings.",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-082",
+    "title": "Did you know?",
+    "explanation": "Russian verbs of motion distinguish between unidirectional (motion toward a goal, e.g., 'idti') and multidirectional/habitual motion ('khodit').",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-083",
+    "title": "Did you know?",
+    "explanation": "Russian numerals 2, 3, 4 govern Genitive singular nouns, whereas numerals 5 through 20 govern Genitive plural nouns.",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-084",
+    "title": "Did you know?",
+    "explanation": "Russian uses patronymics formed with '-ovich / -evich' (masculine) and '-ovna / -evna' (feminine) derived from the father's given name.",
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "id": "fact-085",
+    "title": "Did you know?",
+    "explanation": "French is a Romance language derived from Vulgar Latin that underwent heavy Germanic (Frankish) superstrate influence, leading to loss of final Latin vowels.",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-086",
+    "title": "Did you know?",
+    "explanation": "French retains a partial vigesimal (base-20) counting structure inherited from Celtic substrate influences for numbers 80 to 99:",
+    "list": [
+      "quatre-vingts (80 = four twenties)",
+      "quatre-vingt-dix (90 = four twenties plus ten)"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-087",
+    "title": "Did you know?",
+    "explanation": "French mandatory liaison causes normally silent final consonants to be pronounced when followed immediately by a vowel-initial word: 'les_amis' /lezami/.",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-088",
+    "title": "Did you know?",
+    "explanation": "French circumflex accent (^) historical marker indicates a suppressed 's' present in Old French and Latin roots: 'hôpital' < 'hospital', 'forêt' < 'forest'.",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-089",
+    "title": "Did you know?",
+    "explanation": "French verbal system lost synthetic Latin passive voice, replacing it with auxiliary 'être' plus past participle.",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-090",
+    "title": "Did you know?",
+    "explanation": "French negative construction 'ne ... pas' evolved via grammaticalization of 'pas' (step), originally meaning 'I do not walk a step' ('je ne marche pas').",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-091",
+    "title": "Did you know?",
+    "explanation": "French lost Latin case inflections entirely during the Middle French period, replacing them with strict SVO word order and prepositions.",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-092",
+    "title": "Did you know?",
+    "explanation": "French possessive adjectives agree in gender and number with the possessed object, not the possessor ('son livre' = his or her book).",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-093",
+    "title": "Did you know?",
+    "explanation": "French subjunctive mood is required after expressions of necessity, emotion, doubt, and specific subordinating conjunctions.",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-094",
+    "title": "Did you know?",
+    "explanation": "French front rounded vowels (/y/, /ø/, /œ/) evolved historically from Celtic substrate and Germanic superstrate vowel shifts.",
+    "languages": [
+      "fr"
+    ]
+  },
+  {
+    "id": "fact-095",
+    "title": "Did you know?",
+    "explanation": "Italian is the major Romance language closest to Latin in vocabulary retention (89% lexical similarity), maintaining Latin vowel endings on almost all words.",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-096",
+    "title": "Did you know?",
+    "explanation": "Italian phonology utilizes double consonants (gemination) that create phonemic contrasts changing word meanings completely:",
+    "list": [
+      "palla (ball) vs pala (shovel)",
+      "fato (fate) vs fatto (fact/done)",
+      "note (notes) vs notte (night)"
+    ],
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-097",
+    "title": "Did you know?",
+    "explanation": "Italian is a null-subject (pro-drop) language where verb inflections explicitly encode subject person, rendering personal pronouns optional.",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-098",
+    "title": "Did you know?",
+    "explanation": "Italian pronominal particles 'ci' (locative/instrumental) and 'ne' (partitive/genitive) combine with clitic pronouns in strict hierarchical clusters: 'glielo' (it to him).",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-099",
+    "title": "Did you know?",
+    "explanation": "Italian retains Tuscan remote past tense (passato remoto) used for completed historical events with no enduring present connection.",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-100",
+    "title": "Did you know?",
+    "explanation": "Italian nominal pluralization occurs via vowel alteration (masculine -o -> -i; feminine -a -> -e) rather than adding final '-s' like Western Romance.",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-101",
+    "title": "Did you know?",
+    "explanation": "Italian auxiliary selection uses 'essere' for intransitive, reflexive, and motion verbs, and 'avere' for transitive verbs.",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-102",
+    "title": "Did you know?",
+    "explanation": "Italian suffixation alters noun semantics dynamically: diminutives (-ino), augmentatives (-one), pejoratives (-accio), and endearments (-etto).",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-103",
+    "title": "Did you know?",
+    "explanation": "Italian conditional mood (condizionale) evolved from Medieval Latin infinitive + imperfect forms of 'habere' (to have).",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-104",
+    "title": "Did you know?",
+    "explanation": "Italian demonstratives maintain historical distance distinctions: 'questo' (near speaker), 'codesto' (near listener), and 'quello' (far from both).",
+    "languages": [
+      "it"
+    ]
+  },
+  {
+    "id": "fact-105",
+    "title": "Did you know?",
+    "explanation": "English is a West Germanic language whose vocabulary was massively reshaped by Old Norse contact and Norman French superstrate absorption, creating a dual Germanic/Romance lexicon.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-106",
+    "title": "Did you know?",
+    "explanation": "Grimm's Law explains how Proto-Indo-European voiceless stops (*p, *t, *k) shifted to Germanic voiceless fricatives (*f, *þ, *h):",
+    "list": [
+      "Latin 'pater' <-> English 'father'",
+      "Latin 'tres' <-> English 'three'",
+      "Latin 'cornu' <-> English 'horn'"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-107",
+    "title": "Did you know?",
+    "explanation": "The Great Vowel Shift (1400-1700 CE) raised and diphthongized long stressed vowels, creating modern English's mismatch between spelling and pronunciation.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-108",
+    "title": "Did you know?",
+    "explanation": "English possessive '-s' originated from the Old English masculine genitive singular noun suffix '-es'.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-109",
+    "title": "Did you know?",
+    "explanation": "English do-support (dummy 'do') developed in Middle English to facilitate negation and inversion without shifting main verbs past sentence subjects.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-110",
+    "title": "Did you know?",
+    "explanation": "English lost grammatical gender and complex nominal cases between 1100 and 1500 CE due to unstressed vowel reduction and Norse-Anglo-Saxon contact.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-111",
+    "title": "Did you know?",
+    "explanation": "English phrasal verbs combine Germanic verb stems with spatial particles to express idiomatic aspectual meanings ('give up', 'break down').",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-112",
+    "title": "Did you know?",
+    "explanation": "English modal verbs (can, may, must, shall, will) originate from Germanic preterite-present verbs and take no third-person singular '-s'.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-113",
+    "title": "Did you know?",
+    "explanation": "English third-person singular present '-s' replaced Northern Middle English '-eth' due to Scandinavian influence in Northern England.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-114",
+    "title": "Did you know?",
+    "explanation": "English preserves dual Germanic/Latinate register doublets: 'house / domestic', 'kingly / royal / regal', 'ask / inquire'.",
+    "languages": [
+      "en"
+    ]
+  },
+  {
+    "id": "fact-115",
+    "title": "Did you know?",
+    "explanation": "Spanish is a Romance language featuring significant Arabic superstrate influence (around 4,000 lexical roots) due to 800 years of Al-Andalus history: 'azúcar', 'almohada', 'ojalá'.",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-116",
+    "title": "Did you know?",
+    "explanation": "Spanish maintains two distinct verbs for 'to be': 'ser' (essential identity, permanent traits) and 'estar' (temporary states, location):",
+    "list": [
+      "Soy listo (I am smart)",
+      "Estoy listo (I am ready)"
+    ],
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-117",
+    "title": "Did you know?",
+    "explanation": "Spanish personal 'a' is a differential object marker required before direct objects that refer to specific, definite human beings or pets.",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-118",
+    "title": "Did you know?",
+    "explanation": "Spanish phonology underwent spirantization where voiced stops /b, d, g/ become soft fricatives/approximants [β, ð, ɣ] between vowels.",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-119",
+    "title": "Did you know?",
+    "explanation": "Spanish inverted punctuation marks ('¿' and '¡') were instituted by the Royal Spanish Academy in 1754 to signal clause syntax prior to reading.",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-120",
+    "title": "Did you know?",
+    "explanation": "Spanish preterite vs. imperfect distinction contrasts completed past events (preterite) against ongoing past habits/states (imperfect).",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-121",
+    "title": "Did you know?",
+    "explanation": "Spanish 'rr' represents a voiced alveolar trill that contrasts phonemically with the single alveolar tap 'r': 'pero' (but) vs. 'perro' (dog).",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-122",
+    "title": "Did you know?",
+    "explanation": "Spanish 'ojalá' is an etymological borrowing from Arabic 'law šā' Allāh' ('if God wills it'), triggering subjunctive mood.",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-123",
+    "title": "Did you know?",
+    "explanation": "Spanish 'voseo' in Latin America replaces second-person 'tú' with 'vos', preserving archaic medieval verb inflections.",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-124",
+    "title": "Did you know?",
+    "explanation": "Spanish subjunctive mood remains fully productive across present, imperfect, and present perfect tenses in daily speech.",
+    "languages": [
+      "es"
+    ]
+  },
+  {
+    "id": "fact-125",
+    "title": "Did you know?",
+    "explanation": "German is a West Germanic language that underwent the High German Consonant Shift (Second Sound Shift), setting High German apart from Low German and English.",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-126",
+    "title": "Did you know?",
+    "explanation": "High German Consonant Shift transformed voiceless stops /p, t, k/ into affricates or fricatives:",
+    "list": [
+      "English 'apple' <-> German 'Apfel'",
+      "English 'foot' <-> German 'Fuß'",
+      "English 'make' <-> German 'machen'"
+    ],
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-127",
+    "title": "Did you know?",
+    "explanation": "German exhibits Verb-Second (V2) word order in main clauses, but strict Verb-Final order in subordinate clauses ('...weil ich Deutsch lerne').",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-128",
+    "title": "Did you know?",
+    "explanation": "German capitalizes all nouns in prose, a spelling convention standardized during the 16th-17th century printing expansion.",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-129",
+    "title": "Did you know?",
+    "explanation": "German nominal system marks 4 cases (Nominative, Accusative, Dative, Genitive) across three genders (masculine, feminine, neuter).",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-130",
+    "title": "Did you know?",
+    "explanation": "German separable prefix verbs detach their prefixes in simple main tenses and position them at the sentence end ('Ich kaufe morgen ein').",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-131",
+    "title": "Did you know?",
+    "explanation": "German umlaut (ä, ö, ü) originated as front-vowel assimilation (i-mutation) where stem vowels fronted before an ancient '-i' suffix.",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-132",
+    "title": "Did you know?",
+    "explanation": "German modal verbs shift accompanying infinitives to the final position of the clause ('Ich muss heute arbeiten').",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-133",
+    "title": "Did you know?",
+    "explanation": "German formulates compound nouns via unbounded synthetic compounding ('Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz').",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-134",
+    "title": "Did you know?",
+    "explanation": "German Konjunktiv II (subjunctive) expresses counterfactual hypotheses, polite requests, and wishes, derived from historic past subjunctive stems.",
+    "languages": [
+      "de"
+    ]
+  },
+  {
+    "id": "fact-135",
+    "title": "Did you know?",
+    "explanation": "Portuguese names weekdays using ordinal numbers rather than pagan Roman deities, a liturgical reform initiated by Saint Martin of Braga in the 6th century:",
+    "list": [
+      "segunda-feira (Monday - 2nd day)",
+      "terça-feira (Tuesday - 3rd day)",
+      "quarta-feira (Wednesday - 4th day)",
+      "quinta-feira (Thursday - 5th day)",
+      "sexta-feira (Friday - 6th day)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-136",
+    "title": "Did you know?",
+    "explanation": "Portuguese possesses a personal (conjugated) infinitive (infinitivo pessoal) that accepts personal endings, allowing infinitives to mark explicit grammatical subjects:",
+    "list": [
+      "É importante estudarmos (It is important that we study)",
+      "Para eles compreenderem (For them to understand)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-137",
+    "title": "Did you know?",
+    "explanation": "Portuguese retains an active future subjunctive mood (futuro do subjuntivo) derived from the Latin future perfect, used in temporal and conditional clauses:",
+    "list": [
+      "Quando eu chegar (When I arrive)",
+      "Se tu tiveres tempo (If you have time)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-138",
+    "title": "Did you know?",
+    "explanation": "Portuguese nasal diphthongs (such as 'ão', 'ões', 'ães') evolved historically from Latin intervocalic '-n-' drop accompanied by vowel nasalization:",
+    "list": [
+      "Latin 'panem' -> 'pão' (bread)",
+      "Latin 'canes' -> 'cães' (dogs)",
+      "Latin 'rationes' -> 'razões' (reasons)"
+    ],
+    "languages": [
+      "pt"
+    ]
+  },
+  {
+    "id": "fact-139",
+    "title": "Did you know?",
+    "explanation": "Armenian constitutes an independent, single-language primary branch of the Indo-European family, possessing unique sound shifts like PIE voiceless stops shifting to aspirated stops (*p -> pʰ).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-140",
+    "title": "Did you know?",
+    "explanation": "Armenian uses an agglutinative nominal declension system with 6 to 7 cases (Nominative, Accusative, Genitive, Dative, Ablative, Instrumental, Locative), derived from historical restructuring.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-141",
+    "title": "Did you know?",
+    "explanation": "Classical Armenian (Grabar) possessed an organic pitch accent system that collapsed in Modern Armenian into stress fixed on the final syllable of words.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-142",
+    "title": "Did you know?",
+    "explanation": "Armenian syntax exhibits agglutinative postpositions following genitive or dative nouns rather than prepositions, reflecting regional Caucasian areal convergence.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-143",
+    "title": "Did you know?",
+    "explanation": "Armenian underwent a historic split into two major literary standards: Eastern Armenian (preserving voiced/voiceless distinction) and Western Armenian (undergoing consonant shift).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-144",
+    "title": "Did you know?",
+    "explanation": "Armenian differential object marking requires animate direct objects in the dative case with a definite article, whereas inanimate objects take the nominative form.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-145",
+    "title": "Did you know?",
+    "explanation": "Armenian verb conjugation distinguishes between three stem classes based on thematic vowels (-el, -al, -il), determining continuous and perfective paradigms.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-146",
+    "title": "Did you know?",
+    "explanation": "Armenian possesses a dedicated narrative/evidential modal particle system in past tenses, expressing hearsay or unwitnessed actions.",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-147",
+    "title": "Did you know?",
+    "explanation": "Armenian vocabulary preserves archaic Indo-European cognates for core kinship terms: 'mayr' (mother < *mātēr), 'hayr' (father < *patēr), 'yegbayr' (brother < *bhrātēr).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-148",
+    "title": "Did you know?",
+    "explanation": "Armenian verb negation uses the prefix 'ch-' attached directly before verb augment stems (e.g. gitem -> chgitem = I do not know).",
+    "languages": [
+      "hy"
+    ]
+  },
+  {
+    "id": "fact-149",
+    "title": "Did you know?",
+    "explanation": "Georgian belongs to the Kartvelian (South Caucasian) family and features complex split ergativity: transitive subjects take ergative case (-m) only in aorist (past perfective) aspect.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-150",
+    "title": "Did you know?",
+    "explanation": "Georgian verbs demonstrate extreme polypersonalism, encoding subject, direct object, and indirect object simultaneously through complex preverbal and pronominal prefixes.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-151",
+    "title": "Did you know?",
+    "explanation": "Georgian phonology permits large initial consonant clusters (screevecs) without intervening vowels, such as 'vprtskvni' (I am peeling).",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-152",
+    "title": "Did you know?",
+    "explanation": "Georgian nominal declension features 7 cases (Nominative, Ergative, Dative, Genitive, Instrumental, Adverbial, Vocative) with agglutinative case suffixes.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-153",
+    "title": "Did you know?",
+    "explanation": "Georgian exhibitsversion markers (vowels -a-, -i-, -e-, -o- inserted before verb roots) to indicate who benefits from or experiences an action.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-154",
+    "title": "Did you know?",
+    "explanation": "Georgian numerals follow a strict vigesimal (base-20) counting system, where 40 is 'or-m-ots-i' (two twenties) and 70 is 'sam-ots-da-at-i' (three twenties and ten).",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-155",
+    "title": "Did you know?",
+    "explanation": "Georgian possesses three distinct ejectives series (p', t', k', q', ts', ch') produced with glottic closure rather than pulmonic airflow.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-156",
+    "title": "Did you know?",
+    "explanation": "Kartvelian languages possess no grammatical gender, no articles, and no morphosyntactic distinction between 'he', 'she', and 'it'.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-157",
+    "title": "Did you know?",
+    "explanation": "Georgian preverbs function dual-purposely: marking spatial direction of motion and simultaneously denoting perfective aspect.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-158",
+    "title": "Did you know?",
+    "explanation": "Georgian uses 4 distinct verb screeves (paradigmatic tense-aspect-mood sets) grouped into three series based on case-marking alignments.",
+    "languages": [
+      "ka"
+    ]
+  },
+  {
+    "id": "fact-159",
+    "title": "Did you know?",
+    "explanation": "Breton is the sole Celtic language spoken on continental Europe today, belonging to the Brythonic sub-branch along with Welsh and Cornish.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-160",
+    "title": "Did you know?",
+    "explanation": "Breton exhibits initial consonant mutations, where the first consonant of a word changes phonetically based on the preceding grammatical context (lenition, spirantization, proving, nasalization):",
+    "list": [
+      "ti (house) -> ma zi (my house - spirantization)",
+      "ti (house) -> da di (your house - lenition)",
+      "ti (house) -> ho ti (your pl. house - proving)"
+    ],
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-161",
+    "title": "Did you know?",
+    "explanation": "Breton exhibits analytic verb morphology where the subject pronoun can be omitted when using synthetic inflections, or preserved with invariant verb forms.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-162",
+    "title": "Did you know?",
+    "explanation": "Breton syntax strictly follows VSO (Verb-Subject-Object) or topic-initial (SVO/OVS) order with mandatory 'a' or 'e' verbal particles.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-163",
+    "title": "Did you know?",
+    "explanation": "Breton numerals use a complete vigesimal (base-20) structure: 80 is 'pevar-ugent' (four twenties) and 90 is 'pevar-ugent-dour' (four twenties and ten).",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-164",
+    "title": "Did you know?",
+    "explanation": "Breton uses inflected prepositions (prepositional pronouns) that blend preposition and personal pronoun into a single word (e.g., 'gant' = with -> 'ganto' = with them).",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-165",
+    "title": "Did you know?",
+    "explanation": "Breton verbal system possesses a dedicated habitual present and habitual past tense distinct from simple present and imperfect.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-166",
+    "title": "Did you know?",
+    "explanation": "Breton features dual nouns formed by preposing the numeral 'daou' (masculine) or 'div' (feminine) to body parts (e.g., 'lagad' = eye -> 'daoulagad' = pair of eyes).",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-167",
+    "title": "Did you know?",
+    "explanation": "Breton undergoes stress shift where primary accent rests on the penultimate (second-to-last) syllable in native Brythonic vocabulary.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-168",
+    "title": "Did you know?",
+    "explanation": "Breton demonstrates verbal noun subordination, employing verbal nouns with prepositions instead of finite conjugated verbs in dependent clauses.",
+    "languages": [
+      "br"
+    ]
+  },
+  {
+    "id": "fact-169",
+    "title": "Did you know?",
+    "explanation": "Chuvash is the sole surviving representative of the Oghur (Lir-Turkic) branch, differing fundamentally from Common Turkic (Shaz-Turkic) by exhibiting rhotacism (*z -> r) and lambdacism (*š -> l).",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-170",
+    "title": "Did you know?",
+    "explanation": "Comparative Turkic sound law: Where Common Turkic (Tatar/Turkish) has final '-z', Chuvash systematically displays '-r':",
+    "list": [
+      "Tatar 'küz' (eye) <-> Chuvash 'kur'",
+      "Tatar 'qız' (girl) <-> Chuvash 'xĕr'",
+      "Tatar 'biz' (we) <-> Chuvash 'epir'"
+    ],
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-171",
+    "title": "Did you know?",
+    "explanation": "Comparative Turkic sound law: Where Common Turkic has final '-š', Chuvash displays '-l':",
+    "list": [
+      "Tatar 'taş' (stone) <-> Chuvash 'tul'",
+      "Tatar 'qış' (winter) <-> Chuvash 'xĕll'"
+    ],
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-172",
+    "title": "Did you know?",
+    "explanation": "Chuvash preserves archaic Bulgar Turkic features that entered early Finno-Ugric and Hungarian loanword strata over a thousand years ago.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-173",
+    "title": "Did you know?",
+    "explanation": "Chuvash nominal system employs 8 case suffixes (Nominative, Genitive, Objective/Dative, Ablative, Instrumental, Comitative, Locative, Causal).",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-174",
+    "title": "Did you know?",
+    "explanation": "Chuvash exhibits strict palatal vowel harmony, categorizing vowels into front (ä, e, i, ĕ) and back (a, u, ı, ă) groups.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-175",
+    "title": "Did you know?",
+    "explanation": "Chuvash possesses reduced extra-short vowels ('ă' /ă/ and 'ĕ' /ĕ/) that undergo syncope in unaccented word-final syllables.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-176",
+    "title": "Did you know?",
+    "explanation": "Chuvash verb system distinguishes between direct witnessed past (-r-) and indirect non-witnessed/evidential past (-n-).",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-177",
+    "title": "Did you know?",
+    "explanation": "Chuvash possessive declension attaches possessive suffixes before case suffixes, following agglutinative Turkic ordering rules.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-178",
+    "title": "Did you know?",
+    "explanation": "Chuvash negation uses the particle 'an' for imperative mood and verb-final suffix '-m' for indicative tenses.",
+    "languages": [
+      "cv"
+    ]
+  },
+  {
+    "id": "fact-179",
+    "title": "Did you know?",
+    "explanation": "Tatar belongs to the Kipchak (Northwestern) branch of Turkic languages, featuring aggressive vowel harmony and agglutinative affixation.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-180",
+    "title": "Did you know?",
+    "explanation": "Tatar undergoes historic Volga-Turkic vowel shift, where Proto-Turkic *a shifted to rounded /o/ or /å/ and *e shifted to /i/.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-181",
+    "title": "Did you know?",
+    "explanation": "Tatar nominal declension employs 6 case markers: Nominative, Genitive, Dative, Accusative, Locative, and Ablative.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-182",
+    "title": "Did you know?",
+    "explanation": "Tatar verbal system utilizes auxiliary verbs ('paryu', 'chıqu', 'kılu') paired with gerund forms (-p / -ıp) to express aspectual nuances.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-183",
+    "title": "Did you know?",
+    "explanation": "Tatar possessive suffixes attach directly to stems, causing final voiceless stops (k, q, p) to voice intervocalically (e.g. 'kitap' -> 'kitabı').",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-184",
+    "title": "Did you know?",
+    "explanation": "Tatar utilizes non-witnessed / indirect past tense in '-gan / -gän' to indicate reported speech or late realization of facts.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-185",
+    "title": "Did you know?",
+    "explanation": "Tatar exhibits strict SOV (Subject-Object-Verb) word order where postpositions ('öchen', 'mıdan') follow genitive or nominative nouns.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-186",
+    "title": "Did you know?",
+    "explanation": "Tatar interrogative particle '-my / -me' harmonizes with the preceding stem vowel and attaches directly to the focus word.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-187",
+    "title": "Did you know?",
+    "explanation": "Tatar lacks grammatical gender entirely; third-person singular pronoun 'ul' means 'he', 'she', and 'it' interchangeably.",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-188",
+    "title": "Did you know?",
+    "explanation": "Tatar plural suffix '-lar / -lär' converts to '-nar / -när' when following nasal consonants (m, n, ŋ).",
+    "languages": [
+      "tt"
+    ]
+  },
+  {
+    "id": "fact-189",
+    "title": "Did you know?",
+    "explanation": "Bashkir belongs to the Kipchak-Bulgar sub-branch of Turkic, distinguished by a sound shift converting Proto-Turkic initial *s- into /h-/.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-190",
+    "title": "Did you know?",
+    "explanation": "Comparative Turkic sound law: Proto-Turkic initial *s- corresponds systematically to Bashkir /h-/:",
+    "list": [
+      "Tatar 'sut' (milk) <-> Bashkir 'hüt'",
+      "Tatar 'süz' (word) <-> Bashkir 'hüz'",
+      "Tatar 'sen' (you) <-> Bashkir 'hine'"
+    ],
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-191",
+    "title": "Did you know?",
+    "explanation": "Bashkir phonology contains dental fricatives /θ/ (written ҙ) and /ð/ (written ҫ) that evolved from intervocalic and final Proto-Turkic *z and *s.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-192",
+    "title": "Did you know?",
+    "explanation": "Bashkir exhibits complex assimilation of case and plural suffixes, yielding up to 16 phonetic surface variants for a single case suffix.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-193",
+    "title": "Did you know?",
+    "explanation": "Bashkir noun inflection uses 6 case categories attached via agglutinative post-stem suffix chains.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-194",
+    "title": "Did you know?",
+    "explanation": "Bashkir verb morphology uses the suffix '-a / -ä' or '-o / -ö' for present-future tense depending on stem vowel rounding.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-195",
+    "title": "Did you know?",
+    "explanation": "Bashkir participates in Volga Turkic vowel rotation, shifting Proto-Turkic short high vowels to reduced mid vowels.",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-196",
+    "title": "Did you know?",
+    "explanation": "Bashkir possessive constructions use Genitive noun + head noun with possessive suffix (e.g., 'äse-neŋ öy-ö' = mother's house).",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-197",
+    "title": "Did you know?",
+    "explanation": "Bashkir evidential mood suffix '-ğan / -gän' distinguishes secondhand narrative reporting from eyewitnessed experience (-to / -te).",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-198",
+    "title": "Did you know?",
+    "explanation": "Bashkir postpositions require preceding complement nouns to appear in specific cases (Nominative, Genitive, or Ablative).",
+    "languages": [
+      "ba"
+    ]
+  },
+  {
+    "id": "fact-199",
+    "title": "Did you know?",
+    "explanation": "Modern Greek is the sole surviving direct descendant of the Hellenic branch of Indo-European, possessing recorded written history across 34 centuries.",
+    "languages": [
+      "el"
+    ]
+  },
+  {
+    "id": "fact-200",
+    "title": "Did you know?",
+    "explanation": "Modern Greek reduced Classical Greek's complex 9-vowel system (with long/short distinction) to a symmetrical 5-vowel system (/a/, /e/, /i/, /o/, /u/) via iotacism.",
+    "languages": [
+      "el"
+    ]
+  }
+]

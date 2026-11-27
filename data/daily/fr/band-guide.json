@@ -1,0 +1,86 @@
+{
+  "lang": "fr",
+  "ui": {
+    "what": "Ce que ce niveau attend",
+    "focus": "Langue à viser :",
+    "canDo": "À ce niveau, vous pouvez :",
+    "length": "Longueur typique :",
+    "exams": "Certifié par :"
+  },
+  "bands": {
+    "a0-a1": {
+      "label": "A0-A1 · Découverte",
+      "speaking": {
+        "canDo": "Vous présenter et présenter quelqu'un, poser et répondre à des questions simples sur votre lieu de vie, votre travail et ce que vous possédez, et utiliser des expressions isolées et des phrases très courtes.",
+        "expects": "Des phrases courtes sur vous et la vie quotidienne. Répondez par des phrases complètes, même simples.",
+        "focus": "Présent, questions de base, nombres, noms du quotidien",
+        "exams": "DELF A1 · TCF"
+      },
+      "writing": {
+        "canDo": "Écrire des phrases isolées et simples sur vous, remplir un formulaire avec vos données personnelles et rédiger une carte postale ou un message court et simple.",
+        "expects": "Des phrases courtes sur vous et la vie quotidienne. Une idée par phrase, orthographe et majuscules correctes.",
+        "focus": "Présent, liens simples (et / mais / parce que), orthographe, ponctuation",
+        "exams": "DELF A1 · TCF",
+        "length": "20-40 mots"
+      }
+    },
+    "a2": {
+      "label": "A2 · Survie",
+      "speaking": {
+        "canDo": "Mener de courts échanges de routine, décrire votre famille, votre quotidien, votre environnement immédiat et des événements passés, et faire face à des transactions simples (achats, voyages, rendez-vous).",
+        "expects": "Décrivez votre quotidien, des événements passés et vos projets en quelques phrases reliées.",
+        "focus": "Temps du passé et du futur, parce que / mais / donc, collocations courantes",
+        "exams": "DELF A2 · TCF"
+      },
+      "writing": {
+        "canDo": "Écrire des notes et des messages courts et simples, une lettre ou un courriel personnel très simple, et décrire des aspects concrets de votre vie par une série de phrases simples reliées.",
+        "expects": "Décrivez votre quotidien, des événements passés et vos projets en quelques phrases reliées, et écrivez un court message informel qui remplit son objectif.",
+        "focus": "Temps du passé et du futur, paragraphes, connecteurs courants, registre informel",
+        "exams": "DELF A2 · TCF",
+        "length": "40-80 mots"
+      }
+    },
+    "b1-b2": {
+      "label": "B1-B2 · Seuil à Avancé",
+      "speaking": {
+        "canDo": "Faire face à la plupart des situations en voyage, faire un court exposé préparé, expliquer et défendre une opinion avec des raisons et des exemples, et suivre l'essentiel d'un sujet peu familier.",
+        "expects": "Donnez et défendez une opinion avec des raisons et des exemples, et traitez un sujet peu familier.",
+        "focus": "Hypothèse, connecteurs, modalisation, lexique thématique",
+        "exams": "DELF B1-B2 · TCF · TEF"
+      },
+      "writing": {
+        "canDo": "Écrire un texte suivi et clair sur des sujets familiers, des lettres personnelles décrivant des expériences et des impressions, et de courts rapports ou essais exposant le pour et le contre.",
+        "expects": "Organisez un texte avec une introduction, un développement et une conclusion, et appuyez une opinion par des raisons et des exemples.",
+        "focus": "Phrases thèmes, connecteurs, registre formel et informel, langage de l'opinion",
+        "exams": "DELF B1-B2 · TCF · TEF",
+        "length": "100-180 mots"
+      }
+    },
+    "c1-c2": {
+      "label": "C1-C2 · Autonome à Maîtrise",
+      "speaking": {
+        "canDo": "Parler avec aisance et spontanéité en cherchant peu vos mots, défendre un point de vue avec précision, concéder des contre-arguments et changer de registre entre contextes universitaire, professionnel et social.",
+        "expects": "Défendez une position avec précision, concédez des contre-arguments et adaptez votre registre.",
+        "focus": "Nominalisation, marqueurs de position, tournures idiomatiques et académiques",
+        "exams": "DALF C1-C2 · TCF · TEF"
+      },
+      "writing": {
+        "canDo": "Vous exprimer dans un texte clair et bien structuré, écrire sur des sujets complexes dans un essai, un rapport ou une lettre, et adopter un registre et une structure rhétorique adaptés au lecteur.",
+        "expects": "Défendez une position avec précision, pesez les contre-arguments et maîtrisez registre, cohésion et mise en relief sur un texte long.",
+        "focus": "Nominalisation, modalisation, syntaxe complexe, structure rhétorique, tournures académiques",
+        "exams": "DALF C1-C2 · TCF · TEF",
+        "length": "200-300 mots"
+      }
+    }
+  },
+  "chrome": {
+    "level": "Niveau :",
+    "prep": "Prép.",
+    "speak": "Parlez",
+    "words": "mots",
+    "followUps": "Questions de suivi",
+    "checklist": "Avant de terminer, vérifiez",
+    "listen": "Écouter",
+    "practice": "Pratiquer dans le Hub"
+  }
+}

@@ -1,0 +1,192 @@
+/**
+ * css/audience.css
+ * Audience Preference & Independent Accessibility Stylesheet for COSYlanguages.
+ */
+
+/* ── 2. Content Visibility Adaptation Tokens ── */
+.audience-only-children,
+.audience-only-teens,
+.audience-only-adults,
+.audience-only-seniors {
+    display: none !important;
+}
+
+/* Children Mode Visibility */
+html[data-audience="children"] .audience-only-children {
+    display: block !important;
+}
+html[data-audience="children"] .audience-only-children.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="children"] .audience-hide-children {
+    display: none !important;
+}
+
+/* Teens Mode Visibility */
+html[data-audience="teens"] .audience-only-teens {
+    display: block !important;
+}
+html[data-audience="teens"] .audience-only-teens.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="teens"] .audience-hide-teens {
+    display: none !important;
+}
+
+/* Adults Mode Visibility */
+html[data-audience="adults"] .audience-only-adults {
+    display: block !important;
+}
+html[data-audience="adults"] .audience-only-adults.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="adults"] .audience-hide-adults {
+    display: none !important;
+}
+
+/* Seniors Mode Visibility */
+html[data-audience="seniors"] .audience-only-seniors {
+    display: block !important;
+}
+html[data-audience="seniors"] .audience-only-seniors.inline-flex {
+    display: inline-flex !important;
+}
+html[data-audience="seniors"] .audience-hide-seniors {
+    display: none !important;
+}
+
+
+/* ── 3. Audience Mode Presentation Adaptations ── */
+
+/* 🎈 Children Mode Adaptations */
+html[data-audience="children"] button,
+html[data-audience="children"] .btn-primary,
+html[data-audience="children"] .btn-secondary,
+html[data-audience="children"] .sd-jump-link,
+html[data-audience="children"] .lang-card {
+    min-height: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: var(--r-xl, 32px);
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
+html[data-audience="children"] .hero-tag {
+    background: #FFECB3;
+    color: #8D6E63;
+    font-size: 1.1rem;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+html[data-audience="children"] .course-card {
+    border-radius: 24px;
+    border: 3px solid rgba(65, 107, 73, 0.2);
+}
+
+
+/* ⚡ Teens Mode Adaptations */
+html[data-audience="teens"] .hero-tag {
+    background: #E1F5FE;
+    color: #0288D1;
+    font-weight: 800;
+}
+
+html[data-audience="teens"] .tool-pill,
+html[data-audience="teens"] .teen-speed-chip {
+    background: #E8EAF6;
+    color: #3F51B5;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+html[data-audience="teens"] .course-card {
+    border-left: 4px solid #3F51B5;
+}
+
+
+/* 🎯 Adults Mode Adaptations */
+html[data-audience="adults"] .hero-tag {
+    background: var(--sage-light, #e8f0e9);
+    color: var(--sage-dark, #375742);
+    font-weight: 700;
+}
+
+html[data-audience="adults"] .adult-goal-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: var(--cosy-semantic-warning-light);
+    color: var(--cosy-semantic-warning);
+    border: 1px solid var(--cosy-semantic-warning);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+html[data-audience="adults"] .adult-time-estimate {
+    font-size: 0.82rem;
+    color: var(--muted, #5c5957);
+    font-weight: 600;
+}
+
+
+/* 🕶️ Seniors Mode Adaptations */
+html[data-audience="seniors"] {
+    line-height: 1.7;
+}
+
+html[data-audience="seniors"] body {
+    font-size: 1.1rem;
+}
+
+html[data-audience="seniors"] .hero-h1,
+html[data-audience="seniors"] h1,
+html[data-audience="seniors"] h2,
+html[data-audience="seniors"] h3 {
+    letter-spacing: 0.02em;
+    color: #111111;
+}
+
+html[data-audience="seniors"] .course-card,
+html[data-audience="seniors"] .tool-card,
+html[data-audience="seniors"] .step,
+html[data-audience="seniors"] button,
+html[data-audience="seniors"] .btn-primary,
+html[data-audience="seniors"] .btn-secondary {
+    border: 2px solid #222222 !important;
+}
+
+html[data-audience="seniors"] p,
+html[data-audience="seniors"] .hero-sub,
+html[data-audience="seniors"] .sec-p {
+    color: var(--cosy-color-ink) !important;
+}
+
+
+/* ── 4. Independent Accessibility Settings ── */
+
+/* Text Scaling Multipliers */
+html[data-text-scale="1.15"] {
+    font-size: 115%;
+}
+
+html[data-text-scale="1.25"] {
+    font-size: 125%;
+}
+
+html[data-text-scale="1.40"] {
+    font-size: 140%;
+}
+
+/* Reduced Motion Override */
+html[data-reduced-motion="true"] *,
+html[data-reduced-motion="true"] *::before,
+html[data-reduced-motion="true"] *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+}

@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="../shared/js/cosy-theme.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interactive Comparative Language Atlas · COSYlanguages</title>
+<meta name="description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Eurasiatic, Borean), grammar matrix, sound shifts, and transfer insights.">
+<meta property="og:title" content="Interactive Comparative Language Atlas · COSYlanguages">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/comparative/index.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+<meta property="og:description" content="Explore interactive 3D language family trees, phylogenetic hypotheses (Nostratic, Eurasiatic, Borean), grammar matrix, sound shifts, and transfer insights.">
+<meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+<link rel="icon" href="../images/logos/cosylanguages.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#FAF7F2">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/home.css">
+<link rel="stylesheet" href="../css/modern.css">
+<link rel="stylesheet" href="word-explorer.css">
+<link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/comparative/">
+
+<!-- Three.js Libraries for 3D Tree Renderer -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js" defer></script>
+
+<style>
+  /* Extended Atlas Layout & Canvas Styling */
+  .atlas-hero {
+    background: linear-gradient(180deg, var(--cosy-color-surface, #FFFDF9) 0%, var(--warm-white, #FAF7F2) 100%);
+    padding: 3rem 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .atlas-view-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .atlas-tab-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 0.65rem 1.25rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .atlas-tab-btn:hover {
+    border-color: var(--sage-deep, #2e5a44);
+    color: var(--ink);
+  }
+
+  .atlas-tab-btn.active {
+    background: var(--cosy-color-sage-dark, #375742);
+    color: var(--cosy-on-sage-dark, #ffffff);
+    border-color: var(--cosy-color-sage-dark, #375742);
+    box-shadow: 0 4px 12px rgba(46, 90, 68, 0.2);
+  }
+
+  html[data-theme="dark"] .atlas-tab-btn.active,
+  body.theme-dark .atlas-tab-btn.active {
+    background: #2D4A37;
+    border-color: #6f9a78;
+    color: #E8F0E9;
+  }
+
+  .atlas-view-panel {
+    display: none;
+    margin-top: 1.5rem;
+  }
+
+  .atlas-view-panel.active {
+    display: block;
+  }
+
+  /* 3D Viewport Box */
+  .tree-3d-wrapper {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    background: #0f1419;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5), 0 10px 30px rgba(0,0,0,0.15);
+  }
+
+  #tree-3d-canvas-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Floating Overlay HUD Controls */
+  .hud-control-panel {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    background: rgba(15, 20, 25, 0.88);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 1rem;
+    color: var(--cosy-on-brand);
+    max-width: 330px;
+  }
+
+  .hud-title {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #90caf9;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+  }
+
+  .hud-select {
+    width: 100%;
+    padding: 0.45rem;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: var(--cosy-on-brand);
+    font-size: 0.88rem;
+    margin-bottom: 0.6rem;
+    outline: none;
+  }
+
+  .hud-select option {
+    background: #1a2129;
+    color: var(--cosy-on-brand);
+  }
+
+  .hud-search-box {
+    position: relative;
+    margin-bottom: 0.6rem;
+  }
+
+  .hud-input {
+    width: 100%;
+    padding: 0.45rem 0.75rem;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--cosy-on-brand);
+    font-size: 0.88rem;
+    outline: none;
+  }
+
+  .hud-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .hud-actions {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .hud-btn {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--cosy-on-brand);
+    padding: 0.4rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    text-align: center;
+  }
+
+  .hud-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .hud-btn.active-mode {
+    background: #01579B;
+    border-color: #01579B;
+  }
+
+  .hud-chip-btn {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: var(--cosy-on-brand);
+    font-size: 0.72rem;
+    cursor: pointer;
+  }
+
+  .hud-chip-btn.selected {
+    background: #2e7d32;
+    border-color: #2e7d32;
+  }
+
+  /* Epoch Time Slider Overlay */
+  .hud-epoch-panel {
+    margin-top: 0.6rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 0.6rem;
+  }
+
+  .epoch-slider {
+    width: 100%;
+    accent-color: #42a5f5;
+  }
+
+  /* Node Inspector Drawer / Card */
+  .node-inspector-card {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 10;
+    background: rgba(15, 20, 25, 0.92);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 1.25rem;
+    color: var(--cosy-on-brand);
+    width: 360px;
+    max-height: 82%;
+    overflow-y: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    display: none;
+  }
+
+  .inspector-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+  }
+
+  .inspector-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--cosy-on-brand);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .inspector-tag {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #01579B;
+    color: var(--cosy-on-brand);
+  }
+
+  .inspector-breadcrumbs {
+    font-size: 0.76rem;
+    color: #ffd54f;
+    margin-bottom: 0.75rem;
+    background: rgba(255, 213, 79, 0.1);
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    line-height: 1.4;
+  }
+
+  .inspector-field {
+    margin-bottom: 0.6rem;
+    font-size: 0.88rem;
+    line-height: 1.4;
+  }
+
+  .inspector-label {
+    color: #90caf9;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 0.15rem;
+  }
+
+  /* Tour Narration Banner Overlay */
+  .tour-banner {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    background: rgba(10, 15, 22, 0.95);
+    border: 1px solid #42a5f5;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    color: var(--cosy-on-brand);
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    max-width: 580px;
+    width: 90%;
+    text-align: center;
+    display: none;
+  }
+
+  .tour-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #90caf9;
+    margin-bottom: 0.3rem;
+  }
+
+  .tour-desc {
+    font-size: 0.88rem;
+    line-height: 1.4;
+    color: #e0e0e0;
+  }
+
+  /* Sound Shifts Container */
+  .sound-shifts-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+  }
+
+  .audio-play-btn {
+    background: var(--sage-deep, #2e5a44);
+    color: var(--cosy-on-brand);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-left: 0.4rem;
+    transition: transform 0.15s ease;
+  }
+
+  .audio-play-btn:hover {
+    transform: scale(1.1);
+  }
+
+  /* Distance Calculator Component */
+  .dist-calc-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .dist-calc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  .dist-select-box label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    color: var(--ink);
+  }
+
+  .dist-select {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--cosy-color-cream-dark, #F4EDE2);
+    font-size: 0.9rem;
+  }
+
+  .dist-result-card {
+    grid-column: 1 / -1;
+    background: var(--cosy-color-cream-dark, #F4EDE2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    display: none;
+  }
+
+  .dist-meter-bg {
+    background: rgba(0,0,0,0.1);
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0.5rem 0 1rem;
+  }
+
+  .dist-meter-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2e7d32 0%, #f57c00 50%, #c62828 100%);
+    width: 50%;
+    transition: width 0.4s ease;
+  }
+
+  /* 2D Taxonomy Collapsible Tree */
+  .taxonomy-2d-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+  }
+
+  .taxonomy-node-item {
+    margin-left: 1.25rem;
+    border-left: 2px dashed var(--border);
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .taxonomy-node-header {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 8px;
+    background: var(--cosy-color-cream-dark, #F4EDE2);
+    cursor: pointer;
+    font-size: 0.92rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+  }
+
+  .taxonomy-node-header:hover {
+    background: var(--border);
+  }
+
+  /* Educational Research Cards */
+  .research-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .research-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+
+  .research-card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .research-card p {
+    font-size: 0.88rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin: 0 0 0.75rem;
+  }
+
+  .cognate-mini-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin-top: 0.5rem;
+  }
+
+  .cognate-mini-table th, .cognate-mini-table td {
+    padding: 0.4rem;
+    border: 1px solid var(--border);
+    text-align: left;
+  }
+
+  .cognate-mini-table th {
+    background: var(--cosy-color-cream-dark, #F4EDE2);
+    font-weight: 700;
+  }
+
+  /* Floating Hover Tooltip */
+  #tree-3d-tooltip {
+    position: fixed;
+    z-index: 1000;
+    pointer-events: none;
+    background: rgba(10, 14, 18, 0.95);
+    color: var(--cosy-on-brand);
+    padding: 0.5rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:var(--cosy-color-surface);color:var(--cosy-color-ink);" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<!-- Header Breadcrumbs -->
+<header class="sd-sticky-header" aria-label="Breadcrumb header">
+  <div class="sd-header-inner">
+    <div class="sd-breadcrumbs">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer">Master Directory 🔒 (for students)</a>
+      <span class="sep">/</span>
+      <span class="current">Comparative Atlas</span>
+    </div>
+  </div>
+</header>
+
+<!-- Atlas Hero Header -->
+<header class="atlas-hero" aria-label="Atlas Header">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <div class="journey-roadmap-header" style="margin-bottom: 0.75rem;">
+      <span class="visual-journey-badge">🌳 3D Language Tree</span>
+      <span class="journey-connector-line"></span>
+      <span class="visual-journey-badge">🧬 Sound Shifts</span>
+      <span class="journey-connector-line"></span>
+      <span class="visual-journey-badge">📐 Distance Calculator</span>
+    </div>
+    <span class="sec-tag">Interactive Comparative Atlas</span>
+    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3.2rem); color: var(--ink); margin: 0.5rem 0 1rem; font-weight: 300;">
+      Explore World Language Families
+    </h1>
+    <p style="font-size: 1.1rem; color: var(--ink-soft); line-height: 1.6; margin: 0 auto;">
+      Journey through 3D phylogenetic language trees, switch macro-family hypotheses (Nostratic, Eurasiatic, Borean), test sound shifts with audio pronunciation, and calculate kinship distance.
+    </p>
+
+    <!-- Navigation View Switcher Tabs -->
+    <div class="atlas-view-tabs" role="tablist">
+      <button type="button" class="atlas-tab-btn active" role="tab" id="tab-3d-tree" onclick="switchAtlasView('3d-tree')">
+        <span>🌐 3D Spatial Tree</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-sound-shifts" onclick="switchAtlasView('sound-shifts')">
+        <span>🗣️ Sound Shifts &amp; Audio</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-distance-calc" onclick="switchAtlasView('distance-calc')">
+        <span>📐 Kinship Calculator</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-2d-taxonomy" onclick="switchAtlasView('2d-taxonomy')">
+        <span>🌿 2D Taxonomy Tree</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-matrix" onclick="switchAtlasView('matrix')">
+        <span>📊 Grammar Matrix</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-transfer" onclick="switchAtlasView('transfer')">
+        <span>💡 Transfer Insights</span>
+      </button>
+      <button type="button" class="atlas-tab-btn" role="tab" id="tab-word-explorer" onclick="switchAtlasView('word-explorer')">
+        <span>🔤 Word Explorer</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="comp-container page" id="main-content">
+
+  <!-- Dynamic Daily Insight Card Container at the top -->
+  <div id="daily-insight-container"></div>
+
+  <!-- ==================== 1. 3D SPATIAL TREE PANEL ==================== -->
+  <section id="panel-3d-tree" class="atlas-view-panel active" aria-label="3D Language Tree Viewport">
+    <div class="tree-3d-wrapper">
+
+      <!-- Overlay HUD Controls -->
+      <div class="hud-control-panel">
+        <div class="hud-title">Macro-Phylogenetic Hypothesis</div>
+        <select id="hypothesis-select" class="hud-select" onchange="onHypothesisSelect(this.value)">
+          <option value="nostratic" selected>Nostratic &amp; Eurasiatic Model (Illich-Svitych / Greenberg)</option>
+          <option value="borean">Borean Super-Phylum Model (Starostin / Fleming)</option>
+          <option value="consensus">Consensus Historical Linguistics Model</option>
+        </select>
+
+        <div class="hud-title">Search &amp; Focus</div>
+        <div class="hud-search-box">
+          <input type="text" id="tree-search-input" class="hud-input" placeholder="Search language or family..." oninput="onTreeSearchInput(this.value)">
+        </div>
+
+        <div class="hud-title">Heatmap Visual Mode</div>
+        <div class="hud-actions" style="margin-bottom: 0.6rem;">
+          <button type="button" id="btn-hm-default" class="hud-btn active-mode" onclick="set3DHeatmap('default')">Phylogeny</button>
+          <button type="button" id="btn-hm-word_order" class="hud-btn" onclick="set3DHeatmap('word_order')">Word Order</button>
+          <button type="button" id="btn-hm-morphology" class="hud-btn" onclick="set3DHeatmap('morphology')">Morphology</button>
+        </div>
+
+        <div class="hud-title">Typological Feature Filter</div>
+        <div class="hud-actions" style="margin-bottom:0.6rem; gap:0.25rem;">
+          <button type="button" class="hud-chip-btn" onclick="toggle3DFeatureFilter('gender', this)">Gender</button>
+          <button type="button" class="hud-chip-btn" onclick="toggle3DFeatureFilter('rich_cases', this)">Rich Cases</button>
+          <button type="button" class="hud-chip-btn" onclick="toggle3DFeatureFilter('vowel_harmony', this)">Vowel Harmony</button>
+        </div>
+
+        <div class="hud-epoch-panel">
+          <div class="hud-title">Time-Travel Epoch: <span id="epoch-label" style="color:#ffd54f;">All Ages</span></div>
+          <input type="range" id="epoch-range" class="epoch-slider" min="-15000" max="2000" step="500" value="2000" oninput="onEpochSliderChange(this.value)">
+        </div>
+
+        <div class="hud-actions" style="margin-top: 0.6rem;">
+          <button type="button" class="hud-btn" onclick="startCinematicTour()">🎬 Guided Tour</button>
+          <button type="button" class="hud-btn" onclick="reset3DCamera()">Reset View</button>
+        </div>
+      </div>
+
+      <!-- Node Inspector Card Sidebar -->
+      <div id="node-inspector" class="node-inspector-card">
+        <div class="inspector-header">
+          <div class="inspector-title">
+            <span id="insp-flag">🌐</span>
+            <span id="insp-name">Language Name</span>
+          </div>
+          <button type="button" onclick="closeNodeInspector()" style="background:none; border:none; color:var(--cosy-on-brand); cursor:pointer; font-size:1.2rem;">&times;</button>
+        </div>
+        <div style="margin-bottom: 0.5rem;">
+          <span id="insp-type" class="inspector-tag">Language</span>
+          <span id="insp-status" class="inspector-tag" style="background:#2e7d32; margin-left:0.25rem;">COSYlanguages Core</span>
+        </div>
+
+        <div id="insp-breadcrumbs" class="inspector-breadcrumbs">Ancestral Path: -</div>
+
+        <div class="inspector-field">
+          <span class="inspector-label">Native / Endonym</span>
+          <span id="insp-native" style="font-weight: 600;">-</span>
+        </div>
+
+        <div class="inspector-field">
+          <span class="inspector-label">Typological Profile</span>
+          <div style="font-size: 0.82rem; color: #e0e0e0; background: rgba(255,255,255,0.05); padding: 0.5rem; border-radius: 6px; margin-top: 0.2rem;">
+            <div><strong>Word Order:</strong> <span id="insp-word-order">-</span></div>
+            <div><strong>Morphology:</strong> <span id="insp-morphology">-</span></div>
+            <div><strong>Case System:</strong> <span id="insp-cases">-</span></div>
+            <div><strong>Writing Script:</strong> <span id="insp-script">-</span></div>
+          </div>
+        </div>
+
+        <div class="inspector-field">
+          <span class="inspector-label">Summary &amp; Context</span>
+          <div id="insp-summary" style="font-size: 0.85rem; color: #cfd8dc;">-</div>
+        </div>
+
+        <div id="insp-links" style="margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.75rem; font-size: 0.85rem;">
+          <a id="insp-link-tools" href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener noreferrer" style="color: #64b5f6; display: block; margin-bottom: 0.3rem;">🔎 Open in Reference Tools</a>
+          <a id="insp-link-manual" href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer" style="color: #81c784; display: block;">🔒 Student Manual</a>
+        </div>
+      </div>
+
+      <!-- Tour Narration Overlay -->
+      <div id="tour-banner" class="tour-banner">
+        <div id="tour-title" class="tour-title">Tour Chapter</div>
+        <div id="tour-desc" class="tour-desc">Tour narration content...</div>
+        <button type="button" class="hud-btn" style="margin-top:0.5rem; background:#c62828;" onclick="stopCinematicTour()">Stop Tour</button>
+      </div>
+
+      <!-- 3D Canvas Mount Point -->
+      <div id="tree-3d-canvas-container"></div>
+    </div>
+
+    <!-- Comparative Research Insights Cards -->
+    <div class="research-card-grid">
+      <div class="research-card">
+        <h3>🧬 Nostratic &amp; Eurasiatic First Row</h3>
+        <p>In comparative linguistics (Illich-Svitych, Dolgopolsky, Greenberg), Nostratic branches into four primary clades: <strong>Afroasiatic</strong>, <strong>Kartvelian</strong>, <strong>Dravidian</strong>, and <strong>Eurasiatic</strong>.</p>
+        <p>The <strong>Eurasiatic clade</strong> encompasses Indo-European, Uralic, and Turkic (Altaic).</p>
+      </div>
+
+      <div class="research-card">
+        <h3>🗣️ Reconstructed Pronoun Cognates</h3>
+        <p>A primary argument for Eurasiatic and Nostratic unity is the conservative stability of first-person (*m*) and second-person (*t*) pronominal stems:</p>
+        <table class="cognate-mini-table">
+          <thead>
+            <tr>
+              <th scope="col">Language / Family</th>
+              <th scope="col">1st Person ('I')</th>
+              <th scope="col">2nd Person ('You')</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Proto-Nostratic</strong></td>
+              <td>*mi*</td>
+              <td>*ti*</td>
+            </tr>
+            <tr>
+              <td><strong>English (IE)</strong></td>
+              <td>Me / My</td>
+              <td>Thou / Thee</td>
+            </tr>
+            <tr>
+              <td><strong>Finnish (Uralic)</strong></td>
+              <td>Minä / Me</td>
+              <td>Sinä (*t- &gt; s-*) / Te</td>
+            </tr>
+            <tr>
+              <td><strong>Turkish (Turkic)</strong></td>
+              <td>Ben (*m- &gt; b-*) / Biz</td>
+              <td>Sen (*t- &gt; s-*) / Siz</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="research-card">
+        <h3>💡 Pedagogical Transfer Insights</h3>
+        <p>Understanding macro-family connections transforms language learning. When moving from English or French to Finnish or Turkish, recognizing shared Eurasiatic underlying structures (like agglutinative case markers and SOV/SVO word order shifts) speeds up mental mapping.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 2. SOUND SHIFTS & AUDIO PANEL ==================== -->
+  <section id="panel-sound-shifts" class="atlas-view-panel" aria-label="Phonetic Sound Shifts & Comparative Pronunciation Engine">
+    <div class="sound-shifts-container">
+      <h2 style="margin:0 0 0.5rem; font-size:1.5rem;">Phonetic Sound Shifts &amp; Comparative Pronunciation</h2>
+      <p style="margin:0 0 1rem; color:var(--ink-soft); font-size:0.92rem;">
+        Explore historical sound laws and listen to comparative audio pronunciation across cognate sets.
+      </p>
+
+      <div id="sound-shifts-list" class="research-card-grid"></div>
+
+      <!-- Insight card container below sound shifts table -->
+      <div id="sound-shifts-insight-container"></div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. KINSHIP DISTANCE CALCULATOR PANEL ==================== -->
+  <section id="panel-distance-calc" class="atlas-view-panel" aria-label="Linguistic Kinship & Distance Calculator">
+    <div class="dist-calc-container">
+      <h2 style="margin:0 0 0.5rem; font-size:1.5rem;">Linguistic Kinship &amp; Distance Calculator</h2>
+      <p style="margin:0 0 1rem; color:var(--ink-soft); font-size:0.92rem;">
+        Select any two languages or sub-families to compute phylogenetic distance, most recent common ancestor (MRCA), estimated separation timeline, and typological structural overlap.
+      </p>
+
+      <div class="dist-calc-grid">
+        <div class="dist-select-box">
+          <label for="calc-lang-a">First Language / Family (A):</label>
+          <select id="calc-lang-a" class="dist-select" onchange="calculateLinguisticDistance()"></select>
+        </div>
+
+        <div class="dist-select-box">
+          <label for="calc-lang-b">Second Language / Family (B):</label>
+          <select id="calc-lang-b" class="dist-select" onchange="calculateLinguisticDistance()"></select>
+        </div>
+      </div>
+
+      <div id="dist-result-card" class="dist-result-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+          <h3 id="dist-comparison-title" style="margin:0; font-size:1.2rem; color:var(--ink);">Language A vs Language B</h3>
+          <span id="dist-score-badge" class="inspector-tag" style="background:var(--sage-deep); font-size:0.85rem;">Phylogenetic Kinship: Close</span>
+        </div>
+
+        <div class="dist-meter-bg">
+          <div id="dist-meter-fill" class="dist-meter-fill"></div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:1rem; font-size:0.9rem; line-height:1.5;">
+          <div>
+            <strong>Most Recent Common Ancestor:</strong>
+            <div id="dist-mrca" style="color:var(--sage-deep); font-weight:700;">-</div>
+          </div>
+          <div>
+            <strong>Phylogenetic Branch Distance:</strong>
+            <div id="dist-steps" style="font-weight:700;">-</div>
+          </div>
+          <div>
+            <strong>Est. Separation Era:</strong>
+            <div id="dist-era" style="font-weight:700;">-</div>
+          </div>
+          <div>
+            <strong>Typological Compatibility:</strong>
+            <div id="dist-overlap" style="font-weight:700;">-</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Observations panel container below calculator -->
+      <div id="dist-observations-container" style="margin-top: 1.25rem;"></div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. 2D TAXONOMY TREE PANEL ==================== -->
+  <section id="panel-2d-taxonomy" class="atlas-view-panel" aria-label="2D Taxonomy Tree View">
+    <div class="taxonomy-2d-container">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <h2 style="margin:0; font-size: 1.4rem;">Taxonomic Hierarchy View</h2>
+          <p style="margin: 0.2rem 0 0; color: var(--ink-soft); font-size:0.9rem;">Collapsible 2D tree mapping ancestral descent and branch relationships.</p>
+        </div>
+        <button type="button" class="comp-btn-chip" onclick="toggleAll2DNodes()">Expand / Collapse All</button>
+      </div>
+
+      <div id="taxonomy-2d-tree-root"></div>
+    </div>
+  </section>
+
+  <!-- ==================== 5. GRAMMAR MATRIX PANEL ==================== -->
+  <section id="panel-matrix" class="atlas-view-panel" aria-label="Comparative Grammar Matrix">
+    <div class="comp-filter-panel">
+      <div class="comp-filter-header">
+        <h2>Filter Languages &amp; Categories</h2>
+        <div class="comp-action-btns">
+          <button type="button" class="comp-btn-chip" id="btn-select-all" onclick="selectAllLangs()">Select All</button>
+          <button type="button" class="comp-btn-chip" id="btn-deselect-all" onclick="deselectAllLangs()">Deselect All</button>
+        </div>
+      </div>
+
+      <div id="family-groups-container"></div>
+
+      <div class="comp-filter-bar">
+        <label for="category-select">Filter by Category:</label>
+        <select id="category-select" class="comp-cat-select" onchange="renderMatrix()">
+          <option value="all">All Categories</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="comp-matrix-wrapper">
+      <div class="comp-matrix-scroll-hint">
+        <span>↔ Scroll horizontally to compare features across languages</span>
+        <span style="font-size: 0.78rem; opacity: 0.85;">A0–A1 Comparative Matrix</span>
+      </div>
+      <div class="comp-matrix-scroll-container">
+        <table class="comp-matrix-table" id="matrix-table">
+          <thead id="matrix-head"></thead>
+          <tbody id="matrix-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Observations panel container below matrix table -->
+    <div id="matrix-observations-container" style="margin-top: 1.25rem;"></div>
+
+    <!-- Insight card container below comparison matrix table -->
+    <div id="matrix-insight-container" style="margin-top: 1.5rem;"></div>
+  </section>
+
+  <!-- ==================== 6. TRANSFER INSIGHTS PANEL ==================== -->
+  <section id="panel-transfer" class="atlas-view-panel" aria-label="Linguistic Transfer Insights">
+    <div class="comp-filter-panel">
+      <div class="comp-filter-bar">
+        <label for="known-lang-select">💡 I already know...</label>
+        <select id="known-lang-select" class="comp-cat-select" onchange="renderTransferTips()">
+          <option value="">-- Select a language you know --</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="transfer-tips-box" class="comp-transfer-tips-panel" style="display:block;">
+      <div class="comp-transfer-header">
+        <h3 id="transfer-tips-title" class="comp-transfer-title">
+          💡 Cross-Linguistic Transfer Insights
+        </h3>
+        <button type="button" onclick="clearKnownLang()" class="comp-btn-chip">Clear Selection</button>
+      </div>
+      <div id="transfer-tips-list" class="comp-transfer-grid"></div>
+    </div>
+  </section>
+
+
+  <!-- ==================== 7. WORD EXPLORER PANEL ==================== -->
+  <section id="panel-word-explorer" class="atlas-view-panel" aria-label="Word Explorer: compare one word across 14 languages">
+    <p id="we-status" class="we-status" role="status"></p>
+    <div id="we-app" hidden>
+      <div class="we-bar">
+        <div class="we-row">
+          <div class="we-search-wrap">
+            <label for="we-search" class="we-note">Search a word (English, native script or transliteration)</label>
+            <input id="we-search" type="search" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="we-results" aria-autocomplete="list" placeholder="e.g. Monday, понедельник, erkushabti">
+            <ul id="we-results" role="listbox" aria-label="Search results" hidden></ul>
+          </div>
+        </div>
+        <div id="we-concepts"></div>
+        <div class="we-row">
+          <fieldset class="we-fieldset">
+            <legend>Show</legend>
+            <label class="we-check"><input type="radio" name="we-mode" value="native"> Native script</label>
+            <label class="we-check"><input type="radio" name="we-mode" value="translit"> Transliteration</label>
+            <label class="we-check"><input type="radio" name="we-mode" value="both"> Both</label>
+          </fieldset>
+          <label class="we-check"><input type="checkbox" id="we-ipa"> IPA</label>
+          <label class="we-check"><input type="checkbox" id="we-byfam"> Group by family</label>
+          <details class="we-filter">
+            <summary>Languages</summary>
+            <div id="we-lang-filter"></div>
+            <button type="button" class="we-btn" id="we-all">All</button>
+            <button type="button" class="we-btn" id="we-none">None</button>
+          </details>
+        </div>
+      </div>
+
+      <h2 id="we-title" class="we-title" tabindex="-1"></h2>
+      <div class="we-player">
+        <button type="button" class="we-btn" id="we-play-all">▶ Play all</button>
+        <button type="button" class="we-btn" id="we-pause" hidden>⏸ Pause</button>
+        <button type="button" class="we-btn" id="we-resume" hidden>▶ Resume</button>
+        <button type="button" class="we-btn" id="we-replay" hidden>↻ Replay</button>
+        <button type="button" class="we-btn" id="we-stop" hidden>■ Stop</button>
+        <span id="we-play-status" class="we-note" role="status" aria-live="polite"></span>
+        <span id="we-audio-note" class="we-note">Audio uses your browser's voices; languages without an installed voice are disabled.</span>
+      </div>
+
+      <table class="we-table">
+        <thead><tr><th scope="col">Language</th><th scope="col">Word</th><th scope="col" id="we-th-ipa">IPA</th><th scope="col">Shared root</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead>
+        <tbody id="we-body"></tbody>
+      </table>
+
+      <div class="we-panel-grid">
+        <div id="we-legend" class="we-legend" hidden></div>
+        <div id="we-observations" class="we-obs" hidden></div>
+        <div id="we-insights" hidden></div>
+      </div>
+      <div id="we-stats" class="we-stats"></div>
+      <p class="we-note">Words and IPA come from <a href="https://github.com/cosylanguages/COSYdata">COSYdata</a>. Shared-root information is draft data until it is marked reviewed.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- Floating Mouseover Tooltip -->
+<div id="tree-3d-tooltip"></div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="../courses/index.html" data-translate-key="footer_all_courses">All Courses 📖</a>
+      <a href="../courses/general.html">General Course 📖</a>
+      <a href="../courses/spoken.html">Spoken Course 🗣️</a>
+      <a href="../courses/exam-preparation.html">Exam Preparation 📝</a>
+      <a href="../courses/travelling.html">Travelling Course ✈️</a>
+      <a href="../courses/professional.html">Professional Course 💼</a>
+      <a href="../courses/relocation.html">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener noreferrer" data-translate-key="footer_manuals">Manuals Hub 🔒 (for students)</a>
+      <a href="../comparative/index.html" data-translate-key="footer_grammar_atlas">Grammar Atlas 🌐</a>
+      <a href="../placement-quiz.html" data-translate-key="footer_placement_quiz">Placement Quiz 📝</a>
+      <a href="https://cosylanguages.github.io/COSYmagazine/" data-translate-key="footer_magazine">Magazine 📖</a>
+      <a href="https://cosylanguages.github.io/COSYtools/" data-translate-key="footer_tools">Reference Engines 🔎</a>
+      <a href="https://cosylanguages.github.io/COSYevents/" data-translate-key="footer_events">Events 🎉</a>
+    </div>
+    <div class="footer-links-col">
+      <h3><span data-translate-key="footer_h5_project">Project</span></h3>
+      <a href="../about/index.html" data-translate-key="footer_about">Our Story 🏡</a>
+      <a href="../privacy.html" data-translate-key="footer_privacy">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/jamesyork">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
+</footer>
+
+<script src="../js/data/languages.js" defer></script>
+<script src="../js/core/engine.js" defer></script>
+<script src="../js/core/i18n.js" defer></script>
+<script src="../js/core/ui.js" defer></script>
+<script src="../js/comparative-3d.js" defer></script>
+<script src="word-explorer-core.js" defer></script>
+<script src="word-explorer.js" defer></script>
+<div id="toast"></div>
+
+<script>
+  let languageMeta = [];
+  let grammarInventory = [];
+  let transferNotes = [];
+  let treeData = null;
+  let soundShiftsData = [];
+  let dailyInsightsData = [];
+  let selectedLangCodes = new Set();
+  let activeFeatureFilters = new Set();
+  let tree3DInstance = null;
+
+  /**
+   * Dynamic Observation Engine
+   * Analyzes active language codes and produces between 2 and 5 concise observations.
+   * Gracefully returns [] if fewer than 2 valid observations exist.
+   */
+  function generateObservations(langCodes) {
+    if (!langCodes || langCodes.length === 0) return [];
+    const codeSet = new Set(langCodes);
+    const selectedLangs = languageMeta.filter(l => codeSet.has(l.code));
+    if (selectedLangs.length === 0) return [];
+
+    const candidateObs = [];
+
+    // Family counts & Latin / Native / Agglutinative roots analysis
+    const romanceLangs = selectedLangs.filter(l => l.family === 'Romance');
+    const germanicLangs = selectedLangs.filter(l => l.family === 'Germanic');
+    const turkicLangs = selectedLangs.filter(l => l.family === 'Turkic');
+    const slavicLangs = selectedLangs.filter(l => l.family === 'Slavic');
+
+    if (romanceLangs.length >= 2) {
+      candidateObs.push(`${romanceLangs.length} languages (${romanceLangs.map(l => l.name_en).join(', ')}) belong to the Romance family and share Latin-derived roots.`);
+    } else if (romanceLangs.length === 1 && selectedLangs.length >= 3) {
+      candidateObs.push(`${romanceLangs[0].name_en} is the sole Romance language in this set using Latin-derived roots.`);
+    }
+
+    if (turkicLangs.length >= 2) {
+      candidateObs.push(`${turkicLangs.length} languages (${turkicLangs.map(l => l.name_en).join(', ')}) use agglutinative native roots and vowel harmony.`);
+    }
+
+    if (germanicLangs.length >= 2) {
+      candidateObs.push(`${germanicLangs.length} languages (${germanicLangs.map(l => l.name_en).join(', ')}) belong to the Germanic family and share Grimm's Law sound shifts.`);
+    }
+
+    if (slavicLangs.length >= 2) {
+      candidateObs.push(`${slavicLangs.length} languages (${slavicLangs.map(l => l.name_en).join(', ')}) share close Slavic cognate roots and rich case systems.`);
+    }
+
+    // Specific language quirks & unique historical/structural features
+    if (codeSet.has('pt')) {
+      candidateObs.push('Portuguese is the only Romance language using numbered weekdays (segunda-feira, terça-feira) instead of Roman god names.');
+    }
+
+    if (codeSet.has('hy')) {
+      candidateObs.push('Armenian represents an independent primary branch of Indo-European with a unique alphabet and naming system.');
+    }
+
+    if (codeSet.has('ka')) {
+      candidateObs.push('Georgian belongs to the indigenous Kartvelian family, featuring complex consonant clusters and split ergativity.');
+    }
+
+    if (codeSet.has('el')) {
+      candidateObs.push('Greek forms its own independent Indo-European branch with over 3,000 years of unbroken written tradition.');
+    }
+
+    if (codeSet.has('br')) {
+      candidateObs.push('Breton is the only Celtic language spoken on mainland Europe, featuring initial consonant mutations.');
+    }
+
+    if (codeSet.has('cv') && (codeSet.has('tt') || codeSet.has('ba'))) {
+      candidateObs.push('Chuvash belongs to the Oghur Turkic branch, standing structurally apart from Common Turkic languages like Tatar and Bashkir.');
+    }
+
+    if (codeSet.has('tt') && codeSet.has('ba')) {
+      candidateObs.push('Tatar and Bashkir belong to the Kipchak Turkic sub-branch and share exceptionally high mutual intelligibility.');
+    }
+
+    if (codeSet.has('es') && codeSet.has('pt')) {
+      candidateObs.push('Spanish and Portuguese share ~89% lexical similarity, though their phonetic systems differ significantly.');
+    }
+
+    if (codeSet.has('en') && codeSet.has('de')) {
+      candidateObs.push('English and German are West Germanic sister languages that share fundamental core vocabulary despite English sound shifts.');
+    }
+
+    if (codeSet.has('ru') && slavicLangs.length >= 1) {
+      candidateObs.push('Russian shares close structural and cognate forms with other East Slavic languages.');
+    }
+
+    // Filter rule: strictly between 2 and 5 observations
+    if (candidateObs.length < 2) {
+      return [];
+    }
+
+    return candidateObs.slice(0, 5);
+  }
+
+  /**
+   * Component Renderer for "Interesting Observations" Panel
+   * Renders panel beneath comparisons or gracefully hides if observations < 2.
+   */
+  function renderObservationsPanel(containerId, langCodes) {
+    const el = typeof containerId === 'string' ? document.getElementById(containerId) : containerId;
+    if (!el) return;
+
+    const observations = generateObservations(langCodes);
+    if (!observations || observations.length < 2) {
+      el.innerHTML = '';
+      el.style.display = 'none';
+      return;
+    }
+
+    const html = `
+      <div class="observations-panel" role="region" aria-label="Interesting Observations">
+        <div class="observations-panel-header">
+          <span class="observations-panel-icon" aria-hidden="true">💡</span>
+          <h3 class="observations-panel-title">Interesting Observations</h3>
+        </div>
+        <ul class="observations-panel-list">
+          ${observations.map(obs => `<li>${obs}</li>`).join('')}
+        </ul>
+      </div>
+    `;
+
+    el.innerHTML = html;
+    el.style.display = 'block';
+  }
+
+  /**
+   * Reusable InsightCard Component Renderer
+   * Gracefully hides itself if insightData is null/undefined or missing fields.
+   */
+  function renderInsightCard(container, insightData, customHeading = 'Did you know?') {
+    const el = typeof container === 'string' ? document.getElementById(container) : container;
+    if (!el) return;
+
+    if (!insightData || (!insightData.explanation && (!insightData.list || insightData.list.length === 0))) {
+      el.innerHTML = '';
+      el.style.display = 'none';
+      return;
+    }
+
+    const cardId = 'insight-card-' + Math.random().toString(36).substr(2, 9);
+    const title = insightData.title || customHeading || 'Did you know?';
+    const isMobile = window.innerWidth <= 768;
+    const initialCollapsed = isMobile;
+
+    let html = `
+      <div id="${cardId}" class="insight-card ${initialCollapsed ? 'collapsed' : ''}" role="region" aria-label="${title}">
+        <div class="insight-card-header" onclick="toggleInsightCard('${cardId}')">
+          <div class="insight-card-title-wrap">
+            <span class="insight-card-icon" aria-hidden="true">💡</span>
+            <h3 class="insight-card-title">${title}</h3>
+          </div>
+          <button type="button" class="insight-card-toggle" aria-expanded="${!initialCollapsed}" aria-controls="${cardId}-body">
+            <span class="insight-toggle-text">${initialCollapsed ? 'Expand' : 'Collapse'}</span>
+            <span class="insight-card-chevron" aria-hidden="true">▼</span>
+          </button>
+        </div>
+        <div id="${cardId}-body" class="insight-card-body">
+          ${insightData.explanation ? `<p class="insight-card-explanation">${insightData.explanation}</p>` : ''}
+          ${insightData.list && insightData.list.length > 0 ? `
+            <ul class="insight-card-list">
+              ${insightData.list.map(item => `<li>${item}</li>`).join('')}
+            </ul>
+          ` : ''}
+          ${insightData.source_url ? `
+            <div class="insight-card-source">
+              <span style="opacity: 0.8;">Source: </span>
+              <a href="${insightData.source_url}" target="_blank" rel="noopener noreferrer">
+                ${insightData.source_title || insightData.source_url} ↗
+              </a>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+
+    el.innerHTML = html;
+    el.style.display = 'block';
+  }
+
+  function toggleInsightCard(cardId) {
+    const card = document.getElementById(cardId);
+    if (!card) return;
+    const isCollapsed = card.classList.toggle('collapsed');
+    const toggleBtn = card.querySelector('.insight-card-toggle');
+    const toggleText = card.querySelector('.insight-toggle-text');
+
+    if (toggleBtn) {
+      toggleBtn.setAttribute('aria-expanded', !isCollapsed);
+    }
+    if (toggleText) {
+      toggleText.textContent = isCollapsed ? 'Expand' : 'Collapse';
+    }
+  }
+
+  const CORE_LANGS = new Set(['en', 'fr', 'it', 'ru', 'el']);
+
+  const FLAG_MAP = {
+    en: '🇬🇧', fr: '🇫🇷', it: '🇮🇹', ru: '🇷🇺', el: '🇬🇷',
+    es: '🇪🇸', de: '🇩🇪', pt: '🇵🇹', hy: '🇦🇲', ka: '🇬🇪',
+    tt: '🟢', ba: '🔵', br: '🖤', cv: '🔴', fi: '🇫🇮',
+    hu: '🇭🇺', tr: '🇹🇷', zh: '🇨🇳', ar: '🇸🇦'
+  };
+
+  async function initComparativeAtlas() {
+    try {
+      const [metaRes, invRes, notesRes, treeRes, shiftsRes, insightsRes] = await Promise.all([
+        fetch('./data/language-meta.json'),
+        fetch('./data/grammar-inventory.json'),
+        fetch('./data/transfer-notes.json'),
+        fetch('./data/language-tree.json'),
+        fetch('./data/sound-shifts.json'),
+        fetch('./data/daily-insights.json')
+      ]);
+
+      languageMeta = await metaRes.json();
+      grammarInventory = await invRes.json();
+      transferNotes = await notesRes.json();
+      treeData = await treeRes.json();
+      soundShiftsData = await shiftsRes.json();
+      dailyInsightsData = await insightsRes.json();
+
+      selectedLangCodes = new Set(languageMeta.map(l => l.code));
+
+      renderFamilyControls();
+      populateCategories();
+      populateKnownLangs();
+      renderMatrix();
+      renderTransferTips();
+      render2DTaxonomyTree();
+      populateCalculatorSelects();
+      renderSoundShifts();
+      renderDailyInsights();
+
+      // Initialize 3D Engine
+      if (window.LanguageTree3D) {
+        tree3DInstance = new window.LanguageTree3D('tree-3d-canvas-container', {
+          onNodeSelect: handle3DNodeSelect,
+          onNodeHover: handle3DNodeHover
+        });
+      }
+    } catch (err) {
+      console.error('Failed to initialize Comparative Atlas:', err);
+    }
+  }
+
+  function switchAtlasView(tabId) {
+    document.querySelectorAll('.atlas-tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.atlas-view-panel').forEach(p => p.classList.remove('active'));
+
+    const activeTab = document.getElementById(`tab-${tabId}`);
+    const activePanel = document.getElementById(`panel-${tabId}`);
+
+    if (activeTab) activeTab.classList.add('active');
+    if (activePanel) activePanel.classList.add('active');
+
+    if (tabId === 'word-explorer' && window.WordExplorer) window.WordExplorer.init();
+    else if (window.WordExplorer) window.WordExplorer.stopAll();
+
+    if (tabId === '3d-tree' && tree3DInstance) {
+      setTimeout(() => tree3DInstance.onWindowResize(), 100);
+    }
+  }
+
+  function handle3DNodeSelect(node, breadcrumbs) {
+    const card = document.getElementById('node-inspector');
+    card.style.display = 'block';
+
+    document.getElementById('insp-flag').textContent = node.flag || (node.type.includes('root') ? '👑' : '🌳');
+    document.getElementById('insp-name').textContent = node.name;
+    document.getElementById('insp-type').textContent = node.type.replace('_', ' ');
+    document.getElementById('insp-status').textContent = node.cosy_status || 'ancestry';
+
+    if (breadcrumbs && breadcrumbs.length > 0) {
+      document.getElementById('insp-breadcrumbs').innerHTML = '<strong>Clade Path:</strong> ' + breadcrumbs.map(b => b.name).join(' &rarr; ');
+    } else {
+      document.getElementById('insp-breadcrumbs').textContent = '';
+    }
+
+    document.getElementById('insp-native').textContent = node.native_name || '-';
+    document.getElementById('insp-word-order').textContent = node.typology?.word_order || 'N/A';
+    document.getElementById('insp-morphology').textContent = node.typology?.morphology || 'N/A';
+    document.getElementById('insp-cases').textContent = node.typology?.case_system || 'N/A';
+    document.getElementById('insp-script').textContent = node.typology?.script || 'N/A';
+    document.getElementById('insp-summary').textContent = node.summary || '';
+
+    const langMeta = languageMeta.find(l => l.code === node.code);
+    const linkManual = document.getElementById('insp-link-manual');
+    if (langMeta && langMeta.manual_url) {
+      linkManual.href = langMeta.manual_url;
+      linkManual.style.display = 'block';
+    } else {
+      linkManual.style.display = 'none';
+    }
+  }
+
+  function handle3DNodeHover(node, event) {
+    const tooltip = document.getElementById('tree-3d-tooltip');
+    if (!node) {
+      tooltip.style.display = 'none';
+      return;
+    }
+
+    tooltip.style.display = 'block';
+    tooltip.style.left = (event.clientX + 15) + 'px';
+    tooltip.style.top = (event.clientY + 15) + 'px';
+    tooltip.innerHTML = `<strong>${node.flag || '🌳'} ${node.name}</strong> <span style="opacity:0.75; font-size:0.75rem;">(${node.type})</span>`;
+  }
+
+  function closeNodeInspector() {
+    document.getElementById('node-inspector').style.display = 'none';
+  }
+
+  function onHypothesisSelect(hypoId) {
+    if (tree3DInstance) {
+      tree3DInstance.setHypothesis(hypoId);
+    }
+    render2DTaxonomyTree();
+  }
+
+  function onTreeSearchInput(query) {
+    if (!tree3DInstance || !treeData) return;
+    const q = query.toLowerCase().trim();
+    if (!q) return;
+
+    const matched = treeData.nodes.find(n =>
+      n.name.toLowerCase().includes(q) ||
+      (n.native_name && n.native_name.toLowerCase().includes(q)) ||
+      (n.code && n.code.toLowerCase() === q)
+    );
+
+    if (matched) {
+      tree3DInstance.focusNode(matched.id);
+    }
+  }
+
+  function set3DHeatmap(mode) {
+    document.querySelectorAll('.hud-actions .hud-btn').forEach(b => b.classList.remove('active-mode'));
+    const btn = document.getElementById(`btn-hm-${mode}`);
+    if (btn) btn.classList.add('active-mode');
+
+    if (tree3DInstance) {
+      tree3DInstance.setHeatmapMode(mode);
+    }
+  }
+
+  function toggle3DFeatureFilter(feature, btnEl) {
+    if (activeFeatureFilters.has(feature)) {
+      activeFeatureFilters.delete(feature);
+      btnEl.classList.remove('selected');
+    } else {
+      activeFeatureFilters.add(feature);
+      btnEl.classList.add('selected');
+    }
+
+    if (!tree3DInstance || !treeData) return;
+
+    const matchingIds = treeData.nodes.filter(n => {
+      if (activeFeatureFilters.has('gender') && n.typology?.gender === 'None') return false;
+      if (activeFeatureFilters.has('rich_cases') && (!n.typology?.case_system || n.typology.case_system.includes('No nominal') || n.typology.case_system.includes('3 cases'))) return false;
+      if (activeFeatureFilters.has('vowel_harmony') && (!n.summary || !n.summary.includes('vowel harmony'))) return false;
+      return true;
+    }).map(n => n.id);
+
+    tree3DInstance.highlightMatchingNodes(matchingIds);
+  }
+
+  function onEpochSliderChange(val) {
+    const epochVal = parseInt(val, 10);
+    const label = document.getElementById('epoch-label');
+    if (epochVal < 0) {
+      label.textContent = `${Math.abs(epochVal).toLocaleString()} BCE`;
+    } else {
+      label.textContent = `${epochVal} CE`;
+    }
+
+    if (tree3DInstance) {
+      tree3DInstance.setEpochFilter(epochVal);
+    }
+  }
+
+  /* Audio Speech Synthesis Playback */
+  function playTextAudio(text, langCode = 'en') {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+
+    const cleanText = text.replace(/[*[\]]/g, '').trim();
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+
+    const langVoiceMap = {
+      en: 'en-US', fr: 'fr-FR', it: 'it-IT', ru: 'ru-RU',
+      el: 'el-GR', es: 'es-ES', de: 'de-DE', pt: 'pt-PT',
+      fi: 'fi-FI', tr: 'tr-TR'
+    };
+
+    utterance.lang = langVoiceMap[langCode] || 'en-US';
+    utterance.rate = 0.9;
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function renderDailyInsights() {
+    if (!dailyInsightsData || dailyInsightsData.length === 0) return;
+
+    // Pick a daily insight based on day-of-year rotation
+    const now = new Date();
+    const startOfYear = new Date(now.getFullYear(), 0, 0);
+    const diff = now - startOfYear;
+    const oneDay = 1000 * 60 * 60 * 24;
+    const dayOfYear = Math.floor(diff / oneDay);
+
+    const dailyIndex = dayOfYear % dailyInsightsData.length;
+    const topInsight = dailyInsightsData[dailyIndex];
+
+    renderInsightCard('daily-insight-container', topInsight, 'Did you know? (Daily Insight)');
+
+    // Render table-specific insights
+    const soundShiftInsight = dailyInsightsData[(dailyIndex + 1) % dailyInsightsData.length];
+    renderInsightCard('sound-shifts-insight-container', soundShiftInsight, 'Did you know? (Phonetics)');
+
+    const matrixInsight = dailyInsightsData[(dailyIndex + 2) % dailyInsightsData.length];
+    renderInsightCard('matrix-insight-container', matrixInsight, 'Did you know? (Grammar Matrix)');
+  }
+
+  function renderSoundShifts() {
+    const container = document.getElementById('sound-shifts-list');
+    if (!container || soundShiftsData.length === 0) return;
+
+    container.innerHTML = soundShiftsData.map(shift => `
+      <div class="research-card">
+        <h3>📜 ${shift.name}</h3>
+        <p><strong>Era / Context:</strong> ${shift.period}</p>
+        <p>${shift.rule}</p>
+
+        <table class="cognate-mini-table">
+          <thead>
+            <tr>
+              ${Object.keys(shift.cognates[0]).map(k => `<th scope="col" style="text-transform:capitalize;">${k}</th>`).join('')}
+              <th scope="col">Audio</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${shift.cognates.map(row => `
+              <tr>
+                ${Object.entries(row).map(([k, val]) => `<td>${val}</td>`).join('')}
+                <td>
+                  <button type="button" class="audio-play-btn" onclick="playTextAudio('${row.english || row.result || row.meaning}', 'en')" title="Listen to pronunciation">🔊</button>
+                </td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    `).join('');
+  }
+
+  /* Cinematic Guided Tour */
+  let tourTimer = null;
+  const TOUR_CHAPTERS = [
+    { nodeId: 'nostratic_root', title: 'Chapter 1: Proto-Nostratic (c. 15,000 BCE)', desc: 'Reconstructed Upper Paleolithic macro-family ancestral to Afroasiatic, Kartvelian, Dravidian, and Eurasiatic.' },
+    { nodeId: 'eurasiatic', title: 'Chapter 2: Eurasiatic Super-Clade', desc: 'Proposed by Joseph Greenberg, unifying Indo-European, Uralic, and Turkic through conservative pronominal markers (*m* / *t*).' },
+    { nodeId: 'indo_european', title: 'Chapter 3: Proto-Indo-European (c. 4,500 BCE)', desc: 'Spanning from Europe to Northern India, characterized by fusional inflection and 8 nominal cases.' },
+    { nodeId: 'germanic', title: 'Chapter 4: Germanic Branch', desc: 'Featuring English and German, marked by Grimm’s Law sound shifts and strong/weak verb divisions.' },
+    { nodeId: 'romance', title: 'Chapter 5: Romance Languages', desc: 'Evolved from Vulgar Latin across Southwestern Europe, preserving rich verbal paradigms.' },
+    { nodeId: 'uralic', title: 'Chapter 6: Uralic Family', desc: 'Agglutinative Eurasian family featuring vowel harmony and extensive case systems (Finnish, Hungarian).' },
+    { nodeId: 'turkic', title: 'Chapter 7: Turkic Family', desc: 'Prototypical agglutinative family stretching across Central Eurasia with strict SOV word order.' }
+  ];
+
+  function startCinematicTour() {
+    if (!tree3DInstance) return;
+    let index = 0;
+    const banner = document.getElementById('tour-banner');
+    const titleEl = document.getElementById('tour-title');
+    const descEl = document.getElementById('tour-desc');
+    banner.style.display = 'block';
+
+    const playChapter = () => {
+      if (index >= TOUR_CHAPTERS.length) index = 0;
+      const ch = TOUR_CHAPTERS[index];
+      titleEl.textContent = ch.title;
+      descEl.textContent = ch.desc;
+      tree3DInstance.focusNode(ch.nodeId);
+      index++;
+    };
+
+    playChapter();
+    if (tourTimer) clearInterval(tourTimer);
+    tourTimer = setInterval(playChapter, 5000);
+  }
+
+  function stopCinematicTour() {
+    if (tourTimer) clearInterval(tourTimer);
+    document.getElementById('tour-banner').style.display = 'none';
+  }
+
+  function reset3DCamera() {
+    stopCinematicTour();
+    if (tree3DInstance) tree3DInstance.resetCameraView();
+    closeNodeInspector();
+  }
+
+  /* ==================== LINGUISTIC DISTANCE CALCULATOR ==================== */
+  function populateCalculatorSelects() {
+    const selectA = document.getElementById('calc-lang-a');
+    const selectB = document.getElementById('calc-lang-b');
+    if (!selectA || !selectB || !treeData) return;
+
+    selectA.innerHTML = '';
+    selectB.innerHTML = '';
+
+    const nodes = treeData.nodes.filter(n => n.type === 'language' || n.type === 'subfamily' || n.type === 'family');
+
+    nodes.forEach(n => {
+      const optA = document.createElement('option');
+      optA.value = n.id;
+      optA.textContent = `${n.flag || '🌳'} ${n.name} (${n.type})`;
+
+      const optB = optA.cloneNode(true);
+      selectA.appendChild(optA);
+      selectB.appendChild(optB);
+    });
+
+    if (nodes.length >= 2) {
+      selectA.value = 'en';
+      selectB.value = 'fi';
+      calculateLinguisticDistance();
+    }
+  }
+
+  function getAncestralPathToRoot(nodeId, hypothesis) {
+    const path = [];
+    let currentId = nodeId;
+
+    while (currentId) {
+      const node = treeData.nodes.find(n => n.id === currentId);
+      if (!node) break;
+      path.push(node);
+      currentId = node.parents[hypothesis];
+    }
+    return path;
+  }
+
+  function calculateLinguisticDistance() {
+    const idA = document.getElementById('calc-lang-a').value;
+    const idB = document.getElementById('calc-lang-b').value;
+    const resultCard = document.getElementById('dist-result-card');
+
+    if (!idA || !idB || !treeData) return;
+
+    resultCard.style.display = 'block';
+
+    const activeHypothesis = document.getElementById('hypothesis-select')?.value || 'nostratic';
+    const nodeA = treeData.nodes.find(n => n.id === idA);
+    const nodeB = treeData.nodes.find(n => n.id === idB);
+
+    const pathA = getAncestralPathToRoot(idA, activeHypothesis);
+    const pathB = getAncestralPathToRoot(idB, activeHypothesis);
+
+    let mrcaNode = null;
+    let stepsA = 0;
+    let stepsB = 0;
+
+    for (let i = 0; i < pathA.length; i++) {
+      const foundIdx = pathB.findIndex(n => n.id === pathA[i].id);
+      if (foundIdx !== -1) {
+        mrcaNode = pathA[i];
+        stepsA = i;
+        stepsB = foundIdx;
+        break;
+      }
+    }
+
+    const totalSteps = stepsA + stepsB;
+
+    document.getElementById('dist-comparison-title').textContent = `${nodeA.name} ↔ ${nodeB.name}`;
+    document.getElementById('dist-mrca').textContent = mrcaNode ? `${mrcaNode.name} (${mrcaNode.type})` : 'Unrelated / Distant';
+    document.getElementById('dist-steps').textContent = `${totalSteps} clade steps`;
+
+    let eraText = 'c. 1,500 BCE (Bronze Age)';
+    if (totalSteps === 0) eraText = 'Identical Clade';
+    else if (totalSteps <= 2) eraText = 'c. 500 BCE - 500 CE';
+    else if (totalSteps <= 4) eraText = 'c. 4,500 - 3,000 BCE';
+    else if (totalSteps <= 6) eraText = 'c. 9,000 - 6,000 BCE';
+    else eraText = 'c. 15,000 BCE (Upper Paleolithic)';
+
+    document.getElementById('dist-era').textContent = eraText;
+
+    let matchCount = 0;
+    if (nodeA.typology && nodeB.typology) {
+      if (nodeA.typology.word_order === nodeB.typology.word_order) matchCount++;
+      if (nodeA.typology.morphology === nodeB.typology.morphology) matchCount++;
+      if (nodeA.typology.script === nodeB.typology.script) matchCount++;
+    }
+
+    const overlapPct = Math.min(100, Math.max(15, Math.round((3 - totalSteps * 0.25 + matchCount * 0.5) * 25)));
+    document.getElementById('dist-overlap').textContent = `${overlapPct}% Typological Similarity`;
+
+    const meter = document.getElementById('dist-meter-fill');
+    meter.style.width = `${Math.max(10, 100 - totalSteps * 12)}%`;
+
+    const badge = document.getElementById('dist-score-badge');
+    if (totalSteps <= 2) {
+      badge.textContent = 'Kinship: Close Sisters';
+      badge.style.background = '#2e7d32';
+    } else if (totalSteps <= 5) {
+      badge.textContent = 'Kinship: Cousins (Eurasiatic)';
+      badge.style.background = '#01579B';
+    } else {
+      badge.textContent = 'Kinship: Distant Macro-Relatives';
+      badge.style.background = '#e65100';
+    }
+
+    const langACode = nodeA.code || idA;
+    const langBCode = nodeB.code || idB;
+    renderObservationsPanel('dist-observations-container', [langACode, langBCode]);
+  }
+
+  /* ==================== 2D TAXONOMY RENDERING ==================== */
+  function render2DTaxonomyTree() {
+    const container = document.getElementById('taxonomy-2d-tree-root');
+    if (!container || !treeData) return;
+
+    const activeHypothesis = document.getElementById('hypothesis-select')?.value || 'nostratic';
+    const activeNodes = treeData.nodes.filter(n => n.hypotheses.includes(activeHypothesis));
+
+    const rootNodes = activeNodes.filter(n => n.parents[activeHypothesis] === null);
+
+    const buildNodeHtml = (node) => {
+      const children = activeNodes.filter(n => n.parents[activeHypothesis] === node.id);
+      const flag = node.flag || (node.type.includes('root') ? '👑' : '🌳');
+
+      return `
+        <div class="taxonomy-node-item">
+          <div class="taxonomy-node-header" onclick="toggleTaxonomyNode(this)">
+            <span>${children.length > 0 ? '▼' : '•'}</span>
+            <span>${flag} ${node.name}</span>
+            <small style="opacity:0.7; font-size:0.75rem;">(${node.type})</small>
+          </div>
+          ${children.length > 0 ? `
+            <div class="taxonomy-node-children">
+              ${children.map(c => buildNodeHtml(c)).join('')}
+            </div>
+          ` : ''}
+        </div>
+      `;
+    };
+
+    container.innerHTML = rootNodes.map(r => buildNodeHtml(r)).join('');
+  }
+
+  function toggleTaxonomyNode(headerEl) {
+    const childrenEl = headerEl.nextElementSibling;
+    if (childrenEl && childrenEl.classList.contains('taxonomy-node-children')) {
+      if (childrenEl.style.display === 'none') {
+        childrenEl.style.display = 'block';
+        headerEl.querySelector('span').textContent = '▼';
+      } else {
+        childrenEl.style.display = 'none';
+        headerEl.querySelector('span').textContent = '▶';
+      }
+    }
+  }
+
+  function toggleAll2DNodes() {
+    const allChildren = document.querySelectorAll('.taxonomy-node-children');
+    const isAnyHidden = Array.from(allChildren).some(c => c.style.display === 'none');
+
+    allChildren.forEach(c => {
+      c.style.display = isAnyHidden ? 'block' : 'none';
+    });
+  }
+
+  /* ==================== GRAMMAR MATRIX & TRANSFER ==================== */
+  function populateKnownLangs() {
+    const select = document.getElementById('known-lang-select');
+    if (!select) return;
+    languageMeta.forEach(l => {
+      const opt = document.createElement('option');
+      opt.value = l.code;
+      opt.textContent = `${FLAG_MAP[l.code] || '🌐'} ${l.name_en} (${l.name_native})`;
+      select.appendChild(opt);
+    });
+  }
+
+  function renderTransferTips() {
+    const knownCode = document.getElementById('known-lang-select')?.value;
+    const tipsBox = document.getElementById('transfer-tips-box');
+    const tipsList = document.getElementById('transfer-tips-list');
+    const tipsTitle = document.getElementById('transfer-tips-title');
+
+    if (!knownCode) {
+      tipsTitle.innerHTML = `💡 All Cataloged Transfer Insights`;
+      tipsList.innerHTML = transferNotes.map(note => {
+        const targetLang = languageMeta.find(l => l.code === note.target_language);
+        const knownLang = languageMeta.find(l => l.code === note.known_language);
+        const targetName = targetLang ? targetLang.name_en : note.target_language.toUpperCase();
+        const knownName = knownLang ? knownLang.name_en : note.known_language.toUpperCase();
+
+        return `
+          <div class="comp-transfer-card">
+            <div class="comp-transfer-card-header">
+              <span>${FLAG_MAP[note.known_language] || '🌐'} Knowing ${knownName} → ${FLAG_MAP[note.target_language] || '🌐'} Learning ${targetName}:</span>
+            </div>
+            <div class="comp-transfer-card-body">
+              ${note.note}
+            </div>
+          </div>
+        `;
+      }).join('');
+      return;
+    }
+
+    const knownLang = languageMeta.find(l => l.code === knownCode);
+    const matchingNotes = transferNotes.filter(n => n.known_language === knownCode);
+
+    tipsTitle.innerHTML = `💡 Transfer Insights when you know ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
+
+    if (matchingNotes.length === 0) {
+      tipsList.innerHTML = `<div style="grid-column: 1 / -1; color: var(--ink-soft); font-style: italic;">No specific transfer notes cataloged for this language yet.</div>`;
+      return;
+    }
+
+    tipsList.innerHTML = matchingNotes.map(note => {
+      const targetLang = languageMeta.find(l => l.code === note.target_language);
+      const targetName = targetLang ? targetLang.name_en : note.target_language.toUpperCase();
+      const targetFlag = FLAG_MAP[note.target_language] || '🌐';
+
+      return `
+        <div class="comp-transfer-card">
+          <div class="comp-transfer-card-header">
+            <span>→ ${targetFlag} Learning ${targetName}:</span>
+          </div>
+          <div class="comp-transfer-card-body">
+            ${note.note}
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function clearKnownLang() {
+    document.getElementById('known-lang-select').value = '';
+    renderTransferTips();
+  }
+
+  const FAMILY_DESCRIPTIONS = {
+    'Germanic': 'West & North Germanic branch of the Indo-European family',
+    'Romance': 'Descended directly from Vulgar Latin across Southern & Western Europe',
+    'Slavic': 'East, West & South Slavic branch of the Indo-European family',
+    'Hellenic': 'Independent, ancient Hellenic branch of the Indo-European family',
+    'Armenian': 'Independent single-language primary branch of Indo-European',
+    'Kartvelian': 'Indigenous South Caucasian language family',
+    'Turkic': 'Eurasian language family characterized by agglutination and vowel harmony',
+    'Celtic': 'Insular & Continental Celtic branch of Indo-European featuring consonant mutation',
+    'Uralic': 'Eurasian language family including Finno-Ugric branches',
+    'Sino-Tibetan': 'Major East Asian family with tonal phonology and logographic scripts',
+    'Afroasiatic': 'Ancient macro-family spanning North Africa and Western Asia'
+  };
+
+  function getFamilyBadgeHtml(famName) {
+    if (!famName) return '';
+    const slug = famName.toLowerCase().replace(/[^a-z]/g, '');
+    const desc = FAMILY_DESCRIPTIONS[famName] || `${famName} language family`;
+    return `<span class="family-badge family-badge-${slug}" title="${desc}">${famName}</span>`;
+  }
+
+  function renderFamilyControls() {
+    const container = document.getElementById('family-groups-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const families = {};
+    languageMeta.forEach(lang => {
+      const fam = lang.family || 'Other';
+      if (!families[fam]) families[fam] = [];
+      families[fam].push(lang);
+    });
+
+    Object.entries(families).forEach(([famName, langs]) => {
+      const groupEl = document.createElement('div');
+      groupEl.className = 'comp-family-group';
+
+      const familyLangCodes = langs.map(l => l.code);
+      const isAllFamilySelected = familyLangCodes.every(code => selectedLangCodes.has(code));
+
+      groupEl.innerHTML = `
+        <div class="comp-family-title">
+          <span>${famName} ${getFamilyBadgeHtml(famName)}</span>
+          <button type="button" class="comp-btn-chip ${isAllFamilySelected ? 'active' : ''}" onclick="toggleFamily('${famName}')">
+            ${isAllFamilySelected ? 'Deselect Family' : 'Select Family'}
+          </button>
+        </div>
+        <div class="comp-lang-chips-grid">
+          ${langs.map(l => `
+            <div class="comp-lang-chip ${selectedLangCodes.has(l.code) ? 'selected' : ''}" onclick="toggleLang('${l.code}')">
+              <span>${FLAG_MAP[l.code] || '🌐'}</span>
+              <span>${l.name_en}</span>
+              ${getFamilyBadgeHtml(l.family)}
+              ${CORE_LANGS.has(l.code) ? '' : '<small style="opacity:0.75; font-size:0.7rem; margin-left:0.2rem;">(Coming soon)</small>'}
+            </div>
+          `).join('')}
+        </div>
+      `;
+      container.appendChild(groupEl);
+    });
+  }
+
+  function populateCategories() {
+    const catSelect = document.getElementById('category-select');
+    if (!catSelect) return;
+    const categories = Array.from(new Set(grammarInventory.map(item => item.category))).sort();
+
+    categories.forEach(cat => {
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = cat.charAt(0).toUpperCase() + cat.slice(1).replace(/-/g, ' ');
+      catSelect.appendChild(opt);
+    });
+  }
+
+  function toggleLang(code) {
+    if (selectedLangCodes.has(code)) {
+      selectedLangCodes.delete(code);
+    } else {
+      selectedLangCodes.add(code);
+    }
+    renderFamilyControls();
+    renderMatrix();
+  }
+
+  function toggleFamily(famName) {
+    const familyLangs = languageMeta.filter(l => l.family === famName).map(l => l.code);
+    const isAllSelected = familyLangs.every(code => selectedLangCodes.has(code));
+
+    familyLangs.forEach(code => {
+      if (isAllSelected) {
+        selectedLangCodes.delete(code);
+      } else {
+        selectedLangCodes.add(code);
+      }
+    });
+
+    renderFamilyControls();
+    renderMatrix();
+  }
+
+  function selectAllLangs() {
+    selectedLangCodes = new Set(languageMeta.map(l => l.code));
+    renderFamilyControls();
+    renderMatrix();
+  }
+
+  function deselectAllLangs() {
+    selectedLangCodes.clear();
+    renderFamilyControls();
+    renderMatrix();
+  }
+
+  function renderMatrix() {
+    const head = document.getElementById('matrix-head');
+    const body = document.getElementById('matrix-body');
+    if (!head || !body) return;
+
+    const selectedCategory = document.getElementById('category-select').value;
+    const selectedLangs = languageMeta.filter(l => selectedLangCodes.has(l.code));
+
+    let headHtml = `
+      <tr>
+        <th scope="col" class="col-feature">Grammar Feature</th>
+        ${selectedLangs.map(l => `
+          <th scope="col" class="col-lang" title="${l.name_en} (${l.name_native}) - ${l.family || ''}">
+            <div>${FLAG_MAP[l.code] || '🌐'}</div>
+            <div style="font-size: 0.78rem; font-weight: 800; color: var(--sage-deep); text-transform: uppercase;">${l.code}${CORE_LANGS.has(l.code) ? '' : ' 🌱'}</div>
+            <div style="margin-top: 0.15rem;">${getFamilyBadgeHtml(l.family)}</div>
+            ${CORE_LANGS.has(l.code) ? '' : '<div style="font-size: 0.65rem; color: var(--ink-soft); font-weight: normal;">Coming soon</div>'}
+          </th>
+        `).join('')}
+      </tr>
+    `;
+    head.innerHTML = headHtml;
+
+    let items = grammarInventory;
+    if (selectedCategory !== 'all') {
+      items = items.filter(item => item.category === selectedCategory);
+    }
+
+    if (selectedLangs.length === 0) {
+      body.innerHTML = `<tr class="comp-no-data-row"><td colspan="100">Please select at least one language to view the comparative matrix.</td></tr>`;
+      renderObservationsPanel('matrix-observations-container', []);
+      return;
+    }
+
+    if (items.length === 0) {
+      body.innerHTML = `<tr class="comp-no-data-row"><td colspan="${selectedLangs.length + 1}">No grammar features found for this category.</td></tr>`;
+      renderObservationsPanel('matrix-observations-container', []);
+      return;
+    }
+
+    let bodyHtml = items.map(item => `
+      <tr>
+        <td class="col-feature">
+          <div class="comp-feature-info">
+            <div class="title">
+              <span>${item.title}</span>
+              <span class="badge-level">${item.cefr_level}</span>
+            </div>
+            <div class="desc">${item.description}</div>
+          </div>
+        </td>
+        ${selectedLangs.map(l => {
+          if (!CORE_LANGS.has(l.code)) {
+            return `<td class="comp-cell-status" style="font-size: 0.75rem; color: var(--ink-soft); opacity: 0.75;">Coming soon</td>`;
+          }
+          const hasFeature = item.languages.includes(l.code);
+          if (hasFeature) {
+            const manualPath = l.manual_url.startsWith('http') ? l.manual_url : ('https://cosylanguages.github.io/COSYmanuals' + l.manual_url);
+            return `
+              <td class="comp-cell-status">
+                <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener noreferrer" class="comp-cell-link" title="Open COSYtools Reference Engine">🔎 Tools</a>
+                <br>
+                <a href="${manualPath}" target="_blank" rel="noopener noreferrer" style="font-size:0.7rem; color:var(--ink-muted);" title="Manual for students">🔒 for students</a>
+              </td>
+            `;
+          } else {
+            return `<td class="comp-cell-status" style="opacity: 0.35;">❌</td>`;
+          }
+        }).join('')}
+      </tr>
+    `).join('');
+
+    body.innerHTML = bodyHtml;
+    renderObservationsPanel('matrix-observations-container', Array.from(selectedLangCodes));
+  }
+
+  document.addEventListener('DOMContentLoaded', initComparativeAtlas);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "lang": "pt",
+  "ui": {
+    "what": "O que este nível exige",
+    "focus": "Língua a que deves aspirar:",
+    "canDo": "Neste nível consegues:",
+    "length": "Comprimento típico:",
+    "exams": "Certificado por:"
+  },
+  "bands": {
+    "a0-a1": {
+      "label": "A0-A1 · Iniciação",
+      "speaking": {
+        "canDo": "Apresentares-te e apresentar outras pessoas, fazer e responder a perguntas simples sobre onde vives, o que fazes e o que tens, e usar expressões isoladas e frases muito curtas.",
+        "expects": "Frases curtas sobre ti e o dia a dia. Responde com frases completas, mesmo que simples.",
+        "focus": "Presente, perguntas básicas, números, nomes do quotidiano",
+        "exams": "CAPLE CIPLE (A1) · Celpe-Bras"
+      },
+      "writing": {
+        "canDo": "Escrever frases isoladas e simples sobre ti, preencher um formulário com os teus dados pessoais e escrever um postal ou uma mensagem curta e simples.",
+        "expects": "Frases curtas sobre ti e o dia a dia. Uma ideia por frase, ortografia e maiúsculas corretas.",
+        "focus": "Presente, ligações básicas (e / mas / porque), ortografia, pontuação",
+        "exams": "CAPLE CIPLE (A1) · Celpe-Bras",
+        "length": "20-40 palavras"
+      }
+    },
+    "a2": {
+      "label": "A2 · Elementar",
+      "speaking": {
+        "canDo": "Manter trocas breves de rotina, descrever a família, a rotina, o ambiente imediato e acontecimentos passados, e resolver transações simples como compras, viagens e marcações.",
+        "expects": "Descreve a tua rotina, acontecimentos passados e planos em algumas frases ligadas.",
+        "focus": "Tempos do passado e do futuro, porque / mas / por isso, colocações frequentes",
+        "exams": "CAPLE DEPLE (A2) · Celpe-Bras"
+      },
+      "writing": {
+        "canDo": "Escrever notas e mensagens curtas e simples, uma carta ou um email pessoal muito simples e descrever aspetos do quotidiano da tua vida numa série de frases simples ligadas.",
+        "expects": "Descreve rotina, acontecimentos passados e planos em algumas frases ligadas e escreve uma mensagem informal curta que cumpra o objetivo.",
+        "focus": "Tempos do passado e do futuro, parágrafos, conectores do quotidiano, registo informal",
+        "exams": "CAPLE DEPLE (A2) · Celpe-Bras",
+        "length": "40-80 palavras"
+      }
+    },
+    "b1-b2": {
+      "label": "B1-B2 · Limiar a Avançado",
+      "speaking": {
+        "canDo": "Lidar com a maioria das situações em viagem, fazer uma breve apresentação preparada, explicar e defender uma opinião com razões e exemplos e seguir as ideias principais de um tema desconhecido.",
+        "expects": "Dá e defende uma opinião com razões e exemplos, e aborda um tema desconhecido.",
+        "focus": "Condicionais, conectores, atenuação, léxico temático",
+        "exams": "CAPLE DIPLE (B1-B2) · Celpe-Bras"
+      },
+      "writing": {
+        "canDo": "Escrever textos claros e coesos sobre temas familiares, cartas pessoais que descrevem experiências e impressões e breves relatórios ou ensaios com prós e contras.",
+        "expects": "Organiza um texto com introdução, desenvolvimento e conclusão e sustenta uma opinião com razões e exemplos.",
+        "focus": "Frases-tópico, mecanismos de coesão, registo formal e informal, linguagem de opinião",
+        "exams": "CAPLE DIPLE (B1-B2) · Celpe-Bras",
+        "length": "100-180 palavras"
+      }
+    },
+    "c1-c2": {
+      "label": "C1-C2 · Domínio",
+      "speaking": {
+        "canDo": "Falar com fluência e espontaneidade procurando pouco as palavras, defender uma posição com precisão, admitir contra-argumentos e mudar de registo entre contextos académicos, profissionais e sociais.",
+        "expects": "Defende uma posição com precisão, admite contra-argumentos e adapta o registo.",
+        "focus": "Nominalização, marcadores de posição, expressões idiomáticas e académicas",
+        "exams": "CAPLE DAPLE (C1) · DUPLE (C2)"
+      },
+      "writing": {
+        "canDo": "Exprimir-te num texto claro e bem estruturado, escrever sobre temas complexos num ensaio, relatório ou carta e adotar o registo e a estrutura retórica adequados ao leitor.",
+        "expects": "Defende uma posição com precisão, pondera contra-argumentos e controla registo, coesão e ênfase num texto longo.",
+        "focus": "Nominalização, atenuação, sintaxe complexa, estrutura retórica, expressões académicas",
+        "exams": "CAPLE DAPLE (C1) · DUPLE (C2)",
+        "length": "200-300 palavras"
+      }
+    }
+  },
+  "chrome": {
+    "level": "Nível:",
+    "prep": "Prep.",
+    "speak": "Fala",
+    "words": "palavras",
+    "followUps": "Perguntas de seguimento",
+    "checklist": "Antes de terminares, verifica",
+    "listen": "Ouvir",
+    "practice": "Praticar no Hub"
+  }
+}
