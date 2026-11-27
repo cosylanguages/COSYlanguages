@@ -29,6 +29,8 @@
     'resume.text': "You have an unfinished assessment in progress. Would you like to resume where you left off?",
     'resume.resume': "Resume Test",
     'resume.startNew': "Start New",
+    'bank.loading': "Loading questions…",
+    'bank.error': "The question bank could not load. Check your connection and try again.",
 
     'ob.step1': "1. Select Target Language 🌍",
     'ob.step2': "2. What is your primary learning purpose? 🎯",
@@ -151,6 +153,8 @@
     'resume.text': "Vous avez une évaluation en cours. Voulez-vous reprendre là où vous vous êtes arrêté ?",
     'resume.resume': "Reprendre le test",
     'resume.startNew': "Recommencer",
+    'bank.loading': "Chargement des questions…",
+    'bank.error': "La banque de questions n'a pas pu se charger. Vérifiez votre connexion et réessayez.",
 
     'ob.step1': "1. Choisissez la langue cible 🌍",
     'ob.step2': "2. Quel est votre objectif principal ? 🎯",
@@ -273,6 +277,8 @@
     'resume.text': "Hai una valutazione in corso. Vuoi riprendere da dove ti sei fermato?",
     'resume.resume': "Riprendi il test",
     'resume.startNew': "Ricomincia",
+    'bank.loading': "Caricamento delle domande…",
+    'bank.error': "Impossibile caricare la banca delle domande. Controlla la connessione e riprova.",
 
     'ob.step1': "1. Scegli la lingua di destinazione 🌍",
     'ob.step2': "2. Qual è il tuo obiettivo principale? 🎯",
@@ -395,6 +401,8 @@
     'resume.text': "У вас есть незавершённое тестирование. Продолжить с того места, где вы остановились?",
     'resume.resume': "Продолжить тест",
     'resume.startNew': "Начать заново",
+    'bank.loading': "Загрузка вопросов…",
+    'bank.error': "Не удалось загрузить банк вопросов. Проверьте соединение и попробуйте снова.",
 
     'ob.step1': "1. Выберите целевой язык 🌍",
     'ob.step2': "2. Какова ваша основная цель обучения? 🎯",
@@ -517,6 +525,8 @@
     'resume.text': "Έχετε μια αξιολόγηση σε εξέλιξη. Θέλετε να συνεχίσετε από εκεί που σταματήσατε;",
     'resume.resume': "Συνέχιση τεστ",
     'resume.startNew': "Νέα προσπάθεια",
+    'bank.loading': "Φόρτωση ερωτήσεων…",
+    'bank.error': "Δεν ήταν δυνατή η φόρτωση της τράπεζας ερωτήσεων. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.",
 
     'ob.step1': "1. Επιλέξτε γλώσσα-στόχο 🌍",
     'ob.step2': "2. Ποιος είναι ο κύριος στόχος σας; 🎯",

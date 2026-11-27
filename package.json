@@ -4,6 +4,8 @@
   "private": true,
   "description": "COSYlanguages hub: shared daily strip and daily directory components",
   "scripts": {
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "sync:footer": "node scripts/sync-footer.js",
+    "check:footer": "node scripts/sync-footer.js --check"
   }
 }

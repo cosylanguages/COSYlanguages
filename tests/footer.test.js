@@ -133,3 +133,18 @@ test('nothing regenerates the footer at runtime', () => {
     const leftovers = PAGES.filter(file => /data-no-canonical-footer/.test(fs.readFileSync(file, 'utf8')));
     assert.deepEqual(leftovers.map(relative), [], 'data-no-canonical-footer is obsolete');
 });
+
+test('the standard footer is rendered from shared/partials/footer.html', () => {
+    // One source of truth: shared/partials/footer.html. The rendered markup is
+    // committed, so pages stay static and work without JavaScript; this test is
+    // what stops a page from drifting back into a hand-edited copy.
+    const { renderFooter } = require('../scripts/sync-footer.js');
+    const drift = [];
+    for (const file of PAGES) {
+        const name = relative(file);
+        const footer = fs.readFileSync(file, 'utf8').match(/<footer\b[\s\S]*?<\/footer>/);
+        if (!footer || !/href="(?:\.\.\/)*courses\/index\.html"/.test(footer[0])) continue;
+        if (footer[0] !== renderFooter(name)) drift.push(name);
+    }
+    assert.deepEqual(drift, [], 'run: node scripts/sync-footer.js');
+});

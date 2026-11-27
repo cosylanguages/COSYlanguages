@@ -14,7 +14,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..');
-const IGNORED_DIRS = new Set(['.git', 'node_modules', '.github']);
+// shared/partials holds fragments (the footer), not published pages.
+const IGNORED_DIRS = new Set(['.git', 'node_modules', '.github', 'partials']);
 
 function htmlFiles(dir = ROOT, found = []) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {

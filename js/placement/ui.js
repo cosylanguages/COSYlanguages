@@ -217,7 +217,20 @@
     }
   }
 
-  function startAssessment() {
+  async function startAssessment() {
+    const btn = document.getElementById('btn-start-placement');
+    const label = btn ? btn.textContent : '';
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = t('bank.loading');
+    }
+    const ready = await ensureBank();
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = label;
+    }
+    if (!ready) return showBankError();
+
     engine = new window.COSYAdaptiveEngine(null, {
       mode: selectedMode,
       targetLanguage: selectedLanguage,
@@ -228,10 +241,35 @@
     renderTestScreen();
   }
 
-  function resumeSession(sessionData) {
+  /** The banks are fetched on demand, so a start or a resume may have to wait. */
+  async function ensureBank() {
+    if (!window.COSYPlacementBanks) return false;
+    try {
+      await window.COSYPlacementBanks.load(selectedLanguage);
+      return true;
+    } catch (error) {
+      console.error('Placement question bank failed to load:', error);
+      return false;
+    }
+  }
+
+  function showBankError() {
+    const container = document.getElementById('placement-content-area');
+    if (!container) return;
+    const box = document.createElement('div');
+    box.className = 'gap-notice-box';
+    box.style.margin = '1rem 0';
+    box.setAttribute('role', 'alert');
+    box.innerHTML = `<div class="gap-notice-text">${t('bank.error')}</div>`;
+    container.prepend(box);
+  }
+
+  async function resumeSession(sessionData) {
     selectedLanguage = sessionData.sessionState.language || 'en';
     selectedPurpose = sessionData.sessionState.purpose || 'general';
     selectedMode = sessionData.sessionState.mode || 'full_diagnostic';
+
+    if (!await ensureBank()) return showBankError();
 
     engine = new window.COSYAdaptiveEngine(null, {
       mode: selectedMode,

@@ -68,9 +68,19 @@ A missing fetch means "no data yet", never "fall back to a local copy".
 ## Placement quiz (`placement-quiz.html`, `js/placement/`)
 
 Account-free CEFR check with five skill threads (grammar, vocabulary, reading,
-writing, speaking). Docs: `docs/PLACEMENT.md`. Tests: `tests/placement.test.js`.
+writing, speaking). Docs: `docs/PLACEMENT.md`. Tests: `tests/placement.test.js`,
+`tests/placement-loading.test.js`.
 
 Invariants that were broken before and must not regress:
+
+- **Banks load on demand, not on page load.** `js/placement/bank-loader.js` fetches
+  `question-bank-en.js` (192 KB) for English and
+  `question-banks-multilingual.js` (127 KB) for the other thirteen languages when
+  the learner presses Start or Resume; the quiz page ships neither as a `<script>`.
+  `startAssessment()` and `resumeSession()` are `async` and await
+  `window.COSYPlacementBanks.load(lang)` before building the engine, and a failed
+  fetch renders `bank.error` instead of a blank quiz. First load of the page is
+  ~55 KB gzip instead of ~111 KB. Do not add the banks back as page scripts.
 
 - **Prompts are localised, not reused English.** Task text lives in
   `prompts-multilingual.js` (six writing tasks A1–C2 + five speaking tasks per
@@ -203,6 +213,34 @@ or `languages/<code>/`; everything else (`css/`, `js/`, `shared/`, `images/`,
 
 Consequence worth knowing: a page that hardcodes a shade fails the suite, and a
 page that forgets `engine.js` fails it too.
+
+## Footer: one source, rendered at source time
+
+`shared/partials/footer.html` is the standard footer. `scripts/sync-footer.js`
+renders it into the 40 pages that carry it (`{{root}}` becomes the page's depth
+prefix, `{{pin}}` is the home page's "Add to home screen" link), and
+`tests/footer.test.js` fails when a page and the partial disagree — so the fix for
+a drifting footer is `npm run sync:footer`, never a hand edit. `npm run check:footer`
+reports drift without writing.
+
+This is deliberately *not* a runtime footer. An earlier `injectCanonicalFooter`
+replaced each page's footer at runtime and silently dropped the six course links;
+the partial keeps the markup in the published HTML, so no-JS readers and crawlers
+still get it, and a page can still be deleted without touching anything else.
+
+The footer is the one place this repo accepts a source-time generator. Do not
+extend the pattern to page bodies: there is no build step, and a partial that
+grows into a template engine would be one.
+
+## Why `js/core/engine.js` stays one file
+
+1428 lines, 67 KB raw / 14.5 KB gzip. Splitting it into four classic scripts keeps
+the same total gzip and adds three requests to all 51 pages; splitting it into ES
+modules would break the `window.COSY` global contract that sibling repos and the
+`onclick="COSY.*"` attributes rely on. Its inner closures share state (the nav
+render, the language panel, the mega-menu) that a file boundary would force into
+an explicit interface for no measured gain. Shrink it by deleting dead branches,
+not by moving code.
 
 ## Internationalisation (one engine, two dictionaries)
 

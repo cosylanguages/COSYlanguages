@@ -23,7 +23,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..');
-const IGNORED_DIRS = new Set(['.git', 'node_modules', '.github', 'tests', 'docs']);
+const IGNORED_DIRS = new Set(['.git', 'node_modules', '.github', 'tests', 'docs', 'partials']);
 const KERNEL = new Set(['css', 'js', 'shared', 'images', 'fonts', 'data']);
 const TOKENS = path.join(ROOT, 'shared', 'css', 'tokens.css');
 
