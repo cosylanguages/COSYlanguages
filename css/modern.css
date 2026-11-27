@@ -117,7 +117,7 @@ footer .footer-links-col a { line-height: 1.9; }
 .footer-links-col a { display: block; }
 
 /* ===== Language pages: calm the legacy ornaments ===== */
-.sec-milestone-divider, .sec-tag, .lang-sec-tone-1 .journey-line { display: none !important; }
+.sec-milestone-divider, .sec-tag { display: none !important; }
 .course-card.dark, .courses-grid .course-card {
   background: var(--cosy-surface, #fffdf8) !important;
   color: var(--ink, #2b2b26) !important;
@@ -168,12 +168,6 @@ html[data-theme="dark"] .mnemonic-box,
 html[data-theme="dark"] .value-card,
 html[data-theme="dark"] .contact-card,
 html[data-theme="dark"] .contact-cta-box,
-html[data-theme="dark"] .qr-widget-card,
-html[data-theme="dark"] .episode-card,
-html[data-theme="dark"] .comp-card,
-html[data-theme="dark"] .zine-issue-card,
-html[data-theme="dark"] .zine-guidelines-box,
-html[data-theme="dark"] .signup-card,
 html[data-theme="dark"] .level-card,
 html[data-theme="dark"] .beginner-notice,
 html[data-theme="dark"] .alphabet-card,
@@ -196,8 +190,7 @@ html[data-theme="dark"] .mp-field-tag, html[data-theme="dark"] .mp-badge { backg
 html[data-theme="dark"] .mp-section table, html[data-theme="dark"] .mp-section td, html[data-theme="dark"] .mp-section th { border-color: rgba(255,255,255,.14) !important; background: transparent !important; }
 html[data-theme="dark"] .beginner-notice p, html[data-theme="dark"] .beginner-notice li, html[data-theme="dark"] .mnemonic-box p, html[data-theme="dark"] .mnemonic-box li { color: #cfdcd1 !important; }
 html[data-theme="dark"] .mnemonic-box h3, html[data-theme="dark"] .mnemonic-box h4, html[data-theme="dark"] .beginner-notice h2,
-html[data-theme="dark"] .mp-unit h2, html[data-theme="dark"] .mp-unit h3, html[data-theme="dark"] .mp-section > h2, html[data-theme="dark"] .mp-section-title,
-html[data-theme="dark"] .mp-section .mp-unit-title, html[data-theme="dark"] .mp-section [class*="title"] { color: #eef4ef !important; }
+html[data-theme="dark"] .mp-unit h2, html[data-theme="dark"] .mp-unit h3, html[data-theme="dark"] .mp-section > h2, html[data-theme="dark"] .mp-section [class*="title"] { color: #eef4ef !important; }
 html[data-theme="dark"] .mp-section strong, html[data-theme="dark"] .mp-section em { color: inherit; }
 /* Dark mode: --sage-dark is a light text token, so it cannot back a section that carries white text */
 html[data-theme="dark"] body:not(.page-home) header.hero:not([data-flag]) {
@@ -206,13 +199,7 @@ html[data-theme="dark"] body:not(.page-home) header.hero:not([data-flag]) {
     radial-gradient(ellipse at 15% 80%, rgba(232,168,56,.12) 0%, transparent 50%),
     linear-gradient(160deg, #1c2e22 0%, #2d4a37 100%);
 }
-html[data-theme="dark"] .hero-tag, html[data-theme="dark"] .sb-label, html[data-theme="dark"] .tool-free-label { color: #d6e8d9 !important; }
-/* Badges on an inline dark gradient keep light text in both themes */
-.speak-badge[style*="gradient"] .sb-title { color: var(--cosy-on-brand) !important; }
-.speak-badge[style*="gradient"] .sb-desc { color: rgba(255,255,255,.82) !important; }
-.speak-badge[style*="gradient"] .sb-label { color: #f2c76a !important; }
 /* Small contrast lifts */
 .footer-bottom { color: inherit; opacity: .8; }
 html[data-theme="dark"] .about-breadcrumb a, html[data-theme="dark"] .breadcrumb a, html[data-theme="dark"] .course-breadcrumb a { color: #9fd3aa; }
 html[data-theme="dark"] .about-section h3, html[data-theme="dark"] .value-card h3, html[data-theme="dark"] .contact-card h3 { color: #b6dcbe; }
-html[data-theme="dark"] .zine-guidelines-title, html[data-theme="dark"] .zine-issue-card h4 { color: #eef4ef; }

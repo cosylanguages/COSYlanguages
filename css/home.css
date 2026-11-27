@@ -13,63 +13,6 @@
 .hero h1 em { font-style: italic; font-weight: 300; color: #ffe09a; }
 .hero-sub { color: rgba(255,255,255,.9); font-size: 1.1rem; margin-bottom: var(--space-xl); max-width: 540px; line-height: 1.7; }
 
-.hero-teacher span:first-child { font-size: 1.3rem; }
-
-/* Hero Review Highlight Strip */
-.hero-review-strip {
-  margin-top: var(--space-lg, 1.25rem);
-  padding: 0.65rem 1rem;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: var(--cosy-radius-lg, 16px);
-  backdrop-filter: blur(8px);
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  max-width: 540px;
-  color: var(--cosy-on-brand);
-}
-
-.hrs-stars {
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
-}
-
-.hrs-quote {
-  font-size: 0.88rem;
-  font-style: italic;
-  line-height: 1.45;
-  color: rgba(255, 255, 255, 0.95);
-}
-
-.hrs-link {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: #ffe09a;
-  text-decoration: underline;
-  transition: color 0.2s;
-}
-
-.hrs-link:hover {
-  color: var(--cosy-on-brand);
-}
-
-.sb-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--cosy-ink-gold); margin-bottom: var(--space-sm); display: block; }
-.sb-title { font-size: 1.4rem; font-weight: 600; line-height: 1.3; margin-bottom: 10px; color: var(--ink); }
-.sb-desc { font-size: .95rem; color: var(--ink-muted); line-height: 1.6; }
-
-.hstat .hs-num { color: #ffe09a; }
-.hs-num {
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  font-weight: 600;
-  display: block;
-  line-height: 1.2;
-  white-space: normal;
-  word-break: break-word;
-  overflow-wrap: break-word;
-}
-.hs-lbl { font-size: .75rem; color: var(--cosy-on-brand); font-weight: 700; text-transform: uppercase; }
-
 /* ── Reusable Section Pattern & Organic Flow Enhancements ────────────────── */
 .home-section {
   position: relative;
@@ -120,11 +63,6 @@
   border-color: rgba(255, 255, 255, 0.15);
 }
 
-#start .sec-tag-light {
-  color: #FFE09A;
-  background: rgba(255, 255, 255, 0.15);
-}
-
 #start .sec-h2 {
   color: var(--cosy-on-brand);
 }
@@ -156,29 +94,6 @@
 /* ── Journey Thread Component ────────────────────────── */
 .page-journey-container {
   position: relative;
-}
-
-.journey-thread-svg-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1040px;
-  height: 100%;
-  pointer-events: none;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.journey-thread-path {
-  stroke: var(--cosy-color-sage, #416B49);
-  stroke-width: 2.5px;
-  stroke-dasharray: 6 6;
-  opacity: 0.35;
-  fill: none;
-  vector-effect: non-scaling-stroke;
 }
 
 .sec-milestone-divider {
@@ -214,18 +129,9 @@
 }
 
 @media (max-width: 860px) {
-  .journey-thread-svg-overlay {
-    display: none;
-  }
   .milestone-badge {
     font-size: 0.72rem;
     padding: 0.25rem 0.75rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .journey-thread-path {
-    stroke-dasharray: none;
   }
 }
 
@@ -408,15 +314,9 @@
 
 /* ── Language Card Specifics ────────────────────────── */
 .lang-name { font-size: 1.05rem; font-weight: 600; margin-bottom: .2rem; }
-.lang-resource-teaser { font-size: .7rem; font-weight: 700; color: var(--cosy-ink-teal); margin-top: .8rem; text-transform: uppercase; }
 
 .ls-name { font-size: .8rem; font-weight: 600; color: var(--ink-muted); }
 .lead-capture { margin-top: .8rem; display: flex; gap: 4px; }
-
-.lang-coming-label {
-    margin-top: 2.5rem;
-    text-align: center;
-}
 
 /* ── Learn Free Hub Grid ────────────────────────────── */
 .learn-free-hub-grid {
@@ -441,20 +341,6 @@
 .learn-free-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--cosy-shadow-md);
-}
-
-.tool-free-badge {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--sage-deep, #233827);
-  background: rgba(65, 107, 73, 0.1);
-  padding: 0.25rem 0.75rem;
-  border-radius: 100px;
-  margin-bottom: 0.85rem;
-  align-self: flex-start;
 }
 
 .tool-card h3 { font-size: 1.4rem; margin-bottom: .6rem; }
@@ -512,14 +398,10 @@
 .er-body p { font-size: .92rem; color: var(--ink-soft); line-height: 1.6; }
 .er-link { background: var(--gold); color: var(--cosy-on-brand); font-weight: 700; padding: 10px 24px; border-radius: 100px; font-size: .88rem; }
 
-/* ── Calculator Specifics ───────────────────────────── */
-.calc-field label { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin-bottom: .6rem; }
-
 .calc-result { background: var(--teal-light); border: 2px solid var(--teal); border-radius: var(--r-lg); padding: 2rem 2.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem; }
 .cr-price { font-size: 3.2rem; font-weight: 600; color: var(--cosy-ink-teal); line-height: 1; }
 .cr-detail { font-size: 1.1rem; font-weight: 600; color: var(--ink-muted); margin-top: .2rem; }
 .cr-note { font-size: .8rem; font-weight: 700; color: var(--cosy-ink-teal); margin-top: .4rem; text-transform: uppercase; }
-.original-price { text-decoration: line-through; opacity: .4; font-size: 1.5rem; margin-right: 12px; vertical-align: middle; color: var(--ink); }
 .calc-note { text-align: center; margin-top: 1.5rem; font-size: .85rem; color: var(--ink-soft); }
 .calc-note a { text-decoration: underline; color: var(--sage-dark); font-weight: 700; transition: color 0.2s; }
 .calc-note a:hover { color: var(--sage-deep); }
@@ -552,13 +434,6 @@
     }
 }
 
-/* ── Homepage Refactored Styles ── */
-.hero-ctas-wrap {
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.85rem;
-}
-
 .hero .btn-secondary {
   background: rgba(255, 255, 255, 0.15);
   border-color: var(--cosy-on-brand);
@@ -582,21 +457,6 @@
   color: var(--cosy-on-brand);
 }
 
-.btn-tertiary-link {
-  font-size: 0.88rem;
-  text-decoration: underline;
-  padding: 0.5rem 0.8rem;
-}
-
-.btn-tertiary-pin {
-  font-size: 0.88rem;
-  border: none;
-  background: none;
-  text-decoration: underline;
-  cursor: pointer;
-  padding: 0.5rem 0.8rem;
-}
-
 .course-card-general {
   background: linear-gradient(135deg, var(--sage-deep), #1a2a1d);
 }
@@ -611,23 +471,9 @@
   color: white;
 }
 
-.cc-icon-img {
-  height: 50px;
-  width: auto;
-}
-
 .home-section-cta {
   text-align: center;
   margin-top: 2rem;
-}
-
-.home-lang-cta {
-  text-align: center;
-  margin-top: 3rem;
-}
-
-.lang-coming-label {
-  margin-bottom: 1rem;
 }
 
 .tool-card-actions {
@@ -641,10 +487,6 @@
   color: var(--sage-dark);
   font-weight: 700;
   font-size: 0.85rem;
-}
-
-.tool-link-spaced {
-  margin-top: 1rem;
 }
 
 .calc-details {

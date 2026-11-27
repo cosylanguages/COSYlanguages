@@ -388,6 +388,7 @@ body.theme-dark #cosy-nav {
 .cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: var(--space-md); color: var(--cosy-ink-coral); }
 .cc-desc { font-size: .94rem; line-height: 1.6; margin-bottom: var(--space-xl); opacity: .8; flex-grow: 1; min-height: 80px; }
 .cc-footer { font-size: .78rem; font-weight: 600; opacity: .5; margin-bottom: var(--space-lg); display: flex; flex-direction: column; gap: 4px; color: inherit; }
+.cc-icon-img { height: 50px; width: auto; }
 
 .tool-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; transition: all .2s; text-align: left; }
 .tool-card:hover { transform: translateY(-4px); border-color: var(--border-hover); }
