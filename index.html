@@ -249,8 +249,8 @@
       <div class="calc-configurator">
         <div class="calc-chips-bar" id="calc-chips-bar" role="group" aria-label="Price Calculator Configuration" data-i18n-aria-label="aria.priceCalculatorConfig">
           <div class="calc-chip-item">
-            <span class="chip-lbl" data-i18n="home.lblLanguage">Language:</span>
-            <select id="calc-lang" onchange="calcPrice()" class="calc-chip-select">
+            <span class="chip-lbl" id="lbl-calc-lang" data-i18n="home.lblLanguage">Language:</span>
+            <select id="calc-lang" aria-labelledby="lbl-calc-lang" onchange="calcPrice()" class="calc-chip-select">
               <option value="en" data-translate-key="english">English 🇬🇧</option>
               <option value="fr" data-translate-key="french">Français 🇫🇷</option>
               <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
@@ -260,8 +260,8 @@
           </div>
 
           <div class="calc-chip-item">
-            <span class="chip-lbl" data-i18n="home.lblCourse">Course:</span>
-            <select id="calc-type" onchange="calcPrice()" class="calc-chip-select">
+            <span class="chip-lbl" id="lbl-calc-type" data-i18n="home.lblCourse">Course:</span>
+            <select id="calc-type" aria-labelledby="lbl-calc-type" onchange="calcPrice()" class="calc-chip-select">
               <option value="general" selected data-translate-key="course_general">General Course 📖</option>
               <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
               <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
@@ -273,8 +273,8 @@
           </div>
 
           <div class="calc-chip-item" id="dur-field">
-            <span class="chip-lbl" data-i18n="home.lblDuration">Duration:</span>
-            <select id="calc-dur" onchange="calcPrice()" class="calc-chip-select">
+            <span class="chip-lbl" id="lbl-calc-dur" data-i18n="home.lblDuration">Duration:</span>
+            <select id="calc-dur" aria-labelledby="lbl-calc-dur" onchange="calcPrice()" class="calc-chip-select">
               <option value="15" data-i18n="home.min15">15 min</option>
               <option value="30" data-i18n="home.min30">30 min</option>
               <option value="60" selected data-i18n="home.min60">60 min</option>
@@ -284,8 +284,8 @@
           </div>
 
           <div class="calc-chip-item" id="pack-field">
-            <span class="chip-lbl" data-i18n="home.lblPack">Pack:</span>
-            <select id="calc-pack" onchange="calcPrice()" class="calc-chip-select">
+            <span class="chip-lbl" id="lbl-calc-pack" data-i18n="home.lblPack">Pack:</span>
+            <select id="calc-pack" aria-labelledby="lbl-calc-pack" onchange="calcPrice()" class="calc-chip-select">
               <option value="1" data-translate-key="pack_standard">1 lesson</option>
               <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
               <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
@@ -294,8 +294,8 @@
           </div>
 
           <div class="calc-chip-item">
-            <span class="chip-lbl" data-i18n="home.lblCurrency">Currency:</span>
-            <select id="calc-cur" onchange="calcPrice()" class="calc-chip-select">
+            <span class="chip-lbl" id="lbl-calc-cur" data-i18n="home.lblCurrency">Currency:</span>
+            <select id="calc-cur" aria-labelledby="lbl-calc-cur" onchange="calcPrice()" class="calc-chip-select">
               <option value="EUR" data-i18n="home.curEur">Euro (€)</option>
               <option value="USD" data-i18n="home.curUsd">Dollar ($)</option>
               <option value="RUB" data-i18n="home.curRub">Ruble (₽)</option>

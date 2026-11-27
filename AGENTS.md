@@ -133,7 +133,12 @@ node --test tests/word-explorer.test.js
 `href`/`src` must resolve on disk, every `target="_blank"` anchor must carry
 `rel="noopener noreferrer"`, and every `sitemap.xml` `<loc>` must map to a real file.
 `tests/architecture.test.js` is the guard for the shell contract (see "Shell
-contract" below). There is no build step, so these checks are the only thing
+contract" below). `tests/a11y.test.js` is the static accessibility guard: every
+page declares `<html lang>`, every image carries `alt`, every button and link has
+an accessible name, every form field is labelled, ids are unique per page and
+`aria-labelledby`/`describedby`/`controls`/`owns` references resolve. It cannot
+see contrast, focus order or target size, so those still need a browser. There is
+no build step, so these checks are the only thing
 standing between an edit and a 404 or an off-palette page. Run the whole suite with
 `node --test tests/*.test.js`.
 

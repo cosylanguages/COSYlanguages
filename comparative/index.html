@@ -587,7 +587,7 @@
       <!-- Overlay HUD Controls -->
       <div class="hud-control-panel">
         <div class="hud-title">Macro-Phylogenetic Hypothesis</div>
-        <select id="hypothesis-select" class="hud-select" onchange="onHypothesisSelect(this.value)">
+        <select id="hypothesis-select" aria-label="Macro-phylogenetic hypothesis" class="hud-select" onchange="onHypothesisSelect(this.value)">
           <option value="nostratic" selected>Nostratic &amp; Eurasiatic Model (Illich-Svitych / Greenberg)</option>
           <option value="borean">Borean Super-Phylum Model (Starostin / Fleming)</option>
           <option value="consensus">Consensus Historical Linguistics Model</option>
@@ -595,7 +595,7 @@
 
         <div class="hud-title">Search &amp; Focus</div>
         <div class="hud-search-box">
-          <input type="text" id="tree-search-input" class="hud-input" placeholder="Search language or family..." oninput="onTreeSearchInput(this.value)">
+          <input type="text" id="tree-search-input" aria-label="Search language or family" class="hud-input" placeholder="Search language or family..." oninput="onTreeSearchInput(this.value)">
         </div>
 
         <div class="hud-title">Heatmap Visual Mode</div>
@@ -614,7 +614,7 @@
 
         <div class="hud-epoch-panel">
           <div class="hud-title">Time-Travel Epoch: <span id="epoch-label" style="color:#ffd54f;">All Ages</span></div>
-          <input type="range" id="epoch-range" class="epoch-slider" min="-15000" max="2000" step="500" value="2000" oninput="onEpochSliderChange(this.value)">
+          <input type="range" id="epoch-range" aria-label="Time-travel epoch" class="epoch-slider" min="-15000" max="2000" step="500" value="2000" oninput="onEpochSliderChange(this.value)">
         </div>
 
         <div class="hud-actions" style="margin-top: 0.6rem;">
