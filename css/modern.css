@@ -91,7 +91,7 @@ p, li { text-wrap: pretty; }
 
 /* Footer: quieter, better spaced. */
 footer .footer-inner { gap: clamp(1.5rem, 4vw, 3rem); }
-footer .footer-links-col h3 {
+footer .footer-links-col h2 {
   font-family: var(--font-sans);
   font-size: 0.95rem;
   font-weight: 700;

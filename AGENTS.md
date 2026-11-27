@@ -191,6 +191,10 @@ change there recolours every sibling repo at once. It has three tiers:
 Rule of thumb: a new accent may only be introduced by retiring one. The budget is
 the signal tier, six course tracks, six levels and the semantic red/amber/green.
 
+Footers are pinned dark in both themes with `--cosy-footer-bg` (`#233827` light,
+`#1B2A20` dark). `--cosy-color-sage-deep` flips to a light ink under dark mode, so
+using it as the footer background left white text on a cream bar.
+
 ### This repository's identity is the signal tier
 
 Sage is the paper; teal is the brand. `--cosy-languages-accent`, `--btn-primary-*`,
@@ -360,6 +364,12 @@ footer injection only, which now lives in `js/core/i18n.js`.
 ## Conventions
 
 - Keep changes additive and minimal; do not delete existing functionality.
+- **Heading levels follow the outline.** A page has one `h1`; section headings are
+  `h2`; card titles are `h3`. Footer column titles are `h2` (they were `h3`, which
+  skipped a level on pages without an `h2`). Known debt: 31 card titles are still
+  `h4` inside `h2` sections (courses, language hubs, marathon pages), plus the
+  Atlas panel and the marathon intro. Changing those needs the matching CSS size
+  rules, so they wait for a visual pass.
 - **Course pages (`courses/*.html`) are half-translated by design.** Their identity
   (`<title>`, `<h1>`), shared chrome (skip link, breadcrumbs, `Main navigation`,
   pagination `aria-label`, FAQ heading, WhatsApp CTA), every call-to-action button and

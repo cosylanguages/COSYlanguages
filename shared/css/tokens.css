@@ -14,6 +14,8 @@
     --cosy-color-warm-white:             #FFFEFB;
     --cosy-color-surface:                #FFFFFF;
     --cosy-color-surface-raised:         #FFFFFF;
+    /* Footers stay dark in both themes; sage-deep flips to a light ink. */
+    --cosy-footer-bg:                    #233827;
 
     --cosy-color-ink:                    #1C1917;
     --cosy-color-ink-soft:               #4A4A4A;
@@ -531,6 +533,7 @@ html[data-theme="dark"], body.theme-dark { color-scheme: dark; }
         --cosy-color-warm-white:             #222B22;
         --cosy-color-surface:                #222B22;
         --cosy-color-surface-raised:         #262C28;
+        --cosy-footer-bg:                    #1B2A20;
 
         --cosy-color-ink:                    #E8F0E9;
         --cosy-color-ink-soft:               #C8D8C9;
@@ -614,6 +617,7 @@ html[data-theme="dark"], body.theme-dark {
     --cosy-color-warm-white:             #222B22;
     --cosy-color-surface:                #222B22;
     --cosy-color-surface-raised:         #262C28;
+    --cosy-footer-bg:                    #1B2A20;
 
     --cosy-color-ink:                    #E8F0E9;
     --cosy-color-ink-soft:               #C8D8C9;

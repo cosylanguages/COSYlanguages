@@ -872,7 +872,7 @@ html[data-theme="dark"] .mc-link, body.theme-dark .mc-link {
 
 /* Footer */
 footer {
-  background: var(--cosy-color-sage-deep);
+  background: var(--cosy-footer-bg, #233827);
   color: rgba(255,255,255,.82);
   padding: 3.5rem 2rem 2.5rem;
   font-size: .82rem;
@@ -893,7 +893,7 @@ footer {
 .footer-brand .fb-name { font-family:var(--font-serif); font-weight: 700; font-size: 1.1rem; color: var(--cosy-on-brand); }
 .footer-brand p { font-size: .78rem; opacity: .78; max-width: 220px; line-height: 1.6; color: var(--cosy-on-brand); }
 
-.footer-links-col h3 {
+.footer-links-col h2 {
   font-size: .85rem;
   font-weight: 900;
   letter-spacing: .05em;

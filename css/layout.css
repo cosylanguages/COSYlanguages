@@ -159,7 +159,7 @@ footer {
 .footer-brand .fb-name { font-family:var(--font-serif); font-weight: 600; font-size: 1.2rem; }
 .footer-brand p { font-size: .9rem; color: var(--ink-muted); line-height: 1.7; max-width: 240px; }
 
-.footer-links-col h3 { font-family:var(--font-serif); font-size: 1rem; margin-bottom: 1.2rem; }
+.footer-links-col h2 { font-family:var(--font-serif); font-size: 1rem; margin-bottom: 1.2rem; }
 .footer-links-col a {
     display: inline-flex;
     align-items: center;

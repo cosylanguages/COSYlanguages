@@ -128,3 +128,19 @@ test('navigation hover states use the signal tier, not sage', () => {
         assert.doesNotMatch(rule[1], /--sage/, `${selector} should not fall back to sage`);
     }
 });
+
+test('the footer surface stays dark in both themes', () => {
+    const values = [...tokensSource.matchAll(/--cosy-footer-bg\s*:\s*(#[0-9a-fA-F]{6})/g)].map(m => m[1]);
+    assert.ok(values.length >= 2, 'define --cosy-footer-bg for the light and dark themes');
+    for (const value of values) {
+        assert.ok(
+            contrast(value, '#FFFFFF') >= 4.5,
+            `white footer text on ${value} is ${contrast(value, '#FFFFFF').toFixed(2)}:1`
+        );
+    }
+    const lang = fs.readFileSync(path.join(ROOT, 'css', 'lang-pages.css'), 'utf8');
+    const rule = /(?:^|\n)footer\s*\{([^}]*)\}/.exec(lang);
+    assert.ok(rule, 'footer rule not found');
+    assert.match(rule[1], /--cosy-footer-bg/, 'the footer must not borrow a token that flips');
+    assert.doesNotMatch(rule[1], /--cosy-color-sage-deep/);
+});
