@@ -100,9 +100,6 @@ footer .footer-links-col h2 {
 }
 footer .footer-links-col a { line-height: 1.9; }
 
-/* Hide decorative extras that competed with content. */
-.cosy-side-dots { display: none !important; }
-
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {

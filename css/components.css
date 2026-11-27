@@ -786,8 +786,9 @@ body.page-privacy .wa-fab,
 
 html[data-theme="dark"] .back-to-top-label,
 body.theme-dark .back-to-top-label {
-  background: var(--cosy-color-cream);
+  background: var(--cosy-color-surface-raised);
   color: var(--cosy-color-ink);
+  border: 1px solid var(--cosy-color-border-hover);
 }
 
 #back-to-top:hover .back-to-top-label,
@@ -800,6 +801,141 @@ body.theme-dark .back-to-top-label {
   #back-to-top,
   #back-to-top .back-to-top-label,
   .back-to-top-ring-value {
+    transition: none;
+  }
+}
+
+/* ── Section rail: one dot per section down the right edge (desktop) ── */
+.cosy-side-dots {
+  position: fixed;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 990;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 6px;
+  background: var(--cosy-color-surface);
+  border: 1px solid var(--cosy-color-border);
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 1025px) {
+  .cosy-side-dots {
+    display: flex;
+  }
+
+  /* The rail's top chevron is the back-to-top control. */
+  #back-to-top {
+    display: none;
+  }
+}
+
+.cosy-side-dot-top,
+.cosy-side-dot {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--cosy-color-ink-faint);
+  cursor: pointer;
+}
+
+.cosy-side-dot-top {
+  margin-bottom: 6px;
+}
+
+.cosy-side-dot-top svg {
+  width: 12px;
+  height: 12px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.2s ease;
+}
+
+.cosy-side-dot-top:hover {
+  color: var(--cosy-signal-deep);
+}
+
+.cosy-side-dot-top:hover svg {
+  transform: translateY(-1px);
+}
+
+.cosy-side-dot::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--cosy-color-ink-faint);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cosy-side-dot:hover::before {
+  background: var(--cosy-signal-deep);
+  transform: scale(1.25);
+}
+
+.cosy-side-dot.active::before {
+  background: var(--cosy-signal);
+  transform: scale(1.4);
+  box-shadow: 0 0 0 3px var(--cosy-signal-soft);
+}
+
+.cosy-side-dot-top:focus-visible,
+.cosy-side-dot:focus-visible {
+  outline: none;
+  border-radius: 50%;
+  box-shadow: var(--focus-ring);
+}
+
+.cosy-dot-tooltip {
+  position: absolute;
+  right: calc(100% + 10px);
+  top: 50%;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--cosy-color-ink);
+  color: var(--cosy-color-cream);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(2px, -50%);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+html[data-theme="dark"] .cosy-dot-tooltip,
+body.theme-dark .cosy-dot-tooltip {
+  background: var(--cosy-color-surface-raised);
+  color: var(--cosy-color-ink);
+  border: 1px solid var(--cosy-color-border-hover);
+}
+
+.cosy-side-dot:hover .cosy-dot-tooltip,
+.cosy-side-dot:focus-visible .cosy-dot-tooltip,
+.cosy-side-dot-top:hover .cosy-dot-tooltip,
+.cosy-side-dot-top:focus-visible .cosy-dot-tooltip {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cosy-side-dot::before,
+  .cosy-side-dot-top svg,
+  .cosy-dot-tooltip {
     transition: none;
   }
 }

@@ -719,12 +719,17 @@ Grammar points also have an offline edition: `manuals/<lang>/print/full.html`
   share the right-hand column. It carries no text glyph — `↑` sat on a different
   weight and baseline on every platform. The label is `back_to_top` in the five UI
   dictionaries and is refreshed on `cosyI18nReady` / `cosyLanguageChanged`;
-  `prefers-reduced-motion` makes the jump instant.
-- `setupSideSectionDots()` still builds the `.cosy-side-dots` rail (one dot per
-  `<section id>`, with tooltips and an active marker), but `css/modern.css` hides
-  it. It is the ready-made section navigator if the site ever wants one; enabling
-  it means removing that `display: none !important` and checking it against the
-  floating buttons on mobile.
+  `prefers-reduced-motion` makes the jump instant. It is hidden from 1025px up,
+  where the section rail carries the back-to-top chevron instead.
+- `setupSideSectionDots()` builds the section rail: one dot per `<section id>`
+  (three or more, or there is no rail), a chevron on top that returns to the page
+  start, and a tooltip carrying the section heading. The dot whose section has
+  passed the upper quarter of the viewport is `aria-current`. The rail is fixed to
+  the right edge and shown from 1025px up; below that it is hidden and
+  `#back-to-top` is the only floating control. Above 1025px the rail's chevron
+  replaces that button, so the two never share the corner. Styles live in
+  `css/components.css` — `css/modern.css` used to hide the rail, and removing that
+  rule is what turned it on.
 
 ## Naming rule: "COSYlanguages" or "CL"
 

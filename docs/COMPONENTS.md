@@ -34,6 +34,7 @@ page or script in this repo.
 | `.sd-jump-link` | Sticky jump link | `css/components.css` | language hubs |
 | `.wa-fab` | Floating WhatsApp button | `css/components.css` | home, comparative, language hubs |
 | `#back-to-top` | Floating back-to-top button (id, not a class) | `css/components.css` | `js/core/ui.js` |
+| `.cosy-side-dots` | Section rail (dots, top chevron, tooltips) | `css/components.css` | `js/core/ui.js` |
 | `.cc-icon` | Course-card icon | `css/components.css` | home, language hubs |
 | `.cc-title` | Course-card title | `css/components.css` | home, language hubs |
 | `.cc-desc` | Course-card description | `css/components.css` | home, language hubs |

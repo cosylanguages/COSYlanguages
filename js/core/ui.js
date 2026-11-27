@@ -63,37 +63,34 @@
         const existingDots = document.querySelector('.cosy-side-dots');
         if (existingDots) existingDots.remove();
 
-        // Target main sections with explicit IDs
         const main = document.querySelector('main.page, main.content-container, main, article, #main-content') || document.body;
-        if (!main) return;
-
-        const candidateElements = main.querySelectorAll('section[id], div[id].sec-block, #how, #languages, #courses, #events, #tools, #calculator, #reviews, #start');
+        const candidates = main.querySelectorAll(
+            'section[id], div[id].sec-block, #how, #languages, #courses, #events, #tools, #calculator, #reviews, #start'
+        );
         const sections = [];
         const seen = new Set();
 
         const cleanLabelText = (rawText) => {
             if (!rawText) return '';
-            let t = rawText.replace(/[▲▼]/g, '').replace(/\s*\d+\s*(games|sessions|words|items)\s*$/gi, '').trim();
+            const t = rawText.replace(/[▲▼]/g, '').replace(/\s*\d+\s*(games|sessions|words|items)\s*$/gi, '').trim();
             if (t.length > 28) {
                 const shortText = t.split(/\s*[\u2014\-–:]\s*/)[0].trim();
-                if (shortText && shortText.length <= 28) {
-                    return shortText;
-                }
+                if (shortText && shortText.length <= 28) return shortText;
                 return t.substring(0, 25) + '...';
             }
             return t;
         };
 
-        candidateElements.forEach(el => {
+        candidates.forEach((el) => {
             const id = el.id;
             if (!id || seen.has(id)) return;
-            if (el.closest('#cosy-nav, #cosy-nav-drawer, footer, header, #pin-modal, #back-to-top')) return;
-            // Skip inner anchor divs without standalone content (such as <div id="courses"></div>)
+            if (el.closest('#cosy-nav, #cosy-nav-drawer, footer, header, #pin-modal, #back-to-top, .cosy-side-dots')) return;
             if (el.tagName === 'DIV' && !el.textContent.trim() && el.parentElement && el.parentElement.tagName === 'SECTION') return;
+            // Hidden panels (tab views) have no position to scroll to.
+            if (!el.getBoundingClientRect().height) return;
 
             const headerEl = el.querySelector('.sec-h2, .section-title, h2, h3, .sec-tag') || (el.matches('h2, h3') ? el : null);
             let rawTitle = headerEl ? headerEl.textContent.trim() : '';
-
             if (!rawTitle) {
                 const cleanId = id.replace(/^[smp]-/, '').replace(/-/g, ' ').trim();
                 rawTitle = cleanId.charAt(0).toUpperCase() + cleanId.slice(1);
@@ -106,72 +103,94 @@
             sections.push({ id, label, el });
         });
 
-        if (sections.length < 2) return;
+        // Two dots are a toggle, not a rail.
+        if (sections.length < 3) return;
 
-        const dotsContainer = document.createElement('nav');
-        dotsContainer.className = 'cosy-side-dots';
-        dotsContainer.setAttribute('aria-label', 'Section navigation dots');
+        const uiText = (key, fallback) => (typeof window.t === 'function' ? window.t(key) : '') || fallback;
 
-        const dotButtons = [];
+        const scrollTo = (top) => {
+            const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            window.scrollTo({ top: Math.max(0, top), behavior: reduce ? 'auto' : 'smooth' });
+        };
 
-        sections.forEach((sec, idx) => {
+        const rail = document.createElement('nav');
+        rail.className = 'cosy-side-dots';
+        rail.setAttribute('aria-label', uiText('section_nav', 'Section navigation'));
+
+        const topBtn = document.createElement('button');
+        topBtn.type = 'button';
+        topBtn.className = 'cosy-side-dot-top';
+        topBtn.innerHTML = `
+            <svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M6 9.5V2.5M2.5 6 6 2.5 9.5 6"></path></svg>
+            <span class="cosy-dot-tooltip" aria-hidden="true"></span>
+        `;
+        const topLabel = topBtn.querySelector('.cosy-dot-tooltip');
+        const applyLabels = () => {
+            const text = uiText('back_to_top', 'Back to top');
+            topBtn.setAttribute('aria-label', text);
+            topLabel.textContent = text;
+            rail.setAttribute('aria-label', uiText('section_nav', 'Section navigation'));
+        };
+        applyLabels();
+        document.addEventListener('cosyI18nReady', applyLabels);
+        document.addEventListener('cosyLanguageChanged', applyLabels);
+        topBtn.addEventListener('click', () => scrollTo(0));
+        rail.appendChild(topBtn);
+
+        const navOffset = () => {
+            const nav = document.getElementById('cosy-nav') || document.querySelector('.cosy-navbar');
+            return (nav ? nav.getBoundingClientRect().height : 0) + 16;
+        };
+
+        const dots = sections.map((sec) => {
             const btn = document.createElement('button');
             btn.type = 'button';
-            btn.className = 'cosy-side-dot' + (idx === 0 ? ' active' : '');
-            btn.setAttribute('aria-label', `Navigate to ${sec.label}`);
-            btn.setAttribute('data-target-id', sec.id);
+            btn.className = 'cosy-side-dot';
+            btn.dataset.targetId = sec.id;
+            btn.setAttribute('aria-label', sec.label);
 
             const tooltip = document.createElement('span');
             tooltip.className = 'cosy-dot-tooltip';
+            tooltip.setAttribute('aria-hidden', 'true');
             tooltip.textContent = sec.label;
             btn.appendChild(tooltip);
 
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-                const targetEl = document.getElementById(sec.id);
-                if (targetEl) {
-                    const offset = 80;
-                    const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
-                    const offsetPosition = elementPosition - offset;
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: prefersReducedMotion ? 'auto' : 'smooth'
-                    });
-                }
+            btn.addEventListener('click', () => {
+                const target = document.getElementById(sec.id);
+                if (target) scrollTo(target.getBoundingClientRect().top + window.scrollY - navOffset());
             });
 
-            dotsContainer.appendChild(btn);
-            dotButtons.push({ id: sec.id, btn, el: sec.el });
+            rail.appendChild(btn);
+            return { id: sec.id, btn, el: sec.el };
         });
 
-        document.body.appendChild(dotsContainer);
+        document.body.appendChild(rail);
 
-        // IntersectionObserver for tracking active section
-        const observerOptions = {
-            root: null,
-            rootMargin: '-20% 0px -60% 0px',
-            threshold: 0
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const activeId = entry.target.id;
-                    dotButtons.forEach(item => {
-                        if (item.id === activeId) {
-                            item.btn.classList.add('active');
-                            item.btn.setAttribute('aria-current', 'true');
-                        } else {
-                            item.btn.classList.remove('active');
-                            item.btn.removeAttribute('aria-current');
-                        }
-                    });
-                }
+        // The dot whose section has passed the upper quarter of the viewport is current.
+        let queued = false;
+        const updateActive = () => {
+            queued = false;
+            const line = window.innerHeight * 0.25;
+            let current = null;
+            dots.forEach((item) => {
+                const rect = item.el.getBoundingClientRect();
+                if (rect.height && rect.top <= line) current = item;
             });
-        }, observerOptions);
-
-        sections.forEach(sec => observer.observe(sec.el));
+            dots.forEach((item) => {
+                const on = item === current;
+                item.btn.classList.toggle('active', on);
+                if (on) item.btn.setAttribute('aria-current', 'true');
+                else item.btn.removeAttribute('aria-current');
+            });
+        };
+        const queueUpdate = () => {
+            if (queued) return;
+            queued = true;
+            window.requestAnimationFrame(updateActive);
+        };
+        window.addEventListener('scroll', queueUpdate, { passive: true });
+        window.addEventListener('resize', queueUpdate, { passive: true });
+        updateActive();
     };
 
     const setupHeaderShrink = () => {
