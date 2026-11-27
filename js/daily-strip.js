@@ -759,10 +759,9 @@
             const c = (this.bandGuide && this.bandGuide.chrome) || {};
             const ui = key => t(key, '');
             return {
-                level: ui('strip_level') || c.level || 'Level:', prep: ui('strip_prep') || c.prep || 'Prep',
+                level: ui('strip_level') || c.level || 'Level:',
                 speak: ui('strip_speak') || c.speak || 'Speak', words: ui('strip_words') || c.words || 'words',
-                followUps: ui('strip_follow_ups') || c.followUps || 'Follow-up questions',
-                checklist: ui('strip_checklist') || c.checklist || 'Before you finish, check'
+                followUps: ui('strip_follow_ups') || c.followUps || 'Follow-up questions'
             };
         }
 
@@ -828,26 +827,16 @@
                     </div>
                 ` : '';
 
-                // Exam-style brief. Speaking shows the exam, part, task and timings; writing shows the exam,
-                // task, genre, word target and time limit.
+                // Writing keeps the word target and the time limit; speaking keeps the speaking
+                // timer. The prompt carries the task, so exam, part, task and genre are not chips.
                 const chips = [];
                 const isSpeaking = tab.id === 'speaking';
                 const isWriting = tab.id === 'writing';
-                // A0-A1 keeps the plain task but drops the preparation timer; writing also
-                // loses the exam name, part label, time limit and self-check list.
-                const isBeginner = levelInBand(item.level, 'a0-a1');
-                const isBeginnerWriting = isWriting && isBeginner;
-                if (isSpeaking && item.exam) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
-                if (isWriting && item.exam && !isBeginnerWriting) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
+                // A0-A1 writing drops the time limit and the self-check list.
+                const isBeginnerWriting = isWriting && levelInBand(item.level, 'a0-a1');
                 // General-course cards practise the skill for its own sake: show the activity instead of an exam.
                 if (isSpeaking && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(this.activityLabel(ACTIVITY_LABELS, 'strip_activity_', item.activity))}</span>`);
                 if (isWriting && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(this.activityLabel(WRITING_ACTIVITY_LABELS, 'strip_writing_activity_', item.activity))}</span>`);
-                if (isSpeaking && item.part) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
-                if (isSpeaking && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
-                if (isWriting && item.part && !isBeginnerWriting) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
-                if (isWriting && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
-                if (isWriting && item.genre) chips.push(`<span class="daily-strip-chip daily-strip-chip-genre">${this.escapeHTML(item.genre)}</span>`);
-                if (isSpeaking && item.prepSeconds && !isBeginner) chips.push(`<span class="daily-strip-chip">⏱️ ${this.escapeHTML(chrome.prep)} ${this.escapeHTML(formatDuration(item.prepSeconds))}</span>`);
                 if (isSpeaking && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ ${this.escapeHTML(chrome.speak)} ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
                 if (isWriting && (item.wordMin || item.wordMax)) {
                     const target = item.wordMin && item.wordMax
@@ -864,16 +853,6 @@
                         <span class="daily-strip-followups-label">${this.escapeHTML(chrome.followUps)}</span>
                         <ul class="daily-strip-followups-list">
                             ${item.followUps.map(q => `<li>${this.escapeHTML(q)}</li>`).join('')}
-                        </ul>
-                    </div>
-                ` : '';
-
-                // A checklist turns the prompt into a self-marking task: tick each point before calling it done.
-                const checklistHTML = isWriting && !isBeginnerWriting && item.checklist.length ? `
-                    <div class="daily-strip-checklist">
-                        <span class="daily-strip-checklist-label">${this.escapeHTML(chrome.checklist)}</span>
-                        <ul class="daily-strip-checklist-list">
-                            ${item.checklist.map(c => `<li>${this.escapeHTML(c)}</li>`).join('')}
                         </ul>
                     </div>
                 ` : '';
@@ -906,7 +885,6 @@
                         ${revealHTML}
                         ${answerBlockHTML}
                         ${followUpsHTML}
-                        ${checklistHTML}
                     </div>
                     <div class="daily-strip-footer">
                         <div class="daily-strip-actions-left">

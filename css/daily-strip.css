@@ -280,7 +280,7 @@
     color: var(--cosy-color-ink-muted, #5C5957);
 }
 
-/* Exam-style speaking brief: task type, exam, prep and speaking time */
+/* Prompt chips: the general-course activity label, the word target and the timers */
 .daily-strip-chips {
     display: flex;
     flex-wrap: wrap;
@@ -300,25 +300,6 @@
     background: rgba(65, 107, 73, 0.08);
     border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
     color: var(--cosy-color-ink-soft, #4A4A4A);
-}
-
-.daily-strip-chip-task {
-    background: var(--cosy-color-sage, #416B49);
-    border-color: var(--cosy-color-sage-dark, #375742);
-    color: var(--cosy-on-brand);
-}
-
-.daily-strip-chip-exam {
-    background: var(--cosy-color-sage-mist, #F0F5F1);
-    border-color: var(--cosy-color-sage, #416B49);
-    color: var(--cosy-color-sage-dark, #375742);
-}
-
-.daily-strip-chip-part {
-    background: transparent;
-    border-style: dashed;
-    border-color: var(--cosy-color-sage, #416B49);
-    color: var(--cosy-color-sage-dark, #375742);
 }
 
 /* General-course cards have no exam, so the activity takes the exam chip's place. */
@@ -355,42 +336,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
-}
-
-/* Writing self-check: a tick list the learner runs through before calling the task finished. */
-.daily-strip-checklist {
-    margin-top: 0.5rem;
-    padding: 0.6rem 0.85rem;
-    background: rgba(255, 255, 255, 0.55);
-    border-radius: var(--cosy-radius-xs, 4px);
-    border-left: 3px solid var(--cosy-color-sage-light, #E8F0E9);
-}
-
-.daily-strip-checklist-label {
-    display: block;
-    font-size: 0.74rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--cosy-color-sage-dark, #375742);
-    margin-bottom: 0.3rem;
-}
-
-.daily-strip-checklist-list {
-    margin: 0;
-    padding-left: 1.1rem;
-    font-size: 0.92rem;
-    color: var(--cosy-color-ink-soft, #4A4A4A);
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-}
-
-.daily-strip-chip-genre {
-    background: var(--cosy-color-sage-mist, #F0F5F1);
-    border-color: var(--cosy-color-sage, #416B49);
-    color: var(--cosy-color-sage-dark, #375742);
-    font-weight: 600;
 }
 
 .daily-strip-footer {
@@ -631,55 +576,26 @@ body.theme-dark .daily-strip-chip {
     color: #D6E8D9;
 }
 
-html[data-theme="dark"] .daily-strip-chip-task,
-body.theme-dark .daily-strip-chip-task {
-    background: var(--cosy-color-sage);
-    border-color: #8FB193;
-    color: var(--cosy-on-brand);
-}
-
-html[data-theme="dark"] .daily-strip-chip-exam,
-body.theme-dark .daily-strip-chip-exam {
-    background: rgba(143, 177, 147, 0.2);
-    border-color: #8FB193;
-    color: #D6E8D9;
-}
-
-html[data-theme="dark"] .daily-strip-chip-part,
-body.theme-dark .daily-strip-chip-part {
-    background: transparent;
-    border-color: #8FB193;
-    color: #D6E8D9;
-}
-
 html[data-theme="dark"] .daily-strip-chip-activity,
-html[data-theme="dark"] .daily-strip-chip-genre,
-body.theme-dark .daily-strip-chip-activity,
-body.theme-dark .daily-strip-chip-genre {
+body.theme-dark .daily-strip-chip-activity {
     background: rgba(143, 177, 147, 0.2);
     border-color: #8FB193;
     color: #D6E8D9;
 }
 
 html[data-theme="dark"] .daily-strip-followups,
-html[data-theme="dark"] .daily-strip-checklist,
-body.theme-dark .daily-strip-followups,
-body.theme-dark .daily-strip-checklist {
+body.theme-dark .daily-strip-followups {
     background: rgba(0, 0, 0, 0.35);
     border-left-color: var(--cosy-color-sage);
 }
 
 html[data-theme="dark"] .daily-strip-followups-label,
-html[data-theme="dark"] .daily-strip-checklist-label,
-body.theme-dark .daily-strip-followups-label,
-body.theme-dark .daily-strip-checklist-label {
+body.theme-dark .daily-strip-followups-label {
     color: #8FB193;
 }
 
 html[data-theme="dark"] .daily-strip-followups-list,
-html[data-theme="dark"] .daily-strip-checklist-list,
-body.theme-dark .daily-strip-followups-list,
-body.theme-dark .daily-strip-checklist-list {
+body.theme-dark .daily-strip-followups-list {
     color: #D6E8D9;
 }
 
