@@ -144,3 +144,56 @@ test('the footer surface stays dark in both themes', () => {
     assert.match(rule[1], /--cosy-footer-bg/, 'the footer must not borrow a token that flips');
     assert.doesNotMatch(rule[1], /--cosy-color-sage-deep/);
 });
+
+/* ── Product identity ──────────────────────────────────────────────────────
+ * Siblings share tokens.css, so an identity is a cross-repo contract. It moves
+ * form only: if an identity could set a colour, adopting one would smuggle a
+ * new accent into the palette and the "retire one to add one" rule would rot.
+ */
+const IDENTITIES = ['playful', 'immersive', 'professional', 'social', 'editorial'];
+const PRODUCT_DEFAULTS = [
+    'cosy-product-radius', 'cosy-product-shadow', 'cosy-product-display',
+    'cosy-product-display-weight', 'cosy-product-tracking', 'cosy-product-leading',
+];
+
+test('every product identity exists and defaults are defined', () => {
+    for (const name of PRODUCT_DEFAULTS) {
+        assert.ok(token(name), `--${name} has no default`);
+    }
+    for (const identity of IDENTITIES) {
+        assert.match(tokensSource, new RegExp(`\\[data-product="${identity}"\\]\\s*\\{`), `${identity} is missing`);
+    }
+});
+
+test('an identity changes form, never colour', () => {
+    for (const identity of IDENTITIES) {
+        const block = tokensSource.match(new RegExp(`\\[data-product="${identity}"\\]\\s*\\{([^}]*)\\}`));
+        assert.ok(block, `${identity} block not found`);
+        assert.doesNotMatch(block[1], /#[0-9a-fA-F]{3,8}\b/, `${identity} must not set a hex colour`);
+        assert.doesNotMatch(block[1], /--cosy-(?:color|signal|level|fill|on)-/, `${identity} must not override a palette token`);
+        const declarations = [...block[1].matchAll(/(--cosy-product-[a-z-]+)\s*:/g)].map(m => m[1]);
+        assert.ok(declarations.length >= 2, `${identity} sets at least two form tokens`);
+        for (const name of declarations) {
+            assert.ok(PRODUCT_DEFAULTS.includes(name.slice(2)), `${identity} sets undocumented ${name}`);
+        }
+    }
+});
+
+test('every data-product in the markup names a defined identity', () => {
+    const IGNORED = new Set(['.git', 'node_modules', '.github', 'tests', 'docs', 'partials']);
+    const pages = [];
+    (function walk(dir) {
+        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+            if (entry.isDirectory()) { if (!IGNORED.has(entry.name)) walk(path.join(dir, entry.name)); }
+            else if (entry.name.endsWith('.html')) pages.push(path.join(dir, entry.name));
+        }
+    })(ROOT);
+    const problems = [];
+    for (const page of pages) {
+        const source = fs.readFileSync(page, 'utf8');
+        for (const match of source.matchAll(/data-product="([^"]+)"/g)) {
+            if (!IDENTITIES.includes(match[1])) problems.push(`${path.relative(ROOT, page)}: ${match[1]}`);
+        }
+    }
+    assert.deepEqual(problems, [], 'declare one of: ' + IDENTITIES.join(', '));
+});

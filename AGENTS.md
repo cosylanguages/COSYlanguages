@@ -222,6 +222,35 @@ documents (marathon levels, print hubs). It is token-only and follows the theme.
 page must never paint its own footer colour inline — that is how the eight marathon
 footers drifted to orange, red, purple and near-black.
 
+## Product identity: form, not hue
+
+`shared/css/tokens.css` also carries an opt-in identity layer, because siblings
+link that file directly (COSYevents loads
+`https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css`). A page
+sets `data-product` on `<body>` and inherits the rhythm; without the attribute
+nothing changes.
+
+| Identity | Product | Form |
+|---|---|---|
+| `playful` | COSYgames | 22px cards, medium shadow, 700 display, loose tracking |
+| `immersive` | COSYworld | 32px cards, deepest shadow, 700 display, tight leading |
+| `professional` | COSYtools | 8px cards, flat shadow, sans display, no tracking |
+| `social` | COSYevents | 18px cards, base shadow, 600 display |
+| `editorial` | COSYmagazine | 4px cards, no shadow, serif display, tight leading |
+
+An identity sets `--cosy-product-*` form tokens only: radius, shadow, display
+face, weight, tracking and leading. It may not set a colour, so adopting one
+cannot smuggle a new accent past the budget rule — every product keeps the
+signal tier. The application block lives at the end of `tokens.css` (section 14)
+so a sibling needs one attribute and no extra stylesheet; it targets `h1`,
+`.sec-h2` and the shared card classes, and a product's own rules still win
+where they are more specific.
+
+`about/` adopts `editorial`; the rest of this repo keeps the defaults.
+`tests/design-system.test.js` fails if an identity sets a hex or a palette
+token, sets an undocumented product token, or if a page names an identity that
+does not exist.
+
 ## Shell contract (`tests/architecture.test.js`)
 
 There is no build step, so "each product is independent" is enforced by tests, not
