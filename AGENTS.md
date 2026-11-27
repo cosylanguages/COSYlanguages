@@ -48,6 +48,23 @@ Watch-outs:
 
 The canonical list of course types lives in COSYplatform (`curriculums/_schema/course-types.json`, documented in its `docs/COURSE_TYPES.md`). Real courses with a page in `courses/`: `general`, `spoken`, `professional`, `travelling`, `relocation`, and `exam`. The exam page is `courses/exam-preparation.html`; `courses/exam.html` redirects to it so the platform's name for the course resolves. `discussion` (speaking clubs from COSYevents, platform only) and `pronunciation` (planned) have no page here.
 
+## Upcoming languages (`languages/coming-soon.html`)
+
+Nine languages have data in the ecosystem but no lessons yet: German, Spanish,
+Portuguese, Armenian, Georgian, Tatar, Bashkir, Chuvash and Breton. They live in
+`window.COSY_UPCOMING_LANGUAGES` in `js/data/languages.js`, deliberately *not* in
+`COSY_LANGUAGES`: the `COSY_COMING_SOON_LANGUAGES` getter merges both lists, while
+the nav, the language panel and `getAvailableLanguages()` keep reading only the
+five languages we teach. Adding a language here never adds it to the picker.
+
+The page renders one card per entry — code badge, native name, English name,
+"Lessons in preparation", a free-vocabulary link to COSYpractice (all nine have
+COSYdata vocabulary) and the notify form. Cards do not link to `languages/<code>/`
+because those pages do not exist; only the free vocabulary is reachable. The line
+"our teachers are already learning them" is a single hero paragraph
+(`coming_hero_sub`), not a caption repeated on every card. Tests:
+`tests/coming-soon.test.js`.
+
 ## Data ownership (do not copy between repositories)
 
 Each kind of content has exactly one owning repository. This repo links to it or

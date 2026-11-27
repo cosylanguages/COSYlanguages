@@ -14,5 +14,47 @@
 .lang-card:hover { transform: translateY(-4px); border-color: var(--cosy-signal); box-shadow: 0 8px 25px rgba(10, 187, 181, 0.12); }
 .lang-card img { width: 56px; height: 56px; margin: 0 auto 1rem; }
 
-.lang-card-soon { background: var(--warm-white); border: 1px dashed var(--border); border-radius: var(--r-md); padding: 1.2rem .8rem; text-align: center; opacity: .8; cursor: pointer; }
+/* Upcoming languages: each card carries a name, the teacher note and a notify
+   form, so the strip needs wider columns than the homepage's language chips. */
+/* Scoped above layout.css, which loads after this file and sets a 110px strip. */
+.coming-soon-content .lang-grid-soon {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 0;
+}
+
+.lang-card-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .25rem;
+  background: var(--warm-white);
+  border: 1px dashed var(--border);
+  border-radius: var(--r-md);
+  padding: 1.25rem 1rem;
+  text-align: center;
+}
 .lang-card-soon img { width: 40px; height: 40px; margin: 0 auto .6rem; }
+
+.lang-card-soon .sc-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: .35rem;
+  border-radius: 14px;
+  background: var(--cosy-signal-soft);
+  color: var(--cosy-signal-ink);
+  font-size: .95rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+.lang-card-soon .ls-name { font-size: 1rem; font-weight: 700; color: var(--cosy-color-ink); }
+.lang-card-soon .cs-en { font-size: .78rem; color: var(--ink-muted); }
+.lang-card-soon .cs-note { margin: .35rem 0 0; font-size: .82rem; line-height: 1.45; color: var(--ink-soft); }
+.lang-card-soon .cs-vocab-link { margin-top: .45rem; font-size: .8rem; font-weight: 700; color: var(--cosy-signal-ink); text-decoration: underline; }
+.lang-card-soon .lead-capture { width: 100%; margin-top: .8rem; }
+
+.cs-empty { grid-column: 1 / -1; max-width: 38rem; margin: 0 auto; text-align: center; color: var(--ink-muted); }
+.cs-empty a { color: var(--cosy-signal-ink); font-weight: 700; text-decoration: underline; }

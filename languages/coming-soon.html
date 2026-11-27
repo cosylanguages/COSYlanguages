@@ -18,15 +18,15 @@
 <link rel="stylesheet" href="../css/modern.css">
     <style>
         .coming-soon-hero {
-            padding: 8rem 2rem 4rem;
+            padding: 8rem 2rem 1rem;
             background: var(--paper-bg);
             text-align: center;
         }
-        .coming-soon-hero .hero-sub { color: var(--cosy-color-ink-soft); }
+        .coming-soon-hero .hero-sub { color: var(--cosy-color-ink-soft); margin: 0 auto; text-align: center; }
         .coming-soon-content {
             max-width: 1000px;
             margin: 0 auto;
-            padding: 4rem 2rem;
+            padding: 2.5rem 2rem 4rem;
         }
     </style>
     <meta name="description" content="Explore upcoming languages coming soon to COSYlanguages.">
@@ -54,12 +54,12 @@
         <span class="visual-journey-badge"><span data-translate-key="coming_h1">🌐 Upcoming Languages</span></span>
     </div>
     <h1 data-translate-key="lang_coming_soon">Coming soon 🌱</h1>
-    <p class="hero-sub">We're working hard to bring more languages to COSYlanguages. Tell us which one you'd like next — we read every message.</p>
+    <p class="hero-sub" data-translate-key="coming_hero_sub">These languages are on the way. Our teachers are already learning them, so lessons open as soon as a teacher is ready.</p>
 </header>
 
 <main id="main-content" class="coming-soon-content">
     <div id="lang-grid-soon" class="lang-grid-soon reveal">
-        <!-- Dynamically populated from COSY_LANGUAGES where status is coming_soon -->
+        <!-- Rendered from COSY_COMING_SOON_LANGUAGES in js/data/languages.js -->
     </div>
 
     <section class="coming-soon-cta-sec">
@@ -118,33 +118,46 @@
 <script src="../js/core/ui.js" defer></script>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const soonGrid = document.getElementById('lang-grid-soon');
-      const comingLangs = window.COSY_COMING_SOON_LANGUAGES || (window.COSY_LANGUAGES ? window.COSY_LANGUAGES.filter(l => l.status === 'coming-soon' || l.status === 'coming_soon') : []);
-      if (soonGrid && comingLangs.length === 0) {
-        const open = (window.COSY_LANGUAGES || []).filter(l => l.status === 'active');
-        soonGrid.innerHTML = `
-          <p class="cs-empty" style="grid-column: 1 / -1; text-align:center; color:var(--ink-muted); max-width:38rem; margin:0 auto;">
-            No new language is scheduled right now. These are already open:
-            ${open.map(l => `<a href="${l.code}/" style="color:var(--sage-dark); font-weight:700; text-decoration:underline;">${l.native}</a>`).join(' · ')}
-          </p>`;
-      } else if (soonGrid) {
-        soonGrid.innerHTML = comingLangs.map(l => `
-          <div class="lang-card-soon">
-            <a href="${l.code}/" style="text-decoration:none; color:inherit; display:block;">
-              ${l.img && l.img !== 'cosylanguages.png' ? `<img src="../images/languages/${l.img}" alt="${l.name}" decoding="async" loading="lazy">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
-              <div class="ls-name">${l.icon || ''} ${l.native}</div>
-              <div class="cs-note" style="font-size:0.85rem; color:var(--ink-muted); margin:0.3rem 0;">Lessons coming soon</div>
-            </a>
-            ${l.hasFreeVocabulary ? `<a href="https://cosylanguages.github.io/COSYpractice/?lang=${l.code}" class="cs-vocab-link" style="display:inline-block; margin-top:0.4rem; font-size:0.82rem; color:var(--sage-dark); font-weight:700; text-decoration:underline;">Free vocabulary available →</a>` : ''}
-            <div class="lead-capture" style="margin-top:0.8rem;" onclick="event.stopPropagation()">
-              <input type="email" placeholder="Email me" class="lead-email" aria-label="Email for ${l.name} updates">
-              <button type="button" class="lead-submit" onclick="captureLead('${l.name}')" aria-label="Notify me">🔔</button>
+    (function () {
+      const grid = document.getElementById('lang-grid-soon');
+      if (!grid) return;
+
+      const escapeHTML = (value) => String(value == null ? '' : value)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+
+      const render = () => {
+        const coming = window.COSY_COMING_SOON_LANGUAGES || [];
+        if (!coming.length) {
+          const open = window.COSY_LANGUAGES || [];
+          grid.innerHTML = `
+            <p class="cs-empty">
+              No new language is scheduled right now. These are already open:
+              ${open.map(l => `<a href="${l.code}/">${escapeHTML(l.native)}</a>`).join(' · ')}
+            </p>`;
+          return;
+        }
+        grid.innerHTML = coming.map(l => `
+          <article class="lang-card-soon">
+            <div class="sc-badge" aria-hidden="true">${escapeHTML((l.code || '').toUpperCase().slice(0, 2))}</div>
+            <div class="ls-name">${l.icon ? l.icon + ' ' : ''}${escapeHTML(l.native || l.name)}</div>
+            <div class="cs-en">${escapeHTML(l.name)}</div>
+            <p class="cs-note" data-translate-key="coming_lessons_note">Lessons in preparation</p>
+            ${l.hasFreeVocabulary ? `<a class="cs-vocab-link" href="https://cosylanguages.github.io/COSYpractice/?lang=${encodeURIComponent(l.code)}" data-translate-key="coming_vocab">Free vocabulary available →</a>` : ''}
+            <div class="lead-capture">
+              <input type="email" placeholder="Email me" class="lead-email" aria-label="Email for ${escapeHTML(l.name)} updates">
+              <button type="button" class="lead-submit" onclick="captureLead('${escapeHTML(l.name)}')" aria-label="Notify me">🔔</button>
             </div>
-          </div>
-        `).join('');
-      }
-    });
+          </article>`).join('');
+        if (window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') window.COSY_I18N.refresh();
+      };
+
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render);
+      else render();
+      document.addEventListener('cosyI18nReady', () => {
+        if (window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') window.COSY_I18N.refresh();
+      });
+    })();
 </script>
 
 </body>

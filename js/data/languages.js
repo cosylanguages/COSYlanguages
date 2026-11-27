@@ -24,6 +24,21 @@ window.COSY_LANGUAGES = [
   { code: 'el', name: 'Greek',   native: 'Ελληνικά', status: 'active', icon: '🇬🇷', flag: '🇬🇷', groupLessons: false, hasFreeVocabulary: true, family: 'hellenic', img: 'cosygreek.png',   has_cases: true,  has_data: true }
 ];
 
+// Languages with data and daily content in the ecosystem but no lessons yet.
+// Kept out of COSY_LANGUAGES on purpose: the nav, the language panel and
+// getAvailableLanguages() must keep listing only the languages we teach.
+window.COSY_UPCOMING_LANGUAGES = [
+  { code: 'de', name: 'German',     native: 'Deutsch',    status: 'coming_soon', icon: '🇩🇪', family: 'germanic', hasFreeVocabulary: true },
+  { code: 'es', name: 'Spanish',    native: 'Español',    status: 'coming_soon', icon: '🇪🇸', family: 'romance',  hasFreeVocabulary: true },
+  { code: 'pt', name: 'Portuguese', native: 'Português',  status: 'coming_soon', icon: '🇵🇹', family: 'romance',  hasFreeVocabulary: true },
+  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',    status: 'coming_soon', icon: '🇦🇲', family: 'armenian', hasFreeVocabulary: true },
+  { code: 'ka', name: 'Georgian',   native: 'ქართული',    status: 'coming_soon', icon: '🇬🇪', family: 'kartvelian', hasFreeVocabulary: true },
+  { code: 'tt', name: 'Tatar',      native: 'Татарча',    status: 'coming_soon', icon: '',     family: 'turkic',   hasFreeVocabulary: true },
+  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',  status: 'coming_soon', icon: '',     family: 'turkic',   hasFreeVocabulary: true },
+  { code: 'cv', name: 'Chuvash',    native: 'Чӑвашла',    status: 'coming_soon', icon: '',     family: 'turkic',   hasFreeVocabulary: true },
+  { code: 'br', name: 'Breton',     native: 'Brezhoneg',  status: 'coming_soon', icon: '',     family: 'celtic',   hasFreeVocabulary: true }
+];
+
 window.COSY_LEVELS = [
     { id: 'starter',           name: 'Starter (A1)',           short: 'A1' },
     { id: 'elementary',        name: 'Elementary (A2)',        short: 'A2' },
@@ -120,7 +135,9 @@ Object.defineProperty(window, 'COSY_ACTIVE_LANGUAGES', {
 
 Object.defineProperty(window, 'COSY_COMING_SOON_LANGUAGES', {
     get: function() {
-        return window.COSY_LANGUAGES.filter(l => l.status === 'coming-soon' || l.status === 'coming_soon');
+        const marked = window.COSY_LANGUAGES.filter(l => l.status === 'coming-soon' || l.status === 'coming_soon');
+        const upcoming = window.COSY_UPCOMING_LANGUAGES || [];
+        return marked.concat(upcoming.filter(u => !marked.some(m => m.code === u.code)));
     },
     configurable: true,
     enumerable: true
