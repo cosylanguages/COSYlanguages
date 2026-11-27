@@ -95,6 +95,45 @@
         el: { more: 'Περισσότερα καθημερινά στο COSYlanguages', heading: 'Καθημερινά στο οικοσύστημα COSYlanguages', sub: 'Κάθε καθημερινό στοιχείο μένει στο αποθετήριο που το κατέχει — ακολουθήστε μια κάρτα για να το διαβάσετε εκεί.', self: 'Είστε εδώ', open: 'Άνοιγμα' }
     };
 
+    // Card copy per owner. The registry (COSYtools daily-manifest.json) declares
+    // English titles, so a translation here wins over whatever it sends.
+    var CARD_I18N = {
+        en: {},
+        fr: {
+            data: { title: 'Vocabulaire du jour', description: 'Mot, verbe, verbe + préposition, verbe à particule et expression du jour, générés à partir du dictionnaire.' },
+            practice: { title: 'Expression orale et écrite', description: "Invites quotidiennes d'expression orale et écrite, plus le Défi du jour avec séries." },
+            languages: { title: 'Bandeau quotidien', description: "Le bandeau quotidien du hub : mot, verbe, invites d'oral et d'écrit, et une anecdote, avec filtre par niveau." },
+            events: { title: 'Culture et événements', description: 'Projecteurs du jour : fête du jour, science, musique, cinéma et télévision.' },
+            tools: { title: 'Exercices quotidiens', description: "Entraînez la conjugaison du verbe du jour et devinez la préposition, en lien avec le vocabulaire du jour." }
+        },
+        it: {
+            data: { title: 'Vocabolario del giorno', description: 'Parola, verbo, verbo + preposizione, phrasal verb e modo di dire del giorno, generati dal dizionario.' },
+            practice: { title: 'Parlato e scritto', description: 'Spunti quotidiani di speaking e writing più la Sfida del giorno con le serie.' },
+            languages: { title: 'Striscia quotidiana', description: "La striscia quotidiana dell'hub: parola, verbo, spunti di speaking e writing e una curiosità, con filtro per livello." },
+            events: { title: 'Cultura ed eventi', description: 'Riflettori del giorno: festa del giorno, scienza, musica, cinema e TV.' },
+            tools: { title: 'Esercizi quotidiani', description: 'Esercita la coniugazione del verbo del giorno e indovina la preposizione, in linea con il vocabolario del giorno.' }
+        },
+        ru: {
+            data: { title: 'Слово дня', description: 'Слово, глагол, глагол + предлог, фразовый глагол и идиома дня — генерируются из словаря.' },
+            practice: { title: 'Говорение и письмо', description: 'Ежедневные задания на говорение и письмо плюс «Вызов дня» с сериями.' },
+            languages: { title: 'Дневная лента', description: 'Дневная лента хаба: слово, глагол, задания на говорение и письмо и интересный факт, с фильтром по уровню.' },
+            events: { title: 'Культура и события', description: 'Ежедневные подборки: праздник дня, наука, музыка, кино и ТВ.' },
+            tools: { title: 'Ежедневные упражнения', description: 'Тренируйте спряжение глагола дня и угадывайте предлог — в связке со словарём дня.' }
+        },
+        el: {
+            data: { title: 'Λέξη της ημέρας', description: 'Λέξη, ρήμα, ρήμα + πρόθεση, phrasal verb και ιδιωτισμός της ημέρας, από το λεξικό.' },
+            practice: { title: 'Ομιλία και γραφή', description: 'Καθημερινά θέματα ομιλίας και γραφής και η Πρόκληση της ημέρας με σερί.' },
+            languages: { title: 'Καθημερινή λωρίδα', description: 'Η καθημερινή λωρίδα του κόμβου: λέξη, ρήμα, θέματα ομιλίας και γραφής και μια διασκεδαστική πληροφορία, με φίλτρο επιπέδου.' },
+            events: { title: 'Πολιτισμός και εκδηλώσεις', description: 'Καθημερινά στιγμιότυπα: γιορτή της ημέρας, επιστήμη, μουσική, κινηματογράφος και τηλεόραση.' },
+            tools: { title: 'Καθημερινές ασκήσεις', description: 'Εξασκηθείτε στην κλίση του ρήματος της ημέρας και μαντέψτε την πρόθεση, με βάση το λεξικό της ημέρας.' }
+        }
+    };
+
+    function cardCopy(lang, dest) {
+        var table = CARD_I18N[lang] || {};
+        return table[dest.key] || {};
+    }
+
     var instanceSeq = 0;
 
     function escapeHTML(str) {
@@ -111,8 +150,9 @@
         return I18N[lang] || I18N.en;
     }
 
-    function cardHTML(dest, selfKey, t) {
+    function cardHTML(dest, selfKey, t, lang) {
         var isSelf = dest.key === selfKey;
+        var copy = cardCopy(lang, dest);
         var slotsHTML = dest.slots.map(function (s) {
             return '<li class="daily-directory-slot">' +
                 (s.icon ? '<span class="daily-directory-slot-icon" aria-hidden="true">' + escapeHTML(s.icon) + '</span> ' : '') +
@@ -127,10 +167,10 @@
         return '<article class="daily-directory-card' + (isSelf ? ' is-self' : '') + '">' +
             '<h3 class="daily-directory-card-title">' +
                 '<span class="daily-directory-icon" aria-hidden="true">' + escapeHTML(dest.icon) + '</span> ' +
-                escapeHTML(dest.title) +
+                escapeHTML(copy.title || dest.title) +
             '</h3>' +
             '<p class="daily-directory-repo">' + escapeHTML(dest.repo) + '</p>' +
-            '<p class="daily-directory-desc">' + escapeHTML(dest.description) + '</p>' +
+            '<p class="daily-directory-desc">' + escapeHTML(copy.description || dest.description) + '</p>' +
             '<ul class="daily-directory-slots">' + slotsHTML + '</ul>' +
             actionHTML +
         '</article>';
@@ -138,23 +178,27 @@
 
     // Compact form for embedding under another daily surface (the hub strip): one line of chips
     // linking to the other owners. Hover or focus a chip to see what that owner publishes each day.
-    function compactHTML(selfKey, t) {
+    function compactHTML(selfKey, t, lang) {
         var chips = DESTINATIONS.filter(function (d) { return d.key !== selfKey; }).map(function (d) {
             var tip = d.slots.map(function (s) { return s.label; }).join(' · ');
+            var copy = cardCopy(lang, d);
             return '<a class="daily-directory-chip" href="' + escapeHTML(d.url) + '" target="_blank" rel="noopener" title="' + escapeHTML(tip) + '">' +
-                '<span aria-hidden="true">' + escapeHTML(d.icon) + '</span> ' + escapeHTML(d.title) +
+                '<span aria-hidden="true">' + escapeHTML(d.icon) + '</span> ' + escapeHTML(copy.title || d.title) +
                 ' <span class="daily-directory-ext" aria-hidden="true">↗</span></a>';
         }).join('');
         return '<nav class="daily-directory daily-directory--compact" aria-label="' + escapeHTML(t.more) + '">' +
             '<span class="daily-directory-more">🌐 ' + escapeHTML(t.more) + '</span>' + chips + '</nav>';
     }
 
+    var rendered = [];
+
     function render(host) {
+        if (rendered.indexOf(host) === -1) rendered.push(host);
         var selfKey = (host.getAttribute('data-self') || '').trim();
         var lang = (host.getAttribute('data-lang') || document.documentElement.lang || 'en').slice(0, 2);
         var t = stringsFor(lang);
         if (host.getAttribute('data-compact') === 'true') {
-            host.innerHTML = compactHTML(selfKey, t);
+            host.innerHTML = compactHTML(selfKey, t, lang);
             return;
         }
         var titleId = 'daily-directory-title-' + (++instanceSeq);
@@ -166,7 +210,7 @@
                     '<p class="daily-directory-sub">' + escapeHTML(t.sub) + '</p>' +
                 '</header>' +
                 '<div class="daily-directory-grid">' +
-                    DESTINATIONS.map(function (d) { return cardHTML(d, selfKey, t); }).join('') +
+                    DESTINATIONS.map(function (d) { return cardHTML(d, selfKey, t, lang); }).join('') +
                 '</div>' +
             '</section>';
     }
@@ -207,6 +251,22 @@
             })
             .catch(function () { /* keep the built-in list */ });
     }
+
+    // The heading and the cards follow the interface language, which the engine
+    // resolves asynchronously: without this the first paint keeps the English
+    // labels it read before the dictionary arrived.
+    function relabel() {
+        rendered.forEach(function (host) {
+            if (!host || host.isConnected === false) return;
+            if (host.getAttribute('data-lang')) return;
+            render(host);
+        });
+    }
+
+    // cosyI18nReady fires after the first dictionary load, cosyLanguageChanged on
+    // every later switch; the directory is painted at DOMContentLoaded, before either.
+    document.addEventListener('cosyI18nReady', relabel);
+    document.addEventListener('cosyLanguageChanged', relabel);
 
     function initAll() {
         Array.prototype.forEach.call(document.querySelectorAll('[data-daily-directory]'), function (el) {

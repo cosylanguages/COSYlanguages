@@ -112,7 +112,12 @@
     "spinWheel": "Spin the wheel tile",
     "reviewMistakes": "Review mistakes tile",
     "languagePracticeTile": "Try free practice",
-    "backToEvents": "Back to all live events"
+    "backToEvents": "Back to all live events",
+    "mainNav": "Main navigation",
+    "selectTargetLanguage": "Select Target Language",
+    "priceCalculatorConfig": "Price Calculator Configuration",
+    "previousReview": "Previous review",
+    "nextReview": "Next review"
   },
   "long_reads": {
     "description": "We read and discuss micro chapters of outstanding non-fiction books, audiobooks, and long-form podcasts. Explore deep ideas, deconstruct chapters, and expand your conversational limits."
@@ -172,5 +177,38 @@
     "issue_october_title": "JY DM's birthday & His favs",
     "page_x_of_y": "Page {current} of {total}",
     "script_teleprompter": "📜 Script Teleprompter"
+  },
+  "home": {
+    "findLevel": "Find your level",
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "dictTitle": "Dictionary & Verbs",
+    "dictDesc": "Comparative Grammar Atlas, verb conjugation tables, and multi-language vocabulary lookup engine.",
+    "dictCta": "Grammar Atlas →",
+    "dictCtaAll": "📚 All Reference Engines →",
+    "magTitle": "COSYmagazine",
+    "magDesc": "Magazine-style articles, audio podcast episodes and flipbook issues about learning languages.",
+    "magCta": "Read Articles & Guides →",
+    "magPodcast": "🎙️ Listen to Podcast →",
+    "eventsH2": "Live events",
+    "eventsP": "Speaking clubs, film nights, and live community gatherings to practice together.",
+    "calcTitle": "🧮 Interactive Price Calculator",
+    "calcAction": "See what it costs →",
+    "lblLanguage": "Language:",
+    "lblCourse": "Course:",
+    "lblDuration": "Duration:",
+    "lblPack": "Pack:",
+    "lblCurrency": "Currency:",
+    "min15": "15 min",
+    "min30": "30 min",
+    "min60": "60 min",
+    "min90": "90 min",
+    "min120": "120 min",
+    "curEur": "Euro (€)",
+    "curUsd": "Dollar ($)",
+    "curRub": "Ruble (₽)",
+    "reviewsH2": "What our students say",
+    "reviewsP": "Real experiences from students finding their voice with COSYlanguages.",
+    "reviewsShare": "Have something to say ...? Share your COSYlanguages Experience ›"
   }
 }

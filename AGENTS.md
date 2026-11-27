@@ -304,7 +304,12 @@ The shared directory that links all of these together is `js/daily-directory.js`
 `js/daily-strip.js`) and mount it with
 `<div data-daily-directory data-self="data|practice|languages|events|tools">`.
 `data-self` marks the host's own card "You are here"; `data-lang` localises the
-heading. Keep its `DESTINATIONS` list in step with COSYtools
+heading. Without `data-lang` the component reads `<html lang>`, which the i18n engine
+now sets to the interface language, and it re-renders on `cosyI18nReady` and
+`cosyLanguageChanged` — the strip used to pin the slot to the language it was
+practising, which left the headings English under a French interface. Card titles
+and descriptions live in `CARD_I18N` (en/fr/it/ru/el) and win over the English titles
+the COSYtools registry sends. Keep its `DESTINATIONS` list in step with COSYtools
 `shared/js/daily-feed.js` `DAILY_DESTINATIONS`. Tests: `tests/daily-directory.test.js`.
 
 ### Speaking tab (curated CEFR prompts + exam brief)
@@ -417,17 +422,21 @@ still consumed:
                          "writing":  { "canDo": "…", "expects": "…", "focus": "…", "exams": "…", "length": "…" } } } }
 ```
 
-`chrome` localizes the panel's own labels ("Level:", "Prep", "Speak", "words",
-"Follow-up questions", "Before you finish, check"). `listen` and `practice` remain in
+`chrome` carries the panel's own labels ("Level:", "Prep", "Speak", "words",
+"Follow-up questions", "Before you finish, check") **in the language being practised**,
+so it is a fallback only: the strip reads those labels from `data/ui/<lang>.json`
+(`strip_level`, `strip_prep`, `strip_speak`, `strip_words`, `strip_follow_ups`,
+`strip_checklist`) first, because a French interface practising English must still
+say "Niveau :" and "Questions de suivi". `listen` and `practice` remain in
 the files but are no longer read: the "🔊 Listen" button and the "🚀 Practice in Hub"
 link were removed from every tab, so the only footer link left is the COSYtools one
 on the verb tabs.
 `ui` and `bands` are retained in the files but no longer rendered; the per-language
 `exams` strings are the reference for which exam certifies which band.
 `fetchBandGuide()` loads the file once per language and caches it in
-`sessionStorage`; a missing or broken file falls back to the English `chrome`
-labels in `js/daily-strip.js`, so a partial translation degrades to English rather
-than blanking. Tests: `tests/daily-strip.test.js` (completeness, localized labels,
+`sessionStorage`; a missing or broken file leaves the English defaults in
+`js/daily-strip.js`, so a partial translation degrades to English rather than
+blanking. The lookup order is: UI dictionary, then the guide's `chrome`, then English. Tests: `tests/daily-strip.test.js` (completeness, localized labels,
 no-English-leak, fallback, language switch).
 
 ## Ecosystem strip (shared, top of every site)

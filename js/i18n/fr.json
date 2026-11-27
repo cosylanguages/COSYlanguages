@@ -110,7 +110,12 @@
     "spinWheel": "Lancer la roue",
     "reviewMistakes": "Revoir les erreurs",
     "languagePracticeTile": "Essayer l’éntraînement gratuit",
-    "backToEvents": "Retour à tous les événements en direct"
+    "backToEvents": "Retour à tous les événements en direct",
+    "mainNav": "Navigation principale",
+    "selectTargetLanguage": "Choisir la langue cible",
+    "priceCalculatorConfig": "Configuration du calculateur de prix",
+    "previousReview": "Avis précédent",
+    "nextReview": "Avis suivant"
   },
   "long_reads": {
     "description": "Nous lisons et discutons des micro-chapitres de livres non-fictionnels, de livres audio et de podcasts longs exceptionnels. Explorez des idées profondes, analysez des chapitres et repoussez vos limites de conversation."
@@ -172,5 +177,38 @@
     "script_teleprompter": "📜 Téléprompteur"
   },
   "lang_locked_notice": "🔒 Device language locked! Interface language is fixed.",
-  "lang_unlocked_notice": "🔓 Device language unlocked! You can now switch languages."
+  "lang_unlocked_notice": "🔓 Device language unlocked! You can now switch languages.",
+  "home": {
+    "findLevel": "Trouvez votre niveau",
+    "pricing": "Tarifs",
+    "reviews": "Avis",
+    "dictTitle": "Dictionnaire et verbes",
+    "dictDesc": "Atlas grammatical comparé, tableaux de conjugaison et moteur de recherche de vocabulaire multilingue.",
+    "dictCta": "Atlas grammatical →",
+    "dictCtaAll": "📚 Tous les moteurs de référence →",
+    "magTitle": "COSYmagazine",
+    "magDesc": "Articles de magazine, podcasts audio et numéros feuilletables sur l'apprentissage des langues.",
+    "magCta": "Lire les articles et guides →",
+    "magPodcast": "🎙️ Écouter le podcast →",
+    "eventsH2": "Événements en direct",
+    "eventsP": "Clubs de conversation, soirées cinéma et rencontres de la communauté pour pratiquer ensemble.",
+    "calcTitle": "🧮 Calculateur de prix interactif",
+    "calcAction": "Voir le coût →",
+    "lblLanguage": "Langue :",
+    "lblCourse": "Cours :",
+    "lblDuration": "Durée :",
+    "lblPack": "Forfait :",
+    "lblCurrency": "Devise :",
+    "min15": "15 min",
+    "min30": "30 min",
+    "min60": "60 min",
+    "min90": "90 min",
+    "min120": "120 min",
+    "curEur": "Euro (€)",
+    "curUsd": "Dollar ($)",
+    "curRub": "Rouble (₽)",
+    "reviewsH2": "Ce que disent nos élèves",
+    "reviewsP": "Des expériences réelles d'élèves qui trouvent leur voix avec COSYlanguages.",
+    "reviewsShare": "Vous avez quelque chose à dire… ? Partagez votre expérience COSYlanguages ›"
+  }
 }

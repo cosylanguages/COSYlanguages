@@ -110,7 +110,12 @@
     "spinWheel": "Gira la ruota",
     "reviewMistakes": "Rivedi gli errori",
     "languagePracticeTile": "Prova la pratica gratuita",
-    "backToEvents": "Torna a tutti gli eventi dal vivo"
+    "backToEvents": "Torna a tutti gli eventi dal vivo",
+    "mainNav": "Navigazione principale",
+    "selectTargetLanguage": "Seleziona la lingua di destinazione",
+    "priceCalculatorConfig": "Configurazione del calcolatore di prezzo",
+    "previousReview": "Recensione precedente",
+    "nextReview": "Recensione successiva"
   },
   "desk": {
     "front_page": "Prima Pagina",
@@ -172,5 +177,38 @@
   "lang_unlocked_notice": "🔓 Lingua del dispositivo sbloccata! Ora puoi cambiare lingua.",
   "long_reads": {
     "description": "Leggiamo e discutiamo micro-capitoli di straordinari libri di saggistica, audiolibri e podcast lunghi. Esplora idee profonde, analizza i capitoli ed espandi i tuoi limiti conversazionali."
+  },
+  "home": {
+    "findLevel": "Trova il tuo livello",
+    "pricing": "Prezzi",
+    "reviews": "Recensioni",
+    "dictTitle": "Dizionario e verbi",
+    "dictDesc": "Atlante grammaticale comparato, tabelle di coniugazione e motore di ricerca lessicale multilingue.",
+    "dictCta": "Atlante grammaticale →",
+    "dictCtaAll": "📚 Tutti i motori di riferimento →",
+    "magTitle": "COSYmagazine",
+    "magDesc": "Articoli in stile rivista, episodi podcast e numeri sfogliabili sull'apprendimento delle lingue.",
+    "magCta": "Leggi articoli e guide →",
+    "magPodcast": "🎙️ Ascolta il podcast →",
+    "eventsH2": "Eventi dal vivo",
+    "eventsP": "Club di conversazione, serate cinema e incontri della community per esercitarsi insieme.",
+    "calcTitle": "🧮 Calcolatore di prezzo interattivo",
+    "calcAction": "Scopri quanto costa →",
+    "lblLanguage": "Lingua:",
+    "lblCourse": "Corso:",
+    "lblDuration": "Durata:",
+    "lblPack": "Pacchetto:",
+    "lblCurrency": "Valuta:",
+    "min15": "15 min",
+    "min30": "30 min",
+    "min60": "60 min",
+    "min90": "90 min",
+    "min120": "120 min",
+    "curEur": "Euro (€)",
+    "curUsd": "Dollaro ($)",
+    "curRub": "Rublo (₽)",
+    "reviewsH2": "Cosa dicono i nostri studenti",
+    "reviewsP": "Esperienze reali di studenti che trovano la propria voce con COSYlanguages.",
+    "reviewsShare": "Hai qualcosa da dire…? Condividi la tua esperienza COSYlanguages ›"
   }
 }

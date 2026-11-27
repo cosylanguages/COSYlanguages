@@ -1253,7 +1253,9 @@ test('Daily Strip chrome localization: every language labels its own controls', 
             }
             return { ok: false, status: 404 };
         };
-        const { Component } = setupTestEnvironment({ fetch: fakeFetch });
+        const env = setupTestEnvironment({ fetch: fakeFetch });
+        if (opts.t) env.context.window.t = opts.t;
+        const { Component } = env;
         const nodes = {};
         const makeNode = () => ({ html: '', addEventListener() {}, classList: { add() {}, remove() {} }, setAttribute() {}, removeAttribute() {},
             querySelector: () => null, querySelectorAll: () => [], set innerHTML(v) { this.html = v; }, get innerHTML() { return this.html; } });
@@ -1341,6 +1343,23 @@ test('Daily Strip chrome localization: every language labels its own controls', 
         assert.ok(html.includes('Follow-up questions'), 'English follow-up heading used');
         assert.ok(html.includes('Prep'), 'English prep label used');
         assert.ok(html.includes('daily-strip-prompt'), 'the prompt still renders');
+    });
+
+    await t.test('the panel chrome follows the interface language, not the guide\'s language', async () => {
+        // English prompts and an English guide, but a French interface: the labels
+        // must read in the visitor's language, not the language being practised.
+        const fr = { strip_level: 'Niveau :', strip_prep: 'Préparation', strip_speak: 'Parlez',
+            strip_words: 'mots', strip_follow_ups: 'Questions de suivi', strip_checklist: 'Avant de finir, vérifiez' };
+        const { comp, nodes } = mount('en', prompt('en'), { t: (k) => fr[k] || '' });
+        await new Promise(r => setTimeout(r, 40));
+        comp.selectedLevel = 'b1-b2';
+        await comp.loadAllCategories();
+        comp.renderContent();
+
+        const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
+        assert.ok(html.includes('Niveau :'), 'interface label wins over the guide chrome');
+        assert.ok(html.includes('Questions de suivi'), 'localised follow-up heading');
+        assert.ok(!html.includes('Follow-up questions'), 'no English guide label leaks');
     });
 
     await t.test('switching language reloads the chrome labels for the new language', async () => {

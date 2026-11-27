@@ -26,10 +26,10 @@ function fakeNode(attrs = {}) {
     };
 }
 
-function load(hostEl) {
+function load(hostEl, lang = 'en') {
     const document = {
         readyState: 'complete',
-        documentElement: { lang: 'en' },
+        documentElement: { lang },
         querySelectorAll: (sel) => (sel === '[data-daily-directory]' && hostEl ? [hostEl] : []),
         addEventListener() {}
     };
@@ -152,5 +152,41 @@ test('Daily Directory registry adoption', async (t) => {
         const dir = load(host);
         assert.equal(dir.destinations().length, 5, 'built-in list still renders');
         assert.ok(host.innerHTML.includes('Vocabulary of the Day'));
+    });
+});
+
+test('Daily Directory follows the interface language, not the language being practised', async (t) => {
+    await t.test('card titles and descriptions are localised', () => {
+        const host = fakeNode({ 'data-lang': 'fr' });
+        load(host);
+        assert.ok(host.innerHTML.includes('Vocabulaire du jour'), 'French card title');
+        assert.ok(host.innerHTML.includes('Culture et événements'), 'French card title');
+        assert.ok(host.innerHTML.includes('Exercices quotidiens'), 'French card title');
+        assert.ok(!host.innerHTML.includes('Vocabulary of the Day'), 'no English title leaks');
+        assert.ok(!host.innerHTML.includes('Daily Drills'), 'no English title leaks');
+    });
+
+    await t.test('a slot that pins no language reads the interface language', () => {
+        // This is how the hub strip mounts it: no data-lang, so <html lang> decides.
+        const host = fakeNode({ 'data-compact': 'true', 'data-self': 'languages' });
+        load(host, 'fr');
+        assert.ok(host.innerHTML.includes('Plus de quotidiens dans COSYlanguages'), 'French heading');
+        assert.ok(host.innerHTML.includes('Vocabulaire du jour'), 'French chip');
+    });
+
+    await t.test('English stays the fallback when the interface is English', () => {
+        const host = fakeNode({ 'data-lang': 'en' });
+        load(host);
+        assert.ok(host.innerHTML.includes('Vocabulary of the Day'));
+        assert.ok(host.innerHTML.includes('Daily Drills'));
+    });
+
+    await t.test('every localised card keeps its owner and its link', () => {
+        const host = fakeNode({ 'data-lang': 'ru' });
+        load(host);
+        ['COSYdata', 'COSYpractice', 'COSYevents', 'COSYtools'].forEach((repo) => {
+            assert.ok(host.innerHTML.includes(repo), `${repo} still named`);
+        });
+        assert.ok(host.innerHTML.includes('Слово дня'), 'Russian card title');
     });
 });

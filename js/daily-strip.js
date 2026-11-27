@@ -607,7 +607,7 @@
                         </div>
                     `).join('')}
                 </div>
-                ${this.container.getAttribute('data-directory') === 'true' ? '<div class="daily-strip-directory" data-daily-directory data-compact="true" data-self="languages" data-lang="${this.lang}"></div>' : ''}
+                ${this.container.getAttribute('data-directory') === 'true' ? '<div class="daily-strip-directory" data-daily-directory data-compact="true" data-self="languages"></div>' : ''}
             `;
             this.mountDirectory();
         }
@@ -618,7 +618,8 @@
             const slot = this.container.querySelector && this.container.querySelector('[data-daily-directory]');
             const dir = typeof window !== 'undefined' && window.COSY_DailyDirectory;
             if (slot && dir && typeof dir.renderCompact === 'function') {
-                slot.setAttribute('data-lang', this.lang);
+                // The directory's headings follow the interface language, not the
+                // language the prompts are practising, so its slot stays unpinned.
                 dir.renderCompact(slot);
             }
         }
@@ -750,14 +751,18 @@
             return t(prefix + key, map[key] || key);
         }
 
-        // Panel chrome (Level:, Prep, Speak, words, Follow-up questions, ...) localized by the same file.
+        // Panel chrome (Level:, Prep, Speak, words, Follow-up questions, ...) follows the
+        // interface language. The band guide's chrome is written in the language being
+        // practised, so it is only a fallback for hosts that embed the strip with no UI
+        // dictionary of their own.
         chrome() {
             const c = (this.bandGuide && this.bandGuide.chrome) || {};
+            const ui = key => t(key, '');
             return {
-                level: c.level || t('strip_level', 'Level:'), prep: c.prep || t('strip_prep', 'Prep'),
-                speak: c.speak || t('strip_speak', 'Speak'), words: c.words || t('strip_words', 'words'),
-                followUps: c.followUps || t('strip_follow_ups', 'Follow-up questions'),
-                checklist: c.checklist || t('strip_checklist', 'Before you finish, check')
+                level: ui('strip_level') || c.level || 'Level:', prep: ui('strip_prep') || c.prep || 'Prep',
+                speak: ui('strip_speak') || c.speak || 'Speak', words: ui('strip_words') || c.words || 'words',
+                followUps: ui('strip_follow_ups') || c.followUps || 'Follow-up questions',
+                checklist: ui('strip_checklist') || c.checklist || 'Before you finish, check'
             };
         }
 

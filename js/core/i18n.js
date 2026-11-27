@@ -173,6 +173,7 @@
 
     async function loadLanguage(lang) {
         currentLang = (lang || 'en').toLowerCase();
+        if (UI_DATA_LANGS.includes(currentLang)) document.documentElement.lang = currentLang;
         const [ui, chrome] = await Promise.all([
             fetchTranslations(currentLang),
             CHROME_LANGS.includes(currentLang) ? fetchChrome(currentLang) : Promise.resolve({})
