@@ -161,6 +161,17 @@
             if (value) el.setAttribute('aria-label', value);
         });
 
+        // Attribute hooks read the UI dictionary, like data-translate-key.
+        document.querySelectorAll('[data-translate-aria-label]').forEach(el => {
+            const value = window.t(el.getAttribute('data-translate-aria-label'));
+            if (value) el.setAttribute('aria-label', value);
+        });
+
+        document.querySelectorAll('[data-translate-alt]').forEach(el => {
+            const value = window.t(el.getAttribute('data-translate-alt'));
+            if (value) el.setAttribute('alt', value);
+        });
+
         updateFlagPickerUI();
     }
 
