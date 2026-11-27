@@ -918,7 +918,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(!html.includes('daily-strip-band-guide'), 'no band guide');
     });
 
-    await t.test('the writing tab shows its own brief and its own follow-ups, never the speaking ones', async () => {
+    await t.test('the writing tab shows its word target, time limit and its own follow-ups, never the speaking ones', async () => {
         const writing = [{ id: 'en:writing:1', prompt: 'Write a short paragraph about your week.', level: 'A2', curated: true,
                            task: 'Paragraph', genre: 'Description', exam: 'IELTS', part: 'Part 1',
                            word_min: 140, word_max: 190, write_minutes: 40,
@@ -939,8 +939,8 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
 
         const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
         assert.ok(html.includes('daily-strip-chips'), 'writing cards show their brief');
-        assert.ok(html.includes('IELTS') && html.includes('Part 1'), 'exam and part chips render');
-        assert.ok(html.includes('Description'), 'genre chip renders');
+        assert.ok(!html.includes('IELTS') && !html.includes('Part 1'), 'no exam or part chip');
+        assert.ok(!html.includes('Description'), 'no genre chip');
         assert.ok(html.includes('140-190 words'), 'word target chip renders');
         assert.ok(html.includes('40 min'), 'time limit chip renders');
         assert.ok(html.includes('Before you finish, check'), 'self-check list renders');
@@ -1190,7 +1190,7 @@ test('Daily Strip writing brief: task, genre, word target and general-track acti
         assert.ok(html.includes('15 min'), 'time limit from the card');
     });
 
-    await t.test('A0-A1 writing drops the exam brief, time limit and checklist', async () => {
+    await t.test('A0-A1 writing drops the time limit and the checklist', async () => {
         const { comp, nodes } = mountWriting(writing);
         await new Promise(r => setTimeout(r, 30));
         comp.selectedLevel = 'a0-a1';
@@ -1203,11 +1203,11 @@ test('Daily Strip writing brief: task, genre, word target and general-track acti
         assert.ok(!html.includes('Reading &amp; Writing') && !html.includes('Reading & Writing'), 'no part chip');
         assert.ok(!html.includes('10 min'), 'no time limit chip');
         assert.ok(!html.includes('Before you finish, check'), 'no self-check list');
-        assert.ok(html.includes('Short sentences'), 'the task and genre stay');
+        assert.ok(!html.includes('Short sentences'), 'no task or genre chip');
         assert.ok(html.includes('10-25 words'), 'the word target stays');
     });
 
-    await t.test('B1-B2 and C1-C2 writing keep the full exam brief and checklist', async () => {
+    await t.test('B1-B2 and C1-C2 writing keep the word target, time limit and checklist', async () => {
         for (const [level, exam, minutes, words] of [
             ['b1-b2', 'Cambridge B2 First', '40 min', '140-190 words'],
             ['c1-c2', 'Cambridge C1 Advanced', '45 min', '220-260 words']
@@ -1219,8 +1219,8 @@ test('Daily Strip writing brief: task, genre, word target and general-track acti
             comp.renderContent();
 
             const html = nodes[`#${comp.uniqueId}_panel_writing`].html;
-            assert.ok(html.includes(exam), `${level}: exam chip`);
-            assert.ok(html.includes('Writing Part 1'), `${level}: part chip`);
+            assert.ok(!html.includes(exam), `${level}: no exam chip`);
+            assert.ok(!html.includes('Writing Part 1'), `${level}: no part chip`);
             assert.ok(html.includes(minutes), `${level}: time limit`);
             assert.ok(html.includes(words), `${level}: word target`);
             assert.ok(html.includes('Before you finish, check'), `${level}: self-check list`);

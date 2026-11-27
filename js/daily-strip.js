@@ -828,20 +828,16 @@
                     </div>
                 ` : '';
 
-                // Exam-style brief. Writing shows the exam, task, genre, word target and time limit;
-                // speaking keeps only the speaking timer, with the prompt carrying the task itself.
+                // Writing keeps the word target and the time limit; speaking keeps the speaking
+                // timer. The prompt carries the task, so exam, part, task and genre are not chips.
                 const chips = [];
                 const isSpeaking = tab.id === 'speaking';
                 const isWriting = tab.id === 'writing';
-                // A0-A1 writing drops the exam name, part label, time limit and self-check list.
+                // A0-A1 writing drops the time limit and the self-check list.
                 const isBeginnerWriting = isWriting && levelInBand(item.level, 'a0-a1');
-                if (isWriting && item.exam && !isBeginnerWriting) chips.push(`<span class="daily-strip-chip daily-strip-chip-exam">${this.escapeHTML(item.exam)}</span>`);
                 // General-course cards practise the skill for its own sake: show the activity instead of an exam.
                 if (isSpeaking && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(this.activityLabel(ACTIVITY_LABELS, 'strip_activity_', item.activity))}</span>`);
                 if (isWriting && !item.exam && item.activity) chips.push(`<span class="daily-strip-chip daily-strip-chip-activity">${this.escapeHTML(this.activityLabel(WRITING_ACTIVITY_LABELS, 'strip_writing_activity_', item.activity))}</span>`);
-                if (isWriting && item.part && !isBeginnerWriting) chips.push(`<span class="daily-strip-chip daily-strip-chip-part">${this.escapeHTML(item.part)}</span>`);
-                if (isWriting && item.task) chips.push(`<span class="daily-strip-chip daily-strip-chip-task">${this.escapeHTML(item.task)}</span>`);
-                if (isWriting && item.genre) chips.push(`<span class="daily-strip-chip daily-strip-chip-genre">${this.escapeHTML(item.genre)}</span>`);
                 if (isSpeaking && item.speakSeconds) chips.push(`<span class="daily-strip-chip">🗣️ ${this.escapeHTML(chrome.speak)} ${this.escapeHTML(formatDuration(item.speakSeconds))}</span>`);
                 if (isWriting && (item.wordMin || item.wordMax)) {
                     const target = item.wordMin && item.wordMax

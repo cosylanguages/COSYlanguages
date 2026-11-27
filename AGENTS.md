@@ -527,8 +527,8 @@ audience fit first and level distance second, so age beats level: a young learne
 who picks C1-C2 gets a B1-B2 card rather than an adult-only one.
 `data-track="general"|"exam"` narrows to one track.
 
-A0-A1 speaking drops the preparation-timer chip but keeps the speaking timer;
-B1-B2 and C1-C2 keep both. Validator: `node scripts/validate-daily-prompts.js`
+Speaking cards show only the speaking timer; the preparation timer is no longer
+rendered at any band. Validator: `node scripts/validate-daily-prompts.js`
 in COSYpractice. Tests: `tests/daily-strip.test.js` here.
 
 ## Daily writing prompts: exam and general tracks
@@ -541,12 +541,14 @@ tracks and the same `audience` rules. Writing cards carry their own scaffolding:
 - `write_minutes` – the time limit, shown as "40 min".
 - `checklist` – 2–3 self-check points, shown under "Before you finish, check".
 
-Writing cards render the same chips plus the self-check list, and never the
-speaking-only fields (`prep_seconds`, `speak_seconds`, `follow_ups`).
+Writing cards render only the word target, the time limit and the self-check list.
+The exam name, part label, task and genre stay in the data but are no longer painted
+as chips, because the prompt carries the task. They never show the speaking-only
+fields (`prep_seconds`, `speak_seconds`, `follow_ups`).
 
-A0-A1 writing is deliberately stripped back: it keeps the task, genre and word
-target but hides the exam name, part label, `write_minutes` chip and checklist.
-B1-B2 and C1-C2 keep the full brief. Tests: `tests/daily-strip.test.js`.
+A0-A1 writing is deliberately stripped back: it keeps the word target but hides the
+`write_minutes` chip and the checklist.
+B1-B2 and C1-C2 keep the time limit and the checklist. Tests: `tests/daily-strip.test.js`.
 
 Coverage floor, enforced by `node scripts/test-writing-coverage.js`: **≥6 curated
 exam cards and ≥4 general cards per CEFR band per language**, complete scaffolding
