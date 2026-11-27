@@ -850,7 +850,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.deepEqual(Array.from(junk.followUps), ['ok?']);
     });
 
-    await t.test('the B1-B2 speaking panel shows the exam brief and the band guide', async () => {
+    await t.test('the B1-B2 speaking panel shows the prompt, the speaking timer and the follow-ups', async () => {
         const { comp, nodes } = mountStrip(speaking);
         await new Promise(r => setTimeout(r, 30));
         comp.selectedLevel = 'b1-b2';
@@ -858,10 +858,10 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         comp.renderContent();
 
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('Cue card talk'), 'task chip');
-        assert.ok(html.includes('IELTS'), 'exam chip');
-        assert.ok(html.includes('Part 2 · Long turn (cue card)'), 'part chip');
-        assert.ok(html.includes('Prep 1 min'), 'prep time');
+        assert.ok(!html.includes('Cue card talk'), 'no task chip');
+        assert.ok(!html.includes('IELTS'), 'no exam chip');
+        assert.ok(!html.includes('Part 2 · Long turn (cue card)'), 'no part chip');
+        assert.ok(!html.includes('Prep 1 min'), 'no prep timer');
         assert.ok(html.includes('Speak 2 min'), 'speaking time');
         assert.ok(html.includes('Follow-up questions'), 'follow-up heading');
         assert.ok(html.includes('Was it difficult at the beginning?'), 'first follow-up');
@@ -870,7 +870,7 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         assert.ok(!html.includes('Language to aim for'), 'no focus line');
     });
 
-    await t.test('the selected level picks the card and its chips', async () => {
+    await t.test('the selected level picks the card and its speaking timer', async () => {
         const { comp, nodes } = mountStrip(speaking);
         await new Promise(r => setTimeout(r, 30));
         comp.selectedLevel = 'a0-a1';
@@ -878,10 +878,10 @@ test('Daily Strip speaking brief: task, exam, timings, follow-ups and band guide
         comp.renderContent();
 
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('Se présenter'), 'A0-A1 task chip');
-        assert.ok(html.includes('DELF A1'), 'A0-A1 exam chip');
-        assert.ok(html.includes('Part 1 · Entretien dirigé'), 'A0-A1 part chip');
-        assert.ok(!html.includes('Prep 15s'), 'A0-A1 drops the preparation timer');
+        assert.ok(!html.includes('Se présenter'), 'no task chip');
+        assert.ok(!html.includes('DELF A1'), 'no exam chip');
+        assert.ok(!html.includes('Part 1 · Entretien dirigé'), 'no part chip');
+        assert.ok(!html.includes('Prep 15s'), 'no preparation timer');
         assert.ok(html.includes('Speak 45s'), 'A0-A1 keeps the speaking timer');
         assert.ok(!html.includes('Threshold to Vantage'), 'no other band guide');
     });
@@ -1063,7 +1063,7 @@ test('Daily Strip general-course cards: activity instead of exam, and audience f
         await comp.loadAllCategories();
         comp.renderContent();
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(!html.includes('Cue card talk'), 'exam task is filtered out');
+        assert.ok(!html.includes('Describe a skill you learned'), 'exam task is filtered out');
         assert.ok(!html.includes('daily-strip-chip-exam'), 'no exam chip in general mode');
     });
 
@@ -1118,7 +1118,7 @@ test('Daily Strip general-course cards: activity instead of exam, and audience f
         await comp.loadAllCategories();
         comp.renderContent();
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
-        assert.ok(html.includes('Cue card talk'), 'exam task is shown');
+        assert.ok(html.includes('Describe a skill you learned'), 'exam task is shown');
         assert.ok(!html.includes('daily-strip-chip-activity'), 'no activity chip in exam mode');
     });
 });
@@ -1234,7 +1234,8 @@ test('Daily Strip chrome localization: every language labels its own controls', 
     const DATA = pathLocal.join(__dirname, '../data/daily');
     const LANGS = ['en', 'fr', 'de', 'es', 'it', 'pt', 'ru', 'el', 'hy', 'ka', 'tt', 'ba', 'cv', 'br'];
     // listen/practice are no longer rendered: the Listen button and the Practice in Hub link were removed.
-    const CHROME_KEYS = ['level', 'prep', 'speak', 'words', 'followUps', 'checklist'];
+    // prep is no longer rendered: speaking keeps only the speaking timer.
+    const CHROME_KEYS = ['level', 'speak', 'words', 'followUps', 'checklist'];
 
     // Serve the real band-guide.json from disk, so the test exercises the same files the browser fetches.
     function mount(lang, items, opts = {}) {
@@ -1299,7 +1300,6 @@ test('Daily Strip chrome localization: every language labels its own controls', 
             const write = nodes[`#${comp.uniqueId}_panel_writing`].html;
 
             assert.ok(speak.includes(c.followUps), `${lang}: localized follow-up heading`);
-            assert.ok(speak.includes(c.prep), `${lang}: localized prep label`);
             assert.ok(speak.includes(c.speak), `${lang}: localized speak label`);
             assert.ok(write.includes(c.checklist), `${lang}: localized checklist label`);
             if (lang !== 'en') {
@@ -1341,14 +1341,13 @@ test('Daily Strip chrome localization: every language labels its own controls', 
 
         const html = nodes[`#${comp.uniqueId}_panel_speaking`].html;
         assert.ok(html.includes('Follow-up questions'), 'English follow-up heading used');
-        assert.ok(html.includes('Prep'), 'English prep label used');
         assert.ok(html.includes('daily-strip-prompt'), 'the prompt still renders');
     });
 
     await t.test('the panel chrome follows the interface language, not the guide\'s language', async () => {
         // English prompts and an English guide, but a French interface: the labels
         // must read in the visitor's language, not the language being practised.
-        const fr = { strip_level: 'Niveau :', strip_prep: 'Préparation', strip_speak: 'Parlez',
+        const fr = { strip_level: 'Niveau :', strip_speak: 'Parlez',
             strip_words: 'mots', strip_follow_ups: 'Questions de suivi', strip_checklist: 'Avant de finir, vérifiez' };
         const { comp, nodes } = mount('en', prompt('en'), { t: (k) => fr[k] || '' });
         await new Promise(r => setTimeout(r, 40));

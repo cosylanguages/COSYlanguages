@@ -474,8 +474,10 @@ Bashkir and Chuvash state language exams; and the Breton Diplom war ar Brezhoneg
 questions). `exam` and `part` are required by the validator, and `part` names the
 exam's own speaking part ("Part 2 · Long turn (cue card)", "Sprechen Teil 1 · Vortrag",
 "Tarea 1 · Monólogo", "Задание 1 · Монолог по теме").
-The strip renders those as chips, a "Prep 1 min / Speak 2 min" line and a follow-up
-list. The CEFR band guide that used to sit under the prompt (what the band expects,
+The strip paints only the speaking timer ("Speak 2 min") and the follow-up list; the
+exam name, part label, task and preparation timer stay in the data but are no longer
+rendered as chips, so the prompt itself carries the task. The CEFR band guide that
+used to sit under the prompt (what the band expects,
 the can-do descriptor, the certifying exams) was removed; only the localized control
 labels from `data/daily/<lang>/band-guide.json` are still used (see "Band guide" below).
 Fields stay optional at render time, so prompts
@@ -570,12 +572,14 @@ still consumed:
                          "writing":  { "canDo": "…", "expects": "…", "focus": "…", "exams": "…", "length": "…" } } } }
 ```
 
-`chrome` carries the panel's own labels ("Level:", "Prep", "Speak", "words",
+`chrome` carries the panel's own labels ("Level:", "Speak", "words",
 "Follow-up questions", "Before you finish, check") **in the language being practised**,
 so it is a fallback only: the strip reads those labels from `data/ui/<lang>.json`
-(`strip_level`, `strip_prep`, `strip_speak`, `strip_words`, `strip_follow_ups`,
+(`strip_level`, `strip_speak`, `strip_words`, `strip_follow_ups`,
 `strip_checklist`) first, because a French interface practising English must still
-say "Niveau :" and "Questions de suivi". `listen` and `practice` remain in
+say "Niveau :" and "Questions de suivi". `prep` and `strip_prep` remain in the files
+but are no longer read: the preparation-timer chip was removed from the speaking tab.
+`listen` and `practice` remain in
 the files but are no longer read: the "🔊 Listen" button and the "🚀 Practice in Hub"
 link were removed from every tab, so the only footer link left is the COSYtools one
 on the verb tabs.
