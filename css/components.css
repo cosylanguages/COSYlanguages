@@ -2124,3 +2124,17 @@ body.theme-dark .observations-panel-title {
 .site-footer a:hover {
   color: var(--cosy-signal-deep, #087A80);
 }
+
+/* Single-purpose pages (marathon levels, pronunciation hub) carry their CEFR
+   band in the footer bar. Children inherit the bar's ink, not the theme's. */
+[data-cefr="a0-a1"] .site-footer { background: var(--cosy-cefr-a0a1-bar); color: var(--cosy-cefr-a0a1-bar-ink); }
+[data-cefr="a2"] .site-footer    { background: var(--cosy-cefr-a2-bar); color: var(--cosy-cefr-a2-bar-ink); }
+[data-cefr="b1"] .site-footer    { background: var(--cosy-cefr-b1-bar); color: var(--cosy-cefr-b1-bar-ink); }
+[data-cefr="b2"] .site-footer    { background: var(--cosy-cefr-b2-bar); color: var(--cosy-cefr-b2-bar-ink); }
+[data-cefr="c1"] .site-footer    { background: var(--cosy-cefr-c1-bar); color: var(--cosy-cefr-c1-bar-ink); }
+[data-cefr="c2"] .site-footer    { background: var(--cosy-cefr-c2-bar); color: var(--cosy-cefr-c2-bar-ink); }
+
+[data-cefr] .site-footer p,
+[data-cefr] .site-footer a {
+  color: inherit;
+}

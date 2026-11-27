@@ -49,23 +49,25 @@ const STANDARD = /href="(?:\.\.\/)*courses\/index\.html"/;
 function main() {
     const check = process.argv.includes('--check');
     const drift = [];
+    let examined = 0;
     for (const file of htmlFiles()) {
         const relative = path.relative(ROOT, file).split(path.sep).join('/');
         if (relative.startsWith('shared/')) continue;
         const source = fs.readFileSync(file, 'utf8');
         const footer = source.match(FOOTER);
         if (!footer || !STANDARD.test(footer[0])) continue;
+        examined++;
         const wanted = renderFooter(relative);
         if (footer[0] === wanted) continue;
         drift.push(relative);
         if (!check) fs.writeFileSync(file, source.replace(FOOTER, wanted), 'utf8');
     }
     if (check && drift.length) {
-        console.error(`footer out of sync in ${drift.length} page(s):\n  ${drift.join('\n  ')}`);
+        console.error(`footer out of sync in ${drift.length} of ${examined} page(s):\n  ${drift.join('\n  ')}`);
         console.error('\nRun: node scripts/sync-footer.js');
         process.exit(1);
     }
-    console.log(`${check ? 'checked' : 'synced'} ${drift.length} page(s)`);
+    console.log(`${check ? 'checked' : 'synced'} ${examined} page(s), ${drift.length} changed`);
 }
 
 module.exports = { renderFooter, htmlFiles };

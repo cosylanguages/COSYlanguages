@@ -220,7 +220,7 @@ page that forgets `engine.js` fails it too.
 ## Footer: one source, rendered at source time
 
 `shared/partials/footer.html` is the standard footer. `scripts/sync-footer.js`
-renders it into the 40 pages that carry it (`{{root}}` becomes the page's depth
+renders it into the 39 pages that carry it (`{{root}}` becomes the page's depth
 prefix, `{{pin}}` is the home page's "Add to home screen" link), and
 `tests/footer.test.js` fails when a page and the partial disagree — so the fix for
 a drifting footer is `npm run sync:footer`, never a hand edit. `npm run check:footer`

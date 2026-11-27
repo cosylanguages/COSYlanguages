@@ -370,6 +370,22 @@
     --cosy-level-c2-fill:                var(--cosy-color-ink);
     --cosy-level-c2-soft:                var(--cosy-color-cream-dark);
     --cosy-level-c2-ink:                 var(--cosy-color-ink);
+
+    /* CEFR band bar: the footer tint on single-purpose pages (marathon levels,
+       pronunciation hub). Fixed fill with a fixed light ink, so the band reads
+       the same in either theme and the page need not paint it inline. */
+    --cosy-cefr-a0a1-bar:                #1b4332;
+    --cosy-cefr-a0a1-bar-ink:            #d8f3dc;
+    --cosy-cefr-a2-bar:                  #854d0e;
+    --cosy-cefr-a2-bar-ink:              #fef08a;
+    --cosy-cefr-b1-bar:                  #c2410c;
+    --cosy-cefr-b1-bar-ink:              #ffedd5;
+    --cosy-cefr-b2-bar:                  #b91c1c;
+    --cosy-cefr-b2-bar-ink:              #fee2e2;
+    --cosy-cefr-c1-bar:                  #6b21a8;
+    --cosy-cefr-c1-bar-ink:              #f3e8ff;
+    --cosy-cefr-c2-bar:                  #18181b;
+    --cosy-cefr-c2-bar-ink:              #e4e4e7;
 }
 
 /* ── 13. Shared Ecosystem Strip Component Styles ─────────────────────────── */
