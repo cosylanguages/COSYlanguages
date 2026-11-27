@@ -206,7 +206,7 @@
     --cosy-semantic-warning-light:       #FFF8E7;
     --cosy-semantic-focus:               #416B49;
 
-    --focus-ring:                        0 0 0 3px rgba(65, 107, 73, 0.4);
+    --focus-ring:                        0 0 0 3px var(--cosy-signal-deep);
 
     /* ── 7. Typography Scale & Font Stacks ──────────────────────────────── */
     --cosy-font-sans:                    'Commissioner', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -330,6 +330,46 @@
     --btn-tertiary-color:                var(--sage-dark);
     --btn-tertiary-hover-color:          var(--sage-deep);
     --btn-tertiary-weight:               var(--cosy-font-weight-bold);
+
+    /* ── 15. Signal Tier (teal) ────────────────────────────────────────────
+       The structural palette (cream/sage/ink) stays the paper the content sits
+       on. Teal marks what is *alive*: active nav, progress, selection, focus,
+       badges. #0ABBB5 is 2.39:1 on white, so it is a fill and graphic colour
+       only — never body text. For teal text use --cosy-signal-ink. */
+    --cosy-signal:                       #0ABBB5;
+    --cosy-signal-secondary:             #0CA2B0;
+    --cosy-signal-deep:                  #087A80;   /* 5.11:1 on white */
+    --cosy-signal-soft:                  #DFFAF8;
+    --cosy-signal-ink:                   var(--cosy-signal-deep);
+    --cosy-signal-gradient:              linear-gradient(135deg, #0ABBB5 0%, #0CA2B0 100%);
+
+    /* Direct aliases for consumer apps */
+    --signal:                            var(--cosy-signal);
+    --signal-deep:                       var(--cosy-signal-deep);
+    --signal-soft:                       var(--cosy-signal-soft);
+
+    /* ── 16. CEFR Level Tier ───────────────────────────────────────────────
+       One hue per level, aliased from the existing palette so the accent budget
+       does not grow. *-fill stays dark in both themes (white text sits on it);
+       *-soft and *-ink flip with the theme (chips, headings). */
+    --cosy-level-a0a1-fill:              var(--cosy-color-green);
+    --cosy-level-a0a1-soft:              var(--cosy-color-green-light);
+    --cosy-level-a0a1-ink:               var(--cosy-ink-green);
+    --cosy-level-a2-fill:                var(--cosy-color-honey);
+    --cosy-level-a2-soft:                var(--cosy-color-honey-pale);
+    --cosy-level-a2-ink:                 var(--cosy-ink-honey);
+    --cosy-level-b1-fill:                var(--cosy-color-coral);
+    --cosy-level-b1-soft:                var(--cosy-color-coral-light);
+    --cosy-level-b1-ink:                 var(--cosy-ink-coral);
+    --cosy-level-b2-fill:                var(--cosy-color-rose);
+    --cosy-level-b2-soft:                var(--cosy-color-rose-light);
+    --cosy-level-b2-ink:                 var(--cosy-ink-rose);
+    --cosy-level-c1-fill:                var(--cosy-color-navy);
+    --cosy-level-c1-soft:                var(--cosy-color-navy-light);
+    --cosy-level-c1-ink:                 var(--cosy-ink-navy);
+    --cosy-level-c2-fill:                var(--cosy-color-ink);
+    --cosy-level-c2-soft:                var(--cosy-color-cream-dark);
+    --cosy-level-c2-ink:                 var(--cosy-color-ink);
 }
 
 /* ── 13. Shared Ecosystem Strip Component Styles ─────────────────────────── */
@@ -528,6 +568,10 @@ html[data-theme="dark"], body.theme-dark { color-scheme: dark; }
         --btn-soft-hover-color:              #ffffff;
         --btn-tertiary-color:                var(--sage-light);
         --btn-tertiary-hover-color:          #ffffff;
+
+        --cosy-signal-soft:                  #0B2E2E;
+        --cosy-signal-ink:                   #7FE7E1;
+        --focus-ring:                        0 0 0 3px var(--cosy-signal);
     }
 
     :root:not([data-theme="light"]) .cosy-ecosystem-strip {
@@ -624,6 +668,10 @@ html[data-theme="dark"], body.theme-dark {
 
     --cosy-color-lamp:                   #C9A455;
     --cosy-color-lamp-soft:              #2E2716;
+
+    --cosy-signal-soft:                  #0B2E2E;
+    --cosy-signal-ink:                   #7FE7E1;
+    --focus-ring:                        0 0 0 3px var(--cosy-signal);
 }
 
 html[data-theme="dark"] .cosy-ecosystem-strip,

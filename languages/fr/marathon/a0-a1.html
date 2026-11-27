@@ -14,13 +14,6 @@
 <link rel="stylesheet" href="../../../css/lang-accents.css">
 <link rel="stylesheet" href="../../../css/mobile.css">
 <style>
-  :root {
-    --mp-primary: #1e5631;
-    --mp-primary-light: #e8f5e9;
-    --mp-accent: #2e7d32;
-    --mp-gold: #d4af37;
-    --mp-border: #c8e6c9;
-  }
 
   body {
     font-family: 'Nunito', system-ui, -apple-system, sans-serif;
@@ -30,10 +23,10 @@
   }
 
   .mp-hero {
-    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 50%, #40916c 100%);
+    background: linear-gradient(135deg, var(--cosy-level-a0a1-fill) 0%, color-mix(in srgb, var(--cosy-level-a0a1-fill) 78%, #ffffff) 100%);
     color: var(--cosy-on-brand);
     padding: 3rem 1.5rem 2rem;
-    border-bottom: 4px solid #74c69d;
+    border-bottom: 4px solid var(--cosy-level-a0a1-soft);
     text-align: center;
   }
 
@@ -47,7 +40,7 @@
 
   .mp-hero p.subtitle {
     font-size: 1.14rem;
-    color: #d8f3dc;
+    color: rgba(255, 255, 255, 0.86);
     max-width: 800px;
     margin: 0 auto 1.25rem;
   }
@@ -76,7 +69,7 @@
     top: 0;
     z-index: 100;
     background: var(--cosy-color-surface);
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid var(--cosy-color-border);
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
 
@@ -102,7 +95,7 @@
   }
 
   .sd-jump-link:hover, .sd-jump-link.active {
-    background: #2d6a4f;
+    background: var(--cosy-level-a0a1-fill);
     color: var(--cosy-on-brand);
   }
 
@@ -115,7 +108,7 @@
   .mp-section {
     background: var(--cosy-color-surface);
     border-radius: 12px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--cosy-color-border);
     padding: 2rem;
     margin-bottom: 2.5rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.03);
@@ -127,7 +120,7 @@
     font-size: 1.7rem;
     margin-top: 0;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid #d8f3dc;
+    border-bottom: 2px solid var(--cosy-level-a0a1-soft);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -142,7 +135,7 @@
 
   .mp-table th, .mp-table td {
     padding: 0.85rem 1rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--cosy-color-border);
     text-align: left;
     vertical-align: top;
   }
@@ -154,12 +147,12 @@
   }
 
   .mp-table tr:nth-child(even) {
-    background-color: #f9fbf9;
+    background-color: var(--cosy-color-sage-mist);
   }
 
   .mnemonic-box {
     background: var(--cosy-color-honey-pale);
-    border-left: 4px solid #f57f17;
+    border-left: 4px solid var(--cosy-level-a2-fill);
     border-radius: 6px;
     padding: 1rem 1.25rem;
     margin: 1rem 0;
@@ -173,7 +166,7 @@
 
   .beginner-notice {
     background: var(--cosy-color-blue-light);
-    border-left: 4px solid #1976d2;
+    border-left: 4px solid var(--cosy-color-blue);
     border-radius: 6px;
     padding: 1rem 1.25rem;
     margin-bottom: 1.5rem;
@@ -181,14 +174,14 @@
 
   .lesson-sample {
     background: var(--cosy-color-surface);
-    border: 2px solid #74c69d;
+    border: 2px solid var(--cosy-level-a0a1-soft);
     border-radius: 12px;
     margin-bottom: 2rem;
     overflow: hidden;
   }
 
   .lesson-sample-header {
-    background: #2d6a4f;
+    background: var(--cosy-level-a0a1-fill);
     color: var(--cosy-on-brand);
     padding: 1rem 1.5rem;
   }
@@ -208,7 +201,7 @@
     justify-content: space-between;
     align-items: center;
     background: var(--cosy-color-green-light);
-    border: 1px solid #b7e4c7;
+    border: 1px solid var(--cosy-level-a0a1-soft);
     border-radius: 8px;
     padding: 1rem 1.5rem;
     margin-top: 2rem;
@@ -228,7 +221,7 @@
   }
   .alphabet-card {
     background: var(--cosy-color-green-light);
-    border: 1px solid #c8e6c9;
+    border: 1px solid var(--cosy-color-border);
     border-radius: 8px;
     padding: 0.6rem;
     text-align: center;
@@ -236,11 +229,6 @@
   .alphabet-card .letter { font-size: 1.4rem; font-weight: 800; color: var(--cosy-ink-sage); }
   .alphabet-card .ipa { font-size: 0.85rem; color: var(--cosy-ink-sage); font-weight: 600; }
   .alphabet-card .example { font-size: 0.8rem; color: var(--cosy-color-ink-soft); margin-top: 0.2rem; }
-
-  /* The footer sets a fixed accent inline; children must inherit it rather
-     than the theme ink, which would go pale on the dark accent in dark mode. */
-  footer.site-footer, footer.site-footer h3, footer.site-footer p,
-  footer.site-footer a, footer.site-footer div, footer.site-footer span { color: inherit; }
 </style>
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon/a0-a1.html">
   <meta property="og:title" content="🟢 Marathon de Prononciation — Niveau A0-A1 Fondations · COSYlanguages">
@@ -414,7 +402,7 @@
 
 </main>
 
-<footer class="site-footer" style="background: #1b4332; color: #d8f3dc; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+<footer class="site-footer">
   <p>© 2026 COSYlanguages · Marathon de Prononciation Française A0-A1</p>
 </footer>
 

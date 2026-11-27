@@ -14,13 +14,6 @@
 <link rel="stylesheet" href="../../css/lang-accents.css">
 <link rel="stylesheet" href="../../css/mobile.css">
 <style>
-  :root {
-    --mp-primary: #1e5631;
-    --mp-primary-light: #e8f5e9;
-    --mp-accent: #2E6B33;
-    --mp-gold: #d4af37;
-    --mp-border: #c8e6c9;
-  }
 
   body {
     font-family: 'Nunito', system-ui, -apple-system, sans-serif;
@@ -30,10 +23,10 @@
   }
 
   .mp-hero {
-    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 50%, #40916c 100%);
+    background: linear-gradient(135deg, var(--cosy-level-a0a1-fill) 0%, color-mix(in srgb, var(--cosy-level-a0a1-fill) 78%, #ffffff) 100%);
     color: var(--cosy-on-brand);
     padding: 3.5rem 1.5rem 2.5rem;
-    border-bottom: 4px solid #74c69d;
+    border-bottom: 4px solid var(--cosy-level-a0a1-soft);
     text-align: center;
   }
 
@@ -47,7 +40,7 @@
 
   .mp-hero p.subtitle {
     font-size: 1.2rem;
-    color: #d8f3dc;
+    color: rgba(255, 255, 255, 0.86);
     max-width: 800px;
     margin: 0 auto 1.5rem;
   }
@@ -76,7 +69,7 @@
     top: 0;
     z-index: 100;
     background: var(--cosy-color-surface);
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid var(--cosy-color-border);
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
 
@@ -102,7 +95,7 @@
   }
 
   .sd-jump-link:hover {
-    background: #2d6a4f;
+    background: var(--cosy-level-a0a1-fill);
     color: var(--cosy-on-brand);
   }
 
@@ -115,7 +108,7 @@
   .mp-section {
     background: var(--cosy-color-surface);
     border-radius: 12px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--cosy-color-border);
     padding: 2rem;
     margin-bottom: 2.5rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.03);
@@ -127,7 +120,7 @@
     font-size: 1.8rem;
     margin-top: 0;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid #d8f3dc;
+    border-bottom: 2px solid var(--cosy-level-a0a1-soft);
   }
 
   /* Level Cards Grid */
@@ -140,7 +133,7 @@
 
   .level-card {
     background: var(--cosy-color-surface);
-    border: 2px solid #e2e8f0;
+    border: 2px solid var(--cosy-color-border);
     border-radius: 12px;
     padding: 1.5rem;
     display: flex;
@@ -154,12 +147,12 @@
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   }
 
-  .level-card.card-a0a1 { border-color: #90caf9; }
-  .level-card.card-a2 { border-color: #a5d6a7; }
-  .level-card.card-b1 { border-color: #ffe082; }
-  .level-card.card-b2 { border-color: #ffab91; }
-  .level-card.card-c1 { border-color: #ce93d8; }
-  .level-card.card-c2 { border-color: #b0bec5; }
+  .level-card.card-a0a1 { border-color: var(--cosy-level-a0a1-soft); }
+  .level-card.card-a2 { border-color: var(--cosy-level-a2-soft); }
+  .level-card.card-b1 { border-color: var(--cosy-level-b1-soft); }
+  .level-card.card-b2 { border-color: var(--cosy-level-b2-soft); }
+  .level-card.card-c1 { border-color: var(--cosy-level-c1-soft); }
+  .level-card.card-c2 { border-color: var(--cosy-level-c2-soft); }
 
   .level-card-header {
     display: flex;
@@ -182,12 +175,12 @@
     font-weight: 800;
   }
 
-  .pill-a0a1 { background: var(--cosy-color-blue-light); color: var(--cosy-ink-blue); }
-  .pill-a2 { background: var(--cosy-color-green-light); color: var(--cosy-ink-green); }
-  .pill-b1 { background: var(--cosy-color-honey-pale); color: var(--cosy-ink-honey); }
-  .pill-b2 { background: var(--cosy-color-rose-light); color: var(--cosy-ink-rose); }
-  .pill-c1 { background: var(--cosy-color-plum-light); color: var(--cosy-ink-plum); }
-  .pill-c2 { background: var(--cosy-color-navy-light); color: var(--cosy-ink-navy); }
+  .pill-a0a1 { background: var(--cosy-level-a0a1-soft); color: var(--cosy-level-a0a1-ink); }
+  .pill-a2 { background: var(--cosy-level-a2-soft); color: var(--cosy-level-a2-ink); }
+  .pill-b1 { background: var(--cosy-level-b1-soft); color: var(--cosy-level-b1-ink); }
+  .pill-b2 { background: var(--cosy-level-b2-soft); color: var(--cosy-level-b2-ink); }
+  .pill-c1 { background: var(--cosy-level-c1-soft); color: var(--cosy-level-c1-ink); }
+  .pill-c2 { background: var(--cosy-level-c2-soft); color: var(--cosy-level-c2-ink); }
 
   .level-card-desc {
     font-size: 0.95rem;
@@ -206,27 +199,27 @@
     transition: background 0.2s ease;
   }
 
-  .btn-a0a1 { background: #1565C0; color: var(--cosy-on-brand); }
-  .btn-a0a1:hover { background: #0d47a1; }
-  .btn-a2 { background: #2E6B33; color: var(--cosy-on-brand); }
-  .btn-a2:hover { background: #1b5e20; }
-  .btn-b1 { background: #A85C00; color: var(--cosy-on-brand); }
-  .btn-b1:hover { background: #8A4A00; }
-  .btn-b2 { background: #B34418; color: var(--cosy-on-brand); }
-  .btn-b2:hover { background: #96330F; }
-  .btn-c1 { background: #5B1685; color: var(--cosy-on-brand); }
-  .btn-c1:hover { background: #4a148c; }
-  .btn-c2 { background: #2B3A41; color: var(--cosy-on-brand); }
-  .btn-c2:hover { background: #263238; }
+  .btn-a0a1 { background: var(--cosy-level-a0a1-fill); color: var(--cosy-on-brand); }
+  .btn-a0a1:hover { background: color-mix(in srgb, var(--cosy-level-a0a1-fill) 82%, var(--cosy-color-ink)); }
+  .btn-a2 { background: var(--cosy-level-a2-fill); color: var(--cosy-on-brand); }
+  .btn-a2:hover { background: color-mix(in srgb, var(--cosy-level-a2-fill) 82%, var(--cosy-color-ink)); }
+  .btn-b1 { background: var(--cosy-level-b1-fill); color: var(--cosy-on-brand); }
+  .btn-b1:hover { background: color-mix(in srgb, var(--cosy-level-b1-fill) 82%, var(--cosy-color-ink)); }
+  .btn-b2 { background: var(--cosy-level-b2-fill); color: var(--cosy-on-brand); }
+  .btn-b2:hover { background: color-mix(in srgb, var(--cosy-level-b2-fill) 82%, var(--cosy-color-ink)); }
+  .btn-c1 { background: var(--cosy-level-c1-fill); color: var(--cosy-on-brand); }
+  .btn-c1:hover { background: color-mix(in srgb, var(--cosy-level-c1-fill) 82%, var(--cosy-color-ink)); }
+  .btn-c2 { background: var(--cosy-level-c2-fill); color: var(--cosy-on-brand); }
+  .btn-c2:hover { background: color-mix(in srgb, var(--cosy-level-c2-fill) 82%, var(--cosy-color-ink)); }
 
   .mp-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
-  .mp-table th, .mp-table td { padding: 0.75rem 1rem; border: 1px solid #e2e8f0; text-align: left; }
+  .mp-table th, .mp-table td { padding: 0.75rem 1rem; border: 1px solid var(--cosy-color-border); text-align: left; }
   .mp-table th { background: var(--cosy-color-green-light); color: var(--cosy-ink-sage); }
 
   /* Mnemonic Box */
   .mnemonic-box {
     background: var(--cosy-color-honey-pale);
-    border-left: 4px solid #A85C00;
+    border-left: 4px solid var(--cosy-level-b1-fill);
     border-radius: 6px;
     padding: 1rem 1.25rem;
     margin: 1rem 0;
@@ -247,8 +240,8 @@
   }
 
   .family-card {
-    background: #f7fcf8;
-    border: 1px solid #c8e6c9;
+    background: var(--cosy-color-sage-mist);
+    border: 1px solid var(--cosy-color-border);
     border-radius: 10px;
     padding: 1.25rem;
   }
@@ -264,11 +257,6 @@
     font-size: 0.92rem;
     color: var(--cosy-color-ink-soft);
   }
-
-  /* The footer sets a fixed accent inline; children must inherit it rather
-     than the theme ink, which would go pale on the dark accent in dark mode. */
-  footer.site-footer, footer.site-footer h3, footer.site-footer p,
-  footer.site-footer a, footer.site-footer div, footer.site-footer span { color: inherit; }
 </style>
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/languages/fr/marathon-prononciation.html">
   <meta property="og:title" content="Marathon de prononciation française — COSYlanguages">
@@ -462,12 +450,10 @@
 
 </main>
 
-<footer class="site-footer" style="background: #1b4332; color: #d8f3dc; padding: 2.5rem 1.5rem; text-align: center; margin-top: 3rem;">
-  <div style="max-width: 1100px; margin: 0 auto;">
-    <p style="margin-bottom: 0.5rem; font-weight: 700; color: var(--cosy-on-brand);">COSYlanguages · Marathon de Prononciation Française</p>
-    <p style="margin-bottom: 1rem; font-size: 0.9rem;"><a href="index.html" style="color: #74c69d; text-decoration: none;">← Retour au Hub Français</a> | <a href="pronunciation.html" style="color: #74c69d; text-decoration: none;">Guide de Prononciation</a></p>
-    <p style="font-size: 0.8rem; color: #b7e4c7;">© 2026 COSYlanguages. Tous droits réservés.</p>
-  </div>
+<footer class="site-footer">
+  <p><strong>COSYlanguages · Marathon de Prononciation Française</strong></p>
+  <p><a href="index.html">← Retour au Hub Français</a> · <a href="pronunciation.html">Guide de Prononciation</a></p>
+  <p>© 2026 COSYlanguages. Tous droits réservés.</p>
 </footer>
 
 <script src="../../js/data/languages.js"></script>

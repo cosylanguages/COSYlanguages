@@ -45,6 +45,12 @@ a {
     text-decoration: none;
 }
 
+/* Selection is one of the places the signal colour earns its keep. */
+::selection {
+    background: var(--cosy-signal-soft, #DFFAF8);
+    color: var(--cosy-color-ink, #1C1917);
+}
+
 img {
     max-width: 100%;
     height: auto;

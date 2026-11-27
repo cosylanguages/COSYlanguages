@@ -122,8 +122,10 @@ node --test tests/word-explorer.test.js
 `tests/html-links.test.js` is the static guard for the published pages: every relative
 `href`/`src` must resolve on disk, every `target="_blank"` anchor must carry
 `rel="noopener noreferrer"`, and every `sitemap.xml` `<loc>` must map to a real file.
-There is no build step, so these checks are the only thing standing between an edit and
-a 404 on Pages. Run the whole suite with `node --test tests/*.test.js`.
+`tests/architecture.test.js` is the guard for the shell contract (see "Shell
+contract" below). There is no build step, so these checks are the only thing
+standing between an edit and a 404 or an off-palette page. Run the whole suite with
+`node --test tests/*.test.js`.
 
 Other repos in the org have their own runners (`npm test` in `COSYplatform`,
 `COSYtools`, `COSYmagazine`, `COSYdata`; `node --test tests/*.test.mjs` in
@@ -149,6 +151,58 @@ dictionaries. Cases settled so far:
 
 Renaming a code identifier is a separate, breaking change: sibling repositories
 call `window.COSY` and read the `cosy.*` storage keys.
+
+## Colour tiers: paper, signal, level
+
+`shared/css/tokens.css` is the only palette, and it is published cross-origin, so a
+change there recolours every sibling repo at once. It has three tiers:
+
+- **Paper** (unchanged, the default): `--cosy-color-cream` `#FAF7F2`,
+  `--cosy-color-surface` white, `--cosy-color-ink` `#1C1917`, sage `#416B49`.
+  Surfaces, body text, cards, nav. This is the calm ground the content sits on.
+- **Signal** (teal): `--cosy-signal` `#0ABBB5`, `--cosy-signal-secondary` `#0CA2B0`,
+  `--cosy-signal-deep` `#087A80`, `--cosy-signal-soft` `#DFFAF8`, gradient
+  `--cosy-signal-gradient`. Used *only* where something is alive: active nav,
+  progress, selection (`::selection`), focus ring, badges, checkmarks.
+  `#0ABBB5` is **2.39:1 on white**, so it is a fill and graphic colour, never body
+  text or a link. For teal text use `--cosy-signal-ink`, which is
+  `--cosy-signal-deep` in light mode and `#7FE7E1` in dark mode.
+  `--focus-ring` is the signal colour (3px solid deep teal, teal on dark).
+- **CEFR levels**: `--cosy-level-<a0a1|a2|b1|b2|c1|c2>-{fill,soft,ink}`, aliased
+  from the existing palette (green, honey, coral, rose, navy, ink) so the accent
+  budget does not grow. `*-fill` stays dark in both themes (white text sits on it);
+  `*-soft` and `*-ink` flip with the theme.
+
+Rule of thumb: a new accent may only be introduced by retiring one. The budget is
+the signal tier, six course tracks, six levels and the semantic red/amber/green.
+
+`css/components.css` owns `.site-footer`, the short footer for single-purpose
+documents (marathon levels, print hubs). It is token-only and follows the theme. A
+page must never paint its own footer colour inline — that is how the eight marathon
+footers drifted to orange, red, purple and near-black.
+
+## Shell contract (`tests/architecture.test.js`)
+
+There is no build step, so "each product is independent" is enforced by tests, not
+by a bundler. A *product* is `about/`, `comparative/`, `courses/`, `print-studio/`
+or `languages/<code>/`; everything else (`css/`, `js/`, `shared/`, `images/`,
+`data/`, `fonts/`) is the *kernel*. Five rules:
+
+1. Every real page loads the shell: a tokens stylesheet, `js/core/engine.js`, and
+   exactly one `<footer>`. Redirect stubs, the Google verification token and
+   `print-studio/monthly-zine-issue-1.html` are exempt.
+2. A `<footer>` tag carries no colour (`var()` fallbacks are tokens, so allowed).
+3. No product references another product's `css/`, `js/` or `data/`; the kernel
+   never references a product. Linking another product's *page* is fine — that is
+   navigation.
+4. Inline `style=` attributes carry no off-palette colour. The last exceptions are
+   seven hexes in the Comparative Atlas HUD, which draws on a fixed dark canvas;
+   convert those with dedicated HUD tokens before removing the allowlist.
+5. Off-palette colour literals in `.html`/`.css` are budgeted at 641 and may only
+   shrink. Add a token instead of raising the number.
+
+Consequence worth knowing: a page that hardcodes a shade fails the suite, and a
+page that forgets `engine.js` fails it too.
 
 ## Internationalisation (one engine, two dictionaries)
 
