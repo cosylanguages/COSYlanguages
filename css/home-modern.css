@@ -403,7 +403,7 @@ html[data-theme="dark"] .page-home .course-row-professional { --track: #7C8FD6; 
   padding: 1.2rem 1.4rem;
 }
 .page-home .er-icon { font-size: 1.9rem; }
-.page-home .er-body h4 { font-family: var(--font-serif); font-size: 1.15rem; margin: 0 0 0.2rem; color: var(--ink); }
+.page-home .er-body h3 { font-family: var(--font-serif); font-size: 1.15rem; margin: 0 0 0.2rem; color: var(--ink); }
 .page-home .er-body p { margin: 0; color: var(--ink-soft); font-size: 0.97rem; }
 
 /* ── Price calculator ─────────────────────────────────────────── */

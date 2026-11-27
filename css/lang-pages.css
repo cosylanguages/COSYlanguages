@@ -678,7 +678,7 @@ html[data-theme="dark"] .rc-link, body.theme-dark .rc-link {
   line-height: 1;
 }
 
-.mc-body h4 {
+.mc-body h3 {
   font-family:var(--font-serif);
   font-size: .98rem;
   font-weight: 700;
@@ -747,7 +747,7 @@ html[data-theme="dark"] .mc-link, body.theme-dark .mc-link {
 
 .shop-category { margin-bottom: 1.5rem; }
 
-.shop-category h4 {
+.shop-category h3 {
   font-size: .75rem;
   font-weight: 900;
   letter-spacing: .08em;
@@ -985,3 +985,10 @@ footer {
 .course-logo-img {
   height: 50px;
 }
+
+/* Card titles were h4 under an h2 section, which skipped a level. They are h3
+   now; these rules keep the h4 scale in the containers that had no size rule. */
+.er-body h3,
+.mp-cozy-callout h3,
+.mnemonic-box h3 { font-size: 1rem; }
+.beginner-notice h2 { font-size: 1rem; }

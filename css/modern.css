@@ -188,14 +188,14 @@ html[data-theme="dark"] .sd-jump-link { background: transparent !important; }
 html[data-theme="dark"] .mp-section h1, html[data-theme="dark"] .mp-section h2, html[data-theme="dark"] .mp-section h3, html[data-theme="dark"] .mp-section h4,
 html[data-theme="dark"] .course-section h2, html[data-theme="dark"] .course-section h3,
 html[data-theme="dark"] .lesson-sample h3, html[data-theme="dark"] .lesson-sample h4,
-html[data-theme="dark"] .beginner-notice h4, html[data-theme="dark"] .cta-section h2, html[data-theme="dark"] .cta-section h3 { color: #eef4ef !important; }
+html[data-theme="dark"] .beginner-notice h2, html[data-theme="dark"] .cta-section h2, html[data-theme="dark"] .cta-section h3 { color: #eef4ef !important; }
 html[data-theme="dark"] .mp-section p, html[data-theme="dark"] .mp-section li, html[data-theme="dark"] .mp-section td, html[data-theme="dark"] .mp-section th,
 html[data-theme="dark"] .course-section p, html[data-theme="dark"] .course-section li,
 html[data-theme="dark"] .cta-section p, html[data-theme="dark"] .mp-field-content { color: #cfdcd1 !important; }
 html[data-theme="dark"] .mp-field-tag, html[data-theme="dark"] .mp-badge { background: #2c3a2e !important; color: #cfe3d2 !important; }
 html[data-theme="dark"] .mp-section table, html[data-theme="dark"] .mp-section td, html[data-theme="dark"] .mp-section th { border-color: rgba(255,255,255,.14) !important; background: transparent !important; }
 html[data-theme="dark"] .beginner-notice p, html[data-theme="dark"] .beginner-notice li, html[data-theme="dark"] .mnemonic-box p, html[data-theme="dark"] .mnemonic-box li { color: #cfdcd1 !important; }
-html[data-theme="dark"] .mnemonic-box h3, html[data-theme="dark"] .mnemonic-box h4, html[data-theme="dark"] .beginner-notice h4,
+html[data-theme="dark"] .mnemonic-box h3, html[data-theme="dark"] .mnemonic-box h4, html[data-theme="dark"] .beginner-notice h2,
 html[data-theme="dark"] .mp-unit h2, html[data-theme="dark"] .mp-unit h3, html[data-theme="dark"] .mp-section > h2, html[data-theme="dark"] .mp-section-title,
 html[data-theme="dark"] .mp-section .mp-unit-title, html[data-theme="dark"] .mp-section [class*="title"] { color: #eef4ef !important; }
 html[data-theme="dark"] .mp-section strong, html[data-theme="dark"] .mp-section em { color: inherit; }

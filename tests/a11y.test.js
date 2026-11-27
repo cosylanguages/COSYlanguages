@@ -2,8 +2,9 @@
  * tests/a11y.test.js
  * Static accessibility guards for the published pages. These are the checks a
  * grep can make honestly: a name for every control, alt text for every image,
- * one id per document, and aria references that resolve. Anything requiring
- * layout or a browser (contrast, focus order, target size) is not here.
+ * one id per document, aria references that resolve, and a heading outline that
+ * never skips a level. Anything requiring layout or a browser (contrast, focus
+ * order, target size) is not here.
  */
 
 const test = require('node:test');
@@ -101,4 +102,19 @@ test('ids are unique per page and aria references resolve', () => {
         }
     }
     assert.deepEqual(problems, []);
+});
+
+test('heading levels never skip a level', () => {
+    const problems = [];
+    for (const file of PAGES) {
+        let previous = null;
+        for (const match of fs.readFileSync(file, 'utf8').matchAll(/<h([1-6])\b/gi)) {
+            const level = Number(match[1]);
+            if (previous !== null && level > previous + 1) {
+                problems.push(`${relative(file)}: h${previous} -> h${level}`);
+            }
+            previous = level;
+        }
+    }
+    assert.deepEqual(problems, [], 'use the next level down instead of skipping one');
 });

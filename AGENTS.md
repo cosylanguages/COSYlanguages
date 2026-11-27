@@ -365,11 +365,10 @@ footer injection only, which now lives in `js/core/i18n.js`.
 
 - Keep changes additive and minimal; do not delete existing functionality.
 - **Heading levels follow the outline.** A page has one `h1`; section headings are
-  `h2`; card titles are `h3`. Footer column titles are `h2` (they were `h3`, which
-  skipped a level on pages without an `h2`). Known debt: 31 card titles are still
-  `h4` inside `h2` sections (courses, language hubs, marathon pages), plus the
-  Atlas panel and the marathon intro. Changing those needs the matching CSS size
-  rules, so they wait for a visual pass.
+  `h2`; card titles are `h3`; footer column titles are `h2`. `tests/a11y.test.js`
+  fails on any skip, so when promoting a card title, move its CSS size rule with
+  it (`.mc-body h3`, `.card-breakdown-box h3`, `.mp-cozy-callout h3`, …) instead
+  of leaving an `h4` under an `h2`.
 - **Course pages (`courses/*.html`) are half-translated by design.** Their identity
   (`<title>`, `<h1>`), shared chrome (skip link, breadcrumbs, `Main navigation`,
   pagination `aria-label`, FAQ heading, WhatsApp CTA), every call-to-action button and

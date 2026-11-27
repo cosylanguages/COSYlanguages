@@ -268,7 +268,7 @@ html[data-theme="dark"] .decision-side-card.alternative {
   padding: 1.15rem;
 }
 
-.card-breakdown-box h4 {
+.card-breakdown-box h3 {
   font-size: 0.95rem;
   font-weight: 800;
   color: var(--ink);
