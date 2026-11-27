@@ -168,7 +168,7 @@ test('an unguarded prefers-color-scheme block cannot override an explicit light 
 });
 
 test('course and atlas heroes follow the theme instead of a light literal', () => {
-    const course = fs.readFileSync(path.join(ROOT, 'css', 'course-roadmaps.css'), 'utf8');
+    const course = fs.readFileSync(path.join(ROOT, 'courses', 'course-roadmaps.css'), 'utf8');
     assert.doesNotMatch(course, /\.course-hero-modern\s*\{[^}]*#ffffff/i);
     assert.match(course, /html\[data-theme="dark"\] \.decision-side-card\.necessary/);
     assert.match(course, /html\[data-theme="dark"\] \.decision-side-card\.alternative/);

@@ -76,6 +76,8 @@ const OWNED = {
     'comparative/atlas.css': [/\.comp-/, /\.family-badge/, /\.insight-card/, /\.observations-panel/, /\.transfer-tip/],
     'comparative/word-explorer.css': [/\.we-/],
     'languages/coming-soon.css': [/\.coming-soon-cta-/, /\.lang-card/],
+    'courses/course-roadmaps.css': [],
+    'print-studio/print.css': [],
 };
 
 const CORE = [
@@ -83,6 +85,7 @@ const CORE = [
     'nav-links', 'nav-cta', 'nav-login', 'mobile-nav-item',
     'hero', 'course-card', 'tool-card', 'calc-card',
     'sd-breadcrumbs', 'sd-jump-link', 'wa-fab', 'site-footer',
+    'cc-icon', 'cc-title', 'cc-desc',
 ];
 
 test('the public component API is defined in the kernel and actually used', () => {
@@ -124,5 +127,11 @@ test('each product stylesheet is loaded only by pages in its own folder', () => 
         for (const ref of refs) {
             assert.equal(path.posix.dirname(ref), dir, `${ref} loads ${file} from outside ${dir}/`);
         }
+    }
+});
+
+test('no product stylesheet lives in the kernel css folder', () => {
+    for (const file of ['css/course-roadmaps.css', 'css/print.css']) {
+        assert.ok(!fs.existsSync(path.join(ROOT, file)), `${file} belongs to its product, not the kernel`);
     }
 });

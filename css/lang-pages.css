@@ -941,3 +941,47 @@ footer {
   .country-tabs { gap: .4rem; }
   .explore-main-tabs { flex-direction: column; align-items: stretch; }
 }
+
+/* ── Language hub course cards ──────────────────────
+   Used by languages/<code>/index.html and curriculum.html only. Moved out of
+   the global component layer so every other page stops paying for them. */
+.cc-btn { display: block; width: 100%; padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800; text-align: center; transition: all .2s; cursor: pointer; border: none; background: var(--btn-accent-color, var(--sage)); color: var(--cosy-on-brand); }
+.cc-btn[data-accent="coral"] { --btn-accent-color: var(--coral); }
+.cc-btn[data-accent="plum"] { --btn-accent-color: var(--plum); }
+.cc-btn[data-accent="green"] { --btn-accent-color: var(--green); }
+.cc-btn[data-accent="navy"] { --btn-accent-color: var(--navy); }
+.cc-btn:hover { opacity: .9; transform: scale(1.02); }
+.cc-level { display: inline-block; background: rgba(0,0,0,.05); padding: 6px 14px; border-radius: 100px; font-size: .75rem; font-weight: 700; margin-bottom: 1.2rem; align-self: flex-start; }
+.course-card.dark .cc-level { background: rgba(255,255,255,.12); }
+.cc-level.orange { background: var(--coral-light); color: var(--cosy-ink-coral); }
+.cc-level.purple { background: #f3f0f7; color: #6a4c93; }
+/* Premium Courses Hub Clean CSS Classes */
+.course-card-general {
+  background: linear-gradient(135deg, var(--sage-deep), #1a2a1d);
+}
+.course-card-spoken {
+  background: linear-gradient(135deg, var(--coral), #8a3a1d);
+  color: white;
+}
+.course-card-exam {
+  background: linear-gradient(135deg, var(--plum), #4a3a2a);
+  color: white;
+}
+.course-card-travelling {
+  background: linear-gradient(135deg, var(--green), #2a4a33);
+  color: white;
+}
+.course-card-professional {
+  background: linear-gradient(135deg, var(--navy), #0a112b);
+  color: white;
+}
+.course-card-relocation {
+  background: linear-gradient(135deg, var(--cosy-color-accent), #8a2a2a);
+  color: white;
+}
+.course-card-upcoming {
+  opacity: 0.7;
+}
+.course-logo-img {
+  height: 50px;
+}

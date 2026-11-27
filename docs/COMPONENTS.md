@@ -33,6 +33,9 @@ page or script in this repo.
 | `.sd-breadcrumbs` | Breadcrumb row | `css/components.css` | comparative, language hubs |
 | `.sd-jump-link` | Sticky jump link | `css/components.css` | language hubs |
 | `.wa-fab` | Floating WhatsApp button | `css/components.css` | home, comparative, language hubs |
+| `.cc-icon` | Course-card icon | `css/components.css` | home, language hubs |
+| `.cc-title` | Course-card title | `css/components.css` | home, language hubs |
+| `.cc-desc` | Course-card description | `css/components.css` | home, language hubs |
 | `.site-footer` | Short footer for single-purpose documents | `css/components.css` | marathon and print pages |
 
 ## Cross-repo hooks
@@ -54,8 +57,14 @@ Each product owns its stylesheet and loads it itself, after the kernel.
 | Comparative Atlas | `comparative/atlas.css` | `.comp-*`, `.family-badge*`, `.insight-card*`, `.observations-panel*`, `.transfer-tip*` |
 | Comparative Atlas | `comparative/word-explorer.css` | `.we-*` |
 | Coming Soon | `languages/coming-soon.css` | `.coming-soon-cta-*`, `.lang-card*` |
-| Courses | `css/course-roadmaps.css` | course roadmap layout |
-| Print Studio | `css/print.css` | print artefacts |
+| Courses | `courses/course-roadmaps.css` | course roadmap layout |
+| Print Studio | `print-studio/print.css` | print artefacts |
+
+`css/lang-pages.css` is the kernel stylesheet for the five language hubs. It owns
+the language-hub course cards (`.course-card-*`, `.cc-btn`, `.cc-level`) because
+five products share them. The card content (`.cc-icon`, `.cc-title`, `.cc-desc`,
+`.cc-speak`, `.cc-footer`) lives in `css/components.css`, because the homepage
+uses the same markup.
 
 ## Reserved kernel classes
 
@@ -66,6 +75,11 @@ deliberately; never add a second copy.
 |---|---|
 | `.btn-tertiary` | Text-link button |
 | `.btn-card-white` | White CTA on a coloured card |
+| `.cc-btn` | Course-card action button |
+| `.cc-level` | Course-card level pill |
+| `.cc-speak` | Speaking meta line in a course card |
+| `.cc-footer` | Course-card footer meta |
+| `.cc-icon-img` | Image icon in a course card |
 | `.speak-badge` | Speaking highlight panel |
 | `.hstat` | Hero statistic tile |
 | `.badge-inline-sm` | Inline badge |
@@ -79,8 +93,8 @@ deliberately; never add a second copy.
    such as `.hero .btn-primary` are fine; changing the base is not.
 2. A product's stylesheet is referenced only by that product's pages.
 3. The kernel never names a product's classes. `tests/components.test.js` fails
-   if `.comp-*`, `.we-*`, `.lang-card*` or `.coming-soon-cta-*` reappears in
-   `css/components.css`.
+   if `.comp-*`, `.we-*`, `.lang-card*`, `.coming-soon-cta-*`,
+   `course-roadmaps.css` or `print.css` reappears in the kernel.
 4. New shared primitives go in `css/components.css` and get a row in the public
    table; new product styles go in the product's own file.
 5. Colour comes from tokens (`shared/css/tokens.css`), never from a literal in a

@@ -369,13 +369,6 @@ body.theme-dark #cosy-nav {
   color: #FFE09A;
 }
 
-.cc-btn { display: block; width: 100%; padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800; text-align: center; transition: all .2s; cursor: pointer; border: none; background: var(--btn-accent-color, var(--sage)); color: var(--cosy-on-brand); }
-.cc-btn[data-accent="coral"] { --btn-accent-color: var(--coral); }
-.cc-btn[data-accent="plum"] { --btn-accent-color: var(--plum); }
-.cc-btn[data-accent="green"] { --btn-accent-color: var(--green); }
-.cc-btn[data-accent="navy"] { --btn-accent-color: var(--navy); }
-.cc-btn:hover { opacity: .9; transform: scale(1.02); }
-
 .calc-book { background: var(--teal); color: var(--cosy-on-brand); font-weight: 700; padding: 16px 36px; border-radius: 100px; font-size: 1rem; transition: all .2s; }
 .calc-book:hover { transform: scale(1.03); opacity: .9; }
 
@@ -389,16 +382,19 @@ body.theme-dark #cosy-nav {
 .course-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,.08); }
 .course-card.dark { background: var(--ink); color: var(--cosy-on-brand); border: none; }
 
+/* Course-card content (homepage and language hubs) */
+.cc-icon { font-size: 2.2rem; margin-bottom: var(--space-lg); }
+.cc-title { font-size: 1.55rem; font-weight: 600; margin-bottom: var(--space-sm); line-height: 1.2; }
+.cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: var(--space-md); color: var(--cosy-ink-coral); }
+.cc-desc { font-size: .94rem; line-height: 1.6; margin-bottom: var(--space-xl); opacity: .8; flex-grow: 1; min-height: 80px; }
+.cc-footer { font-size: .78rem; font-weight: 600; opacity: .5; margin-bottom: var(--space-lg); display: flex; flex-direction: column; gap: 4px; color: inherit; }
+
 .tool-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; transition: all .2s; text-align: left; }
 .tool-card:hover { transform: translateY(-4px); border-color: var(--border-hover); }
 
 .calc-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem; box-shadow: 0 20px 60px rgba(28,25,23,.05); text-align: left; }
 
 /* ── Badges & Pills ────────────────────────────────── */
-.cc-level { display: inline-block; background: rgba(0,0,0,.05); padding: 6px 14px; border-radius: 100px; font-size: .75rem; font-weight: 700; margin-bottom: 1.2rem; align-self: flex-start; }
-.course-card.dark .cc-level { background: rgba(255,255,255,.12); }
-.cc-level.orange { background: var(--coral-light); color: var(--cosy-ink-coral); }
-.cc-level.purple { background: #f3f0f7; color: #6a4c93; }
 
 .hero-tag { display: inline-block; background: var(--teal-light); color: var(--cosy-ink-teal); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 1.1rem; border: 1px solid rgba(45,125,111,.2); }
 
@@ -1284,36 +1280,6 @@ body.page-privacy .wa-fab,
   border-color: rgba(255,255,255,0.3);
 }
 
-/* Premium Courses Hub Clean CSS Classes */
-.course-card-general {
-  background: linear-gradient(135deg, var(--sage-deep), #1a2a1d);
-}
-.course-card-spoken {
-  background: linear-gradient(135deg, var(--coral), #8a3a1d);
-  color: white;
-}
-.course-card-exam {
-  background: linear-gradient(135deg, var(--plum), #4a3a2a);
-  color: white;
-}
-.course-card-travelling {
-  background: linear-gradient(135deg, var(--green), #2a4a33);
-  color: white;
-}
-.course-card-professional {
-  background: linear-gradient(135deg, var(--navy), #0a112b);
-  color: white;
-}
-.course-card-relocation {
-  background: linear-gradient(135deg, var(--cosy-color-accent), #8a2a2a);
-  color: white;
-}
-.course-card-upcoming {
-  opacity: 0.7;
-}
-.course-logo-img {
-  height: 50px;
-}
 .badge-inline-sm {
   font-size: 0.6em;
   vertical-align: middle;

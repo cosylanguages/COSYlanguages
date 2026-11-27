@@ -263,6 +263,14 @@ page, after the kernel:
 | Comparative Atlas | `comparative/atlas.css` | `.comp-*`, `.family-badge*`, `.insight-card*`, `.observations-panel*`, `.transfer-tip*` |
 | Comparative Atlas | `comparative/word-explorer.css` | `.we-*` |
 | Coming Soon | `languages/coming-soon.css` | `.coming-soon-cta-*`, `.lang-card*` |
+| Courses | `courses/course-roadmaps.css` | course roadmap layout |
+| Print Studio | `print-studio/print.css` | print artefacts |
+
+`css/lang-pages.css` is the kernel stylesheet for the five language hubs and owns
+their course cards (`.course-card-*`, `.cc-btn`, `.cc-level`). The card content
+(`.cc-icon`, `.cc-title`, `.cc-desc`, `.cc-speak`, `.cc-footer`) lives in
+`css/components.css` because the homepage uses the same markup; it used to sit in
+`home.css`, which language pages never load, so those cards were partly unstyled.
 
 `docs/COMPONENTS.md` is the inventory: public API, cross-repo nav hooks, reserved
 classes. `tests/components.test.js` fails when a documented class is not defined
