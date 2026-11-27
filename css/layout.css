@@ -1,11 +1,4 @@
-/* ── Organic Flow & Journey Styling ──────────────────── */
-.journey-bridge-container {
-    background: linear-gradient(180deg, rgba(250, 247, 242, 0.7) 0%, rgba(244, 237, 226, 0.8) 100%);
-    border: 1px solid rgba(65, 107, 73, 0.12);
-    border-radius: var(--r-xl, 24px);
-    padding: 2rem;
-    margin-bottom: 2.5rem;
-}
+
 
 /* ── Page Wrapper ───────────────────────────────────── */
 .page {
@@ -48,27 +41,6 @@
     align-items: center;
     position: relative;
     z-index: 5;
-}
-
-.hero-left {
-    position: relative;
-}
-
-.hero-right {
-    position: relative;
-}
-
-.hero-teacher {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    background: rgba(255,255,255,.1);
-    border: 1px solid rgba(255,255,255,.2);
-    padding: 1rem 1.2rem;
-    border-radius: var(--r-md);
-    font-size: .88rem;
-    color: rgba(255,255,255,.9);
-    margin-bottom: 2.5rem;
 }
 
 .hero-ctas {
@@ -125,12 +97,6 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-}
-
-.tools-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
 }
 
 /* ── Footer ─────────────────────────────────────────── */
@@ -220,7 +186,6 @@ footer {
     .hero { grid-template-columns: 1fr; padding-top: 4rem; text-align: center; }
     .hero-inner { grid-template-columns: 1fr; gap: 2rem; }
     .lang-grid { grid-template-columns: repeat(3, 1fr); }
-    .tools-grid { grid-template-columns: 1fr; }
     .footer-inner { grid-template-columns: 1fr 1fr; gap: 4rem; }
 }
 @media (max-width: 660px) {

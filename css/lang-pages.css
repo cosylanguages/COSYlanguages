@@ -979,12 +979,6 @@ footer {
   background: linear-gradient(135deg, var(--cosy-color-accent), #8a2a2a);
   color: white;
 }
-.course-card-upcoming {
-  opacity: 0.7;
-}
-.course-logo-img {
-  height: 50px;
-}
 
 /* Card titles were h4 under an h2 section, which skipped a level. They are h3
    now; these rules keep the h4 scale in the containers that had no size rule. */

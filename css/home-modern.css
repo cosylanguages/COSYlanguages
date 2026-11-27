@@ -205,18 +205,6 @@ html[data-theme="dark"] .page-home .hero-inner .daily-strip-container {
   transform: none;
 }
 .page-home .step:hover { transform: none; box-shadow: none; }
-.page-home .step-num {
-  display: block; text-align: left;
-  width: auto; height: auto;
-  background: none; border-radius: 0;
-  color: var(--cosy-ink-sage);
-  font-family: var(--font-serif);
-  font-size: 2.6rem;
-  font-weight: 500;
-  line-height: 1;
-  margin: 0 0 0.6rem;
-  box-shadow: none;
-}
 .page-home .step h3 { font-size: 1.3rem; margin: 0 0 0.4rem; }
 .page-home .step p { color: var(--ink-soft); margin: 0; max-width: 34ch; }
 

@@ -135,11 +135,15 @@ node --test tests/word-explorer.test.js
 `tests/architecture.test.js` is the guard for the shell contract (see "Shell
 contract" below).
 `npm run audit:css` (`scripts/audit-css-usage.js`) reports CSS classes that no
-page, script or data file mentions — 140 today, mostly in `print-studio/print.css`
-and legacy homepage sections. It is a report, not a gate: classes built at runtime
-(`'we-g' + index`) or used by a sibling repo through a shared stylesheet look dead,
-so check each hit before deleting. `css/portal.css` went this way once
-`placement-quiz.html` turned out to link it without using a single rule. `tests/a11y.test.js` is the static accessibility guard: every
+page, script or data file mentions — 34 today, and all 34 are deliberate: 12 are
+selectors in the print stylesheet's hide list (`#cosy-nav`, `.mobile-nav`, the
+`.wa-fab` and the manual/audio widgets that must vanish on paper), 13 live in
+`css/audience.css` (`.audience-only-*` / `.audience-hide-*` are the contract
+content authors use to target an audience), 8 are `base.css` utilities and legacy
+theme classes, and `.btn-tertiary` is reserved by `docs/COMPONENTS.md`. Treat the
+report as a question, not a verdict: classes built at runtime (`'we-g' + index`) or
+used by a sibling repo through a shared stylesheet look dead. `css/portal.css` went
+this way once `placement-quiz.html` turned out to link it without using a rule. `tests/a11y.test.js` is the static accessibility guard: every
 page declares `<html lang>`, every image carries `alt`, every button and link has
 an accessible name, every form field is labelled, ids are unique per page and
 `aria-labelledby`/`describedby`/`controls`/`owns` references resolve. It cannot
