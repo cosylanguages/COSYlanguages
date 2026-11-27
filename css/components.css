@@ -686,45 +686,122 @@ body.page-privacy .wa-fab,
     display: none !important;
 }
 
-/* ── Back to Top Floating Button ── */
+/* ── Back to Top: a scroll-progress button in the WhatsApp column ── */
 #back-to-top {
   position: fixed;
+  right: calc(2rem + 6px);
   bottom: 2rem;
-  right: 14rem;
   z-index: 2005;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: var(--sage, #416b49);
-  color: var(--cosy-on-brand);
+  width: 48px;
+  height: 48px;
+  padding: 0;
   border: none;
-  font-size: 1.2rem;
-  font-weight: bold;
+  border-radius: 50%;
+  background: var(--cosy-fill-signal);
+  color: var(--cosy-on-signal);
   cursor: pointer;
+  display: grid;
+  place-items: center;
   box-shadow: var(--shadow-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(10px);
-  transition: opacity 0.25s ease, transform 0.25s ease, background-color 0.2s ease, box-shadow 0.25s ease, bottom 0.25s ease, right 0.25s ease;
+  transform: translateY(10px) scale(0.96);
+  transition: opacity 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#back-to-top.stacked {
+  bottom: 6.5rem;
 }
 
 #back-to-top.visible {
   opacity: 1;
   pointer-events: auto;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
 }
 
 #back-to-top:hover {
-  background: var(--sage-dark, #375742);
   box-shadow: var(--shadow);
   transform: translateY(-2px);
 }
 
 #back-to-top:active {
-  transform: translateY(0);
+  transform: translateY(0) scale(0.97);
+}
+
+#back-to-top:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.back-to-top-ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.back-to-top-ring-track,
+.back-to-top-ring-value {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+.back-to-top-ring-track {
+  opacity: 0.25;
+}
+
+.back-to-top-ring-value {
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.15s linear;
+}
+
+.back-to-top-arrow {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.back-to-top-label {
+  position: absolute;
+  right: calc(100% + 0.55rem);
+  top: 50%;
+  padding: 0.32rem 0.6rem;
+  border-radius: 6px;
+  background: var(--cosy-color-ink);
+  color: var(--cosy-color-cream);
+  font-size: 0.76rem;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-4px, -50%);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+html[data-theme="dark"] .back-to-top-label,
+body.theme-dark .back-to-top-label {
+  background: var(--cosy-color-cream);
+  color: var(--cosy-color-ink);
+}
+
+#back-to-top:hover .back-to-top-label,
+#back-to-top:focus-visible .back-to-top-label {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #back-to-top,
+  #back-to-top .back-to-top-label,
+  .back-to-top-ring-value {
+    transition: none;
+  }
 }
 
 /* ── Specialized Cards ─────────────────────────────── */
@@ -1058,11 +1135,10 @@ body.page-privacy .wa-fab,
     font-size: 1.4rem;
     z-index: 1045;
   }
-  #back-to-top {
+  #back-to-top,
+  #back-to-top.stacked {
     bottom: calc(184px + var(--safe-bottom, 0px));
     right: 1rem;
-    width: 44px;
-    height: 44px;
     z-index: 1040;
   }
 

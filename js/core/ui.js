@@ -190,15 +190,56 @@
 
     const setupBackToTop = () => {
         if (document.getElementById('back-to-top')) return;
+        // r=22 in the 48x48 viewBox; the ring doubles as a page-scroll indicator.
+        const RING_LENGTH = 2 * Math.PI * 22;
+
         const btn = document.createElement('button');
-        btn.id = 'back-to-top'; btn.innerHTML = '↑'; btn.setAttribute('title', 'Back to Top');
-        btn.setAttribute('aria-label', 'Back to Top');
+        btn.type = 'button';
+        btn.id = 'back-to-top';
+        btn.innerHTML = `
+            <svg class="back-to-top-ring" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                <circle class="back-to-top-ring-track" cx="24" cy="24" r="22"></circle>
+                <circle class="back-to-top-ring-value" cx="24" cy="24" r="22" style="stroke-dasharray:${RING_LENGTH}"></circle>
+            </svg>
+            <svg class="back-to-top-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 18.5V6.5M6.5 12L12 6.5 17.5 12"></path>
+            </svg>
+            <span class="back-to-top-label" aria-hidden="true"></span>
+        `;
         document.body.appendChild(btn);
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 500) btn.classList.add('visible');
-            else btn.classList.remove('visible');
+
+        const ring = btn.querySelector('.back-to-top-ring-value');
+        const label = btn.querySelector('.back-to-top-label');
+
+        const applyLabel = () => {
+            const text = (typeof window.t === 'function' ? window.t('back_to_top') : '') || 'Back to top';
+            btn.setAttribute('aria-label', text);
+            btn.setAttribute('title', text);
+            label.textContent = text;
+        };
+        applyLabel();
+        document.addEventListener('cosyI18nReady', applyLabel);
+        document.addEventListener('cosyLanguageChanged', applyLabel);
+
+        // Keep the button in the WhatsApp column, stacked above it.
+        const fab = document.querySelector('.wa-fab');
+        if (fab && window.getComputedStyle(fab).display !== 'none') btn.classList.add('stacked');
+
+        const update = () => {
+            const scrollTop = window.scrollY || document.documentElement.scrollTop || 0;
+            const scrollable = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) - window.innerHeight;
+            const progress = scrollable > 0 ? Math.min(1, Math.max(0, scrollTop / scrollable)) : 0;
+            ring.style.strokeDashoffset = String(RING_LENGTH * (1 - progress));
+            btn.classList.toggle('visible', scrollTop > 500);
+        };
+        window.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update, { passive: true });
+        update();
+
+        btn.addEventListener('click', () => {
+            const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
         });
-        btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     };
 
 

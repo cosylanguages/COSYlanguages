@@ -713,6 +713,18 @@ Grammar points also have an offline edition: `manuals/<lang>/print/full.html`
   `cosyLanguageChanged`. Re-rendering the whole nav instead would drop its context.
 - One language list: `window.COSY_LANGUAGES` (`js/data/languages.js`). `engine.js`
   reads it through `getAvailableLanguages()`; do not re-inline the five languages.
+- `#back-to-top` is built by `setupBackToTop()` in `js/core/ui.js`: a 48px
+  signal-tier circle with an SVG chevron and a progress ring that fills with the
+  page scroll, a label tooltip, and `.stacked` when `.wa-fab` is present so both
+  share the right-hand column. It carries no text glyph — `↑` sat on a different
+  weight and baseline on every platform. The label is `back_to_top` in the five UI
+  dictionaries and is refreshed on `cosyI18nReady` / `cosyLanguageChanged`;
+  `prefers-reduced-motion` makes the jump instant.
+- `setupSideSectionDots()` still builds the `.cosy-side-dots` rail (one dot per
+  `<section id>`, with tooltips and an active marker), but `css/modern.css` hides
+  it. It is the ready-made section navigator if the site ever wants one; enabling
+  it means removing that `display: none !important` and checking it against the
+  floating buttons on mobile.
 
 ## Naming rule: "COSYlanguages" or "CL"
 
