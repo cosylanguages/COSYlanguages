@@ -50,8 +50,14 @@ const relative = file => path.relative(ROOT, file).split(path.sep).join('/');
 const isPage = name =>
     !NOT_A_PAGE.some(pattern => pattern.test(name)) && !REDIRECT_STUB.some(pattern => pattern.test(name));
 
+// `#fff` and `#FFFFFF` are the same colour, so the palette compares values,
+// not spellings. Without this, every short hex counted as debt.
+const expandHex = hex => {
+    const value = hex.toLowerCase();
+    return value.length === 4 ? '#' + value.slice(1).split('').map(c => c + c).join('') : value;
+};
 const PALETTE = new Set(
-    (fs.readFileSync(TOKENS, 'utf8').match(/#[0-9a-fA-F]{3,8}\b/g) || []).map(hex => hex.toLowerCase())
+    (fs.readFileSync(TOKENS, 'utf8').match(/#[0-9a-fA-F]{3,8}\b/g) || []).map(expandHex)
 );
 
 const HEX = /#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b/g;
@@ -154,14 +160,14 @@ test('off-palette colour debt in markup may only shrink', () => {
     // value, spelled out for engines without custom properties. Only literals
     // that stand on their own are debt, so fallbacks are stripped first.
     // Add a token instead of raising this.
-    const BUDGET = 428;
+    const BUDGET = 399;
     const VAR = /var\([^()]*\)/g;
     const offenders = [];
     for (const file of FILES) {
         if (!/\.(?:html|css)$/.test(file) || file === TOKENS) continue;
         const source = fs.readFileSync(file, 'utf8').replace(VAR, '');
         for (const hex of source.matchAll(HEX)) {
-            if (!PALETTE.has(hex[0].toLowerCase())) offenders.push(relative(file));
+            if (!PALETTE.has(expandHex(hex[0]))) offenders.push(relative(file));
         }
     }
     assert.ok(

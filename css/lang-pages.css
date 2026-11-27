@@ -26,12 +26,12 @@
   --sec-title:   var(--cosy-color-sage-deep);
 
   /* Section Tones for Alternating Section Pattern */
-  --bg-tone-1:   #faf7f2;
-  --bg-tone-2:   #f0f5f1;
-  --bg-tone-3:   #f4ede2;
-  --bg-tone-4:   #fff8e7;
+  --bg-tone-1:   var(--cosy-color-cream);
+  --bg-tone-2:   var(--cosy-color-sage-mist);
+  --bg-tone-3:   var(--cosy-color-cream-dark);
+  --bg-tone-4:   var(--cosy-color-honey-pale);
   --bg-tone-5:   #fdfcf8;
-  --bg-tone-6:   #faf7f2;
+  --bg-tone-6:   var(--cosy-color-cream);
 }
 
 html[data-theme="dark"], body.theme-dark {

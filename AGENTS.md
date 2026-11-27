@@ -172,8 +172,8 @@ change there recolours every sibling repo at once. It has three tiers:
   Surfaces, body text, cards, nav. This is the calm ground the content sits on.
 - **Signal** (teal): `--cosy-signal` `#0ABBB5`, `--cosy-signal-secondary` `#0CA2B0`,
   `--cosy-signal-deep` `#087A80`, `--cosy-signal-soft` `#DFFAF8`, gradient
-  `--cosy-signal-gradient`. Used *only* where something is alive: active nav,
-  progress, selection (`::selection`), focus ring, badges, checkmarks.
+  `--cosy-signal-gradient`. Used *only* where something is alive: active nav, nav
+  hover, progress, selection (`::selection`), focus ring, badges, checkmarks.
   `#0ABBB5` is **2.39:1 on white**, so it is a fill and graphic colour, never body
   text or a link. For teal text use `--cosy-signal-ink`, which is
   `--cosy-signal-deep` in light mode and `#7FE7E1` in dark mode.
@@ -220,11 +220,16 @@ or `languages/<code>/`; everything else (`css/`, `js/`, `shared/`, `images/`,
 4. Inline `style=` attributes carry no off-palette colour. The last exceptions are
    seven hexes in the Comparative Atlas HUD, which draws on a fixed dark canvas;
    convert those with dedicated HUD tokens before removing the allowlist.
-5. Off-palette colour literals in `.html`/`.css` are budgeted at 428 and may only
+5. Off-palette colour literals in `.html`/`.css` are budgeted at 399 and may only
    shrink. Add a token instead of raising the number. A literal inside
    `var(--token, #fallback)` is not counted: it is the token's own value spelled out
-   for engines without custom properties. Only literals that stand on their own are
-   debt, which is why the count is 428 and not the ~790 a raw grep finds.
+   for engines without custom properties, and `#fff` counts as `#FFFFFF` because the
+   palette compares values, not spellings. Only literals that stand on their own are
+   debt, which is why the count is 399 and not the ~790 a raw grep finds. The
+   remaining debt is deliberately local: print artefacts (pure greys that must stay
+   grey on paper), the login portal, per-language accents in `lang-accents.css` and
+   the daily strip's dark theme. Tokenise those with a design decision, not
+   mechanically.
 
 Consequence worth knowing: a page that hardcodes a shade fails the suite, and a
 page that forgets `engine.js` fails it too.

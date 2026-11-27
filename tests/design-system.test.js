@@ -109,3 +109,22 @@ test('no page hardcodes the brand hexes outside the token file', () => {
     })(ROOT);
     assert.deepEqual(offenders, [], `use var(--cosy-signal*) instead of the raw hex in: ${offenders.join(', ')}`);
 });
+
+test('navigation hover states use the signal tier, not sage', () => {
+    const components = fs.readFileSync(path.join(ROOT, 'css', 'components.css'), 'utf8');
+    const nav = fs.readFileSync(path.join(ROOT, 'css', 'shared-nav.css'), 'utf8');
+
+    const rules = [
+        [components, '.nav-links a:hover'],
+        [components, '#cosy-mobile-menu a:hover'],
+        [nav, '.cosy-nav-more-dropdown a:hover'],
+    ];
+    for (const [source, selector] of rules) {
+        const escaped = selector.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const rule = new RegExp(`${escaped}\\s*\\{([^}]*)\\}`).exec(source);
+        assert.ok(rule, `${selector} not found`);
+        assert.match(rule[1], /--cosy-signal-soft/, `${selector} should use the signal fill`);
+        assert.match(rule[1], /--cosy-signal-ink/, `${selector} should use the signal ink`);
+        assert.doesNotMatch(rule[1], /--sage/, `${selector} should not fall back to sage`);
+    }
+});

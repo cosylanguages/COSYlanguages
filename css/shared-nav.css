@@ -182,8 +182,8 @@ body.theme-dark .cosy-navbar {
 }
 
 .cosy-nav-more-dropdown a:hover {
-  background: var(--sage-pale, #e8f0e9);
-  color: var(--sage-dark, #375742);
+  background: var(--cosy-signal-soft, #DFFAF8);
+  color: var(--cosy-signal-ink, #087A80);
 }
 
 .cosy-nav-link:hover {

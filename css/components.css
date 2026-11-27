@@ -110,7 +110,7 @@ body.theme-dark #cosy-nav {
   white-space: nowrap;
   font-weight: 600;
 }
-.nav-links a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+.nav-links a:hover { background: var(--cosy-signal-soft); color: var(--cosy-signal-ink); }
 .nav-links a.active { background: var(--cosy-signal-soft); color: var(--cosy-signal-ink); font-weight: 800; box-shadow: inset 0 -2px 0 var(--cosy-signal); }
 .nav-right {
   display: flex; align-items: center; gap: 8px;
@@ -203,7 +203,7 @@ body.theme-dark #cosy-nav {
   font-family: inherit; transition: all .2s;
   font-weight: 600;
 }
-#cosy-mobile-menu a:hover { background: var(--sage-pale); color: var(--sage-dark); }
+#cosy-mobile-menu a:hover { background: var(--cosy-signal-soft); color: var(--cosy-signal-ink); }
 #cosy-mobile-menu .mm-divider {
   height: 1px; background: var(--border); margin: .5rem 0;
 }

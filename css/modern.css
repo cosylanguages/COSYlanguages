@@ -152,11 +152,11 @@ html[data-theme="dark"] .sd-jump-link:hover,html[data-theme="dark"] .sd-jump-lin
 /* Dark mode: tokens that pages reference with light fallbacks (so cards no longer stay cream under light text) */
 html[data-theme="dark"], body.theme-dark {
   --paper-bg: #1a241d;
-  --surface: #222B22;
-  --surface-color: #222B22;
-  --card-bg: #222B22;
+  --surface: var(--cosy-color-surface);
+  --surface-color: var(--cosy-color-surface);
+  --card-bg: var(--cosy-color-surface);
 }
-html[data-theme="dark"] .hero-jump-menu a { background: #222B22; color: #cfe3d2; border-color: rgba(255,255,255,.14); }
+html[data-theme="dark"] .hero-jump-menu a { background: var(--cosy-color-surface); color: #cfe3d2; border-color: rgba(255,255,255,.14); }
 html[data-theme="dark"] .hero-jump-menu a:hover { background: #2c3a2e; color: var(--cosy-on-brand); }
 
 /* Dark mode: page-level "paper" boxes that were hard-coded white/pastel while their text turns light */
@@ -180,8 +180,8 @@ html[data-theme="dark"] .alphabet-card,
 html[data-theme="dark"] .mp-unit-tabs-nav,
 html[data-theme="dark"] .level-nav-bar,
 html[data-theme="dark"] .cta-section {
-  background: #222B22 !important;
-  color: #e8f0e9;
+  background: var(--cosy-color-surface) !important;
+  color: var(--cosy-color-ink);
   border-color: rgba(255,255,255,.12) !important;
 }
 html[data-theme="dark"] .sd-jump-link { background: transparent !important; }
