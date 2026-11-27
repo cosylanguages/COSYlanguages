@@ -135,3 +135,14 @@ test('no product stylesheet lives in the kernel css folder', () => {
         assert.ok(!fs.existsSync(path.join(ROOT, file)), `${file} belongs to its product, not the kernel`);
     }
 });
+
+test('homepage-only design loads only on the homepage', () => {
+    const refs = PAGES.filter(page => fs.readFileSync(page, 'utf8').includes('home-modern.css')).map(relative);
+    assert.deepEqual(refs, ['index.html'], `home-modern.css is loaded by ${refs.join(', ')}`);
+
+    const modern = fs.readFileSync(path.join(ROOT, 'css', 'modern.css'), 'utf8');
+    assert.ok(!/^\s*\.page-home/m.test(modern), 'homepage rules belong in css/home-modern.css');
+
+    const home = fs.readFileSync(path.join(ROOT, 'css', 'home-modern.css'), 'utf8');
+    assert.ok(/^\.page-home\s*\{/m.test(home), 'home-modern.css should own the homepage scope');
+});

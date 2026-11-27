@@ -272,6 +272,13 @@ their course cards (`.course-card-*`, `.cc-btn`, `.cc-level`). The card content
 `css/components.css` because the homepage uses the same markup; it used to sit in
 `home.css`, which language pages never load, so those cards were partly unstyled.
 
+`css/modern.css` is the global design layer: button and footer polish, the
+language-page clean-up and the dark-mode fixes. The homepage's own design (hero,
+sections, course rows, reviews, final call) lives in `css/home-modern.css`, which
+only `index.html` loads, and it loads before `modern.css` so the later global
+rules still win. It used to be the first 500 lines of `modern.css`, downloaded by
+every page for no reason.
+
 `docs/COMPONENTS.md` is the inventory: public API, cross-repo nav hooks, reserved
 classes. `tests/components.test.js` fails when a documented class is not defined
 in the kernel, when a public class is unused, or when a product selector
